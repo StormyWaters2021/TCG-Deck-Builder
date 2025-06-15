@@ -1,0 +1,14 @@
+{
+  "gameName": "sampleGame",
+  "maxCopiesPerCard": 4,
+  "addNValue": 4,
+  "groupOptions": ["type", "rarity"],
+  "deckValidation": {
+    "minCards": 40,
+    "maxCards": 60,
+    "propertyLimits": [
+      { "property": "rarity", "value": "Legendary", "max": 1 }
+    ],
+    "banList": ["Overpowered Dragon"]
+  }
+}

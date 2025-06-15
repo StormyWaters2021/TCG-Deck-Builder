@@ -1,0 +1,25 @@
+[
+  {
+    "id": "Card001",
+    "name": "Goku #1",
+    "type": "MP",
+    "rarity": "Common",
+    "image": "FireWizard.jpg"
+  },
+  {
+    "id": "Card002",
+    "name": "Vegeta #2",
+    "type": "MP",
+    "rarity": "Rare",
+    "image": "MightyKnight.jpg"
+  },
+  {
+    "id": "Card003",
+    "name": "Blue Flying Kick",
+    "type": "Physical Combat",
+	"combat": "Attack",
+	"Damage Type": "Stages",
+    "rarity": "Legendary",
+    "image": "OverpoweredDragon.jpg"
+  }
+]
