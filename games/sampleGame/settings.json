@@ -9,6 +9,6 @@
     "propertyLimits": [
       { "property": "rarity", "value": "Legendary", "max": 1 }
     ],
-    "banList": ["BannedCardID"]
+    "banList": ["Overpowered Dragon"]
   }
 }
