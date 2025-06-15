@@ -21,5 +21,14 @@
 	"Damage Type": "Stages",
     "rarity": "Legendary",
     "image": "OverpoweredDragon.jpg"
+  },
+    {
+    "id": "Card003",
+    "name": "Black Jumping Kick",
+    "type": "Physical Combat",
+	"combat": "Attack",
+	"Damage Type": "Stages",
+    "rarity": "Legendary",
+    "image": "OverpoweredDragon.jpg"
   }
 ]
