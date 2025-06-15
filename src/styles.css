@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+}
+.deck-builder-layout {
+  display: flex;
+  min-height: 80vh;
+}
+.card-list-panel, .deck-panel, .deck-controls {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin: 0.5rem;
+  background: #fafafa;
+}
+.card-list-panel {
+  width: 25%;
+}
+.deck-panel {
+  width: 35%;
+}
+.deck-controls {
+  width: 20%;
+}
+.selected {
+  background: #e0e7ff;
+}
+.deck-errors {
+  margin-top: 1rem;
+  color: red;
+}
