@@ -1,14 +1,14 @@
 {
   "gameName": "DBZ (FanZ)",
-  "addNValue": 5,
-  "requiredCardProperties": ["id", "name", "image", "type", "rarity"],
-  "groupOptions": ["type", "rarity", "set"],
-  "sortOptions": ["name", "type", "rarity"],
-  "filterOptions": ["type", "rarity", "set"],
+  "maxCopiesPerCard": 4,
+  "addNValue": 4,
+  "groupOptions": ["type", "rarity"],
   "deckValidation": {
     "minCards": 40,
     "maxCards": 60,
-    "propertyLimits": [],
-    "banList": []
+    "propertyLimits": [
+      { "property": "rarity", "value": "Legendary", "max": 1 }
+    ],
+    "banList": ["Overpowered Dragon"]
   }
 }
