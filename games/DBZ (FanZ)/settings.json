@@ -3,6 +3,7 @@
   "maxCopiesPerCard": 4,
   "addNValue": 4,
   "groupOptions": ["type", "rarity"],
+  "filterOptions": ["type", "rarity"],
   "deckValidation": {
     "minCards": 40,
     "maxCards": 60,
