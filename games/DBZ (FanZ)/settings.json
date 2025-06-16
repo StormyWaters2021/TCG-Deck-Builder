@@ -3,7 +3,7 @@
   "maxCopiesPerCard": 4,
   "addNValue": 4,
   "groupOptions": ["Type", "Style"],
-  "filterOptions": ["Type", "Style"],
+  "filterOptions": ["Type", "Style", "Set"],
   "deckValidation": {
     "minCards": 40,
     "maxCards": 60,
