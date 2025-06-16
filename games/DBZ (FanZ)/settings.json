@@ -7,6 +7,7 @@
   "deckValidation": {
     "minCards": 60,
     "maxCards": 60,
+    "usePerCardLimit": true,
     "propertyLimits": [
       { "property": "Level", "value": "1", "min": 1 },
 	  { "property": "Level", "value": "1", "max": 1 },
