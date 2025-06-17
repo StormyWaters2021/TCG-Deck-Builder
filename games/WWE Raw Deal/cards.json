@@ -7085,7 +7085,7 @@
     "Traits": "",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "You may play or be affected by cards that refer specifically to Undertaker/Deadman Inc. or Kane. You may play the card titled Brothers µtil the End. You may forfeit drawing a card at the start of your turn, and place the top 2 cards of your Arsenal into your Ringside pile. Then choose any card in your Ringside pile and place it in your hand. You may not play any title belt except the Tag Team Title Belts."
+    "Card Text": "You may play or be affected by cards that refer specifically to Undertaker/Deadman Inc. or Kane. You may play the card titled Brothers \u00b5til the End. You may forfeit drawing a card at the start of your turn, and place the top 2 cards of your Arsenal into your Ringside pile. Then choose any card in your Ringside pile and place it in your hand. You may not play any title belt except the Tag Team Title Belts."
   },
   {
     "id": "71ec6ccd-7c44-53c3-7f59-810da63e208b",
@@ -9463,7 +9463,7 @@
   },
   {
     "id": "0b3928eb-732c-761e-34fa-62218c63456c",
-    "name": "Último Rechazo!",
+    "name": "\u00daltimo Rechazo!",
     "size": "Wide",
     "Format": "Classic",
     "Fortitude": "0",
@@ -17007,7 +17007,7 @@
     "Traits": "Raw",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. ≥ Hand Size: +7 Superstar Value: +5 Superstar Ability: +Once during each of your turns you may draw 1 card and then put 1 card from your hand at the bottom of your Arsenal. ≥ Hand Size: +10 Superstar Value: +3 Superstar Ability: +None - isn't his Starting Hand Size enough?!?!? ≥ Hand Size: +4 Superstar Value: +1 Superstar Ability: +Blank non-Stun-Value card-drawing effects on cards played from your opponent's hand."
+    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. \u2265 Hand Size: +7 Superstar Value: +5 Superstar Ability: +Once during each of your turns you may draw 1 card and then put 1 card from your hand at the bottom of your Arsenal. \u2265 Hand Size: +10 Superstar Value: +3 Superstar Ability: +None - isn't his Starting Hand Size enough?!?!? \u2265 Hand Size: +4 Superstar Value: +1 Superstar Ability: +Blank non-Stun-Value card-drawing effects on cards played from your opponent's hand."
   },
   {
     "id": "272a1df4-721d-854c-60ee-a96302c329b8",
@@ -17022,7 +17022,7 @@
     "Traits": "Raw",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. ≥ Hand Size: +7 Superstar Value: +3 Superstar Ability: +Once during each of your turns you may discard 1 card and then your opponent discards 1 card. ≥ Hand Size: +7 Superstar Value: +2 Superstar Ability: +Before your Draw Segment, your opponent overturns 1 card. ≥ Hand Size: +5 Superstar Value: +1 Superstar Ability: +When you successfully play a maneuver, you may draw 1 card."
+    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. \u2265 Hand Size: +7 Superstar Value: +3 Superstar Ability: +Once during each of your turns you may discard 1 card and then your opponent discards 1 card. \u2265 Hand Size: +7 Superstar Value: +2 Superstar Ability: +Before your Draw Segment, your opponent overturns 1 card. \u2265 Hand Size: +5 Superstar Value: +1 Superstar Ability: +When you successfully play a maneuver, you may draw 1 card."
   },
   {
     "id": "759d61d2-6e76-3933-1b89-294f8d4948a5",
@@ -17160,7 +17160,7 @@
     "Traits": "Smackdown",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. ≥ Hand Size: +5 Superstar Value: +5 Superstar Ability: +Before your Draw Segment, put 1 card from your Ringside pile at the bottom of your Arsenal. ≥ Hand Size: +6 Superstar Value: +4 Superstar Ability: +Once during each of your turns you may discard 2 cards and then put 1 card from your Ringside pile into your hand. ≥ Hand Size: +7 Superstar Value: +1 Superstar Ability: +When you successfully play a High Risk maneuver, shuffle up to 6 cards from your Ringside pile into your Arsenal."
+    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. \u2265 Hand Size: +5 Superstar Value: +5 Superstar Ability: +Before your Draw Segment, put 1 card from your Ringside pile at the bottom of your Arsenal. \u2265 Hand Size: +6 Superstar Value: +4 Superstar Ability: +Once during each of your turns you may discard 2 cards and then put 1 card from your Ringside pile into your hand. \u2265 Hand Size: +7 Superstar Value: +1 Superstar Ability: +When you successfully play a High Risk maneuver, shuffle up to 6 cards from your Ringside pile into your Arsenal."
   },
   {
     "id": "6f03edc4-2d2e-7a4d-5e03-6aeacdc02963",
@@ -17175,7 +17175,7 @@
     "Traits": "Smackdown",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. ≥ Hand Size: +6 Superstar Value: +4 Superstar Ability: +Once during each of your turns you may discard 2 cards and then search your Arsenal for 1 Maneuver card, reveal it to your opponent, put it into your hand, and shuffle your Arsenal. ≥ Hand Size: +6 Superstar Value: +1 Superstar Ability: +The first maneuver you play each turn is +1D, the second +2D, the third +3D, and so forth. ≥ Hand Size: +7 Superstar Value: +1 Superstar Ability: +The first High Risk maneuver you play each turn cannot be reversed."
+    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. \u2265 Hand Size: +6 Superstar Value: +4 Superstar Ability: +Once during each of your turns you may discard 2 cards and then search your Arsenal for 1 Maneuver card, reveal it to your opponent, put it into your hand, and shuffle your Arsenal. \u2265 Hand Size: +6 Superstar Value: +1 Superstar Ability: +The first maneuver you play each turn is +1D, the second +2D, the third +3D, and so forth. \u2265 Hand Size: +7 Superstar Value: +1 Superstar Ability: +The first High Risk maneuver you play each turn cannot be reversed."
   },
   {
     "id": "4b8c89a7-641f-2dd1-71fd-8dc12cec49e5",
@@ -18819,7 +18819,7 @@
     "Traits": "Raw",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be packed by Superstars that can pack Enforcers. ≥ Hand Size: +2 Superstar Value: +2 Superstar Ability: +Before your Draw Segment, your opponent discards # cards (# = number of their Hand cards greater than the total of 2 + number of your Hand cards, max 2). ≥ Hand Size: +8 Superstar Value: +4 Superstar Ability: +Once during each of your turns, you may discard 2 cards and your next maneuver played this turn is -8F. You cannot play 3+ maneuvers per turn."
+    "Card Text": "Can only be packed by Superstars that can pack Enforcers. \u2265 Hand Size: +2 Superstar Value: +2 Superstar Ability: +Before your Draw Segment, your opponent discards # cards (# = number of their Hand cards greater than the total of 2 + number of your Hand cards, max 2). \u2265 Hand Size: +8 Superstar Value: +4 Superstar Ability: +Once during each of your turns, you may discard 2 cards and your next maneuver played this turn is -8F. You cannot play 3+ maneuvers per turn."
   },
   {
     "id": "bd20fe0b-1dd5-422b-9f99-9aa7172f0dc4",
@@ -19092,7 +19092,7 @@
     "Traits": "Smackdown",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. ≥ Hand Size: +12 Superstar Value: +3 Superstar Ability: +Your maneuvers played from your hand are +1D. You cannot play non-unique Action cards from your hand. ≥ Hand Size: +6 Superstar Value: +1 Superstar Ability: +Once during each of your turns, you may discard 1 card and then search your Arsenal for 1 non-unique card with the word 'power,''bomb,'or 'slam'in the title, reveal it to your opponent, put it in your hand and shuffle your Arsenal. Your cards played with the word 'power,''bomb' or 'slam' in the title are -4F."
+    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. \u2265 Hand Size: +12 Superstar Value: +3 Superstar Ability: +Your maneuvers played from your hand are +1D. You cannot play non-unique Action cards from your hand. \u2265 Hand Size: +6 Superstar Value: +1 Superstar Ability: +Once during each of your turns, you may discard 1 card and then search your Arsenal for 1 non-unique card with the word 'power,''bomb,'or 'slam'in the title, reveal it to your opponent, put it in your hand and shuffle your Arsenal. Your cards played with the word 'power,''bomb' or 'slam' in the title are -4F."
   },
   {
     "id": "f17726f2-1921-a0b3-78e4-ee667ee65451",
@@ -19902,7 +19902,7 @@
     "Traits": "Raw",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. When this card is revealed, the Maximum number of Mid-match cards you may have in your Ring area is increased by 2. ≥ Hand Size: +6 Superstar Value: +3 Superstar Ability: +Once during your turn, you may discard 1 Strike or High Risk Maneuver card and if your next card played this turn is a Strike or High Risk Maneuver, it is -#F, where # is equal to the discarded maneuver's Fortitude. ≥ Hand Size: +8 Superstar Value: +4 Superstar Ability: +Before your Draw Segment, if your Fortitude Rating is greater than your opponent's Fortitude Rating, put up to 2 cards from your Ringside pile at the bottom of your Arsenal."
+    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. When this card is revealed, the Maximum number of Mid-match cards you may have in your Ring area is increased by 2. \u2265 Hand Size: +6 Superstar Value: +3 Superstar Ability: +Once during your turn, you may discard 1 Strike or High Risk Maneuver card and if your next card played this turn is a Strike or High Risk Maneuver, it is -#F, where # is equal to the discarded maneuver's Fortitude. \u2265 Hand Size: +8 Superstar Value: +4 Superstar Ability: +Before your Draw Segment, if your Fortitude Rating is greater than your opponent's Fortitude Rating, put up to 2 cards from your Ringside pile at the bottom of your Arsenal."
   },
   {
     "id": "02458a03-22c4-27ec-81f9-52794e174ffb",
@@ -19917,7 +19917,7 @@
     "Traits": "Smackdown",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. When this card is revealed, you cannot play cards that would increase your opponent's Superstar Value. ≥ Hand Size: +# Superstar Value: +3 Superstar Ability: +# is equal to twice your opponent's Superstar Value. You start the game after the Pre-match phase. ≥ Hand Size: +9 Superstar Value: +3 Superstar Ability: +You must discard 2 cards in order to play a maneuver, unless it is your first maneuver played of the turn. You cannot play High Risk maneuvers. Your opponent's Grapple maneuvers played do no more than a maximum of 3D."
+    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. When this card is revealed, you cannot play cards that would increase your opponent's Superstar Value. \u2265 Hand Size: +# Superstar Value: +3 Superstar Ability: +# is equal to twice your opponent's Superstar Value. You start the game after the Pre-match phase. \u2265 Hand Size: +9 Superstar Value: +3 Superstar Ability: +You must discard 2 cards in order to play a maneuver, unless it is your first maneuver played of the turn. You cannot play High Risk maneuvers. Your opponent's Grapple maneuvers played do no more than a maximum of 3D."
   },
   {
     "id": "fb9c8bcc-a41c-a558-5d3e-ad2cab0943cf",
@@ -21731,7 +21731,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. Can be revealed by any GM Superstar. When Dude Love is your Enforcer, unless you are The Mystery Wrestler, during your opponent's turn, he may discard 2 cards and choose a different Enforcer for you. ≥ Hand Size: +2 Superstar Value: +4 Superstar Ability: +Draw 1 additional card during your Draw Segment. Your opponent's cards are -1D. ≥ Hand Size: +4 Superstar Value: +2 Superstar Ability: +Your opponent may draw 1 additional card during his Draw Segment. Your maneuvers are -1D. Once during each of your turns, you may put 1 non-unique card from your Ringside pile into your hand."
+    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. Can be revealed by any GM Superstar. When Dude Love is your Enforcer, unless you are The Mystery Wrestler, during your opponent's turn, he may discard 2 cards and choose a different Enforcer for you. \u2265 Hand Size: +2 Superstar Value: +4 Superstar Ability: +Draw 1 additional card during your Draw Segment. Your opponent's cards are -1D. \u2265 Hand Size: +4 Superstar Value: +2 Superstar Ability: +Your opponent may draw 1 additional card during his Draw Segment. Your maneuvers are -1D. Once during each of your turns, you may put 1 non-unique card from your Ringside pile into your hand."
   },
   {
     "id": "1e5015f3-26a5-0942-1505-3c577ff56310",
@@ -21914,7 +21914,7 @@
     "Traits": "",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be packed by Superstars that can pack Enforcers. ≥ Hand Size: +4 Superstar Value: +0 Superstar Ability: +Once during each of your turns, you may discard 1 card, your opponent names a card, and you name a card. The named cards cannot be played for the rest of the turn. ≥ Hand Size: +5 Superstar Value: +0 Superstar Ability: +Once during each of your turns, you may discard 2 cards, name a card, and look at your opponent's hand; when they have a Hand card with that title, they discard it and draw 1. ≥ Hand Size: +6 Superstar Value: +0 Superstar Ability: +Once during each of your turns, you may discard 2 cards, your opponent names a card, and reveals their top Arsenal card. When it is the named card, they put it into their hand. When it is not, they overturn 3 cards."
+    "Card Text": "Can only be packed by Superstars that can pack Enforcers. \u2265 Hand Size: +4 Superstar Value: +0 Superstar Ability: +Once during each of your turns, you may discard 1 card, your opponent names a card, and you name a card. The named cards cannot be played for the rest of the turn. \u2265 Hand Size: +5 Superstar Value: +0 Superstar Ability: +Once during each of your turns, you may discard 2 cards, name a card, and look at your opponent's hand; when they have a Hand card with that title, they discard it and draw 1. \u2265 Hand Size: +6 Superstar Value: +0 Superstar Ability: +Once during each of your turns, you may discard 2 cards, your opponent names a card, and reveals their top Arsenal card. When it is the named card, they put it into their hand. When it is not, they overturn 3 cards."
   },
   {
     "id": "b5cfb924-59cf-5c13-570a-b0f04ff419b6",
@@ -22554,7 +22554,7 @@
     "Traits": "",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. Can be revealed by any GM Superstar. ≥ Hand Size: +6 Superstar Value: +6 Superstar Ability: +Your maneuvers cannot be reversed from your opponent's Backlash deck. ≥ Hand Size: +5 Superstar Value: +3 Superstar Ability: +Your first non-Pre-match non-Reversal card played of the game can only be reversed from your opponent's Backlash deck and Arsenal. ≥ Hand Size: +7 Superstar Value: +5 Superstar Ability: +At the start of your turn, before your Draw Segment, look at the top 3 cards of your Arsenal and put them back in any order."
+    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. Can be revealed by any GM Superstar. \u2265 Hand Size: +6 Superstar Value: +6 Superstar Ability: +Your maneuvers cannot be reversed from your opponent's Backlash deck. \u2265 Hand Size: +5 Superstar Value: +3 Superstar Ability: +Your first non-Pre-match non-Reversal card played of the game can only be reversed from your opponent's Backlash deck and Arsenal. \u2265 Hand Size: +7 Superstar Value: +5 Superstar Ability: +At the start of your turn, before your Draw Segment, look at the top 3 cards of your Arsenal and put them back in any order."
   },
   {
     "id": "864b7343-5355-7649-5b8c-2d3ce2c64e22",
@@ -22679,7 +22679,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When this card is in your Ring area, during each of your turns, before your Draw Segment, you may choose to replace your Superstar Ability with one of the following until the start of your next turn: ≥ Once during each of your turns, you may draw 1 card and then put 1 card from your hand on the bottom of your Arsenal. ≥ You may discard 3 cards to reverse any non-unique maneuver and end your opponent's turn. ≥ When you successfully play a Chain card, you may draw 1 card."
+    "Card Text": "When this card is in your Ring area, during each of your turns, before your Draw Segment, you may choose to replace your Superstar Ability with one of the following until the start of your next turn: \u2265 Once during each of your turns, you may draw 1 card and then put 1 card from your hand on the bottom of your Arsenal. \u2265 You may discard 3 cards to reverse any non-unique maneuver and end your opponent's turn. \u2265 When you successfully play a Chain card, you may draw 1 card."
   },
   {
     "id": "ab8b15a1-32f0-3ff5-711f-5054e77239e3",
@@ -22925,7 +22925,7 @@
     "Traits": "",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. Can be revealed by any GM Superstar. During your turn, you may allow your opponent to draw 2 cards. If you do, switch to 1 of these Enforcers. ≥ Hand Size: +6 Superstar Value: +3 Superstar Ability: +Replace the 'Can only be played after...' text on your High Risk maneuvers with 'Can only be played after a successfully played card.' You cannot play Grapple or Submission maneuvers. The non-F:0 maneuvers you play can only be Foreign Object or High Risk maneuvers. ≥ Hand Size: +7 Superstar Value: +2 Superstar Ability: +When your opponent's Superstar Ability does not have the word 'Enforcer' in its text, your Superstar Ability reads the same as his."
+    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. Can be revealed by any GM Superstar. During your turn, you may allow your opponent to draw 2 cards. If you do, switch to 1 of these Enforcers. \u2265 Hand Size: +6 Superstar Value: +3 Superstar Ability: +Replace the 'Can only be played after...' text on your High Risk maneuvers with 'Can only be played after a successfully played card.' You cannot play Grapple or Submission maneuvers. The non-F:0 maneuvers you play can only be Foreign Object or High Risk maneuvers. \u2265 Hand Size: +7 Superstar Value: +2 Superstar Ability: +When your opponent's Superstar Ability does not have the word 'Enforcer' in its text, your Superstar Ability reads the same as his."
   },
   {
     "id": "48e71445-39a0-659f-474b-a8c1538c36af",
@@ -30067,7 +30067,7 @@
     "Traits": "Smackdown",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. ≥ Hand Size: +7 Superstar Value: +5 Superstar Ability: +When you successfully play a Chain card, you may draw 1 card. ≥ Hand Size: +9 Superstar Value: +4 Superstar Ability: +When you successfully play a maneuver from your hand, you may discard 1 card and then your opponent randomly discards 3 cards from his Backlash deck."
+    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. \u2265 Hand Size: +7 Superstar Value: +5 Superstar Ability: +When you successfully play a Chain card, you may draw 1 card. \u2265 Hand Size: +9 Superstar Value: +4 Superstar Ability: +When you successfully play a maneuver from your hand, you may discard 1 card and then your opponent randomly discards 3 cards from his Backlash deck."
   },
   {
     "id": "365b67c4-0a7e-4e59-5fd2-7798d6646358",
@@ -31094,7 +31094,7 @@
   },
   {
     "id": "e5d061cb-3fe9-43dd-2b8b-dbd1fc960fe1",
-    "name": "Technical Topé",
+    "name": "Technical Top\u00e9",
     "Format": "Classic",
     "Fortitude": "8",
     "Damage": "12",
@@ -36453,7 +36453,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When played after the card titled Say It Loud∙Say It Proud:, this card cannot be reversed. Your opponent discards 5 cards. Search your Arsenal for the card titled ...KEN∙NE∙DY!, reveal it to him, put it into your hand, and shuffle your Arsenal."
+    "Card Text": "When played after the card titled Say It Loud\u2219Say It Proud:, this card cannot be reversed. Your opponent discards 5 cards. Search your Arsenal for the card titled ...KEN\u2219NE\u2219DY!, reveal it to him, put it into your hand, and shuffle your Arsenal."
   },
   {
     "id": "db53ea3f-723f-40fa-a7ad-7b278dbb35f3",
@@ -37410,7 +37410,7 @@
     "Traits": "Unique",
     "Stun": "2",
     "CardRef-Target": "",
-    "Card Text": "As a reversal, when played from your Ringside pile, reverse any Action card and end your opponent╞s turn. You may play this card from your Ringside pile. When played from your Ringside pile, remove 1 card with 'spine buster' or 'spinebuster' in th title in your Ringside pile from the game."
+    "Card Text": "As a reversal, when played from your Ringside pile, reverse any Action card and end your opponent\u255es turn. You may play this card from your Ringside pile. When played from your Ringside pile, remove 1 card with 'spine buster' or 'spinebuster' in th title in your Ringside pile from the game."
   },
   {
     "id": "cd0eaf9d-51a8-38ef-995a-dd4f580d6196",
@@ -37648,7 +37648,7 @@
     "Damage": "1",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Assault: Core / Reversal: printed 1D∙7D Hold",
+    "Type": "Assault: Core / Reversal: printed 1D\u22197D Hold",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -37663,7 +37663,7 @@
     "Damage": "2",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Assault: Core / Reversal: printed 2D∙7D Hold",
+    "Type": "Assault: Core / Reversal: printed 2D\u22197D Hold",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -37678,7 +37678,7 @@
     "Damage": "3",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Assault: Core / Reversal: printed 3D∙7D Hold",
+    "Type": "Assault: Core / Reversal: printed 3D\u22197D Hold",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -37693,7 +37693,7 @@
     "Damage": "4",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Assault: Core / Reversal: printed 4D∙7D Hold",
+    "Type": "Assault: Core / Reversal: printed 4D\u22197D Hold",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -37708,7 +37708,7 @@
     "Damage": "5",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Assault: Core / Reversal: printed 5D∙7D Hold",
+    "Type": "Assault: Core / Reversal: printed 5D\u22197D Hold",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -37723,7 +37723,7 @@
     "Damage": "6",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Assault: Core / Reversal: printed 6D∙7D Hold",
+    "Type": "Assault: Core / Reversal: printed 6D\u22197D Hold",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -37903,7 +37903,7 @@
     "Damage": "1",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Hold: Core / Reversal: printed 1D∙7D Throw",
+    "Type": "Hold: Core / Reversal: printed 1D\u22197D Throw",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -37918,7 +37918,7 @@
     "Damage": "2",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Hold: Core / Reversal: printed 2D∙7D Throw",
+    "Type": "Hold: Core / Reversal: printed 2D\u22197D Throw",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -37933,7 +37933,7 @@
     "Damage": "3",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Hold: Core / Reversal: printed 3D∙7D Throw",
+    "Type": "Hold: Core / Reversal: printed 3D\u22197D Throw",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -37948,7 +37948,7 @@
     "Damage": "4",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Hold: Core / Reversal: printed 4D∙7D Throw",
+    "Type": "Hold: Core / Reversal: printed 4D\u22197D Throw",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -37963,7 +37963,7 @@
     "Damage": "5",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Hold: Core / Reversal: printed 5D∙7D Throw",
+    "Type": "Hold: Core / Reversal: printed 5D\u22197D Throw",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -37978,7 +37978,7 @@
     "Damage": "6",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Hold: Core / Reversal: printed 6D∙7D Throw",
+    "Type": "Hold: Core / Reversal: printed 6D\u22197D Throw",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -38158,7 +38158,7 @@
     "Damage": "1",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Throw: Core / Reversal: printed 1D∙7D Assault",
+    "Type": "Throw: Core / Reversal: printed 1D\u22197D Assault",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -38173,7 +38173,7 @@
     "Damage": "2",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Throw: Core / Reversal: printed 2D∙7D Assault",
+    "Type": "Throw: Core / Reversal: printed 2D\u22197D Assault",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -38188,7 +38188,7 @@
     "Damage": "3",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Throw: Core / Reversal: printed 3D∙7D Assault",
+    "Type": "Throw: Core / Reversal: printed 3D\u22197D Assault",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -38203,7 +38203,7 @@
     "Damage": "4",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Throw: Core / Reversal: printed 4D∙7D Assault",
+    "Type": "Throw: Core / Reversal: printed 4D\u22197D Assault",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -38218,7 +38218,7 @@
     "Damage": "5",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Throw: Core / Reversal: printed 5D∙7D Assault",
+    "Type": "Throw: Core / Reversal: printed 5D\u22197D Assault",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -38233,7 +38233,7 @@
     "Damage": "6",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Throw: Core / Reversal: printed 6D∙7D Assault",
+    "Type": "Throw: Core / Reversal: printed 6D\u22197D Assault",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -39631,7 +39631,7 @@
     "Damage": "1",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Hold: Core / Reversal: printed 1D∙7D Assault, Hold or Throw",
+    "Type": "Hold: Core / Reversal: printed 1D\u22197D Assault, Hold or Throw",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -40366,7 +40366,7 @@
   },
   {
     "id": "c124e711-4c1b-2a20-6b9f-43636c185909",
-    "name": "Revolution Flying Topé",
+    "name": "Revolution Flying Top\u00e9",
     "Format": "Revolution",
     "Fortitude": "4",
     "Damage": "8",
@@ -40958,7 +40958,7 @@
   },
   {
     "id": "505b1edc-8888-54ca-2315-f23f64f93cc0",
-    "name": "Revolution Kelly Kelly's Exposé",
+    "name": "Revolution Kelly Kelly's Expos\u00e9",
     "size": "Wide",
     "Format": "Revolution",
     "Fortitude": "",
@@ -42150,21 +42150,6 @@
     "Card Text": "Put up to 1 non-Unique Maneuver with Target 'neck' from your opponent's Ring into his Ringside."
   },
   {
-    "id": "4fd07864-7297-3673-122b-3fed7fc1918e",
-    "name": "Revolution Knee Lock",
-    "Format": "Revolution",
-    "Fortitude": "3",
-    "Damage": "4",
-    "Hand Size": "",
-    "SSV": "",
-    "Type": "Hold: Core",
-    "SS Logos": "",
-    "Traits": "",
-    "Stun": "",
-    "CardRef-Target": "Leg",
-    "Card Text": "When successfully played, you may search your Arsenal for a maneuver with the word 'knee'in the title, reveal it to your opponent, put it into your hand, and shuffle your Arsenal."
-  },
-  {
     "id": "d6d41435-1f0f-6063-036a-33cbdcc632ac",
     "name": "Revolution Body Vise",
     "Format": "Revolution",
@@ -42742,7 +42727,7 @@
     "Damage": "2",
     "Hand Size": "",
     "SSV": "",
-    "Type": "Reversal: printed 1D∙7D Assault, Hold, or Throw",
+    "Type": "Reversal: printed 1D\u22197D Assault, Hold, or Throw",
     "SS Logos": "",
     "Traits": "",
     "Stun": "",
@@ -43637,7 +43622,7 @@
     "Traits": "ECW, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Requirement: 'Revolution ECW½ Originals' Faction in your Ring. Put 1 Maneuver from your Ring into your Ringside. If your next card this turn is a Core, it has Momentum and triple its Damage. If you have 3 or more Superstar-specifics from 'ECW Originals' Faction Members and/or cards with 'ECW Originals' in the text in your Ring, put up to 1 non-Unique Maneuver from your opponent's Ring into his Ringside"
+    "Card Text": "Requirement: 'Revolution ECW\u00bd Originals' Faction in your Ring. Put 1 Maneuver from your Ring into your Ringside. If your next card this turn is a Core, it has Momentum and triple its Damage. If you have 3 or more Superstar-specifics from 'ECW Originals' Faction Members and/or cards with 'ECW Originals' in the text in your Ring, put up to 1 non-Unique Maneuver from your opponent's Ring into his Ringside"
   },
   {
     "id": "20822f50-7f86-1384-2737-63f0e8c14c3c",
@@ -43652,7 +43637,7 @@
     "Traits": "ECW, Unique",
     "Stun": "",
     "CardRef-Target": "neck",
-    "Card Text": "Requirement: 'Revolution ECW½ Originals' Faction in your Ring. Put 1 Antic from your Ring into your Ringside. If you have 3 or more Superstar-specifics from 'ECW Originals' Faction Members and/or cards with 'ECW Originals' in the text in your Ring, search your Arsenal for up to 1 Extreme, reveal it, put it into your hand, and shuffle your Arsenal."
+    "Card Text": "Requirement: 'Revolution ECW\u00bd Originals' Faction in your Ring. Put 1 Antic from your Ring into your Ringside. If you have 3 or more Superstar-specifics from 'ECW Originals' Faction Members and/or cards with 'ECW Originals' in the text in your Ring, search your Arsenal for up to 1 Extreme, reveal it, put it into your hand, and shuffle your Arsenal."
   },
   {
     "id": "dff7ebb8-6326-1620-2401-16ab99c10830",
@@ -43667,7 +43652,7 @@
     "Traits": "ECW, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Requirement: 'Revolution ECW½ Originals' Faction in your Ring. Put 3 non-Unique cards from your Ring into your Ringside. Your next card this turn has Momentum. If you have 3 or more Superstar-specifics from 'ECW Originals' Faction Members and/or cards with 'ECW Originals' in the text in your Ring, put up to 2 Uniques from your Ringside into your hand."
+    "Card Text": "Requirement: 'Revolution ECW\u00bd Originals' Faction in your Ring. Put 3 non-Unique cards from your Ring into your Ringside. Your next card this turn has Momentum. If you have 3 or more Superstar-specifics from 'ECW Originals' Faction Members and/or cards with 'ECW Originals' in the text in your Ring, put up to 2 Uniques from your Ringside into your hand."
   },
   {
     "id": "f183dd95-51fd-7513-4235-90fbf55a27e4",
@@ -43928,7 +43913,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Requirement: 'Revolution Tomorrow's WWE½ Legends' Faction in your Ring. When your opponent discards any number of cards on his turn, draw up to 1 card. If you have 3 or more Superstar-specifics from 'Tomorrow's WWE Legends' Faction Members and/or cards with 'Tomorrow's WWE Legends' in the text in your Ring, if your opponent successfully plays a non-Unique Antic, you may put this card into your Ringside: it is blank until the end of the turn."
+    "Card Text": "Requirement: 'Revolution Tomorrow's WWE\u00bd Legends' Faction in your Ring. When your opponent discards any number of cards on his turn, draw up to 1 card. If you have 3 or more Superstar-specifics from 'Tomorrow's WWE Legends' Faction Members and/or cards with 'Tomorrow's WWE Legends' in the text in your Ring, if your opponent successfully plays a non-Unique Antic, you may put this card into your Ringside: it is blank until the end of the turn."
   },
   {
     "id": "6fddaa3f-a50b-1fcb-07a9-39492a3d9cc9",
@@ -43943,7 +43928,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Requirement: 'Revolution Tomorrow's WWE½ Legends' Faction in your Ring. At least 5 Less Fortitude: -5F. Your next card this turn is -15F. If you have 3 or more Superstar-specifics from 'Tomorrow's WWE Legends' Faction Members and/or cards with 'Tomorrow's WWE Legends' in the text in your Ring, put up to 3 Maneuvers from your Ringside into your hand."
+    "Card Text": "Requirement: 'Revolution Tomorrow's WWE\u00bd Legends' Faction in your Ring. At least 5 Less Fortitude: -5F. Your next card this turn is -15F. If you have 3 or more Superstar-specifics from 'Tomorrow's WWE Legends' Faction Members and/or cards with 'Tomorrow's WWE Legends' in the text in your Ring, put up to 3 Maneuvers from your Ringside into your hand."
   },
   {
     "id": "06dc9d63-354f-3566-249c-1991e5d01074",
@@ -43958,7 +43943,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Requirement: 'Revolution Tomorrow's WWE½ Legends' Faction in your Ring. Put up to 1 card from your opponent's Ring into his Ringside. If you have 3 or more Superstar-specifics from 'Tomorrow's WWE Legends' Faction Members and/or cards with 'Tomorrow's WWE Legends' in the text in your Ring, your opponent discards 2 cards."
+    "Card Text": "Requirement: 'Revolution Tomorrow's WWE\u00bd Legends' Faction in your Ring. Put up to 1 card from your opponent's Ring into his Ringside. If you have 3 or more Superstar-specifics from 'Tomorrow's WWE Legends' Faction Members and/or cards with 'Tomorrow's WWE Legends' in the text in your Ring, your opponent discards 2 cards."
   },
   {
     "id": "a135bbac-5dfd-32d5-1ec3-fbbeaa16326a",
@@ -43973,7 +43958,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "chest",
-    "Card Text": "Requirement: 'Revolution Tomorrow's WWE½ Legends' Faction in your Ring. During your turn, if this card is in your Ring, you may discard 2 cards: put this card into your hand. If you have 3 or more Superstar-specifics from 'Tomorrow's WWE Legends' Faction Members and/or cards with 'Tomorrow's WWE Legends' in the text in your Ring, during your turn, if this card is in your Ringside, you may discard 2 cards: put this card into your hand."
+    "Card Text": "Requirement: 'Revolution Tomorrow's WWE\u00bd Legends' Faction in your Ring. During your turn, if this card is in your Ring, you may discard 2 cards: put this card into your hand. If you have 3 or more Superstar-specifics from 'Tomorrow's WWE Legends' Faction Members and/or cards with 'Tomorrow's WWE Legends' in the text in your Ring, during your turn, if this card is in your Ringside, you may discard 2 cards: put this card into your hand."
   },
   {
     "id": "f2c82b95-9bbf-85da-9808-fef3c91e1740",
@@ -44080,7 +44065,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Draw 2 cards. Superstar Value: +4 New Superstar Ability: Replace 'Assault,' 'Hold,' or 'Throw' with 'Assault, Hold, and Throw' in the rules bar of your F:0 Reversals with 'Reversal: printed #D∙#D Assault/Hold/Throw.'"
+    "Card Text": "Draw 2 cards. Superstar Value: +4 New Superstar Ability: Replace 'Assault,' 'Hold,' or 'Throw' with 'Assault, Hold, and Throw' in the rules bar of your F:0 Reversals with 'Reversal: printed #D\u2219#D Assault/Hold/Throw.'"
   },
   {
     "id": "90a61823-9220-5d0f-7826-234310ae3700",
@@ -44326,7 +44311,7 @@
   },
   {
     "id": "c524b63e-95a8-74db-2b50-68cc23762078",
-    "name": "Revolution A Decade of Whoopin’ A%$",
+    "name": "Revolution A Decade of Whoopin\u2019 A%$",
     "Format": "Revolution",
     "Fortitude": "10",
     "Damage": "0",
@@ -45415,7 +45400,7 @@
     "Traits": "Unique, Permanent",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be packed by X-Pac, Jeff Hardy, Matt Hardy, Lita, Tajiri, Hurricane, Rey Mysterio, MNM, X-treme Diva, Mexicools, Chavo Guerrero, Funaki, Kenny, Revolution Sabu, Owen Hart, The Blue Blazer, Latino Cheat, and Johnny Nitro. Your Strike maneuvers with µrana' in the title are now High Risk maneuvers instead, and your opponent's non-unique reversals to your High Risk maneuvers deal no damage. Your From the Top Rope and From the Middle Turnbuckle cards cannot be reversed."
+    "Card Text": "Can only be packed by X-Pac, Jeff Hardy, Matt Hardy, Lita, Tajiri, Hurricane, Rey Mysterio, MNM, X-treme Diva, Mexicools, Chavo Guerrero, Funaki, Kenny, Revolution Sabu, Owen Hart, The Blue Blazer, Latino Cheat, and Johnny Nitro. Your Strike maneuvers with \u00b5rana' in the title are now High Risk maneuvers instead, and your opponent's non-unique reversals to your High Risk maneuvers deal no damage. Your From the Top Rope and From the Middle Turnbuckle cards cannot be reversed."
   },
   {
     "id": "5f551b84-7cf1-0ef2-0953-c56522c21fb6",
@@ -45719,7 +45704,7 @@
     "Traits": "Universally Active",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "All players search their Arsenal for any number of reversal cards and remove them from the game. Then all players search their opponent╞s Arsenal; if more than half of that Arsenal contains non-Volley non-Set-up reversal cards, their opponent loses the game via Pinfall Victory. (Your opponent's Superstar-specific reversals are considered Set-up cards for this effect). All players shuffle."
+    "Card Text": "All players search their Arsenal for any number of reversal cards and remove them from the game. Then all players search their opponent\u255es Arsenal; if more than half of that Arsenal contains non-Volley non-Set-up reversal cards, their opponent loses the game via Pinfall Victory. (Your opponent's Superstar-specific reversals are considered Set-up cards for this effect). All players shuffle."
   },
   {
     "id": "e72370bf-2a8d-a044-6ec1-ad20eba180e7",
@@ -45863,7 +45848,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be packed by a Superstar with a printed 5- Starting Hand Size. Cannot be packed by Eugene, Ric Flair, or Test. Before your Draw Segment of your first turn, when this card is in your Backlash and you have 5- cards in your hand, you do not have a card with 'interest' in the title in your Ring, and your Enforcer is not Test, you may put this card into your Ring; draw up to 2 cards, your opponent╞s Ability is blank until the start of your next turn, and he skips his next Draw Segment."
+    "Card Text": "Can only be packed by a Superstar with a printed 5- Starting Hand Size. Cannot be packed by Eugene, Ric Flair, or Test. Before your Draw Segment of your first turn, when this card is in your Backlash and you have 5- cards in your hand, you do not have a card with 'interest' in the title in your Ring, and your Enforcer is not Test, you may put this card into your Ring; draw up to 2 cards, your opponent\u255es Ability is blank until the start of your next turn, and he skips his next Draw Segment."
   },
   {
     "id": "9f04d603-1add-6c48-7496-070de2286a9d",
@@ -45958,7 +45943,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. Can be revealed by any GM Superstar. ≥ Hand Size: +6 Superstar Value: +1 Superstar Ability: +Once during each of your turns, when you successfully play a maneuver, you may search your Arsenal for a non-unique maneuver of the same type, reveal it, put it in your hand, and shuffle your Arsenal. ≥ Hand Size: +6 Superstar Value: +2 Superstar Ability: +Once during each of your turns, you may remove any number of cards in your hand from the game to draw the same number of cards. ≥ Hand Size: +9 Superstar Value: +3 Superstar Ability: +When you successfully play a maneuver, you may overturn 3 cards to put up to 1 non-Core non-Unique maneuver from your Ringside into your hand. You may not play more than 3 maneuvers a turn."
+    "Card Text": "Can only be revealed if your Superstar card says you can reveal an Enforcer card. Can be revealed by any GM Superstar. \u2265 Hand Size: +6 Superstar Value: +1 Superstar Ability: +Once during each of your turns, when you successfully play a maneuver, you may search your Arsenal for a non-unique maneuver of the same type, reveal it, put it in your hand, and shuffle your Arsenal. \u2265 Hand Size: +6 Superstar Value: +2 Superstar Ability: +Once during each of your turns, you may remove any number of cards in your hand from the game to draw the same number of cards. \u2265 Hand Size: +9 Superstar Value: +3 Superstar Ability: +When you successfully play a maneuver, you may overturn 3 cards to put up to 1 non-Core non-Unique maneuver from your Ringside into your hand. You may not play more than 3 maneuvers a turn."
   },
   {
     "id": "3b1ce03f-7660-4679-7332-4386ea9d09d0",
@@ -45973,7 +45958,7 @@
     "Traits": "nWo, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be packed by a GM, except Eric Bischoff.  Hidden: when your nWo card is successful, reveal this card and you may choose a new Enforcer. ≥ Hand Size: +7 Superstar Value: +6 Superstar Ability: +Once during each of your turns, you may overturn 3 and Arsenal Search 1 maneuver that is not Unique, Throwback, Submission, or High Risk. ≥ Hand Size: +6 Superstar Value: +2 Superstar Ability: +During your Draw Segment, draw 2 more cards and discard 1. ≥ Hand Size: +6 Superstar Value: +4 Superstar Ability: +Your 'Bomb,' 'Power,' and 'Slam' cards are -3F and +3D, and they are Multi when you have no Ring 'Bomb,' 'Power,' or 'Slam' maneuvers."
+    "Card Text": "Cannot be packed by a GM, except Eric Bischoff.  Hidden: when your nWo card is successful, reveal this card and you may choose a new Enforcer. \u2265 Hand Size: +7 Superstar Value: +6 Superstar Ability: +Once during each of your turns, you may overturn 3 and Arsenal Search 1 maneuver that is not Unique, Throwback, Submission, or High Risk. \u2265 Hand Size: +6 Superstar Value: +2 Superstar Ability: +During your Draw Segment, draw 2 more cards and discard 1. \u2265 Hand Size: +6 Superstar Value: +4 Superstar Ability: +Your 'Bomb,' 'Power,' and 'Slam' cards are -3F and +3D, and they are Multi when you have no Ring 'Bomb,' 'Power,' or 'Slam' maneuvers."
   },
   {
     "id": "478adab1-a063-3314-881c-afa9e8468a47",
@@ -45988,7 +45973,7 @@
     "Traits": "ECW, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be packed by a GM, except Paul Heyman.  Hidden: when your ECW card is successful, reveal this card and you may choose a new Enforcer. ≥ Hand Size: +5 Superstar Value: +3 Superstar Ability: +Once per game before your Draw Segment, you may Arsenal Search 1 Foreign Object and choose a new Enforcer. ≥ Hand Size: +7 Superstar Value: +1 Superstar Ability: +Once during each of your turns, you may overturn 3 and Ringside Search 1 Foreign Object. ≥ Hand Size: +8 Superstar Value: +1 Superstar Ability: +When you have lower Fortitude, your non-Unique cards are -#F (# = half your opponent's Fortitude)."
+    "Card Text": "Cannot be packed by a GM, except Paul Heyman.  Hidden: when your ECW card is successful, reveal this card and you may choose a new Enforcer. \u2265 Hand Size: +5 Superstar Value: +3 Superstar Ability: +Once per game before your Draw Segment, you may Arsenal Search 1 Foreign Object and choose a new Enforcer. \u2265 Hand Size: +7 Superstar Value: +1 Superstar Ability: +Once during each of your turns, you may overturn 3 and Ringside Search 1 Foreign Object. \u2265 Hand Size: +8 Superstar Value: +1 Superstar Ability: +When you have lower Fortitude, your non-Unique cards are -#F (# = half your opponent's Fortitude)."
   },
   {
     "id": "a8ea0972-677a-281c-0f9a-f9ae1c8f1521",
@@ -46325,7 +46310,7 @@
     "Traits": "RMS, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be blanked. Your ’Precision’ action cards and your Simply the Best cards are Superstar-specific and Multi. ACE: During your turn, you may put this card into your Ringside, and if your next card played this turn is a ’Precision’ maneuver, it is Multi.  This effect cannot be reversed. "
+    "Card Text": "Cannot be blanked. Your \u2019Precision\u2019 action cards and your Simply the Best cards are Superstar-specific and Multi. ACE: During your turn, you may put this card into your Ringside, and if your next card played this turn is a \u2019Precision\u2019 maneuver, it is Multi.  This effect cannot be reversed. "
   },
   {
     "id": "355974af-466a-454c-0ca5-d68df9148161",
@@ -47289,7 +47274,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be played after a successfully played maneuver, after damage is resolved, end your opponent's turn. When this card is in your Ring, his maneuver cards with µreverse' in the text are blank when played. During his turn when this card is in your Ring, he may discard 4 cards from hand or Backlash and then remove this card from the game."
+    "Card Text": "Can only be played after a successfully played maneuver, after damage is resolved, end your opponent's turn. When this card is in your Ring, his maneuver cards with \u00b5reverse' in the text are blank when played. During his turn when this card is in your Ring, he may discard 4 cards from hand or Backlash and then remove this card from the game."
   },
   {
     "id": "84ed74fe-3f14-3ae1-021d-1315a02a1368",
@@ -48008,7 +47993,7 @@
     "Traits": "Diva",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When you have lower Fortitude and your first card played each turn is a ‘Dynamic’ maneuver, you may also immediately play another ‘Dynamic’ maneuver with it. When you have greater Fortitude, your ‘Dynamic’ maneuvers are Multi. You can pack Chyna cards, and 4- Arsenal cards with only Triple H, Road Dogg, B.A. Billy Gunn,  X-Pac, and/or Shawn Michaels logos. You cannot pack Corners."
+    "Card Text": "When you have lower Fortitude and your first card played each turn is a \u2018Dynamic\u2019 maneuver, you may also immediately play another \u2018Dynamic\u2019 maneuver with it. When you have greater Fortitude, your \u2018Dynamic\u2019 maneuvers are Multi. You can pack Chyna cards, and 4- Arsenal cards with only Triple H, Road Dogg, B.A. Billy Gunn,  X-Pac, and/or Shawn Michaels logos. You cannot pack Corners."
   },
   {
     "id": "31bac92f-a5f1-310b-6ec7-2a8f06346112",
@@ -48407,7 +48392,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "During your turn when you have not played any cards, you may put this card from your hand into your Ring. When this card is in your Ring, your maneuvers with µblindside' in the title are -4F and Multi. When you successfully play a maneuver and Damage is applied, put this card from your Ring or Ringside on the bottom of your Arsenal."
+    "Card Text": "During your turn when you have not played any cards, you may put this card from your hand into your Ring. When this card is in your Ring, your maneuvers with \u00b5blindside' in the title are -4F and Multi. When you successfully play a maneuver and Damage is applied, put this card from your Ring or Ringside on the bottom of your Arsenal."
   },
   {
     "id": "ec84b85c-8452-1f86-76a9-536d35c89248",
@@ -48924,7 +48909,7 @@
     "Traits": "RMS, Unique, Permanent",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be blanked. At the end of the Pre-match phase, draw 4 cards and when you are not The Brain Busters, Bury 4 Hand cards. When you are Ric Flair, Revolution Ric Flair, or The Four Horsemen, ignore the ‘Cannot be played...’ text on To Be the Man, You've Got to Beat the Man!, and when you are The Four Horsemen, that card cannot be reversed."
+    "Card Text": "Cannot be blanked. At the end of the Pre-match phase, draw 4 cards and when you are not The Brain Busters, Bury 4 Hand cards. When you are Ric Flair, Revolution Ric Flair, or The Four Horsemen, ignore the \u2018Cannot be played...\u2019 text on To Be the Man, You've Got to Beat the Man!, and when you are The Four Horsemen, that card cannot be reversed."
   },
   {
     "id": "c7a62074-6f35-58e3-8664-6adf76b82a68",
@@ -49156,7 +49141,7 @@
     "Traits": "Unique, Permanent",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be blanked. You cannot play Corners. Your Rikishi-specific Pre-match cards do not take up a slot in your Ring. Your Rikishi-specific cards are Multi. Your Back That A%$ Up now reads ‘Can only be played as a Counter. When Successful, Arsenal / Ringside Search Stinkface.’ "
+    "Card Text": "Cannot be blanked. You cannot play Corners. Your Rikishi-specific Pre-match cards do not take up a slot in your Ring. Your Rikishi-specific cards are Multi. Your Back That A%$ Up now reads \u2018Can only be played as a Counter. When Successful, Arsenal / Ringside Search Stinkface.\u2019 "
   },
   {
     "id": "528b3e40-87dd-830f-2f0c-5117d9cd29e2",
@@ -49202,7 +49187,7 @@
     "Traits": "Permanent, RMS, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be packed by Chris Benoit. This card does not take up a Pre-match slot in your Ring. At the end of the Pre-match phase, you may put WWE Homecoming from your Backlash into your Ring, and ignore the µYou cannot play...' text on it. Your Series of Suplexes is Multi."
+    "Card Text": "Can only be packed by Chris Benoit. This card does not take up a Pre-match slot in your Ring. At the end of the Pre-match phase, you may put WWE Homecoming from your Backlash into your Ring, and ignore the \u00b5You cannot play...' text on it. Your Series of Suplexes is Multi."
   },
   {
     "id": "5227a528-7e1b-7d38-9bec-004c9aa409da",
@@ -49432,7 +49417,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, your Ambush Finale is not Heel, and disregard the µHeel maneuver' text. Ignore the 'Strike' text on your Lou Thesz Press, and wen you do not have a Revolution card in your Ring, your Starting Hand Size is +2."
+    "Card Text": "When packing this card, your Ambush Finale is not Heel, and disregard the \u00b5Heel maneuver' text. Ignore the 'Strike' text on your Lou Thesz Press, and wen you do not have a Revolution card in your Ring, your Starting Hand Size is +2."
   },
   {
     "id": "a4c42bb3-75f8-0eb5-35b0-3062b218163c",
@@ -49448,7 +49433,7 @@
     "Traits": "Permanent, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Arsenal Search any number of Brothers of Destruction-specific cards and 1- non-Unique card, and put them in your Ringside. Your Superstar-specific actions are F: 0 and Multi, and your Chokeslam to Hell now reads ‘Reverse any Strike or Grapple.’ The number of cards RFG from your Ringside by your opponent's effects (except the Volley trait) is reduced to 0. "
+    "Card Text": "Arsenal Search any number of Brothers of Destruction-specific cards and 1- non-Unique card, and put them in your Ringside. Your Superstar-specific actions are F: 0 and Multi, and your Chokeslam to Hell now reads \u2018Reverse any Strike or Grapple.\u2019 The number of cards RFG from your Ringside by your opponent's effects (except the Volley trait) is reduced to 0. "
   },
   {
     "id": "136288ba-2f11-84d5-608c-c927933e2fbe",
@@ -49571,7 +49556,7 @@
     "Traits": "Permanent, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be blanked. Do not discard for Armageddon Is Upon Us. Replace the 'Grapple' text with 'non-Trademark Finisher' on your Superstar-specific Mid-match reversals, ignore 'Can only be playedα' text on Giant Killer, and do not discard for Brotherly Love. ACE: You may put Brotherly Love from your Ring into your Ringside to reverse an Activated Card Effect."
+    "Card Text": "Cannot be blanked. Do not discard for Armageddon Is Upon Us. Replace the 'Grapple' text with 'non-Trademark Finisher' on your Superstar-specific Mid-match reversals, ignore 'Can only be played\u03b1' text on Giant Killer, and do not discard for Brotherly Love. ACE: You may put Brotherly Love from your Ring into your Ringside to reverse an Activated Card Effect."
   },
   {
     "id": "eb6416e5-7e17-985a-5488-362d0f2d1b33",
@@ -49633,7 +49618,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Your X-treme Hedonism is F: 0, and replace the 'Can only be played' text with 'Cannot be reversed' on your αPerhaps I Need a Spanking?; when you Activate If You've Got It, Flaunt It, your opponent cannot reverse the effect or play Restricted Use in this Area to the next card played this turn. When you are Trish Stratus, replace the 'Grapple or Submission' text with 'non-Unique' on your Diva of the Decade cards, and your Trish Stratus-specific maneuvers cannot be reversed by Elbow to the Face."
+    "Card Text": "Your X-treme Hedonism is F: 0, and replace the 'Can only be played' text with 'Cannot be reversed' on your \u03b1Perhaps I Need a Spanking?; when you Activate If You've Got It, Flaunt It, your opponent cannot reverse the effect or play Restricted Use in this Area to the next card played this turn. When you are Trish Stratus, replace the 'Grapple or Submission' text with 'non-Unique' on your Diva of the Decade cards, and your Trish Stratus-specific maneuvers cannot be reversed by Elbow to the Face."
   },
   {
     "id": "3198c737-694b-9dee-7a7b-e81ccfa81845",
@@ -49694,7 +49679,7 @@
     "Traits": "Unique, RMS, ECW",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Your Tough Enough Head Trainer is Permanent and replace 'Can only be played' text with 'Cannot be reversed'; ignore the µSet-up' text on your Snow Slide cards, and replace the 'played' text with 'reversed by Unique reversals' on your Snow Plow. Once during each of your turns, you may either discard 3 cards to put No Gimmicks Needed from your Ringside into your Ring, or when Head is removed from the game, discard 2 cards to put it into your hand."
+    "Card Text": "Your Tough Enough Head Trainer is Permanent and replace 'Can only be played' text with 'Cannot be reversed'; ignore the \u00b5Set-up' text on your Snow Slide cards, and replace the 'played' text with 'reversed by Unique reversals' on your Snow Plow. Once during each of your turns, you may either discard 3 cards to put No Gimmicks Needed from your Ringside into your Ring, or when Head is removed from the game, discard 2 cards to put it into your hand."
   },
   {
     "id": "40f29863-202e-516a-3e4d-cc12cdd47aaf",
@@ -49771,7 +49756,7 @@
     "Traits": "RMS, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When you are packing this card, you can pack Backed By Paul Heyman. Ignore the µCan only be played...' text on your Brock Lesnar-specific Maneuvers. Once during each of your turns, put 1 non-hybrid maneuver from your Ringside into your hand."
+    "Card Text": "When you are packing this card, you can pack Backed By Paul Heyman. Ignore the \u00b5Can only be played...' text on your Brock Lesnar-specific Maneuvers. Once during each of your turns, put 1 non-hybrid maneuver from your Ringside into your hand."
   },
   {
     "id": "a54ee148-3565-482e-6ab7-fc4b857579ac",
@@ -49848,7 +49833,7 @@
     "Traits": "Permanent, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When you are not packing Enforcers, replace the µnon-unique' text with µnon-superstar' in your Ability. Once during each of your turns, you may put Split Personalities Have Benefits from your Ring or Ringside (or if it has been removed from the game) into your Backlash. ACE: During your opponent's turn, you may discard 1 Superstar Card to reverse any non-Superstar-specific non-maneuver card."
+    "Card Text": "When you are not packing Enforcers, replace the \u00b5non-unique' text with \u00b5non-superstar' in your Ability. Once during each of your turns, you may put Split Personalities Have Benefits from your Ring or Ringside (or if it has been removed from the game) into your Backlash. ACE: During your opponent's turn, you may discard 1 Superstar Card to reverse any non-Superstar-specific non-maneuver card."
   },
   {
     "id": "52a8e18f-712c-4bee-6f65-88429e4a2323",
@@ -49863,7 +49848,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When you are The Rattlesnake, once during each of your turns you may discard 1 card and then Arsenal Search 1 Unique Stone Cold Steve Austin-specific action. Your Stone Cold Steve Austin-specific Mid-match actions can only be reversed by Unique reversals. Replace ‘Strike, Grapple, or Submission’ on your Superstar-specific reversal cards with ‘non-Trademark Finisher’, and ignore ‘Strike’ on your Lou Thesz Press."
+    "Card Text": "When you are The Rattlesnake, once during each of your turns you may discard 1 card and then Arsenal Search 1 Unique Stone Cold Steve Austin-specific action. Your Stone Cold Steve Austin-specific Mid-match actions can only be reversed by Unique reversals. Replace \u2018Strike, Grapple, or Submission\u2019 on your Superstar-specific reversal cards with \u2018non-Trademark Finisher\u2019, and ignore \u2018Strike\u2019 on your Lou Thesz Press."
   },
   {
     "id": "2071333e-13ee-9fc3-6bce-82d6da212b70",
@@ -49894,7 +49879,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "As an action, this card is √20F, and when you have lower Fortitude, cannot be reversed by hybrid reversals. Shuffle this card and up to 3 maneuvers from your Ringside into your Arsenal. When successfully played, draw up to 2 cards and put 1 card from your opponent's Ringside on the bottom of his Arsenal."
+    "Card Text": "As an action, this card is \u221a20F, and when you have lower Fortitude, cannot be reversed by hybrid reversals. Shuffle this card and up to 3 maneuvers from your Ringside into your Arsenal. When successfully played, draw up to 2 cards and put 1 card from your opponent's Ringside on the bottom of his Arsenal."
   },
   {
     "id": "e038b488-8298-9b21-0b0d-8510342c0675",
@@ -49914,7 +49899,7 @@
   },
   {
     "id": "8e2ea992-7ad3-3697-9dc3-792d9b040d89",
-    "name": "¿Que Pasa Aqui?",
+    "name": "\u00bfQue Pasa Aqui?",
     "Format": "VirtualClassic",
     "Fortitude": "15",
     "Damage": "0",
@@ -49970,7 +49955,7 @@
     "Traits": "Unique, RMS, ECW",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When you use your Ability, shuffle the revealed cards into your Arsenal instead. Your opponent cannot respond to your Rhyno╞s Garbage Can and it now reads: 'ACE: When you successfully play a maneuver without a printed reversal restriction, you may put this card into your Ringside and then search your Arsenal or Ringside for another Rhyno-specific card, reveal it, put it in your hand, and shuffle.'"
+    "Card Text": "When you use your Ability, shuffle the revealed cards into your Arsenal instead. Your opponent cannot respond to your Rhyno\u255es Garbage Can and it now reads: 'ACE: When you successfully play a maneuver without a printed reversal restriction, you may put this card into your Ringside and then search your Arsenal or Ringside for another Rhyno-specific card, reveal it, put it in your hand, and shuffle.'"
   },
   {
     "id": "1d2b9a84-43ed-44d9-88e1-5c2b99ee18b8",
@@ -50339,7 +50324,7 @@
     "Traits": "Unique",
     "Stun": "3",
     "CardRef-Target": "",
-    "Card Text": "Cannot be packed by Rated RKO. When you are Revolution Randy Orton, this card is -10F. Cannot be reversed when your opponent is a Legend, or has a card in his Ring with a Shawn Michaels or Rob Van Dam logo. When this card is in your Ring, ignore the µCan only be played' text on your Debilitating Injury: Concussion card, and it cannot be reversed."
+    "Card Text": "Cannot be packed by Rated RKO. When you are Revolution Randy Orton, this card is -10F. Cannot be reversed when your opponent is a Legend, or has a card in his Ring with a Shawn Michaels or Rob Van Dam logo. When this card is in your Ring, ignore the \u00b5Can only be played' text on your Debilitating Injury: Concussion card, and it cannot be reversed."
   },
   {
     "id": "9ba683fd-9494-2b3a-34e3-60f022a13bd2",
@@ -50710,7 +50695,7 @@
     "Traits": "Unique, Permanent",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be blanked. Your opponent does not discard for JYD's Chain. Your ’DDT’ Grapples are -4F. He discards 1 extra card to reverse a Chain maneuver from hand or Backlash, and when your Chain card is successful, discard 1 less card to search your Arsenal for a Chain card."
+    "Card Text": "Cannot be blanked. Your opponent does not discard for JYD's Chain. Your \u2019DDT\u2019 Grapples are -4F. He discards 1 extra card to reverse a Chain maneuver from hand or Backlash, and when your Chain card is successful, discard 1 less card to search your Arsenal for a Chain card."
   },
   {
     "id": "8243b576-04fe-5354-76bf-81157a227030",
@@ -52180,7 +52165,7 @@
     "Traits": "WCW, Unique, Permanent",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be blanked. After all players' Pre-match phases before the first turn of the game, Arsenal Search Booker's Thrust Kick and when your Fortitude is 0, put it in your Ring. When you have lower Fortitude, your Strikes cannot be reversed by hybrid cards and ignore ‘completely’ on reversals to them. "
+    "Card Text": "Cannot be blanked. After all players' Pre-match phases before the first turn of the game, Arsenal Search Booker's Thrust Kick and when your Fortitude is 0, put it in your Ring. When you have lower Fortitude, your Strikes cannot be reversed by hybrid cards and ignore \u2018completely\u2019 on reversals to them. "
   },
   {
     "id": "abcfed15-8451-4ca9-2fcf-d960b01f3901",
@@ -52618,7 +52603,7 @@
     "Traits": "Permanent, RMS, Unique, WCW",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can be played regardless of The Boogeyman╞s Ability. When you put a WCW card into your Ring, your opponent discards 1 card. When played by a WCW Superstar, you may search your Arsenal for 2 cards and put them under this card, then shuffle. Once during each of your turns, you may put the bottom card of your Arsenal under this card. ACE: Once during each of your turns, when it is not your first turn of the game and you have lower Fortitude, you may remove 2 cards under this card from the game; then look at his hand, choose 2 reversals, and they cannot be played in response to the next maneuver played this turn."
+    "Card Text": "Can be played regardless of The Boogeyman\u255es Ability. When you put a WCW card into your Ring, your opponent discards 1 card. When played by a WCW Superstar, you may search your Arsenal for 2 cards and put them under this card, then shuffle. Once during each of your turns, you may put the bottom card of your Arsenal under this card. ACE: Once during each of your turns, when it is not your first turn of the game and you have lower Fortitude, you may remove 2 cards under this card from the game; then look at his hand, choose 2 reversals, and they cannot be played in response to the next maneuver played this turn."
   },
   {
     "id": "1ad4ab37-3f66-8fa4-46b5-94fdc32d4a77",
@@ -52695,7 +52680,7 @@
     "Traits": "ECW, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Put up to 1 non-Unique non-reversal card from your Ring and up to 1 card from your Ringside on the bottom of your Arsenal, and then draw up to 1 card for each card with µoriginal' in the title in your Ring. When you are a printed Member of ECW Originals Faction and you have The House That Hardcore Built revealed, you may also put up to 1 non-Unique reversal card from your Ring on the bottom of your Arsenal."
+    "Card Text": "Put up to 1 non-Unique non-reversal card from your Ring and up to 1 card from your Ringside on the bottom of your Arsenal, and then draw up to 1 card for each card with \u00b5original' in the title in your Ring. When you are a printed Member of ECW Originals Faction and you have The House That Hardcore Built revealed, you may also put up to 1 non-Unique reversal card from your Ring on the bottom of your Arsenal."
   },
   {
     "id": "19b792f0-7dfc-3da2-666f-ce57cfef5daf",
@@ -53249,7 +53234,7 @@
     "Traits": "Multi, Raw, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Search your Arsenal or Ringside for She's Got Legs, reveal it, put it in your hand, and shuffle; that card cannot be reversed. Replace the µnon-Unique' text with µnon-Superstar-specific' on your Dance, Coach, Dance."
+    "Card Text": "Search your Arsenal or Ringside for She's Got Legs, reveal it, put it in your hand, and shuffle; that card cannot be reversed. Replace the \u00b5non-Unique' text with \u00b5non-Superstar-specific' on your Dance, Coach, Dance."
   },
   {
     "id": "d9b57671-2b58-0055-6828-ee9719da70db",
@@ -55456,7 +55441,7 @@
     "Traits": "ECW, RMS, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Reverse any non-Trademark Finisher maneuver and shuffle up to 3 cards from your Ringside into your Arsenal. The first Multi maneuver played from hand on your next turn requires 3 reversals instead of 2 to reverse, and your opponent cannot play Restricted Use in this Area to it. When this card is in your Ring, ignore µcompletely' on his reversal cards and effects."
+    "Card Text": "Reverse any non-Trademark Finisher maneuver and shuffle up to 3 cards from your Ringside into your Arsenal. The first Multi maneuver played from hand on your next turn requires 3 reversals instead of 2 to reverse, and your opponent cannot play Restricted Use in this Area to it. When this card is in your Ring, ignore \u00b5completely' on his reversal cards and effects."
   },
   {
     "id": "a17133f0-3789-847c-4afc-2176632a66c7",
@@ -55517,7 +55502,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Ignore the 'Strike or Grapple' text on Wellllllll!, and your Showstopper Chokeslam is now a Trademark Finisher instead. During your turn when you have no non-hybrid maneuvers in your Ring and your opponent╞s Fortitude Rating is 10+, your Big Show-specific multi F: 0 maneuvers require 3 reversals instead of 2 to reverse."
+    "Card Text": "Ignore the 'Strike or Grapple' text on Wellllllll!, and your Showstopper Chokeslam is now a Trademark Finisher instead. During your turn when you have no non-hybrid maneuvers in your Ring and your opponent\u255es Fortitude Rating is 10+, your Big Show-specific multi F: 0 maneuvers require 3 reversals instead of 2 to reverse."
   },
   {
     "id": "c1b880bc-4743-3fd0-6580-cf4cc23a55ff",
@@ -55716,7 +55701,7 @@
     "Traits": "Permanent, RMS, Throwback, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Reverse any non-unique Hand maneuver, Arsenal Search 4- ‘Maintain’ cards and RFG them, then draw the same number of cards. Your ‘Maintain’ cards cannot be moved from RFG. Your Unbreakable is F: 0 and can only be reversed by Unique reversals."
+    "Card Text": "Reverse any non-unique Hand maneuver, Arsenal Search 4- \u2018Maintain\u2019 cards and RFG them, then draw the same number of cards. Your \u2018Maintain\u2019 cards cannot be moved from RFG. Your Unbreakable is F: 0 and can only be reversed by Unique reversals."
   },
   {
     "id": "fdeca0ba-4fd3-5e51-7165-dc2c1d145db0",
@@ -56925,7 +56910,7 @@
     "Traits": "Unique, WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "*This card is always considered to be hidden. Can only be packed by a WWF Superstar. When this card is hidden, you may ignore the ‘Can be reversed...’ text on your ‘Classic’ maneuvers, and once during each of your turns you may reveal 1 Hand ‘Classic’ maneuver, choose 1- Ringside ‘Classic’ maneuver, and Bury those cards."
+    "Card Text": "*This card is always considered to be hidden. Can only be packed by a WWF Superstar. When this card is hidden, you may ignore the \u2018Can be reversed...\u2019 text on your \u2018Classic\u2019 maneuvers, and once during each of your turns you may reveal 1 Hand \u2018Classic\u2019 maneuver, choose 1- Ringside \u2018Classic\u2019 maneuver, and Bury those cards."
   },
   {
     "id": "f6c8b156-7ad4-9e44-27b1-96ba69718080",
@@ -57078,7 +57063,7 @@
     "Traits": "Unique, Permanent, WWF Classic",
     "Stun": "",
     "CardRef-Target": "*Heenan*",
-    "Card Text": "You can pack this card regardless of Superstar. You are now a Heenan Family Member. Your Managed by Bobby ‘The Brain’ Heenan is Permanent, and when looking at your Arsenal with that card, you may Bury both cards instead. When your logo is printed on this card, or your Ability or another of your Ring cards has ‘Heenan Family’ in the text, your Unique reversals are not affected by your opponent's card effects."
+    "Card Text": "You can pack this card regardless of Superstar. You are now a Heenan Family Member. Your Managed by Bobby \u2018The Brain\u2019 Heenan is Permanent, and when looking at your Arsenal with that card, you may Bury both cards instead. When your logo is printed on this card, or your Ability or another of your Ring cards has \u2018Heenan Family\u2019 in the text, your Unique reversals are not affected by your opponent's card effects."
   },
   {
     "id": "d786449c-8785-8652-567b-9dc6600e219b",
@@ -57796,7 +57781,7 @@
     "Traits": "WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Once during each of your turns, you may RFG 1 Hand card and your next card played this turn is -#F (# = total Stun Value in your Ring + 1). When playing Cartwheel, you may RFG 1 Hand card or 3 Ringside cards and then ignore ‘Set-up’ or ’non-Unique’ text. When you play Head Butt Drop as a Counter, ignore the ‘Can only be played...’ text and it is blank."
+    "Card Text": "Once during each of your turns, you may RFG 1 Hand card and your next card played this turn is -#F (# = total Stun Value in your Ring + 1). When playing Cartwheel, you may RFG 1 Hand card or 3 Ringside cards and then ignore \u2018Set-up\u2019 or \u2019non-Unique\u2019 text. When you play Head Butt Drop as a Counter, ignore the \u2018Can only be played...\u2019 text and it is blank."
   },
   {
     "id": "f42f10c8-6802-a51f-19f6-13a00eb27a64",
@@ -58084,7 +58069,7 @@
     "Traits": "Unique, WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "During your turn you may hide this card, look at your opponent╞s hand, and choose up to 2 cards; he puts 1 of the chosen cards on the bottom of his Arsenal, and the other chosen card on the top of his Arsenal."
+    "Card Text": "During your turn you may hide this card, look at your opponent\u255es hand, and choose up to 2 cards; he puts 1 of the chosen cards on the bottom of his Arsenal, and the other chosen card on the top of his Arsenal."
   },
   {
     "id": "60c6aaab-4f61-7c01-010d-61ae4fa223fa",
@@ -58527,7 +58512,7 @@
     "Traits": "WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When you reveal a Hand ‘Classic’ maneuver for Classic Competitor or when your ‘Classic’ maneuver is unsuccessful, draw 1- card and Bury 1- additional Ringside card. When your opponent has 5+ Ring reversal cards, your ’Classic’ maneuvers are -#F (# = the number of his Ring reversal cards.)"
+    "Card Text": "When you reveal a Hand \u2018Classic\u2019 maneuver for Classic Competitor or when your \u2018Classic\u2019 maneuver is unsuccessful, draw 1- card and Bury 1- additional Ringside card. When your opponent has 5+ Ring reversal cards, your \u2019Classic\u2019 maneuvers are -#F (# = the number of his Ring reversal cards.)"
   },
   {
     "id": "7a243c6d-a716-1b53-4fef-863211543f7b",
@@ -59229,7 +59214,7 @@
     "Traits": "WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Hidden: when your card with 'Heenan Family' in the title or text is successful, you may reveal this card and change your Enforcer. ≥ Hand Size: +7 Superstar Value: +3 Superstar Ability: +Your 'Neck Breaker' Grapples are -5F. ≥ Hand Size: +8 Superstar Value: +8 Superstar Ability: +During your opponent's turn, when they successfully play a second card and damage is applied, you may Bury 1 Hand card, draw 1, they discard 1, and end the turn. ≥ Hand Size: +4 Superstar Value: +2 Superstar Ability: +Before your Draw Segment, you may look at 1 random card in your opponent's hand, and you may shuffle."
+    "Card Text": "Hidden: when your card with 'Heenan Family' in the title or text is successful, you may reveal this card and change your Enforcer. \u2265 Hand Size: +7 Superstar Value: +3 Superstar Ability: +Your 'Neck Breaker' Grapples are -5F. \u2265 Hand Size: +8 Superstar Value: +8 Superstar Ability: +During your opponent's turn, when they successfully play a second card and damage is applied, you may Bury 1 Hand card, draw 1, they discard 1, and end the turn. \u2265 Hand Size: +4 Superstar Value: +2 Superstar Ability: +Before your Draw Segment, you may look at 1 random card in your opponent's hand, and you may shuffle."
   },
   {
     "id": "e9745ea5-a431-2199-9c07-480ab8a87c48",
@@ -60395,7 +60380,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be packed by Doink or when packing Back to Basics. Arsenal/Ringside Search 10 non-Trademark-Finisher ’Dynamic’ maneuvers and put them under this card; if you do not, hide this card. At the end of the Pre-match Phase, put 1 card under this card in your hand, and shuffle the other cards into your Arsenal. Your Pre-match Capacity is +1 for each The Luck of The Draw card in your Ring greater than 1. Your non-Unique ’Dynamic’ maneuvers are -3F and +2D. When you have lower Fortitude, your opponent is considered to have double the number of reversals in his Ring for your effects with ‘dynamic’ in the title or text."
+    "Card Text": "Cannot be packed by Doink or when packing Back to Basics. Arsenal/Ringside Search 10 non-Trademark-Finisher \u2019Dynamic\u2019 maneuvers and put them under this card; if you do not, hide this card. At the end of the Pre-match Phase, put 1 card under this card in your hand, and shuffle the other cards into your Arsenal. Your Pre-match Capacity is +1 for each The Luck of The Draw card in your Ring greater than 1. Your non-Unique \u2019Dynamic\u2019 maneuvers are -3F and +2D. When you have lower Fortitude, your opponent is considered to have double the number of reversals in his Ring for your effects with \u2018dynamic\u2019 in the title or text."
   },
   {
     "id": "cd28b0be-07dc-6514-a59d-ae1daf3811d5",
@@ -62636,7 +62621,7 @@
     "Traits": "Universally Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, your Backed by SmackDown! GM Vickie Guerrero is now Superstar-specific; when this card is in your Ring and you do not have a Corner in your Ring, ignore the 'non-Superstar-specific' text on your Backed by SmackDown! GM Vickie Guerrero. At the end of the Pre-match phase, you may search for 1 non-Unique maneuver, reveal it, put it in your hand, and shuffle. Your maneuvers are -2F for each card with µinterfere' in the title in your Ring."
+    "Card Text": "When packing this card, your Backed by SmackDown! GM Vickie Guerrero is now Superstar-specific; when this card is in your Ring and you do not have a Corner in your Ring, ignore the 'non-Superstar-specific' text on your Backed by SmackDown! GM Vickie Guerrero. At the end of the Pre-match phase, you may search for 1 non-Unique maneuver, reveal it, put it in your hand, and shuffle. Your maneuvers are -2F for each card with \u00b5interfere' in the title in your Ring."
   },
   {
     "id": "e0f41bd8-1bcc-3576-30b6-8a5ac8dd498d",
@@ -63171,7 +63156,7 @@
     "Traits": "Unique, Heel",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Reverse any non-Unique card, any card with µwhat' in the title, or any Activated Card Effect from a card with µwhat' in the title. Your opponent discards 2 cards."
+    "Card Text": "Reverse any non-Unique card, any card with \u00b5what' in the title, or any Activated Card Effect from a card with \u00b5what' in the title. Your opponent discards 2 cards."
   },
   {
     "id": "69eb4706-6c6f-9598-7859-74f5d25b60a2",
@@ -63860,7 +63845,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "≥ Hand Size: +6 Superstar Value: +3 Superstar Ability: +Once during any player's turn, when you would draw any number of cards, you may instead put the same number of non-reversal cards from your Ringside on the bottom of your Arsenal. ≥ Hand Size: +6 Superstar Value: +2 Superstar Ability: +Once during each of your turns, you may overturn 3 cards and then put 1 High Risk from your Ringside into your hand. Once during each of your turns, you may discard 1 High Risk and then put 3 cards from your Ringside on the bottom of your Arsenal. ≥ Hand Size: +5 Superstar Value: +4 Superstar Ability: +During your opponent's turn, whenever he successfully plays an action card, draw 1 card and he discards 1 card."
+    "Card Text": "\u2265 Hand Size: +6 Superstar Value: +3 Superstar Ability: +Once during any player's turn, when you would draw any number of cards, you may instead put the same number of non-reversal cards from your Ringside on the bottom of your Arsenal. \u2265 Hand Size: +6 Superstar Value: +2 Superstar Ability: +Once during each of your turns, you may overturn 3 cards and then put 1 High Risk from your Ringside into your hand. Once during each of your turns, you may discard 1 High Risk and then put 3 cards from your Ringside on the bottom of your Arsenal. \u2265 Hand Size: +5 Superstar Value: +4 Superstar Ability: +During your opponent's turn, whenever he successfully plays an action card, draw 1 card and he discards 1 card."
   },
   {
     "id": "089194a2-5c11-4b16-5dd2-66549f4e732d",
@@ -64241,7 +64226,7 @@
     "Traits": "Legend",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Legend Superstar Ability: Your Feud cards are now Active Events and can be played during the Feud phase. Once during each of your turns, you may play 1 Ringside card as if from hand (or Backlash if applicable); if it is unsuccessful, put 1 Ringside printed Feud into your Ring, and resolve its text as though it were just played, ignoring ‘At the end of the Pre-match phase’. You can pack Unique Chris Jericho Arsenal and Mid-match cards, and I'm Better Than You.  You cannot pack Corners, Managers, Run-ins, Back to Basics or First Of All."
+    "Card Text": "Legend Superstar Ability: Your Feud cards are now Active Events and can be played during the Feud phase. Once during each of your turns, you may play 1 Ringside card as if from hand (or Backlash if applicable); if it is unsuccessful, put 1 Ringside printed Feud into your Ring, and resolve its text as though it were just played, ignoring \u2018At the end of the Pre-match phase\u2019. You can pack Unique Chris Jericho Arsenal and Mid-match cards, and I'm Better Than You.  You cannot pack Corners, Managers, Run-ins, Back to Basics or First Of All."
   },
   {
     "id": "74c82238-3c5a-1e48-8f8c-46b0559b0138",
@@ -64256,7 +64241,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Your opponent cannot search your Arsenal or look at your Backlash for your printed Feuds. Your non-reversal Superstar-specific cards are considered to be titled ‘STF’, ‘DDT’, and ‘Suplex’ for your printed Feuds. Replace ‘your Superstar Ability’ with ‘your Superstar-specific cards’ on your Happy You're Here, Happier You're Gone."
+    "Card Text": "Your opponent cannot search your Arsenal or look at your Backlash for your printed Feuds. Your non-reversal Superstar-specific cards are considered to be titled \u2018STF\u2019, \u2018DDT\u2019, and \u2018Suplex\u2019 for your printed Feuds. Replace \u2018your Superstar Ability\u2019 with \u2018your Superstar-specific cards\u2019 on your Happy You're Here, Happier You're Gone."
   },
   {
     "id": "0ce79655-1d25-6898-35dc-031915ef6665",
@@ -64654,7 +64639,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Once during each of your opponent╞s turns when he successfully plays a card, you may turn 1 2D+ card in your Ring face-down, and his card is -2D. Once during each of your turns, you may overturn 2 cards and turn 1 card in your Ring face-up, then put up to 1 card that is either Scotty 2 Hotty-specific or has exactly two words in the title from your Ringside into your hand."
+    "Card Text": "Once during each of your opponent\u255es turns when he successfully plays a card, you may turn 1 2D+ card in your Ring face-down, and his card is -2D. Once during each of your turns, you may overturn 2 cards and turn 1 card in your Ring face-up, then put up to 1 card that is either Scotty 2 Hotty-specific or has exactly two words in the title from your Ringside into your hand."
   },
   {
     "id": "bf2eb615-42e8-56cd-1d21-f74fc82a786b",
@@ -66585,7 +66570,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "*This card is always considered revealed. Cannot be packed when packing non-Superstar-specific cards with ‘diva’ in the text. New Ability: Once during each of your turns, you may overturn 3 cards and Bury 1 Hand card, 1- Ringside card, and 1- RFG non-hybrid Reversal card, and then draw 1. When your Superstar-specific card is successful, you may Arsenal/Ringside Search COBRA! Replace ‘Antic’ with ‘Unique card’ on your Superstar-specific cards.’"
+    "Card Text": "*This card is always considered revealed. Cannot be packed when packing non-Superstar-specific cards with \u2018diva\u2019 in the text. New Ability: Once during each of your turns, you may overturn 3 cards and Bury 1 Hand card, 1- Ringside card, and 1- RFG non-hybrid Reversal card, and then draw 1. When your Superstar-specific card is successful, you may Arsenal/Ringside Search COBRA! Replace \u2018Antic\u2019 with \u2018Unique card\u2019 on your Superstar-specific cards.\u2019"
   },
   {
     "id": "30f237ab-043d-2acb-3258-16ec12332e32",
@@ -67101,7 +67086,7 @@
     "Traits": "Unique, Permanent, WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be blanked.  When this card is in your Backlash and your opponent plays Bitter Rivals, you may put this card and up to 1 ’Intercontinental’ Title Belt from your Backlash into your Ring. Your non-Unique maneuvers without ‘reversed’ in the text are +3D. ACE: During your turn, you may put this card into your Ringside and then shuffle 3- Ringside cards into your Arsenal and Ringside Search 1- 5F- maneuver."
+    "Card Text": "Cannot be blanked.  When this card is in your Backlash and your opponent plays Bitter Rivals, you may put this card and up to 1 \u2019Intercontinental\u2019 Title Belt from your Backlash into your Ring. Your non-Unique maneuvers without \u2018reversed\u2019 in the text are +3D. ACE: During your turn, you may put this card into your Ringside and then shuffle 3- Ringside cards into your Arsenal and Ringside Search 1- 5F- maneuver."
   },
   {
     "id": "d2b30dbb-775b-a4ba-014c-1dc52a63868a",
@@ -67704,7 +67689,7 @@
     "Traits": "Universally Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Search your Arsenal for either Revolution May I Have Your Attention Please? or Revolution αAnd I Quote, reveal it, put it into your hand and shuffle. You may put this card from your Ring into your Ringside to reverse a non-Superstar-specific Unique antic; when it is the first card played this turn, your opponent overturns 3 less cards for not playing a maneuver."
+    "Card Text": "Search your Arsenal for either Revolution May I Have Your Attention Please? or Revolution \u03b1And I Quote, reveal it, put it into your hand and shuffle. You may put this card from your Ring into your Ringside to reverse a non-Superstar-specific Unique antic; when it is the first card played this turn, your opponent overturns 3 less cards for not playing a maneuver."
   },
   {
     "id": "c39e200e-4c7a-a679-7bb5-667fc32d562c",
@@ -68790,22 +68775,6 @@
     "Card Text": "You have equal or lower Fortitude: your first maneuver with blank text played each turn cannot be reversed by hybrid cards. You cannot pack Corners or Factions, regardless of card text."
   },
   {
-    "id": "a75f5f69-5533-21d6-316b-0f14f64b42c3",
-    "name": "Revolution The World's Strongest Man",
-    "size": "Wide",
-    "Format": "VirtualRevolution",
-    "Fortitude": "",
-    "Damage": "",
-    "Hand Size": "",
-    "SSV": "",
-    "Type": "Pre-match: Event",
-    "SS Logos": "Mark Henry",
-    "Traits": "Unique",
-    "Stun": "",
-    "CardRef-Target": "",
-    "Card Text": "Superstar Value +3  Your Colossals are -1F and +1D for each maneuver with Target 'Back' in your Ring."
-  },
-  {
     "id": "e9ccf6ca-891e-85ed-9c4e-2d0f927f7226",
     "name": "Revolution World's Strongest Splash",
     "size": "Wide",
@@ -68864,21 +68833,6 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "chest",
-    "Card Text": ""
-  },
-  {
-    "id": "0449f7d6-6f74-2aaf-4272-66bb87bc871c",
-    "name": "Revolution The World's Strongest Slam",
-    "Format": "VirtualRevolution",
-    "Fortitude": "40",
-    "Damage": "20",
-    "Hand Size": "",
-    "SSV": "",
-    "Type": "Trademark: Colossal",
-    "SS Logos": "Mark Henry",
-    "Traits": "Unique",
-    "Stun": "",
-    "CardRef-Target": "Back",
     "Card Text": ""
   },
   {
@@ -70835,7 +70789,7 @@
     "Traits": "Unique, WCW, Permanent",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be blanked. Can be played during any Pre-match Phase. Your Vader-specific maneuvers and your non-Multi ’Clothesline’, ‘Lariat’, ‘Punch’, or ‘Slam’ maneuvers are also considered to have ‘Power’ in the title. Your ‘Power’ maneuvers are -2F for each ‘Power’ maneuver in your Ringside. Once during each of your opponent's turns, when you discard 1 ’Power’ card for the effect of a reversal card, it is considered to be 2 cards. "
+    "Card Text": "Cannot be blanked. Can be played during any Pre-match Phase. Your Vader-specific maneuvers and your non-Multi \u2019Clothesline\u2019, \u2018Lariat\u2019, \u2018Punch\u2019, or \u2018Slam\u2019 maneuvers are also considered to have \u2018Power\u2019 in the title. Your \u2018Power\u2019 maneuvers are -2F for each \u2018Power\u2019 maneuver in your Ringside. Once during each of your opponent's turns, when you discard 1 \u2019Power\u2019 card for the effect of a reversal card, it is considered to be 2 cards. "
   },
   {
     "id": "43eb89ab-349f-2630-8420-0c60d35b9b68",
@@ -72372,21 +72326,6 @@
     "Card Text": "Search your Arsenal for up to 1 non-Superstar-specific non-unique maneuver that is Chain, Heat, Volley, Face, Heel, or has 'blindside', 'precision', or 'technical' in the title; reveal it, put it under this card, and shuffle. During your turn, you may play a non-Multi card under this card as if from hand; if you do, put this card into your Ringside. ACE: When there is a card under this card, you may put this card into your Ringside to reverse a card with the same title as the card under this card. ACE: During your turn, when there are no cards under this card, you may overturn 1 card and then put this card on top of a Pre-match card in your opponent's Ring. When a Pre-match card is under this card, it is not considered to be in your Ring, your cards are -2F and at the end of your turn, put this card in your opponent's Ringside."
   },
   {
-    "id": "9968dbdd-7c5d-2b86-27f9-559a72c050bf",
-    "name": "PRO Hornswoggle",
-    "Format": "VirtualClassic",
-    "Fortitude": "",
-    "Damage": "",
-    "Hand Size": "",
-    "SSV": "",
-    "Type": "Backstage Card",
-    "SS Logos": "",
-    "Traits": "PRO",
-    "Stun": "",
-    "CardRef-Target": "",
-    "Card Text": "Can only be packed by a Rookie. During your opponent's turn, when you have 10- cards in Arsenal, you may put this card from your Backstage into your Ring to completely reverse any non-Trademark Finisher maneuver; when you are not Titus O'Neil, discard cards until you have no more than 3 cards in hand. Cannot be moved from your Ring."
-  },
-  {
     "id": "78278cb6-92c6-6c5d-5b27-9acb848f77cb",
     "name": "PRO Zack Ryder",
     "Format": "VirtualClassic",
@@ -72459,7 +72398,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "All players' Stun the Crowd and Straight-Shootin' Interview cards are Active, and are not considered to have ‘Shoot’ in the title for their cards' effects. Any player's Superstar-specific cards do not count for ‘Your Town’ or The Boogeyman's Ability, and when they have greater Fortitude, their Virtual maneuvers are not affected by their There is No Escape. When any player is Doink, ’Shenanigans’ cards are not considered to be in his Backstage for his Ability."
+    "Card Text": "All players' Stun the Crowd and Straight-Shootin' Interview cards are Active, and are not considered to have \u2018Shoot\u2019 in the title for their cards' effects. Any player's Superstar-specific cards do not count for \u2018Your Town\u2019 or The Boogeyman's Ability, and when they have greater Fortitude, their Virtual maneuvers are not affected by their There is No Escape. When any player is Doink, \u2019Shenanigans\u2019 cards are not considered to be in his Backstage for his Ability."
   },
   {
     "id": "73588b14-1c6a-5e31-7edd-4f18717529d7",
@@ -80734,22 +80673,6 @@
     "Card Text": "When playing a Superstar-specific card, you may discard 1 card: ignore the Follow-up, Requirement, or 'Can only be played after...' text. You can pack Chris Jericho and Big Show-specific maneuvers and non-Backlash antics as if they are not Raw or Smackdown. You cannot pack Corners."
   },
   {
-    "id": "e734f163-2cd1-5b36-976a-517d5aa971d4",
-    "name": "Revolution Best in the World at What We Do",
-    "size": "Wide",
-    "Format": "VirtualRevolution",
-    "Fortitude": "",
-    "Damage": "",
-    "Hand Size": "",
-    "SSV": "",
-    "Type": "Pre-match: Event",
-    "SS Logos": "JeriShow",
-    "Traits": "Unique, Permanent",
-    "Stun": "",
-    "CardRef-Target": "",
-    "Card Text": "Can only be packed by a Revolution Superstar. Once during each of your turns you may discard 1 Superstar-specific card: your opponent discards 1 random card. When your Superstar-specific card is unsuccessful: put up to 1 non-Unique non-hybrid maneuver from your Ringside into your hand."
-  },
-  {
     "id": "783ac216-18e5-763a-5750-18e9f6200547",
     "name": "Revolution Crank the Walls Down",
     "size": "Wide",
@@ -81132,7 +81055,7 @@
     "Traits": "Unique, ECW",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Antic: -7F and shuffle up to 2 cards with Target 'chest' and/or 'head' from your Ringside into your Arsenal. When a Core has dealt its Damage to you and is not reversed: you may put this card into your Ringside and end your opponent╞s turn."
+    "Card Text": "Antic: -7F and shuffle up to 2 cards with Target 'chest' and/or 'head' from your Ringside into your Arsenal. When a Core has dealt its Damage to you and is not reversed: you may put this card into your Ringside and end your opponent\u255es turn."
   },
   {
     "id": "4eaccebd-372d-4afa-944b-e1a8c0f4178e",
@@ -81698,7 +81621,7 @@
     "Traits": "Unique, NXT",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Reverse any non-maneuver card. Look at your opponent's hand, choose 3- cards, he shuffles them into his Arsenal and draws that many. When this card is in your Ring, replace ‘hand’ and ‘Arsenal’ with ‘hand or Arsenal’ in your Ability."
+    "Card Text": "Reverse any non-maneuver card. Look at your opponent's hand, choose 3- cards, he shuffles them into his Arsenal and draws that many. When this card is in your Ring, replace \u2018hand\u2019 and \u2018Arsenal\u2019 with \u2018hand or Arsenal\u2019 in your Ability."
   },
   {
     "id": "ad3afd5e-5959-3c2d-6463-943f306458d7",
@@ -82215,7 +82138,7 @@
     "Traits": "Unique",
     "Stun": "3",
     "CardRef-Target": "",
-    "Card Text": "As a maneuver, this card is -10F and cannot be reversed from Backlash. As an action, this card is F: 0 and your opponent cannot respond to it; shuffle this card into your Arsenal, and you may put The Prince of Dark Matter from your Ringside or cards removed from the game into your Backlash. As a reversal, reverse any card with µdraw╞ or µshuffle╞ in the text. When this card is in your Ring, your Ability gains: 'Your opponent randomly reveals 1 card drawn for his Draw Segment.'"
+    "Card Text": "As a maneuver, this card is -10F and cannot be reversed from Backlash. As an action, this card is F: 0 and your opponent cannot respond to it; shuffle this card into your Arsenal, and you may put The Prince of Dark Matter from your Ringside or cards removed from the game into your Backlash. As a reversal, reverse any card with \u00b5draw\u255e or \u00b5shuffle\u255e in the text. When this card is in your Ring, your Ability gains: 'Your opponent randomly reveals 1 card drawn for his Draw Segment.'"
   },
   {
     "id": "ae603efb-5d4a-186a-3969-dbfc3b8d678d",
@@ -82260,7 +82183,7 @@
     "Traits": "Unique, Multi",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Ignore 'completely' text on your opponent╞s reversals to this card. Promo: 5, reveal the card chosen, and it is considered to be chosen for your Ability for The Interdimensional Oddity. Shuffle up to 5 cards from your Ringside into your Arsenal."
+    "Card Text": "Ignore 'completely' text on your opponent\u255es reversals to this card. Promo: 5, reveal the card chosen, and it is considered to be chosen for your Ability for The Interdimensional Oddity. Shuffle up to 5 cards from your Ringside into your Arsenal."
   },
   {
     "id": "7f5aa124-4e1c-407e-4f83-ddd9d6234b26",
@@ -82735,7 +82658,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be packed by a Female Superstar. Cannot be packed by a GM. When packing this card, you are not a Diva and cannot pack cards as if you were a Diva. You may ignore card effects from your opponent╞s non-Superstar-specific cards with 'female' or 'diva' in the text that would move cards from your hand, reveal your hand, or allow him to search your Arsenal. When played as a Counter, your maneuvers without µreversed╞ in the text are -2F."
+    "Card Text": "Can only be packed by a Female Superstar. Cannot be packed by a GM. When packing this card, you are not a Diva and cannot pack cards as if you were a Diva. You may ignore card effects from your opponent\u255es non-Superstar-specific cards with 'female' or 'diva' in the text that would move cards from your hand, reveal your hand, or allow him to search your Arsenal. When played as a Counter, your maneuvers without \u00b5reversed\u255e in the text are -2F."
   },
   {
     "id": "a985350b-32db-2cad-9a8b-b3f572193fed",
@@ -82796,7 +82719,7 @@
     "Traits": "Unique, Permanent, WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be blanked. During your opponent╞s turn, when he plays a non-Superstar-specific non-maneuver card, he randomly discards 1 card. During your turn, when you play a non-Unique non-maneuver card, discard 1 card."
+    "Card Text": "Cannot be blanked. During your opponent\u255es turn, when he plays a non-Superstar-specific non-maneuver card, he randomly discards 1 card. During your turn, when you play a non-Unique non-maneuver card, discard 1 card."
   },
   {
     "id": "e7487960-280e-8f15-9405-dbe0c10311a8",
@@ -84668,7 +84591,7 @@
     "Traits": "Unique, Multi",
     "Stun": "2",
     "CardRef-Target": "",
-    "Card Text": "You may search your Arsenal, Ringside, and cards removed from the game for Maintain Hold, reveal it, put it in your hand, and shuffle. Remove up to 2 non-Backlash cards in your opponent╞s Ring from the game."
+    "Card Text": "You may search your Arsenal, Ringside, and cards removed from the game for Maintain Hold, reveal it, put it in your hand, and shuffle. Remove up to 2 non-Backlash cards in your opponent\u255es Ring from the game."
   },
   {
     "id": "70dedceb-4802-151a-81ab-deed852b3f3e",
@@ -85431,7 +85354,7 @@
     "Traits": "Unique, Permanent",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be packed by Dude Love. Cannot be blanked, and can be played during any Pre-match phase. Your opponent╞s maneuvers are not affected by damage modifiers that increase damage, ignore the 'Can only be played...' text of Three Faces of Foley, and your Dude Love-specific actions are Multi. ACE: When he draws a card for your Ability, you may overturn 1 card and draw 1 card."
+    "Card Text": "Can only be packed by Dude Love. Cannot be blanked, and can be played during any Pre-match phase. Your opponent\u255es maneuvers are not affected by damage modifiers that increase damage, ignore the 'Can only be played...' text of Three Faces of Foley, and your Dude Love-specific actions are Multi. ACE: When he draws a card for your Ability, you may overturn 1 card and draw 1 card."
   },
   {
     "id": "bb966825-62e2-6f50-5dfa-c514339442d7",
@@ -85461,7 +85384,7 @@
     "Traits": "Unique, RMS, NXT",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, you can pack From NXT to WWE, but you cannot pack non-Superstar-specific printed Foreign Objects. Your F:5- maneuvers without 'can only be reversed' in the text are considered F:0 and Foreign Objects for your other Rhyno-specific cards and effects. During any turn when you successfully play a maneuver with printed Stun Value, choose one: Promo: 2, put up to 1 non-reversal card from Ringside on the bottom of your Arsenal, or remove 1 card in your opponent╞s Ringside from the game."
+    "Card Text": "When packing this card, you can pack From NXT to WWE, but you cannot pack non-Superstar-specific printed Foreign Objects. Your F:5- maneuvers without 'can only be reversed' in the text are considered F:0 and Foreign Objects for your other Rhyno-specific cards and effects. During any turn when you successfully play a maneuver with printed Stun Value, choose one: Promo: 2, put up to 1 non-reversal card from Ringside on the bottom of your Arsenal, or remove 1 card in your opponent\u255es Ringside from the game."
   },
   {
     "id": "779307a0-5c94-57ae-2e93-3568dc0f925b",
@@ -86576,7 +86499,7 @@
     "Traits": "Unique, Multi",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can only be reversed by 2 reversal cards. If unsuccessful, Bury 1- random Ringside reversal. Arsenal Search 2- Chris Jericho-specific cards. Your opponent may Arsenal Search 1- cards with ‘Jericho’ in the text, the stupid idiot."
+    "Card Text": "Can only be reversed by 2 reversal cards. If unsuccessful, Bury 1- random Ringside reversal. Arsenal Search 2- Chris Jericho-specific cards. Your opponent may Arsenal Search 1- cards with \u2018Jericho\u2019 in the text, the stupid idiot."
   },
   {
     "id": "e766fd62-3f8c-5e67-6625-f9b52cd21224",
@@ -87514,7 +87437,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be reversed by hybrid reversals. As an action, shuffle up to 4 cards from your Ringside into your Arsenal and your opponent overturns 4 cards. As a reversal, completely reverse any Multi or non-maneuver card. When he has a card with µAmerica╞ or 'U.S.A.' in the title in his ring, he discards 2 random cards; when he does not, draw up to 2 cards."
+    "Card Text": "Cannot be reversed by hybrid reversals. As an action, shuffle up to 4 cards from your Ringside into your Arsenal and your opponent overturns 4 cards. As a reversal, completely reverse any Multi or non-maneuver card. When he has a card with \u00b5America\u255e or 'U.S.A.' in the title in his ring, he discards 2 random cards; when he does not, draw up to 2 cards."
   },
   {
     "id": "e507659e-3797-6f6e-2ce5-7b0f2e9e90b4",
@@ -87730,7 +87653,7 @@
     "Traits": "Unique, Permanent",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Reverse any card with 'break' in the title or any non-maneuver card. When this card is in your Ring, you may ignore effects from your opponent╞s cards with 'psychology' in the title that would prevent you from playing cards or cause you to discard cards."
+    "Card Text": "Reverse any card with 'break' in the title or any non-maneuver card. When this card is in your Ring, you may ignore effects from your opponent\u255es cards with 'psychology' in the title that would prevent you from playing cards or cause you to discard cards."
   },
   {
     "id": "b27952fe-8136-3a94-87ac-26eef96323ce",
@@ -87865,7 +87788,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When you do not have a card with 'Heyman' in the title in your Ring or Ringside, your CM Punk-specific maneuvers and actions are -5F. When you successfully play a maneuver with 'shoot' in the title or without 'reversed' in the text, you may Promo: 2. During your opponent╞s turn when you discard 2+ cards for his effects, you may then draw 2 cards."
+    "Card Text": "When you do not have a card with 'Heyman' in the title in your Ring or Ringside, your CM Punk-specific maneuvers and actions are -5F. When you successfully play a maneuver with 'shoot' in the title or without 'reversed' in the text, you may Promo: 2. During your opponent\u255es turn when you discard 2+ cards for his effects, you may then draw 2 cards."
   },
   {
     "id": "332877ed-5ab7-3ecb-7e6c-b18ed36a8b94",
@@ -87986,7 +87909,7 @@
     "Traits": "",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Your opponent╞s effects cannot reduce or blank the damage of your maneuvers, and he does not draw or search his Arsenal for the effects of his non-Superstar-specific reversals. You can pack As Big and Tough as Any Two Men (replace 'Kane' with 'Braun Strowman' in its text), No Sell Maneuver, Follow the Buzzards, and We're Here. Ignore the 'When you are packing...' text on A Revolution of the Mind. You cannot pack Face, Heel, or BASH cards, or Corners."
+    "Card Text": "Your opponent\u255es effects cannot reduce or blank the damage of your maneuvers, and he does not draw or search his Arsenal for the effects of his non-Superstar-specific reversals. You can pack As Big and Tough as Any Two Men (replace 'Kane' with 'Braun Strowman' in its text), No Sell Maneuver, Follow the Buzzards, and We're Here. Ignore the 'When you are packing...' text on A Revolution of the Mind. You cannot pack Face, Heel, or BASH cards, or Corners."
   },
   {
     "id": "6f6a7cbf-a205-3f2b-48d0-fd44733090d6",
@@ -88670,7 +88593,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Your maneuvers are considered Chain for your card effects. During your opponent╞s turn, discard 1 less card for the Chain trait. When Pin-Up Strong is in your Backstage Area and you discard for your Ability, you may Promo: 2. When Pin-Up Strong is in your Ring and you discard any number of cards for the effects of your opponent╞s reversals, draw up to that number of cards."
+    "Card Text": "Your maneuvers are considered Chain for your card effects. During your opponent\u255es turn, discard 1 less card for the Chain trait. When Pin-Up Strong is in your Backstage Area and you discard for your Ability, you may Promo: 2. When Pin-Up Strong is in your Ring and you discard any number of cards for the effects of your opponent\u255es reversals, draw up to that number of cards."
   },
   {
     "id": "e63ddbf7-46a3-1240-6521-205573aa5768",
@@ -89752,7 +89675,7 @@
     "Traits": "Unique, RMS, NXT",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Ignore your opponent’s effects (except from cards with 'Shenanigans' in the title) that would prevent you from playing Pre-match cards, ignore the 'You cannot play...' text on WWE Homecoming, and when your non-Backlash effect would cause you to put Backlash cards into your Ringside, put them in your Backlash instead. When your card is unsuccessful and you have 10- cards in Arsenal, you may shuffle up to 2 non-Unique non-reversal cards from Ringside into your Arsenal."
+    "Card Text": "Ignore your opponent\u2019s effects (except from cards with 'Shenanigans' in the title) that would prevent you from playing Pre-match cards, ignore the 'You cannot play...' text on WWE Homecoming, and when your non-Backlash effect would cause you to put Backlash cards into your Ringside, put them in your Backlash instead. When your card is unsuccessful and you have 10- cards in Arsenal, you may shuffle up to 2 non-Unique non-reversal cards from Ringside into your Arsenal."
   },
   {
     "id": "fff52122-77d1-9699-2ff1-02a979c4040a",
@@ -90833,7 +90756,7 @@
     "Traits": "NXT",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Your printed D:7- maneuvers without 'reversed' in the text are -5F, cannot be reversed by cards with µReach' in the title, and when successfully played you may Promo: 2. You can pack up to 3 Hair Pull and 3 Choke Hold cards in your Backstage Area, as if they are not Heel, and you can pack Total Divas."
+    "Card Text": "Your printed D:7- maneuvers without 'reversed' in the text are -5F, cannot be reversed by cards with \u00b5Reach' in the title, and when successfully played you may Promo: 2. You can pack up to 3 Hair Pull and 3 Choke Hold cards in your Backstage Area, as if they are not Heel, and you can pack Total Divas."
   },
   {
     "id": "144c23e7-668c-7429-3d43-399ce1410300",
@@ -92480,7 +92403,7 @@
     "Traits": "Unique, Multi, Heat",
     "Stun": "1",
     "CardRef-Target": "",
-    "Card Text": "Can only be played after a Heat card or as a Counter (Heat reversal). When played after WWE Stands For... or as a Counter (WWE Stands For…), this card is +5D. Shuffle 5 cards from your Ringside into your Arsenal."
+    "Card Text": "Can only be played after a Heat card or as a Counter (Heat reversal). When played after WWE Stands For... or as a Counter (WWE Stands For\u2026), this card is +5D. Shuffle 5 cards from your Ringside into your Arsenal."
   },
   {
     "id": "3125e925-8fab-4486-bd80-ad08433e87f9",
@@ -92495,7 +92418,7 @@
     "Traits": "Unique",
     "Stun": "1",
     "CardRef-Target": "",
-    "Card Text": "As a maneuver, this card is F:7. Your opponent overturns cards equal to the number of non-Heat maneuvers in his Ring. As a reversal, reverse any card with ‘Can only be played...’ text, or played after Irish Whip or Throw Into the Corner Turnbuckle."
+    "Card Text": "As a maneuver, this card is F:7. Your opponent overturns cards equal to the number of non-Heat maneuvers in his Ring. As a reversal, reverse any card with \u2018Can only be played...\u2019 text, or played after Irish Whip or Throw Into the Corner Turnbuckle."
   },
   {
     "id": "fe244775-3f36-4260-b0a9-213c4c7a0fbf",
@@ -92590,7 +92513,7 @@
   },
   {
     "id": "193c7e93-d568-4e51-8d51-bdb5602da05a",
-    "name": "I Don’t Give a Damn About My Reputation",
+    "name": "I Don\u2019t Give a Damn About My Reputation",
     "size": "Wide",
     "Format": "VirtualClassic",
     "Fortitude": "10",
@@ -92602,7 +92525,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Your opponent cannot respond to this card. # is equal to both players' combined Superstar Values. When your Fortitude is equal or higher, your next maneuver this turn is +#D and can only be reversed by Unique reversals. When your Fortitude is equal or lower, your next maneuver is -#F and can only be reversed from Arsenal. When this card is in your Ring and you successfully play a maneuver, put this card into your Backstage. While this card is in your Backstage, your Superstar Value is 0 and your opponent’s non-Superstar-specific cards with ‘Superstar Value’ in the text are blank."
+    "Card Text": "Your opponent cannot respond to this card. # is equal to both players' combined Superstar Values. When your Fortitude is equal or higher, your next maneuver this turn is +#D and can only be reversed by Unique reversals. When your Fortitude is equal or lower, your next maneuver is -#F and can only be reversed from Arsenal. When this card is in your Ring and you successfully play a maneuver, put this card into your Backstage. While this card is in your Backstage, your Superstar Value is 0 and your opponent\u2019s non-Superstar-specific cards with \u2018Superstar Value\u2019 in the text are blank."
   },
   {
     "id": "428e2dd4-f14d-4b02-95fc-a43a08aada97",
@@ -92621,7 +92544,7 @@
   },
   {
     "id": "9395efa8-48fd-441a-b7a6-b186e77f84c6",
-    "name": "The Piper’s Pit",
+    "name": "The Piper\u2019s Pit",
     "Format": "VirtualClassic",
     "Fortitude": "20",
     "Damage": "15",
@@ -92651,7 +92574,7 @@
   },
   {
     "id": "f590aa0c-319f-4f2c-874d-6d4eccc802f8",
-    "name": "Rousey’s Flurry of Punches",
+    "name": "Rousey\u2019s Flurry of Punches",
     "Format": "VirtualClassic",
     "Fortitude": "10",
     "Damage": "6",
@@ -92666,7 +92589,7 @@
   },
   {
     "id": "103ab27d-2bdc-4497-92d2-790f15eadea7",
-    "name": "Rousey’s Series of Arm Drags",
+    "name": "Rousey\u2019s Series of Arm Drags",
     "Format": "VirtualClassic",
     "Fortitude": "0",
     "Damage": "5",
@@ -92707,7 +92630,7 @@
     "Traits": "Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Choose one: Shuffle up to 8 cards from your Ringside into your Arsenal, Arsenal Search 1 non-Superstar-specific maneuver with ‘arm’ in the title or draw up to 4 cards. When your next card played this turn is a Grapple, Submission, or Trademark Finisher with ‘arm’ in the title, it is +5D and reversals to that card are +25F."
+    "Card Text": "Choose one: Shuffle up to 8 cards from your Ringside into your Arsenal, Arsenal Search 1 non-Superstar-specific maneuver with \u2018arm\u2019 in the title or draw up to 4 cards. When your next card played this turn is a Grapple, Submission, or Trademark Finisher with \u2018arm\u2019 in the title, it is +5D and reversals to that card are +25F."
   },
   {
     "id": "f4824341-6e78-4117-a850-88e6a54fa87f",
@@ -93166,7 +93089,7 @@
   },
   {
     "id": "7c36cae5-6e2f-45a2-8daa-d8320d29c7c9",
-    "name": "Dawson’s Cradle DDT",
+    "name": "Dawson\u2019s Cradle DDT",
     "Format": "VirtualClassic",
     "Fortitude": "10",
     "Damage": "10",
@@ -93181,7 +93104,7 @@
   },
   {
     "id": "f2f83c63-7146-4b07-88eb-9c9c9210e5ae",
-    "name": "Dash’s Inverted Figure Four",
+    "name": "Dash\u2019s Inverted Figure Four",
     "Format": "VirtualClassic",
     "Fortitude": "15",
     "Damage": "10",
@@ -93297,7 +93220,7 @@
     "Traits": "Unique, RMS, NXT",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, you may pack up to 1 Chain Reaction, 1 Spontaneous Combustion, 1 The Opening Volley and, 1 Technically Sound and Brutal in your Backstage. They are Unique and Superstar-specific. At the end of the Pre-match phase you may put those cards into your Ring. Your ’Technical’ and ‘Dynamic’ maneuvers are considered to have both ‘Dynamic’ and ‘Technical’ in the title."
+    "Card Text": "When packing this card, you may pack up to 1 Chain Reaction, 1 Spontaneous Combustion, 1 The Opening Volley and, 1 Technically Sound and Brutal in your Backstage. They are Unique and Superstar-specific. At the end of the Pre-match phase you may put those cards into your Ring. Your \u2019Technical\u2019 and \u2018Dynamic\u2019 maneuvers are considered to have both \u2018Dynamic\u2019 and \u2018Technical\u2019 in the title."
   },
   {
     "id": "42475419-fdef-43a0-8760-50730f6a7044",
@@ -93530,7 +93453,7 @@
   },
   {
     "id": "e1c28365-044b-43b3-ba67-1b7c9cb6c186",
-    "name": "This Is The Man’s World",
+    "name": "This Is The Man\u2019s World",
     "size": "Wide",
     "Format": "VirtualClassic",
     "Fortitude": "0",
@@ -93542,11 +93465,11 @@
     "Traits": "Unique, Permanent",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can be played during the Venue phase. Your Superstar-specific maneuvers are considered to have ‘precision’ in the title for your Superstar-specific card effects. When your opponent’s card is unsuccessful, you may put To Be the Man, You've Got to Beat the Man! from your Backlash into your Ring. You cannot have more than 1 copy of that card in your Ring, it does not take up a slot, it is Permanent and replace '10' with 'higher Fortitude or 10.'"
+    "Card Text": "Can be played during the Venue phase. Your Superstar-specific maneuvers are considered to have \u2018precision\u2019 in the title for your Superstar-specific card effects. When your opponent\u2019s card is unsuccessful, you may put To Be the Man, You've Got to Beat the Man! from your Backlash into your Ring. You cannot have more than 1 copy of that card in your Ring, it does not take up a slot, it is Permanent and replace '10' with 'higher Fortitude or 10.'"
   },
   {
     "id": "ea08b1d7-7367-40ed-91fc-65d3358234ee",
-    "name": "WHO’S THE MAN?!?",
+    "name": "WHO\u2019S THE MAN?!?",
     "size": "Wide",
     "Format": "VirtualClassic",
     "Fortitude": "6",
@@ -93588,7 +93511,7 @@
     "Traits": "Unique, Multi",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "-5F for each Title Belt in your Ring (maximum -10F). Look at your opponent’s hand, choose 2 cards for each Title Belt in your Ring and he discards them. When you have no Title Belt in your Ring, shuffle 15 cards from your Ringside into your Arsenal."
+    "Card Text": "-5F for each Title Belt in your Ring (maximum -10F). Look at your opponent\u2019s hand, choose 2 cards for each Title Belt in your Ring and he discards them. When you have no Title Belt in your Ring, shuffle 15 cards from your Ringside into your Arsenal."
   },
   {
     "id": "4c746517-dab3-405c-8b7c-b94a8134c87f",
@@ -93649,7 +93572,7 @@
     "Traits": "Active, Throwback",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "At the end of the Pre-match phase Promo: 4 and remove the cards not chosen from the game. When this card is in your Ring, your opponent’s printed Superstar-specific non-Trademark Finisher hybrid reversals do no more than 5D."
+    "Card Text": "At the end of the Pre-match phase Promo: 4 and remove the cards not chosen from the game. When this card is in your Ring, your opponent\u2019s printed Superstar-specific non-Trademark Finisher hybrid reversals do no more than 5D."
   },
   {
     "id": "50003806-07ff-4c9e-a23e-9cac9301f08b",
@@ -93679,7 +93602,7 @@
     "Traits": "WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, you are a Tag Team, and you may pack High Flying Style and Classic Teamwork. ≥ Hand Size: +7 Superstar Value: +2 Superstar Ability: + When your first maneuver played each turn is a printed non-Backlash 2D+ Grapple maneuver, you may also immediately play a printed 9D- High Risk from your Ringside; it is blank and ignore the 'Can only be played...' text. Unless both maneuvers are reversed when played, both are successfully played, and after damage is applied, end your turn. ≥ Hand Size: +7 Superstar Value: +3 Superstar Ability: +Your first maneuver played each turn without 'reversed' in the text is considered Chain and your Fortitude rating is considered +3 when playing it."
+    "Card Text": "When packing this card, you are a Tag Team, and you may pack High Flying Style and Classic Teamwork. \u2265 Hand Size: +7 Superstar Value: +2 Superstar Ability: + When your first maneuver played each turn is a printed non-Backlash 2D+ Grapple maneuver, you may also immediately play a printed 9D- High Risk from your Ringside; it is blank and ignore the 'Can only be played...' text. Unless both maneuvers are reversed when played, both are successfully played, and after damage is applied, end your turn. \u2265 Hand Size: +7 Superstar Value: +3 Superstar Ability: +Your first maneuver played each turn without 'reversed' in the text is considered Chain and your Fortitude rating is considered +3 when playing it."
   },
   {
     "id": "5b50952c-f23b-49c0-91d2-c3d17aa765a2",
@@ -93932,7 +93855,7 @@
   },
   {
     "id": "0df8ca74-a768-4bce-b5b7-b900a9d90390",
-    "name": "Topé Suicida",
+    "name": "Top\u00e9 Suicida",
     "size": "Wide",
     "Format": "VirtualClassic",
     "Fortitude": "6",
@@ -94071,7 +93994,7 @@
   },
   {
     "id": "f4449b4e-7768-44f2-977b-064404723913",
-    "name": "Raw Women’s Championship Belt",
+    "name": "Raw Women\u2019s Championship Belt",
     "size": "Wide",
     "Format": "VirtualClassic",
     "Fortitude": "",
@@ -94087,7 +94010,7 @@
   },
   {
     "id": "9434ec6a-41ff-43a9-bdcf-9955d98894f9",
-    "name": "Smackdown Women’s Championship Belt",
+    "name": "Smackdown Women\u2019s Championship Belt",
     "size": "Wide",
     "Format": "VirtualClassic",
     "Fortitude": "",
@@ -94302,7 +94225,7 @@
     "Traits": "",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "As a maneuver, RFG the bottom 3 cards of your opponent’s Arsenal. Reverse any Submission or non-Superstar-specific Smackdown maneuver. When you have F: 20+ and your opponent has F: 10+ more than you, he shuffles his Arsenal and then reveals the top 3 cards. If 2+ cards have the same title, you win the game via Pinfall Victory. He shuffles."
+    "Card Text": "As a maneuver, RFG the bottom 3 cards of your opponent\u2019s Arsenal. Reverse any Submission or non-Superstar-specific Smackdown maneuver. When you have F: 20+ and your opponent has F: 10+ more than you, he shuffles his Arsenal and then reveals the top 3 cards. If 2+ cards have the same title, you win the game via Pinfall Victory. He shuffles."
   },
   {
     "id": "435309ef-b3b1-424c-bee9-043327a23b8d",
@@ -94456,7 +94379,7 @@
   },
   {
     "id": "4f827d32-ce76-430f-b002-859b43a95567",
-    "name": "The Fiend’s Lantern",
+    "name": "The Fiend\u2019s Lantern",
     "Format": "VirtualClassic",
     "Fortitude": "",
     "Damage": "",
@@ -94864,7 +94787,7 @@
     "Traits": "Unique, Permanent",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Can be played during any Pre-match phase. You start the game. Your Spectacular Ring Entrance! reads “Shuffle any number of cards from your hand into your Arsenal, then draw that many cards +1.” During any turn, when you would reveal your hand, you may first put up to 2 cards from your hand under this card; you may play cards under this card as if from hand. ACE: Once during each of your turns, you may RFG 1 card under this card and then Arsenal Search 1 maneuver without a printed reversal restriction."
+    "Card Text": "Can be played during any Pre-match phase. You start the game. Your Spectacular Ring Entrance! reads \u201cShuffle any number of cards from your hand into your Arsenal, then draw that many cards +1.\u201d During any turn, when you would reveal your hand, you may first put up to 2 cards from your hand under this card; you may play cards under this card as if from hand. ACE: Once during each of your turns, you may RFG 1 card under this card and then Arsenal Search 1 maneuver without a printed reversal restriction."
   },
   {
     "id": "2e6aab15-7987-49cb-a7c5-c8f93eb70f7c",
@@ -95000,7 +94923,7 @@
     "Traits": "",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Your opponent's Fortitude Rating is considered -6F for playing reversals to your Superstar-specific cards. Your Sit Right Here and Bide My Time is Unique, not Smackdown, and replace ‘if...a card’ with ‘Once during each of your turns’. Face, Heel, Cheater, and Fan Favorite cards can only be packed in your Backstage Area. You can pack High-Flying Style, but you cannot pack Wrestlemania."
+    "Card Text": "Your opponent's Fortitude Rating is considered -6F for playing reversals to your Superstar-specific cards. Your Sit Right Here and Bide My Time is Unique, not Smackdown, and replace \u2018if...a card\u2019 with \u2018Once during each of your turns\u2019. Face, Heel, Cheater, and Fan Favorite cards can only be packed in your Backstage Area. You can pack High-Flying Style, but you cannot pack Wrestlemania."
   },
   {
     "id": "cbdd500d-e834-4e34-b26f-b5cbdac245e1",
@@ -95153,7 +95076,7 @@
     "Traits": "Unique, Multi",
     "Stun": "2",
     "CardRef-Target": "",
-    "Card Text": "Can only be played as a Counter or after From The Top Rope. When played after From The Top Rope, your opponent's reversals with ‘Multi’ in the text are blank until the end of the turn. When this card is in your Ring, your Black Mass cannot be reversed from Arsenal by non-Unique reversals."
+    "Card Text": "Can only be played as a Counter or after From The Top Rope. When played after From The Top Rope, your opponent's reversals with \u2018Multi\u2019 in the text are blank until the end of the turn. When this card is in your Ring, your Black Mass cannot be reversed from Arsenal by non-Unique reversals."
   },
   {
     "id": "0c3efa7a-c7de-49a6-9acd-64d3c5f19a9f",
@@ -95350,7 +95273,7 @@
     "Traits": "Stable, NXT",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "You may pack Adam Cole, Bobby Fish, Kyle O’Reilly, and Roderick Strong hidden in your Backstage. When you completely reverse a maneuver from your hand or Backlash, you may discard 1 card, reveal up to 1 hidden Superstar card, and then Promo: 4. When your opponent successfully plays a 4D+ maneuver, hide 1 other revealed Superstar. Before each Draw Segment, you may choose a revealed Superstar in your Backstage, and add their ability to yours until the end of the turn. You are a Tag Team."
+    "Card Text": "You may pack Adam Cole, Bobby Fish, Kyle O\u2019Reilly, and Roderick Strong hidden in your Backstage. When you completely reverse a maneuver from your hand or Backlash, you may discard 1 card, reveal up to 1 hidden Superstar card, and then Promo: 4. When your opponent successfully plays a 4D+ maneuver, hide 1 other revealed Superstar. Before each Draw Segment, you may choose a revealed Superstar in your Backstage, and add their ability to yours until the end of the turn. You are a Tag Team."
   },
   {
     "id": "170c3621-873e-4bc9-8456-0a94e23e16d3",
@@ -95548,7 +95471,7 @@
     "Traits": "NXT, Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "As a maneuver, when you are Bobby Fish this card is +5D and +1 Stun Value, and when successful Arsenal Search Maintain Hold. If it is your next card played this turn, ignore the “Can only be played...” text. As a reversal, reverse any Submission. When Bobby Fish is revealed, can also completely reverse any Multi card."
+    "Card Text": "As a maneuver, when you are Bobby Fish this card is +5D and +1 Stun Value, and when successful Arsenal Search Maintain Hold. If it is your next card played this turn, ignore the \u201cCan only be played...\u201d text. As a reversal, reverse any Submission. When Bobby Fish is revealed, can also completely reverse any Multi card."
   },
   {
     "id": "e981ba75-b46a-4e28-b5a3-e68eed076eaf",
@@ -95884,7 +95807,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "You cannot RFG F: 0 or Superstar-specific maneuvers with your Ability. Your cards with ‘Legend’ or ‘Era of the Superstar’ in the text are considered Superstar-specific. When your Superstar-specific card is successful, draw 1 card; when it is not, your opponent RFG 1 Hand card. His maneuvers are -1D for every 3 of his Hand cards. Increase the number of cards moved from your Ringside or RFG into your Arsenal by 1, and he decreases the number of cards moved from his Ringside or RFG into his Arsenal by 1 (min. 1)."
+    "Card Text": "You cannot RFG F: 0 or Superstar-specific maneuvers with your Ability. Your cards with \u2018Legend\u2019 or \u2018Era of the Superstar\u2019 in the text are considered Superstar-specific. When your Superstar-specific card is successful, draw 1 card; when it is not, your opponent RFG 1 Hand card. His maneuvers are -1D for every 3 of his Hand cards. Increase the number of cards moved from your Ringside or RFG into your Arsenal by 1, and he decreases the number of cards moved from his Ringside or RFG into his Arsenal by 1 (min. 1)."
   },
   {
     "id": "5845a76a-48f7-4fea-8bbe-4d043ff7f265",
@@ -95931,7 +95854,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, you may pack reversals as if they are not Face or Heel. Your opponent cannot prevent you from playing your Superstar-specific Pre-match cards, and they can be played from Ringside. You may RFG 4 Ringside cards to Activate Vive La Résistance! instead of moving that card; if you do, you cannot Activate it again this turn, and only a non-hybrid reversal can be moved from your Ring with this effect. When he plays a maneuver, you may discard 1 card and overturn 1 card, and then choose one: it is not Multi; you may play a hybrid reversal as if it is not hybrid (it deals no damage); OR you may play a D: 1 reversal as if it is D: 0."
+    "Card Text": "When packing this card, you may pack reversals as if they are not Face or Heel. Your opponent cannot prevent you from playing your Superstar-specific Pre-match cards, and they can be played from Ringside. You may RFG 4 Ringside cards to Activate Vive La R\u00e9sistance! instead of moving that card; if you do, you cannot Activate it again this turn, and only a non-hybrid reversal can be moved from your Ring with this effect. When he plays a maneuver, you may discard 1 card and overturn 1 card, and then choose one: it is not Multi; you may play a hybrid reversal as if it is not hybrid (it deals no damage); OR you may play a D: 1 reversal as if it is D: 0."
   },
   {
     "id": "ee88c29b-763d-44b9-ab63-4663ce821b0b",
@@ -95946,7 +95869,7 @@
     "Traits": "Unique, RMS",
     "Stun": "2",
     "CardRef-Target": "",
-    "Card Text": "As a maneuver, cannot be reversed from Arsenal when Vive La Résistance! is in your Ring. As an action, this card is -35F; shuffle this card into your Arsenal, and put 1 card from your Backstage into your Backlash. As a reversal, this card is F: 0; completely reverse any Activated Card Effect or Multi card. when played, put this card on the bottom of your Arsenal instead of any other area."
+    "Card Text": "As a maneuver, cannot be reversed from Arsenal when Vive La R\u00e9sistance! is in your Ring. As an action, this card is -35F; shuffle this card into your Arsenal, and put 1 card from your Backstage into your Backlash. As a reversal, this card is F: 0; completely reverse any Activated Card Effect or Multi card. when played, put this card on the bottom of your Arsenal instead of any other area."
   },
   {
     "id": "ecc91597-c773-47b8-9c92-208d86038ab7",
@@ -96126,7 +96049,7 @@
     "Traits": "Unique, RMS, WCW",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, you may pack any number of The Four Horseman-specific Backlash cards in your Backstage, they can be played during any phase, and when you reveal this card, put them into your Backlash. Your Pre-match Capacity is +4, and your opponent cannot prevent you from playing Title Belts. Ignore ‘non-maneuver’ on your non-hybrid Superstar-specific cards. You are also considered the Brain Busters for your effects during the Pre-match phase. When you have 4- cards in hand or 4+ lower Fortitude: draw 1 additional card for your Ability, your Superstar-specific maneuvers are Trademark Finishers instead, and when your maneuver is unsuccessful, he overturns 4 cards."
+    "Card Text": "When packing this card, you may pack any number of The Four Horseman-specific Backlash cards in your Backstage, they can be played during any phase, and when you reveal this card, put them into your Backlash. Your Pre-match Capacity is +4, and your opponent cannot prevent you from playing Title Belts. Ignore \u2018non-maneuver\u2019 on your non-hybrid Superstar-specific cards. You are also considered the Brain Busters for your effects during the Pre-match phase. When you have 4- cards in hand or 4+ lower Fortitude: draw 1 additional card for your Ability, your Superstar-specific maneuvers are Trademark Finishers instead, and when your maneuver is unsuccessful, he overturns 4 cards."
   },
   {
     "id": "60918849-b6e8-4129-8563-e5c39a14b773",
@@ -96693,7 +96616,7 @@
     "Traits": "Unique, RMS, NXT",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "At the end of the Pre-match phase, put up to 5 cards from your hand on the bottom of your Arsenal, and draw the same number of cards. When you randomly discard cards, you may overturn 2 cards and put 1 of those discarded cards under this card. Cards under this card may be played as if from hand. When you hide Emma’s Bubbly Personality, put all cards under this card on the bottom of your Arsenal and hide this card."
+    "Card Text": "At the end of the Pre-match phase, put up to 5 cards from your hand on the bottom of your Arsenal, and draw the same number of cards. When you randomly discard cards, you may overturn 2 cards and put 1 of those discarded cards under this card. Cards under this card may be played as if from hand. When you hide Emma\u2019s Bubbly Personality, put all cards under this card on the bottom of your Arsenal and hide this card."
   },
   {
     "id": "77896466-ced3-414e-b2cd-36eb867ec8be",
@@ -96864,7 +96787,7 @@
   },
   {
     "id": "5343f720-a7c5-47dd-b391-e8adecee1190",
-    "name": "I’m Not Finished With You!",
+    "name": "I\u2019m Not Finished With You!",
     "size": "Wide",
     "Format": "VirtualClassic",
     "Fortitude": "20",
@@ -96906,7 +96829,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, your ‘Blindside’ maneuvers are not Fan Favorite, and they are considered Chain for your effects; you can pack 3 Ready to Fight in your Backstage, and they can be played from Backstage. During your first Draw Segment, draw 2- additional cards. Ignore the ’When...partner’ text on your Tag reversals. When you would RFG cards for playing a ‘Blindside’ maneuver, you may instead put 1 Tag card or 1 card with 'tag team' in the text from your Ring under this card. Your maneuvers are +2D and +1 Stun Value for every 3 cards under this card."
+    "Card Text": "When packing this card, your \u2018Blindside\u2019 maneuvers are not Fan Favorite, and they are considered Chain for your effects; you can pack 3 Ready to Fight in your Backstage, and they can be played from Backstage. During your first Draw Segment, draw 2- additional cards. Ignore the \u2019When...partner\u2019 text on your Tag reversals. When you would RFG cards for playing a \u2018Blindside\u2019 maneuver, you may instead put 1 Tag card or 1 card with 'tag team' in the text from your Ring under this card. Your maneuvers are +2D and +1 Stun Value for every 3 cards under this card."
   },
   {
     "id": "2ff36994-d593-4bb7-a5d7-3be5d046e909",
@@ -96936,11 +96859,11 @@
     "Traits": "Unique, WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, you can pack As Big and Tough as Any Two Men and No Sell Maneuver. ≥ Hand Size: +7 Superstar Value: +4 Superstar Ability: +When your maneuver is reversed from hand, draw cards up to the reversed maneuver's printed Stun Value. Your non-Multi 'Clothesline', 'Lariat', 'Punch', and 'Slam' maneuvers are considered to have 'Power' in the title; Your 'Power' maneuvers are -2F for each 'Power' maneuver in your Ringside. ≥ Hand Size: +6 Superstar Value: +3 Superstar Ability: +Your first 2 non-Unique Grapples played each turn are Multi. Once during each of your turns, you may RFG 1 Backlash card in your Ring, and then shuffle up to 3 Grapples from your Ringside into your Arsenal."
+    "Card Text": "When packing this card, you can pack As Big and Tough as Any Two Men and No Sell Maneuver. \u2265 Hand Size: +7 Superstar Value: +4 Superstar Ability: +When your maneuver is reversed from hand, draw cards up to the reversed maneuver's printed Stun Value. Your non-Multi 'Clothesline', 'Lariat', 'Punch', and 'Slam' maneuvers are considered to have 'Power' in the title; Your 'Power' maneuvers are -2F for each 'Power' maneuver in your Ringside. \u2265 Hand Size: +6 Superstar Value: +3 Superstar Ability: +Your first 2 non-Unique Grapples played each turn are Multi. Once during each of your turns, you may RFG 1 Backlash card in your Ring, and then shuffle up to 3 Grapples from your Ringside into your Arsenal."
   },
   {
     "id": "0662fa8d-2abd-4d21-af9e-e7c49443d7a4",
-    "name": "I’m Jim Cornette and That’s My Opinion",
+    "name": "I\u2019m Jim Cornette and That\u2019s My Opinion",
     "size": "Wide",
     "Format": "VirtualClassic",
     "Fortitude": "0",
@@ -98047,7 +97970,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be packed by Doink, or when packing Back to Basics or ’Dynamic’ cards. Arsenal / Ringside Search 10 non-Unique printed ‘Technical’ maneuvers and put them under this card;  if you do not, hide this card. At the end of the Pre-match Phase, put 1 card under this card into your hand, and shuffle the other cards into your Arsenal. Your Technically Sound and Brutal is Active, Unique, Permanent, and double the numbers in the text. When you have equal or lower Fortitude and your printed ‘Technical’ maneuver is unsuccessful, Arsenal Search 1 printed ‘Technical’ maneuver."
+    "Card Text": "Cannot be packed by Doink, or when packing Back to Basics or \u2019Dynamic\u2019 cards. Arsenal / Ringside Search 10 non-Unique printed \u2018Technical\u2019 maneuvers and put them under this card;  if you do not, hide this card. At the end of the Pre-match Phase, put 1 card under this card into your hand, and shuffle the other cards into your Arsenal. Your Technically Sound and Brutal is Active, Unique, Permanent, and double the numbers in the text. When you have equal or lower Fortitude and your printed \u2018Technical\u2019 maneuver is unsuccessful, Arsenal Search 1 printed \u2018Technical\u2019 maneuver."
   },
   {
     "id": "7e57628a-a443-47cf-97d5-c25d8c1d54bf",
@@ -98237,7 +98160,7 @@
     "Traits": "Unique, RMS, Face, Cheater, WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing Classic Competitor, this card is considered to have ‘Classic’ in the title. Can only be reversed from Arsenal when you have no Ring non-Superstar-specific D: 1+ Pre-match cards or maneuvers. Ignore the ‘Can only be played after’ text on your next non-High Risk, non-’Illegal’ maneuver this turn, and you are considered to have +5F when playing it."
+    "Card Text": "When packing Classic Competitor, this card is considered to have \u2018Classic\u2019 in the title. Can only be reversed from Arsenal when you have no Ring non-Superstar-specific D: 1+ Pre-match cards or maneuvers. Ignore the \u2018Can only be played after\u2019 text on your next non-High Risk, non-\u2019Illegal\u2019 maneuver this turn, and you are considered to have +5F when playing it."
   },
   {
     "id": "27499745-da7f-4f0b-a0de-bcb9397522fd",
@@ -99422,7 +99345,7 @@
     "Traits": "Unique, RMS, NXT UK",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Your opponent cannot prevent you from playing Pre-match cards (except by ‘Shenanigans’ cards) or reduce your Starting Hand Size. During your turn, you may hide this card and shuffle 2- Ringside cards into your Arsenal. When this card is hidden and you successfully play an Imperium-specific or WALTER-specific card, you may reveal this card."
+    "Card Text": "Your opponent cannot prevent you from playing Pre-match cards (except by \u2018Shenanigans\u2019 cards) or reduce your Starting Hand Size. During your turn, you may hide this card and shuffle 2- Ringside cards into your Arsenal. When this card is hidden and you successfully play an Imperium-specific or WALTER-specific card, you may reveal this card."
   },
   {
     "id": "6b51c767-c9ac-4f87-9c35-904218750b40",
@@ -99771,7 +99694,7 @@
     "Traits": "Unique, RMS, NXT UK",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Replace a superstar on your NXT Women's Championship Title Belt with ‘Rhea Ripley’. When This Is My Brutality! would be put into your Ringside, put it into your Ring instead. During your turn you may hide this card, put 1 F: 0 non-Superstar-specific non-maneuver card in your opponent's Ring into his Ringside, and end your turn. "
+    "Card Text": "Replace a superstar on your NXT Women's Championship Title Belt with \u2018Rhea Ripley\u2019. When This Is My Brutality! would be put into your Ringside, put it into your Ring instead. During your turn you may hide this card, put 1 F: 0 non-Superstar-specific non-maneuver card in your opponent's Ring into his Ringside, and end your turn. "
   },
   {
     "id": "df41328d-fd08-4261-b961-211f7c915e2c",
@@ -99863,7 +99786,7 @@
     "Traits": "Unique, Multi, NXT UK",
     "Stun": "1",
     "CardRef-Target": "",
-    "Card Text": "When you have F: 25+, this card is +10D and a Trademark Finisher instead. Arsenal / Ringside Search Maintain Hold. If it is your next card played, ignore the ‘Can only be played...’ text. When this card is reversed from Arsenal and has not been maintained this turn you may discard 2 cards to continue your turn but you can only play Maintain Hold for the rest of the turn."
+    "Card Text": "When you have F: 25+, this card is +10D and a Trademark Finisher instead. Arsenal / Ringside Search Maintain Hold. If it is your next card played, ignore the \u2018Can only be played...\u2019 text. When this card is reversed from Arsenal and has not been maintained this turn you may discard 2 cards to continue your turn but you can only play Maintain Hold for the rest of the turn."
   },
   {
     "id": "b078d4cb-c7d0-41ec-91e3-a05cd5efc23d",
@@ -100317,7 +100240,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, your Arsenal can contain 10 additional cards. You cannot pack Stipulations in your Backstage, or non-Paul Heyman Enforcers, but you may pack Backed by Paul Heyman. Your Superstar Value is +2. Replace 'Foreign Object' with 'Superstar-specific cards' in the text of The Heyman Hustle. When you Promo, you may Bury the cards not chosen, and during any turn, when your “Heyman” card is successful, you may Promo: 3."
+    "Card Text": "When packing this card, your Arsenal can contain 10 additional cards. You cannot pack Stipulations in your Backstage, or non-Paul Heyman Enforcers, but you may pack Backed by Paul Heyman. Your Superstar Value is +2. Replace 'Foreign Object' with 'Superstar-specific cards' in the text of The Heyman Hustle. When you Promo, you may Bury the cards not chosen, and during any turn, when your \u201cHeyman\u201d card is successful, you may Promo: 3."
   },
   {
     "id": "5ea50726-d530-4b68-a673-0c355836fae4",
@@ -100332,7 +100255,7 @@
     "Traits": "",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, you can pack 1- Pre-match, 1- Mid-match, and 6- Arsenal cards with the Brock Lesnar and/or Cesaro logo, but you cannot pack other Enforcers. ≥ Hand Size: +7 Superstar Value: +4 Superstar Ability: +Your opponent's Strikes do a maximum of 3D. When your opponent reverses your ACE, you may discard 2 cards and overturn 2 cards and then continue your turn, but you cannot Activate cards for the rest of the turn. ≥ Hand Size: +7 Superstar Value: +3 Superstar Ability: +Once during each of your turns, you may put 1 card from hand on the bottom of your Arsenal, then you may play 1 card from your Backlash face-down as if from hand, now titled European Uppercut instead, as an F: 0 D: 6 Strike with 1 Stun Value until the end of the turn; when successful and damage is applied, put it under your Superstar card and draw 1 card. Your Fortitude Rating is +5F for every card under your Superstar card."
+    "Card Text": "When packing this card, you can pack 1- Pre-match, 1- Mid-match, and 6- Arsenal cards with the Brock Lesnar and/or Cesaro logo, but you cannot pack other Enforcers. \u2265 Hand Size: +7 Superstar Value: +4 Superstar Ability: +Your opponent's Strikes do a maximum of 3D. When your opponent reverses your ACE, you may discard 2 cards and overturn 2 cards and then continue your turn, but you cannot Activate cards for the rest of the turn. \u2265 Hand Size: +7 Superstar Value: +3 Superstar Ability: +Once during each of your turns, you may put 1 card from hand on the bottom of your Arsenal, then you may play 1 card from your Backlash face-down as if from hand, now titled European Uppercut instead, as an F: 0 D: 6 Strike with 1 Stun Value until the end of the turn; when successful and damage is applied, put it under your Superstar card and draw 1 card. Your Fortitude Rating is +5F for every card under your Superstar card."
   },
   {
     "id": "456c1c36-5a01-4d43-be2f-bf13c76b268a",
@@ -100347,7 +100270,7 @@
     "Traits": "",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, you can pack 1- Pre-match, 1- Mid-match, and 6- Arsenal cards with the Tribal Chief and/or CM Punk logo, but you cannot pack other Enforcers. ≥ Hand Size: +7 Superstar Value: +4 Superstar Ability: +When you have greater Arsenal cards, your opponent's maneuvers are -3D and your maneuvers are +3D. ≥ Hand Size: +9 Superstar Value: +3 Superstar Ability: +Once during each of your turns, you may discard 3 cards and name a non-Superstar-specific reversal. The named card cannot be played in response to your next non-Unique maneuver played this turn."
+    "Card Text": "When packing this card, you can pack 1- Pre-match, 1- Mid-match, and 6- Arsenal cards with the Tribal Chief and/or CM Punk logo, but you cannot pack other Enforcers. \u2265 Hand Size: +7 Superstar Value: +4 Superstar Ability: +When you have greater Arsenal cards, your opponent's maneuvers are -3D and your maneuvers are +3D. \u2265 Hand Size: +9 Superstar Value: +3 Superstar Ability: +Once during each of your turns, you may discard 3 cards and name a non-Superstar-specific reversal. The named card cannot be played in response to your next non-Unique maneuver played this turn."
   },
   {
     "id": "70795732-5da6-4410-b313-d56613b5b878",
@@ -100468,7 +100391,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When packing this card, you can pack non-Pre-match non-WWF Classic BASH cards even if you are packing Face, Heel, Raw, Smackdown, Chain, Heat, or Volley, replace ‘BASH’ in their title and text with ‘Heat’, and you can pack 3- Spontaneous Combustion in your Backstage. Arsenal Search 1 Feel the Fire and 1 Sparks of Glory and put them and any Backstage Backlash cards in your Ring. Your Baby Carriage and Heat actions are Permanent, your blank maneuvers are Heat, and when they are successful, choose 1: Arsenal Search 1- blank Heat maneuvers or shuffle 1- Ringside cards into your Arsenal."
+    "Card Text": "When packing this card, you can pack non-Pre-match non-WWF Classic BASH cards even if you are packing Face, Heel, Raw, Smackdown, Chain, Heat, or Volley, replace \u2018BASH\u2019 in their title and text with \u2018Heat\u2019, and you can pack 3- Spontaneous Combustion in your Backstage. Arsenal Search 1 Feel the Fire and 1 Sparks of Glory and put them and any Backstage Backlash cards in your Ring. Your Baby Carriage and Heat actions are Permanent, your blank maneuvers are Heat, and when they are successful, choose 1: Arsenal Search 1- blank Heat maneuvers or shuffle 1- Ringside cards into your Arsenal."
   },
   {
     "id": "d3f2ef2d-0b19-460d-b2af-2e4d40357306",
@@ -100791,7 +100714,7 @@
   },
   {
     "id": "67419fd0-cebd-4797-a69d-b62612bab6be",
-    "name": "You’re All Bluff and No Stuff",
+    "name": "You\u2019re All Bluff and No Stuff",
     "size": "Wide",
     "Format": "VirtualClassic",
     "Fortitude": "0",
@@ -101928,7 +101851,7 @@
     "Traits": "Unique, Permanent, WCW",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be blanked. When packing this card, you may also pack 'Technical' maneuvers, your 'Suplex' maneuvers are considered to have 'Technical' in the title, and your printed “Technical” cards are Foreign Objects for your effects, but you cannot pack First Blood Match. Your Walking Out of WCW is F:0 and your opponent cannot respond to it. Replace 'unless you are Dean Malenko' with 'or as a Counter' on your Technical Superiority."
+    "Card Text": "Cannot be blanked. When packing this card, you may also pack 'Technical' maneuvers, your 'Suplex' maneuvers are considered to have 'Technical' in the title, and your printed \u201cTechnical\u201d cards are Foreign Objects for your effects, but you cannot pack First Blood Match. Your Walking Out of WCW is F:0 and your opponent cannot respond to it. Replace 'unless you are Dean Malenko' with 'or as a Counter' on your Technical Superiority."
   },
   {
     "id": "6fbe21e9-ce39-492c-a52e-e6ef75714911",
@@ -102065,7 +101988,7 @@
     "Traits": "Unique, RMS",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "When revealed, put 1 Backlash 'Cruiserweight' Title Belt into your Ring and replace a listed Superstar with Jacqueline. During your turn you may hide this card and your next Trademark Finisher played this turn is Multi and ignore 'completely' in your opponent’s reversals to it. During your turn when this card is hidden, you may RFG 1 Ring 'Cruiserweight' card and reveal this card."
+    "Card Text": "When revealed, put 1 Backlash 'Cruiserweight' Title Belt into your Ring and replace a listed Superstar with Jacqueline. During your turn you may hide this card and your next Trademark Finisher played this turn is Multi and ignore 'completely' in your opponent\u2019s reversals to it. During your turn when this card is hidden, you may RFG 1 Ring 'Cruiserweight' card and reveal this card."
   },
   {
     "id": "23c87a89-4d19-4512-860a-b6330d0584c4",
@@ -102130,7 +102053,7 @@
   },
   {
     "id": "f61dc32b-04c1-4d88-a865-e8c6528739a8",
-    "name": "630°",
+    "name": "630\u00b0",
     "Format": "VirtualClassic",
     "Fortitude": "40",
     "Damage": "25",
@@ -106314,7 +106237,7 @@
   },
   {
     "id": "c419cd2f-a1cf-4985-9f1e-18a70c009c8e",
-    "name": "Tick Tock…",
+    "name": "Tick Tock\u2026",
     "Format": "VirtualClassic",
     "Fortitude": "5",
     "Damage": "0",
@@ -107026,7 +106949,7 @@
     "Traits": "Unique, WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Recover 4- Ringside cards. When this card is in your Ring and your opponent’s action is successful, put this card into your hand."
+    "Card Text": "Recover 4- Ringside cards. When this card is in your Ring and your opponent\u2019s action is successful, put this card into your hand."
   },
   {
     "id": "789f2dfd-0e5a-4492-b648-1d7272ad5e7d",
@@ -107332,7 +107255,7 @@
     "Traits": "WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Revealed: your From the Top Rope cannot be reversed, and your cards played as a Counter (with a Run-in) are Run-ins. ≥ Hand Size: +8 Superstar Value: +4 Superstar Ability: +Your 'Elbow' cards are +4D. Your 'Elbow' and 'Blindside' maneuvers count as 'Classic' for your effects. Your The King Interferes! is -7F. ≥ Hand Size: +5 Superstar Value: +2 Superstar Ability: +Before your Draw Segment, reveal your bottom Arsenal card. When it is a High Risk, you may put it in your hand; if it is not, shuffle and draw 1-."
+    "Card Text": "Revealed: your From the Top Rope cannot be reversed, and your cards played as a Counter (with a Run-in) are Run-ins. \u2265 Hand Size: +8 Superstar Value: +4 Superstar Ability: +Your 'Elbow' cards are +4D. Your 'Elbow' and 'Blindside' maneuvers count as 'Classic' for your effects. Your The King Interferes! is -7F. \u2265 Hand Size: +5 Superstar Value: +2 Superstar Ability: +Before your Draw Segment, reveal your bottom Arsenal card. When it is a High Risk, you may put it in your hand; if it is not, shuffle and draw 1-."
   },
   {
     "id": "50889ee7-12a1-4aed-86f7-5d7757af7009",
@@ -110602,7 +110525,7 @@
     "Traits": "WCW",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Revealed: you are a WCW Superstar, and your Splash, Classic Splash, Superstar-specific, and 'Interfere' cards are WCW. ≥ Hand Size: +7 Superstar Value: +3 Superstar Ability: +Your Strikes are Multi. You cannot play non-Superstar-specific Grapples or Submissions. ≥ Hand Size: +4 Superstar Value: +4 Superstar Ability: +When your opponent reveals or looks at your hand, you may switch 1 chosen card with 1 other Hand card. When their card moves your Ring card, you may RFG another non-Permanent Ring card instead."
+    "Card Text": "Revealed: you are a WCW Superstar, and your Splash, Classic Splash, Superstar-specific, and 'Interfere' cards are WCW. \u2265 Hand Size: +7 Superstar Value: +3 Superstar Ability: +Your Strikes are Multi. You cannot play non-Superstar-specific Grapples or Submissions. \u2265 Hand Size: +4 Superstar Value: +4 Superstar Ability: +When your opponent reveals or looks at your hand, you may switch 1 chosen card with 1 other Hand card. When their card moves your Ring card, you may RFG another non-Permanent Ring card instead."
   },
   {
     "id": "51889ee7-12a1-4aed-86f7-5d7757af7053",
@@ -111615,21 +111538,6 @@
     "Card Text": "Can only be packed when you cannot play any title belt except the Tag Team Title Belts, or if this is a Tag Team format match. As a maneuver, can only be played after a successfully played 5D+ maneuver or Throw Into the Corner Turnbuckle. As a reversal, reverse Superplex or From the Top Rope. When successfully played, opponent puts 2 cards from hand on top of his Arsenal. This card is -7F when you are the Dudley Boyz or Edge and Christian."
   },
   {
-    "id": "5a37dae3-92b8-9eb4-14f9-1f89aa8b67cf",
-    "name": "Combination Attack",
-    "Format": "VirtualClassic",
-    "Fortitude": "14",
-    "Damage": "10",
-    "Hand Size": "",
-    "SSV": "",
-    "Type": "High Risk",
-    "SS Logos": "",
-    "Traits": "Tag",
-    "Stun": "1",
-    "CardRef-Target": "",
-    "Card Text": "Can only be played after a successfully played 4D+ maneuver. When played, an inactive partner may discard 1 6D+ maneuver and this card is +#D, where # is the Damage of the discarded maneuver."
-  },
-  {
     "id": "fdc6d6d6-0891-59ae-486b-74493e484046",
     "name": "Tandem Flapjack",
     "Format": "VirtualClassic",
@@ -111658,36 +111566,6 @@
     "Stun": "",
     "CardRef-Target": "",
     "Card Text": "Reverse any 8D+ Strike or 8D+ High Risk. This card is +#D, where # is equal to the reversed maneuver's Damage -1."
-  },
-  {
-    "id": "1dc277e4-3e75-74a7-2991-70408aab1fba",
-    "name": "Trip",
-    "Format": "VirtualClassic",
-    "Fortitude": "6",
-    "Damage": "0",
-    "Hand Size": "",
-    "SSV": "",
-    "Type": "Reversal: Special",
-    "SS Logos": "",
-    "Traits": "Tag",
-    "Stun": "",
-    "CardRef-Target": "",
-    "Card Text": "When played from your hand by an inactive partner, reverse any maneuver."
-  },
-  {
-    "id": "033b65a3-24ee-4dd0-853a-0c119a972ac4",
-    "name": "Partner Interference",
-    "Format": "VirtualClassic",
-    "Fortitude": "5",
-    "Damage": "1",
-    "Hand Size": "",
-    "SSV": "",
-    "Type": "Reversal: Special",
-    "SS Logos": "",
-    "Traits": "Heel, Tag",
-    "Stun": "",
-    "CardRef-Target": "",
-    "Card Text": "When played from your hand by an inactive partner, reverse any Strike, Grapple, or High Risk."
   },
   {
     "id": "9a78a743-8ee7-2335-9428-9896f7cd6c48",
@@ -113028,7 +112906,7 @@
     "Traits": "Universally Unique, Smackdown, Throwback",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be played when you have a Title Belt with µintercontinental' in the title in your Ring, nor can you play that card. Your Starting Hand Size is +1 and your Pre-match Capacity is +1. Superstar Value +1"
+    "Card Text": "Cannot be played when you have a Title Belt with \u00b5intercontinental' in the title in your Ring, nor can you play that card. Your Starting Hand Size is +1 and your Pre-match Capacity is +1. Superstar Value +1"
   },
   {
     "id": "aa9be874-6710-9e63-78f6-ba01199527c6",
@@ -113092,7 +112970,7 @@
     "Traits": "Universally Unique",
     "Stun": "",
     "CardRef-Target": "",
-    "Card Text": "Cannot be packed when packing First of All. ßAt the end of the Pre-match phase, search your Arsenal for 2 different non-Unique maneuvers and reveal them, your opponent chooses 1, put the chosen card into your Ringside and the remaining card into your hand. When you are Stone Cold Steve Austin, The Rattlesnake, or Revolution Stone Cold Steve Austin you start the game regardless of Superstar Value or card effects. Superstar Value +2"
+    "Card Text": "Cannot be packed when packing First of All. \u00dfAt the end of the Pre-match phase, search your Arsenal for 2 different non-Unique maneuvers and reveal them, your opponent chooses 1, put the chosen card into your Ringside and the remaining card into your hand. When you are Stone Cold Steve Austin, The Rattlesnake, or Revolution Stone Cold Steve Austin you start the game regardless of Superstar Value or card effects. Superstar Value +2"
   },
   {
     "id": "74c8cf1b-0a58-3bdd-6846-2d34ec0670c5",
