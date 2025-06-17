@@ -1,0 +1,54 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+out/
+coverage/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+*.bak
+*.tmp
+
+# Card images (if you keep them out of git)
+cards/*.jpg
+cards/*.png
+
+# Cards data output (if you generate cleaned or temp files)
+*cards-clean.json
+
+# Ignore Mac ._ files
+._*
+
+# Ignore Python cache and scripts (if you use Python for scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore backup files
+*~
