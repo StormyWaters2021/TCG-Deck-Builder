@@ -2,9 +2,8 @@ import React, { useEffect, useState } from "react";
 import DeckBuilder from "./DeckBuilder";
 
 const fetchGames = async () => {
-  const res = await fetch("/games/manifest.json");
-  const data = await res.json();
-  return data.games;
+  const gamesManifest = await fetch(`${import.meta.env.BASE_URL}games/manifest.json`).then(res => res.json());
+  return gamesManifest.games;
 };
 
 function App() {
@@ -19,8 +18,8 @@ function App() {
   useEffect(() => {
     if (!selectedGame) return;
     Promise.all([
-      fetch(`/games/${selectedGame}/settings.json`).then((r) => r.json()),
-      fetch(`/games/${selectedGame}/cards.json`).then((r) => r.json())
+      fetch(`${import.meta.env.BASE_URL}games/${selectedGame}/settings.json`).then((r) => r.json()),
+      fetch(`${import.meta.env.BASE_URL}games/${selectedGame}/cards.json`).then((r) => r.json())
     ]).then(([settings, cards]) => setGameData({ settings, cards }));
   }, [selectedGame]);
 

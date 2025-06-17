@@ -21,17 +21,45 @@ function DeckPanel({ cards, deck, settings, onRemoveCard, selectedCard, setSelec
   // Validation
   const totalCards = Object.values(deck).reduce((a, b) => a + b, 0);
   const errors = [];
+
   if (totalCards < settings.deckValidation.minCards)
     errors.push("Too few cards in deck!");
   if (totalCards > settings.deckValidation.maxCards)
     errors.push("Too many cards in deck!");
-  for (const { property, value, max } of settings.deckValidation.propertyLimits) {
+
+  // Max copies per card validation
+  for (const [cardId, qty] of Object.entries(deck)) {
+    if (qty > settings.maxCopiesPerCard) {
+      const card = cards.find(c => c.id === cardId);
+      errors.push(
+        `Too many copies of ${card ? card.name : cardId} (max ${settings.maxCopiesPerCard})`
+      );
+    }
+  }
+
+  // Per-card limit from "Limit" property validation
+  if (settings.deckValidation.usePerCardLimit) {
+    for (const [cardId, qty] of Object.entries(deck)) {
+      const card = cards.find(c => c.id === cardId);
+      if (card && typeof card.Limit === "number" && qty > card.Limit) {
+        errors.push(
+          `Too many copies of ${card.name}: limit is ${card.Limit}`
+        );
+      }
+    }
+  }
+
+  for (const rule of settings.deckValidation.propertyLimits || []) {
+    if (!rule || !rule.property) continue;
+    const { property, value } = rule;
     const count = Object.entries(deck).reduce((sum, [id, qty]) => {
       const card = cards.find(c => c.id === id);
-      return card?.[property] === value ? sum + qty : sum;
+      return card && card[property] === value ? sum + qty : sum;
     }, 0);
-    if (count > max)
+    if (typeof rule.max === "number" && count > rule.max)
       errors.push(`Too many cards of ${property}: ${value}`);
+    if (typeof rule.min === "number" && count < rule.min)
+      errors.push(`Too few cards of ${property}: ${value}`);
   }
   const banned = settings.deckValidation.banList.filter(id => deck[id]);
   if (banned.length)
@@ -65,11 +93,11 @@ function DeckPanel({ cards, deck, settings, onRemoveCard, selectedCard, setSelec
                     <button onClick={e => {
                       e.stopPropagation();
                       onRemoveCard(card.id, 1);
-                    }}>Remove 1</button>
+                    }}>-1</button>
                     <button onClick={e => {
                       e.stopPropagation();
                       onRemoveCard(card.id, qty);
-                    }}>Remove All</button>
+                    }}>-All</button>
                   </>
                 )}
               </li>

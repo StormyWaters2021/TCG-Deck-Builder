@@ -1,36 +1,68 @@
-body {
-  font-family: sans-serif;
+.card-list-panel ul {
+  padding-left: 0;
   margin: 0;
-  padding: 0;
+  list-style: none;
 }
-header {
-  background: #222;
-  color: #fff;
-  padding: 1rem;
+
+.card-list-panel li {
+  padding: 4px 8px;
+  cursor: pointer;
 }
-.deck-builder-layout {
+
+.card-list-panel li.selected {
+  background: #e0e0ff;
+}
+
+.card-row {
+  position: relative;
+  overflow: hidden; /* Clear floats */
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  line-height: 1.8;
+}
+
+/* Card name will not overlap button group */
+.card-row > span:first-child {
+  display: inline-block;
+  max-width: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Button group floats to the right */
+.button-group {
+  float: right;
   display: flex;
-  min-height: 80vh;
+  gap: 4px;
 }
-.card-list-panel, .deck-panel, .deck-controls {
-  padding: 1rem;
-  border: 1px solid #ddd;
-  margin: 0.5rem;
-  background: #fafafa;
+
+.tiny-btn {
+  padding: 2px 6px;
+  font-size: 0.8em;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  background: #f3f3f3;
+  cursor: pointer;
+  margin-left: 2px;
+  min-width: 32px;
+  transition: background 0.15s;
 }
-.card-list-panel {
-  width: 25%;
+.tiny-btn:hover {
+  background: #d0e1fd;
+  border-color: #7a99d9;
 }
-.deck-panel {
-  width: 35%;
+
+.card-preview-wrapper {
+  width: 100%;
+  box-sizing: border-box;
 }
-.deck-controls {
-  width: 20%;
-}
-.selected {
-  background: #e0e7ff;
-}
-.deck-errors {
-  margin-top: 1rem;
-  color: red;
+
+.card-preview {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
 }

@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 
-function getFilters(cards) {
-  // Collect all properties except id, name, image for filtering
+function getFilters(cards, filterOptions) {
   const props = {};
+  filterOptions.forEach((k) => {
+    props[k] = new Set();
+  });
   cards.forEach(card => {
-    Object.entries(card).forEach(([k, v]) => {
-      if (!["id", "name", "image"].includes(k)) {
-        if (!props[k]) props[k] = new Set();
-        props[k].add(v);
+    filterOptions.forEach((k) => {
+      if (card[k] !== undefined) {
+        props[k].add(card[k]);
       }
     });
   });
@@ -18,7 +19,8 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
   const [search, setSearch] = useState("");
   const [filters, setFilters] = useState({});
 
-  const filterProps = getFilters(cards);
+  // Use filterOptions from settings
+  const filterProps = getFilters(cards, settings.filterOptions || []);
 
   const filtered = cards.filter(card => {
     if (search && !card.name.toLowerCase().includes(search.toLowerCase())) return false;
@@ -51,26 +53,41 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
           </select>
         ))}
       </div>
-      <ul>
-        {filtered.map(card => (
-          <li
-            key={card.id}
-            className={selectedCard === card.id ? "selected" : ""}
-            onClick={() => onCardSelect(card.id)}
-            style={deck[card.id] ? {fontWeight: "bold"} : {}}
-          >
-            <span>{card.name}</span>
-            <button onClick={e => {
-              e.stopPropagation();
-              onAddCard(card.id, 1);
-            }}>Add 1</button>
-            <button onClick={e => {
-              e.stopPropagation();
-              onAddCard(card.id, settings.addNValue);
-            }}>Add {settings.addNValue}</button>
-          </li>
-        ))}
-      </ul>
+      <div style={{maxHeight: "340px", overflowY: "auto"}}>
+        <ul style={{margin: 0, padding: 0, listStyle: "none"}}>
+          {filtered.map(card => (
+            <li
+              key={card.id}
+              className={selectedCard === card.id ? "selected" : ""}
+              onClick={() => onCardSelect(card.id)}
+              style={{
+                fontWeight: deck[card.id] ? "bold" : "normal",
+                cursor: "pointer",
+                margin: "0.5em 0",
+                padding: "0.25em"
+              }}
+            >
+              <span>{card.name}</span>
+              {selectedCard === card.id && (
+                <>
+                  <button
+                    onClick={e => {
+                      e.stopPropagation();
+                      onAddCard(card.id, 1);
+                    }}
+                  >+1</button>
+                  <button
+                    onClick={e => {
+                      e.stopPropagation();
+                      onAddCard(card.id, settings.addNValue);
+                    }}
+                  >+{settings.addNValue}</button>
+                </>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
       {selectedCard && (
         <div>
           <img

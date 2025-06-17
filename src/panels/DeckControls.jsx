@@ -111,7 +111,7 @@ function DeckControls({ deck, cards, settings, game, setDeck }) {
     cardIds.forEach((cardId, i) => {
       const card = cards.find(c => c.id === cardId);
       const img = new window.Image();
-      img.src = `/games/${settings.gameName}/images/${card?.image}`;
+      img.src = `${import.meta.env.BASE_URL}games/${settings.gameName}/images/${card?.image}`;
       img.onload = () => {
         const x = pad + (i % cols) * (size + pad);
         const y = pad + 40 + Math.floor(i / cols) * (size + pad);

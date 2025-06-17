@@ -1,0 +1,25 @@
+{
+  "gameName": "DBZ (FanZ)",
+  "maxCopiesPerCard": 3,
+  "addNValue": 3,
+  "groupOptions": ["Type", "Style"],
+  "filterOptions": ["Type", "Style", "Set"],
+  "deckValidation": {
+    "minCards": 60,
+    "maxCards": 60,
+    "usePerCardLimit": true,
+    "propertyLimits": [
+	  { "property": "Type", "value": "Mastery", "min": 1 },
+	  { "property": "Type", "value": "Mastery", "max": 1 },
+      { "property": "mp", "value": "MP1", "min": 1 },
+	  { "property": "mp", "value": "MP1", "max": 1 },
+	  { "property": "mp", "value": "MP2", "min": 1 },
+	  { "property": "mp", "value": "MP2", "max": 1 },
+	  { "property": "mp", "value": "MP3", "min": 1 },
+	  { "property": "mp", "value": "MP3", "max": 1 },
+	  { "property": "mp", "value": "MP4", "min": 1 },
+	  { "property": "mp", "value": "MP4", "max": 1 }
+    ],
+    "banList": ["BannedCardID"]
+  }
+}
