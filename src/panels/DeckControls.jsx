@@ -43,6 +43,7 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard }) {
   function loadDeck(idx) {
     if (!window.confirm(`All current progress will be lost! Do you want to load ${savedDecks[idx].name}?`)) return;
     setDeck(savedDecks[idx].deck);
+    setDeckName(savedDecks[idx].name); // Also load deck name
   }
   function deleteDeck(idx) {
     if (!window.confirm(`Are you sure you want to delete ${savedDecks[idx].name}?`)) return;
@@ -71,8 +72,83 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard }) {
       downloadFile(JSON.stringify(deckObj, null, 2), `${deckName || "deck"}.json`, "application/json");
     } else if (format === "Image") {
       exportDeckImage(deck, cards, settings, deckName);
+    } else if (format === "ImageCompact") {
+      exportDeckImageCompact(deck, cards, settings, deckName);
+    } else if (format === "OCTGN") {
+      exportDeckOCTGN(deck, cards, settings, deckName);
     }
   }
+
+  async function exportDeckOCTGN(deck, cards, settings, deckName) {
+    let octgnSettings;
+    try {
+      octgnSettings = await fetch(`/games/${settings.gameName}/octgn.json`).then(res => res.json());
+    } catch (e) {
+      alert("OCTGN export settings not found or invalid.");
+      return;
+    }
+
+    const cardEntries = Object.entries(deck)
+      .filter(([, qty]) => qty > 0)
+      .map(([cardId, qty]) => {
+        const card = cards.find(c => c.id === cardId);
+        return { card, qty };
+      });
+
+    // Set up section map
+    const sectionMap = {};
+    for (const section of octgnSettings.sections) {
+      sectionMap[section.name] = [];
+    }
+    // Ensure the default section exists
+    if (octgnSettings.defaultSection && !(octgnSettings.defaultSection in sectionMap)) {
+      sectionMap[octgnSettings.defaultSection] = [];
+    }
+
+    for (const {card, qty} of cardEntries) {
+      let placed = false;
+      for (const section of octgnSettings.sections) {
+        let match = false;
+        if (section.criteria) {
+          for (const [prop, values] of Object.entries(section.criteria)) {
+            if (values.includes(card[prop])) {
+              match = true;
+              break;
+            }
+          }
+        }
+        if (match) {
+          sectionMap[section.name].push({ card, qty });
+          placed = true;
+          break;
+        }
+      }
+      // If not placed by criteria, add to default section
+      if (!placed && octgnSettings.defaultSection && sectionMap[octgnSettings.defaultSection]) {
+        sectionMap[octgnSettings.defaultSection].push({ card, qty });
+      }
+    }
+
+    let sectionsXml = "";
+    // Output all sections, including default if it has cards
+    for (const sectionName in sectionMap) {
+      // Find section details for this name, fallback to empty object for default section if not in sections list
+      const section = octgnSettings.sections.find(s => s.name === sectionName) || { name: sectionName, shared: false };
+      const cardsXml = sectionMap[sectionName].map(({ card, qty }) =>
+        `    <card qty="${qty}" id="${card.id}">${card.name}</card>`
+      ).join("\n");
+      sectionsXml += `  <section name="${sectionName}" shared="${section.shared ? "True" : "False"}">\n${cardsXml}\n  </section>\n`;
+    }
+
+    const xml = `<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="${octgnSettings.gameGuid}">
+${sectionsXml}  <notes><![CDATA[]]></notes>
+</deck>
+`;
+
+    downloadFile(xml, `${deckName || "deck"}.o8d`, "application/xml");
+  }
+
   function importDeck() {
     const input = document.createElement("input");
     input.type = "file";
@@ -124,7 +200,7 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard }) {
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
 
-  // ----------- ENHANCED EXPORT TO IMAGE FUNCTION -----------
+  // ----------- ORIGINAL EXPORT TO IMAGE FUNCTION -----------
   function exportDeckImage(deck, cards, settings, deckName) {
     // Order deck entries for consistency
     const deckEntries = Object.entries(deck)
@@ -235,7 +311,121 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard }) {
       }, "image/png");
     });
   }
-  // ----------- END ENHANCED EXPORT TO IMAGE FUNCTION -----------
+  // ----------- END ORIGINAL EXPORT TO IMAGE FUNCTION -----------
+
+  // ----------- COMPACT EXPORT TO IMAGE FUNCTION -----------
+  function exportDeckImageCompact(deck, cards, settings, deckName) {
+    // Order deck entries for consistency
+    const deckEntries = Object.entries(deck)
+      .filter(([, qty]) => qty > 0)
+      .map(([cardId, qty]) => {
+        const card = cards.find(c => c.id === cardId);
+        return { card, qty: Number(qty) };
+      })
+      .filter(({ card }) => card);
+
+    if (deckEntries.length === 0) {
+      alert("Your deck is empty!");
+      return;
+    }
+
+    // Load all card images and get their aspect ratios
+    Promise.all(deckEntries.map(({ card }) => {
+      const imageUrl = card && card.image
+        ? `${import.meta.env.BASE_URL}games/${settings.gameName}/images/${card.image}`
+        : null;
+      return new Promise((resolve) => {
+        if (!imageUrl) {
+          resolve({ img: null, aspect: 1 });
+          return;
+        }
+        const img = new window.Image();
+        img.onload = () => resolve({ img, aspect: img.width / img.height });
+        img.onerror = () => resolve({ img: null, aspect: 1 });
+        img.src = imageUrl;
+      });
+    })).then(images => {
+      // Settings
+      const cardWidth = 140; // px
+      const cardPadding = 18; // px between cards
+      const verticalShiftPct = 0.1; // 10% per stacked card
+      const maxPerRow = 5;
+
+      // Determine card heights
+      const cardHeights = images.map(({ aspect }) => cardWidth / (aspect || 1));
+      // Calculate max stack height for each slot
+      const stackHeights = deckEntries.map((entry, i) => {
+        const qty = entry.qty;
+        const cardHeight = cardHeights[i];
+        if (qty <= 1) return cardHeight;
+        return cardHeight + (qty - 1) * (verticalShiftPct * cardHeight);
+      });
+      const maxStackHeight = Math.max(...stackHeights);
+
+      // Layout
+      const count = deckEntries.length;
+      const rows = Math.ceil(count / maxPerRow);
+      const cols = Math.min(count, maxPerRow);
+
+      const canvasWidth = cols * cardWidth + (cols + 1) * cardPadding;
+      const canvasHeight = rows * maxStackHeight + (rows + 1) * cardPadding + 60;
+
+      // Create and set up canvas
+      const canvas = document.createElement("canvas");
+      canvas.width = canvasWidth;
+      canvas.height = canvasHeight;
+      const ctx = canvas.getContext("2d");
+
+      // Background
+      ctx.fillStyle = "#222";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // Deck name/title
+      ctx.font = "bold 28px sans-serif";
+      ctx.textAlign = "left";
+      ctx.textBaseline = "top";
+      ctx.fillStyle = "#fff";
+      ctx.fillText(deckName || "Deck", cardPadding, cardPadding);
+
+      // Draw each card stack
+      for (let i = 0; i < deckEntries.length; ++i) {
+        const { card, qty } = deckEntries[i];
+        const { img, aspect } = images[i];
+        const row = Math.floor(i / maxPerRow);
+        const col = i % maxPerRow;
+        const cardHeight = cardWidth / (aspect || 1);
+
+        // Center stack in cell if stack is shorter than maxStackHeight
+        const stackHeight = qty > 1
+          ? cardHeight + (qty - 1) * (verticalShiftPct * cardHeight)
+          : cardHeight;
+        const yOffset = (maxStackHeight - stackHeight) / 2;
+
+        const x = cardPadding + col * (cardWidth + cardPadding);
+        const y = cardPadding + 40 + row * (maxStackHeight + cardPadding) + yOffset;
+
+        // Draw stack
+        for (let q = 0; q < qty; ++q) {
+          const stackY = y + q * (verticalShiftPct * cardHeight);
+          if (img) {
+            ctx.drawImage(img, x, stackY, cardWidth, cardHeight);
+          } else {
+            ctx.fillStyle = "#555";
+            ctx.fillRect(x, stackY, cardWidth, cardHeight);
+            ctx.fillStyle = "#eee";
+            ctx.font = "italic 18px sans-serif";
+            ctx.fillText(card?.name || "Unknown", x + 8, stackY + 30);
+          }
+        }
+      }
+
+      // Export as image
+      canvas.toBlob(blob => {
+        downloadFile(blob, `${deckName || "deck"}_compact.png`, "image/png");
+      }, "image/png");
+    });
+  }
+  // ----------- END COMPACT EXPORT TO IMAGE FUNCTION -----------
 
   // Button style for uniform size
   const buttonStyle = {
@@ -347,6 +537,38 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard }) {
               >
                 Image
               </button>
+              <button
+                style={{
+                  ...buttonStyle,
+                  width: "100%",
+                  height: "2.2em",
+                  border: "none",
+                  background: "none",
+                  textAlign: "left",
+                  paddingLeft: "1em",
+                  cursor: "pointer",
+                }}
+                onClick={() => exportDeck("ImageCompact")}
+              >
+                Image (Compact)
+              </button>
+              {settings.octgnExport && (
+                <button
+                  style={{
+                    ...buttonStyle,
+                    width: "100%",
+                    height: "2.2em",
+                    border: "none",
+                    background: "none",
+                    textAlign: "left",
+                    paddingLeft: "1em",
+                    cursor: "pointer",
+                  }}
+                  onClick={() => exportDeck("OCTGN")}
+                >
+                  OCTGN
+                </button>
+              )}
             </div>
           )}
         </div>
