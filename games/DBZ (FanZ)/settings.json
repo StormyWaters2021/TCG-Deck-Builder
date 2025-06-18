@@ -4,6 +4,7 @@
   "addNValue": 3,
   "groupOptions": ["Type", "Style"],
   "filterOptions": ["Type", "Style", "Set"],
+  "groupOrder": ["Hero MP", "Villain MP", "Mastery", "Physical Combat", "Energy Combat"],
   "searchPrefixes": {
     "t:": "Text",
     "e:": "Endurance",
