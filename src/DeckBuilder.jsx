@@ -3,8 +3,7 @@ import CardListPanel from "./panels/CardListPanel";
 import DeckPanel from "./panels/DeckPanel";
 import DeckControls from "./panels/DeckControls";
 
-function DeckBuilder({ game, settings, cards }) {
-  const [deck, setDeck] = useState({});
+function DeckBuilder({ game, settings, cards, deck, setDeck }) {
   const [selectedCard, setSelectedCard] = useState(null);
 
   const addCard = (cardId, qty) => {
@@ -21,6 +20,9 @@ function DeckBuilder({ game, settings, cards }) {
       return newDeck;
     });
   };
+
+  // Find the selected card object from cards array
+  const selectedCardObj = cards.find(c => c.id === selectedCard);
 
   return (
     <div className="deck-builder-layout">
@@ -46,6 +48,7 @@ function DeckBuilder({ game, settings, cards }) {
         settings={settings}
         game={game}
         setDeck={setDeck}
+        selectedCard={selectedCard}
       />
     </div>
   );
