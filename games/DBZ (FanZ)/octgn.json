@@ -1,0 +1,21 @@
+{
+  "gameGuid": "383a6ac2-6e52-40a5-980f-fade09e4908b",
+  "sections": [
+    {
+      "name": "Starting",
+      "shared": false,
+      "criteria": {
+        "Type": ["Mastery"],
+		"Main Personality": ["Level 1", "Level 2", "Level 3", "Level 4"]
+      }
+    },
+    {
+      "name": "Life Deck",
+      "shared": false,
+      "criteria": {
+        "Type": ["Attack", "Event", "Setup", "Dragon Ball"]
+      }
+    }
+  ],
+  "defaultSection": "Life Deck"
+}

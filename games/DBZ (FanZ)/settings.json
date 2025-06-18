@@ -4,21 +4,27 @@
   "addNValue": 3,
   "groupOptions": ["Type", "Style"],
   "filterOptions": ["Type", "Style", "Set"],
+  "searchPrefixes": {
+    "t:": "Text",
+    "e:": "Endurance",
+    "l:": "Level"
+  },
+  "octgnExport": true,
   "deckValidation": {
-    "minCards": 60,
-    "maxCards": 60,
+    "minCards": 65,
+    "maxCards": 65,
     "usePerCardLimit": true,
     "propertyLimits": [
-	  { "property": "Type", "value": "Mastery", "min": 1 },
-	  { "property": "Type", "value": "Mastery", "max": 1 },
-      { "property": "mp", "value": "MP1", "min": 1 },
-	  { "property": "mp", "value": "MP1", "max": 1 },
-	  { "property": "mp", "value": "MP2", "min": 1 },
-	  { "property": "mp", "value": "MP2", "max": 1 },
-	  { "property": "mp", "value": "MP3", "min": 1 },
-	  { "property": "mp", "value": "MP3", "max": 1 },
-	  { "property": "mp", "value": "MP4", "min": 1 },
-	  { "property": "mp", "value": "MP4", "max": 1 }
+      { "property": "Type", "value": "Mastery", "min": 1 },
+      { "property": "Type", "value": "Mastery", "max": 1 },
+      { "property": "Main Personality", "value": "Level 1", "min": 1 },
+      { "property": "Main Personality", "value": "Level 1", "max": 1 },
+      { "property": "Main Personality", "value": "Level 2", "min": 1 },
+      { "property": "Main Personality", "value": "Level 2", "max": 1 },
+      { "property": "Main Personality", "value": "Level 3", "min": 1 },
+      { "property": "Main Personality", "value": "Level 3", "max": 1 },
+      { "property": "Main Personality", "value": "Level 4", "min": 1 },
+      { "property": "Main Personality", "value": "Level 4", "max": 1 }
     ],
     "banList": ["BannedCardID"]
   }
