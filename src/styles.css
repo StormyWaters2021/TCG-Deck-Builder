@@ -1,68 +1,218 @@
-.card-list-panel ul {
-  padding-left: 0;
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #222;
   margin: 0;
-  list-style: none;
 }
 
-.card-list-panel li {
-  padding: 4px 8px;
+/* Buttons */
+.deck-btn, .tiny-btn {
+  border-radius: 4px;
+  font-family: inherit;
   cursor: pointer;
 }
+.deck-btn {
+  background: #f7dc6f;
+  color: #222;
+  border: 1px solid #bca52a;
+  font-weight: bold;
+  padding: 0.5em 1em;
+}
+.deck-btn:hover {
+  background: #ffe599;
+}
+.tiny-btn {
+  background: #f3f3f3;
+  color: #222;
+  border: 1px solid #bbb;
+  font-size: 0.8em;
+  padding: 2px 8px;
+}
+.tiny-btn:hover {
+  background: #d0e1fd;
+}
 
+/* Export dropdown */
+.export-dropdown-anchor {
+  position: relative;
+  width: 120px;
+}
+.export-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 120px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.export-dropdown-menu button,
+.export-dropdown-menu li {
+  width: 100%;
+  background: none;
+  border: none;
+  color: #222;
+  text-align: left;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font: inherit;
+}
+.export-dropdown-menu button:hover,
+.export-dropdown-menu li:hover {
+  background: #e6f0ff;
+}
+
+/* Saved decks and lists */
+.deck-controls h3 {
+  margin: 0.5em 0 0.25em 0;
+  font-size: 1em;
+}
+.deck-controls ul,
+.card-list-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.deck-controls li.selected,
 .card-list-panel li.selected {
   background: #e0e0ff;
 }
 
-.card-row {
-  position: relative;
-  overflow: hidden; /* Clear floats */
+/* Card preview */
+.card-preview-wrapper, .card-preview {
   width: 100%;
-  min-width: 0;
-  box-sizing: border-box;
-  line-height: 1.8;
-}
-
-/* Card name will not overlap button group */
-.card-row > span:first-child {
-  display: inline-block;
-  max-width: 60%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* Button group floats to the right */
-.button-group {
-  float: right;
-  display: flex;
-  gap: 4px;
-}
-
-.tiny-btn {
-  padding: 2px 6px;
-  font-size: 0.8em;
-  border-radius: 4px;
-  border: 1px solid #bbb;
-  background: #f3f3f3;
-  cursor: pointer;
-  margin-left: 2px;
-  min-width: 32px;
-  transition: background 0.15s;
-}
-.tiny-btn:hover {
-  background: #d0e1fd;
-  border-color: #7a99d9;
-}
-
-.card-preview-wrapper {
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.card-preview {
-  width: 100%;
-  height: auto;
   max-width: 100%;
   display: block;
+  box-sizing: border-box;
+}
+.card-preview {
+  height: auto;
   object-fit: contain;
+}
+
+/* Input styles */
+input[type="text"] {
+  font-family: inherit;
+  color: #222;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  padding: 0.5em;
+  transition: border-color 0.15s;
+}
+input[type="text"]:focus {
+  border-color: #f7dc6f;
+  outline: none;
+}
+
+/* Placeholder color */
+input[type="text"]::placeholder,
+input[type="text"]::-webkit-input-placeholder,
+input[type="text"]::-moz-placeholder,
+input[type="text"]:-ms-input-placeholder,
+input[type="text"]:-moz-placeholder {
+  color: orange;
+  opacity: 1;
+}
+
+/* Misc */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e5e5e5;
+}
+::-webkit-scrollbar-thumb {
+  background: #b2d7cb;
+  border-radius: 4px;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #181a1b;
+    color: #ebebeb;
+  }
+  .deck-btn {
+    background: #b7950b;
+    color: #181a1b;
+    border-color: #9a7d0a;
+  }
+  .deck-btn:hover {
+    background: #ffd700;
+  }
+  .tiny-btn {
+    background: #272727;
+    color: #ffd700;
+    border-color: #9a7d0a;
+  }
+  .tiny-btn:hover {
+    background: #333c44;
+  }
+  input[type="text"] {
+    background: #23272a;
+    color: #ffd700;
+    border-color: #8e8e8e;
+  }
+  input[type="text"]:focus {
+    border-color: #ffd700;
+  }
+  input[type="text"]::placeholder,
+  input[type="text"]::-webkit-input-placeholder,
+  input[type="text"]::-moz-placeholder,
+  input[type="text"]:-ms-input-placeholder,
+  input[type="text"]:-moz-placeholder {
+    color: #ffd700;
+    opacity: 1;
+  }
+  .export-dropdown-menu {
+    background: #23272a;
+    color: #ffd700;
+    border-color: #8e8e8e;
+  }
+  .export-dropdown-menu button,
+  .export-dropdown-menu li {
+    color: #ffd700;
+  }
+  .export-dropdown-menu button:hover,
+  .export-dropdown-menu li:hover {
+    background: #333c44;
+    color: #fff;
+  }
+  .deck-controls li.selected,
+  .card-list-panel li.selected {
+    background: #21216a;
+  }
+  ::-webkit-scrollbar {
+    background: #23272a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #b7950b;
+  }
+}
+
+input[type="text"] {
+  color: #222 !important;
+  background: #fff;
+}
+
+input[type="text"]::placeholder,
+input[type="text"]::-webkit-input-placeholder,
+input[type="text"]::-moz-placeholder,
+input[type="text"]:-ms-input-placeholder,
+input[type="text"]:-moz-placeholder {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+*::placeholder {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.card-list-panel li,
+.card-list-panel span,
+.deck-panel li,
+.deck-panel span {
+  color: #222 !important;
 }

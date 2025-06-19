@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// Helper: Gather all possible filter options for dropdowns
 function getFilters(cards, filterOptions) {
   const props = {};
   filterOptions.forEach((k) => {
@@ -41,6 +42,17 @@ function parseSearchString(search, searchPrefixes) {
   return criteria;
 }
 
+// Helper: Get only one card per unique name, keeping the first matching card encountered
+function getUniqueCardsByName(cards) {
+  const map = new Map();
+  for (const card of cards) {
+    if (!map.has(card.name)) {
+      map.set(card.name, card);
+    }
+  }
+  return Array.from(map.values());
+}
+
 function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard, deck }) {
   const [search, setSearch] = useState("");
   const [filters, setFilters] = useState({});
@@ -65,6 +77,9 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
     }
     return true;
   });
+
+  // Show only one card per unique name
+  const uniqueCards = getUniqueCardsByName(filtered);
 
   // Prepare prefix help
   const prefixEntries = Object.entries(searchPrefixes);
@@ -112,7 +127,7 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
       </div>
       <div style={{maxHeight: "340px", overflowY: "auto"}}>
         <ul style={{margin: 0, padding: 0, listStyle: "none"}}>
-          {filtered.map(card => (
+          {uniqueCards.map(card => (
             <li
               key={card.id}
               className={selectedCard === card.id ? "selected" : ""}

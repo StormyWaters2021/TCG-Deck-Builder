@@ -1,3 +1,4 @@
+import "./styles.css";
 import React, { useEffect, useState } from "react";
 import DeckBuilder from "./DeckBuilder";
 
@@ -13,8 +14,20 @@ function App() {
   const [gameData, setGameData] = useState({ settings: null, cards: [] });
   const [deck, setDeck] = useState({});
 
+  // On mount, check if URL has game/deck params and auto-select game if needed
   useEffect(() => {
     fetchGames().then(setGames);
+  }, []);
+
+  // Try to parse ?game=...&deck=... on mount
+  useEffect(() => {
+    let params = new URLSearchParams(window.location.search);
+    let urlGame = params.get("game");
+    if (urlGame && (!selectedGame || selectedGame !== urlGame)) {
+      setSelectedGame(urlGame);
+      setPendingGame(urlGame);
+    }
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
@@ -61,6 +74,7 @@ function App() {
           cards={gameData.cards}
           deck={deck}
           setDeck={setDeck}
+          setGame={setSelectedGame}
         />
       )}
     </div>

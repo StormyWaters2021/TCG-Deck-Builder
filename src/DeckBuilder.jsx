@@ -3,7 +3,7 @@ import CardListPanel from "./panels/CardListPanel";
 import DeckPanel from "./panels/DeckPanel";
 import DeckControls from "./panels/DeckControls";
 
-function DeckBuilder({ game, settings, cards, deck, setDeck }) {
+function DeckBuilder({ game, settings, cards, deck, setDeck, setGame }) {
   const [selectedCard, setSelectedCard] = useState(null);
 
   const addCard = (cardId, qty) => {
@@ -39,6 +39,7 @@ function DeckBuilder({ game, settings, cards, deck, setDeck }) {
         deck={deck}
         settings={settings}
         onRemoveCard={removeCard}
+        onAddCard={addCard}
         selectedCard={selectedCard}
         setSelectedCard={setSelectedCard}
       />
@@ -49,6 +50,7 @@ function DeckBuilder({ game, settings, cards, deck, setDeck }) {
         game={game}
         setDeck={setDeck}
         selectedCard={selectedCard}
+        setGame={setGame}
       />
     </div>
   );
