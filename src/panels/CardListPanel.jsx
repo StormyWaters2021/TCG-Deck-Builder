@@ -18,11 +18,9 @@ function getFilters(cards, filterOptions) {
 
 // Helper: Parse search string into criteria for advanced searching
 function parseSearchString(search, searchPrefixes) {
-  // Build a regex that matches all configured prefixes
   const prefixPattern = Object.keys(searchPrefixes)
-    .map(prefix => prefix.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&')) // Escape regex chars
+    .map(prefix => prefix.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'))
     .join('|');
-  // Match: prefix:"multi word", prefix:(multi word), prefix:word, or bareword (for name)
   const regex = new RegExp(
     `(?:\\s*(${prefixPattern})\\s*(?:"([^"]+)"|\\(([^)]+)\\)|([^\\s]+)))|([^\\s]+)`,
     "gi"
@@ -31,11 +29,9 @@ function parseSearchString(search, searchPrefixes) {
   let match;
   while ((match = regex.exec(search)) !== null) {
     if (match[1]) {
-      // Prefixed
       let value = match[2] || match[3] || match[4] || "";
       criteria.push({ property: searchPrefixes[match[1]], value: value.trim() });
     } else if (match[5]) {
-      // Unprefixed, search name by default
       criteria.push({ property: "name", value: match[5].trim() });
     }
   }
@@ -57,15 +53,12 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
   const [search, setSearch] = useState("");
   const [filters, setFilters] = useState({});
 
-  // Use filterOptions from settings
   const filterProps = getFilters(cards, settings.filterOptions || []);
   const searchPrefixes = settings.searchPrefixes || {};
 
-  // Enhanced filtering logic for advanced search
   const filtered = cards.filter(card => {
     if (search.trim().length > 0) {
       const criteria = parseSearchString(search.trim(), searchPrefixes);
-      // All criteria must match (logical AND)
       for (const { property, value } of criteria) {
         if (!card[property] || !card[property].toString().toLowerCase().includes(value.toLowerCase())) {
           return false;
@@ -78,12 +71,16 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
     return true;
   });
 
-  // Show only one card per unique name
   const uniqueCards = getUniqueCardsByName(filtered);
 
-  // Prepare prefix help
   const prefixEntries = Object.entries(searchPrefixes);
   const hasPrefixes = prefixEntries.length > 0;
+
+  // Clears search and filters
+  function handleClearFilters() {
+    setSearch("");
+    setFilters({});
+  }
 
   return (
     <aside className="card-list-panel">
@@ -93,7 +90,7 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
           <strong>Search prefixes:</strong>{" "}
           {prefixEntries.map(([prefix, property], idx) => (
             <span key={prefix} style={{ marginRight: "1em" }}>
-              <code>{prefix}"..."</code> <span style={{ color: "#888" }}>({property})</span>
+              <code>{prefix}"..."</code> <span className="search-prefix-property">({property})</span>
               {idx < prefixEntries.length - 1 ? "" : ""}
             </span>
           ))}
@@ -110,6 +107,14 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
             : "Search by name."
         }
       />
+      {/* Clear Filters Button */}
+      <button
+        type="button"
+        onClick={handleClearFilters}
+        style={{ margin: "0.5em 0", padding: "0.25em 1em" }}
+      >
+        Clear Filters
+      </button>
       {/* Filters */}
       <div>
         {Object.keys(filterProps).map(prop => (
@@ -160,18 +165,6 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
           ))}
         </ul>
       </div>
-      {selectedCard && (
-        <div>
-          <img
-            className="card-preview"
-            src={`/games/${settings.gameName}/images/${
-              cards.find(c => c.id === selectedCard)?.image
-            }`}
-            alt={cards.find(c => c.id === selectedCard)?.name}
-            onError={e => { e.target.style.display = 'none'; }}
-          />
-        </div>
-      )}
     </aside>
   );
 }

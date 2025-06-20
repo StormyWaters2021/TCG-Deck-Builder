@@ -1,5 +1,16 @@
 import React, { useRef, useEffect, useState } from "react";
 
+// Helper: build the correct image URL for a card & game, respecting BASE_URL and slashes.
+export function getCardImageUrl(card, game) {  // <-- add "export" here
+  if (!card || !card.image) return null;
+  let base = import.meta.env.BASE_URL || "/";
+  // Ensure base ends with exactly one slash
+  if (!base.endsWith("/")) base += "/";
+  // Remove any leading slash from the rest of the path (to avoid double slashes)
+  const relPath = `games/${game}/images/${card.image}`.replace(/^\/+/, "");
+  return `${base}${relPath}`;
+}
+
 // Helper to draw wrapped text in a canvas context
 function drawWrappedText(ctx, text, x, y, maxWidth, lineHeight, font) {
   ctx.font = font;
@@ -70,9 +81,7 @@ function CardPreview({
     setEnlarged(false);
   }, [card, game]);
 
-  const imageUrl = card && card.image
-    ? `${import.meta.env.BASE_URL}games/${game}/images/${card.image}`
-    : null;
+  const imageUrl = getCardImageUrl(card, game);
 
   useEffect(() => {
     if (!card) return;
@@ -102,11 +111,11 @@ function CardPreview({
           style={{
             width: "200px",
             height: "300px",
-            border: "1px solid #ccc",
+            border: "1px solid var(--dropdown-border)",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            background: "#f8f8f8",
+            background: "var(--dropdown-bg)",
             color: "#999",
             margin: 0
           }}
@@ -129,67 +138,23 @@ function CardPreview({
             style={{
               width: "100%",
               height: "auto",
-              border: "1px solid #ccc",
-              background: "#fff",
+              border: "1px solid var(--dropdown-border)",
+              background: "var(--dropdown-bg)",
               display: "block",
               margin: 0
             }}
           />
           {quantity !== null && (
-            <span style={{
-              position: "absolute",
-              top: 2,
-              right: 2,
-              background: "#2980B9",
-              color: "#fff",
-              borderRadius: "50%",
-              minWidth: "1.3em",
-              height: "1.3em",
-              lineHeight: "1.3em",
-              textAlign: "center",
-              fontWeight: "bold",
-              fontSize: "0.9em",
-              boxShadow: "0 1px 3px rgba(0,0,0,0.25)",
-              padding: "0 4px",
-              zIndex: 2
-            }}>
+            <span className="card-qty-badge">
               ×{quantity}
             </span>
           )}
           {showButtons && (
             <div
-              style={{
-                position: "absolute",
-                bottom: 2,
-                left: "50%",
-                transform: "translateX(-50%)",
-                display: "flex",
-                gap: "4px",
-                zIndex: 3
-              }}
+              className="card-qty-btns"
             >
-              <button
-                style={{
-                  padding: "2px 5px",
-                  fontSize: "0.9em",
-                  borderRadius: "3px",
-                  border: "1px solid #bbb",
-                  background: "#eee",
-                  cursor: "pointer"
-                }}
-                onClick={onRemove}
-              >-1</button>
-              <button
-                style={{
-                  padding: "2px 5px",
-                  fontSize: "0.9em",
-                  borderRadius: "3px",
-                  border: "1px solid #bbb",
-                  background: "#eee",
-                  cursor: "pointer"
-                }}
-                onClick={onAdd}
-              >+1</button>
+              <button className="card-modify-btn" onClick={onRemove}>-1</button>
+              <button className="card-modify-btn" onClick={onAdd}>+1</button>
             </div>
           )}
         </div>
@@ -223,60 +188,14 @@ function CardPreview({
           title="Click to enlarge"
         />
         {quantity !== null && (
-          <span style={{
-            position: "absolute",
-            top: 2,
-            right: 2,
-            background: "#2980B9",
-            color: "#fff",
-            borderRadius: "50%",
-            minWidth: "1.3em",
-            height: "1.3em",
-            lineHeight: "1.3em",
-            textAlign: "center",
-            fontWeight: "bold",
-            fontSize: "0.9em",
-            boxShadow: "0 1px 3px rgba(0,0,0,0.25)",
-            padding: "0 4px",
-            zIndex: 2
-          }}>
+          <span className="card-qty-badge">
             ×{quantity}
           </span>
         )}
         {showButtons && (
-          <div
-            style={{
-              position: "absolute",
-              bottom: 2,
-              left: "50%",
-              transform: "translateX(-50%)",
-              display: "flex",
-              gap: "4px",
-              zIndex: 3
-            }}
-          >
-            <button
-              style={{
-                padding: "2px 5px",
-                fontSize: "0.9em",
-                borderRadius: "3px",
-                border: "1px solid #bbb",
-                background: "#eee",
-                cursor: "pointer"
-              }}
-              onClick={onRemove}
-            >-1</button>
-            <button
-              style={{
-                padding: "2px 5px",
-                fontSize: "0.9em",
-                borderRadius: "3px",
-                border: "1px solid #bbb",
-                background: "#eee",
-                cursor: "pointer"
-              }}
-              onClick={onAdd}
-            >+1</button>
+          <div className="card-qty-btns">
+            <button className="card-modify-btn" onClick={onRemove}>-1</button>
+            <button className="card-modify-btn" onClick={onAdd}>+1</button>
           </div>
         )}
       </div>
@@ -317,19 +236,7 @@ function CardPreview({
               }}
             />
             <button
-              style={{
-                position: "absolute",
-                top: 8,
-                right: 8,
-                background: "rgba(0,0,0,0.7)",
-                color: "#fff",
-                border: "none",
-                borderRadius: "50%",
-                width: 32,
-                height: 32,
-                fontSize: 20,
-                cursor: "pointer"
-              }}
+              className="card-modal-close-btn"
               onClick={() => setEnlarged(false)}
               aria-label="Close preview"
               title="Close"

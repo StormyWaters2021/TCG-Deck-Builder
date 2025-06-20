@@ -515,14 +515,46 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
   const [selectedDeckIdx, setSelectedDeckIdx] = useState(null);
 
   function saveDeck() {
-    if (!deckName) {
-      alert("Please enter a deck name.");
-      return;
+  if (!deckName) {
+    alert("Please enter a deck name.");
+    return;
+  }
+  // Check if the name already exists
+  const existingIdx = savedDecks.findIndex(d => d.name === deckName);
+  if (existingIdx !== -1) {
+    const choice = window.confirm(
+      `A deck named "${deckName}" already exists. Click OK to overwrite, or Cancel to rename.`
+    );
+    if (choice) {
+      // Overwrite
+      const newDecks = savedDecks.map((d, i) =>
+        i === existingIdx ? { name: deckName, deck } : d
+      );
+      setSavedDecks(newDecks);
+      localStorage.setItem(`${game}-decks`, JSON.stringify(newDecks));
+      alert("Deck overwritten.");
+    } else {
+      // Rename
+      let newName = prompt("Enter a new deck name:", `${deckName} (copy)`);
+      if (!newName) return;
+      if (savedDecks.some(d => d.name === newName)) {
+        alert("A deck with that name already exists. Please choose another name.");
+        return;
+      }
+      const newDecks = [...savedDecks, { name: newName, deck }];
+      setDeckName(newName);
+      setSavedDecks(newDecks);
+      localStorage.setItem(`${game}-decks`, JSON.stringify(newDecks));
+      alert("Deck saved with new name.");
     }
+  } else {
+    // Save as new
     const newDecks = [...savedDecks, { name: deckName, deck }];
     setSavedDecks(newDecks);
     localStorage.setItem(`${game}-decks`, JSON.stringify(newDecks));
+    alert("Deck saved.");
   }
+}
   function loadDeck(idx) {
     if (!window.confirm(`All current progress will be lost! Do you want to load ${savedDecks[idx].name}?`)) return;
     setDeck(savedDecks[idx].deck);
@@ -582,32 +614,81 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
   }
 
   function importDeck() {
-    const input = document.createElement("input");
-    input.type = "file";
-    input.accept = ".json,application/json";
-    input.onchange = async e => {
-      const file = e.target.files[0];
-      if (!file) return;
-      const text = await file.text();
-      try {
+  const input = document.createElement("input");
+  input.type = "file";
+  input.accept = ".json,application/json,.o8d,application/xml,text/xml";
+  input.onchange = async e => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    if (!window.confirm("All current progress will be lost! Importing a deck will overwrite your current deck. Continue?")) {
+      return;
+    }
+
+    const text = await file.text();
+    let importedDeck = {};
+    let notFound = [];
+
+    try {
+      if (file.name.toLowerCase().endsWith(".json")) {
         const deckObj = JSON.parse(text);
-        if (!deckObj.game || !deckObj.deck) throw new Error("Invalid deck file.");
-        if (deckObj.game !== game) {
+        if (!deckObj.deck) throw new Error("Invalid deck file.");
+        if (deckObj.game && deckObj.game !== game) {
           alert(`Deck is for game "${deckObj.game}". Switch to that game to import.`);
           return;
         }
-        if (!window.confirm("All current progress will be lost! Import deck?")) return;
-        const newDeck = {};
         for (const card of deckObj.deck) {
-          newDeck[card.id] = card.qty;
+          importedDeck[card.id] = card.qty;
         }
-        setDeck(newDeck);
-      } catch (e) {
-        alert("Invalid or corrupted deck file.");
+        setDeck(importedDeck);
+        return;
       }
-    };
-    input.click();
-  }
+    } catch (e) {}
+
+    if (file.name.toLowerCase().endsWith(".o8d") || text.startsWith('<?xml')) {
+      try {
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(text, "application/xml");
+        const cardNodes = Array.from(xmlDoc.getElementsByTagName("card"));
+        importedDeck = {};
+        notFound = [];
+
+        for (const node of cardNodes) {
+          const id = node.getAttribute("id");
+          const qty = parseInt(node.getAttribute("qty"), 10) || 1;
+          // Use the attribute for name if present, fallback to textContent
+          const name = node.getAttribute("name") || node.textContent.trim();
+
+          let foundCard = id ? cards.find(c => c.id === id) : null;
+          if (!foundCard && name) {
+            foundCard = cards.find(c => c.name === name);
+          }
+          if (foundCard) {
+            importedDeck[foundCard.id] = (importedDeck[foundCard.id] || 0) + qty;
+          } else if (name) {
+            notFound.push(name);
+          }
+        }
+
+        if (Object.keys(importedDeck).length > 0) {
+          setDeck(importedDeck);
+          if (notFound.length > 0) {
+            alert("Some cards could not be matched and were not imported:\n" + notFound.join("\n"));
+          }
+        } else {
+          alert("No cards could be loaded from this deck file.");
+        }
+        return;
+      } catch (e) {
+        alert("Failed to parse OCTGN deck file.");
+        return;
+      }
+    }
+
+    alert("Invalid or unsupported deck file.");
+  };
+  input.click();
+}
 
   function downloadFile(data, filename, type) {
     let blob;
@@ -623,108 +704,68 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
 
-  const mainButtonColor = "#2980B9";
-  const mainButtonTextColor = "#fff";
-  const mainButtonBorderColor = "#265dd8";
+  // All color and border-related styles are handled via CSS classes and variables.
+  // Please define variables like --main-button-bg, --main-button-color, etc. in styles.css.
+  // Example (in styles.css):
+  // :root {
+  //   --main-button-bg: #2980B9;
+  //   --main-button-color: #fff;
+  //   --main-button-border: #265dd8;
+  //   --dropdown-bg: #fff;
+  //   --dropdown-border: #ccc;
+  //   --dropdown-hover-bg: #e6f0ff;
+  //   --dropdown-hover-color: #111;
+  //   --link-message-bg: #fffbe6;
+  //   --link-message-color: #222;
+  //   --link-message-border: #e6d200;
+  //   --list-selected-bg: #eef;
+  // }
 
-  const buttonStyle = {
-    width: "120px",
-    height: "2.2em",
-    fontSize: "1em",
-    margin: 0,
-    padding: 0,
-    boxSizing: "border-box",
-    cursor: "pointer",
-    background: mainButtonColor,
-    color: mainButtonTextColor,
-    border: `1px solid ${mainButtonBorderColor}`,
-    borderRadius: "4px",
-    fontFamily: "inherit",
-    fontWeight: 500,
-    transition: "background 0.15s, border-color 0.15s"
-  };
-
-  const dropdownButtonStyle = {
-    ...buttonStyle,
-    width: "100%",
-    height: "2.2em",
-    border: "none",
-    background: "none",
-    color: "#222",
-    textAlign: "left",
-    paddingLeft: "1em",
-    cursor: "pointer"
-  };
+  const buttonClass = "main-button";
+  const dropdownButtonClass = "dropdown-button";
+  const dropdownButtonHoverClass = "dropdown-button-hover";
+  const deckNameInputClass = "deck-name-input";
+  const deckControlsGridClass = "deck-controls-grid";
+  const linkMessageClass = "link-message";
+  const listSelectedClass = "selected-list-item";
 
   const selectedCardObj = cards.find(c => c.id === selectedCard);
 
   const [dropdownHover, setDropdownHover] = useState(null);
 
   return (
-    <section className="deck-controls" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+    <section className="deck-controls flex-col-center">
       {/* Button Grid */}
       <div
-        className="deck-controls-grid"
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(120px, 1fr))",
-          gap: "0.7em",
-          marginBottom: "1.5em",
-          width: "100%",
-          maxWidth: 500,
-          justifyItems: "center"
-        }}
+        className={deckControlsGridClass}
       >
         <input
           type="text"
           placeholder="Deck name"
           value={deckName}
           onChange={e => setDeckName(e.target.value)}
-          style={{
-            width: "100%",
-            gridColumn: "1/-1",
-            marginBottom: "0.25em",
-            height: "2.2em",
-            fontSize: "1em",
-            padding: 0,
-            boxSizing: "border-box",
-            cursor: "pointer",
-            background: mainButtonColor,
-            border: `1px solid ${mainButtonBorderColor}`,
-            borderRadius: "4px",
-            fontFamily: "inherit",
-            fontWeight: 500,
-            transition: "background 0.15s, border-color 0.15s"
-          }}
+          className={deckNameInputClass}
         />
-        <button style={buttonStyle} onClick={saveDeck}>Save</button>
+        <button className={buttonClass} onClick={saveDeck}>Save</button>
         {/* Export Dropdown */}
         <div style={{ position: "relative", width: "120px" }} ref={exportMenuRef}>
           <button
-            style={buttonStyle}
+            className={buttonClass}
             onClick={() => setExportMenuOpen(open => !open)}
           >
             Export ▼
           </button>
           {exportMenuOpen && (
             <div
-              style={{
-                position: "absolute",
-                top: "100%",
-                left: 0,
-                zIndex: 10,
-                background: "#fff",
-                border: "1px solid #ccc",
-                boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
-                minWidth: "120px",
-                width: "120px",
-              }}
+              className="dropdown-menu"
               onMouseLeave={() => setExportMenuOpen(false)}
             >
               <button
-                style={dropdownHover === 0
-                  ? { ...dropdownButtonStyle, background: "#e6f0ff", color: "#111" }
-                  : dropdownButtonStyle}
+                className={
+                  dropdownHover === 0
+                    ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
+                    : dropdownButtonClass
+                }
                 onMouseEnter={() => setDropdownHover(0)}
                 onMouseLeave={() => setDropdownHover(null)}
                 onClick={() => exportDeck("TXT")}
@@ -732,9 +773,11 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
                 TXT
               </button>
               <button
-                style={dropdownHover === 1
-                  ? { ...dropdownButtonStyle, background: "#e6f0ff", color: "#111" }
-                  : dropdownButtonStyle}
+                className={
+                  dropdownHover === 1
+                    ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
+                    : dropdownButtonClass
+                }
                 onMouseEnter={() => setDropdownHover(1)}
                 onMouseLeave={() => setDropdownHover(null)}
                 onClick={() => exportDeck("JSON")}
@@ -742,9 +785,11 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
                 JSON
               </button>
               <button
-                style={dropdownHover === 2
-                  ? { ...dropdownButtonStyle, background: "#e6f0ff", color: "#111" }
-                  : dropdownButtonStyle}
+                className={
+                  dropdownHover === 2
+                    ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
+                    : dropdownButtonClass
+                }
                 onMouseEnter={() => setDropdownHover(2)}
                 onMouseLeave={() => setDropdownHover(null)}
                 onClick={() => exportDeck("Image")}
@@ -752,9 +797,11 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
                 Image
               </button>
               <button
-                style={dropdownHover === 3
-                  ? { ...dropdownButtonStyle, background: "#e6f0ff", color: "#111" }
-                  : dropdownButtonStyle}
+                className={
+                  dropdownHover === 3
+                    ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
+                    : dropdownButtonClass
+                }
                 onMouseEnter={() => setDropdownHover(3)}
                 onMouseLeave={() => setDropdownHover(null)}
                 onClick={() => exportDeck("ImageCompact")}
@@ -762,9 +809,11 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
                 Image (Compact)
               </button>
               <button
-                style={dropdownHover === 4
-                  ? { ...dropdownButtonStyle, background: "#e6f0ff", color: "#111" }
-                  : dropdownButtonStyle}
+                className={
+                  dropdownHover === 4
+                    ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
+                    : dropdownButtonClass
+                }
                 onMouseEnter={() => setDropdownHover(4)}
                 onMouseLeave={() => setDropdownHover(null)}
                 onClick={() => exportDeck("LINK")}
@@ -773,9 +822,11 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
               </button>
               {settings.octgnExport && (
                 <button
-                  style={dropdownHover === 5
-                    ? { ...dropdownButtonStyle, background: "#e6f0ff", color: "#111" }
-                    : dropdownButtonStyle}
+                  className={
+                    dropdownHover === 5
+                      ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
+                      : dropdownButtonClass
+                  }
                   onMouseEnter={() => setDropdownHover(5)}
                   onMouseLeave={() => setDropdownHover(null)}
                   onClick={() => exportDeck("OCTGN")}
@@ -786,26 +837,13 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
             </div>
           )}
           {linkMessage && (
-            <div style={{
-              position: "absolute",
-              left: 0,
-              top: "100%",
-              marginTop: "2.8em",
-              background: "#fffbe6",
-              color: "#222",
-              padding: "0.3em 1em",
-              borderRadius: "5px",
-              border: "1px solid #e6d200",
-              boxShadow: "0 2px 8px rgba(0,0,0,0.09)",
-              zIndex: 12,
-              fontSize: "1em"
-            }}>
+            <div className={linkMessageClass}>
               {linkMessage}
             </div>
           )}
         </div>
-        <button style={buttonStyle} onClick={clearDeck}>Clear</button>
-        <button style={buttonStyle} onClick={importDeck}>Import</button>
+        <button className={buttonClass} onClick={clearDeck}>Clear</button>
+        <button className={buttonClass} onClick={importDeck}>Import</button>
       </div>
       <div style={{ width: "220px", marginBottom: "1em" }}>
         <CardPreview card={selectedCardObj} game={game} />
@@ -816,12 +854,11 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
           {savedDecks.map((d, i) => (
             <li
               key={i}
-              className={selectedDeckIdx === i ? "selected" : ""}
+              className={selectedDeckIdx === i ? listSelectedClass : ""}
               onClick={() => setSelectedDeckIdx(i)}
               style={{
                 display: "flex",
                 alignItems: "center",
-                background: selectedDeckIdx === i ? "#eef" : undefined,
                 padding: "0.25em 0.5em",
                 borderRadius: "4px",
                 marginBottom: "0.3em",
@@ -829,8 +866,8 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
               }}
             >
               <span style={{ flex: 1 }}>{d.name}</span>
-              <button style={{ ...buttonStyle, width: "60px", height: "1.8em", fontSize: "0.9em", marginRight: "0.3em" }} onClick={e => { e.stopPropagation(); loadDeck(i); }}>Load</button>
-              <button style={{ ...buttonStyle, width: "60px", height: "1.8em", fontSize: "0.9em" }} onClick={e => { e.stopPropagation(); deleteDeck(i); }}>Delete</button>
+              <button className={buttonClass} style={{ width: "60px", height: "1.8em", fontSize: "0.9em", marginRight: "0.3em" }} onClick={e => { e.stopPropagation(); loadDeck(i); }}>Load</button>
+              <button className={buttonClass} style={{ width: "60px", height: "1.8em", fontSize: "0.9em" }} onClick={e => { e.stopPropagation(); deleteDeck(i); }}>Delete</button>
             </li>
           ))}
         </ul>
