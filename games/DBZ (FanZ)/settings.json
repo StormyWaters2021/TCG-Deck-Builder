@@ -5,6 +5,10 @@
   "groupOptions": ["Type", "Style"],
   "filterOptions": ["Type", "Style", "Set"],
   "groupOrder": ["Hero MP", "Villain MP", "Mastery", "Physical Combat", "Energy Combat"],
+  "groupSort": {
+    "Hero MP": ["Level"],
+	"Villain MP": ["Level"]
+  },
   "searchPrefixes": {
     "t:": "Text",
     "e:": "Endurance",
