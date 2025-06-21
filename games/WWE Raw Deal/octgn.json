@@ -1,0 +1,35 @@
+{
+  "gameGuid": "dd9d1122-c855-40e6-a67f-21fd5bef2192",
+  "sections": [
+    {
+      "name": "Backstage",
+      "shared": false,
+      "criteria": {
+        "Type": ["Mastery"],
+		"Main Personality": ["Level 1", "Level 2", "Level 3", "Level 4"]
+      }
+    },
+    {
+      "name": "Arsenal",
+      "shared": false,
+      "criteria": {
+        "Type": ["Attack", "Event", "Setup", "Dragon Ball"]
+      }
+    },
+    {
+      "name": "Backlash Deck",
+      "shared": false,
+      "criteria": {
+        "Type": ["Attack", "Event", "Setup", "Dragon Ball"]
+      }
+    },
+    {
+      "name": "Misc",
+      "shared": false,
+      "criteria": {
+        "Type": ["Attack", "Event", "Setup", "Dragon Ball"]
+      }
+    }
+  ],
+  "defaultSection": "Life Deck"
+}
