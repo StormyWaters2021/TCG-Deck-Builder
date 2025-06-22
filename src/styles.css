@@ -1,68 +1,419 @@
-.card-list-panel ul {
-  padding-left: 0;
+:root {
+  /* Main action button background color */
+  --main-button-bg: #2980B9;
+  /* Main action button text color */
+  --main-button-color: #fff;
+  /* Main action button border color */
+  --main-button-border: #265dd8;
+  /* Dropdown menu background color */
+  --dropdown-bg: #fff;
+  /* Dropdown menu border color */
+  --dropdown-border: #ccc;
+  /* Dropdown menu item background on hover */
+  --dropdown-hover-bg: #e6f0ff;
+  /* Dropdown menu item text color on hover */
+  --dropdown-hover-color: #111;
+  /* Info message (share link) background color */
+  --link-message-bg: #fffbe6;
+  /* Info message (share link) text color */
+  --link-message-color: #222;
+  /* Info message (share link) border color */
+  --link-message-border: #e6d200;
+  /* Background for a selected item in lists */
+  --list-selected-bg: #eef;
+  /* Alternate background for a selected item (e.g. card list) */
+  --list-selected-bg-alt: #e0e0ff;
+  /* Text input border color */
+  --input-border: #bbb;
+  /* Text input background color */
+  --input-bg: #fff;
+  /* Text input text color */
+  --input-color: #222;
+  /* Text input border color when focused */
+  --input-focus-border: #f7dc6f;
+  /* Search prefix help text color */
+  --search-prefix-color: #888;
+  /* Deck error box background */
+  --deck-errors-bg: #fff8f0;
+  /* Deck error box text color */
+  --deck-errors-color: #b01515;
+  /* Background for swap printing button */
+  --swap-btn-bg: rgba(255,255,255,0.85);
+  /* Border color for swap printing button */
+  --swap-btn-border: #aaa;
+}
+
+/* ----- Global Body Styles ----- */
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #222;
   margin: 0;
-  list-style: none;
 }
 
-.card-list-panel li {
-  padding: 4px 8px;
-  cursor: pointer;
-}
-
-.card-list-panel li.selected {
-  background: #e0e0ff;
-}
-
-.card-row {
-  position: relative;
-  overflow: hidden; /* Clear floats */
-  width: 100%;
-  min-width: 0;
+/* ----- Main Buttons (Save, Export, etc in DeckControls) ----- */
+.main-button {
+  width: 120px;
+  height: 2.2em;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  line-height: 1.8;
-}
-
-/* Card name will not overlap button group */
-.card-row > span:first-child {
-  display: inline-block;
-  max-width: 60%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* Button group floats to the right */
-.button-group {
-  float: right;
-  display: flex;
-  gap: 4px;
-}
-
-.tiny-btn {
-  padding: 2px 6px;
-  font-size: 0.8em;
+  cursor: pointer;
+  background: var(--main-button-bg); /* Uses theme variable */
+  color: var(--main-button-color);
+  border: 1px solid var(--main-button-border);
   border-radius: 4px;
-  border: 1px solid #bbb;
-  background: #f3f3f3;
-  cursor: pointer;
-  margin-left: 2px;
-  min-width: 32px;
-  transition: background 0.15s;
+  font-family: inherit;
+  font-weight: 500;
+  transition: background 0.15s, border-color 0.15s;
 }
-.tiny-btn:hover {
-  background: #d0e1fd;
-  border-color: #7a99d9;
+.main-button:hover {
+  filter: brightness(1.12);
+  /* Slightly lighten on hover */
 }
 
-.card-preview-wrapper {
+/* ----- Deck Name Input (DeckControls.jsx) ----- */
+.deck-name-input {
   width: 100%;
+  grid-column: 1/-1; /* Fills grid width */
+  margin-bottom: 0.25em;
+  height: 2.2em;
+  font-size: 1em;
+  padding: 0;
   box-sizing: border-box;
+  cursor: pointer;
+  background: var(--main-button-bg);
+  border: 1px solid var(--main-button-border);
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 500;
+  color: var(--main-button-color);
+  transition: background 0.15s, border-color 0.15s;
+}
+.deck-name-input:focus {
+  outline: none;
+  border-color: var(--dropdown-hover-bg);
 }
 
-.card-preview {
+/* ----- Export Dropdown (DeckControls.jsx) ----- */
+.dropdown-button {
   width: 100%;
-  height: auto;
+  height: 2.2em;
+  border: none;
+  background: none;
+  color: #222;
+  text-align: left;
+  padding-left: 1em;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  transition: background 0.15s, color 0.15s;
+}
+.dropdown-button-hover,
+.dropdown-button:hover {
+  background: var(--dropdown-hover-bg);
+  color: var(--dropdown-hover-color);
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  background: var(--dropdown-bg);
+  border: 1px solid var(--dropdown-border);
+  border-radius: 4px;
+  min-width: 120px;
+  width: 120px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.dropdown-menu button {
+  width: 100%;
+  background: none;
+  border: none;
+  color: #222;
+  text-align: left;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font: inherit;
+}
+.dropdown-menu button:hover {
+  background: var(--dropdown-hover-bg);
+  color: var(--dropdown-hover-color);
+}
+
+/* ----- Info Message (such as "Link copied") ----- */
+.link-message {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin-top: 2.8em;
+  background: var(--link-message-bg);
+  color: var(--link-message-color);
+  padding: 0.3em 1em;
+  border-radius: 5px;
+  border: 1px solid var(--link-message-border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+  z-index: 12;
+  font-size: 1em;
+}
+
+/* ----- Button Grid Layout (DeckControls.jsx) ----- */
+.deck-controls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.7em;
+  margin-bottom: 1.5em;
+  width: 100%;
+  max-width: 500px;
+  justify-items: center;
+}
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ----- Saved Decks and List Items ----- */
+.deck-controls h3 {
+  margin: 0.5em 0 0.25em 0;
+  font-size: 1em;
+}
+.deck-controls ul,
+.card-list-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.selected-list-item,
+.deck-controls li.selected,
+.card-list-panel li.selected {
+  background: var(--list-selected-bg); /* General highlight */
+}
+.deck-controls li.selected {
+  background: var(--list-selected-bg);  /* DeckControls selected */
+}
+.card-list-panel li.selected {
+  background: var(--list-selected-bg-alt); /* CardListPanel selected */
+}
+
+/* ----- Card Preview (applies to CardPreview and container) ----- */
+.card-preview-wrapper, .card-preview {
+  width: 100%;
   max-width: 100%;
   display: block;
+  box-sizing: border-box;
+}
+.card-preview {
+  height: auto;
   object-fit: contain;
+}
+
+/* ----- Text Input Styles ----- */
+input[type="text"], .deck-name-input {
+  font-family: inherit;
+  color: var(--input-color);
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  padding: 0.5em;
+  transition: border-color 0.15s;
+}
+input[type="text"]:focus, .deck-name-input:focus {
+  border-color: var(--input-focus-border);
+  outline: none;
+}
+/* Placeholder text for inputs */
+input[type="text"]::placeholder,
+input[type="text"]::-webkit-input-placeholder,
+input[type="text"]::-moz-placeholder,
+input[type="text"]:-ms-input-placeholder,
+input[type="text"]:-moz-placeholder {
+  color: orange;
+  opacity: 1;
+}
+
+/* ----- Search Prefix (CardListPanel search help) ----- */
+.search-prefix-property {
+  color: var(--search-prefix-color);
+}
+
+/* ----- General List Text Color Consistency ----- */
+.card-list-panel li,
+.card-list-panel span,
+.deck-panel li,
+.deck-panel span {
+  color: var(--input-color) !important;
+}
+
+/* ----- DeckPanel Buttons (alternate printing swap, +1/-1, etc.) ----- */
+.deck-swap-btn {
+  background: var(--swap-btn-bg);
+  border: 1px solid var(--swap-btn-border);
+  border-radius: 50%;
+  font-size: 1em;
+  padding: 0 4px;
+  cursor: pointer;
+  z-index: 5;
+  transition: background 0.15s, border-color 0.15s;
+}
+.deck-swap-btn:hover {
+  filter: brightness(1.1);
+  border-color: var(--main-button-bg);
+}
+.deck-modify-btn {
+  margin-left: 0.25em;
+  background: var(--main-button-bg);
+  color: var(--main-button-color);
+  border: 1px solid var(--main-button-border);
+  border-radius: 3px;
+  font-size: 0.95em;
+  cursor: pointer;
+  padding: 0 0.7em;
+  transition: background 0.15s, border-color 0.15s;
+}
+.deck-modify-btn:hover {
+  filter: brightness(1.12);
+}
+
+/* ----- Card Grid Cell (DeckPanel grid mode) ----- */
+.deck-panel .card-grid-cell {
+  background: var(--main-button-color);
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ----- Deck Errors (validation messages) ----- */
+.deck-errors {
+  margin-top: 0.5em;
+  padding: 0.5em 1em;
+  background: var(--deck-errors-bg);
+  color: var(--deck-errors-color);
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* ----- CardPreview Quantity Badge and +1/-1 Buttons ----- */
+.card-qty-badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: var(--main-button-bg);
+  color: var(--main-button-color);
+  border-radius: 50%;
+  min-width: 1.3em;
+  height: 1.3em;
+  line-height: 1.3em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  padding: 0 4px;
+  z-index: 2;
+}
+
+.card-qty-btns {
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 4px;
+  z-index: 3;
+}
+
+.card-modify-btn {
+  padding: 2px 5px;
+  font-size: 0.9em;
+  border-radius: 3px;
+  border: 1px solid var(--input-border);
+  background: var(--dropdown-bg);
+  color: var(--input-color);
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s;
+}
+.card-modify-btn:hover {
+  background: var(--dropdown-hover-bg);
+  border-color: var(--main-button-bg);
+}
+
+/* ----- Modal Close Button (for enlarged card preview) ----- */
+.card-modal-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1001;
+  transition: background 0.15s;
+}
+.card-modal-close-btn:hover {
+  background: #222;
+}
+
+/* ----- Scrollbar Styles (Webkit browsers) ----- */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e5e5e5;
+}
+::-webkit-scrollbar-thumb {
+  background: #b2d7cb;
+  border-radius: 4px;
+}
+
+/* ----- Dark Mode (auto applies with system preference) ----- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-button-bg: #b7950b;
+    --main-button-color: #181a1b;
+    --main-button-border: #9a7d0a;
+    --dropdown-bg: #23272a;
+    --dropdown-border: #8e8e8e;
+    --dropdown-hover-bg: #333c44;
+    --dropdown-hover-color: #fff;
+    --link-message-bg: #23272a;
+    --link-message-color: #ffd700;
+    --link-message-border: #9a7d0a;
+    --list-selected-bg: #21216a;
+    --list-selected-bg-alt: #21216a;
+    --input-border: #8e8e8e;
+    --input-bg: #23272a;
+    --input-color: #ffd700;
+    --input-focus-border: #ffd700;
+    --search-prefix-color: #ffd700;
+    --deck-errors-bg: #2b1a1a;
+    --deck-errors-color: #ffbebe;
+    --swap-btn-bg: #23272a;
+    --swap-btn-border: #ffd700;
+  }
+  body {
+    background: #181a1b;
+    color: #ebebeb;
+  }
+  ::-webkit-scrollbar {
+    background: var(--input-bg);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #b7950b;
+  }
+}
+
+/* ----- Legacy/Override Fixes ----- */
+input[type="text"] {
+  color: var(--input-color) !important;
+  background: var(--input-bg);
+}
+*::placeholder {
+  color: orange !important;
+  opacity: 1 !important;
 }

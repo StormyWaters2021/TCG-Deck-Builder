@@ -9,6 +9,8 @@ dist/
 build/
 out/
 coverage/
+r2-file-server/
+.wrangler/
 
 # Logs
 *.log
@@ -37,6 +39,10 @@ Thumbs.db
 # Card images (if you keep them out of git)
 cards/*.jpg
 cards/*.png
+
+# Ignore all .png and .jpg in games directory and subdirectories
+public/games/**/*.png
+public/games/**/*.jpg
 
 # Cards data output (if you generate cleaned or temp files)
 *cards-clean.json

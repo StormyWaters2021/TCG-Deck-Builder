@@ -1,0 +1,33 @@
+{
+  "gameGuid": "ded34722-5e8a-4cc5-8aa4-20bac561a60b",
+  "sections": [
+    {
+      "name": "Starting Illuminati",
+      "shared": false,
+      "criteria": {
+      }
+    },
+	{
+      "name": "Main Deck",
+      "shared": false,
+      "criteria": {
+      }
+    },
+    {
+      "name": "Plot Deck",
+      "shared": false,
+      "criteria": {
+		"Subtype": ["Illuminati"]
+        "Type": ["Plot",]
+      }
+    },
+    {
+      "name": "Group Deck",
+      "shared": false,
+      "criteria": {
+        "Type": ["Group"]
+      }
+    }
+  ],
+  "defaultSection": "Plot Deck"
+}

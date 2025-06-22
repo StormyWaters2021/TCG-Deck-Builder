@@ -1,0 +1,7 @@
+[
+  { "type": "totalCount", "label": "Cards" },
+  { "type": "countContains", "prop": "Type", "contains": "Plot", "label": "Plots" },
+  { "type": "countContains", "prop": "Type", "contains": "Group", "label": "Groups" },
+  { "type": "countContains", "prop": "Subtype", "contains": "New World Order", "label": "NWOs" }, 
+]
+
