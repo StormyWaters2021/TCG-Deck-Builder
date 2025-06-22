@@ -17,15 +17,15 @@
       "name": "Plot Deck",
       "shared": false,
       "criteria": {
-		"Subtype": ["Illuminati"]
-        "Type": ["Plot",]
+		"Subtype": ["Illuminati"],
+        "Type": ["Plot"]
       }
     },
     {
       "name": "Group Deck",
       "shared": false,
       "criteria": {
-        "Type": ["Group"]
+        "Type": ["Group", "Resource"]
       }
     }
   ],

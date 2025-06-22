@@ -792,7 +792,7 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
                 onMouseLeave={() => setDropdownHover(null)}
                 onClick={() => exportDeck("Image")}
               >
-                Image
+                Card Images
               </button>
               <button
                 className={
@@ -804,7 +804,7 @@ function DeckControls({ deck, cards, settings, game, setDeck, selectedCard, setG
                 onMouseLeave={() => setDropdownHover(null)}
                 onClick={() => exportDeck("ImageCompact")}
               >
-                Image (Compact)
+                Image Stack
               </button>
               <button
                 className={

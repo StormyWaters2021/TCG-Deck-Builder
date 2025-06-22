@@ -417,3 +417,59 @@ input[type="text"] {
   color: orange !important;
   opacity: 1 !important;
 }
+
+/* ----- Game Selection Grid and Cards (App.jsx) ----- */
+.game-grid {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit, 325px); /* fixed width per item */
+  gap: 20px;
+  justify-content: center;   /* ✅ center the grid horizontally */
+  margin-top: 2rem;
+}
+
+.game-card {
+  cursor: pointer;
+  border: 2px solid var(--main-button-border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.game-card:hover {
+  transform: scale(1.03);
+  border-color: var(--main-button-bg);
+}
+
+.game-logo {
+  width: 325px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+/* ----- Back to Game Select Button (App.jsx) ----- */
+.back-button {
+  background-color: var(--main-button-bg);
+  color: var(--main-button-color);
+  border: 1px solid var(--main-button-border);
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s;
+  margin-top: 1rem;
+}
+
+.back-button:hover {
+  filter: brightness(1.12);
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;   /* horizontal centering */
+  align-items: center;       /* vertical centering */
+  height: 60vh;              /* take 60% of viewport height */
+  font-size: 1.5rem;
+  color: var(--input-color); /* optional: use your theme color */
+}

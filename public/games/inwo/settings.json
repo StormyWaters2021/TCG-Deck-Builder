@@ -14,10 +14,14 @@
         "Type"
     ],
     "groupOrder": [],
-    "groupSort": {
-        "Group": "Subtype",
-        "Plot": "Subtype"
-    },
+      "groupSort": {
+		"Group": {
+			"by": ["Subtype", "name"],
+    "order": {
+      "Subtype": ["Illuminati", "Organization", "Personality", "name"]
+		}	
+	}
+	  },
     "searchPrefixes": {
         "t:": "Card Text",
         "al:": "Alignments",

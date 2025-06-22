@@ -6,8 +6,18 @@
   "filterOptions": ["Type", "Style", "Set"],
   "groupOrder": ["Hero MP", "Villain MP", "Mastery", "Physical Combat", "Energy Combat"],
   "groupSort": {
-    "Hero MP": ["Level"],
-	"Villain MP": ["Level"]
+  "Hero MP": {
+    "by": ["Level", "name"],
+    "order": {
+      "Level": ["1", "2", "3", "4"]
+		}	
+	},
+  "Villain MP": {
+    "by": ["Level", "name"],
+    "order": {
+      "Level": ["1", "2", "3", "4"]
+		}	
+	}
   },
   "searchPrefixes": {
     "t:": "Text",
@@ -34,3 +44,5 @@
     "banList": ["BannedCardID"]
   }
 }
+
+
