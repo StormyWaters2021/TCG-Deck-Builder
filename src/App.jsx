@@ -41,11 +41,15 @@ function App() {
   const [gameData, setGameData] = useState({ settings: null, cards: [] });
   const [deck, setDeck] = useState({});
 
-  // New state for light/dark mode toggle, initialize from localStorage or default false (dark)
+  // For light/dark mode toggle, initialize from localStorage or default false (dark)
   const [isLightMode, setIsLightMode] = useState(() => {
     const saved = localStorage.getItem("lightMode");
     return saved === "true";
   });
+
+  // --- SHARED STATE for grouping and overrides ---
+  const [groupBy, setGroupBy] = useState("OCTGN");
+  const [octgnOverrides, setOctgnOverrides] = useState({});
 
   // Apply mode class and persist choice
   useEffect(() => {
@@ -87,6 +91,8 @@ function App() {
     ]).then(([settings, cards]) => setGameData({ settings, cards }));
 
     setDeck({}); // Clear deck on game change to avoid conflicts
+    setGroupBy("OCTGN");
+    setOctgnOverrides({});
   }, [selectedGame]);
 
   // When cards load, parse deck from URL (only once)
@@ -118,6 +124,8 @@ function App() {
     setDeck({});
     setSelectedGame("");
     setGameData({ settings: null, cards: [] });
+    setGroupBy("OCTGN");
+    setOctgnOverrides({});
 
     // Clear the URL params to avoid reloading game from URL on next render
     const url = new URL(window.location);
@@ -211,6 +219,11 @@ function App() {
           deck={deck}
           setDeck={setDeck}
           setGame={setSelectedGame}
+          // --- Pass groupBy and octgnOverrides and their setters ---
+          groupBy={groupBy}
+          setGroupBy={setGroupBy}
+          octgnOverrides={octgnOverrides}
+          setOctgnOverrides={setOctgnOverrides}
         />
       )}
     </div>

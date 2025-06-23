@@ -2,6 +2,7 @@
   "gameName": "wwe-raw-deal",
   "maxCopiesPerCard": 9999,
   "addNValue": 2,
+  "octgnExport": true,
   "filterOptions": ["Type", "Fortitude", "Damage", "Format"],
   "groupOptions": ["Type"],
   "groupOrder": [],

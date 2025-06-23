@@ -13,7 +13,7 @@
       "name": "Life Deck",
       "shared": false,
       "criteria": {
-        "Type": ["Attack", "Event", "Setup", "Dragon Ball"]
+        "Type": ["Energy Combat", "Physical Combat", "Drill", "Hero Ally", "Villain Ally", "Hero/Villain Ally", "Event", "Setup", "Dragon Ball"]
       }
     }
   ],

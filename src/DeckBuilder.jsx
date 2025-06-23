@@ -3,7 +3,18 @@ import CardListPanel from "./panels/CardListPanel";
 import DeckPanel from "./panels/DeckPanel";
 import DeckControls from "./panels/DeckControls";
 
-function DeckBuilder({ game, settings, cards, deck, setDeck, setGame }) {
+function DeckBuilder({
+  game,
+  settings,
+  cards,
+  deck,
+  setDeck,
+  setGame,
+  groupBy,
+  setGroupBy,
+  octgnOverrides,
+  setOctgnOverrides,
+}) {
   const [selectedCard, setSelectedCard] = useState(null);
 
   const addCard = (cardId, qty) => {
@@ -42,6 +53,10 @@ function DeckBuilder({ game, settings, cards, deck, setDeck, setGame }) {
         onAddCard={addCard}
         selectedCard={selectedCard}
         setSelectedCard={setSelectedCard}
+        groupByProp={groupBy}
+        setGroupByProp={setGroupBy}
+        octgnOverridesProp={octgnOverrides}
+        setOctgnOverridesProp={setOctgnOverrides}
       />
       <DeckControls
         deck={deck}
@@ -51,6 +66,8 @@ function DeckBuilder({ game, settings, cards, deck, setDeck, setGame }) {
         setDeck={setDeck}
         selectedCard={selectedCard}
         setGame={setGame}
+        groupBy={groupBy}
+        octgnOverrides={octgnOverrides}
       />
     </div>
   );

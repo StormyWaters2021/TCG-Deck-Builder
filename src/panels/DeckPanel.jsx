@@ -1,7 +1,7 @@
 import React, { useMemo, useState, useEffect, useRef } from "react";
 import CardPreview from "../components/CardPreview";
 
-// --- DeckStatsBanner ---
+// --- DeckStatsBanner (fully included) ---
 function DeckStatsBanner({ deck, cards, statsConfig }) {
   const deckList = useMemo(
     () =>
@@ -129,8 +129,7 @@ function DeckStatsBanner({ deck, cards, statsConfig }) {
   return <div className="deck-stats-banner">{stats}</div>;
 }
 
-
-// --- sortGroup helper ---
+// --- sortGroup helper (fully included) ---
 function sortGroup(cards, groupSortConfig) {
   if (!groupSortConfig || typeof groupSortConfig !== "object") {
     return [...cards].sort((a, b) => a.card.name.localeCompare(b.card.name));
@@ -169,7 +168,80 @@ function sortGroup(cards, groupSortConfig) {
   });
 }
 
-// --- DeckPanel component ---
+// --- Helper: match a card to a section (octgn criteria) ---
+function cardMatchesSection(card, section) {
+  if (!section.criteria) return false;
+  return Object.entries(section.criteria).some(([prop, values]) => {
+    const cardVal = card[prop];
+    if (Array.isArray(values)) {
+      if (Array.isArray(cardVal)) {
+        return cardVal.some((v) => values.includes(v));
+      }
+      return values.includes(cardVal);
+    }
+    return cardVal === values;
+  });
+}
+
+// --- Helper: group deck by OCTGN (with drag overrides) ---
+function groupDeckByOctgn(deck, cards, sections, userOverrides) {
+  const groups = {};
+  sections.forEach((section) => (groups[section.name] = []));
+  groups["Ungrouped"] = [];
+  Object.entries(deck).forEach(([cardId, qty]) => {
+    const card = cards.find((c) => c.id === cardId);
+    let group = "Ungrouped";
+    if (userOverrides && userOverrides[cardId]) {
+      group = userOverrides[cardId];
+    } else {
+      const match = sections.find((section) => cardMatchesSection(card, section));
+      if (match) group = match.name;
+    }
+    if (!groups[group]) groups[group] = [];
+    groups[group].push({ card, qty });
+  });
+  return groups;
+}
+
+// --- useOctgnSections hook (fully included) ---
+function useOctgnSections(gameName, enabled) {
+  const [sections, setSections] = useState(null);
+  const [panelIgnoreSections, setPanelIgnoreSections] = useState([]);
+  useEffect(() => {
+    if (!enabled) {
+      setSections(null);
+      setPanelIgnoreSections([]);
+      return;
+    }
+    let cancelled = false;
+    async function fetchSections() {
+      try {
+        let baseUrl = import.meta.env.BASE_URL || "";
+        if (baseUrl.endsWith("/")) baseUrl = baseUrl.slice(0, -1);
+        const url = `${baseUrl}/games/${gameName}/octgn.json`;
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error("OCTGN config not found");
+        const json = await resp.json();
+        if (!cancelled) {
+          setSections(json.sections || []);
+          setPanelIgnoreSections(json.panelIgnoreSections || []);
+        }
+      } catch {
+        if (!cancelled) {
+          setSections([]);
+          setPanelIgnoreSections([]);
+        }
+      }
+    }
+    fetchSections();
+    return () => {
+      cancelled = true;
+    };
+  }, [gameName, enabled]);
+  return [sections, panelIgnoreSections];
+}
+
+// --- DeckPanel component (fully included) ---
 function DeckPanel({
   cards,
   deck,
@@ -178,14 +250,49 @@ function DeckPanel({
   onAddCard,
   selectedCard,
   setSelectedCard,
+  groupByProp,
+  setGroupByProp,
+  octgnOverridesProp,
+  setOctgnOverridesProp,
 }) {
-  const [groupBy, setGroupBy] = useState(settings.groupOptions[0]);
+  // Provide a default groupBy state if not controlled from parent
+  const [internalGroupBy, setInternalGroupBy] = useState(settings.groupOptions[0]);
+  const groupBy = groupByProp !== undefined ? groupByProp : internalGroupBy;
+  const setGroupBy = setGroupByProp !== undefined ? setGroupByProp : setInternalGroupBy;
+
+  // Provide a default octgnOverrides state if not controlled from parent
+  const [internalOctgnOverrides, setInternalOctgnOverrides] = useState({});
+  const octgnOverrides = octgnOverridesProp !== undefined ? octgnOverridesProp : internalOctgnOverrides;
+  const setOctgnOverrides = setOctgnOverridesProp !== undefined ? setOctgnOverridesProp : setInternalOctgnOverrides;
+
+  const [octgnSections, panelIgnoreSections] = useOctgnSections(settings.gameName, settings.octgnExport);
+
   const [displayMode, setDisplayMode] = useState("list");
 
-  const grouped = useMemo(
-    () => groupDeck(deck, cards, groupBy),
-    [deck, cards, groupBy]
-  );
+  const availableGroupOptions = useMemo(() => {
+    let opts = [...settings.groupOptions];
+    if (settings.octgnExport && !opts.includes("OCTGN")) {
+      opts.push("OCTGN");
+    }
+    return opts;
+  }, [settings.groupOptions, settings.octgnExport]);
+
+  const filteredSections = useMemo(() => {
+    if (groupBy === "OCTGN" && octgnSections) {
+      if (panelIgnoreSections && panelIgnoreSections.length > 0) {
+        return octgnSections.filter(section => !panelIgnoreSections.includes(section.name));
+      }
+      return octgnSections;
+    }
+    return null;
+  }, [groupBy, octgnSections, panelIgnoreSections]);
+
+  const grouped = useMemo(() => {
+    if (groupBy === "OCTGN" && filteredSections) {
+      return groupDeckByOctgn(deck, cards, filteredSections, octgnOverrides);
+    }
+    return groupDeck(deck, cards, groupBy);
+  }, [groupBy, deck, cards, filteredSections, octgnOverrides]);
 
   const FALLBACK_GROUP_ORDER = ["Creatures", "Spells", "Lands", "Other"];
   const groupOrder =
@@ -196,12 +303,26 @@ function DeckPanel({
   const groupSorts = settings.groupSort || {};
 
   function getSortedGroupNames(groupedObj) {
+    if (groupBy === "OCTGN" && filteredSections) {
+      return [...filteredSections.map((s) => s.name), "Ungrouped"];
+    }
     const groupNames = Object.keys(groupedObj);
-    const inOrder = groupOrder.filter(name => groupNames.includes(name));
-    const remaining = groupNames
-      .filter(name => !groupOrder.includes(name))
-      .sort();
+    const inOrder = groupOrder.filter((name) => groupNames.includes(name));
+    const remaining = groupNames.filter((name) => !groupOrder.includes(name)).sort();
     return [...inOrder, ...remaining];
+  }
+
+  function handleDragStart(e, cardId) {
+    e.dataTransfer.setData("cardId", cardId);
+  }
+  function handleDrop(e, sectionName) {
+    e.preventDefault();
+    const cardId = e.dataTransfer.getData("cardId");
+    if (!cardId) return;
+    setOctgnOverrides((prev) => ({ ...prev, [cardId]: sectionName }));
+  }
+  function handleDragOver(e) {
+    e.preventDefault();
   }
 
   const totalCards = Object.values(deck).reduce((a, b) => a + b, 0);
@@ -214,7 +335,7 @@ function DeckPanel({
 
   for (const [cardId, qty] of Object.entries(deck)) {
     if (qty > settings.maxCopiesPerCard) {
-      const card = cards.find(c => c.id === cardId);
+      const card = cards.find((c) => c.id === cardId);
       errors.push(
         `Too many copies of ${
           card ? card.name : cardId
@@ -225,11 +346,9 @@ function DeckPanel({
 
   if (settings.deckValidation.usePerCardLimit) {
     for (const [cardId, qty] of Object.entries(deck)) {
-      const card = cards.find(c => c.id === cardId);
+      const card = cards.find((c) => c.id === cardId);
       if (card && typeof card.Limit === "number" && qty > card.Limit) {
-        errors.push(
-          `Too many copies of ${card.name}: limit is ${card.Limit}`
-        );
+        errors.push(`Too many copies of ${card.name}: limit is ${card.Limit}`);
       }
     }
   }
@@ -238,7 +357,7 @@ function DeckPanel({
     if (!rule || !rule.property) continue;
     const { property, value } = rule;
     const count = Object.entries(deck).reduce((sum, [id, qty]) => {
-      const card = cards.find(c => c.id === id);
+      const card = cards.find((c) => c.id === id);
       return card && card[property] === value ? sum + qty : sum;
     }, 0);
     if (typeof rule.max === "number" && count > rule.max)
@@ -246,13 +365,13 @@ function DeckPanel({
     if (typeof rule.min === "number" && count < rule.min)
       errors.push(`Too few cards of ${property}: ${value}`);
   }
-  const banned = (settings.deckValidation.banList || []).filter(id => deck[id]);
+  const banned = (settings.deckValidation.banList || []).filter((id) => deck[id]);
   if (banned.length)
     errors.push("Banned cards in deck: " + banned.join(", "));
 
   function handleSwap(card, qty) {
-    const alternates = cards.filter(c => c.name === card.name);
-    const idx = alternates.findIndex(c => c.id === card.id);
+    const alternates = cards.filter((c) => c.name === card.name);
+    const idx = alternates.findIndex((c) => c.id === card.id);
     const next = alternates[(idx + 1) % alternates.length];
     onRemoveCard(card.id, qty);
     onAddCard(next.id, qty);
@@ -264,8 +383,8 @@ function DeckPanel({
       <div style={{ display: "flex", alignItems: "center", gap: "1em" }}>
         <div>
           <label>Group by: </label>
-          <select value={groupBy} onChange={e => setGroupBy(e.target.value)}>
-            {settings.groupOptions.map(opt => (
+          <select value={groupBy} onChange={(e) => setGroupBy(e.target.value)}>
+            {availableGroupOptions.map((opt) => (
               <option value={opt} key={opt}>
                 {opt}
               </option>
@@ -274,10 +393,7 @@ function DeckPanel({
         </div>
         <div>
           <label>Display: </label>
-          <select
-            value={displayMode}
-            onChange={e => setDisplayMode(e.target.value)}
-          >
+          <select value={displayMode} onChange={(e) => setDisplayMode(e.target.value)}>
             <option value="list">List</option>
             <option value="grid">Grid</option>
           </select>
@@ -286,8 +402,182 @@ function DeckPanel({
 
       <DeckStats deck={deck} cards={cards} settings={settings} />
 
-      {displayMode === "list" ? (
-        getSortedGroupNames(grouped).map(group => {
+      {groupBy === "OCTGN" && filteredSections ? (
+        getSortedGroupNames(grouped).map((sectionName) => {
+          const sectionCards = grouped[sectionName] || [];
+          if (displayMode === "grid") {
+            return (
+              <div
+                key={sectionName}
+                style={{
+                  border: "1px solid #888",
+                  padding: "0.5em",
+                  marginBottom: "0.75em",
+                  borderRadius: "4px",
+                  background: "#f8f8f8",
+                }}
+                onDrop={(e) => handleDrop(e, sectionName)}
+                onDragOver={handleDragOver}
+              >
+                <strong>
+                  {sectionName} ({sectionCards.reduce((a, b) => a + b.qty, 0)})
+                </strong>
+                <div
+                  style={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(auto-fit, minmax(86px, 1fr))",
+                    gap: "2px",
+                    marginTop: "0.1em",
+                  }}
+                >
+                  {sectionCards.map(({ card, qty }) => {
+                    const altCount = getAlternatePrintings(card, cards).length;
+                    return (
+                      <div
+                        key={card.id}
+                        style={{
+                          background: "var(--main-button-color)",
+                          minWidth: 0,
+                          padding: 0,
+                          margin: 0,
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                        }}
+                        draggable
+                        onDragStart={(e) => handleDragStart(e, card.id)}
+                      >
+                        <div
+                          style={{
+                            position: "relative",
+                            width: "86px",
+                            height: "120px",
+                          }}
+                          onClick={() => setSelectedCard(card.id)}
+                        >
+                          <CardPreview
+                            card={card}
+                            game={settings.gameName}
+                            showName={false}
+                            quantity={qty}
+                            showButtons={true}
+                            onAdd={(e) => {
+                              e.stopPropagation();
+                              onAddCard(card.id, 1);
+                            }}
+                            onRemove={(e) => {
+                              e.stopPropagation();
+                              onRemoveCard(card.id, 1);
+                            }}
+                            style={{
+                              width: "86px",
+                              height: "auto",
+                              display: "block",
+                              margin: 0,
+                              maxWidth: "100%",
+                              minWidth: "86px",
+                              padding: 0,
+                            }}
+                          />
+                          {altCount > 0 && (
+                            <button
+                              title="Swap to other printing"
+                              className="deck-swap-btn"
+                              style={{
+                                position: "absolute",
+                                top: 2,
+                                left: 2,
+                                zIndex: 5,
+                              }}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleSwap(card, qty);
+                              }}
+                            >
+                              ⇆
+                            </button>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          } else {
+            return (
+              <div
+                key={sectionName}
+                style={{
+                  border: "1px solid #888",
+                  padding: "0.5em",
+                  marginBottom: "0.75em",
+                  borderRadius: "4px",
+                  background: "#f8f8f8",
+                }}
+                onDrop={(e) => handleDrop(e, sectionName)}
+                onDragOver={handleDragOver}
+              >
+                <strong>
+                  {sectionName} ({sectionCards.reduce((a, b) => a + b.qty, 0)})
+                </strong>
+                <ul>
+                  {sectionCards.map(({ card, qty }) => {
+                    const altCount = getAlternatePrintings(card, cards).length;
+                    return (
+                      <li
+                        key={card.id}
+                        className={selectedCard === card.id ? "selected" : ""}
+                        onClick={() => setSelectedCard(card.id)}
+                        style={{ position: "relative", cursor: "grab" }}
+                        draggable
+                        onDragStart={(e) => handleDragStart(e, card.id)}
+                      >
+                        {card.name} x{qty}
+                        {altCount > 0 && (
+                          <button
+                            title="Swap to other printing"
+                            className="deck-swap-btn"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handleSwap(card, qty);
+                            }}
+                          >
+                            ⇆
+                          </button>
+                        )}
+                        {selectedCard === card.id && (
+                          <>
+                            <button
+                              className="deck-modify-btn"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                onRemoveCard(card.id, 1);
+                              }}
+                            >
+                              -1
+                            </button>
+                            <button
+                              className="deck-modify-btn"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                onAddCard(card.id, 1);
+                              }}
+                            >
+                              +1
+                            </button>
+                          </>
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            );
+          }
+        })
+      ) : displayMode === "list" ? (
+        getSortedGroupNames(grouped).map((group) => {
           const sortProps = groupSorts[group];
           const sortedCards = sortGroup(grouped[group], sortProps);
           return (
@@ -310,7 +600,7 @@ function DeckPanel({
                         <button
                           title="Swap to other printing"
                           className="deck-swap-btn"
-                          onClick={e => {
+                          onClick={(e) => {
                             e.stopPropagation();
                             handleSwap(card, qty);
                           }}
@@ -322,7 +612,7 @@ function DeckPanel({
                         <>
                           <button
                             className="deck-modify-btn"
-                            onClick={e => {
+                            onClick={(e) => {
                               e.stopPropagation();
                               onRemoveCard(card.id, 1);
                             }}
@@ -331,7 +621,7 @@ function DeckPanel({
                           </button>
                           <button
                             className="deck-modify-btn"
-                            onClick={e => {
+                            onClick={(e) => {
                               e.stopPropagation();
                               onAddCard(card.id, 1);
                             }}
@@ -348,7 +638,7 @@ function DeckPanel({
           );
         })
       ) : (
-        getSortedGroupNames(grouped).map(group => {
+        getSortedGroupNames(grouped).map((group) => {
           const sortProps = groupSorts[group];
           const sortedCards = sortGroup(grouped[group], sortProps);
           return (
@@ -392,11 +682,11 @@ function DeckPanel({
                           showName={false}
                           quantity={qty}
                           showButtons={true}
-                          onAdd={e => {
+                          onAdd={(e) => {
                             e.stopPropagation();
                             onAddCard(card.id, 1);
                           }}
-                          onRemove={e => {
+                          onRemove={(e) => {
                             e.stopPropagation();
                             onRemoveCard(card.id, 1);
                           }}
@@ -420,7 +710,7 @@ function DeckPanel({
                               left: 2,
                               zIndex: 5,
                             }}
-                            onClick={e => {
+                            onClick={(e) => {
                               e.stopPropagation();
                               handleSwap(card, qty);
                             }}
@@ -443,7 +733,7 @@ function DeckPanel({
       </div>
       {errors.length > 0 && (
         <div className="deck-errors">
-          {errors.map(e => (
+          {errors.map((e) => (
             <div key={e}>{e}</div>
           ))}
         </div>
@@ -452,11 +742,11 @@ function DeckPanel({
   );
 }
 
-// --- Helper functions ---
+// --- Helper functions (fully included) ---
 function groupDeck(deck, cards, groupBy) {
   const grouped = {};
   Object.entries(deck).forEach(([cardId, qty]) => {
-    const card = cards.find(c => c.id === cardId);
+    const card = cards.find((c) => c.id === cardId);
     const group = card?.[groupBy] || "Other";
     if (!grouped[group]) grouped[group] = [];
     grouped[group].push({ card, qty });
@@ -466,7 +756,7 @@ function groupDeck(deck, cards, groupBy) {
 
 function getAlternatePrintings(card, allCards) {
   if (!card) return [];
-  return allCards.filter(c => c.name === card.name && c.id !== card.id);
+  return allCards.filter((c) => c.name === card.name && c.id !== card.id);
 }
 
 function DeckStats({ deck, cards, settings }) {

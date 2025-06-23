@@ -29,5 +29,6 @@
       }
     }
   ],
-  "defaultSection": "Plot Deck"
+  "defaultSection": "Plot Deck",
+  "panelIgnoreSections": ["Main Deck"]
 }
