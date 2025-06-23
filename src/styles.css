@@ -246,6 +246,59 @@ input[type="text"]:-moz-placeholder {
   color: var(--input-color) !important;
 }
 
+/* ----- OCTGN Group Styling (DeckPanel OCTGN group mode) ----- */
+.deck-group {
+  border: 1px solid #888;
+  padding: 0.5em;
+  margin-bottom: 0.75em;
+  border-radius: 4px;
+  background: var(--input-bg);;
+}
+.deck-group-header {
+  font-weight: bold;
+  margin-bottom: 0.25em;
+  font-size: 1.1em;
+}
+.deck-group-count {
+  color: #888;
+  font-weight: normal;
+  margin-left: 0.4em;
+}
+.deck-group-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.deck-group-list-item {
+  padding: 0.2em 0.2em;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.deck-group-list-item.selected {
+  background: var(--list-selected-bg-alt, #e0e0ff);
+  border-radius: 3px;
+}
+.deck-group-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(86px, 1fr));
+  gap: 2px;
+  margin-top: 0.1em;
+}
+.deck-card-grid-cell {
+  background: var(--main-button-color);
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deck-card-grid-preview {
+  position: relative;
+  width: 86px;
+  height: 120px;
+}
+
 /* ----- DeckPanel Buttons (alternate printing swap, +1/-1, etc.) ----- */
 .deck-swap-btn {
   background: var(--swap-btn-bg);
@@ -473,3 +526,4 @@ input[type="text"] {
   font-size: 1.5rem;
   color: var(--input-color); /* optional: use your theme color */
 }
+

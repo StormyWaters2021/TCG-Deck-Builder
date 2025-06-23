@@ -1,0 +1,31 @@
+{
+  "gameGuid": "dd9d1122-c855-40e6-a67f-21fd5bef2192",
+  "sections": [
+    {
+      "name": "Backstage",
+      "shared": false,
+      "criteria": {
+      }
+    },
+	{
+      "name": "Arsenal",
+      "shared": false,
+      "criteria": {
+      }
+    },
+    {
+      "name": "Backlash Deck",
+      "shared": false,
+      "criteria": {
+      }
+    },
+    {
+      "name": "Misc",
+      "shared": false,
+      "criteria": {
+      }
+    }
+  ],
+  "defaultSection": "Misc",
+  "panelIgnoreSections": []
+}

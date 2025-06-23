@@ -403,180 +403,136 @@ function DeckPanel({
       <DeckStats deck={deck} cards={cards} settings={settings} />
 
       {groupBy === "OCTGN" && filteredSections ? (
-        getSortedGroupNames(grouped).map((sectionName) => {
-          const sectionCards = grouped[sectionName] || [];
-          if (displayMode === "grid") {
-            return (
-              <div
-                key={sectionName}
-                style={{
-                  border: "1px solid #888",
-                  padding: "0.5em",
-                  marginBottom: "0.75em",
-                  borderRadius: "4px",
-                  background: "#f8f8f8",
-                }}
-                onDrop={(e) => handleDrop(e, sectionName)}
-                onDragOver={handleDragOver}
-              >
-                <strong>
-                  {sectionName} ({sectionCards.reduce((a, b) => a + b.qty, 0)})
-                </strong>
+  getSortedGroupNames(grouped).map((sectionName) => {
+    const sectionCards = grouped[sectionName] || [];
+    return (
+      <div
+        key={sectionName}
+        className="deck-group"
+        onDrop={(e) => handleDrop(e, sectionName)}
+        onDragOver={handleDragOver}
+      >
+        <div className="deck-group-header">
+          {sectionName} <span className="deck-group-count">({sectionCards.reduce((a, b) => a + b.qty, 0)})</span>
+        </div>
+        {displayMode === "grid" ? (
+          <div className="deck-group-grid">
+            {sectionCards.map(({ card, qty }) => {
+              const altCount = getAlternatePrintings(card, cards).length;
+              return (
                 <div
-                  style={{
-                    display: "grid",
-                    gridTemplateColumns: "repeat(auto-fit, minmax(86px, 1fr))",
-                    gap: "2px",
-                    marginTop: "0.1em",
-                  }}
+                  key={card.id}
+                  className="deck-card-grid-cell"
+                  draggable
+                  onDragStart={(e) => handleDragStart(e, card.id)}
                 >
-                  {sectionCards.map(({ card, qty }) => {
-                    const altCount = getAlternatePrintings(card, cards).length;
-                    return (
-                      <div
-                        key={card.id}
+                  <div
+                    className="deck-card-grid-preview"
+                    onClick={() => setSelectedCard(card.id)}
+                  >
+                    <CardPreview
+                      card={card}
+                      game={settings.gameName}
+                      showName={false}
+                      quantity={qty}
+                      showButtons={true}
+                      onAdd={(e) => {
+                        e.stopPropagation();
+                        onAddCard(card.id, 1);
+                      }}
+                      onRemove={(e) => {
+                        e.stopPropagation();
+                        onRemoveCard(card.id, 1);
+                      }}
+                      style={{
+                        width: "86px",
+                        height: "auto",
+                        display: "block",
+                        margin: 0,
+                        maxWidth: "100%",
+                        minWidth: "86px",
+                        padding: 0,
+                      }}
+                    />
+                    {altCount > 0 && (
+                      <button
+                        title="Swap to other printing"
+                        className="deck-swap-btn"
                         style={{
-                          background: "var(--main-button-color)",
-                          minWidth: 0,
-                          padding: 0,
-                          margin: 0,
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
+                          position: "absolute",
+                          top: 2,
+                          left: 2,
+                          zIndex: 5,
                         }}
-                        draggable
-                        onDragStart={(e) => handleDragStart(e, card.id)}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleSwap(card, qty);
+                        }}
                       >
-                        <div
-                          style={{
-                            position: "relative",
-                            width: "86px",
-                            height: "120px",
-                          }}
-                          onClick={() => setSelectedCard(card.id)}
-                        >
-                          <CardPreview
-                            card={card}
-                            game={settings.gameName}
-                            showName={false}
-                            quantity={qty}
-                            showButtons={true}
-                            onAdd={(e) => {
-                              e.stopPropagation();
-                              onAddCard(card.id, 1);
-                            }}
-                            onRemove={(e) => {
-                              e.stopPropagation();
-                              onRemoveCard(card.id, 1);
-                            }}
-                            style={{
-                              width: "86px",
-                              height: "auto",
-                              display: "block",
-                              margin: 0,
-                              maxWidth: "100%",
-                              minWidth: "86px",
-                              padding: 0,
-                            }}
-                          />
-                          {altCount > 0 && (
-                            <button
-                              title="Swap to other printing"
-                              className="deck-swap-btn"
-                              style={{
-                                position: "absolute",
-                                top: 2,
-                                left: 2,
-                                zIndex: 5,
-                              }}
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                handleSwap(card, qty);
-                              }}
-                            >
-                              ⇆
-                            </button>
-                          )}
-                        </div>
-                      </div>
-                    );
-                  })}
+                        ⇆
+                      </button>
+                    )}
+                  </div>
                 </div>
-              </div>
-            );
-          } else {
-            return (
-              <div
-                key={sectionName}
-                style={{
-                  border: "1px solid #888",
-                  padding: "0.5em",
-                  marginBottom: "0.75em",
-                  borderRadius: "4px",
-                  background: "#f8f8f8",
-                }}
-                onDrop={(e) => handleDrop(e, sectionName)}
-                onDragOver={handleDragOver}
-              >
-                <strong>
-                  {sectionName} ({sectionCards.reduce((a, b) => a + b.qty, 0)})
-                </strong>
-                <ul>
-                  {sectionCards.map(({ card, qty }) => {
-                    const altCount = getAlternatePrintings(card, cards).length;
-                    return (
-                      <li
-                        key={card.id}
-                        className={selectedCard === card.id ? "selected" : ""}
-                        onClick={() => setSelectedCard(card.id)}
-                        style={{ position: "relative", cursor: "grab" }}
-                        draggable
-                        onDragStart={(e) => handleDragStart(e, card.id)}
+              );
+            })}
+          </div>
+        ) : (
+          <ul className="deck-group-list">
+            {sectionCards.map(({ card, qty }) => {
+              const altCount = getAlternatePrintings(card, cards).length;
+              return (
+                <li
+                  key={card.id}
+                  className={`deck-group-list-item${selectedCard === card.id ? " selected" : ""}`}
+                  onClick={() => setSelectedCard(card.id)}
+                  draggable
+                  onDragStart={(e) => handleDragStart(e, card.id)}
+                >
+                  {card.name} x{qty}
+                  {altCount > 0 && (
+                    <button
+                      title="Swap to other printing"
+                      className="deck-swap-btn"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleSwap(card, qty);
+                      }}
+                    >
+                      ⇆
+                    </button>
+                  )}
+                  {selectedCard === card.id && (
+                    <>
+                      <button
+                        className="deck-modify-btn"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          onRemoveCard(card.id, 1);
+                        }}
                       >
-                        {card.name} x{qty}
-                        {altCount > 0 && (
-                          <button
-                            title="Swap to other printing"
-                            className="deck-swap-btn"
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              handleSwap(card, qty);
-                            }}
-                          >
-                            ⇆
-                          </button>
-                        )}
-                        {selectedCard === card.id && (
-                          <>
-                            <button
-                              className="deck-modify-btn"
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                onRemoveCard(card.id, 1);
-                              }}
-                            >
-                              -1
-                            </button>
-                            <button
-                              className="deck-modify-btn"
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                onAddCard(card.id, 1);
-                              }}
-                            >
-                              +1
-                            </button>
-                          </>
-                        )}
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            );
-          }
-        })
-      ) : displayMode === "list" ? (
+                        -1
+                      </button>
+                      <button
+                        className="deck-modify-btn"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          onAddCard(card.id, 1);
+                        }}
+                      >
+                        +1
+                      </button>
+                    </>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        )}
+      </div>
+    );
+  })
+) : displayMode === "list" ? (
         getSortedGroupNames(grouped).map((group) => {
           const sortProps = groupSorts[group];
           const sortedCards = sortGroup(grouped[group], sortProps);
