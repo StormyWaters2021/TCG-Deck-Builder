@@ -170,7 +170,7 @@ function sortGroup(cards, groupSortConfig) {
 
 // --- Helper: match a card to a section (octgn criteria) ---
 function cardMatchesSection(card, section) {
-  if (!section.criteria) return false;
+  if (!section || !section.criteria) return false;
   return Object.entries(section.criteria).some(([prop, values]) => {
     const cardVal = card[prop];
     if (Array.isArray(values)) {
@@ -241,6 +241,62 @@ function useOctgnSections(gameName, enabled) {
   return [sections, panelIgnoreSections];
 }
 
+// --- Helper functions (fully included) ---
+function groupDeck(deck, cards, groupBy) {
+  const grouped = {};
+  Object.entries(deck).forEach(([cardId, qty]) => {
+    const card = cards.find((c) => c.id === cardId);
+    const group = card?.[groupBy] || "Other";
+    if (!grouped[group]) grouped[group] = [];
+    grouped[group].push({ card, qty });
+  });
+  return grouped;
+}
+
+function getAlternatePrintings(card, allCards) {
+  if (!card) return [];
+  return allCards.filter((c) => c.name === card.name && c.id !== card.id);
+}
+
+function DeckStats({ deck, cards, settings }) {
+  const [statsConfig, setStatsConfig] = useState(null);
+  const statsConfigRef = useRef(settings.gameName);
+
+  useEffect(() => {
+    let cancelled = false;
+    let baseUrl = import.meta.env.BASE_URL || "";
+    if (baseUrl.endsWith("/")) baseUrl = baseUrl.slice(0, -1);
+    async function fetchStatsConfig() {
+      try {
+        const url = `${baseUrl}/games/${settings.gameName}/deckStats.json`;
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error("Stats config not found");
+        const json = await resp.json();
+        if (!cancelled) {
+          setStatsConfig(json);
+        }
+      } catch {
+        if (!cancelled) {
+          setStatsConfig([{ type: "totalCount", label: "Total Cards" }]);
+        }
+      }
+    }
+    if (!statsConfig || statsConfigRef.current !== settings.gameName) {
+      statsConfigRef.current = settings.gameName;
+      fetchStatsConfig();
+    }
+    return () => {
+      cancelled = true;
+    };
+  }, [settings.gameName, statsConfig]);
+
+  if (!statsConfig) return null;
+
+  return (
+    <DeckStatsBanner deck={deck} cards={cards} statsConfig={statsConfig} />
+  );
+}
+
 // --- DeckPanel component (fully included) ---
 function DeckPanel({
   cards,
@@ -260,10 +316,11 @@ function DeckPanel({
   const groupBy = groupByProp !== undefined ? groupByProp : internalGroupBy;
   const setGroupBy = setGroupByProp !== undefined ? setGroupByProp : setInternalGroupBy;
 
-  // Provide a default octgnOverrides state if not controlled from parent
-  const [internalOctgnOverrides, setInternalOctgnOverrides] = useState({});
-  const octgnOverrides = octgnOverridesProp !== undefined ? octgnOverridesProp : internalOctgnOverrides;
-  const setOctgnOverrides = setOctgnOverridesProp !== undefined ? setOctgnOverridesProp : setInternalOctgnOverrides;
+  // --- Manage octgnOverrides state and setter at this level ---
+  const [octgnOverrides, setOctgnOverrides] = useState({});
+  // Provide prop override if supplied (for full control from a higher parent)
+  const effectiveOctgnOverrides = octgnOverridesProp !== undefined ? octgnOverridesProp : octgnOverrides;
+  const effectiveSetOctgnOverrides = setOctgnOverridesProp !== undefined ? setOctgnOverridesProp : setOctgnOverrides;
 
   const [octgnSections, panelIgnoreSections] = useOctgnSections(settings.gameName, settings.octgnExport);
 
@@ -289,10 +346,10 @@ function DeckPanel({
 
   const grouped = useMemo(() => {
     if (groupBy === "OCTGN" && filteredSections) {
-      return groupDeckByOctgn(deck, cards, filteredSections, octgnOverrides);
+      return groupDeckByOctgn(deck, cards, filteredSections, effectiveOctgnOverrides);
     }
     return groupDeck(deck, cards, groupBy);
-  }, [groupBy, deck, cards, filteredSections, octgnOverrides]);
+  }, [groupBy, deck, cards, filteredSections, effectiveOctgnOverrides]);
 
   const FALLBACK_GROUP_ORDER = ["Creatures", "Spells", "Lands", "Other"];
   const groupOrder =
@@ -319,7 +376,7 @@ function DeckPanel({
     e.preventDefault();
     const cardId = e.dataTransfer.getData("cardId");
     if (!cardId) return;
-    setOctgnOverrides((prev) => ({ ...prev, [cardId]: sectionName }));
+    effectiveSetOctgnOverrides((prev) => ({ ...prev, [cardId]: sectionName }));
   }
   function handleDragOver(e) {
     e.preventDefault();
@@ -403,136 +460,136 @@ function DeckPanel({
       <DeckStats deck={deck} cards={cards} settings={settings} />
 
       {groupBy === "OCTGN" && filteredSections ? (
-  getSortedGroupNames(grouped).map((sectionName) => {
-    const sectionCards = grouped[sectionName] || [];
-    return (
-      <div
-        key={sectionName}
-        className="deck-group"
-        onDrop={(e) => handleDrop(e, sectionName)}
-        onDragOver={handleDragOver}
-      >
-        <div className="deck-group-header">
-          {sectionName} <span className="deck-group-count">({sectionCards.reduce((a, b) => a + b.qty, 0)})</span>
-        </div>
-        {displayMode === "grid" ? (
-          <div className="deck-group-grid">
-            {sectionCards.map(({ card, qty }) => {
-              const altCount = getAlternatePrintings(card, cards).length;
-              return (
-                <div
-                  key={card.id}
-                  className="deck-card-grid-cell"
-                  draggable
-                  onDragStart={(e) => handleDragStart(e, card.id)}
-                >
-                  <div
-                    className="deck-card-grid-preview"
-                    onClick={() => setSelectedCard(card.id)}
-                  >
-                    <CardPreview
-                      card={card}
-                      game={settings.gameName}
-                      showName={false}
-                      quantity={qty}
-                      showButtons={true}
-                      onAdd={(e) => {
-                        e.stopPropagation();
-                        onAddCard(card.id, 1);
-                      }}
-                      onRemove={(e) => {
-                        e.stopPropagation();
-                        onRemoveCard(card.id, 1);
-                      }}
-                      style={{
-                        width: "86px",
-                        height: "auto",
-                        display: "block",
-                        margin: 0,
-                        maxWidth: "100%",
-                        minWidth: "86px",
-                        padding: 0,
-                      }}
-                    />
-                    {altCount > 0 && (
-                      <button
-                        title="Swap to other printing"
-                        className="deck-swap-btn"
-                        style={{
-                          position: "absolute",
-                          top: 2,
-                          left: 2,
-                          zIndex: 5,
-                        }}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleSwap(card, qty);
-                        }}
+        getSortedGroupNames(grouped).map((sectionName) => {
+          const sectionCards = grouped[sectionName] || [];
+          return (
+            <div
+              key={sectionName}
+              className="deck-group"
+              onDrop={(e) => handleDrop(e, sectionName)}
+              onDragOver={handleDragOver}
+            >
+              <div className="deck-group-header">
+                {sectionName} <span className="deck-group-count">({sectionCards.reduce((a, b) => a + b.qty, 0)})</span>
+              </div>
+              {displayMode === "grid" ? (
+                <div className="deck-group-grid">
+                  {sectionCards.map(({ card, qty }) => {
+                    const altCount = getAlternatePrintings(card, cards).length;
+                    return (
+                      <div
+                        key={card.id}
+                        className="deck-card-grid-cell"
+                        draggable
+                        onDragStart={(e) => handleDragStart(e, card.id)}
                       >
-                        ⇆
-                      </button>
-                    )}
-                  </div>
+                        <div
+                          className="deck-card-grid-preview"
+                          onClick={() => setSelectedCard(card.id)}
+                        >
+                          <CardPreview
+                            card={card}
+                            game={settings.gameName}
+                            showName={false}
+                            quantity={qty}
+                            showButtons={true}
+                            onAdd={(e) => {
+                              e.stopPropagation();
+                              onAddCard(card.id, 1);
+                            }}
+                            onRemove={(e) => {
+                              e.stopPropagation();
+                              onRemoveCard(card.id, 1);
+                            }}
+                            style={{
+                              width: "86px",
+                              height: "auto",
+                              display: "block",
+                              margin: 0,
+                              maxWidth: "100%",
+                              minWidth: "86px",
+                              padding: 0,
+                            }}
+                          />
+                          {altCount > 0 && (
+                            <button
+                              title="Swap to other printing"
+                              className="deck-swap-btn"
+                              style={{
+                                position: "absolute",
+                                top: 2,
+                                left: 2,
+                                zIndex: 5,
+                              }}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleSwap(card, qty);
+                              }}
+                            >
+                              ⇆
+                            </button>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
-              );
-            })}
-          </div>
-        ) : (
-          <ul className="deck-group-list">
-            {sectionCards.map(({ card, qty }) => {
-              const altCount = getAlternatePrintings(card, cards).length;
-              return (
-                <li
-                  key={card.id}
-                  className={`deck-group-list-item${selectedCard === card.id ? " selected" : ""}`}
-                  onClick={() => setSelectedCard(card.id)}
-                  draggable
-                  onDragStart={(e) => handleDragStart(e, card.id)}
-                >
-                  {card.name} x{qty}
-                  {altCount > 0 && (
-                    <button
-                      title="Swap to other printing"
-                      className="deck-swap-btn"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        handleSwap(card, qty);
-                      }}
-                    >
-                      ⇆
-                    </button>
-                  )}
-                  {selectedCard === card.id && (
-                    <>
-                      <button
-                        className="deck-modify-btn"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          onRemoveCard(card.id, 1);
-                        }}
+              ) : (
+                <ul className="deck-group-list">
+                  {sectionCards.map(({ card, qty }) => {
+                    const altCount = getAlternatePrintings(card, cards).length;
+                    return (
+                      <li
+                        key={card.id}
+                        className={`deck-group-list-item${selectedCard === card.id ? " selected" : ""}`}
+                        onClick={() => setSelectedCard(card.id)}
+                        draggable
+                        onDragStart={(e) => handleDragStart(e, card.id)}
                       >
-                        -1
-                      </button>
-                      <button
-                        className="deck-modify-btn"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          onAddCard(card.id, 1);
-                        }}
-                      >
-                        +1
-                      </button>
-                    </>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-        )}
-      </div>
-    );
-  })
-) : displayMode === "list" ? (
+                        {card.name} x{qty}
+                        {altCount > 0 && (
+                          <button
+                            title="Swap to other printing"
+                            className="deck-swap-btn"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handleSwap(card, qty);
+                            }}
+                          >
+                            ⇆
+                          </button>
+                        )}
+                        {selectedCard === card.id && (
+                          <>
+                            <button
+                              className="deck-modify-btn"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                onRemoveCard(card.id, 1);
+                              }}
+                            >
+                              -1
+                            </button>
+                            <button
+                              className="deck-modify-btn"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                onAddCard(card.id, 1);
+                              }}
+                            >
+                              +1
+                            </button>
+                          </>
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
+            </div>
+          );
+        })
+      ) : displayMode === "list" ? (
         getSortedGroupNames(grouped).map((group) => {
           const sortProps = groupSorts[group];
           const sortedCards = sortGroup(grouped[group], sortProps);
@@ -695,62 +752,6 @@ function DeckPanel({
         </div>
       )}
     </aside>
-  );
-}
-
-// --- Helper functions (fully included) ---
-function groupDeck(deck, cards, groupBy) {
-  const grouped = {};
-  Object.entries(deck).forEach(([cardId, qty]) => {
-    const card = cards.find((c) => c.id === cardId);
-    const group = card?.[groupBy] || "Other";
-    if (!grouped[group]) grouped[group] = [];
-    grouped[group].push({ card, qty });
-  });
-  return grouped;
-}
-
-function getAlternatePrintings(card, allCards) {
-  if (!card) return [];
-  return allCards.filter((c) => c.name === card.name && c.id !== card.id);
-}
-
-function DeckStats({ deck, cards, settings }) {
-  const [statsConfig, setStatsConfig] = useState(null);
-  const statsConfigRef = useRef(settings.gameName);
-
-  useEffect(() => {
-    let cancelled = false;
-    let baseUrl = import.meta.env.BASE_URL || "";
-    if (baseUrl.endsWith("/")) baseUrl = baseUrl.slice(0, -1);
-    async function fetchStatsConfig() {
-      try {
-        const url = `${baseUrl}/games/${settings.gameName}/deckStats.json`;
-        const resp = await fetch(url);
-        if (!resp.ok) throw new Error("Stats config not found");
-        const json = await resp.json();
-        if (!cancelled) {
-          setStatsConfig(json);
-        }
-      } catch {
-        if (!cancelled) {
-          setStatsConfig([{ type: "totalCount", label: "Total Cards" }]);
-        }
-      }
-    }
-    if (!statsConfig || statsConfigRef.current !== settings.gameName) {
-      statsConfigRef.current = settings.gameName;
-      fetchStatsConfig();
-    }
-    return () => {
-      cancelled = true;
-    };
-  }, [settings.gameName, statsConfig]);
-
-  if (!statsConfig) return null;
-
-  return (
-    <DeckStatsBanner deck={deck} cards={cards} statsConfig={statsConfig} />
   );
 }
 

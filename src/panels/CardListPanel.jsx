@@ -17,23 +17,26 @@ function getFilters(cards, filterOptions) {
       }
     });
   });
+  // Always add an entry for "(none)" to the top of each filter
   return Object.fromEntries(
     Object.entries(props).map(([k, v]) => [
       k,
-      Array.from(v).sort((a, b) => {
+      [null, ...Array.from(v).sort((a, b) => {
         // Alphanumeric sort (case-insensitive)
         return String(a).localeCompare(String(b), undefined, { numeric: true, sensitivity: "base" });
-      }),
+      })],
     ])
   );
 }
 
 // Helper: Parse search string into criteria for advanced searching
+// Now supports: prefix:none or prefix:(none) to match blank/missing property
 function parseSearchString(search, searchPrefixes) {
   const prefixPattern = Object.keys(searchPrefixes)
     .map(prefix => prefix.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'))
     .join('|');
   const regex = new RegExp(
+    // capture: 1=prefix, 2=..."..." 3=...(...) 4=...nonspace 5=plain
     `(?:\\s*(${prefixPattern})\\s*(?:"([^"]+)"|\\(([^)]+)\\)|([^\\s]+)))|([^\\s]+)`,
     "gi"
   );
@@ -42,7 +45,14 @@ function parseSearchString(search, searchPrefixes) {
   while ((match = regex.exec(search)) !== null) {
     if (match[1]) {
       let value = match[2] || match[3] || match[4] || "";
-      criteria.push({ property: searchPrefixes[match[1]], value: value.trim() });
+      // Special: allow (none) or none (case-insensitive) to mean "blank/missing"
+      if (typeof value === "string" && value.trim().toLowerCase() === "none") {
+        criteria.push({ property: searchPrefixes[match[1]], value: "__BLANK_OR_MISSING__" });
+      } else if (typeof value === "string" && value.trim().toLowerCase() === "(none)") {
+        criteria.push({ property: searchPrefixes[match[1]], value: "__BLANK_OR_MISSING__" });
+      } else {
+        criteria.push({ property: searchPrefixes[match[1]], value: value.trim() });
+      }
     } else if (match[5]) {
       criteria.push({ property: "name", value: match[5].trim() });
     }
@@ -72,13 +82,36 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
     if (search.trim().length > 0) {
       const criteria = parseSearchString(search.trim(), searchPrefixes);
       for (const { property, value } of criteria) {
-        if (!card[property] || !card[property].toString().toLowerCase().includes(value.toLowerCase())) {
-          return false;
+        if (value === "__BLANK_OR_MISSING__") {
+          // Show only if card[property] is missing, null, undefined, or blank/whitespace
+          if (
+            card[property] !== undefined &&
+            card[property] !== null &&
+            !(typeof card[property] === "string" && card[property].trim() === "")
+          ) {
+            return false;
+          }
+        } else {
+          if (!card[property] || !card[property].toString().toLowerCase().includes(value.toLowerCase())) {
+            return false;
+          }
         }
       }
     }
     for (const [prop, value] of Object.entries(filters)) {
-      if (value && card[prop] !== value) return false;
+      if (value === undefined) continue;
+      if (value === "(none)") {
+        // Show cards with missing/empty value for this property
+        if (
+          card[prop] !== undefined &&
+          card[prop] !== null &&
+          !(typeof card[prop] === "string" && card[prop].trim() === "")
+        ) {
+          return false;
+        }
+      } else if (value !== null && card[prop] !== value) {
+        return false;
+      }
     }
     return true;
   });
@@ -106,6 +139,16 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
               {idx < prefixEntries.length - 1 ? "" : ""}
             </span>
           ))}
+          <div style={{ marginTop: "0.25em", fontSize: "0.92em" }}>
+            Also supports {" "}
+            {prefixEntries.map(([p], idx) =>
+              <code key={p}>
+                {p}"none"
+                {idx < prefixEntries.length - 1 ? ", " : ""}
+              </code>
+            )}{" "}
+            or <code>(none)</code> as the value.
+          </div>
         </div>
       )}
       <input
@@ -115,7 +158,7 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
         onChange={e => setSearch(e.target.value)}
         title={
           hasPrefixes
-            ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p]) => `${p}"..."`).join(', ')}. Multiple criteria allowed.`
+            ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p]) => `${p}"..."`).join(', ')}. Multiple criteria allowed. Use ${prefixEntries.map(([p]) => `${p}"none"`).join(', ')} for blank/missing.`
             : "Search by name."
         }
       />
@@ -132,18 +175,42 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
         {Object.keys(filterProps).map(prop => (
           <select
             key={prop}
-            value={filters[prop] || ""}
-            onChange={e => setFilters(f => ({ ...f, [prop]: e.target.value || undefined }))}
+            value={
+              filters[prop] === undefined
+                ? ""
+                : filters[prop] === null
+                ? "(none)"
+                : filters[prop]
+            }
+            onChange={e =>
+              setFilters(f => {
+                const v = e.target.value;
+                return {
+                  ...f,
+                  [prop]:
+                    v === ""
+                      ? undefined
+                      : v === "(none)"
+                      ? "(none)"
+                      : v,
+                };
+              })
+            }
           >
             <option value="">All {prop}</option>
-            {filterProps[prop].map(val => (
-              <option value={val} key={val}>{val}</option>
-            ))}
+            <option value="(none)">(none)</option>
+            {filterProps[prop]
+              .filter(val => val !== null)
+              .map(val => (
+                <option value={val} key={val}>
+                  {val}
+                </option>
+              ))}
           </select>
         ))}
       </div>
-      <div style={{maxHeight: "340px", overflowY: "auto"}}>
-        <ul style={{margin: 0, padding: 0, listStyle: "none"}}>
+      <div style={{ maxHeight: "340px", overflowY: "auto" }}>
+        <ul style={{ margin: 0, padding: 0, listStyle: "none" }}>
           {uniqueCards.map(card => (
             <li
               key={card.id}
