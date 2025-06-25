@@ -1,0 +1,46 @@
+{
+  "gameName": "mage-wars",
+  "maxCopiesPerCard": 9999,
+  "addNValue": 4,
+  "groupOptions": [
+    "Type",
+    "Subtype"
+  ],
+  "filterOptions": [
+    "Ability Bar",
+    "Action",
+    "Armor",
+    "Artist",
+    "Attack Bar",
+    "Channeling",
+    "Cost",
+    "Defense",
+    "Effect",
+    "Flavor Text",
+    "Level",
+    "Life",
+    "Location",
+    "Range",
+    "Reveal Cost",
+    "School",
+    "Set",
+    "Stats",
+    "Target",
+    "Traits"
+  ],
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {},
+  "octgnExport": false,
+  "deckValidation": {
+    "minCards": 0,
+    "maxCards": 9999,
+    "usePerCardLimit": false,
+    "propertyLimits": [
+      {}
+    ],
+    "banList": [
+      "BannedCardID"
+    ]
+  }
+}

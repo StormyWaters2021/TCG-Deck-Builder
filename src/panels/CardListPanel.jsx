@@ -60,12 +60,14 @@ function parseSearchString(search, searchPrefixes) {
   return criteria;
 }
 
-// Helper: Get only one card per unique name, keeping the first matching card encountered
+// Helper: Get only one card per unique (name, Subtitle) pair
 function getUniqueCardsByName(cards) {
   const map = new Map();
   for (const card of cards) {
-    if (!map.has(card.name)) {
-      map.set(card.name, card);
+    // Always use both name and Subtitle in the key; treat missing Subtitle as empty string
+    const key = `${card.name}|||${card.Subtitle ?? ""}`;
+    if (!map.has(key)) {
+      map.set(key, card);
     }
   }
   return Array.from(map.values());
@@ -223,7 +225,10 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
                 padding: "0.25em"
               }}
             >
-              <span>{card.name}</span>
+              <span>
+                {card.name}
+                {card.Subtitle ? ` - ${card.Subtitle}` : ""}
+              </span>
               {selectedCard === card.id && (
                 <>
                   <button

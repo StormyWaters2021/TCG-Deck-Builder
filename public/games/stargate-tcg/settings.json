@@ -1,0 +1,39 @@
+{
+  "gameName": "stargate-tcg",
+  "maxCopiesPerCard": 9999,
+  "addNValue": 4,
+  "groupOptions": [
+    "Type"
+  ],
+  "filterOptions": [
+    "Set",
+    "Combat",
+    "Cost",
+    "Culture",
+    "Experience",
+    "Firepower",
+    "Ingenuity",
+    "Revive",
+    "Science"
+  ],
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {
+	  "t:": "Text",
+	  "af:": "Affiliation",
+	  "al:": "Allegiance",
+	  "g:": "Glyph" 
+  },
+  "octgnExport": false,
+  "deckValidation": {
+    "minCards": 0,
+    "maxCards": 9999,
+    "usePerCardLimit": false,
+    "propertyLimits": [
+      {}
+    ],
+    "banList": [
+      "BannedCardID"
+    ]
+  }
+}

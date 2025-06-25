@@ -35,6 +35,23 @@ function parseDeckString(deckStr) {
   return deck;
 }
 
+// Get the default groupBy option from settings, only allowing OCTGN if it's valid.
+// If the first option is "OCTGN" and octgnExport is not true, use the next option.
+function getDefaultGroupBy(settings) {
+  if (!settings || !settings.groupOptions || !Array.isArray(settings.groupOptions)) return "Type"; // fallback
+
+  if (
+    settings.groupOptions[0] === "OCTGN" &&
+    settings.octgnExport !== true
+  ) {
+    // Use the next option if available, otherwise fallback
+    return settings.groupOptions[1] || "Type";
+  }
+
+  // Otherwise, use the first option
+  return settings.groupOptions[0] || "Type";
+}
+
 function App() {
   const [games, setGames] = useState([]);
   const [selectedGame, setSelectedGame] = useState("");
@@ -48,7 +65,7 @@ function App() {
   });
 
   // --- SHARED STATE for grouping and overrides ---
-  const [groupBy, setGroupBy] = useState("OCTGN");
+  const [groupBy, setGroupBy] = useState("Type");
   const [octgnOverrides, setOctgnOverrides] = useState({});
 
   // Apply mode class and persist choice
@@ -91,9 +108,15 @@ function App() {
     ]).then(([settings, cards]) => setGameData({ settings, cards }));
 
     setDeck({}); // Clear deck on game change to avoid conflicts
-    setGroupBy("OCTGN");
+    setGroupBy("Type");
     setOctgnOverrides({});
   }, [selectedGame]);
+
+  // After game settings are loaded, set groupBy to the first valid group option
+  useEffect(() => {
+    if (!gameData.settings) return;
+    setGroupBy(getDefaultGroupBy(gameData.settings));
+  }, [gameData.settings]);
 
   // When cards load, parse deck from URL (only once)
   useEffect(() => {
@@ -124,7 +147,7 @@ function App() {
     setDeck({});
     setSelectedGame("");
     setGameData({ settings: null, cards: [] });
-    setGroupBy("OCTGN");
+    setGroupBy("Type");
     setOctgnOverrides({});
 
     // Clear the URL params to avoid reloading game from URL on next render
