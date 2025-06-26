@@ -1,0 +1,13 @@
+[
+  { "type": "totalCount", "label": "Cards" },
+  { "type": "countContains", "prop": "Allegiance", "contains": "Hero", "label": "Hero Cards" },
+  { "type": "countContains", "prop": "Allegiance", "contains": "Villain", "label": "Villain Cards" },
+  { "type": "countContains", "prop": "Cost", "contains": "0", "label": "0-Cost" },
+  { "type": "countContains", "prop": "Cost", "contains": "1", "label": "1-Cost" },
+  { "type": "countContains", "prop": "Cost", "contains": "2", "label": "2-Cost" },
+  { "type": "countContains", "prop": "Cost", "contains": "3", "label": "3-Cost" },
+  { "type": "countContains", "prop": "Cost", "contains": "4", "label": "4-Cost" },
+  { "type": "countContains", "prop": "Cost", "contains": "5", "label": "5-Cost" },
+  { "type": "countContains", "prop": "Cost", "contains": "6", "label": "6-Cost" },
+  { "type": "countContains", "prop": "Cost", "contains": "7", "label": "7-Cost" }
+]

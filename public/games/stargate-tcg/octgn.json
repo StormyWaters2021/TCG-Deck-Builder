@@ -1,0 +1,38 @@
+{
+  "gameGuid": "11ec1f21-7d4c-4bf0-9d72-df01c6c78911",
+  "sections": [
+    {
+      "name": "Main",
+      "shared": false,
+      "criteria": {
+        "Type": [
+          "Event",
+		  "Gear",
+		  "Obstacle",
+		  "Adversary",
+		  "Support Character",
+		  "Ship"
+        ]
+      }
+    },
+    {
+      "name": "Team",
+      "shared": false,
+      "criteria": {
+        "Type": [
+          "Team Character"
+        ]
+      }
+    },
+	{
+      "name": "Mission Pile",
+      "shared": false,
+      "criteria": {
+        "Type": [
+          "Mission"
+        ]
+      }
+    }
+  ],
+  "defaultSection": "Main"
+}

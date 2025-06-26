@@ -1,0 +1,50 @@
+[
+  {
+    "type": "totalCount",
+    "label": "Total Cards"
+    // Shows the total number of cards in the deck.
+    // Multiplies each card by its quantity (e.g. 2x Card A + 3x Card B = 5).
+  },
+  {
+    "type": "sumProperty",
+    "prop": "Endurance",
+    "label": "Total Endurance"
+    // Sums the 'Endurance' property of all cards, each multiplied by its quantity in the deck.
+    // Example: Card A (Endurance 3, qty 2) + Card B (Endurance 2, qty 3): 3*2 + 2*3 = 6 + 6 = 12.
+  },
+  {
+    "type": "countType",
+    "prop": "CardType",
+    "value": "Attack",
+    "label": "Attack Cards"
+    // Counts all cards where 'CardType' exactly equals "Attack", multiplied by each card's quantity.
+    // Example: 2x Card A (Attack), 1x Card B (Block), 3x Card C (Attack) = 2 + 3 = 5.
+  },
+  {
+    "type": "countContains",
+    "prop": "Text",
+    "contains": "[BLOCK]",
+    "label": "Cards with [BLOCK]"
+    // Counts all cards where 'Text' property contains the substring "[BLOCK]", multiplied by quantity.
+    // Example: 2x Card A ("[BLOCK] ..."), 3x Card B ("no block") = 2.
+  },
+  {
+    "type": "sumPropertyWhereContains",
+    "prop": "Text",
+    "contains": "Gain",
+    "label": "Sum of Numbers in Text with 'Gain'"
+    // For all cards whose 'Text' contains "Gain", finds all numbers in the 'Text' and sums them,
+    // multiplied by the card's quantity in the deck.
+    // Example: Card A (Text: "Gain 2 Power", qty 2) → 2*2 = 4.
+    // Card B (Text: "Gain 1 Power", qty 3) → 1*3 = 3. Total = 7.
+  },
+  {
+    "type": "sumPropertyByRegex",
+    "prop": "Text",
+    "regex": "Gain ([0-9]+) Power",
+    "label": "Total Power Gained"
+    // For each card, if 'Text' matches the regex, uses the first capture group as a number,
+    // sums it, and multiplies by the card's quantity in the deck.
+    // Example: Card A (Text: "Gain 2 Power", qty 2) → 2*2 = 4. Card B (Text: "Gain 1 Power", qty 3) → 1*3 = 3. Total = 7.
+  }
+]

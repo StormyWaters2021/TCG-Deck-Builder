@@ -1,36 +1,85 @@
 {
   "gameName": "stargate-tcg",
-  "maxCopiesPerCard": 9999,
-  "addNValue": 4,
+  "maxCopiesPerCard": 3,
+  "addNValue": 3,
+  "octgnExport": true,
+  "includeSubtitleInTextExport": true,
   "groupOptions": [
-    "Type"
+    "OCTGN",
+	"Type"
   ],
   "filterOptions": [
+    "Type",
     "Set",
-    "Combat",
+	"Format",
     "Cost",
-    "Culture",
-    "Experience",
-    "Firepower",
-    "Ingenuity",
-    "Revive",
-    "Science"
+    "Allegiance",
+	"Affiliation",
+	"Mission Skill"
   ],
   "groupOrder": [],
   "groupSort": {},
   "searchPrefixes": {
-	  "t:": "Text",
-	  "af:": "Affiliation",
-	  "al:": "Allegiance",
-	  "g:": "Glyph" 
+	"xp:": "Experience",
+	"f:": "Firepower",
+	"r:": "Revive"
+
   },
-  "octgnExport": false,
   "deckValidation": {
-    "minCards": 0,
+    "minCards": 40,
     "maxCards": 9999,
-    "usePerCardLimit": false,
+    "usePerCardLimit": true,
     "propertyLimits": [
-      {}
+      {
+        "property": "Allegiance",
+        "value": "Hero",
+        "min": 20,
+		"showPropertyNameInError": false,
+		"errorMessage": "You must have at least {min} Hero cards, you have {count}."
+      },
+      {
+        "property": "Allegiance",
+        "value": "Villain",
+        "min": 20,
+		"showPropertyNameInError": false,
+		"errorMessage": "You must have at least {min} Villain cards, you have {count}."
+      },
+	  {
+        "property": "Type",
+        "value": "Mission",
+        "min": 12,
+		"max": 12,
+		"showPropertyNameInError": false,
+		"errorMessage": "You must have exactly {min} Missions, you have {count}."
+      },
+      {
+        "property": "Mission Skill",
+        "value": "Culture",
+        "min": 3,
+        "max": 3,
+		"errorMessage": "You have {count}/{min} Culture Missions."
+      },
+      {
+        "property": "Mission Skill",
+        "value": "Science",
+        "min": 3,
+        "max": 3,
+		"errorMessage": "You have {count}/{min} Science Missions."
+      },
+      {
+        "property": "Mission Skill",
+        "value": "Combat",
+        "min": 3,
+        "max": 3,
+		"errorMessage": "You have {count}/{min} Combat Missions."
+      },
+      {
+        "property": "Mission Skill",
+        "value": "Ingenuity",
+        "min": 3,
+        "max": 3,
+		"errorMessage": "You have {count}/{min} Ingenuity Missions."
+      }
     ],
     "banList": [
       "BannedCardID"

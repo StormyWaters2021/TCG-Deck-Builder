@@ -2,7 +2,116 @@ import React, { useState, useEffect, useRef } from "react";
 import CardPreview from "../components/CardPreview";
 import { getSortedExportListWithDisplayOrder } from "../utils/deckExportHelpers";
 
-// --- Helper to encode deck for link sharing (uses index property from cards.json) ---
+// Helper to display name with subtitle (handles Subtitle and subtitle)
+function cardNameWithSubtitle(card, includeSubtitle) {
+  if (!card) return "";
+  if (!includeSubtitle) return card.name;
+  const subtitle = card.Subtitle || card.subtitle;
+  if (subtitle && subtitle.trim()) {
+    return `${card.name} - ${subtitle}`;
+  }
+  return card.name;
+}
+
+// Helper: alternate printings (must match name and subtitle)
+function getAlternatePrintings(card, allCards) {
+  if (!card) return [];
+  const subtitle = card.Subtitle || card.subtitle || "";
+  return allCards.filter(
+    c =>
+      c.id !== card.id &&
+      c.name === card.name &&
+      ((c.Subtitle || c.subtitle || "") === subtitle)
+  );
+}
+
+// Sort cards within a group (DeckPanel logic)
+function sortGroup(cards, groupSortConfig, includeSubtitle) {
+  if (!groupSortConfig || typeof groupSortConfig !== "object") {
+    return [...cards].sort((a, b) =>
+      cardNameWithSubtitle(a.card, includeSubtitle).localeCompare(cardNameWithSubtitle(b.card, includeSubtitle))
+    );
+  }
+  const sortProps = groupSortConfig.by || ["name"];
+  const customOrders = groupSortConfig.order || {};
+  return [...cards].sort((a, b) => {
+    for (const prop of sortProps) {
+      const av = a.card?.[prop] ?? "";
+      const bv = b.card?.[prop] ?? "";
+      if (customOrders[prop]) {
+        const order = customOrders[prop];
+        const ai = order.indexOf(av);
+        const bi = order.indexOf(bv);
+        if (ai !== -1 && bi !== -1 && ai !== bi) return ai - bi;
+        if (ai !== -1 && bi === -1) return -1;
+        if (bi !== -1 && ai === -1) return 1;
+      }
+      const an = parseFloat(av);
+      const bn = parseFloat(bv);
+      if (!isNaN(an) && !isNaN(bn)) {
+        if (an !== bn) return an - bn;
+      } else {
+        const result = String(av).localeCompare(String(bv));
+        if (result !== 0) return result;
+      }
+    }
+    return 0;
+  });
+}
+
+// Group deck by property
+function groupDeck(deck, cards, groupBy) {
+  const grouped = {};
+  Object.entries(deck).forEach(([cardId, qty]) => {
+    const card = cards.find(c => c.id === cardId);
+    if (!card) return;
+    const group = card?.[groupBy] || "Other";
+    if (!grouped[group]) grouped[group] = [];
+    grouped[group].push({ card, qty });
+  });
+  return grouped;
+}
+
+// --- OCTGN grouping logic START ---
+
+// Helper: match a card to a section (octgn criteria)
+function cardMatchesSection(card, section) {
+  if (!section.criteria) return false;
+  return Object.entries(section.criteria).some(([prop, values]) => {
+    const cardVal = card[prop];
+    if (Array.isArray(values)) {
+      if (Array.isArray(cardVal)) {
+        return cardVal.some((v) => values.includes(v));
+      }
+      return values.includes(cardVal);
+    }
+    return cardVal === values;
+  });
+}
+
+// Helper: group deck by OCTGN (with drag overrides)
+function groupDeckByOctgn(deck, cards, sections, userOverrides) {
+  const groups = {};
+  sections.forEach((section) => (groups[section.name] = []));
+  groups["Ungrouped"] = [];
+  Object.entries(deck).forEach(([cardId, qty]) => {
+    const card = cards.find((c) => c.id === cardId);
+    let group = "Ungrouped";
+    if (userOverrides && userOverrides[cardId]) {
+      group = userOverrides[cardId];
+    } else {
+      const match = sections.find((section) => cardMatchesSection(card, section));
+      if (match) group = match.name;
+    }
+    if (!groups[group]) groups[group] = [];
+    groups[group].push({ card, qty });
+  });
+  return groups;
+}
+
+// --- OCTGN grouping logic END ---
+
+// --- Helper to encode deck for link sharing ---
 function encodeDeck(deck, cards, settings) {
   const exportList = getSortedExportListWithDisplayOrder(deck, cards, settings);
   const uuidToIndex = {};
@@ -14,38 +123,8 @@ function encodeDeck(deck, cards, settings) {
   }
   return Object.entries(groups)
     .sort((a, b) => Number(a[0]) - Number(b[0]))
-    .map(([qty, idxs]) => `${qty}:${idxs.sort((a, b) => a - b).join(",")}`)
+    .map(([qty, idxs]) => `${qty}:${idxs.sort().join(",")}`)
     .join(";");
-}
-
-// --- Helper to encode octgnOverrides for link (uses index property from cards.json) ---
-function encodeOctgnOverrides(octgnOverrides, deck, cards) {
-  return Object.entries(deck)
-    .map(([cardId]) => {
-      if (!octgnOverrides[cardId]) return null;
-      const card = cards.find(c => c.id === cardId);
-      if (!card || typeof card.index === "undefined") return null;
-      return `${encodeURIComponent(card.index)}:${encodeURIComponent(octgnOverrides[cardId])}`;
-    })
-    .filter(Boolean)
-    .join(",");
-}
-
-// --- Helper to decode octgnOverrides from link (uses index property from cards.json) ---
-function decodeOctgnOverrides(str, cards) {
-  const indexToUuid = {};
-  cards.forEach(card => indexToUuid[card.index] = card.id);
-  const obj = {};
-  if (!str) return obj;
-  str.split(",").forEach(entry => {
-    const splitIdx = entry.indexOf(":");
-    if (splitIdx === -1) return;
-    const cardIndex = decodeURIComponent(entry.slice(0, splitIdx));
-    const group = decodeURIComponent(entry.slice(splitIdx + 1));
-    const uuid = indexToUuid[Number(cardIndex)];
-    if (uuid && group) obj[uuid] = group;
-  });
-  return obj;
 }
 
 function decodeDeck(str, cards) {
@@ -58,7 +137,7 @@ function decodeDeck(str, cards) {
     const [qty, idxs] = group.split(":");
     if (!qty || !idxs) return;
     idxs.split(",").forEach(idx => {
-      const uuid = indexToUuid[Number(idx)];
+      const uuid = indexToUuid[idx];
       if (uuid) obj[uuid] = parseInt(qty, 10);
     });
   });
@@ -82,7 +161,7 @@ export function getCardImageUrl(card, game) {
   return `https://tcgbuilder.net/images/${game}/${card.image}`;
 }
 
-// --- Export deck as image, compact grid, DeckPanel sort/group logic ---
+// --- Export deck as image (compact grid) ---
 async function exportDeckImageCompact(deck, cards, settings, deckName, game) {
   const cardWidth = 180;
   const cardHeight = 252;
@@ -310,7 +389,6 @@ async function exportDeckImage(deck, cards, settings, deckName, game) {
   }, "image/png");
 }
 
-// --- Helper: export OCTGN using current grouping if available ---
 async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, currentGroupBy) {
   let base = "/";
   if (typeof import.meta !== "undefined" && import.meta.env && import.meta.env.BASE_URL) {
@@ -333,6 +411,7 @@ async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, 
     return;
   }
 
+  // Helper: match ANY criteria (OR)
   function cardMatchesSection(card, section) {
     if (!section.criteria) return false;
     return Object.entries(section.criteria).some(([prop, values]) => {
@@ -347,6 +426,7 @@ async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, 
     });
   }
 
+  // Gather valid section names
   const validSectionNames = new Set(octgnSettings.sections.map(s => s.name));
   const sectionMap = {};
   for (const section of octgnSettings.sections) {
@@ -356,11 +436,13 @@ async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, 
     sectionMap[octgnSettings.defaultSection] = [];
   }
 
+  // Main assignment logic
   for (const [cardId, qty] of Object.entries(deck)) {
     if (!qty || qty <= 0) continue;
     const card = cards.find(c => c.id === cardId);
     let placed = false;
 
+    // 1. User grouping if available and valid
     if (
       currentGroupBy === "OCTGN" &&
       octgnOverrides &&
@@ -373,6 +455,7 @@ async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, 
       placed = true;
     }
 
+    // 2. Criteria-based fallback
     if (!placed) {
       for (const section of octgnSettings.sections) {
         if (cardMatchesSection(card, section)) {
@@ -381,6 +464,7 @@ async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, 
           break;
         }
       }
+      // 3. Default section fallback
       if (!placed && octgnSettings.defaultSection && sectionMap[octgnSettings.defaultSection]) {
         sectionMap[octgnSettings.defaultSection].push({ card, qty });
       }
@@ -423,8 +507,7 @@ function DeckControls({
   selectedCard,
   setGame,
   groupBy,
-  octgnOverrides,
-  setOctgnOverrides,
+  octgnOverrides
 }) {
   const [deckName, setDeckName] = useState("");
   const [savedDecks, setSavedDecks] = useState(() =>
@@ -433,19 +516,55 @@ function DeckControls({
   const [exportMenuOpen, setExportMenuOpen] = useState(false);
   const exportMenuRef = useRef(null);
   const [linkMessage, setLinkMessage] = useState("");
-
-  // --- Handle link import (deck + octgn) ---
+  const [selectedDeckIdx, setSelectedDeckIdx] = useState(null);
+  const [dropdownHover, setDropdownHover] = useState(null);
+  // --- NEW: track current groupBy for export ---
+  const [currentGroupBy, setCurrentGroupBy] = useState(groupBy || (settings.groupOptions && settings.groupOptions[0]) || "Type");
   useEffect(() => {
-    if (!cards || cards.length === 0) return; // Wait for cards to load!
+    if (groupBy) setCurrentGroupBy(groupBy);
+  }, [groupBy]);
+
+  // --- OCTGN sections for grouping if needed ---
+  const [octgnSections, setOctgnSections] = useState(null);
+  const [panelIgnoreSections, setPanelIgnoreSections] = useState([]);
+  useEffect(() => {
+    if (currentGroupBy !== "OCTGN" || !settings.octgnExport) {
+      setOctgnSections(null);
+      setPanelIgnoreSections([]);
+      return;
+    }
+    let cancelled = false;
+    async function fetchSections() {
+      try {
+        let baseUrl = import.meta.env.BASE_URL || "";
+        if (baseUrl.endsWith("/")) baseUrl = baseUrl.slice(0, -1);
+        const url = `${baseUrl}/games/${settings.gameName}/octgn.json`;
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error("OCTGN config not found");
+        const json = await resp.json();
+        if (!cancelled) {
+          setOctgnSections(json.sections || []);
+          setPanelIgnoreSections(json.panelIgnoreSections || []);
+        }
+      } catch {
+        if (!cancelled) {
+          setOctgnSections([]);
+          setPanelIgnoreSections([]);
+        }
+      }
+    }
+    fetchSections();
+    return () => {
+      cancelled = true;
+    };
+  }, [settings.gameName, settings.octgnExport, currentGroupBy]);
+
+  useEffect(() => {
     let params = new URLSearchParams(window.location.search);
     let urlGame = params.get("game");
     let deckStr = params.get("deck");
-    let octgnStr = params.get("octgn");
     if (!deckStr && window.location.hash.includes("deck=")) {
       deckStr = window.location.hash.split("deck=")[1]?.split("&")[0];
-      if (window.location.hash.includes("octgn=")) {
-        octgnStr = window.location.hash.split("octgn=")[1]?.split("&")[0];
-      }
     }
     if (urlGame && typeof setGame === "function" && urlGame !== game) {
       setGame(urlGame);
@@ -453,21 +572,17 @@ function DeckControls({
     }
     if (deckStr) {
       const loadedDeck = decodeDeck(deckStr, cards);
-      const loadedOctgn = decodeOctgnOverrides(octgnStr, cards);
       if (loadedDeck && typeof loadedDeck === "object") {
         if (Object.keys(deck).length > 0) {
           if (!window.confirm("You are about to load a shared deck. This will overwrite your current progress. Continue?")) {
             params.delete("deck");
-            params.delete("octgn");
             window.history.replaceState({}, "", window.location.pathname + (params.toString() ? "?" + params.toString() : ""));
             return;
           }
         }
         setDeck(loadedDeck);
-        if (typeof setOctgnOverrides === "function") setOctgnOverrides(loadedOctgn);
         setDeckName("");
         params.delete("deck");
-        params.delete("octgn");
         window.history.replaceState({}, "", window.location.pathname + (params.toString() ? "?" + params.toString() : ""));
       }
     }
@@ -493,9 +608,6 @@ function DeckControls({
     return () => document.removeEventListener("mousedown", handleClick);
   }, [exportMenuOpen]);
 
-  const [selectedDeckIdx, setSelectedDeckIdx] = useState(null);
-
-  // --- Save/load decks (with octgnOverrides) ---
   function saveDeck() {
     if (!deckName) {
       alert("Please enter a deck name.");
@@ -508,7 +620,7 @@ function DeckControls({
       );
       if (choice) {
         const newDecks = savedDecks.map((d, i) =>
-          i === existingIdx ? { name: deckName, deck, octgnOverrides } : d
+          i === existingIdx ? { name: deckName, deck } : d
         );
         setSavedDecks(newDecks);
         localStorage.setItem(`${game}-decks`, JSON.stringify(newDecks));
@@ -520,14 +632,14 @@ function DeckControls({
           alert("A deck with that name already exists. Please choose another name.");
           return;
         }
-        const newDecks = [...savedDecks, { name: newName, deck, octgnOverrides }];
+        const newDecks = [...savedDecks, { name: newName, deck }];
         setDeckName(newName);
         setSavedDecks(newDecks);
         localStorage.setItem(`${game}-decks`, JSON.stringify(newDecks));
         alert("Deck saved with new name.");
       }
     } else {
-      const newDecks = [...savedDecks, { name: deckName, deck, octgnOverrides }];
+      const newDecks = [...savedDecks, { name: deckName, deck }];
       setSavedDecks(newDecks);
       localStorage.setItem(`${game}-decks`, JSON.stringify(newDecks));
       alert("Deck saved.");
@@ -536,7 +648,6 @@ function DeckControls({
   function loadDeck(idx) {
     if (!window.confirm(`All current progress will be lost! Do you want to load ${savedDecks[idx].name}?`)) return;
     setDeck(savedDecks[idx].deck);
-    if (typeof setOctgnOverrides === "function") setOctgnOverrides(savedDecks[idx].octgnOverrides || {});
     setDeckName(savedDecks[idx].name);
   }
   function deleteDeck(idx) {
@@ -549,92 +660,59 @@ function DeckControls({
   async function exportDeck(format) {
     setExportMenuOpen(false);
     if (format === "TXT") {
-      // Group by display grouping, with blank lines between sections, and section headers.
-      const groupBySetting = settings.groupOptions?.[0] || "Type";
-      const FALLBACK_GROUP_ORDER = ["Creatures", "Spells", "Lands", "Other"];
-      const groupOrder = Array.isArray(settings.groupOrder) ? settings.groupOrder : FALLBACK_GROUP_ORDER;
+      // --- Use DeckPanel grouping/sorting logic ---
+      const includeSubtitle = !!settings.includeSubtitleInTextExport;
       const groupSorts = settings.groupSort || {};
-
-      function groupDeck(deck, cards, groupBySetting) {
-        const grouped = {};
-        Object.entries(deck).forEach(([cardId, qty]) => {
-          const card = cards.find(c => c.id === cardId);
-          const group = card?.[groupBySetting] || "Other";
-          if (!grouped[group]) grouped[group] = [];
-          grouped[group].push({ card, qty });
-        });
-        return grouped;
-      }
-
-      function getSortedGroupNames(groupedObj) {
-        const groupNames = Object.keys(groupedObj);
+      // Use the groupBy passed in as prop or internal state
+      const groupBySetting = currentGroupBy || (settings.groupOptions && settings.groupOptions[0]) || "Type";
+      // For OCTGN, load sections from state (already fetched in effect above)
+      const usingOctgn = groupBySetting === "OCTGN" && settings.octgnExport;
+      // Build grouped object
+      let grouped, groupOrderArr, filteredSections;
+      if (usingOctgn && octgnSections) {
+        // Exclude ignored sections
+        filteredSections = panelIgnoreSections && panelIgnoreSections.length > 0
+          ? octgnSections.filter(section => !panelIgnoreSections.includes(section.name))
+          : octgnSections;
+        grouped = groupDeckByOctgn(deck, cards, filteredSections, octgnOverrides);
+        groupOrderArr = [...filteredSections.map(s => s.name), "Ungrouped"];
+      } else {
+        grouped = groupDeck(deck, cards, groupBySetting);
+        const FALLBACK_GROUP_ORDER = ["Creatures", "Spells", "Lands", "Other"];
+        const groupOrder = Array.isArray(settings.groupOrder) ? settings.groupOrder : FALLBACK_GROUP_ORDER;
+        const groupNames = Object.keys(grouped);
         const inOrder = groupOrder.filter(name => groupNames.includes(name));
         const remaining = groupNames.filter(name => !groupOrder.includes(name)).sort();
-        return [...inOrder, ...remaining];
+        groupOrderArr = [...inOrder, ...remaining];
       }
 
-      function sortGroup(cardsInGroup, groupSortConfig) {
-        if (!groupSortConfig || typeof groupSortConfig !== "object") {
-          return [...cardsInGroup].sort((a, b) => a.card.name.localeCompare(b.card.name));
-        }
-        const sortProps = groupSortConfig.by || ["name"];
-        const customOrders = groupSortConfig.order || {};
-
-        return [...cardsInGroup].sort((a, b) => {
-          for (const prop of sortProps) {
-            const av = a.card?.[prop] ?? "";
-            const bv = b.card?.[prop] ?? "";
-
-            if (customOrders[prop]) {
-              const order = customOrders[prop];
-              const ai = order.indexOf(av);
-              const bi = order.indexOf(bv);
-
-              if (ai !== -1 && bi !== -1 && ai !== bi) return ai - bi;
-              if (ai !== -1 && bi === -1) return -1;
-              if (bi !== -1 && ai === -1) return 1;
-            }
-
-            const an = parseFloat(av);
-            const bn = parseFloat(bv);
-            const isNumeric = !isNaN(an) && !isNaN(bn);
-
-            if (isNumeric) {
-              if (an !== bn) return an - bn;
-            } else {
-              const result = String(av).localeCompare(String(bv));
-              if (result !== 0) return result;
-            }
-          }
-          return 0;
-        });
-      }
-
-      const grouped = groupDeck(deck, cards, groupBySetting);
-      const sortedGroups = getSortedGroupNames(grouped);
-
+      // Build output
       let txt = `Deck: ${deckName}`;
-
-      sortedGroups.forEach((group, groupIdx) => {
-        const groupCards = grouped[group] || [];
-        const groupSortConfig = groupSorts[group];
-        const sorted = sortGroup(groupCards, groupSortConfig);
-        const groupTotal = sorted.reduce((sum, { qty }) => sum + qty, 0);
-
-        // Add group header and cards
-        txt += `\n${group} (${groupTotal})`;
-        sorted.forEach(({ card, qty }) => {
-          txt += `\n${card ? card.name : "Unknown"} x${qty}`;
-        });
-
-        // Add a blank line if not the last group
-        if (groupIdx < sortedGroups.length - 1) {
-          txt += `\n`;
-        }
-      });
+groupOrderArr.forEach((group, groupIdx) => {
+  const groupCards = grouped[group] || [];
+  // Skip empty "Ungrouped" section for OCTGN export
+  if (
+    usingOctgn &&
+    group === "Ungrouped" &&
+    (!groupCards || groupCards.length === 0)
+  ) {
+    return; // skip this group
+  }
+  // Use DeckPanel sorting logic
+  const groupSortConfig = groupSorts[group];
+  const sorted = sortGroup(groupCards, groupSortConfig, includeSubtitle);
+  const groupTotal = sorted.reduce((sum, { qty }) => sum + qty, 0);
+  txt += `\n${group} (${groupTotal})`;
+  sorted.forEach(({ card, qty }) => {
+    let cardLine = cardNameWithSubtitle(card, includeSubtitle);
+    txt += `\n${cardLine} x${qty}`;
+  });
+  if (groupIdx < groupOrderArr.length - 1) {
+    txt += `\n`;
+  }
+});
 
       downloadFile(txt, `${deckName || "deck"}.txt`, "text/plain");
-
     } else if (format === "JSON") {
       const exportList = getSortedExportListWithDisplayOrder(deck, cards, settings);
       const deckObj = {
@@ -651,13 +729,11 @@ function DeckControls({
     } else if (format === "ImageCompact") {
       await exportDeckImageCompact(deck, cards, settings, deckName, game);
     } else if (format === "OCTGN") {
-      await exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, groupBy);
+      await exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, currentGroupBy);
     } else if (format === "LINK") {
       const encoded = encodeDeck(deck, cards, settings);
-      const octgnStr = encodeOctgnOverrides(octgnOverrides, deck, cards);
       let url = window.location.origin + window.location.pathname;
       url += `?game=${encodeURIComponent(game)}&deck=${encoded}`;
-      if (octgnStr) url += `&octgn=${octgnStr}`;
       navigator.clipboard.writeText(url).then(() => {
         setLinkMessage("Shareable link copied to clipboard!");
         setTimeout(() => setLinkMessage(""), 2000);
@@ -669,9 +745,6 @@ function DeckControls({
     if (Object.keys(deck).length > 0) {
       if (window.confirm("Are you sure you want to clear the current deck? This cannot be undone.")) {
         setDeck({});
-        if (typeof setOctgnOverrides === "function") {
-          setOctgnOverrides({});
-        }
       }
     }
   }
@@ -690,7 +763,6 @@ function DeckControls({
 
       const text = await file.text();
       let importedDeck = {};
-      let importedOverrides = {};
       let notFound = [];
 
       try {
@@ -703,14 +775,6 @@ function DeckControls({
           }
           for (const card of deckObj.deck) {
             importedDeck[card.id] = card.qty;
-            if (card.group) {
-              importedOverrides[card.id] = card.group;
-            }
-          }
-          if (deckObj.octgnOverrides && typeof setOctgnOverrides === "function") {
-            setOctgnOverrides(deckObj.octgnOverrides);
-          } else if (typeof setOctgnOverrides === "function") {
-            setOctgnOverrides(importedOverrides);
           }
           setDeck(importedDeck);
           return;
@@ -721,36 +785,28 @@ function DeckControls({
         try {
           const parser = new DOMParser();
           const xmlDoc = parser.parseFromString(text, "application/xml");
+          const cardNodes = Array.from(xmlDoc.getElementsByTagName("card"));
           importedDeck = {};
-          importedOverrides = {};
+          notFound = [];
 
-          const sectionNodes = Array.from(xmlDoc.getElementsByTagName("section"));
-          for (const sectionNode of sectionNodes) {
-            const sectionName = sectionNode.getAttribute("name") || "Ungrouped";
-            const cardNodes = Array.from(sectionNode.getElementsByTagName("card"));
-            for (const node of cardNodes) {
-              const id = node.getAttribute("id");
-              const qty = parseInt(node.getAttribute("qty"), 10) || 1;
-              const name = node.getAttribute("name") || node.textContent.trim();
+          for (const node of cardNodes) {
+            const id = node.getAttribute("id");
+            const qty = parseInt(node.getAttribute("qty"), 10) || 1;
+            const name = node.getAttribute("name") || node.textContent.trim();
 
-              let foundCard = id ? cards.find(c => c.id === id) : null;
-              if (!foundCard && name) {
-                foundCard = cards.find(c => c.name === name);
-              }
-              if (foundCard) {
-                importedDeck[foundCard.id] = (importedDeck[foundCard.id] || 0) + qty;
-                importedOverrides[foundCard.id] = sectionName;
-              } else if (name) {
-                notFound.push(name);
-              }
+            let foundCard = id ? cards.find(c => c.id === id) : null;
+            if (!foundCard && name) {
+              foundCard = cards.find(c => c.name === name);
+            }
+            if (foundCard) {
+              importedDeck[foundCard.id] = (importedDeck[foundCard.id] || 0) + qty;
+            } else if (name) {
+              notFound.push(name);
             }
           }
 
           if (Object.keys(importedDeck).length > 0) {
             setDeck(importedDeck);
-            if (typeof setOctgnOverrides === "function") {
-              setOctgnOverrides(importedOverrides);
-            }
             if (notFound.length > 0) {
               alert("Some cards could not be matched and were not imported:\n" + notFound.join("\n"));
             }
@@ -792,8 +848,6 @@ function DeckControls({
   const listSelectedClass = "selected-list-item";
 
   const selectedCardObj = cards.find(c => c.id === selectedCard);
-
-  const [dropdownHover, setDropdownHover] = useState(null);
 
   return (
     <section className="deck-controls flex-col-center">
