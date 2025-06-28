@@ -13,13 +13,14 @@
     "Set",
 	"Format",
     "Cost",
-    "Allegiance",
+    "Alignment",
 	"Affiliation",
 	"Mission Skill"
   ],
   "groupOrder": [],
   "groupSort": {},
   "searchPrefixes": {
+	"t:": "Text",
 	"xp:": "Experience",
 	"f:": "Firepower",
 	"r:": "Revive"
