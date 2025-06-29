@@ -1,52 +1,46 @@
 {
-    "gameName": "inwo",
-    "maxCopiesPerCard": 9999,
-    "addNValue": 3,
-    "octgnExport": true,
-    "filterOptions": [
-        "Type",
+  "gameName": "inwo",
+  "maxCopiesPerCard": 9999,
+  "addNValue": 3,
+  "octgnExport": true,
+  "filterOptions": [
+    "Type",
+    "Subtype",
+    "Power",
+    "Global Power",
+    "Resistance"
+  ],
+  "groupOptions": [
+    "Type",
+	"OCTGN"
+  ],
+  "groupOrder": [],
+  "groupSort": {
+    "Group": {
+      "by": [
         "Subtype",
-        "Power",
-        "Global Power",
-        "Resistance"
-    ],
-    "groupOptions": [
-        "Type"
-    ],
-    "groupOrder": [],
-      "groupSort": {
-		"Group": {
-			"by": ["Subtype", "name"],
-    "order": {
-      "Subtype": ["Illuminati", "Organization", "Personality", "name"]
-		}	
-	}
-	  },
-    "searchPrefixes": {
-        "t:": "Card Text",
-        "al:": "Alignments",
-        "at:": "Attributes"
-    },
-    "deckValidation": {
-        "minCards": 45,
-        "maxCards": 45,
-        "usePerCardLimit": false,
-        "propertyLimits": [],
-        "banList": []
-    },
-    "/comments": {
-        "/gameName": "STR - The name of the game used to find images and settings",
-        "/maxCopiesPerCard": "INT - The universal maximum copies of a card, can be reduced by deck validation",
-        "/addNValue": "INT - The button to add more than one card to a deck uses this value to determine how many to add",
-        "/octgnExport": "BOOL - Requires octgn.json, enables export of OCTGN files",
-        "/filterOptions": "LIST - Card properties to offer as filters for card list search",
-        "/groupOptions": "LIST - Card properties to group a deck by",
-        "/groupOrder": "LIST - When sorting, use these types first and then sort others alphabetically",
-        "/groupSort": "DICT - k:v pairs of a card type and another characteristic of that card to sort that group by that characteristic",
-        "/searchPrefixes": "DICT - k:v pairs of a search prefix and the card property to be searched",
-        "/deckValidation": "DICT - minCards and maxCards (INT) for deck min/max",
-        "/deckValidation2": "usePerCardLimit (BOOL) if each card has a limit property to restrict number of copies of individual cards",
-        "/deckValidation3": "banList is a list of card IDs that are banned",
-        "/deckValidation4": "propertyLimits is a list of dicts with the k:v pair property:(which card property to check), a k:v pair value:(the value of that property), and a k:v pair for min:# or max:#"
+        "name"
+      ],
+      "order": {
+        "Subtype": [
+          "Illuminati",
+          "Organization",
+          "Personality",
+          "name"
+        ]
+      }
     }
+  },
+  "searchPrefixes": {
+    "t:": "Card Text",
+    "al:": "Alignments",
+    "at:": "Attributes"
+  },
+  "deckValidation": {
+    "minCards": 45,
+    "maxCards": 45,
+    "usePerCardLimit": false,
+    "propertyLimits": [],
+    "banList": []
+  }
 }

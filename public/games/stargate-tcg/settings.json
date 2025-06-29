@@ -36,14 +36,14 @@
         "value": "Hero",
         "min": 20,
 		"showPropertyNameInError": false,
-		"errorMessage": "You must have at least {min} Hero cards, you have {count}."
+		"errorMessage": "Requires at least {min} Hero cards, you have {count}."
       },
       {
         "property": "Allegiance",
         "value": "Villain",
         "min": 20,
 		"showPropertyNameInError": false,
-		"errorMessage": "You must have at least {min} Villain cards, you have {count}."
+		"errorMessage": "Requires at least {min} Villain cards, you have {count}."
       },
 	  {
         "property": "Type",
@@ -51,7 +51,7 @@
         "min": 12,
 		"max": 12,
 		"showPropertyNameInError": false,
-		"errorMessage": "You must have exactly {min} Missions, you have {count}."
+		"errorMessage": "Requires exactly {min} Missions, you have {count}."
       },
       {
         "property": "Mission Skill",
