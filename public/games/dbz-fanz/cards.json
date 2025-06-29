@@ -176,7 +176,7 @@
   },
   {
     "name": "Android 13 - Amused",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U62",
     "Type": "Villain MP",
     "Endurance": "",
@@ -201,7 +201,7 @@
   },
   {
     "name": "Android 13 - Amused",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P133",
     "Type": "Villain MP",
     "Endurance": "",
@@ -226,7 +226,7 @@
   },
   {
     "name": "Android 13 - Dark Villain",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U63",
     "Type": "Villain MP",
     "Endurance": "",
@@ -251,7 +251,7 @@
   },
   {
     "name": "Android 13 - Dark Villain",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P134",
     "Type": "Villain MP",
     "Endurance": "",
@@ -276,7 +276,7 @@
   },
   {
     "name": "Android 13 - Powerful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U78",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -301,7 +301,7 @@
   },
   {
     "name": "Android 13 - Powerful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P196",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -326,7 +326,7 @@
   },
   {
     "name": "Android 13 - Redneck Robot",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U61",
     "Type": "Villain MP",
     "Endurance": "",
@@ -351,7 +351,7 @@
   },
   {
     "name": "Android 13 - Redneck Robot",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P132",
     "Type": "Villain MP",
     "Endurance": "",
@@ -376,7 +376,7 @@
   },
   {
     "name": "Android 13 - Surging Strength",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U64",
     "Type": "Villain MP",
     "Endurance": "",
@@ -401,7 +401,7 @@
   },
   {
     "name": "Android 13 - Surging Strength",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P135",
     "Type": "Villain MP",
     "Endurance": "",
@@ -476,7 +476,7 @@
   },
   {
     "name": "Android 14 - Stoic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U79",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -501,7 +501,7 @@
   },
   {
     "name": "Android 14 - Stoic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P197",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -526,7 +526,7 @@
   },
   {
     "name": "Android 15 - Relaxed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U80",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -551,7 +551,7 @@
   },
   {
     "name": "Android 15 - Relaxed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P198",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -576,7 +576,7 @@
   },
   {
     "name": "Android 16 - Awoken",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U69",
     "Type": "Villain MP",
     "Endurance": "",
@@ -601,7 +601,7 @@
   },
   {
     "name": "Android 16 - Distracted",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U70",
     "Type": "Villain MP",
     "Endurance": "",
@@ -626,7 +626,7 @@
   },
   {
     "name": "Android 16 - Distracted",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P121",
     "Type": "Villain MP",
     "Endurance": "",
@@ -651,7 +651,7 @@
   },
   {
     "name": "Android 16 - Enraged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U71",
     "Type": "Villain MP",
     "Endurance": "",
@@ -676,7 +676,7 @@
   },
   {
     "name": "Android 16 - Enraged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P122",
     "Type": "Villain MP",
     "Endurance": "",
@@ -701,7 +701,7 @@
   },
   {
     "name": "Android 16 - Focused",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S53",
     "Type": "Villain MP",
     "Endurance": "",
@@ -726,7 +726,7 @@
   },
   {
     "name": "Android 16 - Focused",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P13",
     "Type": "Villain MP",
     "Endurance": "",
@@ -751,7 +751,7 @@
   },
   {
     "name": "Android 16 - Focused",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "Bonus P121",
     "Type": "Villain MP",
     "Endurance": "",
@@ -776,7 +776,7 @@
   },
   {
     "name": "Android 16 - Injured",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U72",
     "Type": "Villain MP",
     "Endurance": "",
@@ -801,7 +801,7 @@
   },
   {
     "name": "Android 16 - Injured",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P123",
     "Type": "Villain MP",
     "Endurance": "",
@@ -826,7 +826,7 @@
   },
   {
     "name": "Android 16 - Unmoving",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U75",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -851,7 +851,7 @@
   },
   {
     "name": "Android 16 - Unmoving",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P194",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -976,7 +976,7 @@
   },
   {
     "name": "Android 17 - Battle Ready",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S23",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1001,7 +1001,7 @@
   },
   {
     "name": "Android 17 - Battle Ready",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P30",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1026,7 +1026,7 @@
   },
   {
     "name": "Android 17 - Beckoning",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U97",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -1051,7 +1051,7 @@
   },
   {
     "name": "Android 17 - Beckoning",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P188",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -1076,7 +1076,7 @@
   },
   {
     "name": "Android 17 - Entertained",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S54",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1101,7 +1101,7 @@
   },
   {
     "name": "Android 17 - Entertained",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P14",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1126,7 +1126,7 @@
   },
   {
     "name": "Android 17 - Imposing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S22",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1151,7 +1151,7 @@
   },
   {
     "name": "Android 17 - Imposing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P29",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1176,7 +1176,7 @@
   },
   {
     "name": "Android 17 - In Action",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S24",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1201,7 +1201,7 @@
   },
   {
     "name": "Android 17 - In Action",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P31",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1226,7 +1226,7 @@
   },
   {
     "name": "Android 17 - Judgmental",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S21",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1251,7 +1251,7 @@
   },
   {
     "name": "Android 17 - Judgmental",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P28",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1276,7 +1276,7 @@
   },
   {
     "name": "Android 17 - Ranger",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U38",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -1351,7 +1351,7 @@
   },
   {
     "name": "Android 18 - Aggressive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S67",
     "Type": "Hero MP",
     "Endurance": "",
@@ -1376,7 +1376,7 @@
   },
   {
     "name": "Android 18 - Aggressive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P2",
     "Type": "Hero MP",
     "Endurance": "",
@@ -1401,7 +1401,7 @@
   },
   {
     "name": "Android 18 - Determined",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S29",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1426,7 +1426,7 @@
   },
   {
     "name": "Android 18 - Determined",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P35",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1451,7 +1451,7 @@
   },
   {
     "name": "Android 18 - Directing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S26",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1476,7 +1476,7 @@
   },
   {
     "name": "Android 18 - Directing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P32",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1501,7 +1501,7 @@
   },
   {
     "name": "Android 18 - Effective",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S28",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1526,7 +1526,7 @@
   },
   {
     "name": "Android 18 - Effective",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P34",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1551,7 +1551,7 @@
   },
   {
     "name": "Android 18 - Finalist",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S68",
     "Type": "Hero MP",
     "Endurance": "",
@@ -1576,7 +1576,7 @@
   },
   {
     "name": "Android 18 - Finalist",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P3",
     "Type": "Hero MP",
     "Endurance": "",
@@ -1601,7 +1601,7 @@
   },
   {
     "name": "Android 18 - Prepared",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S55",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1626,7 +1626,7 @@
   },
   {
     "name": "Android 18 - Prepared",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P15",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1651,7 +1651,7 @@
   },
   {
     "name": "Android 18 - Runner Up",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S69",
     "Type": "Hero MP",
     "Endurance": "",
@@ -1676,7 +1676,7 @@
   },
   {
     "name": "Android 18 - Runner Up",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Hero MP",
     "Endurance": "",
@@ -1701,7 +1701,7 @@
   },
   {
     "name": "Android 18 - Settled Down",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S66",
     "Type": "Hero MP",
     "Endurance": "",
@@ -1726,7 +1726,7 @@
   },
   {
     "name": "Android 18 - Settled Down",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Hero MP",
     "Endurance": "",
@@ -1751,7 +1751,7 @@
   },
   {
     "name": "Android 18 - Smirking",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U98",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -1776,7 +1776,7 @@
   },
   {
     "name": "Android 18 - Smirking",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P189",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -1801,7 +1801,7 @@
   },
   {
     "name": "Android 18 - Threatening",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S27",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1826,7 +1826,7 @@
   },
   {
     "name": "Android 18 - Threatening",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P33",
     "Type": "Villain MP",
     "Endurance": "",
@@ -1851,7 +1851,7 @@
   },
   {
     "name": "Android 18 - Wife",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U56",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -1876,7 +1876,7 @@
   },
   {
     "name": "Android 18 - Wife",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P15",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -1976,7 +1976,7 @@
   },
   {
     "name": "Android 19 - Injured",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U99",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -2001,7 +2001,7 @@
   },
   {
     "name": "Android 19 - Injured",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P190",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -2026,7 +2026,7 @@
   },
   {
     "name": "Android 19 - Patient",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U88",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2051,7 +2051,7 @@
   },
   {
     "name": "Android 19 - Patient",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P116",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2076,7 +2076,7 @@
   },
   {
     "name": "Android 19 - Pondering",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U86",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2101,7 +2101,7 @@
   },
   {
     "name": "Android 19 - Pondering",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P114",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2126,7 +2126,7 @@
   },
   {
     "name": "Android 19 - Stoic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U85",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2151,7 +2151,7 @@
   },
   {
     "name": "Android 19 - Stoic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P113",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2176,7 +2176,7 @@
   },
   {
     "name": "Android 19 - Unimpressed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U87",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2201,7 +2201,7 @@
   },
   {
     "name": "Android 19 - Unimpressed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P115",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2301,7 +2301,7 @@
   },
   {
     "name": "Android 20 - Focused",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U89",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2326,7 +2326,7 @@
   },
   {
     "name": "Android 20 - Focused",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P117",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2351,7 +2351,7 @@
   },
   {
     "name": "Android 20 - Master Planner",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U92",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2376,7 +2376,7 @@
   },
   {
     "name": "Android 20 - Master Planner",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P120",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2401,7 +2401,7 @@
   },
   {
     "name": "Android 20 - Mastermind",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U100",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -2426,7 +2426,7 @@
   },
   {
     "name": "Android 20 - Mastermind",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P191",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -2451,7 +2451,7 @@
   },
   {
     "name": "Android 20 - Surprised",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U91",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2476,7 +2476,7 @@
   },
   {
     "name": "Android 20 - Surprised",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P119",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2501,7 +2501,7 @@
   },
   {
     "name": "Android 20 - Unfazed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U90",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2526,7 +2526,7 @@
   },
   {
     "name": "Android 20 - Unfazed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P118",
     "Type": "Villain MP",
     "Endurance": "",
@@ -2851,7 +2851,7 @@
   },
   {
     "name": "Arale - Gag Manga Character",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U42",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -2951,7 +2951,7 @@
   },
   {
     "name": "Baba - Surprise Visitor",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U079",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -2976,7 +2976,7 @@
   },
   {
     "name": "Baba - Surprise Visitor",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P204",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -3001,7 +3001,7 @@
   },
   {
     "name": "Babidi - Controlling",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S54",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3026,7 +3026,7 @@
   },
   {
     "name": "Babidi - Mastermind",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S51",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3051,7 +3051,7 @@
   },
   {
     "name": "Babidi - Scheming",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S52",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3076,7 +3076,7 @@
   },
   {
     "name": "Babidi - Wizard",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U57",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -3101,7 +3101,7 @@
   },
   {
     "name": "Babidi - Worried",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S53",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3176,7 +3176,7 @@
   },
   {
     "name": "Bardock - Displaced",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S50",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3201,7 +3201,7 @@
   },
   {
     "name": "Bardock - Displaced",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P3",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3226,7 +3226,7 @@
   },
   {
     "name": "Bardock - Legend",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S51",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3251,7 +3251,7 @@
   },
   {
     "name": "Bardock - Legend",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3276,7 +3276,7 @@
   },
   {
     "name": "Bardock - Oozaru",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U43",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -3301,7 +3301,7 @@
   },
   {
     "name": "Bardock - True Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S48",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3326,7 +3326,7 @@
   },
   {
     "name": "Bardock - True Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3351,7 +3351,7 @@
   },
   {
     "name": "Bardock - Vengeful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S49",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3376,7 +3376,7 @@
   },
   {
     "name": "Bardock - Vengeful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P2",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3551,7 +3551,7 @@
   },
   {
     "name": "Bee - Loyal Companion",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U39",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -3576,7 +3576,7 @@
   },
   {
     "name": "Beerus - Curious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S68",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3601,7 +3601,7 @@
   },
   {
     "name": "Beerus - Curious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3626,7 +3626,7 @@
   },
   {
     "name": "Beerus - Deity",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S71",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3651,7 +3651,7 @@
   },
   {
     "name": "Beerus - Deity",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3676,7 +3676,7 @@
   },
   {
     "name": "Beerus - God of Destruction",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P203",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -3701,7 +3701,7 @@
   },
   {
     "name": "Beerus - Impulsive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S69",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3726,7 +3726,7 @@
   },
   {
     "name": "Beerus - Impulsive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P2",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3751,7 +3751,7 @@
   },
   {
     "name": "Beerus - The Destroyer",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S70",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3776,7 +3776,7 @@
   },
   {
     "name": "Beerus - The Destroyer",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P3",
     "Type": "Villain MP",
     "Endurance": "",
@@ -3851,7 +3851,7 @@
   },
   {
     "name": "Beerus, God of Destruction",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P12",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -3876,7 +3876,7 @@
   },
   {
     "name": "Bibidi - Progenitor",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U42",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -19101,7 +19101,7 @@
   },
   {
     "name": "Bojack - Enraged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S47",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19126,7 +19126,7 @@
   },
   {
     "name": "Bojack - Enraged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P8",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19151,7 +19151,7 @@
   },
   {
     "name": "Bojack - Looming Threat",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S44",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19176,7 +19176,7 @@
   },
   {
     "name": "Bojack - Looming Threat",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P5",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19201,7 +19201,7 @@
   },
   {
     "name": "Bojack - On The Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S45",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19226,7 +19226,7 @@
   },
   {
     "name": "Bojack - On The Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P6",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19251,7 +19251,7 @@
   },
   {
     "name": "Bojack - Transformed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S46",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19276,7 +19276,7 @@
   },
   {
     "name": "Bojack - Transformed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P7",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19376,7 +19376,7 @@
   },
   {
     "name": "Botamo - Sturdy",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U43",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -19401,7 +19401,7 @@
   },
   {
     "name": "Broly - Bio Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S51",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19426,7 +19426,7 @@
   },
   {
     "name": "Broly - Bio Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19451,7 +19451,7 @@
   },
   {
     "name": "Broly - Determined",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U66",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19476,7 +19476,7 @@
   },
   {
     "name": "Broly - Determined",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P137",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19501,7 +19501,7 @@
   },
   {
     "name": "Broly - Legendary",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U67",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19526,7 +19526,7 @@
   },
   {
     "name": "Broly - Legendary",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P138",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19551,7 +19551,7 @@
   },
   {
     "name": "Broly - Relentless",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U68",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19576,7 +19576,7 @@
   },
   {
     "name": "Broly - Relentless",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P139",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19601,7 +19601,7 @@
   },
   {
     "name": "Broly - Resurrected",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S50",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19626,7 +19626,7 @@
   },
   {
     "name": "Broly - Resurrected",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P3",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19651,7 +19651,7 @@
   },
   {
     "name": "Broly - Returned",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S48",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19676,7 +19676,7 @@
   },
   {
     "name": "Broly - Returned",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19701,7 +19701,7 @@
   },
   {
     "name": "Broly - Survivor",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U65",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19726,7 +19726,7 @@
   },
   {
     "name": "Broly - Survivor",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P136",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19751,7 +19751,7 @@
   },
   {
     "name": "Broly - Undaunted",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U81",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -19776,7 +19776,7 @@
   },
   {
     "name": "Broly - Undaunted",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P199",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -19801,7 +19801,7 @@
   },
   {
     "name": "Broly - Vengeful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S49",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19826,7 +19826,7 @@
   },
   {
     "name": "Broly - Vengeful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P2",
     "Type": "Villain MP",
     "Endurance": "",
@@ -19926,7 +19926,7 @@
   },
   {
     "name": "Bubbles - Curious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U37",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -19951,7 +19951,7 @@
   },
   {
     "name": "Bulma - Genius",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U68",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -19976,7 +19976,7 @@
   },
   {
     "name": "Bulma - Genius",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P155",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -20001,7 +20001,7 @@
   },
   {
     "name": "Bulma - Taking a Drag",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U58",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -20026,7 +20026,7 @@
   },
   {
     "name": "Burter - Ginyu Force",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U71",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -20051,7 +20051,7 @@
   },
   {
     "name": "Burter - Ginyu Force",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P160",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -20076,7 +20076,7 @@
   },
   {
     "name": "Buu - Abomination",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S56",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20101,7 +20101,7 @@
   },
   {
     "name": "Buu - Abomination",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P6",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20126,7 +20126,7 @@
   },
   {
     "name": "Buu - Crazed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S44",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20151,7 +20151,7 @@
   },
   {
     "name": "Buu - Crazed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P15",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20176,7 +20176,7 @@
   },
   {
     "name": "Buu - Cultivating Mass",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S48",
     "Type": "Hero MP",
     "Endurance": "",
@@ -20201,7 +20201,7 @@
   },
   {
     "name": "Buu - Destructive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S45",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20226,7 +20226,7 @@
   },
   {
     "name": "Buu - Destructive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P16",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20251,7 +20251,7 @@
   },
   {
     "name": "Buu - Devastated",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S49",
     "Type": "Hero MP",
     "Endurance": "",
@@ -20276,7 +20276,7 @@
   },
   {
     "name": "Buu - Evil Incarnate",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S45",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20301,7 +20301,7 @@
   },
   {
     "name": "Buu - Evil Incarnate",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P13",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20326,7 +20326,7 @@
   },
   {
     "name": "Buu - Feasting",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U45",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -20351,7 +20351,7 @@
   },
   {
     "name": "Buu - Gohan Absorbed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S48",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20376,7 +20376,7 @@
   },
   {
     "name": "Buu - Gohan Absorbed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P16",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20401,7 +20401,7 @@
   },
   {
     "name": "Buu - Gotenks Absorbed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S47",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20426,7 +20426,7 @@
   },
   {
     "name": "Buu - Gotenks Absorbed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P15",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20451,7 +20451,7 @@
   },
   {
     "name": "Buu - Looming Threat",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S46",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20476,7 +20476,7 @@
   },
   {
     "name": "Buu - Looming Threat",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P14",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20501,7 +20501,7 @@
   },
   {
     "name": "Buu - Monstrous",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S57",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20526,7 +20526,7 @@
   },
   {
     "name": "Buu - Monstrous",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P7",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20551,7 +20551,7 @@
   },
   {
     "name": "Buu - Pissed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S50",
     "Type": "Hero MP",
     "Endurance": "",
@@ -20576,7 +20576,7 @@
   },
   {
     "name": "Buu - Playful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S55",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20601,7 +20601,7 @@
   },
   {
     "name": "Buu - Playful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P5",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20626,7 +20626,7 @@
   },
   {
     "name": "Buu - Ready to Fight",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S47",
     "Type": "Hero MP",
     "Endurance": "",
@@ -20651,7 +20651,7 @@
   },
   {
     "name": "Buu - Steaming",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S58",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20676,7 +20676,7 @@
   },
   {
     "name": "Buu - Steaming",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P8",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20701,7 +20701,7 @@
   },
   {
     "name": "Buu - Unhinged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S46",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20726,7 +20726,7 @@
   },
   {
     "name": "Buu - Unhinged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P17",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20751,7 +20751,7 @@
   },
   {
     "name": "Buu - Wild Card",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S43",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20776,7 +20776,7 @@
   },
   {
     "name": "Buu - Wild Card",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P14",
     "Type": "Villain MP",
     "Endurance": "",
@@ -20951,7 +20951,7 @@
   },
   {
     "name": "Cabba - Combat Stance",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S47",
     "Type": "Hero MP",
     "Endurance": "",
@@ -20976,7 +20976,7 @@
   },
   {
     "name": "Cabba - Enraged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S48",
     "Type": "Hero MP",
     "Endurance": "",
@@ -21001,7 +21001,7 @@
   },
   {
     "name": "Cabba - Hesitant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S46",
     "Type": "Hero MP",
     "Endurance": "",
@@ -21026,7 +21026,7 @@
   },
   {
     "name": "Cabba - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S49",
     "Type": "Hero MP",
     "Endurance": "",
@@ -21101,7 +21101,7 @@
   },
   {
     "name": "Captain Ginyu - Aggressive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C9",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -21126,7 +21126,7 @@
   },
   {
     "name": "Captain Ginyu - Aggressive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P170",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -21151,7 +21151,7 @@
   },
   {
     "name": "Captain Ginyu - Back in Action",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S72",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21176,7 +21176,7 @@
   },
   {
     "name": "Captain Ginyu - Body Change",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U66",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21201,7 +21201,7 @@
   },
   {
     "name": "Captain Ginyu - Body Change",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P2",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21226,7 +21226,7 @@
   },
   {
     "name": "Captain Ginyu - Body Change",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P81",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21251,7 +21251,7 @@
   },
   {
     "name": "Captain Ginyu - Clever Frog",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S73",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21276,7 +21276,7 @@
   },
   {
     "name": "Captain Ginyu - Elite",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S75",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21301,7 +21301,7 @@
   },
   {
     "name": "Captain Ginyu - Energized",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C7",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21326,7 +21326,7 @@
   },
   {
     "name": "Captain Ginyu - Energized",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P80",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21351,7 +21351,7 @@
   },
   {
     "name": "Captain Ginyu - Frog",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U67",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21376,7 +21376,7 @@
   },
   {
     "name": "Captain Ginyu - Frog",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P3",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21401,7 +21401,7 @@
   },
   {
     "name": "Captain Ginyu - Frog",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P82",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21426,7 +21426,7 @@
   },
   {
     "name": "Captain Ginyu - Frog No More",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S74",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21451,7 +21451,7 @@
   },
   {
     "name": "Captain Ginyu - Leader",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C6",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21476,7 +21476,7 @@
   },
   {
     "name": "Captain Ginyu - Leader",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P79",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21651,7 +21651,7 @@
   },
   {
     "name": "Cell - Combative",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR12",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21676,7 +21676,7 @@
   },
   {
     "name": "Cell - Combative",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P57",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21701,7 +21701,7 @@
   },
   {
     "name": "Cell - Imperfect",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR1",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21726,7 +21726,7 @@
   },
   {
     "name": "Cell - Imperfect",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR1A",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21751,7 +21751,7 @@
   },
   {
     "name": "Cell - Imperfect",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P52",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21776,7 +21776,7 @@
   },
   {
     "name": "Cell - Larval",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U76",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -21801,7 +21801,7 @@
   },
   {
     "name": "Cell - Larval",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P195",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -21826,7 +21826,7 @@
   },
   {
     "name": "Cell - Perfect",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR3",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21851,7 +21851,7 @@
   },
   {
     "name": "Cell - Perfect",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P54",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21876,7 +21876,7 @@
   },
   {
     "name": "Cell - Prepared",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR11",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21901,7 +21901,7 @@
   },
   {
     "name": "Cell - Prepared",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P56",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21926,7 +21926,7 @@
   },
   {
     "name": "Cell - Semi-Perfect",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR2",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21951,7 +21951,7 @@
   },
   {
     "name": "Cell - Semi-Perfect",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P53",
     "Type": "Villain MP",
     "Endurance": "",
@@ -21976,7 +21976,7 @@
   },
   {
     "name": "Cell - Smooth",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR13",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22001,7 +22001,7 @@
   },
   {
     "name": "Cell - Smooth",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P58",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22026,7 +22026,7 @@
   },
   {
     "name": "Cell - Unstoppable",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR4",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22051,7 +22051,7 @@
   },
   {
     "name": "Cell - Unstoppable",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR14",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22076,7 +22076,7 @@
   },
   {
     "name": "Cell - Unstoppable",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P55",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22101,7 +22101,7 @@
   },
   {
     "name": "Cell Jr - Confident",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P150",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22126,7 +22126,7 @@
   },
   {
     "name": "Cell Jr - On The Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P148",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22151,7 +22151,7 @@
   },
   {
     "name": "Cell Jr - Oppressive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P149",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22176,7 +22176,7 @@
   },
   {
     "name": "Cell Jr - Taunting",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P147",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22226,7 +22226,7 @@
   },
   {
     "name": "Cell Jr. - Confident",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U071",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22251,7 +22251,7 @@
   },
   {
     "name": "Cell Jr. - Escaping",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U077",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -22276,7 +22276,7 @@
   },
   {
     "name": "Cell Jr. - Escaping",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P208",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -22301,7 +22301,7 @@
   },
   {
     "name": "Cell Jr. - On the Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U069",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22326,7 +22326,7 @@
   },
   {
     "name": "Cell Jr. - Oppressive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U070",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22351,7 +22351,7 @@
   },
   {
     "name": "Cell Jr. - Taunting",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U068",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22376,7 +22376,7 @@
   },
   {
     "name": "Cell Jr. - Trapped",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U076",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -22401,7 +22401,7 @@
   },
   {
     "name": "Cell Jr. - Trapped",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P209",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -22426,7 +22426,7 @@
   },
   {
     "name": "Cell Jr. - Unrelenting",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U078",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -22451,7 +22451,7 @@
   },
   {
     "name": "Cell Jr. - Unrelenting",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P210",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -22601,7 +22601,7 @@
   },
   {
     "name": "Champa - Salty",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P48",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -22626,7 +22626,7 @@
   },
   {
     "name": "Chaozu - Resurrected",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C8",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -22651,7 +22651,7 @@
   },
   {
     "name": "Chaozu - Resurrected",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P156",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -22676,7 +22676,7 @@
   },
   {
     "name": "Chi-Chi - Armed And Dangerous",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P157",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -22701,7 +22701,7 @@
   },
   {
     "name": "ChiChi - Armed and Dangerous",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U69",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -22726,7 +22726,7 @@
   },
   {
     "name": "Chilled - Cackling Tyrant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U44",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -22751,7 +22751,7 @@
   },
   {
     "name": "Chilled - Familiar Foe",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S52",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22776,7 +22776,7 @@
   },
   {
     "name": "Chilled - Pissed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S54",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22801,7 +22801,7 @@
   },
   {
     "name": "Chilled - Prophet",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S55",
     "Type": "Villain MP",
     "Endurance": "",
@@ -22826,7 +22826,7 @@
   },
   {
     "name": "Chilled - Space Pirate",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S53",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23251,7 +23251,7 @@
   },
   {
     "name": "Cooler - Angered",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U82",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -23276,7 +23276,7 @@
   },
   {
     "name": "Cooler - Angered",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P200",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -23301,7 +23301,7 @@
   },
   {
     "name": "Cooler - Familiar Face",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U69",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23326,7 +23326,7 @@
   },
   {
     "name": "Cooler - Familiar Face",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P140",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23351,7 +23351,7 @@
   },
   {
     "name": "Cooler - Ghastly Apparition",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S55",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23376,7 +23376,7 @@
   },
   {
     "name": "Cooler - Menace",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U71",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23401,7 +23401,7 @@
   },
   {
     "name": "Cooler - Menace",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P142",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23426,7 +23426,7 @@
   },
   {
     "name": "Cooler - Overlord",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U72",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23451,7 +23451,7 @@
   },
   {
     "name": "Cooler - Overlord",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P143",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23476,7 +23476,7 @@
   },
   {
     "name": "Cooler - Transformed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U70",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23501,7 +23501,7 @@
   },
   {
     "name": "Cooler - Transformed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P141",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23651,7 +23651,7 @@
   },
   {
     "name": "Dabura - Devil",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U46",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -23676,7 +23676,7 @@
   },
   {
     "name": "Dabura - Enraged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S97",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23701,7 +23701,7 @@
   },
   {
     "name": "Dabura - Enraged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P12",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23726,7 +23726,7 @@
   },
   {
     "name": "Dabura - Majin Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S96",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23751,7 +23751,7 @@
   },
   {
     "name": "Dabura - Majin Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P11",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23776,7 +23776,7 @@
   },
   {
     "name": "Dabura - Second in Command",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S95",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23801,7 +23801,7 @@
   },
   {
     "name": "Dabura - Second in Command",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P10",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23826,7 +23826,7 @@
   },
   {
     "name": "Dabura - Sinister Presence",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S94",
     "Type": "Villain MP",
     "Endurance": "",
@@ -23851,7 +23851,7 @@
   },
   {
     "name": "Dabura - Sinister Presence",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P9",
     "Type": "Villain MP",
     "Endurance": "",
@@ -24101,7 +24101,7 @@
   },
   {
     "name": "Dende - Alarmed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P28",
     "Type": "Hero MP",
     "Endurance": "",
@@ -24126,7 +24126,7 @@
   },
   {
     "name": "Dende - Earth's Guardian",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U59",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -24151,7 +24151,7 @@
   },
   {
     "name": "Dende - Guardian of Earth",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P27",
     "Type": "Hero MP",
     "Endurance": "",
@@ -24176,7 +24176,7 @@
   },
   {
     "name": "Dende - Protected",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P29",
     "Type": "Hero MP",
     "Endurance": "",
@@ -24201,7 +24201,7 @@
   },
   {
     "name": "Dende - Watcher",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P26",
     "Type": "Hero MP",
     "Endurance": "",
@@ -24476,7 +24476,7 @@
   },
   {
     "name": "Dodoria - Lackey",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C10",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -24501,7 +24501,7 @@
   },
   {
     "name": "Dodoria - Lackey",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P171",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -24526,7 +24526,7 @@
   },
   {
     "name": "Dr. Brief - Analyzing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U73",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -24551,7 +24551,7 @@
   },
   {
     "name": "Dr. Brief - Analyzing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P192",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -24601,7 +24601,7 @@
   },
   {
     "name": "Dr. Wheelo - Big Brain",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P97",
     "Type": "Villain MP",
     "Endurance": "",
@@ -24651,7 +24651,7 @@
   },
   {
     "name": "Dr. Wheelo - Confined",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P99",
     "Type": "Villain MP",
     "Endurance": "",
@@ -24676,7 +24676,7 @@
   },
   {
     "name": "Dr. Wheelo - Intelligent",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C5",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -24701,7 +24701,7 @@
   },
   {
     "name": "Dr. Wheelo - Intelligent",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P180",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -24751,7 +24751,7 @@
   },
   {
     "name": "Dr. Wheelo - Robotic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P100",
     "Type": "Villain MP",
     "Endurance": "",
@@ -24801,7 +24801,7 @@
   },
   {
     "name": "Dr. Wheelo - Scheming",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P98",
     "Type": "Villain MP",
     "Endurance": "",
@@ -24976,7 +24976,7 @@
   },
   {
     "name": "Duplicate Vegeta - Relentless",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U44",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -25026,7 +25026,7 @@
   },
   {
     "name": "Earth Dragon Ball 1",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U061",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -25051,7 +25051,7 @@
   },
   {
     "name": "Earth Dragon Ball 2",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U062",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -25076,7 +25076,7 @@
   },
   {
     "name": "Earth Dragon Ball 3",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U063",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -25101,7 +25101,7 @@
   },
   {
     "name": "Earth Dragon Ball 4",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U064",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -25126,7 +25126,7 @@
   },
   {
     "name": "Earth Dragon Ball 5",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U065",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -25151,7 +25151,7 @@
   },
   {
     "name": "Earth Dragon Ball 6",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U066",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -25176,7 +25176,7 @@
   },
   {
     "name": "Earth Dragon Ball 7",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U067",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -25626,7 +25626,7 @@
   },
   {
     "name": "Frieza - Energized",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S78",
     "Type": "Villain MP",
     "Endurance": "",
@@ -25651,7 +25651,7 @@
   },
   {
     "name": "Frieza - Galactic Conquerer",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P3",
     "Type": "Villain MP",
     "Endurance": "",
@@ -25676,7 +25676,7 @@
   },
   {
     "name": "Frieza - Galatic Conquerer",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S19",
     "Type": "Villain MP",
     "Endurance": "",
@@ -25701,7 +25701,7 @@
   },
   {
     "name": "Frieza - Golden",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P16",
     "Type": "Villain MP",
     "Endurance": "",
@@ -25726,7 +25726,7 @@
   },
   {
     "name": "Frieza - Golden",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P5",
     "Type": "Villain MP",
     "Endurance": "",
@@ -25751,7 +25751,7 @@
   },
   {
     "name": "Frieza - Impressive Force",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S79",
     "Type": "Villain MP",
     "Endurance": "",
@@ -25776,7 +25776,7 @@
   },
   {
     "name": "Frieza - Mastermind",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C11",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -25801,7 +25801,7 @@
   },
   {
     "name": "Frieza - Mastermind",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P172",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -25826,7 +25826,7 @@
   },
   {
     "name": "Frieza - Pragmatic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S77",
     "Type": "Villain MP",
     "Endurance": "",
@@ -25851,7 +25851,7 @@
   },
   {
     "name": "Frieza - Resident of HFIL",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S56",
     "Type": "Villain MP",
     "Endurance": "",
@@ -25876,7 +25876,7 @@
   },
   {
     "name": "Frieza - Resident of HFIL",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P16",
     "Type": "Villain MP",
     "Endurance": "",
@@ -25901,7 +25901,7 @@
   },
   {
     "name": "Frieza - Resident of HIFL",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P9",
     "Type": "Villain MP",
     "Endurance": "",
@@ -25926,7 +25926,7 @@
   },
   {
     "name": "Frieza - Resurrected",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S76",
     "Type": "Villain MP",
     "Endurance": "",
@@ -25951,7 +25951,7 @@
   },
   {
     "name": "Frieza - Revived",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S20",
     "Type": "Villain MP",
     "Endurance": "",
@@ -25976,7 +25976,7 @@
   },
   {
     "name": "Frieza - Revived",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P10",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26001,7 +26001,7 @@
   },
   {
     "name": "Frieza - Revived",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26026,7 +26026,7 @@
   },
   {
     "name": "Frieza - Transformed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S18",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26051,7 +26051,7 @@
   },
   {
     "name": "Frieza - Transformed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P2",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26076,7 +26076,7 @@
   },
   {
     "name": "Frieza - Tyrant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S17",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26101,7 +26101,7 @@
   },
   {
     "name": "Frieza - Tyrant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P13",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26126,7 +26126,7 @@
   },
   {
     "name": "Frieza - Tyrant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26301,7 +26301,7 @@
   },
   {
     "name": "Frost - Charging Form",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S51",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26326,7 +26326,7 @@
   },
   {
     "name": "Frost - Deceptive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S50",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26351,7 +26351,7 @@
   },
   {
     "name": "Frost - Final Form",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S52",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26376,7 +26376,7 @@
   },
   {
     "name": "Frost - Full Tilt",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S53",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26476,7 +26476,7 @@
   },
   {
     "name": "Garlic Jr. - Commanding",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P101",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26501,7 +26501,7 @@
   },
   {
     "name": "Garlic Jr. - Confrontational",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C6",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -26526,7 +26526,7 @@
   },
   {
     "name": "Garlic Jr. - Confrontational",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P181",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -26576,7 +26576,7 @@
   },
   {
     "name": "Garlic Jr. - Crazed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P102",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26626,7 +26626,7 @@
   },
   {
     "name": "Garlic Jr. - Observant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P103",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26676,7 +26676,7 @@
   },
   {
     "name": "Garlic Jr. - Transformed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P104",
     "Type": "Villain MP",
     "Endurance": "",
@@ -26751,7 +26751,7 @@
   },
   {
     "name": "Gohan - A New Hope",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S41",
     "Type": "Hero MP",
     "Endurance": "",
@@ -26776,7 +26776,7 @@
   },
   {
     "name": "Gohan - A New Hope",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Hero MP",
     "Endurance": "",
@@ -26801,7 +26801,7 @@
   },
   {
     "name": "Gohan - A New Hope",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Hero MP",
     "Endurance": "",
@@ -26826,7 +26826,7 @@
   },
   {
     "name": "Gohan - Adept",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR16",
     "Type": "Hero MP",
     "Endurance": "",
@@ -26851,7 +26851,7 @@
   },
   {
     "name": "Gohan - Adept",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P59",
     "Type": "Hero MP",
     "Endurance": "",
@@ -26876,7 +26876,7 @@
   },
   {
     "name": "Gohan - Armored",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S12",
     "Type": "Hero MP",
     "Endurance": "",
@@ -26901,7 +26901,7 @@
   },
   {
     "name": "Gohan - Armored",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P9",
     "Type": "Hero MP",
     "Endurance": "",
@@ -26926,7 +26926,7 @@
   },
   {
     "name": "Gohan - Cheerful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S81",
     "Type": "Hero MP",
     "Endurance": "",
@@ -26951,7 +26951,7 @@
   },
   {
     "name": "Gohan - Defiant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S83",
     "Type": "Hero MP",
     "Endurance": "",
@@ -26976,7 +26976,7 @@
   },
   {
     "name": "Gohan - Determined",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S11",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27001,7 +27001,7 @@
   },
   {
     "name": "Gohan - Determined",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P8",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27026,7 +27026,7 @@
   },
   {
     "name": "Gohan - Earth's Defender",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S52",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27051,7 +27051,7 @@
   },
   {
     "name": "Gohan - Earth's Defender",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P8",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27076,7 +27076,7 @@
   },
   {
     "name": "Gohan - Empowered",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S43",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27101,7 +27101,7 @@
   },
   {
     "name": "Gohan - Empowered",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P3",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27126,7 +27126,7 @@
   },
   {
     "name": "Gohan - Empowered",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P3",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27151,7 +27151,7 @@
   },
   {
     "name": "Gohan - Enhanced",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S49",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27176,7 +27176,7 @@
   },
   {
     "name": "Gohan - Enhanced",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P5",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27201,7 +27201,7 @@
   },
   {
     "name": "Gohan - Martyr",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S44",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27226,7 +27226,7 @@
   },
   {
     "name": "Gohan - Martyr",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27251,7 +27251,7 @@
   },
   {
     "name": "Gohan - Martyr",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27276,7 +27276,7 @@
   },
   {
     "name": "Gohan - Mystic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S50",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27301,7 +27301,7 @@
   },
   {
     "name": "Gohan - Mystic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P6",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27326,7 +27326,7 @@
   },
   {
     "name": "Gohan - Resilient Child",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S9",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27351,7 +27351,7 @@
   },
   {
     "name": "Gohan - Resilient Child",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P3",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27376,7 +27376,7 @@
   },
   {
     "name": "Gohan - Resilient Child",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P6",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27401,7 +27401,7 @@
   },
   {
     "name": "Gohan - Rusty",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S82",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27426,7 +27426,7 @@
   },
   {
     "name": "Gohan - Strikes Back",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S42",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27451,7 +27451,7 @@
   },
   {
     "name": "Gohan - Strikes Back",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P2",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27476,7 +27476,7 @@
   },
   {
     "name": "Gohan - Strikes Back",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P2",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27501,7 +27501,7 @@
   },
   {
     "name": "Gohan - Studious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S80",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27526,7 +27526,7 @@
   },
   {
     "name": "Gohan - The Great Saiyaman",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U60",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -27551,7 +27551,7 @@
   },
   {
     "name": "Gohan - To the Rescue",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U73",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27576,7 +27576,7 @@
   },
   {
     "name": "Gohan - To the Rescue",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P144",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27601,7 +27601,7 @@
   },
   {
     "name": "Gohan - Trained",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C12",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -27626,7 +27626,7 @@
   },
   {
     "name": "Gohan - Trained",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P165",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -27651,7 +27651,7 @@
   },
   {
     "name": "Gohan - Ultimate",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S51",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27676,7 +27676,7 @@
   },
   {
     "name": "Gohan - Ultimate",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P7",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27701,7 +27701,7 @@
   },
   {
     "name": "Gohan - Unassuming",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR18",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27726,7 +27726,7 @@
   },
   {
     "name": "Gohan - Unassuming",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P61",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27751,7 +27751,7 @@
   },
   {
     "name": "Gohan - Undeniable",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR19",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27776,7 +27776,7 @@
   },
   {
     "name": "Gohan - Undeniable",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P62",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27801,7 +27801,7 @@
   },
   {
     "name": "Gohan - Unlocked",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR17",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27826,7 +27826,7 @@
   },
   {
     "name": "Gohan - Unlocked",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P60",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27851,7 +27851,7 @@
   },
   {
     "name": "Gohan - Young Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S10",
     "Type": "Hero MP",
     "Endurance": "",
@@ -27876,7 +27876,7 @@
   },
   {
     "name": "Gohan - Young Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P7",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28051,7 +28051,7 @@
   },
   {
     "name": "Goku - Calm",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S8",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28076,7 +28076,7 @@
   },
   {
     "name": "Goku - Calm",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P38",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28101,7 +28101,7 @@
   },
   {
     "name": "Goku - Confident",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P33",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28126,7 +28126,7 @@
   },
   {
     "name": "Goku - Courageous",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR03",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28151,7 +28151,7 @@
   },
   {
     "name": "Goku - Courageous",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P65",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28176,7 +28176,7 @@
   },
   {
     "name": "Goku - Dashing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "UR143",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28201,7 +28201,7 @@
   },
   {
     "name": "Goku - Dashing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S9",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28226,7 +28226,7 @@
   },
   {
     "name": "Goku - Dashing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P39",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28251,7 +28251,7 @@
   },
   {
     "name": "Goku - Determined",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR02",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28276,7 +28276,7 @@
   },
   {
     "name": "Goku - Determined",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P64",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28301,7 +28301,7 @@
   },
   {
     "name": "Goku - Energy Gatherer",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S7",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28326,7 +28326,7 @@
   },
   {
     "name": "Goku - Energy Gatherer",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P12",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28351,7 +28351,7 @@
   },
   {
     "name": "Goku - Farmer",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S84",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28376,7 +28376,7 @@
   },
   {
     "name": "Goku - Godly Aura",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S86",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28401,7 +28401,7 @@
   },
   {
     "name": "Goku - Kaio-Ken Enhanced",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S6",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28426,7 +28426,7 @@
   },
   {
     "name": "Goku - Kaio-Ken Enhanced",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P11",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28451,7 +28451,7 @@
   },
   {
     "name": "Goku - Motivated",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S7",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28476,7 +28476,7 @@
   },
   {
     "name": "Goku - Motivated",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P37",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28501,7 +28501,7 @@
   },
   {
     "name": "Goku - Protector of Earth",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S5",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28526,7 +28526,7 @@
   },
   {
     "name": "Goku - Protector of Earth",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P2",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28551,7 +28551,7 @@
   },
   {
     "name": "Goku - Protector of Earth",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P10",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28576,7 +28576,7 @@
   },
   {
     "name": "Goku - Relaxed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S6",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28601,7 +28601,7 @@
   },
   {
     "name": "Goku - Relaxed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P36",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28626,7 +28626,7 @@
   },
   {
     "name": "Goku - Selfless",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR04",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28651,7 +28651,7 @@
   },
   {
     "name": "Goku - Selfless",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P66",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28676,7 +28676,7 @@
   },
   {
     "name": "Goku - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S8",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28701,7 +28701,7 @@
   },
   {
     "name": "Goku - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P11",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28726,7 +28726,7 @@
   },
   {
     "name": "Goku - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P13",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28751,7 +28751,7 @@
   },
   {
     "name": "Goku - Super Saiyan 3",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S51",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28776,7 +28776,7 @@
   },
   {
     "name": "Goku - Super Saiyan 3",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P9",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28801,7 +28801,7 @@
   },
   {
     "name": "Goku - Super Saiyan Blue",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S87",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28826,7 +28826,7 @@
   },
   {
     "name": "Goku - Super Saiyan God",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P5",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28851,7 +28851,7 @@
   },
   {
     "name": "Goku - Super Saiyan God",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28876,7 +28876,7 @@
   },
   {
     "name": "Goku - Super Saiyan God",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P14",
     "Type": "Hero MP",
     "Endurance": "",
@@ -28901,7 +28901,7 @@
   },
   {
     "name": "Goku - Thoughtful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U69",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -28926,7 +28926,7 @@
   },
   {
     "name": "Goku - Thoughtful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P166",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -28951,7 +28951,7 @@
   },
   {
     "name": "Goku - Thoughtful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P166",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -28976,7 +28976,7 @@
   },
   {
     "name": "Goku - Training",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR01",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29001,7 +29001,7 @@
   },
   {
     "name": "Goku - Training",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P63",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29026,7 +29026,7 @@
   },
   {
     "name": "Goku - Warming Up",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S85",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29051,7 +29051,7 @@
   },
   {
     "name": "Goku Black - Body Snatcher",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S38",
     "Type": "Villain MP",
     "Endurance": "",
@@ -29076,7 +29076,7 @@
   },
   {
     "name": "Goku Black - Divine Might",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S39",
     "Type": "Villain MP",
     "Endurance": "",
@@ -29101,7 +29101,7 @@
   },
   {
     "name": "Goku Black - Mysterious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S37",
     "Type": "Villain MP",
     "Endurance": "",
@@ -29126,7 +29126,7 @@
   },
   {
     "name": "Goku Black - Rose",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S40",
     "Type": "Villain MP",
     "Endurance": "",
@@ -29351,7 +29351,7 @@
   },
   {
     "name": "Goten - Floating",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S71",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29376,7 +29376,7 @@
   },
   {
     "name": "Goten - Floating",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P10",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29401,7 +29401,7 @@
   },
   {
     "name": "Goten - On the Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S72",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29426,7 +29426,7 @@
   },
   {
     "name": "Goten - On the Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P11",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29451,7 +29451,7 @@
   },
   {
     "name": "Goten - Son of Goku",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S70",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29476,7 +29476,7 @@
   },
   {
     "name": "Goten - Son of Goku",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P9",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29501,7 +29501,7 @@
   },
   {
     "name": "Goten - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S73",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29526,7 +29526,7 @@
   },
   {
     "name": "Goten - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P12",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29551,7 +29551,7 @@
   },
   {
     "name": "Goten - Supportive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U39",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -29626,7 +29626,7 @@
   },
   {
     "name": "Gotenks - Bullheaded",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S54",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29651,7 +29651,7 @@
   },
   {
     "name": "Gotenks - Bullheaded",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P10",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29676,7 +29676,7 @@
   },
   {
     "name": "Gotenks - Cocky",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S53",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29701,7 +29701,7 @@
   },
   {
     "name": "Gotenks - Cocky",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P9",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29726,7 +29726,7 @@
   },
   {
     "name": "Gotenks - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S55",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29751,7 +29751,7 @@
   },
   {
     "name": "Gotenks - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P11",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29776,7 +29776,7 @@
   },
   {
     "name": "Gotenks - Super Saiyan 3",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S56",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29801,7 +29801,7 @@
   },
   {
     "name": "Gotenks - Super Saiyan 3",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P12",
     "Type": "Hero MP",
     "Endurance": "",
@@ -29901,7 +29901,7 @@
   },
   {
     "name": "Gregory - Speedy",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U38",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -29926,7 +29926,7 @@
   },
   {
     "name": "Guldo - Ginyu Force",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C10",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -29951,7 +29951,7 @@
   },
   {
     "name": "Guldo - Ginyu Force",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P161",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -29976,7 +29976,7 @@
   },
   {
     "name": "Guru - Great Elder",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P7",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -30051,7 +30051,7 @@
   },
   {
     "name": "Hatchiyack - Vengeful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U41",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -30101,7 +30101,7 @@
   },
   {
     "name": "Hercule - Best Buddy",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U40",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -30126,7 +30126,7 @@
   },
   {
     "name": "Hercule - Champion",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR21",
     "Type": "Hero MP",
     "Endurance": "",
@@ -30151,7 +30151,7 @@
   },
   {
     "name": "Hercule - Champion",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P67",
     "Type": "Hero MP",
     "Endurance": "",
@@ -30176,7 +30176,7 @@
   },
   {
     "name": "Hercule - Guarded",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR23",
     "Type": "Hero MP",
     "Endurance": "",
@@ -30201,7 +30201,7 @@
   },
   {
     "name": "Hercule - Guarded",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P69",
     "Type": "Hero MP",
     "Endurance": "",
@@ -30226,7 +30226,7 @@
   },
   {
     "name": "Hercule - In Action",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR24",
     "Type": "Hero MP",
     "Endurance": "",
@@ -30251,7 +30251,7 @@
   },
   {
     "name": "Hercule - In Action",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P70",
     "Type": "Hero MP",
     "Endurance": "",
@@ -30276,7 +30276,7 @@
   },
   {
     "name": "Hercule - Posing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR22",
     "Type": "Hero MP",
     "Endurance": "",
@@ -30301,7 +30301,7 @@
   },
   {
     "name": "Hercule - Posing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P68",
     "Type": "Hero MP",
     "Endurance": "",
@@ -30326,7 +30326,7 @@
   },
   {
     "name": "Hercule - The World Champ",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S98",
     "Type": "Hero MP",
     "Endurance": "",
@@ -30776,7 +30776,7 @@
   },
   {
     "name": "Hirudegarn - Lower Half",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S43",
     "Type": "Villain MP",
     "Endurance": "",
@@ -30801,7 +30801,7 @@
   },
   {
     "name": "Hirudegarn - On the Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S46",
     "Type": "Villain MP",
     "Endurance": "",
@@ -30826,7 +30826,7 @@
   },
   {
     "name": "Hirudegarn - The Forbidden One",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S45",
     "Type": "Villain MP",
     "Endurance": "",
@@ -30851,7 +30851,7 @@
   },
   {
     "name": "Hirudegarn - Upper Half",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S44",
     "Type": "Villain MP",
     "Endurance": "",
@@ -30926,7 +30926,7 @@
   },
   {
     "name": "Hit - Ace of Universe 6",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S56",
     "Type": "Villain MP",
     "Endurance": "",
@@ -30951,7 +30951,7 @@
   },
   {
     "name": "Hit - Assassin",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S55",
     "Type": "Villain MP",
     "Endurance": "",
@@ -30976,7 +30976,7 @@
   },
   {
     "name": "Hit - Impressive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S57",
     "Type": "Villain MP",
     "Endurance": "",
@@ -31001,7 +31001,7 @@
   },
   {
     "name": "Hit - Mysterious Opponent",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S54",
     "Type": "Villain MP",
     "Endurance": "",
@@ -31076,7 +31076,7 @@
   },
   {
     "name": "Hoi - Wizard",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U42",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -31201,7 +31201,7 @@
   },
   {
     "name": "Icarus - Supportive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U77",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -31226,7 +31226,7 @@
   },
   {
     "name": "Icarus - Supportive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P175",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -31426,7 +31426,7 @@
   },
   {
     "name": "Jaco - Galactic Patrolman",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U61",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -31451,7 +31451,7 @@
   },
   {
     "name": "Janemba - Embodiment of Evil",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S50",
     "Type": "Villain MP",
     "Endurance": "",
@@ -31476,7 +31476,7 @@
   },
   {
     "name": "Janemba - Embodiment of Evil",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P8",
     "Type": "Villain MP",
     "Endurance": "",
@@ -31501,7 +31501,7 @@
   },
   {
     "name": "Janemba - Rotund",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S48",
     "Type": "Villain MP",
     "Endurance": "",
@@ -31526,7 +31526,7 @@
   },
   {
     "name": "Janemba - Rotund",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P6",
     "Type": "Villain MP",
     "Endurance": "",
@@ -31551,7 +31551,7 @@
   },
   {
     "name": "Janemba - Taking Over",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S47",
     "Type": "Villain MP",
     "Endurance": "",
@@ -31576,7 +31576,7 @@
   },
   {
     "name": "Janemba - Taking Over",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P5",
     "Type": "Villain MP",
     "Endurance": "",
@@ -31601,7 +31601,7 @@
   },
   {
     "name": "Janemba - Vicious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S49",
     "Type": "Villain MP",
     "Endurance": "",
@@ -31626,7 +31626,7 @@
   },
   {
     "name": "Janemba - Vicious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P7",
     "Type": "Villain MP",
     "Endurance": "",
@@ -31726,7 +31726,7 @@
   },
   {
     "name": "Jeice - Ginyu Force",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P162",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -31751,7 +31751,7 @@
   },
   {
     "name": "Jiece - Ginyu Force",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U72",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -31776,7 +31776,7 @@
   },
   {
     "name": "Jimmy Firecracker - Inquisitive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U080",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -31801,7 +31801,7 @@
   },
   {
     "name": "Jimmy Firecracker - Inquisitive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P205",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -31826,7 +31826,7 @@
   },
   {
     "name": "Kami - Earths Guardian",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S56",
     "Type": "Hero MP",
     "Endurance": "",
@@ -31851,7 +31851,7 @@
   },
   {
     "name": "Kami - Fighting Spirit",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S58",
     "Type": "Hero MP",
     "Endurance": "",
@@ -31876,7 +31876,7 @@
   },
   {
     "name": "Kami - Guardian",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C1",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -31901,7 +31901,7 @@
   },
   {
     "name": "Kami - Guardian",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P176",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -31926,7 +31926,7 @@
   },
   {
     "name": "Kami - Overseer",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S59",
     "Type": "Hero MP",
     "Endurance": "",
@@ -31951,7 +31951,7 @@
   },
   {
     "name": "Kami - Prepared",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S57",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32026,7 +32026,7 @@
   },
   {
     "name": "Kibito - Assistant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U61",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -32051,7 +32051,7 @@
   },
   {
     "name": "Kid Trunks - Competitive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S76",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32076,7 +32076,7 @@
   },
   {
     "name": "Kid Trunks - Dashing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S75",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32101,7 +32101,7 @@
   },
   {
     "name": "Kid Trunks - Mocking",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U40",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -32126,7 +32126,7 @@
   },
   {
     "name": "Kid Trunks - Son of Vegeta",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S74",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32151,7 +32151,7 @@
   },
   {
     "name": "Kid Trunks - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S77",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32226,7 +32226,7 @@
   },
   {
     "name": "King Cold - Caught Off Guard",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U40",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -32251,7 +32251,7 @@
   },
   {
     "name": "King Cold - Caught Off Guard",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P16",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -32276,7 +32276,7 @@
   },
   {
     "name": "King Kai - Coach",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U62",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -32301,7 +32301,7 @@
   },
   {
     "name": "King Kai - Joyful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S46",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32326,7 +32326,7 @@
   },
   {
     "name": "King Kai - Joyful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P6",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32351,7 +32351,7 @@
   },
   {
     "name": "King Kai - Mentor",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S45",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32376,7 +32376,7 @@
   },
   {
     "name": "King Kai - Mentor",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P5",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32401,7 +32401,7 @@
   },
   {
     "name": "King Kai - North Kai",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S48",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32426,7 +32426,7 @@
   },
   {
     "name": "King Kai - North Kai",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P8",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32451,7 +32451,7 @@
   },
   {
     "name": "King Kai - On the Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S47",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32476,7 +32476,7 @@
   },
   {
     "name": "King Kai - On the Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P7",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32576,7 +32576,7 @@
   },
   {
     "name": "King Vegeta - Ruler",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U45",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -32601,7 +32601,7 @@
   },
   {
     "name": "King Yemma - Arbiter of Fate",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U41",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -32651,7 +32651,7 @@
   },
   {
     "name": "Korin - Watching From Afar",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U94",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -32676,7 +32676,7 @@
   },
   {
     "name": "Korin - Watching From Afar",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P184",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -32701,7 +32701,7 @@
   },
   {
     "name": "Krillin - Back in Action",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S91",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32726,7 +32726,7 @@
   },
   {
     "name": "Krillin - Energetic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S14",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32751,7 +32751,7 @@
   },
   {
     "name": "Krillin - Energetic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P16",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32776,7 +32776,7 @@
   },
   {
     "name": "Krillin - Enraged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S16",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32801,7 +32801,7 @@
   },
   {
     "name": "Krillin - Enraged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P18",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32826,7 +32826,7 @@
   },
   {
     "name": "Krillin - Family Man",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S88",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32851,7 +32851,7 @@
   },
   {
     "name": "Krillin - Happy",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S89",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32876,7 +32876,7 @@
   },
   {
     "name": "Krillin - In Training",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S79",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32901,7 +32901,7 @@
   },
   {
     "name": "Krillin - In Training",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P11",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32926,7 +32926,7 @@
   },
   {
     "name": "Krillin - In Training",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P12",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32951,7 +32951,7 @@
   },
   {
     "name": "Krillin - Lawman",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S90",
     "Type": "Hero MP",
     "Endurance": "",
@@ -32976,7 +32976,7 @@
   },
   {
     "name": "Krillin - Protective",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U62",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -33001,7 +33001,7 @@
   },
   {
     "name": "Krillin - Quick",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U74",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33026,7 +33026,7 @@
   },
   {
     "name": "Krillin - Ready",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S13",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33051,7 +33051,7 @@
   },
   {
     "name": "Krillin - Ready",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P15",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33076,7 +33076,7 @@
   },
   {
     "name": "Krillin - Ready (SDCC)",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33101,7 +33101,7 @@
   },
   {
     "name": "Krillin - Ready (SDCC)",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P19",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33126,7 +33126,7 @@
   },
   {
     "name": "Krillin - Ready for Battle",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S15",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33151,7 +33151,7 @@
   },
   {
     "name": "Krillin - Ready for Battle",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P17",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33176,7 +33176,7 @@
   },
   {
     "name": "Krillin - Settled Down",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S78",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33201,7 +33201,7 @@
   },
   {
     "name": "Krillin - Settled Down",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P10",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33226,7 +33226,7 @@
   },
   {
     "name": "Krillin - Settled Down",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P11",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33251,7 +33251,7 @@
   },
   {
     "name": "Krillin - Supportive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C13",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -33276,7 +33276,7 @@
   },
   {
     "name": "Krillin - Supportive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P167",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -33301,7 +33301,7 @@
   },
   {
     "name": "Krillin - To The Rescue",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U41",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -33326,7 +33326,7 @@
   },
   {
     "name": "Krillin - Victorious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S81",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33351,7 +33351,7 @@
   },
   {
     "name": "Krillin - Victorious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P13",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33376,7 +33376,7 @@
   },
   {
     "name": "Krillin - Victorious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P14",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33401,7 +33401,7 @@
   },
   {
     "name": "Krillin - Z-Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S80",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33426,7 +33426,7 @@
   },
   {
     "name": "Krillin - Z-Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P12",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33451,7 +33451,7 @@
   },
   {
     "name": "Krillin - Z-Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P13",
     "Type": "Hero MP",
     "Endurance": "",
@@ -33676,7 +33676,7 @@
   },
   {
     "name": "Lord Slug - Aged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P105",
     "Type": "Villain MP",
     "Endurance": "",
@@ -33701,7 +33701,7 @@
   },
   {
     "name": "Lord Slug - Amazed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C7",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -33726,7 +33726,7 @@
   },
   {
     "name": "Lord Slug - Amazed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P182",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -33776,7 +33776,7 @@
   },
   {
     "name": "Lord Slug - Huge",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P108",
     "Type": "Villain MP",
     "Endurance": "",
@@ -33801,7 +33801,7 @@
   },
   {
     "name": "Lord Slug - Menacing Presence",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S56",
     "Type": "Villain MP",
     "Endurance": "",
@@ -33851,7 +33851,7 @@
   },
   {
     "name": "Lord Slug - Renewed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P107",
     "Type": "Villain MP",
     "Endurance": "",
@@ -33901,7 +33901,7 @@
   },
   {
     "name": "Lord Slug - Successful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P106",
     "Type": "Villain MP",
     "Endurance": "",
@@ -33976,7 +33976,7 @@
   },
   {
     "name": "Magetta - Metalman",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U45",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -34101,7 +34101,7 @@
   },
   {
     "name": "Maron - Popular",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U95",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -34126,7 +34126,7 @@
   },
   {
     "name": "Maron - Popular",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P185",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -34151,7 +34151,7 @@
   },
   {
     "name": "Master Roshi - Barricade",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U64",
     "Type": "Hero MP",
     "Endurance": "",
@@ -34176,7 +34176,7 @@
   },
   {
     "name": "Master Roshi - Barricade",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P127",
     "Type": "Villain MP",
     "Endurance": "",
@@ -34201,7 +34201,7 @@
   },
   {
     "name": "Master Roshi - Catcher",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U63",
     "Type": "Hero MP",
     "Endurance": "",
@@ -34226,7 +34226,7 @@
   },
   {
     "name": "Master Roshi - Catcher",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P126",
     "Type": "Villain MP",
     "Endurance": "",
@@ -34251,7 +34251,7 @@
   },
   {
     "name": "Master Roshi - Expectant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U61",
     "Type": "Hero MP",
     "Endurance": "",
@@ -34276,7 +34276,7 @@
   },
   {
     "name": "Master Roshi - Expectant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P124",
     "Type": "Villain MP",
     "Endurance": "",
@@ -34301,7 +34301,7 @@
   },
   {
     "name": "Master Roshi - Overwhelmed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U62",
     "Type": "Hero MP",
     "Endurance": "",
@@ -34326,7 +34326,7 @@
   },
   {
     "name": "Master Roshi - Overwhelmed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P125",
     "Type": "Villain MP",
     "Endurance": "",
@@ -34351,7 +34351,7 @@
   },
   {
     "name": "Master Roshi - Restrained",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U75",
     "Type": "Hero MP",
     "Endurance": "",
@@ -34376,7 +34376,7 @@
   },
   {
     "name": "Master Roshi - Restrained",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P145",
     "Type": "Hero MP",
     "Endurance": "",
@@ -34401,7 +34401,7 @@
   },
   {
     "name": "Master Roshi - Scouted",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C2",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -34426,7 +34426,7 @@
   },
   {
     "name": "Master Roshi - Scouted",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P177",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -34526,7 +34526,7 @@
   },
   {
     "name": "Mercenary Tao - Armed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U074",
     "Type": "Villain MP",
     "Endurance": "",
@@ -34551,7 +34551,7 @@
   },
   {
     "name": "Mercenary Tao - Armed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P153",
     "Type": "Villain MP",
     "Endurance": "",
@@ -34576,7 +34576,7 @@
   },
   {
     "name": "Mercenary Tao - Old Foe",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U072",
     "Type": "Villain MP",
     "Endurance": "",
@@ -34601,7 +34601,7 @@
   },
   {
     "name": "Mercenary Tao - Old Foe",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P151",
     "Type": "Villain MP",
     "Endurance": "",
@@ -34626,7 +34626,7 @@
   },
   {
     "name": "Mercenary Tao - Reckless",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U073",
     "Type": "Villain MP",
     "Endurance": "",
@@ -34651,7 +34651,7 @@
   },
   {
     "name": "Mercenary Tao - Reckless",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P152",
     "Type": "Villain MP",
     "Endurance": "",
@@ -34676,7 +34676,7 @@
   },
   {
     "name": "Mercenary Tao - Shielded",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U075",
     "Type": "Villain MP",
     "Endurance": "",
@@ -34701,7 +34701,7 @@
   },
   {
     "name": "Mercenary Tao - Shielded",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P154",
     "Type": "Villain MP",
     "Endurance": "",
@@ -34826,7 +34826,7 @@
   },
   {
     "name": "Mr Announcer - Guy in Shades",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U63",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -34851,7 +34851,7 @@
   },
   {
     "name": "Mr. Popo - Guide",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U74",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -34876,7 +34876,7 @@
   },
   {
     "name": "Mr. Popo - Guide",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P193",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -34901,7 +34901,7 @@
   },
   {
     "name": "Nail - Combat Ready",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U62",
     "Type": "Hero MP",
     "Endurance": "",
@@ -34926,7 +34926,7 @@
   },
   {
     "name": "Nail - Combat Ready",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P85",
     "Type": "Hero MP",
     "Endurance": "",
@@ -34951,7 +34951,7 @@
   },
   {
     "name": "Nail - Protector",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C2",
     "Type": "Hero MP",
     "Endurance": "",
@@ -34976,7 +34976,7 @@
   },
   {
     "name": "Nail - Protector",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P83",
     "Type": "Hero MP",
     "Endurance": "",
@@ -35001,7 +35001,7 @@
   },
   {
     "name": "Nail - Unflinching",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U61",
     "Type": "Hero MP",
     "Endurance": "",
@@ -35026,7 +35026,7 @@
   },
   {
     "name": "Nail - Unflinching",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P84",
     "Type": "Hero MP",
     "Endurance": "",
@@ -35051,7 +35051,7 @@
   },
   {
     "name": "Nail - Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P13",
     "Type": "Hero MP",
     "Endurance": "",
@@ -35076,7 +35076,7 @@
   },
   {
     "name": "Nail - Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P9",
     "Type": "Hero MP",
     "Endurance": "",
@@ -35101,7 +35101,7 @@
   },
   {
     "name": "Nail - Watchful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C1",
     "Type": "Hero MP",
     "Endurance": "",
@@ -35176,7 +35176,7 @@
   },
   {
     "name": "Namek Dragon Ball 1",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "C1",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35201,7 +35201,7 @@
   },
   {
     "name": "Namek Dragon Ball 1",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "P40",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35226,7 +35226,7 @@
   },
   {
     "name": "Namek Dragon Ball 2",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "C2",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35251,7 +35251,7 @@
   },
   {
     "name": "Namek Dragon Ball 2",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "P41",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35276,7 +35276,7 @@
   },
   {
     "name": "Namek Dragon Ball 3",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "C3",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35301,7 +35301,7 @@
   },
   {
     "name": "Namek Dragon Ball 3",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "P42",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35326,7 +35326,7 @@
   },
   {
     "name": "Namek Dragon Ball 4",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U61",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35351,7 +35351,7 @@
   },
   {
     "name": "Namek Dragon Ball 4",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "P43",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35376,7 +35376,7 @@
   },
   {
     "name": "Namek Dragon Ball 5",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U62",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35401,7 +35401,7 @@
   },
   {
     "name": "Namek Dragon Ball 5",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "P44",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35426,7 +35426,7 @@
   },
   {
     "name": "Namek Dragon Ball 6",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U63",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35476,7 +35476,7 @@
   },
   {
     "name": "Namek Dragon Ball 6",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "P45",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35501,7 +35501,7 @@
   },
   {
     "name": "Namek Dragon Ball 7",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "R121",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -35526,7 +35526,7 @@
   },
   {
     "name": "Namek Dragon Ball 7",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "P46",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -42576,7 +42576,7 @@
   },
   {
     "name": "Nappa - Enraged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U64",
     "Type": "Villain MP",
     "Endurance": "",
@@ -42601,7 +42601,7 @@
   },
   {
     "name": "Nappa - Enraged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P88",
     "Type": "Villain MP",
     "Endurance": "",
@@ -42626,7 +42626,7 @@
   },
   {
     "name": "Nappa - Overconfident",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U63",
     "Type": "Villain MP",
     "Endurance": "",
@@ -42651,7 +42651,7 @@
   },
   {
     "name": "Nappa - Overconfident",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P87",
     "Type": "Villain MP",
     "Endurance": "",
@@ -42676,7 +42676,7 @@
   },
   {
     "name": "Nappa - Rested",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C3",
     "Type": "Villain MP",
     "Endurance": "",
@@ -42701,7 +42701,7 @@
   },
   {
     "name": "Nappa - Rested",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P86",
     "Type": "Villain MP",
     "Endurance": "",
@@ -42726,7 +42726,7 @@
   },
   {
     "name": "Nappa - Smirking",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C4",
     "Type": "Villain MP",
     "Endurance": "",
@@ -42751,7 +42751,7 @@
   },
   {
     "name": "Nappa - Space Traveler",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C12",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -42776,7 +42776,7 @@
   },
   {
     "name": "Nappa - Space Traveler",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P163",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -42801,7 +42801,7 @@
   },
   {
     "name": "Nappa - Supportive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S60",
     "Type": "Villain MP",
     "Endurance": "",
@@ -42826,7 +42826,7 @@
   },
   {
     "name": "Nappa - Supportive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P14",
     "Type": "Villain MP",
     "Endurance": "",
@@ -42926,7 +42926,7 @@
   },
   {
     "name": "Olibu - Legendary",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U39",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -43001,7 +43001,7 @@
   },
   {
     "name": "Oolong - Concerned",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C3",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -43026,7 +43026,7 @@
   },
   {
     "name": "Oolong - Concerned",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P178",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -50551,7 +50551,7 @@
   },
   {
     "name": "Ox King - Joyful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U63",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -50576,7 +50576,7 @@
   },
   {
     "name": "Ox King - Naming Genius",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U081",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -50601,7 +50601,7 @@
   },
   {
     "name": "Ox King - Naming Genius",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P206",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -50626,7 +50626,7 @@
   },
   {
     "name": "Paragus - Desperate Father",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U83",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -50651,7 +50651,7 @@
   },
   {
     "name": "Paragus - Desperate Father",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P201",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -50701,7 +50701,7 @@
   },
   {
     "name": "Piccolo - Anticipating",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S12",
     "Type": "Hero MP",
     "Endurance": "",
@@ -50726,7 +50726,7 @@
   },
   {
     "name": "Piccolo - Anticipating",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P41",
     "Type": "Hero MP",
     "Endurance": "",
@@ -50751,7 +50751,7 @@
   },
   {
     "name": "Piccolo - Charged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S94",
     "Type": "Hero MP",
     "Endurance": "",
@@ -50776,7 +50776,7 @@
   },
   {
     "name": "Piccolo - Combat Stance",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S22",
     "Type": "Hero MP",
     "Endurance": "",
@@ -50801,7 +50801,7 @@
   },
   {
     "name": "Piccolo - Combat Stance",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P21",
     "Type": "Hero MP",
     "Endurance": "",
@@ -50826,7 +50826,7 @@
   },
   {
     "name": "Piccolo - Composed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S11",
     "Type": "Hero MP",
     "Endurance": "",
@@ -50851,7 +50851,7 @@
   },
   {
     "name": "Piccolo - Composed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P40",
     "Type": "Hero MP",
     "Endurance": "",
@@ -50876,7 +50876,7 @@
   },
   {
     "name": "Piccolo - Confident",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S92",
     "Type": "Hero MP",
     "Endurance": "",
@@ -50901,7 +50901,7 @@
   },
   {
     "name": "Piccolo - Ferocious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S13",
     "Type": "Hero MP",
     "Endurance": "",
@@ -50926,7 +50926,7 @@
   },
   {
     "name": "Piccolo - Ferocious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P42",
     "Type": "Hero MP",
     "Endurance": "",
@@ -50951,7 +50951,7 @@
   },
   {
     "name": "Piccolo - Fierce Combatant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S84",
     "Type": "Hero MP",
     "Endurance": "",
@@ -50976,7 +50976,7 @@
   },
   {
     "name": "Piccolo - Fighting Spirit",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S95",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51001,7 +51001,7 @@
   },
   {
     "name": "Piccolo - Fused",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S24",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51026,7 +51026,7 @@
   },
   {
     "name": "Piccolo - Fused",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P23",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51051,7 +51051,7 @@
   },
   {
     "name": "Piccolo - Majunior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S83",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51076,7 +51076,7 @@
   },
   {
     "name": "Piccolo - Meditative",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S82",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51101,7 +51101,7 @@
   },
   {
     "name": "Piccolo - On Guard",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S93",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51126,7 +51126,7 @@
   },
   {
     "name": "Piccolo - Revitalized",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S14",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51151,7 +51151,7 @@
   },
   {
     "name": "Piccolo - Revitalized",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P43",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51176,7 +51176,7 @@
   },
   {
     "name": "Piccolo - Stoic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S21",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51201,7 +51201,7 @@
   },
   {
     "name": "Piccolo - Stoic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P6",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51226,7 +51226,7 @@
   },
   {
     "name": "Piccolo - Stoic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P20",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51251,7 +51251,7 @@
   },
   {
     "name": "Piccolo - Unleashed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S23",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51276,7 +51276,7 @@
   },
   {
     "name": "Piccolo - Unleashed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P22",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51301,7 +51301,7 @@
   },
   {
     "name": "Piccolo - Waiting",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U70",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -51326,7 +51326,7 @@
   },
   {
     "name": "Piccolo - Waiting",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P168",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -51351,7 +51351,7 @@
   },
   {
     "name": "Piccolo - Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S85",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51551,7 +51551,7 @@
   },
   {
     "name": "Pikkon - Fighting Stance",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S51",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51576,7 +51576,7 @@
   },
   {
     "name": "Pikkon - Fighting Stance",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P11",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51601,7 +51601,7 @@
   },
   {
     "name": "Pikkon - Fighting Stance",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P10",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51626,7 +51626,7 @@
   },
   {
     "name": "Pikkon - Hero of the West",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S49",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51651,7 +51651,7 @@
   },
   {
     "name": "Pikkon - Hero of the West",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P9",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51676,7 +51676,7 @@
   },
   {
     "name": "Pikkon - Hero of the West",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P9",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51701,7 +51701,7 @@
   },
   {
     "name": "Pikkon - New Rival",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S50",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51726,7 +51726,7 @@
   },
   {
     "name": "Pikkon - New Rival",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P10",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51751,7 +51751,7 @@
   },
   {
     "name": "Pikkon - Prized Fighter",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S52",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51776,7 +51776,7 @@
   },
   {
     "name": "Pikkon - Prized Fighter",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P12",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51801,7 +51801,7 @@
   },
   {
     "name": "Pikkon - Prized Fighter",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P11",
     "Type": "Hero MP",
     "Endurance": "",
@@ -51826,7 +51826,7 @@
   },
   {
     "name": "Pikkon - Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S57",
     "Type": "Hero MP",
     "Endurance": "",
@@ -52051,7 +52051,7 @@
   },
   {
     "name": "Porunga - Dragon of Namek",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "UR42",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -52126,7 +52126,7 @@
   },
   {
     "name": "Puar - Cheerful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U082",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -52151,7 +52151,7 @@
   },
   {
     "name": "Puar - Cheerful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P207",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -52176,7 +52176,7 @@
   },
   {
     "name": "Pui Pui - Cocky",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U47",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -52351,7 +52351,7 @@
   },
   {
     "name": "Raditz - Angered",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U65",
     "Type": "Villain MP",
     "Endurance": "",
@@ -52376,7 +52376,7 @@
   },
   {
     "name": "Raditz - Angered",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P91",
     "Type": "Villain MP",
     "Endurance": "",
@@ -52401,7 +52401,7 @@
   },
   {
     "name": "Raditz - Brutal",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P35",
     "Type": "Villain MP",
     "Endurance": "",
@@ -52426,7 +52426,7 @@
   },
   {
     "name": "Raditz - Confident",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C6",
     "Type": "Villain MP",
     "Endurance": "",
@@ -52451,7 +52451,7 @@
   },
   {
     "name": "Raditz - Confident",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P90",
     "Type": "Villain MP",
     "Endurance": "",
@@ -52476,7 +52476,7 @@
   },
   {
     "name": "Raditz - Cunning",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P34",
     "Type": "Villain MP",
     "Endurance": "",
@@ -52501,7 +52501,7 @@
   },
   {
     "name": "Raditz - Entangled",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P37",
     "Type": "Villain MP",
     "Endurance": "",
@@ -52526,7 +52526,7 @@
   },
   {
     "name": "Raditz - Injured",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P36",
     "Type": "Villain MP",
     "Endurance": "",
@@ -52551,7 +52551,7 @@
   },
   {
     "name": "Raditz - Proud",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P8",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -52576,7 +52576,7 @@
   },
   {
     "name": "Raditz - Triumphant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U66",
     "Type": "Villain MP",
     "Endurance": "",
@@ -52601,7 +52601,7 @@
   },
   {
     "name": "Raditz - Triumphant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P92",
     "Type": "Villain MP",
     "Endurance": "",
@@ -52626,7 +52626,7 @@
   },
   {
     "name": "Raditz - True Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C5",
     "Type": "Villain MP",
     "Endurance": "",
@@ -52651,7 +52651,7 @@
   },
   {
     "name": "Raditz - True Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P89",
     "Type": "Villain MP",
     "Endurance": "",
@@ -52826,7 +52826,7 @@
   },
   {
     "name": "Recoome - Ginyu Force",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C11",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -52851,7 +52851,7 @@
   },
   {
     "name": "Recoome - Ginyu Force",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P164",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -60551,7 +60551,7 @@
   },
   {
     "name": "Saibamen - Little Green Ghouls",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U46",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -68026,7 +68026,7 @@
   },
   {
     "name": "Salza - Henchman",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U84",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -68051,7 +68051,7 @@
   },
   {
     "name": "Salza - Henchman",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P202",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -68076,7 +68076,7 @@
   },
   {
     "name": "Scheming Ghost - Full-Roaming Vapor",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U42",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -68101,7 +68101,7 @@
   },
   {
     "name": "Shenron - Eternal Dragon",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "UR64",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -68126,7 +68126,7 @@
   },
   {
     "name": "Shisami - Enforcer",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U64",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -68501,7 +68501,7 @@
   },
   {
     "name": "Sorbet - Commander",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U65",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -68526,7 +68526,7 @@
   },
   {
     "name": "Spooky Ghost - Wild Card",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U43",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -68551,7 +68551,7 @@
   },
   {
     "name": "Spopovich - Enhanced",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U48",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -68801,7 +68801,7 @@
   },
   {
     "name": "Super Dragon Ball 1",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U54",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -68826,7 +68826,7 @@
   },
   {
     "name": "Super Dragon Ball 2",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U55",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -68851,7 +68851,7 @@
   },
   {
     "name": "Super Dragon Ball 3",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U56",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -68876,7 +68876,7 @@
   },
   {
     "name": "Super Dragon Ball 4",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U57",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -68901,7 +68901,7 @@
   },
   {
     "name": "Super Dragon Ball 5",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U58",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -68926,7 +68926,7 @@
   },
   {
     "name": "Super Dragon Ball 6",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U59",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -68951,7 +68951,7 @@
   },
   {
     "name": "Super Dragon Ball 7",
-    "Style": "Dragon Ball",
+    "Style": "",
     "Card Number": "U60",
     "Type": "Dragon Ball",
     "Endurance": "",
@@ -68976,7 +68976,7 @@
   },
   {
     "name": "Super Shenron - Dragon God",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P25",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -69051,7 +69051,7 @@
   },
   {
     "name": "Supreme Kai - Combatant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S89",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69076,7 +69076,7 @@
   },
   {
     "name": "Supreme Kai - Combatant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P8",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69101,7 +69101,7 @@
   },
   {
     "name": "Supreme Kai - Mysterious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S86",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69126,7 +69126,7 @@
   },
   {
     "name": "Supreme Kai - Mysterious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P5",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69151,7 +69151,7 @@
   },
   {
     "name": "Supreme Kai - Ready for Battle",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S88",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69176,7 +69176,7 @@
   },
   {
     "name": "Supreme Kai - Ready for Battle",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P7",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69201,7 +69201,7 @@
   },
   {
     "name": "Supreme Kai - Shin",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S87",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69226,7 +69226,7 @@
   },
   {
     "name": "Supreme Kai - Shin",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P6",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69351,7 +69351,7 @@
   },
   {
     "name": "Tagoma - Tough as Nails",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U66",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -69376,7 +69376,7 @@
   },
   {
     "name": "Tapion - Konatsian Knight",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S52",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69401,7 +69401,7 @@
   },
   {
     "name": "Tapion - Konatsian Knight",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P2",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69426,7 +69426,7 @@
   },
   {
     "name": "Tapion - Legendary Hero",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S54",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69451,7 +69451,7 @@
   },
   {
     "name": "Tapion - Legendary Hero",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69476,7 +69476,7 @@
   },
   {
     "name": "Tapion - Mysterious Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S51",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69501,7 +69501,7 @@
   },
   {
     "name": "Tapion - Mysterious Warrior",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69526,7 +69526,7 @@
   },
   {
     "name": "Tapion - Swordsman",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S53",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69551,7 +69551,7 @@
   },
   {
     "name": "Tapion - Swordsman",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P3",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69626,7 +69626,7 @@
   },
   {
     "name": "Team Bojack - Gathered",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U43",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -69651,7 +69651,7 @@
   },
   {
     "name": "Tenshinhan - Heroic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S52",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69676,7 +69676,7 @@
   },
   {
     "name": "Tenshinhan - Patient",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C7",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69701,7 +69701,7 @@
   },
   {
     "name": "Tenshinhan - Patient",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P93",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69726,7 +69726,7 @@
   },
   {
     "name": "Tenshinhan - Prepared",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U67",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69751,7 +69751,7 @@
   },
   {
     "name": "Tenshinhan - Prepared",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P95",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69776,7 +69776,7 @@
   },
   {
     "name": "Tenshinhan - Relaxed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S52",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69801,7 +69801,7 @@
   },
   {
     "name": "Tenshinhan - Returned",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C9",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -69826,7 +69826,7 @@
   },
   {
     "name": "Tenshinhan - Returned",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S60",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -69851,7 +69851,7 @@
   },
   {
     "name": "Tenshinhan - Returned",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P158",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -69876,7 +69876,7 @@
   },
   {
     "name": "Tenshinhan - Smug",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U68",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69901,7 +69901,7 @@
   },
   {
     "name": "Tenshinhan - Smug",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P96",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69926,7 +69926,7 @@
   },
   {
     "name": "Tenshinhan - Stubborn",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C8",
     "Type": "Hero MP",
     "Endurance": "",
@@ -69951,7 +69951,7 @@
   },
   {
     "name": "Tenshinhan - Stubborn",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P94",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70301,7 +70301,7 @@
   },
   {
     "name": "Tora - Second in Command",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U47",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -70426,7 +70426,7 @@
   },
   {
     "name": "Trickster Ghost - On the Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U44",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -70476,7 +70476,7 @@
   },
   {
     "name": "Trunks - Bashful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U71",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -70501,7 +70501,7 @@
   },
   {
     "name": "Trunks - Bashful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -70526,7 +70526,7 @@
   },
   {
     "name": "Trunks - Bashful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P169",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -70551,7 +70551,7 @@
   },
   {
     "name": "Trunks - Bold",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR28",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70576,7 +70576,7 @@
   },
   {
     "name": "Trunks - Bold",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P73",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70601,7 +70601,7 @@
   },
   {
     "name": "Trunks - Dashing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR26",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70626,7 +70626,7 @@
   },
   {
     "name": "Trunks - Dashing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70651,7 +70651,7 @@
   },
   {
     "name": "Trunks - Dashing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P71",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70676,7 +70676,7 @@
   },
   {
     "name": "Trunks - Defiant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S3",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70701,7 +70701,7 @@
   },
   {
     "name": "Trunks - Defiant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70726,7 +70726,7 @@
   },
   {
     "name": "Trunks - Defiant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P46",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70751,7 +70751,7 @@
   },
   {
     "name": "Trunks - Desperate",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S43",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70776,7 +70776,7 @@
   },
   {
     "name": "Trunks - Energy Charged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U64",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70801,7 +70801,7 @@
   },
   {
     "name": "Trunks - Energy Charged",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P213",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70826,7 +70826,7 @@
   },
   {
     "name": "Trunks - Frenzied",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR27",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70851,7 +70851,7 @@
   },
   {
     "name": "Trunks - Frenzied",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P72",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70876,7 +70876,7 @@
   },
   {
     "name": "Trunks - Inquisitive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C4",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70901,7 +70901,7 @@
   },
   {
     "name": "Trunks - Inquisitive",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P211",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70926,7 +70926,7 @@
   },
   {
     "name": "Trunks - Last Hope",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S41",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70951,7 +70951,7 @@
   },
   {
     "name": "Trunks - Overpowering",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S4",
     "Type": "Hero MP",
     "Endurance": "",
@@ -70976,7 +70976,7 @@
   },
   {
     "name": "Trunks - Overpowering",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P47",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71001,7 +71001,7 @@
   },
   {
     "name": "Trunks - Overwhelming",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR29",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71026,7 +71026,7 @@
   },
   {
     "name": "Trunks - Overwhelming",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P74",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71051,7 +71051,7 @@
   },
   {
     "name": "Trunks - Powerful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S42",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71076,7 +71076,7 @@
   },
   {
     "name": "Trunks - Protective",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U76",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71101,7 +71101,7 @@
   },
   {
     "name": "Trunks - Protective",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P146",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71126,7 +71126,7 @@
   },
   {
     "name": "Trunks - Resolved",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C5",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71151,7 +71151,7 @@
   },
   {
     "name": "Trunks - Resolved",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P212",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71176,7 +71176,7 @@
   },
   {
     "name": "Trunks - Returned",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S1",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71201,7 +71201,7 @@
   },
   {
     "name": "Trunks - Returned",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P44",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71226,7 +71226,7 @@
   },
   {
     "name": "Trunks - Super Saiyan Rage",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S44",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71251,7 +71251,7 @@
   },
   {
     "name": "Trunks - Swordmaster",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S2",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71276,7 +71276,7 @@
   },
   {
     "name": "Trunks - Swordmaster",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P45",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71301,7 +71301,7 @@
   },
   {
     "name": "Trunks - Young Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U65",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71326,7 +71326,7 @@
   },
   {
     "name": "Trunks - Young Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P214",
     "Type": "Hero MP",
     "Endurance": "",
@@ -71651,7 +71651,7 @@
   },
   {
     "name": "Turles - Conquering",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P112",
     "Type": "Villain MP",
     "Endurance": "",
@@ -71676,7 +71676,7 @@
   },
   {
     "name": "Turles - Fighter",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C8",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -71701,7 +71701,7 @@
   },
   {
     "name": "Turles - Fighter",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P183",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -71726,7 +71726,7 @@
   },
   {
     "name": "Turles - Shadow of the Past",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S58",
     "Type": "Villain MP",
     "Endurance": "",
@@ -71776,7 +71776,7 @@
   },
   {
     "name": "Turles - Shadowy",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P109",
     "Type": "Villain MP",
     "Endurance": "",
@@ -71826,7 +71826,7 @@
   },
   {
     "name": "Turles - Triumphant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P111",
     "Type": "Villain MP",
     "Endurance": "",
@@ -71876,7 +71876,7 @@
   },
   {
     "name": "Turles - Watchful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P110",
     "Type": "Villain MP",
     "Endurance": "",
@@ -71951,7 +71951,7 @@
   },
   {
     "name": "Turtle - Protective",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U96",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -71976,7 +71976,7 @@
   },
   {
     "name": "Turtle - Protective",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P186",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -72151,7 +72151,7 @@
   },
   {
     "name": "Vegeta - Aggravated",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S96",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72176,7 +72176,7 @@
   },
   {
     "name": "Vegeta - Aggravated",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P5",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72201,7 +72201,7 @@
   },
   {
     "name": "Vegeta - Calculating",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S16",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72226,7 +72226,7 @@
   },
   {
     "name": "Vegeta - Calculating",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P48",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72251,7 +72251,7 @@
   },
   {
     "name": "Vegeta - Content",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "UR65",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -72276,7 +72276,7 @@
   },
   {
     "name": "Vegeta - Elite",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "UR144",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72301,7 +72301,7 @@
   },
   {
     "name": "Vegeta - Elite",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S19",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72326,7 +72326,7 @@
   },
   {
     "name": "Vegeta - Elite",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P51",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72351,7 +72351,7 @@
   },
   {
     "name": "Vegeta - Empowered",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S3",
     "Type": "Villain MP",
     "Endurance": "",
@@ -72376,7 +72376,7 @@
   },
   {
     "name": "Vegeta - Empowered",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P26",
     "Type": "Villain MP",
     "Endurance": "",
@@ -72401,7 +72401,7 @@
   },
   {
     "name": "Vegeta - Energized",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR08",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72426,7 +72426,7 @@
   },
   {
     "name": "Vegeta - Energized",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P77",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72451,7 +72451,7 @@
   },
   {
     "name": "Vegeta - Experienced",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR06",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72476,7 +72476,7 @@
   },
   {
     "name": "Vegeta - Experienced",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P75",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72501,7 +72501,7 @@
   },
   {
     "name": "Vegeta - Impatient",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U72",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -72526,7 +72526,7 @@
   },
   {
     "name": "Vegeta - Impatient",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P173",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -72551,7 +72551,7 @@
   },
   {
     "name": "Vegeta - Imposing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR07",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72576,7 +72576,7 @@
   },
   {
     "name": "Vegeta - Imposing",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P76",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72601,7 +72601,7 @@
   },
   {
     "name": "Vegeta - Malicious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S60",
     "Type": "Villain MP",
     "Endurance": "",
@@ -72626,7 +72626,7 @@
   },
   {
     "name": "Vegeta - Malicious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P2",
     "Type": "Villain MP",
     "Endurance": "",
@@ -72651,7 +72651,7 @@
   },
   {
     "name": "Vegeta - On the Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S17",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72676,7 +72676,7 @@
   },
   {
     "name": "Vegeta - On the Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P49",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72701,7 +72701,7 @@
   },
   {
     "name": "Vegeta - Pinnacle of Power",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "DR09",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72726,7 +72726,7 @@
   },
   {
     "name": "Vegeta - Pinnacle of Power",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P78",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72751,7 +72751,7 @@
   },
   {
     "name": "Vegeta - Pissed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S98",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72776,7 +72776,7 @@
   },
   {
     "name": "Vegeta - Pissed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P7",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72801,7 +72801,7 @@
   },
   {
     "name": "Vegeta - Prince of Bingo",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S97",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72826,7 +72826,7 @@
   },
   {
     "name": "Vegeta - Prince of Bingo",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P6",
     "Type": "Hero MP",
     "Endurance": "",
@@ -72851,7 +72851,7 @@
   },
   {
     "name": "Vegeta - Prince of Saiyans",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S1",
     "Type": "Villain MP",
     "Endurance": "",
@@ -72876,7 +72876,7 @@
   },
   {
     "name": "Vegeta - Prince of Saiyans",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Villain MP",
     "Endurance": "",
@@ -72901,7 +72901,7 @@
   },
   {
     "name": "Vegeta - Prince of Saiyans",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P24",
     "Type": "Villain MP",
     "Endurance": "",
@@ -72926,7 +72926,7 @@
   },
   {
     "name": "Vegeta - Redeemed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S62",
     "Type": "Villain MP",
     "Endurance": "",
@@ -72951,7 +72951,7 @@
   },
   {
     "name": "Vegeta - Redeemed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Villain MP",
     "Endurance": "",
@@ -72976,7 +72976,7 @@
   },
   {
     "name": "Vegeta - Relentless",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S61",
     "Type": "Villain MP",
     "Endurance": "",
@@ -73001,7 +73001,7 @@
   },
   {
     "name": "Vegeta - Relentless",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P3",
     "Type": "Villain MP",
     "Endurance": "",
@@ -73026,7 +73026,7 @@
   },
   {
     "name": "Vegeta - Renewed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S4",
     "Type": "Villain MP",
     "Endurance": "",
@@ -73051,7 +73051,7 @@
   },
   {
     "name": "Vegeta - Renewed",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P27",
     "Type": "Villain MP",
     "Endurance": "",
@@ -73076,7 +73076,7 @@
   },
   {
     "name": "Vegeta - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S18",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73101,7 +73101,7 @@
   },
   {
     "name": "Vegeta - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P50",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73126,7 +73126,7 @@
   },
   {
     "name": "Vegeta - Super Saiyan Blue",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S99",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73151,7 +73151,7 @@
   },
   {
     "name": "Vegeta - Super Saiyan Blue",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P8",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73176,7 +73176,7 @@
   },
   {
     "name": "Vegeta - The Crown Prince",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S61",
     "Type": "Villain MP",
     "Endurance": "",
@@ -73201,7 +73201,7 @@
   },
   {
     "name": "Vegeta - The Crown Prince",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P15",
     "Type": "Villain MP",
     "Endurance": "",
@@ -73226,7 +73226,7 @@
   },
   {
     "name": "Vegeta - Unrelenting",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U93",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -73251,7 +73251,7 @@
   },
   {
     "name": "Vegeta - Unrelenting",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P187",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -73276,7 +73276,7 @@
   },
   {
     "name": "Vegeta - Untethered Rage",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S59",
     "Type": "Villain MP",
     "Endurance": "",
@@ -73301,7 +73301,7 @@
   },
   {
     "name": "Vegeta - Untethered Rage",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Villain MP",
     "Endurance": "",
@@ -73326,7 +73326,7 @@
   },
   {
     "name": "Vegeta - Villainous",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S2",
     "Type": "Villain MP",
     "Endurance": "",
@@ -73351,7 +73351,7 @@
   },
   {
     "name": "Vegeta - Villainous",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P25",
     "Type": "Villain MP",
     "Endurance": "",
@@ -73651,7 +73651,7 @@
   },
   {
     "name": "Vegito - Boastful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S58",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73676,7 +73676,7 @@
   },
   {
     "name": "Vegito - Boastful",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P6",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73701,7 +73701,7 @@
   },
   {
     "name": "Vegito - Dominant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S60",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73726,7 +73726,7 @@
   },
   {
     "name": "Vegito - Dominant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P8",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73751,7 +73751,7 @@
   },
   {
     "name": "Vegito - Fused",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S57",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73776,7 +73776,7 @@
   },
   {
     "name": "Vegito - Fused",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P5",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73801,7 +73801,7 @@
   },
   {
     "name": "Vegito - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S59",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73826,7 +73826,7 @@
   },
   {
     "name": "Vegito - Super Saiyan",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P7",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73901,7 +73901,7 @@
   },
   {
     "name": "Videl - Battle Hardened",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S93",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73926,7 +73926,7 @@
   },
   {
     "name": "Videl - Battle Hardened",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P12",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73951,7 +73951,7 @@
   },
   {
     "name": "Videl - Heroic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S91",
     "Type": "Hero MP",
     "Endurance": "",
@@ -73976,7 +73976,7 @@
   },
   {
     "name": "Videl - Heroic",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P10",
     "Type": "Hero MP",
     "Endurance": "",
@@ -74001,7 +74001,7 @@
   },
   {
     "name": "Videl - Learning the Moves",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S92",
     "Type": "Hero MP",
     "Endurance": "",
@@ -74026,7 +74026,7 @@
   },
   {
     "name": "Videl - Learning the Moves",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P11",
     "Type": "Hero MP",
     "Endurance": "",
@@ -74051,7 +74051,7 @@
   },
   {
     "name": "Videl - Student",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S90",
     "Type": "Hero MP",
     "Endurance": "",
@@ -74076,7 +74076,7 @@
   },
   {
     "name": "Videl - Student",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P9",
     "Type": "Hero MP",
     "Endurance": "",
@@ -74626,7 +74626,7 @@
   },
   {
     "name": "Whis - Guide Angel",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U67",
     "Type": "Hero/Villain Ally",
     "Endurance": "",
@@ -74751,7 +74751,7 @@
   },
   {
     "name": "Yajirobe - Bundled",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C4",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -74776,7 +74776,7 @@
   },
   {
     "name": "Yajirobe - Bundled",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P179",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -74801,7 +74801,7 @@
   },
   {
     "name": "Yajirobe - Hungry",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P2",
     "Type": "Hero MP",
     "Endurance": "",
@@ -74826,7 +74826,7 @@
   },
   {
     "name": "Yajirobe - Opportunist",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P3",
     "Type": "Hero MP",
     "Endurance": "",
@@ -74851,7 +74851,7 @@
   },
   {
     "name": "Yajirobe - Retired",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P4",
     "Type": "Hero MP",
     "Endurance": "",
@@ -74876,7 +74876,7 @@
   },
   {
     "name": "Yajirobe - Ronin",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P1",
     "Type": "Hero MP",
     "Endurance": "",
@@ -74926,7 +74926,7 @@
   },
   {
     "name": "Yakon - Beastly",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U49",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -74951,7 +74951,7 @@
   },
   {
     "name": "Yamcha - Action Ready",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U70",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -74976,7 +74976,7 @@
   },
   {
     "name": "Yamcha - Action Ready",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P159",
     "Type": "Hero Ally",
     "Endurance": "",
@@ -75001,7 +75001,7 @@
   },
   {
     "name": "Yamcha - Happy",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U68",
     "Type": "Hero MP",
     "Endurance": "",
@@ -75026,7 +75026,7 @@
   },
   {
     "name": "Yamcha - Happy",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P131",
     "Type": "Hero MP",
     "Endurance": "",
@@ -75051,7 +75051,7 @@
   },
   {
     "name": "Yamcha - On the Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U66",
     "Type": "Hero MP",
     "Endurance": "",
@@ -75076,7 +75076,7 @@
   },
   {
     "name": "Yamcha - On the Move",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P129",
     "Type": "Hero MP",
     "Endurance": "",
@@ -75101,7 +75101,7 @@
   },
   {
     "name": "Yamcha - Sleeping",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U65",
     "Type": "Hero MP",
     "Endurance": "",
@@ -75126,7 +75126,7 @@
   },
   {
     "name": "Yamcha - Sleeping",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P127",
     "Type": "Hero MP",
     "Endurance": "",
@@ -75151,7 +75151,7 @@
   },
   {
     "name": "Yamcha - Suited Up",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S99",
     "Type": "Hero MP",
     "Endurance": "",
@@ -75176,7 +75176,7 @@
   },
   {
     "name": "Yamcha - Surprised",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U67",
     "Type": "Hero MP",
     "Endurance": "",
@@ -75201,7 +75201,7 @@
   },
   {
     "name": "Yamcha - Surprised",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P130",
     "Type": "Hero MP",
     "Endurance": "",
@@ -75301,7 +75301,7 @@
   },
   {
     "name": "Yamu - Expendable",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "U50",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -75326,7 +75326,7 @@
   },
   {
     "name": "Zamasu - Benevolent",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S47",
     "Type": "Villain MP",
     "Endurance": "",
@@ -75351,7 +75351,7 @@
   },
   {
     "name": "Zamasu - Deity",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S48",
     "Type": "Villain MP",
     "Endurance": "",
@@ -75376,7 +75376,7 @@
   },
   {
     "name": "Zamasu - Devious",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S46",
     "Type": "Villain MP",
     "Endurance": "",
@@ -75401,7 +75401,7 @@
   },
   {
     "name": "Zamasu - God In Training",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "S45",
     "Type": "Villain MP",
     "Endurance": "",
@@ -75476,7 +75476,7 @@
   },
   {
     "name": "Zarbon - Loyal Servant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "C14",
     "Type": "Villain Ally",
     "Endurance": "",
@@ -75501,7 +75501,7 @@
   },
   {
     "name": "Zarbon - Loyal Servant",
-    "Style": "Personality",
+    "Style": "",
     "Card Number": "P174",
     "Type": "Villain Ally",
     "Endurance": "",

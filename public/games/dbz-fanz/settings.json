@@ -2,27 +2,57 @@
   "gameName": "dbz-fanz",
   "maxCopiesPerCard": 3,
   "addNValue": 3,
-  "groupOptions": ["Type", "Style"],
-  "filterOptions": ["Type", "Style", "Set"],
-  "groupOrder": ["Hero MP", "Villain MP", "Mastery", "Physical Combat", "Energy Combat"],
+  "groupOptions": [
+    "Type",
+    "Style"
+  ],
+  "filterOptions": [
+    "Type",
+    "Style",
+    "Set",
+	"Level"
+  ],
+  "groupOrder": [
+    "Hero MP",
+    "Villain MP",
+    "Mastery",
+    "Physical Combat",
+    "Energy Combat"
+  ],
   "groupSort": {
-  "Hero MP": {
-    "by": ["Level", "name"],
-    "order": {
-      "Level": ["1", "2", "3", "4"]
-		}	
-	},
-  "Villain MP": {
-    "by": ["Level", "name"],
-    "order": {
-      "Level": ["1", "2", "3", "4"]
-		}	
-	}
+    "Hero MP": {
+      "by": [
+        "Level",
+        "name"
+      ],
+      "order": {
+        "Level": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    "Villain MP": {
+      "by": [
+        "Level",
+        "name"
+      ],
+      "order": {
+        "Level": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    }
   },
   "searchPrefixes": {
     "t:": "Text",
-    "e:": "Endurance",
-    "l:": "Level"
+    "tr:": "Traits",
+    "e:": "Endurance"
   },
   "octgnExport": true,
   "deckValidation": {
@@ -30,19 +60,49 @@
     "maxCards": 65,
     "usePerCardLimit": true,
     "propertyLimits": [
-      { "property": "Type", "value": "Mastery", "min": 1 },
-      { "property": "Type", "value": "Mastery", "max": 1 },
-      { "property": "Main Personality", "value": "Level 1", "min": 1 },
-      { "property": "Main Personality", "value": "Level 1", "max": 1 },
-      { "property": "Main Personality", "value": "Level 2", "min": 1 },
-      { "property": "Main Personality", "value": "Level 2", "max": 1 },
-      { "property": "Main Personality", "value": "Level 3", "min": 1 },
-      { "property": "Main Personality", "value": "Level 3", "max": 1 },
-      { "property": "Main Personality", "value": "Level 4", "min": 1 },
-      { "property": "Main Personality", "value": "Level 4", "max": 1 }
+      {
+        "property": "Type",
+        "value": "Mastery",
+        "min": 1,
+		"max": 1,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires exactly {min} Mastery, you have {count}."
+      },
+      {
+        "property": "Main Personality",
+        "value": "Level 1",
+        "min": 1,
+		"max": 1,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires exactly {min} MP Level 1, you have {count}."
+      },
+      {
+        "property": "Main Personality",
+        "value": "Level 2",
+        "min": 1,
+		"max": 1,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires exactly {min} MP Level 2, you have {count}."
+      },
+      {
+        "property": "Main Personality",
+        "value": "Level 3",
+        "min": 1,
+		"max": 1,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires exactly {min} MP Level 3, you have {count}."
+      },
+      {
+        "property": "Main Personality",
+        "value": "Level 4",
+        "min": 1,
+		"max": 1,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires exactly {min} MP Level 4, you have {count}."
+      }
     ],
-    "banList": ["BannedCardID"]
+    "banList": [
+      "BannedCardID"
+    ]
   }
 }
-
-
