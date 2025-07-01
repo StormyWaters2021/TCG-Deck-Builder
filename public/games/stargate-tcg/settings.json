@@ -17,6 +17,7 @@
 	"Affiliation",
 	"Mission Skill"
   ],
+  "filterDelimiter": ",",
   "groupOrder": [],
   "groupSort": {},
   "searchPrefixes": {
