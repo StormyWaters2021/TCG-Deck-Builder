@@ -104,5 +104,15 @@
     "banList": [
       "BannedCardID"
     ]
+  },
+  "compactExportCols": 5,
+  "compactExportHeadingRow": true,
+  "compactVerticalOffsetFactor": 0.18,
+  "compactRowShiftFactor": 0.7,
+  "compactHorizontalStackVerticalOffsetFactor": 0.4,
+  "compactHorizontalStackProperty": "Type",
+  "compactHorizontalStackQuantity": {
+    "Drill": 3,
+    "Setup": 3
   }
 }

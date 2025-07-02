@@ -165,13 +165,23 @@ export function getCardImageUrl(card, game) {
 async function exportDeckImageCompact(deck, cards, settings, deckName, game) {
   const cardWidth = 180;
   const cardHeight = 252;
-  const gridCols = 5;
   const paddingX = 18;
   const paddingY = 20;
   const labelHeight = 46;
-  const verticalOffsetFactor = 0.10;
-  const rowShiftFactor = 0.5;
   const dpr = 2;
+
+  // Configurable settings with fallbacks:
+  const gridCols = settings.compactExportCols || 5;
+  const headingRow = settings.compactExportHeadingRow || false;
+  const verticalOffsetFactor = settings.compactVerticalOffsetFactor ?? 0.10;
+  // New: allow a different vertical offset for horizontal stacks
+  const horizontalStackVerticalOffsetFactor =
+    settings.compactHorizontalStackVerticalOffsetFactor ?? verticalOffsetFactor;
+  const rowShiftFactor = settings.compactRowShiftFactor ?? 0.5;
+
+  // --- Begin: Horizontal card stacking by property/quantity ---
+  const stackProp = settings.compactHorizontalStackProperty;
+  const stackQuantities = settings.compactHorizontalStackQuantity || {};
 
   const exportList = getSortedExportListWithDisplayOrder(deck, cards, settings);
 
@@ -195,93 +205,232 @@ async function exportDeckImageCompact(deck, cards, settings, deckName, game) {
     })
   );
 
-  const rows = [];
-  let cursor = 0;
-  while (cursor < filteredExportList.length) {
-    rows.push(filteredExportList.slice(cursor, cursor + gridCols));
-    cursor += gridCols;
+  // --- Build outputList with horizontal stacking by property/value ---
+  let outputList = [];
+  if (stackProp) {
+    // Separate horizontal and non-horizontal entries
+    const nonHoriz = [];
+    const horizGroups = {};
+    for (const entry of filteredExportList) {
+      const { card, qty } = entry;
+      if (card.Orientation === "Horizontal") {
+        const propVal = card[stackProp] || "";
+        if (!horizGroups[propVal]) horizGroups[propVal] = [];
+        for (let i = 0; i < qty; ++i) {
+          horizGroups[propVal].push(card);
+        }
+      } else {
+        nonHoriz.push(entry);
+      }
+    }
+    // Add non-horizontal cards first
+    for (const entry of nonHoriz) {
+      outputList.push({
+        horizontalStack: false,
+        ...entry
+      });
+    }
+    // Then add horizontal stacks so they appear at the bottom
+    for (const [propVal, cardArr] of Object.entries(horizGroups)) {
+      const stackQty = stackQuantities[propVal] || 1;
+      let i = 0;
+      while (i < cardArr.length) {
+        const stack = [];
+        for (let s = 0; s < stackQty && i < cardArr.length; ++s, ++i) {
+          stack.push(cardArr[i]);
+        }
+        outputList.push({
+          horizontalStack: true,
+          stackPropValue: propVal,
+          cards: stack,
+          stackQty: stack.length
+        });
+      }
+    }
+  } else {
+    // Original logic: every entry as-is
+    for (const entry of filteredExportList) {
+      outputList.push({
+        horizontalStack: false,
+        ...entry
+      });
+    }
   }
 
+  // Calculate the normal row width for vertical cards
+  const normalRowWidth = gridCols * cardWidth + (gridCols + 1) * paddingX;
+
+  // Build rows, starting new row for horizontal stacks if needed
+  const rows = [];
+  let currentRow = [];
+  let currentWidth = paddingX;
+
+  for (const item of outputList) {
+    let w;
+    if (item.horizontalStack) {
+      w = cardHeight;
+    } else {
+      const c = item.card;
+      w = c.Orientation === "Horizontal" ? cardHeight : cardWidth;
+    }
+    // If this is a horizontal stack and it would overflow normal row width, start new row
+    if (
+      item.horizontalStack &&
+      currentWidth + w > normalRowWidth &&
+      currentRow.length > 0
+    ) {
+      rows.push(currentRow);
+      currentRow = [];
+      currentWidth = paddingX;
+    }
+    // Otherwise, if current row is full (for gridCols), start new row
+    else if (!item.horizontalStack && currentRow.length >= gridCols) {
+      rows.push(currentRow);
+      currentRow = [];
+      currentWidth = paddingX;
+    }
+    currentRow.push(item);
+    currentWidth += w + paddingX;
+  }
+  if (currentRow.length > 0) {
+    rows.push(currentRow);
+  }
+
+  // Calculate Y start positions for each row
   const yStarts = [];
   let y = labelHeight + paddingY;
   for (let i = 0; i < rows.length; ++i) {
     yStarts.push(y);
     let lowest = 0;
     for (let c = 0; c < rows[i].length; ++c) {
-      const { card, qty } = rows[i][c];
-      const isHorizontal = card.Orientation === "Horizontal";
-      const w = isHorizontal ? cardHeight : cardWidth;
-      const h = isHorizontal ? cardWidth : cardHeight;
-      const verticalCardOffset = Math.round(h * verticalOffsetFactor);
-      const bottom = y + (qty - 1) * verticalCardOffset + h;
+      const item = rows[i][c];
+      let h, stackQty, offsetF;
+      if (item.horizontalStack) {
+        h = cardWidth;
+        stackQty = item.stackQty;
+        offsetF = horizontalStackVerticalOffsetFactor;
+      } else {
+        const cc = item.card;
+        h = cc.Orientation === "Horizontal" ? cardWidth : cardHeight;
+        stackQty = item.qty;
+        offsetF = verticalOffsetFactor;
+      }
+      const verticalCardOffset = Math.round(h * offsetF);
+      const bottom = y + (stackQty - 1) * verticalCardOffset + h;
       if (bottom > lowest) lowest = bottom;
     }
-    y = Math.round(lowest - cardHeight * rowShiftFactor);
+    if (i === 0 && headingRow) {
+      y += lowest + paddingY;
+    } else {
+      y = Math.round(lowest - cardHeight * rowShiftFactor);
+    }
   }
 
+  // Compute max row width for canvas width
   let maxRowWidth = 0;
   for (const row of rows) {
     let rowWidth = paddingX;
-    for (const { card } of row) {
-      const isHorizontal = card.Orientation === "Horizontal";
-      rowWidth += (isHorizontal ? cardHeight : cardWidth) + paddingX;
+    for (const item of row) {
+      let w;
+      if (item.horizontalStack) {
+        w = cardHeight;
+      } else {
+        const c = item.card;
+        w = c.Orientation === "Horizontal" ? cardHeight : cardWidth;
+      }
+      rowWidth += w + paddingX;
     }
     if (rowWidth > maxRowWidth) maxRowWidth = rowWidth;
   }
+
+  // Compute bottom of last row to calculate canvas height
   let lastRow = rows.length - 1;
   let lastRowLowest = 0;
   if (lastRow >= 0) {
     const yRow = yStarts[lastRow];
     for (let c = 0; c < rows[lastRow].length; ++c) {
-      const { card, qty } = rows[lastRow][c];
-      const isHorizontal = card.Orientation === "Horizontal";
-      const h = isHorizontal ? cardWidth : cardHeight;
-      const verticalCardOffset = Math.round(h * verticalOffsetFactor);
-      const bottom = yRow + (qty - 1) * verticalCardOffset + h;
+      const item = rows[lastRow][c];
+      let h, stackQty, offsetF;
+      if (item.horizontalStack) {
+        h = cardWidth;
+        stackQty = item.stackQty;
+        offsetF = horizontalStackVerticalOffsetFactor;
+      } else {
+        const cc = item.card;
+        h = cc.Orientation === "Horizontal" ? cardWidth : cardHeight;
+        stackQty = item.qty;
+        offsetF = verticalOffsetFactor;
+      }
+      const verticalCardOffset = Math.round(h * offsetF);
+      const bottom = yRow + (stackQty - 1) * verticalCardOffset + h;
       if (bottom > lastRowLowest) lastRowLowest = bottom;
     }
   }
+
   const width = maxRowWidth;
   const height = Math.round(lastRowLowest + cardHeight * rowShiftFactor + paddingY);
 
+  // Create canvas and scale for device pixel ratio
   const canvas = document.createElement("canvas");
   canvas.width = width * dpr;
   canvas.height = height * dpr;
   const ctx = canvas.getContext("2d");
   ctx.scale(dpr, dpr);
 
+  // Background
   ctx.fillStyle = "#fff";
   ctx.fillRect(0, 0, width, height);
 
+  // Deck name label
   ctx.font = "bold 32px sans-serif";
   ctx.fillStyle = "#222";
   ctx.textAlign = "left";
   ctx.fillText(deckName || "Deck", paddingX, Math.round(labelHeight * 0.75));
 
+  // Draw cards
   for (let rowIdx = 0; rowIdx < rows.length; ++rowIdx) {
     const row = rows[rowIdx];
     const yRow = yStarts[rowIdx];
     let x = paddingX;
     for (let colIdx = 0; colIdx < row.length; ++colIdx) {
-      const { card, qty } = row[colIdx];
-      const isHorizontal = card.Orientation === "Horizontal";
-      const w = isHorizontal ? cardHeight : cardWidth;
-      const h = isHorizontal ? cardWidth : cardHeight;
-      const verticalCardOffset = Math.round(h * verticalOffsetFactor);
-      const img = cardImageCache[card.id];
-      for (let q = 0; q < qty; ++q) {
-        const y = yRow + q * verticalCardOffset;
-        ctx.drawImage(img, x, y, w, h);
+      const item = row[colIdx];
+      if (item.horizontalStack) {
+        // Draw each card in stack, offset
+        const w = cardHeight, h = cardWidth;
+        const stackQty = item.stackQty;
+        const stackCards = item.cards;
+        const verticalCardOffset = Math.round(h * horizontalStackVerticalOffsetFactor);
+        for (let q = 0; q < stackQty; ++q) {
+          const y = yRow + q * verticalCardOffset;
+          const card = stackCards[q];
+          if (card) {
+            const img = cardImageCache[card.id];
+            ctx.drawImage(img, x, y, w, h);
+          }
+        }
+        x += w + paddingX;
+      } else {
+        const { card, qty } = item;
+        const isHorizontal = card.Orientation === "Horizontal";
+        const w = isHorizontal ? cardHeight : cardWidth;
+        const h = isHorizontal ? cardWidth : cardHeight;
+        const verticalCardOffset = Math.round(h * verticalOffsetFactor);
+        const img = cardImageCache[card.id];
+        for (let q = 0; q < qty; ++q) {
+          const y = yRow + q * verticalCardOffset;
+          ctx.drawImage(img, x, y, w, h);
+        }
+        x += w + paddingX;
       }
-      x += w + paddingX;
     }
   }
 
+  // Export image blob
   canvas.toBlob(blob => {
     if (!blob) return;
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = `${deckName || "deck"}-compact.png`;
+    a.download = `${deckName || "deck"}.png`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 4000);
   }, "image/png");
@@ -883,18 +1032,6 @@ groupOrderArr.forEach((group, groupIdx) => {
                 onClick={() => exportDeck("TXT")}
               >
                 TXT
-              </button>
-              <button
-                className={
-                  dropdownHover === 1
-                    ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                    : dropdownButtonClass
-                }
-                onMouseEnter={() => setDropdownHover(1)}
-                onMouseLeave={() => setDropdownHover(null)}
-                onClick={() => exportDeck("JSON")}
-              >
-                JSON
               </button>
               <button
                 className={
