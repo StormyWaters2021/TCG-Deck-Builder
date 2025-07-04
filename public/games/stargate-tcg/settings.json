@@ -33,14 +33,14 @@
     "usePerCardLimit": true,
     "propertyLimits": [
       {
-        "property": "Allegiance",
+        "property": "Alignment",
         "value": "Hero",
         "min": 20,
 		"showPropertyNameInError": false,
 		"errorMessage": "Requires at least {min} Hero cards, you have {count}."
       },
       {
-        "property": "Allegiance",
+        "property": "Alignment",
         "value": "Villain",
         "min": 20,
 		"showPropertyNameInError": false,
