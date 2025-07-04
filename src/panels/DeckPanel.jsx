@@ -23,6 +23,23 @@ function getAlternatePrintings(card, allCards) {
   );
 }
 
+function sumPropertyOfCardsWhereContains(deckList, filterProp, contains, sumProp) {
+  let total = 0, cardsWithProp = 0;
+  for (const { card, qty } of deckList) {
+    if (
+      typeof card[filterProp] === "string" &&
+      card[filterProp].toLowerCase().includes(contains.toLowerCase())
+    ) {
+      const num = typeof card[sumProp] === "number" ? card[sumProp] : parseFloat(card[sumProp]);
+      if (!isNaN(num)) {
+        total += num * qty;
+        cardsWithProp += qty;
+      }
+    }
+  }
+  return { total, cardsWithProp };
+}
+
 // Sort cards within a group
 function sortGroup(cards, groupSortConfig) {
   if (!groupSortConfig || typeof groupSortConfig !== "object") {
@@ -226,7 +243,25 @@ function DeckStatsBanner({ deck, cards, statsConfig }) {
           {` (${cardsWithProp} card${cardsWithProp !== 1 ? "s" : ""})`}
         </span>
       );
-    }
+    } 
+	else if (item.type === "sumPropertyOfCardsWhereContains") {
+    // New stat type!
+    // item.filterProp: property to filter on
+    // item.contains: substring to look for
+    // item.sumProp: property to sum
+    const { total, cardsWithProp } = sumPropertyOfCardsWhereContains(deckList, item.filterProp, item.contains, item.sumProp);
+    stats.push(
+      <span
+        key={`sumPropertyOfCardsWhereContains:${item.filterProp}:${item.contains}:${item.sumProp}`}
+        className="deck-stat"
+      >
+        {item.label ||
+          `Sum of ${item.sumProp} for cards with ${item.filterProp} containing "${item.contains}"`}:{" "}
+        <b>{total}</b>
+        {` (${cardsWithProp} card${cardsWithProp !== 1 ? "s" : ""})`}
+      </span>
+    );
+  }
     // countType: count cards with a property equal to a value
     else if (item.type === "countType") {
       const count = countType(item.prop, item.value);
@@ -466,9 +501,9 @@ function DeckPanel({
 
   for (const name in processedDeckByName) {
     const { qty, card } = processedDeckByName[name];
-    if (qty > settings.maxCopiesPerCard) {
+    if (qty > settings.deckValidation.maxCopiesPerCard) {
       errors.push(
-        `Too many copies of ${name} (max ${settings.maxCopiesPerCard})`
+        `Too many copies of ${name} (max ${settings.deckValidation.maxCopiesPerCard})`
       );
     }
     if (settings.deckValidation.usePerCardLimit && !isNaN(Number(card.Limit)) && qty > Number(card.Limit))

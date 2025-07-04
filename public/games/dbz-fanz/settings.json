@@ -1,17 +1,20 @@
 {
   "gameName": "dbz-fanz",
-  "maxCopiesPerCard": 3,
+
   "addNValue": 3,
+  
   "groupOptions": [
     "Type",
     "Style"
   ],
+  
   "filterOptions": [
     "Type",
     "Style",
     "Set",
 	"Level"
   ],
+  
   "groupOrder": [
     "Hero MP",
     "Villain MP",
@@ -19,6 +22,7 @@
     "Physical Combat",
     "Energy Combat"
   ],
+  
   "groupSort": {
     "Hero MP": {
       "by": [
@@ -49,15 +53,17 @@
       }
     }
   },
+  
   "searchPrefixes": {
     "t:": "Text",
     "tr:": "Traits",
     "e:": "Endurance"
   },
-  "octgnExport": true,
+  
   "deckValidation": {
     "minCards": 65,
     "maxCards": 65,
+    "maxCopiesPerCard": 3,
     "usePerCardLimit": true,
     "propertyLimits": [
       {
@@ -118,6 +124,8 @@
 	  "Red Tactical Drill"
     ]
   },
+  
+  "octgnExport": true,
   "compactExportCols": 5,
   "compactExportHeadingRow": true,
   "compactVerticalOffsetFactor": 0.18,

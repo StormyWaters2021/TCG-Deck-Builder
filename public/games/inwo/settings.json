@@ -1,8 +1,8 @@
 {
   "gameName": "inwo",
-  "maxCopiesPerCard": 9999,
   "addNValue": 3,
   "octgnExport": true,
+  
   "filterOptions": [
     "Type",
     "Subtype",
@@ -11,12 +11,17 @@
     "Global Power",
     "Resistance"
   ],
+  
   "filterDelimiter": ", ",
+ 
   "groupOptions": [
     "Type",
 	"OCTGN"
   ],
+  
   "groupOrder": [],
+  
+  
   "groupSort": {
     "Group": {
       "by": [
@@ -33,14 +38,19 @@
       }
     }
   },
+  
+  
   "searchPrefixes": {
     "t:": "Card Text",
     "al:": "Alignments",
     "at:": "Attributes"
   },
+  
+  
   "deckValidation": {
     "minCards": 45,
     "maxCards": 45,
+	"maxCopiesPerCard": 9999,
     "usePerCardLimit": false,
     "propertyLimits": [],
     "banList": []

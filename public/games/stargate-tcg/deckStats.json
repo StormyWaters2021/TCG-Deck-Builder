@@ -1,13 +1,69 @@
 [
   { "type": "totalCount", "label": "Cards" },
-  { "type": "countContains", "prop": "Allegiance", "contains": "Hero", "label": "Hero Cards" },
-  { "type": "countContains", "prop": "Allegiance", "contains": "Villain", "label": "Villain Cards" },
-  { "type": "countContains", "prop": "Cost", "contains": "0", "label": "0-Cost" },
-  { "type": "countContains", "prop": "Cost", "contains": "1", "label": "1-Cost" },
-  { "type": "countContains", "prop": "Cost", "contains": "2", "label": "2-Cost" },
-  { "type": "countContains", "prop": "Cost", "contains": "3", "label": "3-Cost" },
-  { "type": "countContains", "prop": "Cost", "contains": "4", "label": "4-Cost" },
-  { "type": "countContains", "prop": "Cost", "contains": "5", "label": "5-Cost" },
-  { "type": "countContains", "prop": "Cost", "contains": "6", "label": "6-Cost" },
-  { "type": "countContains", "prop": "Cost", "contains": "7", "label": "7-Cost" }
+  { "type": "countContains", "prop": "Alignment", "contains": "Hero", "label": "Hero Cards" },
+  { "type": "countContains", "prop": "Alignment", "contains": "Villain", "label": "Villain Cards" },
+
+  {
+  "type": "sumPropertyOfCardsWhereContains",
+  "filterProp": "Alignment",
+  "contains": "Hero",
+  "sumProp": "Culture",
+  "label": "Culture (H)"
+},
+
+  {
+  "type": "sumPropertyOfCardsWhereContains",
+  "filterProp": "Alignment",
+  "contains": "Villain",
+  "sumProp": "Culture",
+  "label": "Culture (V)"
+},
+
+  {
+  "type": "sumPropertyOfCardsWhereContains",
+  "filterProp": "Alignment",
+  "contains": "Hero",
+  "sumProp": "Science",
+  "label": "Science (H)"
+},
+
+  {
+  "type": "sumPropertyOfCardsWhereContains",
+  "filterProp": "Alignment",
+  "contains": "Villain",
+  "sumProp": "Science",
+  "label": "Science (V)"
+},
+
+  {
+  "type": "sumPropertyOfCardsWhereContains",
+  "filterProp": "Alignment",
+  "contains": "Hero",
+  "sumProp": "Combat",
+  "label": "Combat (H)"
+},
+
+  {
+  "type": "sumPropertyOfCardsWhereContains",
+  "filterProp": "Alignment",
+  "contains": "Villain",
+  "sumProp": "Combat",
+  "label": "Combat (V)"
+},
+
+  {
+  "type": "sumPropertyOfCardsWhereContains",
+  "filterProp": "Alignment",
+  "contains": "Hero",
+  "sumProp": "Ingenuity",
+  "label": "Ingenuity (H)"
+},
+
+  {
+  "type": "sumPropertyOfCardsWhereContains",
+  "filterProp": "Alignment",
+  "contains": "Villain",
+  "sumProp": "Ingenuity",
+  "label": "Ingenuity (V)"
+}
 ]

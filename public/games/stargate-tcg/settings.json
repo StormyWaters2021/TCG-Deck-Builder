@@ -1,6 +1,5 @@
 {
   "gameName": "stargate-tcg",
-  "maxCopiesPerCard": 3,
   "addNValue": 3,
   "octgnExport": true,
   "includeSubtitleInTextExport": true,
@@ -30,6 +29,7 @@
   "deckValidation": {
     "minCards": 40,
     "maxCards": 9999,
+	"maxCopiesPerCard": 3,
     "usePerCardLimit": true,
     "propertyLimits": [
       {
@@ -84,7 +84,7 @@
       }
     ],
     "banList": [
-      "BannedCardID"
+      "Banned Card Name"
     ]
   }
 }

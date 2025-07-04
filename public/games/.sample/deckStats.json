@@ -1,50 +1,72 @@
 [
+  // Shows the total number of cards in the deck (all cards, all types)
   {
     "type": "totalCount",
-    "label": "Total Cards"
-    // Shows the total number of cards in the deck.
-    // Multiplies each card by its quantity (e.g. 2x Card A + 3x Card B = 5).
+    "label": "Total Cards in Deck"
   },
+
+  // Sums up the "power" property across all cards (e.g., for a game with creatures)
   {
     "type": "sumProperty",
-    "prop": "Endurance",
-    "label": "Total Endurance"
-    // Sums the 'Endurance' property of all cards, each multiplied by its quantity in the deck.
-    // Example: Card A (Endurance 3, qty 2) + Card B (Endurance 2, qty 3): 3*2 + 2*3 = 6 + 6 = 12.
+    "prop": "power",
+    "label": "Total Power"
   },
+
+  // Counts only cards where "type" is "Spell"
   {
     "type": "countType",
-    "prop": "CardType",
-    "value": "Attack",
-    "label": "Attack Cards"
-    // Counts all cards where 'CardType' exactly equals "Attack", multiplied by each card's quantity.
-    // Example: 2x Card A (Attack), 1x Card B (Block), 3x Card C (Attack) = 2 + 3 = 5.
+    "prop": "type",
+    "value": "Spell",
+    "label": "Total Spells"
   },
+
+  // Counts cards whose "name" contains the substring "Dragon" (case insensitive)
   {
     "type": "countContains",
-    "prop": "Text",
-    "contains": "[BLOCK]",
-    "label": "Cards with [BLOCK]"
-    // Counts all cards where 'Text' property contains the substring "[BLOCK]", multiplied by quantity.
-    // Example: 2x Card A ("[BLOCK] ..."), 3x Card B ("no block") = 2.
+    "prop": "name",
+    "contains": "Dragon",
+    "label": "Dragon Cards"
   },
+
+  // Sums numbers found in the "notes" property ONLY if "notes" contains "damage"
+  // For example, "notes": "Deals 3 damage to opponent" → counts as +3
   {
     "type": "sumPropertyWhereContains",
-    "prop": "Text",
-    "contains": "Gain",
-    "label": "Sum of Numbers in Text with 'Gain'"
-    // For all cards whose 'Text' contains "Gain", finds all numbers in the 'Text' and sums them,
-    // multiplied by the card's quantity in the deck.
-    // Example: Card A (Text: "Gain 2 Power", qty 2) → 2*2 = 4.
-    // Card B (Text: "Gain 1 Power", qty 3) → 1*3 = 3. Total = 7.
+    "prop": "notes",
+    "contains": "damage",
+    "label": "Total Damage Mentioned"
   },
+
+  // Sums numbers from "rulesText" that match a regex pattern
+  // For example, "Deal 5 damage to all" matches (\d+), capturing 5
   {
     "type": "sumPropertyByRegex",
-    "prop": "Text",
-    "regex": "Gain ([0-9]+) Power",
-    "label": "Total Power Gained"
-    // For each card, if 'Text' matches the regex, uses the first capture group as a number,
-    // sums it, and multiplies by the card's quantity in the deck.
-    // Example: Card A (Text: "Gain 2 Power", qty 2) → 2*2 = 4. Card B (Text: "Gain 1 Power", qty 3) → 1*3 = 3. Total = 7.
+    "prop": "rulesText",
+    "regex": "Deal (\\d+) damage",
+    "label": "Damage from Rules Text"
+  },
+
+  // Another sumPropertyByRegex example: extract and sum mana costs like "Mana: 3G"
+  {
+    "type": "sumPropertyByRegex",
+    "prop": "rulesText",
+    "regex": "Mana: (\\d+)",
+    "label": "Total Numeric Mana Cost"
+  },
+
+  // Advanced: Count all cards where "rarity" contains the substring "mythic"
+  {
+    "type": "countContains",
+    "prop": "rarity",
+    "contains": "mythic",
+    "label": "Mythic Rarity Cards"
+  },
+
+  // Sums the "cost" property across all cards, but only if their name contains "Elemental"
+  {
+    "type": "sumPropertyWhereContains",
+    "prop": "name",
+    "contains": "Elemental",
+    "label": "Total Cost of Elementals"
   }
 ]

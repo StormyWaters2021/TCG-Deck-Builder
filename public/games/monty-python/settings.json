@@ -1,7 +1,6 @@
 {
   "gameName": "monty-python",
   "game_id": "",
-  "maxCopiesPerCard": 3,
   "addNValue": 3,
   "groupOptions": [
     "Card Type",
@@ -30,6 +29,7 @@
   "deckValidation": {
     "minCards": 52,
     "maxCards": 52,
+	"maxCopiesPerCard": 3,
     "usePerCardLimit": false,
     "propertyLimits": [
       {
@@ -50,7 +50,7 @@
 	  }
     ],
     "banList": [
-      "BannedCardID"
+      "Banned Card Name"
     ]
   }
 }

@@ -54,45 +54,25 @@
     "c:": "Cost"
   },
   "deckValidation": {
-    "minCards": 60,
-    "maxCards": 60,
-    "usePerCardLimit": true,
+    "minCards": 40,                    // Minimum number of cards required in the deck
+    "maxCards": 60,                    // Maximum number of cards allowed in the deck
+    "maxCopiesPerCard": 3                // Max copies of any single card allowed in deck
+    "banList": ["CardName1", "CardName2"], // List of banned card names (case-insensitive)
+    "usePerCardLimit": true,           // Whether to enforce per-card limit (e.g. card.Limit property)
     "propertyLimits": [
       {
-        "property": "Type",
-        "value": "Mastery",
-        "min": 1
+        "property": "type",            // Card property to check (e.g. "type")
+        "value": "Creature",           // Value to match (e.g. only count cards where type === "Creature")
+        "min": 10,                     // Minimum number required for this type
+        "max": 30,                     // Maximum number allowed for this type
+        "errorMessage": "Must have between {min} and {max} creatures, you have {count}."
       },
       {
-        "property": "Type",
-        "value": "Mastery",
-        "max": 1
-      },
-      {
-        "property": "Rarity",
-        "value": "Legendary",
-        "max": 2
+        "properties": { "rarity": "Legendary", "type": "Creature" },  // Multiple properties AND-matched
+        "min": 0,
+        "max": 2,
+        "errorMessage": "Too many legendary creatures ({count}/{max})"
       }
-    ],
-    "banList": [
-      "BannedCardID1",
-      "BannedCardID2"
     ]
   },
-  "/comments": {
-    "/gameName": "string - The unique identifier for the game. Used to load images, card data, and settings specific to this game.",
-    "/addNValue": "integer - The default count for the 'Add N Cards' feature in the deck builder UI. Determines how many cards are added at once.",
-    "/maxCopiesPerCard": "integer - The maximum allowed copies of any single card in a deck, unless overridden by deckValidation settings.",
-    "/octgnExport": "boolean - If true, enables exporting decks in the OCTGN format (.o8d). Requires a valid octgn.json file for the game.",
-    "/groupOptions": "array of strings - The card properties available to group cards by in the deck builder interface (e.g., Type, Subtype).",
-    "/groupOrder": "array of strings - Preferred display order for groups when viewing or exporting a deck. Unlisted groups appear alphabetically after these.",
-    "/groupSort": "object - Configures how to sort cards within each group. Can specify properties to sort by and custom value orderings.",
-    "/filterOptions": "array of strings - Card properties that can be used as filters in the card search interface.",
-    "/searchPrefixes": "object - Maps search prefixes (like 't:' or 'e:') to card properties for advanced search in the UI.",
-    "/deckValidation": "object - Contains all deck legality rules: minimum/maximum deck size, per-card limits, banned cards, and per-property constraints.",
-    "/deckValidation2": "usePerCardLimit: boolean - If true, uses a card's own 'Limit' property to determine the maximum allowed copies in a deck.",
-    "/deckValidation3": "banList: array of strings - List of card IDs that are banned and cannot be added to any deck.",
-    "/deckValidation4": "propertyLimits: array of objects - Each object sets a minimum or maximum for the number of cards with a specific property value (e.g., max 2 Legendary cards).",
-    "/includeSubtitleInTextExport": "boolean - If true, appends the card's Subtitle (if present) to its name in text exports, e.g., 'Card Name — Subtitle x3'."
-  }
 }

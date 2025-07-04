@@ -1,6 +1,6 @@
 {
   "gameName": "mage-wars",
-  "maxCopiesPerCard": 9999,
+  
   "addNValue": 4,
   "groupOptions": [
     "Type",
@@ -26,12 +26,13 @@
   "deckValidation": {
     "minCards": 0,
     "maxCards": 9999,
+	"maxCopiesPerCard": 9999,
     "usePerCardLimit": false,
     "propertyLimits": [
       {}
     ],
     "banList": [
-      "BannedCardID"
+      "Banned Card Name"
     ]
   }
 }
