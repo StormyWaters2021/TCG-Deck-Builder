@@ -102,7 +102,19 @@
       }
     ],
     "banList": [
-      "BannedCardID"
+      "Black Devious Mastery",
+	  "Blue Protective Mastery",
+	  "Namekian Knowledge Mastery",
+	  "Namekian Restored Mastery",
+	  "Orange Adaptive Mastery",
+	  "Orange Charge",
+	  "Orange Checkup Drill",
+	  "Orange Focusing Drill",
+	  "Orange Restribution Mastery",
+	  "Ox King - Naming Genius",
+	  "Red Enraged Mastery",
+	  "Saiyan Empowered Mastery",
+	  "Visiting the Past"
     ]
   },
   "compactExportCols": 5,

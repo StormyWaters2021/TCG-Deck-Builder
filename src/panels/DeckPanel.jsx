@@ -460,7 +460,7 @@ function DeckPanel({
   const totalCards = Object.values(deck).reduce((a, b) => a + b, 0);
   const errors = [];
   if (totalCards < settings.deckValidation.minCards)
-    errors.push("Too few cards in deck!");
+    errors.push("Not enough cards in deck!");
   if (totalCards > settings.deckValidation.maxCards)
     errors.push("Too many cards in deck!");
 
@@ -471,8 +471,9 @@ function DeckPanel({
         `Too many copies of ${name} (max ${settings.maxCopiesPerCard})`
       );
     }
-    if (settings.deckValidation.usePerCardLimit && typeof card.Limit === "number" && qty > card.Limit) {
-      errors.push(`Too many copies of ${name}: limit is ${card.Limit}`);
+    if (settings.deckValidation.usePerCardLimit && !isNaN(Number(card.Limit)) && qty > Number(card.Limit))
+ {
+      errors.push(`${name} is Limit: ${card.Limit}.`);
     }
   }
   for (const rule of settings.deckValidation.propertyLimits || []) {
@@ -576,9 +577,28 @@ function DeckPanel({
     if (ruleViolated && errorStr) errors.push(errorStr);
   }
 
-  const banned = (settings.deckValidation.banList || []).filter((id) => deck[id]);
-  if (banned.length)
-    errors.push("Banned cards in deck: " + banned.join(", "));
+  const normalize = (name) => name.toLowerCase().replace(/[\W_]+/g, "").trim();
+
+const deckCardsByNormalizedName = {};
+Object.entries(deck).forEach(([cardId, qty]) => {
+  const card = cards.find(c => c.id === cardId);
+  if (!card) return;
+  const normName = normalize(card.name);
+  if (!deckCardsByNormalizedName[normName]) {
+    deckCardsByNormalizedName[normName] = { card, qty };
+  } else {
+    deckCardsByNormalizedName[normName].qty += qty;
+  }
+});
+
+const bannedNamesInDeck = (settings.deckValidation.banList || [])
+  .map(normalize)
+  .filter(name => deckCardsByNormalizedName[name]);
+
+if (bannedNamesInDeck.length) {
+  const actualNames = bannedNamesInDeck.map(name => deckCardsByNormalizedName[name].card.name);
+  errors.push("Banned cards in deck: " + actualNames.join(", "));
+}
 
   // Swap logic: only swap among printings with same name AND same subtitle
   function handleSwap(card, qty) {
