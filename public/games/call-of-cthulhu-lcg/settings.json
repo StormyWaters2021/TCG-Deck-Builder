@@ -1,0 +1,45 @@
+{
+  "gameName": "call-of-cthulhu-lcg",
+  "game_id": "43054c18-2362-43e0-a434-72f8d0e8477c",
+  "addNValue": 3,
+  "groupOptions": [
+    "Type",
+	"Faction"
+  ],
+  "filterOptions": [
+    "Type",
+	"Subtypes",
+    "Faction",
+    "Cost",
+    "Skill",
+	"Icons"
+  ],
+  "filterDelimiter": ".",
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {
+	  "t:": "Text",
+	  "k:": "Keyword",
+	  "s:": "Subtypes"
+  },
+  "octgnExport": false,
+  "deckValidation": {
+    "minCards": 60,
+    "maxCards": 9999,
+	"maxCopiesPerCard": 3,
+    "usePerCardLimit": true,
+    "propertyLimits": [
+	{
+        "property": "Type",
+        "value": "Story",
+        "min": 10,
+		"max": 10,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires exactly {min} Stories, you have {count}."
+	  }
+    ],
+    "banList": [
+      "BannedCardID"
+    ]
+  }
+}
