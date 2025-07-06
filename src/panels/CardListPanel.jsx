@@ -224,6 +224,9 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
           </select>
         ))}
       </div>
+	  <div style={{ margin: "0.5em 0", fontWeight: "bold" }}>
+		Total cards: {uniqueCards.length}
+	  </div>
       <div style={{ maxHeight: "340px", overflowY: "auto" }}>
         <ul style={{ margin: 0, padding: 0, listStyle: "none" }}>
           {uniqueCards.map(card => (
