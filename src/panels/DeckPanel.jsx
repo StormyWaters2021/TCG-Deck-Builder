@@ -638,15 +638,15 @@ if (bannedNamesInDeck.length) {
   // Swap logic: only swap among printings with same name AND same subtitle
   function handleSwap(card, qty) {
     const subtitle = card.Subtitle || card.subtitle || "";
-    const alternates = cards.filter(
+    // Include the current card in the group
+    const group = cards.filter(
       c =>
-        c.id !== card.id &&
         c.name === card.name &&
         ((c.Subtitle || c.subtitle || "") === subtitle)
     );
-    if (alternates.length === 0) return;
-    const idx = alternates.findIndex(c => c.id === card.id);
-    const next = alternates[(idx + 1) % alternates.length] || alternates[0];
+    if (group.length <= 1) return;
+    const idx = group.findIndex(c => c.id === card.id);
+    const next = group[(idx + 1) % group.length];
     onRemoveCard(card.id, qty);
     onAddCard(next.id, qty);
     setSelectedCard(next.id);
