@@ -158,13 +158,8 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
             </span>
           ))}
           <div style={{ marginTop: "0.25em", fontSize: "0.92em" }}>
-            Also supports{" "}
-            {prefixEntries.map(([p], idx) =>
-              <code key={p}>
-                {p}"none"{idx < prefixEntries.length - 1 ? ", " : ""}
-              </code>
-            )}
-            or <code>(none)</code> as the value.
+            Also supports "none" or (none) after these prefixes.
+            
           </div>
         </div>
       )}
