@@ -9,10 +9,11 @@
   "filterOptions": [
     "Type",
 	"Subtypes",
-    "Faction",
     "Cost",
+    "Faction",
     "Skill",
-	"Icons"
+	"Icons",
+	"Set"
   ],
   "filterDelimiter": ".",
   "groupOrder": [],
