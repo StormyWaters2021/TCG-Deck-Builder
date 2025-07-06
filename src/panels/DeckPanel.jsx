@@ -677,6 +677,8 @@ if (bannedNamesInDeck.length) {
       {groupBy === "OCTGN" && filteredSections ? (
         getSortedGroupNames(grouped).map((sectionName) => {
           const sectionCards = grouped[sectionName] || [];
+		  const sortProps = groupSorts[sectionName];
+		  const sortedSectionCards = sortGroup(sectionCards, sortProps);
           return (
             <div
               key={sectionName}
