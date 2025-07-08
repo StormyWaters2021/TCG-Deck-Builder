@@ -1,4 +1,118 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+
+// --- Tooltip helper component with inherited colors ---
+function InfoTooltip({ text }) {
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    if (!open) return;
+    function onKeyDown(e) {
+      if (e.key === "Escape") setOpen(false);
+    }
+    function onClick(e) {
+      setOpen(false);
+    }
+    document.addEventListener("keydown", onKeyDown);
+    document.addEventListener("mousedown", onClick);
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      document.removeEventListener("mousedown", onClick);
+    };
+  }, [open]);
+
+  return (
+    <span style={{ position: "relative", display: "inline-block", marginLeft: 8 }}>
+      <span
+        tabIndex={0}
+        aria-label="Search Help"
+        style={{
+          cursor: "pointer",
+          display: "inline-flex",
+          alignItems: "center",
+          justifyContent: "center",
+          width: 22,
+          height: 22,
+          borderRadius: "50%",
+          background: "transparent",
+          border: "none",
+          outline: open ? "2px solid currentColor" : "none",
+        }}
+        className="info-icon"
+        onMouseEnter={() => setOpen(true)}
+        onMouseLeave={() => setOpen(false)}
+        onFocus={() => setOpen(true)}
+        onBlur={() => setOpen(false)}
+        onClick={e => {
+          e.stopPropagation();
+          setOpen(o => !o);
+        }}
+      >
+        <svg
+          width="22"
+          height="22"
+          viewBox="0 0 22 22"
+          aria-hidden="true"
+        >
+          <circle
+            cx="11"
+            cy="11"
+            r="10"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          />
+          <text
+            x="11"
+            y="15"
+            textAnchor="middle"
+            fontSize="13"
+            fontWeight="bold"
+            fill="currentColor"
+            fontFamily="sans-serif"
+            dominantBaseline="middle"
+          >?</text>
+        </svg>
+      </span>
+      {open && (
+        <span
+          className="info-tooltip"
+          style={{
+            position: "absolute",
+            left: "50%",
+            top: "2.2em",
+            transform: "translateX(-50%)",
+            background: "var(--panel-bg, #fff)",
+            color: "var(--panel-fg, #222)",
+            border: "1px solid var(--panel-border, #bbb)",
+            padding: "0.6em 1em",
+            borderRadius: 6,
+            whiteSpace: "pre-line",
+            zIndex: 100,
+            fontSize: "0.96em",
+            minWidth: 200,
+            maxWidth: 350,
+            boxShadow: "0 2px 16px rgba(0,0,0,0.10)",
+            marginTop: 2,
+          }}
+        >
+          {text}
+        </span>
+      )}
+    </span>
+  );
+}
+
+// --- Load help text from a local file (public/search-help.txt) ---
+function useSearchHelpText(url = "/search-help.txt") {
+  const [helpText, setHelpText] = useState("");
+  useEffect(() => {
+    fetch(url)
+      .then(res => res.text())
+      .then(setHelpText)
+      .catch(() => setHelpText(""));
+  }, [url]);
+  return helpText;
+}
 
 // Helper: Gather all possible filter options for dropdowns
 function getFilters(cards, filterOptions, delimiter = null) {
@@ -38,32 +152,171 @@ function getFilters(cards, filterOptions, delimiter = null) {
   );
 }
 
-// Helper: Parse search string into criteria for advanced searching
-function parseSearchString(search, searchPrefixes) {
-  const prefixPattern = Object.keys(searchPrefixes)
-    .map(prefix => prefix.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'))
-    .join('|');
-  const regex = new RegExp(
-    `(?:\\s*(${prefixPattern})\\s*(?:"([^"]+)"|\\(([^)]+)\\)|([^\\s]+)))|([^\\s]+)`,
-    "gi"
-  );
-  const criteria = [];
+// --- Search Parser and Evaluator with Parentheses, OR, AND, NOT, and Prefixes ---
+
+// Tokenize the input search string
+function tokenize(input) {
+  const tokens = [];
+  const regex = /\s*(\/\/|-[a-zA-Z0-9_]+:"[^"]*"|-[a-zA-Z0-9_]+:\([^)]+\)|-[a-zA-Z0-9_]+:[^\s()"]+|-"[^"]*"|-\([^)]+\)|-[^\s()"]+|[a-zA-Z0-9_]+:"[^"]*"|[a-zA-Z0-9_]+:\([^)]+\)|[a-zA-Z0-9_]+:[^\s()"]+|"[^"]*"|\([^)]+\)|[()]|[^\s()"]+)\s*/g;
   let match;
-  while ((match = regex.exec(search)) !== null) {
-    if (match[1]) {
-      let value = match[2] || match[3] || match[4] || "";
-      if (typeof value === "string" && value.trim().toLowerCase() === "none") {
-        criteria.push({ property: searchPrefixes[match[1]], value: "__BLANK_OR_MISSING__" });
-      } else if (typeof value === "string" && value.trim().toLowerCase() === "(none)") {
-        criteria.push({ property: searchPrefixes[match[1]], value: "__BLANK_OR_MISSING__" });
-      } else {
-        criteria.push({ property: searchPrefixes[match[1]], value: value.trim() });
-      }
-    } else if (match[5]) {
-      criteria.push({ property: "name", value: match[5].trim() });
-    }
+  while ((match = regex.exec(input)) !== null) {
+    tokens.push(match[1]);
   }
-  return criteria;
+  return tokens;
+}
+
+// Parse tokens into an expression tree
+function parse(tokens) {
+  let pos = 0;
+
+  function parseExpression() {
+    let node = parseAnd();
+    while (tokens[pos] === '//') {
+      pos++;
+      node = { type: 'OR', left: node, right: parseAnd() };
+    }
+    return node;
+  }
+
+  function parseAnd() {
+    let node = parseTerm();
+    // AND is implicit: continue if next token is a term, opening paren, or NOT
+    while (
+      pos < tokens.length &&
+      tokens[pos] !== ')' &&
+      tokens[pos] !== '//'
+    ) {
+      const right = parseTerm();
+      node = { type: 'AND', left: node, right };
+    }
+    return node;
+  }
+
+  function parseTerm() {
+    let token = tokens[pos];
+
+    if (token === '(') {
+      pos++;
+      let node = parseExpression();
+      if (tokens[pos] !== ')') throw new Error('Mismatched parentheses');
+      pos++;
+      return node;
+    } else if (token && token.startsWith('-') && token.length > 1 && !token.startsWith('"')) {
+      pos++;
+      // Negation: always wrap subtoken as a node (TERM)
+      let subtoken = token.slice(1);
+      return { type: 'NOT', term: { type: 'TERM', term: subtoken } };
+    } else if (token) {
+      pos++;
+      return { type: 'TERM', term: token };
+    }
+    throw new Error('Unexpected end of search');
+  }
+
+  const expr = parseExpression();
+  if (pos < tokens.length) throw new Error('Unexpected input at end');
+  return expr;
+}
+
+// Evaluate the expression tree for a card
+function evaluate(node, card, searchPrefixes) {
+  switch (node.type) {
+    case 'TERM': {
+      let property = 'name';
+      let value = node.term;
+
+      // Handle prefix (case-insensitive), including quoted or parenthesized values.
+      let prefixMatch = value.match(/^([^\s:]+):([\s\S]+)$/);
+      if (prefixMatch) {
+        // Support trailing colon or not (normalize)
+        const prefix = prefixMatch[1].replace(/:$/, '').toLowerCase();
+        value = prefixMatch[2].trim();
+
+        // Remove outer quotes or parentheses if present
+        if (
+          (value.startsWith('"') && value.endsWith('"')) ||
+          (value.startsWith('(') && value.endsWith(')'))
+        ) {
+          value = value.slice(1, -1);
+        }
+
+        // Map prefix to property name, case-insensitive
+        const lowerPrefixes = Object.fromEntries(
+          Object.entries(searchPrefixes).map(([k, v]) => [k.toLowerCase(), v])
+        );
+        property = lowerPrefixes[prefix] ? lowerPrefixes[prefix] : prefix;
+
+        // Find the actual property in the card, case-insensitive
+        const realProperty = Object.keys(card).find(
+          k => k.toLowerCase() === property.toLowerCase()
+        );
+        if (realProperty) property = realProperty;
+      } else {
+        // Handle quoted term (for plain name search)
+        if (value.startsWith('"') && value.endsWith('"')) {
+          value = value.slice(1, -1);
+        }
+
+        // Find actual 'name' property in card, case-insensitive
+        const realProperty = Object.keys(card).find(
+          k => k.toLowerCase() === property.toLowerCase()
+        );
+        if (realProperty) property = realProperty;
+      }
+
+      // Handle (none)
+      if (
+        value.trim().toLowerCase() === 'none' ||
+        value.trim().toLowerCase() === '(none)'
+      ) {
+        return (
+          card[property] === undefined ||
+          card[property] === null ||
+          (typeof card[property] === 'string' && card[property].trim() === '')
+        );
+      }
+
+      // DEFAULT SEARCH: robustly handle arrays, delimited strings, etc.
+      let cardVal = card[property];
+      if (Array.isArray(cardVal)) {
+        cardVal = cardVal.join(" ");
+      }
+      if (typeof cardVal !== "string") {
+        cardVal = cardVal?.toString() ?? "";
+      }
+      return cardVal.toLowerCase().includes(value.toLowerCase());
+    }
+    case 'NOT':
+      return !evaluate(node.term, card, searchPrefixes);
+    case 'AND':
+      return (
+        evaluate(node.left, card, searchPrefixes) &&
+        evaluate(node.right, card, searchPrefixes)
+      );
+    case 'OR':
+      return (
+        evaluate(node.left, card, searchPrefixes) ||
+        evaluate(node.right, card, searchPrefixes)
+      );
+    default:
+      return true;
+  }
+}
+
+// Use the parser/evaluator for search
+function filterCards(cards, search, searchPrefixes) {
+  if (!search.trim()) return cards;
+
+  let tokens, expr;
+  try {
+    tokens = tokenize(search.trim());
+    expr = parse(tokens);
+  } catch (e) {
+    // If parse error, return no cards (safe fail)
+    return [];
+  }
+
+  return cards.filter(card => evaluate(expr, card, searchPrefixes));
 }
 
 // Helper: Get only one card per unique (name, Subtitle) pair
@@ -86,27 +339,25 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
   const filterProps = getFilters(cards, settings.filterOptions || [], filterDelimiter);
   const searchPrefixes = settings.searchPrefixes || {};
 
-  const filtered = cards.filter(card => {
-    // Advanced search
-    if (search.trim().length > 0) {
-      const criteria = parseSearchString(search.trim(), searchPrefixes);
-      for (const { property, value } of criteria) {
-        if (value === "__BLANK_OR_MISSING__") {
-          if (
-            card[property] !== undefined &&
-            card[property] !== null &&
-            !(typeof card[property] === "string" && card[property].trim() === "")
-          ) {
-            return false;
-          }
-        } else {
-          if (!card[property] || !card[property].toString().toLowerCase().includes(value.toLowerCase())) {
-            return false;
-          }
-        }
-      }
-    }
+  // Pull help text file
+  const helpTextFile = useSearchHelpText("/search-help.txt");
 
+  // Build the dynamic prefix section from settings
+  const prefixEntries = Object.entries(searchPrefixes);
+  const prefixesSection =
+    prefixEntries.length > 0
+      ? "Use prefixes for advanced search:\n\n prefix:\"search term\" to search any of the following card information:\n\n" +
+        prefixEntries
+          .map(([p, field]) => `${p}: ${field}`)
+          .join("\n") +
+        "\n\n"
+      : "";
+
+  // Combine: prefixes first, then help file text
+  const fullHelpText = prefixesSection + helpTextFile;
+
+  // Use advanced parser/evaluator for text search, preserve dropdown logic
+  const filtered = filterCards(cards, search, searchPrefixes).filter(card => {
     // Dropdown filters
     for (const [prop, value] of Object.entries(filters)) {
       if (value === undefined) continue;
@@ -139,9 +390,6 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
 
   const uniqueCards = getUniqueCardsByName(filtered);
 
-  const prefixEntries = Object.entries(searchPrefixes);
-  const hasPrefixes = prefixEntries.length > 0;
-
   function handleClearFilters() {
     setSearch("");
     setFilters({});
@@ -149,29 +397,19 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
 
   return (
     <aside className="card-list-panel">
-      {hasPrefixes && (
-        <div style={{ marginBottom: "0.5em", fontSize: "0.95em" }}>
-          <strong>Search prefixes:</strong>{" "}
-          {prefixEntries.map(([prefix, property], idx) => (
-            <span key={prefix} style={{ marginRight: "1em" }}>
-              <code>{prefix}"..."</code> <span className="search-prefix-property">({property})</span>
-            </span>
-          ))}
-          <div style={{ marginTop: "0.25em", fontSize: "0.92em" }}>
-            Also supports "none" or (none) after these prefixes.
-            
-          </div>
-        </div>
-      )}
+      <div style={{ marginBottom: "0.5em", fontSize: "0.95em" }}>
+        <strong>Card Search</strong>
+        <InfoTooltip text={fullHelpText} />
+      </div>
       <input
         type="text"
         placeholder="Search cards..."
         value={search}
         onChange={e => setSearch(e.target.value)}
         title={
-          hasPrefixes
-            ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p]) => `${p}"..."`).join(', ')}. Use ${prefixEntries.map(([p]) => `${p}"none"`).join(', ')} for blank/missing.`
-            : "Search by name."
+          prefixEntries.length > 0
+            ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p]) => `${p}:"..."`).join(', ')}. Use ${prefixEntries.map(([p]) => `${p}:"none"`).join(', ')} for blank/missing. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND.`
+            : "Search by name. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND."
         }
       />
       <button
@@ -219,9 +457,9 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
           </select>
         ))}
       </div>
-	  <div style={{ margin: "0.5em 0", fontWeight: "bold" }}>
-		Total cards: {uniqueCards.length}
-	  </div>
+      <div style={{ margin: "0.5em 0", fontWeight: "bold" }}>
+        Total cards: {uniqueCards.length}
+      </div>
       <div style={{ maxHeight: "340px", overflowY: "auto" }}>
         <ul style={{ margin: 0, padding: 0, listStyle: "none" }}>
           {uniqueCards.map(card => (

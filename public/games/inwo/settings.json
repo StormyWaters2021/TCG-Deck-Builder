@@ -41,9 +41,9 @@
   
   
   "searchPrefixes": {
-    "t:": "Card Text",
-    "al:": "Alignments",
-    "at:": "Attributes"
+    "t": "Card Text",
+    "al": "Alignments",
+    "at": "Attributes"
   },
   
   

@@ -1,0 +1,15 @@
+Search automatically looks for ALL terms to match. 
+
+Modify with the following operators:
+
+// OR
+fire // water | Returns cards with fire OR with water
+
+- NOT
+-fire | Returns cards that do NOT have fire
+
+() to group terms
+
+(fire // water) earth | Returns cards with either fire OR water, and that also have earth
+
+These operators can be combined with the prefix searching options as well. 

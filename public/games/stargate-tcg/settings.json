@@ -21,10 +21,10 @@
   "groupSort": {},
   
   "searchPrefixes": {
-	"t:": "Text",
-	"xp:": "Experience",
-	"f:": "Firepower",
-	"r:": "Revive"
+	"t": "Text",
+	"xp": "Experience",
+	"f": "Firepower",
+	"r": "Revive"
 
   },
   "deckValidation": {

@@ -18,12 +18,12 @@
   "groupOrder": [],
   "groupSort": {},
   "searchPrefixes": {
-	"t:": "Card Text",
-	"a:": "Alternative Text",
-    "c:": "Combat",
-    "w:": "Wits", 
-	"g:": "Grail",
-	"q:": "Quote"
+	"t": "Card Text",
+	"a": "Alternative Text",
+    "c": "Combat",
+    "w": "Wits", 
+	"g": "Grail",
+	"q": "Quote"
 },
   "octgnExport": false,
   "deckValidation": {

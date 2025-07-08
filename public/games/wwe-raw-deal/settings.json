@@ -8,9 +8,9 @@
   "groupSort": {
   },
   "searchPrefixes": {
-    "t:": "Card Text",
-	"tr:": "Traits",
-	"l:": "Logos"
+    "t": "Card Text",
+	"tr": "Traits",
+	"l": "Logos"
   },
   "deckValidation": {
     "minCards": 0,

@@ -19,9 +19,9 @@
   "groupOrder": [],
   "groupSort": {},
   "searchPrefixes": {
-	  "t:": "Text",
-	  "k:": "Keyword",
-	  "s:": "Subtypes"
+	  "t": "Text",
+	  "k": "Keyword",
+	  "s": "Subtypes"
   },
   "octgnExport": false,
   "deckValidation": {

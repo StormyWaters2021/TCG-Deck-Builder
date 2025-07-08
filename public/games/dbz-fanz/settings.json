@@ -11,9 +11,12 @@
   "filterOptions": [
     "Type",
     "Style",
+	"Traits",
     "Set",
 	"Level"
   ],
+  
+  "filterDelimiter": ",",
   
   "groupOrder": [
     "Hero MP",
@@ -55,9 +58,9 @@
   },
   
   "searchPrefixes": {
-    "t:": "Text",
-    "tr:": "Traits",
-    "e:": "Endurance"
+    "t": "Text",
+    "tr": "Traits",
+    "e": "Endurance"
   },
   
   "deckValidation": {
