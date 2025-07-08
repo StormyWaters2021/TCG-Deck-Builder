@@ -14,7 +14,7 @@
     "Cost",
     "Alignment",
 	"Affiliation",
-	"Glyph",
+	"Mission Glyph",
 	"Mission Skill"
   ],
   "filterDelimiter": ",",
@@ -23,7 +23,7 @@
   
   "searchPrefixes": {
 	"t": "Text",
-	"g": "Glyph",
+	"g": "Mission Glyph",
 	"xp": "Experience",
 	"f": "Firepower",
 	"r": "Revive"
