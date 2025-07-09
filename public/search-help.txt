@@ -1,15 +1,14 @@
+Prefixes also support "none" and "any", as well as numerical comparisons such as prefix:>3. 
+
 Search automatically looks for ALL terms to match. 
 
 Modify with the following operators:
 
 // OR
-fire // water | Returns cards with fire OR with water
+fire // water | Cards with fire OR with water
 
 - NOT
--fire | Returns cards that do NOT have fire
+-fire | Cards that do NOT have fire
 
 () to group terms
-
-(fire // water) earth | Returns cards with either fire OR water, and that also have earth
-
-These operators can be combined with the prefix searching options as well. 
+(fire // water) earth | Cards with either fire OR water, and that also have earth.

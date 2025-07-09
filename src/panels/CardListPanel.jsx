@@ -265,16 +265,22 @@ function evaluate(node, card, searchPrefixes) {
       }
 
       // Handle (none)
-      if (
-        value.trim().toLowerCase() === 'none' ||
-        value.trim().toLowerCase() === '(none)'
-      ) {
-        return (
-          card[property] === undefined ||
-          card[property] === null ||
-          (typeof card[property] === 'string' && card[property].trim() === '')
-        );
-      }
+      const valLower = value.trim().toLowerCase();
+
+if (valLower === 'none' || valLower === '(none)') {
+  return (
+    card[property] === undefined ||
+    card[property] === null ||
+    (typeof card[property] === 'string' && card[property].trim() === '')
+  );
+} else if (valLower === 'any') {
+  return (
+    card[property] !== undefined &&
+    card[property] !== null &&
+    (typeof card[property] !== 'string' || card[property].trim() !== '')
+  );
+}
+
 
       // DEFAULT SEARCH: robustly handle arrays, delimited strings, etc.
       let cardVal = card[property];
@@ -284,7 +290,22 @@ function evaluate(node, card, searchPrefixes) {
       if (typeof cardVal !== "string") {
         cardVal = cardVal?.toString() ?? "";
       }
-      return cardVal.toLowerCase().includes(value.toLowerCase());
+      const comparisonMatch = value.match(/^([<>]=?|=)(\d+(\.\d+)?)$/);
+if (comparisonMatch) {
+  const [, operator, numStr] = comparisonMatch;
+  const num = parseFloat(numStr);
+  const cardNum = parseFloat(cardVal);
+  if (isNaN(cardNum)) return false;
+  switch (operator) {
+    case '=': return cardNum === num;
+    case '<': return cardNum < num;
+    case '>': return cardNum > num;
+    case '<=': return cardNum <= num;
+    case '>=': return cardNum >= num;
+    default: return false;
+  }
+}
+return cardVal.toLowerCase().includes(value.toLowerCase());
     }
     case 'NOT':
       return !evaluate(node.term, card, searchPrefixes);
@@ -364,25 +385,34 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
 
       const rawVal = card[prop];
 
-      if (value === "(none)") {
-        if (
-          rawVal !== undefined &&
-          rawVal !== null &&
-          !(typeof rawVal === "string" && rawVal.trim() === "")
-        ) {
-          return false;
-        }
-      } else {
-        // If delimiter is enabled, check if any value matches
-        const values = (typeof rawVal === "string" && filterDelimiter)
-          ? rawVal.split(filterDelimiter).map(v => v.trim())
-          : [typeof rawVal === "string" ? rawVal.trim() : rawVal];
+      const filterVal = String(value).trim().toLowerCase();
 
-        const stringifiedValue = String(value).trim();
-        if (!values.some(v => String(v).trim() === stringifiedValue)) {
-          return false;
-        }
-      }
+if (filterVal === "(none)") {
+  if (
+    rawVal !== undefined &&
+    rawVal !== null &&
+    !(typeof rawVal === "string" && rawVal.trim() === "")
+  ) {
+    return false;
+  }
+} else if (filterVal === "any") {
+  if (
+    rawVal === undefined ||
+    rawVal === null ||
+    (typeof rawVal === "string" && rawVal.trim() === "")
+  ) {
+    return false;
+  }
+} else {
+  const values = (typeof rawVal === "string" && filterDelimiter)
+    ? rawVal.split(filterDelimiter).map(v => v.trim())
+    : [typeof rawVal === "string" ? rawVal.trim() : rawVal];
+
+  if (!values.some(v => String(v).trim() === value)) {
+    return false;
+  }
+}
+
     }
 
     return true;
@@ -408,7 +438,7 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
         onChange={e => setSearch(e.target.value)}
         title={
           prefixEntries.length > 0
-            ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p]) => `${p}:"..."`).join(', ')}. Use ${prefixEntries.map(([p]) => `${p}:"none"`).join(', ')} for blank/missing. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND.`
+            ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p]) => `${p}:"..."`).join(', ')}. Use ${prefixEntries.map(([p]) => `${p}:"none"`).join(', ')} for blank/missing or ${prefixEntries.map(([p]) => `${p}:"any"`).join(', ')} for all cards with that property. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND.`
             : "Search by name. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND."
         }
       />
@@ -445,8 +475,9 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
               })
             }
           >
-            <option value="">All {prop}</option>
+            <option value="">{prop}</option>
             <option value="(none)">(none)</option>
+			<option value="any">(any)</option>
             {filterProps[prop]
               .filter(val => val !== null)
               .map(val => (
@@ -460,7 +491,7 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
       <div style={{ margin: "0.5em 0", fontWeight: "bold" }}>
         Total cards: {uniqueCards.length}
       </div>
-      <div style={{ maxHeight: "340px", overflowY: "auto" }}>
+      <div style={{ maxHeight: "calc(100vh - 400px)", overflowY: "auto" }}>
         <ul style={{ margin: 0, padding: 0, listStyle: "none" }}>
           {uniqueCards.map(card => (
             <li

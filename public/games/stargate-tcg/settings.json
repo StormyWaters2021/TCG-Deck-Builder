@@ -23,6 +23,10 @@
   
   "searchPrefixes": {
 	"t": "Text",
+	"cul": "Culture",
+	"sci": "Science",
+	"com": "Combat",
+	"ing": "Ingenuity",
 	"g": "Mission Glyph",
 	"xp": "Experience",
 	"f": "Firepower",
