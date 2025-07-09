@@ -138,11 +138,11 @@ function getFilters(cards, filterOptions, delimiter = null) {
     });
   });
 
-  // Always add an entry for "(none)" to the top of each filter
+  // Always add entries for "(none)" and "(any)" to the top of each filter
   return Object.fromEntries(
     Object.entries(props).map(([k, v]) => [
       k,
-      [null, ...Array.from(v).sort((a, b) =>
+      [null, "(any)", ...Array.from(v).sort((a, b) =>
         String(a).localeCompare(String(b), undefined, {
           numeric: true,
           sensitivity: "base"
@@ -276,6 +276,18 @@ function evaluate(node, card, searchPrefixes) {
         );
       }
 
+      // Handle (any)
+      if (
+        value.trim().toLowerCase() === 'any' ||
+        value.trim().toLowerCase() === '(any)'
+      ) {
+        return (
+          card[property] !== undefined &&
+          card[property] !== null &&
+          !(typeof card[property] === 'string' && card[property].trim() === '')
+        );
+      }
+
       // DEFAULT SEARCH: robustly handle arrays, delimited strings, etc.
       let cardVal = card[property];
       if (Array.isArray(cardVal)) {
@@ -372,6 +384,14 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
         ) {
           return false;
         }
+      } else if (value === "(any)") {
+        if (
+          rawVal === undefined ||
+          rawVal === null ||
+          (typeof rawVal === "string" && rawVal.trim() === "")
+        ) {
+          return false;
+        }
       } else {
         // If delimiter is enabled, check if any value matches
         const values = (typeof rawVal === "string" && filterDelimiter)
@@ -408,7 +428,7 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
         onChange={e => setSearch(e.target.value)}
         title={
           prefixEntries.length > 0
-            ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p]) => `${p}:"..."`).join(', ')}. Use ${prefixEntries.map(([p]) => `${p}:"none"`).join(', ')} for blank/missing. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND.`
+            ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p]) => `${p}:"..."`).join(', ')}. Use ${prefixEntries.map(([p]) => `${p}:"none"`).join(', ')} for blank/missing or ${prefixEntries.map(([p]) => `${p}:"any"`).join(', ')} for non-empty. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND.`
             : "Search by name. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND."
         }
       />
@@ -440,6 +460,8 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
                       ? undefined
                       : v === "(none)"
                       ? "(none)"
+                      : v === "(any)"
+                      ? "(any)"
                       : v,
                 };
               })
@@ -447,8 +469,9 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
           >
             <option value="">All {prop}</option>
             <option value="(none)">(none)</option>
+            <option value="(any)">(any)</option>
             {filterProps[prop]
-              .filter(val => val !== null)
+              .filter(val => val !== null && val !== "(any)")
               .map(val => (
                 <option value={val} key={val}>
                   {val}

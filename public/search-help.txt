@@ -12,4 +12,8 @@ fire // water | Returns cards with fire OR with water
 
 (fire // water) earth | Returns cards with either fire OR water, and that also have earth
 
-These operators can be combined with the prefix searching options as well. 
+These operators can be combined with the prefix searching options as well.
+
+Special prefix values:
+prefix:"none" | Returns cards where the prefix field is blank/missing
+prefix:"any" | Returns cards where the prefix field has any non-empty value
