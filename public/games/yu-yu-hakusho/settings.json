@@ -1,0 +1,35 @@
+{
+  "gameName": "yu-yu-hakusho",
+  "game_id": "5e119462-e2a6-4d86-a93c-c1d84fd9b368",
+  "addNValue": 3,
+  "groupOptions": [
+    "Type"
+  ],
+  "filterOptions": [
+    "Type",
+    "Spirit Energy",
+    "Team Name"
+  ],
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {
+	  "e": "Effect",
+	  "s": "Sideline Effect",
+	  "a": "ATK",
+	  "d": "DEF",
+	  "se": "Spirit Energy"
+  },
+  "octgnExport": false,
+  "deckValidation": {
+    "minCards": 40,
+    "maxCards": 9999,
+	"maxCopiesPerCard": 3,
+    "usePerCardLimit": false,
+    "propertyLimits": [
+      {}
+    ],
+    "banList": [
+      "Banned Card Name"
+    ]
+  }
+}
