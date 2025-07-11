@@ -59,16 +59,19 @@ function DeckBuilder({
         setOctgnOverridesProp={setOctgnOverrides}
       />
       <DeckControls
-        deck={deck}
-        cards={cards}
-        settings={settings}
-        game={game}
-        setDeck={setDeck}
-        selectedCard={selectedCard}
-        setGame={setGame}
-        groupBy={groupBy}
-        octgnOverrides={octgnOverrides}
-      />
+  deck={deck}
+  cards={cards}
+  settings={settings}
+  game={game}
+  setDeck={setDeck}
+  selectedCard={selectedCard}
+  setGame={setGame}
+  groupBy={groupBy}
+  setGroupBy={setGroupBy} 
+  octgnOverrides={octgnOverrides}
+  setOctgnOverrides={setOctgnOverrides}
+/>
+
     </div>
   );
 }

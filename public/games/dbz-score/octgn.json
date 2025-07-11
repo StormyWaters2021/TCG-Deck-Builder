@@ -5,7 +5,7 @@
       "name": "Starting",
       "shared": false,
       "criteria": {
-		  "Type": ["Mastery", "Personality - Hero", "Personality - Villain", "Personality - Rogue"]
+		  "Type": ["Mastery", "Personality - Hero", "Personality - Villain", "Personality - Rogue", "Sensei"]
       }
     },
     {
@@ -18,7 +18,7 @@
       "name": "Life Deck",
       "shared": false,
       "criteria": {
-		  "Type": ["Battleground", "Combat", "Event Combat", "Energy Combat", "Physical Combat", "Non-Combat: Drill", "Location", "Event", "Non-Combat: Setup", "Sensei", "Dragon Ball"]
+		  "Type": ["Battleground", "Combat", "Event Combat", "Energy Combat", "Physical Combat", "Non-Combat: Drill", "Location", "Event", "Non-Combat: Setup", "Dragon Ball"]
       }
     }
   ],
