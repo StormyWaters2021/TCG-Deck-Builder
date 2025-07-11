@@ -162,21 +162,489 @@ export function getCardImageUrl(card, game) {
 }
 
 // --- Export deck as image (compact grid) ---
-// (unchanged, omitted for brevity in prompt, but must be included in full file)
-
 async function exportDeckImageCompact(deck, cards, settings, deckName, game) {
-  // ... (unchanged, see previous code)
-  // This function is unchanged from your file, include it in your file.
+  const cardWidth = 180;
+  const cardHeight = 252;
+  const paddingX = 18;
+  const paddingY = 20;
+  const labelHeight = 46;
+  const dpr = 2;
+
+  // Configurable settings with fallbacks:
+  const gridCols = settings.compactExportCols || 5;
+  const headingRow = settings.compactExportHeadingRow || false;
+  const verticalOffsetFactor = settings.compactVerticalOffsetFactor ?? 0.10;
+  // New: allow a different vertical offset for horizontal stacks
+  const horizontalStackVerticalOffsetFactor =
+    settings.compactHorizontalStackVerticalOffsetFactor ?? verticalOffsetFactor;
+  const rowShiftFactor = settings.compactRowShiftFactor ?? 0.5;
+
+  // --- Begin: Horizontal card stacking by property/quantity ---
+  const stackProp = settings.compactHorizontalStackProperty;
+  const stackQuantities = settings.compactHorizontalStackQuantity || {};
+
+  const exportList = getSortedExportListWithDisplayOrder(deck, cards, settings);
+
+  const missing = exportList.filter(({ card }) => !card).map(({ group }, i) => `Card ${i} in group ${group}`);
+  if (missing.length === exportList.length) {
+    alert("No cards in the deck could be found in the card list. Cannot export image.");
+    return;
+  }
+  if (missing.length > 0) {
+    alert("Warning: Some cards could not be found and will not be included in the export:\n" + missing.join("\n"));
+  }
+  const filteredExportList = exportList.filter(({ card }) => card);
+
+  const cardImageCache = {};
+  await Promise.all(
+    filteredExportList.map(async ({ card }) => {
+      if (!cardImageCache[card.id]) {
+        const url = getCardImageUrl(card, game);
+        cardImageCache[card.id] = await loadImage(url);
+      }
+    })
+  );
+
+  // --- Build outputList with horizontal stacking by property/value ---
+  let outputList = [];
+  if (stackProp) {
+    // Separate horizontal and non-horizontal entries
+    const nonHoriz = [];
+    const horizGroups = {};
+    for (const entry of filteredExportList) {
+      const { card, qty } = entry;
+      if (card.Orientation === "Horizontal") {
+        const propVal = card[stackProp] || "";
+        if (!horizGroups[propVal]) horizGroups[propVal] = [];
+        for (let i = 0; i < qty; ++i) {
+          horizGroups[propVal].push(card);
+        }
+      } else {
+        nonHoriz.push(entry);
+      }
+    }
+    // Add non-horizontal cards first
+    for (const entry of nonHoriz) {
+      outputList.push({
+        horizontalStack: false,
+        ...entry
+      });
+    }
+    // Then add horizontal stacks so they appear at the bottom
+    for (const [propVal, cardArr] of Object.entries(horizGroups)) {
+      const stackQty = stackQuantities[propVal] || 1;
+      let i = 0;
+      while (i < cardArr.length) {
+        const stack = [];
+        for (let s = 0; s < stackQty && i < cardArr.length; ++s, ++i) {
+          stack.push(cardArr[i]);
+        }
+        outputList.push({
+          horizontalStack: true,
+          stackPropValue: propVal,
+          cards: stack,
+          stackQty: stack.length
+        });
+      }
+    }
+  } else {
+    // Original logic: every entry as-is
+    for (const entry of filteredExportList) {
+      outputList.push({
+        horizontalStack: false,
+        ...entry
+      });
+    }
+  }
+
+  // Calculate the normal row width for vertical cards
+  const normalRowWidth = gridCols * cardWidth + (gridCols + 1) * paddingX;
+
+  // Build rows, starting new row for horizontal stacks if needed
+  const rows = [];
+  let currentRow = [];
+  let currentWidth = paddingX;
+
+  for (const item of outputList) {
+    let w;
+    if (item.horizontalStack) {
+      w = cardHeight;
+    } else {
+      const c = item.card;
+      w = c.Orientation === "Horizontal" ? cardHeight : cardWidth;
+    }
+    // If this is a horizontal stack and it would overflow normal row width, start new row
+    if (
+      item.horizontalStack &&
+      currentWidth + w > normalRowWidth &&
+      currentRow.length > 0
+    ) {
+      rows.push(currentRow);
+      currentRow = [];
+      currentWidth = paddingX;
+    }
+    // Otherwise, if current row is full (for gridCols), start new row
+    else if (!item.horizontalStack && currentRow.length >= gridCols) {
+      rows.push(currentRow);
+      currentRow = [];
+      currentWidth = paddingX;
+    }
+    currentRow.push(item);
+    currentWidth += w + paddingX;
+  }
+  if (currentRow.length > 0) {
+    rows.push(currentRow);
+  }
+
+  // Calculate Y start positions for each row
+  const yStarts = [];
+  let y = labelHeight + paddingY;
+  for (let i = 0; i < rows.length; ++i) {
+    yStarts.push(y);
+    let lowest = 0;
+    for (let c = 0; c < rows[i].length; ++c) {
+      const item = rows[i][c];
+      let h, stackQty, offsetF;
+      if (item.horizontalStack) {
+        h = cardWidth;
+        stackQty = item.stackQty;
+        offsetF = horizontalStackVerticalOffsetFactor;
+      } else {
+        const cc = item.card;
+        h = cc.Orientation === "Horizontal" ? cardWidth : cardHeight;
+        stackQty = item.qty;
+        offsetF = verticalOffsetFactor;
+      }
+      const verticalCardOffset = Math.round(h * offsetF);
+      const bottom = y + (stackQty - 1) * verticalCardOffset + h;
+      if (bottom > lowest) lowest = bottom;
+    }
+    if (i === 0 && headingRow) {
+      y += lowest + paddingY;
+    } else {
+      y = Math.round(lowest - cardHeight * rowShiftFactor);
+    }
+  }
+
+  // Compute max row width for canvas width
+  let maxRowWidth = 0;
+  for (const row of rows) {
+    let rowWidth = paddingX;
+    for (const item of row) {
+      let w;
+      if (item.horizontalStack) {
+        w = cardHeight;
+      } else {
+        const c = item.card;
+        w = c.Orientation === "Horizontal" ? cardHeight : cardWidth;
+      }
+      rowWidth += w + paddingX;
+    }
+    if (rowWidth > maxRowWidth) maxRowWidth = rowWidth;
+  }
+
+  // Compute bottom of last row to calculate canvas height
+  let lastRow = rows.length - 1;
+  let lastRowLowest = 0;
+  if (lastRow >= 0) {
+    const yRow = yStarts[lastRow];
+    for (let c = 0; c < rows[lastRow].length; ++c) {
+      const item = rows[lastRow][c];
+      let h, stackQty, offsetF;
+      if (item.horizontalStack) {
+        h = cardWidth;
+        stackQty = item.stackQty;
+        offsetF = horizontalStackVerticalOffsetFactor;
+      } else {
+        const cc = item.card;
+        h = cc.Orientation === "Horizontal" ? cardWidth : cardHeight;
+        stackQty = item.qty;
+        offsetF = verticalOffsetFactor;
+      }
+      const verticalCardOffset = Math.round(h * offsetF);
+      const bottom = yRow + (stackQty - 1) * verticalCardOffset + h;
+      if (bottom > lastRowLowest) lastRowLowest = bottom;
+    }
+  }
+
+  const width = maxRowWidth;
+  const height = Math.round(lastRowLowest + cardHeight * rowShiftFactor + paddingY);
+
+  // Create canvas and scale for device pixel ratio
+  const canvas = document.createElement("canvas");
+  canvas.width = width * dpr;
+  canvas.height = height * dpr;
+  const ctx = canvas.getContext("2d");
+  ctx.scale(dpr, dpr);
+
+  // Background
+  ctx.fillStyle = "#fff";
+  ctx.fillRect(0, 0, width, height);
+
+  // Deck name label
+  ctx.font = "bold 32px sans-serif";
+  ctx.fillStyle = "#222";
+  ctx.textAlign = "left";
+  ctx.fillText(deckName || "Deck", paddingX, Math.round(labelHeight * 0.75));
+
+  // Draw cards
+  for (let rowIdx = 0; rowIdx < rows.length; ++rowIdx) {
+    const row = rows[rowIdx];
+    const yRow = yStarts[rowIdx];
+    let x = paddingX;
+    for (let colIdx = 0; colIdx < row.length; ++colIdx) {
+      const item = row[colIdx];
+      if (item.horizontalStack) {
+        // Draw each card in stack, offset
+        const w = cardHeight, h = cardWidth;
+        const stackQty = item.stackQty;
+        const stackCards = item.cards;
+        const verticalCardOffset = Math.round(h * horizontalStackVerticalOffsetFactor);
+        for (let q = 0; q < stackQty; ++q) {
+          const y = yRow + q * verticalCardOffset;
+          const card = stackCards[q];
+          if (card) {
+            const img = cardImageCache[card.id];
+            ctx.drawImage(img, x, y, w, h);
+          }
+        }
+        x += w + paddingX;
+      } else {
+        const { card, qty } = item;
+        const isHorizontal = card.Orientation === "Horizontal";
+        const w = isHorizontal ? cardHeight : cardWidth;
+        const h = isHorizontal ? cardWidth : cardHeight;
+        const verticalCardOffset = Math.round(h * verticalOffsetFactor);
+        const img = cardImageCache[card.id];
+        for (let q = 0; q < qty; ++q) {
+          const y = yRow + q * verticalCardOffset;
+          ctx.drawImage(img, x, y, w, h);
+        }
+        x += w + paddingX;
+      }
+    }
+  }
+
+  // Export image blob
+  canvas.toBlob(blob => {
+    if (!blob) return;
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `${deckName || "deck"}.png`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  }, "image/png");
 }
 
 async function exportDeckImage(deck, cards, settings, deckName, game) {
-  // ... (unchanged, see previous code)
-  // This function is unchanged from your file, include it in your file.
+  const cardWidth = 150;
+  const cardHeight = 210;
+  const gridCols = 5;
+  const paddingX = 16;
+  const paddingY = 18;
+  const labelHeight = 40;
+
+  const exportList = getSortedExportListWithDisplayOrder(deck, cards, settings);
+
+  const missing = exportList.filter(({ card }) => !card).map(({ group }, i) => `Card ${i} in group ${group}`);
+  if (missing.length === exportList.length) {
+    alert("No cards in the deck could be found in the card list. Cannot export image.");
+    return;
+  }
+  if (missing.length > 0) {
+    alert("Warning: Some cards could not be found and will not be included in the export:\n" + missing.join("\n"));
+  }
+  const filteredExportList = exportList.filter(({ card }) => card);
+
+  const cardImages = await Promise.all(
+    filteredExportList.map(({ card }) => loadImage(getCardImageUrl(card, game)))
+  );
+  const cardDims = filteredExportList.map(({ card }) => {
+    const isHorizontal = card.Orientation === "Horizontal";
+    return {
+      width: isHorizontal ? cardHeight : cardWidth,
+      height: isHorizontal ? cardWidth : cardHeight
+    };
+  });
+
+  const rows = [];
+  let cursor = 0;
+  while (cursor < filteredExportList.length) {
+    const row = filteredExportList.slice(cursor, cursor + gridCols).map((entry, i) => ({
+      ...entry,
+      width: cardDims[cursor + i].width,
+      height: cardDims[cursor + i].height,
+      img: cardImages[cursor + i]
+    }));
+    rows.push(row);
+    cursor += gridCols;
+  }
+
+  const rowHeights = rows.map(row =>
+    Math.max(...row.map(card => card.height))
+  );
+  const rowWidths = rows.map(row =>
+    row.reduce((sum, card) => sum + card.width + paddingX, paddingX)
+  );
+
+  const width = Math.max(...rowWidths);
+  const height = labelHeight + rowHeights.reduce((sum, h) => sum + h + paddingY, 0) + paddingY;
+
+  const canvas = document.createElement("canvas");
+  canvas.width = width;
+  canvas.height = height;
+  const ctx = canvas.getContext("2d");
+
+  ctx.fillStyle = "#fff";
+  ctx.fillRect(0, 0, width, height);
+
+  ctx.font = "bold 28px sans-serif";
+  ctx.fillStyle = "#222";
+  ctx.textAlign = "left";
+  ctx.fillText(deckName || "Deck", paddingX, 32);
+
+  let y = labelHeight + paddingY;
+  for (let rowIdx = 0; rowIdx < rows.length; ++rowIdx) {
+    const row = rows[rowIdx];
+    let x = paddingX;
+    for (let colIdx = 0; colIdx < row.length; ++colIdx) {
+      const { qty, img, width: w, height: h } = row[colIdx];
+      ctx.drawImage(img, x, y, w, h);
+
+      const badgeX = x + 8;
+      const badgeY = y + h - 8;
+      ctx.save();
+      ctx.font = "bold 28px sans-serif";
+      ctx.textAlign = "left";
+      ctx.textBaseline = "bottom";
+      ctx.fillStyle = "rgba(0,0,0,0.7)";
+      ctx.fillRect(badgeX - 2, badgeY - 32, 44, 32);
+      ctx.fillStyle = "#fff";
+      ctx.fillText(`×${qty}`, badgeX, badgeY - 4);
+      ctx.restore();
+
+      x += w + paddingX;
+    }
+    y += rowHeights[rowIdx] + paddingY;
+  }
+
+  canvas.toBlob(blob => {
+    if (!blob) return;
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `${deckName || "deck"}.png`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  }, "image/png");
 }
 
 async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, currentGroupBy) {
-  // ... (unchanged, see previous code)
-  // This function is unchanged from your file, include it in your file.
+  let base = "/";
+  if (typeof import.meta !== "undefined" && import.meta.env && import.meta.env.BASE_URL) {
+    base = import.meta.env.BASE_URL;
+    if (!base.endsWith("/")) base += "/";
+  }
+  const gameName = settings.gameName || settings.game || "";
+  const gameSegment = encodeURIComponent(gameName);
+  let octgnJsonUrl = `${base}games/${gameSegment}/octgn.json`;
+  let octgnSettings;
+  try {
+    let resp = await fetch(octgnJsonUrl);
+    if (!resp.ok) {
+      octgnJsonUrl = `${base}games/${gameName}/octgn.json`;
+      resp = await fetch(octgnJsonUrl);
+    }
+    octgnSettings = await resp.json();
+  } catch (e) {
+    alert("OCTGN export settings not found or invalid.\nTried: " + octgnJsonUrl);
+    return;
+  }
+
+  // Helper: match ANY criteria (OR)
+  function cardMatchesSection(card, section) {
+    if (!section.criteria) return false;
+    return Object.entries(section.criteria).some(([prop, values]) => {
+      const cardVal = card[prop];
+      if (Array.isArray(values)) {
+        if (Array.isArray(cardVal)) {
+          return cardVal.some((v) => values.includes(v));
+        }
+        return values.includes(cardVal);
+      }
+      return cardVal === values;
+    });
+  }
+
+  // Gather valid section names
+  const validSectionNames = new Set(octgnSettings.sections.map(s => s.name));
+  const sectionMap = {};
+  for (const section of octgnSettings.sections) {
+    sectionMap[section.name] = [];
+  }
+  if (octgnSettings.defaultSection && !(octgnSettings.defaultSection in sectionMap)) {
+    sectionMap[octgnSettings.defaultSection] = [];
+  }
+
+  // Main assignment logic
+  for (const [cardId, qty] of Object.entries(deck)) {
+    if (!qty || qty <= 0) continue;
+    const card = cards.find(c => c.id === cardId);
+    let placed = false;
+
+    // 1. User grouping if available and valid
+    if (
+      currentGroupBy === "OCTGN" &&
+      octgnOverrides &&
+      octgnOverrides[cardId] &&
+      octgnOverrides[cardId] !== "Ungrouped" &&
+      validSectionNames.has(octgnOverrides[cardId])
+    ) {
+      const sectionName = octgnOverrides[cardId];
+      sectionMap[sectionName].push({ card, qty });
+      placed = true;
+    }
+
+    // 2. Criteria-based fallback
+    if (!placed) {
+      for (const section of octgnSettings.sections) {
+        if (cardMatchesSection(card, section)) {
+          sectionMap[section.name].push({ card, qty });
+          placed = true;
+          break;
+        }
+      }
+      // 3. Default section fallback
+      if (!placed && octgnSettings.defaultSection && sectionMap[octgnSettings.defaultSection]) {
+        sectionMap[octgnSettings.defaultSection].push({ card, qty });
+      }
+    }
+  }
+
+  let sectionsXml = "";
+  for (const sectionName in sectionMap) {
+    const section = octgnSettings.sections.find(s => s.name === sectionName) || { name: sectionName, shared: false };
+    const cardsXml = sectionMap[sectionName].map(({ card, qty }) =>
+      `    <card qty="${qty}" id="${card.id}">${card.name}</card>`
+    ).join("\n");
+    if (sectionMap[sectionName].length === 0) {
+      sectionsXml += `  <section name="${sectionName}" shared="${section.shared ? "True" : "False"}" />\n`;
+    } else {
+      sectionsXml += `  <section name="${sectionName}" shared="${section.shared ? "True" : "False"}">\n${cardsXml}\n  </section>\n`;
+    }
+  }
+
+  const xml = `<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="${octgnSettings.gameGuid}">
+${sectionsXml}  <notes><![CDATA[]]></notes>
+</deck>
+`;
+
+  const blob = new Blob([xml], { type: "application/xml" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `${deckName || "deck"}.o8d`;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
 
 function DeckControls({
