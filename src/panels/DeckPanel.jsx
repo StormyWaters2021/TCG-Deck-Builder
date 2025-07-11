@@ -51,8 +51,9 @@ function sortGroup(cards, groupSortConfig) {
   const customOrders = groupSortConfig.order || {};
   return [...cards].sort((a, b) => {
     for (const prop of sortProps) {
-      const av = a.card?.[prop] ?? "";
-      const bv = b.card?.[prop] ?? "";
+      // Ensure property values are always strings for custom order sorting
+      const av = String(a.card?.[prop] ?? "");
+      const bv = String(b.card?.[prop] ?? "");
       if (customOrders[prop]) {
         const order = customOrders[prop];
         const ai = order.indexOf(av);
@@ -244,24 +245,24 @@ function DeckStatsBanner({ deck, cards, statsConfig }) {
         </span>
       );
     } 
-	else if (item.type === "sumPropertyOfCardsWhereContains") {
-    // New stat type!
-    // item.filterProp: property to filter on
-    // item.contains: substring to look for
-    // item.sumProp: property to sum
-    const { total, cardsWithProp } = sumPropertyOfCardsWhereContains(deckList, item.filterProp, item.contains, item.sumProp);
-    stats.push(
-      <span
-        key={`sumPropertyOfCardsWhereContains:${item.filterProp}:${item.contains}:${item.sumProp}`}
-        className="deck-stat"
-      >
-        {item.label ||
-          `Sum of ${item.sumProp} for cards with ${item.filterProp} containing "${item.contains}"`}:{" "}
-        <b>{total}</b>
-        {` (${cardsWithProp} card${cardsWithProp !== 1 ? "s" : ""})`}
-      </span>
-    );
-  }
+    else if (item.type === "sumPropertyOfCardsWhereContains") {
+      // New stat type!
+      // item.filterProp: property to filter on
+      // item.contains: substring to look for
+      // item.sumProp: property to sum
+      const { total, cardsWithProp } = sumPropertyOfCardsWhereContains(deckList, item.filterProp, item.contains, item.sumProp);
+      stats.push(
+        <span
+          key={`sumPropertyOfCardsWhereContains:${item.filterProp}:${item.contains}:${item.sumProp}`}
+          className="deck-stat"
+        >
+          {item.label ||
+            `Sum of ${item.sumProp} for cards with ${item.filterProp} containing "${item.contains}"`}:{" "}
+          <b>{total}</b>
+          {` (${cardsWithProp} card${cardsWithProp !== 1 ? "s" : ""})`}
+        </span>
+      );
+    }
     // countType: count cards with a property equal to a value
     else if (item.type === "countType") {
       const count = countType(item.prop, item.value);
@@ -507,7 +508,7 @@ function DeckPanel({
       );
     }
     if (settings.deckValidation.usePerCardLimit && !isNaN(Number(card.Limit)) && qty > Number(card.Limit))
- {
+    {
       errors.push(`${name} is Limit: ${card.Limit}.`);
     }
   }
@@ -614,26 +615,26 @@ function DeckPanel({
 
   const normalize = (name) => name.toLowerCase().replace(/[\W_]+/g, "").trim();
 
-const deckCardsByNormalizedName = {};
-Object.entries(deck).forEach(([cardId, qty]) => {
-  const card = cards.find(c => c.id === cardId);
-  if (!card) return;
-  const normName = normalize(card.name);
-  if (!deckCardsByNormalizedName[normName]) {
-    deckCardsByNormalizedName[normName] = { card, qty };
-  } else {
-    deckCardsByNormalizedName[normName].qty += qty;
+  const deckCardsByNormalizedName = {};
+  Object.entries(deck).forEach(([cardId, qty]) => {
+    const card = cards.find(c => c.id === cardId);
+    if (!card) return;
+    const normName = normalize(card.name);
+    if (!deckCardsByNormalizedName[normName]) {
+      deckCardsByNormalizedName[normName] = { card, qty };
+    } else {
+      deckCardsByNormalizedName[normName].qty += qty;
+    }
+  });
+
+  const bannedNamesInDeck = (settings.deckValidation.banList || [])
+    .map(normalize)
+    .filter(name => deckCardsByNormalizedName[name]);
+
+  if (bannedNamesInDeck.length) {
+    const actualNames = bannedNamesInDeck.map(name => deckCardsByNormalizedName[name].card.name);
+    errors.push("Banned cards in deck: " + actualNames.join(", "));
   }
-});
-
-const bannedNamesInDeck = (settings.deckValidation.banList || [])
-  .map(normalize)
-  .filter(name => deckCardsByNormalizedName[name]);
-
-if (bannedNamesInDeck.length) {
-  const actualNames = bannedNamesInDeck.map(name => deckCardsByNormalizedName[name].card.name);
-  errors.push("Banned cards in deck: " + actualNames.join(", "));
-}
 
   // Swap logic: only swap among printings with same name AND same subtitle
   function handleSwap(card, qty) {
@@ -677,8 +678,8 @@ if (bannedNamesInDeck.length) {
       {groupBy === "OCTGN" && filteredSections ? (
         getSortedGroupNames(grouped).map((sectionName) => {
           const sectionCards = grouped[sectionName] || [];
-		  const sortProps = groupSorts[sectionName];
-		  const sortedSectionCards = sortGroup(sectionCards, sortProps);
+          const sortProps = groupSorts[sectionName];
+          const sortedSectionCards = sortGroup(sectionCards, sortProps);
           return (
             <div
               key={sectionName}
@@ -691,7 +692,7 @@ if (bannedNamesInDeck.length) {
               </div>
               {displayMode === "grid" ? (
                 <div className="deck-group-grid">
-                  {sectionCards.map(({ card, qty }) => {
+                  {sortedSectionCards.map(({ card, qty }) => {
                     const altCount = getAlternatePrintings(card, cards).length;
                     return (
                       <div
@@ -753,7 +754,7 @@ if (bannedNamesInDeck.length) {
                 </div>
               ) : (
                 <ul className="deck-group-list">
-                  {sectionCards.map(({ card, qty }) => {
+                  {sortedSectionCards.map(({ card, qty }) => {
                     const altCount = getAlternatePrintings(card, cards).length;
                     return (
                       <li

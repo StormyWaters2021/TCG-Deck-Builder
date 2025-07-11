@@ -1,0 +1,26 @@
+{
+  "gameGuid": "b5df32b4-59b4-4a67-aa6c-8636ae8daf07",
+  "sections": [
+    {
+      "name": "Starting",
+      "shared": false,
+      "criteria": {
+		  "Type": ["Mastery", "Personality - Hero", "Personality - Villain", "Personality - Rogue"]
+      }
+    },
+    {
+      "name": "Sensei Deck",
+      "shared": false,
+      "criteria": {
+      }
+    },
+    {
+      "name": "Life Deck",
+      "shared": false,
+      "criteria": {
+		  "Type": ["Battleground", "Combat", "Event Combat", "Energy Combat", "Physical Combat", "Non-Combat: Drill", "Location", "Event", "Non-Combat: Setup", "Sensei", "Dragon Ball"]
+      }
+    }
+  ],
+  "defaultSection": "Life Deck"
+}

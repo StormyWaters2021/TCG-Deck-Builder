@@ -12987,34 +12987,6 @@
     "supertype": "personality"
   },
   {
-    "id": "61e0cede-dcc3-4e11-ae89-139c2ea8ed64",
-    "name": "Fusion Saga PAT",
-    "Card Number": "PAT",
-    "Rarity": "PAT",
-    "Type": "Physical Attack Table",
-    "Limit": "1",
-    "Text": "Fusion Saga Physical Attack Table.",
-    "Set": "01 - Saiyan Saga",
-    "index": "Z8",
-    "Designer": "Official",
-    "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
-    "image": "61e0cede-dcc3-4e11-ae89-139c2ea8ed64.jpg"
-  },
-  {
-    "id": "95f9e2ae-7f64-49d9-92df-a8a12b1b7a1a",
-    "name": "Fusion Saga PAT",
-    "Card Number": "PAT",
-    "Rarity": "PAT",
-    "Type": "Physical Attack Table",
-    "Limit": "1",
-    "Text": "Fusion Saga Physical Attack Table.",
-    "Set": "10 - Fusion Saga",
-    "index": "74",
-    "Designer": "Official",
-    "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
-    "image": "95f9e2ae-7f64-49d9-92df-a8a12b1b7a1a.jpg"
-  },
-  {
     "id": "c0825339-0069-4c2d-8c4a-a03221020fb8",
     "name": "Future Gohan",
     "Card Level": "1",

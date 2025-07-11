@@ -3,7 +3,8 @@
   "game_id": "b5df32b4-59b4-4a67-aa6c-8636ae8daf07",
   "addNValue": 3,
   "groupOptions": [
-    "Type"
+    "OCTGN", 
+	"Type"
   ],
   "filterOptions": [
     "Type",
@@ -17,8 +18,15 @@
 	"Personality - Villain",
 	"Personality - Rogue"
   ],
+  
   "groupSort": {
-    "Personality - Hero": {
+    "Starting": {
+      "by": ["Card Level", "name"],
+    "order": {
+      "Card Level": ["1", "2", "3", "4", "5"]
+      }
+    },
+	"Personality - Hero": {
       "by": [
         "Card Level",
         "name"
@@ -69,7 +77,7 @@
 	"e": "Endurance",
 	"l": "Card Level"
   },
-  "octgnExport": false,
+  "octgnExport": true,
   "deckValidation": {
     "minCards": 50,
     "maxCards": 85,
