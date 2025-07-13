@@ -81,6 +81,7 @@
   "deckValidation": {
     "minCards": 50,
     "maxCards": 85,
+	"minMaxExclude": { "group": ["Sensei Deck"] },
 	"maxCopiesPerCard": 9999,
     "usePerCardLimit": true,
     "propertyLimits": [

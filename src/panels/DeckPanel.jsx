@@ -1,5 +1,6 @@
 	import React, { useMemo, useState, useEffect, useRef } from "react";
 	import CardPreview from "../components/CardPreview";
+	import { matchesExclude } from "../utils/matchesExclude";
 
 	// Helper: Display name with subtitle if present (handles both Subtitle and subtitle)
 	function cardNameWithSubtitle(card) {
@@ -564,15 +565,41 @@
 		  processedDeckByName[name].cardIds.push(cardId);
 		});
 
-	  const totalCards = Object.values(deck).reduce(
-	  (sum, entry) => sum + entry.count,
-	  0
-	);
-	  const errors = [];
-	  if (totalCards < settings.deckValidation.minCards)
-		errors.push("Not enough cards in deck!");
-	  if (totalCards > settings.deckValidation.maxCards)
-		errors.push("Too many cards in deck!");
+	  const minMaxExclude = settings.deckValidation?.minMaxExclude;
+const errors = [];
+const totalCards = Object.entries(deck).reduce((sum, [cardId, entry]) => {
+  const card = cards.find(c => c.id === cardId);
+  if (!card) return sum;
+
+  // Split group handling
+  if (entry.group && typeof entry.group === "object" && Object.keys(entry.group).length > 0) {
+    return (
+      sum +
+      Object.entries(entry.group).reduce((innerSum, [groupName, qty]) => {
+        const excluded = matchesExclude(card, minMaxExclude, groupName);
+        console.log(`[SPLIT] Card: ${card.name}, Group: ${groupName}, Qty: ${qty}, Excluded: ${excluded}`);
+        if (excluded) return innerSum;
+        return innerSum + qty;
+      }, 0)
+    );
+  }
+
+  // Single group string or fallback
+  let groupName = null;
+  if (typeof entry.group === "string" && entry.group) {
+    groupName = entry.group;
+  } else if (card && card[groupBy]) {
+    groupName = card[groupBy];
+  }
+  const excluded = matchesExclude(card, minMaxExclude, groupName);
+  console.log(`[NORMAL] Card: ${card.name}, Group: ${groupName}, Qty: ${entry.count}, Excluded: ${excluded}`);
+  if (excluded) return sum;
+  return sum + entry.count;
+}, 0);
+if (totalCards < settings.deckValidation.minCards)
+  errors.push("Not enough cards in deck!");
+if (totalCards > settings.deckValidation.maxCards)
+  errors.push("Too many cards in deck!");
 
 	  for (const name in processedDeckByName) {
 		const { qty, card } = processedDeckByName[name];
@@ -600,9 +627,10 @@
 		  continue;
 		}
 		// Use processedDeckByName for property validation
-		const count = Object.values(processedDeckByName).reduce((sum, { qty, card }) =>
-		  matchesCard(card) ? sum + qty : sum
-		, 0);
+		  const count = Object.values(processedDeckByName).reduce((sum, { qty, card }) => {
+    if (matchesExclude(card, rule.exclude, card.group)) return sum;
+    return matchesCard(card) ? sum + qty : sum;
+  }, 0);
 
 		// Build the property description for the error message
 		let propDesc = "";
