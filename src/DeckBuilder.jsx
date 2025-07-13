@@ -17,20 +17,64 @@ function DeckBuilder({
 }) {
   const [selectedCard, setSelectedCard] = useState(null);
 
-  const addCard = (cardId, qty) => {
-    setDeck(prev => ({
+  const addCard = (cardId, qty, groupName) => {
+  setDeck(prev => {
+    const prevEntry = prev[cardId] || { count: 0, group: {}, tags: [] };
+    const newCount  = prevEntry.count + qty;
+    const newGroup  = { ...prevEntry.group };
+
+    // Only adjust subgroup if one was passed
+    if (groupName) {
+      newGroup[groupName] = (newGroup[groupName] || 0) + qty;
+    }
+
+    return {
       ...prev,
-      [cardId]: (prev[cardId] || 0) + qty
-    }));
-  };
-  const removeCard = (cardId, qty) => {
-    setDeck(prev => {
-      const newDeck = { ...prev };
-      newDeck[cardId] = Math.max(0, (newDeck[cardId] || 0) - qty);
-      if (newDeck[cardId] === 0) delete newDeck[cardId];
-      return newDeck;
-    });
-  };
+      [cardId]: { 
+        count: newCount, 
+        group: newGroup 
+      }
+    };
+  });
+};
+
+const removeCard = (cardId, qty, groupName) => {
+  setDeck(prev => {
+    const prevEntry = prev[cardId];
+    if (!prevEntry) return prev;
+
+    const newCount = Math.max(prevEntry.count - qty, 0);
+    // Copy old groups (might be empty)
+    let newGroup = { ...prevEntry.group };
+
+    if (groupName) {
+      // If this is the first manual move for this card,
+      // seed the group bucket with all existing copies:
+      if (Object.keys(newGroup).length === 0) {
+        newGroup[groupName] = prevEntry.count;
+      }
+      // Now remove 'qty' from that bucket:
+      newGroup[groupName] = Math.max((newGroup[groupName] || 0) - qty, 0);
+      if (newGroup[groupName] === 0) {
+        delete newGroup[groupName];
+      }
+    }
+
+    // If count goes to zero, drop the card entirely
+    if (newCount === 0) {
+      const { [cardId]: _, ...rest } = prev;
+      return rest;
+    }
+
+    return {
+      ...prev,
+      [cardId]: {
+        count: newCount,
+        group: newGroup
+      }
+    };
+  });
+};
 
   // Find the selected card object from cards array
   const selectedCardObj = cards.find(c => c.id === selectedCard);

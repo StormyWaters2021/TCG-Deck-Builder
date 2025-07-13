@@ -144,6 +144,15 @@ function decodeDeck(str, cards) {
   return obj;
 }
 
+function decodeDeckAsEntries(str, cards) {
+  const raw = decodeDeck(str, cards);
+  const deck = {};
+  Object.entries(raw).forEach(([id, count]) => {
+    deck[id] = { count };
+  });
+  return deck;
+}
+
 // --- Helper to load an image and return a promise
 function loadImage(url) {
   return new Promise((resolve, reject) => {
@@ -567,7 +576,7 @@ async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, 
       const cardVal = card[prop];
       if (Array.isArray(values)) {
         if (Array.isArray(cardVal)) {
-          return cardVal.some((v) => values.includes(v));
+          return cardVal.some(v => values.includes(v));
         }
         return values.includes(cardVal);
       }
@@ -575,8 +584,7 @@ async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, 
     });
   }
 
-  // Gather valid section names
-  const validSectionNames = new Set(octgnSettings.sections.map(s => s.name));
+  // Build an array for each section name
   const sectionMap = {};
   for (const section of octgnSettings.sections) {
     sectionMap[section.name] = [];
@@ -585,59 +593,78 @@ async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, 
     sectionMap[octgnSettings.defaultSection] = [];
   }
 
-  // Main assignment logic
-  for (const [cardId, qty] of Object.entries(deck)) {
-    if (!qty || qty <= 0) continue;
+  // Walk every deck entry
+  for (const [cardId, entry] of Object.entries(deck)) {
+    const total = entry.count;
+    if (!total || total <= 0) continue;
     const card = cards.find(c => c.id === cardId);
-    let placed = false;
+    if (!card) continue;
 
-    // 1. User grouping if available and valid
-    if (
-      currentGroupBy === "OCTGN" &&
-      octgnOverrides &&
-      octgnOverrides[cardId] &&
-      octgnOverrides[cardId] !== "Ungrouped" &&
-      validSectionNames.has(octgnOverrides[cardId])
-    ) {
-      const sectionName = octgnOverrides[cardId];
-      sectionMap[sectionName].push({ card, qty });
-      placed = true;
-    }
-
-    // 2. Criteria-based fallback
-    if (!placed) {
-      for (const section of octgnSettings.sections) {
-        if (cardMatchesSection(card, section)) {
-          sectionMap[section.name].push({ card, qty });
-          placed = true;
-          break;
+    // 1) If entry.group is a non-empty object, use those splits
+    if (entry.group && typeof entry.group === "object" && Object.keys(entry.group).length > 0) {
+      for (const [sectName, sectQty] of Object.entries(entry.group)) {
+        if (sectQty > 0 && sectName in sectionMap) {
+          sectionMap[sectName].push({ card, qty: sectQty });
         }
       }
-      // 3. Default section fallback
-      if (!placed && octgnSettings.defaultSection && sectionMap[octgnSettings.defaultSection]) {
-        sectionMap[octgnSettings.defaultSection].push({ card, qty });
+
+    } else {
+      // 2) Otherwise fallback to override → criteria → default
+
+      let placed = false;
+
+      // a) user drag/drop override
+      const override = octgnOverrides && octgnOverrides[cardId];
+      if (currentGroupBy === "OCTGN" &&
+          override &&
+          override !== "Ungrouped" &&
+          override in sectionMap) {
+        sectionMap[override].push({ card, qty: total });
+        placed = true;
+      }
+
+      // b) criteria-based
+      if (!placed) {
+        for (const sect of octgnSettings.sections) {
+          if (cardMatchesSection(card, sect)) {
+            sectionMap[sect.name].push({ card, qty: total });
+            placed = true;
+            break;
+          }
+        }
+      }
+
+      // c) default section
+      if (!placed && octgnSettings.defaultSection in sectionMap) {
+        sectionMap[octgnSettings.defaultSection].push({ card, qty: total });
       }
     }
   }
 
+  // Build the XML
   let sectionsXml = "";
   for (const sectionName in sectionMap) {
-    const section = octgnSettings.sections.find(s => s.name === sectionName) || { name: sectionName, shared: false };
-    const cardsXml = sectionMap[sectionName].map(({ card, qty }) =>
-      `    <card qty="${qty}" id="${card.id}">${card.name}</card>`
-    ).join("\n");
-    if (sectionMap[sectionName].length === 0) {
-      sectionsXml += `  <section name="${sectionName}" shared="${section.shared ? "True" : "False"}" />\n`;
+    const sectionDef = octgnSettings.sections.find(s => s.name === sectionName) || { shared: false };
+    const cardsXml = sectionMap[sectionName]
+      .map(({ card, qty }) => `    <card qty="${qty}" id="${card.id}">${card.name}</card>`)
+      .join("\n");
+    if (cardsXml) {
+      sectionsXml +=
+        `  <section name="${sectionName}" shared="${sectionDef.shared ? "True" : "False"}">\n` +
+        `${cardsXml}\n` +
+        `  </section>\n`;
     } else {
-      sectionsXml += `  <section name="${sectionName}" shared="${section.shared ? "True" : "False"}">\n${cardsXml}\n  </section>\n`;
+      sectionsXml +=
+        `  <section name="${sectionName}" shared="${sectionDef.shared ? "True" : "False"}" />\n`;
     }
   }
 
-  const xml = `<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="${octgnSettings.gameGuid}">
-${sectionsXml}  <notes><![CDATA[]]></notes>
-</deck>
-`;
+  const xml =
+    `<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n` +
+    `<deck game="${octgnSettings.gameGuid}">\n` +
+    `${sectionsXml}` +
+    `  <notes><![CDATA[]]></notes>\n` +
+    `</deck>\n`;
 
   const blob = new Blob([xml], { type: "application/xml" });
   const a = document.createElement("a");
@@ -646,6 +673,7 @@ ${sectionsXml}  <notes><![CDATA[]]></notes>
   a.click();
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
+
 
 function DeckControls({
   deck,
@@ -726,7 +754,7 @@ function DeckControls({
       return;
     }
     if (deckStr) {
-      const loadedDeck = decodeDeck(deckStr, cards);
+      const loadedDeck = decodeDeckAsEntries(deckStr, cards);
       if (loadedDeck && typeof loadedDeck === "object") {
         if (Object.keys(deck).length > 0) {
           if (!window.confirm("You are about to load a shared deck. This will overwrite your current progress. Continue?")) {
@@ -801,10 +829,31 @@ function DeckControls({
     }
   }
   function loadDeck(idx) {
-    if (!window.confirm(`All current progress will be lost! Do you want to load ${savedDecks[idx].name}?`)) return;
-    setDeck(savedDecks[idx].deck);
-    setDeckName(savedDecks[idx].name);
-  }
+  if (!window.confirm("All current progress will be lost!")) return;
+
+  // grab the raw deck object (might be cardId: number)
+  const raw = savedDecks[idx].deck;
+  const fixed = {};
+
+  // wrap each entry in the new {count, group, tags} shape
+  Object.entries(raw).forEach(([cardId, value]) => {
+    if (value && typeof value === "object" && "count" in value) {
+      // already in new format
+      fixed[cardId] = value;
+    } else {
+      // legacy format: plain number → put into count
+      fixed[cardId] = {
+        count: Number(value) || 0,
+        group: {},
+        tags: []
+      };
+    }
+  });
+
+  setDeck(fixed);
+  setDeckName(savedDecks[idx].name);
+}
+
   function deleteDeck(idx) {
     if (!window.confirm(`Are you sure you want to delete ${savedDecks[idx].name}?`)) return;
     const newDecks = savedDecks.filter((_, i) => i !== idx);
@@ -814,7 +863,15 @@ function DeckControls({
 
   async function exportDeck(format) {
     setExportMenuOpen(false);
+	const flatDeck = {};
+	Object.entries(deck).forEach(([cardId, entry]) => {
+	  flatDeck[cardId] = entry.count || 0;
+	});
     if (format === "TXT") {
+		const flatDeck = {};
+	Object.entries(deck).forEach(([cardId, entry]) => {
+	  flatDeck[cardId] = entry.count || 0;
+	});
       // --- Use DeckPanel grouping/sorting logic ---
       const includeSubtitle = !!settings.includeSubtitleInTextExport;
       const groupSorts = settings.groupSort || {};
@@ -829,10 +886,10 @@ function DeckControls({
         filteredSections = panelIgnoreSections && panelIgnoreSections.length > 0
           ? octgnSections.filter(section => !panelIgnoreSections.includes(section.name))
           : octgnSections;
-        grouped = groupDeckByOctgn(deck, cards, filteredSections, octgnOverrides);
+        grouped = groupDeckByOctgn(flatDeck, cards, filteredSections, octgnOverrides);
         groupOrderArr = [...filteredSections.map(s => s.name), "Ungrouped"];
       } else {
-        grouped = groupDeck(deck, cards, groupBySetting);
+        grouped = groupDeck(flatDeck, cards, groupBySetting);
         const FALLBACK_GROUP_ORDER = ["Creatures", "Spells", "Lands", "Other"];
         const groupOrder = Array.isArray(settings.groupOrder) ? settings.groupOrder : FALLBACK_GROUP_ORDER;
         const groupNames = Object.keys(grouped);
@@ -880,9 +937,9 @@ groupOrderArr.forEach((group, groupIdx) => {
       };
       downloadFile(JSON.stringify(deckObj, null, 2), `${deckName || "deck"}.json`, "application/json");
     } else if (format === "Image") {
-      await exportDeckImage(deck, cards, settings, deckName, game);
+	  await exportDeckImage(flatDeck, cards, settings, deckName, game);
     } else if (format === "ImageCompact") {
-      await exportDeckImageCompact(deck, cards, settings, deckName, game);
+	  await exportDeckImageCompact(flatDeck, cards, settings, deckName, game);
     } else if (format === "OCTGN") {
       await exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, currentGroupBy);
     } else if (format === "LINK") {
@@ -920,6 +977,7 @@ groupOrderArr.forEach((group, groupIdx) => {
       const text = await file.text();
       let importedDeck = {};
       let importedOverrides = {};
+	  let groupCounts = {};
       let notFound = [];
 
       try {
@@ -933,7 +991,11 @@ groupOrderArr.forEach((group, groupIdx) => {
           for (const card of deckObj.deck) {
             importedDeck[card.id] = card.qty;
           }
-          setDeck(importedDeck);
+          const wrappedDeck = {};
+			Object.entries(importedDeck).forEach(([id, count]) => {
+				wrappedDeck[id] = { count };
+			});
+			setDeck(wrappedDeck);
           setOctgnOverrides({});
           return;
         }
@@ -963,9 +1025,11 @@ groupOrderArr.forEach((group, groupIdx) => {
               }
               if (foundCard) {
                 importedDeck[foundCard.id] = (importedDeck[foundCard.id] || 0) + qty;
-                if (sectionName && sectionName !== "Ungrouped") {
-                  importedOverrides[foundCard.id] = sectionName;
-                }
+
+// 2) track how many in each section
+if (!groupCounts[foundCard.id]) groupCounts[foundCard.id] = {};
+groupCounts[foundCard.id][sectionName || "Ungrouped"] =
+  (groupCounts[foundCard.id][sectionName || "Ungrouped"] || 0) + qty;
               } else if (name) {
                 notFound.push(name);
               }
@@ -993,7 +1057,11 @@ groupOrderArr.forEach((group, groupIdx) => {
           }
 
           if (Object.keys(importedDeck).length > 0) {
-            setDeck(importedDeck);
+            const wrappedDeck = {};
+		Object.entries(importedDeck).forEach(([id, totalCount]) => {
+		wrappedDeck[id] = { count: totalCount, group: groupCounts[id] };
+		});
+		setDeck(wrappedDeck);
             setOctgnOverrides(importedOverrides);
             if (notFound.length > 0) {
               alert("Some cards could not be matched and were not imported:\n" + notFound.join("\n"));

@@ -14,22 +14,21 @@ function parseDeckString(deckStr) {
   const deck = {};
   if (!deckStr) return deck;
 
-  const entries = deckStr.split(";");
+  deckStr.split(";").forEach(entry => {
+    if (!entry.trim()) return;
+    const parts     = entry.split(":");
+    const id        = parts[0];
+    const ctTags    = parts[1] || "";
+    const groupName = parts[2]   || undefined;
 
-  entries.forEach((entry) => {
-    const [idPart, rest] = entry.split(":");
-    if (!idPart) return;
+    // first number = count; rest = tags
+    const segs  = ctTags.split(",").filter(s => s);
+    const count = parseInt(segs[0], 10) || 0;
+    const tags  = segs.slice(1);
 
-    let count = 0;
-    let tags = [];
-
-    if (rest) {
-      const parts = rest.split(",");
-      count = parseInt(parts[0], 10) || 0;
-      tags = parts.slice(1);
-    }
-
-    deck[idPart] = { count, tags };
+    deck[id] = { count };
+    if (tags.length)      deck[id].tags  = tags;
+    if (groupName)        deck[id].group = decodeURIComponent(groupName);
   });
 
   return deck;
