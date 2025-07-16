@@ -1,0 +1,62 @@
+{
+    // Deck size limits
+    "minCards": 40,
+    "maxCards": 60,
+
+    // Exclude certain groups or cards from min/max deck size calculation
+    "minMaxExclude": {
+      "group": ["Sensei Deck", "Starting"],      // Exclude cards in these groups from min/max count
+      "property": { "Set": "Promo" }             // Exclude cards with property Set=Promo
+    },
+
+    // Maximum number of copies allowed per card (by name)
+    "maxCopiesPerCard": 4,
+
+    // Enable per-card limit using card.Limit property (if present on card)
+    "usePerCardLimit": true,
+
+    // Ban list: list of normalized card names that are not allowed in deck
+    "banList": [
+      "trunksenergy sphere",
+      "cell's presence"
+    ],
+
+    // Property-based card limits (array of rules)
+    "propertyLimits": [
+      {
+        // Limit cards by property value
+        "property": "Type",
+        "value": "Drill",
+        "min": 5,
+        "max": 15,
+        "exclude": {
+          "group": ["Sensei Deck"],   // Exclude Sensei Deck cards from this check
+          "property": { "Rarity": "Special" }
+        },
+        "showPropertyNameInError": true, // Show property name/value in error
+        "errorMessage": "{count} {desc} cards in deck, must be between {min} and {max}"
+      },
+      {
+        // Limit using multiple properties (all must match)
+        "properties": {
+          "Type": "Attack",
+          "Set": "Promo"
+        },
+        "min": 1,
+        "max": 2,
+        "exclude": {
+          "group": ["Sensei Deck"]
+        },
+        "showPropertyNameInError": false, // Only show value in error, not property name
+        "errorMessage": "Must have between {min} and {max} promo attacks: currently {count}"
+      },
+      {
+        // Exactly N cards of a type
+        "property": "Type",
+        "value": "Mastery",
+        "min": 1,
+        "max": 1,
+        "errorMessage": "Deck must contain exactly {min} Mastery card"
+      }
+    ]
+  }

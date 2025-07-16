@@ -1,0 +1,25 @@
+{
+    "minCards": 52,
+    "maxCards": 52,
+	"maxCopiesPerCard": 3,
+    "usePerCardLimit": false,
+    "propertyLimits": [
+      {
+		"property": "tag",
+        "value": "Arthur",
+        "min": 1,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires at least {min} Arthur, you have {count}."
+	  },
+	  {
+		"property": "tag",
+        "value": "Patsy",
+        "min": 1,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires at least {min} Patsy, you have {count}."
+	  }
+    ],
+    "banList": [
+      "Banned Card Name"
+    ]
+  }

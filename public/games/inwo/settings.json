@@ -44,15 +44,5 @@
     "t": "Card Text",
     "al": "Alignments",
     "at": "Attributes"
-  },
-  
-  
-  "deckValidation": {
-    "minCards": 45,
-    "maxCards": 45,
-	"maxCopiesPerCard": 9999,
-    "usePerCardLimit": false,
-    "propertyLimits": [],
-    "banList": []
   }
 }

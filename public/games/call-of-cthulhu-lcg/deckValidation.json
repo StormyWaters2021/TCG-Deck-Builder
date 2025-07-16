@@ -1,0 +1,19 @@
+{
+    "minCards": 60,
+    "maxCards": 9999,
+	"maxCopiesPerCard": 3,
+    "usePerCardLimit": true,
+    "propertyLimits": [
+		{
+        "property": "Type",
+        "value": "Story",
+        "min": 10,
+		"max": 10,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires exactly {min} Stories, you have {count}."
+		}
+    ],
+    "banList": [
+      "Banned Card Name"
+    ]
+  }

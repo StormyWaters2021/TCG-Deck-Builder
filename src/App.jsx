@@ -98,13 +98,13 @@ function App() {
     setGameData({ settings: null, cards: [] }); // Reset to show loading
 
     Promise.all([
-      fetch(
-        `${import.meta.env.BASE_URL}games/${selectedGame}/settings.json`
-      ).then((r) => r.json()),
-      fetch(`${import.meta.env.BASE_URL}games/${selectedGame}/cards.json`).then(
-        (r) => r.json()
-      ),
-    ]).then(([settings, cards]) => setGameData({ settings, cards }));
+    fetch(`${import.meta.env.BASE_URL}games/${selectedGame}/settings.json`).then(r => r.json()),
+    fetch(`${import.meta.env.BASE_URL}games/${selectedGame}/deckValidation.json`).then(r => r.json()),
+    fetch(`${import.meta.env.BASE_URL}games/${selectedGame}/cards.json`).then(r => r.json()),
+  ]).then(([settings, deckValidation, cards]) =>
+    // merge deckValidation back under settings.deckValidation
+    setGameData({ settings: { ...settings, deckValidation }, cards })
+  );
 
     setDeck({}); // Clear deck on game change to avoid conflicts
     setGroupBy("Type");
@@ -220,7 +220,7 @@ function App() {
               onClick={() => handleGameClick(game)}
             >
               <img
-                src={`${import.meta.env.BASE_URL}games/${game}/logo.jpg`}
+                src={`${import.meta.env.BASE_URL}games/${game}/art/logo.jpg`}
                 alt={game}
                 className="game-logo"
               />

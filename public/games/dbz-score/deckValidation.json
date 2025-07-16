@@ -1,0 +1,28 @@
+{
+    "minCards": 50,
+    "maxCards": 85,
+	"minMaxExclude": { "group": ["Sensei Deck"] },
+	"maxCopiesPerCard": 9999,
+    "usePerCardLimit": true,
+    "propertyLimits": [
+
+      {
+        "properties": { "supertype": "personality", "Card Level": "1" },
+        "min": 1,
+        "errorMessage": "You need a Level 1 Personality"
+      },
+	  {
+        "properties": { "supertype": "personality", "Card Level": "2" },
+        "min": 1,
+        "errorMessage": "You need a Level 2 Personality"
+      },
+	  {
+        "properties": { "supertype": "personality", "Card Level": "3" },
+        "min": 1,
+        "errorMessage": "You need a Level 3 Personality"
+      }
+    ],
+    "banList": [
+      "BannedCardID"
+    ]
+  }
