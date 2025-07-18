@@ -7,7 +7,6 @@ export function getCardImageUrl(card, game) {
   return `https://tcgbuilder.net/images/${game}/${card.image}`;
 }
 
-
 // Helper to draw wrapped text in a canvas context
 function drawWrappedText(ctx, text, x, y, maxWidth, lineHeight, font) {
   ctx.font = font;
@@ -71,14 +70,18 @@ function CardPreview({
 }) {
   const [imageError, setImageError] = useState(false);
   const [enlarged, setEnlarged] = useState(false);
+  const [usedMissingImage, setUsedMissingImage] = useState(false); // NEW
   const canvasRef = useRef();
 
   useEffect(() => {
     setImageError(false);
     setEnlarged(false);
+    setUsedMissingImage(false);
   }, [card, game]);
 
-  const imageUrl = getCardImageUrl(card, game);
+  const imageUrl = !usedMissingImage
+    ? getCardImageUrl(card, game)
+    : `/games/${game}/art/missing_card.jpg`;
 
   useEffect(() => {
     if (!card) return;
@@ -147,9 +150,7 @@ function CardPreview({
             </span>
           )}
           {showButtons && (
-            <div
-              className="card-qty-btns"
-            >
+            <div className="card-qty-btns">
               <button className="card-modify-btn" onClick={onRemove}>-1</button>
               <button className="card-modify-btn" onClick={onAdd}>+1</button>
             </div>
@@ -181,7 +182,14 @@ function CardPreview({
             cursor: "pointer"
           }}
           onClick={() => setEnlarged(true)}
-          onError={() => setImageError(true)}
+          onError={() => {
+            if (!usedMissingImage) {
+              setUsedMissingImage(true);
+              setImageError(false); // Reset error, try missing card image
+            } else {
+              setImageError(true); // Both failed, fall back to canvas
+            }
+          }}
           title="Click to enlarge"
         />
         {quantity !== null && (
