@@ -2,6 +2,41 @@ import React, { useState, useEffect, useRef } from "react";
 import CardPreview from "../components/CardPreview";
 import { getSortedExportListWithDisplayOrder } from "../utils/deckExportHelpers";
 
+const WORKER_API = "https://tcgbuilder.net/api";
+
+// Share the deck using the Cloudflare Worker API
+async function shareDeck(deckObj, setLinkMessage, game) {
+  try {
+    // POST to your Worker
+    const resp = await fetch(`${WORKER_API}/deck`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(deckObj)
+    });
+    const { code } = await resp.json();
+
+    // Build the short shareable URL
+    const url = window.location.origin + window.location.pathname + `?game=${encodeURIComponent(game)}&deck=${code}`;
+
+
+    await navigator.clipboard.writeText(url);
+
+    if (setLinkMessage) {
+      setLinkMessage("Shareable link copied to clipboard!");
+      setTimeout(() => setLinkMessage(""), 2000);
+    } else {
+      alert("Shareable link copied to clipboard!");
+    }
+  } catch (e) {
+    if (setLinkMessage) {
+      setLinkMessage("Error sharing deck.");
+      setTimeout(() => setLinkMessage(""), 2000);
+    } else {
+      alert("Error sharing deck.");
+    }
+  }
+}
+
 // Helper to display name with subtitle (handles Subtitle and subtitle)
 function cardNameWithSubtitle(card, includeSubtitle) {
   if (!card) return "";
@@ -110,48 +145,6 @@ function groupDeckByOctgn(deck, cards, sections, userOverrides) {
 }
 
 // --- OCTGN grouping logic END ---
-
-// --- Helper to encode deck for link sharing ---
-function encodeDeck(deck, cards, settings) {
-  const exportList = getSortedExportListWithDisplayOrder(deck, cards, settings);
-  const uuidToIndex = {};
-  cards.forEach(card => uuidToIndex[card.id] = card.index);
-  const groups = {};
-  for (const { card, qty } of exportList) {
-    if (!groups[qty]) groups[qty] = [];
-    groups[qty].push(uuidToIndex[card.id]);
-  }
-  return Object.entries(groups)
-    .sort((a, b) => Number(a[0]) - Number(a[0]))
-    .map(([qty, idxs]) => `${qty}:${idxs.sort().join(",")}`)
-    .join(";");
-}
-
-function decodeDeck(str, cards) {
-  const indexToUuid = {};
-  cards.forEach(card => indexToUuid[card.index] = card.id);
-  const obj = {};
-  if (!str) return obj;
-  str.split(";").forEach(group => {
-    if (!group) return;
-    const [qty, idxs] = group.split(":");
-    if (!qty || !idxs) return;
-    idxs.split(",").forEach(idx => {
-      const uuid = indexToUuid[idx];
-      if (uuid) obj[uuid] = parseInt(qty, 10);
-    });
-  });
-  return obj;
-}
-
-function decodeDeckAsEntries(str, cards) {
-  const raw = decodeDeck(str, cards);
-  const deck = {};
-  Object.entries(raw).forEach(([id, count]) => {
-    deck[id] = { count };
-  });
-  return deck;
-}
 
 // --- Helper to load an image and return a promise
 function loadImage(url) {
@@ -743,34 +736,50 @@ function DeckControls({
   const setOctgnOverrides = setOctgnOverridesProp !== undefined ? setOctgnOverridesProp : setInternalOctgnOverrides;
 
   useEffect(() => {
-    let params = new URLSearchParams(window.location.search);
-    let urlGame = params.get("game");
-    let deckStr = params.get("deck");
-    if (!deckStr && window.location.hash.includes("deck=")) {
-      deckStr = window.location.hash.split("deck=")[1]?.split("&")[0];
-    }
-    if (urlGame && typeof setGame === "function" && urlGame !== game) {
-      setGame(urlGame);
+  const params = new URLSearchParams(window.location.search);
+  const code = params.get("deck");
+  const gameName = params.get("game");
+
+  if (!code) return;
+
+  // 1. If a specific game is needed but not active, switch game and wait
+  if (gameName && typeof setGame === "function" && gameName !== game) {
+    setGame(gameName);
+    return; // Wait for game/cards to update, then this runs again
+  }
+
+  // 2. Only proceed if cards are available
+  if (!cards || cards.length === 0) return;
+
+  // 3. Don't load if deck is already loaded (optional safety)
+  if (Object.keys(deck).length > 0) return;
+
+  // 4. Prompt user before overwriting current deck (optional)
+  if (Object.keys(deck).length > 0) {
+    if (!window.confirm("You are about to load a shared deck. This will overwrite your current progress. Continue?")) {
+      params.delete("deck");
+      window.history.replaceState({}, "", window.location.pathname + (params.toString() ? "?" + params.toString() : ""));
       return;
     }
-    if (deckStr) {
-      const loadedDeck = decodeDeckAsEntries(deckStr, cards);
-      if (loadedDeck && typeof loadedDeck === "object") {
-        if (Object.keys(deck).length > 0) {
-          if (!window.confirm("You are about to load a shared deck. This will overwrite your current progress. Continue?")) {
-            params.delete("deck");
-            window.history.replaceState({}, "", window.location.pathname + (params.toString() ? "?" + params.toString() : ""));
-            return;
-          }
-        }
-        setDeck(loadedDeck);
-        setDeckName("");
-        params.delete("deck");
-        window.history.replaceState({}, "", window.location.pathname + (params.toString() ? "?" + params.toString() : ""));
-      }
-    }
-    // eslint-disable-next-line
-  }, [game, cards]);
+  }
+
+  // 5. Fetch and set the deck
+  fetch(`${WORKER_API}/deck/${code}`)
+    .then(r => {
+      if (!r.ok) throw new Error("Deck not found");
+      return r.json();
+    })
+    .then(deckObj => {
+      setDeck(deckObj);
+      setDeckName(""); // clear deck name (optional)
+      params.delete("deck");
+      window.history.replaceState({}, "", window.location.pathname + (params.toString() ? "?" + params.toString() : ""));
+    })
+    .catch(() => alert("This deck code could not be loaded."));
+
+  // eslint-disable-next-line
+}, [game, cards]);
+
 
   useEffect(() => {
     setSavedDecks(JSON.parse(localStorage.getItem(`${game}-decks`) || "[]"));
@@ -943,14 +952,8 @@ groupOrderArr.forEach((group, groupIdx) => {
     } else if (format === "OCTGN") {
       await exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, currentGroupBy);
     } else if (format === "LINK") {
-      const encoded = encodeDeck(deck, cards, settings);
-      let url = window.location.origin + window.location.pathname;
-      url += `?game=${encodeURIComponent(game)}&deck=${encoded}`;
-      navigator.clipboard.writeText(url).then(() => {
-        setLinkMessage("Shareable link copied to clipboard!");
-        setTimeout(() => setLinkMessage(""), 2000);
-      });
-    }
+  shareDeck(deck, setLinkMessage, game);
+}
   }
 
   function clearDeck() {
