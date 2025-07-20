@@ -3,6 +3,21 @@
 import JSZip from "jszip";
 import { getCardImageUrl } from "./deckExportHelpers";
 
+// Helper for concurrency
+async function mapWithConcurrency(items, fn, maxConcurrent = 8) {
+  const results = [];
+  let i = 0;
+
+  async function worker() {
+    while (i < items.length) {
+      const current = i++;
+      results[current] = await fn(items[current], current);
+    }
+  }
+  await Promise.all(Array.from({ length: maxConcurrent }, worker));
+  return results;
+}
+
 // Fetch octgn.json for the selected game, to get the game GUID.
 async function fetchGameGuid(settings) {
   let base = "/";
@@ -48,8 +63,10 @@ function downloadBlob(blob, filename) {
  * @param {Object} settings - Settings, must include gameName or game
  * @param {string} game - Game name string (for image URLs)
  * @param {string} [filenameOverride] - Optional: override output filename
+ * @param {function} [onProgress] - Optional: (completed, total) => void progress callback
+ * @param {object} [cancelRef] - Optional: React ref with .current boolean to cancel
  */
-export async function exportDeckO8c(cards, settings, game, filenameOverride) {
+export async function exportDeckO8c(cards, settings, game, filenameOverride, onProgress, cancelRef) {
   if (!cards || !cards.length) {
     alert("No cards found for this game.");
     return;
@@ -68,40 +85,62 @@ export async function exportDeckO8c(cards, settings, game, filenameOverride) {
 
   // We want unique images only, but some games have dupes.
   // We'll use set_id and image filename as the unique key.
-  // Optionally, you could use GUID+set_id for extra safety.
   const seen = new Set();
 
-  await Promise.all(cards.map(async card => {
-  console.log("Trying card:", card.name, "set_id:", card.set_id, "image:", card.image);
+  let count = 0;
+  const total = cards.length;
 
-  if (!card.set_id || !card.image) {
-    console.log("Skipping (missing set_id or image):", card && card.name);
+  await mapWithConcurrency(
+    cards,
+    async (card) => {
+      // -- Early cancel check --
+      if (cancelRef && cancelRef.current) return;
+
+      // Only process if card has set_id and image
+      if (!card.set_id || !card.image) {
+        count++;
+        if (onProgress) onProgress(count, total);
+        return;
+      }
+
+      const key = `${card.set_id}|||${card.image}`;
+      if (seen.has(key)) {
+        count++;
+        if (onProgress) onProgress(count, total);
+        return;
+      }
+      seen.add(key);
+
+      const imageUrl = getCardImageUrl(card, game);
+      if (!imageUrl) {
+        missingImages.push(`No image URL for ${card.name} (${card.id})`);
+        count++;
+        if (onProgress) onProgress(count, total);
+        return;
+      }
+
+      try {
+        const resp = await fetch(imageUrl, { mode: "cors" });
+        if (!resp.ok) throw new Error("Could not fetch image");
+        const imgBlob = await resp.blob();
+
+        // Use the card.image name exactly as in CardPreview
+        const imagePath = `${gameGuid}/Sets/${card.set_id}/Cards/${card.image}`;
+        zip.file(imagePath, imgBlob);
+        added++;
+      } catch (e) {
+        missingImages.push(`${card.name} (${card.id})`);
+      }
+      count++;
+      if (onProgress) onProgress(count, total);
+    },
+    8
+  );
+
+  if (cancelRef && cancelRef.current) {
+    // Cancelled by user; don't trigger download or alert
     return;
   }
-
-    const key = `${card.set_id}|||${card.image}`;
-    if (seen.has(key)) return;
-    seen.add(key);
-
-    const imageUrl = getCardImageUrl(card, game);
-    if (!imageUrl) {
-      missingImages.push(`No image URL for ${card.name} (${card.id})`);
-      return;
-    }
-
-    try {
-      const resp = await fetch(imageUrl, { mode: "cors" });
-      if (!resp.ok) throw new Error("Could not fetch image");
-      const imgBlob = await resp.blob();
-
-      // Use the card.image name exactly as in CardPreview
-      const imagePath = `${gameGuid}/Sets/${card.set_id}/Cards/${card.image}`;
-      zip.file(imagePath, imgBlob);
-      added++;
-    } catch (e) {
-      missingImages.push(`${card.name} (${card.id})`);
-    }
-  }));
 
   if (!added) {
     alert("No images could be fetched for this game.");
@@ -109,7 +148,7 @@ export async function exportDeckO8c(cards, settings, game, filenameOverride) {
   }
 
   const gameBase = (settings.gameName || settings.game || "images").replace(/[^a-zA-Z0-9-_]+/g, "_");
-const o8cFilename = `${gameBase}_image_pack.o8c`;
+  const o8cFilename = filenameOverride || `${gameBase}_image_pack.o8c`;
 
   const blob = await zip.generateAsync({ type: "blob" });
   downloadBlob(blob, o8cFilename);
@@ -117,7 +156,7 @@ const o8cFilename = `${gameBase}_image_pack.o8c`;
   if (missingImages.length) {
     alert(
       `Exported ${added} images, but the following cards were missing images and were not included:\n\n` +
-      missingImages.join("\n")
+        missingImages.join("\n")
     );
   }
 }

@@ -64,7 +64,7 @@
     "e": "Endurance"
   },  
   "octgnExport": true,
-  "showImagePackExport": false,
+  "showImagePackExport": true,
   "compactExportCols": 5,
   "compactExportHeadingRow": true,
   "compactVerticalOffsetFactor": 0.18,

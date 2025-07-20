@@ -27,7 +27,6 @@ function DeckControls({
   octgnOverrides: octgnOverridesProp,
   setOctgnOverrides: setOctgnOverridesProp
 }) {
-  console.log("DeckControls settings:", settings);
   const [deckName, setDeckName] = useState("");
   const [savedDecks, setSavedDecks] = useState(() =>
     JSON.parse(localStorage.getItem(`${game}-decks`) || "[]")
@@ -38,6 +37,8 @@ function DeckControls({
   const [selectedDeckIdx, setSelectedDeckIdx] = useState(null);
   const [dropdownHover, setDropdownHover] = useState(null);
   const [currentGroupBy, setCurrentGroupBy] = useState(groupBy || (settings.groupOptions && settings.groupOptions[0]) || "Type");
+  const [imagePackProgress, setImagePackProgress] = useState(null); // null = idle, otherwise {current, total}
+  const cancelExport = useRef(false);
 
   useEffect(() => {
     if (groupBy) setCurrentGroupBy(groupBy);
@@ -523,14 +524,82 @@ function DeckControls({
         </div>
         <button className={buttonClass} onClick={clearDeck}>Clear</button>
         <button className={buttonClass} onClick={importDeck}>Import</button>
-		{settings.showImagePackExport && (
-		<button
-			className={buttonClass}
-			onClick={() => exportDeckO8c(cards, settings, game)}
-		  >
-			Fetch OCTGN Image Pack
-		  </button>
-		)}
+{settings.showImagePackExport && (
+  imagePackProgress === null ? (
+    <button
+      className={buttonClass}
+      onClick={async () => {
+        if (
+          window.confirm(
+            "This feature will download an image pack for the OCTGN gaming platform. This process can take several minutes before the package begins downloading. Do you want to continue?"
+          )
+        ) {
+          cancelExport.current = false;
+          setImagePackProgress({ current: 0, total: cards.length });
+          await exportDeckO8c(
+            cards,
+            settings,
+            game,
+            undefined,
+            (current, total) => setImagePackProgress({ current, total }),
+            cancelExport
+          );
+          setImagePackProgress(null);
+        }
+      }}
+    >
+      Fetch OCTGN Image Pack
+    </button>
+  ) : (
+    <button
+      className={buttonClass}
+      type="button"
+      style={{
+        position: "relative",
+        padding: undefined, // Let your class control padding
+        minHeight: undefined, // Let your class control height
+        overflow: "hidden",
+        cursor: "pointer"
+      }}
+      title="Click to cancel"
+      onClick={() => {
+        cancelExport.current = true;
+        setImagePackProgress(null);
+      }}
+    >
+      <span style={{
+        zIndex: 2,
+        position: "relative",
+        display: "block",
+        width: "100%",
+        fontSize: 13,
+        color: "inherit",
+        fontFamily: "inherit",
+        textAlign: "center",
+        userSelect: "none"
+      }}>
+        Fetched {imagePackProgress.current} / {imagePackProgress.total}
+        <br />
+        <span style={{ color: "#b00", fontWeight: 600 }}>
+          (Click to Cancel)
+        </span>
+      </span>
+      <div style={{
+  position: "absolute",
+  left: 0,
+  top: 0,
+  width: `${(imagePackProgress.current / Math.max(1, imagePackProgress.total)) * 100}%`,
+  height: "100%",
+  background: "linear-gradient(90deg, #42b0ff 0%, #1357c4 100%)",
+  opacity: 0.55,
+  borderRight: "2px solid #3887fa",
+  boxShadow: "0 0 5px #3182ceaa",
+  transition: "width 0.2s"
+}} />
+    </button>
+  )
+)}
+
 
       </div>
       <div style={{ width: "220px", marginBottom: "1em" }}>

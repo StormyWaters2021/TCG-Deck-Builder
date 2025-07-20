@@ -8,7 +8,6 @@ export function matchesExclude(card, exclude, groupName = null) {
   if (exclude.group) {
     for (const excludeGroup of exclude.group) {
       if (normalizedGroupName === excludeGroup.trim().toLowerCase()) {
-        console.log(`[MATCHES EXCLUDE] Card: ${card?.name}, Group: ${groupName}, Excluding: ${excludeGroup}`);
         return true;
       }
     }

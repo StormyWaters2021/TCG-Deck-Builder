@@ -577,7 +577,6 @@ const totalCards = Object.entries(deck).reduce((sum, [cardId, entry]) => {
       sum +
       Object.entries(entry.group).reduce((innerSum, [groupName, qty]) => {
         const excluded = matchesExclude(card, minMaxExclude, groupName);
-        console.log(`[SPLIT] Card: ${card.name}, Group: ${groupName}, Qty: ${qty}, Excluded: ${excluded}`);
         if (excluded) return innerSum;
         return innerSum + qty;
       }, 0)
@@ -592,7 +591,6 @@ const totalCards = Object.entries(deck).reduce((sum, [cardId, entry]) => {
     groupName = card[groupBy];
   }
   const excluded = matchesExclude(card, minMaxExclude, groupName);
-  console.log(`[NORMAL] Card: ${card.name}, Group: ${groupName}, Qty: ${entry.count}, Excluded: ${excluded}`);
   if (excluded) return sum;
   return sum + entry.count;
 }, 0);
