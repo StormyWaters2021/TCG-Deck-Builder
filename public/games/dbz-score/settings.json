@@ -77,5 +77,6 @@
 	"e": "Endurance",
 	"l": "Card Level"
   },
-  "octgnExport": true
+  "octgnExport": true,
+  "showImagePackExport": false
 }

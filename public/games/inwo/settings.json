@@ -2,6 +2,7 @@
   "gameName": "inwo",
   "addNValue": 3,
   "octgnExport": true,
+  "showImagePackExport": true,
   
   "filterOptions": [
     "Type",

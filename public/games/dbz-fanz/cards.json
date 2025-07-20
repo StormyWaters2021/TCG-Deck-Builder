@@ -14344,7 +14344,7 @@
     "Card Number": "C20",
     "Type": "Physical Combat",
     "Endurance": "2",
-    "Text": "ENDURANCE 2. \n[ATTACK] Physical attack. \nDraw a card. \nDAMAGE : AT +2 Life cards. HIT : Your opponent draws a card. (banish after use)",
+    "Text": "ENDURANCE 2. \n[ATTACK] Physical attack. \nDraw a card. \nDAMAGE : AT +2 Life cards. HIT : Your opponent draws a card. (Banish after use)",
     "Traits": "",
     "PUR": "",
     "Power Rating": "",
@@ -14368,7 +14368,7 @@
     "Card Number": "S32",
     "Type": "Physical Combat",
     "Endurance": "2",
-    "Text": "[ATTACK] Physical attack. \nDraw a card. \nDAMAGE: AT +2 life cards. HIT: Your opponent draws a card. \n(Banish after use,)",
+    "Text": "[ATTACK] Physical attack. \nDraw a card. \nDAMAGE: AT +2 life cards. HIT: Your opponent draws a card. \n(Banish after use)",
     "Traits": "",
     "PUR": "",
     "Power Rating": "",
@@ -14392,7 +14392,7 @@
     "Card Number": "P7",
     "Type": "Physical Combat",
     "Endurance": "",
-    "Text": "(Villains only.) \nPOWER: Look at your opponent's hand and choose a card. Your opponent discards that card.",
+    "Text": "[ATTACK] Physical attack. \nDraw a card. \nDAMAGE: AT +2 life cards. HIT: Your opponent draws a card. \n(Banish after use)",
     "Traits": "",
     "PUR": "",
     "Power Rating": "",
@@ -14408,8 +14408,7 @@
     "image": "5757a496-63ea-4d6f-8615-6fecea2e4f41.png",
     "Main Personality": "",
     "id": "5757a496-63ea-4d6f-8615-6fecea2e4f41",
-    "index": "9z",
-    "Alignment": "Villains Only"
+    "index": "9z"
   },
   {
     "name": "Blue Head Knock",
