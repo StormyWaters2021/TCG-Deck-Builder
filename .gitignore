@@ -35,6 +35,7 @@ Thumbs.db
 # Misc
 *.bak
 *.tmp
+.commands.txt
 
 # Card images (if you keep them out of git)
 cards/*.jpg
