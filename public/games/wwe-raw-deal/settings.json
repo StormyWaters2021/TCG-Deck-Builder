@@ -2,7 +2,7 @@
   "gameName": "wwe-raw-deal",
   "addNValue": 2,
   "octgnExport": true,
-  "showImagePackExport": false,
+  "showImagePackExport": true,
   "filterOptions": ["Type", "Fortitude", "Damage", "Format"],
   "groupOptions": ["OCTGN", "Type"],
   "groupOrder": [],
