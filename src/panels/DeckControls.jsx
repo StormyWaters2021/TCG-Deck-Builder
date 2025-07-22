@@ -578,7 +578,7 @@ function DeckControls({
         textAlign: "center",
         userSelect: "none"
       }}>
-        Fetched {imagePackProgress.current} / {imagePackProgress.total}
+        {imagePackProgress.current} / {imagePackProgress.total}
         <br />
         <span style={{ color: "#b00", fontWeight: 600 }}>
           (Click to Cancel)
