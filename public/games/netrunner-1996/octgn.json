@@ -1,6 +1,13 @@
 {
   "gameGuid": "13568561-7a2e-4572-8f31-3d99580ab245",
   "sections": [
-  ],
-  "defaultSection": "Life Deck"
+    {
+      "name": "R&amp;D / Stack",
+      "shared": false,
+      "criteria": {
+		  "Type": ["Agenda", "Hardware", "Ice", "Node", "Operation", "Prep", "Program", "Resource", "Upgrade" ]
+				}
+	}
+	  ],
+  "defaultSection": "R&amp;D / Stack"
 }

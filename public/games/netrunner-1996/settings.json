@@ -24,6 +24,6 @@
 	"d": "Difficulty",
 	"mu": "MU Required"
   },
-  "octgnExport": false,
+  "octgnExport": true,
   "showImagePackExport": true
 }
