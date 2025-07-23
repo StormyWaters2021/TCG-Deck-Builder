@@ -187,7 +187,9 @@
     "Set": "02 - Proteus",
     "index": "6z",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "d1ce8dbf-653c-4a1c-98ec-ca0ad8a0708a.jpg"
+    "image": "d1ce8dbf-653c-4a1c-98ec-ca0ad8a0708a.jpg",
+    "Difficulty": "5",
+    "Agenda Points": "3"
   },
   {
     "id": "8b6d6ad9-f060-4575-94ef-4e98d840ee2a",
@@ -204,7 +206,8 @@
     "Set": "01 - Core Set",
     "index": "3s",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "8b6d6ad9-f060-4575-94ef-4e98d840ee2a.jpg"
+    "image": "8b6d6ad9-f060-4575-94ef-4e98d840ee2a.jpg",
+    "Strength": "0"
   },
   {
     "id": "5b084516-f9f2-43a6-94df-5c3cce80f473",
@@ -221,7 +224,9 @@
     "Set": "01 - Core Set",
     "index": "q",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "5b084516-f9f2-43a6-94df-5c3cce80f473.jpg"
+    "image": "5b084516-f9f2-43a6-94df-5c3cce80f473.jpg",
+    "Difficulty": "5",
+    "Agenda Points": "2"
   },
   {
     "id": "3a79fdfc-e28f-4f67-8f41-3a64685354d0",
@@ -434,7 +439,9 @@
     "Set": "01 - Core Set",
     "index": "r",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "de901db6-9cb7-4978-8ebf-4c735f93bd63.jpg"
+    "image": "de901db6-9cb7-4978-8ebf-4c735f93bd63.jpg",
+    "Difficulty": "3",
+    "Agenda Points": "1"
   },
   {
     "id": "5e1e44e3-89aa-428e-b5fa-14bba988dd63",
@@ -451,7 +458,8 @@
     "Set": "01 - Core Set",
     "index": "1N",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "5e1e44e3-89aa-428e-b5fa-14bba988dd63.jpg"
+    "image": "5e1e44e3-89aa-428e-b5fa-14bba988dd63.jpg",
+    "Strength": "4"
   },
   {
     "id": "eaf07170-c8e8-45cc-a9dd-f6a061d27a9a",
@@ -631,7 +639,8 @@
     "Set": "01 - Core Set",
     "index": "1O",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "da29a22f-96c1-4b68-b8cd-e2b8397c74e0.jpg"
+    "image": "da29a22f-96c1-4b68-b8cd-e2b8397c74e0.jpg",
+    "Strength": "5"
   },
   {
     "id": "619d31c7-2925-434a-9e58-295b39eebe96",
@@ -648,7 +657,8 @@
     "Set": "01 - Core Set",
     "index": "1P",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "619d31c7-2925-434a-9e58-295b39eebe96.jpg"
+    "image": "619d31c7-2925-434a-9e58-295b39eebe96.jpg",
+    "Strength": "0"
   },
   {
     "id": "20ffb351-1285-4bdd-abd8-7e692b8ed42b",
@@ -685,7 +695,8 @@
     "Set": "01 - Core Set",
     "index": "3v",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "9ffbf995-19a2-4e26-b9a3-96d3b588d6db.jpg"
+    "image": "9ffbf995-19a2-4e26-b9a3-96d3b588d6db.jpg",
+    "Strength": "0"
   },
   {
     "id": "426f2c05-9db5-4350-b28c-cdb43e9d0b93",
@@ -706,7 +717,8 @@
     "Set": "03 - Classic",
     "index": "1",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "426f2c05-9db5-4350-b28c-cdb43e9d0b93.jpg"
+    "image": "426f2c05-9db5-4350-b28c-cdb43e9d0b93.jpg",
+    "Strength": "4"
   },
   {
     "id": "f7975a97-1c98-4f0b-954c-d9ccbed6ec04",
@@ -763,7 +775,8 @@
     "Set": "02 - Proteus",
     "index": "8K",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "01e88fe2-b430-45a9-8b7c-72ee9c9c5c3b.jpg"
+    "image": "01e88fe2-b430-45a9-8b7c-72ee9c9c5c3b.jpg",
+    "Strength": "7"
   },
   {
     "id": "493d532f-da48-4a01-be65-d61a0b888ace",
@@ -780,7 +793,9 @@
     "Set": "01 - Core Set",
     "index": "s",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "493d532f-da48-4a01-be65-d61a0b888ace.jpg"
+    "image": "493d532f-da48-4a01-be65-d61a0b888ace.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "3"
   },
   {
     "id": "abb5a8ed-2e77-474c-8ede-ee61bb7f4bdd",
@@ -834,7 +849,8 @@
     "Set": "01 - Core Set",
     "index": "3w",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "4c5521c9-e2ed-4e86-8c96-2976af65b0de.jpg"
+    "image": "4c5521c9-e2ed-4e86-8c96-2976af65b0de.jpg",
+    "Strength": "5"
   },
   {
     "id": "3b4cc108-87df-4d0e-8dec-9c04158457a5",
@@ -851,7 +867,9 @@
     "Set": "01 - Core Set",
     "index": "t",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "3b4cc108-87df-4d0e-8dec-9c04158457a5.jpg"
+    "image": "3b4cc108-87df-4d0e-8dec-9c04158457a5.jpg",
+    "Difficulty": "5",
+    "Agenda Points": "2"
   },
   {
     "id": "e165e2e6-64cf-4dd8-ac3a-bb54f890eeb4",
@@ -871,7 +889,8 @@
     "Set": "02 - Proteus",
     "index": "8L",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "e165e2e6-64cf-4dd8-ac3a-bb54f890eeb4.jpg"
+    "image": "e165e2e6-64cf-4dd8-ac3a-bb54f890eeb4.jpg",
+    "Strength": "2"
   },
   {
     "id": "8f2c5a2a-d38c-4384-972c-033d00e1a64d",
@@ -908,7 +927,8 @@
     "Set": "01 - Core Set",
     "index": "3x",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "b5d19051-ddc8-43d0-a8a6-27bddbba573a.jpg"
+    "image": "b5d19051-ddc8-43d0-a8a6-27bddbba573a.jpg",
+    "Strength": "5"
   },
   {
     "id": "496641c2-771a-4523-b752-91063159e076",
@@ -1013,7 +1033,8 @@
     "Set": "01 - Core Set",
     "index": "1Q",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "856db093-6b22-4fd1-a28a-4c5538ea23ce.jpg"
+    "image": "856db093-6b22-4fd1-a28a-4c5538ea23ce.jpg",
+    "Strength": "4"
   },
   {
     "id": "f6993313-8b94-440a-9bf5-3cf5bbec7b6f",
@@ -1034,7 +1055,8 @@
     "Set": "03 - Classic",
     "index": "2",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "f6993313-8b94-440a-9bf5-3cf5bbec7b6f.jpg"
+    "image": "f6993313-8b94-440a-9bf5-3cf5bbec7b6f.jpg",
+    "Strength": "4"
   },
   {
     "id": "9f5db6ba-f834-4fb3-8d74-ee1816174987",
@@ -1075,7 +1097,8 @@
     "Set": "02 - Proteus",
     "index": "8O",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "29fd2122-0a2f-491f-891a-b16b7f8e42eb.jpg"
+    "image": "29fd2122-0a2f-491f-891a-b16b7f8e42eb.jpg",
+    "Strength": "4"
   },
   {
     "id": "921c6c1c-e838-4b9d-8ef1-f711fb921c43",
@@ -1096,7 +1119,8 @@
     "Set": "03 - Classic",
     "index": "3",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "921c6c1c-e838-4b9d-8ef1-f711fb921c43.jpg"
+    "image": "921c6c1c-e838-4b9d-8ef1-f711fb921c43.jpg",
+    "Strength": "3"
   },
   {
     "id": "675da556-8107-4ce4-8714-1eb2fcfdc005",
@@ -1116,7 +1140,8 @@
     "Set": "02 - Proteus",
     "index": "71",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "675da556-8107-4ce4-8714-1eb2fcfdc005.jpg"
+    "image": "675da556-8107-4ce4-8714-1eb2fcfdc005.jpg",
+    "Strength": "2"
   },
   {
     "id": "f7d775a1-daab-4c53-9083-621ff53790bf",
@@ -1170,7 +1195,8 @@
     "Set": "02 - Proteus",
     "index": "72",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "692b1e14-e381-40f6-beb0-ba55b9bbd3e5.jpg"
+    "image": "692b1e14-e381-40f6-beb0-ba55b9bbd3e5.jpg",
+    "Strength": "2"
   },
   {
     "id": "988d18f1-f11d-4cd4-ad73-dd62cf487b5e",
@@ -1190,7 +1216,8 @@
     "Set": "02 - Proteus",
     "index": "8P",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "988d18f1-f11d-4cd4-ad73-dd62cf487b5e.jpg"
+    "image": "988d18f1-f11d-4cd4-ad73-dd62cf487b5e.jpg",
+    "Strength": "4"
   },
   {
     "id": "dd067e2d-788b-4b59-bfff-52dae7e882eb",
@@ -1224,7 +1251,8 @@
     "Set": "01 - Core Set",
     "index": "1R",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "9e2f2e6b-d152-455a-89b4-70f4594d1c4e.jpg"
+    "image": "9e2f2e6b-d152-455a-89b4-70f4594d1c4e.jpg",
+    "Strength": "4"
   },
   {
     "id": "1cc00afb-aba9-497b-8166-8233d212d8a5",
@@ -1241,7 +1269,8 @@
     "Set": "01 - Core Set",
     "index": "1S",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "1cc00afb-aba9-497b-8166-8233d212d8a5.jpg"
+    "image": "1cc00afb-aba9-497b-8166-8233d212d8a5.jpg",
+    "Strength": "5"
   },
   {
     "id": "3db0bf1a-f262-4fcd-a3e7-1993f90dffc7",
@@ -1261,7 +1290,8 @@
     "Set": "02 - Proteus",
     "index": "73",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "3db0bf1a-f262-4fcd-a3e7-1993f90dffc7.jpg"
+    "image": "3db0bf1a-f262-4fcd-a3e7-1993f90dffc7.jpg",
+    "Strength": "5"
   },
   {
     "id": "f571feba-4808-4f0f-b8ad-e3366dc6a744",
@@ -1295,7 +1325,8 @@
     "Set": "01 - Core Set",
     "index": "1T",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "55701d77-7a54-4bcc-ab3a-6e21192a8cff.jpg"
+    "image": "55701d77-7a54-4bcc-ab3a-6e21192a8cff.jpg",
+    "Strength": "5"
   },
   {
     "id": "2a59259e-f4b5-43a8-8c42-04b03c3b979e",
@@ -1332,7 +1363,9 @@
     "Set": "02 - Proteus",
     "index": "74",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "6482409a-ee62-4a6e-a85d-7b97f57bc41b.jpg"
+    "image": "6482409a-ee62-4a6e-a85d-7b97f57bc41b.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "1"
   },
   {
     "id": "6b19beeb-36c9-4351-955b-a10c3162c388",
@@ -1406,7 +1439,8 @@
     "Set": "02 - Proteus",
     "index": "75",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "60eb5179-0764-4ddf-972f-ffd75a983c79.jpg"
+    "image": "60eb5179-0764-4ddf-972f-ffd75a983c79.jpg",
+    "Strength": "0"
   },
   {
     "id": "5c5558f7-333e-4919-845e-e3b9e19cb2e0",
@@ -1440,7 +1474,8 @@
     "Set": "01 - Core Set",
     "index": "1U",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "d047307c-56df-47d3-ad09-b1787fe146e2.jpg"
+    "image": "d047307c-56df-47d3-ad09-b1787fe146e2.jpg",
+    "Strength": "6"
   },
   {
     "id": "711df130-8fe8-4a34-b181-d67bd252e8e3",
@@ -1542,7 +1577,8 @@
     "Set": "01 - Core Set",
     "index": "1V",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "c8d67d7d-8a73-4658-a138-231d681e5a1b.jpg"
+    "image": "c8d67d7d-8a73-4658-a138-231d681e5a1b.jpg",
+    "Strength": "5"
   },
   {
     "id": "7eff5be7-7e40-4839-bbc1-ddb445ed77d0",
@@ -1576,7 +1612,8 @@
     "Set": "01 - Core Set",
     "index": "44",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "3fcf3ebf-cc85-4956-8a12-8d5e13510eb5.jpg"
+    "image": "3fcf3ebf-cc85-4956-8a12-8d5e13510eb5.jpg",
+    "Strength": "0"
   },
   {
     "id": "1e8d09ba-701d-4c7a-815a-b4d390c472fb",
@@ -1593,7 +1630,8 @@
     "Set": "01 - Core Set",
     "index": "45",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "1e8d09ba-701d-4c7a-815a-b4d390c472fb.jpg"
+    "image": "1e8d09ba-701d-4c7a-815a-b4d390c472fb.jpg",
+    "Strength": "3"
   },
   {
     "id": "afff2d0e-8c26-456d-a8fc-8123ea6daab8",
@@ -1613,7 +1651,8 @@
     "Set": "02 - Proteus",
     "index": "76",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "afff2d0e-8c26-456d-a8fc-8123ea6daab8.jpg"
+    "image": "afff2d0e-8c26-456d-a8fc-8123ea6daab8.jpg",
+    "Strength": "6"
   },
   {
     "id": "aed1ca76-901c-4718-a0bb-481f1e6a3b29",
@@ -1681,7 +1720,9 @@
     "Set": "01 - Core Set",
     "index": "u",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "b6838762-3fcc-48bc-8ed8-d3d0370c5b14.jpg"
+    "image": "b6838762-3fcc-48bc-8ed8-d3d0370c5b14.jpg",
+    "Difficulty": "6",
+    "Agenda Points": "2"
   },
   {
     "id": "2ea92dd6-a604-439c-9f91-d96189c3166b",
@@ -1698,7 +1739,9 @@
     "Set": "01 - Core Set",
     "index": "v",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "2ea92dd6-a604-439c-9f91-d96189c3166b.jpg"
+    "image": "2ea92dd6-a604-439c-9f91-d96189c3166b.jpg",
+    "Difficulty": "5",
+    "Agenda Points": "2"
   },
   {
     "id": "22af3df8-f19f-41ad-abc7-f2e873a6fbe7",
@@ -1732,7 +1775,9 @@
     "Set": "01 - Core Set",
     "index": "w",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "271ea3ce-3582-4450-b05e-69326a4d6493.jpg"
+    "image": "271ea3ce-3582-4450-b05e-69326a4d6493.jpg",
+    "Difficulty": "3",
+    "Agenda Points": "2"
   },
   {
     "id": "76018711-c56f-4e37-9b01-85abf512d2de",
@@ -1772,7 +1817,9 @@
     "Set": "02 - Proteus",
     "index": "78",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "4fbc20e7-35f6-4966-b8c7-cb465864728a.jpg"
+    "image": "4fbc20e7-35f6-4966-b8c7-cb465864728a.jpg",
+    "Difficulty": "5",
+    "Agenda Points": "3"
   },
   {
     "id": "2cd201db-a2fe-49d0-b5e1-14197b88172e",
@@ -1806,7 +1853,9 @@
     "Set": "01 - Core Set",
     "index": "x",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "bb8dca9f-5072-4592-906a-e4ddb8737519.jpg"
+    "image": "bb8dca9f-5072-4592-906a-e4ddb8737519.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "3"
   },
   {
     "id": "0cab80e4-a06d-409c-89b4-c96490783fb7",
@@ -1844,7 +1893,9 @@
     "Set": "01 - Core Set",
     "index": "y",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "23b7487c-7093-47ae-a6e9-d3911ad58c5a.jpg"
+    "image": "23b7487c-7093-47ae-a6e9-d3911ad58c5a.jpg",
+    "Difficulty": "3",
+    "Agenda Points": "3"
   },
   {
     "id": "8ca3211f-c65c-4454-bbf4-23ed225bbb8d",
@@ -1881,7 +1932,8 @@
     "Set": "02 - Proteus",
     "index": "8R",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "b01f6d6e-cb57-4552-8525-75f5a6515507.jpg"
+    "image": "b01f6d6e-cb57-4552-8525-75f5a6515507.jpg",
+    "Strength": "0"
   },
   {
     "id": "35830bc7-f693-4490-af7a-d05153540e88",
@@ -1939,7 +1991,8 @@
     "Set": "01 - Core Set",
     "index": "1W",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "0f493d5f-84c4-4bea-ad03-a2a68a59eab9.jpg"
+    "image": "0f493d5f-84c4-4bea-ad03-a2a68a59eab9.jpg",
+    "Strength": "3"
   },
   {
     "id": "da1b3988-129b-494f-a04a-97f806fc109b",
@@ -1956,7 +2009,8 @@
     "Set": "01 - Core Set",
     "index": "1X",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "da1b3988-129b-494f-a04a-97f806fc109b.jpg"
+    "image": "da1b3988-129b-494f-a04a-97f806fc109b.jpg",
+    "Strength": "3"
   },
   {
     "id": "5a392750-396d-469f-a24a-e574d82cd42e",
@@ -2013,7 +2067,8 @@
     "Set": "02 - Proteus",
     "index": "79",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "a464c1f5-58b1-4ef4-b756-3f052dfa6276.jpg"
+    "image": "a464c1f5-58b1-4ef4-b756-3f052dfa6276.jpg",
+    "Strength": "3"
   },
   {
     "id": "365fea7b-d400-49a2-8de8-666732a17e4e",
@@ -2071,7 +2126,8 @@
     "Set": "02 - Proteus",
     "index": "7A",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "4b40cade-7d3b-4f1e-af6a-57a73a6e5535.jpg"
+    "image": "4b40cade-7d3b-4f1e-af6a-57a73a6e5535.jpg",
+    "Strength": "3"
   },
   {
     "id": "325e7ea0-69b3-4fdf-ad03-15813181193c",
@@ -2202,7 +2258,8 @@
     "Set": "01 - Core Set",
     "index": "1Y",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "bfcc5ecf-c4f5-47cb-b1ae-9b4e714e59f3.jpg"
+    "image": "bfcc5ecf-c4f5-47cb-b1ae-9b4e714e59f3.jpg",
+    "Strength": "3"
   },
   {
     "id": "c8543203-5475-426b-816c-39b30588f714",
@@ -2256,7 +2313,8 @@
     "Set": "01 - Core Set",
     "index": "46",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "ddae08d6-c091-4424-b025-b831e0e0a97c.jpg"
+    "image": "ddae08d6-c091-4424-b025-b831e0e0a97c.jpg",
+    "Strength": "5"
   },
   {
     "id": "c1129f58-dbc4-4b89-8761-64e7882a8eb7",
@@ -2273,7 +2331,8 @@
     "Set": "01 - Core Set",
     "index": "1Z",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "c1129f58-dbc4-4b89-8761-64e7882a8eb7.jpg"
+    "image": "c1129f58-dbc4-4b89-8761-64e7882a8eb7.jpg",
+    "Strength": "2"
   },
   {
     "id": "6a90deed-22d2-4393-9920-8dac868dfd7c",
@@ -2307,7 +2366,8 @@
     "Set": "01 - Core Set",
     "index": "1a",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "0317a9cf-db56-4719-9d91-3cd18c960803.jpg"
+    "image": "0317a9cf-db56-4719-9d91-3cd18c960803.jpg",
+    "Strength": "3"
   },
   {
     "id": "bcdf9438-2a81-4804-818b-b08157233078",
@@ -2324,7 +2384,9 @@
     "Set": "01 - Core Set",
     "index": "z",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "bcdf9438-2a81-4804-818b-b08157233078.jpg"
+    "image": "bcdf9438-2a81-4804-818b-b08157233078.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "2"
   },
   {
     "id": "797b3eb1-8a28-4a5a-a10c-ec84790f99ff",
@@ -2345,7 +2407,9 @@
     "Set": "03 - Classic",
     "index": "5",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "797b3eb1-8a28-4a5a-a10c-ec84790f99ff.jpg"
+    "image": "797b3eb1-8a28-4a5a-a10c-ec84790f99ff.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "2"
   },
   {
     "id": "984e88f0-7570-491b-844f-d3126ee41ca6",
@@ -2379,7 +2443,8 @@
     "Set": "01 - Core Set",
     "index": "1b",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "789cc9fd-c638-49ef-a400-7b658b08685f.jpg"
+    "image": "789cc9fd-c638-49ef-a400-7b658b08685f.jpg",
+    "Strength": "5"
   },
   {
     "id": "f3a8b3bf-3b67-49c7-b828-b41070740214",
@@ -2396,7 +2461,8 @@
     "Set": "01 - Core Set",
     "index": "1c",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "f3a8b3bf-3b67-49c7-b828-b41070740214.jpg"
+    "image": "f3a8b3bf-3b67-49c7-b828-b41070740214.jpg",
+    "Strength": "5"
   },
   {
     "id": "324f03e3-5ceb-4ca0-b872-66c7f3030221",
@@ -2433,7 +2499,8 @@
     "Set": "01 - Core Set",
     "index": "1d",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "8702c80e-84b5-4439-89b1-6767379d03c2.jpg"
+    "image": "8702c80e-84b5-4439-89b1-6767379d03c2.jpg",
+    "Strength": "0"
   },
   {
     "id": "5a5a8aa2-b043-4d44-8812-2cdf33ef0f9c",
@@ -2450,7 +2517,8 @@
     "Set": "01 - Core Set",
     "index": "1e",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "5a5a8aa2-b043-4d44-8812-2cdf33ef0f9c.jpg"
+    "image": "5a5a8aa2-b043-4d44-8812-2cdf33ef0f9c.jpg",
+    "Strength": "1"
   },
   {
     "id": "b14e277e-d681-480e-988f-549e449075e5",
@@ -2487,7 +2555,8 @@
     "Set": "02 - Proteus",
     "index": "7E",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "24d56bfa-c305-4915-a207-54d2ffac935d.jpg"
+    "image": "24d56bfa-c305-4915-a207-54d2ffac935d.jpg",
+    "Strength": "4"
   },
   {
     "id": "ff373795-057b-4f8d-9b9e-f61c3057bed6",
@@ -2542,7 +2611,8 @@
     "Set": "03 - Classic",
     "index": "6",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "1e75ce69-610a-4914-9ce6-6ca59c70359d.jpg"
+    "image": "1e75ce69-610a-4914-9ce6-6ca59c70359d.jpg",
+    "Strength": "0"
   },
   {
     "id": "03954709-aa33-4957-bc10-0e94cdca5913",
@@ -2599,7 +2669,8 @@
     "Set": "02 - Proteus",
     "index": "7F",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "d7ade1fb-4ed8-4c61-8fa2-39856e2ed9ff.jpg"
+    "image": "d7ade1fb-4ed8-4c61-8fa2-39856e2ed9ff.jpg",
+    "Strength": "2"
   },
   {
     "id": "cbc6ef9d-85d1-4be2-801b-1d261ba47612",
@@ -2761,7 +2832,9 @@
     "Set": "01 - Core Set",
     "index": "10",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "8ecd5a3a-77de-43ec-ac9d-de1487fb339e.jpg"
+    "image": "8ecd5a3a-77de-43ec-ac9d-de1487fb339e.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "1"
   },
   {
     "id": "a93ae07b-b757-4ee6-8c46-e089cb507a82",
@@ -2798,7 +2871,8 @@
     "Set": "02 - Proteus",
     "index": "7H",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "b18bb45c-fe47-482a-8c08-5f0781c44309.jpg"
+    "image": "b18bb45c-fe47-482a-8c08-5f0781c44309.jpg",
+    "Strength": "0"
   },
   {
     "id": "9b8f4ab9-6432-49e7-b830-7dea049f261a",
@@ -2913,7 +2987,8 @@
     "Set": "02 - Proteus",
     "index": "7I",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "b79376e0-938e-48b4-a49d-feecd14b9c59.jpg"
+    "image": "b79376e0-938e-48b4-a49d-feecd14b9c59.jpg",
+    "Strength": "0"
   },
   {
     "id": "80c89561-0a2b-498a-a939-6f404860be32",
@@ -2930,7 +3005,8 @@
     "Set": "01 - Core Set",
     "index": "48",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "80c89561-0a2b-498a-a939-6f404860be32.jpg"
+    "image": "80c89561-0a2b-498a-a939-6f404860be32.jpg",
+    "Strength": "3"
   },
   {
     "id": "a92eaff1-65f4-4717-b1a9-e89b1ed4e647",
@@ -3004,7 +3080,8 @@
     "Set": "01 - Core Set",
     "index": "49",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "04ff43d5-61b8-4609-a891-acaf16fc4dbe.jpg"
+    "image": "04ff43d5-61b8-4609-a891-acaf16fc4dbe.jpg",
+    "Strength": "4"
   },
   {
     "id": "3d99ea9e-c942-4a7d-86b7-7d16dd2fd7ea",
@@ -3025,7 +3102,8 @@
     "Set": "03 - Classic",
     "index": "7",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "3d99ea9e-c942-4a7d-86b7-7d16dd2fd7ea.jpg"
+    "image": "3d99ea9e-c942-4a7d-86b7-7d16dd2fd7ea.jpg",
+    "Strength": "5"
   },
   {
     "id": "83795f02-a38a-4250-b478-7f3ba6f99175",
@@ -3042,7 +3120,8 @@
     "Set": "01 - Core Set",
     "index": "4A",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "83795f02-a38a-4250-b478-7f3ba6f99175.jpg"
+    "image": "83795f02-a38a-4250-b478-7f3ba6f99175.jpg",
+    "Strength": "0"
   },
   {
     "id": "c267420a-7312-4d24-b9a0-ea590ed28fc1",
@@ -3059,7 +3138,8 @@
     "Set": "01 - Core Set",
     "index": "4B",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "c267420a-7312-4d24-b9a0-ea590ed28fc1.jpg"
+    "image": "c267420a-7312-4d24-b9a0-ea590ed28fc1.jpg",
+    "Strength": "3"
   },
   {
     "id": "1faf731d-9f12-49dd-a3b0-2f2a1bfdaf6e",
@@ -3080,7 +3160,8 @@
     "Set": "03 - Classic",
     "index": "U",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "1faf731d-9f12-49dd-a3b0-2f2a1bfdaf6e.jpg"
+    "image": "1faf731d-9f12-49dd-a3b0-2f2a1bfdaf6e.jpg",
+    "Strength": "2"
   },
   {
     "id": "54a22e1c-0e7d-4621-9857-28a18edcb98a",
@@ -3206,7 +3287,9 @@
     "Set": "01 - Core Set",
     "index": "11",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "d58b7cf7-c456-483a-80cd-fb51487ea0d6.jpg"
+    "image": "d58b7cf7-c456-483a-80cd-fb51487ea0d6.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "3"
   },
   {
     "id": "2a9cad9a-baa4-4918-8323-7a473bca1b6f",
@@ -3240,7 +3323,9 @@
     "Set": "01 - Core Set",
     "index": "12",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "c48c91d0-8253-42b3-9c69-918a464445e0.jpg"
+    "image": "c48c91d0-8253-42b3-9c69-918a464445e0.jpg",
+    "Difficulty": "5",
+    "Agenda Points": "2"
   },
   {
     "id": "5603f267-61f1-4684-9ae6-8649a273cf8f",
@@ -3257,7 +3342,8 @@
     "Set": "01 - Core Set",
     "index": "1f",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "5603f267-61f1-4684-9ae6-8649a273cf8f.jpg"
+    "image": "5603f267-61f1-4684-9ae6-8649a273cf8f.jpg",
+    "Strength": "2"
   },
   {
     "id": "5a399c09-77de-445d-8a6b-deb610c63f35",
@@ -3298,7 +3384,8 @@
     "Set": "03 - Classic",
     "index": "8",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "e0b42f06-6274-4976-937c-947c5002503d.jpg"
+    "image": "e0b42f06-6274-4976-937c-947c5002503d.jpg",
+    "Strength": "4"
   },
   {
     "id": "b47e5c47-4a86-4c30-a59e-12cab030c666",
@@ -3369,7 +3456,8 @@
     "Set": "01 - Core Set",
     "index": "4D",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "f23e3180-e3d5-4a8d-a6d6-d7aa67acfdf5.jpg"
+    "image": "f23e3180-e3d5-4a8d-a6d6-d7aa67acfdf5.jpg",
+    "Strength": "3"
   },
   {
     "id": "a18d1b13-452d-4b33-85ad-f04dceccdfa0",
@@ -3406,7 +3494,9 @@
     "Set": "01 - Core Set",
     "index": "13",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "38f8afe5-06bd-46a7-9b15-b7cd9401d05f.jpg"
+    "image": "38f8afe5-06bd-46a7-9b15-b7cd9401d05f.jpg",
+    "Difficulty": "3",
+    "Agenda Points": "1"
   },
   {
     "id": "b116fdf6-a800-4b80-b35c-a6711db0cb67",
@@ -3603,7 +3693,8 @@
     "Set": "01 - Core Set",
     "index": "1g",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "a7d2553a-417f-484e-95e7-a32bc2a4c768.jpg"
+    "image": "a7d2553a-417f-484e-95e7-a32bc2a4c768.jpg",
+    "Strength": "4"
   },
   {
     "id": "0f290a3c-8f20-4e8f-b3df-39b1b097e439",
@@ -3620,7 +3711,8 @@
     "Set": "01 - Core Set",
     "index": "1h",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "0f290a3c-8f20-4e8f-b3df-39b1b097e439.jpg"
+    "image": "0f290a3c-8f20-4e8f-b3df-39b1b097e439.jpg",
+    "Strength": "5"
   },
   {
     "id": "35c3d1bb-2cd1-4b05-bcf5-e76c65b4a37d",
@@ -3637,7 +3729,8 @@
     "Set": "01 - Core Set",
     "index": "1i",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "35c3d1bb-2cd1-4b05-bcf5-e76c65b4a37d.jpg"
+    "image": "35c3d1bb-2cd1-4b05-bcf5-e76c65b4a37d.jpg",
+    "Strength": "4"
   },
   {
     "id": "69c20033-c399-423b-99e5-aa9fcd1dc6ee",
@@ -3657,7 +3750,9 @@
     "Set": "02 - Proteus",
     "index": "7M",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "69c20033-c399-423b-99e5-aa9fcd1dc6ee.jpg"
+    "image": "69c20033-c399-423b-99e5-aa9fcd1dc6ee.jpg",
+    "Difficulty": "5",
+    "Agenda Points": "3"
   },
   {
     "id": "503f0967-6270-45f0-a0cb-5b78d28bdb00",
@@ -3674,7 +3769,8 @@
     "Set": "01 - Core Set",
     "index": "1j",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "503f0967-6270-45f0-a0cb-5b78d28bdb00.jpg"
+    "image": "503f0967-6270-45f0-a0cb-5b78d28bdb00.jpg",
+    "Strength": "3"
   },
   {
     "id": "d660828e-99d6-4159-8288-2b4724564370",
@@ -3708,7 +3804,8 @@
     "Set": "01 - Core Set",
     "index": "1k",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "3d6a3768-f3da-452e-9bb3-9fc06349d064.jpg"
+    "image": "3d6a3768-f3da-452e-9bb3-9fc06349d064.jpg",
+    "Strength": "0"
   },
   {
     "id": "519f48f3-399d-4145-8c5b-0e55f65c38b9",
@@ -3746,7 +3843,8 @@
     "Set": "01 - Core Set",
     "index": "1l",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "9acbcf66-b56b-4508-bca8-646295ed5e36.jpg"
+    "image": "9acbcf66-b56b-4508-bca8-646295ed5e36.jpg",
+    "Strength": "4"
   },
   {
     "id": "e6b4e48c-b0c6-4b60-9c61-995efa3fdddf",
@@ -3763,7 +3861,8 @@
     "Set": "01 - Core Set",
     "index": "4H",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "e6b4e48c-b0c6-4b60-9c61-995efa3fdddf.jpg"
+    "image": "e6b4e48c-b0c6-4b60-9c61-995efa3fdddf.jpg",
+    "Strength": "2"
   },
   {
     "id": "a7a78c3d-af6d-481d-9e28-585fe72782cd",
@@ -3800,7 +3899,8 @@
     "Set": "02 - Proteus",
     "index": "7N",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "8b1d2a26-6a13-430f-8dc6-a0c8174d779d.jpg"
+    "image": "8b1d2a26-6a13-430f-8dc6-a0c8174d779d.jpg",
+    "Strength": "3"
   },
   {
     "id": "2645b5bb-43ef-4cd5-82c7-c82f7d6b0fcb",
@@ -3925,7 +4025,8 @@
     "Set": "02 - Proteus",
     "index": "8h",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "f68992bc-31aa-448e-a96e-272f148e12ca.jpg"
+    "image": "f68992bc-31aa-448e-a96e-272f148e12ca.jpg",
+    "Strength": "0"
   },
   {
     "id": "eabfe52b-d2fa-412c-bf1b-c5af6d53d945",
@@ -3942,7 +4043,8 @@
     "Set": "01 - Core Set",
     "index": "1m",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "eabfe52b-d2fa-412c-bf1b-c5af6d53d945.jpg"
+    "image": "eabfe52b-d2fa-412c-bf1b-c5af6d53d945.jpg",
+    "Strength": "4"
   },
   {
     "id": "a7c1a3e1-061e-4fdc-8bec-0bbfe7c2073a",
@@ -3982,7 +4084,8 @@
     "Set": "02 - Proteus",
     "index": "8j",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "40c7c36e-e055-41d1-abe4-37895d43fc4c.jpg"
+    "image": "40c7c36e-e055-41d1-abe4-37895d43fc4c.jpg",
+    "Strength": "3"
   },
   {
     "id": "a825e4cf-c0d1-4ded-b869-34616657c078",
@@ -4019,7 +4122,8 @@
     "Set": "02 - Proteus",
     "index": "7O",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "59988159-0d99-4f2e-839d-f37e16f91671.jpg"
+    "image": "59988159-0d99-4f2e-839d-f37e16f91671.jpg",
+    "Strength": "4"
   },
   {
     "id": "dc6ce539-4935-43af-9dcd-7169de22b8dd",
@@ -4059,7 +4163,8 @@
     "Set": "02 - Proteus",
     "index": "7P",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "ab62605a-7b05-4037-97f5-8af58efdc66d.jpg"
+    "image": "ab62605a-7b05-4037-97f5-8af58efdc66d.jpg",
+    "Strength": "4"
   },
   {
     "id": "37ebb001-a1c5-4601-8313-e3edbbaebbc9",
@@ -4076,7 +4181,9 @@
     "Set": "01 - Core Set",
     "index": "14",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "37ebb001-a1c5-4601-8313-e3edbbaebbc9.jpg"
+    "image": "37ebb001-a1c5-4601-8313-e3edbbaebbc9.jpg",
+    "Difficulty": "3",
+    "Agenda Points": "1"
   },
   {
     "id": "26dd0ed2-9b59-436d-990f-ff40e21d7392",
@@ -4134,7 +4241,8 @@
     "Set": "03 - Classic",
     "index": "9",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "19ea719d-a121-4ed1-b354-8c2d64e875ee.jpg"
+    "image": "19ea719d-a121-4ed1-b354-8c2d64e875ee.jpg",
+    "Strength": "5"
   },
   {
     "id": "b38002e9-f6a5-40a2-a458-cbeab6902d4d",
@@ -4188,7 +4296,8 @@
     "Set": "01 - Core Set",
     "index": "4K",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "fe58ad56-da9d-47e8-aedd-bdf2f23bc51c.jpg"
+    "image": "fe58ad56-da9d-47e8-aedd-bdf2f23bc51c.jpg",
+    "Strength": "0"
   },
   {
     "id": "428c3f35-8048-4dbf-87c9-96de551d84f3",
@@ -4243,7 +4352,8 @@
     "Set": "01 - Core Set",
     "index": "4L",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "cff2a104-e589-4376-996b-ae65d007a4dc.jpg"
+    "image": "cff2a104-e589-4376-996b-ae65d007a4dc.jpg",
+    "Strength": "2"
   },
   {
     "id": "7de0f60d-d549-4648-b8a5-be922ee56851",
@@ -4260,7 +4370,8 @@
     "Set": "01 - Core Set",
     "index": "1n",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "7de0f60d-d549-4648-b8a5-be922ee56851.jpg"
+    "image": "7de0f60d-d549-4648-b8a5-be922ee56851.jpg",
+    "Strength": "6"
   },
   {
     "id": "2bead52f-1b8e-443e-af62-97d3be0fd29c",
@@ -4371,7 +4482,8 @@
     "Set": "01 - Core Set",
     "index": "1o",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "18af6f18-20f3-40ea-ab6b-48551e2fe9e6.jpg"
+    "image": "18af6f18-20f3-40ea-ab6b-48551e2fe9e6.jpg",
+    "Strength": "5"
   },
   {
     "id": "67dc3672-3eee-4f7f-ab56-cf6f4a7beb5c",
@@ -4391,7 +4503,8 @@
     "Set": "02 - Proteus",
     "index": "7S",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "67dc3672-3eee-4f7f-ab56-cf6f4a7beb5c.jpg"
+    "image": "67dc3672-3eee-4f7f-ab56-cf6f4a7beb5c.jpg",
+    "Strength": "0"
   },
   {
     "id": "375202f8-166b-4048-9066-aa99f77a99d3",
@@ -4408,7 +4521,9 @@
     "Set": "01 - Core Set",
     "index": "15",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "375202f8-166b-4048-9066-aa99f77a99d3.jpg"
+    "image": "375202f8-166b-4048-9066-aa99f77a99d3.jpg",
+    "Difficulty": "3",
+    "Agenda Points": "1"
   },
   {
     "id": "3c439eb3-1219-4ca0-8586-ead209ca3b28",
@@ -4496,7 +4611,8 @@
     "Set": "01 - Core Set",
     "index": "1p",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "cde4ed13-3fc4-4054-a887-7d6ff8befbc0.jpg"
+    "image": "cde4ed13-3fc4-4054-a887-7d6ff8befbc0.jpg",
+    "Strength": "5"
   },
   {
     "id": "6d78bc38-5d0c-4fe4-97c1-74492c2156e7",
@@ -4516,7 +4632,8 @@
     "Set": "02 - Proteus",
     "index": "7T",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "6d78bc38-5d0c-4fe4-97c1-74492c2156e7.jpg"
+    "image": "6d78bc38-5d0c-4fe4-97c1-74492c2156e7.jpg",
+    "Strength": "4"
   },
   {
     "id": "22c5f23d-fe42-454a-b5d2-7c7db7f1b887",
@@ -4604,7 +4721,8 @@
     "Set": "01 - Core Set",
     "index": "1q",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "add93be1-f428-4770-8f42-793f70aeb8bb.jpg"
+    "image": "add93be1-f428-4770-8f42-793f70aeb8bb.jpg",
+    "Strength": "1"
   },
   {
     "id": "596e0ebb-2936-48ed-9a12-9215dccdc0cb",
@@ -4621,7 +4739,9 @@
     "Set": "01 - Core Set",
     "index": "16",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "596e0ebb-2936-48ed-9a12-9215dccdc0cb.jpg"
+    "image": "596e0ebb-2936-48ed-9a12-9215dccdc0cb.jpg",
+    "Difficulty": "5",
+    "Agenda Points": "3"
   },
   {
     "id": "777b9d2d-c80b-48b7-bfb6-b914506a7c10",
@@ -4641,7 +4761,8 @@
     "Set": "02 - Proteus",
     "index": "7U",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "777b9d2d-c80b-48b7-bfb6-b914506a7c10.jpg"
+    "image": "777b9d2d-c80b-48b7-bfb6-b914506a7c10.jpg",
+    "Strength": "4"
   },
   {
     "id": "38f18b9b-1282-45f5-af75-152e5c505f18",
@@ -4716,7 +4837,8 @@
     "Set": "03 - Classic",
     "index": "A",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "c3e0761e-aab9-488e-b0de-a4fe55c12f99.jpg"
+    "image": "c3e0761e-aab9-488e-b0de-a4fe55c12f99.jpg",
+    "Strength": "5"
   },
   {
     "id": "33edf37f-aa77-4072-a946-70a68cb8815d",
@@ -4856,7 +4978,8 @@
     "Set": "01 - Core Set",
     "index": "1r",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "d6e888c1-43ed-4102-8e4a-e53ab5efb67c.jpg"
+    "image": "d6e888c1-43ed-4102-8e4a-e53ab5efb67c.jpg",
+    "Strength": "3"
   },
   {
     "id": "d1ebb38b-0530-4b08-91eb-a69c6ed2e844",
@@ -4873,7 +4996,8 @@
     "Set": "01 - Core Set",
     "index": "4Q",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "d1ebb38b-0530-4b08-91eb-a69c6ed2e844.jpg"
+    "image": "d1ebb38b-0530-4b08-91eb-a69c6ed2e844.jpg",
+    "Strength": "0"
   },
   {
     "id": "78357861-b3b8-4451-9387-c1632c413a05",
@@ -4890,7 +5014,8 @@
     "Set": "01 - Core Set",
     "index": "4R",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "78357861-b3b8-4451-9387-c1632c413a05.jpg"
+    "image": "78357861-b3b8-4451-9387-c1632c413a05.jpg",
+    "Strength": "2"
   },
   {
     "id": "13159785-e241-47fa-b34b-1765ec635650",
@@ -4992,7 +5117,8 @@
     "Set": "01 - Core Set",
     "index": "1s",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "1f681197-fee7-4b1d-a619-361bb88f2d2c.jpg"
+    "image": "1f681197-fee7-4b1d-a619-361bb88f2d2c.jpg",
+    "Strength": "4"
   },
   {
     "id": "a528953e-b0d8-4fa7-a016-e4f72c569afa",
@@ -5026,7 +5152,8 @@
     "Set": "01 - Core Set",
     "index": "4T",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "ad70d330-ffd3-4b83-96a0-2e58fedc1de3.jpg"
+    "image": "ad70d330-ffd3-4b83-96a0-2e58fedc1de3.jpg",
+    "Strength": "0"
   },
   {
     "id": "3695a424-a307-449c-b482-bf2f28a130fb",
@@ -5060,7 +5187,8 @@
     "Set": "01 - Core Set",
     "index": "1t",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "6789318d-a0d8-4d4d-bb78-be539bc81de9.jpg"
+    "image": "6789318d-a0d8-4d4d-bb78-be539bc81de9.jpg",
+    "Strength": "2"
   },
   {
     "id": "805f0899-7abc-41c4-a1a8-3ca78b3a6d37",
@@ -5137,7 +5265,8 @@
     "Set": "02 - Proteus",
     "index": "7X",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "c4b95101-e8f4-4b5a-9f80-7a2d76b8fa0b.jpg"
+    "image": "c4b95101-e8f4-4b5a-9f80-7a2d76b8fa0b.jpg",
+    "Strength": "4"
   },
   {
     "id": "a159245f-3527-4a0b-895a-0db43515231d",
@@ -5195,7 +5324,8 @@
     "Set": "01 - Core Set",
     "index": "1u",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "889e793a-0b2d-4408-b894-175649bb1560.jpg"
+    "image": "889e793a-0b2d-4408-b894-175649bb1560.jpg",
+    "Strength": "6"
   },
   {
     "id": "61e76bea-0bd4-4cc8-9014-ea4cb2ea73bc",
@@ -5365,7 +5495,8 @@
     "Set": "01 - Core Set",
     "index": "4U",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "37726d9e-3dc9-46e4-a20b-3c6b18214f26.jpg"
+    "image": "37726d9e-3dc9-46e4-a20b-3c6b18214f26.jpg",
+    "Strength": "0"
   },
   {
     "id": "639948ff-14b4-47df-9c23-d7164b97f012",
@@ -5419,7 +5550,9 @@
     "Set": "01 - Core Set",
     "index": "17",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "133a053d-26f1-477a-b4dc-aeac52918576.jpg"
+    "image": "133a053d-26f1-477a-b4dc-aeac52918576.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "3"
   },
   {
     "id": "621c78ed-011a-401c-bd58-909aa765ee85",
@@ -5510,7 +5643,9 @@
     "Set": "01 - Core Set",
     "index": "18",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "3a8ed0bd-478e-47c7-8598-9cbb007d2b4b.jpg"
+    "image": "3a8ed0bd-478e-47c7-8598-9cbb007d2b4b.jpg",
+    "Difficulty": "3",
+    "Agenda Points": "2"
   },
   {
     "id": "e5d35872-f442-4f56-a277-478ccc8a43c8",
@@ -5530,7 +5665,8 @@
     "Set": "02 - Proteus",
     "index": "7b",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "e5d35872-f442-4f56-a277-478ccc8a43c8.jpg"
+    "image": "e5d35872-f442-4f56-a277-478ccc8a43c8.jpg",
+    "Strength": "0"
   },
   {
     "id": "0c6f6ad9-069d-4932-8a1e-bd36624c6908",
@@ -5550,7 +5686,9 @@
     "Set": "02 - Proteus",
     "index": "7c",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "0c6f6ad9-069d-4932-8a1e-bd36624c6908.jpg"
+    "image": "0c6f6ad9-069d-4932-8a1e-bd36624c6908.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "2"
   },
   {
     "id": "a7a021a5-7321-42d8-b3b0-7a627b71ca9c",
@@ -5570,7 +5708,8 @@
     "Set": "02 - Proteus",
     "index": "7d",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "a7a021a5-7321-42d8-b3b0-7a627b71ca9c.jpg"
+    "image": "a7a021a5-7321-42d8-b3b0-7a627b71ca9c.jpg",
+    "Strength": "0"
   },
   {
     "id": "05dc8c06-e801-4bee-9b01-1b5c47d5a8f6",
@@ -5587,7 +5726,8 @@
     "Set": "01 - Core Set",
     "index": "1v",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "05dc8c06-e801-4bee-9b01-1b5c47d5a8f6.jpg"
+    "image": "05dc8c06-e801-4bee-9b01-1b5c47d5a8f6.jpg",
+    "Strength": "5"
   },
   {
     "id": "5080a98c-b2a6-49c3-9ca7-3682c9ef41bf",
@@ -5608,7 +5748,8 @@
     "Set": "03 - Classic",
     "index": "b",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "5080a98c-b2a6-49c3-9ca7-3682c9ef41bf.jpg"
+    "image": "5080a98c-b2a6-49c3-9ca7-3682c9ef41bf.jpg",
+    "Strength": "0"
   },
   {
     "id": "a0bd6839-5c54-4258-8f2a-2e5e4d1f977d",
@@ -5625,7 +5766,8 @@
     "Set": "01 - Core Set",
     "index": "1w",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "a0bd6839-5c54-4258-8f2a-2e5e4d1f977d.jpg"
+    "image": "a0bd6839-5c54-4258-8f2a-2e5e4d1f977d.jpg",
+    "Strength": "5"
   },
   {
     "id": "ff78c830-06c8-4437-b03f-6912337983cb",
@@ -5754,7 +5896,8 @@
     "Set": "02 - Proteus",
     "index": "7e",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "cc37ac14-caeb-485f-83ae-d304df24e7ba.jpg"
+    "image": "cc37ac14-caeb-485f-83ae-d304df24e7ba.jpg",
+    "Strength": "4"
   },
   {
     "id": "facbc33b-e8e8-4179-a63b-956e57d5efd2",
@@ -5811,7 +5954,8 @@
     "Set": "02 - Proteus",
     "index": "7f",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "8e6ab6ce-d8c9-45b5-877d-cec1789e58a1.jpg"
+    "image": "8e6ab6ce-d8c9-45b5-877d-cec1789e58a1.jpg",
+    "Strength": "1"
   },
   {
     "id": "838d533c-cf90-4802-ac43-18ccfb2ce2dc",
@@ -5848,7 +5992,8 @@
     "Set": "02 - Proteus",
     "index": "7g",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "12c24446-1d49-4c37-a14d-3bb3c7360317.jpg"
+    "image": "12c24446-1d49-4c37-a14d-3bb3c7360317.jpg",
+    "Strength": "3"
   },
   {
     "id": "b10c3681-9bb3-481b-af86-64649b6e78db",
@@ -5868,7 +6013,8 @@
     "Set": "02 - Proteus",
     "index": "8w",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "b10c3681-9bb3-481b-af86-64649b6e78db.jpg"
+    "image": "b10c3681-9bb3-481b-af86-64649b6e78db.jpg",
+    "Strength": "4"
   },
   {
     "id": "4524d51d-3686-4d06-97f5-507118a3fb57",
@@ -5923,7 +6069,8 @@
     "Set": "03 - Classic",
     "index": "d",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "b4c454c6-9964-4110-8c2c-8408a7c189e7.jpg"
+    "image": "b4c454c6-9964-4110-8c2c-8408a7c189e7.jpg",
+    "Strength": "2"
   },
   {
     "id": "92725a30-5f2a-439e-a5e1-4c818780ed1c",
@@ -6008,7 +6155,8 @@
     "Set": "01 - Core Set",
     "index": "1x",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "99c59918-1957-4ed9-a1e0-d627eba65e03.jpg"
+    "image": "99c59918-1957-4ed9-a1e0-d627eba65e03.jpg",
+    "Strength": "4"
   },
   {
     "id": "8e37521d-7ab3-496b-9327-ebaa19b6a744",
@@ -6059,7 +6207,9 @@
     "Set": "01 - Core Set",
     "index": "19",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "58a2734d-2243-41ea-9ce6-df5cec5bbdf0.jpg"
+    "image": "58a2734d-2243-41ea-9ce6-df5cec5bbdf0.jpg",
+    "Difficulty": "5",
+    "Agenda Points": "2"
   },
   {
     "id": "40ac048d-cce0-4f7a-af06-d0ee8e99bdda",
@@ -6117,7 +6267,8 @@
     "Set": "01 - Core Set",
     "index": "1y",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "dd86abe8-e3b7-455e-ac90-cbf0d09d3c26.jpg"
+    "image": "dd86abe8-e3b7-455e-ac90-cbf0d09d3c26.jpg",
+    "Strength": "4"
   },
   {
     "id": "7ac408d0-1b44-4e71-828a-b9cb4b59a727",
@@ -6423,7 +6574,9 @@
     "Set": "01 - Core Set",
     "index": "1A",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "a042c7e7-90af-4586-8474-4985ef5e4719.jpg"
+    "image": "a042c7e7-90af-4586-8474-4985ef5e4719.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "3"
   },
   {
     "id": "74571bf9-6a2e-4ad1-ba91-ec438df2da94",
@@ -6677,7 +6830,8 @@
     "Set": "01 - Core Set",
     "index": "1z",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "a5171157-2f02-493c-8201-6e8927664164.jpg"
+    "image": "a5171157-2f02-493c-8201-6e8927664164.jpg",
+    "Strength": "3"
   },
   {
     "id": "0b1afa41-a2ac-4eea-8365-623fba464c68",
@@ -6694,7 +6848,8 @@
     "Set": "01 - Core Set",
     "index": "4b",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "0b1afa41-a2ac-4eea-8365-623fba464c68.jpg"
+    "image": "0b1afa41-a2ac-4eea-8365-623fba464c68.jpg",
+    "Strength": "7"
   },
   {
     "id": "7852abe3-9c40-4610-a7ef-51b2666771e9",
@@ -6785,7 +6940,9 @@
     "Set": "02 - Proteus",
     "index": "7m",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "d0d575f8-fbd4-4da1-8c0e-bca28a7310ea.jpg"
+    "image": "d0d575f8-fbd4-4da1-8c0e-bca28a7310ea.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "2"
   },
   {
     "id": "96f11d49-434d-4f52-b144-cd8346929e30",
@@ -6802,7 +6959,8 @@
     "Set": "01 - Core Set",
     "index": "20",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "96f11d49-434d-4f52-b144-cd8346929e30.jpg"
+    "image": "96f11d49-434d-4f52-b144-cd8346929e30.jpg",
+    "Strength": "4"
   },
   {
     "id": "d67abfda-7616-494e-92ac-269a4e17bb2f",
@@ -6839,7 +6997,9 @@
     "Set": "01 - Core Set",
     "index": "1B",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "02379962-7a55-4305-a649-69fb5936f022.jpg"
+    "image": "02379962-7a55-4305-a649-69fb5936f022.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "2"
   },
   {
     "id": "6affcdfc-a8f9-4154-bd0b-48af859c0811",
@@ -6856,7 +7016,9 @@
     "Set": "01 - Core Set",
     "index": "1C",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "6affcdfc-a8f9-4154-bd0b-48af859c0811.jpg"
+    "image": "6affcdfc-a8f9-4154-bd0b-48af859c0811.jpg",
+    "Difficulty": "9",
+    "Agenda Points": "6"
   },
   {
     "id": "da3bbaf9-b3af-42a8-8c8c-f4fa7ab3c6ae",
@@ -6890,7 +7052,9 @@
     "Set": "01 - Core Set",
     "index": "1D",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "77006d57-0ffe-444f-90d2-2dae1df8c392.jpg"
+    "image": "77006d57-0ffe-444f-90d2-2dae1df8c392.jpg",
+    "Difficulty": "6",
+    "Agenda Points": "3"
   },
   {
     "id": "a805eabe-472e-4a35-9971-84ee526ce910",
@@ -6998,7 +7162,9 @@
     "Set": "01 - Core Set",
     "index": "1E",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "49ce935a-864f-48f3-9633-a39a73ba7162.jpg"
+    "image": "49ce935a-864f-48f3-9633-a39a73ba7162.jpg",
+    "Difficulty": "5",
+    "Agenda Points": "3"
   },
   {
     "id": "29ee9d56-931c-441e-a28d-e64980c9989c",
@@ -7032,7 +7198,9 @@
     "Set": "01 - Core Set",
     "index": "1F",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "e50a73f0-510c-455b-b605-0caadfa03e3a.jpg"
+    "image": "e50a73f0-510c-455b-b605-0caadfa03e3a.jpg",
+    "Difficulty": "7",
+    "Agenda Points": "2"
   },
   {
     "id": "d04a4b25-f9b6-4e20-aee1-a36d77b9bda1",
@@ -7066,7 +7234,9 @@
     "Set": "01 - Core Set",
     "index": "1G",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "0b1b92c6-d761-4aa8-83fc-350873c2e143.jpg"
+    "image": "0b1b92c6-d761-4aa8-83fc-350873c2e143.jpg",
+    "Difficulty": "3",
+    "Agenda Points": "1"
   },
   {
     "id": "a00485de-dd36-4cb9-b794-cbcecfb19bde",
@@ -7103,7 +7273,9 @@
     "Set": "02 - Proteus",
     "index": "7n",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "726261ca-6517-4b4c-86bb-85851d3be67d.jpg"
+    "image": "726261ca-6517-4b4c-86bb-85851d3be67d.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "2"
   },
   {
     "id": "429dc83b-8c45-439b-b31a-b08afcb61314",
@@ -7123,7 +7295,9 @@
     "Set": "02 - Proteus",
     "index": "7o",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "429dc83b-8c45-439b-b31a-b08afcb61314.jpg"
+    "image": "429dc83b-8c45-439b-b31a-b08afcb61314.jpg",
+    "Difficulty": "3",
+    "Agenda Points": "2"
   },
   {
     "id": "ad113a0e-b998-460b-b4a4-b43e1905886b",
@@ -7164,7 +7338,8 @@
     "Set": "03 - Classic",
     "index": "i",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "f12aaa95-4b80-4098-83fe-8b313d33f157.jpg"
+    "image": "f12aaa95-4b80-4098-83fe-8b313d33f157.jpg",
+    "Strength": "1"
   },
   {
     "id": "11b7d12e-6b63-4c4f-83a7-6ca032679813",
@@ -7202,7 +7377,8 @@
     "Set": "03 - Classic",
     "index": "D",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "89abe50e-6c37-4fd2-ab8f-f80c5bd5e6e3.jpg"
+    "image": "89abe50e-6c37-4fd2-ab8f-f80c5bd5e6e3.jpg",
+    "Strength": "5"
   },
   {
     "id": "f97a4334-69ee-4cb6-b2d4-0caaee2497b2",
@@ -7219,7 +7395,8 @@
     "Set": "01 - Core Set",
     "index": "21",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "f97a4334-69ee-4cb6-b2d4-0caaee2497b2.jpg"
+    "image": "f97a4334-69ee-4cb6-b2d4-0caaee2497b2.jpg",
+    "Strength": "2"
   },
   {
     "id": "f43237a3-70a5-4d01-bf3e-bf5bdc4d7d8e",
@@ -7324,7 +7501,8 @@
     "Set": "01 - Core Set",
     "index": "4g",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "01a06dcd-ad0f-4e6d-a2ac-e28eca07b0b6.jpg"
+    "image": "01a06dcd-ad0f-4e6d-a2ac-e28eca07b0b6.jpg",
+    "Strength": "4"
   },
   {
     "id": "50a45ab5-9e61-4337-ac34-1b0a05bdf01c",
@@ -7341,7 +7519,8 @@
     "Set": "01 - Core Set",
     "index": "4h",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "50a45ab5-9e61-4337-ac34-1b0a05bdf01c.jpg"
+    "image": "50a45ab5-9e61-4337-ac34-1b0a05bdf01c.jpg",
+    "Strength": "5"
   },
   {
     "id": "6fd4c4c1-c15c-4996-aa43-2f3b650c9b64",
@@ -7358,7 +7537,8 @@
     "Set": "01 - Core Set",
     "index": "4i",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "6fd4c4c1-c15c-4996-aa43-2f3b650c9b64.jpg"
+    "image": "6fd4c4c1-c15c-4996-aa43-2f3b650c9b64.jpg",
+    "Strength": "1"
   },
   {
     "id": "47351c36-0882-4b7d-9e27-79727712e0c4",
@@ -7449,7 +7629,8 @@
     "Set": "01 - Core Set",
     "index": "22",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "ad846d88-b512-4521-b27d-d92d3f8052ba.jpg"
+    "image": "ad846d88-b512-4521-b27d-d92d3f8052ba.jpg",
+    "Strength": "3"
   },
   {
     "id": "fbb3ee83-c0a7-4437-ae4b-70a39efb44c1",
@@ -7544,7 +7725,8 @@
     "Set": "02 - Proteus",
     "index": "95",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "3c579ddb-b8c5-4ce6-a6bf-e965ee328c9a.jpg"
+    "image": "3c579ddb-b8c5-4ce6-a6bf-e965ee328c9a.jpg",
+    "Strength": "3"
   },
   {
     "id": "f13dbfeb-9655-476d-a999-4f3b274da94f",
@@ -7561,7 +7743,8 @@
     "Set": "01 - Core Set",
     "index": "4j",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "f13dbfeb-9655-476d-a999-4f3b274da94f.jpg"
+    "image": "f13dbfeb-9655-476d-a999-4f3b274da94f.jpg",
+    "Strength": "4"
   },
   {
     "id": "1d97c3d9-2f3f-44a2-a939-75d4dee67760",
@@ -7578,7 +7761,8 @@
     "Set": "01 - Core Set",
     "index": "23",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "1d97c3d9-2f3f-44a2-a939-75d4dee67760.jpg"
+    "image": "1d97c3d9-2f3f-44a2-a939-75d4dee67760.jpg",
+    "Strength": "4"
   },
   {
     "id": "79c74ba0-23e2-47dd-934c-edfa8be7a80a",
@@ -7636,7 +7820,8 @@
     "Set": "03 - Classic",
     "index": "j",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "af5bcccc-5aa0-4b8a-9449-b6a1f850a482.jpg"
+    "image": "af5bcccc-5aa0-4b8a-9449-b6a1f850a482.jpg",
+    "Strength": "2"
   },
   {
     "id": "31cb5ed8-ca36-4637-b78f-ec10c1c28526",
@@ -7673,7 +7858,8 @@
     "Set": "01 - Core Set",
     "index": "4k",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "0caa0273-2126-46cf-8f92-ed35cacdb6cc.jpg"
+    "image": "0caa0273-2126-46cf-8f92-ed35cacdb6cc.jpg",
+    "Strength": "2"
   },
   {
     "id": "e3a3cd44-d176-4fd1-a062-626f6d167434",
@@ -7744,7 +7930,8 @@
     "Set": "01 - Core Set",
     "index": "24",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "784693e7-b1eb-47b4-a9d1-a7ed097cef6b.jpg"
+    "image": "784693e7-b1eb-47b4-a9d1-a7ed097cef6b.jpg",
+    "Strength": "3"
   },
   {
     "id": "b0aa9187-6519-4128-8465-dc9a980a1270",
@@ -7764,7 +7951,8 @@
     "Set": "02 - Proteus",
     "index": "7t",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "b0aa9187-6519-4128-8465-dc9a980a1270.jpg"
+    "image": "b0aa9187-6519-4128-8465-dc9a980a1270.jpg",
+    "Strength": "4"
   },
   {
     "id": "158fa070-85f8-4bf4-838a-09bbbc31b240",
@@ -7818,7 +8006,8 @@
     "Set": "02 - Proteus",
     "index": "7u",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "1e9d314f-ff29-40cc-a0f4-3d19f7cc7aa8.jpg"
+    "image": "1e9d314f-ff29-40cc-a0f4-3d19f7cc7aa8.jpg",
+    "Strength": "0"
   },
   {
     "id": "3d790e3a-7c1e-4971-94e8-fcadb308fe82",
@@ -7835,7 +8024,8 @@
     "Set": "01 - Core Set",
     "index": "25",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "3d790e3a-7c1e-4971-94e8-fcadb308fe82.jpg"
+    "image": "3d790e3a-7c1e-4971-94e8-fcadb308fe82.jpg",
+    "Strength": "5"
   },
   {
     "id": "135cd835-8477-408c-ac6b-5aafe0f1cdd2",
@@ -8022,7 +8212,8 @@
     "Set": "02 - Proteus",
     "index": "7v",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "2fdecce3-7c7d-425b-9ab5-89c1d3010fa8.jpg"
+    "image": "2fdecce3-7c7d-425b-9ab5-89c1d3010fa8.jpg",
+    "Strength": "4"
   },
   {
     "id": "08e5f4fc-ab2d-421e-ad04-c59f5a470829",
@@ -8063,7 +8254,8 @@
     "Set": "02 - Proteus",
     "index": "7w",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "cf9149b7-50b6-40e8-a4ec-8fa51f4b79a7.jpg"
+    "image": "cf9149b7-50b6-40e8-a4ec-8fa51f4b79a7.jpg",
+    "Strength": "0"
   },
   {
     "id": "2923281e-0a03-45bb-8290-3e77e4df1f32",
@@ -8209,7 +8401,8 @@
     "Set": "01 - Core Set",
     "index": "26",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "e7b26a5c-2c51-4c35-9d21-34ca77b82211.jpg"
+    "image": "e7b26a5c-2c51-4c35-9d21-34ca77b82211.jpg",
+    "Strength": "3"
   },
   {
     "id": "29d3428b-f7db-419e-84c3-90ab4665e254",
@@ -8243,7 +8436,9 @@
     "Set": "01 - Core Set",
     "index": "1H",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "011e2cc5-1dfe-49ed-809e-bd4eceb57fcb.jpg"
+    "image": "011e2cc5-1dfe-49ed-809e-bd4eceb57fcb.jpg",
+    "Difficulty": "5",
+    "Agenda Points": "3"
   },
   {
     "id": "021db7be-99df-43a3-9f71-833ca5df8313",
@@ -8260,7 +8455,9 @@
     "Set": "01 - Core Set",
     "index": "1I",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "021db7be-99df-43a3-9f71-833ca5df8313.jpg"
+    "image": "021db7be-99df-43a3-9f71-833ca5df8313.jpg",
+    "Difficulty": "3",
+    "Agenda Points": "2"
   },
   {
     "id": "bea38ca0-c1c7-4003-8682-ce75a51c7c35",
@@ -8352,7 +8549,8 @@
     "Set": "01 - Core Set",
     "index": "27",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "b09464a3-31f4-4f37-8391-07eaf40a888f.jpg"
+    "image": "b09464a3-31f4-4f37-8391-07eaf40a888f.jpg",
+    "Strength": "4"
   },
   {
     "id": "e6ec8e9e-1107-4957-aef6-11e06a830454",
@@ -8386,7 +8584,8 @@
     "Set": "01 - Core Set",
     "index": "4o",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "e461de9f-34a1-4153-8c1f-afd01d352df5.jpg"
+    "image": "e461de9f-34a1-4153-8c1f-afd01d352df5.jpg",
+    "Strength": "2"
   },
   {
     "id": "e5a60274-edf8-42f5-827b-b6f4893c364e",
@@ -8441,7 +8640,8 @@
     "Set": "01 - Core Set",
     "index": "28",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "0613ca4f-4588-4e76-abf8-0065b9a955ab.jpg"
+    "image": "0613ca4f-4588-4e76-abf8-0065b9a955ab.jpg",
+    "Strength": "3"
   },
   {
     "id": "dae89670-e2ac-4d75-b96a-954eb7f6ee07",
@@ -8475,7 +8675,8 @@
     "Set": "01 - Core Set",
     "index": "29",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "b11fde47-45bf-41b7-83d3-85ea2555f299.jpg"
+    "image": "b11fde47-45bf-41b7-83d3-85ea2555f299.jpg",
+    "Strength": "5"
   },
   {
     "id": "179ba67c-1429-411d-a17c-daa3ec13aeeb",
@@ -8657,7 +8858,8 @@
     "Set": "02 - Proteus",
     "index": "9C",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "9e7c838e-4302-43da-925a-9e4143ab21ca.jpg"
+    "image": "9e7c838e-4302-43da-925a-9e4143ab21ca.jpg",
+    "Strength": "1"
   },
   {
     "id": "4d8bed6e-0484-4fb5-ba39-d3c02208aee8",
@@ -8711,7 +8913,8 @@
     "Set": "01 - Core Set",
     "index": "2A",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "7e2e85d1-49cb-4b11-b1b8-846e5d0120d5.jpg"
+    "image": "7e2e85d1-49cb-4b11-b1b8-846e5d0120d5.jpg",
+    "Strength": "1"
   },
   {
     "id": "b46b2dc7-9cb5-42f4-a048-5dea13c40212",
@@ -8779,7 +8982,8 @@
     "Set": "01 - Core Set",
     "index": "4u",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "131eba42-9158-4076-9330-9e42942afe82.jpg"
+    "image": "131eba42-9158-4076-9330-9e42942afe82.jpg",
+    "Strength": "0"
   },
   {
     "id": "356799d4-43ec-4242-845a-1fdd5924bf4e",
@@ -8799,7 +9003,8 @@
     "Set": "02 - Proteus",
     "index": "80",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "356799d4-43ec-4242-845a-1fdd5924bf4e.jpg"
+    "image": "356799d4-43ec-4242-845a-1fdd5924bf4e.jpg",
+    "Strength": "0"
   },
   {
     "id": "f9620ff6-046a-46e0-b502-5807f6de60c7",
@@ -8887,7 +9092,8 @@
     "Set": "02 - Proteus",
     "index": "81",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "d4ba3706-7ef7-4741-9a66-fb5c9f268bcc.jpg"
+    "image": "d4ba3706-7ef7-4741-9a66-fb5c9f268bcc.jpg",
+    "Strength": "5"
   },
   {
     "id": "02198f51-dc69-4d77-91e2-f8de0d55838f",
@@ -9061,7 +9267,9 @@
     "Set": "01 - Core Set",
     "index": "1J",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "8d25c9a5-65c9-430a-892b-3a6f7082fd4a.jpg"
+    "image": "8d25c9a5-65c9-430a-892b-3a6f7082fd4a.jpg",
+    "Difficulty": "6",
+    "Agenda Points": "3"
   },
   {
     "id": "ba6d39a8-aa9b-46c8-8082-5a9b0549d3f7",
@@ -9132,7 +9340,9 @@
     "Set": "01 - Core Set",
     "index": "1K",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "8b6413a8-6656-4c62-bc1a-4bde77ec55d2.jpg"
+    "image": "8b6413a8-6656-4c62-bc1a-4bde77ec55d2.jpg",
+    "Difficulty": "6",
+    "Agenda Points": "1"
   },
   {
     "id": "a5aef97c-5a56-4186-93ff-90f7d604a4b9",
@@ -9169,7 +9379,8 @@
     "Set": "02 - Proteus",
     "index": "83",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "e226864a-d760-4162-be3b-fa73ab14a4eb.jpg"
+    "image": "e226864a-d760-4162-be3b-fa73ab14a4eb.jpg",
+    "Strength": "5"
   },
   {
     "id": "ca9c6887-8db7-444e-9c83-d7cd59ee4774",
@@ -9227,7 +9438,9 @@
     "Set": "01 - Core Set",
     "index": "1L",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "d623ba28-723a-4aeb-a639-13c5e7ad0f3a.jpg"
+    "image": "d623ba28-723a-4aeb-a639-13c5e7ad0f3a.jpg",
+    "Difficulty": "6",
+    "Agenda Points": "3"
   },
   {
     "id": "58188906-00c0-4165-86f6-29149fbf50b8",
@@ -9248,7 +9461,9 @@
     "Set": "03 - Classic",
     "index": "L",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "58188906-00c0-4165-86f6-29149fbf50b8.jpg"
+    "image": "58188906-00c0-4165-86f6-29149fbf50b8.jpg",
+    "Difficulty": "3",
+    "Agenda Points": "2"
   },
   {
     "id": "7388725e-cce6-47fc-bc75-5bc8ae63d39b",
@@ -9596,7 +9811,9 @@
     "Set": "03 - Classic",
     "index": "M",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "81b5d3ba-9197-44df-8de1-a5feaadc24ae.jpg"
+    "image": "81b5d3ba-9197-44df-8de1-a5feaadc24ae.jpg",
+    "Difficulty": "5",
+    "Agenda Points": "3"
   },
   {
     "id": "65a29c52-b3fa-4bf0-9894-9dd5236782b0",
@@ -9633,7 +9850,8 @@
     "Set": "01 - Core Set",
     "index": "4y",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "c8613f52-4f27-4425-b8ef-2ee1816f3f9b.jpg"
+    "image": "c8613f52-4f27-4425-b8ef-2ee1816f3f9b.jpg",
+    "Strength": "3"
   },
   {
     "id": "901547b2-eae1-43ae-b764-c70623a6c54f",
@@ -9650,7 +9868,8 @@
     "Set": "01 - Core Set",
     "index": "2B",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "901547b2-eae1-43ae-b764-c70623a6c54f.jpg"
+    "image": "901547b2-eae1-43ae-b764-c70623a6c54f.jpg",
+    "Strength": "4"
   },
   {
     "id": "67d83ab0-decc-4b38-b406-b8a13c7bd733",
@@ -9684,7 +9903,8 @@
     "Set": "01 - Core Set",
     "index": "2C",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "4db7976c-72bc-4f22-8158-d77aaf8de56b.jpg"
+    "image": "4db7976c-72bc-4f22-8158-d77aaf8de56b.jpg",
+    "Strength": "3"
   },
   {
     "id": "57acaa59-e427-4310-84e8-6c9835e3494e",
@@ -9738,7 +9958,8 @@
     "Set": "02 - Proteus",
     "index": "85",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "109d1561-e228-4d9d-bbf4-6e04c3135fdf.jpg"
+    "image": "109d1561-e228-4d9d-bbf4-6e04c3135fdf.jpg",
+    "Strength": "7"
   },
   {
     "id": "726c9fbf-11b3-4381-b5cf-790eabee62f9",
@@ -9776,7 +9997,8 @@
     "Set": "03 - Classic",
     "index": "N",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "642f5b31-5729-4f03-a2fe-3429924d6d38.jpg"
+    "image": "642f5b31-5729-4f03-a2fe-3429924d6d38.jpg",
+    "Strength": "3"
   },
   {
     "id": "85f4fb59-2a57-4738-a51e-c0f9437f24c0",
@@ -9810,7 +10032,8 @@
     "Set": "01 - Core Set",
     "index": "2D",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "17f95df9-f238-4e57-9e84-f771013585b5.jpg"
+    "image": "17f95df9-f238-4e57-9e84-f771013585b5.jpg",
+    "Strength": "3"
   },
   {
     "id": "59566f06-aa64-4dba-b843-9c58ac190cf4",
@@ -9847,7 +10070,8 @@
     "Set": "02 - Proteus",
     "index": "86",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "0364c25f-f1ee-4b7f-89ea-a3144d4e597f.jpg"
+    "image": "0364c25f-f1ee-4b7f-89ea-a3144d4e597f.jpg",
+    "Strength": "4"
   },
   {
     "id": "61b9d88a-c3af-4e42-b89a-17f0149cac70",
@@ -9881,7 +10105,8 @@
     "Set": "01 - Core Set",
     "index": "2E",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "4d4b8bc5-e77d-442c-b7f2-e1e880fa8efa.jpg"
+    "image": "4d4b8bc5-e77d-442c-b7f2-e1e880fa8efa.jpg",
+    "Strength": "5"
   },
   {
     "id": "d4609df7-ae08-4d74-a64f-316ad0cc1165",
@@ -9918,7 +10143,8 @@
     "Set": "02 - Proteus",
     "index": "87",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "0d9527f3-d8e5-4e52-a600-1869879d5b9c.jpg"
+    "image": "0d9527f3-d8e5-4e52-a600-1869879d5b9c.jpg",
+    "Strength": "4"
   },
   {
     "id": "1fe116f0-3701-439e-a01d-75fa99db1ade",
@@ -9935,7 +10161,9 @@
     "Set": "01 - Core Set",
     "index": "1M",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "1fe116f0-3701-439e-a01d-75fa99db1ade.jpg"
+    "image": "1fe116f0-3701-439e-a01d-75fa99db1ade.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "4"
   },
   {
     "id": "a8eed530-6839-4d80-9363-a53b7154b4b6",
@@ -10010,7 +10238,9 @@
     "Set": "03 - Classic",
     "index": "O",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "e1411afc-f6ca-4b32-8ef4-4bfcea9c6b1d.jpg"
+    "image": "e1411afc-f6ca-4b32-8ef4-4bfcea9c6b1d.jpg",
+    "Difficulty": "3",
+    "Agenda Points": "2"
   },
   {
     "id": "889ee4c2-584d-4d00-8a0c-2431b8649334",
@@ -10061,7 +10291,8 @@
     "Set": "01 - Core Set",
     "index": "2F",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "53128597-bf82-49d8-adfd-8604b63fc89c.jpg"
+    "image": "53128597-bf82-49d8-adfd-8604b63fc89c.jpg",
+    "Strength": "5"
   },
   {
     "id": "dc76935a-1c14-45d7-9bae-154848ef56a4",
@@ -10170,7 +10401,8 @@
     "Set": "01 - Core Set",
     "index": "2G",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "d6a3a96d-6749-4648-a4c8-519c06a8abdb.jpg"
+    "image": "d6a3a96d-6749-4648-a4c8-519c06a8abdb.jpg",
+    "Strength": "3"
   },
   {
     "id": "829253e7-7832-440e-b3a7-31546f079c4c",
@@ -10190,7 +10422,9 @@
     "Set": "02 - Proteus",
     "index": "89",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "829253e7-7832-440e-b3a7-31546f079c4c.jpg"
+    "image": "829253e7-7832-440e-b3a7-31546f079c4c.jpg",
+    "Difficulty": "4",
+    "Agenda Points": "2"
   },
   {
     "id": "8d326b53-11f3-4e29-bd2b-35b3eb5472ec",
@@ -10227,7 +10461,8 @@
     "Set": "01 - Core Set",
     "index": "2H",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "f6624fdf-c82d-480b-bc95-50ec46ed7ba7.jpg"
+    "image": "f6624fdf-c82d-480b-bc95-50ec46ed7ba7.jpg",
+    "Strength": "4"
   },
   {
     "id": "74b22b3d-180c-4b19-8a3b-99beb75d25d7",
@@ -10265,7 +10500,8 @@
     "Set": "03 - Classic",
     "index": "P",
     "set_id": "af773077-911d-4d12-92e1-0ef28dc1948f",
-    "image": "20842690-c6c8-40ab-9463-bc6a55247d04.jpg"
+    "image": "20842690-c6c8-40ab-9463-bc6a55247d04.jpg",
+    "Strength": "2"
   },
   {
     "id": "047f112d-c88c-4959-8559-17e8806a7c9c",
@@ -10285,7 +10521,8 @@
     "Set": "02 - Proteus",
     "index": "8A",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "047f112d-c88c-4959-8559-17e8806a7c9c.jpg"
+    "image": "047f112d-c88c-4959-8559-17e8806a7c9c.jpg",
+    "Strength": "3"
   },
   {
     "id": "d0dd8e5d-e48c-4b4f-a7e7-df5debf770d4",
@@ -10302,7 +10539,8 @@
     "Set": "01 - Core Set",
     "index": "2I",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "d0dd8e5d-e48c-4b4f-a7e7-df5debf770d4.jpg"
+    "image": "d0dd8e5d-e48c-4b4f-a7e7-df5debf770d4.jpg",
+    "Strength": "6"
   },
   {
     "id": "c330e971-e92c-45d7-bc1c-39aaf5f8904c",
@@ -10319,7 +10557,8 @@
     "Set": "01 - Core Set",
     "index": "2J",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "c330e971-e92c-45d7-bc1c-39aaf5f8904c.jpg"
+    "image": "c330e971-e92c-45d7-bc1c-39aaf5f8904c.jpg",
+    "Strength": "2"
   },
   {
     "id": "79ae2309-1cbb-4cdf-a9f9-1fdfe7986f87",
@@ -10339,7 +10578,8 @@
     "Set": "02 - Proteus",
     "index": "8B",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "79ae2309-1cbb-4cdf-a9f9-1fdfe7986f87.jpg"
+    "image": "79ae2309-1cbb-4cdf-a9f9-1fdfe7986f87.jpg",
+    "Strength": "0"
   },
   {
     "id": "9583c20a-0ee4-4da0-b7d3-c765fceabf6b",
@@ -10430,7 +10670,8 @@
     "Set": "01 - Core Set",
     "index": "50",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "d46d4b66-b984-4412-a5a2-e0ea18f953ab.jpg"
+    "image": "d46d4b66-b984-4412-a5a2-e0ea18f953ab.jpg",
+    "Strength": "0"
   },
   {
     "id": "9d18a282-1810-4d6d-a804-239db53d7ec2",
@@ -10484,7 +10725,8 @@
     "Set": "01 - Core Set",
     "index": "51",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "c9f09614-550f-442e-9c8c-04d1002ee02a.jpg"
+    "image": "c9f09614-550f-442e-9c8c-04d1002ee02a.jpg",
+    "Strength": "2"
   },
   {
     "id": "9a1d67ec-bbeb-40dd-bf4e-0b0dc0b5c3f6",
@@ -10504,7 +10746,9 @@
     "Set": "02 - Proteus",
     "index": "8D",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "9a1d67ec-bbeb-40dd-bf4e-0b0dc0b5c3f6.jpg"
+    "image": "9a1d67ec-bbeb-40dd-bf4e-0b0dc0b5c3f6.jpg",
+    "Difficulty": "12",
+    "Agenda Points": "3"
   },
   {
     "id": "dcec368f-b0cc-4921-af89-7ae71b633751",
@@ -10521,7 +10765,8 @@
     "Set": "01 - Core Set",
     "index": "52",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "dcec368f-b0cc-4921-af89-7ae71b633751.jpg"
+    "image": "dcec368f-b0cc-4921-af89-7ae71b633751.jpg",
+    "Strength": "2"
   },
   {
     "id": "13d76690-56da-466d-a7fc-c8571c30307b",
@@ -10541,7 +10786,8 @@
     "Set": "02 - Proteus",
     "index": "9S",
     "set_id": "cf9ff560-d793-4007-89d1-abbf27bc3f6d",
-    "image": "13d76690-56da-466d-a7fc-c8571c30307b.jpg"
+    "image": "13d76690-56da-466d-a7fc-c8571c30307b.jpg",
+    "Strength": "2"
   },
   {
     "id": "d77a8cd4-764d-4075-aa01-4812f2c19907",
@@ -10630,7 +10876,8 @@
     "Set": "01 - Core Set",
     "index": "2K",
     "set_id": "be76a686-5649-48fa-b271-e92f0fd3c0f5",
-    "image": "ec86d8d9-d670-4379-a66e-2d053f95b0e6.jpg"
+    "image": "ec86d8d9-d670-4379-a66e-2d053f95b0e6.jpg",
+    "Strength": "4"
   },
   {
     "id": "eb336c64-6bfc-4762-8126-a66d63a01154",

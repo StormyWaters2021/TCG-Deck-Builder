@@ -736,6 +736,32 @@ if (totalCards > settings.deckValidation.maxCards)
 		const actualNames = bannedNamesInDeck.map(name => deckCardsByNormalizedName[name].card.name);
 		errors.push("Banned cards in deck: " + actualNames.join(", "));
 	  }
+// --- Faction limit check ---
+const factionLimit = settings.deckValidation?.factionLimit;
+if (factionLimit && factionLimit.property) {
+  const factions = new Set();
+  Object.entries(deck).forEach(([cardId, entry]) => {
+    const card = cards.find(c => c.id === cardId);
+    if (!card) return;
+    const val = card[factionLimit.property];
+    if (
+      val !== undefined &&
+      val !== null &&
+      (!factionLimit.ignore || !factionLimit.ignore.includes(val))
+    ) {
+      factions.add(val);
+    }
+  });
+
+  if (factions.size > 1) {
+    const factionList = Array.from(factions).join(", ");
+    const msg = factionLimit.errorMessage
+      ? factionLimit.errorMessage.replace("{factions}", factionList)
+      : `Deck may only contain one faction (excluding ${factionLimit.ignore?.join(", ")}): found ${factionList}`;
+    errors.push(msg);
+  }
+}
+
 
 	  // Swap logic: only swap among printings with same name AND same subtitle
 	  function handleSwap(card, qty) {

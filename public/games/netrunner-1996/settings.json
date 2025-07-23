@@ -6,17 +6,23 @@
     "Type"
   ],
   "filterOptions": [
-    "Player",    
+    "Player",
+	"Type",
+	"Keywords",
     "Cost",
-    "MU Required",
-    "Stat",
+	"Set",
+	"Agenda Points",
 	"Rarity"
   ],
+  "filterDelimiter": "-",
   "groupOrder": [],
   "groupSort": {},
   "searchPrefixes": {
 	"t": "Text",
-	"kw": "Keywords"
+	"kw": "Keywords",
+	"str": "Strength",
+	"d": "Difficulty",
+	"mu": "MU Required"
   },
   "octgnExport": false,
   "showImagePackExport": true

@@ -6,6 +6,11 @@
   "propertyLimits": [
     {}
   ],
+  "factionLimit": {
+    "property": "Player",
+    "ignore": [],
+    "errorMessage": "You may only have Runner or Corp cards, not both!"
+  },
   "banList": [
     "Banned Card Name"
   ]

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "totalCount",
+    "label": "Cards"
+  },
+
+  {
+    "type": "sumProperty",
+    "prop": "Agenda Points",
+    "label": "Agenda Points"
+  }
+]

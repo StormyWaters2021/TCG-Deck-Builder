@@ -45,6 +45,11 @@
 		"errorMessage": "Requires exactly {min} MP Level 4, you have {count}."
       }
     ],
+	"factionLimit": {
+    "property": "Style",
+    "ignore": ["Named", "Non-Styled"], 
+    "errorMessage": "Decks may only contain cards of one style!"
+  },
     "banList": [
       "Black Devious Mastery",
 	  "Blue Protective Mastery",
