@@ -17,6 +17,10 @@
 	"Level"
   ],
   
+  "filterValueOrder": {
+	"Style": ["Black", "Blue", "Orange", "Red", "Namekian", "Saiyan", "Non-Styled", "Named" ]
+  },
+  
   "filterDelimiter": ",",
   
   "groupOrder": [

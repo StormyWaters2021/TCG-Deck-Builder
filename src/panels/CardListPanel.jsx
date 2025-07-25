@@ -115,7 +115,7 @@ function useSearchHelpText(url = "/search-help.txt") {
 }
 
 // Helper: Gather all possible filter options for dropdowns
-function getFilters(cards, filterOptions, delimiter = null) {
+function getFilters(cards, filterOptions, delimiter = null, filterValueOrder = {}) {
   const props = {};
   filterOptions.forEach((k) => {
     props[k] = new Set();
@@ -138,19 +138,42 @@ function getFilters(cards, filterOptions, delimiter = null) {
     });
   });
 
-  // Always add an entry for "(none)" to the top of each filter
   return Object.fromEntries(
-    Object.entries(props).map(([k, v]) => [
-      k,
-      [null, ...Array.from(v).sort((a, b) =>
-        String(a).localeCompare(String(b), undefined, {
-          numeric: true,
-          sensitivity: "base"
-        })
-      )],
-    ])
+    Object.entries(props).map(([k, v]) => {
+      const customOrder = filterValueOrder[k];
+      const allValues = Array.from(v);
+
+      let sorted;
+      if (Array.isArray(customOrder)) {
+        const seen = new Set();
+        const ordered = customOrder.filter(val => {
+          if (allValues.includes(val)) {
+            seen.add(val);
+            return true;
+          }
+          return false;
+        });
+        const remainder = allValues
+          .filter(val => !seen.has(val))
+          .sort((a, b) => String(a).localeCompare(String(b), undefined, {
+            numeric: true,
+            sensitivity: "base"
+          }));
+        sorted = [...ordered, ...remainder];
+      } else {
+        sorted = allValues.sort((a, b) =>
+          String(a).localeCompare(String(b), undefined, {
+            numeric: true,
+            sensitivity: "base"
+          })
+        );
+      }
+
+      return [k, [null, ...sorted]];
+    })
   );
 }
+
 
 // --- Search Parser and Evaluator with Parentheses, OR, AND, NOT, and Prefixes ---
 
@@ -357,7 +380,12 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
   const [filters, setFilters] = useState({});
 
   const filterDelimiter = settings.filterDelimiter || null;
-  const filterProps = getFilters(cards, settings.filterOptions || [], filterDelimiter);
+  const filterProps = getFilters(
+  cards,
+  settings.filterOptions || [],
+  filterDelimiter,
+  settings.filterValueOrder || {}
+);
   const searchPrefixes = settings.searchPrefixes || {};
 
   // Pull help text file
@@ -450,7 +478,7 @@ if (filterVal === "(none)") {
         Clear Filters
       </button>
       <div>
-        {Object.keys(filterProps).map(prop => (
+        {(settings.filterOptions || []).map(prop => (
           <select
             key={prop}
             value={
