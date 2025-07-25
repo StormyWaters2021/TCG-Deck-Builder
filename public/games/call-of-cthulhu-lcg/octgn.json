@@ -1,0 +1,20 @@
+{
+  "gameGuid": "43054c18-2362-43e0-a434-72f8d0e8477c",
+  "sections": [
+    {
+      "name": "Draw Deck",
+      "shared": false,
+      "criteria": {
+        "Type": ["Character", "Conspiracy", "Event", "Support"]
+      }
+    },
+    {
+      "name": "Story Deck",
+      "shared": true,
+      "criteria": {
+        "Type": ["Story"]
+      }
+    }
+  ],
+  "defaultSection": "Story Deck"
+}

@@ -23,6 +23,6 @@
 	  "k": "Keyword",
 	  "s": "Subtypes"
   },
-  "octgnExport": false,
-  "showImagePackExport": false
+  "octgnExport": true,
+  "showImagePackExport": true
 }
