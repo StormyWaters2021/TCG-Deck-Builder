@@ -3921,7 +3921,7 @@
   },
   {
     "name": "Beerus' Hakai",
-    "Style": "Non-Styled",
+    "Style": "Named",
     "Card Number": "R48",
     "Type": "Event",
     "Endurance": "0",
@@ -3946,7 +3946,7 @@
   },
   {
     "name": "Beerus' Nap",
-    "Style": "Non-Styled",
+    "Style": "Named",
     "Card Number": "R47",
     "Type": "Setup",
     "Endurance": "3",
@@ -72478,7 +72478,7 @@
   },
   {
     "name": "Trunks' Slam",
-    "Style": "Non-Styled",
+    "Style": "Named",
     "Card Number": "R110",
     "Type": "Physical Combat",
     "Endurance": "",
@@ -72553,7 +72553,7 @@
   },
   {
     "name": "Trunks' Sword Slash",
-    "Style": "Non-Styled",
+    "Style": "Named",
     "Card Number": "P11",
     "Type": "Physical Combat",
     "Endurance": "",
@@ -72990,7 +72990,7 @@
   },
   {
     "name": "Turles' Energy Ring",
-    "Style": "Non-Styled",
+    "Style": "Named",
     "Card Number": "R134",
     "Type": "Energy Combat",
     "Endurance": "",
@@ -73015,7 +73015,7 @@
   },
   {
     "name": "Turles' Fruit",
-    "Style": "Non-Styled",
+    "Style": "Named",
     "Card Number": "R133",
     "Type": "Setup",
     "Endurance": "",
