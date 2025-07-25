@@ -770,7 +770,7 @@
   {
     "id": "8972d2d1-348c-4c4b-8c9d-a1d235fe482e",
     "name": "Altar of Oblivion",
-    "Type": "Conjuration-Terrrain",
+    "Type": "Conjuration-Terrain",
     "Set": "Mage Wars Arena",
     "index": "9e",
     "image": "8972d2d1-348c-4c4b-8c9d-a1d235fe482e.jpg",
@@ -3287,7 +3287,7 @@
   {
     "id": "6136ff26-d2d9-44d2-b972-1e26214675b5",
     "name": "Corrosive Pool",
-    "Type": "Conjuration-Terrrain",
+    "Type": "Conjuration-Terrain",
     "Set": "Mage Wars Arena",
     "index": "9d",
     "image": "6136ff26-d2d9-44d2-b972-1e26214675b5.jpg",
@@ -5688,7 +5688,7 @@
   {
     "id": "f8d70e09-2734-4de8-8351-66fa98ae0171",
     "name": "Ethereal Mist",
-    "Type": "Conjuration-Terrrain",
+    "Type": "Conjuration-Terrain",
     "Set": "Mage Wars Arena",
     "index": "9j",
     "image": "f8d70e09-2734-4de8-8351-66fa98ae0171.jpg",
@@ -11271,7 +11271,7 @@
   {
     "id": "bf833552-8ee4-4c62-abd2-83da233da4ce",
     "name": "Molten Rock",
-    "Type": "Conjuration-Terrrain",
+    "Type": "Conjuration-Terrain",
     "Set": "Mage Wars Arena",
     "index": "9g",
     "image": "bf833552-8ee4-4c62-abd2-83da233da4ce.jpg",
@@ -13999,7 +13999,7 @@
   {
     "id": "edca7d45-53e0-468d-83a5-7a446c81f070",
     "name": "Samandriel's Circle",
-    "Type": "Conjuration-Terrrain",
+    "Type": "Conjuration-Terrain",
     "Set": "Mage Wars Arena",
     "index": "9i",
     "image": "edca7d45-53e0-468d-83a5-7a446c81f070.jpg",
@@ -14413,7 +14413,7 @@
   {
     "id": "a47fa32e-ac83-4ced-8f6a-23906ee38880",
     "name": "Septagram",
-    "Type": "Conjuration-Terrrain",
+    "Type": "Conjuration-Terrain",
     "Set": "Mage Wars Arena",
     "index": "9f",
     "image": "a47fa32e-ac83-4ced-8f6a-23906ee38880.jpg",
@@ -15475,7 +15475,7 @@
   {
     "id": "c3e970f7-1eeb-432b-ac3f-7dbcd4f45492",
     "name": "Spiked Pit",
-    "Type": "Conjuration-Terrrain",
+    "Type": "Conjuration-Terrain",
     "Set": "Mage Wars Arena",
     "index": "9h",
     "image": "c3e970f7-1eeb-432b-ac3f-7dbcd4f45492.jpg",
@@ -17617,7 +17617,7 @@
   {
     "id": "5fbc16dd-f861-42c2-ad0f-3f8aaf0ccb64",
     "name": "V'Torrak",
-    "Type": "Conjuration-Terrrain",
+    "Type": "Conjuration-Terrain",
     "Set": "Mage Wars Arena",
     "index": "9c",
     "image": "5fbc16dd-f861-42c2-ad0f-3f8aaf0ccb64.jpg",

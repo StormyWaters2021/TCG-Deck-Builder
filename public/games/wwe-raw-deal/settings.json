@@ -3,7 +3,7 @@
   "addNValue": 2,
   "octgnExport": true,
   "showImagePackExport": true,
-  "filterOptions": ["Type", "Fortitude", "Damage", "Format"],
+  "filterOptions": ["Format", "Fortitude", "Damage", "Set"],
   "groupOptions": ["OCTGN", "Type"],
   "groupOrder": [],
   "groupSort": {
@@ -11,6 +11,7 @@
   "searchPrefixes": {
     "t": "Card Text",
 	"tr": "Traits",
+	"type": "Type",
 	"l": "Logos"
   }
 

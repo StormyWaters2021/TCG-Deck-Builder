@@ -3787,7 +3787,7 @@
     "index": "1cw",
     "Designer": "Official",
     "Text": "As an action, shuffle this card into your Arsenal. As a reversal, shuffle up to 4 RFG cards into your Arsenal.",
-    "Type": "Action: Set-up / Reversal: Non-maneuver",
+    "Type": "Action: Set-up / Reversal: Non-Maneuver",
     "set_id": "4302d3cc-5b5b-4e3d-b969-003b32852741",
     "image": "b295bfbd-3de2-4060-8390-170c0e6bbdf9.jpg"
   },
@@ -4051,7 +4051,7 @@
     "index": "1pW",
     "Designer": "Official",
     "Text": "As an action, Recover this card. When successful, you may put SHOOOOOOOOOOOSH Please! from your Ringside into your Ring, and your opponent may discard 1 action; if they do not, Bury 1- Ringside card, Draw 1-, and Stack 1- RFG card.",
-    "Type": "Action / Reversal: non-maneuver",
+    "Type": "Action / Reversal: Non-Maneuver",
     "set_id": "5002d3cc-345c-4b68-8cf2-584b5b501eb9",
     "image": "50889ee7-12a1-4aed-86f7-5d7757af7017.jpg"
   },
@@ -14242,7 +14242,7 @@
     "index": "1lI",
     "Designer": "Official",
     "Text": "When this card reverses, after damage is applied you may Flip 1 card in your Ring face-down and shuffle this card into your Arsenal. When this card is in your Ring, your maneuvers are +1 Stun Value.",
-    "Type": "Reversal: non-maneuver card",
+    "Type": "Reversal: Non-Maneuver card",
     "set_id": "4702d3cc-9f3e-462e-92e1-3fc51e1bed3f",
     "image": "2ca3ecf9-97c6-4dce-882c-98efa7afe16b.jpg"
   },
@@ -16443,7 +16443,7 @@
     "index": "1gk",
     "Designer": "Official",
     "Text": "When the reversed card would allow him to draw cards, you may draw up to the same number +1. When the reversed card would force you to discard any number of cards, your opponent discards the same number of cards +1. ACE: Once during each of your turns you may RFG 1 Ring card and then Ringside Search 1 card.",
-    "Type": "Reversal: Non-maneuver",
+    "Type": "Reversal: Non-Maneuver",
     "set_id": "4502d3cc-c1cb-4b90-a42b-8894c291f22c",
     "image": "dafdd63d-6528-4026-ba67-7c88de4752ef.jpg"
   },
@@ -25442,7 +25442,7 @@
     "index": "1oI",
     "Designer": "Official",
     "Text": "",
-    "Type": "Reversal: Non-maneuver",
+    "Type": "Reversal: Non-Maneuver",
     "set_id": "4902d3cc-e219-4e84-a9a7-0f3faf42c694",
     "image": "1ffe5048-9aee-4a25-acad-6509494ab2bb.jpg"
   },
@@ -35250,7 +35250,7 @@
     "index": "1k1",
     "Designer": "Official",
     "Text": "This card ignores any reversal restrictions or play restrictions from your opponent. Shuffle #- Ringside cards into your Arsenal. # = half of the reversed card's Fortitude (rounded up).",
-    "Type": "Reversal: non-maneuver",
+    "Type": "Reversal: Non-Maneuver",
     "set_id": "4702d3cc-9f3e-462e-92e1-3fc51e1bed3f",
     "image": "43ccdbd7-ba13-45bf-bedd-75f2ee4fd2ec.jpg"
   },
@@ -38578,7 +38578,7 @@
     "index": "1na",
     "Designer": "Official",
     "Text": "When successful as maneuver, if this card is not reversed from Arsenal, you win the game via Pinfall Victory. When successful as a reversal by Damage CTRL, discard this card.",
-    "Type": "TMF / Reversal: non-maneuver",
+    "Type": "TMF / Reversal: Non-Maneuver",
     "set_id": "4902d3cc-e219-4e84-a9a7-0f3faf42c694",
     "image": "2c2aa9ed-df8e-434a-b747-0538b825d3e5.jpg"
   },
@@ -39784,7 +39784,7 @@
     "Damage": "8",
     "Hand Size": "",
     "SSV": "",
-    "Logos": "Andre The Giant",
+    "Logos": "Andre the Giant",
     "Traits": "Unique, WWF Classic",
     "Stun": "",
     "CardRef-Target": "",
@@ -44417,7 +44417,7 @@
     "Damage": "2",
     "Hand Size": "",
     "SSV": "",
-    "Logos": "Kane, Road Dogg, X-Pac, B.A.Billy Gunn",
+    "Logos": "Kane, Road Dogg, X-Pac, B.A. Billy Gunn",
     "Traits": "Throwback, Unique",
     "Stun": "",
     "CardRef-Target": "",
@@ -88872,7 +88872,7 @@
     "index": "jE",
     "Designer": "Official",
     "Text": "The reversed card goes into your opponent's Ring instead of his Ringside: blank its text and Damage until the end of the turn. During your opponent's turn, if this card is overturned: you may put this card into your hand.",
-    "Type": "Reversal: non-Maneuver",
+    "Type": "Reversal: Non-Maneuver",
     "set_id": "2602d3cc-914d-4a54-9e1a-52a36558c815",
     "image": "3dab4296-5529-5690-2383-61b046901348.jpg"
   },
@@ -88892,7 +88892,7 @@
     "index": "1tj",
     "Designer": "Official",
     "Text": "The reversed card goes into your opponent's Ring instead of his Ringside: blank its text and Damage until the end of the turn. During his turn when this card is overturned: you may put this card into your hand.",
-    "Type": "Reversal: non-Maneuver Card",
+    "Type": "Reversal: Non-Maneuver Card",
     "set_id": "9802d3cc-3a6f-40d1-aabe-f1ab230aef8e",
     "image": "ea05464d-9170-9c35-05a1-60750df44e90.jpg"
   },
@@ -99555,7 +99555,7 @@
     "index": "1o2",
     "Designer": "Official",
     "Text": "Can only be played when you have fewer Hand or Arsenal cards. Cannot be reversed. When this card is in your Ring, your maneuvers are +#D, where # is the difference between your number of Hand cards and your opponent's (max. 5).",
-    "Type": "Mid-match Action / Reversal: Non-maneuver",
+    "Type": "Mid-match Action / Reversal: Non-Maneuver",
     "set_id": "4902d3cc-e219-4e84-a9a7-0f3faf42c694",
     "image": "914739f0-bd4a-43bd-9e3f-6abe703a062d.jpg"
   },
@@ -102096,7 +102096,7 @@
     "index": "1dA",
     "Designer": "Official",
     "Text": "As an action, you may put 1 card in your Ring into your Ringside; if you do, choose 1 card in your opponent's Ring with equal or lower Damage than the card you moved, and put the chosen card into his Ringside. As a reversal, draw up to 2 cards. When players would discard for I've Got Two Words For Ya!, put this card from your Ring on the bottom of your Arsenal, and all players put their hand on the bottom of their Arsenal instead and draw 2 cards.",
-    "Type": "Action / Reversal: Non-maneuver",
+    "Type": "Action / Reversal: Non-Maneuver",
     "set_id": "4302d3cc-5b5b-4e3d-b969-003b32852741",
     "image": "7ae136fe-63c1-4d5a-83c4-92c0fb505a43.jpg"
   },
@@ -108941,7 +108941,7 @@
     "index": "1b1",
     "Designer": "Official",
     "Text": "As an action, your opponent randomly discards 2 cards. When successfully played, shuffle cards from your Ringside into your Arsenal equal to half the number of cards with 'lady' in the title in your Ring.",
-    "Type": "Action / Reversal: non-Maneuver",
+    "Type": "Action / Reversal: Non-Maneuver",
     "set_id": "4202d3cc-5599-4509-878d-371ae3542234",
     "image": "a53b0fd0-76c5-4d12-99db-52098b4eb779.jpg"
   },
@@ -110170,7 +110170,7 @@
     "index": "1k5",
     "Designer": "Official",
     "Text": "As an Action, -2F for every non-Pre-match Superstar-specific card in your opponent's Ring, and you may draw # cards, where # = the number of cards in his hand greater than yours. When your non-RMS maneuver with 'successful' in the text becomes successful, you may blank its printed text until the end of the turn. If you do, choose 1 of your non-Unique Ring maneuvers; your successful maneuver gains that text, ignoring reversal restrictions and modifications from your Ability, until the end of the turn.",
-    "Type": "Action / Reversal: non-maneuver",
+    "Type": "Action / Reversal: Non-Maneuver",
     "set_id": "4702d3cc-9f3e-462e-92e1-3fc51e1bed3f",
     "image": "213eb784-983b-4092-9dd4-b1899c306ae0.jpg"
   },
@@ -114731,7 +114731,7 @@
     "index": "1c5",
     "Designer": "Official",
     "Text": "As an action, Arsenal / Ringside Search 1 Submission. If that card is the next card played, it can only be reversed from Arsenal. When successful, put up to # random cards from your Ringside on the bottom of your Arsenal, where # is equal to the number of Submissions and face-down cards in your Ring.",
-    "Type": "Action + Action / Reversal: Non-maneuver",
+    "Type": "Action + Action / Reversal: Non-Maneuver",
     "set_id": "4302d3cc-5b5b-4e3d-b969-003b32852741",
     "image": "60f31301-628e-4103-a8d3-1857ea7e0cc5.jpg"
   },
@@ -125039,7 +125039,7 @@
     "index": "1gA",
     "Designer": "Official",
     "Text": "When you are Lashley, Requirement: The Hurt Business is in your Ring. As a maneuver, can only be played after a successful maneuver or as a Counter. Can only be reversed from hand. When your next card played this turn is Maintain Hold, you may ignore the Can only be played after... text, and you may play it regardless of Lashley's Two-Finger Salute to the Fans.",
-    "Type": "Trademark Finisher / Reversal: Non-maneuver",
+    "Type": "Trademark Finisher / Reversal: Non-Maneuver",
     "set_id": "4502d3cc-c1cb-4b90-a42b-8894c291f22c",
     "image": "ad08ee8e-32c3-4ad0-b8de-31176927e302.jpg"
   },
@@ -133578,7 +133578,7 @@
     "index": "1p3",
     "Designer": "Official",
     "Text": "Recover 4- Ringside cards. When this card is in your Ring and your opponent’s action is successful, put this card into your hand.",
-    "Type": "Reversal: Non-maneuver",
+    "Type": "Reversal: Non-Maneuver",
     "set_id": "4902d3cc-e219-4e84-a9a7-0f3faf42c694",
     "image": "41bcff0f-cf60-43dc-bb33-0323f5000842.jpg"
   },
@@ -134107,7 +134107,7 @@
     "index": "pG",
     "Designer": "Official",
     "Text": "",
-    "Type": "Reversal: non-maneuver",
+    "Type": "Reversal: Non-Maneuver",
     "set_id": "2702d3cc-112e-41e2-9939-923a2c1e4c17",
     "image": "eb5623f4-96df-557b-14a7-d0a191bb318b.jpg"
   },
@@ -135182,7 +135182,7 @@
     "index": "1l5",
     "Designer": "Official",
     "Text": "In Backlash: when you have lower Fortitude and use your Ability, you may put this card into your Ring, Bury the cards overturned for your Ability, and put the reversed card into your hand. In Ring: your maneuvers are -3F, and Bury cards overturned for your opponent's non-Superstar-specific reversal damage. When you have 5+ lower Fortitude and they would choose for Tranquilo Style, you choose instead; when you have 10+ lower Fortitude, choose both options. ACE: When you have lower Fortitude and your maneuver is reversed from Arsenal, you may overturn 1 and then you count as having ended your turn for Tranquilo Style.",
-    "Type": "Mid-match Action / Reversal: non-maneuver",
+    "Type": "Mid-match Action / Reversal: Non-Maneuver",
     "set_id": "4702d3cc-9f3e-462e-92e1-3fc51e1bed3f",
     "image": "483ec612-9574-48dc-a544-d8cc238e6df7.jpg"
   },
@@ -135956,7 +135956,7 @@
     "index": "1d4",
     "Designer": "Official",
     "Text": "As an action, this card is -5F. Draw up to 2 cards and your opponent puts 1 card from hand on the bottom of his Arsenal. When you are Bobby Fish, your opponent cannot respond to this card; when he successfully plays a maneuver you may put this card from your Ring on the bottom of your Arsenal.",
-    "Type": "Action / Reversal: Non-maneuver",
+    "Type": "Action / Reversal: Non-Maneuver",
     "set_id": "4302d3cc-5b5b-4e3d-b969-003b32852741",
     "image": "34c1a5a8-07b9-4903-a93d-bfe606dc931e.jpg"
   },
@@ -150631,7 +150631,7 @@
     "index": "1eT",
     "Designer": "Official",
     "Text": "As an action, shuffle up to 2 RFG cards  into your Arsenal. When successfully played, draw up to # cards and your opponent discards #, where # is half the number of Split Finger Lock cards in your Ring (rounded up).",
-    "Type": "Action / Reversal: Non-maneuver",
+    "Type": "Action / Reversal: Non-Maneuver",
     "set_id": "4302d3cc-5b5b-4e3d-b969-003b32852741",
     "image": "18a278f4-1c96-404e-9317-1b4b42b8b861.jpg"
   },
@@ -150975,7 +150975,7 @@
     "index": "1iS",
     "Designer": "Official",
     "Text": "Can only be packed by Razor Ramon. Your opponent discards 2 cards and overturns 4 cards. When this card is in your Ring, and he would move your Ring card to another location, you may put this card into your Backlash instead.",
-    "Type": "Mid-match Reversal: non-maneuver",
+    "Type": "Mid-match Reversal: Non-Maneuver",
     "set_id": "4502d3cc-c1cb-4b90-a42b-8894c291f22c",
     "image": "67419fd0-cebd-4797-a69d-b62612bab6be.jpg"
   },
