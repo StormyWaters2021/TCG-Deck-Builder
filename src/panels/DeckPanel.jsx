@@ -1,6 +1,40 @@
 	import React, { useMemo, useState, useEffect, useRef } from "react";
-	import CardPreview from "../components/CardPreview";
-	import { matchesExclude } from "../utils/matchesExclude";
+import CardPreview from "../components/CardPreview";
+import { matchesExclude } from "../utils/matchesExclude";
+
+// ——— ONE single useOctgnSections hook ———
+function useOctgnSections(gameName, enabled) {
+  const [sections, setSections] = useState(null);
+  const [panelIgnoreSections, setPanelIgnoreSections] = useState([]);
+  const [defaultSection, setDefaultSection] = useState(null);
+
+  useEffect(() => {
+    if (!enabled) {
+      setSections(null);
+      setPanelIgnoreSections([]);
+      setDefaultSection(null);
+      return;
+    }
+    let cancelled = false;
+    async function fetchSections() {
+      let baseUrl = import.meta.env.BASE_URL || "";
+      if (baseUrl.endsWith("/")) baseUrl = baseUrl.slice(0, -1);
+      const resp = await fetch(`${baseUrl}/games/${gameName}/octgn.json`);
+      const json = await resp.json();
+      if (!cancelled) {
+        setSections(json.sections || []);
+        setPanelIgnoreSections(json.panelIgnoreSections || []);
+        setDefaultSection(json.defaultSection || null);
+      }
+    }
+    fetchSections();
+    return () => { cancelled = true; };
+  }, [gameName, enabled]);
+
+  return [sections, panelIgnoreSections, defaultSection];
+}
+// ————————————————————————————————
+
 
 	// Helper: Display name with subtitle if present (handles both Subtitle and subtitle)
 	function cardNameWithSubtitle(card) {
@@ -98,9 +132,6 @@
   return grouped;
 }
 
-
-	// --- OCTGN grouping logic START ---
-
 	// Helper: match a card to a section (octgn criteria)
 	function cardMatchesSection(card, section) {
 	  if (!section.criteria) return false;
@@ -116,69 +147,67 @@
 	  });
 	}
 
-	// Helper: group deck by OCTGN (with drag overrides)
-	function groupDeckByOctgn(deck, cards, sections, userOverrides) {
-  // 1) Prepare one bucket per real section + Ungrouped
+
+// --- OCTGN grouping logic START ---
+function groupDeckByOctgn(
+  deck,
+  cards,
+  sections,
+  defaultSection,
+  userOverrides
+) {
+  // 1) Prepare one bucket per real section + default
   const groups = {};
-  sections.forEach(s => (groups[s.name] = []));
-  groups["Ungrouped"] = [];
+  sections.forEach((s) => (groups[s.name] = []));
+  // ensure fallback bucket exists
+  groups[defaultSection] = groups[defaultSection] || [];
 
   // 2) Iterate every deck entry
   Object.entries(deck).forEach(([cardId, entry]) => {
-    const card = cards.find(c => c.id === cardId);
+    const card = cards.find((c) => c.id === cardId);
     if (!card) return;
 
-    // 3) If entry.group is a non-empty object, honor its splits
-    if (
-      entry.group &&
-      typeof entry.group === "object" &&
-      Object.keys(entry.group).length > 0
-    ) {
-      Object.entries(entry.group).forEach(([sectionName, qty]) => {
-        if (!groups[sectionName]) groups[sectionName] = [];
-        groups[sectionName].push({ card, qty, tags: entry.tags });
+    // 3) Only honor manual splits if the user actually dragged them here
+    const manualKeys = entry.group && typeof entry.group === "object"
+  ? Object.keys(entry.group)
+  : [];
+if (
+  manualKeys.length > 0 &&
+  manualKeys.every(k => sections.some(s => s.name === k))
+) {
+      let assigned = 0;
+      Object.entries(entry.group).forEach(([sectName, qty]) => {
+        groups[sectName] = groups[sectName] || [];
+        groups[sectName].push({ card, qty, tags: entry.tags });
+        assigned += qty;
       });
+      // leftover goes into the default section
+      const totalCount = entry.count || assigned;
+      const remainder = totalCount - assigned;
+      if (remainder > 0) {
+        groups[defaultSection].push({ card, qty: remainder, tags: entry.tags });
+      }
 
     } else {
-      // 4) Otherwise decide exactly one section:
+      // 4) Otherwise a single‐pile assignment:
 
-      // a) single-string override?
-      const overrideSection =
-        typeof entry.group === "string" && entry.group !== ""
-          ? entry.group
-          : null;
+      // a) drag‐and‐drop override?
+      const dragSect =
+        userOverrides && userOverrides[cardId] ? userOverrides[cardId] : null;
+      // b) OCTGN criteria?
+      const critSect = sections.find((s) => cardMatchesSection(card, s))?.name;
+      // c) fallback
+      const finalSect = dragSect || critSect || defaultSection;
 
-      // b) drag-and-drop override?
-      const dragSection =
-        !overrideSection && userOverrides && userOverrides[cardId]
-          ? userOverrides[cardId]
-          : null;
-
-      // c) OCTGN criteria?
-      const criteriaSection =
-        !overrideSection &&
-        !dragSection &&
-        sections.find(s => cardMatchesSection(card, s))?.name;
-
-      // d) last resort
-      const sectionName = overrideSection
-        || dragSection
-        || criteriaSection
-        || "Ungrouped";
-
-      if (!groups[sectionName]) groups[sectionName] = [];
-      groups[sectionName].push({
-        card,
-        qty: entry.count,
-        tags: entry.tags
-      });
+      groups[finalSect] = groups[finalSect] || [];
+      groups[finalSect].push({ card, qty: entry.count, tags: entry.tags });
     }
   });
 
   return groups;
 }
+// --- OCTGN grouping logic END ---
 
-	// --- OCTGN grouping logic END ---
 
 	// --------- UPDATED DeckStatsBanner with advanced statsConfig support ---------
 	function DeckStatsBanner({ deck, cards, statsConfig }) {
@@ -412,44 +441,6 @@
 	  );
 	}
 
-	// --- OCTGN section loading hook ---
-	function useOctgnSections(gameName, enabled) {
-	  const [sections, setSections] = useState(null);
-	  const [panelIgnoreSections, setPanelIgnoreSections] = useState([]);
-	  useEffect(() => {
-		if (!enabled) {
-		  setSections(null);
-		  setPanelIgnoreSections([]);
-		  return;
-		}
-		let cancelled = false;
-		async function fetchSections() {
-		  try {
-			let baseUrl = import.meta.env.BASE_URL || "";
-			if (baseUrl.endsWith("/")) baseUrl = baseUrl.slice(0, -1);
-			const url = `${baseUrl}/games/${gameName}/octgn.json`;
-			const resp = await fetch(url);
-			if (!resp.ok) throw new Error("OCTGN config not found");
-			const json = await resp.json();
-			if (!cancelled) {
-			  setSections(json.sections || []);
-			  setPanelIgnoreSections(json.panelIgnoreSections || []);
-			}
-		  } catch {
-			if (!cancelled) {
-			  setSections([]);
-			  setPanelIgnoreSections([]);
-			}
-		  }
-		}
-		fetchSections();
-		return () => {
-		  cancelled = true;
-		};
-	  }, [gameName, enabled]);
-	  return [sections, panelIgnoreSections];
-	}
-
 	function DeckPanel({
 	  cards,
 	  deck,
@@ -474,7 +465,16 @@
 	  const octgnOverrides = octgnOverridesProp !== undefined ? octgnOverridesProp : internalOctgnOverrides;
 	  const setOctgnOverrides = setOctgnOverridesProp !== undefined ? setOctgnOverridesProp : setInternalOctgnOverrides;
 
-	  const [octgnSections, panelIgnoreSections] = useOctgnSections(settings.gameName, settings.octgnExport);
+	  // --- OCTGN grouping/sections (with default) ---
+const [
+  octgnSections,
+  panelIgnoreSections,
+  octgnDefaultSection
+] = useOctgnSections(
+  settings.gameName,
+  settings.octgnExport
+);
+
 
 	  const availableGroupOptions = useMemo(() => {
 		let opts = [...settings.groupOptions];
@@ -485,21 +485,39 @@
 	  }, [settings.groupOptions, settings.octgnExport]);
 
 	  const filteredSections = useMemo(() => {
-		if (groupBy === "OCTGN" && octgnSections) {
-		  if (panelIgnoreSections && panelIgnoreSections.length > 0) {
-			return octgnSections.filter(section => !panelIgnoreSections.includes(section.name));
-		  }
-		  return octgnSections;
-		}
-		return null;
-	  }, [groupBy, octgnSections, panelIgnoreSections]);
+  if (groupBy === "OCTGN" && octgnSections) {
+    const kept = octgnSections.filter(s => !panelIgnoreSections.includes(s.name));
+    // ← use octgnDefaultSection everywhere:
+    if (octgnDefaultSection && !kept.some(s => s.name === octgnDefaultSection)) {
+  kept.push({ name: octgnDefaultSection, criteria: {} });
+}
+    return kept;
+  }
+  return null;
+}, [groupBy, octgnSections, panelIgnoreSections, octgnDefaultSection]);
 
-	  const grouped = useMemo(() => {
-		if (groupBy === "OCTGN" && filteredSections) {
-		  return groupDeckByOctgn(deck, cards, filteredSections, octgnOverrides);
-		}
-		return groupDeck(deck, cards, groupBy);
-	  }, [groupBy, deck, cards, filteredSections, octgnOverrides]);
+
+
+const grouped = useMemo(() => {
+  if (groupBy === "OCTGN" && filteredSections) {
+    return groupDeckByOctgn(
+      deck,
+      cards,
+      filteredSections,
+      octgnDefaultSection,   // ← here
+      octgnOverrides
+    );
+  }
+  return groupDeck(deck, cards, groupBy);
+}, [
+  groupBy,
+  deck,
+  cards,
+  filteredSections,
+  octgnDefaultSection,     // ← and here
+  octgnOverrides
+]);
+
 
 	  const FALLBACK_GROUP_ORDER = ["Creatures", "Spells", "Lands", "Other"];
 	  const groupOrder =
@@ -510,14 +528,23 @@
 	  const groupSorts = settings.groupSort || {};
 
 	  function getSortedGroupNames(groupedObj) {
-		if (groupBy === "OCTGN" && filteredSections) {
-		  return [...filteredSections.map((s) => s.name), "Ungrouped"];
-		}
-		const groupNames = Object.keys(groupedObj);
-		const inOrder = groupOrder.filter(name => groupNames.includes(name));
-		const remaining = groupNames.filter(name => !groupOrder.includes(name)).sort();
-		return [...inOrder, ...remaining];
-	  }
+  if (groupBy === "OCTGN") {
+    // start with whatever sections came back (or empty array while loading)
+    const names = (filteredSections || []).map(s => s.name);
+    // if your default‐section (where leftovers go) isn’t already in that list, add it
+    if (octgnDefaultSection && !names.includes(octgnDefaultSection)) {
+      names.push(octgnDefaultSection);
+    }
+    return names;
+  }
+  // non‐OCTGN fallback:
+  const groupNames = Object.keys(groupedObj);
+  const inOrder = groupOrder.filter(name => groupNames.includes(name));
+  const remaining = groupNames
+    .filter(name => !groupOrder.includes(name))
+    .sort();
+  return [...inOrder, ...remaining];
+}
 
 	  // Drag-and-drop for OCTGN section assignment
 	  function handleDragStart(e, cardId, fromSection) {
@@ -567,33 +594,11 @@
 
 	  const minMaxExclude = settings.deckValidation?.minMaxExclude;
 const errors = [];
-const totalCards = Object.entries(deck).reduce((sum, [cardId, entry]) => {
-  const card = cards.find(c => c.id === cardId);
-  if (!card) return sum;
+const totalCards =
+  groupBy === "OCTGN"
+    ? Object.values(grouped).flat().reduce((sum, { qty }) => sum + qty, 0)
+    : Object.values(deck).reduce((sum, e) => sum + (e.count || 0), 0);
 
-  // Split group handling
-  if (entry.group && typeof entry.group === "object" && Object.keys(entry.group).length > 0) {
-    return (
-      sum +
-      Object.entries(entry.group).reduce((innerSum, [groupName, qty]) => {
-        const excluded = matchesExclude(card, minMaxExclude, groupName);
-        if (excluded) return innerSum;
-        return innerSum + qty;
-      }, 0)
-    );
-  }
-
-  // Single group string or fallback
-  let groupName = null;
-  if (typeof entry.group === "string" && entry.group) {
-    groupName = entry.group;
-  } else if (card && card[groupBy]) {
-    groupName = card[groupBy];
-  }
-  const excluded = matchesExclude(card, minMaxExclude, groupName);
-  if (excluded) return sum;
-  return sum + entry.count;
-}, 0);
 if (totalCards < settings.deckValidation.minCards)
   errors.push("Not enough cards in deck!");
 if (totalCards > settings.deckValidation.maxCards)
@@ -747,6 +752,7 @@ if (factionLimit && factionLimit.property) {
     if (
       val !== undefined &&
       val !== null &&
+      String(val).trim() !== "" &&         // ← ignore empty or blank
       (!factionLimit.ignore || !factionLimit.ignore.includes(val))
     ) {
       factions.add(val);
