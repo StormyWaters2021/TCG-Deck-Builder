@@ -635,22 +635,38 @@ export async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOver
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
 
-// Share the deck using the Cloudflare Worker API
 export async function shareDeck(deckObj, setLinkMessage, game) {
   const WORKER_API = "https://tcgbuilder.net/api";
   try {
-    // POST to your Worker
     const resp = await fetch(`${WORKER_API}/deck`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(deckObj)
     });
+
+    if (!resp.ok) {
+      const text = await resp.text();
+      console.error("API error:", resp.status, text);
+      throw new Error(`Server returned ${resp.status}: ${text}`);
+    }
+
     const { code } = await resp.json();
+    if (!code) throw new Error("Invalid response: missing deck code");
 
-    // Build the short shareable URL
-    const url = window.location.origin + window.location.pathname + `?game=${encodeURIComponent(game)}&deck=${code}`;
+    const url = window.location.origin + window.location.pathname +
+      `?game=${encodeURIComponent(game)}&deck=${code}`;
 
-    await navigator.clipboard.writeText(url);
+    if (navigator.clipboard) {
+      await navigator.clipboard.writeText(url);
+    } else {
+      // fallback for older browsers
+      const input = document.createElement("input");
+      input.value = url;
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand("copy");
+      document.body.removeChild(input);
+    }
 
     if (setLinkMessage) {
       setLinkMessage("Shareable link copied to clipboard!");
@@ -659,11 +675,14 @@ export async function shareDeck(deckObj, setLinkMessage, game) {
       alert("Shareable link copied to clipboard!");
     }
   } catch (e) {
+    console.error("Deck sharing failed:", e);
+    const msg = typeof e.message === "string" ? e.message : "Unknown error";
+
     if (setLinkMessage) {
-      setLinkMessage("Error sharing deck.");
-      setTimeout(() => setLinkMessage(""), 2000);
+      setLinkMessage("Error: " + msg);
+      setTimeout(() => setLinkMessage(""), 4000);
     } else {
-      alert("Error sharing deck.");
+      alert("Error sharing deck:\n" + msg);
     }
   }
 }
