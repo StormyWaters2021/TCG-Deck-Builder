@@ -276,8 +276,27 @@ function DeckControls({
     } else if (format === "OCTGN") {
       await exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, currentGroupBy);
     } else if (format === "LINK") {
-      shareDeck(deck, setLinkMessage, game);
-    }
+  const result = await shareDeck(deck, game);
+
+  if (result.success) {
+    setLinkMessage("Shareable link copied to clipboard!");
+    setTimeout(() => setLinkMessage(""), 2000);
+  } else if (result.url) {
+    setLinkMessage(
+      <>
+        <div>Couldn't copy to clipboard.</div>
+        <div style={{ wordBreak: "break-all" }}>
+          <strong>Tap and hold to copy:</strong><br />
+          {result.url}
+        </div>
+      </>
+    );
+  } else {
+    setLinkMessage("Error: " + result.error);
+    setTimeout(() => setLinkMessage(""), 4000);
+  }
+}
+
   }
 
   function clearDeck() {

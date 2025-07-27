@@ -635,7 +635,7 @@ export async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOver
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
 
-export async function shareDeck(deckObj, setLinkMessage, game) {
+export async function shareDeck(deckObj, game) {
   const WORKER_API = "https://tcgbuilder.net/api";
   try {
     const resp = await fetch(`${WORKER_API}/deck`, {
@@ -656,33 +656,31 @@ export async function shareDeck(deckObj, setLinkMessage, game) {
     const url = window.location.origin + window.location.pathname +
       `?game=${encodeURIComponent(game)}&deck=${code}`;
 
-    if (navigator.clipboard) {
+    let success = false;
+
+    try {
       await navigator.clipboard.writeText(url);
-    } else {
-      // fallback for older browsers
-      const input = document.createElement("input");
-      input.value = url;
-      document.body.appendChild(input);
-      input.select();
-      document.execCommand("copy");
-      document.body.removeChild(input);
+      success = true;
+    } catch (clipErr) {
+      console.warn("Clipboard API failed, trying fallback:", clipErr);
+      try {
+        const input = document.createElement("input");
+        input.value = url;
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand("copy");
+        document.body.removeChild(input);
+        success = true;
+      } catch (fallbackErr) {
+        console.error("Clipboard fallback failed:", fallbackErr);
+        success = false;
+      }
     }
 
-    if (setLinkMessage) {
-      setLinkMessage("Shareable link copied to clipboard!");
-      setTimeout(() => setLinkMessage(""), 2000);
-    } else {
-      alert("Shareable link copied to clipboard!");
-    }
+    return { success, url };
+
   } catch (e) {
     console.error("Deck sharing failed:", e);
-    const msg = typeof e.message === "string" ? e.message : "Unknown error";
-
-    if (setLinkMessage) {
-      setLinkMessage("Error: " + msg);
-      setTimeout(() => setLinkMessage(""), 4000);
-    } else {
-      alert("Error sharing deck:\n" + msg);
-    }
+    return { success: false, error: e.message || "Unknown error" };
   }
 }
