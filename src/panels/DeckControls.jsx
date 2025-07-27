@@ -282,16 +282,28 @@ function DeckControls({
     setLinkMessage("Shareable link copied to clipboard!");
     setTimeout(() => setLinkMessage(""), 2000);
   } else if (result.url) {
-    setLinkMessage(
-      <>
-        <div>Couldn't copy to clipboard.</div>
-        <div style={{ wordBreak: "break-all" }}>
-          <strong>Tap and hold to copy:</strong><br />
-          {result.url}
-        </div>
-      </>
-    );
-  } else {
+  setLinkMessage(
+    <>
+      <div>Couldn't copy to clipboard.</div>
+      <div><strong>Tap and hold or long-press to copy:</strong></div>
+      <input
+        type="text"
+        readOnly
+        value={result.url}
+        style={{
+          width: "100%",
+          fontSize: "0.85em",
+          marginTop: "0.5em",
+          padding: "0.25em",
+          border: "1px solid #ccc",
+          borderRadius: "4px"
+        }}
+        onFocus={(e) => e.target.select()}
+      />
+    </>
+  );
+}
+ else {
     setLinkMessage("Error: " + result.error);
     setTimeout(() => setLinkMessage(""), 4000);
   }

@@ -650,11 +650,26 @@ export async function shareDeck(deckObj, game) {
       throw new Error(`Server returned ${resp.status}: ${text}`);
     }
 
-    const { code } = await resp.json();
-    if (!code) throw new Error("Invalid response: missing deck code");
+    const raw = await resp.text();
+let data;
+try {
+  data = JSON.parse(raw);
+} catch (err) {
+  console.error("Invalid JSON in response:", raw);
+  throw new Error("Invalid server response (not JSON)");
+}
 
-    const url = window.location.origin + window.location.pathname +
-      `?game=${encodeURIComponent(game)}&deck=${code}`;
+const code = data?.code;
+if (!code || typeof code !== "string") {
+  console.error("Deck code missing from response:", data);
+  throw new Error("Invalid response: missing deck code");
+}
+
+const url = window.location.origin + window.location.pathname +
+  `?game=${encodeURIComponent(game)}&deck=${encodeURIComponent(code)}`;
+
+console.log("Generated deck URL:", url);
+
 
     let success = false;
 
@@ -663,18 +678,27 @@ export async function shareDeck(deckObj, game) {
       success = true;
     } catch (clipErr) {
       console.warn("Clipboard API failed, trying fallback:", clipErr);
-      try {
-        const input = document.createElement("input");
-        input.value = url;
-        document.body.appendChild(input);
-        input.select();
-        document.execCommand("copy");
-        document.body.removeChild(input);
-        success = true;
-      } catch (fallbackErr) {
-        console.error("Clipboard fallback failed:", fallbackErr);
-        success = false;
-      }
+      let fallbackSuccess = false;
+let input;
+try {
+  input = document.createElement("input");
+  input.value = url;
+  document.body.appendChild(input);
+  input.select();
+  // execCommand returns true only if the copy succeeded
+  fallbackSuccess = document.execCommand("copy");
+  if (!fallbackSuccess) {
+    console.warn("execCommand('copy') returned false");
+  }
+} catch (fallbackErr) {
+  console.error("Clipboard fallback threw:", fallbackErr);
+  fallbackSuccess = false;
+} finally {
+  if (input && input.parentNode) {
+    input.parentNode.removeChild(input);
+  }
+}
+success = fallbackSuccess;
     }
 
     return { success, url };
