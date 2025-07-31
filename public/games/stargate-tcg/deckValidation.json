@@ -9,6 +9,9 @@
         "value": "Hero",
         "min": 20,
 		"showPropertyNameInError": false,
+		"exclude": {
+        "group": ["Team"]
+		},
 		"errorMessage": "Requires at least {min} Hero cards, you have {count}."
       },
       {
