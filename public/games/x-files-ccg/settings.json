@@ -1,0 +1,43 @@
+{
+  "gameName": "x-files-ccg",
+  "game_id": "xfdf1868-07b4-4ba3-b82c-e3d68a662b78",
+  "addNValue": 4,
+  "groupOptions": [
+    "Type"
+  ],
+  "filterOptions": [
+    "Type",
+    "Activators",
+    "Affiliation",
+    "Cost",
+    "Keywords",
+    "Method",
+    "Motive",
+    "Result",  
+    "Tags",
+	"Designer"
+  ],
+  "filterDelimiter": "|",
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {
+  "ai": "Alien Investigation",
+  "ci": "Criminal Investigation",
+  "oi": "Occult Investigation",
+  "beh": "Behavioral",
+  "bur": "Bureaucracy",
+  "crc": "Close Range Combat",
+  "com": "Computer",
+  "ec": "Evidence Collection",  
+  "ge": "Game Effect",
+  "h": "Health",
+  "lrc": "Long Range Combat",
+  "med": "Medical",
+  "obs": "Observation",
+  "res": "Resources",
+  "sci": "Sciences",
+  "sub": "Subterfuge",
+  "t": "Text"
+  },
+  "octgnExport": false
+}
