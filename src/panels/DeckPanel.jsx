@@ -111,23 +111,29 @@ function useOctgnSections(gameName, enabled) {
 	}
 
 	// Group deck by property
-	function groupDeck(deck, cards, groupBy) {
+function groupDeck(deck, cards, groupBy) {
   const grouped = {};
   Object.entries(deck).forEach(([cardId, entry]) => {
     const card = cards.find(c => c.id === cardId);
     if (!card) return;
 
     const groupName =
-      (typeof entry.group === "string" && entry.group) ?
-        entry.group :
-        (card[groupBy] || "Other");
+      (typeof entry.group === "string" && entry.group)
+        ? entry.group
+        : (card[groupBy] || "Other");
 
-    if (!grouped[groupName]) grouped[groupName] = [];
-    grouped[groupName].push({
-      card,
-      qty: entry.count || 0,
-      tags: entry.tags
-    });
+    if (!grouped[groupName]) grouped[groupName] = {};
+
+    // Merge counts for duplicate card ids
+    if (!grouped[groupName][cardId]) {
+      grouped[groupName][cardId] = { card, qty: 0, tags: entry.tags };
+    }
+    grouped[groupName][cardId].qty += entry.count || 0;
+  });
+
+  // Convert inner objects to arrays for rendering
+  Object.keys(grouped).forEach(group => {
+    grouped[group] = Object.values(grouped[group]);
   });
   return grouped;
 }
@@ -156,54 +162,56 @@ function groupDeckByOctgn(
   defaultSection,
   userOverrides
 ) {
-  // 1) Prepare one bucket per real section + default
   const groups = {};
-  sections.forEach((s) => (groups[s.name] = []));
-  // ensure fallback bucket exists
-  groups[defaultSection] = groups[defaultSection] || [];
+  sections.forEach((s) => (groups[s.name] = {}));
+  groups[defaultSection] = groups[defaultSection] || {};
 
-  // 2) Iterate every deck entry
   Object.entries(deck).forEach(([cardId, entry]) => {
     const card = cards.find((c) => c.id === cardId);
     if (!card) return;
 
-    // 3) Only honor manual splits if the user actually dragged them here
     const manualKeys = entry.group && typeof entry.group === "object"
-  ? Object.keys(entry.group)
-  : [];
-if (
-  manualKeys.length > 0 &&
-  manualKeys.every(k => sections.some(s => s.name === k))
-) {
+      ? Object.keys(entry.group)
+      : [];
+    if (
+      manualKeys.length > 0 &&
+      manualKeys.every(k => sections.some(s => s.name === k))
+    ) {
       let assigned = 0;
       Object.entries(entry.group).forEach(([sectName, qty]) => {
-        groups[sectName] = groups[sectName] || [];
-        groups[sectName].push({ card, qty, tags: entry.tags });
+        groups[sectName] = groups[sectName] || {};
+        if (!groups[sectName][cardId]) {
+          groups[sectName][cardId] = { card, qty: 0, tags: entry.tags };
+        }
+        groups[sectName][cardId].qty += qty;
         assigned += qty;
       });
-      // leftover goes into the default section
       const totalCount = entry.count || assigned;
       const remainder = totalCount - assigned;
       if (remainder > 0) {
-        groups[defaultSection].push({ card, qty: remainder, tags: entry.tags });
+        if (!groups[defaultSection][cardId]) {
+          groups[defaultSection][cardId] = { card, qty: 0, tags: entry.tags };
+        }
+        groups[defaultSection][cardId].qty += remainder;
       }
-
     } else {
-      // 4) Otherwise a single‐pile assignment:
-
-      // a) drag‐and‐drop override?
       const dragSect =
         userOverrides && userOverrides[cardId] ? userOverrides[cardId] : null;
-      // b) OCTGN criteria?
       const critSect = sections.find((s) => cardMatchesSection(card, s))?.name;
-      // c) fallback
       const finalSect = dragSect || critSect || defaultSection;
 
-      groups[finalSect] = groups[finalSect] || [];
-      groups[finalSect].push({ card, qty: entry.count, tags: entry.tags });
+      groups[finalSect] = groups[finalSect] || {};
+      if (!groups[finalSect][cardId]) {
+        groups[finalSect][cardId] = { card, qty: 0, tags: entry.tags };
+      }
+      groups[finalSect][cardId].qty += entry.count;
     }
   });
 
+  // Convert inner objects to arrays for rendering
+  Object.keys(groups).forEach(group => {
+    groups[group] = Object.values(groups[group]);
+  });
   return groups;
 }
 // --- OCTGN grouping logic END ---
@@ -1052,11 +1060,11 @@ if (factionLimit && factionLimit.property) {
 							  showButtons={true}
 							  onAdd={e => {
 								e.stopPropagation();
-								onAddCard(card.id, 1);
+								onAddCard(card.id, 1, group);
 							  }}
 							  onRemove={e => {
 								e.stopPropagation();
-								onRemoveCard(card.id, 1);
+								onRemoveCard(card.id, 1, group);
 							  }}
 							  style={{
 								width: "86px",

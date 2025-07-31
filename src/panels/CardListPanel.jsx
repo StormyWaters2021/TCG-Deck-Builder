@@ -305,30 +305,53 @@ if (valLower === 'none' || valLower === '(none)') {
 }
 
 
-      // DEFAULT SEARCH: robustly handle arrays, delimited strings, etc.
-      let cardVal = card[property];
-      if (Array.isArray(cardVal)) {
-        cardVal = cardVal.join(" ");
+      // DEFAULT SEARCH: if no prefix, search BOTH name and subtitle fields
+      let valuesToSearch = [];
+
+      // If user did NOT specify a prefix (plain search), search name and subtitle fields
+      if (
+        property.toLowerCase() === "name" &&
+        !node.term.match(/^([^\s:]+):/)
+      ) {
+        const subtitle = card.Subtitle ?? card.subtitle ?? "";
+        valuesToSearch = [
+          card.name ?? "",
+          subtitle
+        ];
+      } else {
+        let cardVal = card[property];
+        if (Array.isArray(cardVal)) {
+          cardVal = cardVal.join(" ");
+        }
+        if (typeof cardVal !== "string") {
+          cardVal = cardVal?.toString() ?? "";
+        }
+        valuesToSearch = [cardVal];
       }
-      if (typeof cardVal !== "string") {
-        cardVal = cardVal?.toString() ?? "";
-      }
+
+      // Number comparison support: only test first value (which is always the name field in plain search)
       const comparisonMatch = value.match(/^([<>]=?|=)(\d+(\.\d+)?)$/);
-if (comparisonMatch) {
-  const [, operator, numStr] = comparisonMatch;
-  const num = parseFloat(numStr);
-  const cardNum = parseFloat(cardVal);
-  if (isNaN(cardNum)) return false;
-  switch (operator) {
-    case '=': return cardNum === num;
-    case '<': return cardNum < num;
-    case '>': return cardNum > num;
-    case '<=': return cardNum <= num;
-    case '>=': return cardNum >= num;
-    default: return false;
-  }
-}
-return cardVal.toLowerCase().includes(value.toLowerCase());
+      if (comparisonMatch) {
+        const [, operator, numStr] = comparisonMatch;
+        const num = parseFloat(numStr);
+
+        const valToTest = valuesToSearch[0] ?? "";
+        const cardNum = parseFloat(valToTest);
+        if (isNaN(cardNum)) return false;
+        switch (operator) {
+          case '=': return cardNum === num;
+          case '<': return cardNum < num;
+          case '>': return cardNum > num;
+          case '<=': return cardNum <= num;
+          case '>=': return cardNum >= num;
+          default: return false;
+        }
+      }
+
+      // Regular text search: match if ANY value contains the query
+      return valuesToSearch.some(val =>
+  String(val ?? '').toLowerCase().includes(value.toLowerCase())
+);
     }
     case 'NOT':
       return !evaluate(node.term, card, searchPrefixes);
@@ -459,17 +482,73 @@ if (filterVal === "(none)") {
         <strong>Card Search</strong>
         <InfoTooltip text={fullHelpText} />
       </div>
-      <input
-        type="text"
-        placeholder="Search cards..."
-        value={search}
-        onChange={e => setSearch(e.target.value)}
-        title={
-          prefixEntries.length > 0
-            ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p]) => `${p}:"..."`).join(', ')}. Use ${prefixEntries.map(([p]) => `${p}:"none"`).join(', ')} for blank/missing or ${prefixEntries.map(([p]) => `${p}:"any"`).join(', ')} for all cards with that property. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND.`
-            : "Search by name. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND."
-        }
-      />
+      <div
+  style={{
+    position: "relative",
+    width: "100%",
+    height: 0,           // remove any height constraints
+  }}
+>
+  <input
+    type="text"
+    placeholder="Search cards..."
+    value={search}
+    onChange={e => setSearch(e.target.value)}
+    title={
+      prefixEntries.length > 0
+        ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p]) => `${p}:"..."`).join(', ')}. Use ${prefixEntries.map(([p]) => `${p}:"none"`).join(', ')} for blank/missing or ${prefixEntries.map(([p]) => `${p}:"any"`).join(', ')} for all cards with that property. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND.`
+        : "Search by name. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND."
+    }
+    style={{
+      width: "100%",
+      boxSizing: "border-box",
+      paddingRight: search ? 36 : undefined,
+      height: 32,              // set a consistent input height
+      fontSize: "1em",
+      verticalAlign: "middle", // help with centering
+      margin: 0,
+    }}
+  />
+  {search && (
+    <button
+      type="button"
+      aria-label="Clear search"
+      onClick={() => setSearch("")}
+      style={{
+        position: "absolute",
+        right: 4,
+        top: 17,
+        bottom: 0,
+        margin: "auto 0",
+        border: "none",
+        background: "none",
+        padding: 0,
+        cursor: "pointer",
+        width: 24,
+        height: 36,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+      tabIndex={0}
+    >
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        aria-hidden="true"
+        style={{
+          display: "block",
+        }}
+      >
+        <circle cx="10" cy="10" r="9" fill="#b7950b" />
+        <line x1="6" y1="6" x2="14" y2="14" stroke="#fff" strokeWidth="2" strokeLinecap="round" />
+        <line x1="14" y1="6" x2="6" y2="14" stroke="#fff" strokeWidth="2" strokeLinecap="round" />
+      </svg>
+    </button>
+  )}
+</div>
+
       <button
         type="button"
         onClick={handleClearFilters}
