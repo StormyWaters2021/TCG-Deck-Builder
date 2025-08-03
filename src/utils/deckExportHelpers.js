@@ -563,28 +563,30 @@ export async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOver
     const card = cards.find(c => c.id === cardId);
     if (!card) continue;
 
-    // 1) If entry.group is a non-empty object, use those splits
     if (entry.group && typeof entry.group === "object" && Object.keys(entry.group).length > 0) {
+      let unassignedQty = 0;
       for (const [sectName, sectQty] of Object.entries(entry.group)) {
         if (sectQty > 0 && sectName in sectionMap) {
           sectionMap[sectName].push({ card, qty: sectQty });
+        } else if (sectQty > 0) {
+          unassignedQty += sectQty;
         }
       }
+      if (unassignedQty > 0 && octgnSettings.defaultSection in sectionMap) {
+        sectionMap[octgnSettings.defaultSection].push({ card, qty: unassignedQty });
+      }
     } else {
-      // 2) Otherwise fallback to override → criteria → default
       let placed = false;
-
-      // a) user drag/drop override
       const override = octgnOverrides && octgnOverrides[cardId];
-      if (currentGroupBy === "OCTGN" &&
-          override &&
-          override !== "Ungrouped" &&
-          override in sectionMap) {
+      if (
+        currentGroupBy === "OCTGN" &&
+        override &&
+        override !== "Ungrouped" &&
+        override in sectionMap
+      ) {
         sectionMap[override].push({ card, qty: total });
         placed = true;
       }
-
-      // b) criteria-based
       if (!placed) {
         for (const sect of octgnSettings.sections) {
           if (cardMatchesSection(card, sect)) {
@@ -594,8 +596,6 @@ export async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOver
           }
         }
       }
-
-      // c) default section
       if (!placed && octgnSettings.defaultSection in sectionMap) {
         sectionMap[octgnSettings.defaultSection].push({ card, qty: total });
       }
@@ -634,6 +634,7 @@ export async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOver
   a.click();
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
+
 
 export async function shareDeck(deckObj, game) {
   const WORKER_API = "https://tcgbuilder.net/api";
