@@ -1,10 +1,12 @@
 {
-  "minCards": 0,
+  "minCards": 60,
   "maxCards": 9999,
-  "maxCopiesPerCard": 9999,
-  "usePerCardLimit": false,
+  "maxCopiesPerCard": 2,
+  "usePerCardLimit": true,
   "propertyLimits": [
-    {}
+    {
+		
+	}
   ],
   "banList": [
     "Banned Card Name"
