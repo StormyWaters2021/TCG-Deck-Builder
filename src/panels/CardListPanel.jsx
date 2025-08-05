@@ -486,7 +486,6 @@ if (filterVal === "(none)") {
   style={{
     position: "relative",
     width: "100%",
-    height: 0,           // remove any height constraints
   }}
 >
   <input
@@ -514,22 +513,22 @@ if (filterVal === "(none)") {
       type="button"
       aria-label="Clear search"
       onClick={() => setSearch("")}
-      style={{
+            style={{
         position: "absolute",
         right: 4,
-        top: 17,
-        bottom: 0,
-        margin: "auto 0",
+        top: "50%",
+        transform: "translateY(-50%)",
         border: "none",
         background: "none",
         padding: 0,
         cursor: "pointer",
         width: 24,
-        height: 36,
+        height: 24,
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
       }}
+
       tabIndex={0}
     >
       <svg
@@ -602,37 +601,38 @@ if (filterVal === "(none)") {
         <ul style={{ margin: 0, padding: 0, listStyle: "none" }}>
           {uniqueCards.map(card => (
             <li
-              key={card.id}
-              className={selectedCard === card.id ? "selected" : ""}
-              onClick={() => onCardSelect(card.id)}
-              style={{
-                fontWeight: deck[card.id] ? "bold" : "normal",
-                cursor: "pointer",
-                margin: "0.5em 0",
-                padding: "0.25em"
-              }}
-            >
-              <span>
-                {card.name}
-                {card.Subtitle ? ` - ${card.Subtitle}` : ""}
-              </span>
-              {selectedCard === card.id && (
-                <>
-                  <button
-                    onClick={e => {
-                      e.stopPropagation();
-                      onAddCard(card.id, 1);
-                    }}
-                  >+1</button>
-                  <button
-                    onClick={e => {
-                      e.stopPropagation();
-                      onAddCard(card.id, settings.addNValue);
-                    }}
-                  >+{settings.addNValue}</button>
-                </>
-              )}
-            </li>
+  key={card.id}
+  className={selectedCard === card.id ? "selected" : ""}
+  onClick={() => onCardSelect(card.id)}
+  style={{
+    fontWeight: deck[card.id] ? "bold" : "normal",
+    cursor: "pointer",
+    margin: "0.5em 0",
+    padding: "0.25em"
+  }}
+>
+  <div>
+    {card.name}
+    {card.Subtitle ? ` - ${card.Subtitle}` : ""}
+  </div>
+  {selectedCard === card.id && (
+    <div style={{ marginTop: 6, display: "flex", gap: 8 }}>
+      <button
+        onClick={e => {
+          e.stopPropagation();
+          onAddCard(card.id, 1);
+        }}
+      >+1</button>
+      <button
+        onClick={e => {
+          e.stopPropagation();
+          onAddCard(card.id, settings.addNValue);
+        }}
+      >+{settings.addNValue}</button>
+    </div>
+  )}
+</li>
+
           ))}
         </ul>
       </div>
