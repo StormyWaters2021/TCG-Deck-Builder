@@ -3,6 +3,8 @@
 
   "addNValue": 3,
   
+  "fallbackGroup": "Life Deck",
+  
   "groupOptions": [
     "Type",
     "Style"

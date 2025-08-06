@@ -413,6 +413,36 @@ function DeckPanel({
   const octgnOverrides = octgnOverridesProp !== undefined ? octgnOverridesProp : internalOctgnOverrides;
   const setOctgnOverrides = setOctgnOverridesProp !== undefined ? setOctgnOverridesProp : setInternalOctgnOverrides;
 
+ // NEW: smart remove handler
+  function handleRemove(cardId, displayGroup) {
+    // only do this special check when NOT in OCTGN view
+    if (groupBy !== "OCTGN") {
+      const entry = deck[cardId];
+      if (entry?.group && typeof entry.group === "object") {
+        // figure out which real sections have copies
+        const realGroups = Object.entries(entry.group)
+          .filter(([_, qty]) => qty > 0)
+          .map(([g]) => g);
+
+        // if split across more than one
+        if (realGroups.length > 1) {
+          window.alert("Please switch to OCTGN view to remove cards.");
+          return;
+        }
+
+        // if exactly one real section, remove there
+        if (realGroups.length === 1) {
+          onRemoveCard(cardId, 1, realGroups[0]);
+          return;
+        }
+      }
+    }
+
+    // fallback: remove from whatever the UI was showing
+    onRemoveCard(cardId, 1, displayGroup);
+  }
+
+
   const availableGroupOptions = useMemo(() => {
     let opts = [...settings.groupOptions];
     if (settings.octgnExport && !opts.includes("OCTGN")) {
@@ -780,7 +810,7 @@ function DeckPanel({
                             }}
                             onRemove={e => {
                               e.stopPropagation();
-                              onRemoveCard(card.id, 1, sectionName);
+                              handleRemove(card.id, sectionName);
                             }}
                             style={{
                               width: "86px",
@@ -846,7 +876,7 @@ function DeckPanel({
                               className="deck-modify-btn"
                               onClick={e => {
                                 e.stopPropagation();
-                                onRemoveCard(card.id, 1, sectionName);
+                                handleRemove(card.id, sectionName);
                               }}
                             >
                               -1
@@ -908,7 +938,7 @@ function DeckPanel({
                         <>
                           <button
                             className="deck-modify-btn"
-                            onClick={e => { e.stopPropagation(); onRemoveCard(card.id, 1, group); }}
+                            onClick={e => { e.stopPropagation();  handleRemove(card.id, group); }}
                           >
                             -1
                           </button>

@@ -72,17 +72,32 @@ const addCard = (cardId, qty = 1, groupName) => {
     const newGroup = { ...prevEntry.group };
     let actualGroup = groupName;
 
-    // Auto-assign group if not given
-    if (!groupName && octgnSections && octgnDefaultSection) {
-      const card = cards.find(c => c.id === cardId);
-      actualGroup = getSectionForCard(card, octgnSections, octgnDefaultSection);
+    // 1. Use provided groupName if present
+    if (!actualGroup) {
+      // 2. Use OCTGN group by criteria if available
+      if (octgnSections && Array.isArray(octgnSections)) {
+        const card = cards.find(c => c.id === cardId);
+        actualGroup = getSectionForCard(card, octgnSections, octgnDefaultSection);
+      }
+
+      // 3. Use OCTGN defaultSection if group not set yet
+      if (!actualGroup && octgnDefaultSection) {
+        actualGroup = octgnDefaultSection;
+      }
+
+      // 4. Use settings fallbackGroup if above fail
+      if (!actualGroup && settings?.fallbackGroup) {
+        actualGroup = settings.fallbackGroup;
+      }
     }
 
-    if (actualGroup) {
-      newGroup[actualGroup] = (newGroup[actualGroup] || 0) + qty;
-    } else {
-      newGroup["Other"] = (newGroup["Other"] || 0) + qty;
+    // 5. If STILL not set, warn and use 'Other'
+    if (!actualGroup) {
+      console.warn("Card added with no group! Please set fallbackGroup in settings.json.", { cardId });
+      actualGroup = "Other";
     }
+
+    newGroup[actualGroup] = (newGroup[actualGroup] || 0) + qty;
 
     const newCount = Object.values(newGroup).reduce((a, b) => a + b, 0);
     return {
@@ -95,6 +110,7 @@ const addCard = (cardId, qty = 1, groupName) => {
     };
   });
 };
+
 
 
 const removeCard = (cardId, qty = 1, groupName) => {
