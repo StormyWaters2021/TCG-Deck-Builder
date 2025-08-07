@@ -512,23 +512,26 @@ function DeckPanel({
     e.dataTransfer.setData("fromSection", fromSection);
   }
   function handleDrop(e, toSection) {
-  e.preventDefault();
-  const cardId = e.dataTransfer.getData("cardId");
-  const fromSection = e.dataTransfer.getData("fromSection");
-  if (!cardId || !fromSection) return;
+   e.preventDefault();
+   const cardId   = e.dataTransfer.getData("cardId");
+   const fromSection = e.dataTransfer.getData("fromSection");
+   if (!cardId || !fromSection) return;
 
-  if (moveMode === "one") {
-    moveCard(cardId, 1, fromSection, toSection);    // <---- use moveCard!
-  } else {
-    const entry = deck[cardId] || {};
-    const bucketCount = entry.group && entry.group[fromSection] != null
-      ? entry.group[fromSection]
-      : entry.count || 0;
-    if (bucketCount > 0) {
-      moveCard(cardId, bucketCount, fromSection, toSection); // <--- use moveCard!
-    }
+  // only allow drop/move when we're in OCTGN view:
+  if (groupBy !== "OCTGN") {
+    return;
   }
-}
+
+   if (moveMode === "one") {
+     moveCard(cardId, 1, fromSection, toSection);
+   } else {
+     const entry      = deck[cardId] || {};
+     const bucketCount = entry.group?.[fromSection] ?? entry.count ?? 0;
+     if (bucketCount > 0) {
+       moveCard(cardId, bucketCount, fromSection, toSection);
+     }
+   }
+ }
   function handleDragOver(e) {
     e.preventDefault();
   }
@@ -806,7 +809,12 @@ function DeckPanel({
                             showButtons={true}
                             onAdd={e => {
                               e.stopPropagation();
-                              onAddCard(card.id, 1, sectionName);
+                              if (groupBy === "OCTGN") {
+   onAddCard(card.id, 1, sectionName)
+ } else {
+   // let the default "Type" (or whatever) grouping take over
+   onAddCard(card.id, 1)
+ }
                             }}
                             onRemove={e => {
                               e.stopPropagation();
@@ -885,7 +893,12 @@ function DeckPanel({
                               className="deck-modify-btn"
                               onClick={e => {
                                 e.stopPropagation();
-                                onAddCard(card.id, 1, sectionName);
+                                if (groupBy === "OCTGN") {
+   onAddCard(card.id, 1, sectionName)
+ } else {
+   // let the default "Type" (or whatever) grouping take over
+   onAddCard(card.id, 1)
+ }
                               }}
                             >
                               +1
@@ -942,12 +955,16 @@ function DeckPanel({
                           >
                             -1
                           </button>
-                          <button
-                            className="deck-modify-btn"
-                            onClick={e => { e.stopPropagation(); onAddCard(card.id, 1, group); }}
-                          >
-                            +1
-                          </button>
+                          <button onClick={e => {
+  e.stopPropagation();
+  if (groupBy === "OCTGN") {
+    onAddCard(card.id, 1, group);
+  } else {
+    onAddCard(card.id, 1);
+  }
+}}>
+  +1
+</button>	
                         </>
                       )}
                     </li>
@@ -1009,7 +1026,7 @@ function DeckPanel({
                           }}
                           onRemove={e => {
                             e.stopPropagation();
-                            onRemoveCard(card.id, 1, group);
+                            handleRemove(card.id, group);
                           }}
                           style={{
                             width: "86px",
