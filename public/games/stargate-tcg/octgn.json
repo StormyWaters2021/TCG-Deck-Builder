@@ -2,6 +2,15 @@
   "gameGuid": "11ec1f21-7d4c-4bf0-9d72-df01c6c78911",
   "sections": [
     {
+      "name": "Team",
+      "shared": false,
+      "criteria": {
+        "Type": [
+          "Team Character"
+        ]
+      }
+    },
+	{
       "name": "Main",
       "shared": false,
       "criteria": {
@@ -12,15 +21,6 @@
 		  "Adversary",
 		  "Support Character",
 		  "Ship"
-        ]
-      }
-    },
-    {
-      "name": "Team",
-      "shared": false,
-      "criteria": {
-        "Type": [
-          "Team Character"
         ]
       }
     },

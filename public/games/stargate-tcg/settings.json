@@ -20,7 +20,34 @@
   ],
   "filterDelimiter": ",",
   "groupOrder": [],
-  "groupSort": {},
+  "groupSort": {
+    "Main": {
+      "by": [
+        "Alignment",
+        "name"
+      ],
+      "order": {
+        "Alignment": [
+          "Hero",
+          "Villain"
+        ]
+      }
+    },
+    "Mission Pile": {
+      "by": [
+        "Mission Skill",
+        "name"
+      ],
+      "order": {
+        "Mission Skill": [
+          "Combat",
+          "Culture",
+          "Ingenuity",
+          "Science"
+        ]
+      }
+    }
+  },
   
   "searchPrefixes": {
 	"t": "Text",
@@ -34,4 +61,5 @@
 	"r": "Revive"
 
   }
+  
 }
