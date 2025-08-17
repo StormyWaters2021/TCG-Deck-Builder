@@ -1,6 +1,7 @@
 import "./styles.css";
 import React, { useEffect, useState } from "react";
 import DeckBuilder from "./DeckBuilder";
+import { loadCardsForGame } from "./utils/cardsLoader";
 
 const fetchGames = async () => {
   const gamesManifest = await fetch(
@@ -14,21 +15,21 @@ function parseDeckString(deckStr) {
   const deck = {};
   if (!deckStr) return deck;
 
-  deckStr.split(";").forEach(entry => {
+  deckStr.split(";").forEach((entry) => {
     if (!entry.trim()) return;
-    const parts     = entry.split(":");
-    const id        = parts[0];
-    const ctTags    = parts[1] || "";
-    const groupName = parts[2]   || undefined;
+    const parts = entry.split(":");
+    const id = parts[0];
+    const ctTags = parts[1] || "";
+    const groupName = parts[2] || undefined;
 
     // first number = count; rest = tags
-    const segs  = ctTags.split(",").filter(s => s);
+    const segs = ctTags.split(",").filter((s) => s);
     const count = parseInt(segs[0], 10) || 0;
-    const tags  = segs.slice(1);
+    const tags = segs.slice(1);
 
     deck[id] = { count };
-    if (tags.length)      deck[id].tags  = tags;
-    if (groupName)        deck[id].group = decodeURIComponent(groupName);
+    if (tags.length) deck[id].tags = tags;
+    if (groupName) deck[id].group = decodeURIComponent(groupName);
   });
 
   return deck;
@@ -37,12 +38,10 @@ function parseDeckString(deckStr) {
 // Get the default groupBy option from settings, only allowing OCTGN if it's valid.
 // If the first option is "OCTGN" and octgnExport is not true, use the next option.
 function getDefaultGroupBy(settings) {
-  if (!settings || !settings.groupOptions || !Array.isArray(settings.groupOptions)) return "Type"; // fallback
+  if (!settings || !settings.groupOptions || !Array.isArray(settings.groupOptions))
+    return "Type"; // fallback
 
-  if (
-    settings.groupOptions[0] === "OCTGN" &&
-    settings.octgnExport !== true
-  ) {
+  if (settings.groupOptions[0] === "OCTGN" && settings.octgnExport !== true) {
     // Use the next option if available, otherwise fallback
     return settings.groupOptions[1] || "Type";
   }
@@ -97,14 +96,22 @@ function App() {
 
     setGameData({ settings: null, cards: [] }); // Reset to show loading
 
-    Promise.all([
-    fetch(`${import.meta.env.BASE_URL}games/${selectedGame}/settings.json`).then(r => r.json()),
-    fetch(`${import.meta.env.BASE_URL}games/${selectedGame}/deckValidation.json`).then(r => r.json()),
-    fetch(`${import.meta.env.BASE_URL}games/${selectedGame}/cards.json`).then(r => r.json()),
-  ]).then(([settings, deckValidation, cards]) =>
-    // merge deckValidation back under settings.deckValidation
-    setGameData({ settings: { ...settings, deckValidation }, cards })
-  );
+    (async () => {
+      // Load settings + deckValidation
+      const [settings, deckValidation] = await Promise.all([
+        fetch(`${import.meta.env.BASE_URL}games/${selectedGame}/settings.json`).then((r) =>
+          r.json()
+        ),
+        fetch(
+          `${import.meta.env.BASE_URL}games/${selectedGame}/deckValidation.json`
+        ).then((r) => r.json()),
+      ]);
+
+      // Load merged cards via sets index; falls back to cards.json automatically
+      const cards = await loadCardsForGame(selectedGame);
+
+      setGameData({ settings: { ...settings, deckValidation }, cards });
+    })();
 
     setDeck({}); // Clear deck on game change to avoid conflicts
     setGroupBy("Type");
@@ -214,11 +221,7 @@ function App() {
       {!selectedGame && (
         <div className="game-grid">
           {games.map((game) => (
-            <div
-              key={game}
-              className="game-card"
-              onClick={() => handleGameClick(game)}
-            >
+            <div key={game} className="game-card" onClick={() => handleGameClick(game)}>
               <img
                 src={`${import.meta.env.BASE_URL}games/${game}/art/logo.jpg`}
                 alt={game}
