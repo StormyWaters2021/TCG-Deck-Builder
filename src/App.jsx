@@ -3,6 +3,37 @@ import React, { useEffect, useState } from "react";
 import DeckBuilder from "./DeckBuilder";
 import { loadCardsForGame } from "./utils/cardsLoader";
 
+function LinearProgress({ done, total }) {
+   const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+   return (
+     <div style={{ width: 360, maxWidth: "90vw" }}>
+       <div style={{
+         height: 10,
+         background: "rgba(255,255,255,0.15)",
+         borderRadius: 6,
+         overflow: "hidden",
+         boxShadow: "inset 0 0 0 1px rgba(0,0,0,0.1)"
+       }}
+         role="progressbar"
+         aria-valuenow={pct}
+         aria-valuemin={0}
+         aria-valuemax={100}
+       >
+         <div style={{
+           width: `${pct}%`,
+           height: "100%",
+           background: "currentColor",
+           opacity: 0.85,
+           transition: "width 200ms ease"
+         }} />
+       </div>
+       <div style={{ marginTop: 8, fontSize: 12, opacity: 0.8, textAlign: "center" }}>
+         {total > 1 ? `Loading sets ${done}/${total} (${pct}%)` : "Loading data..."}
+       </div>
+     </div>
+   );
+ }
+
 const fetchGames = async () => {
   const gamesManifest = await fetch(
     `${import.meta.env.BASE_URL}games/manifest.json`
@@ -55,6 +86,8 @@ function App() {
   const [selectedGame, setSelectedGame] = useState("");
   const [gameData, setGameData] = useState({ settings: null, cards: [] });
   const [deck, setDeck] = useState({});
+  const [loadProgress, setLoadProgress] = useState({ done: 0, total: 0 });
+  const [loadError, setLoadError] = useState(null);
 
   // For light/dark mode toggle, initialize from localStorage or default false (dark)
   const [isLightMode, setIsLightMode] = useState(() => {
@@ -107,10 +140,19 @@ function App() {
         ).then((r) => r.json()),
       ]);
 
-      // Load merged cards via sets index; falls back to cards.json automatically
-      const cards = await loadCardsForGame(selectedGame);
-
-      setGameData({ settings: { ...settings, deckValidation }, cards });
+            // Reset progress + load cards with progress callback
+      setLoadProgress({ done: 0, total: 0 });
+      setLoadError(null);
+      try {
+        const cards = await loadCardsForGame(selectedGame, (done, total) => {
+          setLoadProgress({ done, total });
+        });
+        setGameData({ settings: { ...settings, deckValidation }, cards });
+      } catch (err) {
+        console.error(err);
+        setGameData({ settings: { ...settings, deckValidation }, cards: [] });
+        setLoadError(err?.message || String(err));
+      }
     })();
 
     setDeck({}); // Clear deck on game change to avoid conflicts
@@ -233,8 +275,14 @@ function App() {
       )}
 
       {selectedGame && (!gameData.cards || gameData.cards.length === 0) && (
-        <div className="loading-container">Loading game data...</div>
-      )}
+   <div className="loading-container" style={{ display: "grid", placeItems: "center", minHeight: 200 }}>
+     {loadError ? (
+       <div style={{ color: "crimson", textAlign: "center" }}>{loadError}</div>
+     ) : (
+       <LinearProgress done={loadProgress.done} total={loadProgress.total} />
+     )}
+   </div>
+ )}
 
       {selectedGame && gameData.settings && gameData.cards.length > 0 && (
         <DeckBuilder
