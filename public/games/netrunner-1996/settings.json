@@ -12,9 +12,10 @@
     "Cost",
 	"Set",
 	"Agenda Points",
+	"Artist",
 	"Rarity"
   ],
-  "filterDelimiter": "-",
+  "filterDelimiter": "|",
   "groupOrder": [],
   "groupSort": {},
   "searchPrefixes": {
