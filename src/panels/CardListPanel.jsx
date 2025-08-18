@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 // --- Tooltip helper component with inherited colors ---
 function InfoTooltip({ text }) {
@@ -399,8 +399,52 @@ function getUniqueCardsByName(cards) {
 }
 
 function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard, deck }) {
+  const searchInputRef = useRef(null);
+  const listRef = useRef(null);
   const [search, setSearch] = useState("");
   const [filters, setFilters] = useState({});
+  
+  function handleSearchKeyDown(e) {
+  // Only add on Enter if the LIST has focus (not the input)
+  if (e.key === "Enter") {
+    if (e.currentTarget !== listRef.current) {
+      // We're in the search input (or elsewhere) → ignore Enter
+      return;
+    }
+    e.preventDefault();
+    if (selectedCard) {
+      onAddCard(selectedCard, e.shiftKey ? settings.addNValue : 1);
+    }
+    return;
+  }
+
+  // Arrow navigation (works from input and list)
+  if (e.key !== "ArrowDown" && e.key !== "ArrowUp") return;
+  e.preventDefault();
+
+  const cardsList = uniqueCards || [];
+  if (cardsList.length === 0) return;
+
+  const idx = cardsList.findIndex(c => c.id === selectedCard);
+  const nextIdx =
+    idx === -1
+      ? (e.key === "ArrowDown" ? 0 : cardsList.length - 1)
+      : (e.key === "ArrowDown"
+          ? Math.min(idx + 1, cardsList.length - 1)
+          : Math.max(idx - 1, 0));
+
+  const next = cardsList[nextIdx];
+  if (!next) return;
+
+  onCardSelect(next.id);
+
+  requestAnimationFrame(() => {
+    const container = listRef.current;
+    if (!container) return;
+    const el = container.querySelector("li.selected");
+    el?.scrollIntoView({ block: "nearest" });
+  });
+}
 
   const filterDelimiter = settings.filterDelimiter || null;
   const filterProps = getFilters(
@@ -489,10 +533,12 @@ if (filterVal === "(none)") {
   }}
 >
   <input
+    ref={searchInputRef}
     type="text"
     placeholder="Search cards..."
     value={search}
     onChange={e => setSearch(e.target.value)}
+	onKeyDown={handleSearchKeyDown}
     title={
       prefixEntries.length > 0
         ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p]) => `${p}:"..."`).join(', ')}. Use ${prefixEntries.map(([p]) => `${p}:"none"`).join(', ')} for blank/missing or ${prefixEntries.map(([p]) => `${p}:"any"`).join(', ')} for all cards with that property. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND.`
@@ -512,7 +558,10 @@ if (filterVal === "(none)") {
     <button
       type="button"
       aria-label="Clear search"
-      onClick={() => setSearch("")}
+      onClick={() => {
+		setSearch("");
+		searchInputRef.current?.focus();
+			}}
             style={{
         position: "absolute",
         right: 4,
@@ -597,7 +646,12 @@ if (filterVal === "(none)") {
       <div style={{ margin: "0.5em 0", fontWeight: "bold" }}>
         Total cards: {uniqueCards.length}
       </div>
-      <div style={{ maxHeight: "calc(100vh - 400px)", overflowY: "auto" }}>
+      <div
+  ref={listRef}
+  style={{ maxHeight: "calc(100vh - 400px)", overflowY: "auto" }}
+  tabIndex={0}
+  onKeyDown={handleSearchKeyDown}
+>
         <ul style={{ margin: 0, padding: 0, listStyle: "none" }}>
           {uniqueCards.map(card => (
             <li

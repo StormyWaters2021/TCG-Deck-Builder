@@ -3,6 +3,20 @@ import React, { useEffect, useState } from "react";
 import DeckBuilder from "./DeckBuilder";
 import { loadCardsForGame } from "./utils/cardsLoader";
 
+function sortCardsByNameThenSubtitle(cards) {
+  return [...cards].sort((a, b) => {
+    const an = String(a?.name ?? "");
+    const bn = String(b?.name ?? "");
+    const cmp = an.localeCompare(bn, undefined, { sensitivity: "base", numeric: true });
+    if (cmp !== 0) return cmp;
+
+    // tiebreak on Subtitle (handles both "Subtitle" and "subtitle")
+    const asub = String(a?.Subtitle ?? a?.subtitle ?? "");
+    const bsub = String(b?.Subtitle ?? b?.subtitle ?? "");
+    return asub.localeCompare(bsub, undefined, { sensitivity: "base", numeric: true });
+  });
+}
+
 function LinearProgress({ done, total }) {
    const pct = total > 0 ? Math.round((done / total) * 100) : 0;
    return (
@@ -147,7 +161,7 @@ function App() {
         const cards = await loadCardsForGame(selectedGame, (done, total) => {
           setLoadProgress({ done, total });
         });
-        setGameData({ settings: { ...settings, deckValidation }, cards });
+        setGameData({ settings: { ...settings, deckValidation }, cards: sortCardsByNameThenSubtitle(cards) });
       } catch (err) {
         console.error(err);
         setGameData({ settings: { ...settings, deckValidation }, cards: [] });
