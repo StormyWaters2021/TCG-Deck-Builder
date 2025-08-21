@@ -1,6 +1,6 @@
 {
   "gameName": "monty-python",
-  "game_id": "",
+  "game_id": "20d48baa-8c8f-4c1e-891e-8a206a05407d",
   "addNValue": 3,
   "groupOptions": [
     "Card Type",
@@ -25,6 +25,6 @@
 	"g": "Grail",
 	"q": "Quote"
 },
-  "octgnExport": false,
-  "showImagePackExport": false
+  "octgnExport": true,
+  "showImagePackExport": true
 }
