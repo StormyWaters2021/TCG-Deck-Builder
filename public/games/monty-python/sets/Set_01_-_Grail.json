@@ -1796,7 +1796,7 @@
   {
     "id": "d7416a7b-bfad-4733-814e-104eb414390f",
     "Card Number": "59",
-    "name": "Castle Guards",
+    "name": "Castle Guards (v1)",
     "Card Type": "Adversary",
     "Subtype": "Swamp-Castle, Castle-Guard",
     "Grail": "2",
@@ -1815,7 +1815,7 @@
   {
     "id": "d9a58e78-0c9b-4e24-95c2-67e0f37823b5",
     "Card Number": "60",
-    "name": "Castle Guards",
+    "name": "Castle Guards (v2)",
     "Card Type": "Adversary",
     "Subtype": "Swamp-Castle, Castle-Guard",
     "Grail": "4",
@@ -1834,7 +1834,7 @@
   {
     "id": "0c5f4326-a26f-41e3-b0b9-9fffa2a2ee97",
     "Card Number": "61",
-    "name": "Castle Guards",
+    "name": "Castle Guards (v3)",
     "Card Type": "Adversary",
     "Subtype": "Swamp-Castle, Castle-Guard",
     "Grail": "4",
@@ -4189,7 +4189,7 @@
   },
   {
     "id": "69012858-7623-488a-9a7b-8fcd97cf191e",
-    "Card Number": "145",
+    "Card Number": "145a",
     "name": "Humphrey the Page",
     "Card Type": "Page",
     "Subtype": "",
@@ -4208,7 +4208,7 @@
   },
   {
     "id": "61ab2f10-88bb-42fd-857c-002bcaa4256a",
-    "Card Number": "145",
+    "Card Number": "145b",
     "name": "Humphrey the Page",
     "Card Type": "Page",
     "Subtype": "",
@@ -5672,7 +5672,7 @@
   {
     "id": "d2aeaaaa-956f-4272-ba5f-b84c63c3f815",
     "Card Number": "192",
-    "name": "Monks",
+    "name": "Monks (Adversary)",
     "Card Type": "Adversary",
     "Subtype": "",
     "Grail": "4",
@@ -5691,7 +5691,7 @@
   {
     "id": "4de14955-5206-4a44-9eee-a17f2a0d3fe5",
     "Card Number": "193",
-    "name": "Monks",
+    "name": "Monks (Event)",
     "Card Type": "Event",
     "Subtype": "",
     "Grail": "5",
