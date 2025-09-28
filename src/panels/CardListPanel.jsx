@@ -540,10 +540,11 @@ if (filterVal === "(none)") {
     onChange={e => setSearch(e.target.value)}
 	onKeyDown={handleSearchKeyDown}
     title={
-      prefixEntries.length > 0
-        ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p]) => `${p}:"..."`).join(', ')}. Use ${prefixEntries.map(([p]) => `${p}:"none"`).join(', ')} for blank/missing or ${prefixEntries.map(([p]) => `${p}:"any"`).join(', ')} for all cards with that property. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND.`
-        : "Search by name. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND."
-    }
+  prefixEntries.length > 0
+    ? `Search by name by default. Use prefixes like ${prefixEntries.map(([p, field]) => `${p}: ${field}`).join(', ')}. Use ${prefixEntries.map(([p]) => `${p}:none`).join(', ')} for blank/missing or ${prefixEntries.map(([p]) => `${p}:any`).join(', ')} for all cards with that property. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND.`
+    : "Search by name. Boolean operators: () for grouping, // for OR, -term for NOT, and spaces for AND."
+}
+
     style={{
       width: "100%",
       boxSizing: "border-box",

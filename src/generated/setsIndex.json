@@ -103,6 +103,11 @@
     "games/stargate-tcg/sets/Set_15_-_Dominions.json",
     "games/stargate-tcg/sets/Set_16_-_Xtras.json"
   ],
+  "trails-tcg": [
+    "games/trails-tcg/sets/Set_1.json",
+    "games/trails-tcg/sets/Set_2.json",
+    "games/trails-tcg/sets/Set_3.json"
+  ],
   "wwe-raw-deal": [
     "games/wwe-raw-deal/sets/01_Premiere.json",
     "games/wwe-raw-deal/sets/02_Fully_Loaded.json",
