@@ -1,8 +1,9 @@
 {
-  "minCards": 0,
-  "maxCards": 9999,
+  "minCards": 50,
+  "maxCards": 50,
   "maxCopiesPerCard": 9999,
-  "usePerCardLimit": false,
+  "usePerCardLimit": true,
+  "countByNameAndSubtitle": true,
   "propertyLimits": [
     {}
   ],

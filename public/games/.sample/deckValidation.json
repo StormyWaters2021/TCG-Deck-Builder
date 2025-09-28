@@ -11,6 +11,9 @@
 
   // Maximum number of copies allowed per card (by name)
   "maxCopiesPerCard": 4,
+  
+  // Count cards with same name but different Subtitle as different cards
+  "countByNameAndSubtitle": true,
 
   // Enable per-card limit using card.Limit property (if present on card)
   "usePerCardLimit": true,

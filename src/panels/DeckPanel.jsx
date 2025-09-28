@@ -542,7 +542,8 @@ function DeckPanel({
     const card = cards.find(c => c.id === cardId);
     if (!card) return;
     const count = entry.count || 0;
-    const name = card.name;
+    const useNameSub = !!settings.deckValidation?.countByNameAndSubtitle;
+	const name = useNameSub ? cardNameWithSubtitle(card) : card.name;
     if (!processedDeckByName[name]) {
       processedDeckByName[name] = { qty: 0, cardIds: [], card };
     }

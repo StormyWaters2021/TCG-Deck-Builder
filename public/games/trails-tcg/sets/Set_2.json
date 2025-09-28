@@ -3,7 +3,7 @@
     "id": "e7468c0e-fb3a-4e56-b47b-3a85f71fa4ee",
     "name": "A Night in the Hot Springs",
     "Card #": "02-032SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -19,13 +19,14 @@
     "index": "3o",
     "Text": "■Tap: Discard 1 card: Gain 2 bond, then if you discarded “Thors Military Academy” card, draw 1 card.",
     "set_id": "Set 2",
-    "image": "e7468c0e-fb3a-4e56-b47b-3a85f71fa4ee.png"
+    "image": "e7468c0e-fb3a-4e56-b47b-3a85f71fa4ee.png",
+    "Limit": "4"
   },
   {
     "id": "fc9c2d4c-8301-4c10-aaa7-a924a641ff68",
     "name": "Alan Richard",
     "Card #": "02-003SR",
-    "Sub-Name": "[Divine Blade's Successor]",
+    "Subtitle": "[Divine Blade's Successor]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "5",
@@ -41,13 +42,14 @@
     "index": "2N",
     "Text": "■ This Unit must attack if able. ■ At the start of the combat phase, you become the initiative player (you take the first action).",
     "set_id": "Set 2",
-    "image": "fc9c2d4c-8301-4c10-aaa7-a924a641ff68.png"
+    "image": "fc9c2d4c-8301-4c10-aaa7-a924a641ff68.png",
+    "Limit": "4"
   },
   {
     "id": "d29faab5-ffb3-434c-8911-6b733c82ba0f",
     "name": "Alan Richard",
     "Card #": "02-004N",
-    "Sub-Name": "[Colonel]",
+    "Subtitle": "[Colonel]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "3",
@@ -63,13 +65,14 @@
     "index": "2O",
     "Text": "",
     "set_id": "Set 2",
-    "image": "d29faab5-ffb3-434c-8911-6b733c82ba0f.png"
+    "image": "d29faab5-ffb3-434c-8911-6b733c82ba0f.png",
+    "Limit": "4"
   },
   {
     "id": "b2501948-5762-4262-b929-9192b730c025",
     "name": "Albert Russell",
     "Card #": "02-010R",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "1",
@@ -85,13 +88,14 @@
     "index": "2Q",
     "Text": "■On Play: Search your deck for an Item card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 2",
-    "image": "b2501948-5762-4262-b929-9192b730c025.png"
+    "image": "b2501948-5762-4262-b929-9192b730c025.png",
+    "Limit": "4"
   },
   {
     "id": "52177870-6cbc-4c2a-93b0-41781002c99a",
     "name": "Alfin Reise Arnor",
     "Card #": "02-011R",
-    "Sub-Name": "[Princess]",
+    "Subtitle": "[Princess]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "1",
@@ -107,13 +111,14 @@
     "index": "2j",
     "Text": "■ When this Unit scrum attacks, return this Unit to the hand. If you do, search your deck for an “Erebonian Empire” card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 2",
-    "image": "52177870-6cbc-4c2a-93b0-41781002c99a.png"
+    "image": "52177870-6cbc-4c2a-93b0-41781002c99a.png",
+    "Limit": "4"
   },
   {
     "id": "9bebace8-747f-4da7-bd5f-c0466442703b",
     "name": "Alicia II",
     "Card #": "02-007R",
-    "Sub-Name": "[26th Queen]",
+    "Subtitle": "[26th Queen]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "3",
@@ -129,13 +134,14 @@
     "index": "2P",
     "Text": "■ If you control another “Liberl Kingdom” Unit on your field that is not stunned, this card cannot be the target for an attack. ■ Other “Liberl Kingdom” Units you control gain +2/+2.",
     "set_id": "Set 2",
-    "image": "9bebace8-747f-4da7-bd5f-c0466442703b.png"
+    "image": "9bebace8-747f-4da7-bd5f-c0466442703b.png",
+    "Limit": "4"
   },
   {
     "id": "0870c7e5-f9e7-4f62-bd6d-01186bcf55a2",
     "name": "Alisa Reinford",
     "Card #": "02-006N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "2",
@@ -151,13 +157,14 @@
     "index": "20",
     "Text": "■Tap: Your opponent loses 3 bond.",
     "set_id": "Set 2",
-    "image": "0870c7e5-f9e7-4f62-bd6d-01186bcf55a2.png"
+    "image": "0870c7e5-f9e7-4f62-bd6d-01186bcf55a2.png",
+    "Limit": "4"
   },
   {
     "id": "66a1da7e-6e13-4110-a4ca-c3d8801b1ef1",
     "name": "Alisa Reinford",
     "Card #": "02-122PR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "2",
@@ -173,13 +180,14 @@
     "index": "2K",
     "Text": "■Tap: Your opponent loses 3 bond.",
     "set_id": "Set 2",
-    "image": "66a1da7e-6e13-4110-a4ca-c3d8801b1ef1.png"
+    "image": "66a1da7e-6e13-4110-a4ca-c3d8801b1ef1.png",
+    "Limit": "4"
   },
   {
     "id": "bb420e4e-c7c6-46d0-9d35-96238bd95ccb",
     "name": "Altina Orion",
     "Card #": "02-009SR",
-    "Sub-Name": "[Claiomh Solais]",
+    "Subtitle": "[Claiomh Solais]",
     "Type": "Unit",
     "Affiliation": "None",
     "CP": "6",
@@ -195,13 +203,14 @@
     "index": "3P",
     "Text": "■ Discard 1 Item card: Stun 1 target Unit with CP cost 3 or less.",
     "set_id": "Set 2",
-    "image": "bb420e4e-c7c6-46d0-9d35-96238bd95ccb.png"
+    "image": "bb420e4e-c7c6-46d0-9d35-96238bd95ccb.png",
+    "Limit": "4"
   },
   {
     "id": "902e71e5-db7e-4302-943c-1d3ce709191c",
     "name": "An Elegant Afternoon for Siblings",
     "Card #": "02-077SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Event",
     "Affiliation": "",
     "CP": "",
@@ -217,13 +226,14 @@
     "index": "3j",
     "Text": "Target 1 stunned Unit. You may discard 1 “Erebonian Empire” card or tap an untapped Unit you control. If you do, recover that target.",
     "set_id": "Set 2",
-    "image": "902e71e5-db7e-4302-943c-1d3ce709191c.png"
+    "image": "902e71e5-db7e-4302-943c-1d3ce709191c.png",
+    "Limit": "4"
   },
   {
     "id": "9da01ede-c48f-48b4-b3b7-3e2b4cbd69f4",
     "name": "Arcus",
     "Card #": "02-001R",
-    "Sub-Name": "[Tactical Orbment]",
+    "Subtitle": "[Tactical Orbment]",
     "Type": "Item",
     "Affiliation": "",
     "CP": "0",
@@ -239,13 +249,14 @@
     "index": "3T",
     "Text": "■Tap: Two target Units you control can scrum attack or support as if they shared an affiliation (even if they do not).",
     "set_id": "Set 2",
-    "image": "9da01ede-c48f-48b4-b3b7-3e2b4cbd69f4.png"
+    "image": "9da01ede-c48f-48b4-b3b7-3e2b4cbd69f4.png",
+    "Limit": "4"
   },
   {
     "id": "c528615c-513d-4605-acc2-e30a4938372b",
     "name": "Arseille",
     "Card #": "02-008R",
-    "Sub-Name": "[White Wings]",
+    "Subtitle": "[White Wings]",
     "Type": "Item",
     "Affiliation": "",
     "CP": "2",
@@ -261,13 +272,14 @@
     "index": "3U",
     "Text": "■ Units you control gain “■ Loyalty - While “Alicia II” is on your field, this Unit gains +2/+2.”",
     "set_id": "Set 2",
-    "image": "c528615c-513d-4605-acc2-e30a4938372b.png"
+    "image": "c528615c-513d-4605-acc2-e30a4938372b.png",
+    "Limit": "4"
   },
   {
     "id": "487944bb-bec7-4076-a227-d57d16f7bb73",
     "name": "Bobcat",
     "Card #": "02-098R",
-    "Sub-Name": "[Link]",
+    "Subtitle": "[Link]",
     "Type": "",
     "Affiliation": "",
     "CP": "",
@@ -283,13 +295,14 @@
     "index": "3x",
     "Text": "■ When you play this Base, choose 2 affiliations represented among the cards on your field. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation). ■ Units you control with [Kinship] are treated as if they had all affiliations.",
     "set_id": "Set 2",
-    "image": "487944bb-bec7-4076-a227-d57d16f7bb73.png"
+    "image": "487944bb-bec7-4076-a227-d57d16f7bb73.png",
+    "Limit": "4"
   },
   {
     "id": "d9bfab6b-b24e-4320-b67b-033660851f2e",
     "name": "Cassius Bright",
     "Card #": "02-036SR",
-    "Sub-Name": "[Brigadier General]",
+    "Subtitle": "[Brigadier General]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "7",
@@ -305,13 +318,14 @@
     "index": "2T",
     "Text": "■ Loyalty - While “Alicia II” is on your field, this Unit gains +1/+1 for each card in your hand.",
     "set_id": "Set 2",
-    "image": "d9bfab6b-b24e-4320-b67b-033660851f2e.png"
+    "image": "d9bfab6b-b24e-4320-b67b-033660851f2e.png",
+    "Limit": "4"
   },
   {
     "id": "e8a75663-daeb-48ff-9eb1-fc9b596470aa",
     "name": "Castle Phantasmagoria",
     "Card #": "02-050SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -327,13 +341,14 @@
     "index": "3q",
     "Text": "■Tap: Choose a card name. Treat effects that apply when that named card is on your field as if it were on your field until the end of the turn (even if you do not control that card).",
     "set_id": "Set 2",
-    "image": "e8a75663-daeb-48ff-9eb1-fc9b596470aa.png"
+    "image": "e8a75663-daeb-48ff-9eb1-fc9b596470aa.png",
+    "Limit": "4"
   },
   {
     "id": "3938067f-076d-4391-be8d-4fd7bffe58db",
     "name": "Ceasefire Agreement",
     "Card #": "02-073R",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Event",
     "Affiliation": "",
     "CP": "",
@@ -349,13 +364,14 @@
     "index": "3h",
     "Text": "Your Units gain “■Tap: Your opponent taps one untapped Unit they control (their choice).” until the end of the turn.",
     "set_id": "Set 2",
-    "image": "3938067f-076d-4391-be8d-4fd7bffe58db.png"
+    "image": "3938067f-076d-4391-be8d-4fd7bffe58db.png",
+    "Limit": "4"
   },
   {
     "id": "41e8f681-4904-45ea-98fb-05273869a4b2",
     "name": "Changing Clothes",
     "Card #": "02-041SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Event",
     "Affiliation": "",
     "CP": "",
@@ -371,13 +387,14 @@
     "index": "3e",
     "Text": "You may discard 1 card. If you do, search your deck for up to 2 cards with the same name but different sub names as the discarded card and each other, reveal them, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 2",
-    "image": "41e8f681-4904-45ea-98fb-05273869a4b2.png"
+    "image": "41e8f681-4904-45ea-98fb-05273869a4b2.png",
+    "Limit": "4"
   },
   {
     "id": "bac59bdb-2773-4203-830c-2949c3b886cc",
     "name": "Claire Rieveldt",
     "Card #": "02-045N",
-    "Sub-Name": "[Military Police Captain]",
+    "Subtitle": "[Military Police Captain]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "3",
@@ -393,13 +410,14 @@
     "index": "2s",
     "Text": "■ Loyalty - While you have “Giliath Osborne” on your field, this Unit gains “■Tap: Kill 1 target stunned Unit.”",
     "set_id": "Set 2",
-    "image": "bac59bdb-2773-4203-830c-2949c3b886cc.png"
+    "image": "bac59bdb-2773-4203-830c-2949c3b886cc.png",
+    "Limit": "4"
   },
   {
     "id": "80f32848-53bb-40bc-bef0-e17cc232e707",
     "name": "Claire Rieveldt",
     "Card #": "02-046R",
-    "Sub-Name": "[Icy Maiden]",
+    "Subtitle": "[Icy Maiden]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "6",
@@ -415,13 +433,14 @@
     "index": "2t",
     "Text": "■ When this attacking Unit stuns another Unit, kill that Unit if this card was not scrum attacking.",
     "set_id": "Set 2",
-    "image": "80f32848-53bb-40bc-bef0-e17cc232e707.png"
+    "image": "80f32848-53bb-40bc-bef0-e17cc232e707.png",
+    "Limit": "4"
   },
   {
     "id": "92f2e253-a62b-40ca-a1c2-488b92e0deea",
     "name": "Class VII, Assemble!",
     "Card #": "02-002SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Event",
     "Affiliation": "",
     "CP": "",
@@ -437,13 +456,14 @@
     "index": "3b",
     "Text": "Untap all “Thors Military Academy” Units you control that have scrum attacked this turn, and they cannot be overkilled for the rest of the turn.",
     "set_id": "Set 2",
-    "image": "92f2e253-a62b-40ca-a1c2-488b92e0deea.png"
+    "image": "92f2e253-a62b-40ca-a1c2-488b92e0deea.png",
+    "Limit": "4"
   },
   {
     "id": "d3600d36-b598-4eac-89e1-3630444faa83",
     "name": "Counter-Offensive",
     "Card #": "02-084SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Event",
     "Affiliation": "",
     "CP": "",
@@ -459,13 +479,14 @@
     "index": "3k",
     "Text": "If you have 3 or more stunned Units, untap 1 target Unit.",
     "set_id": "Set 2",
-    "image": "d3600d36-b598-4eac-89e1-3630444faa83.png"
+    "image": "d3600d36-b598-4eac-89e1-3630444faa83.png",
+    "Limit": "4"
   },
   {
     "id": "45d07bb3-5c0f-464f-aab8-90cfd3353da5",
     "name": "Crow Armbrust",
     "Card #": "02-047SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "6",
@@ -481,13 +502,14 @@
     "index": "26",
     "Text": "■Tap: Stun 1 target Unit with CP cost less than or equal to the number of “Thors Military Academy” Units in your Trail.",
     "set_id": "Set 2",
-    "image": "45d07bb3-5c0f-464f-aab8-90cfd3353da5.png"
+    "image": "45d07bb3-5c0f-464f-aab8-90cfd3353da5.png",
+    "Limit": "4"
   },
   {
     "id": "951da1bb-44ed-42bb-ad39-eb30b3747e8e",
     "name": "Crow Armbrust",
     "Card #": "02-048SR",
-    "Sub-Name": "[C]",
+    "Subtitle": "[C]",
     "Type": "Unit",
     "Affiliation": "Imperial Liberation Front",
     "CP": "4",
@@ -503,13 +525,14 @@
     "index": "3C",
     "Text": "■ Your opponent cannot play Arts.",
     "set_id": "Set 2",
-    "image": "951da1bb-44ed-42bb-ad39-eb30b3747e8e.png"
+    "image": "951da1bb-44ed-42bb-ad39-eb30b3747e8e.png",
+    "Limit": "4"
   },
   {
     "id": "16674f66-82e0-42df-a7e3-18737967c261",
     "name": "Dan Russell",
     "Card #": "02-067N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "2",
@@ -525,13 +548,14 @@
     "index": "2X",
     "Text": "■ Loyalty -Target 1 Item in your Trail and add it to your hand if “Tita Russell” is on your field.",
     "set_id": "Set 2",
-    "image": "16674f66-82e0-42df-a7e3-18737967c261.png"
+    "image": "16674f66-82e0-42df-a7e3-18737967c261.png",
+    "Limit": "4"
   },
   {
     "id": "0cbd3b4f-74b5-48e1-9daf-08044508f931",
     "name": "Davil Crainagh",
     "Card #": "02-066N",
-    "Sub-Name": "[Baron]",
+    "Subtitle": "[Baron]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "2",
@@ -547,13 +571,14 @@
     "index": "2v",
     "Text": "■ When this Unit scrum attacks, you may rebuild 1 target base.",
     "set_id": "Set 2",
-    "image": "0cbd3b4f-74b5-48e1-9daf-08044508f931.png"
+    "image": "0cbd3b4f-74b5-48e1-9daf-08044508f931.png",
+    "Limit": "4"
   },
   {
     "id": "ebb3b0b0-87ad-4a4c-a6c1-6c4857af6609",
     "name": "Dive!!",
     "Card #": "02-065SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Event",
     "Affiliation": "",
     "CP": "",
@@ -569,13 +594,14 @@
     "index": "3g",
     "Text": "All Units lose all affiliations except their original affiliations for the rest of the turn.",
     "set_id": "Set 2",
-    "image": "ebb3b0b0-87ad-4a4c-a6c1-6c4857af6609.png"
+    "image": "ebb3b0b0-87ad-4a4c-a6c1-6c4857af6609.png",
+    "Limit": "4"
   },
   {
     "id": "20236ec8-96df-4d64-9bef-4865c52a2274",
     "name": "Don Capua",
     "Card #": "02-081N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Capua Family",
     "CP": "2",
@@ -591,13 +617,14 @@
     "index": "35",
     "Text": "■ When you play an Item, your opponent loses 3 bond.",
     "set_id": "Set 2",
-    "image": "20236ec8-96df-4d64-9bef-4865c52a2274.png"
+    "image": "20236ec8-96df-4d64-9bef-4865c52a2274.png",
+    "Limit": "4"
   },
   {
     "id": "0501c48c-82b4-4bc6-959d-9e31bc7a3c44",
     "name": "Dorothy Hyatt",
     "Card #": "02-082N",
-    "Sub-Name": "[Liberl News]",
+    "Subtitle": "[Liberl News]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "1",
@@ -613,13 +640,14 @@
     "index": "2b",
     "Text": "■On Play: Reveal the top card of your deck. You may add that card to your hand if it is not a Unit.",
     "set_id": "Set 2",
-    "image": "0501c48c-82b4-4bc6-959d-9e31bc7a3c44.png"
+    "image": "0501c48c-82b4-4bc6-959d-9e31bc7a3c44.png",
+    "Limit": "4"
   },
   {
     "id": "249cc049-fb77-43c5-b535-41a19ab0f71e",
     "name": "Dr. Russel's Workshop",
     "Card #": "02-105R",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -635,13 +663,14 @@
     "index": "3y",
     "Text": "■ Loyalty - Tap: Draw 1 card. Then if you control no Units with “Russell” in its name on your field, discard 1 card.",
     "set_id": "Set 2",
-    "image": "249cc049-fb77-43c5-b535-41a19ab0f71e.png"
+    "image": "249cc049-fb77-43c5-b535-41a19ab0f71e.png",
+    "Limit": "4"
   },
   {
     "id": "25c66660-d659-4137-bcb7-febf86e17d6a",
     "name": "Duvalie",
     "Card #": "02-076SR",
-    "Sub-Name": "[The Swift]",
+    "Subtitle": "[The Swift]",
     "Type": "Unit",
     "Affiliation": "Ouroboros",
     "CP": "5",
@@ -657,13 +686,14 @@
     "index": "38",
     "Text": "■ Discard 1 “Ouroboros” card: Untap this card. Activate only once each turn.",
     "set_id": "Set 2",
-    "image": "25c66660-d659-4137-bcb7-febf86e17d6a.png"
+    "image": "25c66660-d659-4137-bcb7-febf86e17d6a.png",
+    "Limit": "4"
   },
   {
     "id": "bb716992-5352-488f-985e-34dd5d788f4d",
     "name": "Elise Schwarzer",
     "Card #": "02-023R",
-    "Sub-Name": "[St. Astraia Girls' School]",
+    "Subtitle": "[St. Astraia Girls' School]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "2",
@@ -679,13 +709,14 @@
     "index": "2m",
     "Text": "■On Play: Draw 1 card. ■On Play: Loyalty - Draw an additional card if “Rean Schwarzer” is on your field.",
     "set_id": "Set 2",
-    "image": "bb716992-5352-488f-985e-34dd5d788f4d.png"
+    "image": "bb716992-5352-488f-985e-34dd5d788f4d.png",
+    "Limit": "4"
   },
   {
     "id": "f73ddada-f50b-42b7-bd0e-0e1d48a29e2c",
     "name": "Elliot Craig",
     "Card #": "02-021N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "2",
@@ -701,13 +732,14 @@
     "index": "23",
     "Text": "■ When this Unit is stunned, return it to the hand.",
     "set_id": "Set 2",
-    "image": "f73ddada-f50b-42b7-bd0e-0e1d48a29e2c.png"
+    "image": "f73ddada-f50b-42b7-bd0e-0e1d48a29e2c.png",
+    "Limit": "4"
   },
   {
     "id": "4b0297c9-af99-4615-9917-820c55128381",
     "name": "Emma Milstein",
     "Card #": "02-019N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "1",
@@ -723,13 +755,14 @@
     "index": "21",
     "Text": "■On Play: Reveal the top card of your deck. If it is a “Thors Military Academy” card, you may add it to your hand (leave that card at the top of your deck if it is not).",
     "set_id": "Set 2",
-    "image": "4b0297c9-af99-4615-9917-820c55128381.png"
+    "image": "4b0297c9-af99-4615-9917-820c55128381.png",
+    "Limit": "4"
   },
   {
     "id": "808688ba-6aa6-439d-a215-b5360a121007",
     "name": "Emma Milstein",
     "Card #": "02-020N",
-    "Sub-Name": "[Descendant of the Hexen Clan]",
+    "Subtitle": "[Descendant of the Hexen Clan]",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "3",
@@ -745,13 +778,14 @@
     "index": "22",
     "Text": "■ When this Unit attacks, tap the defending Unit.",
     "set_id": "Set 2",
-    "image": "808688ba-6aa6-439d-a215-b5360a121007.png"
+    "image": "808688ba-6aa6-439d-a215-b5360a121007.png",
+    "Limit": "4"
   },
   {
     "id": "e39bfaca-150c-4753-8f68-c77b530efb8f",
     "name": "Emma Milstein",
     "Card #": "02-120SEC",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "1",
@@ -767,13 +801,14 @@
     "index": "2I",
     "Text": "■On Play: Reveal the top card of your deck. If it is a “Thors Military Academy” card, you may add it to your hand (leave that card at the top of your deck if it is not).",
     "set_id": "Set 2",
-    "image": "e39bfaca-150c-4753-8f68-c77b530efb8f.png"
+    "image": "e39bfaca-150c-4753-8f68-c77b530efb8f.png",
+    "Limit": "4"
   },
   {
     "id": "5ea42e8d-271d-4af8-b588-96d83d952246",
     "name": "Ensign Alan",
     "Card #": "02-005N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "1",
@@ -789,13 +824,14 @@
     "index": "2i",
     "Text": "■ When this Unit scrum attacks, you may draw 1 card, then discard 1 card.",
     "set_id": "Set 2",
-    "image": "5ea42e8d-271d-4af8-b588-96d83d952246.png"
+    "image": "5ea42e8d-271d-4af8-b588-96d83d952246.png",
+    "Limit": "4"
   },
   {
     "id": "60223ab6-bcee-4039-907d-98b87996a29d",
     "name": "Erika Russell",
     "Card #": "02-022N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "2",
@@ -811,13 +847,14 @@
     "index": "2R",
     "Text": "■ Loyalty - While “Tita Russell” is on your field, this Unit gains “■Tap: Reveal the top 4 cards of your deck. Add 1 Item card among those cards to your hand, then place the rest on the bottom of the deck in any order.”",
     "set_id": "Set 2",
-    "image": "60223ab6-bcee-4039-907d-98b87996a29d.png"
+    "image": "60223ab6-bcee-4039-907d-98b87996a29d.png",
+    "Limit": "4"
   },
   {
     "id": "ac795dbe-0371-4a87-9821-33130c8abbb4",
     "name": "Fie Claussell",
     "Card #": "02-087N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "2",
@@ -833,13 +870,14 @@
     "index": "28",
     "Text": "■ “Thors Military Academy” Units you control gain +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "ac795dbe-0371-4a87-9821-33130c8abbb4.png"
+    "image": "ac795dbe-0371-4a87-9821-33130c8abbb4.png",
+    "Limit": "4"
   },
   {
     "id": "f7154d25-8bbc-4be7-a9c8-14c35ac60809",
     "name": "Fie Claussell",
     "Card #": "02-088N",
-    "Sub-Name": "[Sylphid]",
+    "Subtitle": "[Sylphid]",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "4",
@@ -855,13 +893,14 @@
     "index": "29",
     "Text": "■ Units you control gain +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "f7154d25-8bbc-4be7-a9c8-14c35ac60809.png"
+    "image": "f7154d25-8bbc-4be7-a9c8-14c35ac60809.png",
+    "Limit": "4"
   },
   {
     "id": "56379001-b403-4975-b4c8-82fdec1d0299",
     "name": "Fie Claussell",
     "Card #": "02-121SEC",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "2",
@@ -877,13 +916,14 @@
     "index": "2J",
     "Text": "■ “Thors Military Academy” Units you control gain +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "56379001-b403-4975-b4c8-82fdec1d0299.png"
+    "image": "56379001-b403-4975-b4c8-82fdec1d0299.png",
+    "Limit": "4"
   },
   {
     "id": "b4a0c392-b482-43d6-8a7c-4c3bc5dfbb53",
     "name": "Fie Claussell",
     "Card #": "02-123PR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "2",
@@ -899,13 +939,14 @@
     "index": "2L",
     "Text": "■ “Thors Military Academy” Units you control gain +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "b4a0c392-b482-43d6-8a7c-4c3bc5dfbb53.png"
+    "image": "b4a0c392-b482-43d6-8a7c-4c3bc5dfbb53.png",
+    "Limit": "4"
   },
   {
     "id": "56dcea79-82c4-4b5c-bb4a-bc86e043ba9d",
     "name": "Gaius Worzel",
     "Card #": "02-033N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "4",
@@ -921,13 +962,14 @@
     "index": "24",
     "Text": "■ If this Unit is stunned when attacking, you do not take stun damage from that stun.",
     "set_id": "Set 2",
-    "image": "56dcea79-82c4-4b5c-bb4a-bc86e043ba9d.png"
+    "image": "56dcea79-82c4-4b5c-bb4a-bc86e043ba9d.png",
+    "Limit": "4"
   },
   {
     "id": "657ca919-504b-4c3f-af4c-fa2efc2c66ac",
     "name": "Gaius Worzel",
     "Card #": "02-034R",
-    "Sub-Name": "[Nomad]",
+    "Subtitle": "[Nomad]",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "6",
@@ -943,13 +985,14 @@
     "index": "25",
     "Text": "■ When another Unit you control attacks, that Unit gains +1/+1 until the end of the turn.",
     "set_id": "Set 2",
-    "image": "657ca919-504b-4c3f-af4c-fa2efc2c66ac.png"
+    "image": "657ca919-504b-4c3f-af4c-fa2efc2c66ac.png",
+    "Limit": "4"
   },
   {
     "id": "3e1a8fe2-3d36-4e6a-bd36-9e9561f8f6aa",
     "name": "General Morgan",
     "Card #": "02-097R",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "6",
@@ -965,13 +1008,14 @@
     "index": "2e",
     "Text": "■ Loyalty - While “Alicia II” is on your field, this Unit gains “■ Discard 1 card: 1 Target Unit gains +1/+1 until the end of the turn.”",
     "set_id": "Set 2",
-    "image": "3e1a8fe2-3d36-4e6a-bd36-9e9561f8f6aa.png"
+    "image": "3e1a8fe2-3d36-4e6a-bd36-9e9561f8f6aa.png",
+    "Limit": "4"
   },
   {
     "id": "8a535a14-d6e7-49b0-b71c-428afce4a4c4",
     "name": "Giliath Osborne",
     "Card #": "02-042N",
-    "Sub-Name": "[Chancellor]",
+    "Subtitle": "[Chancellor]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "3",
@@ -987,13 +1031,14 @@
     "index": "2q",
     "Text": "■Add 1 target Event on your Trail to your hand.",
     "set_id": "Set 2",
-    "image": "8a535a14-d6e7-49b0-b71c-428afce4a4c4.png"
+    "image": "8a535a14-d6e7-49b0-b71c-428afce4a4c4.png",
+    "Limit": "4"
   },
   {
     "id": "2a86e4ce-083b-441d-be53-b56e8f77fe71",
     "name": "Giliath Osborne",
     "Card #": "02-043R",
-    "Sub-Name": "[Blood and Iron Chancellor]",
+    "Subtitle": "[Blood and Iron Chancellor]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "5",
@@ -1009,13 +1054,14 @@
     "index": "2r",
     "Text": "■ Your opponent must play with their hand revealed. ■: Your opponent discards 1 card (of their choice).",
     "set_id": "Set 2",
-    "image": "2a86e4ce-083b-441d-be53-b56e8f77fe71.png"
+    "image": "2a86e4ce-083b-441d-be53-b56e8f77fe71.png",
+    "Limit": "4"
   },
   {
     "id": "7a79c8f7-e410-40e1-abca-c68d6ff153f8",
     "name": "Gospel",
     "Card #": "02-052SR",
-    "Sub-Name": "[Artifact]",
+    "Subtitle": "[Artifact]",
     "Type": "Item",
     "Affiliation": "",
     "CP": "1",
@@ -1031,13 +1077,14 @@
     "index": "3W",
     "Text": "■On Play:1 Target card in play loses all crafts until this card leaves play.",
     "set_id": "Set 2",
-    "image": "7a79c8f7-e410-40e1-abca-c68d6ff153f8.png"
+    "image": "7a79c8f7-e410-40e1-abca-c68d6ff153f8.png",
+    "Limit": "4"
   },
   {
     "id": "e484e359-c034-428a-b195-5104a73fe283",
     "name": "Grancel Castle",
     "Card #": "02-044R",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -1053,13 +1100,14 @@
     "index": "3p",
     "Text": "■ Treat effects that apply when “Alicia II” or “Klaudia von Auslese” are on your field as if they were on your field (even if you do not control those cards). ■ “Liberl Kingdom” Units you control gain +0/+1.",
     "set_id": "Set 2",
-    "image": "e484e359-c034-428a-b195-5104a73fe283.png"
+    "image": "e484e359-c034-428a-b195-5104a73fe283.png",
+    "Limit": "4"
   },
   {
     "id": "944bfb55-74b7-4870-ad9a-566c475c46da",
     "name": "Imperial Army Soldier",
     "Card #": "02-072N",
-    "Sub-Name": "[Rank and File]",
+    "Subtitle": "[Rank and File]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "1",
@@ -1075,13 +1123,14 @@
     "index": "2w",
     "Text": "■ Loyalty - While you have “Giliath Osborne” on your field, this Unit gains +1/+0. ■ This Unit gains +1/+0 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "944bfb55-74b7-4870-ad9a-566c475c46da.png"
+    "image": "944bfb55-74b7-4870-ad9a-566c475c46da.png",
+    "Limit": "999"
   },
   {
     "id": "0ba9a196-3814-4ffd-97fe-fe6b92ca545c",
     "name": "International Exchange",
     "Card #": "02-012R",
-    "Sub-Name": "[Link]",
+    "Subtitle": "[Link]",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -1097,13 +1146,14 @@
     "index": "3m",
     "Text": "■ When you play this Base, choose 2 affiliations represented among the cards on your field. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation). ■ When one or more “Erebonian Empire” Units you control scrum attacks, you may draw 1 card.",
     "set_id": "Set 2",
-    "image": "0ba9a196-3814-4ffd-97fe-fe6b92ca545c.png"
+    "image": "0ba9a196-3814-4ffd-97fe-fe6b92ca545c.png",
+    "Limit": "4"
   },
   {
     "id": "544792e3-8982-4889-aaac-135d89c5f616",
     "name": "Irina Reinford",
     "Card #": "02-013R",
-    "Sub-Name": "[Chairman]",
+    "Subtitle": "[Chairman]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "6",
@@ -1119,13 +1169,14 @@
     "index": "2k",
     "Text": "■ Discard an “Erebonian Empire” card: Target Unit gains +1/+1 until the end of the turn.",
     "set_id": "Set 2",
-    "image": "544792e3-8982-4889-aaac-135d89c5f616.png"
+    "image": "544792e3-8982-4889-aaac-135d89c5f616.png",
+    "Limit": "4"
   },
   {
     "id": "adaa22e3-b5f2-4f46-be3b-b686c96bbb3f",
     "name": "Ironbloods",
     "Card #": "02-074SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Event",
     "Affiliation": "",
     "CP": "",
@@ -1141,13 +1192,14 @@
     "index": "3i",
     "Text": "Loyalty - Search your deck for an “Erebonian Empire” card, reveal it, and add it to your hand. Then, shuffle your deck. Then, if “Giliath Osborne” is on your field, you may put 1 Unit with CP cost 2 or less from your hand into play.",
     "set_id": "Set 2",
-    "image": "adaa22e3-b5f2-4f46-be3b-b686c96bbb3f.png"
+    "image": "adaa22e3-b5f2-4f46-be3b-b686c96bbb3f.png",
+    "Limit": "4"
   },
   {
     "id": "dd400c64-110c-4aa5-82f3-0b98439ef1a8",
     "name": "Joint Mission",
     "Card #": "02-051R",
-    "Sub-Name": "[Link]",
+    "Subtitle": "[Link]",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -1163,13 +1215,14 @@
     "index": "3r",
     "Text": "■ When you play this Base, choose 2 affiliations represented among the cards on your field. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation). ■ “Thors Military Academy” Units you control gain +1/+0 during a scrum attack.",
     "set_id": "Set 2",
-    "image": "dd400c64-110c-4aa5-82f3-0b98439ef1a8.png"
+    "image": "dd400c64-110c-4aa5-82f3-0b98439ef1a8.png",
+    "Limit": "4"
   },
   {
     "id": "64824964-9ccd-4e3b-8550-522ae36d1281",
     "name": "Josette Capua",
     "Card #": "02-061N",
-    "Sub-Name": "[Sole Sister]",
+    "Subtitle": "[Sole Sister]",
     "Type": "Unit",
     "Affiliation": "Capua Family",
     "CP": "3",
@@ -1185,13 +1238,14 @@
     "index": "34",
     "Text": "■ While you have 1 or more Items in your Trail, this Unit gains +2/+2.",
     "set_id": "Set 2",
-    "image": "64824964-9ccd-4e3b-8550-522ae36d1281.png"
+    "image": "64824964-9ccd-4e3b-8550-522ae36d1281.png",
+    "Limit": "4"
   },
   {
     "id": "662477cc-381a-428a-863f-18f5bc0ad602",
     "name": "Julia Schwarz",
     "Card #": "02-101N",
-    "Sub-Name": "[Royal Guard]",
+    "Subtitle": "[Royal Guard]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "5",
@@ -1207,13 +1261,14 @@
     "index": "2f",
     "Text": "■ Loyalty - While “Klaudia von Auslese” is on your field, this Unit gains “■ When this attacking Unit stuns another Unit, kill that Unit.”",
     "set_id": "Set 2",
-    "image": "662477cc-381a-428a-863f-18f5bc0ad602.png"
+    "image": "662477cc-381a-428a-863f-18f5bc0ad602.png",
+    "Limit": "4"
   },
   {
     "id": "64867005-a2ed-44bc-b1f7-3e315cf60333",
     "name": "Julia Schwarz",
     "Card #": "02-102N",
-    "Sub-Name": "[Royal Guard Captain]",
+    "Subtitle": "[Royal Guard Captain]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "3",
@@ -1229,13 +1284,14 @@
     "index": "2g",
     "Text": "■ Loyalty - While “Klaudia von Auslese” is on your field, this Unit gains [Martial Arts].",
     "set_id": "Set 2",
-    "image": "64867005-a2ed-44bc-b1f7-3e315cf60333.png"
+    "image": "64867005-a2ed-44bc-b1f7-3e315cf60333.png",
+    "Limit": "4"
   },
   {
     "id": "40df9ec3-56af-4ba6-a274-647db1e898c2",
     "name": "Jusis Albarea",
     "Card #": "02-099N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "3",
@@ -1251,13 +1307,14 @@
     "index": "2C",
     "Text": "■ While this card is attacking, this Unit gains +1/+1 for each card in your base.",
     "set_id": "Set 2",
-    "image": "40df9ec3-56af-4ba6-a274-647db1e898c2.png"
+    "image": "40df9ec3-56af-4ba6-a274-647db1e898c2.png",
+    "Limit": "4"
   },
   {
     "id": "e9c2334c-edee-4f2f-bc2a-89cc1eaf822c",
     "name": "Jusis Albarea",
     "Card #": "02-100R",
-    "Sub-Name": "[Duke Albarea's Second Son]",
+    "Subtitle": "[Duke Albarea's Second Son]",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "5",
@@ -1273,13 +1330,14 @@
     "index": "2D",
     "Text": "■ While this Unit is untapped, Units you control with [Kinship] gain +2/+0.",
     "set_id": "Set 2",
-    "image": "e9c2334c-edee-4f2f-bc2a-89cc1eaf822c.png"
+    "image": "e9c2334c-edee-4f2f-bc2a-89cc1eaf822c.png",
+    "Limit": "4"
   },
   {
     "id": "85997eb6-9551-49e3-b51d-a27693e24e39",
     "name": "Kanone Amalthea",
     "Card #": "02-037N",
-    "Sub-Name": "[Captain]",
+    "Subtitle": "[Captain]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "2",
@@ -1295,13 +1353,14 @@
     "index": "2U",
     "Text": "■ Loyalty -Draw 1 card if you have “Alan Richard” on your field.",
     "set_id": "Set 2",
-    "image": "85997eb6-9551-49e3-b51d-a27693e24e39.png"
+    "image": "85997eb6-9551-49e3-b51d-a27693e24e39.png",
+    "Limit": "4"
   },
   {
     "id": "c886bae6-ad5a-4d95-a282-290e3cc73200",
     "name": "Kanone Amalthea",
     "Card #": "02-038N",
-    "Sub-Name": "[Richard's Lieutenant]",
+    "Subtitle": "[Richard's Lieutenant]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "4",
@@ -1317,13 +1376,14 @@
     "index": "2V",
     "Text": "■ Loyalty - While you have “Alan Richard” on your field, this Unit gains “■Tap: Stun 1 target Unit with CP cost 2 or less.”",
     "set_id": "Set 2",
-    "image": "c886bae6-ad5a-4d95-a282-290e3cc73200.png"
+    "image": "c886bae6-ad5a-4d95-a282-290e3cc73200.png",
+    "Limit": "4"
   },
   {
     "id": "a243a644-661c-47c7-b336-13358b890a1c",
     "name": "Klaudia von Auslese",
     "Card #": "02-049R",
-    "Sub-Name": "[Lady]",
+    "Subtitle": "[Lady]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "5",
@@ -1339,13 +1399,14 @@
     "index": "2W",
     "Text": "■ When this Unit deals overkill damage, draw 1 card.",
     "set_id": "Set 2",
-    "image": "a243a644-661c-47c7-b336-13358b890a1c.png"
+    "image": "a243a644-661c-47c7-b336-13358b890a1c.png",
+    "Limit": "4"
   },
   {
     "id": "0cd86b82-6aab-456b-9af8-a9a56a46b030",
     "name": "Kyle Capua",
     "Card #": "02-039N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Capua Family",
     "CP": "1",
@@ -1361,13 +1422,14 @@
     "index": "32",
     "Text": "■ Sacrifice 1 Item you control: Tap 1 target Unit.",
     "set_id": "Set 2",
-    "image": "0cd86b82-6aab-456b-9af8-a9a56a46b030.png"
+    "image": "0cd86b82-6aab-456b-9af8-a9a56a46b030.png",
+    "Limit": "4"
   },
   {
     "id": "bbf0db6b-b6e4-4689-a75d-8ad0f478f7f2",
     "name": "Kyle Capua",
     "Card #": "02-040N",
-    "Sub-Name": "[Helmsman]",
+    "Subtitle": "[Helmsman]",
     "Type": "Unit",
     "Affiliation": "Capua Family",
     "CP": "3",
@@ -1383,13 +1445,14 @@
     "index": "33",
     "Text": "■ When this attacking Unit stuns another Unit, tap 1 target Unit your opponent controls.",
     "set_id": "Set 2",
-    "image": "bbf0db6b-b6e4-4689-a75d-8ad0f478f7f2.png"
+    "image": "bbf0db6b-b6e4-4689-a75d-8ad0f478f7f2.png",
+    "Limit": "4"
   },
   {
     "id": "c2964815-c333-47c9-98f4-cf006c38bdaf",
     "name": "Laura S. Arseid",
     "Card #": "02-103N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "3",
@@ -1405,13 +1468,14 @@
     "index": "2E",
     "Text": "",
     "set_id": "Set 2",
-    "image": "c2964815-c333-47c9-98f4-cf006c38bdaf.png"
+    "image": "c2964815-c333-47c9-98f4-cf006c38bdaf.png",
+    "Limit": "4"
   },
   {
     "id": "325411eb-def3-40fb-ab68-25b0b8c1ec92",
     "name": "Laura S. Arseid",
     "Card #": "02-104N",
-    "Sub-Name": "[Swordswoman]",
+    "Subtitle": "[Swordswoman]",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "5",
@@ -1427,13 +1491,14 @@
     "index": "2F",
     "Text": "■ When this Unit stuns a Unit without [Martial Arts], target 1 Unit controlled by your opponent with CP cost equal to the stunned card and stun that target.",
     "set_id": "Set 2",
-    "image": "325411eb-def3-40fb-ab68-25b0b8c1ec92.png"
+    "image": "325411eb-def3-40fb-ab68-25b0b8c1ec92.png",
+    "Limit": "4"
   },
   {
     "id": "ae62794b-7378-445e-b89d-3b5285ab3c1e",
     "name": "Lechter Arundel",
     "Card #": "02-114N",
-    "Sub-Name": "[Royal Academy]",
+    "Subtitle": "[Royal Academy]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "2",
@@ -1449,13 +1514,14 @@
     "index": "30",
     "Text": "■ Loyalty - While you have “Giliath Osborne” on your field, this Unit gains “■Tap: Tap 1 target Unit.”",
     "set_id": "Set 2",
-    "image": "ae62794b-7378-445e-b89d-3b5285ab3c1e.png"
+    "image": "ae62794b-7378-445e-b89d-3b5285ab3c1e.png",
+    "Limit": "4"
   },
   {
     "id": "ee96d022-2d8b-41b4-b2ac-434a3b4f8309",
     "name": "Lechter Arundel",
     "Card #": "02-115N",
-    "Sub-Name": "[Intelligence Division Captain]",
+    "Subtitle": "[Intelligence Division Captain]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "4",
@@ -1471,13 +1537,14 @@
     "index": "31",
     "Text": "■ Loyalty - While you have “Giliath Osborne” on your field, this Unit gains “■Tap:Discard 1 “Erebonian Empire” card: Stun 1 target Unit with CP cost 3 or less.”",
     "set_id": "Set 2",
-    "image": "ee96d022-2d8b-41b4-b2ac-434a3b4f8309.png"
+    "image": "ee96d022-2d8b-41b4-b2ac-434a3b4f8309.png",
+    "Limit": "4"
   },
   {
     "id": "5ea5d090-7100-4619-919a-4a2f6b3440c5",
     "name": "Leonidas",
     "Card #": "02-112N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Zephyr",
     "CP": "4",
@@ -1493,13 +1560,14 @@
     "index": "3L",
     "Text": "■On Play: You can discard 1 Unit with [Kinship]. If you didn’t, place this Unit on the bottom of the deck.",
     "set_id": "Set 2",
-    "image": "5ea5d090-7100-4619-919a-4a2f6b3440c5.png"
+    "image": "5ea5d090-7100-4619-919a-4a2f6b3440c5.png",
+    "Limit": "4"
   },
   {
     "id": "d1e5ae93-ec28-4de2-89e3-dea798dd8111",
     "name": "Leonidas",
     "Card #": "02-113R",
-    "Sub-Name": "[Behemoth]",
+    "Subtitle": "[Behemoth]",
     "Type": "Unit",
     "Affiliation": "Zephyr",
     "CP": "6",
@@ -1515,13 +1583,14 @@
     "index": "3M",
     "Text": "■ When this Unit stuns another Unit, stun 1 target Unit controlled by your opponent with a CP cost 3 or less.",
     "set_id": "Set 2",
-    "image": "d1e5ae93-ec28-4de2-89e3-dea798dd8111.png"
+    "image": "d1e5ae93-ec28-4de2-89e3-dea798dd8111.png",
+    "Limit": "4"
   },
   {
     "id": "5c5a6474-b929-42ff-bf5c-d7e3c892a95f",
     "name": "Lloyd Bannings",
     "Card #": "02-117SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Crossbell Police",
     "CP": "3",
@@ -1537,13 +1606,14 @@
     "index": "3O",
     "Text": "■ When this Unit scrum attacks, draw 1 card.",
     "set_id": "Set 2",
-    "image": "5c5a6474-b929-42ff-bf5c-d7e3c892a95f.png"
+    "image": "5c5a6474-b929-42ff-bf5c-d7e3c892a95f.png",
+    "Limit": "4"
   },
   {
     "id": "2123cc6c-3d75-4d01-8c15-0cffd55f5902",
     "name": "Lohengrin Castle",
     "Card #": "02-118SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -1559,13 +1629,14 @@
     "index": "3z",
     "Text": "■ Stunned Units will not be killed and placed on the Trail in the recovery phase.",
     "set_id": "Set 2",
-    "image": "2123cc6c-3d75-4d01-8c15-0cffd55f5902.png"
+    "image": "2123cc6c-3d75-4d01-8c15-0cffd55f5902.png",
+    "Limit": "4"
   },
   {
     "id": "57f4bfff-8f02-4d03-89af-7d2a7b512e9f",
     "name": "Lord of Phantasma",
     "Card #": "02-035SR",
-    "Sub-Name": "[Ruler of Phantasma]",
+    "Subtitle": "[Ruler of Phantasma]",
     "Type": "Unit",
     "Affiliation": "None",
     "CP": "4",
@@ -1581,13 +1652,14 @@
     "index": "3R",
     "Text": "■On Play: Choose a card name and affiliation. This Unit gains that name and affiliation.",
     "set_id": "Set 2",
-    "image": "57f4bfff-8f02-4d03-89af-7d2a7b512e9f.png"
+    "image": "57f4bfff-8f02-4d03-89af-7d2a7b512e9f.png",
+    "Limit": "4"
   },
   {
     "id": "9f8dff69-095b-47b8-bc69-f73270d541c3",
     "name": "Lorence Belgar",
     "Card #": "02-119N",
-    "Sub-Name": "[2nd Lieutenant]",
+    "Subtitle": "[2nd Lieutenant]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "4",
@@ -1603,13 +1675,14 @@
     "index": "2h",
     "Text": "■ When this attacking Unit stuns a tapped Unit, kill that Unit if this card was attacking alone.",
     "set_id": "Set 2",
-    "image": "9f8dff69-095b-47b8-bc69-f73270d541c3.png"
+    "image": "9f8dff69-095b-47b8-bc69-f73270d541c3.png",
+    "Limit": "4"
   },
   {
     "id": "a4c1b2e9-a886-45b4-8f27-2f587ab25b4f",
     "name": "Lunchtime with Two Cats",
     "Card #": "02-106SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Event",
     "Affiliation": "",
     "CP": "",
@@ -1625,13 +1698,14 @@
     "index": "3l",
     "Text": "Recover 1 target stunned “Thors Military Academy” Unit.",
     "set_id": "Set 2",
-    "image": "a4c1b2e9-a886-45b4-8f27-2f587ab25b4f.png"
+    "image": "a4c1b2e9-a886-45b4-8f27-2f587ab25b4f.png",
+    "Limit": "4"
   },
   {
     "id": "f5d37ad5-9896-462a-8c32-17eea1cdb344",
     "name": "Machias Regnitz",
     "Card #": "02-089N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "2",
@@ -1647,13 +1721,14 @@
     "index": "2A",
     "Text": "■ When this Unit scrum attacks, the defending Unit must counterattack this Unit if able.",
     "set_id": "Set 2",
-    "image": "f5d37ad5-9896-462a-8c32-17eea1cdb344.png"
+    "image": "f5d37ad5-9896-462a-8c32-17eea1cdb344.png",
+    "Limit": "4"
   },
   {
     "id": "251b4556-f021-460f-97cd-04477bd0bf78",
     "name": "Maximillian Cid",
     "Card #": "02-090N",
-    "Sub-Name": "[Major]",
+    "Subtitle": "[Major]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "3",
@@ -1669,13 +1744,14 @@
     "index": "2d",
     "Text": "■ Loyalty - While “Alicia II” is on your field, this Unit gains [Taunt].",
     "set_id": "Set 2",
-    "image": "251b4556-f021-460f-97cd-04477bd0bf78.png"
+    "image": "251b4556-f021-460f-97cd-04477bd0bf78.png",
+    "Limit": "4"
   },
   {
     "id": "42589899-2ae1-4ca1-96bc-2a8f6cdfb82a",
     "name": "McBurn",
     "Card #": "02-091SR",
-    "Sub-Name": "[Almighty Conflagration]",
+    "Subtitle": "[Almighty Conflagration]",
     "Type": "Unit",
     "Affiliation": "Ouroboros",
     "CP": "8",
@@ -1691,13 +1767,14 @@
     "index": "39",
     "Text": "■On Play: You can discard 1 “Ouroboros” card. If you didn’t, place this Unit on the bottom of the deck. ■ At the start of the combat phase, tap all of your opponent’s Units.",
     "set_id": "Set 2",
-    "image": "42589899-2ae1-4ca1-96bc-2a8f6cdfb82a.png"
+    "image": "42589899-2ae1-4ca1-96bc-2a8f6cdfb82a.png",
+    "Limit": "4"
   },
   {
     "id": "2b2ce67d-3e6a-481e-ae09-f3cd15d0f988",
     "name": "Michael Gideon",
     "Card #": "02-093N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Imperial Liberation Front",
     "CP": "1",
@@ -1713,13 +1790,14 @@
     "index": "3E",
     "Text": "■ Sacrifice 1 Item you control: Tap 1 target Unit.",
     "set_id": "Set 2",
-    "image": "2b2ce67d-3e6a-481e-ae09-f3cd15d0f988.png"
+    "image": "2b2ce67d-3e6a-481e-ae09-f3cd15d0f988.png",
+    "Limit": "4"
   },
   {
     "id": "472ac4de-bc46-4213-a8b8-8702b7b12ca1",
     "name": "Millium Orion",
     "Card #": "02-096N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "1",
@@ -1735,13 +1813,14 @@
     "index": "2B",
     "Text": "■ This Unit gains +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "472ac4de-bc46-4213-a8b8-8702b7b12ca1.png"
+    "image": "472ac4de-bc46-4213-a8b8-8702b7b12ca1.png",
+    "Limit": "4"
   },
   {
     "id": "44ee84c9-e429-461f-8272-f83ac41fd094",
     "name": "Mueller Vander",
     "Card #": "02-094R",
-    "Sub-Name": "[Major]",
+    "Subtitle": "[Major]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "4",
@@ -1757,13 +1836,14 @@
     "index": "2x",
     "Text": "■ Loyalty - While you have “Oliver Lenheim” on your field, this Unit gains [Taunt] and “■ When this attacking Unit stuns another Unit, kill that Unit.”",
     "set_id": "Set 2",
-    "image": "44ee84c9-e429-461f-8272-f83ac41fd094.png"
+    "image": "44ee84c9-e429-461f-8272-f83ac41fd094.png",
+    "Limit": "4"
   },
   {
     "id": "48d9b08d-cae6-4f7a-bce6-405098200659",
     "name": "Mueller Vander",
     "Card #": "02-095N",
-    "Sub-Name": "[Military Attache]",
+    "Subtitle": "[Military Attache]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "2",
@@ -1779,13 +1859,14 @@
     "index": "2y",
     "Text": "■ This Unit gains +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "48d9b08d-cae6-4f7a-bce6-405098200659.png"
+    "image": "48d9b08d-cae6-4f7a-bce6-405098200659.png",
+    "Limit": "4"
   },
   {
     "id": "1a145134-be62-4c93-b49e-ea9b0d95b92c",
     "name": "Nial Burns",
     "Card #": "02-083N",
-    "Sub-Name": "[Liberl News]",
+    "Subtitle": "[Liberl News]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "1",
@@ -1801,13 +1882,14 @@
     "index": "2c",
     "Text": "■Reveal the top card of your deck. You may add that card to your hand if it is a Unit.",
     "set_id": "Set 2",
-    "image": "1a145134-be62-4c93-b49e-ea9b0d95b92c.png"
+    "image": "1a145134-be62-4c93-b49e-ea9b0d95b92c.png",
+    "Limit": "4"
   },
   {
     "id": "1cccbe02-b0c1-4759-953e-e869f2ce56d1",
     "name": "Olaf Craig",
     "Card #": "02-029N",
-    "Sub-Name": "[Lieutenant General]",
+    "Subtitle": "[Lieutenant General]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "4",
@@ -1823,13 +1905,14 @@
     "index": "2n",
     "Text": "■ When this Unit scrum attacks, add 1 target Unit on your Trail to your hand.",
     "set_id": "Set 2",
-    "image": "1cccbe02-b0c1-4759-953e-e869f2ce56d1.png"
+    "image": "1cccbe02-b0c1-4759-953e-e869f2ce56d1.png",
+    "Limit": "4"
   },
   {
     "id": "e5571321-1e73-4f2d-a2d9-9067a378dd3b",
     "name": "Olivert Reise Arnor",
     "Card #": "02-030R",
-    "Sub-Name": "[Prince]",
+    "Subtitle": "[Prince]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "3",
@@ -1845,13 +1928,14 @@
     "index": "2o",
     "Text": "■ At the start of the combat phase, if you have three or more affiliations represented among the cards you control, your opponent taps one of their untapped Units (their choice).",
     "set_id": "Set 2",
-    "image": "e5571321-1e73-4f2d-a2d9-9067a378dd3b.png"
+    "image": "e5571321-1e73-4f2d-a2d9-9067a378dd3b.png",
+    "Limit": "4"
   },
   {
     "id": "bb0c53d2-9d06-4a0f-ac49-539ad7e90423",
     "name": "Olivert Reise Arnor",
     "Card #": "02-031N",
-    "Sub-Name": "[Prodigal Prince]",
+    "Subtitle": "[Prodigal Prince]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "5",
@@ -1867,13 +1951,14 @@
     "index": "2p",
     "Text": "■ Units you control can scrum attack and scrum support as if they shared an affiliation (even if they do not).",
     "set_id": "Set 2",
-    "image": "bb0c53d2-9d06-4a0f-ac49-539ad7e90423.png"
+    "image": "bb0c53d2-9d06-4a0f-ac49-539ad7e90423.png",
+    "Limit": "4"
   },
   {
     "id": "1bb47016-eaef-4dfa-a729-30db392f9a67",
     "name": "Orbal Bike",
     "Card #": "02-079R",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Item",
     "Affiliation": "",
     "CP": "1",
@@ -1889,13 +1974,14 @@
     "index": "3Y",
     "Text": "■1 Target Unit you control gains +2/+2 until this card leaves play. ■ Sacrifice this card: Return the Unit targeted by the prior craft to the hand.",
     "set_id": "Set 2",
-    "image": "1bb47016-eaef-4dfa-a729-30db392f9a67.png"
+    "image": "1bb47016-eaef-4dfa-a729-30db392f9a67.png",
+    "Limit": "4"
   },
   {
     "id": "7f271bf1-a7de-44e2-8947-48c4e2e391e0",
     "name": "Orbment",
     "Card #": "02-028R",
-    "Sub-Name": "[Tactical Orbment]",
+    "Subtitle": "[Tactical Orbment]",
     "Type": "Item",
     "Affiliation": "",
     "CP": "1",
@@ -1911,13 +1997,14 @@
     "index": "3V",
     "Text": "■ Sacrifice this card: 1 Target Unit gains +1/+1 until the end of the turn, then draw 1 card.",
     "set_id": "Set 2",
-    "image": "7f271bf1-a7de-44e2-8947-48c4e2e391e0.png"
+    "image": "7f271bf1-a7de-44e2-8947-48c4e2e391e0.png",
+    "Limit": "4"
   },
   {
     "id": "6c23ab70-82b7-4325-ac17-714ef130ed1a",
     "name": "Pantagruel",
     "Card #": "02-085R",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Item",
     "Affiliation": "",
     "CP": "2",
@@ -1933,13 +2020,14 @@
     "index": "3Z",
     "Text": "■ “Erebonian Empire” Units you control gain +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "6c23ab70-82b7-4325-ac17-714ef130ed1a.png"
+    "image": "6c23ab70-82b7-4325-ac17-714ef130ed1a.png",
+    "Limit": "4"
   },
   {
     "id": "11e18b32-25eb-48f9-9bca-722d1fdbdab8",
     "name": "Railway Military Police",
     "Card #": "02-075R",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -1955,13 +2043,14 @@
     "index": "3t",
     "Text": "■Tap: 1 Target scrum attacking Unit gains +1/+1 this combat.",
     "set_id": "Set 2",
-    "image": "11e18b32-25eb-48f9-9bca-722d1fdbdab8.png"
+    "image": "11e18b32-25eb-48f9-9bca-722d1fdbdab8.png",
+    "Limit": "4"
   },
   {
     "id": "d9ac5d01-f56b-46a3-8ae1-cc28d5899156",
     "name": "Rean Schwarzer",
     "Card #": "02-108N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "3",
@@ -1977,13 +2066,14 @@
     "index": "2G",
     "Text": "■On Play: You can reveal 1 “Thors Military Academy” card in your hand. If you didn’t, place this Unit on the bottom of the deck.",
     "set_id": "Set 2",
-    "image": "d9ac5d01-f56b-46a3-8ae1-cc28d5899156.png"
+    "image": "d9ac5d01-f56b-46a3-8ae1-cc28d5899156.png",
+    "Limit": "4"
   },
   {
     "id": "1e98abbf-f4f9-4359-812c-db9ac02daed0",
     "name": "Rean Schwarzer",
     "Card #": "02-109SR",
-    "Sub-Name": "[Gazing Forth]",
+    "Subtitle": "[Gazing Forth]",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "5",
@@ -1999,13 +2089,14 @@
     "index": "2H",
     "Text": "■ Pay 4 bond: Add 1 target Event on your Trail to your hand.",
     "set_id": "Set 2",
-    "image": "1e98abbf-f4f9-4359-812c-db9ac02daed0.png"
+    "image": "1e98abbf-f4f9-4359-812c-db9ac02daed0.png",
+    "Limit": "4"
   },
   {
     "id": "621d797b-1703-4c6b-8e96-0fab008d4f9b",
     "name": "Rean Schwarzer",
     "Card #": "02-124PR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "3",
@@ -2021,13 +2112,14 @@
     "index": "2M",
     "Text": "■On Play: You can reveal 1 “Thors Military Academy” card in your hand. If you didn’t, place this Unit on the bottom of the deck.",
     "set_id": "Set 2",
-    "image": "621d797b-1703-4c6b-8e96-0fab008d4f9b.png"
+    "image": "621d797b-1703-4c6b-8e96-0fab008d4f9b.png",
+    "Limit": "4"
   },
   {
     "id": "21dba403-679e-4474-b954-4a7257190a1a",
     "name": "Recluse Cube",
     "Card #": "02-116SR",
-    "Sub-Name": "[Relic]",
+    "Subtitle": "[Relic]",
     "Type": "Item",
     "Affiliation": "",
     "CP": "2",
@@ -2043,13 +2135,14 @@
     "index": "3a",
     "Text": "■Choose a card name. Treat effects that apply when that named card is on your field as if it were on your field until this card leaves play. ■ Reduce the CP cost to play any Unit with the chosen name by 1.",
     "set_id": "Set 2",
-    "image": "21dba403-679e-4474-b954-4a7257190a1a.png"
+    "image": "21dba403-679e-4474-b954-4a7257190a1a.png",
+    "Limit": "4"
   },
   {
     "id": "a74da877-00e4-4224-88dc-7d7ebf473fec",
     "name": "Rixia Mao",
     "Card #": "02-107SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "None",
     "CP": "6",
@@ -2065,13 +2158,14 @@
     "index": "3S",
     "Text": "■ Loyalty - When this Unit attacks, target 1 Unit your opponent controls with CP cost 4 or less and kill that target if “Lloyd Bannings” is on your field.",
     "set_id": "Set 2",
-    "image": "a74da877-00e4-4224-88dc-7d7ebf473fec.png"
+    "image": "a74da877-00e4-4224-88dc-7d7ebf473fec.png",
+    "Limit": "4"
   },
   {
     "id": "54dd89ad-75cd-4feb-af81-25804c9354e7",
     "name": "Royal Army Soldier Recruitment",
     "Card #": "02-027R",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Event",
     "Affiliation": "",
     "CP": "",
@@ -2087,13 +2181,14 @@
     "index": "3d",
     "Text": "Reveal the top 5 cards of your deck. Add 1 “Liberl Kingdom” card among those cards to your hand, then place the rest on the bottom of the deck in any order.",
     "set_id": "Set 2",
-    "image": "54dd89ad-75cd-4feb-af81-25804c9354e7.png"
+    "image": "54dd89ad-75cd-4feb-af81-25804c9354e7.png",
+    "Limit": "4"
   },
   {
     "id": "699eb3ec-5ac4-4263-8b50-dcbcf94434d6",
     "name": "Royal Army Special Forces",
     "Card #": "02-026N",
-    "Sub-Name": "[Rank and File]",
+    "Subtitle": "[Rank and File]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "1",
@@ -2109,13 +2204,14 @@
     "index": "2S",
     "Text": "■Choose 1 card name. ■ Loyalty - While a “Liberl Kingdom” Unit with that chosen name is on your field and it does not have the sub name [Rank and File], this Unit gains +2/+1.",
     "set_id": "Set 2",
-    "image": "699eb3ec-5ac4-4263-8b50-dcbcf94434d6.png"
+    "image": "699eb3ec-5ac4-4263-8b50-dcbcf94434d6.png",
+    "Limit": "99"
   },
   {
     "id": "e50fa0e4-7372-48c1-bf8c-4b234b8ff3e6",
     "name": "Royal Guard Party",
     "Card #": "02-025R",
-    "Sub-Name": "[Link]",
+    "Subtitle": "[Link]",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -2131,13 +2227,14 @@
     "index": "3n",
     "Text": "■ When you play this Base, choose 2 affiliations represented among the cards on your field. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation). ■ “Liberl Kingdom” Units you control gain +1/+0.",
     "set_id": "Set 2",
-    "image": "e50fa0e4-7372-48c1-bf8c-4b234b8ff3e6.png"
+    "image": "e50fa0e4-7372-48c1-bf8c-4b234b8ff3e6.png",
+    "Limit": "4"
   },
   {
     "id": "80b8141d-188e-44ca-b941-33ba69b14a44",
     "name": "Rufus Albarea",
     "Card #": "02-110SR",
-    "Sub-Name": "[Noble Alliance Chief of Staff]",
+    "Subtitle": "[Noble Alliance Chief of Staff]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "5",
@@ -2153,13 +2250,14 @@
     "index": "2z",
     "Text": "■ Discard 1 “Erebonian Empire” card: Untap this Unit. Activate only once each turn.",
     "set_id": "Set 2",
-    "image": "80b8141d-188e-44ca-b941-33ba69b14a44.png"
+    "image": "80b8141d-188e-44ca-b941-33ba69b14a44.png",
+    "Limit": "4"
   },
   {
     "id": "fd25c117-4e78-4997-b5d3-327c7151cbae",
     "name": "Rutger Claussell",
     "Card #": "02-111R",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Zephyr",
     "CP": "5",
@@ -2175,13 +2273,14 @@
     "index": "3K",
     "Text": "■ When this Unit stuns another Unit, your opponent loses bond equal to the CP cost of the stunned Unit (they also take the stun damage).",
     "set_id": "Set 2",
-    "image": "fd25c117-4e78-4997-b5d3-327c7151cbae.png"
+    "image": "fd25c117-4e78-4997-b5d3-327c7151cbae.png",
+    "Limit": "4"
   },
   {
     "id": "c98a4a92-e1c4-4510-89b5-97b93d2d92f5",
     "name": "Salt Pale",
     "Card #": "02-055SR",
-    "Sub-Name": "[Artifact]",
+    "Subtitle": "[Artifact]",
     "Type": "Item",
     "Affiliation": "",
     "CP": "2",
@@ -2197,13 +2296,14 @@
     "index": "3X",
     "Text": "■ Sacrifice this card: Remove 1 target stunned Unit from the game.",
     "set_id": "Set 2",
-    "image": "c98a4a92-e1c4-4510-89b5-97b93d2d92f5.png"
+    "image": "c98a4a92-e1c4-4510-89b5-97b93d2d92f5.png",
+    "Limit": "4"
   },
   {
     "id": "3675f86b-13f7-4c77-8d44-025bbe9ebbbc",
     "name": "Sara Valenstein",
     "Card #": "02-054SR",
-    "Sub-Name": "[Former A-Rank Bracer]",
+    "Subtitle": "[Former A-Rank Bracer]",
     "Type": "Unit",
     "Affiliation": "Thors Military Academy",
     "CP": "7",
@@ -2219,13 +2319,14 @@
     "index": "27",
     "Text": "■ At the start of the recovery phase, stun all Units your opponent controls.",
     "set_id": "Set 2",
-    "image": "3675f86b-13f7-4c77-8d44-025bbe9ebbbc.png"
+    "image": "3675f86b-13f7-4c77-8d44-025bbe9ebbbc.png",
+    "Limit": "4"
   },
   {
     "id": "f28e24bd-0dee-4705-b6bc-d63fb32bbc86",
     "name": "Scarlet",
     "Card #": "02-062N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Imperial Liberation Front",
     "CP": "3",
@@ -2241,13 +2342,14 @@
     "index": "3D",
     "Text": "",
     "set_id": "Set 2",
-    "image": "f28e24bd-0dee-4705-b6bc-d63fb32bbc86.png"
+    "image": "f28e24bd-0dee-4705-b6bc-d63fb32bbc86.png",
+    "Limit": "4"
   },
   {
     "id": "368e298e-e710-4fc2-ba78-bfec418a65bb",
     "name": "Secret Technique Training",
     "Card #": "02-024SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Event",
     "Affiliation": "",
     "CP": "",
@@ -2263,13 +2365,14 @@
     "index": "3c",
     "Text": "Tap a Unit you control with CP cost 5 or more. 1 Target Unit gains +7/+7 until the end of the turn.",
     "set_id": "Set 2",
-    "image": "368e298e-e710-4fc2-ba78-bfec418a65bb.png"
+    "image": "368e298e-e710-4fc2-ba78-bfec418a65bb.png",
+    "Limit": "4"
   },
   {
     "id": "709f8dea-e63b-43a0-95c4-21e6192dec67",
     "name": "Sharon Kreuger",
     "Card #": "02-060SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Ouroboros",
     "CP": "1",
@@ -2285,13 +2388,14 @@
     "index": "37",
     "Text": "■ This Unit comes into play tapped. ■Tap: Return this card to the hand: Search your deck for 1 Item or Event card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 2",
-    "image": "709f8dea-e63b-43a0-95c4-21e6192dec67.png"
+    "image": "709f8dea-e63b-43a0-95c4-21e6192dec67.png",
+    "Limit": "4"
   },
   {
     "id": "53c6e492-19ad-4309-a2bb-abac2fd3c28e",
     "name": "Shirley Orlando",
     "Card #": "02-058N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Red Constellation",
     "CP": "2",
@@ -2307,13 +2411,14 @@
     "index": "3H",
     "Text": "■ When this Unit attacks or is attacked, you can pay 4 bond: This Unit gains +4/+0 this combat.",
     "set_id": "Set 2",
-    "image": "53c6e492-19ad-4309-a2bb-abac2fd3c28e.png"
+    "image": "53c6e492-19ad-4309-a2bb-abac2fd3c28e.png",
+    "Limit": "4"
   },
   {
     "id": "a77fd723-9d72-4995-ad9f-14f4a888769a",
     "name": "Shirley Orlando",
     "Card #": "02-059R",
-    "Sub-Name": "[Squad Leader]",
+    "Subtitle": "[Squad Leader]",
     "Type": "Unit",
     "Affiliation": "Red Constellation",
     "CP": "4",
@@ -2329,13 +2434,14 @@
     "index": "3I",
     "Text": "■Tap: Your opponent loses 5 bond.",
     "set_id": "Set 2",
-    "image": "a77fd723-9d72-4995-ad9f-14f4a888769a.png"
+    "image": "a77fd723-9d72-4995-ad9f-14f4a888769a.png",
+    "Limit": "4"
   },
   {
     "id": "b371df3b-1c62-4552-ba94-a2a72010b5ba",
     "name": "Sigmund Orlando",
     "Card #": "02-056N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Red Constellation",
     "CP": "5",
@@ -2351,13 +2457,14 @@
     "index": "3F",
     "Text": "■ If your bond is 20 or less, this Unit gains +5/+0.",
     "set_id": "Set 2",
-    "image": "b371df3b-1c62-4552-ba94-a2a72010b5ba.png"
+    "image": "b371df3b-1c62-4552-ba94-a2a72010b5ba.png",
+    "Limit": "4"
   },
   {
     "id": "e1f01350-74c3-4979-94fb-b7b339e54b2f",
     "name": "Sigmund Orlando",
     "Card #": "02-057R",
-    "Sub-Name": "[Scarlet Ogre]",
+    "Subtitle": "[Scarlet Ogre]",
     "Type": "Unit",
     "Affiliation": "Red Constellation",
     "CP": "7",
@@ -2373,13 +2480,14 @@
     "index": "3G",
     "Text": "■ When this Unit attacks a tapped Unit, the defending Unit loses support and cannot gain support for this combat.",
     "set_id": "Set 2",
-    "image": "e1f01350-74c3-4979-94fb-b7b339e54b2f.png"
+    "image": "e1f01350-74c3-4979-94fb-b7b339e54b2f.png",
+    "Limit": "4"
   },
   {
     "id": "92557bc2-1f6c-46ff-aa89-dca77abaec15",
     "name": "Thors Military Academy Class VII, Commence",
     "Card #": "02-080SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -2395,13 +2503,14 @@
     "index": "3u",
     "Text": "■Tap, Pay 1 CP and discard 1 “Thors Military Academy” card or a Unit with [Kinship]: Search your deck for a “Thors Military Academy” card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 2",
-    "image": "92557bc2-1f6c-46ff-aa89-dca77abaec15.png"
+    "image": "92557bc2-1f6c-46ff-aa89-dca77abaec15.png",
+    "Limit": "4"
   },
   {
     "id": "26db8ede-b133-47ab-82f8-0bc3f53a651a",
     "name": "Tita Russell",
     "Card #": "02-069N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "2",
@@ -2417,13 +2526,14 @@
     "index": "2Y",
     "Text": "■ Reduce the CP cost to play this Unit by 1 for each Item you control (to a minimum of 0). ■On Play: Gain 5 bond.",
     "set_id": "Set 2",
-    "image": "26db8ede-b133-47ab-82f8-0bc3f53a651a.png"
+    "image": "26db8ede-b133-47ab-82f8-0bc3f53a651a.png",
+    "Limit": "4"
   },
   {
     "id": "81bc0134-f8aa-4f4a-bb2e-a0bbf195f0f1",
     "name": "Tita Russell",
     "Card #": "02-070R",
-    "Sub-Name": "[Genius Orbal Scholar]",
+    "Subtitle": "[Genius Orbal Scholar]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "4",
@@ -2439,13 +2549,14 @@
     "index": "2Z",
     "Text": "■ While you have an Item in play, “Liberl Kingdom” Units you control gain support.",
     "set_id": "Set 2",
-    "image": "81bc0134-f8aa-4f4a-bb2e-a0bbf195f0f1.png"
+    "image": "81bc0134-f8aa-4f4a-bb2e-a0bbf195f0f1.png",
+    "Limit": "4"
   },
   {
     "id": "529ad853-95d0-4ea8-a984-2eb92a09a9de",
     "name": "Tita Russell",
     "Card #": "02-071R",
-    "Sub-Name": "[Apprentice Engineer]",
+    "Subtitle": "[Apprentice Engineer]",
     "Type": "Unit",
     "Affiliation": "Liberl Kingdom",
     "CP": "6",
@@ -2461,13 +2572,14 @@
     "index": "2a",
     "Text": "■Tap, Discard 1 Item: Stun 1 target Unit with CP cost less than or equal to the CP cost of the discarded Item.",
     "set_id": "Set 2",
-    "image": "529ad853-95d0-4ea8-a984-2eb92a09a9de.png"
+    "image": "529ad853-95d0-4ea8-a984-2eb92a09a9de.png",
+    "Limit": "4"
   },
   {
     "id": "9f251176-e6b9-464b-86da-f844b907e090",
     "name": "Top-Notch Photography Skills",
     "Card #": "02-053SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Event",
     "Affiliation": "",
     "CP": "",
@@ -2483,13 +2595,14 @@
     "index": "3f",
     "Text": "You may discard 1 card with a “Loyalty” craft. If you do, search your deck for a Unit, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 2",
-    "image": "9f251176-e6b9-464b-86da-f844b907e090.png"
+    "image": "9f251176-e6b9-464b-86da-f844b907e090.png",
+    "Limit": "4"
   },
   {
     "id": "1af676ce-cd1e-4506-80f3-d1d08dd3935f",
     "name": "Toval Randonneur",
     "Card #": "02-078SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Bracer Guild",
     "CP": "2",
@@ -2505,13 +2618,14 @@
     "index": "3N",
     "Text": "■Tap: Return 1 face-down untapped card from your base to the hand. If you do, you may place 1 card from your hand face-down and untapped in your base.",
     "set_id": "Set 2",
-    "image": "1af676ce-cd1e-4506-80f3-d1d08dd3935f.png"
+    "image": "1af676ce-cd1e-4506-80f3-d1d08dd3935f.png",
+    "Limit": "4"
   },
   {
     "id": "3b402cab-e082-4938-b290-2679765a34ac",
     "name": "Vermilion Capital",
     "Card #": "02-080SR",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -2527,13 +2641,14 @@
     "index": "3v",
     "Text": "■ Treat effects that apply when “Giliath Osborne” is on your field as if that card were on your field (even if you do not control that card). ■ “Erebonian Empire” Units you control gain +1/+1 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "3b402cab-e082-4938-b290-2679765a34ac.png"
+    "image": "3b402cab-e082-4938-b290-2679765a34ac.png",
+    "Limit": "4"
   },
   {
     "id": "f87c3161-4236-46a7-91d5-ed3b353087b7",
     "name": "Victor S. Arseid",
     "Card #": "02-018R",
-    "Sub-Name": "[Radiant Blademaster]",
+    "Subtitle": "[Radiant Blademaster]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "7",
@@ -2549,13 +2664,14 @@
     "index": "2l",
     "Text": "■: Kill 1 target Unit. This craft can only be played during your attack target selection step.",
     "set_id": "Set 2",
-    "image": "f87c3161-4236-46a7-91d5-ed3b353087b7.png"
+    "image": "f87c3161-4236-46a7-91d5-ed3b353087b7.png",
+    "Limit": "4"
   },
   {
     "id": "9b7116aa-26a3-4513-8c3b-1264d0c20065",
     "name": "Vita Clotilde",
     "Card #": "02-017SR",
-    "Sub-Name": "[Azure Abyss]",
+    "Subtitle": "[Azure Abyss]",
     "Type": "Unit",
     "Affiliation": "Ouroboros",
     "CP": "4",
@@ -2571,13 +2687,14 @@
     "index": "36",
     "Text": "■ Pay 2 bond: Ready target Unit you control but it cannot attack for the rest of the turn. Activate only once each turn.",
     "set_id": "Set 2",
-    "image": "9b7116aa-26a3-4513-8c3b-1264d0c20065.png"
+    "image": "9b7116aa-26a3-4513-8c3b-1264d0c20065.png",
+    "Limit": "4"
   },
   {
     "id": "b54968b3-b4d8-4a8a-9047-bc7180aa0049",
     "name": "Vulcan",
     "Card #": "02-015N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Imperial Liberation Front",
     "CP": "3",
@@ -2593,13 +2710,14 @@
     "index": "3A",
     "Text": "■ Sacrifice 1 Item you control: Stun 1 target Unit with CP cost less than or equal to the CP cost of the sacrificed Item.",
     "set_id": "Set 2",
-    "image": "b54968b3-b4d8-4a8a-9047-bc7180aa0049.png"
+    "image": "b54968b3-b4d8-4a8a-9047-bc7180aa0049.png",
+    "Limit": "4"
   },
   {
     "id": "11d8733c-f7f5-432f-a448-503d27d6669c",
     "name": "Vulcan",
     "Card #": "02-016R",
-    "Sub-Name": "[V]",
+    "Subtitle": "[V]",
     "Type": "Unit",
     "Affiliation": "Imperial Liberation Front",
     "CP": "5",
@@ -2615,13 +2733,14 @@
     "index": "3B",
     "Text": "",
     "set_id": "Set 2",
-    "image": "11d8733c-f7f5-432f-a448-503d27d6669c.png"
+    "image": "11d8733c-f7f5-432f-a448-503d27d6669c.png",
+    "Limit": "4"
   },
   {
     "id": "b8b8083c-aca1-4114-9f43-78dabf70ca9d",
     "name": "Witches' Village",
     "Card #": "02-086R",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -2637,13 +2756,14 @@
     "index": "3w",
     "Text": "■Tap: Return 1 target Unit you control to the hand. If you do, Plan X, where X is the CP cost of the target Unit. (Look at the top X cards of your deck, then put any number of them on the bottom of your deck and the rest on top in any order.)",
     "set_id": "Set 2",
-    "image": "b8b8083c-aca1-4114-9f43-78dabf70ca9d.png"
+    "image": "b8b8083c-aca1-4114-9f43-78dabf70ca9d.png",
+    "Limit": "4"
   },
   {
     "id": "17ef2d9c-abdd-466f-a163-857aa354d8ce",
     "name": "Xeno",
     "Card #": "02-064N",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Unit",
     "Affiliation": "Zephyr",
     "CP": "2",
@@ -2659,13 +2779,14 @@
     "index": "3J",
     "Text": "■ This Unit gains +1/+0 for each Item you control during combat.",
     "set_id": "Set 2",
-    "image": "17ef2d9c-abdd-466f-a163-857aa354d8ce.png"
+    "image": "17ef2d9c-abdd-466f-a163-857aa354d8ce.png",
+    "Limit": "4"
   },
   {
     "id": "3d235d68-95ff-440e-b1a4-dbcb576d01ad",
     "name": "Yin",
     "Card #": "02-014R",
-    "Sub-Name": "[Legendary Assassin]",
+    "Subtitle": "[Legendary Assassin]",
     "Type": "Unit",
     "Affiliation": "None",
     "CP": "2",
@@ -2681,13 +2802,14 @@
     "index": "3Q",
     "Text": "■ When this Unit attacks directly, kill 1 of your opponent’s stunned Units. If you do, this Unit cannot overkill for the rest of the turn (do not reduce your opponent’s bond).",
     "set_id": "Set 2",
-    "image": "3d235d68-95ff-440e-b1a4-dbcb576d01ad.png"
+    "image": "3d235d68-95ff-440e-b1a4-dbcb576d01ad.png",
+    "Limit": "4"
   },
   {
     "id": "149d087a-ce7a-4f4f-826c-b87f36a7c92a",
     "name": "Zechs Vander",
     "Card #": "02-063N",
-    "Sub-Name": "[One-Eyed]",
+    "Subtitle": "[One-Eyed]",
     "Type": "Unit",
     "Affiliation": "Erebonian Empire",
     "CP": "3",
@@ -2703,13 +2825,14 @@
     "index": "2u",
     "Text": "■Tap: Recover 1 target stunned “Erebonian Empire” Unit.",
     "set_id": "Set 2",
-    "image": "149d087a-ce7a-4f4f-826c-b87f36a7c92a.png"
+    "image": "149d087a-ce7a-4f4f-826c-b87f36a7c92a.png",
+    "Limit": "4"
   },
   {
     "id": "e8bdee9c-fc7b-45b2-ae42-8ef12f87179b",
     "name": "Zeiss",
     "Card #": "02-068R",
-    "Sub-Name": "",
+    "Subtitle": "",
     "Type": "Base",
     "Affiliation": "",
     "CP": "",
@@ -2725,6 +2848,7 @@
     "index": "3s",
     "Text": "■ Loyalty - Tap: Reveal the top card of your deck. If a Unit with “Russell” in its name is on your field, reveal 2 cards instead. You may add all Items revealed this way to your hand.",
     "set_id": "Set 2",
-    "image": "e8bdee9c-fc7b-45b2-ae42-8ef12f87179b.png"
+    "image": "e8bdee9c-fc7b-45b2-ae42-8ef12f87179b.png",
+    "Limit": "4"
   }
 ]
