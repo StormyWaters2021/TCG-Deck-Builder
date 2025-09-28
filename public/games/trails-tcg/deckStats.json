@@ -1,0 +1,20 @@
+[
+  {
+    "type": "totalCount",
+    "label": "Total Cards"
+  },
+  
+  {
+    "type": "countContains",
+    "prop": "Icon Crafts",
+    "contains": "[Cursed]",
+    "label": "Total [Cursed] cards"
+  },
+
+  {
+    "type": "sumPropertyByRegex",
+    "prop": "Icon Crafts",
+    "regex": "\\[Radiant Wings (\\d+)\\]",
+    "label": "Total Radiant Wings Ranks"
+  }
+]
