@@ -19,7 +19,7 @@
     "index": "5",
     "Text": "",
     "set_id": "Set 1",
-    "image": "9900acd5-6b1f-4cb8-9ce3-11157e0fb23d.jpg"
+    "image": "9900acd5-6b1f-4cb8-9ce3-11157e0fb23d.png"
   },
   {
     "id": "5c977478-7f61-4c2f-9229-4bba7c820125",
@@ -41,7 +41,7 @@
     "index": "3",
     "Text": "On Play, you may discard 2 \"Bracer Guild\" cards. If you didn't, place this card on the bottom of the deck.",
     "set_id": "Set 1",
-    "image": "5c977478-7f61-4c2f-9229-4bba7c820125.jpg"
+    "image": "5c977478-7f61-4c2f-9229-4bba7c820125.png"
   },
   {
     "id": "95fa34ef-8daf-4f7e-8b76-895d7eb1fae3",
@@ -63,7 +63,7 @@
     "index": "4",
     "Text": "This unit gains +2/+2 when attacking.",
     "set_id": "Set 1",
-    "image": "95fa34ef-8daf-4f7e-8b76-895d7eb1fae3.jpg"
+    "image": "95fa34ef-8daf-4f7e-8b76-895d7eb1fae3.png"
   },
   {
     "id": "6d5b3388-d7e7-42c3-a86b-fcd1aa28beaf",
@@ -85,7 +85,7 @@
     "index": "B",
     "Text": "At the start of this combat phase, all units lose Covert Action until the end of the turn, and this unit gains +2/+2 until the end of the turn for each unit that lost [Covert Action] with this Craft.",
     "set_id": "Set 1",
-    "image": "6d5b3388-d7e7-42c3-a86b-fcd1aa28beaf.jpg"
+    "image": "6d5b3388-d7e7-42c3-a86b-fcd1aa28beaf.png"
   },
   {
     "id": "072ef7a5-8e24-48d9-8f81-eef393554793",
@@ -107,7 +107,7 @@
     "index": "C",
     "Text": "Tap: Target 1 Base card and rebuild it.(Reveal and Destroy target card in Base, then place the tope card of the deck face-down in Base, tapped.)",
     "set_id": "Set 1",
-    "image": "072ef7a5-8e24-48d9-8f81-eef393554793.jpg"
+    "image": "072ef7a5-8e24-48d9-8f81-eef393554793.png"
   },
   {
     "id": "8331012b-f67d-4d2f-ae03-a06fe4952e6b",
@@ -129,7 +129,7 @@
     "index": "D",
     "Text": "Tap: Kill 1 target Stunned unit.",
     "set_id": "Set 1",
-    "image": "8331012b-f67d-4d2f-ae03-a06fe4952e6b.jpg"
+    "image": "8331012b-f67d-4d2f-ae03-a06fe4952e6b.png"
   },
   {
     "id": "3443695d-70e7-4997-a591-ad81e393bf8c",
@@ -151,7 +151,7 @@
     "index": "v",
     "Text": "Tap: Target Unit loses [Covert Action]. If the target Unit does not have [Covert Action], it gains [Covert Action] until the end of the turn. Then, if the targeted Unit is an “Ouroboros” Unit, it gains +1/+1 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "3443695d-70e7-4997-a591-ad81e393bf8c.jpg"
+    "image": "3443695d-70e7-4997-a591-ad81e393bf8c.png"
   },
   {
     "id": "c4c555d9-3e85-41f3-8956-bb61e26a344d",
@@ -173,7 +173,7 @@
     "index": "6",
     "Text": "This unit gains +4/-4 when attacking.",
     "set_id": "Set 1",
-    "image": "c4c555d9-3e85-41f3-8956-bb61e26a344d.jpg"
+    "image": "c4c555d9-3e85-41f3-8956-bb61e26a344d.png"
   },
   {
     "id": "60d0d903-cb21-47ed-b39e-1545977f9469",
@@ -195,7 +195,7 @@
     "index": "E",
     "Text": "At the start of the Combat Phase, if this is your only Unit without [Covert Action], tap all other Units.",
     "set_id": "Set 1",
-    "image": "60d0d903-cb21-47ed-b39e-1545977f9469.jpg"
+    "image": "60d0d903-cb21-47ed-b39e-1545977f9469.png"
   },
   {
     "id": "c40741bf-e853-4180-b30e-11f9c65d27f8",
@@ -217,7 +217,7 @@
     "index": "8",
     "Text": "This Unit cannot be stunned when attacking. When this Unit is attacked, it counterattacks all Units attacking it.",
     "set_id": "Set 1",
-    "image": "c40741bf-e853-4180-b30e-11f9c65d27f8.jpg"
+    "image": "c40741bf-e853-4180-b30e-11f9c65d27f8.png"
   },
   {
     "id": "6753f964-d68a-4bc3-bb9b-b560f7f7ab1e",
@@ -239,7 +239,7 @@
     "index": "9",
     "Text": "When this unit stuns another Unit, you may turn 4 face-down Units in your base face-up. If you do, untap this card.",
     "set_id": "Set 1",
-    "image": "6753f964-d68a-4bc3-bb9b-b560f7f7ab1e.jpg"
+    "image": "6753f964-d68a-4bc3-bb9b-b560f7f7ab1e.png"
   },
   {
     "id": "8c5ca69b-a1bc-478e-816c-81897240bff5",
@@ -261,7 +261,7 @@
     "index": "A",
     "Text": "Pay 1 CP: Plan 1(Look at the top card of your deck. You may put that card on the bottom of your deck.) Tap, Tap two \"Gralsritter\" Units: Draw 1 card.",
     "set_id": "Set 1",
-    "image": "8c5ca69b-a1bc-478e-816c-81897240bff5.jpg"
+    "image": "8c5ca69b-a1bc-478e-816c-81897240bff5.png"
   },
   {
     "id": "9027e196-ddba-4d8d-98ee-c19e2440edd9",
@@ -283,7 +283,7 @@
     "index": "1K",
     "Text": "Tap, Discard 1 \"Ouroboros\" card: Stun 1 target Unit with CP cost 3 or less.",
     "set_id": "Set 1",
-    "image": "9027e196-ddba-4d8d-98ee-c19e2440edd9.jpg"
+    "image": "9027e196-ddba-4d8d-98ee-c19e2440edd9.png"
   },
   {
     "id": "b33f62ec-c7ac-49ed-a6b4-8c07af2fe440",
@@ -305,7 +305,7 @@
     "index": "1L",
     "Text": "When this unit loses [Covert Action], target 1 Unit in your Trail with CP cost 2 or less and put it on the field Untapped. Pay 5 Bond: This Unit loses [Covert Action] until the end of the turn.",
     "set_id": "Set 1",
-    "image": "b33f62ec-c7ac-49ed-a6b4-8c07af2fe440.jpg"
+    "image": "b33f62ec-c7ac-49ed-a6b4-8c07af2fe440.png"
   },
   {
     "id": "0bc61003-7bad-4f0c-8330-2c922556af4c",
@@ -327,7 +327,7 @@
     "index": "1O",
     "Text": "■: Reveal the top card of your deck. If it is a “Bracer Guild” card, you can add it to your hand.",
     "set_id": "Set 1",
-    "image": "0bc61003-7bad-4f0c-8330-2c922556af4c.jpg"
+    "image": "0bc61003-7bad-4f0c-8330-2c922556af4c.png"
   },
   {
     "id": "d6ed49aa-fe6b-4ab3-b7f7-415268822ad5",
@@ -349,7 +349,7 @@
     "index": "Y",
     "Text": "The first time this Unit gains [Covert Action] this turn: Target 1 Item card in your Trail with CP cost 2 or less, and put it on the field. Pay 4 Bond: This unit gains [Covert Action] until the end of this turn.",
     "set_id": "Set 1",
-    "image": "d6ed49aa-fe6b-4ab3-b7f7-415268822ad5.jpg"
+    "image": "d6ed49aa-fe6b-4ab3-b7f7-415268822ad5.png"
   },
   {
     "id": "f19ffb54-0734-499b-ad68-da6850ed5aa3",
@@ -371,7 +371,7 @@
     "index": "Z",
     "Text": "Sacrifice 1 other Unit you control: Untap this Unit and it cannot be overkilled this turn. You can only use this Craft once per turn.",
     "set_id": "Set 1",
-    "image": "f19ffb54-0734-499b-ad68-da6850ed5aa3.jpg"
+    "image": "f19ffb54-0734-499b-ad68-da6850ed5aa3.png"
   },
   {
     "id": "9b36a7fb-b928-4c3e-8218-f5f3671f3d35",
@@ -393,7 +393,7 @@
     "index": "a",
     "Text": "Tap, Return this Unit to your hand: Target Unit gains -4/-0 until end of the turn.",
     "set_id": "Set 1",
-    "image": "9b36a7fb-b928-4c3e-8218-f5f3671f3d35.jpg"
+    "image": "9b36a7fb-b928-4c3e-8218-f5f3671f3d35.png"
   },
   {
     "id": "590396c7-40a6-4975-ad5c-f16ec1933f9e",
@@ -415,7 +415,7 @@
     "index": "X",
     "Text": "Request: When you play a base, draw 1 card. When this Unit stuns another Unit, kill that Unit.",
     "set_id": "Set 1",
-    "image": "590396c7-40a6-4975-ad5c-f16ec1933f9e.jpg"
+    "image": "590396c7-40a6-4975-ad5c-f16ec1933f9e.png"
   },
   {
     "id": "f103539b-1139-4441-9e47-19ece2583be2",
@@ -437,7 +437,7 @@
     "index": "h",
     "Text": "Your Units cannot Scrum Attack. Your Units gain +2/+0 when attacking.",
     "set_id": "Set 1",
-    "image": "f103539b-1139-4441-9e47-19ece2583be2.jpg"
+    "image": "f103539b-1139-4441-9e47-19ece2583be2.png"
   },
   {
     "id": "778974b6-9178-4ecd-a2a5-499455d64f94",
@@ -459,7 +459,7 @@
     "index": "W",
     "Text": "Tap, flip 2 face-down \"Bracer Guild\" Units in your Base face-up: Kill all other Units.",
     "set_id": "Set 1",
-    "image": "778974b6-9178-4ecd-a2a5-499455d64f94.jpg"
+    "image": "778974b6-9178-4ecd-a2a5-499455d64f94.png"
   },
   {
     "id": "9858d33f-0f6a-4e3e-9ffb-23a02f1fea8d",
@@ -481,7 +481,7 @@
     "index": "13",
     "Text": "Tap: Remove 1 untapped “Ouroboros” Unit you control from the game: At the start of the next turn, return that removed Unit to the field.",
     "set_id": "Set 1",
-    "image": "9858d33f-0f6a-4e3e-9ffb-23a02f1fea8d.jpg"
+    "image": "9858d33f-0f6a-4e3e-9ffb-23a02f1fea8d.png"
   },
   {
     "id": "a84f4d38-d755-4326-a62f-5a563f871e7e",
@@ -503,7 +503,7 @@
     "index": "15",
     "Text": "On play: All units lose [Covert Action] until the end of the turn and this unit gains +2/+2 until the end of the turn for each unit that lost [Covert Action] with this Craft.",
     "set_id": "Set 1",
-    "image": "a84f4d38-d755-4326-a62f-5a563f871e7e.jpg"
+    "image": "a84f4d38-d755-4326-a62f-5a563f871e7e.png"
   },
   {
     "id": "ac8b628c-384b-494d-86bc-cdec11a9c888",
@@ -525,7 +525,7 @@
     "index": "R",
     "Text": "Tap 2 “Crossbell Police” Units you control: Stun 1 target Unit.",
     "set_id": "Set 1",
-    "image": "ac8b628c-384b-494d-86bc-cdec11a9c888.jpg"
+    "image": "ac8b628c-384b-494d-86bc-cdec11a9c888.png"
   },
   {
     "id": "23bdfdda-39ad-4ccb-85c0-509a446a76f0",
@@ -547,7 +547,7 @@
     "index": "l",
     "Text": "Tap: Target 1 card in Trail, place it on the bottom of the owner’s deck. If you control a “Gralsritter” Unit, you may remove that card from play instead.",
     "set_id": "Set 1",
-    "image": "23bdfdda-39ad-4ccb-85c0-509a446a76f0.jpg"
+    "image": "23bdfdda-39ad-4ccb-85c0-509a446a76f0.png"
   },
   {
     "id": "72fb0eb3-76e4-4480-9e50-5ec452b370b6",
@@ -569,7 +569,7 @@
     "index": "k",
     "Text": "■ When you play this Base, choose 2 affiliations represented among the cards on your field. If 1 of the chosen affiliations is “Crossbell Police,” gain 5 bond. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation).",
     "set_id": "Set 1",
-    "image": "72fb0eb3-76e4-4480-9e50-5ec452b370b6.jpg"
+    "image": "72fb0eb3-76e4-4480-9e50-5ec452b370b6.png"
   },
   {
     "id": "cf4bc677-bb1a-43b3-993f-03ba90f35512",
@@ -591,7 +591,7 @@
     "index": "j",
     "Text": "■ When you play this card, you may discard a card with [Dispatch]. If you do, search your deck for a “Crossbell Police” card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 1",
-    "image": "cf4bc677-bb1a-43b3-993f-03ba90f35512.jpg"
+    "image": "cf4bc677-bb1a-43b3-993f-03ba90f35512.png"
   },
   {
     "id": "793d4b8a-c925-40aa-80c3-a398509b90fa",
@@ -613,7 +613,7 @@
     "index": "i",
     "Text": "You may have any number of Rank and File units in your deck. This Unit gains Support when tapped.",
     "set_id": "Set 1",
-    "image": "793d4b8a-c925-40aa-80c3-a398509b90fa.jpg"
+    "image": "793d4b8a-c925-40aa-80c3-a398509b90fa.png"
   },
   {
     "id": "d3804bab-0119-4a3e-8945-395d8db0c23b",
@@ -635,7 +635,7 @@
     "index": "1B",
     "Text": "When you play a \"Raven\" Unit from your Base, this Unit gets +1/+0 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "d3804bab-0119-4a3e-8945-395d8db0c23b.jpg"
+    "image": "d3804bab-0119-4a3e-8945-395d8db0c23b.png"
   },
   {
     "id": "e1a6f3fc-2b6a-457a-a13c-70f80aa77b4f",
@@ -657,7 +657,7 @@
     "index": "7",
     "Text": "Kill 1 target Stunned Unit. If you do, lose Bond equal to its CP cost.",
     "set_id": "Set 1",
-    "image": "e1a6f3fc-2b6a-457a-a13c-70f80aa77b4f.jpg"
+    "image": "e1a6f3fc-2b6a-457a-a13c-70f80aa77b4f.png"
   },
   {
     "id": "b9743393-7e4a-4664-a748-344455912e73",
@@ -679,7 +679,7 @@
     "index": "F",
     "Text": "Target \"Gralsritter\" Unit in combat gains +2/+2 this Cobmat. Then it gets +0/+2 for each Base you Control.",
     "set_id": "Set 1",
-    "image": "b9743393-7e4a-4664-a748-344455912e73.jpg"
+    "image": "b9743393-7e4a-4664-a748-344455912e73.png"
   },
   {
     "id": "af57b57e-ec46-4988-9364-91761997492c",
@@ -701,7 +701,7 @@
     "index": "2",
     "Text": "This Unit does not stun Units with a CP cost of 5 or less when attacking them. When this defending Unit is stunned wihle counterattacking, it will stun all attacking Units.",
     "set_id": "Set 1",
-    "image": "af57b57e-ec46-4988-9364-91761997492c.jpg"
+    "image": "af57b57e-ec46-4988-9364-91761997492c.png"
   },
   {
     "id": "2dbe9b85-571b-423a-ab52-196a167bf49d",
@@ -723,7 +723,7 @@
     "index": "O",
     "Text": "Tap: Stun 1 target Unit with CP cost 3 or less.",
     "set_id": "Set 1",
-    "image": "2dbe9b85-571b-423a-ab52-196a167bf49d.jpg"
+    "image": "2dbe9b85-571b-423a-ab52-196a167bf49d.png"
   },
   {
     "id": "a1bcba21-21fb-4c5d-9ba2-8b151f9dcd06",
@@ -745,7 +745,7 @@
     "index": "P",
     "Text": "Sacrifice 1 of your units with [Covert Action]: Draw 2 cards.",
     "set_id": "Set 1",
-    "image": "a1bcba21-21fb-4c5d-9ba2-8b151f9dcd06.jpg"
+    "image": "a1bcba21-21fb-4c5d-9ba2-8b151f9dcd06.png"
   },
   {
     "id": "c233a254-38c2-433d-85f3-5e7761ee1c87",
@@ -767,7 +767,7 @@
     "index": "Q",
     "Text": "\"Crossbell Police\" Units you control have Support.",
     "set_id": "Set 1",
-    "image": "c233a254-38c2-433d-85f3-5e7761ee1c87.jpg"
+    "image": "c233a254-38c2-433d-85f3-5e7761ee1c87.png"
   },
   {
     "id": "6649aba0-516e-4ca6-a5bb-1ee96e61802f",
@@ -789,7 +789,7 @@
     "index": "N",
     "Text": "Target Unit loses [Covert Action]. If the target Unit does not have [Covert Action], it gains [Covert Action] until the end of the turn. Then, if the target Unit is a “Crossbell Police” Unit, it gains +2/+2 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "6649aba0-516e-4ca6-a5bb-1ee96e61802f.jpg"
+    "image": "6649aba0-516e-4ca6-a5bb-1ee96e61802f.png"
   },
   {
     "id": "2fc82310-6f81-4371-9636-811103c6b9a5",
@@ -811,7 +811,7 @@
     "index": "0",
     "Text": "Tap: Target attacking Unit gains +2/+0 this combat.",
     "set_id": "Set 1",
-    "image": "2fc82310-6f81-4371-9636-811103c6b9a5.jpg"
+    "image": "2fc82310-6f81-4371-9636-811103c6b9a5.png"
   },
   {
     "id": "03375477-b0bc-4263-8d1b-b9d74bb5efcb",
@@ -833,7 +833,7 @@
     "index": "1G",
     "Text": "■: Plan 1. (Look at the top card of your deck. You may put that card on the bottom of your deck.)",
     "set_id": "Set 1",
-    "image": "03375477-b0bc-4263-8d1b-b9d74bb5efcb.jpg"
+    "image": "03375477-b0bc-4263-8d1b-b9d74bb5efcb.png"
   },
   {
     "id": "4bf93d12-38a2-42d4-9859-f4596a1ac1e5",
@@ -855,7 +855,7 @@
     "index": "K",
     "Text": "",
     "set_id": "Set 1",
-    "image": "4bf93d12-38a2-42d4-9859-f4596a1ac1e5.jpg"
+    "image": "4bf93d12-38a2-42d4-9859-f4596a1ac1e5.png"
   },
   {
     "id": "57153596-1873-4d81-b075-f39e53482e67",
@@ -877,7 +877,7 @@
     "index": "L",
     "Text": "When attacking Units with CP cost of 4 or more, this Unit gains +3/+3. Request: When you play a Base, this Unit gains +1/+1 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "57153596-1873-4d81-b075-f39e53482e67.jpg"
+    "image": "57153596-1873-4d81-b075-f39e53482e67.png"
   },
   {
     "id": "d163c5c5-d6d2-4d98-bdbc-526ca7e4feae",
@@ -899,7 +899,7 @@
     "index": "M",
     "Text": "When this unit attacks, you can target 1 Unit. Turn 3 cards face-up in your Base, and if you do, tap target Unit.",
     "set_id": "Set 1",
-    "image": "d163c5c5-d6d2-4d98-bdbc-526ca7e4feae.jpg"
+    "image": "d163c5c5-d6d2-4d98-bdbc-526ca7e4feae.png"
   },
   {
     "id": "a53b51ac-fd5a-4b6f-ba0d-fd495b7d66e0",
@@ -921,7 +921,7 @@
     "index": "1x",
     "Text": "When attacking Units with CP cost of 4 or more, this Unit gains +3/+3. Request: When you play a Base, this Unit gains +1/+1 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "a53b51ac-fd5a-4b6f-ba0d-fd495b7d66e0.jpg"
+    "image": "a53b51ac-fd5a-4b6f-ba0d-fd495b7d66e0.png"
   },
   {
     "id": "6bef5041-403c-416b-a277-243a2e96e071",
@@ -943,7 +943,7 @@
     "index": "1",
     "Text": "Tap, Sacrifice 1 of your untapped units: Target Unit gets \"This unit doesn't Overkill and gains +10/+10 this turn.\"",
     "set_id": "Set 1",
-    "image": "6bef5041-403c-416b-a277-243a2e96e071.jpg"
+    "image": "6bef5041-403c-416b-a277-243a2e96e071.png"
   },
   {
     "id": "0e1c6ba8-49f3-4a29-949c-3a653453d47f",
@@ -965,7 +965,7 @@
     "index": "1J",
     "Text": "On play: Draw 1 card.",
     "set_id": "Set 1",
-    "image": "0e1c6ba8-49f3-4a29-949c-3a653453d47f.jpg"
+    "image": "0e1c6ba8-49f3-4a29-949c-3a653453d47f.png"
   },
   {
     "id": "043b50ba-6b3b-4cb5-bccf-6f431f0efd7e",
@@ -987,7 +987,7 @@
     "index": "V",
     "Text": "",
     "set_id": "Set 1",
-    "image": "043b50ba-6b3b-4cb5-bccf-6f431f0efd7e.jpg"
+    "image": "043b50ba-6b3b-4cb5-bccf-6f431f0efd7e.png"
   },
   {
     "id": "5ae7985d-171b-49a8-8405-895ad1486e31",
@@ -1009,7 +1009,7 @@
     "index": "n",
     "Text": "Sacrifice this Unit: Search your deck for 1 Base card, reveal it, and add it to your hand.",
     "set_id": "Set 1",
-    "image": "5ae7985d-171b-49a8-8405-895ad1486e31.jpg"
+    "image": "5ae7985d-171b-49a8-8405-895ad1486e31.png"
   },
   {
     "id": "1927337c-0fcf-46b8-9587-0cdd7ac03ca0",
@@ -1031,7 +1031,7 @@
     "index": "o",
     "Text": "If this is your only unit without [Covert Action], this Unit cannot be the target of your opponent's Events, Arts, or Crafts, and gains +8/+8.",
     "set_id": "Set 1",
-    "image": "1927337c-0fcf-46b8-9587-0cdd7ac03ca0.jpg"
+    "image": "1927337c-0fcf-46b8-9587-0cdd7ac03ca0.png"
   },
   {
     "id": "ead884c1-2416-44c4-bac7-febf1aab05c9",
@@ -1053,7 +1053,7 @@
     "index": "c",
     "Text": "Stun this Unit: Return target Unit you control to your hand.",
     "set_id": "Set 1",
-    "image": "ead884c1-2416-44c4-bac7-febf1aab05c9.jpg"
+    "image": "ead884c1-2416-44c4-bac7-febf1aab05c9.png"
   },
   {
     "id": "6f489692-8d7d-416e-88f5-991597067757",
@@ -1075,7 +1075,7 @@
     "index": "d",
     "Text": "Stun this Unit: Stun target Unit with CP cost of 2 or less.",
     "set_id": "Set 1",
-    "image": "6f489692-8d7d-416e-88f5-991597067757.jpg"
+    "image": "6f489692-8d7d-416e-88f5-991597067757.png"
   },
   {
     "id": "d328b7d4-f61b-4a0a-9b6e-286b8a6a5330",
@@ -1097,7 +1097,7 @@
     "index": "1F",
     "Text": "Recover target stunned “Gralsritter” Unit.",
     "set_id": "Set 1",
-    "image": "d328b7d4-f61b-4a0a-9b6e-286b8a6a5330.jpg"
+    "image": "d328b7d4-f61b-4a0a-9b6e-286b8a6a5330.png"
   },
   {
     "id": "2c652dca-1423-4798-8165-ec7d71e77995",
@@ -1119,7 +1119,7 @@
     "index": "f",
     "Text": "When you play this Base, choose 2 affiliations represented among the cards on your field. If 1 of those chose affiliations is \"Gralsritter\", draw 1 card. The chosen affiliations are Linked. (Treat units from each affiliation as if they were one affiliation)",
     "set_id": "Set 1",
-    "image": "2c652dca-1423-4798-8165-ec7d71e77995.jpg"
+    "image": "2c652dca-1423-4798-8165-ec7d71e77995.png"
   },
   {
     "id": "d49e3c68-93a1-4d3b-b424-efabb8f18143",
@@ -1141,7 +1141,7 @@
     "index": "e",
     "Text": "This unit gains +3/+0 when attacking. Request: When you play a Base, your opponent loses 1 Bond.",
     "set_id": "Set 1",
-    "image": "d49e3c68-93a1-4d3b-b424-efabb8f18143.jpg"
+    "image": "d49e3c68-93a1-4d3b-b424-efabb8f18143.png"
   },
   {
     "id": "9b9078ac-5dba-4c5c-828b-08d1092fa48e",
@@ -1163,7 +1163,7 @@
     "index": "m",
     "Text": "Sacrifice this Unit: Target 1 Unit with a CP cost of 3 or less and put it on your field in play untapped.",
     "set_id": "Set 1",
-    "image": "9b9078ac-5dba-4c5c-828b-08d1092fa48e.jpg"
+    "image": "9b9078ac-5dba-4c5c-828b-08d1092fa48e.png"
   },
   {
     "id": "9ca35409-b3df-4c1f-a4a9-7779da6e5824",
@@ -1185,7 +1185,7 @@
     "index": "1P",
     "Text": "Request: When you play a Base, this Unit gets +1/+1 until the end of the turn. When this unit Scrum Attacks, an attacking \"Estelle Bright\" cannot be stunned from this combat.",
     "set_id": "Set 1",
-    "image": "9ca35409-b3df-4c1f-a4a9-7779da6e5824.jpg"
+    "image": "9ca35409-b3df-4c1f-a4a9-7779da6e5824.png"
   },
   {
     "id": "fcbc3ccc-5e34-4dca-86f6-71b7a25f39e1",
@@ -1207,7 +1207,7 @@
     "index": "1Q",
     "Text": "Tap, pay 2 Bond: Tap target unit with CP cost 3 or less, then if it has [Covert Action], stun it.",
     "set_id": "Set 1",
-    "image": "fcbc3ccc-5e34-4dca-86f6-71b7a25f39e1.jpg"
+    "image": "fcbc3ccc-5e34-4dca-86f6-71b7a25f39e1.png"
   },
   {
     "id": "cfdf22a6-46b3-425f-9451-cd52c6166faa",
@@ -1229,7 +1229,7 @@
     "index": "1R",
     "Text": "Pay 5 bond: Untap this card and it cannot be Overkilled for the rest of the turn.",
     "set_id": "Set 1",
-    "image": "cfdf22a6-46b3-425f-9451-cd52c6166faa.jpg"
+    "image": "cfdf22a6-46b3-425f-9451-cd52c6166faa.png"
   },
   {
     "id": "ab4d0254-30b4-4c20-bc21-901494ec9322",
@@ -1251,7 +1251,7 @@
     "index": "1y",
     "Text": "Tap, pay 2 Bond: Tap target unit with CP cost 3 or less, then if it has [Covert Action], stun it.",
     "set_id": "Set 1",
-    "image": "ab4d0254-30b4-4c20-bc21-901494ec9322.jpg"
+    "image": "ab4d0254-30b4-4c20-bc21-901494ec9322.png"
   },
   {
     "id": "c34d320b-5014-482e-9bff-51467192b71c",
@@ -1273,7 +1273,7 @@
     "index": "b",
     "Text": "On Play: Draw 2 cards.",
     "set_id": "Set 1",
-    "image": "c34d320b-5014-482e-9bff-51467192b71c.jpg"
+    "image": "c34d320b-5014-482e-9bff-51467192b71c.png"
   },
   {
     "id": "412f6d22-2ab6-41df-ba23-0fbe8b8ce5e4",
@@ -1295,7 +1295,7 @@
     "index": "r",
     "Text": "Pay 3 Bond: Add 1 target Item or Base in your Trail to your hand. You can only use this Craft once per turn.",
     "set_id": "Set 1",
-    "image": "412f6d22-2ab6-41df-ba23-0fbe8b8ce5e4.jpg"
+    "image": "412f6d22-2ab6-41df-ba23-0fbe8b8ce5e4.png"
   },
   {
     "id": "1ec18c4e-c22d-44f0-92ce-74ba06fbe4b5",
@@ -1317,7 +1317,7 @@
     "index": "s",
     "Text": "This turn, if you played a \"Gralsritter\" card and you don't control a \"Kevin Graham\", reduce the CP cost of this Unit by 1 when played.",
     "set_id": "Set 1",
-    "image": "1ec18c4e-c22d-44f0-92ce-74ba06fbe4b5.jpg"
+    "image": "1ec18c4e-c22d-44f0-92ce-74ba06fbe4b5.png"
   },
   {
     "id": "aa3508c7-e0dd-410a-b485-481d40dfbc5a",
@@ -1339,7 +1339,7 @@
     "index": "t",
     "Text": "Your opponent's units cannot recover.",
     "set_id": "Set 1",
-    "image": "aa3508c7-e0dd-410a-b485-481d40dfbc5a.jpg"
+    "image": "aa3508c7-e0dd-410a-b485-481d40dfbc5a.png"
   },
   {
     "id": "89053d45-0f0a-4841-a391-03225e80715b",
@@ -1361,7 +1361,7 @@
     "index": "u",
     "Text": "When a Request is completed your opponent loses 2 Bond.",
     "set_id": "Set 1",
-    "image": "89053d45-0f0a-4841-a391-03225e80715b.jpg"
+    "image": "89053d45-0f0a-4841-a391-03225e80715b.png"
   },
   {
     "id": "f5052fcc-c7c0-4f71-9a93-f291e795366f",
@@ -1383,7 +1383,7 @@
     "index": "g",
     "Text": "This unit gains +0/+3 during combat. Reduce the EP cost of Events and Arts you play by 1.",
     "set_id": "Set 1",
-    "image": "f5052fcc-c7c0-4f71-9a93-f291e795366f.jpg"
+    "image": "f5052fcc-c7c0-4f71-9a93-f291e795366f.png"
   },
   {
     "id": "f6d793a5-9f7f-4840-9cd8-b57040cb14c7",
@@ -1405,7 +1405,7 @@
     "index": "1Z",
     "Text": "■ “Bracer Guild” Units you control gain +1/+1.",
     "set_id": "Set 1",
-    "image": "f6d793a5-9f7f-4840-9cd8-b57040cb14c7.jpg"
+    "image": "f6d793a5-9f7f-4840-9cd8-b57040cb14c7.png"
   },
   {
     "id": "a2b59f4e-dc9f-4c7c-a019-9da719b03e7a",
@@ -1427,7 +1427,7 @@
     "index": "1V",
     "Text": "■Discard 1 card: Add 1 target Unit on your Trail to your hand.",
     "set_id": "Set 1",
-    "image": "a2b59f4e-dc9f-4c7c-a019-9da719b03e7a.jpg"
+    "image": "a2b59f4e-dc9f-4c7c-a019-9da719b03e7a.png"
   },
   {
     "id": "df1cf7f1-1623-4763-947c-2ee475e3024c",
@@ -1449,7 +1449,7 @@
     "index": "1Y",
     "Text": "When this unit attacks, tap the defending Unit.",
     "set_id": "Set 1",
-    "image": "df1cf7f1-1623-4763-947c-2ee475e3024c.jpg"
+    "image": "df1cf7f1-1623-4763-947c-2ee475e3024c.png"
   },
   {
     "id": "5f2372c6-8ee9-49f5-a075-e575ebf0c978",
@@ -1471,7 +1471,7 @@
     "index": "1e",
     "Text": "On Play: If this is your only unit without [Covert Action], target 1 or more Units with total CP cost 6 or less and return them to their owners' hands.",
     "set_id": "Set 1",
-    "image": "5f2372c6-8ee9-49f5-a075-e575ebf0c978.jpg"
+    "image": "5f2372c6-8ee9-49f5-a075-e575ebf0c978.png"
   },
   {
     "id": "72a87fc5-ccd9-4518-857c-24dafa4a490c",
@@ -1493,7 +1493,7 @@
     "index": "1f",
     "Text": "Tap: Remove this Unit from the game: At the start of the next turn, reutrn this Unit to the field.",
     "set_id": "Set 1",
-    "image": "72a87fc5-ccd9-4518-857c-24dafa4a490c.jpg"
+    "image": "72a87fc5-ccd9-4518-857c-24dafa4a490c.png"
   },
   {
     "id": "5e0d3e6f-0890-4aed-9621-0312317526f0",
@@ -1515,7 +1515,7 @@
     "index": "1g",
     "Text": "Pay 1 EP: This unit loses [Covert Action] and gains +1/+0 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "5e0d3e6f-0890-4aed-9621-0312317526f0.jpg"
+    "image": "5e0d3e6f-0890-4aed-9621-0312317526f0.png"
   },
   {
     "id": "a4c30f63-7476-4b2a-be94-dcc3dc2203d6",
@@ -1537,7 +1537,7 @@
     "index": "1l",
     "Text": "Tap: Target unit loses [Covert Action]. If the target does not have [Covert Action], it gains [Covert Action] until the end of the turn.",
     "set_id": "Set 1",
-    "image": "a4c30f63-7476-4b2a-be94-dcc3dc2203d6.jpg"
+    "image": "a4c30f63-7476-4b2a-be94-dcc3dc2203d6.png"
   },
   {
     "id": "77aa793a-df72-4704-9a55-b8f00ce0a6a3",
@@ -1559,7 +1559,7 @@
     "index": "1m",
     "Text": "Tap 1 unit you control with [Covert Action]: If this unit is attacking, it cannot be stunned this combat.",
     "set_id": "Set 1",
-    "image": "77aa793a-df72-4704-9a55-b8f00ce0a6a3.jpg"
+    "image": "77aa793a-df72-4704-9a55-b8f00ce0a6a3.png"
   },
   {
     "id": "7ac5ab61-8885-4d44-9c6b-e951db103a97",
@@ -1581,7 +1581,7 @@
     "index": "1n",
     "Text": "Turn 4 face-down Units in your base face-up: Untap this Unit and it cannot overkill for the rest of the turn.",
     "set_id": "Set 1",
-    "image": "7ac5ab61-8885-4d44-9c6b-e951db103a97.jpg"
+    "image": "7ac5ab61-8885-4d44-9c6b-e951db103a97.png"
   },
   {
     "id": "937ab037-ea4b-4eae-a65d-03b333590246",
@@ -1603,7 +1603,7 @@
     "index": "1a",
     "Text": "Tap, Return this Unit to your hand: Return target Unit with CP cost 2 or less to its owners' hand.",
     "set_id": "Set 1",
-    "image": "937ab037-ea4b-4eae-a65d-03b333590246.jpg"
+    "image": "937ab037-ea4b-4eae-a65d-03b333590246.png"
   },
   {
     "id": "cba52e8d-0c9c-454c-9f82-5b7be1effb9e",
@@ -1625,7 +1625,7 @@
     "index": "1b",
     "Text": "If this is your only unit without [Covert Action], it gains 6/6.",
     "set_id": "Set 1",
-    "image": "cba52e8d-0c9c-454c-9f82-5b7be1effb9e.jpg"
+    "image": "cba52e8d-0c9c-454c-9f82-5b7be1effb9e.png"
   },
   {
     "id": "29f45d2c-dd64-4d2b-9050-ca9f8efdc2b8",
@@ -1647,7 +1647,7 @@
     "index": "1N",
     "Text": "■Discard a card: Gain 2 bond, then, if you discarded a “Bracer Guild” card, gain an additional 2 bond.",
     "set_id": "Set 1",
-    "image": "29f45d2c-dd64-4d2b-9050-ca9f8efdc2b8.jpg"
+    "image": "29f45d2c-dd64-4d2b-9050-ca9f8efdc2b8.png"
   },
   {
     "id": "b82a9961-7b38-4f9c-b327-3963ce4d41aa",
@@ -1669,7 +1669,7 @@
     "index": "1M",
     "Text": "Gralsritter Units you control can attack Units with [Covert Action]. Gralsritter Units you control gain +2/+2 when attacking Units with [Covert Action]",
     "set_id": "Set 1",
-    "image": "b82a9961-7b38-4f9c-b327-3963ce4d41aa.jpg"
+    "image": "b82a9961-7b38-4f9c-b327-3963ce4d41aa.png"
   },
   {
     "id": "acc6e73a-002d-407d-b41a-96c4a2f35793",
@@ -1691,7 +1691,7 @@
     "index": "1I",
     "Text": "■ When this card is played, you may discard a “Gralsritter” or Base card. If you do, search your deck for a “Gralsritter” or Base card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 1",
-    "image": "acc6e73a-002d-407d-b41a-96c4a2f35793.jpg"
+    "image": "acc6e73a-002d-407d-b41a-96c4a2f35793.png"
   },
   {
     "id": "eae8e7e1-1baa-4979-ad2b-61ed3315a4ab",
@@ -1713,7 +1713,7 @@
     "index": "p",
     "Text": "Target any number of Units you control. They gain [Covert Action] and +1/+0 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "eae8e7e1-1baa-4979-ad2b-61ed3315a4ab.jpg"
+    "image": "eae8e7e1-1baa-4979-ad2b-61ed3315a4ab.png"
   },
   {
     "id": "a09b7025-a367-46dd-abe6-15f26f6c062b",
@@ -1735,7 +1735,7 @@
     "index": "1D",
     "Text": "Tap: Your opponent taps one of their untapped Units of their choosing.",
     "set_id": "Set 1",
-    "image": "a09b7025-a367-46dd-abe6-15f26f6c062b.jpg"
+    "image": "a09b7025-a367-46dd-abe6-15f26f6c062b.png"
   },
   {
     "id": "d3782b4f-bb50-41ba-b54b-c0f97461ac56",
@@ -1757,7 +1757,7 @@
     "index": "1E",
     "Text": "Tap: Your opponent loses 5 Bond. Then, this Unit gains [Covert Action] until the end of the turn.",
     "set_id": "Set 1",
-    "image": "d3782b4f-bb50-41ba-b54b-c0f97461ac56.jpg"
+    "image": "d3782b4f-bb50-41ba-b54b-c0f97461ac56.png"
   },
   {
     "id": "d5197be1-7c68-4b8c-90f3-c2fd66a805e3",
@@ -1779,7 +1779,7 @@
     "index": "T",
     "Text": "This unit gains the affiliation of all other Units on your field. At the end of your turn, add this card from your Trail to your hand. (This is mandatory)",
     "set_id": "Set 1",
-    "image": "d5197be1-7c68-4b8c-90f3-c2fd66a805e3.jpg"
+    "image": "d5197be1-7c68-4b8c-90f3-c2fd66a805e3.png"
   },
   {
     "id": "7d77ed5f-ec62-43b0-a188-b072d1cad341",
@@ -1801,7 +1801,7 @@
     "index": "U",
     "Text": "Tap, Pay 1CP: Draw 1 card.",
     "set_id": "Set 1",
-    "image": "7d77ed5f-ec62-43b0-a188-b072d1cad341.jpg"
+    "image": "7d77ed5f-ec62-43b0-a188-b072d1cad341.png"
   },
   {
     "id": "92869374-37bd-41c0-aac8-7eee8b7b74f8",
@@ -1823,7 +1823,7 @@
     "index": "J",
     "Text": "Target \"Ouroboros\" Unit gainsfor the rest of the turn: \"Tap: Target Unit gains -0/-1 and [Covert Action] until the end of the turn.\"",
     "set_id": "Set 1",
-    "image": "92869374-37bd-41c0-aac8-7eee8b7b74f8.jpg"
+    "image": "92869374-37bd-41c0-aac8-7eee8b7b74f8.png"
   },
   {
     "id": "1a21f37d-fdb7-4152-9e75-85fad76de43b",
@@ -1845,7 +1845,7 @@
     "index": "14",
     "Text": "Target “Bracer Guild” unit gains +3/+3 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "1a21f37d-fdb7-4152-9e75-85fad76de43b.jpg"
+    "image": "1a21f37d-fdb7-4152-9e75-85fad76de43b.png"
   },
   {
     "id": "546374d7-aaec-45d1-b504-a8b68627ec75",
@@ -1867,7 +1867,7 @@
     "index": "1d",
     "Text": "When you play a \"Raven\" Unit from your Base, this Unit gets +1/+0 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "546374d7-aaec-45d1-b504-a8b68627ec75.jpg"
+    "image": "546374d7-aaec-45d1-b504-a8b68627ec75.png"
   },
   {
     "id": "70d42a5b-0174-45d3-8a46-dfa48e2d036e",
@@ -1889,7 +1889,7 @@
     "index": "1S",
     "Text": "When this unit attacks, you can kill 1 of your opponent's Units with [Covert Action]. If you do, kill all of your opponent's Units with CP cost 2 or less.",
     "set_id": "Set 1",
-    "image": "70d42a5b-0174-45d3-8a46-dfa48e2d036e.jpg"
+    "image": "70d42a5b-0174-45d3-8a46-dfa48e2d036e.png"
   },
   {
     "id": "23f5f7da-4419-435a-8125-2b1ddc6a1fc9",
@@ -1911,7 +1911,7 @@
     "index": "1T",
     "Text": "Discard a unit with [Covert Action]: This unit gains [Covert Action] until the end of the turn.",
     "set_id": "Set 1",
-    "image": "23f5f7da-4419-435a-8125-2b1ddc6a1fc9.jpg"
+    "image": "23f5f7da-4419-435a-8125-2b1ddc6a1fc9.png"
   },
   {
     "id": "45f8f2fb-5645-4f1a-81f3-6ede05ecd499",
@@ -1933,7 +1933,7 @@
     "index": "1U",
     "Text": "This unit gains +2/+0 when attacking.",
     "set_id": "Set 1",
-    "image": "45f8f2fb-5645-4f1a-81f3-6ede05ecd499.jpg"
+    "image": "45f8f2fb-5645-4f1a-81f3-6ede05ecd499.png"
   },
   {
     "id": "f1b48792-007b-4c4e-a16a-f539511d91af",
@@ -1955,7 +1955,7 @@
     "index": "1h",
     "Text": "Tap, Return this Unit to hand: Kill 1 target Unit with CP cost less than this Unit's STR.",
     "set_id": "Set 1",
-    "image": "f1b48792-007b-4c4e-a16a-f539511d91af.jpg"
+    "image": "f1b48792-007b-4c4e-a16a-f539511d91af.png"
   },
   {
     "id": "07a92f3b-c30b-40e3-956b-3fab019c45a3",
@@ -1977,7 +1977,7 @@
     "index": "1i",
     "Text": "Tap: Return this Unit to hand.",
     "set_id": "Set 1",
-    "image": "07a92f3b-c30b-40e3-956b-3fab019c45a3.jpg"
+    "image": "07a92f3b-c30b-40e3-956b-3fab019c45a3.png"
   },
   {
     "id": "828253cb-2ed1-404e-895d-b79c866b29a7",
@@ -1999,7 +1999,7 @@
     "index": "1j",
     "Text": "Tap, Return this Unit to hand: Kill 1 Stunned Unit.",
     "set_id": "Set 1",
-    "image": "828253cb-2ed1-404e-895d-b79c866b29a7.jpg"
+    "image": "828253cb-2ed1-404e-895d-b79c866b29a7.png"
   },
   {
     "id": "a1fb432f-0a5d-4009-b579-fb2024eafbce",
@@ -2021,7 +2021,7 @@
     "index": "1k",
     "Text": "When this Unit attacks, you may Rebuild one of your Bases. If you do, the defending Unit loses support and cannot gain support in this combat.",
     "set_id": "Set 1",
-    "image": "a1fb432f-0a5d-4009-b579-fb2024eafbce.jpg"
+    "image": "a1fb432f-0a5d-4009-b579-fb2024eafbce.png"
   },
   {
     "id": "614cf9a8-dfba-4646-8fea-d69da1d49ddd",
@@ -2043,7 +2043,7 @@
     "index": "1w",
     "Text": "When this Unit attacks, you may Rebuild one of your Bases. If you do, the defending Unit loses support and cannot gain support in this combat.",
     "set_id": "Set 1",
-    "image": "614cf9a8-dfba-4646-8fea-d69da1d49ddd.jpg"
+    "image": "614cf9a8-dfba-4646-8fea-d69da1d49ddd.png"
   },
   {
     "id": "9b5297b4-22cc-4f26-a2c9-966d68f549aa",
@@ -2065,7 +2065,7 @@
     "index": "1z",
     "Text": "Tap: Return this Unit to hand.",
     "set_id": "Set 1",
-    "image": "9b5297b4-22cc-4f26-a2c9-966d68f549aa.jpg"
+    "image": "9b5297b4-22cc-4f26-a2c9-966d68f549aa.png"
   },
   {
     "id": "12646641-3c60-4710-ab6d-78122d317dcd",
@@ -2087,7 +2087,7 @@
     "index": "1X",
     "Text": "Tap, Rebuild 1 Base: Recover 1 stunned \"Gralsritter\" Unit",
     "set_id": "Set 1",
-    "image": "12646641-3c60-4710-ab6d-78122d317dcd.jpg"
+    "image": "12646641-3c60-4710-ab6d-78122d317dcd.png"
   },
   {
     "id": "04a1de17-8ee9-4876-b4f7-c0783c069e73",
@@ -2109,7 +2109,7 @@
     "index": "1W",
     "Text": "When this Unit attacks, kill 1 of your opponent's Stunned Units.",
     "set_id": "Set 1",
-    "image": "04a1de17-8ee9-4876-b4f7-c0783c069e73.jpg"
+    "image": "04a1de17-8ee9-4876-b4f7-c0783c069e73.png"
   },
   {
     "id": "c12450c3-d118-4285-9b78-cf69ae80c146",
@@ -2131,7 +2131,7 @@
     "index": "1q",
     "Text": "When you play a \"Raven\" Unit from your Base, this Unit gets +2/+0 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "c12450c3-d118-4285-9b78-cf69ae80c146.jpg"
+    "image": "c12450c3-d118-4285-9b78-cf69ae80c146.png"
   },
   {
     "id": "5a0124c1-b37f-48b5-bb01-eacc4f0ab83d",
@@ -2153,7 +2153,7 @@
     "index": "1r",
     "Text": "■ When you play this Base, choose 2 affiliations represented among the cards on your field. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation). ■ “Bracer Guild” Units you control gain +0/+1.",
     "set_id": "Set 1",
-    "image": "5a0124c1-b37f-48b5-bb01-eacc4f0ab83d.jpg"
+    "image": "5a0124c1-b37f-48b5-bb01-eacc4f0ab83d.png"
   },
   {
     "id": "2fb69663-d591-42ca-a275-aea4120f304c",
@@ -2175,7 +2175,7 @@
     "index": "1o",
     "Text": "Request: When you play a Base, draw 1 card.",
     "set_id": "Set 1",
-    "image": "2fb69663-d591-42ca-a275-aea4120f304c.jpg"
+    "image": "2fb69663-d591-42ca-a275-aea4120f304c.png"
   },
   {
     "id": "1982f734-7c70-497a-b796-8b6edcdc4f5c",
@@ -2197,7 +2197,7 @@
     "index": "1p",
     "Text": "Tap: Your opponent loses 2 Bond for each Base you control.",
     "set_id": "Set 1",
-    "image": "1982f734-7c70-497a-b796-8b6edcdc4f5c.jpg"
+    "image": "1982f734-7c70-497a-b796-8b6edcdc4f5c.png"
   },
   {
     "id": "5d1b5534-4181-45c8-94a0-8586f372cab6",
@@ -2219,7 +2219,7 @@
     "index": "1c",
     "Text": "On play: Target 1 Base card in your trail and add it to your hand.",
     "set_id": "Set 1",
-    "image": "5d1b5534-4181-45c8-94a0-8586f372cab6.jpg"
+    "image": "5d1b5534-4181-45c8-94a0-8586f372cab6.png"
   },
   {
     "id": "d16b94a1-7ca2-4497-81de-54165bc58a0a",
@@ -2241,7 +2241,7 @@
     "index": "17",
     "Text": "■ When this card is played, target 1 other Base in your Base and turn it face down.",
     "set_id": "Set 1",
-    "image": "d16b94a1-7ca2-4497-81de-54165bc58a0a.jpg"
+    "image": "d16b94a1-7ca2-4497-81de-54165bc58a0a.png"
   },
   {
     "id": "ddada7a4-ee7f-4ea1-9b5d-2b8d0851bc3d",
@@ -2263,7 +2263,7 @@
     "index": "w",
     "Text": "Tap: Sacrifice 1 Unit you control: Draw 1 card.",
     "set_id": "Set 1",
-    "image": "ddada7a4-ee7f-4ea1-9b5d-2b8d0851bc3d.jpg"
+    "image": "ddada7a4-ee7f-4ea1-9b5d-2b8d0851bc3d.png"
   },
   {
     "id": "83602ae1-44d9-4235-9ed8-f1820883cb3a",
@@ -2285,7 +2285,7 @@
     "index": "11",
     "Text": "Request: When you play a Base, this unit gets +1/+1 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "83602ae1-44d9-4235-9ed8-f1820883cb3a.jpg"
+    "image": "83602ae1-44d9-4235-9ed8-f1820883cb3a.png"
   },
   {
     "id": "ba1005d7-dbc7-43d2-88d2-ee960b311060",
@@ -2307,7 +2307,7 @@
     "index": "x",
     "Text": "Tap: Tap 1 target unit with CP cost 3 or less.",
     "set_id": "Set 1",
-    "image": "ba1005d7-dbc7-43d2-88d2-ee960b311060.jpg"
+    "image": "ba1005d7-dbc7-43d2-88d2-ee960b311060.png"
   },
   {
     "id": "7336e093-01fb-4f0c-8099-4ce0cbc0a90a",
@@ -2329,7 +2329,7 @@
     "index": "y",
     "Text": "When a Request is completed, you can draw 1 card and if you do, discard 1 card. When this Unit scrum attacks, other \"Bracer Guild\" Units gain +2/+2 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "7336e093-01fb-4f0c-8099-4ce0cbc0a90a.jpg"
+    "image": "7336e093-01fb-4f0c-8099-4ce0cbc0a90a.png"
   },
   {
     "id": "4d2e5fb4-846d-4dc9-9ceb-c1b12da29c94",
@@ -2351,7 +2351,7 @@
     "index": "16",
     "Text": "Turn this face-down card face-up in the Base: Target attacking Unit gains +0/+3 this combat.",
     "set_id": "Set 1",
-    "image": "4d2e5fb4-846d-4dc9-9ceb-c1b12da29c94.jpg"
+    "image": "4d2e5fb4-846d-4dc9-9ceb-c1b12da29c94.png"
   },
   {
     "id": "bdd724f3-9e08-40ae-87ab-1d235fe39d58",
@@ -2373,7 +2373,7 @@
     "index": "1C",
     "Text": "■ Discard 1 “Crossbell Police” Unit from your hand: Target Unit in combat with the same name as the discarded Unit gains +3/+3 this combat.",
     "set_id": "Set 1",
-    "image": "bdd724f3-9e08-40ae-87ab-1d235fe39d58.jpg"
+    "image": "bdd724f3-9e08-40ae-87ab-1d235fe39d58.png"
   },
   {
     "id": "9ddefe5e-fc0b-4cde-a377-e516aaa8844c",
@@ -2395,7 +2395,7 @@
     "index": "12",
     "Text": "Tap, Discard 2 cards or 1 “Crossbell Police” card: Target 1 stunned Unit. It cannot be killed or be placed on the Trail for the rest of the turn.",
     "set_id": "Set 1",
-    "image": "9ddefe5e-fc0b-4cde-a377-e516aaa8844c.jpg"
+    "image": "9ddefe5e-fc0b-4cde-a377-e516aaa8844c.png"
   },
   {
     "id": "ee0b57b2-2f1f-433a-90e6-714c902277e7",
@@ -2417,7 +2417,7 @@
     "index": "1H",
     "Text": "Recover target stunned “Bracer Guild” Unit.",
     "set_id": "Set 1",
-    "image": "ee0b57b2-2f1f-433a-90e6-714c902277e7.jpg"
+    "image": "ee0b57b2-2f1f-433a-90e6-714c902277e7.png"
   },
   {
     "id": "6522200d-1d67-4c5a-a84c-1aca34e17635",
@@ -2439,7 +2439,7 @@
     "index": "q",
     "Text": "When you play this Base, choose 2 affiliations represented among the cards on your field. Also choose one Unit you control. ■ The Unit chosen gains [Covert Action]. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation).",
     "set_id": "Set 1",
-    "image": "6522200d-1d67-4c5a-a84c-1aca34e17635.jpg"
+    "image": "6522200d-1d67-4c5a-a84c-1aca34e17635.png"
   },
   {
     "id": "2e05199d-2f15-4a2e-a2d3-57f01bab89e0",
@@ -2461,7 +2461,7 @@
     "index": "19",
     "Text": "When you play a unit from your base, this Unit gains +5/+0 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "2e05199d-2f15-4a2e-a2d3-57f01bab89e0.jpg"
+    "image": "2e05199d-2f15-4a2e-a2d3-57f01bab89e0.png"
   },
   {
     "id": "7362f6c4-00a2-4140-abf1-a16c8b3b0baa",
@@ -2483,7 +2483,7 @@
     "index": "1A",
     "Text": "Pay 1 EP: If this unit is in combat, it gains +1/+0 this combat.",
     "set_id": "Set 1",
-    "image": "7362f6c4-00a2-4140-abf1-a16c8b3b0baa.jpg"
+    "image": "7362f6c4-00a2-4140-abf1-a16c8b3b0baa.png"
   },
   {
     "id": "17dd400b-8615-4836-85ec-566e63352737",
@@ -2505,7 +2505,7 @@
     "index": "1v",
     "Text": "When you play a Unit from your base, this Unit gains +5/+0 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "17dd400b-8615-4836-85ec-566e63352737.jpg"
+    "image": "17dd400b-8615-4836-85ec-566e63352737.png"
   },
   {
     "id": "f9f341d3-388e-423b-9458-9a088da061a3",
@@ -2527,7 +2527,7 @@
     "index": "S",
     "Text": "Search your deck for 1 “Bracer Guild” card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 1",
-    "image": "f9f341d3-388e-423b-9458-9a088da061a3.jpg"
+    "image": "f9f341d3-388e-423b-9458-9a088da061a3.png"
   },
   {
     "id": "095d4c8e-2c8a-4716-907a-ef075a5c9b10",
@@ -2549,7 +2549,7 @@
     "index": "I",
     "Text": "When this unit is Stunned, return it to your hand.",
     "set_id": "Set 1",
-    "image": "095d4c8e-2c8a-4716-907a-ef075a5c9b10.jpg"
+    "image": "095d4c8e-2c8a-4716-907a-ef075a5c9b10.png"
   },
   {
     "id": "a57f72a2-bf58-4611-ae92-d6527a73483c",
@@ -2571,7 +2571,7 @@
     "index": "G",
     "Text": "On Play: Declare 1 card name. This card gains +5/+5 when attacking a Unit with the declared card name.",
     "set_id": "Set 1",
-    "image": "a57f72a2-bf58-4611-ae92-d6527a73483c.jpg"
+    "image": "a57f72a2-bf58-4611-ae92-d6527a73483c.png"
   },
   {
     "id": "7d770bc1-4eac-414c-aa50-d1755524593f",
@@ -2593,7 +2593,7 @@
     "index": "H",
     "Text": "On play: Rebuild 1 target opponent's Base card.",
     "set_id": "Set 1",
-    "image": "7d770bc1-4eac-414c-aa50-d1755524593f.jpg"
+    "image": "7d770bc1-4eac-414c-aa50-d1755524593f.png"
   },
   {
     "id": "46210feb-d565-452e-838c-460d33f82291",
@@ -2615,7 +2615,7 @@
     "index": "1s",
     "Text": "This card is also treated as a \"Crossbell Police\" card. When this unit deals overkill damage, stun 1 target Unit your opponent controls.",
     "set_id": "Set 1",
-    "image": "46210feb-d565-452e-838c-460d33f82291.jpg"
+    "image": "46210feb-d565-452e-838c-460d33f82291.png"
   },
   {
     "id": "7db8a865-250a-4c62-9227-77b27aa317fa",
@@ -2637,7 +2637,7 @@
     "index": "1t",
     "Text": "This Unit can attack Units with [Covert Action]. This Unit gains +2/+2 when attacking a Unit with [Covert Action]",
     "set_id": "Set 1",
-    "image": "7db8a865-250a-4c62-9227-77b27aa317fa.jpg"
+    "image": "7db8a865-250a-4c62-9227-77b27aa317fa.png"
   },
   {
     "id": "f740a25d-775d-463c-92d7-b13551e3436d",
@@ -2659,7 +2659,7 @@
     "index": "1u",
     "Text": "This card is also treated as a \"Crossbell Police\" card. Tap 1 Base: Target Unit you control gains [Covert Action] until the end of the turn.",
     "set_id": "Set 1",
-    "image": "f740a25d-775d-463c-92d7-b13551e3436d.jpg"
+    "image": "f740a25d-775d-463c-92d7-b13551e3436d.png"
   },
   {
     "id": "5b5b6c54-f57d-4ee6-9fd8-807c3e26946b",
@@ -2681,7 +2681,7 @@
     "index": "18",
     "Text": "On Play: Target unit gains +3/+3 until the end of the turn.",
     "set_id": "Set 1",
-    "image": "5b5b6c54-f57d-4ee6-9fd8-807c3e26946b.jpg"
+    "image": "5b5b6c54-f57d-4ee6-9fd8-807c3e26946b.png"
   },
   {
     "id": "0cbe0121-ca13-4e93-852b-954472243f92",
@@ -2703,7 +2703,7 @@
     "index": "z",
     "Text": "",
     "set_id": "Set 1",
-    "image": "0cbe0121-ca13-4e93-852b-954472243f92.jpg"
+    "image": "0cbe0121-ca13-4e93-852b-954472243f92.png"
   },
   {
     "id": "187a4ac9-4330-4f66-9fcc-5372b9917761",
@@ -2725,6 +2725,6 @@
     "index": "10",
     "Text": "",
     "set_id": "Set 1",
-    "image": "187a4ac9-4330-4f66-9fcc-5372b9917761.jpg"
+    "image": "187a4ac9-4330-4f66-9fcc-5372b9917761.png"
   }
 ]

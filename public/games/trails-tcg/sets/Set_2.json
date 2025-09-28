@@ -19,7 +19,7 @@
     "index": "3o",
     "Text": "■Tap: Discard 1 card: Gain 2 bond, then if you discarded “Thors Military Academy” card, draw 1 card.",
     "set_id": "Set 2",
-    "image": "e7468c0e-fb3a-4e56-b47b-3a85f71fa4ee.jpg"
+    "image": "e7468c0e-fb3a-4e56-b47b-3a85f71fa4ee.png"
   },
   {
     "id": "fc9c2d4c-8301-4c10-aaa7-a924a641ff68",
@@ -41,7 +41,7 @@
     "index": "2N",
     "Text": "■ This Unit must attack if able. ■ At the start of the combat phase, you become the initiative player (you take the first action).",
     "set_id": "Set 2",
-    "image": "fc9c2d4c-8301-4c10-aaa7-a924a641ff68.jpg"
+    "image": "fc9c2d4c-8301-4c10-aaa7-a924a641ff68.png"
   },
   {
     "id": "d29faab5-ffb3-434c-8911-6b733c82ba0f",
@@ -63,7 +63,7 @@
     "index": "2O",
     "Text": "",
     "set_id": "Set 2",
-    "image": "d29faab5-ffb3-434c-8911-6b733c82ba0f.jpg"
+    "image": "d29faab5-ffb3-434c-8911-6b733c82ba0f.png"
   },
   {
     "id": "b2501948-5762-4262-b929-9192b730c025",
@@ -85,7 +85,7 @@
     "index": "2Q",
     "Text": "■On Play: Search your deck for an Item card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 2",
-    "image": "b2501948-5762-4262-b929-9192b730c025.jpg"
+    "image": "b2501948-5762-4262-b929-9192b730c025.png"
   },
   {
     "id": "52177870-6cbc-4c2a-93b0-41781002c99a",
@@ -107,7 +107,7 @@
     "index": "2j",
     "Text": "■ When this Unit scrum attacks, return this Unit to the hand. If you do, search your deck for an “Erebonian Empire” card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 2",
-    "image": "52177870-6cbc-4c2a-93b0-41781002c99a.jpg"
+    "image": "52177870-6cbc-4c2a-93b0-41781002c99a.png"
   },
   {
     "id": "9bebace8-747f-4da7-bd5f-c0466442703b",
@@ -129,7 +129,7 @@
     "index": "2P",
     "Text": "■ If you control another “Liberl Kingdom” Unit on your field that is not stunned, this card cannot be the target for an attack. ■ Other “Liberl Kingdom” Units you control gain +2/+2.",
     "set_id": "Set 2",
-    "image": "9bebace8-747f-4da7-bd5f-c0466442703b.jpg"
+    "image": "9bebace8-747f-4da7-bd5f-c0466442703b.png"
   },
   {
     "id": "0870c7e5-f9e7-4f62-bd6d-01186bcf55a2",
@@ -151,7 +151,7 @@
     "index": "20",
     "Text": "■Tap: Your opponent loses 3 bond.",
     "set_id": "Set 2",
-    "image": "0870c7e5-f9e7-4f62-bd6d-01186bcf55a2.jpg"
+    "image": "0870c7e5-f9e7-4f62-bd6d-01186bcf55a2.png"
   },
   {
     "id": "66a1da7e-6e13-4110-a4ca-c3d8801b1ef1",
@@ -173,7 +173,7 @@
     "index": "2K",
     "Text": "■Tap: Your opponent loses 3 bond.",
     "set_id": "Set 2",
-    "image": "66a1da7e-6e13-4110-a4ca-c3d8801b1ef1.jpg"
+    "image": "66a1da7e-6e13-4110-a4ca-c3d8801b1ef1.png"
   },
   {
     "id": "bb420e4e-c7c6-46d0-9d35-96238bd95ccb",
@@ -195,7 +195,7 @@
     "index": "3P",
     "Text": "■ Discard 1 Item card: Stun 1 target Unit with CP cost 3 or less.",
     "set_id": "Set 2",
-    "image": "bb420e4e-c7c6-46d0-9d35-96238bd95ccb.jpg"
+    "image": "bb420e4e-c7c6-46d0-9d35-96238bd95ccb.png"
   },
   {
     "id": "902e71e5-db7e-4302-943c-1d3ce709191c",
@@ -217,7 +217,7 @@
     "index": "3j",
     "Text": "Target 1 stunned Unit. You may discard 1 “Erebonian Empire” card or tap an untapped Unit you control. If you do, recover that target.",
     "set_id": "Set 2",
-    "image": "902e71e5-db7e-4302-943c-1d3ce709191c.jpg"
+    "image": "902e71e5-db7e-4302-943c-1d3ce709191c.png"
   },
   {
     "id": "9da01ede-c48f-48b4-b3b7-3e2b4cbd69f4",
@@ -239,7 +239,7 @@
     "index": "3T",
     "Text": "■Tap: Two target Units you control can scrum attack or support as if they shared an affiliation (even if they do not).",
     "set_id": "Set 2",
-    "image": "9da01ede-c48f-48b4-b3b7-3e2b4cbd69f4.jpg"
+    "image": "9da01ede-c48f-48b4-b3b7-3e2b4cbd69f4.png"
   },
   {
     "id": "c528615c-513d-4605-acc2-e30a4938372b",
@@ -261,7 +261,7 @@
     "index": "3U",
     "Text": "■ Units you control gain “■ Loyalty - While “Alicia II” is on your field, this Unit gains +2/+2.”",
     "set_id": "Set 2",
-    "image": "c528615c-513d-4605-acc2-e30a4938372b.jpg"
+    "image": "c528615c-513d-4605-acc2-e30a4938372b.png"
   },
   {
     "id": "487944bb-bec7-4076-a227-d57d16f7bb73",
@@ -283,7 +283,7 @@
     "index": "3x",
     "Text": "■ When you play this Base, choose 2 affiliations represented among the cards on your field. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation). ■ Units you control with [Kinship] are treated as if they had all affiliations.",
     "set_id": "Set 2",
-    "image": "487944bb-bec7-4076-a227-d57d16f7bb73.jpg"
+    "image": "487944bb-bec7-4076-a227-d57d16f7bb73.png"
   },
   {
     "id": "d9bfab6b-b24e-4320-b67b-033660851f2e",
@@ -305,7 +305,7 @@
     "index": "2T",
     "Text": "■ Loyalty - While “Alicia II” is on your field, this Unit gains +1/+1 for each card in your hand.",
     "set_id": "Set 2",
-    "image": "d9bfab6b-b24e-4320-b67b-033660851f2e.jpg"
+    "image": "d9bfab6b-b24e-4320-b67b-033660851f2e.png"
   },
   {
     "id": "e8a75663-daeb-48ff-9eb1-fc9b596470aa",
@@ -327,7 +327,7 @@
     "index": "3q",
     "Text": "■Tap: Choose a card name. Treat effects that apply when that named card is on your field as if it were on your field until the end of the turn (even if you do not control that card).",
     "set_id": "Set 2",
-    "image": "e8a75663-daeb-48ff-9eb1-fc9b596470aa.jpg"
+    "image": "e8a75663-daeb-48ff-9eb1-fc9b596470aa.png"
   },
   {
     "id": "3938067f-076d-4391-be8d-4fd7bffe58db",
@@ -349,7 +349,7 @@
     "index": "3h",
     "Text": "Your Units gain “■Tap: Your opponent taps one untapped Unit they control (their choice).” until the end of the turn.",
     "set_id": "Set 2",
-    "image": "3938067f-076d-4391-be8d-4fd7bffe58db.jpg"
+    "image": "3938067f-076d-4391-be8d-4fd7bffe58db.png"
   },
   {
     "id": "41e8f681-4904-45ea-98fb-05273869a4b2",
@@ -371,7 +371,7 @@
     "index": "3e",
     "Text": "You may discard 1 card. If you do, search your deck for up to 2 cards with the same name but different sub names as the discarded card and each other, reveal them, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 2",
-    "image": "41e8f681-4904-45ea-98fb-05273869a4b2.jpg"
+    "image": "41e8f681-4904-45ea-98fb-05273869a4b2.png"
   },
   {
     "id": "bac59bdb-2773-4203-830c-2949c3b886cc",
@@ -393,7 +393,7 @@
     "index": "2s",
     "Text": "■ Loyalty - While you have “Giliath Osborne” on your field, this Unit gains “■Tap: Kill 1 target stunned Unit.”",
     "set_id": "Set 2",
-    "image": "bac59bdb-2773-4203-830c-2949c3b886cc.jpg"
+    "image": "bac59bdb-2773-4203-830c-2949c3b886cc.png"
   },
   {
     "id": "80f32848-53bb-40bc-bef0-e17cc232e707",
@@ -415,7 +415,7 @@
     "index": "2t",
     "Text": "■ When this attacking Unit stuns another Unit, kill that Unit if this card was not scrum attacking.",
     "set_id": "Set 2",
-    "image": "80f32848-53bb-40bc-bef0-e17cc232e707.jpg"
+    "image": "80f32848-53bb-40bc-bef0-e17cc232e707.png"
   },
   {
     "id": "92f2e253-a62b-40ca-a1c2-488b92e0deea",
@@ -437,7 +437,7 @@
     "index": "3b",
     "Text": "Untap all “Thors Military Academy” Units you control that have scrum attacked this turn, and they cannot be overkilled for the rest of the turn.",
     "set_id": "Set 2",
-    "image": "92f2e253-a62b-40ca-a1c2-488b92e0deea.jpg"
+    "image": "92f2e253-a62b-40ca-a1c2-488b92e0deea.png"
   },
   {
     "id": "d3600d36-b598-4eac-89e1-3630444faa83",
@@ -459,7 +459,7 @@
     "index": "3k",
     "Text": "If you have 3 or more stunned Units, untap 1 target Unit.",
     "set_id": "Set 2",
-    "image": "d3600d36-b598-4eac-89e1-3630444faa83.jpg"
+    "image": "d3600d36-b598-4eac-89e1-3630444faa83.png"
   },
   {
     "id": "45d07bb3-5c0f-464f-aab8-90cfd3353da5",
@@ -481,7 +481,7 @@
     "index": "26",
     "Text": "■Tap: Stun 1 target Unit with CP cost less than or equal to the number of “Thors Military Academy” Units in your Trail.",
     "set_id": "Set 2",
-    "image": "45d07bb3-5c0f-464f-aab8-90cfd3353da5.jpg"
+    "image": "45d07bb3-5c0f-464f-aab8-90cfd3353da5.png"
   },
   {
     "id": "951da1bb-44ed-42bb-ad39-eb30b3747e8e",
@@ -503,7 +503,7 @@
     "index": "3C",
     "Text": "■ Your opponent cannot play Arts.",
     "set_id": "Set 2",
-    "image": "951da1bb-44ed-42bb-ad39-eb30b3747e8e.jpg"
+    "image": "951da1bb-44ed-42bb-ad39-eb30b3747e8e.png"
   },
   {
     "id": "16674f66-82e0-42df-a7e3-18737967c261",
@@ -525,7 +525,7 @@
     "index": "2X",
     "Text": "■ Loyalty -Target 1 Item in your Trail and add it to your hand if “Tita Russell” is on your field.",
     "set_id": "Set 2",
-    "image": "16674f66-82e0-42df-a7e3-18737967c261.jpg"
+    "image": "16674f66-82e0-42df-a7e3-18737967c261.png"
   },
   {
     "id": "0cbd3b4f-74b5-48e1-9daf-08044508f931",
@@ -547,7 +547,7 @@
     "index": "2v",
     "Text": "■ When this Unit scrum attacks, you may rebuild 1 target base.",
     "set_id": "Set 2",
-    "image": "0cbd3b4f-74b5-48e1-9daf-08044508f931.jpg"
+    "image": "0cbd3b4f-74b5-48e1-9daf-08044508f931.png"
   },
   {
     "id": "ebb3b0b0-87ad-4a4c-a6c1-6c4857af6609",
@@ -569,7 +569,7 @@
     "index": "3g",
     "Text": "All Units lose all affiliations except their original affiliations for the rest of the turn.",
     "set_id": "Set 2",
-    "image": "ebb3b0b0-87ad-4a4c-a6c1-6c4857af6609.jpg"
+    "image": "ebb3b0b0-87ad-4a4c-a6c1-6c4857af6609.png"
   },
   {
     "id": "20236ec8-96df-4d64-9bef-4865c52a2274",
@@ -591,7 +591,7 @@
     "index": "35",
     "Text": "■ When you play an Item, your opponent loses 3 bond.",
     "set_id": "Set 2",
-    "image": "20236ec8-96df-4d64-9bef-4865c52a2274.jpg"
+    "image": "20236ec8-96df-4d64-9bef-4865c52a2274.png"
   },
   {
     "id": "0501c48c-82b4-4bc6-959d-9e31bc7a3c44",
@@ -613,7 +613,7 @@
     "index": "2b",
     "Text": "■On Play: Reveal the top card of your deck. You may add that card to your hand if it is not a Unit.",
     "set_id": "Set 2",
-    "image": "0501c48c-82b4-4bc6-959d-9e31bc7a3c44.jpg"
+    "image": "0501c48c-82b4-4bc6-959d-9e31bc7a3c44.png"
   },
   {
     "id": "249cc049-fb77-43c5-b535-41a19ab0f71e",
@@ -635,7 +635,7 @@
     "index": "3y",
     "Text": "■ Loyalty - Tap: Draw 1 card. Then if you control no Units with “Russell” in its name on your field, discard 1 card.",
     "set_id": "Set 2",
-    "image": "249cc049-fb77-43c5-b535-41a19ab0f71e.jpg"
+    "image": "249cc049-fb77-43c5-b535-41a19ab0f71e.png"
   },
   {
     "id": "25c66660-d659-4137-bcb7-febf86e17d6a",
@@ -657,7 +657,7 @@
     "index": "38",
     "Text": "■ Discard 1 “Ouroboros” card: Untap this card. Activate only once each turn.",
     "set_id": "Set 2",
-    "image": "25c66660-d659-4137-bcb7-febf86e17d6a.jpg"
+    "image": "25c66660-d659-4137-bcb7-febf86e17d6a.png"
   },
   {
     "id": "bb716992-5352-488f-985e-34dd5d788f4d",
@@ -679,7 +679,7 @@
     "index": "2m",
     "Text": "■On Play: Draw 1 card. ■On Play: Loyalty - Draw an additional card if “Rean Schwarzer” is on your field.",
     "set_id": "Set 2",
-    "image": "bb716992-5352-488f-985e-34dd5d788f4d.jpg"
+    "image": "bb716992-5352-488f-985e-34dd5d788f4d.png"
   },
   {
     "id": "f73ddada-f50b-42b7-bd0e-0e1d48a29e2c",
@@ -701,7 +701,7 @@
     "index": "23",
     "Text": "■ When this Unit is stunned, return it to the hand.",
     "set_id": "Set 2",
-    "image": "f73ddada-f50b-42b7-bd0e-0e1d48a29e2c.jpg"
+    "image": "f73ddada-f50b-42b7-bd0e-0e1d48a29e2c.png"
   },
   {
     "id": "4b0297c9-af99-4615-9917-820c55128381",
@@ -723,7 +723,7 @@
     "index": "21",
     "Text": "■On Play: Reveal the top card of your deck. If it is a “Thors Military Academy” card, you may add it to your hand (leave that card at the top of your deck if it is not).",
     "set_id": "Set 2",
-    "image": "4b0297c9-af99-4615-9917-820c55128381.jpg"
+    "image": "4b0297c9-af99-4615-9917-820c55128381.png"
   },
   {
     "id": "808688ba-6aa6-439d-a215-b5360a121007",
@@ -745,7 +745,7 @@
     "index": "22",
     "Text": "■ When this Unit attacks, tap the defending Unit.",
     "set_id": "Set 2",
-    "image": "808688ba-6aa6-439d-a215-b5360a121007.jpg"
+    "image": "808688ba-6aa6-439d-a215-b5360a121007.png"
   },
   {
     "id": "e39bfaca-150c-4753-8f68-c77b530efb8f",
@@ -767,7 +767,7 @@
     "index": "2I",
     "Text": "■On Play: Reveal the top card of your deck. If it is a “Thors Military Academy” card, you may add it to your hand (leave that card at the top of your deck if it is not).",
     "set_id": "Set 2",
-    "image": "e39bfaca-150c-4753-8f68-c77b530efb8f.jpg"
+    "image": "e39bfaca-150c-4753-8f68-c77b530efb8f.png"
   },
   {
     "id": "5ea42e8d-271d-4af8-b588-96d83d952246",
@@ -789,7 +789,7 @@
     "index": "2i",
     "Text": "■ When this Unit scrum attacks, you may draw 1 card, then discard 1 card.",
     "set_id": "Set 2",
-    "image": "5ea42e8d-271d-4af8-b588-96d83d952246.jpg"
+    "image": "5ea42e8d-271d-4af8-b588-96d83d952246.png"
   },
   {
     "id": "60223ab6-bcee-4039-907d-98b87996a29d",
@@ -811,7 +811,7 @@
     "index": "2R",
     "Text": "■ Loyalty - While “Tita Russell” is on your field, this Unit gains “■Tap: Reveal the top 4 cards of your deck. Add 1 Item card among those cards to your hand, then place the rest on the bottom of the deck in any order.”",
     "set_id": "Set 2",
-    "image": "60223ab6-bcee-4039-907d-98b87996a29d.jpg"
+    "image": "60223ab6-bcee-4039-907d-98b87996a29d.png"
   },
   {
     "id": "ac795dbe-0371-4a87-9821-33130c8abbb4",
@@ -833,7 +833,7 @@
     "index": "28",
     "Text": "■ “Thors Military Academy” Units you control gain +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "ac795dbe-0371-4a87-9821-33130c8abbb4.jpg"
+    "image": "ac795dbe-0371-4a87-9821-33130c8abbb4.png"
   },
   {
     "id": "f7154d25-8bbc-4be7-a9c8-14c35ac60809",
@@ -855,7 +855,7 @@
     "index": "29",
     "Text": "■ Units you control gain +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "f7154d25-8bbc-4be7-a9c8-14c35ac60809.jpg"
+    "image": "f7154d25-8bbc-4be7-a9c8-14c35ac60809.png"
   },
   {
     "id": "56379001-b403-4975-b4c8-82fdec1d0299",
@@ -877,7 +877,7 @@
     "index": "2J",
     "Text": "■ “Thors Military Academy” Units you control gain +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "56379001-b403-4975-b4c8-82fdec1d0299.jpg"
+    "image": "56379001-b403-4975-b4c8-82fdec1d0299.png"
   },
   {
     "id": "b4a0c392-b482-43d6-8a7c-4c3bc5dfbb53",
@@ -899,7 +899,7 @@
     "index": "2L",
     "Text": "■ “Thors Military Academy” Units you control gain +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "b4a0c392-b482-43d6-8a7c-4c3bc5dfbb53.jpg"
+    "image": "b4a0c392-b482-43d6-8a7c-4c3bc5dfbb53.png"
   },
   {
     "id": "56dcea79-82c4-4b5c-bb4a-bc86e043ba9d",
@@ -921,7 +921,7 @@
     "index": "24",
     "Text": "■ If this Unit is stunned when attacking, you do not take stun damage from that stun.",
     "set_id": "Set 2",
-    "image": "56dcea79-82c4-4b5c-bb4a-bc86e043ba9d.jpg"
+    "image": "56dcea79-82c4-4b5c-bb4a-bc86e043ba9d.png"
   },
   {
     "id": "657ca919-504b-4c3f-af4c-fa2efc2c66ac",
@@ -943,7 +943,7 @@
     "index": "25",
     "Text": "■ When another Unit you control attacks, that Unit gains +1/+1 until the end of the turn.",
     "set_id": "Set 2",
-    "image": "657ca919-504b-4c3f-af4c-fa2efc2c66ac.jpg"
+    "image": "657ca919-504b-4c3f-af4c-fa2efc2c66ac.png"
   },
   {
     "id": "3e1a8fe2-3d36-4e6a-bd36-9e9561f8f6aa",
@@ -965,7 +965,7 @@
     "index": "2e",
     "Text": "■ Loyalty - While “Alicia II” is on your field, this Unit gains “■ Discard 1 card: 1 Target Unit gains +1/+1 until the end of the turn.”",
     "set_id": "Set 2",
-    "image": "3e1a8fe2-3d36-4e6a-bd36-9e9561f8f6aa.jpg"
+    "image": "3e1a8fe2-3d36-4e6a-bd36-9e9561f8f6aa.png"
   },
   {
     "id": "8a535a14-d6e7-49b0-b71c-428afce4a4c4",
@@ -987,7 +987,7 @@
     "index": "2q",
     "Text": "■Add 1 target Event on your Trail to your hand.",
     "set_id": "Set 2",
-    "image": "8a535a14-d6e7-49b0-b71c-428afce4a4c4.jpg"
+    "image": "8a535a14-d6e7-49b0-b71c-428afce4a4c4.png"
   },
   {
     "id": "2a86e4ce-083b-441d-be53-b56e8f77fe71",
@@ -1009,7 +1009,7 @@
     "index": "2r",
     "Text": "■ Your opponent must play with their hand revealed. ■: Your opponent discards 1 card (of their choice).",
     "set_id": "Set 2",
-    "image": "2a86e4ce-083b-441d-be53-b56e8f77fe71.jpg"
+    "image": "2a86e4ce-083b-441d-be53-b56e8f77fe71.png"
   },
   {
     "id": "7a79c8f7-e410-40e1-abca-c68d6ff153f8",
@@ -1031,7 +1031,7 @@
     "index": "3W",
     "Text": "■On Play:1 Target card in play loses all crafts until this card leaves play.",
     "set_id": "Set 2",
-    "image": "7a79c8f7-e410-40e1-abca-c68d6ff153f8.jpg"
+    "image": "7a79c8f7-e410-40e1-abca-c68d6ff153f8.png"
   },
   {
     "id": "e484e359-c034-428a-b195-5104a73fe283",
@@ -1053,7 +1053,7 @@
     "index": "3p",
     "Text": "■ Treat effects that apply when “Alicia II” or “Klaudia von Auslese” are on your field as if they were on your field (even if you do not control those cards). ■ “Liberl Kingdom” Units you control gain +0/+1.",
     "set_id": "Set 2",
-    "image": "e484e359-c034-428a-b195-5104a73fe283.jpg"
+    "image": "e484e359-c034-428a-b195-5104a73fe283.png"
   },
   {
     "id": "944bfb55-74b7-4870-ad9a-566c475c46da",
@@ -1075,7 +1075,7 @@
     "index": "2w",
     "Text": "■ Loyalty - While you have “Giliath Osborne” on your field, this Unit gains +1/+0. ■ This Unit gains +1/+0 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "944bfb55-74b7-4870-ad9a-566c475c46da.jpg"
+    "image": "944bfb55-74b7-4870-ad9a-566c475c46da.png"
   },
   {
     "id": "0ba9a196-3814-4ffd-97fe-fe6b92ca545c",
@@ -1097,7 +1097,7 @@
     "index": "3m",
     "Text": "■ When you play this Base, choose 2 affiliations represented among the cards on your field. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation). ■ When one or more “Erebonian Empire” Units you control scrum attacks, you may draw 1 card.",
     "set_id": "Set 2",
-    "image": "0ba9a196-3814-4ffd-97fe-fe6b92ca545c.jpg"
+    "image": "0ba9a196-3814-4ffd-97fe-fe6b92ca545c.png"
   },
   {
     "id": "544792e3-8982-4889-aaac-135d89c5f616",
@@ -1119,7 +1119,7 @@
     "index": "2k",
     "Text": "■ Discard an “Erebonian Empire” card: Target Unit gains +1/+1 until the end of the turn.",
     "set_id": "Set 2",
-    "image": "544792e3-8982-4889-aaac-135d89c5f616.jpg"
+    "image": "544792e3-8982-4889-aaac-135d89c5f616.png"
   },
   {
     "id": "adaa22e3-b5f2-4f46-be3b-b686c96bbb3f",
@@ -1141,7 +1141,7 @@
     "index": "3i",
     "Text": "Loyalty - Search your deck for an “Erebonian Empire” card, reveal it, and add it to your hand. Then, shuffle your deck. Then, if “Giliath Osborne” is on your field, you may put 1 Unit with CP cost 2 or less from your hand into play.",
     "set_id": "Set 2",
-    "image": "adaa22e3-b5f2-4f46-be3b-b686c96bbb3f.jpg"
+    "image": "adaa22e3-b5f2-4f46-be3b-b686c96bbb3f.png"
   },
   {
     "id": "dd400c64-110c-4aa5-82f3-0b98439ef1a8",
@@ -1163,7 +1163,7 @@
     "index": "3r",
     "Text": "■ When you play this Base, choose 2 affiliations represented among the cards on your field. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation). ■ “Thors Military Academy” Units you control gain +1/+0 during a scrum attack.",
     "set_id": "Set 2",
-    "image": "dd400c64-110c-4aa5-82f3-0b98439ef1a8.jpg"
+    "image": "dd400c64-110c-4aa5-82f3-0b98439ef1a8.png"
   },
   {
     "id": "64824964-9ccd-4e3b-8550-522ae36d1281",
@@ -1185,7 +1185,7 @@
     "index": "34",
     "Text": "■ While you have 1 or more Items in your Trail, this Unit gains +2/+2.",
     "set_id": "Set 2",
-    "image": "64824964-9ccd-4e3b-8550-522ae36d1281.jpg"
+    "image": "64824964-9ccd-4e3b-8550-522ae36d1281.png"
   },
   {
     "id": "662477cc-381a-428a-863f-18f5bc0ad602",
@@ -1207,7 +1207,7 @@
     "index": "2f",
     "Text": "■ Loyalty - While “Klaudia von Auslese” is on your field, this Unit gains “■ When this attacking Unit stuns another Unit, kill that Unit.”",
     "set_id": "Set 2",
-    "image": "662477cc-381a-428a-863f-18f5bc0ad602.jpg"
+    "image": "662477cc-381a-428a-863f-18f5bc0ad602.png"
   },
   {
     "id": "64867005-a2ed-44bc-b1f7-3e315cf60333",
@@ -1229,7 +1229,7 @@
     "index": "2g",
     "Text": "■ Loyalty - While “Klaudia von Auslese” is on your field, this Unit gains [Martial Arts].",
     "set_id": "Set 2",
-    "image": "64867005-a2ed-44bc-b1f7-3e315cf60333.jpg"
+    "image": "64867005-a2ed-44bc-b1f7-3e315cf60333.png"
   },
   {
     "id": "40df9ec3-56af-4ba6-a274-647db1e898c2",
@@ -1251,7 +1251,7 @@
     "index": "2C",
     "Text": "■ While this card is attacking, this Unit gains +1/+1 for each card in your base.",
     "set_id": "Set 2",
-    "image": "40df9ec3-56af-4ba6-a274-647db1e898c2.jpg"
+    "image": "40df9ec3-56af-4ba6-a274-647db1e898c2.png"
   },
   {
     "id": "e9c2334c-edee-4f2f-bc2a-89cc1eaf822c",
@@ -1273,7 +1273,7 @@
     "index": "2D",
     "Text": "■ While this Unit is untapped, Units you control with [Kinship] gain +2/+0.",
     "set_id": "Set 2",
-    "image": "e9c2334c-edee-4f2f-bc2a-89cc1eaf822c.jpg"
+    "image": "e9c2334c-edee-4f2f-bc2a-89cc1eaf822c.png"
   },
   {
     "id": "85997eb6-9551-49e3-b51d-a27693e24e39",
@@ -1295,7 +1295,7 @@
     "index": "2U",
     "Text": "■ Loyalty -Draw 1 card if you have “Alan Richard” on your field.",
     "set_id": "Set 2",
-    "image": "85997eb6-9551-49e3-b51d-a27693e24e39.jpg"
+    "image": "85997eb6-9551-49e3-b51d-a27693e24e39.png"
   },
   {
     "id": "c886bae6-ad5a-4d95-a282-290e3cc73200",
@@ -1317,7 +1317,7 @@
     "index": "2V",
     "Text": "■ Loyalty - While you have “Alan Richard” on your field, this Unit gains “■Tap: Stun 1 target Unit with CP cost 2 or less.”",
     "set_id": "Set 2",
-    "image": "c886bae6-ad5a-4d95-a282-290e3cc73200.jpg"
+    "image": "c886bae6-ad5a-4d95-a282-290e3cc73200.png"
   },
   {
     "id": "a243a644-661c-47c7-b336-13358b890a1c",
@@ -1339,7 +1339,7 @@
     "index": "2W",
     "Text": "■ When this Unit deals overkill damage, draw 1 card.",
     "set_id": "Set 2",
-    "image": "a243a644-661c-47c7-b336-13358b890a1c.jpg"
+    "image": "a243a644-661c-47c7-b336-13358b890a1c.png"
   },
   {
     "id": "0cd86b82-6aab-456b-9af8-a9a56a46b030",
@@ -1361,7 +1361,7 @@
     "index": "32",
     "Text": "■ Sacrifice 1 Item you control: Tap 1 target Unit.",
     "set_id": "Set 2",
-    "image": "0cd86b82-6aab-456b-9af8-a9a56a46b030.jpg"
+    "image": "0cd86b82-6aab-456b-9af8-a9a56a46b030.png"
   },
   {
     "id": "bbf0db6b-b6e4-4689-a75d-8ad0f478f7f2",
@@ -1383,7 +1383,7 @@
     "index": "33",
     "Text": "■ When this attacking Unit stuns another Unit, tap 1 target Unit your opponent controls.",
     "set_id": "Set 2",
-    "image": "bbf0db6b-b6e4-4689-a75d-8ad0f478f7f2.jpg"
+    "image": "bbf0db6b-b6e4-4689-a75d-8ad0f478f7f2.png"
   },
   {
     "id": "c2964815-c333-47c9-98f4-cf006c38bdaf",
@@ -1405,7 +1405,7 @@
     "index": "2E",
     "Text": "",
     "set_id": "Set 2",
-    "image": "c2964815-c333-47c9-98f4-cf006c38bdaf.jpg"
+    "image": "c2964815-c333-47c9-98f4-cf006c38bdaf.png"
   },
   {
     "id": "325411eb-def3-40fb-ab68-25b0b8c1ec92",
@@ -1427,7 +1427,7 @@
     "index": "2F",
     "Text": "■ When this Unit stuns a Unit without [Martial Arts], target 1 Unit controlled by your opponent with CP cost equal to the stunned card and stun that target.",
     "set_id": "Set 2",
-    "image": "325411eb-def3-40fb-ab68-25b0b8c1ec92.jpg"
+    "image": "325411eb-def3-40fb-ab68-25b0b8c1ec92.png"
   },
   {
     "id": "ae62794b-7378-445e-b89d-3b5285ab3c1e",
@@ -1449,7 +1449,7 @@
     "index": "30",
     "Text": "■ Loyalty - While you have “Giliath Osborne” on your field, this Unit gains “■Tap: Tap 1 target Unit.”",
     "set_id": "Set 2",
-    "image": "ae62794b-7378-445e-b89d-3b5285ab3c1e.jpg"
+    "image": "ae62794b-7378-445e-b89d-3b5285ab3c1e.png"
   },
   {
     "id": "ee96d022-2d8b-41b4-b2ac-434a3b4f8309",
@@ -1471,7 +1471,7 @@
     "index": "31",
     "Text": "■ Loyalty - While you have “Giliath Osborne” on your field, this Unit gains “■Tap:Discard 1 “Erebonian Empire” card: Stun 1 target Unit with CP cost 3 or less.”",
     "set_id": "Set 2",
-    "image": "ee96d022-2d8b-41b4-b2ac-434a3b4f8309.jpg"
+    "image": "ee96d022-2d8b-41b4-b2ac-434a3b4f8309.png"
   },
   {
     "id": "5ea5d090-7100-4619-919a-4a2f6b3440c5",
@@ -1493,7 +1493,7 @@
     "index": "3L",
     "Text": "■On Play: You can discard 1 Unit with [Kinship]. If you didn’t, place this Unit on the bottom of the deck.",
     "set_id": "Set 2",
-    "image": "5ea5d090-7100-4619-919a-4a2f6b3440c5.jpg"
+    "image": "5ea5d090-7100-4619-919a-4a2f6b3440c5.png"
   },
   {
     "id": "d1e5ae93-ec28-4de2-89e3-dea798dd8111",
@@ -1515,7 +1515,7 @@
     "index": "3M",
     "Text": "■ When this Unit stuns another Unit, stun 1 target Unit controlled by your opponent with a CP cost 3 or less.",
     "set_id": "Set 2",
-    "image": "d1e5ae93-ec28-4de2-89e3-dea798dd8111.jpg"
+    "image": "d1e5ae93-ec28-4de2-89e3-dea798dd8111.png"
   },
   {
     "id": "5c5a6474-b929-42ff-bf5c-d7e3c892a95f",
@@ -1537,7 +1537,7 @@
     "index": "3O",
     "Text": "■ When this Unit scrum attacks, draw 1 card.",
     "set_id": "Set 2",
-    "image": "5c5a6474-b929-42ff-bf5c-d7e3c892a95f.jpg"
+    "image": "5c5a6474-b929-42ff-bf5c-d7e3c892a95f.png"
   },
   {
     "id": "2123cc6c-3d75-4d01-8c15-0cffd55f5902",
@@ -1559,7 +1559,7 @@
     "index": "3z",
     "Text": "■ Stunned Units will not be killed and placed on the Trail in the recovery phase.",
     "set_id": "Set 2",
-    "image": "2123cc6c-3d75-4d01-8c15-0cffd55f5902.jpg"
+    "image": "2123cc6c-3d75-4d01-8c15-0cffd55f5902.png"
   },
   {
     "id": "57f4bfff-8f02-4d03-89af-7d2a7b512e9f",
@@ -1581,7 +1581,7 @@
     "index": "3R",
     "Text": "■On Play: Choose a card name and affiliation. This Unit gains that name and affiliation.",
     "set_id": "Set 2",
-    "image": "57f4bfff-8f02-4d03-89af-7d2a7b512e9f.jpg"
+    "image": "57f4bfff-8f02-4d03-89af-7d2a7b512e9f.png"
   },
   {
     "id": "9f8dff69-095b-47b8-bc69-f73270d541c3",
@@ -1603,7 +1603,7 @@
     "index": "2h",
     "Text": "■ When this attacking Unit stuns a tapped Unit, kill that Unit if this card was attacking alone.",
     "set_id": "Set 2",
-    "image": "9f8dff69-095b-47b8-bc69-f73270d541c3.jpg"
+    "image": "9f8dff69-095b-47b8-bc69-f73270d541c3.png"
   },
   {
     "id": "a4c1b2e9-a886-45b4-8f27-2f587ab25b4f",
@@ -1625,7 +1625,7 @@
     "index": "3l",
     "Text": "Recover 1 target stunned “Thors Military Academy” Unit.",
     "set_id": "Set 2",
-    "image": "a4c1b2e9-a886-45b4-8f27-2f587ab25b4f.jpg"
+    "image": "a4c1b2e9-a886-45b4-8f27-2f587ab25b4f.png"
   },
   {
     "id": "f5d37ad5-9896-462a-8c32-17eea1cdb344",
@@ -1647,7 +1647,7 @@
     "index": "2A",
     "Text": "■ When this Unit scrum attacks, the defending Unit must counterattack this Unit if able.",
     "set_id": "Set 2",
-    "image": "f5d37ad5-9896-462a-8c32-17eea1cdb344.jpg"
+    "image": "f5d37ad5-9896-462a-8c32-17eea1cdb344.png"
   },
   {
     "id": "251b4556-f021-460f-97cd-04477bd0bf78",
@@ -1669,7 +1669,7 @@
     "index": "2d",
     "Text": "■ Loyalty - While “Alicia II” is on your field, this Unit gains [Taunt].",
     "set_id": "Set 2",
-    "image": "251b4556-f021-460f-97cd-04477bd0bf78.jpg"
+    "image": "251b4556-f021-460f-97cd-04477bd0bf78.png"
   },
   {
     "id": "42589899-2ae1-4ca1-96bc-2a8f6cdfb82a",
@@ -1691,7 +1691,7 @@
     "index": "39",
     "Text": "■On Play: You can discard 1 “Ouroboros” card. If you didn’t, place this Unit on the bottom of the deck. ■ At the start of the combat phase, tap all of your opponent’s Units.",
     "set_id": "Set 2",
-    "image": "42589899-2ae1-4ca1-96bc-2a8f6cdfb82a.jpg"
+    "image": "42589899-2ae1-4ca1-96bc-2a8f6cdfb82a.png"
   },
   {
     "id": "2b2ce67d-3e6a-481e-ae09-f3cd15d0f988",
@@ -1713,7 +1713,7 @@
     "index": "3E",
     "Text": "■ Sacrifice 1 Item you control: Tap 1 target Unit.",
     "set_id": "Set 2",
-    "image": "2b2ce67d-3e6a-481e-ae09-f3cd15d0f988.jpg"
+    "image": "2b2ce67d-3e6a-481e-ae09-f3cd15d0f988.png"
   },
   {
     "id": "472ac4de-bc46-4213-a8b8-8702b7b12ca1",
@@ -1735,7 +1735,7 @@
     "index": "2B",
     "Text": "■ This Unit gains +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "472ac4de-bc46-4213-a8b8-8702b7b12ca1.jpg"
+    "image": "472ac4de-bc46-4213-a8b8-8702b7b12ca1.png"
   },
   {
     "id": "44ee84c9-e429-461f-8272-f83ac41fd094",
@@ -1757,7 +1757,7 @@
     "index": "2x",
     "Text": "■ Loyalty - While you have “Oliver Lenheim” on your field, this Unit gains [Taunt] and “■ When this attacking Unit stuns another Unit, kill that Unit.”",
     "set_id": "Set 2",
-    "image": "44ee84c9-e429-461f-8272-f83ac41fd094.jpg"
+    "image": "44ee84c9-e429-461f-8272-f83ac41fd094.png"
   },
   {
     "id": "48d9b08d-cae6-4f7a-bce6-405098200659",
@@ -1779,7 +1779,7 @@
     "index": "2y",
     "Text": "■ This Unit gains +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "48d9b08d-cae6-4f7a-bce6-405098200659.jpg"
+    "image": "48d9b08d-cae6-4f7a-bce6-405098200659.png"
   },
   {
     "id": "1a145134-be62-4c93-b49e-ea9b0d95b92c",
@@ -1801,7 +1801,7 @@
     "index": "2c",
     "Text": "■Reveal the top card of your deck. You may add that card to your hand if it is a Unit.",
     "set_id": "Set 2",
-    "image": "1a145134-be62-4c93-b49e-ea9b0d95b92c.jpg"
+    "image": "1a145134-be62-4c93-b49e-ea9b0d95b92c.png"
   },
   {
     "id": "1cccbe02-b0c1-4759-953e-e869f2ce56d1",
@@ -1823,7 +1823,7 @@
     "index": "2n",
     "Text": "■ When this Unit scrum attacks, add 1 target Unit on your Trail to your hand.",
     "set_id": "Set 2",
-    "image": "1cccbe02-b0c1-4759-953e-e869f2ce56d1.jpg"
+    "image": "1cccbe02-b0c1-4759-953e-e869f2ce56d1.png"
   },
   {
     "id": "e5571321-1e73-4f2d-a2d9-9067a378dd3b",
@@ -1845,7 +1845,7 @@
     "index": "2o",
     "Text": "■ At the start of the combat phase, if you have three or more affiliations represented among the cards you control, your opponent taps one of their untapped Units (their choice).",
     "set_id": "Set 2",
-    "image": "e5571321-1e73-4f2d-a2d9-9067a378dd3b.jpg"
+    "image": "e5571321-1e73-4f2d-a2d9-9067a378dd3b.png"
   },
   {
     "id": "bb0c53d2-9d06-4a0f-ac49-539ad7e90423",
@@ -1867,7 +1867,7 @@
     "index": "2p",
     "Text": "■ Units you control can scrum attack and scrum support as if they shared an affiliation (even if they do not).",
     "set_id": "Set 2",
-    "image": "bb0c53d2-9d06-4a0f-ac49-539ad7e90423.jpg"
+    "image": "bb0c53d2-9d06-4a0f-ac49-539ad7e90423.png"
   },
   {
     "id": "1bb47016-eaef-4dfa-a729-30db392f9a67",
@@ -1889,7 +1889,7 @@
     "index": "3Y",
     "Text": "■1 Target Unit you control gains +2/+2 until this card leaves play. ■ Sacrifice this card: Return the Unit targeted by the prior craft to the hand.",
     "set_id": "Set 2",
-    "image": "1bb47016-eaef-4dfa-a729-30db392f9a67.jpg"
+    "image": "1bb47016-eaef-4dfa-a729-30db392f9a67.png"
   },
   {
     "id": "7f271bf1-a7de-44e2-8947-48c4e2e391e0",
@@ -1911,7 +1911,7 @@
     "index": "3V",
     "Text": "■ Sacrifice this card: 1 Target Unit gains +1/+1 until the end of the turn, then draw 1 card.",
     "set_id": "Set 2",
-    "image": "7f271bf1-a7de-44e2-8947-48c4e2e391e0.jpg"
+    "image": "7f271bf1-a7de-44e2-8947-48c4e2e391e0.png"
   },
   {
     "id": "6c23ab70-82b7-4325-ac17-714ef130ed1a",
@@ -1933,7 +1933,7 @@
     "index": "3Z",
     "Text": "■ “Erebonian Empire” Units you control gain +2/+2 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "6c23ab70-82b7-4325-ac17-714ef130ed1a.jpg"
+    "image": "6c23ab70-82b7-4325-ac17-714ef130ed1a.png"
   },
   {
     "id": "11e18b32-25eb-48f9-9bca-722d1fdbdab8",
@@ -1955,7 +1955,7 @@
     "index": "3t",
     "Text": "■Tap: 1 Target scrum attacking Unit gains +1/+1 this combat.",
     "set_id": "Set 2",
-    "image": "11e18b32-25eb-48f9-9bca-722d1fdbdab8.jpg"
+    "image": "11e18b32-25eb-48f9-9bca-722d1fdbdab8.png"
   },
   {
     "id": "d9ac5d01-f56b-46a3-8ae1-cc28d5899156",
@@ -1977,7 +1977,7 @@
     "index": "2G",
     "Text": "■On Play: You can reveal 1 “Thors Military Academy” card in your hand. If you didn’t, place this Unit on the bottom of the deck.",
     "set_id": "Set 2",
-    "image": "d9ac5d01-f56b-46a3-8ae1-cc28d5899156.jpg"
+    "image": "d9ac5d01-f56b-46a3-8ae1-cc28d5899156.png"
   },
   {
     "id": "1e98abbf-f4f9-4359-812c-db9ac02daed0",
@@ -1999,7 +1999,7 @@
     "index": "2H",
     "Text": "■ Pay 4 bond: Add 1 target Event on your Trail to your hand.",
     "set_id": "Set 2",
-    "image": "1e98abbf-f4f9-4359-812c-db9ac02daed0.jpg"
+    "image": "1e98abbf-f4f9-4359-812c-db9ac02daed0.png"
   },
   {
     "id": "621d797b-1703-4c6b-8e96-0fab008d4f9b",
@@ -2021,7 +2021,7 @@
     "index": "2M",
     "Text": "■On Play: You can reveal 1 “Thors Military Academy” card in your hand. If you didn’t, place this Unit on the bottom of the deck.",
     "set_id": "Set 2",
-    "image": "621d797b-1703-4c6b-8e96-0fab008d4f9b.jpg"
+    "image": "621d797b-1703-4c6b-8e96-0fab008d4f9b.png"
   },
   {
     "id": "21dba403-679e-4474-b954-4a7257190a1a",
@@ -2043,7 +2043,7 @@
     "index": "3a",
     "Text": "■Choose a card name. Treat effects that apply when that named card is on your field as if it were on your field until this card leaves play. ■ Reduce the CP cost to play any Unit with the chosen name by 1.",
     "set_id": "Set 2",
-    "image": "21dba403-679e-4474-b954-4a7257190a1a.jpg"
+    "image": "21dba403-679e-4474-b954-4a7257190a1a.png"
   },
   {
     "id": "a74da877-00e4-4224-88dc-7d7ebf473fec",
@@ -2065,7 +2065,7 @@
     "index": "3S",
     "Text": "■ Loyalty - When this Unit attacks, target 1 Unit your opponent controls with CP cost 4 or less and kill that target if “Lloyd Bannings” is on your field.",
     "set_id": "Set 2",
-    "image": "a74da877-00e4-4224-88dc-7d7ebf473fec.jpg"
+    "image": "a74da877-00e4-4224-88dc-7d7ebf473fec.png"
   },
   {
     "id": "54dd89ad-75cd-4feb-af81-25804c9354e7",
@@ -2087,7 +2087,7 @@
     "index": "3d",
     "Text": "Reveal the top 5 cards of your deck. Add 1 “Liberl Kingdom” card among those cards to your hand, then place the rest on the bottom of the deck in any order.",
     "set_id": "Set 2",
-    "image": "54dd89ad-75cd-4feb-af81-25804c9354e7.jpg"
+    "image": "54dd89ad-75cd-4feb-af81-25804c9354e7.png"
   },
   {
     "id": "699eb3ec-5ac4-4263-8b50-dcbcf94434d6",
@@ -2109,7 +2109,7 @@
     "index": "2S",
     "Text": "■Choose 1 card name. ■ Loyalty - While a “Liberl Kingdom” Unit with that chosen name is on your field and it does not have the sub name [Rank and File], this Unit gains +2/+1.",
     "set_id": "Set 2",
-    "image": "699eb3ec-5ac4-4263-8b50-dcbcf94434d6.jpg"
+    "image": "699eb3ec-5ac4-4263-8b50-dcbcf94434d6.png"
   },
   {
     "id": "e50fa0e4-7372-48c1-bf8c-4b234b8ff3e6",
@@ -2131,7 +2131,7 @@
     "index": "3n",
     "Text": "■ When you play this Base, choose 2 affiliations represented among the cards on your field. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation). ■ “Liberl Kingdom” Units you control gain +1/+0.",
     "set_id": "Set 2",
-    "image": "e50fa0e4-7372-48c1-bf8c-4b234b8ff3e6.jpg"
+    "image": "e50fa0e4-7372-48c1-bf8c-4b234b8ff3e6.png"
   },
   {
     "id": "80b8141d-188e-44ca-b941-33ba69b14a44",
@@ -2153,7 +2153,7 @@
     "index": "2z",
     "Text": "■ Discard 1 “Erebonian Empire” card: Untap this Unit. Activate only once each turn.",
     "set_id": "Set 2",
-    "image": "80b8141d-188e-44ca-b941-33ba69b14a44.jpg"
+    "image": "80b8141d-188e-44ca-b941-33ba69b14a44.png"
   },
   {
     "id": "fd25c117-4e78-4997-b5d3-327c7151cbae",
@@ -2175,7 +2175,7 @@
     "index": "3K",
     "Text": "■ When this Unit stuns another Unit, your opponent loses bond equal to the CP cost of the stunned Unit (they also take the stun damage).",
     "set_id": "Set 2",
-    "image": "fd25c117-4e78-4997-b5d3-327c7151cbae.jpg"
+    "image": "fd25c117-4e78-4997-b5d3-327c7151cbae.png"
   },
   {
     "id": "c98a4a92-e1c4-4510-89b5-97b93d2d92f5",
@@ -2197,7 +2197,7 @@
     "index": "3X",
     "Text": "■ Sacrifice this card: Remove 1 target stunned Unit from the game.",
     "set_id": "Set 2",
-    "image": "c98a4a92-e1c4-4510-89b5-97b93d2d92f5.jpg"
+    "image": "c98a4a92-e1c4-4510-89b5-97b93d2d92f5.png"
   },
   {
     "id": "3675f86b-13f7-4c77-8d44-025bbe9ebbbc",
@@ -2219,7 +2219,7 @@
     "index": "27",
     "Text": "■ At the start of the recovery phase, stun all Units your opponent controls.",
     "set_id": "Set 2",
-    "image": "3675f86b-13f7-4c77-8d44-025bbe9ebbbc.jpg"
+    "image": "3675f86b-13f7-4c77-8d44-025bbe9ebbbc.png"
   },
   {
     "id": "f28e24bd-0dee-4705-b6bc-d63fb32bbc86",
@@ -2241,7 +2241,7 @@
     "index": "3D",
     "Text": "",
     "set_id": "Set 2",
-    "image": "f28e24bd-0dee-4705-b6bc-d63fb32bbc86.jpg"
+    "image": "f28e24bd-0dee-4705-b6bc-d63fb32bbc86.png"
   },
   {
     "id": "368e298e-e710-4fc2-ba78-bfec418a65bb",
@@ -2263,7 +2263,7 @@
     "index": "3c",
     "Text": "Tap a Unit you control with CP cost 5 or more. 1 Target Unit gains +7/+7 until the end of the turn.",
     "set_id": "Set 2",
-    "image": "368e298e-e710-4fc2-ba78-bfec418a65bb.jpg"
+    "image": "368e298e-e710-4fc2-ba78-bfec418a65bb.png"
   },
   {
     "id": "709f8dea-e63b-43a0-95c4-21e6192dec67",
@@ -2285,7 +2285,7 @@
     "index": "37",
     "Text": "■ This Unit comes into play tapped. ■Tap: Return this card to the hand: Search your deck for 1 Item or Event card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 2",
-    "image": "709f8dea-e63b-43a0-95c4-21e6192dec67.jpg"
+    "image": "709f8dea-e63b-43a0-95c4-21e6192dec67.png"
   },
   {
     "id": "53c6e492-19ad-4309-a2bb-abac2fd3c28e",
@@ -2307,7 +2307,7 @@
     "index": "3H",
     "Text": "■ When this Unit attacks or is attacked, you can pay 4 bond: This Unit gains +4/+0 this combat.",
     "set_id": "Set 2",
-    "image": "53c6e492-19ad-4309-a2bb-abac2fd3c28e.jpg"
+    "image": "53c6e492-19ad-4309-a2bb-abac2fd3c28e.png"
   },
   {
     "id": "a77fd723-9d72-4995-ad9f-14f4a888769a",
@@ -2329,7 +2329,7 @@
     "index": "3I",
     "Text": "■Tap: Your opponent loses 5 bond.",
     "set_id": "Set 2",
-    "image": "a77fd723-9d72-4995-ad9f-14f4a888769a.jpg"
+    "image": "a77fd723-9d72-4995-ad9f-14f4a888769a.png"
   },
   {
     "id": "b371df3b-1c62-4552-ba94-a2a72010b5ba",
@@ -2351,7 +2351,7 @@
     "index": "3F",
     "Text": "■ If your bond is 20 or less, this Unit gains +5/+0.",
     "set_id": "Set 2",
-    "image": "b371df3b-1c62-4552-ba94-a2a72010b5ba.jpg"
+    "image": "b371df3b-1c62-4552-ba94-a2a72010b5ba.png"
   },
   {
     "id": "e1f01350-74c3-4979-94fb-b7b339e54b2f",
@@ -2373,7 +2373,7 @@
     "index": "3G",
     "Text": "■ When this Unit attacks a tapped Unit, the defending Unit loses support and cannot gain support for this combat.",
     "set_id": "Set 2",
-    "image": "e1f01350-74c3-4979-94fb-b7b339e54b2f.jpg"
+    "image": "e1f01350-74c3-4979-94fb-b7b339e54b2f.png"
   },
   {
     "id": "92557bc2-1f6c-46ff-aa89-dca77abaec15",
@@ -2395,7 +2395,7 @@
     "index": "3u",
     "Text": "■Tap, Pay 1 CP and discard 1 “Thors Military Academy” card or a Unit with [Kinship]: Search your deck for a “Thors Military Academy” card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 2",
-    "image": "92557bc2-1f6c-46ff-aa89-dca77abaec15.jpg"
+    "image": "92557bc2-1f6c-46ff-aa89-dca77abaec15.png"
   },
   {
     "id": "26db8ede-b133-47ab-82f8-0bc3f53a651a",
@@ -2417,7 +2417,7 @@
     "index": "2Y",
     "Text": "■ Reduce the CP cost to play this Unit by 1 for each Item you control (to a minimum of 0). ■On Play: Gain 5 bond.",
     "set_id": "Set 2",
-    "image": "26db8ede-b133-47ab-82f8-0bc3f53a651a.jpg"
+    "image": "26db8ede-b133-47ab-82f8-0bc3f53a651a.png"
   },
   {
     "id": "81bc0134-f8aa-4f4a-bb2e-a0bbf195f0f1",
@@ -2439,7 +2439,7 @@
     "index": "2Z",
     "Text": "■ While you have an Item in play, “Liberl Kingdom” Units you control gain support.",
     "set_id": "Set 2",
-    "image": "81bc0134-f8aa-4f4a-bb2e-a0bbf195f0f1.jpg"
+    "image": "81bc0134-f8aa-4f4a-bb2e-a0bbf195f0f1.png"
   },
   {
     "id": "529ad853-95d0-4ea8-a984-2eb92a09a9de",
@@ -2461,7 +2461,7 @@
     "index": "2a",
     "Text": "■Tap, Discard 1 Item: Stun 1 target Unit with CP cost less than or equal to the CP cost of the discarded Item.",
     "set_id": "Set 2",
-    "image": "529ad853-95d0-4ea8-a984-2eb92a09a9de.jpg"
+    "image": "529ad853-95d0-4ea8-a984-2eb92a09a9de.png"
   },
   {
     "id": "9f251176-e6b9-464b-86da-f844b907e090",
@@ -2483,7 +2483,7 @@
     "index": "3f",
     "Text": "You may discard 1 card with a “Loyalty” craft. If you do, search your deck for a Unit, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 2",
-    "image": "9f251176-e6b9-464b-86da-f844b907e090.jpg"
+    "image": "9f251176-e6b9-464b-86da-f844b907e090.png"
   },
   {
     "id": "1af676ce-cd1e-4506-80f3-d1d08dd3935f",
@@ -2505,7 +2505,7 @@
     "index": "3N",
     "Text": "■Tap: Return 1 face-down untapped card from your base to the hand. If you do, you may place 1 card from your hand face-down and untapped in your base.",
     "set_id": "Set 2",
-    "image": "1af676ce-cd1e-4506-80f3-d1d08dd3935f.jpg"
+    "image": "1af676ce-cd1e-4506-80f3-d1d08dd3935f.png"
   },
   {
     "id": "3b402cab-e082-4938-b290-2679765a34ac",
@@ -2527,7 +2527,7 @@
     "index": "3v",
     "Text": "■ Treat effects that apply when “Giliath Osborne” is on your field as if that card were on your field (even if you do not control that card). ■ “Erebonian Empire” Units you control gain +1/+1 when scrum attacking.",
     "set_id": "Set 2",
-    "image": "3b402cab-e082-4938-b290-2679765a34ac.jpg"
+    "image": "3b402cab-e082-4938-b290-2679765a34ac.png"
   },
   {
     "id": "f87c3161-4236-46a7-91d5-ed3b353087b7",
@@ -2549,7 +2549,7 @@
     "index": "2l",
     "Text": "■: Kill 1 target Unit. This craft can only be played during your attack target selection step.",
     "set_id": "Set 2",
-    "image": "f87c3161-4236-46a7-91d5-ed3b353087b7.jpg"
+    "image": "f87c3161-4236-46a7-91d5-ed3b353087b7.png"
   },
   {
     "id": "9b7116aa-26a3-4513-8c3b-1264d0c20065",
@@ -2571,7 +2571,7 @@
     "index": "36",
     "Text": "■ Pay 2 bond: Ready target Unit you control but it cannot attack for the rest of the turn. Activate only once each turn.",
     "set_id": "Set 2",
-    "image": "9b7116aa-26a3-4513-8c3b-1264d0c20065.jpg"
+    "image": "9b7116aa-26a3-4513-8c3b-1264d0c20065.png"
   },
   {
     "id": "b54968b3-b4d8-4a8a-9047-bc7180aa0049",
@@ -2593,7 +2593,7 @@
     "index": "3A",
     "Text": "■ Sacrifice 1 Item you control: Stun 1 target Unit with CP cost less than or equal to the CP cost of the sacrificed Item.",
     "set_id": "Set 2",
-    "image": "b54968b3-b4d8-4a8a-9047-bc7180aa0049.jpg"
+    "image": "b54968b3-b4d8-4a8a-9047-bc7180aa0049.png"
   },
   {
     "id": "11d8733c-f7f5-432f-a448-503d27d6669c",
@@ -2615,7 +2615,7 @@
     "index": "3B",
     "Text": "",
     "set_id": "Set 2",
-    "image": "11d8733c-f7f5-432f-a448-503d27d6669c.jpg"
+    "image": "11d8733c-f7f5-432f-a448-503d27d6669c.png"
   },
   {
     "id": "b8b8083c-aca1-4114-9f43-78dabf70ca9d",
@@ -2637,7 +2637,7 @@
     "index": "3w",
     "Text": "■Tap: Return 1 target Unit you control to the hand. If you do, Plan X, where X is the CP cost of the target Unit. (Look at the top X cards of your deck, then put any number of them on the bottom of your deck and the rest on top in any order.)",
     "set_id": "Set 2",
-    "image": "b8b8083c-aca1-4114-9f43-78dabf70ca9d.jpg"
+    "image": "b8b8083c-aca1-4114-9f43-78dabf70ca9d.png"
   },
   {
     "id": "17ef2d9c-abdd-466f-a163-857aa354d8ce",
@@ -2659,7 +2659,7 @@
     "index": "3J",
     "Text": "■ This Unit gains +1/+0 for each Item you control during combat.",
     "set_id": "Set 2",
-    "image": "17ef2d9c-abdd-466f-a163-857aa354d8ce.jpg"
+    "image": "17ef2d9c-abdd-466f-a163-857aa354d8ce.png"
   },
   {
     "id": "3d235d68-95ff-440e-b1a4-dbcb576d01ad",
@@ -2681,7 +2681,7 @@
     "index": "3Q",
     "Text": "■ When this Unit attacks directly, kill 1 of your opponent’s stunned Units. If you do, this Unit cannot overkill for the rest of the turn (do not reduce your opponent’s bond).",
     "set_id": "Set 2",
-    "image": "3d235d68-95ff-440e-b1a4-dbcb576d01ad.jpg"
+    "image": "3d235d68-95ff-440e-b1a4-dbcb576d01ad.png"
   },
   {
     "id": "149d087a-ce7a-4f4f-826c-b87f36a7c92a",
@@ -2703,7 +2703,7 @@
     "index": "2u",
     "Text": "■Tap: Recover 1 target stunned “Erebonian Empire” Unit.",
     "set_id": "Set 2",
-    "image": "149d087a-ce7a-4f4f-826c-b87f36a7c92a.jpg"
+    "image": "149d087a-ce7a-4f4f-826c-b87f36a7c92a.png"
   },
   {
     "id": "e8bdee9c-fc7b-45b2-ae42-8ef12f87179b",
@@ -2725,6 +2725,6 @@
     "index": "3s",
     "Text": "■ Loyalty - Tap: Reveal the top card of your deck. If a Unit with “Russell” in its name is on your field, reveal 2 cards instead. You may add all Items revealed this way to your hand.",
     "set_id": "Set 2",
-    "image": "e8bdee9c-fc7b-45b2-ae42-8ef12f87179b.jpg"
+    "image": "e8bdee9c-fc7b-45b2-ae42-8ef12f87179b.png"
   }
 ]

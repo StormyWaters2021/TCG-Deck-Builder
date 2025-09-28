@@ -19,7 +19,7 @@
     "index": "5g",
     "Text": "Search your deck for a “Thors Military Academy” card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "72061c05-fe85-4f68-89d3-d7980c61706a.jpg"
+    "image": "72061c05-fe85-4f68-89d3-d7980c61706a.png"
   },
   {
     "id": "6fbf6c1d-9e5a-459f-a0ec-2abea794fde4",
@@ -41,7 +41,7 @@
     "index": "5H",
     "Text": "",
     "set_id": "Set 3",
-    "image": "6fbf6c1d-9e5a-459f-a0ec-2abea794fde4.jpg"
+    "image": "6fbf6c1d-9e5a-459f-a0ec-2abea794fde4.png"
   },
   {
     "id": "459ccde8-168c-40f5-acb6-d88d1003ba4d",
@@ -63,7 +63,7 @@
     "index": "5I",
     "Text": "",
     "set_id": "Set 3",
-    "image": "459ccde8-168c-40f5-acb6-d88d1003ba4d.jpg"
+    "image": "459ccde8-168c-40f5-acb6-d88d1003ba4d.png"
   },
   {
     "id": "bca4f983-b24a-4621-8876-bbe6f09c5d1d",
@@ -85,7 +85,7 @@
     "index": "5J",
     "Text": "",
     "set_id": "Set 3",
-    "image": "bca4f983-b24a-4621-8876-bbe6f09c5d1d.jpg"
+    "image": "bca4f983-b24a-4621-8876-bbe6f09c5d1d.png"
   },
   {
     "id": "16e5279f-5cd7-40f6-9259-547d6e341cf4",
@@ -107,7 +107,7 @@
     "index": "4w",
     "Text": "■ Reduce the CP cost of Items you play by 1. ■ Increase the EP cost of Arts your opponent plays by 1.",
     "set_id": "Set 3",
-    "image": "16e5279f-5cd7-40f6-9259-547d6e341cf4.jpg"
+    "image": "16e5279f-5cd7-40f6-9259-547d6e341cf4.png"
   },
   {
     "id": "fe873182-be46-4d28-957d-d91abc826dce",
@@ -129,7 +129,7 @@
     "index": "4x",
     "Text": "■ While you control an Item on your field, Units you control have support and Units your opponent controls lose support and cannot gain support.",
     "set_id": "Set 3",
-    "image": "fe873182-be46-4d28-957d-d91abc826dce.jpg"
+    "image": "fe873182-be46-4d28-957d-d91abc826dce.png"
   },
   {
     "id": "856afd24-6702-48c6-9685-5b260842c08f",
@@ -151,7 +151,7 @@
     "index": "4h",
     "Text": "■ When this Unit scrum attacks, return it to the hand. If you do, search your deck for 1 “Erebonian Empire” card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "856afd24-6702-48c6-9685-5b260842c08f.jpg"
+    "image": "856afd24-6702-48c6-9685-5b260842c08f.png"
   },
   {
     "id": "d4c3e65b-273a-49c7-819a-06a69be5f78c",
@@ -173,7 +173,7 @@
     "index": "4O",
     "Text": "■Search your deck for 1 Item card with CP cost less than or equal to the [Radiant Wings] rank of this Unit, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "d4c3e65b-273a-49c7-819a-06a69be5f78c.jpg"
+    "image": "d4c3e65b-273a-49c7-819a-06a69be5f78c.png"
   },
   {
     "id": "27de1c45-adac-4fc1-8879-fcf32713beed",
@@ -195,7 +195,7 @@
     "index": "4P",
     "Text": "■ When this card is stunned, sacrifice it instead. If you do, you may search your deck for 1 Item card with CP cost less than or equal to the [Radiant Wings] rank this Unit had on the field and put that card on the field. If you do, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "27de1c45-adac-4fc1-8879-fcf32713beed.jpg"
+    "image": "27de1c45-adac-4fc1-8879-fcf32713beed.png"
   },
   {
     "id": "efdf46d7-29f4-4ead-97d9-d01045009f4b",
@@ -217,7 +217,7 @@
     "index": "4Q",
     "Text": "■ At the start of the recovery phase, search your deck for 1 Item card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "efdf46d7-29f4-4ead-97d9-d01045009f4b.jpg"
+    "image": "efdf46d7-29f4-4ead-97d9-d01045009f4b.png"
   },
   {
     "id": "011a4d02-918a-4695-914e-e50c2ee754d6",
@@ -239,7 +239,7 @@
     "index": "5K",
     "Text": "■ Enhancement: This Item becomes an Item/Unit. ■ When this Unit attacks, if “Arianrhod” is crewing this Item, the defending Unit loses support and cannot gain support for this combat. ■ Immortalize - Shuffle 1 “Arianrhod” from your Trail into your deck: This Item becomes an Item/Unit until the end of the turn.",
     "set_id": "Set 3",
-    "image": "011a4d02-918a-4695-914e-e50c2ee754d6.jpg"
+    "image": "011a4d02-918a-4695-914e-e50c2ee754d6.png"
   },
   {
     "id": "e420701c-ba04-4562-a97b-9bc668931470",
@@ -261,7 +261,7 @@
     "index": "43",
     "Text": "■Enhancement: This Unit gains +1/+1 for each Base in your Trail. ■On Play: Rebuild any number of target Bases.",
     "set_id": "Set 3",
-    "image": "e420701c-ba04-4562-a97b-9bc668931470.jpg"
+    "image": "e420701c-ba04-4562-a97b-9bc668931470.png"
   },
   {
     "id": "4b020a27-b308-460f-8e90-183df9634a14",
@@ -283,7 +283,7 @@
     "index": "44",
     "Text": "■Enhancement:This Unit gains “■ This Unit must attack if able.” and “■ At the start of the combat phase, you become the initiative player.”",
     "set_id": "Set 3",
-    "image": "4b020a27-b308-460f-8e90-183df9634a14.jpg"
+    "image": "4b020a27-b308-460f-8e90-183df9634a14.png"
   },
   {
     "id": "d9298e61-056a-416d-bd7c-555a8e9ffbce",
@@ -305,7 +305,7 @@
     "index": "4M",
     "Text": "■ This card gains -2/-1 when scrum attacking.",
     "set_id": "Set 3",
-    "image": "d9298e61-056a-416d-bd7c-555a8e9ffbce.jpg"
+    "image": "d9298e61-056a-416d-bd7c-555a8e9ffbce.png"
   },
   {
     "id": "764cc47c-73a7-439e-88fa-84afd79feb53",
@@ -327,7 +327,7 @@
     "index": "4N",
     "Text": "■: Tap 1 target Unit with CP cost less than or equal to the [Radiant Wings] rank of this Unit. Then, if this unit is in a [Combat Link], stun that target.",
     "set_id": "Set 3",
-    "image": "764cc47c-73a7-439e-88fa-84afd79feb53.jpg"
+    "image": "764cc47c-73a7-439e-88fa-84afd79feb53.png"
   },
   {
     "id": "825199a6-6a03-447d-8104-bd664a5bd819",
@@ -349,7 +349,7 @@
     "index": "4G",
     "Text": "■Enhancement: This Unit loses [Covert Action] and gains +2/+2. ■This Unit cannot be targeted by your opponent’s Arts or Crafts.",
     "set_id": "Set 3",
-    "image": "825199a6-6a03-447d-8104-bd664a5bd819.jpg"
+    "image": "825199a6-6a03-447d-8104-bd664a5bd819.png"
   },
   {
     "id": "252f4a64-dd55-43d1-b17b-4a2a3d0b0013",
@@ -371,7 +371,7 @@
     "index": "49",
     "Text": "■Enhancement: ■On Play, Search your deck for 1 Event card, reveal it, and add it to your hand. Then, shuffle your deck. Then, lose bond equal to the EP cost of the added Event card.",
     "set_id": "Set 3",
-    "image": "252f4a64-dd55-43d1-b17b-4a2a3d0b0013.jpg"
+    "image": "252f4a64-dd55-43d1-b17b-4a2a3d0b0013.png"
   },
   {
     "id": "d1d35427-eccd-461c-bdac-1e1246df93d5",
@@ -393,7 +393,7 @@
     "index": "5o",
     "Text": "■Tap: Choose 1 player: They gain 1 bond. ■Tap: Choose 1 player: They lose 1 bond.",
     "set_id": "Set 3",
-    "image": "d1d35427-eccd-461c-bdac-1e1246df93d5.jpg"
+    "image": "d1d35427-eccd-461c-bdac-1e1246df93d5.png"
   },
   {
     "id": "a8a17ef0-d953-423e-ae94-c7f14ed103f8",
@@ -415,7 +415,7 @@
     "index": "4n",
     "Text": "■ This Unit gains +1/+0 for each [Cursed] card in your Trail. ■ When this card deals overkill damage, draw 1 card.",
     "set_id": "Set 3",
-    "image": "a8a17ef0-d953-423e-ae94-c7f14ed103f8.jpg"
+    "image": "a8a17ef0-d953-423e-ae94-c7f14ed103f8.png"
   },
   {
     "id": "a63d9d45-edfc-402b-b769-1c83f434c590",
@@ -437,7 +437,7 @@
     "index": "4o",
     "Text": "■ This Unit gains +1/+1 for each [Cursed] card in your Trail.",
     "set_id": "Set 3",
-    "image": "a63d9d45-edfc-402b-b769-1c83f434c590.jpg"
+    "image": "a63d9d45-edfc-402b-b769-1c83f434c590.png"
   },
   {
     "id": "ef28e54a-190f-430d-a5f9-7f6c32ff23fe",
@@ -459,7 +459,7 @@
     "index": "59",
     "Text": "■ When this Unit is stunned, 1 target Unit gains +3/+3 until the end of the turn.",
     "set_id": "Set 3",
-    "image": "ef28e54a-190f-430d-a5f9-7f6c32ff23fe.jpg"
+    "image": "ef28e54a-190f-430d-a5f9-7f6c32ff23fe.png"
   },
   {
     "id": "9d06ae17-4419-4c47-8c5a-6693b0782d08",
@@ -481,7 +481,7 @@
     "index": "5A",
     "Text": "■ When this Unit is stunned, Plan 2. (Look at the top 2 cards of your deck, then put any number of them on the bottom of your deck and the rest on top in any order.)",
     "set_id": "Set 3",
-    "image": "9d06ae17-4419-4c47-8c5a-6693b0782d08.jpg"
+    "image": "9d06ae17-4419-4c47-8c5a-6693b0782d08.png"
   },
   {
     "id": "478ec18d-f369-4fb3-8da3-89c6d00378fa",
@@ -503,7 +503,7 @@
     "index": "5B",
     "Text": "■ When you play a [Magic] card, your opponent loses 4 bond.",
     "set_id": "Set 3",
-    "image": "478ec18d-f369-4fb3-8da3-89c6d00378fa.jpg"
+    "image": "478ec18d-f369-4fb3-8da3-89c6d00378fa.png"
   },
   {
     "id": "7914da97-8945-4e6c-aa1d-e272a99acba8",
@@ -525,7 +525,7 @@
     "index": "4l",
     "Text": "■ If there are 4 or more [Cursed] cards in your Trail, this Unit gains [Unbalance]. ■ Tapped attacking Units gain +6/+0 during combat.",
     "set_id": "Set 3",
-    "image": "7914da97-8945-4e6c-aa1d-e272a99acba8.jpg"
+    "image": "7914da97-8945-4e6c-aa1d-e272a99acba8.png"
   },
   {
     "id": "5bad17d4-4e20-466d-b7c3-f1d74bcdace4",
@@ -547,7 +547,7 @@
     "index": "4m",
     "Text": "■ When this Unit attacks or is attacked, you may send the top card of your deck to the Trail. If that card is [Cursed], this Unit gains +2/+0 this combat.",
     "set_id": "Set 3",
-    "image": "5bad17d4-4e20-466d-b7c3-f1d74bcdace4.jpg"
+    "image": "5bad17d4-4e20-466d-b7c3-f1d74bcdace4.png"
   },
   {
     "id": "14b45b64-847f-4199-8422-38ab2ec9fb55",
@@ -569,7 +569,7 @@
     "index": "5q",
     "Text": "■ When this Base is played, target 2 Units you control. While this Base is on the field, those Units gain each other’s affiliations.",
     "set_id": "Set 3",
-    "image": "14b45b64-847f-4199-8422-38ab2ec9fb55.jpg"
+    "image": "14b45b64-847f-4199-8422-38ab2ec9fb55.png"
   },
   {
     "id": "0875139e-93c8-4779-a597-b8d264df55cc",
@@ -591,7 +591,7 @@
     "index": "5E",
     "Text": "■ When this Unit stuns another Unit that has support, kill that Unit. ■ When this Unit deals overkill damage, your opponent discards 1 card.",
     "set_id": "Set 3",
-    "image": "0875139e-93c8-4779-a597-b8d264df55cc.jpg"
+    "image": "0875139e-93c8-4779-a597-b8d264df55cc.png"
   },
   {
     "id": "4cb7fc20-8c40-4337-a71c-daeb755facd0",
@@ -613,7 +613,7 @@
     "index": "5c",
     "Text": "You may discard up to 2 “Gnome” or “Hexen Clan” cards. If you do, search your deck for “Gnome” or “Hexen Clan” cards equal to the number of cards discarded by this Event, reveal them, and add them to your hand. Then, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "4cb7fc20-8c40-4337-a71c-daeb755facd0.jpg"
+    "image": "4cb7fc20-8c40-4337-a71c-daeb755facd0.png"
   },
   {
     "id": "d9a8f5ea-0df2-43ca-a13b-4658d58d579a",
@@ -635,7 +635,7 @@
     "index": "4F",
     "Text": "■Enhancement: ■Pay 2 EP: Untap this Unit.)] ■ Pay 2 bond and untap this Unit: This Unit gains -1/-0 until the end of the turn.",
     "set_id": "Set 3",
-    "image": "d9a8f5ea-0df2-43ca-a13b-4658d58d579a.jpg"
+    "image": "d9a8f5ea-0df2-43ca-a13b-4658d58d579a.png"
   },
   {
     "id": "db01c3e6-9b39-4754-a285-8e0701208331",
@@ -657,7 +657,7 @@
     "index": "5h",
     "Text": "Target 1 stunned Unit. You may tap 1 “Gnome” Unit you control. If you do, either kill or recover that target. Then, lose bond equal to the CP cost of the targeted Unit.",
     "set_id": "Set 3",
-    "image": "db01c3e6-9b39-4754-a285-8e0701208331.jpg"
+    "image": "db01c3e6-9b39-4754-a285-8e0701208331.png"
   },
   {
     "id": "402bc150-37ef-4578-b762-6f84b063ac1a",
@@ -679,7 +679,7 @@
     "index": "5n",
     "Text": "■Tap: Target “Thors Military Academy” Unit gains for the rest of the turn: “■ This Unit gains +1/+0 during combat for each other “Thors Military Academy” Unit you control.”",
     "set_id": "Set 3",
-    "image": "402bc150-37ef-4578-b762-6f84b063ac1a.jpg"
+    "image": "402bc150-37ef-4578-b762-6f84b063ac1a.png"
   },
   {
     "id": "b07af329-c4a0-40ec-a78e-c0c0d61dcfa0",
@@ -701,7 +701,7 @@
     "index": "5N",
     "Text": "■ Units you control gain [Unbalance]. ■ Other Units you control gain +2/+0 when attacking. ■ Immortalize - Shuffle 1 “Rufus Albarea” from your Trail into your deck: This Item becomes an Item/Unit until the end of the turn.",
     "set_id": "Set 3",
-    "image": "b07af329-c4a0-40ec-a78e-c0c0d61dcfa0.jpg"
+    "image": "b07af329-c4a0-40ec-a78e-c0c0d61dcfa0.png"
   },
   {
     "id": "011a1fb6-21b0-4638-a551-65232077cfd8",
@@ -723,7 +723,7 @@
     "index": "4i",
     "Text": "■Draw 1 card. ■ When this Unit attacks or is attacked, the opposing Unit(s) lose [Martial Arts] and cannot gain [Martial Arts] this combat.",
     "set_id": "Set 3",
-    "image": "011a1fb6-21b0-4638-a551-65232077cfd8.jpg"
+    "image": "011a1fb6-21b0-4638-a551-65232077cfd8.png"
   },
   {
     "id": "93b59e60-56eb-413d-aa02-bc2096058ce3",
@@ -745,7 +745,7 @@
     "index": "57",
     "Text": "■ When this Unit is stunned, 1 target Unit you control gains support until the end of the turn.",
     "set_id": "Set 3",
-    "image": "93b59e60-56eb-413d-aa02-bc2096058ce3.jpg"
+    "image": "93b59e60-56eb-413d-aa02-bc2096058ce3.png"
   },
   {
     "id": "516ab171-92fe-4ae8-9b60-8595445ef8f7",
@@ -767,7 +767,7 @@
     "index": "58",
     "Text": "■ When a [Magic] card is played, recover 1 target stunned Unit.",
     "set_id": "Set 3",
-    "image": "516ab171-92fe-4ae8-9b60-8595445ef8f7.jpg"
+    "image": "516ab171-92fe-4ae8-9b60-8595445ef8f7.png"
   },
   {
     "id": "6b1509df-432b-4934-9cec-9cd4f132b796",
@@ -789,7 +789,7 @@
     "index": "4A",
     "Text": "■Enhancement: ■Reduce the CP cost of this Unit by 1 when played.)] ■ Pay 2 bond and sacrifice this Unit: Draw 1 card.",
     "set_id": "Set 3",
-    "image": "6b1509df-432b-4934-9cec-9cd4f132b796.jpg"
+    "image": "6b1509df-432b-4934-9cec-9cd4f132b796.png"
   },
   {
     "id": "693514cc-a3eb-4e4e-ac9a-3e3edd9c444a",
@@ -811,7 +811,7 @@
     "index": "47",
     "Text": "■Enhancement: At the start of the recovery phase, you may put this Unit on the field tapped from your Trail. ■Pay 2 bond: Your opponent loses bond equal to the number of [Cursed] cards in your Trail.",
     "set_id": "Set 3",
-    "image": "693514cc-a3eb-4e4e-ac9a-3e3edd9c444a.jpg"
+    "image": "693514cc-a3eb-4e4e-ac9a-3e3edd9c444a.png"
   },
   {
     "id": "6d37871a-827e-4ada-b16d-9a1d202c0340",
@@ -833,7 +833,7 @@
     "index": "48",
     "Text": "■Enhancement: Tap: Kill 1 target Unit with CP cost of 2 or less. ■ Pay 2 bond: Kill 1 target Unit with CP cost 1 or less.",
     "set_id": "Set 3",
-    "image": "6d37871a-827e-4ada-b16d-9a1d202c0340.jpg"
+    "image": "6d37871a-827e-4ada-b16d-9a1d202c0340.png"
   },
   {
     "id": "0cbb2307-c6e1-4e77-8c81-2deed3c1e0e6",
@@ -855,7 +855,7 @@
     "index": "5d",
     "Text": "Rebuild 1 target Base.",
     "set_id": "Set 3",
-    "image": "0cbb2307-c6e1-4e77-8c81-2deed3c1e0e6.jpg"
+    "image": "0cbb2307-c6e1-4e77-8c81-2deed3c1e0e6.png"
   },
   {
     "id": "39aa014f-9161-459f-9ae4-1619c1f27a6d",
@@ -877,7 +877,7 @@
     "index": "5U",
     "Text": "Destroy 1 target Item.",
     "set_id": "Set 3",
-    "image": "39aa014f-9161-459f-9ae4-1619c1f27a6d.jpg"
+    "image": "39aa014f-9161-459f-9ae4-1619c1f27a6d.png"
   },
   {
     "id": "248d2692-bcd5-48ad-9e38-fbd8ef42f1db",
@@ -899,7 +899,7 @@
     "index": "5t",
     "Text": "■Tap: Target 1 Unit you control with [Covert Action] and 1 “Hexen Clan” Unit you control. The former loses [Covert Action] and the latter gains “■ This turn, if this Unit is stunned, you do not take stun damage.”",
     "set_id": "Set 3",
-    "image": "248d2692-bcd5-48ad-9e38-fbd8ef42f1db.jpg"
+    "image": "248d2692-bcd5-48ad-9e38-fbd8ef42f1db.png"
   },
   {
     "id": "26322d03-d60c-4634-b5e1-e760883d090f",
@@ -921,7 +921,7 @@
     "index": "5T",
     "Text": "Destroy all Items. Then, rebuild all Bases. Then if this Event was played during the recovery phase and your bond is 20 or less, kill all Units.",
     "set_id": "Set 3",
-    "image": "26322d03-d60c-4634-b5e1-e760883d090f.jpg"
+    "image": "26322d03-d60c-4634-b5e1-e760883d090f.png"
   },
   {
     "id": "00741a21-5593-412e-b851-da6e75e76f9a",
@@ -943,7 +943,7 @@
     "index": "40",
     "Text": "■Tap: Sacrifice 1 Unit you control: Gain CP equal to the CP cost of the sacrificed Unit. Spend this CP only to play Items.",
     "set_id": "Set 3",
-    "image": "00741a21-5593-412e-b851-da6e75e76f9a.jpg"
+    "image": "00741a21-5593-412e-b851-da6e75e76f9a.png"
   },
   {
     "id": "b528df06-cdf8-4240-ae63-c1bbd9935567",
@@ -965,7 +965,7 @@
     "index": "5u",
     "Text": "■ Your bond is treated as 20 or less. ■ Units you control are each treated as if they are the only Unit you control (to satisfy effect conditions). ■Tap: Reconstruct this Base.",
     "set_id": "Set 3",
-    "image": "b528df06-cdf8-4240-ae63-c1bbd9935567.jpg"
+    "image": "b528df06-cdf8-4240-ae63-c1bbd9935567.png"
   },
   {
     "id": "fac3fcc0-4bc0-4693-8d9d-978060174a66",
@@ -987,7 +987,7 @@
     "index": "4z",
     "Text": "■On Play: Return 1 target Unit or Base from your Trail to your hand.",
     "set_id": "Set 3",
-    "image": "fac3fcc0-4bc0-4693-8d9d-978060174a66.jpg"
+    "image": "fac3fcc0-4bc0-4693-8d9d-978060174a66.png"
   },
   {
     "id": "1de3eafc-a4d3-4d44-afb4-729e9f65da76",
@@ -1009,7 +1009,7 @@
     "index": "50",
     "Text": "■: Target 1 Unit with CP cost 2 or less in your Trail and put it on your field. This craft can only be played during your attack target step.",
     "set_id": "Set 3",
-    "image": "1de3eafc-a4d3-4d44-afb4-729e9f65da76.jpg"
+    "image": "1de3eafc-a4d3-4d44-afb4-729e9f65da76.png"
   },
   {
     "id": "2be60a00-32c4-4ff8-bcc6-c457016b1274",
@@ -1031,7 +1031,7 @@
     "index": "4k",
     "Text": "■ Your opponent cannot recover Units with CP cost less than or equal to the number of [Cursed] cards in your trail.",
     "set_id": "Set 3",
-    "image": "2be60a00-32c4-4ff8-bcc6-c457016b1274.jpg"
+    "image": "2be60a00-32c4-4ff8-bcc6-c457016b1274.png"
   },
   {
     "id": "e3761f21-f2c5-4031-a3ae-43d3907298db",
@@ -1053,7 +1053,7 @@
     "index": "5i",
     "Text": "Add 1 target Item in your Trail to your hand. Then, if this card was played during the preparation phase, you may put 1 Unit or Item with CP cost 2 or less on the field tapped.",
     "set_id": "Set 3",
-    "image": "e3761f21-f2c5-4031-a3ae-43d3907298db.jpg"
+    "image": "e3761f21-f2c5-4031-a3ae-43d3907298db.png"
   },
   {
     "id": "7984df46-04bf-47ae-bd66-99d83289471c",
@@ -1075,7 +1075,7 @@
     "index": "5r",
     "Text": "■Tap, Discard 1 card: Add 1 target Unit on your Trail to your hand. Then, if the discarded card was a “Thors Military Academy” card, gain 1 bond.",
     "set_id": "Set 3",
-    "image": "7984df46-04bf-47ae-bd66-99d83289471c.jpg"
+    "image": "7984df46-04bf-47ae-bd66-99d83289471c.png"
   },
   {
     "id": "bb76f670-5c02-4690-8010-c4c81ac698ad",
@@ -1097,7 +1097,7 @@
     "index": "41",
     "Text": "",
     "set_id": "Set 3",
-    "image": "bb76f670-5c02-4690-8010-c4c81ac698ad.jpg"
+    "image": "bb76f670-5c02-4690-8010-c4c81ac698ad.png"
   },
   {
     "id": "9897b479-8f53-4c5e-9cfe-d0b79ad81daa",
@@ -1119,7 +1119,7 @@
     "index": "42",
     "Text": "■Enhancement:This Unit gains [Martial Arts], [Combat Link], [Dispatch], [Unbalance]",
     "set_id": "Set 3",
-    "image": "9897b479-8f53-4c5e-9cfe-d0b79ad81daa.jpg"
+    "image": "9897b479-8f53-4c5e-9cfe-d0b79ad81daa.png"
   },
   {
     "id": "877f2e3b-5406-4f92-8d5c-b3030ef0af54",
@@ -1141,7 +1141,7 @@
     "index": "5p",
     "Text": "■ Stunned Units cannot recover.",
     "set_id": "Set 3",
-    "image": "877f2e3b-5406-4f92-8d5c-b3030ef0af54.jpg"
+    "image": "877f2e3b-5406-4f92-8d5c-b3030ef0af54.png"
   },
   {
     "id": "03d763bd-f8c8-46cb-8ad3-355ec2f0bbac",
@@ -1163,7 +1163,7 @@
     "index": "5L",
     "Text": "■ Units your opponent controls lose support and cannot gain support. ■ Immortalize - Shuffle 1 “Giliath Osborne” from your Trail into your deck: This Item becomes an Item/Unit until the end of the turn. ■ Remove 4 [Cursed] cards in your Trail from the game: This Item becomes an Item/Unit until the end of the turn.",
     "set_id": "Set 3",
-    "image": "03d763bd-f8c8-46cb-8ad3-355ec2f0bbac.jpg"
+    "image": "03d763bd-f8c8-46cb-8ad3-355ec2f0bbac.png"
   },
   {
     "id": "7a5548ba-d863-4974-8600-71559dc4b397",
@@ -1185,7 +1185,7 @@
     "index": "5l",
     "Text": "You may tap 2 “Thors Military Academy” Units you control or 1 Unit you control that is in a [Combat Link] (tap both linked cards). If you do, draw 2 cards.",
     "set_id": "Set 3",
-    "image": "7a5548ba-d863-4974-8600-71559dc4b397.jpg"
+    "image": "7a5548ba-d863-4974-8600-71559dc4b397.png"
   },
   {
     "id": "cb5b3867-d19e-4e29-8dfe-dd467d8d59f2",
@@ -1207,7 +1207,7 @@
     "index": "4Z",
     "Text": "",
     "set_id": "Set 3",
-    "image": "cb5b3867-d19e-4e29-8dfe-dd467d8d59f2.jpg"
+    "image": "cb5b3867-d19e-4e29-8dfe-dd467d8d59f2.png"
   },
   {
     "id": "7294405e-87d0-4491-be17-5dbd29690f57",
@@ -1229,7 +1229,7 @@
     "index": "4a",
     "Text": "■ If this Unit is in a [Combat Link], it can attack Units with [Covert Action].",
     "set_id": "Set 3",
-    "image": "7294405e-87d0-4491-be17-5dbd29690f57.jpg"
+    "image": "7294405e-87d0-4491-be17-5dbd29690f57.png"
   },
   {
     "id": "f4c557ad-b187-444d-bbab-03dd7e811cd7",
@@ -1251,7 +1251,7 @@
     "index": "4R",
     "Text": "",
     "set_id": "Set 3",
-    "image": "f4c557ad-b187-444d-bbab-03dd7e811cd7.jpg"
+    "image": "f4c557ad-b187-444d-bbab-03dd7e811cd7.png"
   },
   {
     "id": "5e2aa430-27f1-45c5-9924-24e2e98e439e",
@@ -1273,7 +1273,7 @@
     "index": "4S",
     "Text": "■ When this Unit stuns another Unit, kill that Unit if it has CP cost less than or equal to the [Radiant Wings] rank of this Unit.",
     "set_id": "Set 3",
-    "image": "5e2aa430-27f1-45c5-9924-24e2e98e439e.jpg"
+    "image": "5e2aa430-27f1-45c5-9924-24e2e98e439e.png"
   },
   {
     "id": "a0bc577d-13e8-48a3-9354-23047f082f86",
@@ -1295,7 +1295,7 @@
     "index": "4u",
     "Text": "■Tap: Stun 1 target Unit with CP cost less than or equal to the number of [Cursed] cards in your Trail.",
     "set_id": "Set 3",
-    "image": "a0bc577d-13e8-48a3-9354-23047f082f86.jpg"
+    "image": "a0bc577d-13e8-48a3-9354-23047f082f86.png"
   },
   {
     "id": "809b714e-a3bf-4fc9-a24b-94c354b12004",
@@ -1317,7 +1317,7 @@
     "index": "4v",
     "Text": "■Tap: Tap 1 target Unit with CP cost less than or equal to the number of [Cursed] cards in your Trail.",
     "set_id": "Set 3",
-    "image": "809b714e-a3bf-4fc9-a24b-94c354b12004.jpg"
+    "image": "809b714e-a3bf-4fc9-a24b-94c354b12004.png"
   },
   {
     "id": "b68bcaa4-01f8-40ca-83b0-b7c400696f34",
@@ -1339,7 +1339,7 @@
     "index": "5k",
     "Text": "Units you control treat all affiliations as linked for the rest of the turn. Then, gain 2 bond for each affiliation on Units you control.",
     "set_id": "Set 3",
-    "image": "b68bcaa4-01f8-40ca-83b0-b7c400696f34.jpg"
+    "image": "b68bcaa4-01f8-40ca-83b0-b7c400696f34.png"
   },
   {
     "id": "93d7e9d1-55f2-47db-a90b-b7d2462e1535",
@@ -1361,7 +1361,7 @@
     "index": "4W",
     "Text": "■ This Unit can attack Units with [Covert Action].",
     "set_id": "Set 3",
-    "image": "93d7e9d1-55f2-47db-a90b-b7d2462e1535.jpg"
+    "image": "93d7e9d1-55f2-47db-a90b-b7d2462e1535.png"
   },
   {
     "id": "56f9775e-3ce3-4d38-8efb-a47b471e1f16",
@@ -1383,7 +1383,7 @@
     "index": "5R",
     "Text": "Target attacking Unit gains +X/+0 this combat. X is equal to the number of “Malicious Thought Entity” cards in your Trail plus 2.",
     "set_id": "Set 3",
-    "image": "56f9775e-3ce3-4d38-8efb-a47b471e1f16.jpg"
+    "image": "56f9775e-3ce3-4d38-8efb-a47b471e1f16.png"
   },
   {
     "id": "b0260e02-ae88-4115-9113-75b7abfda5bf",
@@ -1405,7 +1405,7 @@
     "index": "4J",
     "Text": "■ Enhancement: When your opponent discards a card, they lose 2 bond.)] ■Tap: Your opponent discards 1 card. Then you lose 1 bond.",
     "set_id": "Set 3",
-    "image": "b0260e02-ae88-4115-9113-75b7abfda5bf.jpg"
+    "image": "b0260e02-ae88-4115-9113-75b7abfda5bf.png"
   },
   {
     "id": "d5a56e1a-9472-42fe-bdeb-f5b4674a3578",
@@ -1427,7 +1427,7 @@
     "index": "4H",
     "Text": "■On Play: You may pay 4 bond. If you didn’t, place this Unit on the bottom of the deck. ■ If your bond is 10 or less, this Unit gains +6/+6.",
     "set_id": "Set 3",
-    "image": "d5a56e1a-9472-42fe-bdeb-f5b4674a3578.jpg"
+    "image": "d5a56e1a-9472-42fe-bdeb-f5b4674a3578.png"
   },
   {
     "id": "b9a4f3b9-fd80-46e7-b4f9-a0bd66ab3dab",
@@ -1449,7 +1449,7 @@
     "index": "4I",
     "Text": "■Enhancement: Destroy 1 target Item. If you do, your opponent loses bond equal to the CP cost of the destroyed Item.",
     "set_id": "Set 3",
-    "image": "b9a4f3b9-fd80-46e7-b4f9-a0bd66ab3dab.jpg"
+    "image": "b9a4f3b9-fd80-46e7-b4f9-a0bd66ab3dab.png"
   },
   {
     "id": "970a2407-3ce5-421d-8a24-3cd13f3065e6",
@@ -1471,7 +1471,7 @@
     "index": "5W",
     "Text": "Reveal the top 4 cards of your deck. Your opponent separates those cards into two piles. Put one pile into your hand and the other into your Trail.",
     "set_id": "Set 3",
-    "image": "970a2407-3ce5-421d-8a24-3cd13f3065e6.jpg"
+    "image": "970a2407-3ce5-421d-8a24-3cd13f3065e6.png"
   },
   {
     "id": "df9fdad9-d41f-425f-a4dc-02d2405b46e6",
@@ -1493,7 +1493,7 @@
     "index": "4p",
     "Text": "■Tap, Discard 1 Item: Recover 1 target stunned Unit.",
     "set_id": "Set 3",
-    "image": "df9fdad9-d41f-425f-a4dc-02d2405b46e6.jpg"
+    "image": "df9fdad9-d41f-425f-a4dc-02d2405b46e6.png"
   },
   {
     "id": "c3f7d07c-3b6b-4605-a1cf-983b363cd5fa",
@@ -1515,7 +1515,7 @@
     "index": "4q",
     "Text": "■ If this Unit is in your Trail, you may remove it from the game: Search your deck for 1 Item card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "c3f7d07c-3b6b-4605-a1cf-983b363cd5fa.jpg"
+    "image": "c3f7d07c-3b6b-4605-a1cf-983b363cd5fa.png"
   },
   {
     "id": "841259a7-7188-423a-81c6-aedc6ef3699c",
@@ -1537,7 +1537,7 @@
     "index": "4r",
     "Text": "■ Destroy 1 Item you control: Untap this Unit. You can only use this craft once per turn.",
     "set_id": "Set 3",
-    "image": "841259a7-7188-423a-81c6-aedc6ef3699c.jpg"
+    "image": "841259a7-7188-423a-81c6-aedc6ef3699c.png"
   },
   {
     "id": "0b65360b-0d1c-418f-9218-579dde0cc956",
@@ -1559,7 +1559,7 @@
     "index": "5w",
     "Text": "■Tap, Discard 2 cards or 1 “Mishy” card: Recover 1 target stunned Unit you control. It doesn’t untap during the recovery phase of this turn.",
     "set_id": "Set 3",
-    "image": "0b65360b-0d1c-418f-9218-579dde0cc956.jpg"
+    "image": "0b65360b-0d1c-418f-9218-579dde0cc956.png"
   },
   {
     "id": "8c7cc648-0789-4842-9152-242960c41001",
@@ -1581,7 +1581,7 @@
     "index": "5x",
     "Text": "■ Units you control gain “■ Discard a card with the same name as this Unit: This Unit gains +1/+1 until the end of the turn.” and “■ While you control a “Mishy” Unit, this unit gains +2/+2.”",
     "set_id": "Set 3",
-    "image": "8c7cc648-0789-4842-9152-242960c41001.jpg"
+    "image": "8c7cc648-0789-4842-9152-242960c41001.png"
   },
   {
     "id": "a0c5b519-b1d9-49c5-bfe2-388a761a7826",
@@ -1603,7 +1603,7 @@
     "index": "5F",
     "Text": "■ This Unit gains -1/-1 for each card in your hand.",
     "set_id": "Set 3",
-    "image": "a0c5b519-b1d9-49c5-bfe2-388a761a7826.jpg"
+    "image": "a0c5b519-b1d9-49c5-bfe2-388a761a7826.png"
   },
   {
     "id": "70d0d9bf-7f29-4a59-a79b-8005e24ba4d1",
@@ -1625,7 +1625,7 @@
     "index": "5G",
     "Text": "■ This Unit gains -1/-1 for each card in your hand.",
     "set_id": "Set 3",
-    "image": "70d0d9bf-7f29-4a59-a79b-8005e24ba4d1.jpg"
+    "image": "70d0d9bf-7f29-4a59-a79b-8005e24ba4d1.png"
   },
   {
     "id": "8317a1b3-4e19-44f8-bb79-7a6535c1785d",
@@ -1647,7 +1647,7 @@
     "index": "4X",
     "Text": "■ When this Unit attacks, if it is in a [Combat Link], you may rebuild 1 target Base.",
     "set_id": "Set 3",
-    "image": "8317a1b3-4e19-44f8-bb79-7a6535c1785d.jpg"
+    "image": "8317a1b3-4e19-44f8-bb79-7a6535c1785d.png"
   },
   {
     "id": "6d318972-824a-43fc-8f35-fb8216ff2885",
@@ -1669,7 +1669,7 @@
     "index": "4Y",
     "Text": "■ At the start of the preparation phase, Plan X, where X is the greatest [Radiant Wings] rank among Units you control. (Look at the top X cards of your deck, then put any number of them on the bottom of your deck and the rest on top in any order.)",
     "set_id": "Set 3",
-    "image": "6d318972-824a-43fc-8f35-fb8216ff2885.jpg"
+    "image": "6d318972-824a-43fc-8f35-fb8216ff2885.png"
   },
   {
     "id": "b82bca51-707c-4d07-8dbd-04e3822fc319",
@@ -1691,7 +1691,7 @@
     "index": "4f",
     "Text": "■ When this Unit attacks, if it is in a [Combat Link], you may rebuild 1 target Base.",
     "set_id": "Set 3",
-    "image": "b82bca51-707c-4d07-8dbd-04e3822fc319.jpg"
+    "image": "b82bca51-707c-4d07-8dbd-04e3822fc319.png"
   },
   {
     "id": "b6e3f50b-655a-42ac-b46d-529169a4d3f3",
@@ -1713,7 +1713,7 @@
     "index": "5Z",
     "Text": "You may discard 1 Item card. If you do, search your deck for an Item card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "b6e3f50b-655a-42ac-b46d-529169a4d3f3.jpg"
+    "image": "b6e3f50b-655a-42ac-b46d-529169a4d3f3.png"
   },
   {
     "id": "dcc07f1c-34fb-48b6-8bee-c976bac8a440",
@@ -1735,7 +1735,7 @@
     "index": "4j",
     "Text": "■ At the start of the recovery phase, if the total [Radiant Wings] rank of Units you control is 10 or greater and you do not control an “Olivert Reise Arnor” or an “Olivier Lenheim,” you may put this Unit tapped on the field from your Trail.",
     "set_id": "Set 3",
-    "image": "dcc07f1c-34fb-48b6-8bee-c976bac8a440.jpg"
+    "image": "dcc07f1c-34fb-48b6-8bee-c976bac8a440.png"
   },
   {
     "id": "ed01d844-16c2-4077-8a93-8435b88ef2b7",
@@ -1757,7 +1757,7 @@
     "index": "5O",
     "Text": "■Tap: Tap 1 target Unit with CP cost 4 or less. If crewed by “Crow Armbrust,” stun that target instead. ■ Immortalize - Shuffle 1 “Crow Armbrust” from your Trail into your deck: This Item becomes an Item/Unit until the end of the turn.",
     "set_id": "Set 3",
-    "image": "ed01d844-16c2-4077-8a93-8435b88ef2b7.jpg"
+    "image": "ed01d844-16c2-4077-8a93-8435b88ef2b7.png"
   },
   {
     "id": "dc54442d-9728-4022-889e-6a5876fca8b5",
@@ -1779,7 +1779,7 @@
     "index": "5V",
     "Text": "Target 1 stunned Unit. You may discard a [Cursed] card. If you do, recover that target.",
     "set_id": "Set 3",
-    "image": "dc54442d-9728-4022-889e-6a5876fca8b5.jpg"
+    "image": "dc54442d-9728-4022-889e-6a5876fca8b5.png"
   },
   {
     "id": "1a692e22-11ee-4043-bd5c-566c88305fd6",
@@ -1801,7 +1801,7 @@
     "index": "5Y",
     "Text": "Target 1 Unit. You may tap 2 “Ouroboros” Units you control. If you do, stun the targeted Unit. If your bond is 20 or less, kill that Unit instead.",
     "set_id": "Set 3",
-    "image": "1a692e22-11ee-4043-bd5c-566c88305fd6.jpg"
+    "image": "1a692e22-11ee-4043-bd5c-566c88305fd6.png"
   },
   {
     "id": "c629edce-3674-49ae-be7e-c513db5954f6",
@@ -1823,7 +1823,7 @@
     "index": "5X",
     "Text": "You may return 1 “Ouroboros” Unit you control that is not stunned to the hand. If you do, search your deck for an “Ouroboros” or an Event card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "c629edce-3674-49ae-be7e-c513db5954f6.jpg"
+    "image": "c629edce-3674-49ae-be7e-c513db5954f6.png"
   },
   {
     "id": "a4bcf024-d443-44ce-acfe-986390d6d05b",
@@ -1845,7 +1845,7 @@
     "index": "5j",
     "Text": "Search your deck for up to 2 “Erebonian Empire” cards and put them in your Trail. Then, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "a4bcf024-d443-44ce-acfe-986390d6d05b.jpg"
+    "image": "a4bcf024-d443-44ce-acfe-986390d6d05b.png"
   },
   {
     "id": "5d794ce5-c18e-425b-b5f2-971d5588ae88",
@@ -1867,7 +1867,7 @@
     "index": "4L",
     "Text": "■: Gain CP equal to the [Radiant Wings] rank of this card. Spend this CP only to play Items.",
     "set_id": "Set 3",
-    "image": "5d794ce5-c18e-425b-b5f2-971d5588ae88.jpg"
+    "image": "5d794ce5-c18e-425b-b5f2-971d5588ae88.png"
   },
   {
     "id": "a97d847f-7c29-4d70-9aea-bfbe9e37e98b",
@@ -1889,7 +1889,7 @@
     "index": "4b",
     "Text": "■ If this Unit is the only Unit you control, this Unit gains +4/+4. ■ While this Unit is on the field, increase the [Radiant Wings] rank of Units you control by 1.",
     "set_id": "Set 3",
-    "image": "a97d847f-7c29-4d70-9aea-bfbe9e37e98b.jpg"
+    "image": "a97d847f-7c29-4d70-9aea-bfbe9e37e98b.png"
   },
   {
     "id": "ea8b436d-0b1a-40d5-95ca-4d458d8f9dc1",
@@ -1911,7 +1911,7 @@
     "index": "4c",
     "Text": "■Tap,Pay 4 bond: Put a “Thors Military Academy” card from your hand on the field with a CP cost less than or equal to the [Radiant Wings] rank of this Unit.",
     "set_id": "Set 3",
-    "image": "ea8b436d-0b1a-40d5-95ca-4d458d8f9dc1.jpg"
+    "image": "ea8b436d-0b1a-40d5-95ca-4d458d8f9dc1.png"
   },
   {
     "id": "02b131ca-40b4-4a36-ab57-9d9007653382",
@@ -1933,7 +1933,7 @@
     "index": "4d",
     "Text": "■ At the start of the recovery phase, if your opponent’s bond is less than the total [Radiant Wings] rank of Units you control, they lose the game.",
     "set_id": "Set 3",
-    "image": "02b131ca-40b4-4a36-ab57-9d9007653382.jpg"
+    "image": "02b131ca-40b4-4a36-ab57-9d9007653382.png"
   },
   {
     "id": "d182b33a-bbf3-4eb8-af12-495652160e12",
@@ -1955,7 +1955,7 @@
     "index": "4e",
     "Text": "■On Play: You may discard 1 Item card. If you didn’t, place this Unit on the bottom of the deck.",
     "set_id": "Set 3",
-    "image": "d182b33a-bbf3-4eb8-af12-495652160e12.jpg"
+    "image": "d182b33a-bbf3-4eb8-af12-495652160e12.png"
   },
   {
     "id": "4b0102e0-bf7a-41d4-83a1-c281ea8ed423",
@@ -1977,7 +1977,7 @@
     "index": "4g",
     "Text": "■Tap,Pay 4 bond: Put a “Thors Military Academy” card from your hand on the field with a CP cost less than or equal to the [Radiant Wings] rank of this Unit.",
     "set_id": "Set 3",
-    "image": "4b0102e0-bf7a-41d4-83a1-c281ea8ed423.jpg"
+    "image": "4b0102e0-bf7a-41d4-83a1-c281ea8ed423.png"
   },
   {
     "id": "71471aa7-5508-4694-97bd-673f3b6e4ee0",
@@ -1999,7 +1999,7 @@
     "index": "5a",
     "Text": "Target 1 player. That player shuffles their Trail into their deck.",
     "set_id": "Set 3",
-    "image": "71471aa7-5508-4694-97bd-673f3b6e4ee0.jpg"
+    "image": "71471aa7-5508-4694-97bd-673f3b6e4ee0.png"
   },
   {
     "id": "8f0affe1-78e2-4520-8f08-9719174b7991",
@@ -2021,7 +2021,7 @@
     "index": "5C",
     "Text": "■: Tap 1 target Unit your opponent controls. ■ When you play a [Magic] card, untap this unit, and it cannot overkill for the rest of the turn.",
     "set_id": "Set 3",
-    "image": "8f0affe1-78e2-4520-8f08-9719174b7991.jpg"
+    "image": "8f0affe1-78e2-4520-8f08-9719174b7991.png"
   },
   {
     "id": "77519956-5e81-4ad4-ac5c-d8cf149e885f",
@@ -2043,7 +2043,7 @@
     "index": "5D",
     "Text": "■ When this Unit is stunned, search your deck for an Item card, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "77519956-5e81-4ad4-ac5c-d8cf149e885f.jpg"
+    "image": "77519956-5e81-4ad4-ac5c-d8cf149e885f.png"
   },
   {
     "id": "2d734654-935b-4e71-94ef-56ca67c87393",
@@ -2065,7 +2065,7 @@
     "index": "54",
     "Text": "■ When this Unit is stunned, you may pay 10 bond. If you do, this Unit is tapped instead.",
     "set_id": "Set 3",
-    "image": "2d734654-935b-4e71-94ef-56ca67c87393.jpg"
+    "image": "2d734654-935b-4e71-94ef-56ca67c87393.png"
   },
   {
     "id": "fae233cd-94af-49f1-a93b-d34091c5f13d",
@@ -2087,7 +2087,7 @@
     "index": "4s",
     "Text": "■ If there are 4 or more [Cursed] cards in your Trail, your opponent cannot play Base cards. ■ When this Unit stuns another Unit, draw 1 card.",
     "set_id": "Set 3",
-    "image": "fae233cd-94af-49f1-a93b-d34091c5f13d.jpg"
+    "image": "fae233cd-94af-49f1-a93b-d34091c5f13d.png"
   },
   {
     "id": "63036cb2-0044-49ce-a8e0-1371b370dfb7",
@@ -2109,7 +2109,7 @@
     "index": "4t",
     "Text": "■ If there are 4 or more [Cursed] cards in your Trail, this Unit gains “■ Pay 2 bond: Untap this Unit. You can only use this craft once per turn.”",
     "set_id": "Set 3",
-    "image": "63036cb2-0044-49ce-a8e0-1371b370dfb7.jpg"
+    "image": "63036cb2-0044-49ce-a8e0-1371b370dfb7.png"
   },
   {
     "id": "83f86099-8fe9-4941-8d61-a970bc4ff8ac",
@@ -2131,7 +2131,7 @@
     "index": "53",
     "Text": "■ Sacrifice 2 Units you control: Untap this Unit. You can only use this craft once per turn.",
     "set_id": "Set 3",
-    "image": "83f86099-8fe9-4941-8d61-a970bc4ff8ac.jpg"
+    "image": "83f86099-8fe9-4941-8d61-a970bc4ff8ac.png"
   },
   {
     "id": "222b8437-484c-447e-998e-fbabf6178d93",
@@ -2153,7 +2153,7 @@
     "index": "5e",
     "Text": "Reveal the top 5 cards of your deck. Add 1 Unit with CP cost 3 or less among those cards to your hand, then place the rest on the bottom of the deck in any order.",
     "set_id": "Set 3",
-    "image": "222b8437-484c-447e-998e-fbabf6178d93.jpg"
+    "image": "222b8437-484c-447e-998e-fbabf6178d93.png"
   },
   {
     "id": "926c1c9e-33fc-4db9-86f2-659670e530cb",
@@ -2175,7 +2175,7 @@
     "index": "4D",
     "Text": "■Enhancement: ■When this attacking Unit stuns another Unit, kill that Unit if this card was attacking alone. ■Pay 2 bond: Until the end of the turn, this Unit loses [Covert Action] if it has [Covert Action] or it gains [Covert Action] if it does not have [Covert Action].",
     "set_id": "Set 3",
-    "image": "926c1c9e-33fc-4db9-86f2-659670e530cb.jpg"
+    "image": "926c1c9e-33fc-4db9-86f2-659670e530cb.png"
   },
   {
     "id": "d237a295-a9a7-4125-86f6-7c063471d7d3",
@@ -2197,7 +2197,7 @@
     "index": "4E",
     "Text": "■Enhancement: ■This Unit gains [Covert Action]. ■When this Unit attacks a player directly, kill 1 stunned Unit your opponent controls. If you do, this Unit cannot overkill for the rest of the turn. (It does no damage from that direct attack.)",
     "set_id": "Set 3",
-    "image": "d237a295-a9a7-4125-86f6-7c063471d7d3.jpg"
+    "image": "d237a295-a9a7-4125-86f6-7c063471d7d3.png"
   },
   {
     "id": "e66acf82-da80-462c-af3e-bd7b6e8e1030",
@@ -2219,7 +2219,7 @@
     "index": "4B",
     "Text": "■Enhancement: When a Unit is sent from the field to the Trail, your opponent loses 2 bond.)] ■ When exactly 1 Unit is stunned, that Unit is killed instead.",
     "set_id": "Set 3",
-    "image": "e66acf82-da80-462c-af3e-bd7b6e8e1030.jpg"
+    "image": "e66acf82-da80-462c-af3e-bd7b6e8e1030.png"
   },
   {
     "id": "7eca96d7-1762-4e95-b5f8-b0131c29fd08",
@@ -2241,7 +2241,7 @@
     "index": "4C",
     "Text": "■Enhancement: ■When a Unit is sent from the field to the Trail, your opponent loses 2 bond.)] ■Tap: Kill 1 stunned Unit (this craft does not target). If you do, lose bond equal to its CP cost.",
     "set_id": "Set 3",
-    "image": "7eca96d7-1762-4e95-b5f8-b0131c29fd08.jpg"
+    "image": "7eca96d7-1762-4e95-b5f8-b0131c29fd08.png"
   },
   {
     "id": "8b330fed-c599-48a2-bc18-2022a1c0c381",
@@ -2263,7 +2263,7 @@
     "index": "51",
     "Text": "■ This Unit is also treated as “Crow Armbrust.” ■ When this Unit is stunned, return it to the hand.",
     "set_id": "Set 3",
-    "image": "8b330fed-c599-48a2-bc18-2022a1c0c381.jpg"
+    "image": "8b330fed-c599-48a2-bc18-2022a1c0c381.png"
   },
   {
     "id": "69f2bbd5-abc3-4e73-80b7-9c31c18bfc7e",
@@ -2285,7 +2285,7 @@
     "index": "52",
     "Text": "■ This Unit is also treated as “Crow Armbrust.” ■ This Unit cannot gain support.",
     "set_id": "Set 3",
-    "image": "69f2bbd5-abc3-4e73-80b7-9c31c18bfc7e.jpg"
+    "image": "69f2bbd5-abc3-4e73-80b7-9c31c18bfc7e.png"
   },
   {
     "id": "5f4c935b-4b1b-4dd9-9729-1e27e9e8e6f5",
@@ -2307,7 +2307,7 @@
     "index": "5b",
     "Text": "Units that scrum attacked this turn do not untap during the recovery phase this turn.",
     "set_id": "Set 3",
-    "image": "5f4c935b-4b1b-4dd9-9729-1e27e9e8e6f5.jpg"
+    "image": "5f4c935b-4b1b-4dd9-9729-1e27e9e8e6f5.png"
   },
   {
     "id": "7c087125-3937-4fd4-8901-fb58a8c957d4",
@@ -2329,7 +2329,7 @@
     "index": "5m",
     "Text": "Units that scrum attacked this turn do not untap during the recovery phase this turn.",
     "set_id": "Set 3",
-    "image": "7c087125-3937-4fd4-8901-fb58a8c957d4.jpg"
+    "image": "7c087125-3937-4fd4-8901-fb58a8c957d4.png"
   },
   {
     "id": "f5b9c8e9-42ca-4632-b75c-73e15b5bafd5",
@@ -2351,7 +2351,7 @@
     "index": "5Q",
     "Text": "■On Play: Stun 1 target Unit your opponent controls with CP cost 3 or less. ■ Immortalize - Shuffle 1 “Cedric Reise Arnor” from your Trail into your deck: This Item becomes an Item/Unit until the end of the turn.",
     "set_id": "Set 3",
-    "image": "f5b9c8e9-42ca-4632-b75c-73e15b5bafd5.jpg"
+    "image": "f5b9c8e9-42ca-4632-b75c-73e15b5bafd5.png"
   },
   {
     "id": "ed24fc6a-111b-485d-a256-e47c08842cf8",
@@ -2373,7 +2373,7 @@
     "index": "5f",
     "Text": "You may tap any number of “Erebonian Empire” or “Gnome” Units you control. If you do, you and your opponent each sacrifice Units equal to the number of Units tapped for this Event. This Event can only be played during the combat phase.",
     "set_id": "Set 3",
-    "image": "ed24fc6a-111b-485d-a256-e47c08842cf8.jpg"
+    "image": "ed24fc6a-111b-485d-a256-e47c08842cf8.png"
   },
   {
     "id": "8a5ed692-8f80-44ae-82e6-3dc874613e6d",
@@ -2395,7 +2395,7 @@
     "index": "4U",
     "Text": "■ At the end of the turn, return this Unit from the field to the hand.",
     "set_id": "Set 3",
-    "image": "8a5ed692-8f80-44ae-82e6-3dc874613e6d.jpg"
+    "image": "8a5ed692-8f80-44ae-82e6-3dc874613e6d.png"
   },
   {
     "id": "c79af926-e071-44d7-a875-b4d9abd19b36",
@@ -2417,7 +2417,7 @@
     "index": "5s",
     "Text": "■ Units gain support when in a [Combat Link]. ■ Units you control can scrum attack and scrum support as if they shared an affiliation.",
     "set_id": "Set 3",
-    "image": "c79af926-e071-44d7-a875-b4d9abd19b36.jpg"
+    "image": "c79af926-e071-44d7-a875-b4d9abd19b36.png"
   },
   {
     "id": "a12b6e9b-d53e-4c15-9d4e-1e4de9cfcd4c",
@@ -2439,7 +2439,7 @@
     "index": "5y",
     "Text": "■ When you play this Base, choose 3 affiliations represented among the cards on your field. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation). ■ While you control this Base, increase the [Radiant Wings] rank of Units you control by 1.",
     "set_id": "Set 3",
-    "image": "a12b6e9b-d53e-4c15-9d4e-1e4de9cfcd4c.jpg"
+    "image": "a12b6e9b-d53e-4c15-9d4e-1e4de9cfcd4c.png"
   },
   {
     "id": "bcdd3a0e-0fbb-42e0-bb4e-32fde41a36d7",
@@ -2461,7 +2461,7 @@
     "index": "5z",
     "Text": "■ When you play this Base, choose 3 affiliations represented among the cards on your field. ■ The chosen affiliations are linked (Treat units from each affiliation as if they were one affiliation). ■ While you control this Base, increase the [Radiant Wings] rank of Units you control by 1.",
     "set_id": "Set 3",
-    "image": "bcdd3a0e-0fbb-42e0-bb4e-32fde41a36d7.jpg"
+    "image": "bcdd3a0e-0fbb-42e0-bb4e-32fde41a36d7.png"
   },
   {
     "id": "8d0775e8-9b88-4ef6-b9de-20596a1ca50c",
@@ -2483,7 +2483,7 @@
     "index": "4T",
     "Text": "■: Target 1 Unit you control. This turn, if that Unit crews an Item, increase its CP cost by its [Radiant Wings] rank.",
     "set_id": "Set 3",
-    "image": "8d0775e8-9b88-4ef6-b9de-20596a1ca50c.jpg"
+    "image": "8d0775e8-9b88-4ef6-b9de-20596a1ca50c.png"
   },
   {
     "id": "b8c9ad38-16ff-4cf2-b94f-3924f86b75dd",
@@ -2505,7 +2505,7 @@
     "index": "4V",
     "Text": "■ Tap any number of Units you control with a total [Radiant Wings] rank of 4 or greater: Draw 1 card.",
     "set_id": "Set 3",
-    "image": "b8c9ad38-16ff-4cf2-b94f-3924f86b75dd.jpg"
+    "image": "b8c9ad38-16ff-4cf2-b94f-3924f86b75dd.png"
   },
   {
     "id": "52bae2d0-df16-4739-b7be-946eb9e1cc1a",
@@ -2527,7 +2527,7 @@
     "index": "5M",
     "Text": "■ Units you control gain support. ■ When this Item/Unit attacks, it gains +5/+0 this combat. ■ Immortalize - Shuffle 1 “Rean Schwarzer” from your Trail into your deck: This Item becomes an Item/Unit until the end of the turn.",
     "set_id": "Set 3",
-    "image": "52bae2d0-df16-4739-b7be-946eb9e1cc1a.jpg"
+    "image": "52bae2d0-df16-4739-b7be-946eb9e1cc1a.png"
   },
   {
     "id": "13769110-6563-4915-8dd7-78347bd35400",
@@ -2549,7 +2549,7 @@
     "index": "4y",
     "Text": "■ When this Unit stuns another Unit, untap this Unit and it cannot overkill for the rest of the turn.",
     "set_id": "Set 3",
-    "image": "13769110-6563-4915-8dd7-78347bd35400.jpg"
+    "image": "13769110-6563-4915-8dd7-78347bd35400.png"
   },
   {
     "id": "5c21d41a-1265-4059-aa85-f7531b6d5b21",
@@ -2571,7 +2571,7 @@
     "index": "45",
     "Text": "■Enhancement: This Unit cannot be attacked while you control another Unit. ■ When a defending Unit you control is stunned, stun all attacking Units.",
     "set_id": "Set 3",
-    "image": "5c21d41a-1265-4059-aa85-f7531b6d5b21.jpg"
+    "image": "5c21d41a-1265-4059-aa85-f7531b6d5b21.png"
   },
   {
     "id": "8d025eeb-0b5a-4a34-b835-54bfa0bb2072",
@@ -2593,7 +2593,7 @@
     "index": "46",
     "Text": "■ Enhancement: This Unit gains +5/+5. ■ Pay 2 bond: Draw 1 card.",
     "set_id": "Set 3",
-    "image": "8d025eeb-0b5a-4a34-b835-54bfa0bb2072.jpg"
+    "image": "8d025eeb-0b5a-4a34-b835-54bfa0bb2072.png"
   },
   {
     "id": "bba17e77-7600-4dcb-8740-7526287821a5",
@@ -2615,7 +2615,7 @@
     "index": "4K",
     "Text": "■Enhancement: This Unit gains +3/+0 ■Tap: Return this Unit to your hand.",
     "set_id": "Set 3",
-    "image": "bba17e77-7600-4dcb-8740-7526287821a5.jpg"
+    "image": "bba17e77-7600-4dcb-8740-7526287821a5.png"
   },
   {
     "id": "f6190c6a-ff29-4be1-a3d2-19eb84bc9207",
@@ -2637,7 +2637,7 @@
     "index": "55",
     "Text": "■ When this Unit is stunned, search your deck for 1 Unit and send it to your Trail. Then, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "f6190c6a-ff29-4be1-a3d2-19eb84bc9207.jpg"
+    "image": "f6190c6a-ff29-4be1-a3d2-19eb84bc9207.png"
   },
   {
     "id": "6a85d0cd-ef93-44f5-a435-74522070f65b",
@@ -2659,7 +2659,7 @@
     "index": "56",
     "Text": "■ When you play a [Magic] card, draw 1 card.",
     "set_id": "Set 3",
-    "image": "6a85d0cd-ef93-44f5-a435-74522070f65b.jpg"
+    "image": "6a85d0cd-ef93-44f5-a435-74522070f65b.png"
   },
   {
     "id": "3a247a3b-7e8d-4bfe-8717-33b313cc701b",
@@ -2681,7 +2681,7 @@
     "index": "5S",
     "Text": "You may discard 1 Unit with an affiliation. If you do, search your deck for a Unit with a different affiliation from the original affiliation of the card discarded by this Event, reveal it, and add it to your hand. Then, shuffle your deck.",
     "set_id": "Set 3",
-    "image": "3a247a3b-7e8d-4bfe-8717-33b313cc701b.jpg"
+    "image": "3a247a3b-7e8d-4bfe-8717-33b313cc701b.png"
   },
   {
     "id": "828ebe53-4d0b-4287-8be7-9551be0d2b74",
@@ -2703,7 +2703,7 @@
     "index": "5v",
     "Text": "■ Units you control gain the “Ouroboros” affiliation. ■ Tap, Sacrifice 1 Unit you control that is not stunned: draw 1 card.",
     "set_id": "Set 3",
-    "image": "828ebe53-4d0b-4287-8be7-9551be0d2b74.jpg"
+    "image": "828ebe53-4d0b-4287-8be7-9551be0d2b74.png"
   },
   {
     "id": "6e3775a4-b20c-4d6a-bc23-36f763482cfe",
@@ -2725,6 +2725,6 @@
     "index": "5P",
     "Text": "■On Play: Target 1 Unit in your Trail with CP cost 2 or less and put it on the field untapped. ■ Immortalize - Shuffle 1 “Rutger Claussell” from your Trail into your deck: This Item becomes an Item/Unit until the end of the turn.",
     "set_id": "Set 3",
-    "image": "6e3775a4-b20c-4d6a-bc23-36f763482cfe.jpg"
+    "image": "6e3775a4-b20c-4d6a-bc23-36f763482cfe.png"
   }
 ]
