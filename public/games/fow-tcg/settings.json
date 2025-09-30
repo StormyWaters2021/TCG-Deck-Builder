@@ -1,0 +1,28 @@
+{
+  "gameName": "fow-tcg",
+  "addNValue": 4,
+  "maxCopiesPerCard": 4,
+  "octgnExport": false,
+  
+  "groupOptions": [
+    "Type"
+  ],
+  "groupOrder": [
+  ],
+  
+  "filterOptions": [
+    "Type",
+    "Colour",
+	"Cluster",
+	"Set Name"
+  ],
+  "filterDelimiter": "|",
+  "searchPrefixes": {
+    "a": "Abilities",
+	"r": "Race",
+	"atk": "ATK",
+	"def": "DEF",
+	"div": "Divinity",
+	"wp": "Willpower"
+  }
+}
