@@ -19,7 +19,8 @@
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
     "id": "7d6abbce-eab2-4d61-a455-98a9cc1650d8",
-    "image": "7d6abbce-eab2-4d61-a455-98a9cc1650d8.jpg"
+    "image": "7d6abbce-eab2-4d61-a455-98a9cc1650d8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR3-002",
@@ -41,7 +42,8 @@
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
     "id": "a7f19523-34dc-449b-ac64-5e0aca048670",
-    "image": "a7f19523-34dc-449b-ac64-5e0aca048670.jpg"
+    "image": "a7f19523-34dc-449b-ac64-5e0aca048670.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR3-003",
@@ -63,7 +65,8 @@
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
     "id": "3a446d21-0a3e-4b2b-8778-e2a085dd9aa0",
-    "image": "3a446d21-0a3e-4b2b-8778-e2a085dd9aa0.jpg"
+    "image": "3a446d21-0a3e-4b2b-8778-e2a085dd9aa0.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDR3-004",
@@ -85,7 +88,8 @@
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
     "id": "7875e7fa-a4a0-4495-aa58-1e755380394f",
-    "image": "7875e7fa-a4a0-4495-aa58-1e755380394f.jpg"
+    "image": "7875e7fa-a4a0-4495-aa58-1e755380394f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR3-005",
@@ -107,7 +111,8 @@
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
     "id": "d3a60158-fd9e-4d54-949f-1ea4c28a4179",
-    "image": "d3a60158-fd9e-4d54-949f-1ea4c28a4179.jpg"
+    "image": "d3a60158-fd9e-4d54-949f-1ea4c28a4179.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR3-006",
@@ -129,51 +134,53 @@
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
     "id": "56b04711-2604-476f-8e93-12a4b2ae5cfd",
-    "image": "56b04711-2604-476f-8e93-12a4b2ae5cfd.jpg"
+    "image": "56b04711-2604-476f-8e93-12a4b2ae5cfd.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "SDR3-007",
-    "name": "Shaela",
-    "Type": "Ruler",
-    "Race": "Mermaid",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {U}{U}{1} ( Pay {U}{U}{1} to flip this card and put it into the field as a J-Ruler.)\n[Energize] {U} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {U}.\")\nThe weather is rain during your turn.\n{Rest}: Search your deck for a card named \"Weather Change: Rain\", reveal it an put it into your hand. Then shuffle your deck.\nSealed Item [[Thunder Parasol]] {0}: Choose one. Play this ability only during your turn and only once per turn - Put an electricity counter on this card; or remove an electricity counter from this card. If you do, the weather is thunderstorm until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Princess of the merfolk who live beneath the water.",
-    "Artist": "SIE NANAHARA",
-    "Rarity": "R",
-    "Fowid": "2788",
-    "Cluster": "05 - Reiya",
-    "Set Name": "028 - Starter - Below the Waves",
-    "Set Code": "SDR3",
-    "id": "596cb48b-69d3-4828-bb21-2b3ba24c925c",
-    "image": "596cb48b-69d3-4828-bb21-2b3ba24c925c.jpg"
-  },
-  {
-    "Card Number": "SDR3-007J",
-    "name": "Shaela, the Mermaid Princess",
-    "Type": "J-Ruler",
+    "Card Number": "SDR3-007|SDR3-007J",
+    "name": "Shaela // Shaela, the Mermaid Princess",
+    "Type": "Ruler|J-Ruler",
     "Race": "Mermaid",
     "Cost": "",
     "Colour": "U",
     "ATK": "1000",
     "DEF": "1200",
-    "Abilities": "The weather is rain.\nWhen this card enters your field ⇒ Draw a card.\nSealed Item [[Thunder Parasol]] {0}: The weather is thunderstorm until end of turn.\nSealed Item [[Thunder Parasol]] God's Art \"Indignation\" {U}, remove two electricty counters from this card: Destroy target J/resonator. Rest all resonators your opponent controls.",
+    "Abilities": "[Judgment] {U}{U}{1} ( Pay {U}{U}{1} to flip this card and put it into the field as a J-Ruler.)\n[Energize] {U} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {U}.\")\nThe weather is rain during your turn.\n{Rest}: Search your deck for a card named \"Weather Change: Rain\", reveal it an put it into your hand. Then shuffle your deck.\nSealed Item [[Thunder Parasol]] {0}: Choose one. Play this ability only during your turn and only once per turn - Put an electricity counter on this card; or remove an electricity counter from this card. If you do, the weather is thunderstorm until end of turn.|The weather is rain.\nWhen this card enters your field ⇒ Draw a card.\nSealed Item [[Thunder Parasol]] {0}: The weather is thunderstorm until end of turn.\nSealed Item [[Thunder Parasol]] God's Art \"Indignation\" {U}, remove two electricty counters from this card: Destroy target J/resonator. Rest all resonators your opponent controls.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Oh? Looks like good weather today.\"",
+    "Flavour": "Princess of the merfolk who live beneath the water.|\"Oh? Looks like good weather today.\"",
     "Artist": "SIE NANAHARA",
     "Rarity": "R",
-    "Fowid": "2789",
+    "Fowid": "2788|2789",
     "Cluster": "05 - Reiya",
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
-    "id": "eefda2be-6d26-415d-b317-8ade26952abf",
-    "image": "eefda2be-6d26-415d-b317-8ade26952abf.jpg"
+    "id": "596cb48b-69d3-4828-bb21-2b3ba24c925c",
+    "image": "596cb48b-69d3-4828-bb21-2b3ba24c925c.jpg",
+    "Card Type": "Ruler",
+    "backimage": "eefda2be-6d26-415d-b317-8ade26952abf.jpg",
+    "alternate1_Card Number": "SDR3-007J",
+    "alternate1_name": "Shaela, the Mermaid Princess",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Mermaid",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "The weather is rain.\nWhen this card enters your field ⇒ Draw a card.\nSealed Item [[Thunder Parasol]] {0}: The weather is thunderstorm until end of turn.\nSealed Item [[Thunder Parasol]] God's Art \"Indignation\" {U}, remove two electricty counters from this card: Destroy target J/resonator. Rest all resonators your opponent controls.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Oh? Looks like good weather today.\"",
+    "alternate1_Artist": "SIE NANAHARA",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2789",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "028 - Starter - Below the Waves",
+    "alternate1_Set Code": "SDR3",
+    "alternate1_id": "eefda2be-6d26-415d-b317-8ade26952abf",
+    "alternate1_image": "eefda2be-6d26-415d-b317-8ade26952abf.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDR3-008",
@@ -195,7 +202,8 @@
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
     "id": "e0244dee-9f44-42f0-92dd-630cddfbeee7",
-    "image": "e0244dee-9f44-42f0-92dd-630cddfbeee7.jpg"
+    "image": "e0244dee-9f44-42f0-92dd-630cddfbeee7.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDR3-009",
@@ -217,7 +225,8 @@
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
     "id": "317dd070-764b-4735-9dd2-ec20b404bfa6",
-    "image": "317dd070-764b-4735-9dd2-ec20b404bfa6.jpg"
+    "image": "317dd070-764b-4735-9dd2-ec20b404bfa6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR3-010",
@@ -239,7 +248,8 @@
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
     "id": "6071935f-8ab9-455f-a5f2-a9cb4677428e",
-    "image": "6071935f-8ab9-455f-a5f2-a9cb4677428e.jpg"
+    "image": "6071935f-8ab9-455f-a5f2-a9cb4677428e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR3-011",
@@ -261,7 +271,8 @@
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
     "id": "cfc6e8c1-dd6c-4608-a228-7e31ad5c1ffa",
-    "image": "cfc6e8c1-dd6c-4608-a228-7e31ad5c1ffa.jpg"
+    "image": "cfc6e8c1-dd6c-4608-a228-7e31ad5c1ffa.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDR3-012",
@@ -283,7 +294,8 @@
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
     "id": "7c5f4496-4493-4be8-b738-695e6ec54743",
-    "image": "7c5f4496-4493-4be8-b738-695e6ec54743.jpg"
+    "image": "7c5f4496-4493-4be8-b738-695e6ec54743.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "SDR3-013",
@@ -305,6 +317,7 @@
     "Set Name": "028 - Starter - Below the Waves",
     "Set Code": "SDR3",
     "id": "fee3865e-9868-40a7-8ba3-6df63d39a159",
-    "image": "fee3865e-9868-40a7-8ba3-6df63d39a159.jpg"
+    "image": "fee3865e-9868-40a7-8ba3-6df63d39a159.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

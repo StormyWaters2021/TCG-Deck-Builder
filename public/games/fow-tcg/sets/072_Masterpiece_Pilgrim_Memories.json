@@ -19,51 +19,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "4e169cc8-6d50-4fc9-be39-653b47ddf01c",
-    "image": "4e169cc8-6d50-4fc9-be39-653b47ddf01c.jpg"
+    "image": "4e169cc8-6d50-4fc9-be39-653b47ddf01c.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "MP01-002",
-    "name": "Crimson Moon's Fairy Tale",
-    "Type": "Regalia",
-    "Race": "Contract|Crimson Moon|Fairy Tale",
+    "Card Number": "MP01-002|MP01-002J",
+    "name": "Crimson Moon's Fairy Tale // Grimm, Crown of the Crimson Moon",
+    "Type": "Regalia|J-Ruler",
+    "Race": "Contract|Crimson Moon|Fairy Tale|Crimson Moon|Fairy Tale|Human",
     "Cost": "{W}",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "If you would discard a Fairy Tale resonator, you may discard this card instead.\nWhen this card is discarded ]]] If you control a J/ruler with \"Grimm\" or \"Book\" in its name, you may put this card from your graveyard into the field rested.\nWhenever you discard a card ]]] You gain 500 life.\n{Rest}, pay 1000 life: Produce {W}, {R}, {U}, {G} or {B}. Spend this will only to play Fairy Tales or Moons.\n{W}{R}: You may contract this card with \"Grimm, the Fairy Tale Prince\". Play this ability only during main timing.",
+    "Colour": "W|W|R",
+    "ATK": "700",
+    "DEF": "1000",
+    "Abilities": "If you would discard a Fairy Tale resonator, you may discard this card instead.\nWhen this card is discarded ]]] If you control a J/ruler with \"Grimm\" or \"Book\" in its name, you may put this card from your graveyard into the field rested.\nWhenever you discard a card ]]] You gain 500 life.\n{Rest}, pay 1000 life: Produce {W}, {R}, {U}, {G} or {B}. Spend this will only to play Fairy Tales or Moons.\n{W}{R}: You may contract this card with \"Grimm, the Fairy Tale Prince\". Play this ability only during main timing.|This card has \"Grimm, the Fairy Tale Prince\" in addition to its other names.\nYou may pay the attribute cost of Fairy Tale resonators with will of any attribute.\n[Enter] ]]] Put target Fairy Tale resonator with total cost 3 or less from your graveyard into the field.\n{0}, discard a Fairy Tale resonator: Search your deck for a Fairy Tale resonator, reveal it and put it into your hand. Then shuffle your deck. You may put two [+100/+100] counters on a Fairy Tale J/resonator. Play this ability only once per turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "jitari",
-    "Rarity": "MR",
-    "Fowid": "2125",
+    "Artist": "jitari|Haruichi Kido",
+    "Rarity": "MR|R",
+    "Fowid": "2125|2126",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "6c595de6-9833-400f-9185-e2f3d3704fa4",
-    "image": "6c595de6-9833-400f-9185-e2f3d3704fa4.jpg"
-  },
-  {
-    "Card Number": "MP01-002J",
-    "name": "Grimm, Crown of the Crimson Moon",
-    "Type": "J-Ruler",
-    "Race": "Crimson Moon|Fairy Tale|Human",
-    "Cost": "",
-    "Colour": "W|R",
-    "ATK": "700",
-    "DEF": "1000",
-    "Abilities": "This card has \"Grimm, the Fairy Tale Prince\" in addition to its other names.\nYou may pay the attribute cost of Fairy Tale resonators with will of any attribute.\n[Enter] ]]] Put target Fairy Tale resonator with total cost 3 or less from your graveyard into the field.\n{0}, discard a Fairy Tale resonator: Search your deck for a Fairy Tale resonator, reveal it and put it into your hand. Then shuffle your deck. You may put two [+100/+100] counters on a Fairy Tale J/resonator. Play this ability only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Haruichi Kido",
-    "Rarity": "R",
-    "Fowid": "2126",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "22352df5-251c-430f-a602-923c926c361f",
-    "image": "22352df5-251c-430f-a602-923c926c361f.jpg"
+    "image": "6c595de6-9833-400f-9185-e2f3d3704fa4.jpg",
+    "Card Type": "Regalia",
+    "backimage": "22352df5-251c-430f-a602-923c926c361f.jpg",
+    "alternate1_Card Number": "MP01-002J",
+    "alternate1_name": "Grimm, Crown of the Crimson Moon",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Crimson Moon|Fairy Tale|Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|R",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "This card has \"Grimm, the Fairy Tale Prince\" in addition to its other names.\nYou may pay the attribute cost of Fairy Tale resonators with will of any attribute.\n[Enter] ]]] Put target Fairy Tale resonator with total cost 3 or less from your graveyard into the field.\n{0}, discard a Fairy Tale resonator: Search your deck for a Fairy Tale resonator, reveal it and put it into your hand. Then shuffle your deck. You may put two [+100/+100] counters on a Fairy Tale J/resonator. Play this ability only once per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Haruichi Kido",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2126",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "22352df5-251c-430f-a602-923c926c361f",
+    "alternate1_image": "22352df5-251c-430f-a602-923c926c361f.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-003",
@@ -85,7 +87,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "76979c23-2fd4-473f-939f-e2c659398cac",
-    "image": "76979c23-2fd4-473f-939f-e2c659398cac.jpg"
+    "image": "76979c23-2fd4-473f-939f-e2c659398cac.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-004",
@@ -107,7 +110,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "dba43c30-b29a-44b7-bf79-62045b18c50b",
-    "image": "dba43c30-b29a-44b7-bf79-62045b18c50b.jpg"
+    "image": "dba43c30-b29a-44b7-bf79-62045b18c50b.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-005",
@@ -129,7 +133,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "55b2386a-5d11-4c4d-b19f-dd2d991451f7",
-    "image": "55b2386a-5d11-4c4d-b19f-dd2d991451f7.jpg"
+    "image": "55b2386a-5d11-4c4d-b19f-dd2d991451f7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-006",
@@ -151,7 +156,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "470a3ec2-6156-4631-b7ab-7c4960d389ff",
-    "image": "470a3ec2-6156-4631-b7ab-7c4960d389ff.jpg"
+    "image": "470a3ec2-6156-4631-b7ab-7c4960d389ff.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-007",
@@ -173,95 +179,98 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "0a7f9f78-2232-498e-9684-59f2c708f2ad",
-    "image": "0a7f9f78-2232-498e-9684-59f2c708f2ad.jpg"
+    "image": "0a7f9f78-2232-498e-9684-59f2c708f2ad.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "MP01-008",
-    "name": "Pandora, Girl of the Box",
-    "Type": "Ruler",
+    "Card Number": "MP01-008|MP01-008J",
+    "name": "Pandora, Girl of the Box // Pandora of Light",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human",
     "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {W}{B}{3}",
+    "Colour": "V|W",
+    "ATK": "400",
+    "DEF": "800",
+    "Abilities": "[Judgment] {W}{B}{3}|[Enter] ]]] Destroy all resonators.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Foo Midori",
     "Rarity": "R",
-    "Fowid": "2132",
+    "Fowid": "2132|2133",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "86149297-4d38-49ca-b915-3714c4d39066",
-    "image": "86149297-4d38-49ca-b915-3714c4d39066.jpg"
+    "image": "86149297-4d38-49ca-b915-3714c4d39066.jpg",
+    "Card Type": "Ruler",
+    "backimage": "ba9b5f18-76bf-499d-9214-6acea5c72d2e.jpg",
+    "alternate1_Card Number": "MP01-008J",
+    "alternate1_name": "Pandora of Light",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "400",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Enter] ]]] Destroy all resonators.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Foo Midori",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2133",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "ba9b5f18-76bf-499d-9214-6acea5c72d2e",
+    "alternate1_image": "ba9b5f18-76bf-499d-9214-6acea5c72d2e.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "MP01-008J",
-    "name": "Pandora of Light",
-    "Type": "J-Ruler",
+    "Card Number": "MP01-009|MP01-009J",
+    "name": "Pandora, Girl of the Box // Pandora of Dark",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human",
     "Cost": "",
-    "Colour": "W",
+    "Colour": "V|B",
     "ATK": "400",
     "DEF": "800",
-    "Abilities": "[Enter] ]]] Destroy all resonators.",
+    "Abilities": "[Judgment] {W}{B}{3}|[Enter] ]]] Your opponent discards their hand.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Foo Midori",
     "Rarity": "R",
-    "Fowid": "2133",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "ba9b5f18-76bf-499d-9214-6acea5c72d2e",
-    "image": "ba9b5f18-76bf-499d-9214-6acea5c72d2e.jpg"
-  },
-  {
-    "Card Number": "MP01-009",
-    "name": "Pandora, Girl of the Box",
-    "Type": "Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {W}{B}{3}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Foo Midori",
-    "Rarity": "R",
-    "Fowid": "2134",
+    "Fowid": "2134|2135",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "942fe612-4dce-4177-a634-64c6408f034e",
-    "image": "942fe612-4dce-4177-a634-64c6408f034e.jpg"
-  },
-  {
-    "Card Number": "MP01-009J",
-    "name": "Pandora of Dark",
-    "Type": "J-Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "400",
-    "DEF": "800",
-    "Abilities": "[Enter] ]]] Your opponent discards their hand.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Foo Midori",
-    "Rarity": "R",
-    "Fowid": "2135",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "24e2da06-3cf6-4e41-a638-ebc3391bcd4b",
-    "image": "24e2da06-3cf6-4e41-a638-ebc3391bcd4b.jpg"
+    "image": "942fe612-4dce-4177-a634-64c6408f034e.jpg",
+    "Card Type": "Ruler",
+    "backimage": "24e2da06-3cf6-4e41-a638-ebc3391bcd4b.jpg",
+    "alternate1_Card Number": "MP01-009J",
+    "alternate1_name": "Pandora of Dark",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "400",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Enter] ]]] Your opponent discards their hand.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Foo Midori",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2135",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "24e2da06-3cf6-4e41-a638-ebc3391bcd4b",
+    "alternate1_image": "24e2da06-3cf6-4e41-a638-ebc3391bcd4b.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-010",
@@ -283,7 +292,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "17fe958a-7f30-4ecc-a478-1d4d3aefc228",
-    "image": "17fe958a-7f30-4ecc-a478-1d4d3aefc228.jpg"
+    "image": "17fe958a-7f30-4ecc-a478-1d4d3aefc228.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "MP01-011",
@@ -305,7 +315,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "9e809837-c48f-4fae-a593-35ef5e09a913",
-    "image": "9e809837-c48f-4fae-a593-35ef5e09a913.jpg"
+    "image": "9e809837-c48f-4fae-a593-35ef5e09a913.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-012",
@@ -327,7 +338,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "c3e56811-5a3c-4e92-b163-16ec1a975188",
-    "image": "c3e56811-5a3c-4e92-b163-16ec1a975188.jpg"
+    "image": "c3e56811-5a3c-4e92-b163-16ec1a975188.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-013",
@@ -349,7 +361,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "3c58cc73-33ea-4bfe-b130-534e77f636dc",
-    "image": "3c58cc73-33ea-4bfe-b130-534e77f636dc.jpg"
+    "image": "3c58cc73-33ea-4bfe-b130-534e77f636dc.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-014",
@@ -371,7 +384,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "26149357-7951-44b8-9342-f71b3b12bae9",
-    "image": "26149357-7951-44b8-9342-f71b3b12bae9.jpg"
+    "image": "26149357-7951-44b8-9342-f71b3b12bae9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-015",
@@ -393,51 +407,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "d442047e-a119-47e9-b987-7f94d33c855b",
-    "image": "d442047e-a119-47e9-b987-7f94d33c855b.jpg"
+    "image": "d442047e-a119-47e9-b987-7f94d33c855b.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-016",
-    "name": "Little Red Riding Hood",
-    "Type": "Ruler",
-    "Race": "Little Girl",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {0}. Play this judgment process only if a Moon entered the field under your control this turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Azusa",
-    "Rarity": "R",
-    "Fowid": "2142",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "b0b63d2f-4e30-42d4-b0cb-b848ab1abcb2",
-    "image": "b0b63d2f-4e30-42d4-b0cb-b848ab1abcb2.jpg"
-  },
-  {
-    "Card Number": "MP01-016J",
-    "name": "Little Red, the Wolf Girl",
-    "Type": "J-Ruler",
-    "Race": "Little Wolf Girl",
+    "Card Number": "MP01-016|MP01-016J",
+    "name": "Little Red Riding Hood // Little Red, the Wolf Girl",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Little Girl|Little Wolf Girl",
     "Cost": "",
     "Colour": "R",
     "ATK": "1200",
     "DEF": "200",
-    "Abilities": "[Swiftness] (This card can attack and you can play its {Rest} abilities already during the same turn it enters the field.)\n[Enter] ]]] This card deals 800 damage to target resonator.\nAt end of turn ]]] Put this card into your ruler area as a ruler.",
+    "Abilities": "[Judgment] {0}. Play this judgment process only if a Moon entered the field under your control this turn.|[Swiftness] (This card can attack and you can play its {Rest} abilities already during the same turn it enters the field.)\n[Enter] ]]] This card deals 800 damage to target resonator.\nAt end of turn ]]] Put this card into your ruler area as a ruler.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Azusa",
     "Rarity": "R",
-    "Fowid": "2143",
+    "Fowid": "2142|2143",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "ff90396d-f125-468a-ad3e-d74ddc81af22",
-    "image": "ff90396d-f125-468a-ad3e-d74ddc81af22.jpg"
+    "id": "b0b63d2f-4e30-42d4-b0cb-b848ab1abcb2",
+    "image": "b0b63d2f-4e30-42d4-b0cb-b848ab1abcb2.jpg",
+    "Card Type": "Ruler",
+    "backimage": "ff90396d-f125-468a-ad3e-d74ddc81af22.jpg",
+    "alternate1_Card Number": "MP01-016J",
+    "alternate1_name": "Little Red, the Wolf Girl",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Little Wolf Girl",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "200",
+    "alternate1_Abilities": "[Swiftness] (This card can attack and you can play its {Rest} abilities already during the same turn it enters the field.)\n[Enter] ]]] This card deals 800 damage to target resonator.\nAt end of turn ]]] Put this card into your ruler area as a ruler.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Azusa",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2143",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "ff90396d-f125-468a-ad3e-d74ddc81af22",
+    "alternate1_image": "ff90396d-f125-468a-ad3e-d74ddc81af22.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-017",
@@ -459,7 +475,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "05692a76-e6f9-40da-84cc-42aac9cf019b",
-    "image": "05692a76-e6f9-40da-84cc-42aac9cf019b.jpg"
+    "image": "05692a76-e6f9-40da-84cc-42aac9cf019b.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-018",
@@ -481,7 +498,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "a4aec80c-9c4e-42a4-8a94-c204c7019325",
-    "image": "a4aec80c-9c4e-42a4-8a94-c204c7019325.jpg"
+    "image": "a4aec80c-9c4e-42a4-8a94-c204c7019325.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "MP01-019",
@@ -503,7 +521,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "f31542f0-45d4-406f-a4a0-c57bd11433ea",
-    "image": "f31542f0-45d4-406f-a4a0-c57bd11433ea.jpg"
+    "image": "f31542f0-45d4-406f-a4a0-c57bd11433ea.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-020",
@@ -525,7 +544,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "d8fbbe55-be6f-49e1-8f4f-0fb4b4654bc4",
-    "image": "d8fbbe55-be6f-49e1-8f4f-0fb4b4654bc4.jpg"
+    "image": "d8fbbe55-be6f-49e1-8f4f-0fb4b4654bc4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-021",
@@ -547,7 +567,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "d61a8eda-84a8-41ec-95f6-d31714644744",
-    "image": "d61a8eda-84a8-41ec-95f6-d31714644744.jpg"
+    "image": "d61a8eda-84a8-41ec-95f6-d31714644744.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-022",
@@ -569,51 +590,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "995bdb1d-dd1b-4662-880d-72d68a514313",
-    "image": "995bdb1d-dd1b-4662-880d-72d68a514313.jpg"
+    "image": "995bdb1d-dd1b-4662-880d-72d68a514313.jpg",
+    "Card Type": "Special Magic Stone|True Magic Stone"
   },
   {
-    "Card Number": "MP01-023",
-    "name": "Snow White",
-    "Type": "Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {W}{R}{2}. You may pay {1} and discard a card named \"Poison Apple\" rather than pay this cost.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "KONNO Takashi",
-    "Rarity": "R",
-    "Fowid": "2150",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "e3754c95-66da-4bc6-96fc-f989e649df5e",
-    "image": "e3754c95-66da-4bc6-96fc-f989e649df5e.jpg"
-  },
-  {
-    "Card Number": "MP01-023J",
-    "name": "Bloody Snow White",
-    "Type": "J-Ruler",
-    "Race": "Nightmare|Human",
+    "Card Number": "MP01-023|MP01-023J",
+    "name": "Snow White // Bloody Snow White",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Nightmare|Human",
     "Cost": "",
     "Colour": "R",
     "ATK": "1300",
     "DEF": "1300",
-    "Abilities": "[Precision] (This card can attack recovered J/resonators.)\n{Rest}: Rest target J/resonator.\n{1}, discard a card named \"Poison Apple\": Destroy target resonator.",
+    "Abilities": "[Judgment] {W}{R}{2}. You may pay {1} and discard a card named \"Poison Apple\" rather than pay this cost.|[Precision] (This card can attack recovered J/resonators.)\n{Rest}: Rest target J/resonator.\n{1}, discard a card named \"Poison Apple\": Destroy target resonator.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "KONNO Takashi",
     "Rarity": "R",
-    "Fowid": "2151",
+    "Fowid": "2150|2151",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "2066b740-6772-4d03-bffc-3b68792ed20e",
-    "image": "2066b740-6772-4d03-bffc-3b68792ed20e.jpg"
+    "id": "e3754c95-66da-4bc6-96fc-f989e649df5e",
+    "image": "e3754c95-66da-4bc6-96fc-f989e649df5e.jpg",
+    "Card Type": "Ruler",
+    "backimage": "2066b740-6772-4d03-bffc-3b68792ed20e.jpg",
+    "alternate1_Card Number": "MP01-023J",
+    "alternate1_name": "Bloody Snow White",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Nightmare|Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1300",
+    "alternate1_DEF": "1300",
+    "alternate1_Abilities": "[Precision] (This card can attack recovered J/resonators.)\n{Rest}: Rest target J/resonator.\n{1}, discard a card named \"Poison Apple\": Destroy target resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "KONNO Takashi",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2151",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "2066b740-6772-4d03-bffc-3b68792ed20e",
+    "alternate1_image": "2066b740-6772-4d03-bffc-3b68792ed20e.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-024",
@@ -635,7 +658,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "ad6d4582-9bdd-4895-beee-8fcad1435e83",
-    "image": "ad6d4582-9bdd-4895-beee-8fcad1435e83.jpg"
+    "image": "ad6d4582-9bdd-4895-beee-8fcad1435e83.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "MP01-025",
@@ -657,7 +681,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "79fdddfd-62f2-482e-8ed3-c9725fe4ceba",
-    "image": "79fdddfd-62f2-482e-8ed3-c9725fe4ceba.jpg"
+    "image": "79fdddfd-62f2-482e-8ed3-c9725fe4ceba.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-026",
@@ -679,7 +704,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "f6e27898-74ed-46ef-b6a2-cdb2b7a6fe1d",
-    "image": "f6e27898-74ed-46ef-b6a2-cdb2b7a6fe1d.jpg"
+    "image": "f6e27898-74ed-46ef-b6a2-cdb2b7a6fe1d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-027",
@@ -701,7 +727,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "86d7f28b-acee-4067-8928-e5d0f63e3c62",
-    "image": "86d7f28b-acee-4067-8928-e5d0f63e3c62.jpg"
+    "image": "86d7f28b-acee-4067-8928-e5d0f63e3c62.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-028",
@@ -723,18 +750,19 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "9a34fd7c-103d-4ded-b1e9-7f358cf2707b",
-    "image": "9a34fd7c-103d-4ded-b1e9-7f358cf2707b.jpg"
+    "image": "9a34fd7c-103d-4ded-b1e9-7f358cf2707b.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "MP01-029",
-    "name": "Snow White of the Red Apple",
-    "Type": "Resonator",
+    "Card Number": "MP01-029|MP01-029*",
+    "name": "Snow White of the Red Apple // Apple Avenger",
+    "Type": "Resonator|Chant",
     "Race": "Fairy Tale",
-    "Cost": "{R}",
+    "Cost": "{R}|{R}{R}",
     "Colour": "R",
     "ATK": "0",
     "DEF": "0",
-    "Abilities": "[Quickcast]\n[First Strike]\nThis card enters the field with X [+100/+100] counters on it, where X is the total damage dealt by sources you controlled this turn divided by 100.",
+    "Abilities": "[Quickcast]\n[First Strike]\nThis card enters the field with X [+100/+100] counters on it, where X is the total damage dealt by sources you controlled this turn divided by 100.|[Quickcast]\nThis card deals X damage divided as you choose to any number of target J/resonators your opponent controls, where X is the total damage that was dealt to you this turn. If X is 1000 or more, put this card's \"Snow White of the Red Apple\" part into the field instead of putting this card into its owner's graveyard.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -745,73 +773,75 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "066999e9-372e-4032-a885-3b3373a9d0aa",
-    "image": "066999e9-372e-4032-a885-3b3373a9d0aa.jpg"
+    "image": "066999e9-372e-4032-a885-3b3373a9d0aa.jpg",
+    "Card Type": "Resonator",
+    "backimage": "4a5d06c5-e708-4ac6-b9fd-26829b373528.jpg",
+    "alternate1_Card Number": "MP01-029*",
+    "alternate1_name": "Apple Avenger",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "Fairy Tale",
+    "alternate1_Cost": "{R}{R}",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nThis card deals X damage divided as you choose to any number of target J/resonators your opponent controls, where X is the total damage that was dealt to you this turn. If X is 1000 or more, put this card's \"Snow White of the Red Apple\" part into the field instead of putting this card into its owner's graveyard.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "KONNO Takashi",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2157",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "4a5d06c5-e708-4ac6-b9fd-26829b373528",
+    "alternate1_image": "4a5d06c5-e708-4ac6-b9fd-26829b373528.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
-    "Card Number": "MP01-029*",
-    "name": "Apple Avenger",
-    "Type": "Chant",
-    "Race": "Fairy Tale",
-    "Cost": "{R}{R}",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nThis card deals X damage divided as you choose to any number of target J/resonators your opponent controls, where X is the total damage that was dealt to you this turn. If X is 1000 or more, put this card's \"Snow White of the Red Apple\" part into the field instead of putting this card into its owner's graveyard.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "KONNO Takashi",
-    "Rarity": "R",
-    "Fowid": "2157",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "4a5d06c5-e708-4ac6-b9fd-26829b373528",
-    "image": "4a5d06c5-e708-4ac6-b9fd-26829b373528.jpg"
-  },
-  {
-    "Card Number": "MP01-030",
-    "name": "Nameless Girl",
-    "Type": "Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {R}{U}{2}. You pay {0} rather than pay this cost if a Human was put into your graveyard from the field this turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Yuji Azuma",
-    "Rarity": "R",
-    "Fowid": "2158",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "bc31c406-ae86-4825-8012-15c162e5233c",
-    "image": "bc31c406-ae86-4825-8012-15c162e5233c.jpg"
-  },
-  {
-    "Card Number": "MP01-030J",
-    "name": "Jeanne d'Arc, the Flame of Hatred",
-    "Type": "J-Ruler",
-    "Race": "Nightmare|Human",
+    "Card Number": "MP01-030|MP01-030J",
+    "name": "Nameless Girl // Jeanne d'Arc, the Flame of Hatred",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Nightmare|Human",
     "Cost": "",
     "Colour": "U",
     "ATK": "1200",
     "DEF": "1200",
-    "Abilities": "[Enter] ]]] Destroy all other Human J/resonators.\n{Rest}: Prevent all damage that would be dealt by target Human resonator until end of turn.\n{R}{1}: This card deals 500 damage to target Human J/resonator.",
+    "Abilities": "[Judgment] {R}{U}{2}. You pay {0} rather than pay this cost if a Human was put into your graveyard from the field this turn.|[Enter] ]]] Destroy all other Human J/resonators.\n{Rest}: Prevent all damage that would be dealt by target Human resonator until end of turn.\n{R}{1}: This card deals 500 damage to target Human J/resonator.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "Pisuke",
+    "Artist": "Yuji Azuma|Pisuke",
     "Rarity": "R",
-    "Fowid": "2159",
+    "Fowid": "2158|2159",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "f682fcaa-153b-41d7-abbd-7a197c1f2dc0",
-    "image": "f682fcaa-153b-41d7-abbd-7a197c1f2dc0.jpg"
+    "id": "bc31c406-ae86-4825-8012-15c162e5233c",
+    "image": "bc31c406-ae86-4825-8012-15c162e5233c.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f682fcaa-153b-41d7-abbd-7a197c1f2dc0.jpg",
+    "alternate1_Card Number": "MP01-030J",
+    "alternate1_name": "Jeanne d'Arc, the Flame of Hatred",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Nightmare|Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Enter] ]]] Destroy all other Human J/resonators.\n{Rest}: Prevent all damage that would be dealt by target Human resonator until end of turn.\n{R}{1}: This card deals 500 damage to target Human J/resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Pisuke",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2159",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "f682fcaa-153b-41d7-abbd-7a197c1f2dc0",
+    "alternate1_image": "f682fcaa-153b-41d7-abbd-7a197c1f2dc0.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-031",
@@ -833,7 +863,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "3538b074-9ac4-4025-9d09-6a8f875c80d2",
-    "image": "3538b074-9ac4-4025-9d09-6a8f875c80d2.jpg"
+    "image": "3538b074-9ac4-4025-9d09-6a8f875c80d2.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-032",
@@ -855,7 +886,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "bcc2bcd8-6865-4931-9e5c-3949b6afeee4",
-    "image": "bcc2bcd8-6865-4931-9e5c-3949b6afeee4.jpg"
+    "image": "bcc2bcd8-6865-4931-9e5c-3949b6afeee4.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-033",
@@ -877,7 +909,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "243d3aa1-6a46-4e70-bb86-000ccd7fe94d",
-    "image": "243d3aa1-6a46-4e70-bb86-000ccd7fe94d.jpg"
+    "image": "243d3aa1-6a46-4e70-bb86-000ccd7fe94d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-034",
@@ -899,7 +932,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "c2dd2e08-5686-4992-8f4a-39e94ddfc243",
-    "image": "c2dd2e08-5686-4992-8f4a-39e94ddfc243.jpg"
+    "image": "c2dd2e08-5686-4992-8f4a-39e94ddfc243.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-035",
@@ -921,7 +955,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "94d813d7-36fa-45b3-acbd-6136ab663fe0",
-    "image": "94d813d7-36fa-45b3-acbd-6136ab663fe0.jpg"
+    "image": "94d813d7-36fa-45b3-acbd-6136ab663fe0.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-036",
@@ -943,51 +978,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "3e9afe54-dabe-4452-9c01-11fd820d4805",
-    "image": "3e9afe54-dabe-4452-9c01-11fd820d4805.jpg"
+    "image": "3e9afe54-dabe-4452-9c01-11fd820d4805.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-037",
-    "name": "Seer of the Blue Moon",
-    "Type": "Ruler",
+    "Card Number": "MP01-037|MP01-037J",
+    "name": "Seer of the Blue Moon // Kaguya, Princess of the Moon",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human",
     "Cost": "",
     "Colour": "U",
     "ATK": "",
     "DEF": "",
-    "Abilities": "You pay {1} to put cards into your standby area rather than pay {2}.\n[Judgment] {0}. Play this judgment process only if a Treasury Item entered the field under your control this turn.",
+    "Abilities": "You pay {1} to put cards into your standby area rather than pay {2}.\n[Judgment] {0}. Play this judgment process only if a Treasury Item entered the field under your control this turn.|{0}: Change the text of target Treasury Item you control by replacing all instances of one attribute word with another attribute word until end of turn.\n{U}{U}{1}: Search your deck for a Treasury Item, reveal it and put it into your hand. Then shuffle your deck.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "mozu",
     "Rarity": "R",
-    "Fowid": "2166",
+    "Fowid": "2166|2167",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "732a775c-96a1-422f-b66e-e5a4f0584498",
-    "image": "732a775c-96a1-422f-b66e-e5a4f0584498.jpg"
-  },
-  {
-    "Card Number": "MP01-037J",
-    "name": "Kaguya, Princess of the Moon",
-    "Type": "J-Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{0}: Change the text of target Treasury Item you control by replacing all instances of one attribute word with another attribute word until end of turn.\n{U}{U}{1}: Search your deck for a Treasury Item, reveal it and put it into your hand. Then shuffle your deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "mozu",
-    "Rarity": "R",
-    "Fowid": "2167",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "e4428477-aae9-4b36-9019-204472a1c707",
-    "image": "e4428477-aae9-4b36-9019-204472a1c707.jpg"
+    "image": "732a775c-96a1-422f-b66e-e5a4f0584498.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e4428477-aae9-4b36-9019-204472a1c707.jpg",
+    "alternate1_Card Number": "MP01-037J",
+    "alternate1_name": "Kaguya, Princess of the Moon",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "{0}: Change the text of target Treasury Item you control by replacing all instances of one attribute word with another attribute word until end of turn.\n{U}{U}{1}: Search your deck for a Treasury Item, reveal it and put it into your hand. Then shuffle your deck.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "mozu",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2167",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "e4428477-aae9-4b36-9019-204472a1c707",
+    "alternate1_image": "e4428477-aae9-4b36-9019-204472a1c707.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-038",
@@ -1009,7 +1046,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "9d72f432-a0ed-4982-9f63-19ef4c4710a8",
-    "image": "9d72f432-a0ed-4982-9f63-19ef4c4710a8.jpg"
+    "image": "9d72f432-a0ed-4982-9f63-19ef4c4710a8.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "MP01-039",
@@ -1031,7 +1069,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "3120ed05-512a-4211-83c5-a4e0c72ea9b0",
-    "image": "3120ed05-512a-4211-83c5-a4e0c72ea9b0.jpg"
+    "image": "3120ed05-512a-4211-83c5-a4e0c72ea9b0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-040",
@@ -1053,7 +1092,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "fbf815c7-894d-44e3-927e-4101579debf6",
-    "image": "fbf815c7-894d-44e3-927e-4101579debf6.jpg"
+    "image": "fbf815c7-894d-44e3-927e-4101579debf6.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-041",
@@ -1075,7 +1115,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "a9d7f685-9c21-4e64-9320-6cc3d1200bad",
-    "image": "a9d7f685-9c21-4e64-9320-6cc3d1200bad.jpg"
+    "image": "a9d7f685-9c21-4e64-9320-6cc3d1200bad.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-042",
@@ -1097,7 +1138,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "266fd66e-0f93-43ff-9363-6afc5616674c",
-    "image": "266fd66e-0f93-43ff-9363-6afc5616674c.jpg"
+    "image": "266fd66e-0f93-43ff-9363-6afc5616674c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-043",
@@ -1119,51 +1161,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "6e0e83e5-3a45-47b2-b58d-aa3894d6064a",
-    "image": "6e0e83e5-3a45-47b2-b58d-aa3894d6064a.jpg"
+    "image": "6e0e83e5-3a45-47b2-b58d-aa3894d6064a.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "MP01-044",
-    "name": "Christie, the Wind Tracker",
-    "Type": "Ruler",
-    "Race": "Elf",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{Rest}: Draw a card. Play this ability only if you have exactly five cards in your hand.\n[Judgment] {G}{G}{2}. You pay {0} rather than pay this cost if your opponent controls a Vampire resonator, an Immortal resonator or a Werewolf resonator.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "touge369",
-    "Rarity": "R",
-    "Fowid": "2174",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "07117cc6-4a4b-4e00-ac54-e50580556fd4",
-    "image": "07117cc6-4a4b-4e00-ac54-e50580556fd4.jpg"
-  },
-  {
-    "Card Number": "MP01-044J",
-    "name": "Helsing, the Vampire Hunter",
-    "Type": "J-Ruler",
+    "Card Number": "MP01-044|MP01-044J",
+    "name": "Christie, the Wind Tracker // Helsing, the Vampire Hunter",
+    "Type": "Ruler|J-Ruler",
     "Race": "Elf",
     "Cost": "",
     "Colour": "G",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Enter] ]]] Target non-Human J/resonator loses all abilities until end of turn. At the beginning of the end phase ]]] Destroy it.",
+    "Abilities": "{Rest}: Draw a card. Play this ability only if you have exactly five cards in your hand.\n[Judgment] {G}{G}{2}. You pay {0} rather than pay this cost if your opponent controls a Vampire resonator, an Immortal resonator or a Werewolf resonator.|[Enter] ]]] Target non-Human J/resonator loses all abilities until end of turn. At the beginning of the end phase ]]] Destroy it.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "touge369",
     "Rarity": "R",
-    "Fowid": "2175",
+    "Fowid": "2174|2175",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "94601cd2-d8e1-4b95-9f5f-a57ebfde4435",
-    "image": "94601cd2-d8e1-4b95-9f5f-a57ebfde4435.jpg"
+    "id": "07117cc6-4a4b-4e00-ac54-e50580556fd4",
+    "image": "07117cc6-4a4b-4e00-ac54-e50580556fd4.jpg",
+    "Card Type": "Ruler",
+    "backimage": "94601cd2-d8e1-4b95-9f5f-a57ebfde4435.jpg",
+    "alternate1_Card Number": "MP01-044J",
+    "alternate1_name": "Helsing, the Vampire Hunter",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Elf",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Enter] ]]] Target non-Human J/resonator loses all abilities until end of turn. At the beginning of the end phase ]]] Destroy it.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "touge369",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2175",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "94601cd2-d8e1-4b95-9f5f-a57ebfde4435",
+    "alternate1_image": "94601cd2-d8e1-4b95-9f5f-a57ebfde4435.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-045",
@@ -1185,7 +1229,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "f369bc16-f8d4-424f-9b28-b12eef2a74f2",
-    "image": "f369bc16-f8d4-424f-9b28-b12eef2a74f2.jpg"
+    "image": "f369bc16-f8d4-424f-9b28-b12eef2a74f2.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-046",
@@ -1207,7 +1252,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "e850f730-2e4c-4615-b7d5-aa769b45196f",
-    "image": "e850f730-2e4c-4615-b7d5-aa769b45196f.jpg"
+    "image": "e850f730-2e4c-4615-b7d5-aa769b45196f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-047",
@@ -1229,7 +1275,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "4bfe18b4-ab7e-4b4f-a003-221f7f1853a5",
-    "image": "4bfe18b4-ab7e-4b4f-a003-221f7f1853a5.jpg"
+    "image": "4bfe18b4-ab7e-4b4f-a003-221f7f1853a5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-048",
@@ -1251,7 +1298,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "0d3f2986-04ae-4e12-b3e4-04d8abbc6374",
-    "image": "0d3f2986-04ae-4e12-b3e4-04d8abbc6374.jpg"
+    "image": "0d3f2986-04ae-4e12-b3e4-04d8abbc6374.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-049",
@@ -1273,7 +1321,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "e1380ae2-3aac-4c3d-8739-380ff0f32ec8",
-    "image": "e1380ae2-3aac-4c3d-8739-380ff0f32ec8.jpg"
+    "image": "e1380ae2-3aac-4c3d-8739-380ff0f32ec8.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-050",
@@ -1295,51 +1344,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "f8ea8548-1930-41c0-8579-adcd714175e5",
-    "image": "f8ea8548-1930-41c0-8579-adcd714175e5.jpg"
+    "image": "f8ea8548-1930-41c0-8579-adcd714175e5.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-051",
-    "name": "Puss in Boots",
-    "Type": "Ruler",
-    "Race": "Fairy Tale|Cat",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "You pay {1} less to play Musketeer resonators.\n[Judgment] {9}. If you control an entity named \"Athos, the Three Musketeers\", you pay {3} less to play this judgment process. If you control an entity named \"Aramis, the Three Musketeers\", you pay {3} less to play this judgment process. If you control an entity named \"Porthos, the Three Musketeers\", you pay {3} less to play this judgment process.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Kelvin",
-    "Rarity": "R",
-    "Fowid": "2182",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "b19060d4-5fc8-4190-b62d-0e382bfb630e",
-    "image": "b19060d4-5fc8-4190-b62d-0e382bfb630e.jpg"
-  },
-  {
-    "Card Number": "MP01-051J",
-    "name": "D'Artagnan, the Bayoneteer",
-    "Type": "J-Ruler",
-    "Race": "Fairy Tale|Musketeer",
+    "Card Number": "MP01-051|MP01-051J",
+    "name": "Puss in Boots // D'Artagnan, the Bayoneteer",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Fairy Tale|Cat|Fairy Tale|Musketeer",
     "Cost": "",
     "Colour": "G",
     "ATK": "1000",
     "DEF": "800",
-    "Abilities": "[Precision] (This card can attack recovered J/resonators.)\n[Pierce] (If this card is blocked, it deals piercing battle damage to the original attacked object.)\nMusketeer resonators you control gain [+400/+400].",
+    "Abilities": "You pay {1} less to play Musketeer resonators.\n[Judgment] {9}. If you control an entity named \"Athos, the Three Musketeers\", you pay {3} less to play this judgment process. If you control an entity named \"Aramis, the Three Musketeers\", you pay {3} less to play this judgment process. If you control an entity named \"Porthos, the Three Musketeers\", you pay {3} less to play this judgment process.|[Precision] (This card can attack recovered J/resonators.)\n[Pierce] (If this card is blocked, it deals piercing battle damage to the original attacked object.)\nMusketeer resonators you control gain [+400/+400].",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Kelvin",
     "Rarity": "R",
-    "Fowid": "2183",
+    "Fowid": "2182|2183",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "045981af-d114-43b0-aceb-02f37a5f6021",
-    "image": "045981af-d114-43b0-aceb-02f37a5f6021.jpg"
+    "id": "b19060d4-5fc8-4190-b62d-0e382bfb630e",
+    "image": "b19060d4-5fc8-4190-b62d-0e382bfb630e.jpg",
+    "Card Type": "Ruler",
+    "backimage": "045981af-d114-43b0-aceb-02f37a5f6021.jpg",
+    "alternate1_Card Number": "MP01-051J",
+    "alternate1_name": "D'Artagnan, the Bayoneteer",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Fairy Tale|Musketeer",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Precision] (This card can attack recovered J/resonators.)\n[Pierce] (If this card is blocked, it deals piercing battle damage to the original attacked object.)\nMusketeer resonators you control gain [+400/+400].",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Kelvin",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2183",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "045981af-d114-43b0-aceb-02f37a5f6021",
+    "alternate1_image": "045981af-d114-43b0-aceb-02f37a5f6021.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-052",
@@ -1361,7 +1412,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "c404a19d-4158-4029-919c-5faa9ff55a13",
-    "image": "c404a19d-4158-4029-919c-5faa9ff55a13.jpg"
+    "image": "c404a19d-4158-4029-919c-5faa9ff55a13.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-053",
@@ -1383,7 +1435,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "da182f91-a2ca-4bac-bc66-909ea984f2c0",
-    "image": "da182f91-a2ca-4bac-bc66-909ea984f2c0.jpg"
+    "image": "da182f91-a2ca-4bac-bc66-909ea984f2c0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-054",
@@ -1405,7 +1458,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "b5c9e90a-232d-4b23-91f4-8903c21e3703",
-    "image": "b5c9e90a-232d-4b23-91f4-8903c21e3703.jpg"
+    "image": "b5c9e90a-232d-4b23-91f4-8903c21e3703.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-055",
@@ -1427,7 +1481,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "762050ee-03b7-454b-894b-1ea26cfdd29e",
-    "image": "762050ee-03b7-454b-894b-1ea26cfdd29e.jpg"
+    "image": "762050ee-03b7-454b-894b-1ea26cfdd29e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-056",
@@ -1449,7 +1504,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "98295e72-9f9b-48f8-92e7-7e8df4848c6a",
-    "image": "98295e72-9f9b-48f8-92e7-7e8df4848c6a.jpg"
+    "image": "98295e72-9f9b-48f8-92e7-7e8df4848c6a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-057",
@@ -1471,51 +1527,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "23247a4a-adc7-4e9e-aee8-cfa56358a9eb",
-    "image": "23247a4a-adc7-4e9e-aee8-cfa56358a9eb.jpg"
+    "image": "23247a4a-adc7-4e9e-aee8-cfa56358a9eb.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-058",
-    "name": "Alucard, the Dark Noble",
-    "Type": "Ruler",
-    "Race": "Vampire",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{Rest}: Target resonator gains [0/-300] until end of turn.\n[Judgment] {0}. Play this judgment process only if you control a Vampire resonator and a resonator your opponent controlled was put into a graveyard from the field this turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Fushikaden",
-    "Rarity": "R",
-    "Fowid": "2190",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "1c174650-e05a-410a-a7aa-d3871db5d937",
-    "image": "1c174650-e05a-410a-a7aa-d3871db5d937.jpg"
-  },
-  {
-    "Card Number": "MP01-058J",
-    "name": "Dracula, the Demonic One",
-    "Type": "J-Ruler",
+    "Card Number": "MP01-058|MP01-058J",
+    "name": "Alucard, the Dark Noble // Dracula, the Demonic One",
+    "Type": "Ruler|J-Ruler",
     "Race": "Vampire",
     "Cost": "",
     "Colour": "B",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Flying] (This card cannot be blocked by a J/resonator without [Flying].)\n[Imperishable] (If this card is destroyed and put into your ruler area, don't put an astral counter on it and it isn't treated as astral.)\nWhenever a resonator your opponent controls is put into a graveyard from the field ]]] If it was dealt damage by this card this turn, put it from its owner's graveyard into the field under your control. It gains Nightmare and Vampire in addition to its other races.",
+    "Abilities": "{Rest}: Target resonator gains [0/-300] until end of turn.\n[Judgment] {0}. Play this judgment process only if you control a Vampire resonator and a resonator your opponent controlled was put into a graveyard from the field this turn.|[Flying] (This card cannot be blocked by a J/resonator without [Flying].)\n[Imperishable] (If this card is destroyed and put into your ruler area, don't put an astral counter on it and it isn't treated as astral.)\nWhenever a resonator your opponent controls is put into a graveyard from the field ]]] If it was dealt damage by this card this turn, put it from its owner's graveyard into the field under your control. It gains Nightmare and Vampire in addition to its other races.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Fushikaden",
     "Rarity": "R",
-    "Fowid": "2191",
+    "Fowid": "2190|2191",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "f65720f0-fbd7-4d73-84cc-dabd6a25b31a",
-    "image": "f65720f0-fbd7-4d73-84cc-dabd6a25b31a.jpg"
+    "id": "1c174650-e05a-410a-a7aa-d3871db5d937",
+    "image": "1c174650-e05a-410a-a7aa-d3871db5d937.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f65720f0-fbd7-4d73-84cc-dabd6a25b31a.jpg",
+    "alternate1_Card Number": "MP01-058J",
+    "alternate1_name": "Dracula, the Demonic One",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Vampire",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying] (This card cannot be blocked by a J/resonator without [Flying].)\n[Imperishable] (If this card is destroyed and put into your ruler area, don't put an astral counter on it and it isn't treated as astral.)\nWhenever a resonator your opponent controls is put into a graveyard from the field ]]] If it was dealt damage by this card this turn, put it from its owner's graveyard into the field under your control. It gains Nightmare and Vampire in addition to its other races.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Fushikaden",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2191",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "f65720f0-fbd7-4d73-84cc-dabd6a25b31a",
+    "alternate1_image": "f65720f0-fbd7-4d73-84cc-dabd6a25b31a.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-059",
@@ -1537,7 +1595,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "be7f81fe-866c-48c2-8dc0-b64fa11363dc",
-    "image": "be7f81fe-866c-48c2-8dc0-b64fa11363dc.jpg"
+    "image": "be7f81fe-866c-48c2-8dc0-b64fa11363dc.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-060",
@@ -1559,7 +1618,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "7db62f89-0d01-47c2-9694-45f889060a5a",
-    "image": "7db62f89-0d01-47c2-9694-45f889060a5a.jpg"
+    "image": "7db62f89-0d01-47c2-9694-45f889060a5a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-061",
@@ -1581,18 +1641,19 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "ff9f6eea-82d8-4627-b348-1d4419d25f01",
-    "image": "ff9f6eea-82d8-4627-b348-1d4419d25f01.jpg"
+    "image": "ff9f6eea-82d8-4627-b348-1d4419d25f01.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-062",
-    "name": "Dracula, Reborn Vampire",
-    "Type": "Resonator",
+    "Card Number": "MP01-062|MP01-062*",
+    "name": "Dracula, Reborn Vampire // The Jewel of Darkness",
+    "Type": "Resonator|Chant",
     "Race": "Vampire",
-    "Cost": "{B}",
+    "Cost": "{B}|{B}{6}",
     "Colour": "B",
     "ATK": "400",
     "DEF": "400",
-    "Abilities": "[Flying]\n[Barrier] {W}\n[+100/+100] counters on this card do not cease to exist if it is put from the field into a graveyard or from a graveyard into the field.\nWhen this card is put into a graveyard from the field ]]] At the next end of turn ]]] Put this card from its owner's graveyard into the field with two additional [+100/+100] counters on it.",
+    "Abilities": "[Flying]\n[Barrier] {W}\n[+100/+100] counters on this card do not cease to exist if it is put from the field into a graveyard or from a graveyard into the field.\nWhen this card is put into a graveyard from the field ]]] At the next end of turn ]]] Put this card from its owner's graveyard into the field with two additional [+100/+100] counters on it.|[Remnant]\nYou pay {1} less to play this card from your graveyard for each [+100/+100] counter on it.\nDestroy all J/resonators your opponent controls.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1603,29 +1664,30 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "e089a8e8-c798-4d89-ac1c-e800beee92ab",
-    "image": "e089a8e8-c798-4d89-ac1c-e800beee92ab.jpg"
-  },
-  {
-    "Card Number": "MP01-062*",
-    "name": "The Jewel of Darkness",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{B}{6}",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Remnant]\nYou pay {1} less to play this card from your graveyard for each [+100/+100] counter on it.\nDestroy all J/resonators your opponent controls.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Sadui/JCREATION",
-    "Rarity": "R",
-    "Fowid": "2195",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "cc46c40e-ef73-4115-a929-34b0f9ca236b",
-    "image": "cc46c40e-ef73-4115-a929-34b0f9ca236b.jpg"
+    "image": "e089a8e8-c798-4d89-ac1c-e800beee92ab.jpg",
+    "Card Type": "Resonator",
+    "backimage": "cc46c40e-ef73-4115-a929-34b0f9ca236b.jpg",
+    "alternate1_Card Number": "MP01-062*",
+    "alternate1_name": "The Jewel of Darkness",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{B}{6}",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Remnant]\nYou pay {1} less to play this card from your graveyard for each [+100/+100] counter on it.\nDestroy all J/resonators your opponent controls.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Sadui/JCREATION",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2195",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "cc46c40e-ef73-4115-a929-34b0f9ca236b",
+    "alternate1_image": "cc46c40e-ef73-4115-a929-34b0f9ca236b.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MP01-063",
@@ -1647,7 +1709,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "e5c3016c-785e-4a54-bb0b-389a02ad3215",
-    "image": "e5c3016c-785e-4a54-bb0b-389a02ad3215.jpg"
+    "image": "e5c3016c-785e-4a54-bb0b-389a02ad3215.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-064",
@@ -1669,51 +1732,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "3b1f93a1-89c7-4715-bd5d-58d0bb4eb3fd",
-    "image": "3b1f93a1-89c7-4715-bd5d-58d0bb4eb3fd.jpg"
+    "image": "3b1f93a1-89c7-4715-bd5d-58d0bb4eb3fd.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-065",
-    "name": "Sacred Princess of Guidance",
-    "Type": "Ruler",
-    "Race": "Princess",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{Rest}: You gain 300 life.\n[Judgment] {W}{W}{1}. You pay {W} rather than pay this cost if you control an entity named \"Almerius, the Levitating Stone\".",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "kurisu",
-    "Rarity": "R",
-    "Fowid": "2198",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "363713ce-7761-471f-954e-163105d672fc",
-    "image": "363713ce-7761-471f-954e-163105d672fc.jpg"
-  },
-  {
-    "Card Number": "MP01-065J",
-    "name": "Lumia, the Creator of Hope",
-    "Type": "J-Ruler",
-    "Race": "Savior|Human",
+    "Card Number": "MP01-065|MP01-065J",
+    "name": "Sacred Princess of Guidance // Lumia, the Creator of Hope",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Princess|Savior|Human",
     "Cost": "",
     "Colour": "W",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "Once per turn, you may play a card from your removed area.\n{0}: If there are no cards in your removed area, remove the top three cards of your deck from the game face down. You may look at them at any time.",
+    "Abilities": "{Rest}: You gain 300 life.\n[Judgment] {W}{W}{1}. You pay {W} rather than pay this cost if you control an entity named \"Almerius, the Levitating Stone\".|Once per turn, you may play a card from your removed area.\n{0}: If there are no cards in your removed area, remove the top three cards of your deck from the game face down. You may look at them at any time.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "kurisu",
     "Rarity": "R",
-    "Fowid": "2199",
+    "Fowid": "2198|2199",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "eed3075a-21ec-4ad6-8c9c-8e9559d99f7e",
-    "image": "eed3075a-21ec-4ad6-8c9c-8e9559d99f7e.jpg"
+    "id": "363713ce-7761-471f-954e-163105d672fc",
+    "image": "363713ce-7761-471f-954e-163105d672fc.jpg",
+    "Card Type": "Ruler",
+    "backimage": "eed3075a-21ec-4ad6-8c9c-8e9559d99f7e.jpg",
+    "alternate1_Card Number": "MP01-065J",
+    "alternate1_name": "Lumia, the Creator of Hope",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Savior|Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "Once per turn, you may play a card from your removed area.\n{0}: If there are no cards in your removed area, remove the top three cards of your deck from the game face down. You may look at them at any time.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "kurisu",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2199",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "eed3075a-21ec-4ad6-8c9c-8e9559d99f7e",
+    "alternate1_image": "eed3075a-21ec-4ad6-8c9c-8e9559d99f7e.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-066",
@@ -1735,7 +1800,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "40bf5015-016a-41bf-9f2a-49cfd6dc2df9",
-    "image": "40bf5015-016a-41bf-9f2a-49cfd6dc2df9.jpg"
+    "image": "40bf5015-016a-41bf-9f2a-49cfd6dc2df9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-067",
@@ -1757,7 +1823,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "b3f632e4-6686-4004-b77a-1f2d4d220a96",
-    "image": "b3f632e4-6686-4004-b77a-1f2d4d220a96.jpg"
+    "image": "b3f632e4-6686-4004-b77a-1f2d4d220a96.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-068",
@@ -1779,7 +1846,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "6b7f31a2-ac28-4b62-a579-e7fd6fb3e1b5",
-    "image": "6b7f31a2-ac28-4b62-a579-e7fd6fb3e1b5.jpg"
+    "image": "6b7f31a2-ac28-4b62-a579-e7fd6fb3e1b5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-069",
@@ -1801,7 +1869,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "31651681-cf36-4694-88af-2acb0303d93d",
-    "image": "31651681-cf36-4694-88af-2acb0303d93d.jpg"
+    "image": "31651681-cf36-4694-88af-2acb0303d93d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-070",
@@ -1823,7 +1892,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "a812b099-6a11-4a48-8002-0d9679179483",
-    "image": "a812b099-6a11-4a48-8002-0d9679179483.jpg"
+    "image": "a812b099-6a11-4a48-8002-0d9679179483.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-071",
@@ -1845,51 +1915,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "1590d472-170c-4460-9906-2c44d2e5f67e",
-    "image": "1590d472-170c-4460-9906-2c44d2e5f67e.jpg"
+    "image": "1590d472-170c-4460-9906-2c44d2e5f67e.jpg",
+    "Card Type": "Special Magic Stone|True Magic Stone"
   },
   {
-    "Card Number": "MP01-072",
-    "name": "Falltgold, the Dragoon",
-    "Type": "Ruler",
-    "Race": "Knight",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{Rest}: Search your deck for a Dragon resonator, reveal it and put it into your hand. Then shuffle your deck.\n[Judgment] Banish a fire resonator.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "kakotomirai",
-    "Rarity": "R",
-    "Fowid": "2206",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "60d6cb97-454d-41b3-9ef1-995b68fad0b3",
-    "image": "60d6cb97-454d-41b3-9ef1-995b68fad0b3.jpg"
-  },
-  {
-    "Card Number": "MP01-072J",
-    "name": "Bahamut, the Dragon King",
-    "Type": "J-Ruler",
-    "Race": "Dragon",
+    "Card Number": "MP01-072|MP01-072J",
+    "name": "Falltgold, the Dragoon // Bahamut, the Dragon King",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Knight|Dragon",
     "Cost": "",
     "Colour": "R",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Flying] (This card cannot be blocked by a J/resonator without [Flying].)\n[Enter] ]]] This card deals damage to target resonator equal to the ATK of the resonator banished to pay its judgment cost.\nBanish a fire resonator: This card gains [Imperishable] until end of turn. (If this card is destroyed and put into your ruler area, don't put an astral counter on it and it isn't treated as astral.)",
+    "Abilities": "{Rest}: Search your deck for a Dragon resonator, reveal it and put it into your hand. Then shuffle your deck.\n[Judgment] Banish a fire resonator.|[Flying] (This card cannot be blocked by a J/resonator without [Flying].)\n[Enter] ]]] This card deals damage to target resonator equal to the ATK of the resonator banished to pay its judgment cost.\nBanish a fire resonator: This card gains [Imperishable] until end of turn. (If this card is destroyed and put into your ruler area, don't put an astral counter on it and it isn't treated as astral.)",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "kakotomirai",
     "Rarity": "R",
-    "Fowid": "2207",
+    "Fowid": "2206|2207",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "35708dbe-a6b0-43ec-80ac-c391289e913c",
-    "image": "35708dbe-a6b0-43ec-80ac-c391289e913c.jpg"
+    "id": "60d6cb97-454d-41b3-9ef1-995b68fad0b3",
+    "image": "60d6cb97-454d-41b3-9ef1-995b68fad0b3.jpg",
+    "Card Type": "Ruler",
+    "backimage": "35708dbe-a6b0-43ec-80ac-c391289e913c.jpg",
+    "alternate1_Card Number": "MP01-072J",
+    "alternate1_name": "Bahamut, the Dragon King",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragon",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying] (This card cannot be blocked by a J/resonator without [Flying].)\n[Enter] ]]] This card deals damage to target resonator equal to the ATK of the resonator banished to pay its judgment cost.\nBanish a fire resonator: This card gains [Imperishable] until end of turn. (If this card is destroyed and put into your ruler area, don't put an astral counter on it and it isn't treated as astral.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "kakotomirai",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2207",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "35708dbe-a6b0-43ec-80ac-c391289e913c",
+    "alternate1_image": "35708dbe-a6b0-43ec-80ac-c391289e913c.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-073",
@@ -1911,7 +1983,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "29f8d6e4-73a8-4580-9940-073ac9ffea55",
-    "image": "29f8d6e4-73a8-4580-9940-073ac9ffea55.jpg"
+    "image": "29f8d6e4-73a8-4580-9940-073ac9ffea55.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-074",
@@ -1933,7 +2006,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "5c7193c7-8243-4331-9d91-d4cddc6aa204",
-    "image": "5c7193c7-8243-4331-9d91-d4cddc6aa204.jpg"
+    "image": "5c7193c7-8243-4331-9d91-d4cddc6aa204.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-075",
@@ -1955,7 +2029,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "57f61a60-0887-47a8-9242-922218c1daa3",
-    "image": "57f61a60-0887-47a8-9242-922218c1daa3.jpg"
+    "image": "57f61a60-0887-47a8-9242-922218c1daa3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-076",
@@ -1977,7 +2052,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "ff2f375b-9916-405d-b814-e3ee23eb0b69",
-    "image": "ff2f375b-9916-405d-b814-e3ee23eb0b69.jpg"
+    "image": "ff2f375b-9916-405d-b814-e3ee23eb0b69.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-077",
@@ -1999,7 +2075,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "974de31c-896e-4409-b987-57dc47dfd524",
-    "image": "974de31c-896e-4409-b987-57dc47dfd524.jpg"
+    "image": "974de31c-896e-4409-b987-57dc47dfd524.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-078",
@@ -2021,51 +2098,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "ddf64562-9dbe-42d4-bc36-f57924106668",
-    "image": "ddf64562-9dbe-42d4-bc36-f57924106668.jpg"
+    "image": "ddf64562-9dbe-42d4-bc36-f57924106668.jpg",
+    "Card Type": "Special Magic Stone|True Magic Stone"
   },
   {
-    "Card Number": "MP01-079",
-    "name": "Alice in Wonderland",
-    "Type": "Ruler",
-    "Race": "Little Girl",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] Pay any amount of will. You may not pay {0} this way.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Wednesday",
-    "Rarity": "R",
-    "Fowid": "2214",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "4529ac47-de79-4e00-8c1e-d8290826b273",
-    "image": "4529ac47-de79-4e00-8c1e-d8290826b273.jpg"
-  },
-  {
-    "Card Number": "MP01-079J",
-    "name": "Alice, the Drifter in the World",
-    "Type": "J-Ruler",
-    "Race": "Wanderer|Little Girl",
+    "Card Number": "MP01-079|MP01-079J",
+    "name": "Alice in Wonderland // Alice, the Drifter in the World",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Little Girl|Wanderer|Little Girl",
     "Cost": "",
     "Colour": "U",
     "ATK": "700",
     "DEF": "700",
-    "Abilities": "[Enter] ]]] Apply the following effects based on the will you paid for the judgment process of this card;\n- {W} - You gain 1000 life.\n- {R} - This card deals 1000 damage to up to one target resonator.\n- {U} - Draw a card.\n- {G} - Destroy up to one target addition.\n- {B} - Target opponent discards a card.\n- Will of each attribute and another will produced by an entity named \"Moojdart, the Fantasy Stone\" - This card gains [Swiftness] and [Flying] until end of turn.",
+    "Abilities": "[Judgment] Pay any amount of will. You may not pay {0} this way.|[Enter] ]]] Apply the following effects based on the will you paid for the judgment process of this card;\n- {W} - You gain 1000 life.\n- {R} - This card deals 1000 damage to up to one target resonator.\n- {U} - Draw a card.\n- {G} - Destroy up to one target addition.\n- {B} - Target opponent discards a card.\n- Will of each attribute and another will produced by an entity named \"Moojdart, the Fantasy Stone\" - This card gains [Swiftness] and [Flying] until end of turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Wednesday",
     "Rarity": "R",
-    "Fowid": "2215",
+    "Fowid": "2214|2215",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "17913973-eb45-40bb-83ff-e29ac1e99840",
-    "image": "17913973-eb45-40bb-83ff-e29ac1e99840.jpg"
+    "id": "4529ac47-de79-4e00-8c1e-d8290826b273",
+    "image": "4529ac47-de79-4e00-8c1e-d8290826b273.jpg",
+    "Card Type": "Ruler",
+    "backimage": "17913973-eb45-40bb-83ff-e29ac1e99840.jpg",
+    "alternate1_Card Number": "MP01-079J",
+    "alternate1_name": "Alice, the Drifter in the World",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wanderer|Little Girl",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[Enter] ]]] Apply the following effects based on the will you paid for the judgment process of this card;\n- {W} - You gain 1000 life.\n- {R} - This card deals 1000 damage to up to one target resonator.\n- {U} - Draw a card.\n- {G} - Destroy up to one target addition.\n- {B} - Target opponent discards a card.\n- Will of each attribute and another will produced by an entity named \"Moojdart, the Fantasy Stone\" - This card gains [Swiftness] and [Flying] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Wednesday",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2215",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "17913973-eb45-40bb-83ff-e29ac1e99840",
+    "alternate1_image": "17913973-eb45-40bb-83ff-e29ac1e99840.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-080",
@@ -2087,7 +2166,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "419ada41-e51e-4132-93db-ce5cc8a94b63",
-    "image": "419ada41-e51e-4132-93db-ce5cc8a94b63.jpg"
+    "image": "419ada41-e51e-4132-93db-ce5cc8a94b63.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "MP01-081",
@@ -2109,7 +2189,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "f2c52f53-0f21-40ff-88b7-059b7dafbe77",
-    "image": "f2c52f53-0f21-40ff-88b7-059b7dafbe77.jpg"
+    "image": "f2c52f53-0f21-40ff-88b7-059b7dafbe77.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-082",
@@ -2131,7 +2212,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "9542c4fc-0580-4456-a4ac-77ee255aef87",
-    "image": "9542c4fc-0580-4456-a4ac-77ee255aef87.jpg"
+    "image": "9542c4fc-0580-4456-a4ac-77ee255aef87.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-083",
@@ -2153,7 +2235,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "81a0ef01-9486-4145-9b54-d4c633eb3144",
-    "image": "81a0ef01-9486-4145-9b54-d4c633eb3144.jpg"
+    "image": "81a0ef01-9486-4145-9b54-d4c633eb3144.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-084",
@@ -2175,7 +2258,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "9ef648ae-7a05-4519-a45f-d8cf7a82cce3",
-    "image": "9ef648ae-7a05-4519-a45f-d8cf7a82cce3.jpg"
+    "image": "9ef648ae-7a05-4519-a45f-d8cf7a82cce3.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-085",
@@ -2197,51 +2281,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "a60bf1de-2dd3-4fd1-9dae-b630d430de6c",
-    "image": "a60bf1de-2dd3-4fd1-9dae-b630d430de6c.jpg"
+    "image": "a60bf1de-2dd3-4fd1-9dae-b630d430de6c.jpg",
+    "Card Type": "Special Magic Stone|True Magic Stone"
   },
   {
-    "Card Number": "MP01-086",
-    "name": "Crimson Girl in the Sky",
-    "Type": "Ruler",
-    "Race": "Little Girl",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {G}{G}{1}. You pay {0} rather than pay this cost if a card named \"Refarth, the Castle in Heaven\" entered the field under your control this turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Matsurika Yoko",
-    "Rarity": "R",
-    "Fowid": "2222",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "c84715a4-4c89-4e59-97d5-e99539a3c827",
-    "image": "c84715a4-4c89-4e59-97d5-e99539a3c827.jpg"
-  },
-  {
-    "Card Number": "MP01-086J",
-    "name": "Little Red, the True Fairy Tale",
-    "Type": "J-Ruler",
-    "Race": "Fairy Tale|Ancient",
+    "Card Number": "MP01-086|MP01-086J",
+    "name": "Crimson Girl in the Sky // Little Red, the True Fairy Tale",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Little Girl|Fairy Tale|Ancient",
     "Cost": "",
     "Colour": "G",
     "ATK": "800",
     "DEF": "1000",
-    "Abilities": "This card cannot be targeted by fire or darkness spells or abilities.\nIf an effect would increase ATK and/or DEF of J/resonators you control, it increases double that much instead.\nIf an effect would decrease ATK and/or DEF of J/resonators you control, it does not decrease instead.",
+    "Abilities": "[Judgment] {G}{G}{1}. You pay {0} rather than pay this cost if a card named \"Refarth, the Castle in Heaven\" entered the field under your control this turn.|This card cannot be targeted by fire or darkness spells or abilities.\nIf an effect would increase ATK and/or DEF of J/resonators you control, it increases double that much instead.\nIf an effect would decrease ATK and/or DEF of J/resonators you control, it does not decrease instead.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Matsurika Yoko",
     "Rarity": "R",
-    "Fowid": "2223",
+    "Fowid": "2222|2223",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "2f9bf9cb-5c63-4292-8672-0595571e7cfd",
-    "image": "2f9bf9cb-5c63-4292-8672-0595571e7cfd.jpg"
+    "id": "c84715a4-4c89-4e59-97d5-e99539a3c827",
+    "image": "c84715a4-4c89-4e59-97d5-e99539a3c827.jpg",
+    "Card Type": "Ruler",
+    "backimage": "2f9bf9cb-5c63-4292-8672-0595571e7cfd.jpg",
+    "alternate1_Card Number": "MP01-086J",
+    "alternate1_name": "Little Red, the True Fairy Tale",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Fairy Tale|Ancient",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "This card cannot be targeted by fire or darkness spells or abilities.\nIf an effect would increase ATK and/or DEF of J/resonators you control, it increases double that much instead.\nIf an effect would decrease ATK and/or DEF of J/resonators you control, it does not decrease instead.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Matsurika Yoko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2223",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "2f9bf9cb-5c63-4292-8672-0595571e7cfd",
+    "alternate1_image": "2f9bf9cb-5c63-4292-8672-0595571e7cfd.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-087",
@@ -2263,7 +2349,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "ac47bfda-03d2-497e-95cd-330d6e84d3a1",
-    "image": "ac47bfda-03d2-497e-95cd-330d6e84d3a1.jpg"
+    "image": "ac47bfda-03d2-497e-95cd-330d6e84d3a1.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "MP01-088",
@@ -2285,7 +2372,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "0c11187b-4cca-4b96-90a4-c03fefc542be",
-    "image": "0c11187b-4cca-4b96-90a4-c03fefc542be.jpg"
+    "image": "0c11187b-4cca-4b96-90a4-c03fefc542be.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-089",
@@ -2307,7 +2395,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "dd6caf63-a5de-4ced-8282-5a1e6e1b4d06",
-    "image": "dd6caf63-a5de-4ced-8282-5a1e6e1b4d06.jpg"
+    "image": "dd6caf63-a5de-4ced-8282-5a1e6e1b4d06.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-090",
@@ -2329,7 +2418,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "ac1acbcc-31db-4cd2-b35a-c2a88e174ce4",
-    "image": "ac1acbcc-31db-4cd2-b35a-c2a88e174ce4.jpg"
+    "image": "ac1acbcc-31db-4cd2-b35a-c2a88e174ce4.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-091",
@@ -2351,7 +2441,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "75ce117c-580e-4595-849a-2930422b09ab",
-    "image": "75ce117c-580e-4595-849a-2930422b09ab.jpg"
+    "image": "75ce117c-580e-4595-849a-2930422b09ab.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-092",
@@ -2373,51 +2464,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "2a30e3ca-4e31-430d-bd84-b1fa3bb7d5ae",
-    "image": "2a30e3ca-4e31-430d-bd84-b1fa3bb7d5ae.jpg"
+    "image": "2a30e3ca-4e31-430d-bd84-b1fa3bb7d5ae.jpg",
+    "Card Type": "Special Magic Stone|True Magic Stone"
   },
   {
-    "Card Number": "MP01-093",
-    "name": "Ebony Prophet",
-    "Type": "Ruler",
-    "Race": "Prophet",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{Rest}: Target resonator gains [-300/-300] until end of turn.\n[Judgment] {B}{B}{1}. You pay {B} rather than pay this cost if you control an entity named \"Grusbalesta, the Sealing Stone\".",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "gozz",
-    "Rarity": "R",
-    "Fowid": "2230",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "52875b52-2715-44d8-a27c-756ad319b1a3",
-    "image": "52875b52-2715-44d8-a27c-756ad319b1a3.jpg"
-  },
-  {
-    "Card Number": "MP01-093J",
-    "name": "Abdul Alhazred, the Harbinger of Despair",
-    "Type": "J-Ruler",
-    "Race": "Wizard",
+    "Card Number": "MP01-093|MP01-093J",
+    "name": "Ebony Prophet // Abdul Alhazred, the Harbinger of Despair",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Prophet|Wizard",
     "Cost": "",
     "Colour": "B",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "Entities entering the field under your opponent's control don't cause their own [Enter] abilities to trigger.\n{0}: Target resonator or addition loses all abilities until end of turn. Play this ability up to two times per turn.",
+    "Abilities": "{Rest}: Target resonator gains [-300/-300] until end of turn.\n[Judgment] {B}{B}{1}. You pay {B} rather than pay this cost if you control an entity named \"Grusbalesta, the Sealing Stone\".|Entities entering the field under your opponent's control don't cause their own [Enter] abilities to trigger.\n{0}: Target resonator or addition loses all abilities until end of turn. Play this ability up to two times per turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "gozz",
     "Rarity": "R",
-    "Fowid": "2231",
+    "Fowid": "2230|2231",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "0daf9db3-72fc-4cae-969b-c540d156c1a8",
-    "image": "0daf9db3-72fc-4cae-969b-c540d156c1a8.jpg"
+    "id": "52875b52-2715-44d8-a27c-756ad319b1a3",
+    "image": "52875b52-2715-44d8-a27c-756ad319b1a3.jpg",
+    "Card Type": "Ruler",
+    "backimage": "0daf9db3-72fc-4cae-969b-c540d156c1a8.jpg",
+    "alternate1_Card Number": "MP01-093J",
+    "alternate1_name": "Abdul Alhazred, the Harbinger of Despair",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "Entities entering the field under your opponent's control don't cause their own [Enter] abilities to trigger.\n{0}: Target resonator or addition loses all abilities until end of turn. Play this ability up to two times per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "gozz",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2231",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "0daf9db3-72fc-4cae-969b-c540d156c1a8",
+    "alternate1_image": "0daf9db3-72fc-4cae-969b-c540d156c1a8.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-094",
@@ -2439,7 +2532,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "733067c7-2809-4d7d-8015-00413b7195de",
-    "image": "733067c7-2809-4d7d-8015-00413b7195de.jpg"
+    "image": "733067c7-2809-4d7d-8015-00413b7195de.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-095",
@@ -2461,7 +2555,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "8380c87d-0dc1-4b0b-a433-3aac9c2b045c",
-    "image": "8380c87d-0dc1-4b0b-a433-3aac9c2b045c.jpg"
+    "image": "8380c87d-0dc1-4b0b-a433-3aac9c2b045c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-096",
@@ -2483,7 +2578,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "a4dac1fe-f0c7-4d6e-982d-d1de11b55a6e",
-    "image": "a4dac1fe-f0c7-4d6e-982d-d1de11b55a6e.jpg"
+    "image": "a4dac1fe-f0c7-4d6e-982d-d1de11b55a6e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-097",
@@ -2505,7 +2601,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "6e651918-edbe-4dd8-8333-4fef2a22aa6e",
-    "image": "6e651918-edbe-4dd8-8333-4fef2a22aa6e.jpg"
+    "image": "6e651918-edbe-4dd8-8333-4fef2a22aa6e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-098",
@@ -2527,7 +2624,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "b0c3ce90-dffa-4d62-a792-41825957c933",
-    "image": "b0c3ce90-dffa-4d62-a792-41825957c933.jpg"
+    "image": "b0c3ce90-dffa-4d62-a792-41825957c933.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-099",
@@ -2549,51 +2647,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "7c0e5557-136e-420a-a3f3-08fd9a1b631e",
-    "image": "7c0e5557-136e-420a-a3f3-08fd9a1b631e.jpg"
+    "image": "7c0e5557-136e-420a-a3f3-08fd9a1b631e.jpg",
+    "Card Type": "Special Magic Stone|True Magic Stone"
   },
   {
-    "Card Number": "MP01-100",
-    "name": "Pandora, the Weaver of Myth",
-    "Type": "Ruler",
-    "Race": "Princess",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {W}{W}{W}{W}{W}. You pay {W}{W}{W}{W} rather than pay this cost if your life is 3000 or less. You pay {W}{W} rather than pay this cost if your life is 2000 or less. You pay {0} rather than pay this cost if your life is 1000 or less.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Foo Midori",
-    "Rarity": "R",
-    "Fowid": "2238",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "9dcdb207-f434-4dcf-9ce5-9449b59f91af",
-    "image": "9dcdb207-f434-4dcf-9ce5-9449b59f91af.jpg"
-  },
-  {
-    "Card Number": "MP01-100J",
-    "name": "Grimmia, the Savior of Myth",
-    "Type": "J-Ruler",
-    "Race": "Avatar",
+    "Card Number": "MP01-100|MP01-100J",
+    "name": "Pandora, the Weaver of Myth // Grimmia, the Savior of Myth",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Princess|Avatar",
     "Cost": "",
     "Colour": "W",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "Whenever this card attacks ]]] You may search your deck for a Weapon addition that can be added to a J/resonator and put it into the field, added to this card. If you do, shuffle your deck.\n{W}: This card gains [Swiftness] and [Precision] until end of turn. (This card can attack and you can play its {Rest} abilities already during the same turn it enters the field. And this card can attack recovered J/resonators.)\n{W}{W}, banish an addition added to this card: Rest up to two target J/resonators.",
+    "Abilities": "[Judgment] {W}{W}{W}{W}{W}. You pay {W}{W}{W}{W} rather than pay this cost if your life is 3000 or less. You pay {W}{W} rather than pay this cost if your life is 2000 or less. You pay {0} rather than pay this cost if your life is 1000 or less.|Whenever this card attacks ]]] You may search your deck for a Weapon addition that can be added to a J/resonator and put it into the field, added to this card. If you do, shuffle your deck.\n{W}: This card gains [Swiftness] and [Precision] until end of turn. (This card can attack and you can play its {Rest} abilities already during the same turn it enters the field. And this card can attack recovered J/resonators.)\n{W}{W}, banish an addition added to this card: Rest up to two target J/resonators.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Foo Midori",
     "Rarity": "R",
-    "Fowid": "2239",
+    "Fowid": "2238|2239",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "924d83fc-863b-4d49-86f3-582992b9f662",
-    "image": "924d83fc-863b-4d49-86f3-582992b9f662.jpg"
+    "id": "9dcdb207-f434-4dcf-9ce5-9449b59f91af",
+    "image": "9dcdb207-f434-4dcf-9ce5-9449b59f91af.jpg",
+    "Card Type": "Ruler",
+    "backimage": "924d83fc-863b-4d49-86f3-582992b9f662.jpg",
+    "alternate1_Card Number": "MP01-100J",
+    "alternate1_name": "Grimmia, the Savior of Myth",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Avatar",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "Whenever this card attacks ]]] You may search your deck for a Weapon addition that can be added to a J/resonator and put it into the field, added to this card. If you do, shuffle your deck.\n{W}: This card gains [Swiftness] and [Precision] until end of turn. (This card can attack and you can play its {Rest} abilities already during the same turn it enters the field. And this card can attack recovered J/resonators.)\n{W}{W}, banish an addition added to this card: Rest up to two target J/resonators.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Foo Midori",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2239",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "924d83fc-863b-4d49-86f3-582992b9f662",
+    "alternate1_image": "924d83fc-863b-4d49-86f3-582992b9f662.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-101",
@@ -2615,7 +2715,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "8648755c-2c30-4444-b093-13caacb01a0e",
-    "image": "8648755c-2c30-4444-b093-13caacb01a0e.jpg"
+    "image": "8648755c-2c30-4444-b093-13caacb01a0e.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-102",
@@ -2637,7 +2738,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "0f0212e4-bf48-473d-91f3-23d2f92509a4",
-    "image": "0f0212e4-bf48-473d-91f3-23d2f92509a4.jpg"
+    "image": "0f0212e4-bf48-473d-91f3-23d2f92509a4.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-103",
@@ -2659,7 +2761,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "3f952421-cde5-4499-b802-48326f72bd3b",
-    "image": "3f952421-cde5-4499-b802-48326f72bd3b.jpg"
+    "image": "3f952421-cde5-4499-b802-48326f72bd3b.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-104",
@@ -2681,7 +2784,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "513a0ba0-2263-435a-af5b-07bce8ae9c53",
-    "image": "513a0ba0-2263-435a-af5b-07bce8ae9c53.jpg"
+    "image": "513a0ba0-2263-435a-af5b-07bce8ae9c53.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-105",
@@ -2703,7 +2807,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "82a1bbdd-111c-41a4-b676-9b0b999fe79a",
-    "image": "82a1bbdd-111c-41a4-b676-9b0b999fe79a.jpg"
+    "image": "82a1bbdd-111c-41a4-b676-9b0b999fe79a.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-106",
@@ -2725,51 +2830,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "413fc4de-8343-40e3-ac5d-9fba10adf611",
-    "image": "413fc4de-8343-40e3-ac5d-9fba10adf611.jpg"
+    "image": "413fc4de-8343-40e3-ac5d-9fba10adf611.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "MP01-107",
-    "name": "Apostle of Creation",
-    "Type": "Ruler",
-    "Race": "Prophet",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {R}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Kusanagi Tyouen",
-    "Rarity": "R",
-    "Fowid": "2246",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "56525851-3327-4702-969a-8b84d91b8312",
-    "image": "56525851-3327-4702-969a-8b84d91b8312.jpg"
-  },
-  {
-    "Card Number": "MP01-107J",
-    "name": "Cain, the Traitor of Gods",
-    "Type": "J-Ruler",
-    "Race": "Wizard",
+    "Card Number": "MP01-107|MP01-107J",
+    "name": "Apostle of Creation // Cain, the Traitor of Gods",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Prophet|Wizard",
     "Cost": "",
     "Colour": "R",
     "ATK": "700",
     "DEF": "700",
-    "Abilities": "[First Strike] (While attacking, this card deals battle damage first to the blocking J/resonator or attacked object.)\nYou cannot call magic stones.\nCognate resonators you control gain [+200/0].\nAt the beginning of your main phase ]]] Put the top card of your magic stone deck into the field.\n{R}: This card deals 200 damage to target resonator.",
+    "Abilities": "[Judgment] {R}|[First Strike] (While attacking, this card deals battle damage first to the blocking J/resonator or attacked object.)\nYou cannot call magic stones.\nCognate resonators you control gain [+200/0].\nAt the beginning of your main phase ]]] Put the top card of your magic stone deck into the field.\n{R}: This card deals 200 damage to target resonator.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Kusanagi Tyouen",
     "Rarity": "R",
-    "Fowid": "2247",
+    "Fowid": "2246|2247",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "f764302e-24f7-43a8-ab9c-5b1bc825db61",
-    "image": "f764302e-24f7-43a8-ab9c-5b1bc825db61.jpg"
+    "id": "56525851-3327-4702-969a-8b84d91b8312",
+    "image": "56525851-3327-4702-969a-8b84d91b8312.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f764302e-24f7-43a8-ab9c-5b1bc825db61.jpg",
+    "alternate1_Card Number": "MP01-107J",
+    "alternate1_name": "Cain, the Traitor of Gods",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[First Strike] (While attacking, this card deals battle damage first to the blocking J/resonator or attacked object.)\nYou cannot call magic stones.\nCognate resonators you control gain [+200/0].\nAt the beginning of your main phase ]]] Put the top card of your magic stone deck into the field.\n{R}: This card deals 200 damage to target resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Kusanagi Tyouen",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2247",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "f764302e-24f7-43a8-ab9c-5b1bc825db61",
+    "alternate1_image": "f764302e-24f7-43a8-ab9c-5b1bc825db61.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-108",
@@ -2791,7 +2898,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "51ea5fe9-af24-4ab7-bd19-2bad406e45e9",
-    "image": "51ea5fe9-af24-4ab7-bd19-2bad406e45e9.jpg"
+    "image": "51ea5fe9-af24-4ab7-bd19-2bad406e45e9.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "MP01-109",
@@ -2813,7 +2921,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "af87f9fd-19ee-479e-8af1-4936e97926a5",
-    "image": "af87f9fd-19ee-479e-8af1-4936e97926a5.jpg"
+    "image": "af87f9fd-19ee-479e-8af1-4936e97926a5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-110",
@@ -2835,7 +2944,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "c0a02d55-447c-48f1-a5d4-565afc5ae698",
-    "image": "c0a02d55-447c-48f1-a5d4-565afc5ae698.jpg"
+    "image": "c0a02d55-447c-48f1-a5d4-565afc5ae698.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-111",
@@ -2857,7 +2967,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "8cbb3b13-4e0c-4d68-8023-87af211803ec",
-    "image": "8cbb3b13-4e0c-4d68-8023-87af211803ec.jpg"
+    "image": "8cbb3b13-4e0c-4d68-8023-87af211803ec.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-112",
@@ -2879,7 +2990,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "2b344340-a70e-4949-a28e-ff56c0774b73",
-    "image": "2b344340-a70e-4949-a28e-ff56c0774b73.jpg"
+    "image": "2b344340-a70e-4949-a28e-ff56c0774b73.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-113",
@@ -2901,51 +3013,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "db2a2942-58b1-49a0-83ed-53b5d4e8507c",
-    "image": "db2a2942-58b1-49a0-83ed-53b5d4e8507c.jpg"
+    "image": "db2a2942-58b1-49a0-83ed-53b5d4e8507c.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-114",
-    "name": "Moon Princess of Stellar Wars",
-    "Type": "Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {2}{X}. Pay {X} only with {M} will.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Fukuzo Katsura",
-    "Rarity": "R",
-    "Fowid": "2254",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "846b77ea-5467-455b-b10f-03803678312f",
-    "image": "846b77ea-5467-455b-b10f-03803678312f.jpg"
-  },
-  {
-    "Card Number": "MP01-114J",
-    "name": "Kaguya, the Immortal Princess",
-    "Type": "J-Ruler",
-    "Race": "Wanderer|Little Girl",
+    "Card Number": "MP01-114|MP01-114J",
+    "name": "Moon Princess of Stellar Wars // Kaguya, the Immortal Princess",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Wanderer|Little Girl",
     "Cost": "",
     "Colour": "U",
     "ATK": "400",
     "DEF": "1000",
-    "Abilities": "[Flying]\n[Imperishable]\nThis card gains [+200/0] for each Treasury Item you control.\n[Enter] ]]] Search your deck for X Treasury Items and put them into the field. Then shuffle your deck.\nBanish three Treasury Items: Gain control of target resonator.",
+    "Abilities": "[Judgment] {2}{X}. Pay {X} only with {M} will.|[Flying]\n[Imperishable]\nThis card gains [+200/0] for each Treasury Item you control.\n[Enter] ]]] Search your deck for X Treasury Items and put them into the field. Then shuffle your deck.\nBanish three Treasury Items: Gain control of target resonator.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Fukuzo Katsura",
     "Rarity": "R",
-    "Fowid": "2255",
+    "Fowid": "2254|2255",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "e8772ca7-9820-45a5-a243-9b0041753341",
-    "image": "e8772ca7-9820-45a5-a243-9b0041753341.jpg"
+    "id": "846b77ea-5467-455b-b10f-03803678312f",
+    "image": "846b77ea-5467-455b-b10f-03803678312f.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e8772ca7-9820-45a5-a243-9b0041753341.jpg",
+    "alternate1_Card Number": "MP01-114J",
+    "alternate1_name": "Kaguya, the Immortal Princess",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wanderer|Little Girl",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "400",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\n[Imperishable]\nThis card gains [+200/0] for each Treasury Item you control.\n[Enter] ]]] Search your deck for X Treasury Items and put them into the field. Then shuffle your deck.\nBanish three Treasury Items: Gain control of target resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Fukuzo Katsura",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2255",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "e8772ca7-9820-45a5-a243-9b0041753341",
+    "alternate1_image": "e8772ca7-9820-45a5-a243-9b0041753341.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-115",
@@ -2967,7 +3081,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "7506759b-4786-4cd2-8dd2-d38f5633deb6",
-    "image": "7506759b-4786-4cd2-8dd2-d38f5633deb6.jpg"
+    "image": "7506759b-4786-4cd2-8dd2-d38f5633deb6.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-116",
@@ -2989,7 +3104,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "2d51bdd1-71ff-49a2-8bf2-fae8411aff10",
-    "image": "2d51bdd1-71ff-49a2-8bf2-fae8411aff10.jpg"
+    "image": "2d51bdd1-71ff-49a2-8bf2-fae8411aff10.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-117",
@@ -3011,7 +3127,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "a0742ed2-acdb-4cef-aa33-ae24287e2409",
-    "image": "a0742ed2-acdb-4cef-aa33-ae24287e2409.jpg"
+    "image": "a0742ed2-acdb-4cef-aa33-ae24287e2409.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-118",
@@ -3033,7 +3150,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "7a99d59f-3073-448c-a737-63c9f25e99ef",
-    "image": "7a99d59f-3073-448c-a737-63c9f25e99ef.jpg"
+    "image": "7a99d59f-3073-448c-a737-63c9f25e99ef.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "MP01-119",
@@ -3055,7 +3173,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "57e22dc8-ff24-4be0-af28-a8bd8bc5b84f",
-    "image": "57e22dc8-ff24-4be0-af28-a8bd8bc5b84f.jpg"
+    "image": "57e22dc8-ff24-4be0-af28-a8bd8bc5b84f.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-120",
@@ -3077,51 +3196,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "6269f823-dd2b-4fdb-95f3-2ce448f1b968",
-    "image": "6269f823-dd2b-4fdb-95f3-2ce448f1b968.jpg"
+    "image": "6269f823-dd2b-4fdb-95f3-2ce448f1b968.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "MP01-121",
-    "name": "Liberator of Wind",
-    "Type": "Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "At the beginning of the game ]]] Search your magic stone deck for a card, shuffle the rest of your magic stone deck and put that card on top of it.\n[Judgment] {G}{G}{1}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "noki",
-    "Rarity": "R",
-    "Fowid": "2262",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "ee26ee4f-56ca-406f-8081-16d791ba0629",
-    "image": "ee26ee4f-56ca-406f-8081-16d791ba0629.jpg"
-  },
-  {
-    "Card Number": "MP01-121J",
-    "name": "Scheherazade, the Teller of 1001 Stories",
-    "Type": "J-Ruler",
-    "Race": "Little Girl",
+    "Card Number": "MP01-121|MP01-121J",
+    "name": "Liberator of Wind // Scheherazade, the Teller of 1001 Stories",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Little Girl",
     "Cost": "",
     "Colour": "G",
     "ATK": "700",
     "DEF": "800",
-    "Abilities": "[Enter] ]]] Search your deck for a card and put it into your hand. Then shuffle your deck.\n{Rest}: If you have no cards in your hand, draw two cards.",
+    "Abilities": "At the beginning of the game ]]] Search your magic stone deck for a card, shuffle the rest of your magic stone deck and put that card on top of it.\n[Judgment] {G}{G}{1}|[Enter] ]]] Search your deck for a card and put it into your hand. Then shuffle your deck.\n{Rest}: If you have no cards in your hand, draw two cards.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "noki",
     "Rarity": "R",
-    "Fowid": "2263",
+    "Fowid": "2262|2263",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "4c9ae859-14cb-4b1c-aa66-b321d5411e46",
-    "image": "4c9ae859-14cb-4b1c-aa66-b321d5411e46.jpg"
+    "id": "ee26ee4f-56ca-406f-8081-16d791ba0629",
+    "image": "ee26ee4f-56ca-406f-8081-16d791ba0629.jpg",
+    "Card Type": "Ruler",
+    "backimage": "4c9ae859-14cb-4b1c-aa66-b321d5411e46.jpg",
+    "alternate1_Card Number": "MP01-121J",
+    "alternate1_name": "Scheherazade, the Teller of 1001 Stories",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Little Girl",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Enter] ]]] Search your deck for a card and put it into your hand. Then shuffle your deck.\n{Rest}: If you have no cards in your hand, draw two cards.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "noki",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2263",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "4c9ae859-14cb-4b1c-aa66-b321d5411e46",
+    "alternate1_image": "4c9ae859-14cb-4b1c-aa66-b321d5411e46.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-122",
@@ -3143,7 +3264,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "7c60660e-1569-492f-8d71-ad3d7abf4867",
-    "image": "7c60660e-1569-492f-8d71-ad3d7abf4867.jpg"
+    "image": "7c60660e-1569-492f-8d71-ad3d7abf4867.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "MP01-123",
@@ -3165,7 +3287,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "977f6020-598c-4407-9b94-e86c8360a174",
-    "image": "977f6020-598c-4407-9b94-e86c8360a174.jpg"
+    "image": "977f6020-598c-4407-9b94-e86c8360a174.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-124",
@@ -3187,7 +3310,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "5784050c-6718-4e3c-894a-d2429efdc6c1",
-    "image": "5784050c-6718-4e3c-894a-d2429efdc6c1.jpg"
+    "image": "5784050c-6718-4e3c-894a-d2429efdc6c1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-125",
@@ -3209,7 +3333,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "18e27d28-4a42-4079-93ad-5669c79c1a29",
-    "image": "18e27d28-4a42-4079-93ad-5669c79c1a29.jpg"
+    "image": "18e27d28-4a42-4079-93ad-5669c79c1a29.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-126",
@@ -3231,7 +3356,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "a9143b5f-090e-4848-abc6-2d4990ddd380",
-    "image": "a9143b5f-090e-4848-abc6-2d4990ddd380.jpg"
+    "image": "a9143b5f-090e-4848-abc6-2d4990ddd380.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-127",
@@ -3253,51 +3379,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "a2ac092a-5363-4682-90f6-a21cec004517",
-    "image": "a2ac092a-5363-4682-90f6-a21cec004517.jpg"
+    "image": "a2ac092a-5363-4682-90f6-a21cec004517.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-128",
-    "name": "Fiend of Dark Pyre",
-    "Type": "Ruler",
-    "Race": "Fiend",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {0}. Play this judgment process only if a Cthulhu entered the field under your control this turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Mad",
-    "Rarity": "R",
-    "Fowid": "2270",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "1c691673-cc46-441a-a15f-e1e9452f11e1",
-    "image": "1c691673-cc46-441a-a15f-e1e9452f11e1.jpg"
-  },
-  {
-    "Card Number": "MP01-128J",
-    "name": "Nyarlathotep, the Faceless God",
-    "Type": "J-Ruler",
-    "Race": "Cthulhu",
+    "Card Number": "MP01-128|MP01-128J",
+    "name": "Fiend of Dark Pyre // Nyarlathotep, the Faceless God",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Fiend|Cthulhu",
     "Cost": "",
     "Colour": "B",
     "ATK": "0",
     "DEF": "1200",
-    "Abilities": "This card's ATK is equal to the total ATK of Cthulhu resonators you control.\n[Enter] ]]] Your opponent banishes a non-Cthulhu resonator.",
+    "Abilities": "[Judgment] {0}. Play this judgment process only if a Cthulhu entered the field under your control this turn.|This card's ATK is equal to the total ATK of Cthulhu resonators you control.\n[Enter] ]]] Your opponent banishes a non-Cthulhu resonator.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Mad",
     "Rarity": "R",
-    "Fowid": "2271",
+    "Fowid": "2270|2271",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "fd38b5eb-4026-452c-afea-d06e30a7edba",
-    "image": "fd38b5eb-4026-452c-afea-d06e30a7edba.jpg"
+    "id": "1c691673-cc46-441a-a15f-e1e9452f11e1",
+    "image": "1c691673-cc46-441a-a15f-e1e9452f11e1.jpg",
+    "Card Type": "Ruler",
+    "backimage": "fd38b5eb-4026-452c-afea-d06e30a7edba.jpg",
+    "alternate1_Card Number": "MP01-128J",
+    "alternate1_name": "Nyarlathotep, the Faceless God",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Cthulhu",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "This card's ATK is equal to the total ATK of Cthulhu resonators you control.\n[Enter] ]]] Your opponent banishes a non-Cthulhu resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Mad",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2271",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "fd38b5eb-4026-452c-afea-d06e30a7edba",
+    "alternate1_image": "fd38b5eb-4026-452c-afea-d06e30a7edba.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-129",
@@ -3319,7 +3447,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "ca6caffd-b4cb-4b8e-a369-3493b0a607cd",
-    "image": "ca6caffd-b4cb-4b8e-a369-3493b0a607cd.jpg"
+    "image": "ca6caffd-b4cb-4b8e-a369-3493b0a607cd.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-130",
@@ -3341,7 +3470,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "af9f7223-aadc-43f4-a426-153ad3ac2772",
-    "image": "af9f7223-aadc-43f4-a426-153ad3ac2772.jpg"
+    "image": "af9f7223-aadc-43f4-a426-153ad3ac2772.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-131",
@@ -3363,7 +3493,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "69bed9ed-9b8a-4acb-b2ea-970605bd871c",
-    "image": "69bed9ed-9b8a-4acb-b2ea-970605bd871c.jpg"
+    "image": "69bed9ed-9b8a-4acb-b2ea-970605bd871c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-132",
@@ -3385,7 +3516,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "9944c040-d67b-4d40-84db-76995f30c65c",
-    "image": "9944c040-d67b-4d40-84db-76995f30c65c.jpg"
+    "image": "9944c040-d67b-4d40-84db-76995f30c65c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-133",
@@ -3407,7 +3539,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "2eb89ddb-ed95-452c-8ac9-9f1dd4b8f3d3",
-    "image": "2eb89ddb-ed95-452c-8ac9-9f1dd4b8f3d3.jpg"
+    "image": "2eb89ddb-ed95-452c-8ac9-9f1dd4b8f3d3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-134",
@@ -3429,51 +3562,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "13200f8b-fcd8-4169-91e5-40ba054327d8",
-    "image": "13200f8b-fcd8-4169-91e5-40ba054327d8.jpg"
+    "image": "13200f8b-fcd8-4169-91e5-40ba054327d8.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-135",
-    "name": "Alice, Girl of the Lake",
-    "Type": "Ruler",
-    "Race": "Wanderer",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {8}. You pay {1} less to play this judgment process for each Fairy you control.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Wednesday",
-    "Rarity": "R",
-    "Fowid": "2278",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "3fcd0679-9fc3-458a-b5ee-fdcfd59f5455",
-    "image": "3fcd0679-9fc3-458a-b5ee-fdcfd59f5455.jpg"
-  },
-  {
-    "Card Number": "MP01-135J",
-    "name": "Alice, Fairy Queen",
-    "Type": "J-Ruler",
-    "Race": "Queen|Fairy",
+    "Card Number": "MP01-135|MP01-135J",
+    "name": "Alice, Girl of the Lake // Alice, Fairy Queen",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Wanderer|Queen|Fairy",
     "Cost": "",
     "Colour": "W",
     "ATK": "900",
     "DEF": "900",
-    "Abilities": "[Flying] (This card cannot be blocked by a J/resonator without [Flying].)\n[Enter] ]]] Recover all Fairies you control.\nGod's Art \"Reminiscence of Utopia\" {W}{W}: J/resonators you control gain [+200/+200] as long as this card is in the field. Search your deck for a card named \"Excalibur, the Spirit God's Sword\" and put it into the field. Then shuffle your deck. (You can play only one God's Art \"Reminiscence of Utopia\" ability per game.)",
+    "Abilities": "[Judgment] {8}. You pay {1} less to play this judgment process for each Fairy you control.|[Flying] (This card cannot be blocked by a J/resonator without [Flying].)\n[Enter] ]]] Recover all Fairies you control.\nGod's Art \"Reminiscence of Utopia\" {W}{W}: J/resonators you control gain [+200/+200] as long as this card is in the field. Search your deck for a card named \"Excalibur, the Spirit God's Sword\" and put it into the field. Then shuffle your deck. (You can play only one God's Art \"Reminiscence of Utopia\" ability per game.)",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Wednesday",
     "Rarity": "R",
-    "Fowid": "2279",
+    "Fowid": "2278|2279",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "40f3510e-2af8-4888-a3a0-c6bd3daede5d",
-    "image": "40f3510e-2af8-4888-a3a0-c6bd3daede5d.jpg"
+    "id": "3fcd0679-9fc3-458a-b5ee-fdcfd59f5455",
+    "image": "3fcd0679-9fc3-458a-b5ee-fdcfd59f5455.jpg",
+    "Card Type": "Ruler",
+    "backimage": "40f3510e-2af8-4888-a3a0-c6bd3daede5d.jpg",
+    "alternate1_Card Number": "MP01-135J",
+    "alternate1_name": "Alice, Fairy Queen",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Queen|Fairy",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "[Flying] (This card cannot be blocked by a J/resonator without [Flying].)\n[Enter] ]]] Recover all Fairies you control.\nGod's Art \"Reminiscence of Utopia\" {W}{W}: J/resonators you control gain [+200/+200] as long as this card is in the field. Search your deck for a card named \"Excalibur, the Spirit God's Sword\" and put it into the field. Then shuffle your deck. (You can play only one God's Art \"Reminiscence of Utopia\" ability per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Wednesday",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2279",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "40f3510e-2af8-4888-a3a0-c6bd3daede5d",
+    "alternate1_image": "40f3510e-2af8-4888-a3a0-c6bd3daede5d.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-136",
@@ -3495,7 +3630,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "a0569eeb-4f19-490d-9604-e1dd8553e13a",
-    "image": "a0569eeb-4f19-490d-9604-e1dd8553e13a.jpg"
+    "image": "a0569eeb-4f19-490d-9604-e1dd8553e13a.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "MP01-137",
@@ -3517,7 +3653,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "c8a1a1a0-5f1b-4a15-acd3-fd434645e8ae",
-    "image": "c8a1a1a0-5f1b-4a15-acd3-fd434645e8ae.jpg"
+    "image": "c8a1a1a0-5f1b-4a15-acd3-fd434645e8ae.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-138",
@@ -3539,51 +3676,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "c00d1b4c-7075-425f-9b5a-fbf4406d7b0b",
-    "image": "c00d1b4c-7075-425f-9b5a-fbf4406d7b0b.jpg"
+    "image": "c00d1b4c-7075-425f-9b5a-fbf4406d7b0b.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
-    "Card Number": "MP01-139",
-    "name": "The Dusk Girl",
-    "Type": "Ruler",
-    "Race": "Fairy Tale",
-    "Cost": "",
-    "Colour": "R|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{R}, discard a card: This card deals 500 damage to target resonator. If you discarded a Dinosaur this way, it deals 700 damage instead.\n[Judgment] {B}. Play this judgment process only if you have no cards in your hand.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "yuko",
-    "Rarity": "R",
-    "Fowid": "2283",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "5b3a302e-dcb8-47be-ab93-bda7d16e2df8",
-    "image": "5b3a302e-dcb8-47be-ab93-bda7d16e2df8.jpg"
-  },
-  {
-    "Card Number": "MP01-139J",
-    "name": "Scarlet, the Crimson Beast",
-    "Type": "J-Ruler",
-    "Race": "Cthulhu",
+    "Card Number": "MP01-139|MP01-139J",
+    "name": "The Dusk Girl // Scarlet, the Crimson Beast",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Fairy Tale|Cthulhu",
     "Cost": "",
     "Colour": "R|B",
     "ATK": "1000",
     "DEF": "200",
-    "Abilities": "[Swiftness]\n[Precision]\n[First Strike]\n[Imperishable]\nDamage cannot be prevented.\nWhenever a J/resonator dealt damage by this card this turn is destroyed ]]] Recover this card. This ability triggers only once per turn.\n{R}: This card gains [+200/0] until end of turn.",
+    "Abilities": "{R}, discard a card: This card deals 500 damage to target resonator. If you discarded a Dinosaur this way, it deals 700 damage instead.\n[Judgment] {B}. Play this judgment process only if you have no cards in your hand.|[Swiftness]\n[Precision]\n[First Strike]\n[Imperishable]\nDamage cannot be prevented.\nWhenever a J/resonator dealt damage by this card this turn is destroyed ]]] Recover this card. This ability triggers only once per turn.\n{R}: This card gains [+200/0] until end of turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "yuko",
     "Rarity": "R",
-    "Fowid": "2284",
+    "Fowid": "2283|2284",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "711dc049-19ba-4e29-9d48-cc36ecc6b0f8",
-    "image": "711dc049-19ba-4e29-9d48-cc36ecc6b0f8.jpg"
+    "id": "5b3a302e-dcb8-47be-ab93-bda7d16e2df8",
+    "image": "5b3a302e-dcb8-47be-ab93-bda7d16e2df8.jpg",
+    "Card Type": "Ruler",
+    "backimage": "711dc049-19ba-4e29-9d48-cc36ecc6b0f8.jpg",
+    "alternate1_Card Number": "MP01-139J",
+    "alternate1_name": "Scarlet, the Crimson Beast",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Cthulhu",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R|B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "200",
+    "alternate1_Abilities": "[Swiftness]\n[Precision]\n[First Strike]\n[Imperishable]\nDamage cannot be prevented.\nWhenever a J/resonator dealt damage by this card this turn is destroyed ]]] Recover this card. This ability triggers only once per turn.\n{R}: This card gains [+200/0] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "yuko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2284",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "711dc049-19ba-4e29-9d48-cc36ecc6b0f8",
+    "alternate1_image": "711dc049-19ba-4e29-9d48-cc36ecc6b0f8.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-140",
@@ -3605,7 +3744,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "de67f8f0-637d-41ed-b1b7-7c844b7a893d",
-    "image": "de67f8f0-637d-41ed-b1b7-7c844b7a893d.jpg"
+    "image": "de67f8f0-637d-41ed-b1b7-7c844b7a893d.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "MP01-141",
@@ -3627,7 +3767,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "243c29a4-9bbb-473b-bf0c-35758162276c",
-    "image": "243c29a4-9bbb-473b-bf0c-35758162276c.jpg"
+    "image": "243c29a4-9bbb-473b-bf0c-35758162276c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-142",
@@ -3649,51 +3790,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "b7a98e3f-944a-4d91-8f4a-ac4f2a7a93f8",
-    "image": "b7a98e3f-944a-4d91-8f4a-ac4f2a7a93f8.jpg"
+    "image": "b7a98e3f-944a-4d91-8f4a-ac4f2a7a93f8.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-143",
-    "name": "Ayu, Lunar Swordswoman",
-    "Type": "Ruler",
-    "Race": "Wererabbit",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "You may not have more than one copy of any card in your deck.\nAt the beginning of the game ]]] Draw a card.\n[Judgment] {U}{1}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Misa Tsutsui",
-    "Rarity": "R",
-    "Fowid": "2288",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "d208cf10-acc2-4d1f-b8c5-08abd49fd8ba",
-    "image": "d208cf10-acc2-4d1f-b8c5-08abd49fd8ba.jpg"
-  },
-  {
-    "Card Number": "MP01-143J",
-    "name": "Ayu, Shaman Swordswoman",
-    "Type": "J-Ruler",
+    "Card Number": "MP01-143|MP01-143J",
+    "name": "Ayu, Lunar Swordswoman // Ayu, Shaman Swordswoman",
+    "Type": "Ruler|J-Ruler",
     "Race": "Wererabbit",
     "Cost": "",
     "Colour": "U",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Imperishable]\n[Enter] ]]] Search your deck for a Soul resonator, reveal it and put it into your hand. Then shuffle your deck.\nDiscard a Soul resonator: This card gains [+500/+500], [Flying] and [First Strike] until end of turn.\nGod's Art \"Once In A Lifetime\" {0}: Name a card. Reveal cards from the top of your deck until you reveal the named card. Put that card into your hand, and remove the rest from the game. (You can play only one God's Art \"Once In A Lifetime\" ability per game.)",
+    "Abilities": "You may not have more than one copy of any card in your deck.\nAt the beginning of the game ]]] Draw a card.\n[Judgment] {U}{1}|[Imperishable]\n[Enter] ]]] Search your deck for a Soul resonator, reveal it and put it into your hand. Then shuffle your deck.\nDiscard a Soul resonator: This card gains [+500/+500], [Flying] and [First Strike] until end of turn.\nGod's Art \"Once In A Lifetime\" {0}: Name a card. Reveal cards from the top of your deck until you reveal the named card. Put that card into your hand, and remove the rest from the game. (You can play only one God's Art \"Once In A Lifetime\" ability per game.)",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Misa Tsutsui",
     "Rarity": "R",
-    "Fowid": "2289",
+    "Fowid": "2288|2289",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "223ae43b-39a3-4e0c-8ca9-800c28891bae",
-    "image": "223ae43b-39a3-4e0c-8ca9-800c28891bae.jpg"
+    "id": "d208cf10-acc2-4d1f-b8c5-08abd49fd8ba",
+    "image": "d208cf10-acc2-4d1f-b8c5-08abd49fd8ba.jpg",
+    "Card Type": "Ruler",
+    "backimage": "223ae43b-39a3-4e0c-8ca9-800c28891bae.jpg",
+    "alternate1_Card Number": "MP01-143J",
+    "alternate1_name": "Ayu, Shaman Swordswoman",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wererabbit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Imperishable]\n[Enter] ]]] Search your deck for a Soul resonator, reveal it and put it into your hand. Then shuffle your deck.\nDiscard a Soul resonator: This card gains [+500/+500], [Flying] and [First Strike] until end of turn.\nGod's Art \"Once In A Lifetime\" {0}: Name a card. Reveal cards from the top of your deck until you reveal the named card. Put that card into your hand, and remove the rest from the game. (You can play only one God's Art \"Once In A Lifetime\" ability per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Misa Tsutsui",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2289",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "223ae43b-39a3-4e0c-8ca9-800c28891bae",
+    "alternate1_image": "223ae43b-39a3-4e0c-8ca9-800c28891bae.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-144",
@@ -3715,7 +3858,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "e3f9348d-755d-4574-a6b0-035477bf7cbe",
-    "image": "e3f9348d-755d-4574-a6b0-035477bf7cbe.jpg"
+    "image": "e3f9348d-755d-4574-a6b0-035477bf7cbe.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "MP01-145",
@@ -3737,7 +3881,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "c260faa0-945d-4a84-8217-3d38dd6fe2e5",
-    "image": "c260faa0-945d-4a84-8217-3d38dd6fe2e5.jpg"
+    "image": "c260faa0-945d-4a84-8217-3d38dd6fe2e5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-146",
@@ -3759,51 +3904,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "979876fc-ec53-4797-9ed1-8c27dcd26f18",
-    "image": "979876fc-ec53-4797-9ed1-8c27dcd26f18.jpg"
+    "image": "979876fc-ec53-4797-9ed1-8c27dcd26f18.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
-    "Card Number": "MP01-147",
-    "name": "Gill",
-    "Type": "Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Remove an Elemental in your graveyard from the game: Produce {G}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.\n{Rest}: Search your deck for a card named \"Gentle Breeze Elemental\", reveal it and put it into your hand. Then shuffle your deck.\n[Judgment] {G}{G}{1}\nSealed Item «Ultra Magic Stone» (This card has the following text everywhere.) At the end of your turn ]]] Put the top card of your deck into your graveyard.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "gekko",
-    "Rarity": "R",
-    "Fowid": "2293",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "74fd42e7-35ab-419d-9ed0-730d54a5d674",
-    "image": "74fd42e7-35ab-419d-9ed0-730d54a5d674.jpg"
-  },
-  {
-    "Card Number": "MP01-147J",
-    "name": "Gill, the Gifted Conjurer",
-    "Type": "J-Ruler",
+    "Card Number": "MP01-147|MP01-147J",
+    "name": "Gill // Gill, the Gifted Conjurer",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human",
     "Cost": "",
     "Colour": "G",
     "ATK": "1100",
     "DEF": "1100",
-    "Abilities": "[Barrier]\nRemove an Elemental in your graveyard from the game: Produce {G}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.\nSealed Item «Ultra Magic Stone» If you would produce will with this card, you produce that will plus {G} instead.\nSealed Item «Ultra Magic Stone» Put two cards from your removed area that were removed by this card on the bottom of your deck in any order: Search your deck for a chant, reveal it and put it into your hand. Then shuffle your deck. Play this ability only once per turn.",
+    "Abilities": "Remove an Elemental in your graveyard from the game: Produce {G}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.\n{Rest}: Search your deck for a card named \"Gentle Breeze Elemental\", reveal it and put it into your hand. Then shuffle your deck.\n[Judgment] {G}{G}{1}\nSealed Item «Ultra Magic Stone» (This card has the following text everywhere.) At the end of your turn ]]] Put the top card of your deck into your graveyard.|[Barrier]\nRemove an Elemental in your graveyard from the game: Produce {G}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.\nSealed Item «Ultra Magic Stone» If you would produce will with this card, you produce that will plus {G} instead.\nSealed Item «Ultra Magic Stone» Put two cards from your removed area that were removed by this card on the bottom of your deck in any order: Search your deck for a chant, reveal it and put it into your hand. Then shuffle your deck. Play this ability only once per turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "gekko",
     "Rarity": "R",
-    "Fowid": "2294",
+    "Fowid": "2293|2294",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "0c0b0ebb-94ba-44ae-a7f4-4c473ad28ad4",
-    "image": "0c0b0ebb-94ba-44ae-a7f4-4c473ad28ad4.jpg"
+    "id": "74fd42e7-35ab-419d-9ed0-730d54a5d674",
+    "image": "74fd42e7-35ab-419d-9ed0-730d54a5d674.jpg",
+    "Card Type": "Ruler",
+    "backimage": "0c0b0ebb-94ba-44ae-a7f4-4c473ad28ad4.jpg",
+    "alternate1_Card Number": "MP01-147J",
+    "alternate1_name": "Gill, the Gifted Conjurer",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1100",
+    "alternate1_DEF": "1100",
+    "alternate1_Abilities": "[Barrier]\nRemove an Elemental in your graveyard from the game: Produce {G}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.\nSealed Item «Ultra Magic Stone» If you would produce will with this card, you produce that will plus {G} instead.\nSealed Item «Ultra Magic Stone» Put two cards from your removed area that were removed by this card on the bottom of your deck in any order: Search your deck for a chant, reveal it and put it into your hand. Then shuffle your deck. Play this ability only once per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "gekko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2294",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "0c0b0ebb-94ba-44ae-a7f4-4c473ad28ad4",
+    "alternate1_image": "0c0b0ebb-94ba-44ae-a7f4-4c473ad28ad4.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-148",
@@ -3825,7 +3972,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "a39f87d6-c225-47da-ae30-eab043e6e04b",
-    "image": "a39f87d6-c225-47da-ae30-eab043e6e04b.jpg"
+    "image": "a39f87d6-c225-47da-ae30-eab043e6e04b.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "MP01-149",
@@ -3847,7 +3995,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "0521cf0f-c08e-407f-bdf7-b54cf14393b8",
-    "image": "0521cf0f-c08e-407f-bdf7-b54cf14393b8.jpg"
+    "image": "0521cf0f-c08e-407f-bdf7-b54cf14393b8.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-150",
@@ -3869,51 +4018,53 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "473e58ae-9888-4e96-8fb2-3dc6605786f9",
-    "image": "473e58ae-9888-4e96-8fb2-3dc6605786f9.jpg"
+    "image": "473e58ae-9888-4e96-8fb2-3dc6605786f9.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-151",
+    "Card Number": "MP01-151|MP01-151J",
     "name": "Reiya, Fourth Daughter of the Mikage",
-    "Type": "Ruler",
-    "Race": "Vampire",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "At the beginning of the game ]]] Put a mystery counter on this card.\n{Rest}: Put a mystery counter on this card.\n[Judgment] {B}{B}{1}\n[Sealed Item] «Ominous Moon» (This card has the following text everywhere.) At the beginning of the game ]]] Put two mystery counters on this card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "lack",
-    "Rarity": "R",
-    "Fowid": "2298",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "6d206b80-f217-4c82-90f9-86c5af4fee1b",
-    "image": "6d206b80-f217-4c82-90f9-86c5af4fee1b.jpg"
-  },
-  {
-    "Card Number": "MP01-151J",
-    "name": "Reiya, Fourth Daughter of the Mikage",
-    "Type": "J-Ruler",
+    "Type": "Ruler|J-Ruler",
     "Race": "Vampire",
     "Cost": "",
     "Colour": "B",
     "ATK": "1200",
     "DEF": "1200",
-    "Abilities": "[Flying]\n[Enter] ]]] Put three mystery counters on this card.\n{Rest}, remove a mystery counter from this card: Destroy target resonator.\n[Sealed Item] «Eye of Ragnarok» [Enter] ]]] Look at your opponent's hand and choose a card from among them. Until the end of your opponent's next turn, they cannot play cards that share a name with the chosen card.",
+    "Abilities": "At the beginning of the game ]]] Put a mystery counter on this card.\n{Rest}: Put a mystery counter on this card.\n[Judgment] {B}{B}{1}\n[Sealed Item] «Ominous Moon» (This card has the following text everywhere.) At the beginning of the game ]]] Put two mystery counters on this card.|[Flying]\n[Enter] ]]] Put three mystery counters on this card.\n{Rest}, remove a mystery counter from this card: Destroy target resonator.\n[Sealed Item] «Eye of Ragnarok» [Enter] ]]] Look at your opponent's hand and choose a card from among them. Until the end of your opponent's next turn, they cannot play cards that share a name with the chosen card.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "lack",
     "Rarity": "R",
-    "Fowid": "2299",
+    "Fowid": "2298|2299",
     "Cluster": "10 - Hero",
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
-    "id": "b93cb13e-0875-4a63-bab1-c2272bd8aafc",
-    "image": "b93cb13e-0875-4a63-bab1-c2272bd8aafc.jpg"
+    "id": "6d206b80-f217-4c82-90f9-86c5af4fee1b",
+    "image": "6d206b80-f217-4c82-90f9-86c5af4fee1b.jpg",
+    "Card Type": "Ruler",
+    "backimage": "b93cb13e-0875-4a63-bab1-c2272bd8aafc.jpg",
+    "alternate1_Card Number": "MP01-151J",
+    "alternate1_name": "Reiya, Fourth Daughter of the Mikage",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Vampire",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Flying]\n[Enter] ]]] Put three mystery counters on this card.\n{Rest}, remove a mystery counter from this card: Destroy target resonator.\n[Sealed Item] «Eye of Ragnarok» [Enter] ]]] Look at your opponent's hand and choose a card from among them. Until the end of your opponent's next turn, they cannot play cards that share a name with the chosen card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "lack",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2299",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "b93cb13e-0875-4a63-bab1-c2272bd8aafc",
+    "alternate1_image": "b93cb13e-0875-4a63-bab1-c2272bd8aafc.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MP01-152",
@@ -3935,7 +4086,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "54fc1ea2-1e97-4239-be19-0178b5ce3540",
-    "image": "54fc1ea2-1e97-4239-be19-0178b5ce3540.jpg"
+    "image": "54fc1ea2-1e97-4239-be19-0178b5ce3540.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "MP01-153",
@@ -3957,7 +4109,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "1d136eb8-6373-40fe-a513-12df6f3445db",
-    "image": "1d136eb8-6373-40fe-a513-12df6f3445db.jpg"
+    "image": "1d136eb8-6373-40fe-a513-12df6f3445db.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-154",
@@ -3979,7 +4132,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "d131c3cd-c722-4602-ab4f-07e53ca38db9",
-    "image": "d131c3cd-c722-4602-ab4f-07e53ca38db9.jpg"
+    "image": "d131c3cd-c722-4602-ab4f-07e53ca38db9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-155",
@@ -4001,18 +4155,19 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "016aa6a5-eee7-4290-9cfb-c83c41cdfc2c",
-    "image": "016aa6a5-eee7-4290-9cfb-c83c41cdfc2c.jpg"
+    "image": "016aa6a5-eee7-4290-9cfb-c83c41cdfc2c.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-156",
-    "name": "Flute, Captive Dragonoid Child",
-    "Type": "Resonator",
+    "Card Number": "MP01-156|MP01-156*",
+    "name": "Flute, Captive Dragonoid Child // Group of Comets",
+    "Type": "Resonator|Chant",
     "Race": "",
-    "Cost": "{W}",
+    "Cost": "{W}|{W}{W}{W}{1}",
     "Colour": "W",
     "ATK": "100",
     "DEF": "400",
-    "Abilities": "[Barrier]\n{Rest}: Produce {W}.\n{Rest}: Put a [+100/+100] counter on another entity you control.",
+    "Abilities": "[Barrier]\n{Rest}: Produce {W}.\n{Rest}: Put a [+100/+100] counter on another entity you control.|Destroy all J/resonators with no [+100/+100] counters on them.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -4023,29 +4178,30 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "c5693a9a-c433-4038-9cb0-7af6a17fceb8",
-    "image": "c5693a9a-c433-4038-9cb0-7af6a17fceb8.jpg"
-  },
-  {
-    "Card Number": "MP01-156*",
-    "name": "Group of Comets",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{W}{W}{W}{1}",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Destroy all J/resonators with no [+100/+100] counters on them.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "pisuke",
-    "Rarity": "R",
-    "Fowid": "2304",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "0759aa52-96e6-4155-8bbc-39257e04ebc9",
-    "image": "0759aa52-96e6-4155-8bbc-39257e04ebc9.jpg"
+    "image": "c5693a9a-c433-4038-9cb0-7af6a17fceb8.jpg",
+    "Card Type": "Resonator",
+    "backimage": "0759aa52-96e6-4155-8bbc-39257e04ebc9.jpg",
+    "alternate1_Card Number": "MP01-156*",
+    "alternate1_name": "Group of Comets",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{W}{W}{W}{1}",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "Destroy all J/resonators with no [+100/+100] counters on them.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "pisuke",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2304",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "0759aa52-96e6-4155-8bbc-39257e04ebc9",
+    "alternate1_image": "0759aa52-96e6-4155-8bbc-39257e04ebc9.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MP01-157",
@@ -4067,7 +4223,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "a6e86637-0fe0-4c6a-86d1-197240862717",
-    "image": "a6e86637-0fe0-4c6a-86d1-197240862717.jpg"
+    "image": "a6e86637-0fe0-4c6a-86d1-197240862717.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-158",
@@ -4089,7 +4246,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "90d99a98-c91b-4be4-bbd1-5da3918606da",
-    "image": "90d99a98-c91b-4be4-bbd1-5da3918606da.jpg"
+    "image": "90d99a98-c91b-4be4-bbd1-5da3918606da.jpg",
+    "Card Type": "Chant/Rune"
   },
   {
     "Card Number": "MP01-159",
@@ -4111,7 +4269,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "32bf6933-bef8-4ba8-8af7-3416383ec2d7",
-    "image": "32bf6933-bef8-4ba8-8af7-3416383ec2d7.jpg"
+    "image": "32bf6933-bef8-4ba8-8af7-3416383ec2d7.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-160",
@@ -4133,7 +4292,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "47a57286-ed4d-45fa-b86e-0de30064d1f2",
-    "image": "47a57286-ed4d-45fa-b86e-0de30064d1f2.jpg"
+    "image": "47a57286-ed4d-45fa-b86e-0de30064d1f2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-161",
@@ -4155,7 +4315,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "71b8d9f4-2e1a-45dc-b7de-cce00becc940",
-    "image": "71b8d9f4-2e1a-45dc-b7de-cce00becc940.jpg"
+    "image": "71b8d9f4-2e1a-45dc-b7de-cce00becc940.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-162",
@@ -4177,7 +4338,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "3c9d9cf9-d1d7-4958-be7a-77227fa17332",
-    "image": "3c9d9cf9-d1d7-4958-be7a-77227fa17332.jpg"
+    "image": "3c9d9cf9-d1d7-4958-be7a-77227fa17332.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-163",
@@ -4199,7 +4361,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "46a02eb2-eb21-4327-b64a-e35aaa09d212",
-    "image": "46a02eb2-eb21-4327-b64a-e35aaa09d212.jpg"
+    "image": "46a02eb2-eb21-4327-b64a-e35aaa09d212.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-164",
@@ -4221,7 +4384,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "6dadd982-bc9a-420f-aa1c-57c3ca13a4c6",
-    "image": "6dadd982-bc9a-420f-aa1c-57c3ca13a4c6.jpg"
+    "image": "6dadd982-bc9a-420f-aa1c-57c3ca13a4c6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-165",
@@ -4243,7 +4407,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "eb52a82f-5e3e-439d-95ca-1a1833bd1fd2",
-    "image": "eb52a82f-5e3e-439d-95ca-1a1833bd1fd2.jpg"
+    "image": "eb52a82f-5e3e-439d-95ca-1a1833bd1fd2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-166",
@@ -4265,7 +4430,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "72b4873c-3f1e-4de3-bcd7-e06ace4c4fab",
-    "image": "72b4873c-3f1e-4de3-bcd7-e06ace4c4fab.jpg"
+    "image": "72b4873c-3f1e-4de3-bcd7-e06ace4c4fab.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-167",
@@ -4287,18 +4453,19 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "e09d8f54-6065-4f60-9fc2-f69ecf23a570",
-    "image": "e09d8f54-6065-4f60-9fc2-f69ecf23a570.jpg"
+    "image": "e09d8f54-6065-4f60-9fc2-f69ecf23a570.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MP01-168",
-    "name": "Tsuiya, Cursed Spawn of the Star",
-    "Type": "Resonator",
+    "Card Number": "MP01-168|MP01-168*",
+    "name": "Tsuiya, Cursed Spawn of the Star // Curse of Ragnarok",
+    "Type": "Resonator|Chant",
     "Race": "Human",
-    "Cost": "{B}",
+    "Cost": "{B}|{B}{B}",
     "Colour": "B",
     "ATK": "400",
     "DEF": "400",
-    "Abilities": "You pay {B} less to play spells named \"Curse of Ragnarok\".\n[Enter] ]]] Target player banishes a non-magic stone, non-J-ruler entity. Put X [+100/+100] counters on this card, where X is the total cost of the entity banished this way.",
+    "Abilities": "You pay {B} less to play spells named \"Curse of Ragnarok\".\n[Enter] ]]] Target player banishes a non-magic stone, non-J-ruler entity. Put X [+100/+100] counters on this card, where X is the total cost of the entity banished this way.|[Remnant] (You may play this card from your graveyard. If you do, remove it from the game instead of putting it anywhere else any time it would leave the chase.)\nLook at your opponent's hand and choose a card from among them. They remove the chosen card from the game.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -4309,29 +4476,30 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "30eacd34-b1ea-44e8-a518-0aa86eeaeac4",
-    "image": "30eacd34-b1ea-44e8-a518-0aa86eeaeac4.jpg"
-  },
-  {
-    "Card Number": "MP01-168*",
-    "name": "Curse of Ragnarok",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{B}{B}",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Remnant] (You may play this card from your graveyard. If you do, remove it from the game instead of putting it anywhere else any time it would leave the chase.)\nLook at your opponent's hand and choose a card from among them. They remove the chosen card from the game.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "ShiroYayoi",
-    "Rarity": "R",
-    "Fowid": "2316",
-    "Cluster": "10 - Hero",
-    "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
-    "Set Code": "MP01",
-    "id": "4f14ea9b-66a4-4e00-922e-646aa2735ec8",
-    "image": "4f14ea9b-66a4-4e00-922e-646aa2735ec8.jpg"
+    "image": "30eacd34-b1ea-44e8-a518-0aa86eeaeac4.jpg",
+    "Card Type": "Resonator",
+    "backimage": "4f14ea9b-66a4-4e00-922e-646aa2735ec8.jpg",
+    "alternate1_Card Number": "MP01-168*",
+    "alternate1_name": "Curse of Ragnarok",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{B}{B}",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Remnant] (You may play this card from your graveyard. If you do, remove it from the game instead of putting it anywhere else any time it would leave the chase.)\nLook at your opponent's hand and choose a card from among them. They remove the chosen card from the game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "ShiroYayoi",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2316",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "072 - Masterpiece “Pilgrim-Memories”",
+    "alternate1_Set Code": "MP01",
+    "alternate1_id": "4f14ea9b-66a4-4e00-922e-646aa2735ec8",
+    "alternate1_image": "4f14ea9b-66a4-4e00-922e-646aa2735ec8.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MP01-169",
@@ -4353,7 +4521,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "6c7d2ab8-2430-4d3d-b008-340bd8ab263d",
-    "image": "6c7d2ab8-2430-4d3d-b008-340bd8ab263d.jpg"
+    "image": "6c7d2ab8-2430-4d3d-b008-340bd8ab263d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-170",
@@ -4375,7 +4544,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "a72ccd69-84d7-4d6e-8de5-b070104a4d6d",
-    "image": "a72ccd69-84d7-4d6e-8de5-b070104a4d6d.jpg"
+    "image": "a72ccd69-84d7-4d6e-8de5-b070104a4d6d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-171",
@@ -4397,7 +4567,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "12b9ba46-e98e-4035-aaab-f4f2f809d246",
-    "image": "12b9ba46-e98e-4035-aaab-f4f2f809d246.jpg"
+    "image": "12b9ba46-e98e-4035-aaab-f4f2f809d246.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MP01-172",
@@ -4419,7 +4590,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "61383fd6-c43a-4df2-a489-4ea0314be5a7",
-    "image": "61383fd6-c43a-4df2-a489-4ea0314be5a7.jpg"
+    "image": "61383fd6-c43a-4df2-a489-4ea0314be5a7.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MP01-173",
@@ -4441,7 +4613,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "f0b15e9c-8ba7-4c6b-8c7d-382acf36edf9",
-    "image": "f0b15e9c-8ba7-4c6b-8c7d-382acf36edf9.jpg"
+    "image": "f0b15e9c-8ba7-4c6b-8c7d-382acf36edf9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-174",
@@ -4463,7 +4636,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "b089d468-88e2-493d-b7b0-261528d0dafd",
-    "image": "b089d468-88e2-493d-b7b0-261528d0dafd.jpg"
+    "image": "b089d468-88e2-493d-b7b0-261528d0dafd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MP01-175",
@@ -4485,7 +4659,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "15e2049b-67c3-43e9-b01e-344d3e0a2abb",
-    "image": "15e2049b-67c3-43e9-b01e-344d3e0a2abb.jpg"
+    "image": "15e2049b-67c3-43e9-b01e-344d3e0a2abb.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "MP01-176",
@@ -4507,7 +4682,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "46399a1f-3737-4c60-9dd0-80a21782618e",
-    "image": "46399a1f-3737-4c60-9dd0-80a21782618e.jpg"
+    "image": "46399a1f-3737-4c60-9dd0-80a21782618e.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "MP01-177",
@@ -4529,7 +4705,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "d605c87c-42c7-4827-a52c-cec9bf2e307a",
-    "image": "d605c87c-42c7-4827-a52c-cec9bf2e307a.jpg"
+    "image": "d605c87c-42c7-4827-a52c-cec9bf2e307a.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "MP01-178",
@@ -4551,7 +4728,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "ee863a00-0fec-45e1-99a8-8bb1c5579068",
-    "image": "ee863a00-0fec-45e1-99a8-8bb1c5579068.jpg"
+    "image": "ee863a00-0fec-45e1-99a8-8bb1c5579068.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "MP01-179",
@@ -4573,7 +4751,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "f4ab61f3-71d9-48a6-a305-d57b20f0485b",
-    "image": "f4ab61f3-71d9-48a6-a305-d57b20f0485b.jpg"
+    "image": "f4ab61f3-71d9-48a6-a305-d57b20f0485b.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "MP01-180",
@@ -4595,7 +4774,8 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "594ba192-1f4f-49ba-92af-d477cca32c10",
-    "image": "594ba192-1f4f-49ba-92af-d477cca32c10.jpg"
+    "image": "594ba192-1f4f-49ba-92af-d477cca32c10.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "MP01-ACV",
@@ -4617,6 +4797,7 @@
     "Set Name": "072 - Masterpiece “Pilgrim-Memories”",
     "Set Code": "MP01",
     "id": "2425f219-488f-40df-b88e-0280437ca198",
-    "image": "2425f219-488f-40df-b88e-0280437ca198.jpg"
+    "image": "2425f219-488f-40df-b88e-0280437ca198.jpg",
+    "Card Type": "Addition"
   }
 ]

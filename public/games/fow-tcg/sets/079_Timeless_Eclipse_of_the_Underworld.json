@@ -19,7 +19,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "1691ec23-1910-4e51-bec9-1eb29a10b3dd",
-    "image": "1691ec23-1910-4e51-bec9-1eb29a10b3dd.jpg"
+    "image": "1691ec23-1910-4e51-bec9-1eb29a10b3dd.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-002",
@@ -41,7 +42,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "c1a80fa9-478e-4dfa-aedc-fc1d369a8d8a",
-    "image": "c1a80fa9-478e-4dfa-aedc-fc1d369a8d8a.jpg"
+    "image": "c1a80fa9-478e-4dfa-aedc-fc1d369a8d8a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-003",
@@ -63,7 +65,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "23633b76-c458-421f-9a11-5a61ea495c92",
-    "image": "23633b76-c458-421f-9a11-5a61ea495c92.jpg"
+    "image": "23633b76-c458-421f-9a11-5a61ea495c92.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-004",
@@ -85,7 +88,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "309c09a6-7c4c-42aa-9ecc-8ed7f1004f69",
-    "image": "309c09a6-7c4c-42aa-9ecc-8ed7f1004f69.jpg"
+    "image": "309c09a6-7c4c-42aa-9ecc-8ed7f1004f69.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TEU-005",
@@ -107,7 +111,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "b638fcd1-2002-4c2b-99ce-d6d441bc8cd7",
-    "image": "b638fcd1-2002-4c2b-99ce-d6d441bc8cd7.jpg"
+    "image": "b638fcd1-2002-4c2b-99ce-d6d441bc8cd7.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TEU-006",
@@ -129,21 +134,22 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "3ea2edcf-5c6b-45f6-bb44-27144cf827a3",
-    "image": "3ea2edcf-5c6b-45f6-bb44-27144cf827a3.jpg"
+    "image": "3ea2edcf-5c6b-45f6-bb44-27144cf827a3.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TEU-007",
-    "name": "Queen of the Eternal Eclipse, Giotto Sansta",
-    "Type": "Ruler",
+    "Card Number": "TEU-007|TEU-007J",
+    "name": "Queen of the Eternal Eclipse, Giotto Sansta // Giotto Sansta, Conqueror of Protopaterpolis",
+    "Type": "Ruler|J-Ruler",
     "Race": "Conqueror|Moon Princess|Moon Technology|Queen",
     "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Tag] (Conqueror)\nIf a card would be put into your opponent's graveyard or removed area from anywhere, remove it from the game face down instead.\n[Judgment] {W}{B}. Play this judgment process only if you control two cards named \"Pitch Black Moon\" in your ruler area or in the field.\n[Solo Mode]\nAs the game starts, put a card named \"Pitch Black Moon\" from your hand into the field. If you do, draw two cards.\nCards named \"Pitch Black Moon\" you control gain [Mastery] \"Pitch Black Moon\" in all zones.",
+    "Colour": "W|W|B",
+    "ATK": "1000",
+    "DEF": "900",
+    "Abilities": "[Tag] (Conqueror)\nIf a card would be put into your opponent's graveyard or removed area from anywhere, remove it from the game face down instead.\n[Judgment] {W}{B}. Play this judgment process only if you control two cards named \"Pitch Black Moon\" in your ruler area or in the field.\n[Solo Mode]\nAs the game starts, put a card named \"Pitch Black Moon\" from your hand into the field. If you do, draw two cards.\nCards named \"Pitch Black Moon\" you control gain [Mastery] \"Pitch Black Moon\" in all zones.|[First Strike]\n[Pierce]\nYou may look at face-down cards in each player's removed area at any time.\n[Enter] ]]] Put a non-chant Tank card from your hand into the field.\n[Eclipse] (This card gains the following text in all zones as long as there are thirteen face-down cards in your opponent's removed area.)\n- {X}: Flip target face-down card with total cost X in your opponent's removed area face up and play it without paying its cost.\n- {B}, put a card from your opponent's removed area on the bottom of its owner's deck: Mobilize target Tank entity. Draw a card.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I will conquer this world on my own. But I would like him to watch.\"",
+    "Flavour": "\"I will conquer this world on my own. But I would like him to watch.\"|\"My serva... my \"ally\", the Conqueror, is coming, but this world belongs to me.\"",
     "Artist": "j-peg",
     "Rarity": "R",
     "Fowid": "",
@@ -151,29 +157,30 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "05d8fa05-b6da-4d35-8ee3-b9ad1c8cc64a",
-    "image": "05d8fa05-b6da-4d35-8ee3-b9ad1c8cc64a.jpg"
-  },
-  {
-    "Card Number": "TEU-007J",
-    "name": "Giotto Sansta, Conqueror of Protopaterpolis",
-    "Type": "J-Ruler",
-    "Race": "Conqueror|Moon Princess|Moon Technology|Queen",
-    "Cost": "",
-    "Colour": "W|B",
-    "ATK": "1000",
-    "DEF": "900",
-    "Abilities": "[First Strike]\n[Pierce]\nYou may look at face-down cards in each player's removed area at any time.\n[Enter] ]]] Put a non-chant Tank card from your hand into the field.\n[Eclipse] (This card gains the following text in all zones as long as there are thirteen face-down cards in your opponent's removed area.)\n- {X}: Flip target face-down card with total cost X in your opponent's removed area face up and play it without paying its cost.\n- {B}, put a card from your opponent's removed area on the bottom of its owner's deck: Mobilize target Tank entity. Draw a card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"My serva... my \"ally\", the Conqueror, is coming, but this world belongs to me.\"",
-    "Artist": "j-peg",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "079 - Timeless Eclipse of the Underworld",
-    "Set Code": "TEU",
-    "id": "443bd69f-6e7d-4fd5-aca1-cb352a1acac5",
-    "image": "443bd69f-6e7d-4fd5-aca1-cb352a1acac5.jpg"
+    "image": "05d8fa05-b6da-4d35-8ee3-b9ad1c8cc64a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "443bd69f-6e7d-4fd5-aca1-cb352a1acac5.jpg",
+    "alternate1_Card Number": "TEU-007J",
+    "alternate1_name": "Giotto Sansta, Conqueror of Protopaterpolis",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Conqueror|Moon Princess|Moon Technology|Queen",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "[First Strike]\n[Pierce]\nYou may look at face-down cards in each player's removed area at any time.\n[Enter] ]]] Put a non-chant Tank card from your hand into the field.\n[Eclipse] (This card gains the following text in all zones as long as there are thirteen face-down cards in your opponent's removed area.)\n- {X}: Flip target face-down card with total cost X in your opponent's removed area face up and play it without paying its cost.\n- {B}, put a card from your opponent's removed area on the bottom of its owner's deck: Mobilize target Tank entity. Draw a card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"My serva... my \"ally\", the Conqueror, is coming, but this world belongs to me.\"",
+    "alternate1_Artist": "j-peg",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "079 - Timeless Eclipse of the Underworld",
+    "alternate1_Set Code": "TEU",
+    "alternate1_id": "443bd69f-6e7d-4fd5-aca1-cb352a1acac5",
+    "alternate1_image": "443bd69f-6e7d-4fd5-aca1-cb352a1acac5.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TEU-008",
@@ -195,18 +202,19 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "fb17a0f2-e53c-4dd1-a9c2-404391ed24a2",
-    "image": "fb17a0f2-e53c-4dd1-a9c2-404391ed24a2.jpg"
+    "image": "fb17a0f2-e53c-4dd1-a9c2-404391ed24a2.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TEU-009",
+    "Card Number": "TEU-009|TEU-009*",
     "name": "White Sparkling Crystal Apple",
-    "Type": "Regalia",
+    "Type": "Regalia|Sub-Ruler",
     "Race": "Arcane Item",
     "Cost": "{W}",
     "Colour": "W",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Fate] \"Zero, Six Sage\"\n[Untouchable]\n[Mythic]\nConqueror J-rulers and light Six Sages J-rulers you control gain [+400/+400].\n{W}: Remove an attacking J/resonator from battle. It loses all keyword abilities until end of turn. That J/resonator's controller removes the top two cards of their deck from the game face down. Play this ability only once per turn.\nGod's Art \"Rotten Slice\" {B}: If you have achieved [Eclipse] or if you control a J/ruler with \"Zero, Six Sage\" in its name, destroy target J/resonator with fewer or more keyword abilities than its printed keyword abilities, then draw a card.",
+    "Abilities": "[Fate] \"Zero, Six Sage\"\n[Untouchable]\n[Mythic]\nConqueror J-rulers and light Six Sages J-rulers you control gain [+400/+400].\n{W}: Remove an attacking J/resonator from battle. It loses all keyword abilities until end of turn. That J/resonator's controller removes the top two cards of their deck from the game face down. Play this ability only once per turn.\nGod's Art \"Rotten Slice\" {B}: If you have achieved [Eclipse] or if you control a J/ruler with \"Zero, Six Sage\" in its name, destroy target J/resonator with fewer or more keyword abilities than its printed keyword abilities, then draw a card.|Calling a magic stone does not cause J/rulers you control to rest.\nEntities your opponent controls lose and cannot gain [Eternal] and [Barrier].\nLight resonators you control with \"Young Master\" or \"Zero's\" in their name gain [+300/+300] and \"[Enter] ]]] Reveal the top card of your magic stone deck. If it has the light magic stone type, put it into the field.\" in all zones.\n{B}: Destroy target J/resonator with fewer or more keyword abilities than its printed keyword abilities, then draw a card. Play this ability only once per turn.\nGod's Art \"Apple Magic\" {W}: Heal all astral rulers you control. Search your deck for a chant or addition with \"Zero\" in its name and play it without paying its cost, then shuffle your deck. Players cannot chase to this ability.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "It is said that a bite invigorates its eater, and can even revive the dead.",
@@ -217,29 +225,30 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "e87a4a08-17fb-4c7a-923f-280d7ff56717",
-    "image": "e87a4a08-17fb-4c7a-923f-280d7ff56717.jpg"
-  },
-  {
-    "Card Number": "TEU-009*",
-    "name": "White Sparkling Crystal Apple",
-    "Type": "Sub-Ruler",
-    "Race": "Arcane Item",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Calling a magic stone does not cause J/rulers you control to rest.\nEntities your opponent controls lose and cannot gain [Eternal] and [Barrier].\nLight resonators you control with \"Young Master\" or \"Zero's\" in their name gain [+300/+300] and \"[Enter] ]]] Reveal the top card of your magic stone deck. If it has the light magic stone type, put it into the field.\" in all zones.\n{B}: Destroy target J/resonator with fewer or more keyword abilities than its printed keyword abilities, then draw a card. Play this ability only once per turn.\nGod's Art \"Apple Magic\" {W}: Heal all astral rulers you control. Search your deck for a chant or addition with \"Zero\" in its name and play it without paying its cost, then shuffle your deck. Players cannot chase to this ability.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "SO",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "079 - Timeless Eclipse of the Underworld",
-    "Set Code": "TEU",
-    "id": "54d7eae6-a9c0-43aa-b6e3-16bed9d5019a",
-    "image": "54d7eae6-a9c0-43aa-b6e3-16bed9d5019a.jpg"
+    "image": "e87a4a08-17fb-4c7a-923f-280d7ff56717.jpg",
+    "Card Type": "Regalia",
+    "backimage": "54d7eae6-a9c0-43aa-b6e3-16bed9d5019a.jpg",
+    "alternate1_Card Number": "TEU-009*",
+    "alternate1_name": "White Sparkling Crystal Apple",
+    "alternate1_Type": "Sub-Ruler",
+    "alternate1_Race": "Arcane Item",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "Calling a magic stone does not cause J/rulers you control to rest.\nEntities your opponent controls lose and cannot gain [Eternal] and [Barrier].\nLight resonators you control with \"Young Master\" or \"Zero's\" in their name gain [+300/+300] and \"[Enter] ]]] Reveal the top card of your magic stone deck. If it has the light magic stone type, put it into the field.\" in all zones.\n{B}: Destroy target J/resonator with fewer or more keyword abilities than its printed keyword abilities, then draw a card. Play this ability only once per turn.\nGod's Art \"Apple Magic\" {W}: Heal all astral rulers you control. Search your deck for a chant or addition with \"Zero\" in its name and play it without paying its cost, then shuffle your deck. Players cannot chase to this ability.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "SO",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "079 - Timeless Eclipse of the Underworld",
+    "alternate1_Set Code": "TEU",
+    "alternate1_id": "54d7eae6-a9c0-43aa-b6e3-16bed9d5019a",
+    "alternate1_image": "54d7eae6-a9c0-43aa-b6e3-16bed9d5019a.jpg",
+    "alternate1_Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "TEU-010",
@@ -261,7 +270,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "774070d7-f3fd-4146-b625-194389c46697",
-    "image": "774070d7-f3fd-4146-b625-194389c46697.jpg"
+    "image": "774070d7-f3fd-4146-b625-194389c46697.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-011",
@@ -283,7 +293,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "d83ad49d-6896-4571-9e99-bb6d4d610b34",
-    "image": "d83ad49d-6896-4571-9e99-bb6d4d610b34.jpg"
+    "image": "d83ad49d-6896-4571-9e99-bb6d4d610b34.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-012",
@@ -305,7 +316,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "02e37037-7d45-49c8-a162-b3acd1bf93d6",
-    "image": "02e37037-7d45-49c8-a162-b3acd1bf93d6.jpg"
+    "image": "02e37037-7d45-49c8-a162-b3acd1bf93d6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-013",
@@ -327,7 +339,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "fb2e1113-26b7-4565-9278-aba0ffe5a69b",
-    "image": "fb2e1113-26b7-4565-9278-aba0ffe5a69b.jpg"
+    "image": "fb2e1113-26b7-4565-9278-aba0ffe5a69b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-014",
@@ -349,7 +362,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "70632efc-1165-4c2a-9c9b-c1d60a5ed7ba",
-    "image": "70632efc-1165-4c2a-9c9b-c1d60a5ed7ba.jpg"
+    "image": "70632efc-1165-4c2a-9c9b-c1d60a5ed7ba.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-015",
@@ -371,7 +385,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "8b6d577e-5ec1-4d8d-9306-75292fdf2ba5",
-    "image": "8b6d577e-5ec1-4d8d-9306-75292fdf2ba5.jpg"
+    "image": "8b6d577e-5ec1-4d8d-9306-75292fdf2ba5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-016",
@@ -393,18 +408,19 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "03d1d082-f509-4be4-a382-a37a64aab262",
-    "image": "03d1d082-f509-4be4-a382-a37a64aab262.jpg"
+    "image": "03d1d082-f509-4be4-a382-a37a64aab262.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TEU-017",
+    "Card Number": "TEU-017|TEU-017*",
     "name": "The Crimson Lotus",
-    "Type": "Regalia",
+    "Type": "Regalia|Sub-Ruler",
     "Race": "Arcane Item",
     "Cost": "{R}{R}",
     "Colour": "R",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Fate] \"Lumia\"\n[Ambush] {R}\n[Mythic]\n[Eternal]\nYou pay {1} to put cards into your standby area rather than pay {2}.\nLight/fire Human resonator cards gain [Ambush] {W}{R} in all zones.\n{Rest}: Foresee 2. Put the top card of your deck into your standby area face down.\n{R}, reveal this card from your hand: Put this card into your standby area face down. Play this ability only if you control a J/ruler with \"Lumia\" in its name.",
+    "Abilities": "[Fate] \"Lumia\"\n[Ambush] {R}\n[Mythic]\n[Eternal]\nYou pay {1} to put cards into your standby area rather than pay {2}.\nLight/fire Human resonator cards gain [Ambush] {W}{R} in all zones.\n{Rest}: Foresee 2. Put the top card of your deck into your standby area face down.\n{R}, reveal this card from your hand: Put this card into your standby area face down. Play this ability only if you control a J/ruler with \"Lumia\" in its name.|Light/fire Human resonator cards gain [Ambush] {W}{R} in all zones.\nWhenever a resonator you control leaves the field ]]] If you have four or less cards in hand, draw a card.\n{1}: Put a card from your hand into your standby area face down.\n{Rest}: Foresee 2. Put the top card of your deck into your standby area face down.\nGod's Art \"Heat of the Crimson Lotus\" {R}{R}: Put target resonator into its controller's standby area face down. This card deals 400 damage to you.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "Its heat warms even the soul. It is said that it had never stopped burning.",
@@ -415,43 +431,44 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "3150816b-e9df-4e85-a43f-34ba5ad255af",
-    "image": "3150816b-e9df-4e85-a43f-34ba5ad255af.jpg"
+    "image": "3150816b-e9df-4e85-a43f-34ba5ad255af.jpg",
+    "Card Type": "Regalia",
+    "backimage": "afae0a4a-a747-4990-86f2-da5c7ca9fe49.jpg",
+    "alternate1_Card Number": "TEU-017*",
+    "alternate1_name": "The Crimson Lotus",
+    "alternate1_Type": "Sub-Ruler",
+    "alternate1_Race": "Arcane Item",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "Light/fire Human resonator cards gain [Ambush] {W}{R} in all zones.\nWhenever a resonator you control leaves the field ]]] If you have four or less cards in hand, draw a card.\n{1}: Put a card from your hand into your standby area face down.\n{Rest}: Foresee 2. Put the top card of your deck into your standby area face down.\nGod's Art \"Heat of the Crimson Lotus\" {R}{R}: Put target resonator into its controller's standby area face down. This card deals 400 damage to you.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Its heat warms even the soul. It is said that it had never stopped burning.",
+    "alternate1_Artist": "Yuko Nagasaki",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "079 - Timeless Eclipse of the Underworld",
+    "alternate1_Set Code": "TEU",
+    "alternate1_id": "afae0a4a-a747-4990-86f2-da5c7ca9fe49",
+    "alternate1_image": "afae0a4a-a747-4990-86f2-da5c7ca9fe49.jpg",
+    "alternate1_Card Type": "Sub-Ruler"
   },
   {
-    "Card Number": "TEU-017*",
-    "name": "The Crimson Lotus",
-    "Type": "Sub-Ruler",
-    "Race": "Arcane Item",
+    "Card Number": "TEU-018|TEU-018J",
+    "name": "The King with no Throne, Moonglow VIII // Moonglow VIII and Hachisuka, Power Couple",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Bandit|King|Moon Technology|Bandit|King|Moon Princess|Moon Technology",
     "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Light/fire Human resonator cards gain [Ambush] {W}{R} in all zones.\nWhenever a resonator you control leaves the field ]]] If you have four or less cards in hand, draw a card.\n{1}: Put a card from your hand into your standby area face down.\n{Rest}: Foresee 2. Put the top card of your deck into your standby area face down.\nGod's Art \"Heat of the Crimson Lotus\" {R}{R}: Put target resonator into its controller's standby area face down. This card deals 400 damage to you.",
+    "Colour": "R|R|B",
+    "ATK": "1200",
+    "DEF": "900",
+    "Abilities": "Once per turn, you pay {0} to put a card into your standby area rather than pay {2}.\n{1}: Put a card from your hand into your standby area face down. Play this ability only during your opponent's turn.\nGod's Art \"Bandit's Haul\" {B}: Draw X cards, where X is five minus the number of cards in your hand. Play this ability only if there are three cards in your standby area.\n[Judgment] {R}{B}. Play this judgment process only if there are three cards in your standby area.|[Belligerence]\n[Precision]\n[Bane]\n[Imperishable]\nTwice per turn, you pay {0} to put a card into your standby area rather than pay {2}.\n{0}: Put a card from your hand into your standby area face down. Play this ability only during your opponent's turn and only once per turn.\nGod's Art \"The Mind Behind the Muscle\" {R}{B}: If your opponent has more cards in their hand that you, they expel X cards from their hand, where X is the number of cards in their hand minus the number of cards in your hand.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Its heat warms even the soul. It is said that it had never stopped burning.",
-    "Artist": "Yuko Nagasaki",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "079 - Timeless Eclipse of the Underworld",
-    "Set Code": "TEU",
-    "id": "afae0a4a-a747-4990-86f2-da5c7ca9fe49",
-    "image": "afae0a4a-a747-4990-86f2-da5c7ca9fe49.jpg"
-  },
-  {
-    "Card Number": "TEU-018",
-    "name": "The King with no Throne, Moonglow VIII",
-    "Type": "Ruler",
-    "Race": "Bandit|King|Moon Technology",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Once per turn, you pay {0} to put a card into your standby area rather than pay {2}.\n{1}: Put a card from your hand into your standby area face down. Play this ability only during your opponent's turn.\nGod's Art \"Bandit's Haul\" {B}: Draw X cards, where X is five minus the number of cards in your hand. Play this ability only if there are three cards in your standby area.\n[Judgment] {R}{B}. Play this judgment process only if there are three cards in your standby area.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"I will claim what is rightfully mine!\"",
+    "Flavour": "\"I will claim what is rightfully mine!\"|\"Your mother is not the only one who knows how to play war.\" \"You're silly but also the best, Moonglow!\" \"I know.\"",
     "Artist": "Hachi Takashi",
     "Rarity": "R",
     "Fowid": "",
@@ -459,43 +476,44 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "53aa6301-6144-4302-98c4-ababcad3de8a",
-    "image": "53aa6301-6144-4302-98c4-ababcad3de8a.jpg"
+    "image": "53aa6301-6144-4302-98c4-ababcad3de8a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "6e0d3904-374c-46b0-af1d-cbceaa30b00f.jpg",
+    "alternate1_Card Number": "TEU-018J",
+    "alternate1_name": "Moonglow VIII and Hachisuka, Power Couple",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Bandit|King|Moon Princess|Moon Technology",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R|B",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "[Belligerence]\n[Precision]\n[Bane]\n[Imperishable]\nTwice per turn, you pay {0} to put a card into your standby area rather than pay {2}.\n{0}: Put a card from your hand into your standby area face down. Play this ability only during your opponent's turn and only once per turn.\nGod's Art \"The Mind Behind the Muscle\" {R}{B}: If your opponent has more cards in their hand that you, they expel X cards from their hand, where X is the number of cards in their hand minus the number of cards in your hand.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Your mother is not the only one who knows how to play war.\" \"You're silly but also the best, Moonglow!\" \"I know.\"",
+    "alternate1_Artist": "Hachi Takashi",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "079 - Timeless Eclipse of the Underworld",
+    "alternate1_Set Code": "TEU",
+    "alternate1_id": "6e0d3904-374c-46b0-af1d-cbceaa30b00f",
+    "alternate1_image": "6e0d3904-374c-46b0-af1d-cbceaa30b00f.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "TEU-018J",
-    "name": "Moonglow VIII and Hachisuka, Power Couple",
-    "Type": "J-Ruler",
-    "Race": "Bandit|King|Moon Princess|Moon Technology",
+    "Card Number": "TEU-019|TEU-019J",
+    "name": "Advisor to the Underwater Federation, Rucheel // Rucheel, Songstress of the Forgotten Town",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Sharkfolk|Songstress|Dark Commander|Sharkfolk|Songstress",
     "Cost": "",
-    "Colour": "R|B",
-    "ATK": "1200",
+    "Colour": "U|U|B",
+    "ATK": "800",
     "DEF": "900",
-    "Abilities": "[Belligerence]\n[Precision]\n[Bane]\n[Imperishable]\nTwice per turn, you pay {0} to put a card into your standby area rather than pay {2}.\n{0}: Put a card from your hand into your standby area face down. Play this ability only during your opponent's turn and only once per turn.\nGod's Art \"The Mind Behind the Muscle\" {R}{B}: If your opponent has more cards in their hand that you, they expel X cards from their hand, where X is the number of cards in their hand minus the number of cards in your hand.",
+    "Abilities": "J/resonators your opponent controls cannot attack unless your opponent pays {1}. (Each attack costs {1}.)\nAt end of turn ]]] Expel the bottom two cards of your deck.\n{B}: Shuffle any number of cards from your graveyard or hand into your deck. Play this ability only once per turn.\n[Depths] (This card gains the following text in all zones as long as there are fifteen or less cards in your deck.)\n- At the beginning of your turn ]]] Draw a card.\n- [Judgment] {U}{B}|[Terrifying]\n[Imperishable]\n[Barrier]\n[Enter] ]]] Rest all non-magic stone entities each other player controls. They don't recover during their controller's next recovery phase.\n[Depths]\n- Sharkfolk J/resonators you control gain [+300/+300].\n- God's Art \"Monsters from the Depths\" {U}{B}: Expel the bottom X cards of your deck, where X is the number of cards in your deck minus one, then put a token copy of each expelled Sea Monster resonator you own outside the game into the field. Players cannot chase to this ability.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Your mother is not the only one who knows how to play war.\" \"You're silly but also the best, Moonglow!\" \"I know.\"",
-    "Artist": "Hachi Takashi",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "079 - Timeless Eclipse of the Underworld",
-    "Set Code": "TEU",
-    "id": "6e0d3904-374c-46b0-af1d-cbceaa30b00f",
-    "image": "6e0d3904-374c-46b0-af1d-cbceaa30b00f.jpg"
-  },
-  {
-    "Card Number": "TEU-019",
-    "name": "Advisor to the Underwater Federation, Rucheel",
-    "Type": "Ruler",
-    "Race": "Sharkfolk|Songstress",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "J/resonators your opponent controls cannot attack unless your opponent pays {1}. (Each attack costs {1}.)\nAt end of turn ]]] Expel the bottom two cards of your deck.\n{B}: Shuffle any number of cards from your graveyard or hand into your deck. Play this ability only once per turn.\n[Depths] (This card gains the following text in all zones as long as there are fifteen or less cards in your deck.)\n- At the beginning of your turn ]]] Draw a card.\n- [Judgment] {U}{B}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"This is the Underwater Resource Business Federation. Enjoy your visit.\"",
+    "Flavour": "\"This is the Underwater Resource Business Federation. Enjoy your visit.\"|\"My song doesn't calm the beasts. Not at all.\"",
     "Artist": "Rumie",
     "Rarity": "R",
     "Fowid": "",
@@ -503,29 +521,30 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "57ca2242-aa17-430a-9229-8e29eb1dc9b5",
-    "image": "57ca2242-aa17-430a-9229-8e29eb1dc9b5.jpg"
-  },
-  {
-    "Card Number": "TEU-019J",
-    "name": "Rucheel, Songstress of the Forgotten Town",
-    "Type": "J-Ruler",
-    "Race": "Dark Commander|Sharkfolk|Songstress",
-    "Cost": "",
-    "Colour": "U|B",
-    "ATK": "800",
-    "DEF": "900",
-    "Abilities": "[Terrifying]\n[Imperishable]\n[Barrier]\n[Enter] ]]] Rest all non-magic stone entities each other player controls. They don't recover during their controller's next recovery phase.\n[Depths]\n- Sharkfolk J/resonators you control gain [+300/+300].\n- God's Art \"Monsters from the Depths\" {U}{B}: Expel the bottom X cards of your deck, where X is the number of cards in your deck minus one, then put a token copy of each expelled Sea Monster resonator you own outside the game into the field. Players cannot chase to this ability.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"My song doesn't calm the beasts. Not at all.\"",
-    "Artist": "Rumie",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "079 - Timeless Eclipse of the Underworld",
-    "Set Code": "TEU",
-    "id": "adb6656c-da9f-4702-96cf-55c24de5e502",
-    "image": "adb6656c-da9f-4702-96cf-55c24de5e502.jpg"
+    "image": "57ca2242-aa17-430a-9229-8e29eb1dc9b5.jpg",
+    "Card Type": "Ruler",
+    "backimage": "adb6656c-da9f-4702-96cf-55c24de5e502.jpg",
+    "alternate1_Card Number": "TEU-019J",
+    "alternate1_name": "Rucheel, Songstress of the Forgotten Town",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dark Commander|Sharkfolk|Songstress",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U|B",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "[Terrifying]\n[Imperishable]\n[Barrier]\n[Enter] ]]] Rest all non-magic stone entities each other player controls. They don't recover during their controller's next recovery phase.\n[Depths]\n- Sharkfolk J/resonators you control gain [+300/+300].\n- God's Art \"Monsters from the Depths\" {U}{B}: Expel the bottom X cards of your deck, where X is the number of cards in your deck minus one, then put a token copy of each expelled Sea Monster resonator you own outside the game into the field. Players cannot chase to this ability.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"My song doesn't calm the beasts. Not at all.\"",
+    "alternate1_Artist": "Rumie",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "079 - Timeless Eclipse of the Underworld",
+    "alternate1_Set Code": "TEU",
+    "alternate1_id": "adb6656c-da9f-4702-96cf-55c24de5e502",
+    "alternate1_image": "adb6656c-da9f-4702-96cf-55c24de5e502.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TEU-020",
@@ -547,18 +566,19 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "876608dd-0385-40c3-bb7f-c0653f8bf845",
-    "image": "876608dd-0385-40c3-bb7f-c0653f8bf845.jpg"
+    "image": "876608dd-0385-40c3-bb7f-c0653f8bf845.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TEU-021",
+    "Card Number": "TEU-021|TEU-021*",
     "name": "Dead Eye of Astaroth",
-    "Type": "Regalia",
-    "Race": "Ancient Magic|Arcane Item",
+    "Type": "Regalia|Sub-Ruler",
+    "Race": "Ancient Magic|Arcane Item|Arcane Item",
     "Cost": "{U}{U}",
     "Colour": "U",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Fate] \"Alhama'at\"\n[Mythic]\n[Barrier]\nLight or darkness Ancient Magic chants in your hand gain [Quickcast].\n[Sunken Treasures] If this card would be expelled from the bottom of your deck, play it without paying its cost instead. Each turn, only the effect of one [Sunken Treasures] ability you control is applied.\nAt end of turn ]]] Foresee 1. Put a mana counter on a J/ruler with [Mana].\n{Rest}: Draw a card, then shuffle a card from your hand into your deck.\n[Depths]\n- {U}{B}, expel this card: Destroy all non-Sea Monster resonators.",
+    "Abilities": "[Fate] \"Alhama'at\"\n[Mythic]\n[Barrier]\nLight or darkness Ancient Magic chants in your hand gain [Quickcast].\n[Sunken Treasures] If this card would be expelled from the bottom of your deck, play it without paying its cost instead. Each turn, only the effect of one [Sunken Treasures] ability you control is applied.\nAt end of turn ]]] Foresee 1. Put a mana counter on a J/ruler with [Mana].\n{Rest}: Draw a card, then shuffle a card from your hand into your deck.\n[Depths]\n- {U}{B}, expel this card: Destroy all non-Sea Monster resonators.|[Barrier]\nLight or darkness Ancient Magic chants in your hand and graveyard gain [Quickcast] and [Remnant].\nJ/rulers you control gain \"Calling a magic stone does not cause this card to rest\".\nResonators you control gain Dragonoid in addition to their other races.\nAt end of turn ]]] Foresee 1. Put a mana counter on a J/ruler with [Mana].\n{Rest}: Draw a card, then shuffle a card from your hand into your deck.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "The eye never blinks, and it is said that it predicts the future.",
@@ -569,29 +589,30 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "b01f85a2-717a-4c42-9f24-bba876a27bbf",
-    "image": "b01f85a2-717a-4c42-9f24-bba876a27bbf.jpg"
-  },
-  {
-    "Card Number": "TEU-021*",
-    "name": "Dead Eye of Astaroth",
-    "Type": "Sub-Ruler",
-    "Race": "Arcane Item",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Barrier]\nLight or darkness Ancient Magic chants in your hand and graveyard gain [Quickcast] and [Remnant].\nJ/rulers you control gain \"Calling a magic stone does not cause this card to rest\".\nResonators you control gain Dragonoid in addition to their other races.\nAt end of turn ]]] Foresee 1. Put a mana counter on a J/ruler with [Mana].\n{Rest}: Draw a card, then shuffle a card from your hand into your deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The eye never blinks, and it is said that it predicts the future.",
-    "Artist": "douzen",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "079 - Timeless Eclipse of the Underworld",
-    "Set Code": "TEU",
-    "id": "14defc77-c3b2-48df-b552-8a5c8c6bc372",
-    "image": "14defc77-c3b2-48df-b552-8a5c8c6bc372.jpg"
+    "image": "b01f85a2-717a-4c42-9f24-bba876a27bbf.jpg",
+    "Card Type": "Regalia",
+    "backimage": "14defc77-c3b2-48df-b552-8a5c8c6bc372.jpg",
+    "alternate1_Card Number": "TEU-021*",
+    "alternate1_name": "Dead Eye of Astaroth",
+    "alternate1_Type": "Sub-Ruler",
+    "alternate1_Race": "Arcane Item",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Barrier]\nLight or darkness Ancient Magic chants in your hand and graveyard gain [Quickcast] and [Remnant].\nJ/rulers you control gain \"Calling a magic stone does not cause this card to rest\".\nResonators you control gain Dragonoid in addition to their other races.\nAt end of turn ]]] Foresee 1. Put a mana counter on a J/ruler with [Mana].\n{Rest}: Draw a card, then shuffle a card from your hand into your deck.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "The eye never blinks, and it is said that it predicts the future.",
+    "alternate1_Artist": "douzen",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "079 - Timeless Eclipse of the Underworld",
+    "alternate1_Set Code": "TEU",
+    "alternate1_id": "14defc77-c3b2-48df-b552-8a5c8c6bc372",
+    "alternate1_image": "14defc77-c3b2-48df-b552-8a5c8c6bc372.jpg",
+    "alternate1_Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "TEU-022",
@@ -613,7 +634,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "10a0cf6e-a8c1-4b3b-8b6a-2e1652827306",
-    "image": "10a0cf6e-a8c1-4b3b-8b6a-2e1652827306.jpg"
+    "image": "10a0cf6e-a8c1-4b3b-8b6a-2e1652827306.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-023",
@@ -635,7 +657,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "64177495-33b9-4a22-b4b5-676592cc8b5e",
-    "image": "64177495-33b9-4a22-b4b5-676592cc8b5e.jpg"
+    "image": "64177495-33b9-4a22-b4b5-676592cc8b5e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-024",
@@ -657,7 +680,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "7a03d005-3d5e-42c7-b30a-32b3ccb6f959",
-    "image": "7a03d005-3d5e-42c7-b30a-32b3ccb6f959.jpg"
+    "image": "7a03d005-3d5e-42c7-b30a-32b3ccb6f959.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-025",
@@ -679,7 +703,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "32d6fba9-e26a-422b-8014-b606219acabe",
-    "image": "32d6fba9-e26a-422b-8014-b606219acabe.jpg"
+    "image": "32d6fba9-e26a-422b-8014-b606219acabe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-026",
@@ -701,7 +726,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "b0bc70cc-9a7e-44ba-9884-9ae001f663af",
-    "image": "b0bc70cc-9a7e-44ba-9884-9ae001f663af.jpg"
+    "image": "b0bc70cc-9a7e-44ba-9884-9ae001f663af.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-027",
@@ -723,7 +749,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "14189035-1bd3-48cd-993e-ae1179f66098",
-    "image": "14189035-1bd3-48cd-993e-ae1179f66098.jpg"
+    "image": "14189035-1bd3-48cd-993e-ae1179f66098.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-028",
@@ -745,7 +772,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "42656c7b-6635-45d8-a91b-2828b1befcbe",
-    "image": "42656c7b-6635-45d8-a91b-2828b1befcbe.jpg"
+    "image": "42656c7b-6635-45d8-a91b-2828b1befcbe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-029",
@@ -767,7 +795,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "55074a80-b26a-4868-8cf6-46820d6953ae",
-    "image": "55074a80-b26a-4868-8cf6-46820d6953ae.jpg"
+    "image": "55074a80-b26a-4868-8cf6-46820d6953ae.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-030",
@@ -789,7 +818,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "9fcb1858-c7af-48ad-9f81-7f6392865fdb",
-    "image": "9fcb1858-c7af-48ad-9f81-7f6392865fdb.jpg"
+    "image": "9fcb1858-c7af-48ad-9f81-7f6392865fdb.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-031",
@@ -811,7 +841,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "9a63c5f4-da07-457e-8b86-baf0bc37dd56",
-    "image": "9a63c5f4-da07-457e-8b86-baf0bc37dd56.jpg"
+    "image": "9a63c5f4-da07-457e-8b86-baf0bc37dd56.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-032",
@@ -833,18 +864,19 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "98c08a8b-cb98-41f0-8475-8a04c19503f0",
-    "image": "98c08a8b-cb98-41f0-8475-8a04c19503f0.jpg"
+    "image": "98c08a8b-cb98-41f0-8475-8a04c19503f0.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TEU-033",
+    "Card Number": "TEU-033|TEU-033*",
     "name": "Staff of the Monkey God",
-    "Type": "Regalia",
+    "Type": "Regalia|Sub-Ruler",
     "Race": "Arcane Item",
     "Cost": "{G}",
     "Colour": "G",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Fate] \"Monkey King\"\n[Quickcast]\n[Mythic]\nWhenever a J/resonator leaves the field ]]] If that J/resonator had counters on it as it left the field, put that many [+100/+100] counters on this card.\n{Rest}, remove X [+100/+100] counters from this card: Put X [+100/+100] counters on target J/resonator. If you do and X is 3, draw a card.\n{Rest}: Produce {G}. Spend this will only to play Myth spells, spells named \"Flying Cloud\" or activate abilities of rulers with \"Monkey King\" in their name.\nGod's Art \"Journey to the West\" {G}: If you control a ruler with \"Monkey King\" in its name, J/resonators you control gain [+300/+300] until end of game.",
+    "Abilities": "[Fate] \"Monkey King\"\n[Quickcast]\n[Mythic]\nWhenever a J/resonator leaves the field ]]] If that J/resonator had counters on it as it left the field, put that many [+100/+100] counters on this card.\n{Rest}, remove X [+100/+100] counters from this card: Put X [+100/+100] counters on target J/resonator. If you do and X is 3, draw a card.\n{Rest}: Produce {G}. Spend this will only to play Myth spells, spells named \"Flying Cloud\" or activate abilities of rulers with \"Monkey King\" in their name.\nGod's Art \"Journey to the West\" {G}: If you control a ruler with \"Monkey King\" in its name, J/resonators you control gain [+300/+300] until end of game.|Whenever a J/resonator leaves the field ]]] if that J/resonator had counters on it as it left the field, put that many [+100/+100] counters on this card.\n{Rest}, remove X [+100/+100] counters from this card: Put X [+100/+100] counters on target J/resonator. If you do and X is 3, draw a card.\n{Rest}: Produce {G}. Spend this will only to play Myth spells, spells named \"Flying Cloud\" or activate abilities of rulers with \"Monkey King\" in their name.\n{0}: Draw a card, then put a card from your hand on the bottom of your deck. Play this ability only once per turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "Its real name is Ru Yi Bang. It is said that it stretches to the sky.",
@@ -855,73 +887,75 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "8cb869ba-e98c-41fa-b9d9-3238d088fa58",
-    "image": "8cb869ba-e98c-41fa-b9d9-3238d088fa58.jpg"
+    "image": "8cb869ba-e98c-41fa-b9d9-3238d088fa58.jpg",
+    "Card Type": "Regalia",
+    "backimage": "0e98f2c4-5a8a-49c2-a305-6f5efdfa2b75.jpg",
+    "alternate1_Card Number": "TEU-033*",
+    "alternate1_name": "Staff of the Monkey God",
+    "alternate1_Type": "Sub-Ruler",
+    "alternate1_Race": "Arcane Item",
+    "alternate1_Cost": "{G}",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "Whenever a J/resonator leaves the field ]]] if that J/resonator had counters on it as it left the field, put that many [+100/+100] counters on this card.\n{Rest}, remove X [+100/+100] counters from this card: Put X [+100/+100] counters on target J/resonator. If you do and X is 3, draw a card.\n{Rest}: Produce {G}. Spend this will only to play Myth spells, spells named \"Flying Cloud\" or activate abilities of rulers with \"Monkey King\" in their name.\n{0}: Draw a card, then put a card from your hand on the bottom of your deck. Play this ability only once per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Its real name is Ru Yi Bang. It is said that it stretches to the sky.",
+    "alternate1_Artist": "sasaki kounosuke",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "079 - Timeless Eclipse of the Underworld",
+    "alternate1_Set Code": "TEU",
+    "alternate1_id": "0e98f2c4-5a8a-49c2-a305-6f5efdfa2b75",
+    "alternate1_image": "0e98f2c4-5a8a-49c2-a305-6f5efdfa2b75.jpg",
+    "alternate1_Card Type": "Sub-Ruler"
   },
   {
-    "Card Number": "TEU-033*",
-    "name": "Staff of the Monkey God",
-    "Type": "Sub-Ruler",
-    "Race": "Arcane Item",
-    "Cost": "{G}",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Whenever a J/resonator leaves the field ]]] if that J/resonator had counters on it as it left the field, put that many [+100/+100] counters on this card.\n{Rest}, remove X [+100/+100] counters from this card: Put X [+100/+100] counters on target J/resonator. If you do and X is 3, draw a card.\n{Rest}: Produce {G}. Spend this will only to play Myth spells, spells named \"Flying Cloud\" or activate abilities of rulers with \"Monkey King\" in their name.\n{0}: Draw a card, then put a card from your hand on the bottom of your deck. Play this ability only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Its real name is Ru Yi Bang. It is said that it stretches to the sky.",
-    "Artist": "sasaki kounosuke",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "079 - Timeless Eclipse of the Underworld",
-    "Set Code": "TEU",
-    "id": "0e98f2c4-5a8a-49c2-a305-6f5efdfa2b75",
-    "image": "0e98f2c4-5a8a-49c2-a305-6f5efdfa2b75.jpg"
-  },
-  {
-    "Card Number": "TEU-034",
-    "name": "The Triplets of the Verdant Tree, Yggssei",
-    "Type": "Ruler",
-    "Race": "Dryad|Spirit",
+    "Card Number": "TEU-034|TEU-034J",
+    "name": "The Triplets of the Verdant Tree, Yggssei // Yggssei, As One",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Dryad|Spirit|Dryad|Ethereal Tree|Nightmare",
     "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "You may have up to eight copies of a card named \"Leaf of the Malefic Tree\" in your deck or sideboard, if there are four or more copies of that card in your deck.\nIf damage would be dealt to you, prevent X00 of that damage, where X is the number of additions you control named \"Leaf of the Malefic Tree\".\n{B}: Search all your non-field areas for a card named \"Leaf of the Malefic Tree\" and put it into the field. If you searched your deck, shuffle it.\n[Judgment] {G}{B}. Play this judgment process only if you control four cards named \"Leaf of the Malefic Tree\" in public zones.",
+    "Colour": "G|G|B",
+    "ATK": "800",
+    "DEF": "1400",
+    "Abilities": "You may have up to eight copies of a card named \"Leaf of the Malefic Tree\" in your deck or sideboard, if there are four or more copies of that card in your deck.\nIf damage would be dealt to you, prevent X00 of that damage, where X is the number of additions you control named \"Leaf of the Malefic Tree\".\n{B}: Search all your non-field areas for a card named \"Leaf of the Malefic Tree\" and put it into the field. If you searched your deck, shuffle it.\n[Judgment] {G}{B}. Play this judgment process only if you control four cards named \"Leaf of the Malefic Tree\" in public zones.|[Overgrowth] (As this card enters the field, put X [+100/+100] counters on each J/resonator, where X is the number of spells with [Overgrowth] you resolved this turn.)\nWhen this card is destroyed ]]] Put eight [0/0] wind/darkness Woodfolk resonator tokens with [Overgrowth] into the field.\nGod's Art \"Deciduous Leaves of the Malefic Tree\" {G}{B}: Perform the following effect Y times, where Y is the number of cards named \"Leaf of the Malefic Tree\" you control in public zones - Each other player loses 400 life. If Y is four, each other player banishes a non-magic stone, non-J-ruler entity.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"We are the reincarnation of the Verdant Tree.\"",
-    "Artist": "Yuko Nagasaki",
+    "Flavour": "\"We are the reincarnation of the Verdant Tree.\"|\"Greatness of Yggdrasil will consume it all!\"",
+    "Artist": "Yuko Nagasaki|Kotakan",
     "Rarity": "R",
     "Fowid": "",
     "Cluster": "11 - Trinity",
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "9f9cc99b-855e-4064-8084-fccd151bcdef",
-    "image": "9f9cc99b-855e-4064-8084-fccd151bcdef.jpg"
-  },
-  {
-    "Card Number": "TEU-034J",
-    "name": "Yggssei, As One",
-    "Type": "J-Ruler",
-    "Race": "Dryad|Ethereal Tree|Nightmare",
-    "Cost": "",
-    "Colour": "G|B",
-    "ATK": "800",
-    "DEF": "1400",
-    "Abilities": "[Overgrowth] (As this card enters the field, put X [+100/+100] counters on each J/resonator, where X is the number of spells with [Overgrowth] you resolved this turn.)\nWhen this card is destroyed ]]] Put eight [0/0] wind/darkness Woodfolk resonator tokens with [Overgrowth] into the field.\nGod's Art \"Deciduous Leaves of the Malefic Tree\" {G}{B}: Perform the following effect Y times, where Y is the number of cards named \"Leaf of the Malefic Tree\" you control in public zones - Each other player loses 400 life. If Y is four, each other player banishes a non-magic stone, non-J-ruler entity.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Greatness of Yggdrasil will consume it all!\"",
-    "Artist": "Kotakan",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "079 - Timeless Eclipse of the Underworld",
-    "Set Code": "TEU",
-    "id": "4f607a0d-cc39-495c-bdd1-09d33a36b06a",
-    "image": "4f607a0d-cc39-495c-bdd1-09d33a36b06a.jpg"
+    "image": "9f9cc99b-855e-4064-8084-fccd151bcdef.jpg",
+    "Card Type": "Ruler",
+    "backimage": "4f607a0d-cc39-495c-bdd1-09d33a36b06a.jpg",
+    "alternate1_Card Number": "TEU-034J",
+    "alternate1_name": "Yggssei, As One",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dryad|Ethereal Tree|Nightmare",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G|B",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "1400",
+    "alternate1_Abilities": "[Overgrowth] (As this card enters the field, put X [+100/+100] counters on each J/resonator, where X is the number of spells with [Overgrowth] you resolved this turn.)\nWhen this card is destroyed ]]] Put eight [0/0] wind/darkness Woodfolk resonator tokens with [Overgrowth] into the field.\nGod's Art \"Deciduous Leaves of the Malefic Tree\" {G}{B}: Perform the following effect Y times, where Y is the number of cards named \"Leaf of the Malefic Tree\" you control in public zones - Each other player loses 400 life. If Y is four, each other player banishes a non-magic stone, non-J-ruler entity.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Greatness of Yggdrasil will consume it all!\"",
+    "alternate1_Artist": "Kotakan",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "079 - Timeless Eclipse of the Underworld",
+    "alternate1_Set Code": "TEU",
+    "alternate1_id": "4f607a0d-cc39-495c-bdd1-09d33a36b06a",
+    "alternate1_image": "4f607a0d-cc39-495c-bdd1-09d33a36b06a.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TEU-035",
@@ -943,7 +977,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "789530ca-9110-4f97-aa00-3e311c0eaf72",
-    "image": "789530ca-9110-4f97-aa00-3e311c0eaf72.jpg"
+    "image": "789530ca-9110-4f97-aa00-3e311c0eaf72.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-036",
@@ -965,7 +1000,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "beaf6b33-7c31-4040-b8c5-1ec538583a37",
-    "image": "beaf6b33-7c31-4040-b8c5-1ec538583a37.jpg"
+    "image": "beaf6b33-7c31-4040-b8c5-1ec538583a37.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-037",
@@ -987,7 +1023,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "959533de-1f11-465e-8216-a88b267e8723",
-    "image": "959533de-1f11-465e-8216-a88b267e8723.jpg"
+    "image": "959533de-1f11-465e-8216-a88b267e8723.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-038",
@@ -1009,7 +1046,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "5c0daccb-b2f6-499a-b934-d6f6c3630aba",
-    "image": "5c0daccb-b2f6-499a-b934-d6f6c3630aba.jpg"
+    "image": "5c0daccb-b2f6-499a-b934-d6f6c3630aba.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-039",
@@ -1031,7 +1069,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "5e705646-a259-4025-bc9b-1f91d2f70018",
-    "image": "5e705646-a259-4025-bc9b-1f91d2f70018.jpg"
+    "image": "5e705646-a259-4025-bc9b-1f91d2f70018.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-040",
@@ -1053,7 +1092,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "c622a014-b887-4e1e-bd62-d88a45093110",
-    "image": "c622a014-b887-4e1e-bd62-d88a45093110.jpg"
+    "image": "c622a014-b887-4e1e-bd62-d88a45093110.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-041",
@@ -1075,7 +1115,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "c507e5cb-9e15-4e7e-818f-0bca5ada78cf",
-    "image": "c507e5cb-9e15-4e7e-818f-0bca5ada78cf.jpg"
+    "image": "c507e5cb-9e15-4e7e-818f-0bca5ada78cf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-042",
@@ -1097,7 +1138,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "e6870a98-9910-4b5c-9ca3-f8fa65144920",
-    "image": "e6870a98-9910-4b5c-9ca3-f8fa65144920.jpg"
+    "image": "e6870a98-9910-4b5c-9ca3-f8fa65144920.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-043",
@@ -1119,7 +1161,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "772e1f25-ce22-4687-8252-870815c60127",
-    "image": "772e1f25-ce22-4687-8252-870815c60127.jpg"
+    "image": "772e1f25-ce22-4687-8252-870815c60127.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-044",
@@ -1141,7 +1184,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "72461544-7ee6-43f4-8e5a-b931fdefa50d",
-    "image": "72461544-7ee6-43f4-8e5a-b931fdefa50d.jpg"
+    "image": "72461544-7ee6-43f4-8e5a-b931fdefa50d.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-045",
@@ -1163,7 +1207,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "4198cdba-78bd-4465-803e-f277e4fffd7e",
-    "image": "4198cdba-78bd-4465-803e-f277e4fffd7e.jpg"
+    "image": "4198cdba-78bd-4465-803e-f277e4fffd7e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-046",
@@ -1185,7 +1230,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "8c394124-009d-43c4-8fbd-61a2984530e7",
-    "image": "8c394124-009d-43c4-8fbd-61a2984530e7.jpg"
+    "image": "8c394124-009d-43c4-8fbd-61a2984530e7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-047",
@@ -1207,18 +1253,19 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "67f0e7a3-2e49-4d90-b4bc-471cd09c9890",
-    "image": "67f0e7a3-2e49-4d90-b4bc-471cd09c9890.jpg"
+    "image": "67f0e7a3-2e49-4d90-b4bc-471cd09c9890.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TEU-048",
+    "Card Number": "TEU-048|TEU-048*",
     "name": "The Silver Key of the Labyrinth",
-    "Type": "Regalia",
+    "Type": "Regalia|Sub-Ruler",
     "Race": "Arcane Item",
     "Cost": "{B}{1}",
     "Colour": "B",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Fate] \"Umr at-Tawil\"\n[Mythic]\nAt end of turn ]]] If your opponent discards a card this turn and you control a ruler with \"Umr at-Tawil\" or \"Vengeful Soul\" in its name, put this card from your hand or graveyard into the field.\n[Closing the Lock] {Rest} or {B}: Target player gains \"Whenever you recover an entity ]]] You lose 100 life.\" until end of turn. Produce {B}{B}{B}. Spend this will only to play a judgment process with {X} in its cost. Play only one [Closing the Lock] ability per turn.\n[Inheritance] {B}: Put two limit counters on target ruler or J/resonator.",
+    "Abilities": "[Fate] \"Umr at-Tawil\"\n[Mythic]\nAt end of turn ]]] If your opponent discards a card this turn and you control a ruler with \"Umr at-Tawil\" or \"Vengeful Soul\" in its name, put this card from your hand or graveyard into the field.\n[Closing the Lock] {Rest} or {B}: Target player gains \"Whenever you recover an entity ]]] You lose 100 life.\" until end of turn. Produce {B}{B}{B}. Spend this will only to play a judgment process with {X} in its cost. Play only one [Closing the Lock] ability per turn.\n[Inheritance] {B}: Put two limit counters on target ruler or J/resonator.|You may pay {0} rather than pay the will activation cost of activate ability of Priest cards you control or cards you control with \"Silver Key\" in their name.\nCthulhu J/resonators you control with [Limit] gain [+500/+500].\nAt the beginning of your turn ]]] Put a card named \"The Gate of the Silver Key\" from your hand or graveyard into the field.\n[Closing the Lock] {Rest} or {B}: Target player gains \"Whenever you recover an entity ]]] You lose 100 life.\" until end of turn. Produce {B}{B}{B}{B}{B}. Spend this will only to play a judgment process with {X} in its cost. Play only one [Closing the Lock] ability per turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "A key that fits in every lock. It is said that it opens the door to madness.",
@@ -1229,29 +1276,30 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "d037ec5e-288b-4cca-a81e-c437b861e5eb",
-    "image": "d037ec5e-288b-4cca-a81e-c437b861e5eb.jpg"
-  },
-  {
-    "Card Number": "TEU-048*",
-    "name": "The Silver Key of the Labyrinth",
-    "Type": "Sub-Ruler",
-    "Race": "Arcane Item",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "You may pay {0} rather than pay the will activation cost of activate ability of Priest cards you control or cards you control with \"Silver Key\" in their name.\nCthulhu J/resonators you control with [Limit] gain [+500/+500].\nAt the beginning of your turn ]]] Put a card named \"The Gate of the Silver Key\" from your hand or graveyard into the field.\n[Closing the Lock] {Rest} or {B}: Target player gains \"Whenever you recover an entity ]]] You lose 100 life.\" until end of turn. Produce {B}{B}{B}{B}{B}. Spend this will only to play a judgment process with {X} in its cost. Play only one [Closing the Lock] ability per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "A key that fits in every lock. It is said that it opens the door to madness.",
-    "Artist": "sasaki kounosuke",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "079 - Timeless Eclipse of the Underworld",
-    "Set Code": "TEU",
-    "id": "1a14916a-3194-4a75-8faa-f22afaba6b31",
-    "image": "1a14916a-3194-4a75-8faa-f22afaba6b31.jpg"
+    "image": "d037ec5e-288b-4cca-a81e-c437b861e5eb.jpg",
+    "Card Type": "Regalia",
+    "backimage": "1a14916a-3194-4a75-8faa-f22afaba6b31.jpg",
+    "alternate1_Card Number": "TEU-048*",
+    "alternate1_name": "The Silver Key of the Labyrinth",
+    "alternate1_Type": "Sub-Ruler",
+    "alternate1_Race": "Arcane Item",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "You may pay {0} rather than pay the will activation cost of activate ability of Priest cards you control or cards you control with \"Silver Key\" in their name.\nCthulhu J/resonators you control with [Limit] gain [+500/+500].\nAt the beginning of your turn ]]] Put a card named \"The Gate of the Silver Key\" from your hand or graveyard into the field.\n[Closing the Lock] {Rest} or {B}: Target player gains \"Whenever you recover an entity ]]] You lose 100 life.\" until end of turn. Produce {B}{B}{B}{B}{B}. Spend this will only to play a judgment process with {X} in its cost. Play only one [Closing the Lock] ability per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "A key that fits in every lock. It is said that it opens the door to madness.",
+    "alternate1_Artist": "sasaki kounosuke",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "079 - Timeless Eclipse of the Underworld",
+    "alternate1_Set Code": "TEU",
+    "alternate1_id": "1a14916a-3194-4a75-8faa-f22afaba6b31",
+    "alternate1_image": "1a14916a-3194-4a75-8faa-f22afaba6b31.jpg",
+    "alternate1_Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "TEU-049",
@@ -1273,7 +1321,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "b32b5a67-98fd-4626-b15d-29c5e40113d8",
-    "image": "b32b5a67-98fd-4626-b15d-29c5e40113d8.jpg"
+    "image": "b32b5a67-98fd-4626-b15d-29c5e40113d8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-050",
@@ -1295,7 +1344,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "74eb0741-ba60-4f72-a40b-b2490619ed26",
-    "image": "74eb0741-ba60-4f72-a40b-b2490619ed26.jpg"
+    "image": "74eb0741-ba60-4f72-a40b-b2490619ed26.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-051",
@@ -1317,7 +1367,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "dbbcd1dc-ad5d-4237-af0e-9cc71081b18a",
-    "image": "dbbcd1dc-ad5d-4237-af0e-9cc71081b18a.jpg"
+    "image": "dbbcd1dc-ad5d-4237-af0e-9cc71081b18a.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TEU-052",
@@ -1339,21 +1390,22 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "f3b566f3-0658-43ee-ae35-a8175c72b9fa",
-    "image": "f3b566f3-0658-43ee-ae35-a8175c72b9fa.jpg"
+    "image": "f3b566f3-0658-43ee-ae35-a8175c72b9fa.jpg",
+    "Card Type": "Regalia"
   },
   {
-    "Card Number": "TEU-053",
-    "name": "Vengeful Soul of the Palace Dungeons",
-    "Type": "Ruler",
+    "Card Number": "TEU-053|TEU-053J",
+    "name": "Vengeful Soul of the Palace Dungeons // Viola, Obisidian Golem",
+    "Type": "Ruler|J-Ruler",
     "Race": "Golem|Magic Lifeform|Nightmare",
     "Cost": "",
     "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "You cannot have non-darkness cards in your deck.\nCalling a magic stone does not cause this card to rest.\nAt the beginning of each player's turn ]]] Put a Phobia addition that doesn't share a name with entities you control from your hand into the field rested. If you do and you aren't the turn player, draw a card.\n{Rest}: Target player gains control of up to two Phobia additions you control that don't share a name with Phobia additions the chosen player controls.\n[Judgment] {B}{B}{B}{B}{B}{B}. You pay {B} less to play this judgment process for each Phobia addition your opponent controls with different names.",
+    "ATK": "1400",
+    "DEF": "1300",
+    "Abilities": "You cannot have non-darkness cards in your deck.\nCalling a magic stone does not cause this card to rest.\nAt the beginning of each player's turn ]]] Put a Phobia addition that doesn't share a name with entities you control from your hand into the field rested. If you do and you aren't the turn player, draw a card.\n{Rest}: Target player gains control of up to two Phobia additions you control that don't share a name with Phobia additions the chosen player controls.\n[Judgment] {B}{B}{B}{B}{B}{B}. You pay {B} less to play this judgment process for each Phobia addition your opponent controls with different names.|[Terrifying] (Resonators your opponent controls with ATK less than the ATK of this card or with total cost 1 or less cannot block this card.)\n[Pierce]\n[Eternal]\nYou gain [Barrier] (Addition).\n[Enter] ]]] Put th top card of your magic stone deck into the field. Search your deck or hand for a Phobia addition and put it into the field under target player's control. If you searched your deck, shuffle it.\nGod's Art \"Memento Mori\" {B}{B}: If target player controls seven Phobia entities with different names, they lose the game.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I've lost many memories, but I haven't forgotten who I am.\"",
+    "Flavour": "\"I've lost many memories, but I haven't forgotten who I am.\"|\"I'm Viola, the Obsidian Princess! And you will fear me again!\"",
     "Artist": "douzen",
     "Rarity": "R",
     "Fowid": "",
@@ -1361,29 +1413,30 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "6ba06b8c-51b8-4af6-a648-75b0e499d5c5",
-    "image": "6ba06b8c-51b8-4af6-a648-75b0e499d5c5.jpg"
-  },
-  {
-    "Card Number": "TEU-053J",
-    "name": "Viola, Obisidian Golem",
-    "Type": "J-Ruler",
-    "Race": "Golem|Magic Lifeform|Nightmare",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "1400",
-    "DEF": "1300",
-    "Abilities": "[Terrifying] (Resonators your opponent controls with ATK less than the ATK of this card or with total cost 1 or less cannot block this card.)\n[Pierce]\n[Eternal]\nYou gain [Barrier] (Addition).\n[Enter] ]]] Put th top card of your magic stone deck into the field. Search your deck or hand for a Phobia addition and put it into the field under target player's control. If you searched your deck, shuffle it.\nGod's Art \"Memento Mori\" {B}{B}: If target player controls seven Phobia entities with different names, they lose the game.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"I'm Viola, the Obsidian Princess! And you will fear me again!\"",
-    "Artist": "douzen",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "079 - Timeless Eclipse of the Underworld",
-    "Set Code": "TEU",
-    "id": "283aa06b-e75f-41c9-b3c2-f696386eea6a",
-    "image": "283aa06b-e75f-41c9-b3c2-f696386eea6a.jpg"
+    "image": "6ba06b8c-51b8-4af6-a648-75b0e499d5c5.jpg",
+    "Card Type": "Ruler",
+    "backimage": "283aa06b-e75f-41c9-b3c2-f696386eea6a.jpg",
+    "alternate1_Card Number": "TEU-053J",
+    "alternate1_name": "Viola, Obisidian Golem",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Golem|Magic Lifeform|Nightmare",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1400",
+    "alternate1_DEF": "1300",
+    "alternate1_Abilities": "[Terrifying] (Resonators your opponent controls with ATK less than the ATK of this card or with total cost 1 or less cannot block this card.)\n[Pierce]\n[Eternal]\nYou gain [Barrier] (Addition).\n[Enter] ]]] Put th top card of your magic stone deck into the field. Search your deck or hand for a Phobia addition and put it into the field under target player's control. If you searched your deck, shuffle it.\nGod's Art \"Memento Mori\" {B}{B}: If target player controls seven Phobia entities with different names, they lose the game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I'm Viola, the Obsidian Princess! And you will fear me again!\"",
+    "alternate1_Artist": "douzen",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "079 - Timeless Eclipse of the Underworld",
+    "alternate1_Set Code": "TEU",
+    "alternate1_id": "283aa06b-e75f-41c9-b3c2-f696386eea6a",
+    "alternate1_image": "283aa06b-e75f-41c9-b3c2-f696386eea6a.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TEU-054",
@@ -1405,7 +1458,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "d80cc3d0-f522-4e77-bb3b-b7188475a324",
-    "image": "d80cc3d0-f522-4e77-bb3b-b7188475a324.jpg"
+    "image": "d80cc3d0-f522-4e77-bb3b-b7188475a324.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-055",
@@ -1427,7 +1481,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "84cfda86-d10e-4c24-89dd-696e9809444c",
-    "image": "84cfda86-d10e-4c24-89dd-696e9809444c.jpg"
+    "image": "84cfda86-d10e-4c24-89dd-696e9809444c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-056",
@@ -1449,7 +1504,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "f97c99c8-e7d8-41d1-aafd-e24067e32bed",
-    "image": "f97c99c8-e7d8-41d1-aafd-e24067e32bed.jpg"
+    "image": "f97c99c8-e7d8-41d1-aafd-e24067e32bed.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-057",
@@ -1471,7 +1527,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "d11b03a2-3d91-4ebc-8a94-5bfb893930df",
-    "image": "d11b03a2-3d91-4ebc-8a94-5bfb893930df.jpg"
+    "image": "d11b03a2-3d91-4ebc-8a94-5bfb893930df.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-058",
@@ -1493,7 +1550,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "7097a0d2-c696-4104-8d34-5e43b63f74a0",
-    "image": "7097a0d2-c696-4104-8d34-5e43b63f74a0.jpg"
+    "image": "7097a0d2-c696-4104-8d34-5e43b63f74a0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-059",
@@ -1515,7 +1573,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "5d1193bb-0901-411a-8e3a-004ef8d35080",
-    "image": "5d1193bb-0901-411a-8e3a-004ef8d35080.jpg"
+    "image": "5d1193bb-0901-411a-8e3a-004ef8d35080.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-060",
@@ -1537,7 +1596,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "ca0dc707-c093-46ee-bbdf-247affbb49e4",
-    "image": "ca0dc707-c093-46ee-bbdf-247affbb49e4.jpg"
+    "image": "ca0dc707-c093-46ee-bbdf-247affbb49e4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-061",
@@ -1559,7 +1619,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "c9af3e93-e837-4947-8ca4-a45f96050cfe",
-    "image": "c9af3e93-e837-4947-8ca4-a45f96050cfe.jpg"
+    "image": "c9af3e93-e837-4947-8ca4-a45f96050cfe.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-062",
@@ -1581,7 +1642,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "0bc861fd-93ca-48bd-a8ba-a4107da614bb",
-    "image": "0bc861fd-93ca-48bd-a8ba-a4107da614bb.jpg"
+    "image": "0bc861fd-93ca-48bd-a8ba-a4107da614bb.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-063",
@@ -1603,7 +1665,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "5f22bdb1-4405-4f7e-ac3b-23985a472821",
-    "image": "5f22bdb1-4405-4f7e-ac3b-23985a472821.jpg"
+    "image": "5f22bdb1-4405-4f7e-ac3b-23985a472821.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-064",
@@ -1625,7 +1688,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "fb6edab6-e1ce-406d-a9cc-9ea8a9d9345e",
-    "image": "fb6edab6-e1ce-406d-a9cc-9ea8a9d9345e.jpg"
+    "image": "fb6edab6-e1ce-406d-a9cc-9ea8a9d9345e.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-065",
@@ -1647,7 +1711,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "e5859e51-279e-499d-8649-902c42769a06",
-    "image": "e5859e51-279e-499d-8649-902c42769a06.jpg"
+    "image": "e5859e51-279e-499d-8649-902c42769a06.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-066",
@@ -1669,7 +1734,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "9cc6ca85-68e9-4f48-a571-40656f81d466",
-    "image": "9cc6ca85-68e9-4f48-a571-40656f81d466.jpg"
+    "image": "9cc6ca85-68e9-4f48-a571-40656f81d466.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-067",
@@ -1691,7 +1757,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "45de6393-e3aa-4e2a-8bd3-ebc3274b0cd4",
-    "image": "45de6393-e3aa-4e2a-8bd3-ebc3274b0cd4.jpg"
+    "image": "45de6393-e3aa-4e2a-8bd3-ebc3274b0cd4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-068",
@@ -1713,7 +1780,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "e1df1d18-08d5-46a4-ab64-281021648450",
-    "image": "e1df1d18-08d5-46a4-ab64-281021648450.jpg"
+    "image": "e1df1d18-08d5-46a4-ab64-281021648450.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-069",
@@ -1735,7 +1803,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "1926867c-f75e-41a1-bd0c-b8327782bd2f",
-    "image": "1926867c-f75e-41a1-bd0c-b8327782bd2f.jpg"
+    "image": "1926867c-f75e-41a1-bd0c-b8327782bd2f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-070J",
@@ -1757,7 +1826,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "68cedddc-c992-40b4-a283-f98f4bc81a24",
-    "image": "68cedddc-c992-40b4-a283-f98f4bc81a24.jpg"
+    "image": "68cedddc-c992-40b4-a283-f98f4bc81a24.jpg",
+    "Card Type": "J-Ruler"
   },
   {
     "Card Number": "TEU-071",
@@ -1779,7 +1849,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "c69c7d46-de41-4f9c-9a61-bcc8bca360ce",
-    "image": "c69c7d46-de41-4f9c-9a61-bcc8bca360ce.jpg"
+    "image": "c69c7d46-de41-4f9c-9a61-bcc8bca360ce.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-072",
@@ -1801,7 +1872,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "107b1970-f994-425d-b32b-ef104ec4d862",
-    "image": "107b1970-f994-425d-b32b-ef104ec4d862.jpg"
+    "image": "107b1970-f994-425d-b32b-ef104ec4d862.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-073",
@@ -1823,7 +1895,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "580b0783-9cb9-498f-8652-08309aca3e5e",
-    "image": "580b0783-9cb9-498f-8652-08309aca3e5e.jpg"
+    "image": "580b0783-9cb9-498f-8652-08309aca3e5e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-074",
@@ -1845,7 +1918,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "56880d16-3468-4c0f-9a62-5cceac5293f0",
-    "image": "56880d16-3468-4c0f-9a62-5cceac5293f0.jpg"
+    "image": "56880d16-3468-4c0f-9a62-5cceac5293f0.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TEU-075",
@@ -1867,7 +1941,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "2295502a-7fb9-4204-8446-6379bf74f145",
-    "image": "2295502a-7fb9-4204-8446-6379bf74f145.jpg"
+    "image": "2295502a-7fb9-4204-8446-6379bf74f145.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TEU-076",
@@ -1889,7 +1964,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "0debaf20-3df9-418b-a8b3-7808080c01ae",
-    "image": "0debaf20-3df9-418b-a8b3-7808080c01ae.jpg"
+    "image": "0debaf20-3df9-418b-a8b3-7808080c01ae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-077",
@@ -1911,7 +1987,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "9f657988-fe37-4323-9e91-c3f188bff6c4",
-    "image": "9f657988-fe37-4323-9e91-c3f188bff6c4.jpg"
+    "image": "9f657988-fe37-4323-9e91-c3f188bff6c4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-078",
@@ -1933,7 +2010,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "a97aa1b0-4f88-4bf1-9707-048ae9cf1eef",
-    "image": "a97aa1b0-4f88-4bf1-9707-048ae9cf1eef.jpg"
+    "image": "a97aa1b0-4f88-4bf1-9707-048ae9cf1eef.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-079",
@@ -1955,7 +2033,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "d580074c-0d81-4439-bb43-a32b4a349335",
-    "image": "d580074c-0d81-4439-bb43-a32b4a349335.jpg"
+    "image": "d580074c-0d81-4439-bb43-a32b4a349335.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-080",
@@ -1977,7 +2056,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "abbd90d7-5268-401c-940d-f39d6f1a10fd",
-    "image": "abbd90d7-5268-401c-940d-f39d6f1a10fd.jpg"
+    "image": "abbd90d7-5268-401c-940d-f39d6f1a10fd.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-081",
@@ -1999,7 +2079,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "ab6cbbee-bd73-493b-9db5-bb197d3c0595",
-    "image": "ab6cbbee-bd73-493b-9db5-bb197d3c0595.jpg"
+    "image": "ab6cbbee-bd73-493b-9db5-bb197d3c0595.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-082",
@@ -2021,7 +2102,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "2bf83b6f-fa74-485b-93e3-bda29874234b",
-    "image": "2bf83b6f-fa74-485b-93e3-bda29874234b.jpg"
+    "image": "2bf83b6f-fa74-485b-93e3-bda29874234b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-083",
@@ -2043,7 +2125,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "d44e18b4-8da1-45db-9a89-59ccb6338ecd",
-    "image": "d44e18b4-8da1-45db-9a89-59ccb6338ecd.jpg"
+    "image": "d44e18b4-8da1-45db-9a89-59ccb6338ecd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-084",
@@ -2065,7 +2148,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "a29244a1-eea9-431b-b76a-96badb6e4ade",
-    "image": "a29244a1-eea9-431b-b76a-96badb6e4ade.jpg"
+    "image": "a29244a1-eea9-431b-b76a-96badb6e4ade.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-085",
@@ -2087,7 +2171,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "22447da1-6728-4b4c-8317-e8b67c3f70e6",
-    "image": "22447da1-6728-4b4c-8317-e8b67c3f70e6.jpg"
+    "image": "22447da1-6728-4b4c-8317-e8b67c3f70e6.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-086",
@@ -2109,7 +2194,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "c9240aca-58c8-48fa-9f40-ebb57fa8578a",
-    "image": "c9240aca-58c8-48fa-9f40-ebb57fa8578a.jpg"
+    "image": "c9240aca-58c8-48fa-9f40-ebb57fa8578a.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-087",
@@ -2131,7 +2217,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "849a8258-bde1-479d-8d77-e3e4b321c526",
-    "image": "849a8258-bde1-479d-8d77-e3e4b321c526.jpg"
+    "image": "849a8258-bde1-479d-8d77-e3e4b321c526.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-088",
@@ -2153,7 +2240,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "af3a2cfe-3cdc-41dc-a4a0-e69a6d29f372",
-    "image": "af3a2cfe-3cdc-41dc-a4a0-e69a6d29f372.jpg"
+    "image": "af3a2cfe-3cdc-41dc-a4a0-e69a6d29f372.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TEU-089",
@@ -2175,7 +2263,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "76500cd8-8d51-4a16-8899-e4987fe7134a",
-    "image": "76500cd8-8d51-4a16-8899-e4987fe7134a.jpg"
+    "image": "76500cd8-8d51-4a16-8899-e4987fe7134a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-090",
@@ -2197,7 +2286,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "6123fe04-4562-43c0-bf2a-33f839afa834",
-    "image": "6123fe04-4562-43c0-bf2a-33f839afa834.jpg"
+    "image": "6123fe04-4562-43c0-bf2a-33f839afa834.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-091",
@@ -2219,7 +2309,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "c9b6c735-59d2-48ef-a7d5-6602273061c0",
-    "image": "c9b6c735-59d2-48ef-a7d5-6602273061c0.jpg"
+    "image": "c9b6c735-59d2-48ef-a7d5-6602273061c0.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TEU-092",
@@ -2241,7 +2332,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "f08b3126-eabb-4f45-8e45-29b740c099b8",
-    "image": "f08b3126-eabb-4f45-8e45-29b740c099b8.jpg"
+    "image": "f08b3126-eabb-4f45-8e45-29b740c099b8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TEU-093",
@@ -2263,7 +2355,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "5648e5c7-0c3a-4a99-97d1-6d1d4b56ae27",
-    "image": "5648e5c7-0c3a-4a99-97d1-6d1d4b56ae27.jpg"
+    "image": "5648e5c7-0c3a-4a99-97d1-6d1d4b56ae27.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "TEU-094",
@@ -2285,7 +2378,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "44d63f57-ab2c-49b1-977e-a3b9d04417a9",
-    "image": "44d63f57-ab2c-49b1-977e-a3b9d04417a9.jpg"
+    "image": "44d63f57-ab2c-49b1-977e-a3b9d04417a9.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "TEU-095",
@@ -2307,7 +2401,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "f0f22339-aa80-4912-869f-9f390c6ce8d0",
-    "image": "f0f22339-aa80-4912-869f-9f390c6ce8d0.jpg"
+    "image": "f0f22339-aa80-4912-869f-9f390c6ce8d0.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "TEU-096",
@@ -2329,7 +2424,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "afaca91e-50d6-4510-a995-4327a99d3e3f",
-    "image": "afaca91e-50d6-4510-a995-4327a99d3e3f.jpg"
+    "image": "afaca91e-50d6-4510-a995-4327a99d3e3f.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TEU-097",
@@ -2351,7 +2447,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "4cd53b98-45c5-479b-bf9f-025a6ee6b347",
-    "image": "4cd53b98-45c5-479b-bf9f-025a6ee6b347.jpg"
+    "image": "4cd53b98-45c5-479b-bf9f-025a6ee6b347.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TEU-098",
@@ -2373,7 +2470,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "0b703e19-9b4b-400b-854c-ca6aee758433",
-    "image": "0b703e19-9b4b-400b-854c-ca6aee758433.jpg"
+    "image": "0b703e19-9b4b-400b-854c-ca6aee758433.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TEU-099",
@@ -2395,7 +2493,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "4f2d9d83-a3de-4cad-9f96-a4603b727559",
-    "image": "4f2d9d83-a3de-4cad-9f96-a4603b727559.jpg"
+    "image": "4f2d9d83-a3de-4cad-9f96-a4603b727559.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TEU-100",
@@ -2417,7 +2516,8 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "df58024e-a27c-4ac7-86ee-2ba514c9a61d",
-    "image": "df58024e-a27c-4ac7-86ee-2ba514c9a61d.jpg"
+    "image": "df58024e-a27c-4ac7-86ee-2ba514c9a61d.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "T3 Buy a Box",
@@ -2439,6 +2539,7 @@
     "Set Name": "079 - Timeless Eclipse of the Underworld",
     "Set Code": "TEU",
     "id": "2034e1e7-8ade-4ffb-b7ff-46427d5d9fa3",
-    "image": "2034e1e7-8ade-4ffb-b7ff-46427d5d9fa3.jpg"
+    "image": "2034e1e7-8ade-4ffb-b7ff-46427d5d9fa3.jpg",
+    "Card Type": "Special Magic Stone"
   }
 ]

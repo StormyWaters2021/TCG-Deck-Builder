@@ -1,47 +1,48 @@
 [
   {
-    "Card Number": "SKL-001",
-    "name": "Arla, the Winged Lord",
-    "Type": "Ruler",
-    "Race": "Seven Kings",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {W}{W}\n{W}{W}: Target resonator with [Flying] you control gains [+200/+200] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The ruler of Armalla, the flying city. The wingmen who live in Armalla, the heavenly garden, do not hesitate to sacrifice themselves in its defense. The angels, are summoned to fight thanks to the magic stones.",
-    "Artist": "今野準史",
-    "Rarity": "R",
-    "Fowid": "648",
-    "Cluster": "03 - Alice",
-    "Set Name": "011 - The Seven Kings of the Land",
-    "Set Code": "SKL",
-    "id": "a64c6609-b1aa-41c7-b294-6f48506564da",
-    "image": "a64c6609-b1aa-41c7-b294-6f48506564da.jpg"
-  },
-  {
-    "Card Number": "SKL-001J",
-    "name": "Arla, the Hegemon of the Sky",
-    "Type": "J-Ruler",
+    "Card Number": "SKL-001|SKL-001J",
+    "name": "Arla, the Winged Lord // Arla, the Hegemon of the Sky",
+    "Type": "Ruler|J-Ruler",
     "Race": "Seven Kings",
     "Cost": "",
     "Colour": "W",
     "ATK": "900",
     "DEF": "700",
-    "Abilities": "[Flying]\nWhen this card enters your field, search your main deck for an Angel resonator, reveal it and put it into your hand. Then shuffle your main deck.\nGod's Art [Rain of Arrows] {W}{W}{2}: Whenever a J/resonator you control attacks this turn, this card deals 400 damage to target resonator your opponent controls for each time J/resonators you control attacked this turn. (Play God's Art [Rain of Arrows] only once per game.)",
+    "Abilities": "[J-Activate] {W}{W}\n{W}{W}: Target resonator with [Flying] you control gains [+200/+200] until end of turn.|[Flying]\nWhen this card enters your field, search your main deck for an Angel resonator, reveal it and put it into your hand. Then shuffle your main deck.\nGod's Art [Rain of Arrows] {W}{W}{2}: Whenever a J/resonator you control attacks this turn, this card deals 400 damage to target resonator your opponent controls for each time J/resonators you control attacked this turn. (Play God's Art [Rain of Arrows] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"The sky is weeping... the world is changing unrestrainedly.\"",
-    "Artist": "今野隼史",
+    "Flavour": "The ruler of Armalla, the flying city. The wingmen who live in Armalla, the heavenly garden, do not hesitate to sacrifice themselves in its defense. The angels, are summoned to fight thanks to the magic stones.|\"The sky is weeping... the world is changing unrestrainedly.\"",
+    "Artist": "今野準史|今野隼史",
     "Rarity": "R",
-    "Fowid": "649",
+    "Fowid": "648|649",
     "Cluster": "03 - Alice",
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
-    "id": "71217849-a2e6-41ac-a4a4-684f423d6f9a",
-    "image": "71217849-a2e6-41ac-a4a4-684f423d6f9a.jpg"
+    "id": "a64c6609-b1aa-41c7-b294-6f48506564da",
+    "image": "a64c6609-b1aa-41c7-b294-6f48506564da.jpg",
+    "Card Type": "Ruler",
+    "backimage": "71217849-a2e6-41ac-a4a4-684f423d6f9a.jpg",
+    "alternate1_Card Number": "SKL-001J",
+    "alternate1_name": "Arla, the Hegemon of the Sky",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Kings",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[Flying]\nWhen this card enters your field, search your main deck for an Angel resonator, reveal it and put it into your hand. Then shuffle your main deck.\nGod's Art [Rain of Arrows] {W}{W}{2}: Whenever a J/resonator you control attacks this turn, this card deals 400 damage to target resonator your opponent controls for each time J/resonators you control attacked this turn. (Play God's Art [Rain of Arrows] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"The sky is weeping... the world is changing unrestrainedly.\"",
+    "alternate1_Artist": "今野隼史",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "649",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "011 - The Seven Kings of the Land",
+    "alternate1_Set Code": "SKL",
+    "alternate1_id": "71217849-a2e6-41ac-a4a4-684f423d6f9a",
+    "alternate1_image": "71217849-a2e6-41ac-a4a4-684f423d6f9a.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SKL-002",
@@ -63,7 +64,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "2532e44d-1fd4-4f10-b368-4e5a56ea6f09",
-    "image": "2532e44d-1fd4-4f10-b368-4e5a56ea6f09.jpg"
+    "image": "2532e44d-1fd4-4f10-b368-4e5a56ea6f09.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-003",
@@ -85,7 +87,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "de2eb539-5a36-4f76-9111-cdbcca435ce8",
-    "image": "de2eb539-5a36-4f76-9111-cdbcca435ce8.jpg"
+    "image": "de2eb539-5a36-4f76-9111-cdbcca435ce8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-004",
@@ -107,7 +110,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "26939358-a903-45df-8c70-2446e964b7b0",
-    "image": "26939358-a903-45df-8c70-2446e964b7b0.jpg"
+    "image": "26939358-a903-45df-8c70-2446e964b7b0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-005",
@@ -129,7 +133,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "251f7a08-8947-4b85-9d98-4071578da1e5",
-    "image": "251f7a08-8947-4b85-9d98-4071578da1e5.jpg"
+    "image": "251f7a08-8947-4b85-9d98-4071578da1e5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-006",
@@ -151,51 +156,53 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "5a494c24-4af7-4eff-bf36-b6091422b1d1",
-    "image": "5a494c24-4af7-4eff-bf36-b6091422b1d1.jpg"
+    "image": "5a494c24-4af7-4eff-bf36-b6091422b1d1.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "SKL-007",
-    "name": "Faria, the Sacred Queen",
-    "Type": "Ruler",
-    "Race": "Seven Kings",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {W}{W}\n{W}{W}: You gain 200 life.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The Sacred Queen Faria, the one who ruled upon Gloria, the Holy Land, was a honest and pure person. Her servants' loyalty to her was supreme. She hated the war, but the people of Gloria thought that she was the most suitable to rule the Seven Kingdoms.",
-    "Artist": "Mad",
-    "Rarity": "R",
-    "Fowid": "655",
-    "Cluster": "03 - Alice",
-    "Set Name": "011 - The Seven Kings of the Land",
-    "Set Code": "SKL",
-    "id": "50b5f202-2d9c-4c2f-a80c-ede7e5b3e64c",
-    "image": "50b5f202-2d9c-4c2f-a80c-ede7e5b3e64c.jpg"
-  },
-  {
-    "Card Number": "SKL-007J",
-    "name": "Faria, the Ruler of God Sword",
-    "Type": "J-Ruler",
+    "Card Number": "SKL-007|SKL-007J",
+    "name": "Faria, the Sacred Queen // Faria, the Ruler of God Sword",
+    "Type": "Ruler|J-Ruler",
     "Race": "Seven Kings",
     "Cost": "",
     "Colour": "W",
     "ATK": "800",
     "DEF": "800",
-    "Abilities": "[Target Attack] (This card can attack recovered J/resonators.)\nWhen this card enters your field, put the top card of your magic stone deck into your magic stone area.\nWhenever this card attacks, recover target Regalia you control.\nGod's Art [God's Breath] {W}{W}{4}: Recover all resonators you control. Play God's Art [God's Breath] only once per game.",
+    "Abilities": "[J-Activate] {W}{W}\n{W}{W}: You gain 200 life.|[Target Attack] (This card can attack recovered J/resonators.)\nWhen this card enters your field, put the top card of your magic stone deck into your magic stone area.\nWhenever this card attacks, recover target Regalia you control.\nGod's Art [God's Breath] {W}{W}{4}: Recover all resonators you control. Play God's Art [God's Breath] only once per game.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Sacred Sword that resonate with the spirit of the hero, grant me your power!\"",
+    "Flavour": "The Sacred Queen Faria, the one who ruled upon Gloria, the Holy Land, was a honest and pure person. Her servants' loyalty to her was supreme. She hated the war, but the people of Gloria thought that she was the most suitable to rule the Seven Kingdoms.|\"Sacred Sword that resonate with the spirit of the hero, grant me your power!\"",
     "Artist": "Mad",
     "Rarity": "R",
-    "Fowid": "656",
+    "Fowid": "655|656",
     "Cluster": "03 - Alice",
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
-    "id": "283f588c-997a-4c24-ad2f-09f721896ffb",
-    "image": "283f588c-997a-4c24-ad2f-09f721896ffb.jpg"
+    "id": "50b5f202-2d9c-4c2f-a80c-ede7e5b3e64c",
+    "image": "50b5f202-2d9c-4c2f-a80c-ede7e5b3e64c.jpg",
+    "Card Type": "Ruler",
+    "backimage": "283f588c-997a-4c24-ad2f-09f721896ffb.jpg",
+    "alternate1_Card Number": "SKL-007J",
+    "alternate1_name": "Faria, the Ruler of God Sword",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Kings",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Target Attack] (This card can attack recovered J/resonators.)\nWhen this card enters your field, put the top card of your magic stone deck into your magic stone area.\nWhenever this card attacks, recover target Regalia you control.\nGod's Art [God's Breath] {W}{W}{4}: Recover all resonators you control. Play God's Art [God's Breath] only once per game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Sacred Sword that resonate with the spirit of the hero, grant me your power!\"",
+    "alternate1_Artist": "Mad",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "656",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "011 - The Seven Kings of the Land",
+    "alternate1_Set Code": "SKL",
+    "alternate1_id": "283f588c-997a-4c24-ad2f-09f721896ffb",
+    "alternate1_image": "283f588c-997a-4c24-ad2f-09f721896ffb.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SKL-008",
@@ -217,7 +224,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "c9d5772c-ac00-4eb0-822d-c95b619fe9f9",
-    "image": "c9d5772c-ac00-4eb0-822d-c95b619fe9f9.jpg"
+    "image": "c9d5772c-ac00-4eb0-822d-c95b619fe9f9.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "SKL-009",
@@ -239,7 +247,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "ade4bb49-ee76-45c6-8a91-7ff8ac60a65f",
-    "image": "ade4bb49-ee76-45c6-8a91-7ff8ac60a65f.jpg"
+    "image": "ade4bb49-ee76-45c6-8a91-7ff8ac60a65f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-010",
@@ -261,7 +270,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "1d760e21-6ac9-4f2e-8776-62a13701828e",
-    "image": "1d760e21-6ac9-4f2e-8776-62a13701828e.jpg"
+    "image": "1d760e21-6ac9-4f2e-8776-62a13701828e.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "SKL-011",
@@ -283,7 +293,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "a43e20fb-8522-4988-ad03-fa65fc347399",
-    "image": "a43e20fb-8522-4988-ad03-fa65fc347399.jpg"
+    "image": "a43e20fb-8522-4988-ad03-fa65fc347399.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-012",
@@ -305,7 +316,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "08eea413-43c9-4662-9805-f3d6f174eec9",
-    "image": "08eea413-43c9-4662-9805-f3d6f174eec9.jpg"
+    "image": "08eea413-43c9-4662-9805-f3d6f174eec9.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "SKL-013",
@@ -327,7 +339,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "9096dfde-0c03-44b6-ae55-a71024079f54",
-    "image": "9096dfde-0c03-44b6-ae55-a71024079f54.jpg"
+    "image": "9096dfde-0c03-44b6-ae55-a71024079f54.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-014",
@@ -349,7 +362,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "3515e2c5-8dd0-4096-9f2a-9eb08e3f3e66",
-    "image": "3515e2c5-8dd0-4096-9f2a-9eb08e3f3e66.jpg"
+    "image": "3515e2c5-8dd0-4096-9f2a-9eb08e3f3e66.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "SKL-015",
@@ -371,7 +385,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "374298f9-279a-4409-af6c-940c97f659b0",
-    "image": "374298f9-279a-4409-af6c-940c97f659b0.jpg"
+    "image": "374298f9-279a-4409-af6c-940c97f659b0.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "SKL-016",
@@ -393,7 +408,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "83dbf03c-a8b7-43ca-974e-83d0d09c694f",
-    "image": "83dbf03c-a8b7-43ca-974e-83d0d09c694f.jpg"
+    "image": "83dbf03c-a8b7-43ca-974e-83d0d09c694f.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "SKL-017",
@@ -415,7 +431,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "39f2ab39-ac2f-4813-a36d-584fcb2f8880",
-    "image": "39f2ab39-ac2f-4813-a36d-584fcb2f8880.jpg"
+    "image": "39f2ab39-ac2f-4813-a36d-584fcb2f8880.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-018",
@@ -437,7 +454,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "c5130b5c-8228-4c6b-a21b-d0306c37dfdf",
-    "image": "c5130b5c-8228-4c6b-a21b-d0306c37dfdf.jpg"
+    "image": "c5130b5c-8228-4c6b-a21b-d0306c37dfdf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-019",
@@ -459,7 +477,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "13c6d6ba-8fe8-4854-8be7-4605ba8313ac",
-    "image": "13c6d6ba-8fe8-4854-8be7-4605ba8313ac.jpg"
+    "image": "13c6d6ba-8fe8-4854-8be7-4605ba8313ac.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "SKL-020",
@@ -481,7 +500,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "5c4176e6-d07e-43ad-bbad-f5abafdafb2c",
-    "image": "5c4176e6-d07e-43ad-bbad-f5abafdafb2c.jpg"
+    "image": "5c4176e6-d07e-43ad-bbad-f5abafdafb2c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-021",
@@ -503,7 +523,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "1ac3afed-7c70-4163-9cf8-58769110c656",
-    "image": "1ac3afed-7c70-4163-9cf8-58769110c656.jpg"
+    "image": "1ac3afed-7c70-4163-9cf8-58769110c656.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-022",
@@ -525,7 +546,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "733dcb72-25ce-4fb7-9278-63728222136b",
-    "image": "733dcb72-25ce-4fb7-9278-63728222136b.jpg"
+    "image": "733dcb72-25ce-4fb7-9278-63728222136b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-023",
@@ -547,7 +569,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "7f7867ce-b997-4112-988d-a964ba98ee7c",
-    "image": "7f7867ce-b997-4112-988d-a964ba98ee7c.jpg"
+    "image": "7f7867ce-b997-4112-988d-a964ba98ee7c.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "SKL-024",
@@ -569,7 +592,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "a55fe32b-2955-4d7b-bf01-edd3da6f1830",
-    "image": "a55fe32b-2955-4d7b-bf01-edd3da6f1830.jpg"
+    "image": "a55fe32b-2955-4d7b-bf01-edd3da6f1830.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-025",
@@ -591,7 +615,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "b5de5350-6376-4d82-926b-fda7f86b034a",
-    "image": "b5de5350-6376-4d82-926b-fda7f86b034a.jpg"
+    "image": "b5de5350-6376-4d82-926b-fda7f86b034a.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "SKL-026",
@@ -613,51 +638,53 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "e2d11732-a691-45b6-a064-60e35754292e",
-    "image": "e2d11732-a691-45b6-a064-60e35754292e.jpg"
+    "image": "e2d11732-a691-45b6-a064-60e35754292e.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "SKL-027",
-    "name": "Melgis, the Flame King",
-    "Type": "Ruler",
-    "Race": "Seven Kings",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {R}{R}.\n{R}{R}: This card deals 200 damage to target opponent.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The top of the big volcano is occupied by the Kingdom of Certo, ruled by the Flame King. On this desolate land, the kingdom survives thanks to war, getting resources from other countries. For this reason, Certo needs an extremely strong ruler.",
-    "Artist": "gekko",
-    "Rarity": "R",
-    "Fowid": "676",
-    "Cluster": "03 - Alice",
-    "Set Name": "011 - The Seven Kings of the Land",
-    "Set Code": "SKL",
-    "id": "8660fe6f-478c-4dc3-b31a-2e038431665b",
-    "image": "8660fe6f-478c-4dc3-b31a-2e038431665b.jpg"
-  },
-  {
-    "Card Number": "SKL-027J",
-    "name": "Melgis, the One Charmed by the Demon Sword",
-    "Type": "J-Ruler",
+    "Card Number": "SKL-027|SKL-027J",
+    "name": "Melgis, the Flame King // Melgis, the One Charmed by the Demon Sword",
+    "Type": "Ruler|J-Ruler",
     "Race": "Seven Kings",
     "Cost": "",
     "Colour": "R",
     "ATK": "1000",
     "DEF": "500",
-    "Abilities": "[First Strike] (While attacking, this card deals battle damage first to the blocker or attacked object.)\nWhen this card enters your field, put the top card of your magic stone deck into your magic stone area.\n{R}, banish a magic stone or resonator: This card deals 300 damage to target resonator.\nGod's Art [Unleash the Demon Sword] {R}{R}{4}: Destroy target resonator. This card gains [+X/+0] until end of turn, where X is the ATK of the destroyed resonator. Play God's Art [Unleash the Demon Sword] only once per game.",
+    "Abilities": "[J-Activate] Pay {R}{R}.\n{R}{R}: This card deals 200 damage to target opponent.|[First Strike] (While attacking, this card deals battle damage first to the blocker or attacked object.)\nWhen this card enters your field, put the top card of your magic stone deck into your magic stone area.\n{R}, banish a magic stone or resonator: This card deals 300 damage to target resonator.\nGod's Art [Unleash the Demon Sword] {R}{R}{4}: Destroy target resonator. This card gains [+X/+0] until end of turn, where X is the ATK of the destroyed resonator. Play God's Art [Unleash the Demon Sword] only once per game.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Cursed sword, take my anger and give me your strength.\"",
+    "Flavour": "The top of the big volcano is occupied by the Kingdom of Certo, ruled by the Flame King. On this desolate land, the kingdom survives thanks to war, getting resources from other countries. For this reason, Certo needs an extremely strong ruler.|\"Cursed sword, take my anger and give me your strength.\"",
     "Artist": "gekko",
     "Rarity": "R",
-    "Fowid": "677",
+    "Fowid": "676|677",
     "Cluster": "03 - Alice",
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
-    "id": "b219d141-a9b3-4bb0-8385-48d2392ee45e",
-    "image": "b219d141-a9b3-4bb0-8385-48d2392ee45e.jpg"
+    "id": "8660fe6f-478c-4dc3-b31a-2e038431665b",
+    "image": "8660fe6f-478c-4dc3-b31a-2e038431665b.jpg",
+    "Card Type": "Ruler",
+    "backimage": "b219d141-a9b3-4bb0-8385-48d2392ee45e.jpg",
+    "alternate1_Card Number": "SKL-027J",
+    "alternate1_name": "Melgis, the One Charmed by the Demon Sword",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Kings",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "500",
+    "alternate1_Abilities": "[First Strike] (While attacking, this card deals battle damage first to the blocker or attacked object.)\nWhen this card enters your field, put the top card of your magic stone deck into your magic stone area.\n{R}, banish a magic stone or resonator: This card deals 300 damage to target resonator.\nGod's Art [Unleash the Demon Sword] {R}{R}{4}: Destroy target resonator. This card gains [+X/+0] until end of turn, where X is the ATK of the destroyed resonator. Play God's Art [Unleash the Demon Sword] only once per game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Cursed sword, take my anger and give me your strength.\"",
+    "alternate1_Artist": "gekko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "677",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "011 - The Seven Kings of the Land",
+    "alternate1_Set Code": "SKL",
+    "alternate1_id": "b219d141-a9b3-4bb0-8385-48d2392ee45e",
+    "alternate1_image": "b219d141-a9b3-4bb0-8385-48d2392ee45e.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SKL-028",
@@ -679,7 +706,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "37bf8759-2af3-4b4c-a018-cf68bbc3fa27",
-    "image": "37bf8759-2af3-4b4c-a018-cf68bbc3fa27.jpg"
+    "image": "37bf8759-2af3-4b4c-a018-cf68bbc3fa27.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-029",
@@ -701,7 +729,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "7b27ec11-d2dd-4578-9cd4-345d8792a8e0",
-    "image": "7b27ec11-d2dd-4578-9cd4-345d8792a8e0.jpg"
+    "image": "7b27ec11-d2dd-4578-9cd4-345d8792a8e0.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "SKL-030",
@@ -723,7 +752,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "22eaf688-2199-4747-bbb7-ea759c072ac5",
-    "image": "22eaf688-2199-4747-bbb7-ea759c072ac5.jpg"
+    "image": "22eaf688-2199-4747-bbb7-ea759c072ac5.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "SKL-031",
@@ -745,7 +775,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "de612503-c0ac-4302-8cf8-fb64376a5e48",
-    "image": "de612503-c0ac-4302-8cf8-fb64376a5e48.jpg"
+    "image": "de612503-c0ac-4302-8cf8-fb64376a5e48.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-032",
@@ -767,7 +798,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "12413fb3-ed56-4f12-a335-fc772e9a6068",
-    "image": "12413fb3-ed56-4f12-a335-fc772e9a6068.jpg"
+    "image": "12413fb3-ed56-4f12-a335-fc772e9a6068.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "SKL-033",
@@ -789,7 +821,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "79a6f0e2-768f-48e2-a4b4-0316fa1fbd8f",
-    "image": "79a6f0e2-768f-48e2-a4b4-0316fa1fbd8f.jpg"
+    "image": "79a6f0e2-768f-48e2-a4b4-0316fa1fbd8f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-034",
@@ -811,7 +844,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "22f3d9fb-a0ee-453f-8b55-91c53e32b4e1",
-    "image": "22f3d9fb-a0ee-453f-8b55-91c53e32b4e1.jpg"
+    "image": "22f3d9fb-a0ee-453f-8b55-91c53e32b4e1.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "SKL-035",
@@ -833,7 +867,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "40b263f5-b076-42d3-a9f7-2f36a3b35ab4",
-    "image": "40b263f5-b076-42d3-a9f7-2f36a3b35ab4.jpg"
+    "image": "40b263f5-b076-42d3-a9f7-2f36a3b35ab4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-036",
@@ -855,7 +890,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "e1a3423c-8164-4f8a-b62b-8dcb6838a5af",
-    "image": "e1a3423c-8164-4f8a-b62b-8dcb6838a5af.jpg"
+    "image": "e1a3423c-8164-4f8a-b62b-8dcb6838a5af.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "SKL-037",
@@ -877,7 +913,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "1f7c5c1a-239c-44cc-8f3e-d0306d93b1ad",
-    "image": "1f7c5c1a-239c-44cc-8f3e-d0306d93b1ad.jpg"
+    "image": "1f7c5c1a-239c-44cc-8f3e-d0306d93b1ad.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-038",
@@ -899,7 +936,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "bdd1f929-650b-45d8-9271-cf919c80c13f",
-    "image": "bdd1f929-650b-45d8-9271-cf919c80c13f.jpg"
+    "image": "bdd1f929-650b-45d8-9271-cf919c80c13f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-039",
@@ -921,7 +959,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "0e70bad3-ab15-4801-b33f-8b3411ce4029",
-    "image": "0e70bad3-ab15-4801-b33f-8b3411ce4029.jpg"
+    "image": "0e70bad3-ab15-4801-b33f-8b3411ce4029.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "SKL-040",
@@ -943,7 +982,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "d38c2ef0-12f0-4b25-87e0-bb943b68ed81",
-    "image": "d38c2ef0-12f0-4b25-87e0-bb943b68ed81.jpg"
+    "image": "d38c2ef0-12f0-4b25-87e0-bb943b68ed81.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "SKL-041",
@@ -965,7 +1005,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "e4465642-9dce-4b2d-af8b-1d763c0f1369",
-    "image": "e4465642-9dce-4b2d-af8b-1d763c0f1369.jpg"
+    "image": "e4465642-9dce-4b2d-af8b-1d763c0f1369.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-042",
@@ -987,7 +1028,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "e691ded1-5235-4c80-a686-3bfe4861400c",
-    "image": "e691ded1-5235-4c80-a686-3bfe4861400c.jpg"
+    "image": "e691ded1-5235-4c80-a686-3bfe4861400c.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "SKL-043",
@@ -1009,7 +1051,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "ab44e944-524c-4d14-8dce-58dca9b53d54",
-    "image": "ab44e944-524c-4d14-8dce-58dca9b53d54.jpg"
+    "image": "ab44e944-524c-4d14-8dce-58dca9b53d54.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-044",
@@ -1031,7 +1074,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "c81b0a7a-f5b5-4a73-a9aa-5ffb418b7fc5",
-    "image": "c81b0a7a-f5b5-4a73-a9aa-5ffb418b7fc5.jpg"
+    "image": "c81b0a7a-f5b5-4a73-a9aa-5ffb418b7fc5.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "SKL-045",
@@ -1053,7 +1097,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "ba4deb3f-256f-45c9-a695-671c8d9420fd",
-    "image": "ba4deb3f-256f-45c9-a695-671c8d9420fd.jpg"
+    "image": "ba4deb3f-256f-45c9-a695-671c8d9420fd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-046",
@@ -1075,7 +1120,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "fdc79720-9815-407e-b997-1c93541cef21",
-    "image": "fdc79720-9815-407e-b997-1c93541cef21.jpg"
+    "image": "fdc79720-9815-407e-b997-1c93541cef21.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-047",
@@ -1097,51 +1143,53 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "537a2038-36a3-4346-aca4-1f83e985eaac",
-    "image": "537a2038-36a3-4346-aca4-1f83e985eaac.jpg"
+    "image": "537a2038-36a3-4346-aca4-1f83e985eaac.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "SKL-048",
-    "name": "Valentina, the Princess of Love",
-    "Type": "Ruler",
-    "Race": "Seven Kings",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {U}{U}\n{U}{U}: You may put a water resonator with total cost 2 or less from your hand into your field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The ruler who controls the city that lives on trading: Shangri-La. She loves destiny and beautiful things infinintely. She felt that Alice was destined to be her and so she aimed to own her.",
-    "Artist": "石商",
-    "Rarity": "R",
-    "Fowid": "698",
-    "Cluster": "03 - Alice",
-    "Set Name": "011 - The Seven Kings of the Land",
-    "Set Code": "SKL",
-    "id": "fdeb695e-692f-4c69-8d29-6a6cb9aad762",
-    "image": "fdeb695e-692f-4c69-8d29-6a6cb9aad762.jpg"
-  },
-  {
-    "Card Number": "SKL-048J",
-    "name": "Valentina, the Ruler of Paradise",
-    "Type": "J-Ruler",
+    "Card Number": "SKL-048|SKL-048J",
+    "name": "Valentina, the Princess of Love // Valentina, the Ruler of Paradise",
+    "Type": "Ruler|J-Ruler",
     "Race": "Seven Kings",
     "Cost": "",
     "Colour": "U",
     "ATK": "500",
     "DEF": "500",
-    "Abilities": "When this card enters your field, put the top card of your magic stone deck into your magic stone area.\nPrevent all damage that would be dealt to this card during your turn.\nThis card gains [+100/+100] for each card into your hand.\nGod's Art [Chain of Love] {U}{U}{2}: Gain control of target resonator. (Play God's Art [Chain of Love] only once per game.)",
+    "Abilities": "[J-Activate] {U}{U}\n{U}{U}: You may put a water resonator with total cost 2 or less from your hand into your field.|When this card enters your field, put the top card of your magic stone deck into your magic stone area.\nPrevent all damage that would be dealt to this card during your turn.\nThis card gains [+100/+100] for each card into your hand.\nGod's Art [Chain of Love] {U}{U}{2}: Gain control of target resonator. (Play God's Art [Chain of Love] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Alice, you'll definitely be mine...this is a meeting decided by fate!\"",
+    "Flavour": "The ruler who controls the city that lives on trading: Shangri-La. She loves destiny and beautiful things infinintely. She felt that Alice was destined to be her and so she aimed to own her.|\"Alice, you'll definitely be mine...this is a meeting decided by fate!\"",
     "Artist": "石商",
     "Rarity": "R",
-    "Fowid": "699",
+    "Fowid": "698|699",
     "Cluster": "03 - Alice",
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
-    "id": "8953dff2-7107-47b3-bc97-8c7957a3c4eb",
-    "image": "8953dff2-7107-47b3-bc97-8c7957a3c4eb.jpg"
+    "id": "fdeb695e-692f-4c69-8d29-6a6cb9aad762",
+    "image": "fdeb695e-692f-4c69-8d29-6a6cb9aad762.jpg",
+    "Card Type": "Ruler",
+    "backimage": "8953dff2-7107-47b3-bc97-8c7957a3c4eb.jpg",
+    "alternate1_Card Number": "SKL-048J",
+    "alternate1_name": "Valentina, the Ruler of Paradise",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Kings",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "500",
+    "alternate1_DEF": "500",
+    "alternate1_Abilities": "When this card enters your field, put the top card of your magic stone deck into your magic stone area.\nPrevent all damage that would be dealt to this card during your turn.\nThis card gains [+100/+100] for each card into your hand.\nGod's Art [Chain of Love] {U}{U}{2}: Gain control of target resonator. (Play God's Art [Chain of Love] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Alice, you'll definitely be mine...this is a meeting decided by fate!\"",
+    "alternate1_Artist": "石商",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "699",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "011 - The Seven Kings of the Land",
+    "alternate1_Set Code": "SKL",
+    "alternate1_id": "8953dff2-7107-47b3-bc97-8c7957a3c4eb",
+    "alternate1_image": "8953dff2-7107-47b3-bc97-8c7957a3c4eb.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SKL-049",
@@ -1163,7 +1211,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "b15755fa-c7d8-49cb-bf45-198abb49b519",
-    "image": "b15755fa-c7d8-49cb-bf45-198abb49b519.jpg"
+    "image": "b15755fa-c7d8-49cb-bf45-198abb49b519.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-050",
@@ -1185,7 +1234,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "f2bd3cdc-5bdb-4426-837b-73557db7583e",
-    "image": "f2bd3cdc-5bdb-4426-837b-73557db7583e.jpg"
+    "image": "f2bd3cdc-5bdb-4426-837b-73557db7583e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-051",
@@ -1207,7 +1257,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "b9075ffa-3196-4726-af69-724744af5546",
-    "image": "b9075ffa-3196-4726-af69-724744af5546.jpg"
+    "image": "b9075ffa-3196-4726-af69-724744af5546.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-052",
@@ -1229,7 +1280,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "4d0a44ee-b8c6-42fb-aa06-6ede1ac9625b",
-    "image": "4d0a44ee-b8c6-42fb-aa06-6ede1ac9625b.jpg"
+    "image": "4d0a44ee-b8c6-42fb-aa06-6ede1ac9625b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-053",
@@ -1251,7 +1303,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "486edcd4-d6fe-47b9-aee1-adbd5203ae5d",
-    "image": "486edcd4-d6fe-47b9-aee1-adbd5203ae5d.jpg"
+    "image": "486edcd4-d6fe-47b9-aee1-adbd5203ae5d.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "SKL-054",
@@ -1273,7 +1326,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "062b89bf-4336-48b7-a5a7-a1e33fe77b1c",
-    "image": "062b89bf-4336-48b7-a5a7-a1e33fe77b1c.jpg"
+    "image": "062b89bf-4336-48b7-a5a7-a1e33fe77b1c.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "SKL-055",
@@ -1295,7 +1349,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "d1af8bdd-fa72-4380-aff3-acef859d2f8d",
-    "image": "d1af8bdd-fa72-4380-aff3-acef859d2f8d.jpg"
+    "image": "d1af8bdd-fa72-4380-aff3-acef859d2f8d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-056",
@@ -1317,7 +1372,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "e8e865c2-800f-41a5-b012-3ba98148c609",
-    "image": "e8e865c2-800f-41a5-b012-3ba98148c609.jpg"
+    "image": "e8e865c2-800f-41a5-b012-3ba98148c609.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-057",
@@ -1339,7 +1395,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "c2a19907-fc1d-4538-af79-a6c67b8891a5",
-    "image": "c2a19907-fc1d-4538-af79-a6c67b8891a5.jpg"
+    "image": "c2a19907-fc1d-4538-af79-a6c67b8891a5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-058",
@@ -1361,51 +1418,53 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "7bd53bfe-7b21-41eb-bfce-96e7610a6644",
-    "image": "7bd53bfe-7b21-41eb-bfce-96e7610a6644.jpg"
+    "image": "7bd53bfe-7b21-41eb-bfce-96e7610a6644.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
-    "Card Number": "SKL-059",
-    "name": "Pricia, the Beast Lady",
-    "Type": "Ruler",
-    "Race": "Seven Kings",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {G}{G}\nYou may pay the attribute cost of Four Sacred Beasts resonators with will of any attribute.\n{G}{G}: Target Beast or Four Sacred Beasts gains [+100/+100] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The ancient forest is the kingdom of the Beast Lady. She grew up here, learning to communicate with all the wild beasts. She's considered the ruler, they all obey her, even the four sacred beasts.",
-    "Artist": "fzwrAym",
-    "Rarity": "R",
-    "Fowid": "710",
-    "Cluster": "03 - Alice",
-    "Set Name": "011 - The Seven Kings of the Land",
-    "Set Code": "SKL",
-    "id": "35e57a5c-0771-451e-b5be-ed038ea04ee0",
-    "image": "35e57a5c-0771-451e-b5be-ed038ea04ee0.jpg"
-  },
-  {
-    "Card Number": "SKL-059J",
-    "name": "Pricia, the Commander of the Sacred Beasts",
-    "Type": "J-Ruler",
+    "Card Number": "SKL-059|SKL-059J",
+    "name": "Pricia, the Beast Lady // Pricia, the Commander of the Sacred Beasts",
+    "Type": "Ruler|J-Ruler",
     "Race": "Seven Kings",
     "Cost": "",
     "Colour": "G",
     "ATK": "800",
     "DEF": "800",
-    "Abilities": "This card gains [Target Attack] as long as you control a light resonator, [Swiftness] as long as you control a fire resonator, [Flying] as long as you control a water resonator and [+200/+200] as long as you control a wind resonator.\nGod's Art [Summon the Sacred Beasts] {G}{G}{G}{X}: Search your main deck for up to X Four Sacred Beasts resonators with different names, reveal them and put them into your hand. Then put up to X Four Sacred Beasts resonators with different names from your hand into your field and shuffle your main deck. (Play God's Art [Summon the Sacred Beasts] only once per game.)",
+    "Abilities": "[J-Activate] {G}{G}\nYou may pay the attribute cost of Four Sacred Beasts resonators with will of any attribute.\n{G}{G}: Target Beast or Four Sacred Beasts gains [+100/+100] until end of turn.|This card gains [Target Attack] as long as you control a light resonator, [Swiftness] as long as you control a fire resonator, [Flying] as long as you control a water resonator and [+200/+200] as long as you control a wind resonator.\nGod's Art [Summon the Sacred Beasts] {G}{G}{G}{X}: Search your main deck for up to X Four Sacred Beasts resonators with different names, reveal them and put them into your hand. Then put up to X Four Sacred Beasts resonators with different names from your hand into your field and shuffle your main deck. (Play God's Art [Summon the Sacred Beasts] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Hey guys, what do we play today?\"",
+    "Flavour": "The ancient forest is the kingdom of the Beast Lady. She grew up here, learning to communicate with all the wild beasts. She's considered the ruler, they all obey her, even the four sacred beasts.|\"Hey guys, what do we play today?\"",
     "Artist": "fzwrAym",
     "Rarity": "R",
-    "Fowid": "711",
+    "Fowid": "710|711",
     "Cluster": "03 - Alice",
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
-    "id": "bc1a628c-ad9c-434d-9f55-0dde4308f7a8",
-    "image": "bc1a628c-ad9c-434d-9f55-0dde4308f7a8.jpg"
+    "id": "35e57a5c-0771-451e-b5be-ed038ea04ee0",
+    "image": "35e57a5c-0771-451e-b5be-ed038ea04ee0.jpg",
+    "Card Type": "Ruler",
+    "backimage": "bc1a628c-ad9c-434d-9f55-0dde4308f7a8.jpg",
+    "alternate1_Card Number": "SKL-059J",
+    "alternate1_name": "Pricia, the Commander of the Sacred Beasts",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Kings",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "This card gains [Target Attack] as long as you control a light resonator, [Swiftness] as long as you control a fire resonator, [Flying] as long as you control a water resonator and [+200/+200] as long as you control a wind resonator.\nGod's Art [Summon the Sacred Beasts] {G}{G}{G}{X}: Search your main deck for up to X Four Sacred Beasts resonators with different names, reveal them and put them into your hand. Then put up to X Four Sacred Beasts resonators with different names from your hand into your field and shuffle your main deck. (Play God's Art [Summon the Sacred Beasts] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Hey guys, what do we play today?\"",
+    "alternate1_Artist": "fzwrAym",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "711",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "011 - The Seven Kings of the Land",
+    "alternate1_Set Code": "SKL",
+    "alternate1_id": "bc1a628c-ad9c-434d-9f55-0dde4308f7a8",
+    "alternate1_image": "bc1a628c-ad9c-434d-9f55-0dde4308f7a8.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SKL-060",
@@ -1427,7 +1486,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "7b5e64a7-0e85-4988-a8c4-8391d6d1da16",
-    "image": "7b5e64a7-0e85-4988-a8c4-8391d6d1da16.jpg"
+    "image": "7b5e64a7-0e85-4988-a8c4-8391d6d1da16.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-061",
@@ -1449,7 +1509,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "c8a4c50b-c5f4-49ef-b3a7-323ce9a3ed40",
-    "image": "c8a4c50b-c5f4-49ef-b3a7-323ce9a3ed40.jpg"
+    "image": "c8a4c50b-c5f4-49ef-b3a7-323ce9a3ed40.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "SKL-062",
@@ -1471,7 +1532,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "67795180-8884-401a-9342-e939892e07cf",
-    "image": "67795180-8884-401a-9342-e939892e07cf.jpg"
+    "image": "67795180-8884-401a-9342-e939892e07cf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-063",
@@ -1493,7 +1555,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "8af58039-1160-4aba-8846-a1ddd67c3d66",
-    "image": "8af58039-1160-4aba-8846-a1ddd67c3d66.jpg"
+    "image": "8af58039-1160-4aba-8846-a1ddd67c3d66.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "SKL-064",
@@ -1515,7 +1578,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "4b74464e-a3f4-4b2b-ad1c-5c2f09fc7f33",
-    "image": "4b74464e-a3f4-4b2b-ad1c-5c2f09fc7f33.jpg"
+    "image": "4b74464e-a3f4-4b2b-ad1c-5c2f09fc7f33.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "SKL-065",
@@ -1537,7 +1601,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "8d5a0618-9256-4e2e-96e4-3f7a3acf8827",
-    "image": "8d5a0618-9256-4e2e-96e4-3f7a3acf8827.jpg"
+    "image": "8d5a0618-9256-4e2e-96e4-3f7a3acf8827.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-066",
@@ -1559,7 +1624,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "b018b1fd-aedc-467c-9cbe-6ba29ac33d03",
-    "image": "b018b1fd-aedc-467c-9cbe-6ba29ac33d03.jpg"
+    "image": "b018b1fd-aedc-467c-9cbe-6ba29ac33d03.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-067",
@@ -1581,7 +1647,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "b9b75055-c45c-4d29-ac31-9c88c261ab26",
-    "image": "b9b75055-c45c-4d29-ac31-9c88c261ab26.jpg"
+    "image": "b9b75055-c45c-4d29-ac31-9c88c261ab26.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "SKL-068",
@@ -1603,7 +1670,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "d1e1bd38-4c75-46ef-a1d6-ea778b0ae1b7",
-    "image": "d1e1bd38-4c75-46ef-a1d6-ea778b0ae1b7.jpg"
+    "image": "d1e1bd38-4c75-46ef-a1d6-ea778b0ae1b7.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "SKL-069",
@@ -1625,7 +1693,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "3eb66215-db5a-4ee7-9466-5e78a62a34b3",
-    "image": "3eb66215-db5a-4ee7-9466-5e78a62a34b3.jpg"
+    "image": "3eb66215-db5a-4ee7-9466-5e78a62a34b3.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "SKL-070",
@@ -1647,7 +1716,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "0973b3d7-9d36-4150-8334-5c34de45268f",
-    "image": "0973b3d7-9d36-4150-8334-5c34de45268f.jpg"
+    "image": "0973b3d7-9d36-4150-8334-5c34de45268f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-071",
@@ -1669,7 +1739,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "03e8a94a-f542-41b8-8d85-2dc275c6da2f",
-    "image": "03e8a94a-f542-41b8-8d85-2dc275c6da2f.jpg"
+    "image": "03e8a94a-f542-41b8-8d85-2dc275c6da2f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-072",
@@ -1691,7 +1762,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "585656fc-442c-4da3-978e-63b3ed098774",
-    "image": "585656fc-442c-4da3-978e-63b3ed098774.jpg"
+    "image": "585656fc-442c-4da3-978e-63b3ed098774.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-073",
@@ -1713,7 +1785,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "52e6e910-6239-4718-9d0e-8189bb776888",
-    "image": "52e6e910-6239-4718-9d0e-8189bb776888.jpg"
+    "image": "52e6e910-6239-4718-9d0e-8189bb776888.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "SKL-074",
@@ -1735,7 +1808,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "34649b30-e75a-4fb8-88dc-be0e31c53f14",
-    "image": "34649b30-e75a-4fb8-88dc-be0e31c53f14.jpg"
+    "image": "34649b30-e75a-4fb8-88dc-be0e31c53f14.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "SKL-075",
@@ -1757,7 +1831,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "1b851b61-09cb-4f19-b580-ce01102c1cde",
-    "image": "1b851b61-09cb-4f19-b580-ce01102c1cde.jpg"
+    "image": "1b851b61-09cb-4f19-b580-ce01102c1cde.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-076",
@@ -1779,51 +1854,53 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "2d84aac1-1c78-444a-a78f-c7a50e66253a",
-    "image": "2d84aac1-1c78-444a-a78f-c7a50e66253a.jpg"
+    "image": "2d84aac1-1c78-444a-a78f-c7a50e66253a.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "SKL-077",
-    "name": "Rezzard, the Undead Lord",
-    "Type": "Ruler",
-    "Race": "Seven Kings|Vampire",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {B}{B}.\n{B}{B}: Put the top two cards of your main deck into your graveyard.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The vampire who rules Niflheim, the realm of the dead. His nature is brutal and cruel and subtle as well. Hiding in the shadows, he observes the changes in the world, waiting for the right moment to strike.",
-    "Artist": "touge369",
-    "Rarity": "R",
-    "Fowid": "729",
-    "Cluster": "03 - Alice",
-    "Set Name": "011 - The Seven Kings of the Land",
-    "Set Code": "SKL",
-    "id": "98d540dc-20e8-4f26-8192-a2cd74cadb16",
-    "image": "98d540dc-20e8-4f26-8192-a2cd74cadb16.jpg"
-  },
-  {
-    "Card Number": "SKL-077J",
-    "name": "Rezzard, the Desecrating Vampire",
-    "Type": "J-Ruler",
+    "Card Number": "SKL-077|SKL-077J",
+    "name": "Rezzard, the Undead Lord // Rezzard, the Desecrating Vampire",
+    "Type": "Ruler|J-Ruler",
     "Race": "Seven Kings|Vampire",
     "Cost": "",
     "Colour": "B",
     "ATK": "500",
     "DEF": "500",
-    "Abilities": "[Imperishable]\nWhen this card enters your field, you may puy up to two cards from your hand into your chant-standby area face down.\nThis card gains [+200/+200] for each card in your chant-standby area.\nGod's Art [March of Undead] {B}{B}{4}: Remove any number of resonators in your graveyard from the game. For each card removed this way, each player banishes a resonator and discards a card. (Play God's Art [March of Undead] only once per game.)",
+    "Abilities": "[J-Activate] {B}{B}.\n{B}{B}: Put the top two cards of your main deck into your graveyard.|[Imperishable]\nWhen this card enters your field, you may puy up to two cards from your hand into your chant-standby area face down.\nThis card gains [+200/+200] for each card in your chant-standby area.\nGod's Art [March of Undead] {B}{B}{4}: Remove any number of resonators in your graveyard from the game. For each card removed this way, each player banishes a resonator and discards a card. (Play God's Art [March of Undead] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Death comes to all, without distinction. I am the only exception.\"",
+    "Flavour": "The vampire who rules Niflheim, the realm of the dead. His nature is brutal and cruel and subtle as well. Hiding in the shadows, he observes the changes in the world, waiting for the right moment to strike.|\"Death comes to all, without distinction. I am the only exception.\"",
     "Artist": "touge369",
     "Rarity": "R",
-    "Fowid": "730",
+    "Fowid": "729|730",
     "Cluster": "03 - Alice",
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
-    "id": "30d8def9-72d3-4f1f-b1e1-064573086387",
-    "image": "30d8def9-72d3-4f1f-b1e1-064573086387.jpg"
+    "id": "98d540dc-20e8-4f26-8192-a2cd74cadb16",
+    "image": "98d540dc-20e8-4f26-8192-a2cd74cadb16.jpg",
+    "Card Type": "Ruler",
+    "backimage": "30d8def9-72d3-4f1f-b1e1-064573086387.jpg",
+    "alternate1_Card Number": "SKL-077J",
+    "alternate1_name": "Rezzard, the Desecrating Vampire",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Kings|Vampire",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "500",
+    "alternate1_DEF": "500",
+    "alternate1_Abilities": "[Imperishable]\nWhen this card enters your field, you may puy up to two cards from your hand into your chant-standby area face down.\nThis card gains [+200/+200] for each card in your chant-standby area.\nGod's Art [March of Undead] {B}{B}{4}: Remove any number of resonators in your graveyard from the game. For each card removed this way, each player banishes a resonator and discards a card. (Play God's Art [March of Undead] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Death comes to all, without distinction. I am the only exception.\"",
+    "alternate1_Artist": "touge369",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "730",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "011 - The Seven Kings of the Land",
+    "alternate1_Set Code": "SKL",
+    "alternate1_id": "30d8def9-72d3-4f1f-b1e1-064573086387",
+    "alternate1_image": "30d8def9-72d3-4f1f-b1e1-064573086387.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SKL-078",
@@ -1845,7 +1922,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "0320ffae-5023-4b7e-b4f1-1f0458279a0b",
-    "image": "0320ffae-5023-4b7e-b4f1-1f0458279a0b.jpg"
+    "image": "0320ffae-5023-4b7e-b4f1-1f0458279a0b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-079",
@@ -1867,7 +1945,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "8b93e0b4-e877-45ba-ba03-f0432b2ca7a1",
-    "image": "8b93e0b4-e877-45ba-ba03-f0432b2ca7a1.jpg"
+    "image": "8b93e0b4-e877-45ba-ba03-f0432b2ca7a1.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "SKL-080",
@@ -1889,7 +1968,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "1c038f08-4f69-48fc-a3fe-d0b1f5756d1a",
-    "image": "1c038f08-4f69-48fc-a3fe-d0b1f5756d1a.jpg"
+    "image": "1c038f08-4f69-48fc-a3fe-d0b1f5756d1a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-081",
@@ -1911,7 +1991,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "d824eed6-71a3-43c0-9c4a-33cb7dcd9708",
-    "image": "d824eed6-71a3-43c0-9c4a-33cb7dcd9708.jpg"
+    "image": "d824eed6-71a3-43c0-9c4a-33cb7dcd9708.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-082",
@@ -1933,7 +2014,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "965d4a27-d046-4fb6-9353-0e27da2b2714",
-    "image": "965d4a27-d046-4fb6-9353-0e27da2b2714.jpg"
+    "image": "965d4a27-d046-4fb6-9353-0e27da2b2714.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-083",
@@ -1955,7 +2037,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "58166e17-f81c-4b72-8df2-bddd1a916fbb",
-    "image": "58166e17-f81c-4b72-8df2-bddd1a916fbb.jpg"
+    "image": "58166e17-f81c-4b72-8df2-bddd1a916fbb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-084",
@@ -1977,7 +2060,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "45769fcc-0a4c-49e0-b3ef-74e478e02b47",
-    "image": "45769fcc-0a4c-49e0-b3ef-74e478e02b47.jpg"
+    "image": "45769fcc-0a4c-49e0-b3ef-74e478e02b47.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-085",
@@ -1999,7 +2083,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "e3f6bb28-acba-42e8-a465-108c694af094",
-    "image": "e3f6bb28-acba-42e8-a465-108c694af094.jpg"
+    "image": "e3f6bb28-acba-42e8-a465-108c694af094.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-086",
@@ -2021,51 +2106,53 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "cab09678-aee8-4d55-9efd-822a3b8d3992",
-    "image": "cab09678-aee8-4d55-9efd-822a3b8d3992.jpg"
+    "image": "cab09678-aee8-4d55-9efd-822a3b8d3992.jpg",
+    "Card Type": "Addition:Field"
   },
   {
-    "Card Number": "SKL-087",
-    "name": "Machina, the Machine Lord",
-    "Type": "Ruler",
-    "Race": "Seven Kings",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {4}\n{X}: Search your main deck for an addition or resonator with total cost X or less with no attribute, reveal it and put it into your hand. Then shuffle your main deck. Play this ability only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The ruler of Leginus and creator of all the machines. He's managed to create a nearly infinite source of energy thanks to the magic stones. He has no interest in anything other than his research. He considers the entire world his personal laboratory.",
-    "Artist": "るみえ",
-    "Rarity": "R",
-    "Fowid": "740",
-    "Cluster": "03 - Alice",
-    "Set Name": "011 - The Seven Kings of the Land",
-    "Set Code": "SKL",
-    "id": "1ee32062-9502-4ca6-b10d-c90b7cf4697b",
-    "image": "1ee32062-9502-4ca6-b10d-c90b7cf4697b.jpg"
-  },
-  {
-    "Card Number": "SKL-087J",
-    "name": "Machina, the Mechanical Emperor",
-    "Type": "J-Ruler",
+    "Card Number": "SKL-087|SKL-087J",
+    "name": "Machina, the Machine Lord // Machina, the Mechanical Emperor",
+    "Type": "Ruler|J-Ruler",
     "Race": "Seven Kings",
     "Cost": "",
     "Colour": "V",
     "ATK": "800",
     "DEF": "800",
-    "Abilities": "When this card enters your field, you may put up to three resonators and/or additions with no attribute from your hand into your field.\nBanish a resonator with no attribute: Prevent all damage that would be dealt to this card until end of turn.\nGod's Art [Invincible Soldiers] {3}: Resonators with no attribute you control cannot be destroyed this turn. (Play God's Art [Invincile Soldiers] only once per game.)",
+    "Abilities": "[J-Activate] {4}\n{X}: Search your main deck for an addition or resonator with total cost X or less with no attribute, reveal it and put it into your hand. Then shuffle your main deck. Play this ability only once per turn.|When this card enters your field, you may put up to three resonators and/or additions with no attribute from your hand into your field.\nBanish a resonator with no attribute: Prevent all damage that would be dealt to this card until end of turn.\nGod's Art [Invincible Soldiers] {3}: Resonators with no attribute you control cannot be destroyed this turn. (Play God's Art [Invincile Soldiers] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Go Marybell, with this fight we'll test your abilities.\"",
+    "Flavour": "The ruler of Leginus and creator of all the machines. He's managed to create a nearly infinite source of energy thanks to the magic stones. He has no interest in anything other than his research. He considers the entire world his personal laboratory.|\"Go Marybell, with this fight we'll test your abilities.\"",
     "Artist": "るみえ",
     "Rarity": "R",
-    "Fowid": "741",
+    "Fowid": "740|741",
     "Cluster": "03 - Alice",
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
-    "id": "e67af5df-940d-4257-907d-9ba802c98c7a",
-    "image": "e67af5df-940d-4257-907d-9ba802c98c7a.jpg"
+    "id": "1ee32062-9502-4ca6-b10d-c90b7cf4697b",
+    "image": "1ee32062-9502-4ca6-b10d-c90b7cf4697b.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e67af5df-940d-4257-907d-9ba802c98c7a.jpg",
+    "alternate1_Card Number": "SKL-087J",
+    "alternate1_name": "Machina, the Mechanical Emperor",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Kings",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "When this card enters your field, you may put up to three resonators and/or additions with no attribute from your hand into your field.\nBanish a resonator with no attribute: Prevent all damage that would be dealt to this card until end of turn.\nGod's Art [Invincible Soldiers] {3}: Resonators with no attribute you control cannot be destroyed this turn. (Play God's Art [Invincile Soldiers] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Go Marybell, with this fight we'll test your abilities.\"",
+    "alternate1_Artist": "るみえ",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "741",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "011 - The Seven Kings of the Land",
+    "alternate1_Set Code": "SKL",
+    "alternate1_id": "e67af5df-940d-4257-907d-9ba802c98c7a",
+    "alternate1_image": "e67af5df-940d-4257-907d-9ba802c98c7a.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SKL-088",
@@ -2087,7 +2174,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "7d8e248a-fef1-4b1b-bab3-3fb942e07227",
-    "image": "7d8e248a-fef1-4b1b-bab3-3fb942e07227.jpg"
+    "image": "7d8e248a-fef1-4b1b-bab3-3fb942e07227.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "SKL-089",
@@ -2109,7 +2197,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "22888538-0c8e-471f-abbd-0d3fe021bfb0",
-    "image": "22888538-0c8e-471f-abbd-0d3fe021bfb0.jpg"
+    "image": "22888538-0c8e-471f-abbd-0d3fe021bfb0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SKL-090",
@@ -2131,7 +2220,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "68ed65ec-6d49-4fb9-b762-5b11a21e7dde",
-    "image": "68ed65ec-6d49-4fb9-b762-5b11a21e7dde.jpg"
+    "image": "68ed65ec-6d49-4fb9-b762-5b11a21e7dde.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "SKL-091",
@@ -2153,139 +2243,143 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "4da7274b-84eb-40be-981c-2d3a0b4aee90",
-    "image": "4da7274b-84eb-40be-981c-2d3a0b4aee90.jpg"
+    "image": "4da7274b-84eb-40be-981c-2d3a0b4aee90.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "SKL-092",
-    "name": "Alice, the Girl in the Looking Glass",
-    "Type": "Ruler",
-    "Race": "Wanderer|Pawn",
+    "Card Number": "SKL-092|SKL-092J",
+    "name": "Alice, the Girl in the Looking Glass // Alice, the Saint of Healing",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Wanderer|Pawn|Bishop",
     "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {U}{1}\n{Rest}: Search your main deck for a card named \"Deep Blue, the Phantom Board\", reveal it and put it into your hand. Then shuffle your main deck.",
+    "Colour": "U|U|G",
+    "ATK": "400",
+    "DEF": "1500",
+    "Abilities": "[J-Activate] {U}{1}\n{Rest}: Search your main deck for a card named \"Deep Blue, the Phantom Board\", reveal it and put it into your hand. Then shuffle your main deck.|{2}: Target resonator gains [0/+1000] until end of turn.\n{Rest}: Target resonator cannot be targeted by spells or abilities until end of turn.\nGod's Art [Healing Wind] {U}{G}: J/resonators you control cannot be targeted by spells or abilities until end of turn. Draw three cards. (Play God's Art [Healing Wind] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Alice touched the divine relic and retrieved some of her memories. These were reflected on the mirror and took shape alongside her.",
+    "Flavour": "Alice touched the divine relic and retrieved some of her memories. These were reflected on the mirror and took shape alongside her.|\"I haven't forgotten about that time. I will show you that I shall defend everyone once again!\"",
     "Artist": "Wednesday",
     "Rarity": "R",
-    "Fowid": "746",
+    "Fowid": "746|747",
     "Cluster": "03 - Alice",
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "7f4d5a93-3b4c-4827-9cf2-8e928df70509",
-    "image": "7f4d5a93-3b4c-4827-9cf2-8e928df70509.jpg"
+    "image": "7f4d5a93-3b4c-4827-9cf2-8e928df70509.jpg",
+    "Card Type": "Ruler",
+    "backimage": "aa7a15ea-d4aa-4feb-9d29-84e039f65e33.jpg",
+    "alternate1_Card Number": "SKL-092J",
+    "alternate1_name": "Alice, the Saint of Healing",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Bishop",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U|G",
+    "alternate1_ATK": "400",
+    "alternate1_DEF": "1500",
+    "alternate1_Abilities": "{2}: Target resonator gains [0/+1000] until end of turn.\n{Rest}: Target resonator cannot be targeted by spells or abilities until end of turn.\nGod's Art [Healing Wind] {U}{G}: J/resonators you control cannot be targeted by spells or abilities until end of turn. Draw three cards. (Play God's Art [Healing Wind] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I haven't forgotten about that time. I will show you that I shall defend everyone once again!\"",
+    "alternate1_Artist": "Wednesday",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "747",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "011 - The Seven Kings of the Land",
+    "alternate1_Set Code": "SKL",
+    "alternate1_id": "aa7a15ea-d4aa-4feb-9d29-84e039f65e33",
+    "alternate1_image": "aa7a15ea-d4aa-4feb-9d29-84e039f65e33.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "SKL-092J",
-    "name": "Alice, the Saint of Healing",
-    "Type": "J-Ruler",
-    "Race": "Bishop",
+    "Card Number": "SKL-093|SKL-093J",
+    "name": "Alice, the Girl in the Looking Glass // Alice, the Valkyrie of Fairy Tales",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Wanderer|Pawn|Knight",
     "Cost": "",
-    "Colour": "U|G",
-    "ATK": "400",
-    "DEF": "1500",
-    "Abilities": "{2}: Target resonator gains [0/+1000] until end of turn.\n{Rest}: Target resonator cannot be targeted by spells or abilities until end of turn.\nGod's Art [Healing Wind] {U}{G}: J/resonators you control cannot be targeted by spells or abilities until end of turn. Draw three cards. (Play God's Art [Healing Wind] only once per game.)",
+    "Colour": "U|R|U",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[J-Activate] {U}{1}\n{Rest}: Search your main deck for a card named \"Deep Blue, the Phantom Board\", reveal it and put it into your hand. Then shuffle your main deck.|When this card enters your field, search your main deck a for Fairy Tale resonator, reveal it and put it into your hand. Then shuffle your main deck.\nCounters on Fairy Tales you control cannot be removed by effects.\nGod's Art [Leaping Dance] {U}{R}: This card deals 500 damage to target resonator. You may pay {1}. If you do, copy this ability. You may choose new targets for the copy. (Play God's Art [Leaping Dance] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I haven't forgotten about that time. I will show you that I shall defend everyone once again!\"",
+    "Flavour": "Alice touched the divine relic and retrieved some of her memories. These were reflected on the mirror and took shape alongside her.|\"Magic stones of Grimm's world, lend me a piece of your memories!\"",
     "Artist": "Wednesday",
     "Rarity": "R",
-    "Fowid": "747",
-    "Cluster": "03 - Alice",
-    "Set Name": "011 - The Seven Kings of the Land",
-    "Set Code": "SKL",
-    "id": "aa7a15ea-d4aa-4feb-9d29-84e039f65e33",
-    "image": "aa7a15ea-d4aa-4feb-9d29-84e039f65e33.jpg"
-  },
-  {
-    "Card Number": "SKL-093",
-    "name": "Alice, the Girl in the Looking Glass",
-    "Type": "Ruler",
-    "Race": "Wanderer|Pawn",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {U}{1}\n{Rest}: Search your main deck for a card named \"Deep Blue, the Phantom Board\", reveal it and put it into your hand. Then shuffle your main deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Alice touched the divine relic and retrieved some of her memories. These were reflected on the mirror and took shape alongside her.",
-    "Artist": "Wednesday",
-    "Rarity": "R",
-    "Fowid": "746",
+    "Fowid": "746|748",
     "Cluster": "03 - Alice",
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "a56e328c-177a-40d2-8abc-cab249825de5",
-    "image": "a56e328c-177a-40d2-8abc-cab249825de5.jpg"
+    "image": "a56e328c-177a-40d2-8abc-cab249825de5.jpg",
+    "Card Type": "Ruler",
+    "backimage": "cf3a9776-751e-419c-a2ca-ba57ad1241ee.jpg",
+    "alternate1_Card Number": "SKL-093J",
+    "alternate1_name": "Alice, the Valkyrie of Fairy Tales",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Knight",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R|U",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "When this card enters your field, search your main deck a for Fairy Tale resonator, reveal it and put it into your hand. Then shuffle your main deck.\nCounters on Fairy Tales you control cannot be removed by effects.\nGod's Art [Leaping Dance] {U}{R}: This card deals 500 damage to target resonator. You may pay {1}. If you do, copy this ability. You may choose new targets for the copy. (Play God's Art [Leaping Dance] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Magic stones of Grimm's world, lend me a piece of your memories!\"",
+    "alternate1_Artist": "Wednesday",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "748",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "011 - The Seven Kings of the Land",
+    "alternate1_Set Code": "SKL",
+    "alternate1_id": "cf3a9776-751e-419c-a2ca-ba57ad1241ee",
+    "alternate1_image": "cf3a9776-751e-419c-a2ca-ba57ad1241ee.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "SKL-093J",
-    "name": "Alice, the Valkyrie of Fairy Tales",
-    "Type": "J-Ruler",
-    "Race": "Knight",
-    "Cost": "",
-    "Colour": "R|U",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "When this card enters your field, search your main deck a for Fairy Tale resonator, reveal it and put it into your hand. Then shuffle your main deck.\nCounters on Fairy Tales you control cannot be removed by effects.\nGod's Art [Leaping Dance] {U}{R}: This card deals 500 damage to target resonator. You may pay {1}. If you do, copy this ability. You may choose new targets for the copy. (Play God's Art [Leaping Dance] only once per game.)",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Magic stones of Grimm's world, lend me a piece of your memories!\"",
-    "Artist": "Wednesday",
-    "Rarity": "R",
-    "Fowid": "748",
-    "Cluster": "03 - Alice",
-    "Set Name": "011 - The Seven Kings of the Land",
-    "Set Code": "SKL",
-    "id": "cf3a9776-751e-419c-a2ca-ba57ad1241ee",
-    "image": "cf3a9776-751e-419c-a2ca-ba57ad1241ee.jpg"
-  },
-  {
-    "Card Number": "SKL-094",
-    "name": "Blazer Gill Rabus",
-    "Type": "Ruler",
+    "Card Number": "SKL-094|SKL-094J",
+    "name": "Blazer Gill Rabus // Blazer Gill Rabus [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Minion of Primogenitor",
     "Cost": "",
     "Colour": "R|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {0}: Play this ability only if your opponent controls a J-Ruler.\nMagic stones you control gain \"{Rest}: Produce {R}.\".",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[J-Activate] {0}: Play this ability only if your opponent controls a J-Ruler.\nMagic stones you control gain \"{Rest}: Produce {R}.\".|When this card enters your field, target J-Ruler your opponent controls loses all abilities until end of turn.\nWhen this card enters your field, destroy target J-Ruler your opponent controls.\nMagic stones you control gain \"{Rest}: Produce {R}.\".\nThis card gains [+400/+400] as long as you don't control a resonator.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Uff, you sure are pestering me!\" - Alice, the Girl in the Looking Glass",
+    "Flavour": "\"Uff, you sure are pestering me!\" - Alice, the Girl in the Looking Glass|\"The strength of a relentless obsession.\"",
     "Artist": "草薙蝶炎",
     "Rarity": "R",
-    "Fowid": "749",
+    "Fowid": "749|750",
     "Cluster": "03 - Alice",
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "d43869fe-f182-4158-bffc-e0429cbba1c8",
-    "image": "d43869fe-f182-4158-bffc-e0429cbba1c8.jpg"
-  },
-  {
-    "Card Number": "SKL-094J",
-    "name": "Blazer Gill Rabus [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Minion of Primogenitor",
-    "Cost": "",
-    "Colour": "R|B",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "When this card enters your field, target J-Ruler your opponent controls loses all abilities until end of turn.\nWhen this card enters your field, destroy target J-Ruler your opponent controls.\nMagic stones you control gain \"{Rest}: Produce {R}.\".\nThis card gains [+400/+400] as long as you don't control a resonator.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"The strength of a relentless obsession.\"",
-    "Artist": "草薙蝶炎",
-    "Rarity": "R",
-    "Fowid": "750",
-    "Cluster": "03 - Alice",
-    "Set Name": "011 - The Seven Kings of the Land",
-    "Set Code": "SKL",
-    "id": "4d3ae5ca-52b7-40f1-8a33-66044a4f284f",
-    "image": "4d3ae5ca-52b7-40f1-8a33-66044a4f284f.jpg"
+    "image": "d43869fe-f182-4158-bffc-e0429cbba1c8.jpg",
+    "Card Type": "Ruler",
+    "backimage": "4d3ae5ca-52b7-40f1-8a33-66044a4f284f.jpg",
+    "alternate1_Card Number": "SKL-094J",
+    "alternate1_name": "Blazer Gill Rabus [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Minion of Primogenitor",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R|B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "When this card enters your field, target J-Ruler your opponent controls loses all abilities until end of turn.\nWhen this card enters your field, destroy target J-Ruler your opponent controls.\nMagic stones you control gain \"{Rest}: Produce {R}.\".\nThis card gains [+400/+400] as long as you don't control a resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"The strength of a relentless obsession.\"",
+    "alternate1_Artist": "草薙蝶炎",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "750",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "011 - The Seven Kings of the Land",
+    "alternate1_Set Code": "SKL",
+    "alternate1_id": "4d3ae5ca-52b7-40f1-8a33-66044a4f284f",
+    "alternate1_image": "4d3ae5ca-52b7-40f1-8a33-66044a4f284f.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SKL-095",
@@ -2307,7 +2401,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "0894a04d-717a-4ac3-8879-b5226d96d3db",
-    "image": "0894a04d-717a-4ac3-8879-b5226d96d3db.jpg"
+    "image": "0894a04d-717a-4ac3-8879-b5226d96d3db.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "SKL-096",
@@ -2329,7 +2424,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "3afe64b6-308f-49de-a559-f278e6215a7e",
-    "image": "3afe64b6-308f-49de-a559-f278e6215a7e.jpg"
+    "image": "3afe64b6-308f-49de-a559-f278e6215a7e.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "SKL-097",
@@ -2351,7 +2447,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "675b0629-f311-4219-8c61-2d5aed95bc2b",
-    "image": "675b0629-f311-4219-8c61-2d5aed95bc2b.jpg"
+    "image": "675b0629-f311-4219-8c61-2d5aed95bc2b.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "SKL-098",
@@ -2373,7 +2470,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "27ebc24e-0664-4f81-8fd9-409df0307c40",
-    "image": "27ebc24e-0664-4f81-8fd9-409df0307c40.jpg"
+    "image": "27ebc24e-0664-4f81-8fd9-409df0307c40.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "SKL-099",
@@ -2395,7 +2493,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "f328a451-08f8-4c6b-9c9b-3cb65b260f8a",
-    "image": "f328a451-08f8-4c6b-9c9b-3cb65b260f8a.jpg"
+    "image": "f328a451-08f8-4c6b-9c9b-3cb65b260f8a.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "SKL-100",
@@ -2417,7 +2516,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "fefdb481-7b1c-4381-b215-13e4abc98955",
-    "image": "fefdb481-7b1c-4381-b215-13e4abc98955.jpg"
+    "image": "fefdb481-7b1c-4381-b215-13e4abc98955.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "SKL-101",
@@ -2439,7 +2539,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "ce5153a7-48c2-45a2-a293-ff9b9f4caead",
-    "image": "ce5153a7-48c2-45a2-a293-ff9b9f4caead.jpg"
+    "image": "ce5153a7-48c2-45a2-a293-ff9b9f4caead.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "SKL-102",
@@ -2461,7 +2562,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "546de4f5-7ce5-47c7-b730-753197b28300",
-    "image": "546de4f5-7ce5-47c7-b730-753197b28300.jpg"
+    "image": "546de4f5-7ce5-47c7-b730-753197b28300.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "SKL-103",
@@ -2483,7 +2585,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "7f73656c-6b5d-4857-9803-ec9a1d31689b",
-    "image": "7f73656c-6b5d-4857-9803-ec9a1d31689b.jpg"
+    "image": "7f73656c-6b5d-4857-9803-ec9a1d31689b.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "SKL-104",
@@ -2505,7 +2608,8 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "dd701a30-fd4f-4e65-8950-0764db3f6e29",
-    "image": "dd701a30-fd4f-4e65-8950-0764db3f6e29.jpg"
+    "image": "dd701a30-fd4f-4e65-8950-0764db3f6e29.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "SKL-105",
@@ -2527,50 +2631,52 @@
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
     "id": "489c6818-df14-41cc-85c7-080630a26892",
-    "image": "489c6818-df14-41cc-85c7-080630a26892.jpg"
+    "image": "489c6818-df14-41cc-85c7-080630a26892.jpg",
+    "Card Type": "Magic Stone"
   },
   {
-    "Card Number": "SKL-106",
-    "name": "Pricia, Friend to the Animals",
-    "Type": "Ruler",
-    "Race": "Human|Beast",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {G}{G}\n[Energize] {G}\nThis card gains \"Pricia, the Beast Lady\" in addition to its other names.\nYou may pay the attribute cost of Four Sacred Beast resonators with will of any attribute.\n{G}{G}: Choose one - Beasts you control gain [+100/+100] until end of turn; or Four Sacred Beasts you control gain [+100/+100] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "fzwrAym",
-    "Rarity": "AR",
-    "Fowid": "1843",
-    "Cluster": "03 - Alice",
-    "Set Name": "011 - The Seven Kings of the Land",
-    "Set Code": "SKL",
-    "id": "7cf61650-28cd-499e-a5f8-43f1b172f19a",
-    "image": "7cf61650-28cd-499e-a5f8-43f1b172f19a.jpg"
-  },
-  {
-    "Card Number": "SKL-106J",
-    "name": "Pricia, Champion of Yggdrasil",
-    "Type": "J-Ruler",
+    "Card Number": "SKL-106|SKL-106J",
+    "name": "Pricia, Friend to the Animals // Pricia, Champion of Yggdrasil",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human|Beast",
     "Cost": "",
     "Colour": "G",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "This card gains \"Pricia, the Commander of the Sacred Beasts\" in addition to its other names.\nThis card gains [Precision] as long as you control a light resonator, [Swiftness] as long as you control a fire resonator, [Flying] as long as you control a water resonator and [+200/+200] as long as you control a wind resonator.\nGod's Art [\"Meet my family!\"] {G}{G}{G} x: Search your deck for up to X Four Sacred Beasts resonators with different names, reveal them and put them into your hand. Then put up to X Four Sacred Beasts resonators with differrent names from your hand into your field and shuffle your deck. (Play God's Art [\"Meet my family!\"] only once per game.)",
+    "Abilities": "[Judgment] {G}{G}\n[Energize] {G}\nThis card gains \"Pricia, the Beast Lady\" in addition to its other names.\nYou may pay the attribute cost of Four Sacred Beast resonators with will of any attribute.\n{G}{G}: Choose one - Beasts you control gain [+100/+100] until end of turn; or Four Sacred Beasts you control gain [+100/+100] until end of turn.|This card gains \"Pricia, the Commander of the Sacred Beasts\" in addition to its other names.\nThis card gains [Precision] as long as you control a light resonator, [Swiftness] as long as you control a fire resonator, [Flying] as long as you control a water resonator and [+200/+200] as long as you control a wind resonator.\nGod's Art [\"Meet my family!\"] {G}{G}{G} x: Search your deck for up to X Four Sacred Beasts resonators with different names, reveal them and put them into your hand. Then put up to X Four Sacred Beasts resonators with differrent names from your hand into your field and shuffle your deck. (Play God's Art [\"Meet my family!\"] only once per game.)",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "fzwrAym",
     "Rarity": "AR",
-    "Fowid": "1844",
+    "Fowid": "1843|1844",
     "Cluster": "03 - Alice",
     "Set Name": "011 - The Seven Kings of the Land",
     "Set Code": "SKL",
-    "id": "7cd0817a-9a16-4706-a71f-e088ac957abe",
-    "image": "7cd0817a-9a16-4706-a71f-e088ac957abe.jpg"
+    "id": "7cf61650-28cd-499e-a5f8-43f1b172f19a",
+    "image": "7cf61650-28cd-499e-a5f8-43f1b172f19a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "7cd0817a-9a16-4706-a71f-e088ac957abe.jpg",
+    "alternate1_Card Number": "SKL-106J",
+    "alternate1_name": "Pricia, Champion of Yggdrasil",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human|Beast",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "This card gains \"Pricia, the Commander of the Sacred Beasts\" in addition to its other names.\nThis card gains [Precision] as long as you control a light resonator, [Swiftness] as long as you control a fire resonator, [Flying] as long as you control a water resonator and [+200/+200] as long as you control a wind resonator.\nGod's Art [\"Meet my family!\"] {G}{G}{G} x: Search your deck for up to X Four Sacred Beasts resonators with different names, reveal them and put them into your hand. Then put up to X Four Sacred Beasts resonators with differrent names from your hand into your field and shuffle your deck. (Play God's Art [\"Meet my family!\"] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "fzwrAym",
+    "alternate1_Rarity": "AR",
+    "alternate1_Fowid": "1844",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "011 - The Seven Kings of the Land",
+    "alternate1_Set Code": "SKL",
+    "alternate1_id": "7cd0817a-9a16-4706-a71f-e088ac957abe",
+    "alternate1_image": "7cd0817a-9a16-4706-a71f-e088ac957abe.jpg",
+    "alternate1_Card Type": "J-Ruler"
   }
 ]

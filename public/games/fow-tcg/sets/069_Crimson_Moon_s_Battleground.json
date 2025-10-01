@@ -19,7 +19,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "6234b574-d2e4-4a06-b36c-a47fd41953c7",
-    "image": "6234b574-d2e4-4a06-b36c-a47fd41953c7.jpg"
+    "image": "6234b574-d2e4-4a06-b36c-a47fd41953c7.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "CMB-001",
@@ -41,51 +42,53 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "95d50b35-b071-4990-af98-29bd7e4eeec1",
-    "image": "95d50b35-b071-4990-af98-29bd7e4eeec1.jpg"
+    "image": "95d50b35-b071-4990-af98-29bd7e4eeec1.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "CMB-002",
-    "name": "Ascending to the Crimson Moon",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "CMB-002|CMB-002J",
+    "name": "Ascending to the Crimson Moon // Red Eyes",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Wanderer",
     "Cost": "{W}",
     "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Draw a card. You may put a non-chant Moon with total cost 2 or less from your hand into the field.\n[Awakening] {R}: If you control a Moon entity, you may contract this card with \"Aristella, Ascendant Prince of the Crimson Moon\".",
+    "ATK": "0",
+    "DEF": "1000",
+    "Abilities": "Draw a card. You may put a non-chant Moon with total cost 2 or less from your hand into the field.\n[Awakening] {R}: If you control a Moon entity, you may contract this card with \"Aristella, Ascendant Prince of the Crimson Moon\".|[Swiftness]\nThis card gains [+500/0] for each Moon addition you control.\n[Enter] ]]] This card deals X damage to your opponent and each J/resonator they control, where X is the ATK of this card.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "haniwa",
+    "Artist": "haniwa|Tsukumi",
     "Rarity": "R",
-    "Fowid": "1776",
+    "Fowid": "1776|1777",
     "Cluster": "10 - Hero",
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "5bde013c-792d-4760-942f-93a3e2215c69",
-    "image": "5bde013c-792d-4760-942f-93a3e2215c69.jpg"
-  },
-  {
-    "Card Number": "CMB-002J",
-    "name": "Red Eyes",
-    "Type": "J-Ruler",
-    "Race": "Wanderer",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "0",
-    "DEF": "1000",
-    "Abilities": "[Swiftness]\nThis card gains [+500/0] for each Moon addition you control.\n[Enter] ]]] This card deals X damage to your opponent and each J/resonator they control, where X is the ATK of this card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Tsukumi",
-    "Rarity": "R",
-    "Fowid": "1777",
-    "Cluster": "10 - Hero",
-    "Set Name": "069 - Crimson Moon's Battleground",
-    "Set Code": "CMB",
-    "id": "bfcd9483-a3f8-4479-9e68-89fbf47836f0",
-    "image": "bfcd9483-a3f8-4479-9e68-89fbf47836f0.jpg"
+    "image": "5bde013c-792d-4760-942f-93a3e2215c69.jpg",
+    "Card Type": "Chant",
+    "backimage": "bfcd9483-a3f8-4479-9e68-89fbf47836f0.jpg",
+    "alternate1_Card Number": "CMB-002J",
+    "alternate1_name": "Red Eyes",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wanderer",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Swiftness]\nThis card gains [+500/0] for each Moon addition you control.\n[Enter] ]]] This card deals X damage to your opponent and each J/resonator they control, where X is the ATK of this card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Tsukumi",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1777",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "069 - Crimson Moon's Battleground",
+    "alternate1_Set Code": "CMB",
+    "alternate1_id": "bfcd9483-a3f8-4479-9e68-89fbf47836f0",
+    "alternate1_image": "bfcd9483-a3f8-4479-9e68-89fbf47836f0.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMB-003",
@@ -107,7 +110,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "6cbf8739-4e55-404c-8d55-52f0ef5a8a02",
-    "image": "6cbf8739-4e55-404c-8d55-52f0ef5a8a02.jpg"
+    "image": "6cbf8739-4e55-404c-8d55-52f0ef5a8a02.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-004",
@@ -129,7 +133,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "8e72fa59-f597-4005-bdb3-b09594337b77",
-    "image": "8e72fa59-f597-4005-bdb3-b09594337b77.jpg"
+    "image": "8e72fa59-f597-4005-bdb3-b09594337b77.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-005",
@@ -151,7 +156,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "45a6b966-1946-4da6-a964-f90f9704c6f1",
-    "image": "45a6b966-1946-4da6-a964-f90f9704c6f1.jpg"
+    "image": "45a6b966-1946-4da6-a964-f90f9704c6f1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-006",
@@ -173,7 +179,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "93c82e2b-12a9-4ef3-8e4a-7b3a5b09c033",
-    "image": "93c82e2b-12a9-4ef3-8e4a-7b3a5b09c033.jpg"
+    "image": "93c82e2b-12a9-4ef3-8e4a-7b3a5b09c033.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CMB-007",
@@ -195,7 +202,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "3b8a44e3-08c5-4267-b7dc-982cf253cdd1",
-    "image": "3b8a44e3-08c5-4267-b7dc-982cf253cdd1.jpg"
+    "image": "3b8a44e3-08c5-4267-b7dc-982cf253cdd1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-008",
@@ -217,7 +225,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "12ecf199-2313-46db-b15f-198d9e160b76",
-    "image": "12ecf199-2313-46db-b15f-198d9e160b76.jpg"
+    "image": "12ecf199-2313-46db-b15f-198d9e160b76.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-009",
@@ -239,7 +248,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "66a5f75b-7009-4f0a-94ee-2c07e87edf0c",
-    "image": "66a5f75b-7009-4f0a-94ee-2c07e87edf0c.jpg"
+    "image": "66a5f75b-7009-4f0a-94ee-2c07e87edf0c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-010",
@@ -261,7 +271,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "52060065-e994-46ee-9c20-dc2dc6182074",
-    "image": "52060065-e994-46ee-9c20-dc2dc6182074.jpg"
+    "image": "52060065-e994-46ee-9c20-dc2dc6182074.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-011",
@@ -283,7 +294,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "de68eeee-b48b-4968-928b-23bc95827bf2",
-    "image": "de68eeee-b48b-4968-928b-23bc95827bf2.jpg"
+    "image": "de68eeee-b48b-4968-928b-23bc95827bf2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-012",
@@ -305,7 +317,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "7516a257-2d31-47fe-997a-f05fccb65b70",
-    "image": "7516a257-2d31-47fe-997a-f05fccb65b70.jpg"
+    "image": "7516a257-2d31-47fe-997a-f05fccb65b70.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-013",
@@ -327,7 +340,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "122d4b77-9061-4d7e-87f6-1e14dfe51bbd",
-    "image": "122d4b77-9061-4d7e-87f6-1e14dfe51bbd.jpg"
+    "image": "122d4b77-9061-4d7e-87f6-1e14dfe51bbd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-014",
@@ -349,51 +363,53 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "ac2d145e-148a-44c2-a411-fbf36ef893b9",
-    "image": "ac2d145e-148a-44c2-a411-fbf36ef893b9.jpg"
+    "image": "ac2d145e-148a-44c2-a411-fbf36ef893b9.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "CMB-015",
-    "name": "Armament Refinement",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "CMB-015|CMB-015J",
+    "name": "Armament Refinement // Elektra: Dragon Form",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Human",
     "Cost": "{R}",
     "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Reveal a card from your [Armament] EX deck at random and put it into your ruler area. Draw a card. If you control three or more Armament or High Armament sub-rulers, you may contract this card with \"Elektra, Armament Apex\".",
+    "ATK": "200",
+    "DEF": "1000",
+    "Abilities": "Reveal a card from your [Armament] EX deck at random and put it into your ruler area. Draw a card. If you control three or more Armament or High Armament sub-rulers, you may contract this card with \"Elektra, Armament Apex\".|[Enter] ]]] You may reveal a fire High Armament sub-ruler you own from outside the game that does not share a name with sub-rulers you control and put it into your ruler area.\nWhenever this card attacks ]]] Recover target Armament or High Armament sub-ruler you control.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "Azami datto",
+    "Artist": "Azami datto|IWAO",
     "Rarity": "R",
-    "Fowid": "1790",
+    "Fowid": "1790|1791",
     "Cluster": "10 - Hero",
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "dd9f8ff3-c205-4ff2-9a0b-838ef88f4661",
-    "image": "dd9f8ff3-c205-4ff2-9a0b-838ef88f4661.jpg"
-  },
-  {
-    "Card Number": "CMB-015J",
-    "name": "Elektra: Dragon Form",
-    "Type": "J-Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "200",
-    "DEF": "1000",
-    "Abilities": "[Enter] ]]] You may reveal a fire High Armament sub-ruler you own from outside the game that does not share a name with sub-rulers you control and put it into your ruler area.\nWhenever this card attacks ]]] Recover target Armament or High Armament sub-ruler you control.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "IWAO",
-    "Rarity": "R",
-    "Fowid": "1791",
-    "Cluster": "10 - Hero",
-    "Set Name": "069 - Crimson Moon's Battleground",
-    "Set Code": "CMB",
-    "id": "d7ba46d4-ea5e-416b-9c87-9fcf93b6f2b9",
-    "image": "d7ba46d4-ea5e-416b-9c87-9fcf93b6f2b9.jpg"
+    "image": "dd9f8ff3-c205-4ff2-9a0b-838ef88f4661.jpg",
+    "Card Type": "Chant",
+    "backimage": "d7ba46d4-ea5e-416b-9c87-9fcf93b6f2b9.jpg",
+    "alternate1_Card Number": "CMB-015J",
+    "alternate1_name": "Elektra: Dragon Form",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "200",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Enter] ]]] You may reveal a fire High Armament sub-ruler you own from outside the game that does not share a name with sub-rulers you control and put it into your ruler area.\nWhenever this card attacks ]]] Recover target Armament or High Armament sub-ruler you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "IWAO",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1791",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "069 - Crimson Moon's Battleground",
+    "alternate1_Set Code": "CMB",
+    "alternate1_id": "d7ba46d4-ea5e-416b-9c87-9fcf93b6f2b9",
+    "alternate1_image": "d7ba46d4-ea5e-416b-9c87-9fcf93b6f2b9.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMB-016",
@@ -415,7 +431,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "5ec35328-cfa4-4623-b0f5-9dc19236b2d5",
-    "image": "5ec35328-cfa4-4623-b0f5-9dc19236b2d5.jpg"
+    "image": "5ec35328-cfa4-4623-b0f5-9dc19236b2d5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-017",
@@ -437,7 +454,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "33a873e9-0d3a-4342-8b2d-2a0737b5ca77",
-    "image": "33a873e9-0d3a-4342-8b2d-2a0737b5ca77.jpg"
+    "image": "33a873e9-0d3a-4342-8b2d-2a0737b5ca77.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-018",
@@ -459,7 +477,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "1fb12038-6437-48d3-8a3c-89c5530becce",
-    "image": "1fb12038-6437-48d3-8a3c-89c5530becce.jpg"
+    "image": "1fb12038-6437-48d3-8a3c-89c5530becce.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-019",
@@ -481,7 +500,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "4f271265-3629-4963-b9ee-4986acee6e53",
-    "image": "4f271265-3629-4963-b9ee-4986acee6e53.jpg"
+    "image": "4f271265-3629-4963-b9ee-4986acee6e53.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-020",
@@ -503,7 +523,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "98b58a88-e9fd-4f35-9bc2-73fbb210c9d1",
-    "image": "98b58a88-e9fd-4f35-9bc2-73fbb210c9d1.jpg"
+    "image": "98b58a88-e9fd-4f35-9bc2-73fbb210c9d1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-021",
@@ -525,7 +546,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "dede049b-8954-4e77-b3f5-c9d281133d69",
-    "image": "dede049b-8954-4e77-b3f5-c9d281133d69.jpg"
+    "image": "dede049b-8954-4e77-b3f5-c9d281133d69.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-022",
@@ -547,7 +569,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "f361b506-6c01-4d71-8bf2-e25252c59f36",
-    "image": "f361b506-6c01-4d71-8bf2-e25252c59f36.jpg"
+    "image": "f361b506-6c01-4d71-8bf2-e25252c59f36.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CMB-023",
@@ -569,7 +592,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "7e5cdfe9-4cad-4875-aa40-50341138ce6a",
-    "image": "7e5cdfe9-4cad-4875-aa40-50341138ce6a.jpg"
+    "image": "7e5cdfe9-4cad-4875-aa40-50341138ce6a.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CMB-024",
@@ -591,7 +615,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "6ad0809d-f94a-498e-b0f7-3e93b7c68e03",
-    "image": "6ad0809d-f94a-498e-b0f7-3e93b7c68e03.jpg"
+    "image": "6ad0809d-f94a-498e-b0f7-3e93b7c68e03.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-025",
@@ -613,7 +638,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "65d2772e-cac3-4b3b-b3aa-c441c90912cf",
-    "image": "65d2772e-cac3-4b3b-b3aa-c441c90912cf.jpg"
+    "image": "65d2772e-cac3-4b3b-b3aa-c441c90912cf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-026",
@@ -635,7 +661,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "24ba7737-3fe6-446d-98ff-d43e7a16aba2",
-    "image": "24ba7737-3fe6-446d-98ff-d43e7a16aba2.jpg"
+    "image": "24ba7737-3fe6-446d-98ff-d43e7a16aba2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-027",
@@ -657,7 +684,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "aead637b-8e89-4c94-b659-f96d5b4e5ce9",
-    "image": "aead637b-8e89-4c94-b659-f96d5b4e5ce9.jpg"
+    "image": "aead637b-8e89-4c94-b659-f96d5b4e5ce9.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-028",
@@ -679,7 +707,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "5c01f40a-a817-4b91-a6ce-2291045e50ba",
-    "image": "5c01f40a-a817-4b91-a6ce-2291045e50ba.jpg"
+    "image": "5c01f40a-a817-4b91-a6ce-2291045e50ba.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-029",
@@ -701,7 +730,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "4d751449-223c-448f-b82a-64a0f5660d8d",
-    "image": "4d751449-223c-448f-b82a-64a0f5660d8d.jpg"
+    "image": "4d751449-223c-448f-b82a-64a0f5660d8d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-030",
@@ -723,7 +753,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "ab431057-0336-4bbc-9d41-cf2a977db906",
-    "image": "ab431057-0336-4bbc-9d41-cf2a977db906.jpg"
+    "image": "ab431057-0336-4bbc-9d41-cf2a977db906.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-031",
@@ -745,7 +776,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "186c9a69-5288-4dc4-ab56-0720d9b9e01e",
-    "image": "186c9a69-5288-4dc4-ab56-0720d9b9e01e.jpg"
+    "image": "186c9a69-5288-4dc4-ab56-0720d9b9e01e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-032",
@@ -767,7 +799,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "583a85b8-bf49-4fff-8230-14ced7ec73d8",
-    "image": "583a85b8-bf49-4fff-8230-14ced7ec73d8.jpg"
+    "image": "583a85b8-bf49-4fff-8230-14ced7ec73d8.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-033",
@@ -789,7 +822,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "12477306-5d28-4ccf-9b86-f194f950829d",
-    "image": "12477306-5d28-4ccf-9b86-f194f950829d.jpg"
+    "image": "12477306-5d28-4ccf-9b86-f194f950829d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-034",
@@ -811,7 +845,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "0fed1923-9fc5-42c4-87c4-2376c8158941",
-    "image": "0fed1923-9fc5-42c4-87c4-2376c8158941.jpg"
+    "image": "0fed1923-9fc5-42c4-87c4-2376c8158941.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-035",
@@ -833,7 +868,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "58853cf9-ae0e-4871-812e-3a8ca08ca8a8",
-    "image": "58853cf9-ae0e-4871-812e-3a8ca08ca8a8.jpg"
+    "image": "58853cf9-ae0e-4871-812e-3a8ca08ca8a8.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CMB-036",
@@ -855,7 +891,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "e6904542-daa1-445e-9b59-1dc74b4505da",
-    "image": "e6904542-daa1-445e-9b59-1dc74b4505da.jpg"
+    "image": "e6904542-daa1-445e-9b59-1dc74b4505da.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-037",
@@ -877,7 +914,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "ee92edda-f680-4274-ae33-ba49192b4fdf",
-    "image": "ee92edda-f680-4274-ae33-ba49192b4fdf.jpg"
+    "image": "ee92edda-f680-4274-ae33-ba49192b4fdf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-038",
@@ -899,7 +937,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "c4b53b20-e464-4cd3-b4a4-a5a4f01f344d",
-    "image": "c4b53b20-e464-4cd3-b4a4-a5a4f01f344d.jpg"
+    "image": "c4b53b20-e464-4cd3-b4a4-a5a4f01f344d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-039",
@@ -921,7 +960,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "56565ca1-48b2-401d-a533-f496628fb463",
-    "image": "56565ca1-48b2-401d-a533-f496628fb463.jpg"
+    "image": "56565ca1-48b2-401d-a533-f496628fb463.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-040",
@@ -943,7 +983,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "882d3592-a42e-4a91-83e4-6f66981b3973",
-    "image": "882d3592-a42e-4a91-83e4-6f66981b3973.jpg"
+    "image": "882d3592-a42e-4a91-83e4-6f66981b3973.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-041",
@@ -965,7 +1006,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "d462c4a2-48ec-4975-8da5-c60ddaf83c2e",
-    "image": "d462c4a2-48ec-4975-8da5-c60ddaf83c2e.jpg"
+    "image": "d462c4a2-48ec-4975-8da5-c60ddaf83c2e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-042",
@@ -987,7 +1029,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "4fab09e0-4fc8-4b1b-bd08-4e7492f26792",
-    "image": "4fab09e0-4fc8-4b1b-bd08-4e7492f26792.jpg"
+    "image": "4fab09e0-4fc8-4b1b-bd08-4e7492f26792.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-043",
@@ -1009,7 +1052,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "7b6d09f2-c04f-4050-a984-b67da72fb191",
-    "image": "7b6d09f2-c04f-4050-a984-b67da72fb191.jpg"
+    "image": "7b6d09f2-c04f-4050-a984-b67da72fb191.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-044",
@@ -1031,7 +1075,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "8b67baab-4a89-4920-ad13-7e532f907524",
-    "image": "8b67baab-4a89-4920-ad13-7e532f907524.jpg"
+    "image": "8b67baab-4a89-4920-ad13-7e532f907524.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-045",
@@ -1053,7 +1098,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "ee696c0c-0fdf-43b6-8358-ee9d3b35009f",
-    "image": "ee696c0c-0fdf-43b6-8358-ee9d3b35009f.jpg"
+    "image": "ee696c0c-0fdf-43b6-8358-ee9d3b35009f.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CMB-046",
@@ -1075,7 +1121,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "57227b54-c71e-4c81-bb13-bcf9ea61b1da",
-    "image": "57227b54-c71e-4c81-bb13-bcf9ea61b1da.jpg"
+    "image": "57227b54-c71e-4c81-bb13-bcf9ea61b1da.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-047",
@@ -1097,7 +1144,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "082d604f-eee0-4710-92de-7f070cfaa2b5",
-    "image": "082d604f-eee0-4710-92de-7f070cfaa2b5.jpg"
+    "image": "082d604f-eee0-4710-92de-7f070cfaa2b5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-048",
@@ -1119,7 +1167,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "fba60ccb-06a8-4342-9826-9c51f1fba7eb",
-    "image": "fba60ccb-06a8-4342-9826-9c51f1fba7eb.jpg"
+    "image": "fba60ccb-06a8-4342-9826-9c51f1fba7eb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-049",
@@ -1141,7 +1190,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "fab04973-2b08-4da0-9b05-41c6ce5142fd",
-    "image": "fab04973-2b08-4da0-9b05-41c6ce5142fd.jpg"
+    "image": "fab04973-2b08-4da0-9b05-41c6ce5142fd.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-050",
@@ -1163,7 +1213,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "f449a416-d65b-4a25-89ec-59cc7c79452e",
-    "image": "f449a416-d65b-4a25-89ec-59cc7c79452e.jpg"
+    "image": "f449a416-d65b-4a25-89ec-59cc7c79452e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-051",
@@ -1185,7 +1236,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "a7601106-a1b8-4999-a527-592bf06e257c",
-    "image": "a7601106-a1b8-4999-a527-592bf06e257c.jpg"
+    "image": "a7601106-a1b8-4999-a527-592bf06e257c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CMB-052",
@@ -1207,7 +1259,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "35a9d7b4-108f-45db-aa24-8864d2b98f1e",
-    "image": "35a9d7b4-108f-45db-aa24-8864d2b98f1e.jpg"
+    "image": "35a9d7b4-108f-45db-aa24-8864d2b98f1e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-053",
@@ -1229,51 +1282,53 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "ce229618-6abc-4648-8303-65cf02b80d25",
-    "image": "ce229618-6abc-4648-8303-65cf02b80d25.jpg"
+    "image": "ce229618-6abc-4648-8303-65cf02b80d25.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "CMB-054",
-    "name": "Armament Upgrade",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "CMB-054|CMB-054J",
+    "name": "Armament Upgrade // Elektra: Horror Form",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Human",
     "Cost": "{B}",
     "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Upgrade target Armament sub-ruler you control. If you control two or more upgraded Armament sub-rulers, you may contract this card with \"Elektra, Armament Apex\".",
+    "ATK": "200",
+    "DEF": "1000",
+    "Abilities": "Upgrade target Armament sub-ruler you control. If you control two or more upgraded Armament sub-rulers, you may contract this card with \"Elektra, Armament Apex\".|J/resonators your opponent controls gain [-200/-200] for each Armament or High Armament sub-ruler you control.\n[Enter] ]]] You may reveal a darkness High Armament sub-ruler you own from outside the game that does not share a name with sub-rulers you control and put it into your ruler area.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "uekino aroe",
+    "Artist": "uekino aroe|Moopic",
     "Rarity": "R",
-    "Fowid": "1830",
+    "Fowid": "1830|1831",
     "Cluster": "10 - Hero",
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "d885e431-fd52-4991-a379-43f981a541a1",
-    "image": "d885e431-fd52-4991-a379-43f981a541a1.jpg"
-  },
-  {
-    "Card Number": "CMB-054J",
-    "name": "Elektra: Horror Form",
-    "Type": "J-Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "200",
-    "DEF": "1000",
-    "Abilities": "J/resonators your opponent controls gain [-200/-200] for each Armament or High Armament sub-ruler you control.\n[Enter] ]]] You may reveal a darkness High Armament sub-ruler you own from outside the game that does not share a name with sub-rulers you control and put it into your ruler area.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Moopic",
-    "Rarity": "R",
-    "Fowid": "1831",
-    "Cluster": "10 - Hero",
-    "Set Name": "069 - Crimson Moon's Battleground",
-    "Set Code": "CMB",
-    "id": "8f9e044f-8c70-47ca-b11e-67479a0a5855",
-    "image": "8f9e044f-8c70-47ca-b11e-67479a0a5855.jpg"
+    "image": "d885e431-fd52-4991-a379-43f981a541a1.jpg",
+    "Card Type": "Chant",
+    "backimage": "8f9e044f-8c70-47ca-b11e-67479a0a5855.jpg",
+    "alternate1_Card Number": "CMB-054J",
+    "alternate1_name": "Elektra: Horror Form",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "200",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "J/resonators your opponent controls gain [-200/-200] for each Armament or High Armament sub-ruler you control.\n[Enter] ]]] You may reveal a darkness High Armament sub-ruler you own from outside the game that does not share a name with sub-rulers you control and put it into your ruler area.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Moopic",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1831",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "069 - Crimson Moon's Battleground",
+    "alternate1_Set Code": "CMB",
+    "alternate1_id": "8f9e044f-8c70-47ca-b11e-67479a0a5855",
+    "alternate1_image": "8f9e044f-8c70-47ca-b11e-67479a0a5855.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMB-055",
@@ -1295,7 +1350,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "ddd0f4ab-e99f-4e9b-9e77-20fb3ce8bf93",
-    "image": "ddd0f4ab-e99f-4e9b-9e77-20fb3ce8bf93.jpg"
+    "image": "ddd0f4ab-e99f-4e9b-9e77-20fb3ce8bf93.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-056",
@@ -1317,7 +1373,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "1202577c-cd8e-49dd-98f5-0b22afc66e0d",
-    "image": "1202577c-cd8e-49dd-98f5-0b22afc66e0d.jpg"
+    "image": "1202577c-cd8e-49dd-98f5-0b22afc66e0d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-057",
@@ -1339,7 +1396,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "dd5ea276-1e2e-42ad-a9fe-84a69ceac4da",
-    "image": "dd5ea276-1e2e-42ad-a9fe-84a69ceac4da.jpg"
+    "image": "dd5ea276-1e2e-42ad-a9fe-84a69ceac4da.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-058",
@@ -1361,7 +1419,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "2eff2c2e-a984-4f6b-a670-70c219272d4b",
-    "image": "2eff2c2e-a984-4f6b-a670-70c219272d4b.jpg"
+    "image": "2eff2c2e-a984-4f6b-a670-70c219272d4b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-059",
@@ -1383,7 +1442,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "9cb1b112-af24-4e58-9082-5d6089dc6ce2",
-    "image": "9cb1b112-af24-4e58-9082-5d6089dc6ce2.jpg"
+    "image": "9cb1b112-af24-4e58-9082-5d6089dc6ce2.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CMB-060",
@@ -1405,7 +1465,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "91b7da2b-f55b-47b9-9b8a-1fb0d236b747",
-    "image": "91b7da2b-f55b-47b9-9b8a-1fb0d236b747.jpg"
+    "image": "91b7da2b-f55b-47b9-9b8a-1fb0d236b747.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-061",
@@ -1427,7 +1488,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "e2def5b5-a738-4298-99d0-1204a4190b16",
-    "image": "e2def5b5-a738-4298-99d0-1204a4190b16.jpg"
+    "image": "e2def5b5-a738-4298-99d0-1204a4190b16.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-062",
@@ -1449,7 +1511,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "981785c1-ddb2-4bb2-a3c0-fef168f01cee",
-    "image": "981785c1-ddb2-4bb2-a3c0-fef168f01cee.jpg"
+    "image": "981785c1-ddb2-4bb2-a3c0-fef168f01cee.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-063",
@@ -1471,7 +1534,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "eb2c7cd6-2c71-400c-aa10-9c7fb139c0a6",
-    "image": "eb2c7cd6-2c71-400c-aa10-9c7fb139c0a6.jpg"
+    "image": "eb2c7cd6-2c71-400c-aa10-9c7fb139c0a6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-064",
@@ -1493,7 +1557,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "e0ebc211-8822-4464-9c86-649772125675",
-    "image": "e0ebc211-8822-4464-9c86-649772125675.jpg"
+    "image": "e0ebc211-8822-4464-9c86-649772125675.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-065",
@@ -1515,7 +1580,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "121cb3a6-6815-406e-8abd-22366c9474c0",
-    "image": "121cb3a6-6815-406e-8abd-22366c9474c0.jpg"
+    "image": "121cb3a6-6815-406e-8abd-22366c9474c0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-066",
@@ -1537,7 +1603,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "7dbe7e2a-3178-43b2-ace4-e8d9e1538e67",
-    "image": "7dbe7e2a-3178-43b2-ace4-e8d9e1538e67.jpg"
+    "image": "7dbe7e2a-3178-43b2-ace4-e8d9e1538e67.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-067",
@@ -1559,7 +1626,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "7b1fafcd-5fea-4786-a34b-e47b63573a7f",
-    "image": "7b1fafcd-5fea-4786-a34b-e47b63573a7f.jpg"
+    "image": "7b1fafcd-5fea-4786-a34b-e47b63573a7f.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "CMB-068",
@@ -1581,7 +1649,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "e82d64dd-0e7a-4f61-aa53-2b5eaa136f2d",
-    "image": "e82d64dd-0e7a-4f61-aa53-2b5eaa136f2d.jpg"
+    "image": "e82d64dd-0e7a-4f61-aa53-2b5eaa136f2d.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "CMB-069",
@@ -1603,7 +1672,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "e0e85723-8f79-484e-8562-fcf1a9a4a3b8",
-    "image": "e0e85723-8f79-484e-8562-fcf1a9a4a3b8.jpg"
+    "image": "e0e85723-8f79-484e-8562-fcf1a9a4a3b8.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CMB-070",
@@ -1625,51 +1695,53 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "e0dd455f-0645-4e3d-bd3a-c8291e990155",
-    "image": "e0dd455f-0645-4e3d-bd3a-c8291e990155.jpg"
+    "image": "e0dd455f-0645-4e3d-bd3a-c8291e990155.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "CMB-071",
-    "name": "Attack Order",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "CMB-071|CMB-071J",
+    "name": "Attack Order // Genocider",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Gears",
     "Cost": "{1}",
     "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nDestroy target J/resonator with total cost 2 or less. If you control one or more Treasury Items, you may contract this card with \"Imitation: Cain\".",
+    "ATK": "400",
+    "DEF": "400",
+    "Abilities": "[Quickcast]\nDestroy target J/resonator with total cost 2 or less. If you control one or more Treasury Items, you may contract this card with \"Imitation: Cain\".|[Precision]\n[Flying]\nThis card has \"Imitation: Cain\" in addition to its other names.\nGears J-rulers you control gain [+200/+200] for each Treasury Item you control.\nWhenever this card attacks ]]] Your opponent banishes a resonator.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "muranako",
+    "Artist": "muranako|ISHIDA VAL",
     "Rarity": "R",
-    "Fowid": "1848",
+    "Fowid": "1848|1849",
     "Cluster": "10 - Hero",
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "bea843fc-ab1f-4c66-af35-732a21d14765",
-    "image": "bea843fc-ab1f-4c66-af35-732a21d14765.jpg"
-  },
-  {
-    "Card Number": "CMB-071J",
-    "name": "Genocider",
-    "Type": "J-Ruler",
-    "Race": "Gears",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "400",
-    "DEF": "400",
-    "Abilities": "[Precision]\n[Flying]\nThis card has \"Imitation: Cain\" in addition to its other names.\nGears J-rulers you control gain [+200/+200] for each Treasury Item you control.\nWhenever this card attacks ]]] Your opponent banishes a resonator.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "ISHIDA VAL",
-    "Rarity": "R",
-    "Fowid": "1849",
-    "Cluster": "10 - Hero",
-    "Set Name": "069 - Crimson Moon's Battleground",
-    "Set Code": "CMB",
-    "id": "7a83b1d7-75b0-4de3-a269-7630e6f054d2",
-    "image": "7a83b1d7-75b0-4de3-a269-7630e6f054d2.jpg"
+    "image": "bea843fc-ab1f-4c66-af35-732a21d14765.jpg",
+    "Card Type": "Chant",
+    "backimage": "7a83b1d7-75b0-4de3-a269-7630e6f054d2.jpg",
+    "alternate1_Card Number": "CMB-071J",
+    "alternate1_name": "Genocider",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Gears",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "400",
+    "alternate1_DEF": "400",
+    "alternate1_Abilities": "[Precision]\n[Flying]\nThis card has \"Imitation: Cain\" in addition to its other names.\nGears J-rulers you control gain [+200/+200] for each Treasury Item you control.\nWhenever this card attacks ]]] Your opponent banishes a resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "ISHIDA VAL",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1849",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "069 - Crimson Moon's Battleground",
+    "alternate1_Set Code": "CMB",
+    "alternate1_id": "7a83b1d7-75b0-4de3-a269-7630e6f054d2",
+    "alternate1_image": "7a83b1d7-75b0-4de3-a269-7630e6f054d2.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMB-072",
@@ -1691,51 +1763,53 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "4aed99e0-acda-492c-a725-e90c48810c6e",
-    "image": "4aed99e0-acda-492c-a725-e90c48810c6e.jpg"
+    "image": "4aed99e0-acda-492c-a725-e90c48810c6e.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "CMB-073",
-    "name": "Defense Order",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "CMB-073|CMB-073J",
+    "name": "Defense Order // Prisoner",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Gears",
     "Cost": "{1}",
     "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nAdditions and J/resonators you control gain [Eternal] until end of turn. If you control two or more Treasury Items, you may contract this card with \"Imitation: Abel\".",
+    "ATK": "700",
+    "DEF": "700",
+    "Abilities": "[Quickcast]\nAdditions and J/resonators you control gain [Eternal] until end of turn. If you control two or more Treasury Items, you may contract this card with \"Imitation: Abel\".|[Flying]\nThis card has \"Imitation: Abel\" in addition to its other names.\nJ-rulers you control gain [Barrier] during your turn.\nJ/resonators your opponent controls cannot attack unless your opponent pays {1}. (Each attack costs {1}.)",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "Kazue Saitou",
+    "Artist": "Kazue Saitou|SIGMAN",
     "Rarity": "R",
-    "Fowid": "1851",
+    "Fowid": "1851|1852",
     "Cluster": "10 - Hero",
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "97671b28-00c3-416e-88c4-abe45cbec6dc",
-    "image": "97671b28-00c3-416e-88c4-abe45cbec6dc.jpg"
-  },
-  {
-    "Card Number": "CMB-073J",
-    "name": "Prisoner",
-    "Type": "J-Ruler",
-    "Race": "Gears",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "700",
-    "DEF": "700",
-    "Abilities": "[Flying]\nThis card has \"Imitation: Abel\" in addition to its other names.\nJ-rulers you control gain [Barrier] during your turn.\nJ/resonators your opponent controls cannot attack unless your opponent pays {1}. (Each attack costs {1}.)",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "SIGMAN",
-    "Rarity": "R",
-    "Fowid": "1852",
-    "Cluster": "10 - Hero",
-    "Set Name": "069 - Crimson Moon's Battleground",
-    "Set Code": "CMB",
-    "id": "8e250d43-58b2-4a11-88a8-b5911bc47b8f",
-    "image": "8e250d43-58b2-4a11-88a8-b5911bc47b8f.jpg"
+    "image": "97671b28-00c3-416e-88c4-abe45cbec6dc.jpg",
+    "Card Type": "Chant",
+    "backimage": "8e250d43-58b2-4a11-88a8-b5911bc47b8f.jpg",
+    "alternate1_Card Number": "CMB-073J",
+    "alternate1_name": "Prisoner",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Gears",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[Flying]\nThis card has \"Imitation: Abel\" in addition to its other names.\nJ-rulers you control gain [Barrier] during your turn.\nJ/resonators your opponent controls cannot attack unless your opponent pays {1}. (Each attack costs {1}.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "SIGMAN",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1852",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "069 - Crimson Moon's Battleground",
+    "alternate1_Set Code": "CMB",
+    "alternate1_id": "8e250d43-58b2-4a11-88a8-b5911bc47b8f",
+    "alternate1_image": "8e250d43-58b2-4a11-88a8-b5911bc47b8f.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMB-074",
@@ -1757,7 +1831,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "0e268fd1-351e-47a0-bc2d-a21b5a79e98d",
-    "image": "0e268fd1-351e-47a0-bc2d-a21b5a79e98d.jpg"
+    "image": "0e268fd1-351e-47a0-bc2d-a21b5a79e98d.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "CMB-075",
@@ -1779,7 +1854,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "bf5247c3-d08a-40cd-a384-75f0fe0593ea",
-    "image": "bf5247c3-d08a-40cd-a384-75f0fe0593ea.jpg"
+    "image": "bf5247c3-d08a-40cd-a384-75f0fe0593ea.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "CMB-076",
@@ -1801,7 +1877,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "9ae1b5a6-45da-4b75-83ce-6e194bb0e1fd",
-    "image": "9ae1b5a6-45da-4b75-83ce-6e194bb0e1fd.jpg"
+    "image": "9ae1b5a6-45da-4b75-83ce-6e194bb0e1fd.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "CMB-077",
@@ -1823,7 +1900,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "34524938-3973-4ca3-a614-22e057438199",
-    "image": "34524938-3973-4ca3-a614-22e057438199.jpg"
+    "image": "34524938-3973-4ca3-a614-22e057438199.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CMB-078",
@@ -1845,7 +1923,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "8990c6a8-9f66-43fc-9bf7-86f2c29f5c56",
-    "image": "8990c6a8-9f66-43fc-9bf7-86f2c29f5c56.jpg"
+    "image": "8990c6a8-9f66-43fc-9bf7-86f2c29f5c56.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CMB-079",
@@ -1867,7 +1946,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "3bf5041e-e011-4265-a61b-9f11b48f2273",
-    "image": "3bf5041e-e011-4265-a61b-9f11b48f2273.jpg"
+    "image": "3bf5041e-e011-4265-a61b-9f11b48f2273.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-080",
@@ -1889,51 +1969,53 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "eaac4c4b-117c-463c-ad8b-f70ff73ffd6c",
-    "image": "eaac4c4b-117c-463c-ad8b-f70ff73ffd6c.jpg"
+    "image": "eaac4c4b-117c-463c-ad8b-f70ff73ffd6c.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "CMB-081",
-    "name": "Recapture Order",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "CMB-081|CMB-081J",
+    "name": "Recapture Order // Queen",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Gears",
     "Cost": "{2}",
     "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nTarget non-magic stone entity loses all abilities until end of turn. Draw a card. If you control three or more Treasury Items, you may contract this card with \"Imitation: Eve\".",
+    "ATK": "900",
+    "DEF": "900",
+    "Abilities": "[Quickcast]\nTarget non-magic stone entity loses all abilities until end of turn. Draw a card. If you control three or more Treasury Items, you may contract this card with \"Imitation: Eve\".|[Flying]\n[Barrier]\nThis card has \"Imitation: Eve\" in addition to its other names.\n[Enter] ]]] Gain control of target non-magic stone, non-J-ruler entity your opponent controls as long as this card is in the field. As long as you control the chosen target, it gains Treasury Item in addition to its other races and cannot attack or block.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "Matsumoto Atsuya",
+    "Artist": "Matsumoto Atsuya|Hugos",
     "Rarity": "R",
-    "Fowid": "1860",
+    "Fowid": "1860|1861",
     "Cluster": "10 - Hero",
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "1de9d767-31ac-4509-ad7c-3f1daac0d981",
-    "image": "1de9d767-31ac-4509-ad7c-3f1daac0d981.jpg"
-  },
-  {
-    "Card Number": "CMB-081J",
-    "name": "Queen",
-    "Type": "J-Ruler",
-    "Race": "Gears",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "900",
-    "DEF": "900",
-    "Abilities": "[Flying]\n[Barrier]\nThis card has \"Imitation: Eve\" in addition to its other names.\n[Enter] ]]] Gain control of target non-magic stone, non-J-ruler entity your opponent controls as long as this card is in the field. As long as you control the chosen target, it gains Treasury Item in addition to its other races and cannot attack or block.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Hugos",
-    "Rarity": "R",
-    "Fowid": "1861",
-    "Cluster": "10 - Hero",
-    "Set Name": "069 - Crimson Moon's Battleground",
-    "Set Code": "CMB",
-    "id": "0e315c67-0778-452f-be32-d0a41e8cb7ef",
-    "image": "0e315c67-0778-452f-be32-d0a41e8cb7ef.jpg"
+    "image": "1de9d767-31ac-4509-ad7c-3f1daac0d981.jpg",
+    "Card Type": "Chant",
+    "backimage": "0e315c67-0778-452f-be32-d0a41e8cb7ef.jpg",
+    "alternate1_Card Number": "CMB-081J",
+    "alternate1_name": "Queen",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Gears",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "[Flying]\n[Barrier]\nThis card has \"Imitation: Eve\" in addition to its other names.\n[Enter] ]]] Gain control of target non-magic stone, non-J-ruler entity your opponent controls as long as this card is in the field. As long as you control the chosen target, it gains Treasury Item in addition to its other races and cannot attack or block.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Hugos",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1861",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "069 - Crimson Moon's Battleground",
+    "alternate1_Set Code": "CMB",
+    "alternate1_id": "0e315c67-0778-452f-be32-d0a41e8cb7ef",
+    "alternate1_image": "0e315c67-0778-452f-be32-d0a41e8cb7ef.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMB-082",
@@ -1955,7 +2037,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "beffcd4d-8f84-4a7c-8755-88899ec3b21a",
-    "image": "beffcd4d-8f84-4a7c-8755-88899ec3b21a.jpg"
+    "image": "beffcd4d-8f84-4a7c-8755-88899ec3b21a.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CMB-083",
@@ -1977,7 +2060,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "14e662f1-cb29-476e-8854-0f294efe6d20",
-    "image": "14e662f1-cb29-476e-8854-0f294efe6d20.jpg"
+    "image": "14e662f1-cb29-476e-8854-0f294efe6d20.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CMB-084",
@@ -1999,7 +2083,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "8aeed92b-4e2a-4846-bf31-d13f00d94150",
-    "image": "8aeed92b-4e2a-4846-bf31-d13f00d94150.jpg"
+    "image": "8aeed92b-4e2a-4846-bf31-d13f00d94150.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMB-085",
@@ -2021,7 +2106,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "a03d1b36-1f49-4ce8-8c0c-70e387d85afe",
-    "image": "a03d1b36-1f49-4ce8-8c0c-70e387d85afe.jpg"
+    "image": "a03d1b36-1f49-4ce8-8c0c-70e387d85afe.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-086",
@@ -2043,7 +2129,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "7f0fa701-c408-4e49-8e3b-117197991237",
-    "image": "7f0fa701-c408-4e49-8e3b-117197991237.jpg"
+    "image": "7f0fa701-c408-4e49-8e3b-117197991237.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-087",
@@ -2065,7 +2152,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "627a59c0-645b-42ce-8952-64426d57b489",
-    "image": "627a59c0-645b-42ce-8952-64426d57b489.jpg"
+    "image": "627a59c0-645b-42ce-8952-64426d57b489.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-088",
@@ -2087,7 +2175,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "5a3e4e80-0845-4705-82a6-2f37e07e568f",
-    "image": "5a3e4e80-0845-4705-82a6-2f37e07e568f.jpg"
+    "image": "5a3e4e80-0845-4705-82a6-2f37e07e568f.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-089",
@@ -2109,7 +2198,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "92d40ebc-1404-4c29-9083-9cd226b5a30b",
-    "image": "92d40ebc-1404-4c29-9083-9cd226b5a30b.jpg"
+    "image": "92d40ebc-1404-4c29-9083-9cd226b5a30b.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-090",
@@ -2131,7 +2221,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "b6d74854-49a5-444c-a889-6362820521d0",
-    "image": "b6d74854-49a5-444c-a889-6362820521d0.jpg"
+    "image": "b6d74854-49a5-444c-a889-6362820521d0.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-091",
@@ -2153,7 +2244,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "965e2e42-4d0c-4699-8c26-2e8946ba503c",
-    "image": "965e2e42-4d0c-4699-8c26-2e8946ba503c.jpg"
+    "image": "965e2e42-4d0c-4699-8c26-2e8946ba503c.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-092",
@@ -2175,7 +2267,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "b67056ab-bcd6-40e7-bfcc-dacd3058f181",
-    "image": "b67056ab-bcd6-40e7-bfcc-dacd3058f181.jpg"
+    "image": "b67056ab-bcd6-40e7-bfcc-dacd3058f181.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-093",
@@ -2197,7 +2290,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "771829e5-a2cc-4f9d-b6d1-f725dca3084b",
-    "image": "771829e5-a2cc-4f9d-b6d1-f725dca3084b.jpg"
+    "image": "771829e5-a2cc-4f9d-b6d1-f725dca3084b.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-094",
@@ -2219,7 +2313,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "552f0ed3-8189-484d-ad86-525e3c9dce6e",
-    "image": "552f0ed3-8189-484d-ad86-525e3c9dce6e.jpg"
+    "image": "552f0ed3-8189-484d-ad86-525e3c9dce6e.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-095",
@@ -2241,7 +2336,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "85e62e36-5ca6-4ccc-9d68-54c14d3d6e36",
-    "image": "85e62e36-5ca6-4ccc-9d68-54c14d3d6e36.jpg"
+    "image": "85e62e36-5ca6-4ccc-9d68-54c14d3d6e36.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-096",
@@ -2263,7 +2359,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "97a80c5e-d93d-4d9e-bf25-3c70e9e94eb7",
-    "image": "97a80c5e-d93d-4d9e-bf25-3c70e9e94eb7.jpg"
+    "image": "97a80c5e-d93d-4d9e-bf25-3c70e9e94eb7.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-097",
@@ -2285,7 +2382,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "cc9b6b6a-10e1-464e-a916-a3727f3a482a",
-    "image": "cc9b6b6a-10e1-464e-a916-a3727f3a482a.jpg"
+    "image": "cc9b6b6a-10e1-464e-a916-a3727f3a482a.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-098",
@@ -2307,7 +2405,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "9bf27cbe-a799-4a87-82e0-47526fcadc29",
-    "image": "9bf27cbe-a799-4a87-82e0-47526fcadc29.jpg"
+    "image": "9bf27cbe-a799-4a87-82e0-47526fcadc29.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "CMB-099",
@@ -2329,7 +2428,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "faaa4ff0-53e3-4efe-b6ff-f04750bd691b",
-    "image": "faaa4ff0-53e3-4efe-b6ff-f04750bd691b.jpg"
+    "image": "faaa4ff0-53e3-4efe-b6ff-f04750bd691b.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "CMB-100",
@@ -2351,7 +2451,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "bf82d306-3d76-4bfe-9ba1-e344c4746f71",
-    "image": "bf82d306-3d76-4bfe-9ba1-e344c4746f71.jpg"
+    "image": "bf82d306-3d76-4bfe-9ba1-e344c4746f71.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "CMB-101",
@@ -2373,7 +2474,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "8f6e3297-c584-410a-b81d-f1db02938a80",
-    "image": "8f6e3297-c584-410a-b81d-f1db02938a80.jpg"
+    "image": "8f6e3297-c584-410a-b81d-f1db02938a80.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "CMB-102",
@@ -2395,7 +2497,8 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "9bdaa259-7ee1-4942-84e5-c18790dd6272",
-    "image": "9bdaa259-7ee1-4942-84e5-c18790dd6272.jpg"
+    "image": "9bdaa259-7ee1-4942-84e5-c18790dd6272.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "CMB-103",
@@ -2417,6 +2520,7 @@
     "Set Name": "069 - Crimson Moon's Battleground",
     "Set Code": "CMB",
     "id": "0ee75937-7376-4f16-b5ed-6dc927f620b6",
-    "image": "0ee75937-7376-4f16-b5ed-6dc927f620b6.jpg"
+    "image": "0ee75937-7376-4f16-b5ed-6dc927f620b6.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

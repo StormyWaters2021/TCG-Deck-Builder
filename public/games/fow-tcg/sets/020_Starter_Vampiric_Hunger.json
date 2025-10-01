@@ -1,47 +1,48 @@
 [
   {
-    "Card Number": "SDL5-001",
-    "name": "Ally of the Black Moon",
-    "Type": "Ruler",
-    "Race": "Wanderer",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {B}{B}{1}\n[Energize] {B} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {B}.\")\n{B}: This card deals 100 damage to target resonator. Put a blood counter on this card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "An ancient ally of Lapis, possibly the oldest Vampire.",
-    "Artist": "ヤマモトナオキ",
-    "Rarity": "R",
-    "Fowid": "265",
-    "Cluster": "04 - Lapis",
-    "Set Name": "020 - Starter - Vampiric Hunger",
-    "Set Code": "SDL5",
-    "id": "5a4efdb0-39a5-4d8d-a1de-96014b03db19",
-    "image": "5a4efdb0-39a5-4d8d-a1de-96014b03db19.jpg"
-  },
-  {
-    "Card Number": "SDL5-001J",
-    "name": "Eternal Vampire, Mikage Seijuro",
-    "Type": "J-Ruler",
-    "Race": "Vampire",
+    "Card Number": "SDL5-001|SDL5-001J",
+    "name": "Ally of the Black Moon // Eternal Vampire, Mikage Seijuro",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Wanderer|Vampire",
     "Cost": "",
     "Colour": "B",
     "ATK": "900",
     "DEF": "900",
-    "Abilities": "[Imperishable] [Flying]\nRemove a blood counter from this card: Choose one - Target J/resonator gains [-100/-100] until end of turn; or this card gains [+200/0] until end of turn; or you gain 200 life; or put a [+100/+100] counter on target Vampire resonator.",
+    "Abilities": "[Judgment] {B}{B}{1}\n[Energize] {B} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {B}.\")\n{B}: This card deals 100 damage to target resonator. Put a blood counter on this card.|[Imperishable] [Flying]\nRemove a blood counter from this card: Choose one - Target J/resonator gains [-100/-100] until end of turn; or this card gains [+200/0] until end of turn; or you gain 200 life; or put a [+100/+100] counter on target Vampire resonator.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Altea... what a nostalgic name. Surely you agree, Lapis?\"",
+    "Flavour": "An ancient ally of Lapis, possibly the oldest Vampire.|\"Altea... what a nostalgic name. Surely you agree, Lapis?\"",
     "Artist": "ヤマモトナオキ",
     "Rarity": "R",
-    "Fowid": "266",
+    "Fowid": "265|266",
     "Cluster": "04 - Lapis",
     "Set Name": "020 - Starter - Vampiric Hunger",
     "Set Code": "SDL5",
-    "id": "caaac06b-823e-4583-a49b-63299ff454ed",
-    "image": "caaac06b-823e-4583-a49b-63299ff454ed.jpg"
+    "id": "5a4efdb0-39a5-4d8d-a1de-96014b03db19",
+    "image": "5a4efdb0-39a5-4d8d-a1de-96014b03db19.jpg",
+    "Card Type": "Ruler",
+    "backimage": "caaac06b-823e-4583-a49b-63299ff454ed.jpg",
+    "alternate1_Card Number": "SDL5-001J",
+    "alternate1_name": "Eternal Vampire, Mikage Seijuro",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Vampire",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "[Imperishable] [Flying]\nRemove a blood counter from this card: Choose one - Target J/resonator gains [-100/-100] until end of turn; or this card gains [+200/0] until end of turn; or you gain 200 life; or put a [+100/+100] counter on target Vampire resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Altea... what a nostalgic name. Surely you agree, Lapis?\"",
+    "alternate1_Artist": "ヤマモトナオキ",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "266",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "020 - Starter - Vampiric Hunger",
+    "alternate1_Set Code": "SDL5",
+    "alternate1_id": "caaac06b-823e-4583-a49b-63299ff454ed",
+    "alternate1_image": "caaac06b-823e-4583-a49b-63299ff454ed.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDL5-002",
@@ -63,7 +64,8 @@
     "Set Name": "020 - Starter - Vampiric Hunger",
     "Set Code": "SDL5",
     "id": "d3d0833b-6877-4092-92ea-7d80b3b434a5",
-    "image": "d3d0833b-6877-4092-92ea-7d80b3b434a5.jpg"
+    "image": "d3d0833b-6877-4092-92ea-7d80b3b434a5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDL5-003",
@@ -85,7 +87,8 @@
     "Set Name": "020 - Starter - Vampiric Hunger",
     "Set Code": "SDL5",
     "id": "b8ff52a2-ce9a-4c80-9570-9189ef3b971e",
-    "image": "b8ff52a2-ce9a-4c80-9570-9189ef3b971e.jpg"
+    "image": "b8ff52a2-ce9a-4c80-9570-9189ef3b971e.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "SDL5-004",
@@ -107,7 +110,8 @@
     "Set Name": "020 - Starter - Vampiric Hunger",
     "Set Code": "SDL5",
     "id": "38f62441-2f8a-47f4-9cf8-b0f3ad38eb11",
-    "image": "38f62441-2f8a-47f4-9cf8-b0f3ad38eb11.jpg"
+    "image": "38f62441-2f8a-47f4-9cf8-b0f3ad38eb11.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL5-005",
@@ -129,7 +133,8 @@
     "Set Name": "020 - Starter - Vampiric Hunger",
     "Set Code": "SDL5",
     "id": "673d5cda-a7b1-42ae-be30-7cf7655214a0",
-    "image": "673d5cda-a7b1-42ae-be30-7cf7655214a0.jpg"
+    "image": "673d5cda-a7b1-42ae-be30-7cf7655214a0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL5-006",
@@ -151,7 +156,8 @@
     "Set Name": "020 - Starter - Vampiric Hunger",
     "Set Code": "SDL5",
     "id": "965ccae7-d3ba-424c-8867-033e35b55a02",
-    "image": "965ccae7-d3ba-424c-8867-033e35b55a02.jpg"
+    "image": "965ccae7-d3ba-424c-8867-033e35b55a02.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL5-007",
@@ -173,7 +179,8 @@
     "Set Name": "020 - Starter - Vampiric Hunger",
     "Set Code": "SDL5",
     "id": "37bf1892-4cc4-4a8b-b854-23ed3dcc74aa",
-    "image": "37bf1892-4cc4-4a8b-b854-23ed3dcc74aa.jpg"
+    "image": "37bf1892-4cc4-4a8b-b854-23ed3dcc74aa.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDL5-008",
@@ -195,7 +202,8 @@
     "Set Name": "020 - Starter - Vampiric Hunger",
     "Set Code": "SDL5",
     "id": "9a2a41f5-199d-4769-9df0-e44fcdb67681",
-    "image": "9a2a41f5-199d-4769-9df0-e44fcdb67681.jpg"
+    "image": "9a2a41f5-199d-4769-9df0-e44fcdb67681.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDL5-009",
@@ -217,7 +225,8 @@
     "Set Name": "020 - Starter - Vampiric Hunger",
     "Set Code": "SDL5",
     "id": "25f0efcf-3a1b-488b-a5cd-55a8be425d0d",
-    "image": "25f0efcf-3a1b-488b-a5cd-55a8be425d0d.jpg"
+    "image": "25f0efcf-3a1b-488b-a5cd-55a8be425d0d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL5-010",
@@ -239,7 +248,8 @@
     "Set Name": "020 - Starter - Vampiric Hunger",
     "Set Code": "SDL5",
     "id": "fb7b4271-026d-4396-9a03-d98c53e6fbaa",
-    "image": "fb7b4271-026d-4396-9a03-d98c53e6fbaa.jpg"
+    "image": "fb7b4271-026d-4396-9a03-d98c53e6fbaa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL5-011",
@@ -261,7 +271,8 @@
     "Set Name": "020 - Starter - Vampiric Hunger",
     "Set Code": "SDL5",
     "id": "39fc2b61-d6ba-41af-b9f3-1eaede42398c",
-    "image": "39fc2b61-d6ba-41af-b9f3-1eaede42398c.jpg"
+    "image": "39fc2b61-d6ba-41af-b9f3-1eaede42398c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL5-012",
@@ -283,6 +294,7 @@
     "Set Name": "020 - Starter - Vampiric Hunger",
     "Set Code": "SDL5",
     "id": "64f43840-de09-4472-b6ee-b017a4d70a54",
-    "image": "64f43840-de09-4472-b6ee-b017a4d70a54.jpg"
+    "image": "64f43840-de09-4472-b6ee-b017a4d70a54.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

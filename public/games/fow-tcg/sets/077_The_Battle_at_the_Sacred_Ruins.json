@@ -1,14 +1,14 @@
 [
   {
-    "Card Number": "TSR-001",
-    "name": "Alex Sansta, Traveling Princess",
-    "Type": "Ruler",
-    "Race": "Human|Moon Princess|Moon Technology",
+    "Card Number": "TSR-001|TSR-001J",
+    "name": "Alex Sansta, Traveling Princess // Thir'ahmh, Hound of Eternity",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Moon Princess|Moon Technology|Cthulhu|Moon Princess|Moon Technology",
     "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "At the beginning of the game ]]] You gain 1000 life.\n{Rest}: Target non-token resonator you control gains [Protect] until end of game. (As a J/resonator your opponent controls attacks, you may rest this card. If you do, this card becomes the attacked object of this battle.)\n[Solo Mode]\nNon-token resonators you control gain [Protect] until end of game as they enter the field.\n[Judgment] {U}{B}, stack an entity you control named \"Green Jade Amulet of Jhrelth\" face up below this card.",
+    "Colour": "W|U|B",
+    "ATK": "1800",
+    "DEF": "2200",
+    "Abilities": "At the beginning of the game ]]] You gain 1000 life.\n{Rest}: Target non-token resonator you control gains [Protect] until end of game. (As a J/resonator your opponent controls attacks, you may rest this card. If you do, this card becomes the attacked object of this battle.)\n[Solo Mode]\nNon-token resonators you control gain [Protect] until end of game as they enter the field.\n[Judgment] {U}{B}, stack an entity you control named \"Green Jade Amulet of Jhrelth\" face up below this card.|[Limit] (5) (As this card enters the field, put 5 limit counters on it. Whenever this card attacks or blocks ]]] Remove a limit counter from it.)\n[Bloodlust]\n[Pierce]\n[Bane]\nYour opponent must attack this card if able.\nIf there are no limit counters on this card, you lose the game.\nThis card can attack up to two times during your main phase.\nWhenever damage is dealt to this card ]]] Remove a limit counter from it.\nWhenever this card attacks ]]] Recover it. Search your deck for a card with \"Thir'ahmh\" in its name and put it into the field, then shuffle your deck. This ability triggers only once per turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "\"I love the sky! It's so blue!\"",
@@ -19,29 +19,30 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "af90ccbd-5581-4fdd-a651-c2fd0a4a857e",
-    "image": "af90ccbd-5581-4fdd-a651-c2fd0a4a857e.jpg"
-  },
-  {
-    "Card Number": "TSR-001J",
-    "name": "Thir'ahmh, Hound of Eternity",
-    "Type": "J-Ruler",
-    "Race": "Cthulhu|Moon Princess|Moon Technology",
-    "Cost": "",
-    "Colour": "U|B",
-    "ATK": "1800",
-    "DEF": "2200",
-    "Abilities": "[Limit] (5) (As this card enters the field, put 5 limit counters on it. Whenever this card attacks or blocks ]]] Remove a limit counter from it.)\n[Bloodlust]\n[Pierce]\n[Bane]\nYour opponent must attack this card if able.\nIf there are no limit counters on this card, you lose the game.\nThis card can attack up to two times during your main phase.\nWhenever damage is dealt to this card ]]] Remove a limit counter from it.\nWhenever this card attacks ]]] Recover it. Search your deck for a card with \"Thir'ahmh\" in its name and put it into the field, then shuffle your deck. This ability triggers only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Kazue Saitou",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "077 - The Battle at the Sacred Ruins",
-    "Set Code": "TSR",
-    "id": "cc3a1c7c-67ff-46d6-a832-ece3d436f240",
-    "image": "cc3a1c7c-67ff-46d6-a832-ece3d436f240.jpg"
+    "image": "af90ccbd-5581-4fdd-a651-c2fd0a4a857e.jpg",
+    "Card Type": "Ruler",
+    "backimage": "cc3a1c7c-67ff-46d6-a832-ece3d436f240.jpg",
+    "alternate1_Card Number": "TSR-001J",
+    "alternate1_name": "Thir'ahmh, Hound of Eternity",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Cthulhu|Moon Princess|Moon Technology",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U|B",
+    "alternate1_ATK": "1800",
+    "alternate1_DEF": "2200",
+    "alternate1_Abilities": "[Limit] (5) (As this card enters the field, put 5 limit counters on it. Whenever this card attacks or blocks ]]] Remove a limit counter from it.)\n[Bloodlust]\n[Pierce]\n[Bane]\nYour opponent must attack this card if able.\nIf there are no limit counters on this card, you lose the game.\nThis card can attack up to two times during your main phase.\nWhenever damage is dealt to this card ]]] Remove a limit counter from it.\nWhenever this card attacks ]]] Recover it. Search your deck for a card with \"Thir'ahmh\" in its name and put it into the field, then shuffle your deck. This ability triggers only once per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Kazue Saitou",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "077 - The Battle at the Sacred Ruins",
+    "alternate1_Set Code": "TSR",
+    "alternate1_id": "cc3a1c7c-67ff-46d6-a832-ece3d436f240",
+    "alternate1_image": "cc3a1c7c-67ff-46d6-a832-ece3d436f240.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSR-002",
@@ -63,7 +64,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "2a37d4f2-f24f-4196-a8fb-1a8d9d26001e",
-    "image": "2a37d4f2-f24f-4196-a8fb-1a8d9d26001e.jpg"
+    "image": "2a37d4f2-f24f-4196-a8fb-1a8d9d26001e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-003",
@@ -85,7 +87,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "e8141452-39e5-4488-b74a-ffec725a89ec",
-    "image": "e8141452-39e5-4488-b74a-ffec725a89ec.jpg"
+    "image": "e8141452-39e5-4488-b74a-ffec725a89ec.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-004",
@@ -107,18 +110,19 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "3033ad26-8b06-4161-accb-b55f17ae1472",
-    "image": "3033ad26-8b06-4161-accb-b55f17ae1472.jpg"
+    "image": "3033ad26-8b06-4161-accb-b55f17ae1472.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TSR-005",
-    "name": "Makoto Cloth Corps' Martial Artist, Mi Sung",
-    "Type": "Ruler",
+    "Card Number": "TSR-005|TSR-005J",
+    "name": "Makoto Cloth Corps' Martial Artist, Mi Sung // Mi Sung, True Believer",
+    "Type": "Ruler|J-Ruler",
     "Race": "Monk|Taoist",
     "Cost": "",
     "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "This card gains the following abilities based on the number of instances of «Mantra» this card has;\n- 2 or more - {W}: Search your deck for a Martial Art chant, reveal it and put it into your hand, then shuffle your deck. Play this ability only once per turn.\n- 3 or more - [Judgment] {W}{1}\n[Solo Mode]\nMartial Art chant spells you control cannot be targeted.\nAt the beginning of the game ]]] Search your deck for a card named \"Om, Song of the Six Beliefs\" and play it without paying its cost, then shuffle your deck.\n{W}: Destroy target addition or regalia.",
+    "ATK": "800",
+    "DEF": "800",
+    "Abilities": "This card gains the following abilities based on the number of instances of «Mantra» this card has;\n- 2 or more - {W}: Search your deck for a Martial Art chant, reveal it and put it into your hand, then shuffle your deck. Play this ability only once per turn.\n- 3 or more - [Judgment] {W}{1}\n[Solo Mode]\nMartial Art chant spells you control cannot be targeted.\nAt the beginning of the game ]]] Search your deck for a card named \"Om, Song of the Six Beliefs\" and play it without paying its cost, then shuffle your deck.\n{W}: Destroy target addition or regalia.|This card gains the following abilities based on the number of instances of «Mantra» this card has;\n- 4 or more - [Eternal] [Imperishable]\n- 5 or more - You gain \"If more than 900 damage would be dealt to you, 900 damage is dealt to you instead.\".\n[Solo Mode]\nGod's Art [Om of the End] {W}: This card gains \"Attacking doesnt' cause this card to rest.\" and \"This card can attack up to six times during your main phase.\" until end of turn. Play this ability only if the combined number of instances of «Mantra» J/rulers you control have is 6.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -129,29 +133,30 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "28a10bb3-4279-4124-83c9-066585a5e2fb",
-    "image": "28a10bb3-4279-4124-83c9-066585a5e2fb.jpg"
-  },
-  {
-    "Card Number": "TSR-005J",
-    "name": "Mi Sung, True Believer",
-    "Type": "J-Ruler",
-    "Race": "Monk|Taoist",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "This card gains the following abilities based on the number of instances of «Mantra» this card has;\n- 4 or more - [Eternal] [Imperishable]\n- 5 or more - You gain \"If more than 900 damage would be dealt to you, 900 damage is dealt to you instead.\".\n[Solo Mode]\nGod's Art [Om of the End] {W}: This card gains \"Attacking doesnt' cause this card to rest.\" and \"This card can attack up to six times during your main phase.\" until end of turn. Play this ability only if the combined number of instances of «Mantra» J/rulers you control have is 6.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "IWAO",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "077 - The Battle at the Sacred Ruins",
-    "Set Code": "TSR",
-    "id": "7c512cb0-d437-4333-b780-cc5b54fc3685",
-    "image": "7c512cb0-d437-4333-b780-cc5b54fc3685.jpg"
+    "image": "28a10bb3-4279-4124-83c9-066585a5e2fb.jpg",
+    "Card Type": "Ruler",
+    "backimage": "7c512cb0-d437-4333-b780-cc5b54fc3685.jpg",
+    "alternate1_Card Number": "TSR-005J",
+    "alternate1_name": "Mi Sung, True Believer",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Monk|Taoist",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "This card gains the following abilities based on the number of instances of «Mantra» this card has;\n- 4 or more - [Eternal] [Imperishable]\n- 5 or more - You gain \"If more than 900 damage would be dealt to you, 900 damage is dealt to you instead.\".\n[Solo Mode]\nGod's Art [Om of the End] {W}: This card gains \"Attacking doesnt' cause this card to rest.\" and \"This card can attack up to six times during your main phase.\" until end of turn. Play this ability only if the combined number of instances of «Mantra» J/rulers you control have is 6.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "IWAO",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "077 - The Battle at the Sacred Ruins",
+    "alternate1_Set Code": "TSR",
+    "alternate1_id": "7c512cb0-d437-4333-b780-cc5b54fc3685",
+    "alternate1_image": "7c512cb0-d437-4333-b780-cc5b54fc3685.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSR-006",
@@ -173,7 +178,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "30502e6c-75a0-4bfe-88b9-af7fba7ecce4",
-    "image": "30502e6c-75a0-4bfe-88b9-af7fba7ecce4.jpg"
+    "image": "30502e6c-75a0-4bfe-88b9-af7fba7ecce4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-007",
@@ -195,7 +201,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "804e8fa2-910d-47c1-9a98-2c1ed618523e",
-    "image": "804e8fa2-910d-47c1-9a98-2c1ed618523e.jpg"
+    "image": "804e8fa2-910d-47c1-9a98-2c1ed618523e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-008",
@@ -217,7 +224,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "c05a03b6-c626-44e1-9c2d-d1bea02d7472",
-    "image": "c05a03b6-c626-44e1-9c2d-d1bea02d7472.jpg"
+    "image": "c05a03b6-c626-44e1-9c2d-d1bea02d7472.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-009",
@@ -239,7 +247,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "20a170ef-a4c8-480f-b5fb-485620c43dcf",
-    "image": "20a170ef-a4c8-480f-b5fb-485620c43dcf.jpg"
+    "image": "20a170ef-a4c8-480f-b5fb-485620c43dcf.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSR-010",
@@ -261,7 +270,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "2eff32ec-686f-4ff9-acf6-563de874de80",
-    "image": "2eff32ec-686f-4ff9-acf6-563de874de80.jpg"
+    "image": "2eff32ec-686f-4ff9-acf6-563de874de80.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-011",
@@ -283,7 +293,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "fe8a75be-5895-4de5-b8b7-3b54911697c1",
-    "image": "fe8a75be-5895-4de5-b8b7-3b54911697c1.jpg"
+    "image": "fe8a75be-5895-4de5-b8b7-3b54911697c1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-012",
@@ -305,7 +316,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "31d4c6f1-caf9-44fb-9db1-02b540975833",
-    "image": "31d4c6f1-caf9-44fb-9db1-02b540975833.jpg"
+    "image": "31d4c6f1-caf9-44fb-9db1-02b540975833.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-013",
@@ -327,7 +339,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "86380017-8160-4824-885d-c47255ddaf3f",
-    "image": "86380017-8160-4824-885d-c47255ddaf3f.jpg"
+    "image": "86380017-8160-4824-885d-c47255ddaf3f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-014",
@@ -349,7 +362,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "556dbab7-25fd-4662-aa35-ec6ab04f41cd",
-    "image": "556dbab7-25fd-4662-aa35-ec6ab04f41cd.jpg"
+    "image": "556dbab7-25fd-4662-aa35-ec6ab04f41cd.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-015",
@@ -371,7 +385,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "8b2b2381-e4a9-4c01-b7d2-8e723680407c",
-    "image": "8b2b2381-e4a9-4c01-b7d2-8e723680407c.jpg"
+    "image": "8b2b2381-e4a9-4c01-b7d2-8e723680407c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-016",
@@ -393,7 +408,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "ee0e013b-464b-49d7-b8b8-6b34fe64c6eb",
-    "image": "ee0e013b-464b-49d7-b8b8-6b34fe64c6eb.jpg"
+    "image": "ee0e013b-464b-49d7-b8b8-6b34fe64c6eb.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-017",
@@ -415,7 +431,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "625ba14e-48ef-4090-86ab-e6876d527f07",
-    "image": "625ba14e-48ef-4090-86ab-e6876d527f07.jpg"
+    "image": "625ba14e-48ef-4090-86ab-e6876d527f07.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-018",
@@ -437,7 +454,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "dbda9658-c606-4434-9d40-1540679a6bfc",
-    "image": "dbda9658-c606-4434-9d40-1540679a6bfc.jpg"
+    "image": "dbda9658-c606-4434-9d40-1540679a6bfc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-019",
@@ -459,7 +477,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "0a24bdc9-ccd6-4805-9bf0-1d946d1f8fa6",
-    "image": "0a24bdc9-ccd6-4805-9bf0-1d946d1f8fa6.jpg"
+    "image": "0a24bdc9-ccd6-4805-9bf0-1d946d1f8fa6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-020",
@@ -481,18 +500,19 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "7668234d-c09b-4fe8-b6b3-8acfc70f0f47",
-    "image": "7668234d-c09b-4fe8-b6b3-8acfc70f0f47.jpg"
+    "image": "7668234d-c09b-4fe8-b6b3-8acfc70f0f47.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TSR-021",
-    "name": "Leader of the Skulk, Bianchi",
-    "Type": "Ruler",
-    "Race": "Warrior|Werefox",
+    "Card Number": "TSR-021|TSR-021J",
+    "name": "Leader of the Skulk, Bianchi // Bianchi, Biker Gang Maniac",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Warrior|Werefox|Machine|Warrior|Werefox",
     "Cost": "",
     "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "As a non-Machine J/resonator enters the field, put a [-100/-100] counter on it if its controller's weather is pollution.\nAt the beginning of the game ]]] Put a fire Machine addition with total cost 1 from your hand into the field. Players cannot chase to this ability.\n[Judgment] {R}{R}\n[Solo Mode]\nEach player's weather is pollution.",
+    "ATK": "900",
+    "DEF": "800",
+    "Abilities": "As a non-Machine J/resonator enters the field, put a [-100/-100] counter on it if its controller's weather is pollution.\nAt the beginning of the game ]]] Put a fire Machine addition with total cost 1 from your hand into the field. Players cannot chase to this ability.\n[Judgment] {R}{R}\n[Solo Mode]\nEach player's weather is pollution.|[Belligerence]\nAs a non-Machine J/resonator enters the field, put two [-100/-100] counters on it if its controller's weather is pollution.\n[Enter] ]]] Fire Machine, Werefox J/resonators you control gain [+X00/0] until end of turn, where X is the number of Machine entities you control.\n[Solo Mode]\nYour opponent's weather is pollution.\n[Enter] ]]] Put a non-chant card with \"Biker Gang\" in its name from your hand into the field. It gains \"At the next end of turn ]]] Return this card to its owner's hand.\" until end of game.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "He has traveled far to help his friend Alex and nothing is going to stop him to do so. Their bonds of friendship are so deep that, no matter what happens, he will always remain by her side.",
@@ -503,40 +523,41 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "3c78a5dc-c93e-44a5-a0c1-b52d5696df83",
-    "image": "3c78a5dc-c93e-44a5-a0c1-b52d5696df83.jpg"
+    "image": "3c78a5dc-c93e-44a5-a0c1-b52d5696df83.jpg",
+    "Card Type": "Ruler",
+    "backimage": "001cf9e6-bb16-4013-8d7c-f1e89ea46b70.jpg",
+    "alternate1_Card Number": "TSR-021J",
+    "alternate1_name": "Bianchi, Biker Gang Maniac",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Machine|Warrior|Werefox",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Belligerence]\nAs a non-Machine J/resonator enters the field, put two [-100/-100] counters on it if its controller's weather is pollution.\n[Enter] ]]] Fire Machine, Werefox J/resonators you control gain [+X00/0] until end of turn, where X is the number of Machine entities you control.\n[Solo Mode]\nYour opponent's weather is pollution.\n[Enter] ]]] Put a non-chant card with \"Biker Gang\" in its name from your hand into the field. It gains \"At the next end of turn ]]] Return this card to its owner's hand.\" until end of game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "MARUYAMA RUI",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "077 - The Battle at the Sacred Ruins",
+    "alternate1_Set Code": "TSR",
+    "alternate1_id": "001cf9e6-bb16-4013-8d7c-f1e89ea46b70",
+    "alternate1_image": "001cf9e6-bb16-4013-8d7c-f1e89ea46b70.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "TSR-021J",
-    "name": "Bianchi, Biker Gang Maniac",
-    "Type": "J-Ruler",
-    "Race": "Machine|Warrior|Werefox",
+    "Card Number": "TSR-025|TSR-025J",
+    "name": "Second in Command, Kimihe // Kimihe, Biker Gang Strategist",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Strategist|Werefox|Machine|Strategist|Werefox",
     "Cost": "",
     "Colour": "R",
-    "ATK": "900",
+    "ATK": "800",
     "DEF": "800",
-    "Abilities": "[Belligerence]\nAs a non-Machine J/resonator enters the field, put two [-100/-100] counters on it if its controller's weather is pollution.\n[Enter] ]]] Fire Machine, Werefox J/resonators you control gain [+X00/0] until end of turn, where X is the number of Machine entities you control.\n[Solo Mode]\nYour opponent's weather is pollution.\n[Enter] ]]] Put a non-chant card with \"Biker Gang\" in its name from your hand into the field. It gains \"At the next end of turn ]]] Return this card to its owner's hand.\" until end of game.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "MARUYAMA RUI",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "077 - The Battle at the Sacred Ruins",
-    "Set Code": "TSR",
-    "id": "001cf9e6-bb16-4013-8d7c-f1e89ea46b70",
-    "image": "001cf9e6-bb16-4013-8d7c-f1e89ea46b70.jpg"
-  },
-  {
-    "Card Number": "TSR-025",
-    "name": "Second in Command, Kimihe",
-    "Type": "Ruler",
-    "Race": "Strategist|Werefox",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{Rest}: Choose a J/resonator. Put X [-100/-100] counters on the chosen target, where X is two minus the number of [-100/-100] counters on it. Play this ability only during each player's main phase.\n[Judgment] {R}. Play this judgment process only if your weather is pollution.\n[Solo Mode]\nCalling a magic stone does not cause this card to rest.\nGod's Art \"Start the Engines\" {R}{R}: Each player's weather is pollution until end of game. Play this ability only during main timing. Players cannot chase to this ability.",
+    "Abilities": "{Rest}: Choose a J/resonator. Put X [-100/-100] counters on the chosen target, where X is two minus the number of [-100/-100] counters on it. Play this ability only during each player's main phase.\n[Judgment] {R}. Play this judgment process only if your weather is pollution.\n[Solo Mode]\nCalling a magic stone does not cause this card to rest.\nGod's Art \"Start the Engines\" {R}{R}: Each player's weather is pollution until end of game. Play this ability only during main timing. Players cannot chase to this ability.|[Belligerence]\n[Barrier]\nAs a non-Machine J/resonator enters the field, put two [-100/-100] counters on it if its controller's weather is pollution.\nGod's Art \"Furtive Assault!\" {R}{R}: Rest all J/resonators with a [-100/-100] counter on them. Recover all Werefox J/resonators you control.\n[Solo Mode]\nIf damage would be dealt to a J/resonator, put a [-100/-100] counter on that J/resonator for each 100 damage. Apply this effect only if your weather is pollution.\n[Enter] ]]] Put the top card of your magic stone deck into the field.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "\"Let's have some fun!\"",
@@ -547,29 +568,30 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "4fc5b49c-28c0-4f26-95e6-b49f4602dacc",
-    "image": "4fc5b49c-28c0-4f26-95e6-b49f4602dacc.jpg"
-  },
-  {
-    "Card Number": "TSR-025J",
-    "name": "Kimihe, Biker Gang Strategist",
-    "Type": "J-Ruler",
-    "Race": "Machine|Strategist|Werefox",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "[Belligerence]\n[Barrier]\nAs a non-Machine J/resonator enters the field, put two [-100/-100] counters on it if its controller's weather is pollution.\nGod's Art \"Furtive Assault!\" {R}{R}: Rest all J/resonators with a [-100/-100] counter on them. Recover all Werefox J/resonators you control.\n[Solo Mode]\nIf damage would be dealt to a J/resonator, put a [-100/-100] counter on that J/resonator for each 100 damage. Apply this effect only if your weather is pollution.\n[Enter] ]]] Put the top card of your magic stone deck into the field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "fzwrAym",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "077 - The Battle at the Sacred Ruins",
-    "Set Code": "TSR",
-    "id": "f157a17e-ae6b-400a-8031-db675e1e39ef",
-    "image": "f157a17e-ae6b-400a-8031-db675e1e39ef.jpg"
+    "image": "4fc5b49c-28c0-4f26-95e6-b49f4602dacc.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f157a17e-ae6b-400a-8031-db675e1e39ef.jpg",
+    "alternate1_Card Number": "TSR-025J",
+    "alternate1_name": "Kimihe, Biker Gang Strategist",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Machine|Strategist|Werefox",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Belligerence]\n[Barrier]\nAs a non-Machine J/resonator enters the field, put two [-100/-100] counters on it if its controller's weather is pollution.\nGod's Art \"Furtive Assault!\" {R}{R}: Rest all J/resonators with a [-100/-100] counter on them. Recover all Werefox J/resonators you control.\n[Solo Mode]\nIf damage would be dealt to a J/resonator, put a [-100/-100] counter on that J/resonator for each 100 damage. Apply this effect only if your weather is pollution.\n[Enter] ]]] Put the top card of your magic stone deck into the field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "fzwrAym",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "077 - The Battle at the Sacred Ruins",
+    "alternate1_Set Code": "TSR",
+    "alternate1_id": "f157a17e-ae6b-400a-8031-db675e1e39ef",
+    "alternate1_image": "f157a17e-ae6b-400a-8031-db675e1e39ef.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSR-022",
@@ -591,7 +613,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "893a7e7a-da2a-49c6-8354-f711061937a3",
-    "image": "893a7e7a-da2a-49c6-8354-f711061937a3.jpg"
+    "image": "893a7e7a-da2a-49c6-8354-f711061937a3.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSR-023",
@@ -613,7 +636,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "2c50773f-8509-4bf6-a436-d07c85b4b9ca",
-    "image": "2c50773f-8509-4bf6-a436-d07c85b4b9ca.jpg"
+    "image": "2c50773f-8509-4bf6-a436-d07c85b4b9ca.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSR-024",
@@ -635,7 +659,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "49d27685-12a0-4179-be25-119b44903f50",
-    "image": "49d27685-12a0-4179-be25-119b44903f50.jpg"
+    "image": "49d27685-12a0-4179-be25-119b44903f50.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-026",
@@ -657,7 +682,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "5d818724-884e-4d7b-9a69-862821f5affd",
-    "image": "5d818724-884e-4d7b-9a69-862821f5affd.jpg"
+    "image": "5d818724-884e-4d7b-9a69-862821f5affd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-027",
@@ -679,7 +705,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "461b7ac7-811b-4eed-b37c-54e797c8dc29",
-    "image": "461b7ac7-811b-4eed-b37c-54e797c8dc29.jpg"
+    "image": "461b7ac7-811b-4eed-b37c-54e797c8dc29.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-028",
@@ -701,7 +728,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "07810b56-72ab-4f35-90e5-22dc833d9ee2",
-    "image": "07810b56-72ab-4f35-90e5-22dc833d9ee2.jpg"
+    "image": "07810b56-72ab-4f35-90e5-22dc833d9ee2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-029",
@@ -723,7 +751,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "b9c0d5e7-98fc-4b08-9a6f-53765c885e09",
-    "image": "b9c0d5e7-98fc-4b08-9a6f-53765c885e09.jpg"
+    "image": "b9c0d5e7-98fc-4b08-9a6f-53765c885e09.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-030",
@@ -745,7 +774,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "871c19f2-9c23-4c4f-8ac9-b443b3a8c668",
-    "image": "871c19f2-9c23-4c4f-8ac9-b443b3a8c668.jpg"
+    "image": "871c19f2-9c23-4c4f-8ac9-b443b3a8c668.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSR-031",
@@ -767,7 +797,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "4a56d076-851f-44d3-9ceb-d15a75cc672c",
-    "image": "4a56d076-851f-44d3-9ceb-d15a75cc672c.jpg"
+    "image": "4a56d076-851f-44d3-9ceb-d15a75cc672c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-032",
@@ -789,7 +820,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "5e4f6ae4-1807-421b-a352-3fbc54fd0249",
-    "image": "5e4f6ae4-1807-421b-a352-3fbc54fd0249.jpg"
+    "image": "5e4f6ae4-1807-421b-a352-3fbc54fd0249.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-033",
@@ -811,7 +843,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "bfee1bbe-428d-4591-ad1c-15687618fff2",
-    "image": "bfee1bbe-428d-4591-ad1c-15687618fff2.jpg"
+    "image": "bfee1bbe-428d-4591-ad1c-15687618fff2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-034",
@@ -833,7 +866,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "20cf4796-93ef-45bd-9457-a9520a7a51d6",
-    "image": "20cf4796-93ef-45bd-9457-a9520a7a51d6.jpg"
+    "image": "20cf4796-93ef-45bd-9457-a9520a7a51d6.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-035",
@@ -855,7 +889,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "d1f3e575-a61f-4a26-a391-a8ffb33a7cb0",
-    "image": "d1f3e575-a61f-4a26-a391-a8ffb33a7cb0.jpg"
+    "image": "d1f3e575-a61f-4a26-a391-a8ffb33a7cb0.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-036",
@@ -877,7 +912,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "b56a6a94-96da-470d-a4c1-325bca5746e1",
-    "image": "b56a6a94-96da-470d-a4c1-325bca5746e1.jpg"
+    "image": "b56a6a94-96da-470d-a4c1-325bca5746e1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-037",
@@ -899,7 +935,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "bc7df33c-3fb6-48a9-b3de-489cd4f0bb68",
-    "image": "bc7df33c-3fb6-48a9-b3de-489cd4f0bb68.jpg"
+    "image": "bc7df33c-3fb6-48a9-b3de-489cd4f0bb68.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-038",
@@ -921,7 +958,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "4dc707d1-195f-4a3f-a57b-ad32b1edfbd8",
-    "image": "4dc707d1-195f-4a3f-a57b-ad32b1edfbd8.jpg"
+    "image": "4dc707d1-195f-4a3f-a57b-ad32b1edfbd8.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSR-039",
@@ -943,7 +981,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "afecde52-8660-45e5-8e07-9c6225e77bd0",
-    "image": "afecde52-8660-45e5-8e07-9c6225e77bd0.jpg"
+    "image": "afecde52-8660-45e5-8e07-9c6225e77bd0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-040",
@@ -965,7 +1004,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "682c052f-6cc8-4570-854a-423dcac6c5b2",
-    "image": "682c052f-6cc8-4570-854a-423dcac6c5b2.jpg"
+    "image": "682c052f-6cc8-4570-854a-423dcac6c5b2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-041",
@@ -987,18 +1027,19 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "a96e3aad-e631-4dc1-991b-499a76704589",
-    "image": "a96e3aad-e631-4dc1-991b-499a76704589.jpg"
+    "image": "a96e3aad-e631-4dc1-991b-499a76704589.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TSR-042",
-    "name": "Student Detective League's Star, Zacky",
-    "Type": "Ruler",
+    "Card Number": "TSR-042|TSR-042J",
+    "name": "Student Detective League's Star, Zacky // Zacky, Detective Archeologist Prodigy",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human|Student",
     "Cost": "",
     "Colour": "U",
     "ATK": "",
     "DEF": "",
-    "Abilities": "You may play the judgment process of rulers you control while they are rested.\nWhenever you play a card with [Investigate] ]]] Gain a water clue.\n[Judgment] {U}. Play this judgment process only if you control seven or more clues.\n[Solo Mode]\nBefore the game starts, you may mulligan up to twice instead of once.\nYou may play cards with [Investigate] as though they had [Quickcast].",
+    "Abilities": "You may play the judgment process of rulers you control while they are rested.\nWhenever you play a card with [Investigate] ]]] Gain a water clue.\n[Judgment] {U}. Play this judgment process only if you control seven or more clues.\n[Solo Mode]\nBefore the game starts, you may mulligan up to twice instead of once.\nYou may play cards with [Investigate] as though they had [Quickcast].|[Imperishable]\n[Barrier]\nYour opponent plays with their hand revealed as long as you control ten or more clues.\nWhenever you play a card with [Investigate] ]]] Gain two water clues.\n[Solo Mode]\nWhenever your opponent plays a spell ]]] If you control fifteen or more clues, banish a clue, then draw a card. This ability triggers only once per turn.\nGod's Art \"Mystery Solved\" {U}, banish twenty clues: You win the game.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "\"Do you want to hire me? I'm sorry, I'm... too busy... what? The ruins? THOSE ruins? A secret to discover? Come on, we're wasting time! Hurry up, let's go!\"",
@@ -1009,29 +1050,30 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "3dc26961-40a3-421b-9738-202e0ba56bc9",
-    "image": "3dc26961-40a3-421b-9738-202e0ba56bc9.jpg"
-  },
-  {
-    "Card Number": "TSR-042J",
-    "name": "Zacky, Detective Archeologist Prodigy",
-    "Type": "J-Ruler",
-    "Race": "Human|Student",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Imperishable]\n[Barrier]\nYour opponent plays with their hand revealed as long as you control ten or more clues.\nWhenever you play a card with [Investigate] ]]] Gain two water clues.\n[Solo Mode]\nWhenever your opponent plays a spell ]]] If you control fifteen or more clues, banish a clue, then draw a card. This ability triggers only once per turn.\nGod's Art \"Mystery Solved\" {U}, banish twenty clues: You win the game.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Wednesday",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "077 - The Battle at the Sacred Ruins",
-    "Set Code": "TSR",
-    "id": "d73efdfc-bd48-4f65-92e4-d3a80f8966dc",
-    "image": "d73efdfc-bd48-4f65-92e4-d3a80f8966dc.jpg"
+    "image": "3dc26961-40a3-421b-9738-202e0ba56bc9.jpg",
+    "Card Type": "Ruler",
+    "backimage": "d73efdfc-bd48-4f65-92e4-d3a80f8966dc.jpg",
+    "alternate1_Card Number": "TSR-042J",
+    "alternate1_name": "Zacky, Detective Archeologist Prodigy",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human|Student",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Imperishable]\n[Barrier]\nYour opponent plays with their hand revealed as long as you control ten or more clues.\nWhenever you play a card with [Investigate] ]]] Gain two water clues.\n[Solo Mode]\nWhenever your opponent plays a spell ]]] If you control fifteen or more clues, banish a clue, then draw a card. This ability triggers only once per turn.\nGod's Art \"Mystery Solved\" {U}, banish twenty clues: You win the game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Wednesday",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "077 - The Battle at the Sacred Ruins",
+    "alternate1_Set Code": "TSR",
+    "alternate1_id": "d73efdfc-bd48-4f65-92e4-d3a80f8966dc",
+    "alternate1_image": "d73efdfc-bd48-4f65-92e4-d3a80f8966dc.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSR-043",
@@ -1053,7 +1095,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "5745c6fa-85aa-4837-b1a0-a0fe0678cdd4",
-    "image": "5745c6fa-85aa-4837-b1a0-a0fe0678cdd4.jpg"
+    "image": "5745c6fa-85aa-4837-b1a0-a0fe0678cdd4.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSR-044",
@@ -1075,7 +1118,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "95717aa1-7fd3-4b14-a597-c1a85d878d10",
-    "image": "95717aa1-7fd3-4b14-a597-c1a85d878d10.jpg"
+    "image": "95717aa1-7fd3-4b14-a597-c1a85d878d10.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-045",
@@ -1097,7 +1141,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "cb70c712-3fd7-4e5f-9391-608ff062fe3c",
-    "image": "cb70c712-3fd7-4e5f-9391-608ff062fe3c.jpg"
+    "image": "cb70c712-3fd7-4e5f-9391-608ff062fe3c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-046",
@@ -1119,7 +1164,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "681df4d8-1b1b-4a40-a6d7-6e46281189bb",
-    "image": "681df4d8-1b1b-4a40-a6d7-6e46281189bb.jpg"
+    "image": "681df4d8-1b1b-4a40-a6d7-6e46281189bb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-047",
@@ -1141,21 +1187,22 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "e67b0209-53d4-479a-b504-ab039257be11",
-    "image": "e67b0209-53d4-479a-b504-ab039257be11.jpg"
+    "image": "e67b0209-53d4-479a-b504-ab039257be11.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TSR-048",
-    "name": "Goliath HANADA",
-    "Type": "Ruler",
-    "Race": "Ancient|HANADA",
+    "Card Number": "TSR-048|TSR-048J",
+    "name": "Goliath HANADA // Goliath, HANADA Corps' CEO",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Ancient|HANADA|Ancient|HANADA|Overlord",
     "Cost": "",
     "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "At the beginning of the game ]]] Put a card named \"HANADA Corps' CEO's Skyscraper\" from your hand into the field. If you do, banish all will coins.\nThis card gains the following abilities as long as you have «Build» or «Demolish»;\n- «Build» - Whenever a HANADA entity enters the field ]]] Foresee 1.\n- «Demolish» - Non-Automaton, non-HANADA J/resonators enter the field rested.\n[Judgment] {G}{1}. Play this judgment process only if you control a HANADA regalia.",
+    "ATK": "900",
+    "DEF": "900",
+    "Abilities": "At the beginning of the game ]]] Put a card named \"HANADA Corps' CEO's Skyscraper\" from your hand into the field. If you do, banish all will coins.\nThis card gains the following abilities as long as you have «Build» or «Demolish»;\n- «Build» - Whenever a HANADA entity enters the field ]]] Foresee 1.\n- «Demolish» - Non-Automaton, non-HANADA J/resonators enter the field rested.\n[Judgment] {G}{1}. Play this judgment process only if you control a HANADA regalia.|[Precision]\n[Barrier] (Total cost 1 or less)\nThis card gains the following abilities as long as you have «Build» or «Demolish»;\n- «Build» - HANADA resonators you control gain [+300/+300].\n- «Demolish» - Whenever an Automaton entiey enters the field under your control ]]] Draw a card.\n[Enter] ]]] Search your deck for a card with \"Goliath\" in its name and for a card with \"Maeda\" in its name, reveal them and put the first card revealed this way into your hand and the other into the field, then shuffle your deck.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Yokoshima HANADA's direct descendant has built an empire in his name.",
+    "Flavour": "Yokoshima HANADA's direct descendant has built an empire in his name.|\"The HANADA ancestors will be proud of me.\"",
     "Artist": "Moopic",
     "Rarity": "R",
     "Fowid": "",
@@ -1163,29 +1210,30 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "017960df-3292-4ab7-83e7-6f9898fd1e52",
-    "image": "017960df-3292-4ab7-83e7-6f9898fd1e52.jpg"
-  },
-  {
-    "Card Number": "TSR-048J",
-    "name": "Goliath, HANADA Corps' CEO",
-    "Type": "J-Ruler",
-    "Race": "Ancient|HANADA|Overlord",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "900",
-    "DEF": "900",
-    "Abilities": "[Precision]\n[Barrier] (Total cost 1 or less)\nThis card gains the following abilities as long as you have «Build» or «Demolish»;\n- «Build» - HANADA resonators you control gain [+300/+300].\n- «Demolish» - Whenever an Automaton entiey enters the field under your control ]]] Draw a card.\n[Enter] ]]] Search your deck for a card with \"Goliath\" in its name and for a card with \"Maeda\" in its name, reveal them and put the first card revealed this way into your hand and the other into the field, then shuffle your deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"The HANADA ancestors will be proud of me.\"",
-    "Artist": "Moopic",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "077 - The Battle at the Sacred Ruins",
-    "Set Code": "TSR",
-    "id": "bcfac395-f2c7-42c3-bd38-b4907e5883e4",
-    "image": "bcfac395-f2c7-42c3-bd38-b4907e5883e4.jpg"
+    "image": "017960df-3292-4ab7-83e7-6f9898fd1e52.jpg",
+    "Card Type": "Ruler",
+    "backimage": "bcfac395-f2c7-42c3-bd38-b4907e5883e4.jpg",
+    "alternate1_Card Number": "TSR-048J",
+    "alternate1_name": "Goliath, HANADA Corps' CEO",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Ancient|HANADA|Overlord",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "[Precision]\n[Barrier] (Total cost 1 or less)\nThis card gains the following abilities as long as you have «Build» or «Demolish»;\n- «Build» - HANADA resonators you control gain [+300/+300].\n- «Demolish» - Whenever an Automaton entiey enters the field under your control ]]] Draw a card.\n[Enter] ]]] Search your deck for a card with \"Goliath\" in its name and for a card with \"Maeda\" in its name, reveal them and put the first card revealed this way into your hand and the other into the field, then shuffle your deck.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"The HANADA ancestors will be proud of me.\"",
+    "alternate1_Artist": "Moopic",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "077 - The Battle at the Sacred Ruins",
+    "alternate1_Set Code": "TSR",
+    "alternate1_id": "bcfac395-f2c7-42c3-bd38-b4907e5883e4",
+    "alternate1_image": "bcfac395-f2c7-42c3-bd38-b4907e5883e4.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSR-049",
@@ -1207,7 +1255,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "ce05f6f4-83c7-45d5-ad83-557d1706d1f6",
-    "image": "ce05f6f4-83c7-45d5-ad83-557d1706d1f6.jpg"
+    "image": "ce05f6f4-83c7-45d5-ad83-557d1706d1f6.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TSR-050",
@@ -1229,7 +1278,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "df186949-fcb9-4f96-90f4-67b1f2dfb6ba",
-    "image": "df186949-fcb9-4f96-90f4-67b1f2dfb6ba.jpg"
+    "image": "df186949-fcb9-4f96-90f4-67b1f2dfb6ba.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-051",
@@ -1251,7 +1301,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "1a991a26-8fc4-4560-bc39-b464b706065a",
-    "image": "1a991a26-8fc4-4560-bc39-b464b706065a.jpg"
+    "image": "1a991a26-8fc4-4560-bc39-b464b706065a.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-052",
@@ -1273,7 +1324,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "83e98155-4048-40b9-8513-e0fb2a72f01c",
-    "image": "83e98155-4048-40b9-8513-e0fb2a72f01c.jpg"
+    "image": "83e98155-4048-40b9-8513-e0fb2a72f01c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-053",
@@ -1295,7 +1347,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "2bca29f3-aa33-42ac-b3d8-0d7937dcfe35",
-    "image": "2bca29f3-aa33-42ac-b3d8-0d7937dcfe35.jpg"
+    "image": "2bca29f3-aa33-42ac-b3d8-0d7937dcfe35.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-054",
@@ -1317,7 +1370,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "3f9227aa-c2af-4e69-927f-8a38c524efed",
-    "image": "3f9227aa-c2af-4e69-927f-8a38c524efed.jpg"
+    "image": "3f9227aa-c2af-4e69-927f-8a38c524efed.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-055",
@@ -1339,7 +1393,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "35b1297e-1d60-4c1c-b1a0-01edf3de065b",
-    "image": "35b1297e-1d60-4c1c-b1a0-01edf3de065b.jpg"
+    "image": "35b1297e-1d60-4c1c-b1a0-01edf3de065b.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSR-056",
@@ -1361,7 +1416,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "df36e20c-cd3f-4d53-82ac-48fee8823807",
-    "image": "df36e20c-cd3f-4d53-82ac-48fee8823807.jpg"
+    "image": "df36e20c-cd3f-4d53-82ac-48fee8823807.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-057",
@@ -1383,7 +1439,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "46e2ba9b-b968-45a6-bac3-da29d16345c5",
-    "image": "46e2ba9b-b968-45a6-bac3-da29d16345c5.jpg"
+    "image": "46e2ba9b-b968-45a6-bac3-da29d16345c5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-058",
@@ -1405,7 +1462,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "0faac0a6-b6b9-4d25-8f73-c16cd0746e32",
-    "image": "0faac0a6-b6b9-4d25-8f73-c16cd0746e32.jpg"
+    "image": "0faac0a6-b6b9-4d25-8f73-c16cd0746e32.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-059",
@@ -1427,7 +1485,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "6dcb80a3-0b6c-4901-b981-4daf7af8f820",
-    "image": "6dcb80a3-0b6c-4901-b981-4daf7af8f820.jpg"
+    "image": "6dcb80a3-0b6c-4901-b981-4daf7af8f820.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-060",
@@ -1449,7 +1508,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "5ba5b31e-9ff8-4245-b0e5-9d3aa078400c",
-    "image": "5ba5b31e-9ff8-4245-b0e5-9d3aa078400c.jpg"
+    "image": "5ba5b31e-9ff8-4245-b0e5-9d3aa078400c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-061",
@@ -1471,7 +1531,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "4c9fdbba-e670-47f8-964e-4c3f45b30a1b",
-    "image": "4c9fdbba-e670-47f8-964e-4c3f45b30a1b.jpg"
+    "image": "4c9fdbba-e670-47f8-964e-4c3f45b30a1b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-062",
@@ -1493,18 +1554,19 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "bb548049-4d81-4e09-825f-a0e0cd92cef8",
-    "image": "bb548049-4d81-4e09-825f-a0e0cd92cef8.jpg"
+    "image": "bb548049-4d81-4e09-825f-a0e0cd92cef8.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TSR-063",
-    "name": "Aideen, the Fighting Doctor",
-    "Type": "Ruler",
-    "Race": "Doctor|Human",
+    "Card Number": "TSR-063|TSR-063J",
+    "name": "Aideen, the Fighting Doctor // Hippocratic, Negative Healing Suit",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Doctor|Human|Automaton|Doctor|Human",
     "Cost": "",
     "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "You have a starting life of 2500. If any other player would set their starting life, they set it to that much plus 1000 instead.\nIf your opponent would gain life, they lose X life instead, where X is the amount of life they would gain. X cannot be higher than 500.\n[Solo Mode]\nWhenever you play a chant with [Torrent] ]]] Put a [0/100] darkness Automaton resonator token with \"Banish this card: Each player gains 100 life.\" into the field.\n[Judgment] {B}. Play this judgment process only if your life is higher than your opponent's life.",
+    "ATK": "400",
+    "DEF": "800",
+    "Abilities": "You have a starting life of 2500. If any other player would set their starting life, they set it to that much plus 1000 instead.\nIf your opponent would gain life, they lose X life instead, where X is the amount of life they would gain. X cannot be higher than 500.\n[Solo Mode]\nWhenever you play a chant with [Torrent] ]]] Put a [0/100] darkness Automaton resonator token with \"Banish this card: Each player gains 100 life.\" into the field.\n[Judgment] {B}. Play this judgment process only if your life is higher than your opponent's life.|[First Strike]\n[Drain]\n[Imperishable]\nIf your opponent would gain life, they lose X life instead, where X is the amount of life they would gain. X cannot be higher than 900.\nIf you would gain life by this card's [Drain] ability ]]] Each player gains that amount of life instead.\n[Solo Mode]\nWhenever you play a chant with [Torrent] ]]] Each player gains X00 life, where X is the total cost of that chant.\nGod's Art \"What's Soon? You, Dying Soon!\" {B}{B}: This card gains [+Y00/0] until end of turn, where Y is the number of cards you control with [Torrent] in public zones.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1515,29 +1577,30 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "beee09fc-ce5c-489d-b5a5-b36dbce1742f",
-    "image": "beee09fc-ce5c-489d-b5a5-b36dbce1742f.jpg"
-  },
-  {
-    "Card Number": "TSR-063J",
-    "name": "Hippocratic, Negative Healing Suit",
-    "Type": "J-Ruler",
-    "Race": "Automaton|Doctor|Human",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "400",
-    "DEF": "800",
-    "Abilities": "[First Strike]\n[Drain]\n[Imperishable]\nIf your opponent would gain life, they lose X life instead, where X is the amount of life they would gain. X cannot be higher than 900.\nIf you would gain life by this card's [Drain] ability ]]] Each player gains that amount of life instead.\n[Solo Mode]\nWhenever you play a chant with [Torrent] ]]] Each player gains X00 life, where X is the total cost of that chant.\nGod's Art \"What's Soon? You, Dying Soon!\" {B}{B}: This card gains [+Y00/0] until end of turn, where Y is the number of cards you control with [Torrent] in public zones.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "yuko",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "077 - The Battle at the Sacred Ruins",
-    "Set Code": "TSR",
-    "id": "f75a523f-997c-461a-bee9-5c5194640b1d",
-    "image": "f75a523f-997c-461a-bee9-5c5194640b1d.jpg"
+    "image": "beee09fc-ce5c-489d-b5a5-b36dbce1742f.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f75a523f-997c-461a-bee9-5c5194640b1d.jpg",
+    "alternate1_Card Number": "TSR-063J",
+    "alternate1_name": "Hippocratic, Negative Healing Suit",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Automaton|Doctor|Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "400",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[First Strike]\n[Drain]\n[Imperishable]\nIf your opponent would gain life, they lose X life instead, where X is the amount of life they would gain. X cannot be higher than 900.\nIf you would gain life by this card's [Drain] ability ]]] Each player gains that amount of life instead.\n[Solo Mode]\nWhenever you play a chant with [Torrent] ]]] Each player gains X00 life, where X is the total cost of that chant.\nGod's Art \"What's Soon? You, Dying Soon!\" {B}{B}: This card gains [+Y00/0] until end of turn, where Y is the number of cards you control with [Torrent] in public zones.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "yuko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "077 - The Battle at the Sacred Ruins",
+    "alternate1_Set Code": "TSR",
+    "alternate1_id": "f75a523f-997c-461a-bee9-5c5194640b1d",
+    "alternate1_image": "f75a523f-997c-461a-bee9-5c5194640b1d.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSR-064",
@@ -1559,7 +1622,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "dd5db32f-a323-4dc5-840a-bd7206699eab",
-    "image": "dd5db32f-a323-4dc5-840a-bd7206699eab.jpg"
+    "image": "dd5db32f-a323-4dc5-840a-bd7206699eab.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-065",
@@ -1581,7 +1645,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "d2d6d644-8ac1-4d77-9f1d-7896ef5de5a9",
-    "image": "d2d6d644-8ac1-4d77-9f1d-7896ef5de5a9.jpg"
+    "image": "d2d6d644-8ac1-4d77-9f1d-7896ef5de5a9.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-066",
@@ -1603,7 +1668,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "3c221854-2169-4294-b179-30af82854102",
-    "image": "3c221854-2169-4294-b179-30af82854102.jpg"
+    "image": "3c221854-2169-4294-b179-30af82854102.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-067",
@@ -1625,7 +1691,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "60e60973-d06c-4782-8a4f-0d8216f785e6",
-    "image": "60e60973-d06c-4782-8a4f-0d8216f785e6.jpg"
+    "image": "60e60973-d06c-4782-8a4f-0d8216f785e6.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-068",
@@ -1647,7 +1714,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "8f828d74-d1e8-4b4f-a856-5d79207fbdc3",
-    "image": "8f828d74-d1e8-4b4f-a856-5d79207fbdc3.jpg"
+    "image": "8f828d74-d1e8-4b4f-a856-5d79207fbdc3.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-069",
@@ -1669,7 +1737,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "e66b9ff0-1594-4a6c-8d5d-6c3a659661af",
-    "image": "e66b9ff0-1594-4a6c-8d5d-6c3a659661af.jpg"
+    "image": "e66b9ff0-1594-4a6c-8d5d-6c3a659661af.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-070",
@@ -1691,7 +1760,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "4650e414-1494-45e7-b7f9-3276450f62b8",
-    "image": "4650e414-1494-45e7-b7f9-3276450f62b8.jpg"
+    "image": "4650e414-1494-45e7-b7f9-3276450f62b8.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-071",
@@ -1713,7 +1783,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "b64d2897-96aa-41f8-8a69-67e0c6d353b9",
-    "image": "b64d2897-96aa-41f8-8a69-67e0c6d353b9.jpg"
+    "image": "b64d2897-96aa-41f8-8a69-67e0c6d353b9.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-072",
@@ -1735,7 +1806,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "41d47d64-d570-43a6-aeac-82fb48de6788",
-    "image": "41d47d64-d570-43a6-aeac-82fb48de6788.jpg"
+    "image": "41d47d64-d570-43a6-aeac-82fb48de6788.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-073",
@@ -1757,7 +1829,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "59a2613a-f1e2-4042-a5d4-c612c9697098",
-    "image": "59a2613a-f1e2-4042-a5d4-c612c9697098.jpg"
+    "image": "59a2613a-f1e2-4042-a5d4-c612c9697098.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-074",
@@ -1779,7 +1852,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "3d48f540-5adc-4aeb-83ef-6e813f40a62c",
-    "image": "3d48f540-5adc-4aeb-83ef-6e813f40a62c.jpg"
+    "image": "3d48f540-5adc-4aeb-83ef-6e813f40a62c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-075",
@@ -1801,7 +1875,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "a0c9338b-c1eb-413e-896a-48bef470efd0",
-    "image": "a0c9338b-c1eb-413e-896a-48bef470efd0.jpg"
+    "image": "a0c9338b-c1eb-413e-896a-48bef470efd0.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSR-076",
@@ -1823,7 +1898,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "b683eeec-74bc-4571-8525-ce7f7f834913",
-    "image": "b683eeec-74bc-4571-8525-ce7f7f834913.jpg"
+    "image": "b683eeec-74bc-4571-8525-ce7f7f834913.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TSR-077",
@@ -1845,7 +1921,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "8a3101e5-275f-43e5-b861-d6ef478f6f06",
-    "image": "8a3101e5-275f-43e5-b861-d6ef478f6f06.jpg"
+    "image": "8a3101e5-275f-43e5-b861-d6ef478f6f06.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-078",
@@ -1867,7 +1944,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "40c3e465-3023-4231-b708-d506f8b7941f",
-    "image": "40c3e465-3023-4231-b708-d506f8b7941f.jpg"
+    "image": "40c3e465-3023-4231-b708-d506f8b7941f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-079",
@@ -1889,7 +1967,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "8a884003-8b3c-4752-9ead-8f833668f222",
-    "image": "8a884003-8b3c-4752-9ead-8f833668f222.jpg"
+    "image": "8a884003-8b3c-4752-9ead-8f833668f222.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-080",
@@ -1911,7 +1990,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "26374bf5-9c65-440e-9397-e4d4f21ec399",
-    "image": "26374bf5-9c65-440e-9397-e4d4f21ec399.jpg"
+    "image": "26374bf5-9c65-440e-9397-e4d4f21ec399.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-081J",
@@ -1933,7 +2013,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "581a32db-8f17-43fd-8843-461718157122",
-    "image": "581a32db-8f17-43fd-8843-461718157122.jpg"
+    "image": "581a32db-8f17-43fd-8843-461718157122.jpg",
+    "Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSR-082J",
@@ -1955,7 +2036,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "30c3a2de-7f72-4569-aecf-d2530c6afa11",
-    "image": "30c3a2de-7f72-4569-aecf-d2530c6afa11.jpg"
+    "image": "30c3a2de-7f72-4569-aecf-d2530c6afa11.jpg",
+    "Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSR-083",
@@ -1977,7 +2059,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "aa57e6ae-634d-4c2b-9ca9-efff1eb58330",
-    "image": "aa57e6ae-634d-4c2b-9ca9-efff1eb58330.jpg"
+    "image": "aa57e6ae-634d-4c2b-9ca9-efff1eb58330.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-084",
@@ -1999,7 +2082,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "3c5b3c87-90c9-440e-b151-f34cdfbcc29c",
-    "image": "3c5b3c87-90c9-440e-b151-f34cdfbcc29c.jpg"
+    "image": "3c5b3c87-90c9-440e-b151-f34cdfbcc29c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-085",
@@ -2021,7 +2105,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "b6f0edf6-6044-479d-864d-10728d99640b",
-    "image": "b6f0edf6-6044-479d-864d-10728d99640b.jpg"
+    "image": "b6f0edf6-6044-479d-864d-10728d99640b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSR-086",
@@ -2043,7 +2128,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "83d2fff0-eb01-48fd-8dc7-e25f9f56998c",
-    "image": "83d2fff0-eb01-48fd-8dc7-e25f9f56998c.jpg"
+    "image": "83d2fff0-eb01-48fd-8dc7-e25f9f56998c.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TSR-087",
@@ -2065,7 +2151,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "e6ad205c-30a0-449d-a622-c45eaf85cc1b",
-    "image": "e6ad205c-30a0-449d-a622-c45eaf85cc1b.jpg"
+    "image": "e6ad205c-30a0-449d-a622-c45eaf85cc1b.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TSR-088",
@@ -2087,7 +2174,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "b6206d53-7d09-4f8e-bb8d-45879d796963",
-    "image": "b6206d53-7d09-4f8e-bb8d-45879d796963.jpg"
+    "image": "b6206d53-7d09-4f8e-bb8d-45879d796963.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TSR-089",
@@ -2109,7 +2197,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "c390c11d-35b7-4c4d-8129-ce86f2877360",
-    "image": "c390c11d-35b7-4c4d-8129-ce86f2877360.jpg"
+    "image": "c390c11d-35b7-4c4d-8129-ce86f2877360.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "TSR-090",
@@ -2131,7 +2220,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "835f1b43-b53c-41fd-9280-e93b6e69a27a",
-    "image": "835f1b43-b53c-41fd-9280-e93b6e69a27a.jpg"
+    "image": "835f1b43-b53c-41fd-9280-e93b6e69a27a.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "TSR-091",
@@ -2153,7 +2243,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "c915c730-b8af-4b2e-ba1f-47b367426fa5",
-    "image": "c915c730-b8af-4b2e-ba1f-47b367426fa5.jpg"
+    "image": "c915c730-b8af-4b2e-ba1f-47b367426fa5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-092",
@@ -2175,7 +2266,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "cf54245a-7944-40e4-958b-458d2a5cee79",
-    "image": "cf54245a-7944-40e4-958b-458d2a5cee79.jpg"
+    "image": "cf54245a-7944-40e4-958b-458d2a5cee79.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-093",
@@ -2197,7 +2289,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "9e808cd3-2c6f-41ae-ad98-75c92a872150",
-    "image": "9e808cd3-2c6f-41ae-ad98-75c92a872150.jpg"
+    "image": "9e808cd3-2c6f-41ae-ad98-75c92a872150.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-094",
@@ -2219,7 +2312,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "1246d918-fad3-41bd-8efd-93fb109426bb",
-    "image": "1246d918-fad3-41bd-8efd-93fb109426bb.jpg"
+    "image": "1246d918-fad3-41bd-8efd-93fb109426bb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-095",
@@ -2241,7 +2335,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "04a46803-b494-47ef-b3e7-10dd7cd9003b",
-    "image": "04a46803-b494-47ef-b3e7-10dd7cd9003b.jpg"
+    "image": "04a46803-b494-47ef-b3e7-10dd7cd9003b.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TSR-096",
@@ -2263,7 +2358,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "954be41a-b628-42bc-a3ce-a4f82b2eea93",
-    "image": "954be41a-b628-42bc-a3ce-a4f82b2eea93.jpg"
+    "image": "954be41a-b628-42bc-a3ce-a4f82b2eea93.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-097",
@@ -2285,7 +2381,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "88b5f8c4-83fc-4574-8338-2b484c6c9f84",
-    "image": "88b5f8c4-83fc-4574-8338-2b484c6c9f84.jpg"
+    "image": "88b5f8c4-83fc-4574-8338-2b484c6c9f84.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-098",
@@ -2307,7 +2404,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "dd9246e8-49bc-44b9-82e6-7e888da4cbdc",
-    "image": "dd9246e8-49bc-44b9-82e6-7e888da4cbdc.jpg"
+    "image": "dd9246e8-49bc-44b9-82e6-7e888da4cbdc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSR-099",
@@ -2329,7 +2427,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "3cd4c5d7-10d5-4a88-8274-e39f308944cb",
-    "image": "3cd4c5d7-10d5-4a88-8274-e39f308944cb.jpg"
+    "image": "3cd4c5d7-10d5-4a88-8274-e39f308944cb.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TSR-100",
@@ -2351,7 +2450,8 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "a0b001c7-c6d6-4106-b2cc-c44c2dd2bc95",
-    "image": "a0b001c7-c6d6-4106-b2cc-c44c2dd2bc95.jpg"
+    "image": "a0b001c7-c6d6-4106-b2cc-c44c2dd2bc95.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "T2 Buy a Box",
@@ -2373,6 +2473,7 @@
     "Set Name": "077 - The Battle at the Sacred Ruins",
     "Set Code": "TSR",
     "id": "26c28490-2d14-4627-96a4-962365d584c5",
-    "image": "26c28490-2d14-4627-96a4-962365d584c5.jpg"
+    "image": "26c28490-2d14-4627-96a4-962365d584c5.jpg",
+    "Card Type": "Regalia"
   }
 ]

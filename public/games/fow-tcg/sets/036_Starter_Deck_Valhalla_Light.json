@@ -19,51 +19,53 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "66a28d97-ccb5-4a0d-85d2-73850345ba33",
-    "image": "66a28d97-ccb5-4a0d-85d2-73850345ba33.jpg"
+    "image": "66a28d97-ccb5-4a0d-85d2-73850345ba33.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "SDV1-002",
-    "name": "Atom Seikhart",
-    "Type": "Ruler",
-    "Race": "Rabbit",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] 10\n[Judgment] {W} {W} {1}\n[Energize] {W}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "A hundred years prior, Kaguya's influence transformed many rabbits into wererabbits. The only true rabbit remaining is he.",
-    "Artist": "Saiko Takaki",
-    "Rarity": "R",
-    "Fowid": "3751",
-    "Cluster": "06 - New Valhalla",
-    "Set Name": "036 - Starter Deck Valhalla - Light",
-    "Set Code": "SDV1",
-    "id": "1ac39156-358a-4b48-8fb2-853b4a9537cb",
-    "image": "1ac39156-358a-4b48-8fb2-853b4a9537cb.jpg"
-  },
-  {
-    "Card Number": "SDV1-002J",
-    "name": "Atom Seikhart, the Shimmering Rabbit",
-    "Type": "J-Ruler",
+    "Card Number": "SDV1-002|SDV1-002J",
+    "name": "Atom Seikhart // Atom Seikhart, the Shimmering Rabbit",
+    "Type": "Ruler|J-Ruler",
     "Race": "Rabbit",
     "Cost": "",
     "Colour": "W",
     "ATK": "800",
     "DEF": "1200",
-    "Abilities": "[Divinity] 10\nRunes in your rune area gain [Quickcast]\nWhenever you play a Rune ⇒ Choose one - You gain 500 life; or rest target resonator; or target J/resonator gains [0/+500] until end of turn.",
+    "Abilities": "[Divinity] 10\n[Judgment] {W} {W} {1}\n[Energize] {W}|[Divinity] 10\nRunes in your rune area gain [Quickcast]\nWhenever you play a Rune ⇒ Choose one - You gain 500 life; or rest target resonator; or target J/resonator gains [0/+500] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Is it finally time? It would seem my services are needed once again.\"",
+    "Flavour": "A hundred years prior, Kaguya's influence transformed many rabbits into wererabbits. The only true rabbit remaining is he.|\"Is it finally time? It would seem my services are needed once again.\"",
     "Artist": "Saiko Takaki",
     "Rarity": "R",
-    "Fowid": "3752",
+    "Fowid": "3751|3752",
     "Cluster": "06 - New Valhalla",
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
-    "id": "b35a38c8-078a-4324-af6e-46eebb297917",
-    "image": "b35a38c8-078a-4324-af6e-46eebb297917.jpg"
+    "id": "1ac39156-358a-4b48-8fb2-853b4a9537cb",
+    "image": "1ac39156-358a-4b48-8fb2-853b4a9537cb.jpg",
+    "Card Type": "Ruler",
+    "backimage": "b35a38c8-078a-4324-af6e-46eebb297917.jpg",
+    "alternate1_Card Number": "SDV1-002J",
+    "alternate1_name": "Atom Seikhart, the Shimmering Rabbit",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Rabbit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Divinity] 10\nRunes in your rune area gain [Quickcast]\nWhenever you play a Rune ⇒ Choose one - You gain 500 life; or rest target resonator; or target J/resonator gains [0/+500] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Is it finally time? It would seem my services are needed once again.\"",
+    "alternate1_Artist": "Saiko Takaki",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3752",
+    "alternate1_Cluster": "06 - New Valhalla",
+    "alternate1_Set Name": "036 - Starter Deck Valhalla - Light",
+    "alternate1_Set Code": "SDV1",
+    "alternate1_id": "b35a38c8-078a-4324-af6e-46eebb297917",
+    "alternate1_image": "b35a38c8-078a-4324-af6e-46eebb297917.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDV1-003",
@@ -85,7 +87,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "3e1aa84a-c0c9-4e82-8961-7e95c8d206b4",
-    "image": "3e1aa84a-c0c9-4e82-8961-7e95c8d206b4.jpg"
+    "image": "3e1aa84a-c0c9-4e82-8961-7e95c8d206b4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV1-004",
@@ -107,51 +110,53 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "2ffe5e24-30ce-4ca1-a8b4-78408e428b32",
-    "image": "2ffe5e24-30ce-4ca1-a8b4-78408e428b32.jpg"
+    "image": "2ffe5e24-30ce-4ca1-a8b4-78408e428b32.jpg",
+    "Card Type": "Rune"
   },
   {
-    "Card Number": "SDV1-005",
-    "name": "Brunhild",
-    "Type": "Ruler",
-    "Race": "Valkyrie",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] 10\n[Judgment] {W} {W} {2}\n[Energize] {W}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The leader of the Valkyries and the voice of Odin.",
-    "Artist": "jugemt",
-    "Rarity": "R",
-    "Fowid": "3755",
-    "Cluster": "06 - New Valhalla",
-    "Set Name": "036 - Starter Deck Valhalla - Light",
-    "Set Code": "SDV1",
-    "id": "e7ee0bae-ff69-4768-9090-83da5f8c768d",
-    "image": "e7ee0bae-ff69-4768-9090-83da5f8c768d.jpg"
-  },
-  {
-    "Card Number": "SDV1-005J",
-    "name": "Brunhild, Caller of Spirits",
-    "Type": "J-Ruler",
+    "Card Number": "SDV1-005|SDV1-005J",
+    "name": "Brunhild // Brunhild, Caller of Spirits",
+    "Type": "Ruler|J-Ruler",
     "Race": "Valkyrie",
     "Cost": "",
     "Colour": "W",
     "ATK": "1200",
     "DEF": "1200",
-    "Abilities": "[Divinity] 10\n[Flying]\n[Enter] ⇒ Put target resonator from your graveyard into the field. (When this card enters the field ⇒ Perform the effect.)",
+    "Abilities": "[Divinity] 10\n[Judgment] {W} {W} {2}\n[Energize] {W}|[Divinity] 10\n[Flying]\n[Enter] ⇒ Put target resonator from your graveyard into the field. (When this card enters the field ⇒ Perform the effect.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Souls chosen by Brunhild return to the battlefield as heroes.",
+    "Flavour": "The leader of the Valkyries and the voice of Odin.|Souls chosen by Brunhild return to the battlefield as heroes.",
     "Artist": "jugemt",
     "Rarity": "R",
-    "Fowid": "3756",
+    "Fowid": "3755|3756",
     "Cluster": "06 - New Valhalla",
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
-    "id": "97b9fabe-c347-401c-b000-b2a779cda8b6",
-    "image": "97b9fabe-c347-401c-b000-b2a779cda8b6.jpg"
+    "id": "e7ee0bae-ff69-4768-9090-83da5f8c768d",
+    "image": "e7ee0bae-ff69-4768-9090-83da5f8c768d.jpg",
+    "Card Type": "Ruler",
+    "backimage": "97b9fabe-c347-401c-b000-b2a779cda8b6.jpg",
+    "alternate1_Card Number": "SDV1-005J",
+    "alternate1_name": "Brunhild, Caller of Spirits",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Valkyrie",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Divinity] 10\n[Flying]\n[Enter] ⇒ Put target resonator from your graveyard into the field. (When this card enters the field ⇒ Perform the effect.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Souls chosen by Brunhild return to the battlefield as heroes.",
+    "alternate1_Artist": "jugemt",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3756",
+    "alternate1_Cluster": "06 - New Valhalla",
+    "alternate1_Set Name": "036 - Starter Deck Valhalla - Light",
+    "alternate1_Set Code": "SDV1",
+    "alternate1_id": "97b9fabe-c347-401c-b000-b2a779cda8b6",
+    "alternate1_image": "97b9fabe-c347-401c-b000-b2a779cda8b6.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDV1-006",
@@ -173,7 +178,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "edcb278c-ca58-42d0-9318-43483d6c141c",
-    "image": "edcb278c-ca58-42d0-9318-43483d6c141c.jpg"
+    "image": "edcb278c-ca58-42d0-9318-43483d6c141c.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV1-007",
@@ -195,7 +201,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "ab9f6316-f244-4bb7-82ce-e2d1f990850f",
-    "image": "ab9f6316-f244-4bb7-82ce-e2d1f990850f.jpg"
+    "image": "ab9f6316-f244-4bb7-82ce-e2d1f990850f.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV1-008",
@@ -217,7 +224,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "93b60bbf-c600-4526-b55b-071f128ed9a2",
-    "image": "93b60bbf-c600-4526-b55b-071f128ed9a2.jpg"
+    "image": "93b60bbf-c600-4526-b55b-071f128ed9a2.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV1-009",
@@ -239,7 +247,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "ab9d0078-7fd9-4b4e-9ede-930992a9f8ac",
-    "image": "ab9d0078-7fd9-4b4e-9ede-930992a9f8ac.jpg"
+    "image": "ab9d0078-7fd9-4b4e-9ede-930992a9f8ac.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV1-010",
@@ -261,7 +270,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "7ee1bf30-1e8e-4dfd-b07b-13e4c0ab93dc",
-    "image": "7ee1bf30-1e8e-4dfd-b07b-13e4c0ab93dc.jpg"
+    "image": "7ee1bf30-1e8e-4dfd-b07b-13e4c0ab93dc.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV1-011",
@@ -283,7 +293,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "f97340d2-28f4-4a57-9212-47ab7cfb4070",
-    "image": "f97340d2-28f4-4a57-9212-47ab7cfb4070.jpg"
+    "image": "f97340d2-28f4-4a57-9212-47ab7cfb4070.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV1-012",
@@ -305,7 +316,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "909e763c-5b9e-4caf-b248-de30b0047014",
-    "image": "909e763c-5b9e-4caf-b248-de30b0047014.jpg"
+    "image": "909e763c-5b9e-4caf-b248-de30b0047014.jpg",
+    "Card Type": "Master Rune"
   },
   {
     "Card Number": "SDV1-013",
@@ -327,7 +339,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "166afe37-6b37-4471-8ad4-7ba2139ef68b",
-    "image": "166afe37-6b37-4471-8ad4-7ba2139ef68b.jpg"
+    "image": "166afe37-6b37-4471-8ad4-7ba2139ef68b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV1-014",
@@ -349,7 +362,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "63fe7061-8a5c-4226-8377-e1f8c29707c9",
-    "image": "63fe7061-8a5c-4226-8377-e1f8c29707c9.jpg"
+    "image": "63fe7061-8a5c-4226-8377-e1f8c29707c9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV1-015",
@@ -371,7 +385,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "fe7023a4-b739-4d1d-9eec-73c8194f51de",
-    "image": "fe7023a4-b739-4d1d-9eec-73c8194f51de.jpg"
+    "image": "fe7023a4-b739-4d1d-9eec-73c8194f51de.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV1-016",
@@ -393,7 +408,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "7a188c41-7be8-42a3-89a7-022b8412e688",
-    "image": "7a188c41-7be8-42a3-89a7-022b8412e688.jpg"
+    "image": "7a188c41-7be8-42a3-89a7-022b8412e688.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV1-017",
@@ -415,7 +431,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "5d4bb4ce-b90a-4c75-8bd6-f3d5eaebeba8",
-    "image": "5d4bb4ce-b90a-4c75-8bd6-f3d5eaebeba8.jpg"
+    "image": "5d4bb4ce-b90a-4c75-8bd6-f3d5eaebeba8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV1-018",
@@ -437,7 +454,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "bd531383-c2d4-431b-b15f-15c2a55bcbdc",
-    "image": "bd531383-c2d4-431b-b15f-15c2a55bcbdc.jpg"
+    "image": "bd531383-c2d4-431b-b15f-15c2a55bcbdc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV1-019",
@@ -459,7 +477,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "d621e95a-41b4-4138-932d-5c30bd137002",
-    "image": "d621e95a-41b4-4138-932d-5c30bd137002.jpg"
+    "image": "d621e95a-41b4-4138-932d-5c30bd137002.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV1-020",
@@ -481,7 +500,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "03eca67f-6c1c-4eba-92f4-46c28aa4752c",
-    "image": "03eca67f-6c1c-4eba-92f4-46c28aa4752c.jpg"
+    "image": "03eca67f-6c1c-4eba-92f4-46c28aa4752c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV1-021",
@@ -503,7 +523,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "46db68a9-25d3-40b0-8809-14e478a8f443",
-    "image": "46db68a9-25d3-40b0-8809-14e478a8f443.jpg"
+    "image": "46db68a9-25d3-40b0-8809-14e478a8f443.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV1-022",
@@ -525,7 +546,8 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "ff8dbb71-9467-44fc-af0d-e37044c5e94b",
-    "image": "ff8dbb71-9467-44fc-af0d-e37044c5e94b.jpg"
+    "image": "ff8dbb71-9467-44fc-af0d-e37044c5e94b.jpg",
+    "Card Type": "Master Rune"
   },
   {
     "Card Number": "SDV1-023",
@@ -547,6 +569,7 @@
     "Set Name": "036 - Starter Deck Valhalla - Light",
     "Set Code": "SDV1",
     "id": "2f859681-9cf9-4e0f-9c9b-13fb644dc593",
-    "image": "2f859681-9cf9-4e0f-9c9b-13fb644dc593.jpg"
+    "image": "2f859681-9cf9-4e0f-9c9b-13fb644dc593.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

@@ -19,7 +19,8 @@
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
     "id": "276d3736-7304-4906-b521-d4cf00865490",
-    "image": "276d3736-7304-4906-b521-d4cf00865490.jpg"
+    "image": "276d3736-7304-4906-b521-d4cf00865490.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR2-002",
@@ -41,7 +42,8 @@
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
     "id": "07505527-5299-4c7c-9654-a28a3a9de080",
-    "image": "07505527-5299-4c7c-9654-a28a3a9de080.jpg"
+    "image": "07505527-5299-4c7c-9654-a28a3a9de080.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDR2-003",
@@ -63,7 +65,8 @@
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
     "id": "a9ae3105-01bb-4272-a2b4-55f89cd1229d",
-    "image": "a9ae3105-01bb-4272-a2b4-55f89cd1229d.jpg"
+    "image": "a9ae3105-01bb-4272-a2b4-55f89cd1229d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDR2-004",
@@ -85,7 +88,8 @@
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
     "id": "ccc64357-a505-4bed-96b7-26c4e4479a45",
-    "image": "ccc64357-a505-4bed-96b7-26c4e4479a45.jpg"
+    "image": "ccc64357-a505-4bed-96b7-26c4e4479a45.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR2-005",
@@ -107,7 +111,8 @@
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
     "id": "cb5bd15c-a056-4b13-b4d2-84281b219cbe",
-    "image": "cb5bd15c-a056-4b13-b4d2-84281b219cbe.jpg"
+    "image": "cb5bd15c-a056-4b13-b4d2-84281b219cbe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR2-006",
@@ -129,7 +134,8 @@
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
     "id": "c475e4af-c62f-4e21-9487-0c4fa16bc2f1",
-    "image": "c475e4af-c62f-4e21-9487-0c4fa16bc2f1.jpg"
+    "image": "c475e4af-c62f-4e21-9487-0c4fa16bc2f1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDR2-007",
@@ -151,7 +157,8 @@
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
     "id": "ffa87231-f0b6-45a9-97ef-938d45d7fff5",
-    "image": "ffa87231-f0b6-45a9-97ef-938d45d7fff5.jpg"
+    "image": "ffa87231-f0b6-45a9-97ef-938d45d7fff5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR2-008",
@@ -173,51 +180,53 @@
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
     "id": "4f392e4b-a843-4c58-b7cd-453fc6a31960",
-    "image": "4f392e4b-a843-4c58-b7cd-453fc6a31960.jpg"
+    "image": "4f392e4b-a843-4c58-b7cd-453fc6a31960.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "SDR2-009",
-    "name": "Kirik Rerik",
-    "Type": "Ruler",
-    "Race": "Dragonoid",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {R}{R}{1} (Pay {R}{R}{1} to flip this card and put it into the field as a J-Ruler).\n[Energize] {R} (As the game starts, if you are not the player going first, you get a coin with \"Banish this coin: Produce {R}.\")\nAt the beginning of the game ⇒ Put ten strength counters on this card.\n{Rest}: Put X strength counters on this card, where X is ten minus the number of strength counters on this card.\nSealed Item [[Blood of the Dragon God]] Remove two strength counters from this card: Look at the top five cards of your deck. You may reveal a Battle Arts from among them and put it into your hand. Put the rest on the bottom of your deck in any order. Play this ability only during your turn and only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The red warrior dragonoid clan holds a contest of strength every year. Kirik Rerik is their latest champion.",
-    "Artist": "SIGMAN",
-    "Rarity": "R",
-    "Fowid": "2776",
-    "Cluster": "05 - Reiya",
-    "Set Name": "027 - Starter - Blood of Dragons",
-    "Set Code": "SDR2",
-    "id": "c0ad159b-1ed4-4af5-ae49-49d66d78b397",
-    "image": "c0ad159b-1ed4-4af5-ae49-49d66d78b397.jpg"
-  },
-  {
-    "Card Number": "SDR2-009J",
-    "name": "Kirik Rerik, the Draconic Warrior",
-    "Type": "J-Ruler",
+    "Card Number": "SDR2-009|SDR2-009J",
+    "name": "Kirik Rerik // Kirik Rerik, the Draconic Warrior",
+    "Type": "Ruler|J-Ruler",
     "Race": "Dragonoid",
     "Cost": "",
     "Colour": "R",
     "ATK": "1200",
     "DEF": "1000",
-    "Abilities": "[Precision] (This card can attack recovered J/resonators.)\nWhen this card enters your field ⇒ Put X strength counters on it, where X is fifteen minus the number of strength counters on this card.\nRemove five strength counters from this card: This card deals 500 damage to target J/resonator.\nSealed Item [[Blood of the Dragon God]] God's Art \"Dragon King's Descent\" {R}, remove seven strength counters from this card: Look at the top seven cards of your deck. You may put a Dragon resonator from among them into the field. Put the rest in your graveyard. This card gains [+1000/+1000] until end of turn.",
+    "Abilities": "[Judgment] {R}{R}{1} (Pay {R}{R}{1} to flip this card and put it into the field as a J-Ruler).\n[Energize] {R} (As the game starts, if you are not the player going first, you get a coin with \"Banish this coin: Produce {R}.\")\nAt the beginning of the game ⇒ Put ten strength counters on this card.\n{Rest}: Put X strength counters on this card, where X is ten minus the number of strength counters on this card.\nSealed Item [[Blood of the Dragon God]] Remove two strength counters from this card: Look at the top five cards of your deck. You may reveal a Battle Arts from among them and put it into your hand. Put the rest on the bottom of your deck in any order. Play this ability only during your turn and only once per turn.|[Precision] (This card can attack recovered J/resonators.)\nWhen this card enters your field ⇒ Put X strength counters on it, where X is fifteen minus the number of strength counters on this card.\nRemove five strength counters from this card: This card deals 500 damage to target J/resonator.\nSealed Item [[Blood of the Dragon God]] God's Art \"Dragon King's Descent\" {R}, remove seven strength counters from this card: Look at the top seven cards of your deck. You may put a Dragon resonator from among them into the field. Put the rest in your graveyard. This card gains [+1000/+1000] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Fire expresses emotion better than words.",
+    "Flavour": "The red warrior dragonoid clan holds a contest of strength every year. Kirik Rerik is their latest champion.|Fire expresses emotion better than words.",
     "Artist": "SIGMAN",
     "Rarity": "R",
-    "Fowid": "2777",
+    "Fowid": "2776|2777",
     "Cluster": "05 - Reiya",
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
-    "id": "ce202b10-5b66-4230-b2d9-11685d46d8a4",
-    "image": "ce202b10-5b66-4230-b2d9-11685d46d8a4.jpg"
+    "id": "c0ad159b-1ed4-4af5-ae49-49d66d78b397",
+    "image": "c0ad159b-1ed4-4af5-ae49-49d66d78b397.jpg",
+    "Card Type": "Ruler",
+    "backimage": "ce202b10-5b66-4230-b2d9-11685d46d8a4.jpg",
+    "alternate1_Card Number": "SDR2-009J",
+    "alternate1_name": "Kirik Rerik, the Draconic Warrior",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragonoid",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Precision] (This card can attack recovered J/resonators.)\nWhen this card enters your field ⇒ Put X strength counters on it, where X is fifteen minus the number of strength counters on this card.\nRemove five strength counters from this card: This card deals 500 damage to target J/resonator.\nSealed Item [[Blood of the Dragon God]] God's Art \"Dragon King's Descent\" {R}, remove seven strength counters from this card: Look at the top seven cards of your deck. You may put a Dragon resonator from among them into the field. Put the rest in your graveyard. This card gains [+1000/+1000] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Fire expresses emotion better than words.",
+    "alternate1_Artist": "SIGMAN",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2777",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "027 - Starter - Blood of Dragons",
+    "alternate1_Set Code": "SDR2",
+    "alternate1_id": "ce202b10-5b66-4230-b2d9-11685d46d8a4",
+    "alternate1_image": "ce202b10-5b66-4230-b2d9-11685d46d8a4.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDR2-010",
@@ -239,7 +248,8 @@
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
     "id": "1e5aef60-533b-4c11-a790-8cdc3430ac20",
-    "image": "1e5aef60-533b-4c11-a790-8cdc3430ac20.jpg"
+    "image": "1e5aef60-533b-4c11-a790-8cdc3430ac20.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR2-011",
@@ -261,7 +271,8 @@
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
     "id": "ca37bd8f-e4ce-4e38-a3c6-96296415cb9a",
-    "image": "ca37bd8f-e4ce-4e38-a3c6-96296415cb9a.jpg"
+    "image": "ca37bd8f-e4ce-4e38-a3c6-96296415cb9a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR2-012",
@@ -283,7 +294,8 @@
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
     "id": "07727f1b-c6d4-418c-b836-232f76660b01",
-    "image": "07727f1b-c6d4-418c-b836-232f76660b01.jpg"
+    "image": "07727f1b-c6d4-418c-b836-232f76660b01.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "SDR2-013",
@@ -305,6 +317,7 @@
     "Set Name": "027 - Starter - Blood of Dragons",
     "Set Code": "SDR2",
     "id": "e91bcf1d-f670-4fa9-9948-52dad015b254",
-    "image": "e91bcf1d-f670-4fa9-9948-52dad015b254.jpg"
+    "image": "e91bcf1d-f670-4fa9-9948-52dad015b254.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

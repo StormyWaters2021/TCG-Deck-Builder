@@ -19,7 +19,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "bd58d756-de74-4d8c-8a3b-2ab4984ce1db",
-    "image": "bd58d756-de74-4d8c-8a3b-2ab4984ce1db.jpg"
+    "image": "bd58d756-de74-4d8c-8a3b-2ab4984ce1db.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "DRC-002",
@@ -41,7 +42,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "c2366b86-82b7-4f4e-a9db-f2c33da7eb00",
-    "image": "c2366b86-82b7-4f4e-a9db-f2c33da7eb00.jpg"
+    "image": "c2366b86-82b7-4f4e-a9db-f2c33da7eb00.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-003",
@@ -63,20 +65,21 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "6418bfe2-1c9d-4718-a04d-826adf49f254",
-    "image": "6418bfe2-1c9d-4718-a04d-826adf49f254.jpg"
+    "image": "6418bfe2-1c9d-4718-a04d-826adf49f254.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
-    "Card Number": "DRC-004",
-    "name": "Envoy of the Goddess, Hutriel",
-    "Type": "Warden",
-    "Race": "Knight|Saint",
+    "Card Number": "DRC-004|DRC-004J",
+    "name": "Envoy of the Goddess, Hutriel // Hutriel, Dark Angel",
+    "Type": "Warden|J-Ruler",
+    "Race": "Knight|Saint|Angel|Punisher|Saint|Valkyrie",
     "Cost": "{W}{W}",
     "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "+2: Put a regalia with [Bestow] and total cost 4 or less from your hand into the field. If you do, and another player has more cards in their hand than you, draw a card.\n-1: Put a [400/400] light Knight resonator token into the field. If you control a regalia with [Bestow], put a [700/700] light Angel resonator token with [Flying] into the field.\n[Judgment] {W}{W}. Play this judgment process only if there are five willpower counters on this card.",
+    "ATK": "1100",
+    "DEF": "1100",
+    "Abilities": "+2: Put a regalia with [Bestow] and total cost 4 or less from your hand into the field. If you do, and another player has more cards in their hand than you, draw a card.\n-1: Put a [400/400] light Knight resonator token into the field. If you control a regalia with [Bestow], put a [700/700] light Angel resonator token with [Flying] into the field.\n[Judgment] {W}{W}. Play this judgment process only if there are five willpower counters on this card.|-4: Destroy all non-light, non-magic stone, non-J-ruler entities with total cost 2 or less.\n-8: Each player chooses a non-magic stone, non-J-ruler entity they control, then each player banishes all other non-J-ruler entities they control.\n[Defiant] (2)\n[Flying]\n[Barrier]",
     "Divinity": "",
-    "Willpower": 3,
+    "Willpower": "3",
     "Flavour": "",
     "Artist": "j-peg",
     "Rarity": "MR",
@@ -85,29 +88,30 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "e719620e-e8fe-45a4-adb6-01d51f001919",
-    "image": "e719620e-e8fe-45a4-adb6-01d51f001919.jpg"
-  },
-  {
-    "Card Number": "DRC-004J",
-    "name": "Hutriel, Dark Angel",
-    "Type": "J-Ruler",
-    "Race": "Angel|Punisher|Saint|Valkyrie",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "1100",
-    "DEF": "1100",
-    "Abilities": "-4: Destroy all non-light, non-magic stone, non-J-ruler entities with total cost 2 or less.\n-8: Each player chooses a non-magic stone, non-J-ruler entity they control, then each player banishes all other non-J-ruler entities they control.\n[Defiant] (2)\n[Flying]\n[Barrier]",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "j-peg",
-    "Rarity": "MR",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "098 - Descent into the Raven's Catacombs",
-    "Set Code": "DRC",
-    "id": "2b7c5cc9-060a-4992-a966-cd2236837f54",
-    "image": "2b7c5cc9-060a-4992-a966-cd2236837f54.jpg"
+    "image": "e719620e-e8fe-45a4-adb6-01d51f001919.jpg",
+    "Card Type": "Warden",
+    "backimage": "2b7c5cc9-060a-4992-a966-cd2236837f54.jpg",
+    "alternate1_Card Number": "DRC-004J",
+    "alternate1_name": "Hutriel, Dark Angel",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Angel|Punisher|Saint|Valkyrie",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1100",
+    "alternate1_DEF": "1100",
+    "alternate1_Abilities": "-4: Destroy all non-light, non-magic stone, non-J-ruler entities with total cost 2 or less.\n-8: Each player chooses a non-magic stone, non-J-ruler entity they control, then each player banishes all other non-J-ruler entities they control.\n[Defiant] (2)\n[Flying]\n[Barrier]",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "j-peg",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "098 - Descent into the Raven's Catacombs",
+    "alternate1_Set Code": "DRC",
+    "alternate1_id": "2b7c5cc9-060a-4992-a966-cd2236837f54",
+    "alternate1_image": "2b7c5cc9-060a-4992-a966-cd2236837f54.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "DRC-005",
@@ -129,7 +133,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "113eedee-106b-419a-abc4-dc81b72ba918",
-    "image": "113eedee-106b-419a-abc4-dc81b72ba918.jpg"
+    "image": "113eedee-106b-419a-abc4-dc81b72ba918.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-006",
@@ -151,7 +156,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "8ce07e70-dc03-469b-b8a1-ab8398c87642",
-    "image": "8ce07e70-dc03-469b-b8a1-ab8398c87642.jpg"
+    "image": "8ce07e70-dc03-469b-b8a1-ab8398c87642.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC-007",
@@ -173,7 +179,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "446f8c7a-9757-4ac4-9906-2b5b625ed6d0",
-    "image": "446f8c7a-9757-4ac4-9906-2b5b625ed6d0.jpg"
+    "image": "446f8c7a-9757-4ac4-9906-2b5b625ed6d0.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "DRC-008",
@@ -195,7 +202,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "be23ce78-746a-4cad-97eb-2e4f054bdcbc",
-    "image": "be23ce78-746a-4cad-97eb-2e4f054bdcbc.jpg"
+    "image": "be23ce78-746a-4cad-97eb-2e4f054bdcbc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-009",
@@ -217,7 +225,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "ce3f05c2-2632-41b2-8853-ceb8ba55d88e",
-    "image": "ce3f05c2-2632-41b2-8853-ceb8ba55d88e.jpg"
+    "image": "ce3f05c2-2632-41b2-8853-ceb8ba55d88e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-010",
@@ -239,7 +248,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "644ffb6b-e69f-4c53-81a7-9f7aa8717459",
-    "image": "644ffb6b-e69f-4c53-81a7-9f7aa8717459.jpg"
+    "image": "644ffb6b-e69f-4c53-81a7-9f7aa8717459.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-011",
@@ -261,7 +271,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "79e0db61-440c-4973-bd9c-862b48fc9524",
-    "image": "79e0db61-440c-4973-bd9c-862b48fc9524.jpg"
+    "image": "79e0db61-440c-4973-bd9c-862b48fc9524.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "DRC-012",
@@ -283,7 +294,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "5de3a669-9b7b-4130-8922-31eddb08467d",
-    "image": "5de3a669-9b7b-4130-8922-31eddb08467d.jpg"
+    "image": "5de3a669-9b7b-4130-8922-31eddb08467d.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "DRC-013",
@@ -305,7 +317,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "246b8284-9f64-418f-b43e-bb4658eb9d85",
-    "image": "246b8284-9f64-418f-b43e-bb4658eb9d85.jpg"
+    "image": "246b8284-9f64-418f-b43e-bb4658eb9d85.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "DRC-014",
@@ -327,7 +340,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "bdde9793-df64-45d9-9675-91fa02808899",
-    "image": "bdde9793-df64-45d9-9675-91fa02808899.jpg"
+    "image": "bdde9793-df64-45d9-9675-91fa02808899.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC-015",
@@ -349,7 +363,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "144aaf39-5cac-4867-9a8f-6f888757e32c",
-    "image": "144aaf39-5cac-4867-9a8f-6f888757e32c.jpg"
+    "image": "144aaf39-5cac-4867-9a8f-6f888757e32c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-016",
@@ -371,7 +386,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "e171ce45-a12d-4fc0-a649-299027f5a04b",
-    "image": "e171ce45-a12d-4fc0-a649-299027f5a04b.jpg"
+    "image": "e171ce45-a12d-4fc0-a649-299027f5a04b.jpg",
+    "Card Type": "Chant|Master Rune"
   },
   {
     "Card Number": "DRC-017",
@@ -393,51 +409,53 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "1b95406b-8fed-4dc7-8492-b79fb9294515",
-    "image": "1b95406b-8fed-4dc7-8492-b79fb9294515.jpg"
+    "image": "1b95406b-8fed-4dc7-8492-b79fb9294515.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "DRC-018",
-    "name": "Duke of Disaster, Barust",
-    "Type": "Warden",
+    "Card Number": "DRC-018|DRC-018J",
+    "name": "Duke of Disaster, Barust // Barust, Archdemon of Wrath",
+    "Type": "Warden|J-Ruler",
     "Race": "Demonic|King|Skeleton",
     "Cost": "{R}{R}",
     "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "+1: Up to one target chant card in your graveyard gains [Remnant] and \"At end of turn ]]] Remove this card in your graveyard from the game.\" until the end of your next turn.\n-1: Reveal ths top card of your deck, You may play it without paying its cost if it is a resonator card with total cost 2 or less. Otherwise, you may play it.\n[Judgment] {R}{R}. Play this judgment process only if there are four willpower counters on this card.",
+    "ATK": "800",
+    "DEF": "900",
+    "Abilities": "+1: Up to one target chant card in your graveyard gains [Remnant] and \"At end of turn ]]] Remove this card in your graveyard from the game.\" until the end of your next turn.\n-1: Reveal ths top card of your deck, You may play it without paying its cost if it is a resonator card with total cost 2 or less. Otherwise, you may play it.\n[Judgment] {R}{R}. Play this judgment process only if there are four willpower counters on this card.|+2: Target J/resonator gains \"Whenever this card deals battle damage to a player ]]] Destroy target magic stone the damaged player controls.\" until end of turn.\n-6: Each other player gains \"Whenever you play a spell ]]] That card deals 500 damage to you.\" until end of game. This card deals 200 damage to each other player.\n[Blood Trail]\n[Multi Strike]",
     "Divinity": "",
-    "Willpower": 2,
+    "Willpower": "2",
     "Flavour": "",
-    "Artist": "Takumi Sugikawa",
+    "Artist": "Takumi Sugikawa|ShiroYayoi",
     "Rarity": "MR",
     "Fowid": "",
     "Cluster": "14 - Evil",
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "d5d6416b-08f2-4802-89e1-2479778d950d",
-    "image": "d5d6416b-08f2-4802-89e1-2479778d950d.jpg"
-  },
-  {
-    "Card Number": "DRC-018J",
-    "name": "Barust, Archdemon of Wrath",
-    "Type": "J-Ruler",
-    "Race": "Demonic|King|Skeleton",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "800",
-    "DEF": "900",
-    "Abilities": "+2: Target J/resonator gains \"Whenever this card deals battle damage to a player ]]] Destroy target magic stone the damaged player controls.\" until end of turn.\n-6: Each other player gains \"Whenever you play a spell ]]] That card deals 500 damage to you.\" until end of game. This card deals 200 damage to each other player.\n[Blood Trail]\n[Multi Strike]",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "ShiroYayoi",
-    "Rarity": "MR",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "098 - Descent into the Raven's Catacombs",
-    "Set Code": "DRC",
-    "id": "392ffb86-0c87-400b-b375-c07b2e5ec055",
-    "image": "392ffb86-0c87-400b-b375-c07b2e5ec055.jpg"
+    "image": "d5d6416b-08f2-4802-89e1-2479778d950d.jpg",
+    "Card Type": "Warden",
+    "backimage": "392ffb86-0c87-400b-b375-c07b2e5ec055.jpg",
+    "alternate1_Card Number": "DRC-018J",
+    "alternate1_name": "Barust, Archdemon of Wrath",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Demonic|King|Skeleton",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "+2: Target J/resonator gains \"Whenever this card deals battle damage to a player ]]] Destroy target magic stone the damaged player controls.\" until end of turn.\n-6: Each other player gains \"Whenever you play a spell ]]] That card deals 500 damage to you.\" until end of game. This card deals 200 damage to each other player.\n[Blood Trail]\n[Multi Strike]",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "ShiroYayoi",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "098 - Descent into the Raven's Catacombs",
+    "alternate1_Set Code": "DRC",
+    "alternate1_id": "392ffb86-0c87-400b-b375-c07b2e5ec055",
+    "alternate1_image": "392ffb86-0c87-400b-b375-c07b2e5ec055.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "DRC-019",
@@ -459,7 +477,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "b9f237a9-b68a-4e85-8138-e36500efad50",
-    "image": "b9f237a9-b68a-4e85-8138-e36500efad50.jpg"
+    "image": "b9f237a9-b68a-4e85-8138-e36500efad50.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC-020",
@@ -481,7 +500,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "c4d3057e-3d20-4666-a37a-43bf26b53670",
-    "image": "c4d3057e-3d20-4666-a37a-43bf26b53670.jpg"
+    "image": "c4d3057e-3d20-4666-a37a-43bf26b53670.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-021",
@@ -503,7 +523,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "b6349eb9-a064-48d5-a136-4edadd6b43fe",
-    "image": "b6349eb9-a064-48d5-a136-4edadd6b43fe.jpg"
+    "image": "b6349eb9-a064-48d5-a136-4edadd6b43fe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-022",
@@ -525,7 +546,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "b8a28693-bc34-47ae-bffb-6ec40f4361b4",
-    "image": "b8a28693-bc34-47ae-bffb-6ec40f4361b4.jpg"
+    "image": "b8a28693-bc34-47ae-bffb-6ec40f4361b4.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC-023",
@@ -547,7 +569,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "7ae7bfa0-c943-407c-839e-913fc6348154",
-    "image": "7ae7bfa0-c943-407c-839e-913fc6348154.jpg"
+    "image": "7ae7bfa0-c943-407c-839e-913fc6348154.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-024",
@@ -569,7 +592,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "2465588c-00ec-4692-84e7-bb77394b7b5e",
-    "image": "2465588c-00ec-4692-84e7-bb77394b7b5e.jpg"
+    "image": "2465588c-00ec-4692-84e7-bb77394b7b5e.jpg",
+    "Card Type": "Chant|Master Rune"
   },
   {
     "Card Number": "DRC-025",
@@ -591,7 +615,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "487997ed-3687-426f-8c78-558f16144f68",
-    "image": "487997ed-3687-426f-8c78-558f16144f68.jpg"
+    "image": "487997ed-3687-426f-8c78-558f16144f68.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC-026",
@@ -613,7 +638,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "eae450c8-3aef-4503-95e4-9ba46262dc3f",
-    "image": "eae450c8-3aef-4503-95e4-9ba46262dc3f.jpg"
+    "image": "eae450c8-3aef-4503-95e4-9ba46262dc3f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-027",
@@ -635,7 +661,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "59b7975b-f8f0-446f-87a8-542839e709a5",
-    "image": "59b7975b-f8f0-446f-87a8-542839e709a5.jpg"
+    "image": "59b7975b-f8f0-446f-87a8-542839e709a5.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC-028",
@@ -657,7 +684,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "3ee249dc-b7ea-4e06-a779-5784ab667e02",
-    "image": "3ee249dc-b7ea-4e06-a779-5784ab667e02.jpg"
+    "image": "3ee249dc-b7ea-4e06-a779-5784ab667e02.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-029",
@@ -679,7 +707,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "bb38ba9c-8bdd-4e29-805b-fbc45f8d660a",
-    "image": "bb38ba9c-8bdd-4e29-805b-fbc45f8d660a.jpg"
+    "image": "bb38ba9c-8bdd-4e29-805b-fbc45f8d660a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-030",
@@ -701,7 +730,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "a74f5096-5391-48cb-8009-febb9ff35cd1",
-    "image": "a74f5096-5391-48cb-8009-febb9ff35cd1.jpg"
+    "image": "a74f5096-5391-48cb-8009-febb9ff35cd1.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "DRC-031",
@@ -723,7 +753,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "a48b1158-a050-4417-9738-f5d5253583ed",
-    "image": "a48b1158-a050-4417-9738-f5d5253583ed.jpg"
+    "image": "a48b1158-a050-4417-9738-f5d5253583ed.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "DRC-032",
@@ -745,7 +776,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "5a27b6ba-7de9-4d20-a6a7-e75f77b6754d",
-    "image": "5a27b6ba-7de9-4d20-a6a7-e75f77b6754d.jpg"
+    "image": "5a27b6ba-7de9-4d20-a6a7-e75f77b6754d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-033",
@@ -767,7 +799,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "adb39cae-8224-44eb-8d00-f4ad0fa2eb16",
-    "image": "adb39cae-8224-44eb-8d00-f4ad0fa2eb16.jpg"
+    "image": "adb39cae-8224-44eb-8d00-f4ad0fa2eb16.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-034",
@@ -789,20 +822,21 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "88505323-3df9-46e4-a4c9-5951415c30d6",
-    "image": "88505323-3df9-46e4-a4c9-5951415c30d6.jpg"
+    "image": "88505323-3df9-46e4-a4c9-5951415c30d6.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
-    "Card Number": "DRC-035",
-    "name": "Writhing Demoness, Python",
-    "Type": "Warden",
+    "Card Number": "DRC-035|DRC-035J",
+    "name": "Writhing Demoness, Python // Python, Archdemoness of Envy",
+    "Type": "Warden|J-Ruler",
     "Race": "Demonic|Queen|Snake",
     "Cost": "{U}{U}",
     "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "+2: Resonators each other player controls gain [-500/0] until the beginning of your next turn.\n-1: Look at the top three cards of your deck. Put one of them into your hand, then shuffle your deck.\n[Judgment] {U}. Play this judgment process only if there are five willpower counters on this card.",
+    "ATK": "900",
+    "DEF": "1100",
+    "Abilities": "+2: Resonators each other player controls gain [-500/0] until the beginning of your next turn.\n-1: Look at the top three cards of your deck. Put one of them into your hand, then shuffle your deck.\n[Judgment] {U}. Play this judgment process only if there are five willpower counters on this card.|-2: Put target non-magic stone, non-J-ruler entity on the bottom of its owner's deck. Foresee 2.\n-7: Rest all J/resonators you don't control. Each other player gains \"You cannot play resonator spells.\" until the end of your next turn. Take an extra turn after this one.\n[Precision]\n[Aegis]",
     "Divinity": "",
-    "Willpower": 2,
+    "Willpower": "2",
     "Flavour": "",
     "Artist": "SO",
     "Rarity": "MR",
@@ -811,29 +845,30 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "1edcfad3-f393-4347-9385-80f6e4b9af39",
-    "image": "1edcfad3-f393-4347-9385-80f6e4b9af39.jpg"
-  },
-  {
-    "Card Number": "DRC-035J",
-    "name": "Python, Archdemoness of Envy",
-    "Type": "J-Ruler",
-    "Race": "Demonic|Queen|Snake",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "900",
-    "DEF": "1100",
-    "Abilities": "-2: Put target non-magic stone, non-J-ruler entity on the bottom of its owner's deck. Foresee 2.\n-7: Rest all J/resonators you don't control. Each other player gains \"You cannot play resonator spells.\" until the end of your next turn. Take an extra turn after this one.\n[Precision]\n[Aegis]",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "SO",
-    "Rarity": "MR",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "098 - Descent into the Raven's Catacombs",
-    "Set Code": "DRC",
-    "id": "10268fb5-8fb3-4f51-bb02-aeca90621682",
-    "image": "10268fb5-8fb3-4f51-bb02-aeca90621682.jpg"
+    "image": "1edcfad3-f393-4347-9385-80f6e4b9af39.jpg",
+    "Card Type": "Warden",
+    "backimage": "10268fb5-8fb3-4f51-bb02-aeca90621682.jpg",
+    "alternate1_Card Number": "DRC-035J",
+    "alternate1_name": "Python, Archdemoness of Envy",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Demonic|Queen|Snake",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "1100",
+    "alternate1_Abilities": "-2: Put target non-magic stone, non-J-ruler entity on the bottom of its owner's deck. Foresee 2.\n-7: Rest all J/resonators you don't control. Each other player gains \"You cannot play resonator spells.\" until the end of your next turn. Take an extra turn after this one.\n[Precision]\n[Aegis]",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "SO",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "098 - Descent into the Raven's Catacombs",
+    "alternate1_Set Code": "DRC",
+    "alternate1_id": "10268fb5-8fb3-4f51-bb02-aeca90621682",
+    "alternate1_image": "10268fb5-8fb3-4f51-bb02-aeca90621682.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "DRC-036",
@@ -855,51 +890,53 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "43e8d8cd-3267-428a-b32e-aee36ea188c0",
-    "image": "43e8d8cd-3267-428a-b32e-aee36ea188c0.jpg"
+    "image": "43e8d8cd-3267-428a-b32e-aee36ea188c0.jpg",
+    "Card Type": "Regalia"
   },
   {
-    "Card Number": "DRC-037",
-    "name": "Ceaseless Hunger, Belphegor",
-    "Type": "Warden",
+    "Card Number": "DRC-037|DRC-037J",
+    "name": "Ceaseless Hunger, Belphegor // Belphegor, Archdemon of Gluttony",
+    "Type": "Warden|J-Ruler",
     "Race": "Demonic|Fungus|King",
     "Cost": "{G}{G}{1}",
     "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "+2: Destroy target addition or regalia you don't control. If you do, gain void will coin token.\n+1: Recover up to one target resonator. Resonators recovered this way gain [+300/+300] and [Pierce] until end of turn.\n[Judgment] {G}. Play this judgment process only if there are six willpower counters on this card.",
+    "ATK": "900",
+    "DEF": "1400",
+    "Abilities": "+2: Destroy target addition or regalia you don't control. If you do, gain void will coin token.\n+1: Recover up to one target resonator. Resonators recovered this way gain [+300/+300] and [Pierce] until end of turn.\n[Judgment] {G}. Play this judgment process only if there are six willpower counters on this card.|+1: Reveal cards from the top of your deck until you reveal two resonator cards. Put those cards into your hand and shuffle the rest into your deck.\n-8: Search your deck for any number of resonator cards and put them into the field, then shuffle your deck. Players cannot chase to this ability.\n[Pierce]\n[Vileborn] (6)",
     "Divinity": "",
-    "Willpower": 3,
+    "Willpower": "3",
     "Flavour": "",
-    "Artist": "Kotakan",
+    "Artist": "Kotakan|Kelvin",
     "Rarity": "MR",
     "Fowid": "",
     "Cluster": "14 - Evil",
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "84c86271-6222-4501-a3c4-b726c7b4e806",
-    "image": "84c86271-6222-4501-a3c4-b726c7b4e806.jpg"
-  },
-  {
-    "Card Number": "DRC-037J",
-    "name": "Belphegor, Archdemon of Gluttony",
-    "Type": "J-Ruler",
-    "Race": "Demonic|Fungus|King",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "900",
-    "DEF": "1400",
-    "Abilities": "+1: Reveal cards from the top of your deck until you reveal two resonator cards. Put those cards into your hand and shuffle the rest into your deck.\n-8: Search your deck for any number of resonator cards and put them into the field, then shuffle your deck. Players cannot chase to this ability.\n[Pierce]\n[Vileborn] (6)",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Kelvin",
-    "Rarity": "MR",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "098 - Descent into the Raven's Catacombs",
-    "Set Code": "DRC",
-    "id": "7bdc2782-5169-400e-84ee-d75dbf22ec68",
-    "image": "7bdc2782-5169-400e-84ee-d75dbf22ec68.jpg"
+    "image": "84c86271-6222-4501-a3c4-b726c7b4e806.jpg",
+    "Card Type": "Warden",
+    "backimage": "7bdc2782-5169-400e-84ee-d75dbf22ec68.jpg",
+    "alternate1_Card Number": "DRC-037J",
+    "alternate1_name": "Belphegor, Archdemon of Gluttony",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Demonic|Fungus|King",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "1400",
+    "alternate1_Abilities": "+1: Reveal cards from the top of your deck until you reveal two resonator cards. Put those cards into your hand and shuffle the rest into your deck.\n-8: Search your deck for any number of resonator cards and put them into the field, then shuffle your deck. Players cannot chase to this ability.\n[Pierce]\n[Vileborn] (6)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Kelvin",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "098 - Descent into the Raven's Catacombs",
+    "alternate1_Set Code": "DRC",
+    "alternate1_id": "7bdc2782-5169-400e-84ee-d75dbf22ec68",
+    "alternate1_image": "7bdc2782-5169-400e-84ee-d75dbf22ec68.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "DRC-038",
@@ -921,7 +958,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "c392402f-b4da-4f53-a42d-020f9f368410",
-    "image": "c392402f-b4da-4f53-a42d-020f9f368410.jpg"
+    "image": "c392402f-b4da-4f53-a42d-020f9f368410.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-039",
@@ -943,7 +981,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "4544d108-a4f0-4a16-acd7-db50285cefda",
-    "image": "4544d108-a4f0-4a16-acd7-db50285cefda.jpg"
+    "image": "4544d108-a4f0-4a16-acd7-db50285cefda.jpg",
+    "Card Type": "Chant|Master Rune"
   },
   {
     "Card Number": "DRC-040",
@@ -965,7 +1004,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "16343802-72e6-41fe-927d-130508635c0a",
-    "image": "16343802-72e6-41fe-927d-130508635c0a.jpg"
+    "image": "16343802-72e6-41fe-927d-130508635c0a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-041",
@@ -987,7 +1027,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "c619f41e-ba2c-47e7-a631-331a49297abe",
-    "image": "c619f41e-ba2c-47e7-a631-331a49297abe.jpg"
+    "image": "c619f41e-ba2c-47e7-a631-331a49297abe.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC-042",
@@ -1009,7 +1050,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "167cf2f7-d7cb-4efd-906c-8c6a344b52be",
-    "image": "167cf2f7-d7cb-4efd-906c-8c6a344b52be.jpg"
+    "image": "167cf2f7-d7cb-4efd-906c-8c6a344b52be.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC-043",
@@ -1031,7 +1073,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "be654e85-cad6-4bd9-86be-41436146b598",
-    "image": "be654e85-cad6-4bd9-86be-41436146b598.jpg"
+    "image": "be654e85-cad6-4bd9-86be-41436146b598.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "DRC-044",
@@ -1053,7 +1096,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "2cf50fec-46b5-495c-8f75-444680cea8df",
-    "image": "2cf50fec-46b5-495c-8f75-444680cea8df.jpg"
+    "image": "2cf50fec-46b5-495c-8f75-444680cea8df.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-045",
@@ -1075,7 +1119,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "8be579bc-3438-450d-ae44-e22e48e9ff1a",
-    "image": "8be579bc-3438-450d-ae44-e22e48e9ff1a.jpg"
+    "image": "8be579bc-3438-450d-ae44-e22e48e9ff1a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-046",
@@ -1097,7 +1142,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "a60ddf3e-6252-4531-b0b6-aa531e764981",
-    "image": "a60ddf3e-6252-4531-b0b6-aa531e764981.jpg"
+    "image": "a60ddf3e-6252-4531-b0b6-aa531e764981.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-047",
@@ -1119,7 +1165,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "8cbd1d82-80ea-464b-8622-262844ea3d81",
-    "image": "8cbd1d82-80ea-464b-8622-262844ea3d81.jpg"
+    "image": "8cbd1d82-80ea-464b-8622-262844ea3d81.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC-048",
@@ -1141,7 +1188,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "38e35112-74a1-4c57-8d3c-94b4fd24c7df",
-    "image": "38e35112-74a1-4c57-8d3c-94b4fd24c7df.jpg"
+    "image": "38e35112-74a1-4c57-8d3c-94b4fd24c7df.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "DRC-049",
@@ -1163,7 +1211,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "9fdd208c-e66c-4451-91be-774df7c8d1d2",
-    "image": "9fdd208c-e66c-4451-91be-774df7c8d1d2.jpg"
+    "image": "9fdd208c-e66c-4451-91be-774df7c8d1d2.jpg",
+    "Card Type": "Chant|Master Rune"
   },
   {
     "Card Number": "DRC-050",
@@ -1185,7 +1234,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "7c181487-51c8-49f3-80da-fdb2c0023ace",
-    "image": "7c181487-51c8-49f3-80da-fdb2c0023ace.jpg"
+    "image": "7c181487-51c8-49f3-80da-fdb2c0023ace.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "DRC-051",
@@ -1207,7 +1257,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "103593c5-07a4-4c06-a337-4e004ccc1818",
-    "image": "103593c5-07a4-4c06-a337-4e004ccc1818.jpg"
+    "image": "103593c5-07a4-4c06-a337-4e004ccc1818.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC-052",
@@ -1229,51 +1280,53 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "4a3c63aa-09b7-485d-bff4-e7f0dc5bbfd9",
-    "image": "4a3c63aa-09b7-485d-bff4-e7f0dc5bbfd9.jpg"
+    "image": "4a3c63aa-09b7-485d-bff4-e7f0dc5bbfd9.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
-    "Card Number": "DRC-053",
-    "name": "Incarnated Madness, Diabolos",
-    "Type": "Warden",
+    "Card Number": "DRC-053|DRC-053J",
+    "name": "Incarnated Madness, Diabolos // Diabolos, Archdemon of Lust",
+    "Type": "Warden|J-Ruler",
     "Race": "Demonic|Queen",
     "Cost": "{B}{B}{B}",
     "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "-3: Search your deck for a card, shuffle the rest of your deck and put that card on top of your deck. You lose 1000 life.\n-2: Put seven [-100/-100] counters on target J/resonator. You may remove a willpower counter from this card. If you do, put nine [-100/-100] counters on target J/resonator.\n[Judgment] {B}. Play this judgment process only if there is exactly one willpower counter on this card.",
+    "ATK": "400",
+    "DEF": "1100",
+    "Abilities": "-3: Search your deck for a card, shuffle the rest of your deck and put that card on top of your deck. You lose 1000 life.\n-2: Put seven [-100/-100] counters on target J/resonator. You may remove a willpower counter from this card. If you do, put nine [-100/-100] counters on target J/resonator.\n[Judgment] {B}. Play this judgment process only if there is exactly one willpower counter on this card.|+2: You gain \"You cannot gain life until end of game.\" until end of game. Draw a card. You lose 500 life.\n-4: Each other player gains \"As an additional cost to play a spell, pay 800 life.\" until end of game.\n[Flying]\n[Bane]",
     "Divinity": "",
-    "Willpower": 4,
+    "Willpower": "4",
     "Flavour": "",
-    "Artist": "Kazue Saitou",
+    "Artist": "Kazue Saitou|touge369",
     "Rarity": "MR",
     "Fowid": "",
     "Cluster": "14 - Evil",
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "443ce598-a16e-47f0-a40a-3a16e3baf899",
-    "image": "443ce598-a16e-47f0-a40a-3a16e3baf899.jpg"
-  },
-  {
-    "Card Number": "DRC-053J",
-    "name": "Diabolos, Archdemon of Lust",
-    "Type": "J-Ruler",
-    "Race": "Demonic|Queen",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "400",
-    "DEF": "1100",
-    "Abilities": "+2: You gain \"You cannot gain life until end of game.\" until end of game. Draw a card. You lose 500 life.\n-4: Each other player gains \"As an additional cost to play a spell, pay 800 life.\" until end of game.\n[Flying]\n[Bane]",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "touge369",
-    "Rarity": "MR",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "098 - Descent into the Raven's Catacombs",
-    "Set Code": "DRC",
-    "id": "24cce4b9-e441-4ffa-9789-f381e6211afb",
-    "image": "24cce4b9-e441-4ffa-9789-f381e6211afb.jpg"
+    "image": "443ce598-a16e-47f0-a40a-3a16e3baf899.jpg",
+    "Card Type": "Warden",
+    "backimage": "24cce4b9-e441-4ffa-9789-f381e6211afb.jpg",
+    "alternate1_Card Number": "DRC-053J",
+    "alternate1_name": "Diabolos, Archdemon of Lust",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Demonic|Queen",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "400",
+    "alternate1_DEF": "1100",
+    "alternate1_Abilities": "+2: You gain \"You cannot gain life until end of game.\" until end of game. Draw a card. You lose 500 life.\n-4: Each other player gains \"As an additional cost to play a spell, pay 800 life.\" until end of game.\n[Flying]\n[Bane]",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "touge369",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "098 - Descent into the Raven's Catacombs",
+    "alternate1_Set Code": "DRC",
+    "alternate1_id": "24cce4b9-e441-4ffa-9789-f381e6211afb",
+    "alternate1_image": "24cce4b9-e441-4ffa-9789-f381e6211afb.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "DRC-054",
@@ -1295,7 +1348,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "542ab9fb-dd92-4251-93a7-e44fa9a31ee0",
-    "image": "542ab9fb-dd92-4251-93a7-e44fa9a31ee0.jpg"
+    "image": "542ab9fb-dd92-4251-93a7-e44fa9a31ee0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-055",
@@ -1317,7 +1371,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "9e55949f-df35-4378-95e4-6bb49b877f04",
-    "image": "9e55949f-df35-4378-95e4-6bb49b877f04.jpg"
+    "image": "9e55949f-df35-4378-95e4-6bb49b877f04.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC-056",
@@ -1339,7 +1394,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "c2a00dfc-cff5-4037-b406-642227e0517f",
-    "image": "c2a00dfc-cff5-4037-b406-642227e0517f.jpg"
+    "image": "c2a00dfc-cff5-4037-b406-642227e0517f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-057",
@@ -1361,7 +1417,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "d9f77e84-92b1-4ca4-bf54-35a3c9479fa7",
-    "image": "d9f77e84-92b1-4ca4-bf54-35a3c9479fa7.jpg"
+    "image": "d9f77e84-92b1-4ca4-bf54-35a3c9479fa7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-058",
@@ -1383,7 +1440,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "58051021-9925-4c5e-9d9e-633d6660b0bd",
-    "image": "58051021-9925-4c5e-9d9e-633d6660b0bd.jpg"
+    "image": "58051021-9925-4c5e-9d9e-633d6660b0bd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-059",
@@ -1405,7 +1463,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "30b1dc64-413f-4575-9362-ba477012ec74",
-    "image": "30b1dc64-413f-4575-9362-ba477012ec74.jpg"
+    "image": "30b1dc64-413f-4575-9362-ba477012ec74.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-060",
@@ -1427,7 +1486,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "0646dda4-6028-4c89-8b4d-a06e9b9bcfcd",
-    "image": "0646dda4-6028-4c89-8b4d-a06e9b9bcfcd.jpg"
+    "image": "0646dda4-6028-4c89-8b4d-a06e9b9bcfcd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-061",
@@ -1449,7 +1509,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "b1dab6c7-54cf-426d-9351-c635f57762de",
-    "image": "b1dab6c7-54cf-426d-9351-c635f57762de.jpg"
+    "image": "b1dab6c7-54cf-426d-9351-c635f57762de.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-062",
@@ -1471,21 +1532,22 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "6039a165-70f1-4e4c-96d6-ee2e9a454abd",
-    "image": "6039a165-70f1-4e4c-96d6-ee2e9a454abd.jpg"
+    "image": "6039a165-70f1-4e4c-96d6-ee2e9a454abd.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
-    "Card Number": "DRC-063",
-    "name": "First-Class Cook, Larinca",
-    "Type": "Ruler",
-    "Race": "Human|Student|Warlock",
+    "Card Number": "DRC-063|DRC-063J",
+    "name": "First-Class Cook, Larinca // Larinca, Hungry Demonic Chef",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Student|Warlock|Demonic|Warlock",
     "Cost": "",
     "Colour": "W|G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] (1)\nAs the game starts, put four fruit counters on this card.\nYou can only play one spell or non-will activate ability per turn (not both).\nAt the end of your turn ]]] Remove a fruit counter from this card. If you do, put two [+100/+100] counters on this card and on one resonator, then if you put counters on a resonator this way, draw a card. Otherwise, you lose 1000 life.\n[Judgment] {W}{G}. Play this judgment process only if you control a card with \"Pact\" in its name in your extension rule area.",
+    "ATK": "600",
+    "DEF": "600",
+    "Abilities": "[Divinity] (1)\nAs the game starts, put four fruit counters on this card.\nYou can only play one spell or non-will activate ability per turn (not both).\nAt the end of your turn ]]] Remove a fruit counter from this card. If you do, put two [+100/+100] counters on this card and on one resonator, then if you put counters on a resonator this way, draw a card. Otherwise, you lose 1000 life.\n[Judgment] {W}{G}. Play this judgment process only if you control a card with \"Pact\" in its name in your extension rule area.|[Divinity] (3)\n[Pierce]\n[Barrier] (Total cost 2 or less)\nAs this card enters the field, put X fruit counters on it, where X is six minus the number of fruit counters on this card.\nAt the end of you turn ]]] Remove two fruit counters from this card. If you do, put four [+100/+100] counters on this card. Otherwise, you lose the game.\n{W} or {G}, expel a card from your hand, remove two fruit counters from this card: This card gains [+400/0] and [Defiant] (2) until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I love to cook! My grandma taught me her special recipes!\"",
+    "Flavour": "\"I love to cook! My grandma taught me her special recipes!\"|\"Yes, I'm a vegetarian, but... cooking requires the greatest of sacrifices. I will miss you, grandma.\"",
     "Artist": "Seichi Naruse",
     "Rarity": "R",
     "Fowid": "",
@@ -1493,29 +1555,30 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "57df755a-812d-4b70-9e3a-e70a5e75d21a",
-    "image": "57df755a-812d-4b70-9e3a-e70a5e75d21a.jpg"
-  },
-  {
-    "Card Number": "DRC-063J",
-    "name": "Larinca, Hungry Demonic Chef",
-    "Type": "J-Ruler",
-    "Race": "Demonic|Warlock",
-    "Cost": "",
-    "Colour": "W|G",
-    "ATK": "600",
-    "DEF": "600",
-    "Abilities": "[Divinity] (3)\n[Pierce]\n[Barrier] (Total cost 2 or less)\nAs this card enters the field, put X fruit counters on it, where X is six minus the number of fruit counters on this card.\nAt the end of you turn ]]] Remove two fruit counters from this card. If you do, put four [+100/+100] counters on this card. Otherwise, you lose the game.\n{W} or {G}, expel a card from your hand, remove two fruit counters from this card: This card gains [+400/0] and [Defiant] (2) until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Yes, I'm a vegetarian, but... cooking requires the greatest of sacrifices. I will miss you, grandma.\"",
-    "Artist": "Seichi Naruse",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "098 - Descent into the Raven's Catacombs",
-    "Set Code": "DRC",
-    "id": "921d342b-0e13-41b1-9cb1-614315e4ec53",
-    "image": "921d342b-0e13-41b1-9cb1-614315e4ec53.jpg"
+    "image": "57df755a-812d-4b70-9e3a-e70a5e75d21a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "921d342b-0e13-41b1-9cb1-614315e4ec53.jpg",
+    "alternate1_Card Number": "DRC-063J",
+    "alternate1_name": "Larinca, Hungry Demonic Chef",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Demonic|Warlock",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|G",
+    "alternate1_ATK": "600",
+    "alternate1_DEF": "600",
+    "alternate1_Abilities": "[Divinity] (3)\n[Pierce]\n[Barrier] (Total cost 2 or less)\nAs this card enters the field, put X fruit counters on it, where X is six minus the number of fruit counters on this card.\nAt the end of you turn ]]] Remove two fruit counters from this card. If you do, put four [+100/+100] counters on this card. Otherwise, you lose the game.\n{W} or {G}, expel a card from your hand, remove two fruit counters from this card: This card gains [+400/0] and [Defiant] (2) until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Yes, I'm a vegetarian, but... cooking requires the greatest of sacrifices. I will miss you, grandma.\"",
+    "alternate1_Artist": "Seichi Naruse",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "098 - Descent into the Raven's Catacombs",
+    "alternate1_Set Code": "DRC",
+    "alternate1_id": "921d342b-0e13-41b1-9cb1-614315e4ec53",
+    "alternate1_image": "921d342b-0e13-41b1-9cb1-614315e4ec53.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "DRC-064",
@@ -1537,7 +1600,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "b5e98745-a5b0-45ec-a373-7e1fd5085e81",
-    "image": "b5e98745-a5b0-45ec-a373-7e1fd5085e81.jpg"
+    "image": "b5e98745-a5b0-45ec-a373-7e1fd5085e81.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC-065",
@@ -1559,7 +1623,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "0e077719-47d2-4350-bf55-a2d2491f6226",
-    "image": "0e077719-47d2-4350-bf55-a2d2491f6226.jpg"
+    "image": "0e077719-47d2-4350-bf55-a2d2491f6226.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-066",
@@ -1581,7 +1646,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "ebe1aed0-f3e9-4437-9172-eaa3e99e6da1",
-    "image": "ebe1aed0-f3e9-4437-9172-eaa3e99e6da1.jpg"
+    "image": "ebe1aed0-f3e9-4437-9172-eaa3e99e6da1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-067",
@@ -1603,7 +1669,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "d4bc66cd-ee68-4472-b5db-2c066ef263cb",
-    "image": "d4bc66cd-ee68-4472-b5db-2c066ef263cb.jpg"
+    "image": "d4bc66cd-ee68-4472-b5db-2c066ef263cb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-068",
@@ -1625,21 +1692,22 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "9d5499ee-ff3b-4c31-8372-6977ddd45e17",
-    "image": "9d5499ee-ff3b-4c31-8372-6977ddd45e17.jpg"
+    "image": "9d5499ee-ff3b-4c31-8372-6977ddd45e17.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "DRC-069",
-    "name": "Raven's Order Class B's Representative, Siphone",
-    "Type": "Ruler",
-    "Race": "Class Rep|Human|Student|Warlock",
+    "Card Number": "DRC-069|DRC-069J",
+    "name": "Raven's Order Class B's Representative, Siphone // Siphone, Prodigy Demonic Student",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Class Rep|Human|Student|Warlock|Class Rep|Demonic|Warlock",
     "Cost": "",
     "Colour": "W|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] (1)\nYou may play dual-attribute light/darkness Student cards from your hand by paying {W} or from your graveyard by paying {W}{B} rather than paying their cost.\nAt end of turn ]]] If the turn player played exactly one spell this turn, put a merit counter on this card. Otherwise, put a detention counter on this card.\n[Judgment] {W}{B}{2}. Play this judgment process only if you control a card with \"Pact\" in its name in your extension rule area.",
+    "ATK": "1000",
+    "DEF": "1200",
+    "Abilities": "[Divinity] (1)\nYou may play dual-attribute light/darkness Student cards from your hand by paying {W} or from your graveyard by paying {W}{B} rather than paying their cost.\nAt end of turn ]]] If the turn player played exactly one spell this turn, put a merit counter on this card. Otherwise, put a detention counter on this card.\n[Judgment] {W}{B}{2}. Play this judgment process only if you control a card with \"Pact\" in its name in your extension rule area.|[Divinity] (3)\n[Flying]\n[Terrifying]\n[Drain]\n[Enter] ]]] If there is a combined number of ten or more detention counters and merit counters on this card, perform from among the following effects those that share a name with the highest number of counters on this card;\n- Detention - Each player expels the top X cards of their deck and all cards in their graveyard, where X is the number of cards in their deck minus two.\n- Merit - You gain \"Each other player can only play one spell per turn.\" until end of game. Destroy all non-magic stone entities you don't control.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Keep quiet and behave! We are in class, after all!\"",
+    "Flavour": "\"Keep quiet and behave! We are in class, after all!\"|\"That's... against the rules, yes. But some rules are meant to be broken.\"",
     "Artist": "Muraichi Suzume",
     "Rarity": "R",
     "Fowid": "",
@@ -1647,29 +1715,30 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "0e676247-9142-4978-9517-4489d17fa3f8",
-    "image": "0e676247-9142-4978-9517-4489d17fa3f8.jpg"
-  },
-  {
-    "Card Number": "DRC-069J",
-    "name": "Siphone, Prodigy Demonic Student",
-    "Type": "J-Ruler",
-    "Race": "Class Rep|Demonic|Warlock",
-    "Cost": "",
-    "Colour": "W|B",
-    "ATK": "1000",
-    "DEF": "1200",
-    "Abilities": "[Divinity] (3)\n[Flying]\n[Terrifying]\n[Drain]\n[Enter] ]]] If there is a combined number of ten or more detention counters and merit counters on this card, perform from among the following effects those that share a name with the highest number of counters on this card;\n- Detention - Each player expels the top X cards of their deck and all cards in their graveyard, where X is the number of cards in their deck minus two.\n- Merit - You gain \"Each other player can only play one spell per turn.\" until end of game. Destroy all non-magic stone entities you don't control.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"That's... against the rules, yes. But some rules are meant to be broken.\"",
-    "Artist": "Muraichi Suzume",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "098 - Descent into the Raven's Catacombs",
-    "Set Code": "DRC",
-    "id": "111f59e2-e70d-410d-818f-2c1928686e56",
-    "image": "111f59e2-e70d-410d-818f-2c1928686e56.jpg"
+    "image": "0e676247-9142-4978-9517-4489d17fa3f8.jpg",
+    "Card Type": "Ruler",
+    "backimage": "111f59e2-e70d-410d-818f-2c1928686e56.jpg",
+    "alternate1_Card Number": "DRC-069J",
+    "alternate1_name": "Siphone, Prodigy Demonic Student",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Class Rep|Demonic|Warlock",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Divinity] (3)\n[Flying]\n[Terrifying]\n[Drain]\n[Enter] ]]] If there is a combined number of ten or more detention counters and merit counters on this card, perform from among the following effects those that share a name with the highest number of counters on this card;\n- Detention - Each player expels the top X cards of their deck and all cards in their graveyard, where X is the number of cards in their deck minus two.\n- Merit - You gain \"Each other player can only play one spell per turn.\" until end of game. Destroy all non-magic stone entities you don't control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"That's... against the rules, yes. But some rules are meant to be broken.\"",
+    "alternate1_Artist": "Muraichi Suzume",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "098 - Descent into the Raven's Catacombs",
+    "alternate1_Set Code": "DRC",
+    "alternate1_id": "111f59e2-e70d-410d-818f-2c1928686e56",
+    "alternate1_image": "111f59e2-e70d-410d-818f-2c1928686e56.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "DRC-070",
@@ -1691,7 +1760,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "c3b33bac-0c37-49a3-9bed-2b68432d7db0",
-    "image": "c3b33bac-0c37-49a3-9bed-2b68432d7db0.jpg"
+    "image": "c3b33bac-0c37-49a3-9bed-2b68432d7db0.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC-071",
@@ -1713,7 +1783,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "1c4c54b9-f270-41b5-8611-9320df4b79eb",
-    "image": "1c4c54b9-f270-41b5-8611-9320df4b79eb.jpg"
+    "image": "1c4c54b9-f270-41b5-8611-9320df4b79eb.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC-072",
@@ -1735,7 +1806,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "8b0af294-e0d0-4459-8a34-f8e72ea5251e",
-    "image": "8b0af294-e0d0-4459-8a34-f8e72ea5251e.jpg"
+    "image": "8b0af294-e0d0-4459-8a34-f8e72ea5251e.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC-073",
@@ -1757,7 +1829,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "5247037e-2872-4ab7-b68d-73ad901990db",
-    "image": "5247037e-2872-4ab7-b68d-73ad901990db.jpg"
+    "image": "5247037e-2872-4ab7-b68d-73ad901990db.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-074",
@@ -1779,7 +1852,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "3ba5c879-df0b-40ee-896c-f7c13e42d68c",
-    "image": "3ba5c879-df0b-40ee-896c-f7c13e42d68c.jpg"
+    "image": "3ba5c879-df0b-40ee-896c-f7c13e42d68c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-075",
@@ -1801,21 +1875,22 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "f84e8dd2-181b-421e-acb6-e6afcf2fae70",
-    "image": "f84e8dd2-181b-421e-acb6-e6afcf2fae70.jpg"
+    "image": "f84e8dd2-181b-421e-acb6-e6afcf2fae70.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "DRC-076",
-    "name": "Raven's Order Class A's Representative, Valentio",
-    "Type": "Ruler",
-    "Race": "Class Rep|Human|Student|Warlock",
+    "Card Number": "DRC-076|DRC-076J",
+    "name": "Raven's Order Class A's Representative, Valentio // Valentio, Arrogant Demonic Prince",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Class Rep|Human|Student|Warlock|Class Rep|Demonic|Warlock",
     "Cost": "",
     "Colour": "R|U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] (1)\nAs the game starts, put nine elite counters on this card.\nThis card gains the following text based on the number of elite counters on it;\n- 1 - At the beginning of your turn ]]] Remove an elite counter from this card.\n- 3 - At the beginning of your draw phase ]]] Foresee 1.\n- 5 - Resonators you control gain [+200/0] and [Aegis].\n- 7 - {R}{U}, discard a card: Gain control of target resonator with total cost 2.\n[Judgment] {R}{U}{1}. Play this judgment process only if you control a card with \"Pact\" in its name in your extension rule area.",
+    "ATK": "1000",
+    "DEF": "1200",
+    "Abilities": "[Divinity] (1)\nAs the game starts, put nine elite counters on this card.\nThis card gains the following text based on the number of elite counters on it;\n- 1 - At the beginning of your turn ]]] Remove an elite counter from this card.\n- 3 - At the beginning of your draw phase ]]] Foresee 1.\n- 5 - Resonators you control gain [+200/0] and [Aegis].\n- 7 - {R}{U}, discard a card: Gain control of target resonator with total cost 2.\n[Judgment] {R}{U}{1}. Play this judgment process only if you control a card with \"Pact\" in its name in your extension rule area.|[Divinity] (3)\n[Bloodlust]\n[Precision]\n[Flying]\n[Enter] ]]] Remove all elite counters from this card. If you removed four or less counters this way, perform the following effects based on the number of elite counters removed this way;\n- 1 - Discard your hand, then draw four card. This card deals 200 damage to each other player for each non-chant card in your graveyard.\n- 4 - You gain \"You may play cards from your graveyard.\" and \"If a card would be put into your graveyard from anywhere, expel it instead.\" until end of game.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Do you know what family I belong to? Exactly. Here, I make the rules.\"",
+    "Flavour": "\"Do you know what family I belong to? Exactly. Here, I make the rules.\"|\"Obviously, only I deserved a pact.\"",
     "Artist": "ishishou",
     "Rarity": "R",
     "Fowid": "",
@@ -1823,29 +1898,30 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "538368cf-c1fa-42a7-968c-2536ae091845",
-    "image": "538368cf-c1fa-42a7-968c-2536ae091845.jpg"
-  },
-  {
-    "Card Number": "DRC-076J",
-    "name": "Valentio, Arrogant Demonic Prince",
-    "Type": "J-Ruler",
-    "Race": "Class Rep|Demonic|Warlock",
-    "Cost": "",
-    "Colour": "R|U",
-    "ATK": "1000",
-    "DEF": "1200",
-    "Abilities": "[Divinity] (3)\n[Bloodlust]\n[Precision]\n[Flying]\n[Enter] ]]] Remove all elite counters from this card. If you removed four or less counters this way, perform the following effects based on the number of elite counters removed this way;\n- 1 - Discard your hand, then draw four card. This card deals 200 damage to each other player for each non-chant card in your graveyard.\n- 4 - You gain \"You may play cards from your graveyard.\" and \"If a card would be put into your graveyard from anywhere, expel it instead.\" until end of game.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Obviously, only I deserved a pact.\"",
-    "Artist": "ishishou",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "098 - Descent into the Raven's Catacombs",
-    "Set Code": "DRC",
-    "id": "534eabe8-1681-4aed-a193-ea20062400e2",
-    "image": "534eabe8-1681-4aed-a193-ea20062400e2.jpg"
+    "image": "538368cf-c1fa-42a7-968c-2536ae091845.jpg",
+    "Card Type": "Ruler",
+    "backimage": "534eabe8-1681-4aed-a193-ea20062400e2.jpg",
+    "alternate1_Card Number": "DRC-076J",
+    "alternate1_name": "Valentio, Arrogant Demonic Prince",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Class Rep|Demonic|Warlock",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R|U",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Divinity] (3)\n[Bloodlust]\n[Precision]\n[Flying]\n[Enter] ]]] Remove all elite counters from this card. If you removed four or less counters this way, perform the following effects based on the number of elite counters removed this way;\n- 1 - Discard your hand, then draw four card. This card deals 200 damage to each other player for each non-chant card in your graveyard.\n- 4 - You gain \"You may play cards from your graveyard.\" and \"If a card would be put into your graveyard from anywhere, expel it instead.\" until end of game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Obviously, only I deserved a pact.\"",
+    "alternate1_Artist": "ishishou",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "098 - Descent into the Raven's Catacombs",
+    "alternate1_Set Code": "DRC",
+    "alternate1_id": "534eabe8-1681-4aed-a193-ea20062400e2",
+    "alternate1_image": "534eabe8-1681-4aed-a193-ea20062400e2.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "DRC-077",
@@ -1867,7 +1943,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "e3c928c1-1dbd-41c6-94cf-c56844c20a96",
-    "image": "e3c928c1-1dbd-41c6-94cf-c56844c20a96.jpg"
+    "image": "e3c928c1-1dbd-41c6-94cf-c56844c20a96.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC-078",
@@ -1889,7 +1966,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "b31ceecc-c860-47fd-ba6e-418e11f82265",
-    "image": "b31ceecc-c860-47fd-ba6e-418e11f82265.jpg"
+    "image": "b31ceecc-c860-47fd-ba6e-418e11f82265.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-079",
@@ -1911,7 +1989,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "09955dea-7c95-420c-8cc3-87a1f25aa8c3",
-    "image": "09955dea-7c95-420c-8cc3-87a1f25aa8c3.jpg"
+    "image": "09955dea-7c95-420c-8cc3-87a1f25aa8c3.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC-080",
@@ -1933,7 +2012,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "1a824493-b715-4e2a-a542-d7f4e4f7ae5a",
-    "image": "1a824493-b715-4e2a-a542-d7f4e4f7ae5a.jpg"
+    "image": "1a824493-b715-4e2a-a542-d7f4e4f7ae5a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-081",
@@ -1955,7 +2035,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "b063a7ea-122d-44ae-af7a-4cdf9bfcb929",
-    "image": "b063a7ea-122d-44ae-af7a-4cdf9bfcb929.jpg"
+    "image": "b063a7ea-122d-44ae-af7a-4cdf9bfcb929.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-082",
@@ -1977,21 +2058,22 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "66d5a13f-e5b7-47a9-9c70-f30745278f07",
-    "image": "66d5a13f-e5b7-47a9-9c70-f30745278f07.jpg"
+    "image": "66d5a13f-e5b7-47a9-9c70-f30745278f07.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
-    "Card Number": "DRC-083",
-    "name": "Undefeated Dragonoid Duelist, Daomr",
-    "Type": "Ruler",
-    "Race": "Dragonoid|Student|Warlock",
+    "Card Number": "DRC-083|DRC-083J",
+    "name": "Undefeated Dragonoid Duelist, Daomr // Daomr, Bloodied Demonic Swordsmaster",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Dragonoid|Student|Warlock|Demonic|Dragonoid|Warlock",
     "Cost": "",
     "Colour": "R|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] (1)\nYou cannot gain life during your turn.\nWhenever a ruler or J/resonator deals damage to a player ]]] If that player doesn't control the source of the damage, put a strength counter on this card.\nAt the beginning of your turn ]]] This card deals 100 damage to each player.\n[Judgment] {R}{B}. Play this judgment process only if you control a card with \"Pact\" in its name in your extension rule area.",
+    "ATK": "1200",
+    "DEF": "1000",
+    "Abilities": "[Divinity] (1)\nYou cannot gain life during your turn.\nWhenever a ruler or J/resonator deals damage to a player ]]] If that player doesn't control the source of the damage, put a strength counter on this card.\nAt the beginning of your turn ]]] This card deals 100 damage to each player.\n[Judgment] {R}{B}. Play this judgment process only if you control a card with \"Pact\" in its name in your extension rule area.|[Divinity] (3)\n[Blood Trail]\n[Terrifying]\nYou cannot gain life during your turn.\nThis card gains [+300/0] as long as there are fifteen strength counters on it.\nWhenever a J/resonator deals damage to a player ]]] If that player doesn't control the source of the damage, put three strength counter on this card.\n[Enter] or whenever this card attacks ]]] If there are fifteen strength counters on this card, it deals 1000 damage to each other player.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"My uniform? I only come to the academy because I have to! I learned to fight before I even learned to talk. Come and fight me!\"",
+    "Flavour": "\"My uniform? I only come to the academy because I have to! I learned to fight before I even learned to talk. Come and fight me!\"|\"Mother will admit that I'm her best son. And if she doesn't, I'll kill her to.\"",
     "Artist": "IWAO",
     "Rarity": "R",
     "Fowid": "",
@@ -1999,29 +2081,30 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "a36bb084-a0fe-4ac0-a64f-089bbaf477d9",
-    "image": "a36bb084-a0fe-4ac0-a64f-089bbaf477d9.jpg"
-  },
-  {
-    "Card Number": "DRC-083J",
-    "name": "Daomr, Bloodied Demonic Swordsmaster",
-    "Type": "J-Ruler",
-    "Race": "Demonic|Dragonoid|Warlock",
-    "Cost": "",
-    "Colour": "R|B",
-    "ATK": "1200",
-    "DEF": "1000",
-    "Abilities": "[Divinity] (3)\n[Blood Trail]\n[Terrifying]\nYou cannot gain life during your turn.\nThis card gains [+300/0] as long as there are fifteen strength counters on it.\nWhenever a J/resonator deals damage to a player ]]] If that player doesn't control the source of the damage, put three strength counter on this card.\n[Enter] or whenever this card attacks ]]] If there are fifteen strength counters on this card, it deals 1000 damage to each other player.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Mother will admit that I'm her best son. And if she doesn't, I'll kill her to.\"",
-    "Artist": "IWAO",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "098 - Descent into the Raven's Catacombs",
-    "Set Code": "DRC",
-    "id": "e541c837-a4ae-4fa7-9fc3-954ff307a368",
-    "image": "e541c837-a4ae-4fa7-9fc3-954ff307a368.jpg"
+    "image": "a36bb084-a0fe-4ac0-a64f-089bbaf477d9.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e541c837-a4ae-4fa7-9fc3-954ff307a368.jpg",
+    "alternate1_Card Number": "DRC-083J",
+    "alternate1_name": "Daomr, Bloodied Demonic Swordsmaster",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Demonic|Dragonoid|Warlock",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R|B",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Divinity] (3)\n[Blood Trail]\n[Terrifying]\nYou cannot gain life during your turn.\nThis card gains [+300/0] as long as there are fifteen strength counters on it.\nWhenever a J/resonator deals damage to a player ]]] If that player doesn't control the source of the damage, put three strength counter on this card.\n[Enter] or whenever this card attacks ]]] If there are fifteen strength counters on this card, it deals 1000 damage to each other player.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Mother will admit that I'm her best son. And if she doesn't, I'll kill her to.\"",
+    "alternate1_Artist": "IWAO",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "098 - Descent into the Raven's Catacombs",
+    "alternate1_Set Code": "DRC",
+    "alternate1_id": "e541c837-a4ae-4fa7-9fc3-954ff307a368",
+    "alternate1_image": "e541c837-a4ae-4fa7-9fc3-954ff307a368.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "DRC-084",
@@ -2043,7 +2126,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "0af95990-03ba-4629-b2e4-97722027adb7",
-    "image": "0af95990-03ba-4629-b2e4-97722027adb7.jpg"
+    "image": "0af95990-03ba-4629-b2e4-97722027adb7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-085",
@@ -2065,7 +2149,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "3c3a2c23-d751-4123-98c9-86d3d3427d68",
-    "image": "3c3a2c23-d751-4123-98c9-86d3d3427d68.jpg"
+    "image": "3c3a2c23-d751-4123-98c9-86d3d3427d68.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-086",
@@ -2087,7 +2172,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "58ffc535-cafc-4570-a4c1-3ab096413a6d",
-    "image": "58ffc535-cafc-4570-a4c1-3ab096413a6d.jpg"
+    "image": "58ffc535-cafc-4570-a4c1-3ab096413a6d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-087",
@@ -2109,21 +2195,22 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "e2fed7fb-d729-47a7-89c8-a6c63377b3e8",
-    "image": "e2fed7fb-d729-47a7-89c8-a6c63377b3e8.jpg"
+    "image": "e2fed7fb-d729-47a7-89c8-a6c63377b3e8.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
-    "Card Number": "DRC-088",
-    "name": "The Halfblood Prodigy, Nero",
-    "Type": "Ruler",
-    "Race": "Devil|Student|Warlock",
+    "Card Number": "DRC-088|DRC-088J",
+    "name": "The Halfblood Prodigy, Nero // Nero, Catalyst of the Impossible",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Devil|Student|Warlock|Devil|Wanderer|Warlock",
     "Cost": "",
     "Colour": "U|G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] (1)\nWhenever a non-token resonator enters the field or at end of turn ]]] Put a nexus counter on this card.\n[Invisible Friends] Remove X nexus counters from this card. X cannot be 0 or 1: Put a [X00/X00] dual-attribute water/wind Singularity resonator token into the field. If X is 4 and you aren't the turn player, draw a card. Play only one [Invisible Friends] ability per turn.\n[Judgment] {U}{G}. Play this judgment process only if you control a card with \"Pact\" in its name in your extension rule area.",
+    "ATK": "900",
+    "DEF": "1000",
+    "Abilities": "[Divinity] (1)\nWhenever a non-token resonator enters the field or at end of turn ]]] Put a nexus counter on this card.\n[Invisible Friends] Remove X nexus counters from this card. X cannot be 0 or 1: Put a [X00/X00] dual-attribute water/wind Singularity resonator token into the field. If X is 4 and you aren't the turn player, draw a card. Play only one [Invisible Friends] ability per turn.\n[Judgment] {U}{G}. Play this judgment process only if you control a card with \"Pact\" in its name in your extension rule area.|[Divinity] (3)\n[Imperishable]\n[Aegis]\n[Vileborn] (4)\n[Enter] ]]] Put X [X00/X00] dual-attribute water/wind Singularity resonator tokens into the field, where X is the number of times a [400/400] Singularity resonator token has entered the field this game multiplied by four.\n{U}{G}, remove four nexus counters from this card: Trigger this card's [Enter] abilities. Quadruple the ATK and DEF of all resonator tokens that were in the field before this ability resolves until end of game.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Time is an illusion. It helps things make sense.\"",
+    "Flavour": "\"Time is an illusion. It helps things make sense.\"|\"If you thought I was alone, you were wrong.\"",
     "Artist": "Mayo",
     "Rarity": "R",
     "Fowid": "",
@@ -2131,29 +2218,30 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "66303c01-9fda-4825-85cf-fc874948b0a1",
-    "image": "66303c01-9fda-4825-85cf-fc874948b0a1.jpg"
-  },
-  {
-    "Card Number": "DRC-088J",
-    "name": "Nero, Catalyst of the Impossible",
-    "Type": "J-Ruler",
-    "Race": "Devil|Wanderer|Warlock",
-    "Cost": "",
-    "Colour": "U|G",
-    "ATK": "900",
-    "DEF": "1000",
-    "Abilities": "[Divinity] (3)\n[Imperishable]\n[Aegis]\n[Vileborn] (4)\n[Enter] ]]] Put X [X00/X00] dual-attribute water/wind Singularity resonator tokens into the field, where X is the number of times a [400/400] Singularity resonator token has entered the field this game multiplied by four.\n{U}{G}, remove four nexus counters from this card: Trigger this card's [Enter] abilities. Quadruple the ATK and DEF of all resonator tokens that were in the field before this ability resolves until end of game.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"If you thought I was alone, you were wrong.\"",
-    "Artist": "Mayo",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "098 - Descent into the Raven's Catacombs",
-    "Set Code": "DRC",
-    "id": "d7dfaa8b-b887-405a-8b97-e157a0a633f0",
-    "image": "d7dfaa8b-b887-405a-8b97-e157a0a633f0.jpg"
+    "image": "66303c01-9fda-4825-85cf-fc874948b0a1.jpg",
+    "Card Type": "Ruler",
+    "backimage": "d7dfaa8b-b887-405a-8b97-e157a0a633f0.jpg",
+    "alternate1_Card Number": "DRC-088J",
+    "alternate1_name": "Nero, Catalyst of the Impossible",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Devil|Wanderer|Warlock",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U|G",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Divinity] (3)\n[Imperishable]\n[Aegis]\n[Vileborn] (4)\n[Enter] ]]] Put X [X00/X00] dual-attribute water/wind Singularity resonator tokens into the field, where X is the number of times a [400/400] Singularity resonator token has entered the field this game multiplied by four.\n{U}{G}, remove four nexus counters from this card: Trigger this card's [Enter] abilities. Quadruple the ATK and DEF of all resonator tokens that were in the field before this ability resolves until end of game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"If you thought I was alone, you were wrong.\"",
+    "alternate1_Artist": "Mayo",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "098 - Descent into the Raven's Catacombs",
+    "alternate1_Set Code": "DRC",
+    "alternate1_id": "d7dfaa8b-b887-405a-8b97-e157a0a633f0",
+    "alternate1_image": "d7dfaa8b-b887-405a-8b97-e157a0a633f0.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "DRC-089",
@@ -2175,7 +2263,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "541ac3d3-195a-418c-bec8-542663963dad",
-    "image": "541ac3d3-195a-418c-bec8-542663963dad.jpg"
+    "image": "541ac3d3-195a-418c-bec8-542663963dad.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC-090",
@@ -2197,7 +2286,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "af3c83ab-0522-406e-b0f9-a21a7e2cbfbf",
-    "image": "af3c83ab-0522-406e-b0f9-a21a7e2cbfbf.jpg"
+    "image": "af3c83ab-0522-406e-b0f9-a21a7e2cbfbf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC-091",
@@ -2219,7 +2309,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "b1f84d05-0506-422e-bd31-eea3004fb9f3",
-    "image": "b1f84d05-0506-422e-bd31-eea3004fb9f3.jpg"
+    "image": "b1f84d05-0506-422e-bd31-eea3004fb9f3.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "DRC-092",
@@ -2241,7 +2332,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "e0a9dd71-1cb0-4240-844a-57adbb42eb5d",
-    "image": "e0a9dd71-1cb0-4240-844a-57adbb42eb5d.jpg"
+    "image": "e0a9dd71-1cb0-4240-844a-57adbb42eb5d.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "DRC-093",
@@ -2263,7 +2355,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "7496bc5f-960f-4b0a-8cc1-ac56bfd8b7d8",
-    "image": "7496bc5f-960f-4b0a-8cc1-ac56bfd8b7d8.jpg"
+    "image": "7496bc5f-960f-4b0a-8cc1-ac56bfd8b7d8.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "DRC-094",
@@ -2285,7 +2378,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "91c6d4a9-810f-4d13-9e45-fc1c6f29a6de",
-    "image": "91c6d4a9-810f-4d13-9e45-fc1c6f29a6de.jpg"
+    "image": "91c6d4a9-810f-4d13-9e45-fc1c6f29a6de.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "DRC-095",
@@ -2307,7 +2401,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "f748378d-2ae5-4b5f-95a2-cffb7fa39acb",
-    "image": "f748378d-2ae5-4b5f-95a2-cffb7fa39acb.jpg"
+    "image": "f748378d-2ae5-4b5f-95a2-cffb7fa39acb.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "DRC-096",
@@ -2329,7 +2424,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "38acbd76-196e-4eca-ab3b-66503b1e2635",
-    "image": "38acbd76-196e-4eca-ab3b-66503b1e2635.jpg"
+    "image": "38acbd76-196e-4eca-ab3b-66503b1e2635.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "DRC-097",
@@ -2351,7 +2447,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "b6e5b46a-a531-4ccf-859e-2aa11a892c44",
-    "image": "b6e5b46a-a531-4ccf-859e-2aa11a892c44.jpg"
+    "image": "b6e5b46a-a531-4ccf-859e-2aa11a892c44.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "DRC-098",
@@ -2373,7 +2470,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "af49d5ba-5b57-430f-b366-0d9babf96284",
-    "image": "af49d5ba-5b57-430f-b366-0d9babf96284.jpg"
+    "image": "af49d5ba-5b57-430f-b366-0d9babf96284.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "DRC-099",
@@ -2395,7 +2493,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "87f87a68-af59-4006-83bd-f224dfcf4450",
-    "image": "87f87a68-af59-4006-83bd-f224dfcf4450.jpg"
+    "image": "87f87a68-af59-4006-83bd-f224dfcf4450.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "DRC-100",
@@ -2417,7 +2516,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "f635cade-1629-4620-9ca1-f1a57bc50c7b",
-    "image": "f635cade-1629-4620-9ca1-f1a57bc50c7b.jpg"
+    "image": "f635cade-1629-4620-9ca1-f1a57bc50c7b.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "DRC Buy a Box",
@@ -2439,7 +2539,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "68630610-40f7-4a02-9dfe-5e73808fc25c",
-    "image": "68630610-40f7-4a02-9dfe-5e73808fc25c.jpg"
+    "image": "68630610-40f7-4a02-9dfe-5e73808fc25c.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "DRC Prerelease Party",
@@ -2461,7 +2562,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "2159c976-f4bd-4e6e-ae2f-28adcb4a4dc6",
-    "image": "2159c976-f4bd-4e6e-ae2f-28adcb4a4dc6.jpg"
+    "image": "2159c976-f4bd-4e6e-ae2f-28adcb4a4dc6.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC Video-01",
@@ -2483,7 +2585,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "76992ad2-2c36-44d4-807e-0812d287270a",
-    "image": "76992ad2-2c36-44d4-807e-0812d287270a.jpg"
+    "image": "76992ad2-2c36-44d4-807e-0812d287270a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DRC Video-02",
@@ -2505,7 +2608,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "abfb2cf6-9fcb-45fa-827a-1a9b3295abe1",
-    "image": "abfb2cf6-9fcb-45fa-827a-1a9b3295abe1.jpg"
+    "image": "abfb2cf6-9fcb-45fa-827a-1a9b3295abe1.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC Video-03",
@@ -2527,7 +2631,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "965a9d50-d16f-4d63-b1ea-72b987d2afbf",
-    "image": "965a9d50-d16f-4d63-b1ea-72b987d2afbf.jpg"
+    "image": "965a9d50-d16f-4d63-b1ea-72b987d2afbf.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "DRC Video-04",
@@ -2549,7 +2654,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "fc498c06-c585-4993-81ee-462f275d9ab7",
-    "image": "fc498c06-c585-4993-81ee-462f275d9ab7.jpg"
+    "image": "fc498c06-c585-4993-81ee-462f275d9ab7.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC Video-05",
@@ -2571,7 +2677,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "92d3ef91-c46f-4342-99aa-cac331ff19db",
-    "image": "92d3ef91-c46f-4342-99aa-cac331ff19db.jpg"
+    "image": "92d3ef91-c46f-4342-99aa-cac331ff19db.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC Video-06",
@@ -2593,7 +2700,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "5c484034-2499-4525-9a7b-31a4ae2fd155",
-    "image": "5c484034-2499-4525-9a7b-31a4ae2fd155.jpg"
+    "image": "5c484034-2499-4525-9a7b-31a4ae2fd155.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC Video-07",
@@ -2615,7 +2723,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "3e1c366a-21e6-44e2-946c-d2aea385ee23",
-    "image": "3e1c366a-21e6-44e2-946c-d2aea385ee23.jpg"
+    "image": "3e1c366a-21e6-44e2-946c-d2aea385ee23.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC Video-08",
@@ -2637,7 +2746,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "23cf827a-2c0a-4501-8b37-5a9c7c560fd8",
-    "image": "23cf827a-2c0a-4501-8b37-5a9c7c560fd8.jpg"
+    "image": "23cf827a-2c0a-4501-8b37-5a9c7c560fd8.jpg",
+    "Card Type": "Addition|Rune"
   },
   {
     "Card Number": "DRC Video-09",
@@ -2659,7 +2769,8 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "3b3ee14f-836e-41cd-9aba-92d29ba01fc2",
-    "image": "3b3ee14f-836e-41cd-9aba-92d29ba01fc2.jpg"
+    "image": "3b3ee14f-836e-41cd-9aba-92d29ba01fc2.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "DRC Video-10",
@@ -2681,6 +2792,7 @@
     "Set Name": "098 - Descent into the Raven's Catacombs",
     "Set Code": "DRC",
     "id": "877380bf-59cd-4835-bc6d-7cf5d5ee986d",
-    "image": "877380bf-59cd-4835-bc6d-7cf5d5ee986d.jpg"
+    "image": "877380bf-59cd-4835-bc6d-7cf5d5ee986d.jpg",
+    "Card Type": "Regalia"
   }
 ]

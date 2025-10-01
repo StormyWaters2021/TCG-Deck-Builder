@@ -1,47 +1,48 @@
 [
   {
-    "Card Number": "SDV4-001",
-    "name": "Chamimi",
-    "Type": "Ruler",
-    "Race": "Mimi Tribe",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] 10\n[Judgment] {G} {G} {3}\n[Energize] {G}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"If a trespasser comes, let me know right away mi-!\"",
-    "Artist": "mie",
-    "Rarity": "R",
-    "Fowid": "3825",
-    "Cluster": "06 - New Valhalla",
-    "Set Name": "039 - Starter Deck Valhalla - Wind",
-    "Set Code": "SDV4",
-    "id": "d912594a-dccf-4d2a-b17d-87ad421bad6f",
-    "image": "d912594a-dccf-4d2a-b17d-87ad421bad6f.jpg"
-  },
-  {
-    "Card Number": "SDV4-001J",
-    "name": "Chamimi, Guardian of the Sacred Bow",
-    "Type": "J-Ruler",
+    "Card Number": "SDV4-001|SDV4-001J",
+    "name": "Chamimi // Chamimi, Guardian of the Sacred Bow",
+    "Type": "Ruler|J-Ruler",
     "Race": "Mimi Tribe",
     "Cost": "",
     "Colour": "G",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Divinity] 10\nResonators you control gain [+400/+400].",
+    "Abilities": "[Divinity] 10\n[Judgment] {G} {G} {3}\n[Energize] {G}|[Divinity] 10\nResonators you control gain [+400/+400].",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"You'll regret stepping foot onto our sacred grounds mi-!\"",
+    "Flavour": "\"If a trespasser comes, let me know right away mi-!\"|\"You'll regret stepping foot onto our sacred grounds mi-!\"",
     "Artist": "mie",
     "Rarity": "R",
-    "Fowid": "3826",
+    "Fowid": "3825|3826",
     "Cluster": "06 - New Valhalla",
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
-    "id": "4e8bedb0-5167-47db-920b-4a322f1ce32a",
-    "image": "4e8bedb0-5167-47db-920b-4a322f1ce32a.jpg"
+    "id": "d912594a-dccf-4d2a-b17d-87ad421bad6f",
+    "image": "d912594a-dccf-4d2a-b17d-87ad421bad6f.jpg",
+    "Card Type": "Ruler",
+    "backimage": "4e8bedb0-5167-47db-920b-4a322f1ce32a.jpg",
+    "alternate1_Card Number": "SDV4-001J",
+    "alternate1_name": "Chamimi, Guardian of the Sacred Bow",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Mimi Tribe",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Divinity] 10\nResonators you control gain [+400/+400].",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"You'll regret stepping foot onto our sacred grounds mi-!\"",
+    "alternate1_Artist": "mie",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3826",
+    "alternate1_Cluster": "06 - New Valhalla",
+    "alternate1_Set Name": "039 - Starter Deck Valhalla - Wind",
+    "alternate1_Set Code": "SDV4",
+    "alternate1_id": "4e8bedb0-5167-47db-920b-4a322f1ce32a",
+    "alternate1_image": "4e8bedb0-5167-47db-920b-4a322f1ce32a.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDV4-002",
@@ -63,7 +64,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "438a8ab2-1dbb-44c8-8ce6-4c2c2ac95ac0",
-    "image": "438a8ab2-1dbb-44c8-8ce6-4c2c2ac95ac0.jpg"
+    "image": "438a8ab2-1dbb-44c8-8ce6-4c2c2ac95ac0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV4-003",
@@ -85,7 +87,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "3f4c526d-3d30-495f-89b6-5f84f044ece4",
-    "image": "3f4c526d-3d30-495f-89b6-5f84f044ece4.jpg"
+    "image": "3f4c526d-3d30-495f-89b6-5f84f044ece4.jpg",
+    "Card Type": "Master Rune"
   },
   {
     "Card Number": "SDV4-004",
@@ -107,7 +110,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "b43ae467-989e-428d-a709-228ad4fa549b",
-    "image": "b43ae467-989e-428d-a709-228ad4fa549b.jpg"
+    "image": "b43ae467-989e-428d-a709-228ad4fa549b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV4-005",
@@ -129,7 +133,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "da2ae567-d1b5-4193-ae9b-8c9e775c4396",
-    "image": "da2ae567-d1b5-4193-ae9b-8c9e775c4396.jpg"
+    "image": "da2ae567-d1b5-4193-ae9b-8c9e775c4396.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV4-006",
@@ -151,7 +156,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "d4c2cf26-33f2-4424-9833-a8e11198c605",
-    "image": "d4c2cf26-33f2-4424-9833-a8e11198c605.jpg"
+    "image": "d4c2cf26-33f2-4424-9833-a8e11198c605.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV4-007",
@@ -173,51 +179,53 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "c0d21500-30c2-4dfb-8de4-3fb22225ecec",
-    "image": "c0d21500-30c2-4dfb-8de4-3fb22225ecec.jpg"
+    "image": "c0d21500-30c2-4dfb-8de4-3fb22225ecec.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "SDV4-008",
-    "name": "Hanzo",
-    "Type": "Ruler",
-    "Race": "Cat|Ninja",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] 10\n[Judgment] {G} {G} {2}\n[Energize] {G}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The Kouga are a peculiar group of cats and youkai. Why is a cat in charge? Only god knows.",
-    "Artist": "ComamitsuZaki",
-    "Rarity": "R",
-    "Fowid": "3833",
-    "Cluster": "06 - New Valhalla",
-    "Set Name": "039 - Starter Deck Valhalla - Wind",
-    "Set Code": "SDV4",
-    "id": "c7eb935b-98d4-44bd-a44a-8db05b85d65f",
-    "image": "c7eb935b-98d4-44bd-a44a-8db05b85d65f.jpg"
-  },
-  {
-    "Card Number": "SDV4-008J",
-    "name": "Hanzo, Chief of the Kouga",
-    "Type": "J-Ruler",
+    "Card Number": "SDV4-008|SDV4-008J",
+    "name": "Hanzo // Hanzo, Chief of the Kouga",
+    "Type": "Ruler|J-Ruler",
     "Race": "Cat|Ninja",
     "Cost": "",
     "Colour": "G",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Divinity] 10\n[Enter] ⇒ Flip a revealed rune from your rune area face down. (When this card enters the field ⇒ Perform the effect.)",
+    "Abilities": "[Divinity] 10\n[Judgment] {G} {G} {2}\n[Energize] {G}|[Divinity] 10\n[Enter] ⇒ Flip a revealed rune from your rune area face down. (When this card enters the field ⇒ Perform the effect.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Would you kindly surrender to me? No? Very well then, while it is not my nature to kill, I see it cannot be helped!\"",
+    "Flavour": "The Kouga are a peculiar group of cats and youkai. Why is a cat in charge? Only god knows.|\"Would you kindly surrender to me? No? Very well then, while it is not my nature to kill, I see it cannot be helped!\"",
     "Artist": "ComamitsuZaki",
     "Rarity": "R",
-    "Fowid": "3834",
+    "Fowid": "3833|3834",
     "Cluster": "06 - New Valhalla",
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
-    "id": "934504cb-e814-42c8-8c31-6e57d2fb7e5e",
-    "image": "934504cb-e814-42c8-8c31-6e57d2fb7e5e.jpg"
+    "id": "c7eb935b-98d4-44bd-a44a-8db05b85d65f",
+    "image": "c7eb935b-98d4-44bd-a44a-8db05b85d65f.jpg",
+    "Card Type": "Ruler",
+    "backimage": "934504cb-e814-42c8-8c31-6e57d2fb7e5e.jpg",
+    "alternate1_Card Number": "SDV4-008J",
+    "alternate1_name": "Hanzo, Chief of the Kouga",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Cat|Ninja",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Divinity] 10\n[Enter] ⇒ Flip a revealed rune from your rune area face down. (When this card enters the field ⇒ Perform the effect.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Would you kindly surrender to me? No? Very well then, while it is not my nature to kill, I see it cannot be helped!\"",
+    "alternate1_Artist": "ComamitsuZaki",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3834",
+    "alternate1_Cluster": "06 - New Valhalla",
+    "alternate1_Set Name": "039 - Starter Deck Valhalla - Wind",
+    "alternate1_Set Code": "SDV4",
+    "alternate1_id": "934504cb-e814-42c8-8c31-6e57d2fb7e5e",
+    "alternate1_image": "934504cb-e814-42c8-8c31-6e57d2fb7e5e.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDV4-009",
@@ -239,7 +247,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "5a859f4a-798f-4f7e-873c-91cd52c97cfa",
-    "image": "5a859f4a-798f-4f7e-873c-91cd52c97cfa.jpg"
+    "image": "5a859f4a-798f-4f7e-873c-91cd52c97cfa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV4-010",
@@ -261,7 +270,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "11ecc638-1ba9-4504-8fec-70cdaa70d2a8",
-    "image": "11ecc638-1ba9-4504-8fec-70cdaa70d2a8.jpg"
+    "image": "11ecc638-1ba9-4504-8fec-70cdaa70d2a8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV4-011",
@@ -283,7 +293,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "d6403785-1ae4-4cd3-8703-5f1d2c8c17cd",
-    "image": "d6403785-1ae4-4cd3-8703-5f1d2c8c17cd.jpg"
+    "image": "d6403785-1ae4-4cd3-8703-5f1d2c8c17cd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV4-012",
@@ -305,7 +316,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "0d4acc75-0744-412d-8743-fecba42f3fb3",
-    "image": "0d4acc75-0744-412d-8743-fecba42f3fb3.jpg"
+    "image": "0d4acc75-0744-412d-8743-fecba42f3fb3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV4-013",
@@ -327,7 +339,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "25ff7ffd-39ec-4db0-a617-e16051a6097f",
-    "image": "25ff7ffd-39ec-4db0-a617-e16051a6097f.jpg"
+    "image": "25ff7ffd-39ec-4db0-a617-e16051a6097f.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV4-014",
@@ -349,7 +362,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "394b0544-1d9e-420c-96fe-942d5701f78e",
-    "image": "394b0544-1d9e-420c-96fe-942d5701f78e.jpg"
+    "image": "394b0544-1d9e-420c-96fe-942d5701f78e.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV4-015",
@@ -371,7 +385,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "a8054ea4-7940-494a-8c71-12cad5f13609",
-    "image": "a8054ea4-7940-494a-8c71-12cad5f13609.jpg"
+    "image": "a8054ea4-7940-494a-8c71-12cad5f13609.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV4-016",
@@ -393,7 +408,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "9d852504-d773-4968-a8a5-160a62576822",
-    "image": "9d852504-d773-4968-a8a5-160a62576822.jpg"
+    "image": "9d852504-d773-4968-a8a5-160a62576822.jpg",
+    "Card Type": "Master Rune"
   },
   {
     "Card Number": "SDV4-017",
@@ -415,7 +431,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "f2cff54f-c377-4706-9f4b-f85a860d9385",
-    "image": "f2cff54f-c377-4706-9f4b-f85a860d9385.jpg"
+    "image": "f2cff54f-c377-4706-9f4b-f85a860d9385.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV4-018",
@@ -437,7 +454,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "fa262d0f-bcf5-401f-b3f7-046d9aa5b01d",
-    "image": "fa262d0f-bcf5-401f-b3f7-046d9aa5b01d.jpg"
+    "image": "fa262d0f-bcf5-401f-b3f7-046d9aa5b01d.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV4-019",
@@ -459,7 +477,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "6e73e309-7a43-48d6-9247-31d91798801b",
-    "image": "6e73e309-7a43-48d6-9247-31d91798801b.jpg"
+    "image": "6e73e309-7a43-48d6-9247-31d91798801b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV4-020",
@@ -481,7 +500,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "c2985a32-8fe4-4b16-8610-c76c2802e8b3",
-    "image": "c2985a32-8fe4-4b16-8610-c76c2802e8b3.jpg"
+    "image": "c2985a32-8fe4-4b16-8610-c76c2802e8b3.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV4-021",
@@ -503,7 +523,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "01f0c346-15a0-4926-904e-3be0e753e05b",
-    "image": "01f0c346-15a0-4926-904e-3be0e753e05b.jpg"
+    "image": "01f0c346-15a0-4926-904e-3be0e753e05b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV4-022",
@@ -525,7 +546,8 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "cd46ffc1-cd99-4c52-9136-73c475631fdf",
-    "image": "cd46ffc1-cd99-4c52-9136-73c475631fdf.jpg"
+    "image": "cd46ffc1-cd99-4c52-9136-73c475631fdf.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV4-023",
@@ -547,6 +569,7 @@
     "Set Name": "039 - Starter Deck Valhalla - Wind",
     "Set Code": "SDV4",
     "id": "0d2c298f-f489-42fb-af02-9728928320d2",
-    "image": "0d2c298f-f489-42fb-af02-9728928320d2.jpg"
+    "image": "0d2c298f-f489-42fb-af02-9728928320d2.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

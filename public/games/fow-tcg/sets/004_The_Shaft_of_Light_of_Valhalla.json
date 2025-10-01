@@ -1,14 +1,14 @@
 [
   {
-    "Card Number": "3-001",
-    "name": "Sister of Linorsphairia",
-    "Type": "Ruler",
-    "Race": "Monk",
+    "Card Number": "3-001|3-001J",
+    "name": "Sister of Linorsphairia // Sol",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Monk|Spirit",
     "Cost": "",
     "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {W}{W}{2}\n[Activate] {Rest}: Look at the top three cards of your magic stone deck, choose a light magic stone from among them and put it into your magic stone area. Put the rest on the bottom of your magic stone deck in any order.",
+    "ATK": "600",
+    "DEF": "600",
+    "Abilities": "[J-Activate] Pay {W}{W}{2}\n[Activate] {Rest}: Look at the top three cards of your magic stone deck, choose a light magic stone from among them and put it into your magic stone area. Put the rest on the bottom of your magic stone deck in any order.|[Enter]:Your Resonators gain [+200/+200] until end of turn. You may rest up to two target resonators in your opponent's field.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -19,29 +19,30 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "a4fa4d6c-1169-4d4d-9e96-c0d37241467f",
-    "image": "a4fa4d6c-1169-4d4d-9e96-c0d37241467f.jpg"
-  },
-  {
-    "Card Number": "3-001J",
-    "name": "Sol",
-    "Type": "J-Ruler",
-    "Race": "Spirit",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "600",
-    "DEF": "600",
-    "Abilities": "[Enter]:Your Resonators gain [+200/+200] until end of turn. You may rest up to two target resonators in your opponent's field.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "004 - The Shaft of Light of Valhalla",
-    "Set Code": "3",
-    "id": "6bbd094f-7b5f-42d2-99b5-b536b12d21fe",
-    "image": "6bbd094f-7b5f-42d2-99b5-b536b12d21fe.jpg"
+    "image": "a4fa4d6c-1169-4d4d-9e96-c0d37241467f.jpg",
+    "Card Type": "Ruler",
+    "backimage": "6bbd094f-7b5f-42d2-99b5-b536b12d21fe.jpg",
+    "alternate1_Card Number": "3-001J",
+    "alternate1_name": "Sol",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "600",
+    "alternate1_DEF": "600",
+    "alternate1_Abilities": "[Enter]:Your Resonators gain [+200/+200] until end of turn. You may rest up to two target resonators in your opponent's field.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "004 - The Shaft of Light of Valhalla",
+    "alternate1_Set Code": "3",
+    "alternate1_id": "6bbd094f-7b5f-42d2-99b5-b536b12d21fe",
+    "alternate1_image": "6bbd094f-7b5f-42d2-99b5-b536b12d21fe.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "3-002",
@@ -63,7 +64,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "10dd50c6-9eed-455d-a943-1735616f1dff",
-    "image": "10dd50c6-9eed-455d-a943-1735616f1dff.jpg"
+    "image": "10dd50c6-9eed-455d-a943-1735616f1dff.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-003",
@@ -85,7 +87,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "e5525f33-dd11-4cf5-bab0-506ad0765975",
-    "image": "e5525f33-dd11-4cf5-bab0-506ad0765975.jpg"
+    "image": "e5525f33-dd11-4cf5-bab0-506ad0765975.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-004",
@@ -107,7 +110,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "c04ad7e1-fec3-46b3-9ad2-61a52a6fa4fb",
-    "image": "c04ad7e1-fec3-46b3-9ad2-61a52a6fa4fb.jpg"
+    "image": "c04ad7e1-fec3-46b3-9ad2-61a52a6fa4fb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-005",
@@ -129,7 +133,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "e9e9b0a2-62b5-43a6-8317-9dcc9be8727d",
-    "image": "e9e9b0a2-62b5-43a6-8317-9dcc9be8727d.jpg"
+    "image": "e9e9b0a2-62b5-43a6-8317-9dcc9be8727d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-006",
@@ -151,7 +156,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "71dd7b69-4c4e-485a-b4e0-a31fbd863300",
-    "image": "71dd7b69-4c4e-485a-b4e0-a31fbd863300.jpg"
+    "image": "71dd7b69-4c4e-485a-b4e0-a31fbd863300.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-007",
@@ -173,7 +179,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "b08548d5-318f-4dc6-8559-d5ea0c002406",
-    "image": "b08548d5-318f-4dc6-8559-d5ea0c002406.jpg"
+    "image": "b08548d5-318f-4dc6-8559-d5ea0c002406.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-008",
@@ -195,7 +202,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "d51f7e4d-650f-4893-8b1a-d08149f4f001",
-    "image": "d51f7e4d-650f-4893-8b1a-d08149f4f001.jpg"
+    "image": "d51f7e4d-650f-4893-8b1a-d08149f4f001.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-009",
@@ -217,7 +225,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "616f3e4b-38de-49cd-af2f-a047863243c0",
-    "image": "616f3e4b-38de-49cd-af2f-a047863243c0.jpg"
+    "image": "616f3e4b-38de-49cd-af2f-a047863243c0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-010",
@@ -239,7 +248,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "823954d5-9e3c-419a-944f-3e4974322880",
-    "image": "823954d5-9e3c-419a-944f-3e4974322880.jpg"
+    "image": "823954d5-9e3c-419a-944f-3e4974322880.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-011",
@@ -261,7 +271,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "66db94fd-ecbd-422e-b635-0dfb13625d2b",
-    "image": "66db94fd-ecbd-422e-b635-0dfb13625d2b.jpg"
+    "image": "66db94fd-ecbd-422e-b635-0dfb13625d2b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-012",
@@ -283,7 +294,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "c6b504e4-e7d2-4fcd-993e-ada401f365ec",
-    "image": "c6b504e4-e7d2-4fcd-993e-ada401f365ec.jpg"
+    "image": "c6b504e4-e7d2-4fcd-993e-ada401f365ec.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-013",
@@ -305,7 +317,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "2dfcc525-6291-4e25-9712-aab44c2f79e7",
-    "image": "2dfcc525-6291-4e25-9712-aab44c2f79e7.jpg"
+    "image": "2dfcc525-6291-4e25-9712-aab44c2f79e7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-014",
@@ -327,7 +340,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "1259ea28-b8f2-4809-835f-3e64d8be8ee5",
-    "image": "1259ea28-b8f2-4809-835f-3e64d8be8ee5.jpg"
+    "image": "1259ea28-b8f2-4809-835f-3e64d8be8ee5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-015",
@@ -349,7 +363,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "58962509-69de-47df-a053-7ad7b160c096",
-    "image": "58962509-69de-47df-a053-7ad7b160c096.jpg"
+    "image": "58962509-69de-47df-a053-7ad7b160c096.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "3-016",
@@ -371,7 +386,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "ce171d68-4b39-4a0a-a482-9bb2214d3efb",
-    "image": "ce171d68-4b39-4a0a-a482-9bb2214d3efb.jpg"
+    "image": "ce171d68-4b39-4a0a-a482-9bb2214d3efb.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "3-017",
@@ -393,7 +409,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "d90285d4-9dc6-4306-8088-5004e3ad0747",
-    "image": "d90285d4-9dc6-4306-8088-5004e3ad0747.jpg"
+    "image": "d90285d4-9dc6-4306-8088-5004e3ad0747.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "3-018",
@@ -415,7 +432,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "b50d4aab-de83-4a79-ac19-84d80f25e85c",
-    "image": "b50d4aab-de83-4a79-ac19-84d80f25e85c.jpg"
+    "image": "b50d4aab-de83-4a79-ac19-84d80f25e85c.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "3-019",
@@ -437,7 +455,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "06d1b84f-99ad-4d47-884b-afcc0532570d",
-    "image": "06d1b84f-99ad-4d47-884b-afcc0532570d.jpg"
+    "image": "06d1b84f-99ad-4d47-884b-afcc0532570d.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "3-020",
@@ -459,7 +478,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "e10f40a6-9055-4040-bce4-dcc326bb1ec7",
-    "image": "e10f40a6-9055-4040-bce4-dcc326bb1ec7.jpg"
+    "image": "e10f40a6-9055-4040-bce4-dcc326bb1ec7.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "3-021",
@@ -481,7 +501,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "0295ee0c-ac85-44bd-ac73-5e1e899d3bf9",
-    "image": "0295ee0c-ac85-44bd-ac73-5e1e899d3bf9.jpg"
+    "image": "0295ee0c-ac85-44bd-ac73-5e1e899d3bf9.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "3-022",
@@ -503,7 +524,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "fb8c5f8e-697c-474b-8b0c-2d8a44a6e169",
-    "image": "fb8c5f8e-697c-474b-8b0c-2d8a44a6e169.jpg"
+    "image": "fb8c5f8e-697c-474b-8b0c-2d8a44a6e169.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "3-023",
@@ -525,7 +547,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "28941070-11b3-4e7a-b6ed-bd776ea7aa7f",
-    "image": "28941070-11b3-4e7a-b6ed-bd776ea7aa7f.jpg"
+    "image": "28941070-11b3-4e7a-b6ed-bd776ea7aa7f.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "3-024",
@@ -547,18 +570,19 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "fff14d5b-273f-463e-ab20-d8571332427a",
-    "image": "fff14d5b-273f-463e-ab20-d8571332427a.jpg"
+    "image": "fff14d5b-273f-463e-ab20-d8571332427a.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "3-025",
-    "name": "Flame Entertainer",
-    "Type": "Ruler",
-    "Race": "Clown",
+    "Card Number": "3-025|3-025J",
+    "name": "Flame Entertainer // Salamander",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Clown|Spirit",
     "Cost": "",
     "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {R}{R}{2}\n[Activate] {Rest}: Look at the top three cards of your magic stone deck, choose a fire magic stone from among them and put it into your magic stone area. Put the rest on the bottom of your magic stone deck in any order.",
+    "ATK": "600",
+    "DEF": "600",
+    "Abilities": "[J-Activate] Pay {R}{R}{2}\n[Activate] {Rest}: Look at the top three cards of your magic stone deck, choose a fire magic stone from among them and put it into your magic stone area. Put the rest on the bottom of your magic stone deck in any order.|[Enter]: This card deals 600 damage to an opponent and target resonator in your opponent's field.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -569,29 +593,30 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "55b1c3d4-6872-4cc1-8d1e-ad3594113a9a",
-    "image": "55b1c3d4-6872-4cc1-8d1e-ad3594113a9a.jpg"
-  },
-  {
-    "Card Number": "3-025J",
-    "name": "Salamander",
-    "Type": "J-Ruler",
-    "Race": "Spirit",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "600",
-    "DEF": "600",
-    "Abilities": "[Enter]: This card deals 600 damage to an opponent and target resonator in your opponent's field.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "004 - The Shaft of Light of Valhalla",
-    "Set Code": "3",
-    "id": "de7ae575-4d47-4ac4-92d2-a03ce0c18040",
-    "image": "de7ae575-4d47-4ac4-92d2-a03ce0c18040.jpg"
+    "image": "55b1c3d4-6872-4cc1-8d1e-ad3594113a9a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "de7ae575-4d47-4ac4-92d2-a03ce0c18040.jpg",
+    "alternate1_Card Number": "3-025J",
+    "alternate1_name": "Salamander",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "600",
+    "alternate1_DEF": "600",
+    "alternate1_Abilities": "[Enter]: This card deals 600 damage to an opponent and target resonator in your opponent's field.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "004 - The Shaft of Light of Valhalla",
+    "alternate1_Set Code": "3",
+    "alternate1_id": "de7ae575-4d47-4ac4-92d2-a03ce0c18040",
+    "alternate1_image": "de7ae575-4d47-4ac4-92d2-a03ce0c18040.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "3-026",
@@ -613,7 +638,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "2f29bc4c-db21-44d7-92a7-a7924e8fb38c",
-    "image": "2f29bc4c-db21-44d7-92a7-a7924e8fb38c.jpg"
+    "image": "2f29bc4c-db21-44d7-92a7-a7924e8fb38c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-027",
@@ -635,7 +661,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "eb9de7fc-1e01-4bad-8e2e-454e17bbdf54",
-    "image": "eb9de7fc-1e01-4bad-8e2e-454e17bbdf54.jpg"
+    "image": "eb9de7fc-1e01-4bad-8e2e-454e17bbdf54.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-028",
@@ -657,7 +684,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "0f8b1251-7d08-4117-87e0-4d49cb4c376a",
-    "image": "0f8b1251-7d08-4117-87e0-4d49cb4c376a.jpg"
+    "image": "0f8b1251-7d08-4117-87e0-4d49cb4c376a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-029",
@@ -679,7 +707,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "a8c7b56e-3dc2-4cc0-b627-7c8a5c2d24c2",
-    "image": "a8c7b56e-3dc2-4cc0-b627-7c8a5c2d24c2.jpg"
+    "image": "a8c7b56e-3dc2-4cc0-b627-7c8a5c2d24c2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-030",
@@ -701,7 +730,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "28ec5f6f-a149-44ad-9d7f-b7ed954c9e6e",
-    "image": "28ec5f6f-a149-44ad-9d7f-b7ed954c9e6e.jpg"
+    "image": "28ec5f6f-a149-44ad-9d7f-b7ed954c9e6e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-031",
@@ -723,7 +753,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "2b319b58-b197-42b7-baf5-e9880b88ed47",
-    "image": "2b319b58-b197-42b7-baf5-e9880b88ed47.jpg"
+    "image": "2b319b58-b197-42b7-baf5-e9880b88ed47.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-032",
@@ -745,7 +776,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "676dc05f-48d4-42f9-a3ef-37e3fff48808",
-    "image": "676dc05f-48d4-42f9-a3ef-37e3fff48808.jpg"
+    "image": "676dc05f-48d4-42f9-a3ef-37e3fff48808.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-033",
@@ -767,7 +799,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "f13d3e14-1044-4b1f-9c97-7395e8372fc7",
-    "image": "f13d3e14-1044-4b1f-9c97-7395e8372fc7.jpg"
+    "image": "f13d3e14-1044-4b1f-9c97-7395e8372fc7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-034",
@@ -789,7 +822,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "c8f1c2e7-2204-47b2-952d-23902a546cbc",
-    "image": "c8f1c2e7-2204-47b2-952d-23902a546cbc.jpg"
+    "image": "c8f1c2e7-2204-47b2-952d-23902a546cbc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-035",
@@ -811,7 +845,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "553d9972-06c9-435e-95f1-4ea7b03f1652",
-    "image": "553d9972-06c9-435e-95f1-4ea7b03f1652.jpg"
+    "image": "553d9972-06c9-435e-95f1-4ea7b03f1652.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-036",
@@ -833,7 +868,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "9ad89b95-5cdf-458c-a35c-051fe8b4055b",
-    "image": "9ad89b95-5cdf-458c-a35c-051fe8b4055b.jpg"
+    "image": "9ad89b95-5cdf-458c-a35c-051fe8b4055b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-037",
@@ -855,7 +891,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "d7383df6-4824-4158-9f97-c12ab7e3bf50",
-    "image": "d7383df6-4824-4158-9f97-c12ab7e3bf50.jpg"
+    "image": "d7383df6-4824-4158-9f97-c12ab7e3bf50.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-038",
@@ -877,7 +914,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "6066a13c-d095-4cb9-8e64-0ac9ee7a57f8",
-    "image": "6066a13c-d095-4cb9-8e64-0ac9ee7a57f8.jpg"
+    "image": "6066a13c-d095-4cb9-8e64-0ac9ee7a57f8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-039",
@@ -899,7 +937,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "ffb5d0ba-e401-4e82-9fb7-935e2a9b1a2d",
-    "image": "ffb5d0ba-e401-4e82-9fb7-935e2a9b1a2d.jpg"
+    "image": "ffb5d0ba-e401-4e82-9fb7-935e2a9b1a2d.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "3-040",
@@ -921,7 +960,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "62b95f6d-022d-40c3-a331-4260b3d97e45",
-    "image": "62b95f6d-022d-40c3-a331-4260b3d97e45.jpg"
+    "image": "62b95f6d-022d-40c3-a331-4260b3d97e45.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "3-041",
@@ -943,7 +983,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "c941c345-8463-4f31-accb-1463d276ebf7",
-    "image": "c941c345-8463-4f31-accb-1463d276ebf7.jpg"
+    "image": "c941c345-8463-4f31-accb-1463d276ebf7.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "3-042",
@@ -965,7 +1006,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "045c3c4d-34be-41b1-975b-56728f70d876",
-    "image": "045c3c4d-34be-41b1-975b-56728f70d876.jpg"
+    "image": "045c3c4d-34be-41b1-975b-56728f70d876.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "3-043",
@@ -987,7 +1029,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "e854835d-41d5-4162-b83c-3a4fe0cec579",
-    "image": "e854835d-41d5-4162-b83c-3a4fe0cec579.jpg"
+    "image": "e854835d-41d5-4162-b83c-3a4fe0cec579.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "3-044",
@@ -1009,7 +1052,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "153cf639-a01f-4783-9a12-4c6c9a459c98",
-    "image": "153cf639-a01f-4783-9a12-4c6c9a459c98.jpg"
+    "image": "153cf639-a01f-4783-9a12-4c6c9a459c98.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "3-045",
@@ -1031,7 +1075,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "0f1d0d0b-1988-476d-b94b-c5f96be34ecb",
-    "image": "0f1d0d0b-1988-476d-b94b-c5f96be34ecb.jpg"
+    "image": "0f1d0d0b-1988-476d-b94b-c5f96be34ecb.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "3-046",
@@ -1053,7 +1098,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "56483094-de4f-4aa1-8c17-e7d69254a3dd",
-    "image": "56483094-de4f-4aa1-8c17-e7d69254a3dd.jpg"
+    "image": "56483094-de4f-4aa1-8c17-e7d69254a3dd.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "3-047",
@@ -1075,7 +1121,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "2ab1a7cb-6285-412a-a25f-2fcb9318e1aa",
-    "image": "2ab1a7cb-6285-412a-a25f-2fcb9318e1aa.jpg"
+    "image": "2ab1a7cb-6285-412a-a25f-2fcb9318e1aa.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "3-048",
@@ -1097,18 +1144,19 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "2ebee4af-6472-41a1-9400-4d63e9d40bda",
-    "image": "2ebee4af-6472-41a1-9400-4d63e9d40bda.jpg"
+    "image": "2ebee4af-6472-41a1-9400-4d63e9d40bda.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "3-049",
-    "name": "Lailah, the Maiden of the Fountain",
-    "Type": "Ruler",
-    "Race": "Mage",
+    "Card Number": "3-049|3-049J",
+    "name": "Lailah, the Maiden of the Fountain // Nymph",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Mage|Spirit",
     "Cost": "",
     "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Activate] {Rest}: Look at the top three cards of your magic stone deck, choose a water magic stone from among them and put it into your magic stone area. Put the rest on the bottom of your magic stone deck in any order.\n[J-Activate] Pay {U}{U}{2}",
+    "ATK": "600",
+    "DEF": "600",
+    "Abilities": "[Activate] {Rest}: Look at the top three cards of your magic stone deck, choose a water magic stone from among them and put it into your magic stone area. Put the rest on the bottom of your magic stone deck in any order.\n[J-Activate] Pay {U}{U}{2}|[Enter]: you may return two target resonators to their owner's hand.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1119,29 +1167,30 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "6128b948-93a8-4df0-b9a7-0dd8540c858d",
-    "image": "6128b948-93a8-4df0-b9a7-0dd8540c858d.jpg"
-  },
-  {
-    "Card Number": "3-049J",
-    "name": "Nymph",
-    "Type": "J-Ruler",
-    "Race": "Spirit",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "600",
-    "DEF": "600",
-    "Abilities": "[Enter]: you may return two target resonators to their owner's hand.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "004 - The Shaft of Light of Valhalla",
-    "Set Code": "3",
-    "id": "97f69d1f-860f-42dd-a737-b8a14e40621c",
-    "image": "97f69d1f-860f-42dd-a737-b8a14e40621c.jpg"
+    "image": "6128b948-93a8-4df0-b9a7-0dd8540c858d.jpg",
+    "Card Type": "Ruler",
+    "backimage": "97f69d1f-860f-42dd-a737-b8a14e40621c.jpg",
+    "alternate1_Card Number": "3-049J",
+    "alternate1_name": "Nymph",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "600",
+    "alternate1_DEF": "600",
+    "alternate1_Abilities": "[Enter]: you may return two target resonators to their owner's hand.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "004 - The Shaft of Light of Valhalla",
+    "alternate1_Set Code": "3",
+    "alternate1_id": "97f69d1f-860f-42dd-a737-b8a14e40621c",
+    "alternate1_image": "97f69d1f-860f-42dd-a737-b8a14e40621c.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "3-050",
@@ -1163,7 +1212,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "e5220a2b-83d1-42b0-8dcb-036f17b5bc76",
-    "image": "e5220a2b-83d1-42b0-8dcb-036f17b5bc76.jpg"
+    "image": "e5220a2b-83d1-42b0-8dcb-036f17b5bc76.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-051",
@@ -1185,7 +1235,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "2fbe867a-a267-4d52-91fa-baf479caa6a1",
-    "image": "2fbe867a-a267-4d52-91fa-baf479caa6a1.jpg"
+    "image": "2fbe867a-a267-4d52-91fa-baf479caa6a1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-052",
@@ -1207,7 +1258,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "0bf0790d-a3e0-4903-914e-53d3008f9b50",
-    "image": "0bf0790d-a3e0-4903-914e-53d3008f9b50.jpg"
+    "image": "0bf0790d-a3e0-4903-914e-53d3008f9b50.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-053",
@@ -1229,7 +1281,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "6bc08807-c28f-4a4e-9f92-6650abd86e73",
-    "image": "6bc08807-c28f-4a4e-9f92-6650abd86e73.jpg"
+    "image": "6bc08807-c28f-4a4e-9f92-6650abd86e73.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-054",
@@ -1251,7 +1304,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "30c0e22e-6973-4762-a71b-d578094906d2",
-    "image": "30c0e22e-6973-4762-a71b-d578094906d2.jpg"
+    "image": "30c0e22e-6973-4762-a71b-d578094906d2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-055",
@@ -1273,7 +1327,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "0ac80077-9841-4303-ac0d-8ab416c3f22f",
-    "image": "0ac80077-9841-4303-ac0d-8ab416c3f22f.jpg"
+    "image": "0ac80077-9841-4303-ac0d-8ab416c3f22f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-056",
@@ -1295,7 +1350,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "0d701706-d1c4-4cbd-b269-75d82156ef56",
-    "image": "0d701706-d1c4-4cbd-b269-75d82156ef56.jpg"
+    "image": "0d701706-d1c4-4cbd-b269-75d82156ef56.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-057",
@@ -1317,7 +1373,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "7aa8b32f-60ec-4f2c-baa7-a197bebcff0c",
-    "image": "7aa8b32f-60ec-4f2c-baa7-a197bebcff0c.jpg"
+    "image": "7aa8b32f-60ec-4f2c-baa7-a197bebcff0c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-058",
@@ -1339,7 +1396,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "4c499fb5-5b74-42ec-80f6-e8e9d65ba269",
-    "image": "4c499fb5-5b74-42ec-80f6-e8e9d65ba269.jpg"
+    "image": "4c499fb5-5b74-42ec-80f6-e8e9d65ba269.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-059",
@@ -1361,7 +1419,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "d0e8c15f-bfcf-4058-89ac-a7fb3add773c",
-    "image": "d0e8c15f-bfcf-4058-89ac-a7fb3add773c.jpg"
+    "image": "d0e8c15f-bfcf-4058-89ac-a7fb3add773c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-060",
@@ -1383,7 +1442,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "d1171867-390d-48cc-9545-72145b7ae147",
-    "image": "d1171867-390d-48cc-9545-72145b7ae147.jpg"
+    "image": "d1171867-390d-48cc-9545-72145b7ae147.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-061",
@@ -1405,7 +1465,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "f549c5f4-15fe-48c3-af61-db2acbb6d280",
-    "image": "f549c5f4-15fe-48c3-af61-db2acbb6d280.jpg"
+    "image": "f549c5f4-15fe-48c3-af61-db2acbb6d280.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-062",
@@ -1427,7 +1488,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "d9a10da3-721a-4cd5-8c7e-3c22e5403317",
-    "image": "d9a10da3-721a-4cd5-8c7e-3c22e5403317.jpg"
+    "image": "d9a10da3-721a-4cd5-8c7e-3c22e5403317.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-063",
@@ -1449,7 +1511,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "7f5928c0-8bdb-4953-aa99-bd2ada475eca",
-    "image": "7f5928c0-8bdb-4953-aa99-bd2ada475eca.jpg"
+    "image": "7f5928c0-8bdb-4953-aa99-bd2ada475eca.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "3-064",
@@ -1471,7 +1534,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "fba4fb0a-e5d0-4e20-815f-9b4cf7718a77",
-    "image": "fba4fb0a-e5d0-4e20-815f-9b4cf7718a77.jpg"
+    "image": "fba4fb0a-e5d0-4e20-815f-9b4cf7718a77.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "3-065",
@@ -1493,7 +1557,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "27b039ec-82a6-4aaa-a60e-8cd98f39cf75",
-    "image": "27b039ec-82a6-4aaa-a60e-8cd98f39cf75.jpg"
+    "image": "27b039ec-82a6-4aaa-a60e-8cd98f39cf75.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "3-066",
@@ -1515,7 +1580,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "0ba89530-2436-4958-98e2-d0d0d0b53083",
-    "image": "0ba89530-2436-4958-98e2-d0d0d0b53083.jpg"
+    "image": "0ba89530-2436-4958-98e2-d0d0d0b53083.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "3-067",
@@ -1537,7 +1603,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "d8bbdbfb-b5a1-45cb-9cfd-bf2e828fdb1a",
-    "image": "d8bbdbfb-b5a1-45cb-9cfd-bf2e828fdb1a.jpg"
+    "image": "d8bbdbfb-b5a1-45cb-9cfd-bf2e828fdb1a.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "3-068",
@@ -1559,7 +1626,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "f17d25df-4e72-4b85-b99e-3853244cca0a",
-    "image": "f17d25df-4e72-4b85-b99e-3853244cca0a.jpg"
+    "image": "f17d25df-4e72-4b85-b99e-3853244cca0a.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "3-069",
@@ -1581,7 +1649,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "d8864a9b-22be-48b6-bafd-23df697326c4",
-    "image": "d8864a9b-22be-48b6-bafd-23df697326c4.jpg"
+    "image": "d8864a9b-22be-48b6-bafd-23df697326c4.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "3-070",
@@ -1603,7 +1672,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "1de9ba77-cf72-4dbe-9a7e-37efad398623",
-    "image": "1de9ba77-cf72-4dbe-9a7e-37efad398623.jpg"
+    "image": "1de9ba77-cf72-4dbe-9a7e-37efad398623.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "3-071",
@@ -1625,7 +1695,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "eee96db1-5d53-40bf-afb9-8e4a1489d011",
-    "image": "eee96db1-5d53-40bf-afb9-8e4a1489d011.jpg"
+    "image": "eee96db1-5d53-40bf-afb9-8e4a1489d011.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "3-072",
@@ -1647,18 +1718,19 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "19581232-166c-4972-982d-4b28463d149f",
-    "image": "19581232-166c-4972-982d-4b28463d149f.jpg"
+    "image": "19581232-166c-4972-982d-4b28463d149f.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "3-073",
-    "name": "Athenia, the Wind Master",
-    "Type": "Ruler",
-    "Race": "Mage",
+    "Card Number": "3-073|3-073J",
+    "name": "Athenia, the Wind Master // Frigg, the Goddess of Abundance",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Mage|Deity",
     "Cost": "",
     "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {G}{3}.\n[Activate] Pay {G} Choose target card in a graveyard and put it on the bottom of its owner's main deck.",
+    "ATK": "0",
+    "DEF": "1200",
+    "Abilities": "[J-Activate] Pay {G}{3}.\n[Activate] Pay {G} Choose target card in a graveyard and put it on the bottom of its owner's main deck.|[Continuous]: Your wind attribute resonators gain [+300/+100].\n[Activate] {Rest}, Rest three resonators in your field: Reveal the top two cards of your magic stone deck and put them into your magic stone area.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1669,40 +1741,41 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "278988f7-92ce-444a-8016-56ac5eaf3041",
-    "image": "278988f7-92ce-444a-8016-56ac5eaf3041.jpg"
+    "image": "278988f7-92ce-444a-8016-56ac5eaf3041.jpg",
+    "Card Type": "Ruler",
+    "backimage": "9af6a037-9f75-4810-be17-359d406237a6.jpg",
+    "alternate1_Card Number": "3-073J",
+    "alternate1_name": "Frigg, the Goddess of Abundance",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Deity",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Continuous]: Your wind attribute resonators gain [+300/+100].\n[Activate] {Rest}, Rest three resonators in your field: Reveal the top two cards of your magic stone deck and put them into your magic stone area.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "004 - The Shaft of Light of Valhalla",
+    "alternate1_Set Code": "3",
+    "alternate1_id": "9af6a037-9f75-4810-be17-359d406237a6",
+    "alternate1_image": "9af6a037-9f75-4810-be17-359d406237a6.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "3-073J",
-    "name": "Frigg, the Goddess of Abundance",
-    "Type": "J-Ruler",
-    "Race": "Deity",
+    "Card Number": "3-074|3-074J",
+    "name": "Richesse, the Swordsman // Sylph",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Swordsman|Spirit",
     "Cost": "",
     "Colour": "G",
-    "ATK": "0",
-    "DEF": "1200",
-    "Abilities": "[Continuous]: Your wind attribute resonators gain [+300/+100].\n[Activate] {Rest}, Rest three resonators in your field: Reveal the top two cards of your magic stone deck and put them into your magic stone area.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "004 - The Shaft of Light of Valhalla",
-    "Set Code": "3",
-    "id": "9af6a037-9f75-4810-be17-359d406237a6",
-    "image": "9af6a037-9f75-4810-be17-359d406237a6.jpg"
-  },
-  {
-    "Card Number": "3-074",
-    "name": "Richesse, the Swordsman",
-    "Type": "Ruler",
-    "Race": "Swordsman",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Activate] {Rest}: Look at the top three cards of your magic stone deck, choose a light magic stone from among them and put it into your magic stone area. Put the rest on the bottom of your megic stone deck in any order.\n[J-Activate] Pay {G}{G}{2}",
+    "ATK": "600",
+    "DEF": "600",
+    "Abilities": "[Activate] {Rest}: Look at the top three cards of your magic stone deck, choose a light magic stone from among them and put it into your magic stone area. Put the rest on the bottom of your megic stone deck in any order.\n[J-Activate] Pay {G}{G}{2}|[Enter]: Your resonators gain [+200/+200] until end of turn. Then, two target resonators in your field gain \"[Continuous]: This cannot be blocked by resonators without [Flying]\" until end of turn.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1713,29 +1786,30 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "1a249775-ace5-4980-962b-82122edbc48e",
-    "image": "1a249775-ace5-4980-962b-82122edbc48e.jpg"
-  },
-  {
-    "Card Number": "3-074J",
-    "name": "Sylph",
-    "Type": "J-Ruler",
-    "Race": "Spirit",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "600",
-    "DEF": "600",
-    "Abilities": "[Enter]: Your resonators gain [+200/+200] until end of turn. Then, two target resonators in your field gain \"[Continuous]: This cannot be blocked by resonators without [Flying]\" until end of turn.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "004 - The Shaft of Light of Valhalla",
-    "Set Code": "3",
-    "id": "0a40d766-1381-4902-9937-312850f156c2",
-    "image": "0a40d766-1381-4902-9937-312850f156c2.jpg"
+    "image": "1a249775-ace5-4980-962b-82122edbc48e.jpg",
+    "Card Type": "Ruler",
+    "backimage": "0a40d766-1381-4902-9937-312850f156c2.jpg",
+    "alternate1_Card Number": "3-074J",
+    "alternate1_name": "Sylph",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "600",
+    "alternate1_DEF": "600",
+    "alternate1_Abilities": "[Enter]: Your resonators gain [+200/+200] until end of turn. Then, two target resonators in your field gain \"[Continuous]: This cannot be blocked by resonators without [Flying]\" until end of turn.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "004 - The Shaft of Light of Valhalla",
+    "alternate1_Set Code": "3",
+    "alternate1_id": "0a40d766-1381-4902-9937-312850f156c2",
+    "alternate1_image": "0a40d766-1381-4902-9937-312850f156c2.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "3-075",
@@ -1757,7 +1831,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "3db78c5a-b8eb-4b4b-9f1c-07411b37e1be",
-    "image": "3db78c5a-b8eb-4b4b-9f1c-07411b37e1be.jpg"
+    "image": "3db78c5a-b8eb-4b4b-9f1c-07411b37e1be.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-076",
@@ -1779,7 +1854,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "96322757-2084-44e0-97e5-4a8fc0129379",
-    "image": "96322757-2084-44e0-97e5-4a8fc0129379.jpg"
+    "image": "96322757-2084-44e0-97e5-4a8fc0129379.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-077",
@@ -1801,7 +1877,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "cd6433bb-657c-48e3-b369-d51583bc070c",
-    "image": "cd6433bb-657c-48e3-b369-d51583bc070c.jpg"
+    "image": "cd6433bb-657c-48e3-b369-d51583bc070c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-078",
@@ -1823,7 +1900,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "f15d5b51-6c38-451c-b9ee-1968a7fb9123",
-    "image": "f15d5b51-6c38-451c-b9ee-1968a7fb9123.jpg"
+    "image": "f15d5b51-6c38-451c-b9ee-1968a7fb9123.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-079",
@@ -1845,7 +1923,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "b65ec0b0-ad54-4ad5-82de-4555f6d0351a",
-    "image": "b65ec0b0-ad54-4ad5-82de-4555f6d0351a.jpg"
+    "image": "b65ec0b0-ad54-4ad5-82de-4555f6d0351a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-080",
@@ -1867,7 +1946,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "2f41cfb6-742a-4fa9-9e94-a730bb9bc719",
-    "image": "2f41cfb6-742a-4fa9-9e94-a730bb9bc719.jpg"
+    "image": "2f41cfb6-742a-4fa9-9e94-a730bb9bc719.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-081",
@@ -1889,7 +1969,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "8b428c81-213b-4a0f-9d96-107880b0bebf",
-    "image": "8b428c81-213b-4a0f-9d96-107880b0bebf.jpg"
+    "image": "8b428c81-213b-4a0f-9d96-107880b0bebf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-082",
@@ -1911,7 +1992,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "478e36e8-1c3e-4d29-b0e2-5e2bde12fcd4",
-    "image": "478e36e8-1c3e-4d29-b0e2-5e2bde12fcd4.jpg"
+    "image": "478e36e8-1c3e-4d29-b0e2-5e2bde12fcd4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-083",
@@ -1933,7 +2015,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "1a0c2ada-0755-4bd0-a559-9faaae462974",
-    "image": "1a0c2ada-0755-4bd0-a559-9faaae462974.jpg"
+    "image": "1a0c2ada-0755-4bd0-a559-9faaae462974.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-084",
@@ -1955,7 +2038,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "f8fd7841-e26d-4d93-bc5f-51f9991d6d9c",
-    "image": "f8fd7841-e26d-4d93-bc5f-51f9991d6d9c.jpg"
+    "image": "f8fd7841-e26d-4d93-bc5f-51f9991d6d9c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-085",
@@ -1977,7 +2061,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "54c44f59-3839-4a83-912b-5283cafc3dad",
-    "image": "54c44f59-3839-4a83-912b-5283cafc3dad.jpg"
+    "image": "54c44f59-3839-4a83-912b-5283cafc3dad.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-086",
@@ -1999,7 +2084,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "df814e7a-efcd-403c-bdc7-58ff4f2188e6",
-    "image": "df814e7a-efcd-403c-bdc7-58ff4f2188e6.jpg"
+    "image": "df814e7a-efcd-403c-bdc7-58ff4f2188e6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-087",
@@ -2021,7 +2107,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "1180522d-b091-4318-81f8-9e79078f7b80",
-    "image": "1180522d-b091-4318-81f8-9e79078f7b80.jpg"
+    "image": "1180522d-b091-4318-81f8-9e79078f7b80.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-088",
@@ -2043,7 +2130,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "c1153ab9-00f7-46c4-8eb4-d4dcfdf51117",
-    "image": "c1153ab9-00f7-46c4-8eb4-d4dcfdf51117.jpg"
+    "image": "c1153ab9-00f7-46c4-8eb4-d4dcfdf51117.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "3-089",
@@ -2065,7 +2153,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "5941b9ad-c32c-4f27-bbbe-f2d361dd3565",
-    "image": "5941b9ad-c32c-4f27-bbbe-f2d361dd3565.jpg"
+    "image": "5941b9ad-c32c-4f27-bbbe-f2d361dd3565.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "3-090",
@@ -2087,7 +2176,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "bd423de4-e5e8-497a-a7ab-b1f80070de79",
-    "image": "bd423de4-e5e8-497a-a7ab-b1f80070de79.jpg"
+    "image": "bd423de4-e5e8-497a-a7ab-b1f80070de79.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "3-091",
@@ -2109,7 +2199,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "5bca257f-59a3-4c9c-9b8d-aa10d3632773",
-    "image": "5bca257f-59a3-4c9c-9b8d-aa10d3632773.jpg"
+    "image": "5bca257f-59a3-4c9c-9b8d-aa10d3632773.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "3-092",
@@ -2131,7 +2222,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "0d11d5bb-2e43-4ef5-9c53-9dbab45a00c7",
-    "image": "0d11d5bb-2e43-4ef5-9c53-9dbab45a00c7.jpg"
+    "image": "0d11d5bb-2e43-4ef5-9c53-9dbab45a00c7.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "3-093",
@@ -2153,7 +2245,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "b695b5d9-d6e1-4a09-8645-40c0bed54a5d",
-    "image": "b695b5d9-d6e1-4a09-8645-40c0bed54a5d.jpg"
+    "image": "b695b5d9-d6e1-4a09-8645-40c0bed54a5d.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "3-094",
@@ -2175,7 +2268,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "2bcf75de-e4ba-48c7-9afa-993f623d2d12",
-    "image": "2bcf75de-e4ba-48c7-9afa-993f623d2d12.jpg"
+    "image": "2bcf75de-e4ba-48c7-9afa-993f623d2d12.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "3-095",
@@ -2197,7 +2291,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "d2162583-4fea-4bc6-948a-e5d076e685b0",
-    "image": "d2162583-4fea-4bc6-948a-e5d076e685b0.jpg"
+    "image": "d2162583-4fea-4bc6-948a-e5d076e685b0.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "3-096",
@@ -2219,7 +2314,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "f06225e3-1bf6-4ddb-8da0-47480187e7f1",
-    "image": "f06225e3-1bf6-4ddb-8da0-47480187e7f1.jpg"
+    "image": "f06225e3-1bf6-4ddb-8da0-47480187e7f1.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "3-097",
@@ -2241,18 +2337,19 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "643334e2-10d3-4783-85a5-32f48c7458e4",
-    "image": "643334e2-10d3-4783-85a5-32f48c7458e4.jpg"
+    "image": "643334e2-10d3-4783-85a5-32f48c7458e4.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "3-098",
-    "name": "Laurier, the Twilight Witch",
-    "Type": "Ruler",
-    "Race": "Mage",
+    "Card Number": "3-098|3-098J",
+    "name": "Laurier, the Twilight Witch // Shade",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Mage|Spirit",
     "Cost": "",
     "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Activate] {Rest}: Look at the top three cards of your magic stone deck, choose a dark magic stone from among them and put it into your magic stone area. Put the rest on the bottom of your magic stone deck in any order.\n[J-Activate] Pay {B}{B}{2}",
+    "ATK": "600",
+    "DEF": "600",
+    "Abilities": "[Activate] {Rest}: Look at the top three cards of your magic stone deck, choose a dark magic stone from among them and put it into your magic stone area. Put the rest on the bottom of your magic stone deck in any order.\n[J-Activate] Pay {B}{B}{2}|[Enter]: This card deals 600 damage to target resonator in your opponent's field. Then you gain 600 life.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -2263,29 +2360,30 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "1ffbea4d-b143-4e58-8fe0-3b75a4702d85",
-    "image": "1ffbea4d-b143-4e58-8fe0-3b75a4702d85.jpg"
-  },
-  {
-    "Card Number": "3-098J",
-    "name": "Shade",
-    "Type": "J-Ruler",
-    "Race": "Spirit",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "600",
-    "DEF": "600",
-    "Abilities": "[Enter]: This card deals 600 damage to target resonator in your opponent's field. Then you gain 600 life.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "004 - The Shaft of Light of Valhalla",
-    "Set Code": "3",
-    "id": "37a21d0e-0fb2-48b8-ae81-2feb91651b55",
-    "image": "37a21d0e-0fb2-48b8-ae81-2feb91651b55.jpg"
+    "image": "1ffbea4d-b143-4e58-8fe0-3b75a4702d85.jpg",
+    "Card Type": "Ruler",
+    "backimage": "37a21d0e-0fb2-48b8-ae81-2feb91651b55.jpg",
+    "alternate1_Card Number": "3-098J",
+    "alternate1_name": "Shade",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "600",
+    "alternate1_DEF": "600",
+    "alternate1_Abilities": "[Enter]: This card deals 600 damage to target resonator in your opponent's field. Then you gain 600 life.\n[Enter]: Reveal the top card of your magic stone deck and put it into your magic stone area.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "004 - The Shaft of Light of Valhalla",
+    "alternate1_Set Code": "3",
+    "alternate1_id": "37a21d0e-0fb2-48b8-ae81-2feb91651b55",
+    "alternate1_image": "37a21d0e-0fb2-48b8-ae81-2feb91651b55.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "3-099",
@@ -2307,7 +2405,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "21bec0c6-7f34-4d6b-b881-612b6b563461",
-    "image": "21bec0c6-7f34-4d6b-b881-612b6b563461.jpg"
+    "image": "21bec0c6-7f34-4d6b-b881-612b6b563461.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-100",
@@ -2329,7 +2428,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "bcfbe3f3-7bc6-49a9-98b7-9e4aeca4323f",
-    "image": "bcfbe3f3-7bc6-49a9-98b7-9e4aeca4323f.jpg"
+    "image": "bcfbe3f3-7bc6-49a9-98b7-9e4aeca4323f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-101",
@@ -2351,7 +2451,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "e49af50d-ac15-4609-a8d9-056e017d9a20",
-    "image": "e49af50d-ac15-4609-a8d9-056e017d9a20.jpg"
+    "image": "e49af50d-ac15-4609-a8d9-056e017d9a20.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-102",
@@ -2373,7 +2474,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "3f6e0d68-0564-44c8-a016-ae45cd5478ed",
-    "image": "3f6e0d68-0564-44c8-a016-ae45cd5478ed.jpg"
+    "image": "3f6e0d68-0564-44c8-a016-ae45cd5478ed.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-103",
@@ -2395,7 +2497,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "93aeb1fc-e8a4-4849-88c5-63ca908c6f77",
-    "image": "93aeb1fc-e8a4-4849-88c5-63ca908c6f77.jpg"
+    "image": "93aeb1fc-e8a4-4849-88c5-63ca908c6f77.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-104",
@@ -2417,7 +2520,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "45ca4971-200e-42a4-a869-a2a36415d633",
-    "image": "45ca4971-200e-42a4-a869-a2a36415d633.jpg"
+    "image": "45ca4971-200e-42a4-a869-a2a36415d633.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-106",
@@ -2439,7 +2543,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "81f31bf5-c442-4b3f-bf5e-dd5d06524408",
-    "image": "81f31bf5-c442-4b3f-bf5e-dd5d06524408.jpg"
+    "image": "81f31bf5-c442-4b3f-bf5e-dd5d06524408.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-107",
@@ -2461,7 +2566,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "10786d98-fa04-47f7-86be-5048c0a3ca21",
-    "image": "10786d98-fa04-47f7-86be-5048c0a3ca21.jpg"
+    "image": "10786d98-fa04-47f7-86be-5048c0a3ca21.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-108",
@@ -2483,7 +2589,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "1bf4ae96-761b-49c0-b0ee-e71b45d293f3",
-    "image": "1bf4ae96-761b-49c0-b0ee-e71b45d293f3.jpg"
+    "image": "1bf4ae96-761b-49c0-b0ee-e71b45d293f3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-109",
@@ -2505,7 +2612,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "c2a34f88-88b1-47ae-bd1e-5f4756fa28e5",
-    "image": "c2a34f88-88b1-47ae-bd1e-5f4756fa28e5.jpg"
+    "image": "c2a34f88-88b1-47ae-bd1e-5f4756fa28e5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-110",
@@ -2527,7 +2635,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "6ade32ea-0314-4605-acd9-381c7be7e1e4",
-    "image": "6ade32ea-0314-4605-acd9-381c7be7e1e4.jpg"
+    "image": "6ade32ea-0314-4605-acd9-381c7be7e1e4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-111",
@@ -2549,7 +2658,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "f754e259-e08f-46da-a5b3-d3db1b2cb040",
-    "image": "f754e259-e08f-46da-a5b3-d3db1b2cb040.jpg"
+    "image": "f754e259-e08f-46da-a5b3-d3db1b2cb040.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-112",
@@ -2571,7 +2681,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "31e52487-28cf-4684-b004-a25d9b3f7ab6",
-    "image": "31e52487-28cf-4684-b004-a25d9b3f7ab6.jpg"
+    "image": "31e52487-28cf-4684-b004-a25d9b3f7ab6.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "3-113",
@@ -2593,7 +2704,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "e1ab0d02-f911-4f19-b682-5118047c33d8",
-    "image": "e1ab0d02-f911-4f19-b682-5118047c33d8.jpg"
+    "image": "e1ab0d02-f911-4f19-b682-5118047c33d8.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "3-114",
@@ -2615,7 +2727,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "69e52847-ceb1-4862-90cc-5cbe1e0f18a2",
-    "image": "69e52847-ceb1-4862-90cc-5cbe1e0f18a2.jpg"
+    "image": "69e52847-ceb1-4862-90cc-5cbe1e0f18a2.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "3-115",
@@ -2637,7 +2750,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "f32b57c4-4ddc-4b83-b583-3d544bb7d6e9",
-    "image": "f32b57c4-4ddc-4b83-b583-3d544bb7d6e9.jpg"
+    "image": "f32b57c4-4ddc-4b83-b583-3d544bb7d6e9.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "3-116",
@@ -2659,7 +2773,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "af250d47-fc7a-49ce-a3ef-8dd0ae8c49fc",
-    "image": "af250d47-fc7a-49ce-a3ef-8dd0ae8c49fc.jpg"
+    "image": "af250d47-fc7a-49ce-a3ef-8dd0ae8c49fc.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "3-117",
@@ -2681,7 +2796,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "631b38e0-075a-44a6-859f-37842d2d136b",
-    "image": "631b38e0-075a-44a6-859f-37842d2d136b.jpg"
+    "image": "631b38e0-075a-44a6-859f-37842d2d136b.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "3-118",
@@ -2703,7 +2819,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "fd08f401-218b-4fd4-8944-257bec375d5e",
-    "image": "fd08f401-218b-4fd4-8944-257bec375d5e.jpg"
+    "image": "fd08f401-218b-4fd4-8944-257bec375d5e.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "3-119",
@@ -2725,7 +2842,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "1b35be72-7d0d-4375-b29c-ffc00d7d4a9b",
-    "image": "1b35be72-7d0d-4375-b29c-ffc00d7d4a9b.jpg"
+    "image": "1b35be72-7d0d-4375-b29c-ffc00d7d4a9b.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "3-120",
@@ -2747,7 +2865,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "491c8e78-9d3f-4c1c-a893-a117a64be0a1",
-    "image": "491c8e78-9d3f-4c1c-a893-a117a64be0a1.jpg"
+    "image": "491c8e78-9d3f-4c1c-a893-a117a64be0a1.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "3-121",
@@ -2769,18 +2888,19 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "8bd419c8-cfef-4351-bf27-2a1f59466824",
-    "image": "8bd419c8-cfef-4351-bf27-2a1f59466824.jpg"
+    "image": "8bd419c8-cfef-4351-bf27-2a1f59466824.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "3-122",
-    "name": "Monument of Wisdom",
-    "Type": "Ruler",
-    "Race": "Artifact",
+    "Card Number": "3-122|3-122J",
+    "name": "Monument of Wisdom // Vafthruthnir, the Frost Giant",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Artifact|Giant",
     "Cost": "",
     "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {5}, discard two [Race:Giant] cards in your hand.\n[Continuous]: All attribute costs of [Race:Giant] resonators in your hand are treated as free cost.\n[Activate] Discard a [Race:Giant] resonator in your hand: Draw two cards from your main deck. This ability can be activated only once, and only during your turn.",
+    "ATK": "500",
+    "DEF": "1000",
+    "Abilities": "[J-Activate] Pay {5}, discard two [Race:Giant] cards in your hand.\n[Continuous]: All attribute costs of [Race:Giant] resonators in your hand are treated as free cost.\n[Activate] Discard a [Race:Giant] resonator in your hand: Draw two cards from your main deck. This ability can be activated only once, and only during your turn.|[Continuous]: Your [Race:Giant] resonators lose [Continuous]:.\n[Enter]: Put any number of [Resonator:Giant] cards from your hand into your field.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -2791,29 +2911,30 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "67de488f-94df-48ca-bf1d-8a73f95bc086",
-    "image": "67de488f-94df-48ca-bf1d-8a73f95bc086.jpg"
-  },
-  {
-    "Card Number": "3-122J",
-    "name": "Vafthruthnir, the Frost Giant",
-    "Type": "J-Ruler",
-    "Race": "Giant",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "500",
-    "DEF": "1000",
-    "Abilities": "[Continuous]: Your [Race:Giant] resonators lose [Continuous]:.\n[Enter]: Put any number of [Resonator:Giant] cards from your hand into your field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "004 - The Shaft of Light of Valhalla",
-    "Set Code": "3",
-    "id": "ba503cb6-0e34-4994-9a5f-70edd806b5dc",
-    "image": "ba503cb6-0e34-4994-9a5f-70edd806b5dc.jpg"
+    "image": "67de488f-94df-48ca-bf1d-8a73f95bc086.jpg",
+    "Card Type": "Ruler",
+    "backimage": "ba503cb6-0e34-4994-9a5f-70edd806b5dc.jpg",
+    "alternate1_Card Number": "3-122J",
+    "alternate1_name": "Vafthruthnir, the Frost Giant",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Giant",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "500",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Continuous]: Your [Race:Giant] resonators lose [Continuous]:.\n[Enter]: Put any number of [Resonator:Giant] cards from your hand into your field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "004 - The Shaft of Light of Valhalla",
+    "alternate1_Set Code": "3",
+    "alternate1_id": "ba503cb6-0e34-4994-9a5f-70edd806b5dc",
+    "alternate1_image": "ba503cb6-0e34-4994-9a5f-70edd806b5dc.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "3-123",
@@ -2835,7 +2956,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "282b33b6-e7aa-48ae-aa47-65f9337e2877",
-    "image": "282b33b6-e7aa-48ae-aa47-65f9337e2877.jpg"
+    "image": "282b33b6-e7aa-48ae-aa47-65f9337e2877.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-124",
@@ -2857,7 +2979,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "a896c900-8ec0-4a80-bfe4-e0da4227f999",
-    "image": "a896c900-8ec0-4a80-bfe4-e0da4227f999.jpg"
+    "image": "a896c900-8ec0-4a80-bfe4-e0da4227f999.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-125",
@@ -2879,7 +3002,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "00552b1a-9db8-4e28-a40f-2766e0d62619",
-    "image": "00552b1a-9db8-4e28-a40f-2766e0d62619.jpg"
+    "image": "00552b1a-9db8-4e28-a40f-2766e0d62619.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "3-126",
@@ -2901,7 +3025,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "63cba2a7-c196-498e-b4ff-26d2bd8de70f",
-    "image": "63cba2a7-c196-498e-b4ff-26d2bd8de70f.jpg"
+    "image": "63cba2a7-c196-498e-b4ff-26d2bd8de70f.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "3-127",
@@ -2923,7 +3048,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "b5a8247d-39b0-4e9c-9f59-91dd4487a8b9",
-    "image": "b5a8247d-39b0-4e9c-9f59-91dd4487a8b9.jpg"
+    "image": "b5a8247d-39b0-4e9c-9f59-91dd4487a8b9.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "3-128",
@@ -2945,7 +3071,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "bae258f0-d08c-44a0-8428-d14354e5ed7a",
-    "image": "bae258f0-d08c-44a0-8428-d14354e5ed7a.jpg"
+    "image": "bae258f0-d08c-44a0-8428-d14354e5ed7a.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "3-129",
@@ -2967,18 +3094,19 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "3ab7d6f6-eac1-484c-8343-c4de62c997cf",
-    "image": "3ab7d6f6-eac1-484c-8343-c4de62c997cf.jpg"
+    "image": "3ab7d6f6-eac1-484c-8343-c4de62c997cf.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
-    "Card Number": "3-130",
-    "name": "Hoenir, the Bishop God",
-    "Type": "Ruler",
-    "Race": "Hero",
+    "Card Number": "3-130|3-130J",
+    "name": "Hoenir, the Bishop God // Odin, the Ruling God",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Hero|Deity",
     "Cost": "",
     "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {W}{W}{B}{B}[2}.\n[Continuous]: Whenever a light magic stone is put into your magic stone area, target resonator gains [+200/+200] until end of turn.\n[Continuous]: Whenever a dark magic stone is put into your magic stone area, target resonator gains [-200/-200] until end of turn.",
+    "ATK": "1500",
+    "DEF": "100",
+    "Abilities": "[J-Activate] Pay {W}{W}{B}{B}[2}.\n[Continuous]: Whenever a light magic stone is put into your magic stone area, target resonator gains [+200/+200] until end of turn.\n[Continuous]: Whenever a dark magic stone is put into your magic stone area, target resonator gains [-200/-200] until end of turn.|[Activate] Remove a resonator in your field: If it is a light attribute, this card gains [Target Attack] until end of turn. If it is a dark attribute, this card gains [Pierce] until end of turn.\n[Activate] Discard all cards in your hand: Recover this card. This ability can be used only once per turn.\n[Continuous]: When this card is put into your field, if it has done judgment other than playing [J-Activate] ability, this card gains [Pierce] and [Target Attack] until end of turn and can attack this turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -2989,29 +3117,30 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "2425c693-5e74-4110-9edf-7a99d70942ea",
-    "image": "2425c693-5e74-4110-9edf-7a99d70942ea.jpg"
-  },
-  {
-    "Card Number": "3-130J",
-    "name": "Odin, the Ruling God",
-    "Type": "J-Ruler",
-    "Race": "Deity",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "1500",
-    "DEF": "100",
-    "Abilities": "[Activate] Remove a resonator in your field: If it is a light attribute, this card gains [Target Attack] until end of turn. If it is a dark attribute, this card gains [Pierce] until end of turn.\n[Activate] Discard all cards in your hand: Recover this card. This ability can be used only once per turn.\n[Continuous]: When this card is put into your field, if it has done judgment other than playing [J-Activate] ability, this card gains [Pierce] and [Target Attack] until end of turn and can attack this turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "004 - The Shaft of Light of Valhalla",
-    "Set Code": "3",
-    "id": "a354d2fe-ec98-4022-b86f-22e71d68d550",
-    "image": "a354d2fe-ec98-4022-b86f-22e71d68d550.jpg"
+    "image": "2425c693-5e74-4110-9edf-7a99d70942ea.jpg",
+    "Card Type": "Ruler",
+    "backimage": "a354d2fe-ec98-4022-b86f-22e71d68d550.jpg",
+    "alternate1_Card Number": "3-130J",
+    "alternate1_name": "Odin, the Ruling God",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Deity",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1500",
+    "alternate1_DEF": "100",
+    "alternate1_Abilities": "[Activate] Remove a resonator in your field: If it is a light attribute, this card gains [Target Attack] until end of turn. If it is a dark attribute, this card gains [Pierce] until end of turn.\n[Activate] Discard all cards in your hand: Recover this card. This ability can be used only once per turn.\n[Continuous]: When this card is put into your field, if it has done judgment other than playing [J-Activate] ability, this card gains [Pierce] and [Target Attack] until end of turn and can attack this turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "004 - The Shaft of Light of Valhalla",
+    "alternate1_Set Code": "3",
+    "alternate1_id": "a354d2fe-ec98-4022-b86f-22e71d68d550",
+    "alternate1_image": "a354d2fe-ec98-4022-b86f-22e71d68d550.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "3-131",
@@ -3033,7 +3162,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "7462dc42-149d-45e1-be3d-72ee978150a5",
-    "image": "7462dc42-149d-45e1-be3d-72ee978150a5.jpg"
+    "image": "7462dc42-149d-45e1-be3d-72ee978150a5.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "3-132",
@@ -3055,7 +3185,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "ec8c2243-ebb3-4474-85b7-147fac7b49d4",
-    "image": "ec8c2243-ebb3-4474-85b7-147fac7b49d4.jpg"
+    "image": "ec8c2243-ebb3-4474-85b7-147fac7b49d4.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "3-133",
@@ -3077,7 +3208,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "b29a2afa-f330-4f17-b53d-02f77b6102d5",
-    "image": "b29a2afa-f330-4f17-b53d-02f77b6102d5.jpg"
+    "image": "b29a2afa-f330-4f17-b53d-02f77b6102d5.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "3-134",
@@ -3099,7 +3231,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "35234edf-8a6b-475f-8e14-d850a3850557",
-    "image": "35234edf-8a6b-475f-8e14-d850a3850557.jpg"
+    "image": "35234edf-8a6b-475f-8e14-d850a3850557.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "3-135",
@@ -3121,7 +3254,8 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "5758bd5b-e839-405d-8058-2296be800ddd",
-    "image": "5758bd5b-e839-405d-8058-2296be800ddd.jpg"
+    "image": "5758bd5b-e839-405d-8058-2296be800ddd.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "3-105",
@@ -3143,6 +3277,7 @@
     "Set Name": "004 - The Shaft of Light of Valhalla",
     "Set Code": "3",
     "id": "29696eb9-d4c8-4217-922e-c22914407b6f",
-    "image": "29696eb9-d4c8-4217-922e-c22914407b6f.jpg"
+    "image": "29696eb9-d4c8-4217-922e-c22914407b6f.jpg",
+    "Card Type": "Resonator"
   }
 ]

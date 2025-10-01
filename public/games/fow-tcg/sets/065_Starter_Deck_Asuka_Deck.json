@@ -19,7 +19,8 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "1ac3cff4-c7b7-418e-aeeb-2ba5db7ab4f3",
-    "image": "1ac3cff4-c7b7-418e-aeeb-2ba5db7ab4f3.jpg"
+    "image": "1ac3cff4-c7b7-418e-aeeb-2ba5db7ab4f3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "HSD-014",
@@ -41,7 +42,8 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "6b597b47-69d5-4dc3-a7e4-ce605fa1c0b4",
-    "image": "6b597b47-69d5-4dc3-a7e4-ce605fa1c0b4.jpg"
+    "image": "6b597b47-69d5-4dc3-a7e4-ce605fa1c0b4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "HSD-015",
@@ -63,7 +65,8 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "9ef40ebc-7688-4108-84d1-0140c5aebc1a",
-    "image": "9ef40ebc-7688-4108-84d1-0140c5aebc1a.jpg"
+    "image": "9ef40ebc-7688-4108-84d1-0140c5aebc1a.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "HSD-016",
@@ -85,7 +88,8 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "91c11568-bc81-4842-bfd4-92a1bd5efb35",
-    "image": "91c11568-bc81-4842-bfd4-92a1bd5efb35.jpg"
+    "image": "91c11568-bc81-4842-bfd4-92a1bd5efb35.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "HSD-017",
@@ -107,7 +111,8 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "86094c2c-fdd8-4b6d-96aa-2be696e59d36",
-    "image": "86094c2c-fdd8-4b6d-96aa-2be696e59d36.jpg"
+    "image": "86094c2c-fdd8-4b6d-96aa-2be696e59d36.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "HSD-018",
@@ -129,7 +134,8 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "562b7b11-f7f8-4f27-84ba-d47e7b6a1865",
-    "image": "562b7b11-f7f8-4f27-84ba-d47e7b6a1865.jpg"
+    "image": "562b7b11-f7f8-4f27-84ba-d47e7b6a1865.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "HSD-019",
@@ -151,7 +157,8 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "22345ea3-320f-4f1d-ba25-42f80faca738",
-    "image": "22345ea3-320f-4f1d-ba25-42f80faca738.jpg"
+    "image": "22345ea3-320f-4f1d-ba25-42f80faca738.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "HSD-020",
@@ -173,51 +180,53 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "b8991622-88c5-4cff-9f6b-2da7c9b79c72",
-    "image": "b8991622-88c5-4cff-9f6b-2da7c9b79c72.jpg"
+    "image": "b8991622-88c5-4cff-9f6b-2da7c9b79c72.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "HSD-021",
-    "name": "Night of the Legendary Vampire",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "HSD-021|HSD-021J",
+    "name": "Night of the Legendary Vampire // End of Night",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Vampire",
     "Cost": "{G}{B}",
     "Colour": "G|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Put the top X cards of your deck into your graveyard. Destroy any number of target non-magic stone, non-Cocoon entities with a combined total cost of X or less, where X is the number of magic stones you control. If there are seven or more cards in your graveyard, you may contract this card with \"Asuka, Gravekeeper of Tsukuyomi\".",
+    "ATK": "700",
+    "DEF": "1000",
+    "Abilities": "Put the top X cards of your deck into your graveyard. Destroy any number of target non-magic stone, non-Cocoon entities with a combined total cost of X or less, where X is the number of magic stones you control. If there are seven or more cards in your graveyard, you may contract this card with \"Asuka, Gravekeeper of Tsukuyomi\".|[Flying]\n[Enter] ]]] Choose any number of target resonators with a combined total cost of X or less in all graveyards and play them without paying their costs, where X is the number of magic stones you control.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "ShiroYayoi",
+    "Artist": "ShiroYayoi|Hugos",
     "Rarity": "",
-    "Fowid": "1545",
+    "Fowid": "1545|1546",
     "Cluster": "10 - Hero",
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "ee8808c4-5247-4b10-9ea1-28f20a36a5b6",
-    "image": "ee8808c4-5247-4b10-9ea1-28f20a36a5b6.jpg"
-  },
-  {
-    "Card Number": "HSD-021J",
-    "name": "End of Night",
-    "Type": "J-Ruler",
-    "Race": "Vampire",
-    "Cost": "",
-    "Colour": "G|B",
-    "ATK": "700",
-    "DEF": "1000",
-    "Abilities": "[Flying]\n[Enter] ]]] Choose any number of target resonators with a combined total cost of X or less in all graveyards and play them without paying their costs, where X is the number of magic stones you control.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Hugos",
-    "Rarity": "",
-    "Fowid": "1546",
-    "Cluster": "10 - Hero",
-    "Set Name": "065 - Starter Deck - Asuka Deck",
-    "Set Code": "HSD",
-    "id": "a4a13dfc-ed1b-4bab-8999-0d77147e5513",
-    "image": "a4a13dfc-ed1b-4bab-8999-0d77147e5513.jpg"
+    "image": "ee8808c4-5247-4b10-9ea1-28f20a36a5b6.jpg",
+    "Card Type": "Chant",
+    "backimage": "a4a13dfc-ed1b-4bab-8999-0d77147e5513.jpg",
+    "alternate1_Card Number": "HSD-021J",
+    "alternate1_name": "End of Night",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Vampire",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G|B",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\n[Enter] ]]] Choose any number of target resonators with a combined total cost of X or less in all graveyards and play them without paying their costs, where X is the number of magic stones you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Hugos",
+    "alternate1_Rarity": "",
+    "alternate1_Fowid": "1546",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "065 - Starter Deck - Asuka Deck",
+    "alternate1_Set Code": "HSD",
+    "alternate1_id": "a4a13dfc-ed1b-4bab-8999-0d77147e5513",
+    "alternate1_image": "a4a13dfc-ed1b-4bab-8999-0d77147e5513.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "HSD-022",
@@ -239,7 +248,8 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "51db8296-eabc-4d6b-96b0-85765e063488",
-    "image": "51db8296-eabc-4d6b-96b0-85765e063488.jpg"
+    "image": "51db8296-eabc-4d6b-96b0-85765e063488.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "HSD-023",
@@ -261,7 +271,8 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "66eec7b2-8f82-45fd-8a5e-6ea1583734b1",
-    "image": "66eec7b2-8f82-45fd-8a5e-6ea1583734b1.jpg"
+    "image": "66eec7b2-8f82-45fd-8a5e-6ea1583734b1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "HSD-024",
@@ -283,7 +294,8 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "2eca7321-4eb1-4d69-be53-98e38e996972",
-    "image": "2eca7321-4eb1-4d69-be53-98e38e996972.jpg"
+    "image": "2eca7321-4eb1-4d69-be53-98e38e996972.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "HSD-027",
@@ -305,7 +317,8 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "dfbf4e7f-6ff0-42ec-8244-579513c43f58",
-    "image": "dfbf4e7f-6ff0-42ec-8244-579513c43f58.jpg"
+    "image": "dfbf4e7f-6ff0-42ec-8244-579513c43f58.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "HSD-028",
@@ -327,6 +340,7 @@
     "Set Name": "065 - Starter Deck - Asuka Deck",
     "Set Code": "HSD",
     "id": "ff20fa6d-764c-411d-b63c-ab1d0573bf18",
-    "image": "ff20fa6d-764c-411d-b63c-ab1d0573bf18.jpg"
+    "image": "ff20fa6d-764c-411d-b63c-ab1d0573bf18.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

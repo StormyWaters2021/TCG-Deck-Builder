@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import CardPreview from "../components/CardPreview";
 import { exportDeckO8c } from "../utils/deckImagePackExport";
+import { buildCardPreviewProperties } from "../utils/cardPreviewExtra";
 import {
   getSortedExportListWithDisplayOrder,
   exportDeckImage,
@@ -634,7 +635,12 @@ function DeckControls({
 
       </div>
       <div style={{ width: "220px", marginBottom: "1em" }}>
-        <CardPreview card={selectedCardObj} game={game} />
+         <CardPreview
+   card={selectedCardObj}
+   game={game}
+   extraData={buildCardPreviewProperties(selectedCardObj, settings)}
+		/>
+
       </div>
       <div style={{ width: "100%", maxWidth: 500 }}>
         <h3>Saved Decks</h3>

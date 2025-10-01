@@ -1,25 +1,48 @@
 import React, { useRef, useEffect, useState } from "react";
 
-// Helper: build the correct image URL for a card & game, respecting BASE_URL and slashes.
-export function getCardImageUrl(card, game) {
-  if (!card || !card.image) return null;
-  // Point directly to R2-served path
-  return `https://tcgbuilder.net/images/${game}/${card.image}`;
+// Resolve a URL for a given side
+function getCardImageUrlForSide(card, game, side) {
+  if (!card) return null;
+  let img = null;
+  if (side === "front") img = card.image;
+  else if (side === "back") img = card.backimage;
+  else if (side === "unfold") img = card.unfoldimage;
+  if (!img) return null;
+  return `https://tcgbuilder.net/images/${game}/${img}`;
 }
 
-// Helper to draw wrapped text in a canvas context
+const ORDER = ["front", "back", "unfold"];
+
+function hasPropForSide(card, side) {
+  if (!card) return false;
+  if (side === "front") return !!card.image;
+  if (side === "back") return !!card.backimage;
+  if (side === "unfold") return !!card.unfoldimage;
+  return false;
+}
+
+// Find the next available side based on the order, skipping absent properties
+function nextAvailableSide(card, current) {
+  const idx = ORDER.indexOf(current);
+  for (let step = 1; step <= ORDER.length; step++) {
+    const candidate = ORDER[(idx + step) % ORDER.length];
+    if (hasPropForSide(card, candidate)) return candidate;
+  }
+  return current; // fallback if nothing else available
+}
+
+// Canvas helpers for text fallback
 function drawWrappedText(ctx, text, x, y, maxWidth, lineHeight, font) {
   ctx.font = font;
-  const words = text ? text.split(' ') : [];
-  let line = '';
+  const words = text ? text.split(" ") : [];
+  let line = "";
   let yy = y;
   for (let n = 0; n < words.length; n++) {
-    const testLine = line + words[n] + ' ';
-    const metrics = ctx.measureText(testLine);
-    const testWidth = metrics.width;
+    const testLine = line + words[n] + " ";
+    const testWidth = ctx.measureText(testLine).width;
     if (testWidth > maxWidth && n > 0) {
       ctx.fillText(line, x, yy);
-      line = words[n] + ' ';
+      line = words[n] + " ";
       yy += lineHeight;
     } else {
       line = testLine;
@@ -66,23 +89,49 @@ function CardPreview({
   quantity = null,
   onAdd,
   onRemove,
-  showButtons = false
+  showButtons = false,
+  // array of { label, value } to render under the image
+  extraData = null,
 }) {
   const [imageError, setImageError] = useState(false);
   const [enlarged, setEnlarged] = useState(false);
-  const [usedMissingImage, setUsedMissingImage] = useState(false); // NEW
+
+  // Track fallback-per-side so one failing side doesn't affect others
+  const [usedMissing, setUsedMissing] = useState({
+    front: false,
+    back: false,
+    unfold: false,
+  });
+
+  // Current side (front/back/unfold)
+  const [side, setSide] = useState("front");
+
   const canvasRef = useRef();
 
+  // Vite base (handles dev/preview/subpath)
+  const BASE =
+    (typeof import.meta !== "undefined" &&
+      import.meta.env &&
+      import.meta.env.BASE_URL) ||
+    "/";
+
+  // Reset on card/game change
   useEffect(() => {
     setImageError(false);
     setEnlarged(false);
-    setUsedMissingImage(false);
+    setUsedMissing({ front: false, back: false, unfold: false });
+    // Start at front if available; else move to first available side
+    setSide(hasPropForSide(card, "front") ? "front" : nextAvailableSide(card, "front"));
   }, [card, game]);
 
-  const imageUrl = !usedMissingImage
-    ? getCardImageUrl(card, game)
-    : `/games/${game}/art/missing_card.jpg`;
+  const missingUrl = `${BASE}games/${game}/art/missing_card.jpg`;
+  const currentUsedMissing = usedMissing[side];
 
+  const imageUrl = !currentUsedMissing
+    ? getCardImageUrlForSide(card, game, side)
+    : missingUrl;
+
+  // Draw canvas fallback if we can't load an image at all
   useEffect(() => {
     if (!card) return;
     if (!imageUrl || imageError) {
@@ -93,18 +142,24 @@ function CardPreview({
     }
   }, [card, imageUrl, imageError, showName]);
 
-  const width = 200, height = 300;
+  const width = 200;
+  const height = 300;
 
+  const canFlip =
+    hasPropForSide(card, "back") || hasPropForSide(card, "unfold");
+
+  const handleFlip = () => {
+    if (!card) return;
+    const next = nextAvailableSide(card, side);
+    setSide(next);
+  };
+
+  // No card selected
   if (!card) {
     return (
       <div
         className="card-preview"
-        style={{
-          padding: 0,
-          margin: 0,
-          textAlign: "center",
-          ...(style || {})
-        }}
+        style={{ padding: 0, margin: 0, textAlign: "center", ...(style || {}) }}
       >
         <div
           className="no-card"
@@ -117,7 +172,7 @@ function CardPreview({
             justifyContent: "center",
             background: "var(--dropdown-bg)",
             color: "#999",
-            margin: 0
+            margin: 0,
           }}
         >
           No card selected.
@@ -126,11 +181,27 @@ function CardPreview({
     );
   }
 
-  // Fallback canvas
+  // Canvas fallback path
   if (!imageUrl || imageError) {
     return (
-      <div className="card-preview" style={{ padding: 0, margin: 0, textAlign: "center", position: "relative", ...(style || {}) }}>
-        <div style={{ position: "relative", display: "inline-block", width: "100%", height: "100%" }}>
+      <div
+        className="card-preview"
+        style={{
+          padding: 0,
+          margin: 0,
+          textAlign: "center",
+          position: "relative",
+          ...(style || {}),
+        }}
+      >
+        <div
+          style={{
+            position: "relative",
+            display: "inline-block",
+            width: "100%",
+            height: "100%",
+          }}
+        >
           <canvas
             ref={canvasRef}
             width={width}
@@ -141,34 +212,81 @@ function CardPreview({
               border: "1px solid var(--dropdown-border)",
               background: "var(--dropdown-bg)",
               display: "block",
-              margin: 0
+              margin: 0,
             }}
           />
           {quantity !== null && (
-            <span className="card-qty-badge">
-              ×{quantity}
-            </span>
+            <span className="card-qty-badge">×{quantity}</span>
           )}
           {showButtons && (
             <div className="card-qty-btns">
-              <button className="card-modify-btn" onClick={onRemove}>-1</button>
-              <button className="card-modify-btn" onClick={onAdd}>+1</button>
+              <button className="card-modify-btn" onClick={onRemove}>
+                -1
+              </button>
+              <button className="card-modify-btn" onClick={onAdd}>
+                +1
+              </button>
             </div>
           )}
         </div>
+
         {showName && (
           <div style={{ textAlign: "center", margin: 0 }}>
             <strong>{card ? card.name : ""}</strong>
+          </div>
+        )}
+
+        {/* Flip button (only if there is at least one alternative side) */}
+        {canFlip && (
+          <div style={{ textAlign: "center", marginTop: "4px" }}>
+            <button onClick={handleFlip} className="card-modify-btn">
+              Flip Card
+            </button>
+          </div>
+        )}
+
+        {/* Extra data */}
+        {Array.isArray(extraData) && extraData.length > 0 && (
+          <div
+            className="card-extra-data"
+            style={{
+              textAlign: "center",
+              marginTop: "6px",
+              fontSize: "0.9em",
+              color: "#555",
+            }}
+          >
+            {extraData.map(({ label, value }, idx) => (
+              <div key={idx}>
+                <strong>{label}</strong>: {value}
+              </div>
+            ))}
           </div>
         )}
       </div>
     );
   }
 
-  // Normal image
+  // Normal image path
   return (
-    <div className="card-preview" style={{ padding: 0, margin: 0, textAlign: "center", position: "relative", ...(style || {}) }}>
-      <div style={{ position: "relative", display: "inline-block", width: "100%", height: "100%" }}>
+    <div
+      className="card-preview"
+      style={{
+        padding: 0,
+        margin: 0,
+        textAlign: "center",
+        position: "relative",
+        ...(style || {}),
+      }}
+    >
+      <div
+        style={{
+          position: "relative",
+          display: "inline-block",
+          width: "100%",
+          height: "100%",
+        }}
+      >
         <img
           src={imageUrl}
           alt={card.name}
@@ -179,31 +297,37 @@ function CardPreview({
             height: "auto",
             display: "block",
             margin: 0,
-            cursor: "pointer"
+            cursor: "pointer",
           }}
           onClick={() => setEnlarged(true)}
           onError={() => {
-            if (!usedMissingImage) {
-              setUsedMissingImage(true);
-              setImageError(false); // Reset error, try missing card image
+            // First failure -> use missing image for this side. If missing also fails -> canvas.
+            if (!currentUsedMissing) {
+              setUsedMissing((prev) => ({ ...prev, [side]: true }));
+              setImageError(false);
             } else {
-              setImageError(true); // Both failed, fall back to canvas
+              setImageError(true);
             }
           }}
           title="Click to enlarge"
         />
+
         {quantity !== null && (
-          <span className="card-qty-badge">
-            ×{quantity}
-          </span>
+          <span className="card-qty-badge">×{quantity}</span>
         )}
+
         {showButtons && (
           <div className="card-qty-btns">
-            <button className="card-modify-btn" onClick={onRemove}>-1</button>
-            <button className="card-modify-btn" onClick={onAdd}>+1</button>
+            <button className="card-modify-btn" onClick={onRemove}>
+              -1
+            </button>
+            <button className="card-modify-btn" onClick={onAdd}>
+              +1
+            </button>
           </div>
         )}
       </div>
+
       {enlarged && (
         <div
           className="card-modal-backdrop"
@@ -217,7 +341,7 @@ function CardPreview({
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            zIndex: 1000
+            zIndex: 1000,
           }}
           onClick={() => setEnlarged(false)}
         >
@@ -227,9 +351,9 @@ function CardPreview({
               position: "relative",
               background: "none",
               border: "none",
-              outline: "none"
+              outline: "none",
             }}
-            onClick={e => e.stopPropagation()}
+            onClick={(e) => e.stopPropagation()}
           >
             <img
               src={imageUrl}
@@ -237,9 +361,10 @@ function CardPreview({
               style={{
                 maxWidth: "90vw",
                 maxHeight: "90vh",
-                boxShadow: "0 0 24px #000"
+                boxShadow: "0 0 24px #000",
               }}
             />
+
             <button
               className="card-modal-close-btn"
               onClick={() => setEnlarged(false)}
@@ -248,12 +373,52 @@ function CardPreview({
             >
               ×
             </button>
+
+            {/* Flip button inside modal (only if alternatives exist) */}
+            {canFlip && (
+              <button
+                onClick={handleFlip}
+                className="card-modify-btn"
+                style={{ position: "absolute", top: "8px", left: "8px" }}
+              >
+                Flip Card
+              </button>
+            )}
           </div>
         </div>
       )}
+
       {showName && (
         <div style={{ textAlign: "center", margin: 0 }}>
           <strong>{card ? card.name : ""}</strong>
+        </div>
+      )}
+
+      {/* Flip button below preview (only if alternatives exist) */}
+      {canFlip && (
+        <div style={{ textAlign: "center", marginTop: "4px" }}>
+          <button onClick={handleFlip} className="card-modify-btn">
+            Flip Card
+          </button>
+        </div>
+      )}
+
+      {/* Extra data below everything */}
+      {Array.isArray(extraData) && extraData.length > 0 && (
+        <div
+          className="card-extra-data"
+          style={{
+            textAlign: "center",
+            marginTop: "6px",
+            fontSize: "0.9em",
+            color: "#555",
+          }}
+        >
+          {extraData.map(({ label, value }, idx) => (
+            <div key={idx}>
+              <strong>{label}</strong>: {value}
+            </div>
+          ))}
         </div>
       )}
     </div>

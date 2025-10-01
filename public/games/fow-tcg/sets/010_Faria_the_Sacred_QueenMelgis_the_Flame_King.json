@@ -19,7 +19,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "6fcb7763-6189-43cf-8dbf-b5b74259692a",
-    "image": "6fcb7763-6189-43cf-8dbf-b5b74259692a.jpg"
+    "image": "6fcb7763-6189-43cf-8dbf-b5b74259692a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-002",
@@ -41,51 +42,53 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "81a23b08-25c2-4b86-a333-dc3e9cfc555a",
-    "image": "81a23b08-25c2-4b86-a333-dc3e9cfc555a.jpg"
+    "image": "81a23b08-25c2-4b86-a333-dc3e9cfc555a.jpg",
+    "Card Type": "Regalia"
   },
   {
-    "Card Number": "VS01-003",
-    "name": "Faria, the Sacred Queen",
-    "Type": "Ruler",
-    "Race": "Seven Kings",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {W}{W}.\n{W}{W}: Gain 200 life.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The Sacred Queen Faria, the one who ruled upon Gloria, the Holy Land, was a honest and pure person. Her servants' loyalty to her was supreme. She hated the war, but the people of Gloria thought that she was the most suitable to rule the Seven Kingdoms.",
-    "Artist": "猫囃子",
-    "Rarity": "R",
-    "Fowid": "614",
-    "Cluster": "03 - Alice",
-    "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
-    "Set Code": "VS01",
-    "id": "79ba2516-1846-4204-82f0-e9a10c16689a",
-    "image": "79ba2516-1846-4204-82f0-e9a10c16689a.jpg"
-  },
-  {
-    "Card Number": "VS01-003J",
-    "name": "Faria, the Ruler of God Sword",
-    "Type": "J-Ruler",
+    "Card Number": "VS01-003|VS01-003J",
+    "name": "Faria, the Sacred Queen // Faria, the Ruler of God Sword",
+    "Type": "Ruler|J-Ruler",
     "Race": "Seven Kings",
     "Cost": "",
     "Colour": "W",
     "ATK": "800",
     "DEF": "800",
-    "Abilities": "[Target Attack] (This card can attack recovered J/resonators.)\nWhen this card enters your field, put the top card of your magic stone deck into your magic stone area.\nWhenever this card attacks, recover target Regalia you control.\nGod's Art [God's Breath] {W}{W}{4}: Recover all resonators you control. Play God's Art [God's Breath] only once per game.",
+    "Abilities": "[J-Activate] Pay {W}{W}.\n{W}{W}: Gain 200 life.|[Target Attack] (This card can attack recovered J/resonators.)\nWhen this card enters your field, put the top card of your magic stone deck into your magic stone area.\nWhenever this card attacks, recover target Regalia you control.\nGod's Art [God's Breath] {W}{W}{4}: Recover all resonators you control. Play God's Art [God's Breath] only once per game.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Sacred Sword that resonate with the spirit of the hero, grant me your power!\"",
+    "Flavour": "The Sacred Queen Faria, the one who ruled upon Gloria, the Holy Land, was a honest and pure person. Her servants' loyalty to her was supreme. She hated the war, but the people of Gloria thought that she was the most suitable to rule the Seven Kingdoms.|\"Sacred Sword that resonate with the spirit of the hero, grant me your power!\"",
     "Artist": "猫囃子",
     "Rarity": "R",
-    "Fowid": "615",
+    "Fowid": "614|615",
     "Cluster": "03 - Alice",
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
-    "id": "86d74ad4-b8b6-45c6-acd0-41be6e2808d8",
-    "image": "86d74ad4-b8b6-45c6-acd0-41be6e2808d8.jpg"
+    "id": "79ba2516-1846-4204-82f0-e9a10c16689a",
+    "image": "79ba2516-1846-4204-82f0-e9a10c16689a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "86d74ad4-b8b6-45c6-acd0-41be6e2808d8.jpg",
+    "alternate1_Card Number": "VS01-003J",
+    "alternate1_name": "Faria, the Ruler of God Sword",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Kings",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Target Attack] (This card can attack recovered J/resonators.)\nWhen this card enters your field, put the top card of your magic stone deck into your magic stone area.\nWhenever this card attacks, recover target Regalia you control.\nGod's Art [God's Breath] {W}{W}{4}: Recover all resonators you control. Play God's Art [God's Breath] only once per game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Sacred Sword that resonate with the spirit of the hero, grant me your power!\"",
+    "alternate1_Artist": "猫囃子",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "615",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
+    "alternate1_Set Code": "VS01",
+    "alternate1_id": "86d74ad4-b8b6-45c6-acd0-41be6e2808d8",
+    "alternate1_image": "86d74ad4-b8b6-45c6-acd0-41be6e2808d8.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VS01-004",
@@ -107,7 +110,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "6aff4930-e943-418c-b029-d554c42b31ae",
-    "image": "6aff4930-e943-418c-b029-d554c42b31ae.jpg"
+    "image": "6aff4930-e943-418c-b029-d554c42b31ae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-005",
@@ -129,7 +133,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "2fefe7fd-7239-4e73-a175-a971167c10db",
-    "image": "2fefe7fd-7239-4e73-a175-a971167c10db.jpg"
+    "image": "2fefe7fd-7239-4e73-a175-a971167c10db.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-006",
@@ -151,7 +156,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "93b89199-6b10-4a4f-8af5-f302734bae36",
-    "image": "93b89199-6b10-4a4f-8af5-f302734bae36.jpg"
+    "image": "93b89199-6b10-4a4f-8af5-f302734bae36.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "VS01-007",
@@ -173,7 +179,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "99865270-a128-4e9f-8cf3-d421feaaa19b",
-    "image": "99865270-a128-4e9f-8cf3-d421feaaa19b.jpg"
+    "image": "99865270-a128-4e9f-8cf3-d421feaaa19b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-008",
@@ -195,7 +202,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "9f109360-b60d-426a-84f5-ec529979e5dd",
-    "image": "9f109360-b60d-426a-84f5-ec529979e5dd.jpg"
+    "image": "9f109360-b60d-426a-84f5-ec529979e5dd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-009",
@@ -217,7 +225,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "9cb48dc9-d2f9-4f37-9a8b-3e61288df85b",
-    "image": "9cb48dc9-d2f9-4f37-9a8b-3e61288df85b.jpg"
+    "image": "9cb48dc9-d2f9-4f37-9a8b-3e61288df85b.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "VS01-010",
@@ -239,7 +248,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "9de99190-6999-4d71-a5c9-192c83b34dd0",
-    "image": "9de99190-6999-4d71-a5c9-192c83b34dd0.jpg"
+    "image": "9de99190-6999-4d71-a5c9-192c83b34dd0.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VS01-011",
@@ -261,7 +271,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "cec58c42-171a-478c-886f-e5703be13eaf",
-    "image": "cec58c42-171a-478c-886f-e5703be13eaf.jpg"
+    "image": "cec58c42-171a-478c-886f-e5703be13eaf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-012",
@@ -283,7 +294,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "e9271ed7-0417-4671-85cd-ef9f744f7be9",
-    "image": "e9271ed7-0417-4671-85cd-ef9f744f7be9.jpg"
+    "image": "e9271ed7-0417-4671-85cd-ef9f744f7be9.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VS01-013",
@@ -305,7 +317,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "862aacc3-bd6f-4490-ab76-e46b948e4356",
-    "image": "862aacc3-bd6f-4490-ab76-e46b948e4356.jpg"
+    "image": "862aacc3-bd6f-4490-ab76-e46b948e4356.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-014",
@@ -327,7 +340,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "99dee101-a746-48c2-9270-45bb1e220b8e",
-    "image": "99dee101-a746-48c2-9270-45bb1e220b8e.jpg"
+    "image": "99dee101-a746-48c2-9270-45bb1e220b8e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-015",
@@ -349,7 +363,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "0418c50a-1eb2-4c90-ab55-4889b988efe7",
-    "image": "0418c50a-1eb2-4c90-ab55-4889b988efe7.jpg"
+    "image": "0418c50a-1eb2-4c90-ab55-4889b988efe7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-016",
@@ -371,7 +386,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "af10c5d3-48ef-4c08-b852-ac432492e8a6",
-    "image": "af10c5d3-48ef-4c08-b852-ac432492e8a6.jpg"
+    "image": "af10c5d3-48ef-4c08-b852-ac432492e8a6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-017",
@@ -393,7 +409,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "17d2a5a5-aadd-4bf4-ab47-bd9eb0810fe8",
-    "image": "17d2a5a5-aadd-4bf4-ab47-bd9eb0810fe8.jpg"
+    "image": "17d2a5a5-aadd-4bf4-ab47-bd9eb0810fe8.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "VS01-018",
@@ -415,7 +432,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "1843f062-3cbf-4d85-9105-41ff8f1b80a7",
-    "image": "1843f062-3cbf-4d85-9105-41ff8f1b80a7.jpg"
+    "image": "1843f062-3cbf-4d85-9105-41ff8f1b80a7.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VS01-019",
@@ -437,7 +455,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "64dcdb36-c640-4b58-a40f-ae96ff2b4ad6",
-    "image": "64dcdb36-c640-4b58-a40f-ae96ff2b4ad6.jpg"
+    "image": "64dcdb36-c640-4b58-a40f-ae96ff2b4ad6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-020",
@@ -459,7 +478,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "be905a3a-7cba-49df-bf2d-53d65ddf279d",
-    "image": "be905a3a-7cba-49df-bf2d-53d65ddf279d.jpg"
+    "image": "be905a3a-7cba-49df-bf2d-53d65ddf279d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-021",
@@ -481,7 +501,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "ef9936e3-6f10-44a1-a848-fb50c9ee1e4e",
-    "image": "ef9936e3-6f10-44a1-a848-fb50c9ee1e4e.jpg"
+    "image": "ef9936e3-6f10-44a1-a848-fb50c9ee1e4e.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VS01-022",
@@ -503,7 +524,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "02548a91-1b85-4641-b512-76404f9f50ba",
-    "image": "02548a91-1b85-4641-b512-76404f9f50ba.jpg"
+    "image": "02548a91-1b85-4641-b512-76404f9f50ba.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-023",
@@ -525,7 +547,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "3ee3ecd8-9128-49f5-a451-243f67b79890",
-    "image": "3ee3ecd8-9128-49f5-a451-243f67b79890.jpg"
+    "image": "3ee3ecd8-9128-49f5-a451-243f67b79890.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "VS01-024",
@@ -547,7 +570,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "6b65a5b6-202f-4a19-b1bb-2c20ab941219",
-    "image": "6b65a5b6-202f-4a19-b1bb-2c20ab941219.jpg"
+    "image": "6b65a5b6-202f-4a19-b1bb-2c20ab941219.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-025",
@@ -569,7 +593,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "eb0c75ba-3348-4dc7-b199-9a03cf366d9b",
-    "image": "eb0c75ba-3348-4dc7-b199-9a03cf366d9b.jpg"
+    "image": "eb0c75ba-3348-4dc7-b199-9a03cf366d9b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-026",
@@ -591,7 +616,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "ac250870-11b0-430d-b18b-9c00c0a3f5de",
-    "image": "ac250870-11b0-430d-b18b-9c00c0a3f5de.jpg"
+    "image": "ac250870-11b0-430d-b18b-9c00c0a3f5de.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "VS01-027",
@@ -613,51 +639,53 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "a126e185-f855-40de-8ab3-7f714f73788f",
-    "image": "a126e185-f855-40de-8ab3-7f714f73788f.jpg"
+    "image": "a126e185-f855-40de-8ab3-7f714f73788f.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "VS01-028",
-    "name": "Melgis, the Flame King",
-    "Type": "Ruler",
-    "Race": "Seven Kings",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {R}{R}.\n{R}{R}: This card deals 200 damage to target opponent.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The top of the big volcano is occupied by the Kingdom of Certo, ruled by the Flame King. On this desolate land, the kingdom survives thanks to war, getting resources from other countries. For this reason, Certo needs an extremely strong ruler.",
-    "Artist": "douzen",
-    "Rarity": "R",
-    "Fowid": "640",
-    "Cluster": "03 - Alice",
-    "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
-    "Set Code": "VS01",
-    "id": "1e269c37-0c41-413a-8820-2404bc570285",
-    "image": "1e269c37-0c41-413a-8820-2404bc570285.jpg"
-  },
-  {
-    "Card Number": "VS01-028J",
-    "name": "Melgis, the One Charmed by the Demon Sword",
-    "Type": "J-Ruler",
+    "Card Number": "VS01-028|VS01-028J",
+    "name": "Melgis, the Flame King // Melgis, the One Charmed by the Demon Sword",
+    "Type": "Ruler|J-Ruler",
     "Race": "Seven Kings",
     "Cost": "",
     "Colour": "R",
     "ATK": "1000",
     "DEF": "500",
-    "Abilities": "[First Strike] (While attacking, this card deals battle damage first to the blocker or attacked object.)\nWhen this card enters your field, put the top card of your magic stone deck into your magic stone area.\n{R}, banish a magic stone or resonator: This card deals 300 damage to target resonator.\nGod's Art [Unleash the Demon Sword] {R}{R}{4}: Destroy target resonator. This card gains [+X/+0] until end of turn, where X is the ATK of the destroyed resonator. Play God's Art [Unleash the Demon Sword] only once per game.",
+    "Abilities": "[J-Activate] Pay {R}{R}.\n{R}{R}: This card deals 200 damage to target opponent.|[First Strike] (While attacking, this card deals battle damage first to the blocker or attacked object.)\nWhen this card enters your field, put the top card of your magic stone deck into your magic stone area.\n{R}, banish a magic stone or resonator: This card deals 300 damage to target resonator.\nGod's Art [Unleash the Demon Sword] {R}{R}{4}: Destroy target resonator. This card gains [+X/+0] until end of turn, where X is the ATK of the destroyed resonator. Play God's Art [Unleash the Demon Sword] only once per game.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Cursed sword, take my anger and give me your strength.\"",
+    "Flavour": "The top of the big volcano is occupied by the Kingdom of Certo, ruled by the Flame King. On this desolate land, the kingdom survives thanks to war, getting resources from other countries. For this reason, Certo needs an extremely strong ruler.|\"Cursed sword, take my anger and give me your strength.\"",
     "Artist": "douzen",
     "Rarity": "R",
-    "Fowid": "641",
+    "Fowid": "640|641",
     "Cluster": "03 - Alice",
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
-    "id": "35beca54-ef94-4a3f-b7d1-dead60ec8068",
-    "image": "35beca54-ef94-4a3f-b7d1-dead60ec8068.jpg"
+    "id": "1e269c37-0c41-413a-8820-2404bc570285",
+    "image": "1e269c37-0c41-413a-8820-2404bc570285.jpg",
+    "Card Type": "Ruler",
+    "backimage": "35beca54-ef94-4a3f-b7d1-dead60ec8068.jpg",
+    "alternate1_Card Number": "VS01-028J",
+    "alternate1_name": "Melgis, the One Charmed by the Demon Sword",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Kings",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "500",
+    "alternate1_Abilities": "[First Strike] (While attacking, this card deals battle damage first to the blocker or attacked object.)\nWhen this card enters your field, put the top card of your magic stone deck into your magic stone area.\n{R}, banish a magic stone or resonator: This card deals 300 damage to target resonator.\nGod's Art [Unleash the Demon Sword] {R}{R}{4}: Destroy target resonator. This card gains [+X/+0] until end of turn, where X is the ATK of the destroyed resonator. Play God's Art [Unleash the Demon Sword] only once per game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Cursed sword, take my anger and give me your strength.\"",
+    "alternate1_Artist": "douzen",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "641",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
+    "alternate1_Set Code": "VS01",
+    "alternate1_id": "35beca54-ef94-4a3f-b7d1-dead60ec8068",
+    "alternate1_image": "35beca54-ef94-4a3f-b7d1-dead60ec8068.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VS01-029",
@@ -679,7 +707,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "34191d0c-6561-475b-9fb4-b7dd42a1aa59",
-    "image": "34191d0c-6561-475b-9fb4-b7dd42a1aa59.jpg"
+    "image": "34191d0c-6561-475b-9fb4-b7dd42a1aa59.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-030",
@@ -701,7 +730,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "bc21bd85-2fd6-4563-ac56-aec3c99a3532",
-    "image": "bc21bd85-2fd6-4563-ac56-aec3c99a3532.jpg"
+    "image": "bc21bd85-2fd6-4563-ac56-aec3c99a3532.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-031",
@@ -723,7 +753,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "f3c38f49-b1ea-4742-940d-5a4867524328",
-    "image": "f3c38f49-b1ea-4742-940d-5a4867524328.jpg"
+    "image": "f3c38f49-b1ea-4742-940d-5a4867524328.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-032",
@@ -745,7 +776,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "f8a4b094-bf2e-46fe-acd9-e2a3148f0b40",
-    "image": "f8a4b094-bf2e-46fe-acd9-e2a3148f0b40.jpg"
+    "image": "f8a4b094-bf2e-46fe-acd9-e2a3148f0b40.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VS01-033",
@@ -767,7 +799,8 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "a00a6bab-b5a3-4cdb-91e8-37ea3d9c7ffd",
-    "image": "a00a6bab-b5a3-4cdb-91e8-37ea3d9c7ffd.jpg"
+    "image": "a00a6bab-b5a3-4cdb-91e8-37ea3d9c7ffd.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "VS01-034",
@@ -789,6 +822,7 @@
     "Set Name": "010 - Faria, the Sacred Queen/Melgis, the Flame King",
     "Set Code": "VS01",
     "id": "73acc36d-2772-487f-b07b-0133132a0eda",
-    "image": "73acc36d-2772-487f-b07b-0133132a0eda.jpg"
+    "image": "73acc36d-2772-487f-b07b-0133132a0eda.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

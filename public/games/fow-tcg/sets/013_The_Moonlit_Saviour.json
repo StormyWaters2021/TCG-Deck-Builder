@@ -19,7 +19,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "f3c49299-4432-4bbd-8e5d-4d7b1723d1c3",
-    "image": "f3c49299-4432-4bbd-8e5d-4d7b1723d1c3.jpg"
+    "image": "f3c49299-4432-4bbd-8e5d-4d7b1723d1c3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-002",
@@ -41,51 +42,53 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "68e40814-ce66-479c-bf27-02d8759b3beb",
-    "image": "68e40814-ce66-479c-bf27-02d8759b3beb.jpg"
+    "image": "68e40814-ce66-479c-bf27-02d8759b3beb.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TMS-003",
-    "name": "Friend from Another World, Kaguya",
-    "Type": "Ruler",
-    "Race": "Wanderer|Little Girl",
-    "Cost": "",
-    "Colour": "W|G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {W}{M}{1}\nYou may spend {M} as though it were {G}.\nWhenever a Moon enters your field, you may draw a card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Sheesh, she's become such a showoff. Now who's fault could that be?\" \"Are you saying it's my fault? It's clearly yours.\" - Fiethsing and Zero",
-    "Artist": "桂福蔵",
-    "Rarity": "R",
-    "Fowid": "879",
-    "Cluster": "03 - Alice",
-    "Set Name": "013 - The Moonlit Saviour",
-    "Set Code": "TMS",
-    "id": "02a05927-a725-41e2-a438-48e15346a158",
-    "image": "02a05927-a725-41e2-a438-48e15346a158.jpg"
-  },
-  {
-    "Card Number": "TMS-003J",
-    "name": "Kaguya, the Moonlit Savior",
-    "Type": "J-Ruler",
-    "Race": "Wizard",
+    "Card Number": "TMS-003|TMS-003J",
+    "name": "Friend from Another World, Kaguya // Kaguya, the Moonlit Savior",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Wanderer|Little Girl|Wizard",
     "Cost": "",
     "Colour": "W|G",
     "ATK": "700",
     "DEF": "900",
-    "Abilities": "You may spend {M} as though it were {G}.\nWhenever you awaken a card, put two [+100/+100] counters on this card.\n{M}: Cancel target automatic ability.\n{W}{1}: Prevent the next damage that would be dealt to this card this turn.\nGod's Art [Light of the Sacred Moon] {W}{M}{3}: Rest all J/resonators your opponent controls. Then recover all magic stones you control. You may pay [Awakening] costs {M} less this turn. (Play God's Art [Light of the Sacred Moon] only once per game.)",
+    "Abilities": "[Judgment] {W}{M}{1}\nYou may spend {M} as though it were {G}.\nWhenever a Moon enters your field, you may draw a card.|You may spend {M} as though it were {G}.\nWhenever you awaken a card, put two [+100/+100] counters on this card.\n{M}: Cancel target automatic ability.\n{W}{1}: Prevent the next damage that would be dealt to this card this turn.\nGod's Art [Light of the Sacred Moon] {W}{M}{3}: Rest all J/resonators your opponent controls. Then recover all magic stones you control. You may pay [Awakening] costs {M} less this turn. (Play God's Art [Light of the Sacred Moon] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"An ally of justice shall appear from the moon! And who could that mysterious hero be? Obviously it's me!\"",
+    "Flavour": "\"Sheesh, she's become such a showoff. Now who's fault could that be?\" \"Are you saying it's my fault? It's clearly yours.\" - Fiethsing and Zero|\"An ally of justice shall appear from the moon! And who could that mysterious hero be? Obviously it's me!\"",
     "Artist": "桂福蔵",
     "Rarity": "R",
-    "Fowid": "880",
+    "Fowid": "879|880",
     "Cluster": "03 - Alice",
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
-    "id": "a7dce093-f3df-453a-b793-73e96c606f4b",
-    "image": "a7dce093-f3df-453a-b793-73e96c606f4b.jpg"
+    "id": "02a05927-a725-41e2-a438-48e15346a158",
+    "image": "02a05927-a725-41e2-a438-48e15346a158.jpg",
+    "Card Type": "Ruler",
+    "backimage": "a7dce093-f3df-453a-b793-73e96c606f4b.jpg",
+    "alternate1_Card Number": "TMS-003J",
+    "alternate1_name": "Kaguya, the Moonlit Savior",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|G",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "You may spend {M} as though it were {G}.\nWhenever you awaken a card, put two [+100/+100] counters on this card.\n{M}: Cancel target automatic ability.\n{W}{1}: Prevent the next damage that would be dealt to this card this turn.\nGod's Art [Light of the Sacred Moon] {W}{M}{3}: Rest all J/resonators your opponent controls. Then recover all magic stones you control. You may pay [Awakening] costs {M} less this turn. (Play God's Art [Light of the Sacred Moon] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"An ally of justice shall appear from the moon! And who could that mysterious hero be? Obviously it's me!\"",
+    "alternate1_Artist": "桂福蔵",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "880",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "013 - The Moonlit Saviour",
+    "alternate1_Set Code": "TMS",
+    "alternate1_id": "a7dce093-f3df-453a-b793-73e96c606f4b",
+    "alternate1_image": "a7dce093-f3df-453a-b793-73e96c606f4b.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TMS-004",
@@ -107,7 +110,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "54467842-5271-47c6-b668-679064677902",
-    "image": "54467842-5271-47c6-b668-679064677902.jpg"
+    "image": "54467842-5271-47c6-b668-679064677902.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TMS-005",
@@ -129,7 +133,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "bf653ca5-cdcb-43f8-ac53-e9de38a0d1e4",
-    "image": "bf653ca5-cdcb-43f8-ac53-e9de38a0d1e4.jpg"
+    "image": "bf653ca5-cdcb-43f8-ac53-e9de38a0d1e4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-006",
@@ -151,7 +156,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "e254b8bc-9538-4183-bec0-96ceea5b90ab",
-    "image": "e254b8bc-9538-4183-bec0-96ceea5b90ab.jpg"
+    "image": "e254b8bc-9538-4183-bec0-96ceea5b90ab.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TMS-007",
@@ -173,7 +179,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "d4c5bbf0-384d-492a-b344-c63d7960e7e4",
-    "image": "d4c5bbf0-384d-492a-b344-c63d7960e7e4.jpg"
+    "image": "d4c5bbf0-384d-492a-b344-c63d7960e7e4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-008",
@@ -195,7 +202,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "898e6d17-923a-4d3a-948b-812bff33c724",
-    "image": "898e6d17-923a-4d3a-948b-812bff33c724.jpg"
+    "image": "898e6d17-923a-4d3a-948b-812bff33c724.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TMS-009",
@@ -217,7 +225,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "133adce5-2705-41f0-a0e0-225d0027491c",
-    "image": "133adce5-2705-41f0-a0e0-225d0027491c.jpg"
+    "image": "133adce5-2705-41f0-a0e0-225d0027491c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-010",
@@ -239,7 +248,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "7c008172-ed15-437c-b04c-3502d47ebbcd",
-    "image": "7c008172-ed15-437c-b04c-3502d47ebbcd.jpg"
+    "image": "7c008172-ed15-437c-b04c-3502d47ebbcd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-011",
@@ -261,7 +271,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "bda461bf-a266-4610-a1a7-e8cfe68862a7",
-    "image": "bda461bf-a266-4610-a1a7-e8cfe68862a7.jpg"
+    "image": "bda461bf-a266-4610-a1a7-e8cfe68862a7.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "TMS-012",
@@ -283,7 +294,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "10274500-f4b2-43fa-b978-989cd3719d8b",
-    "image": "10274500-f4b2-43fa-b978-989cd3719d8b.jpg"
+    "image": "10274500-f4b2-43fa-b978-989cd3719d8b.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TMS-013",
@@ -305,7 +317,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "b7c682f9-4296-4d0e-8d71-94eb7bad8735",
-    "image": "b7c682f9-4296-4d0e-8d71-94eb7bad8735.jpg"
+    "image": "b7c682f9-4296-4d0e-8d71-94eb7bad8735.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TMS-014",
@@ -327,7 +340,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "baa88fc0-e1a1-4815-a682-bcba7a44e957",
-    "image": "baa88fc0-e1a1-4815-a682-bcba7a44e957.jpg"
+    "image": "baa88fc0-e1a1-4815-a682-bcba7a44e957.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-015",
@@ -349,7 +363,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "6e610d97-3224-47ae-9718-2e614a452bfd",
-    "image": "6e610d97-3224-47ae-9718-2e614a452bfd.jpg"
+    "image": "6e610d97-3224-47ae-9718-2e614a452bfd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-016",
@@ -371,7 +386,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "022dda97-6b26-4b1a-bd94-b94007163456",
-    "image": "022dda97-6b26-4b1a-bd94-b94007163456.jpg"
+    "image": "022dda97-6b26-4b1a-bd94-b94007163456.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-017",
@@ -393,7 +409,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "972444a9-bfb4-4d51-9e3d-8eb28418d034",
-    "image": "972444a9-bfb4-4d51-9e3d-8eb28418d034.jpg"
+    "image": "972444a9-bfb4-4d51-9e3d-8eb28418d034.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-018",
@@ -415,7 +432,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "cc5ade56-5bcf-4c11-8c83-a2f22f762c74",
-    "image": "cc5ade56-5bcf-4c11-8c83-a2f22f762c74.jpg"
+    "image": "cc5ade56-5bcf-4c11-8c83-a2f22f762c74.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-019",
@@ -437,7 +455,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "7a6eb506-95d0-4349-a4fa-7fab8122324d",
-    "image": "7a6eb506-95d0-4349-a4fa-7fab8122324d.jpg"
+    "image": "7a6eb506-95d0-4349-a4fa-7fab8122324d.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TMS-020",
@@ -459,7 +478,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "73fb2370-390c-4d06-95fd-59b8f999ddf2",
-    "image": "73fb2370-390c-4d06-95fd-59b8f999ddf2.jpg"
+    "image": "73fb2370-390c-4d06-95fd-59b8f999ddf2.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TMS-021",
@@ -481,7 +501,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "7cb72b81-0085-458c-96d9-da5b5f4b9642",
-    "image": "7cb72b81-0085-458c-96d9-da5b5f4b9642.jpg"
+    "image": "7cb72b81-0085-458c-96d9-da5b5f4b9642.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TMS-022",
@@ -503,7 +524,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "464c2fc0-64b6-4965-bff4-29db259e6cd9",
-    "image": "464c2fc0-64b6-4965-bff4-29db259e6cd9.jpg"
+    "image": "464c2fc0-64b6-4965-bff4-29db259e6cd9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-023",
@@ -525,7 +547,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "0dd848b7-6ed3-4dc0-8d88-1d1ac6c1a4f7",
-    "image": "0dd848b7-6ed3-4dc0-8d88-1d1ac6c1a4f7.jpg"
+    "image": "0dd848b7-6ed3-4dc0-8d88-1d1ac6c1a4f7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-024",
@@ -547,7 +570,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "3b6d06cc-b1bb-4ad2-9cbd-f1744b9060dc",
-    "image": "3b6d06cc-b1bb-4ad2-9cbd-f1744b9060dc.jpg"
+    "image": "3b6d06cc-b1bb-4ad2-9cbd-f1744b9060dc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-025",
@@ -569,7 +593,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "7036f68e-27f4-4f64-ae38-d887a5e17a6f",
-    "image": "7036f68e-27f4-4f64-ae38-d887a5e17a6f.jpg"
+    "image": "7036f68e-27f4-4f64-ae38-d887a5e17a6f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-026",
@@ -591,7 +616,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "8b81fd0f-279c-42b0-91de-7faab399c5ba",
-    "image": "8b81fd0f-279c-42b0-91de-7faab399c5ba.jpg"
+    "image": "8b81fd0f-279c-42b0-91de-7faab399c5ba.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TMS-027",
@@ -613,7 +639,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "9d018569-fb7a-4e53-87d2-8e6470ee8d1c",
-    "image": "9d018569-fb7a-4e53-87d2-8e6470ee8d1c.jpg"
+    "image": "9d018569-fb7a-4e53-87d2-8e6470ee8d1c.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "TMS-028",
@@ -635,7 +662,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "9d07a70c-e50c-46a1-b800-c510d4ee4268",
-    "image": "9d07a70c-e50c-46a1-b800-c510d4ee4268.jpg"
+    "image": "9d07a70c-e50c-46a1-b800-c510d4ee4268.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-029",
@@ -657,7 +685,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "de57e96d-d31d-4834-87d8-b41d2e83fdfe",
-    "image": "de57e96d-d31d-4834-87d8-b41d2e83fdfe.jpg"
+    "image": "de57e96d-d31d-4834-87d8-b41d2e83fdfe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-030",
@@ -679,51 +708,53 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "14fc6c81-baaa-42c7-9fa0-178effb6964a",
-    "image": "14fc6c81-baaa-42c7-9fa0-178effb6964a.jpg"
+    "image": "14fc6c81-baaa-42c7-9fa0-178effb6964a.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TMS-031",
-    "name": "The Observer",
-    "Type": "Ruler",
-    "Race": "Wizard",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {R}{R}{12}\nYou may pay {1} less to play this ability for each card in your removed area.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Observations are recorded. They manifest as disasters and are eventually forgotten.",
-    "Artist": "BANAMONS*",
-    "Rarity": "R",
-    "Fowid": "908",
-    "Cluster": "03 - Alice",
-    "Set Name": "013 - The Moonlit Saviour",
-    "Set Code": "TMS",
-    "id": "17c83675-bfe5-40cf-b8fe-98b4e762bba2",
-    "image": "17c83675-bfe5-40cf-b8fe-98b4e762bba2.jpg"
-  },
-  {
-    "Card Number": "TMS-031J",
-    "name": "Timeline Arsonist, Alisaris",
-    "Type": "J-Ruler",
+    "Card Number": "TMS-031|TMS-031J",
+    "name": "The Observer // Timeline Arsonist, Alisaris",
+    "Type": "Ruler|J-Ruler",
     "Race": "Wizard",
     "Cost": "",
     "Colour": "R",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "When this card enters your field, search your main deck for a card named \"Blazing Metropolis, Vell-Savaria\", reveal it and put it into your hand. Then shuffle your main deck.\nResonators you control gain [Swiftness], [Target Attack], and [First Strike].\nGod's Art [Total Recall] {R}{R}{2}: This card deals 100 damage to each J/resonator your opponent controls for each card in your removed area. Then, you may put any number of cards from your removed area into your graveyard. (Play God's Art [Total Recall] only once per game.)",
+    "Abilities": "[Judgment] {R}{R}{12}\nYou may pay {1} less to play this ability for each card in your removed area.|When this card enters your field, search your main deck for a card named \"Blazing Metropolis, Vell-Savaria\", reveal it and put it into your hand. Then shuffle your main deck.\nResonators you control gain [Swiftness], [Target Attack], and [First Strike].\nGod's Art [Total Recall] {R}{R}{2}: This card deals 100 damage to each J/resonator your opponent controls for each card in your removed area. Then, you may put any number of cards from your removed area into your graveyard. (Play God's Art [Total Recall] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"You're just as much a prisoner of time as he is.\"",
+    "Flavour": "Observations are recorded. They manifest as disasters and are eventually forgotten.|\"You're just as much a prisoner of time as he is.\"",
     "Artist": "BANAMONS*",
     "Rarity": "R",
-    "Fowid": "909",
+    "Fowid": "908|909",
     "Cluster": "03 - Alice",
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
-    "id": "33008e76-6ecd-42fa-884b-7a0a43dc1bb1",
-    "image": "33008e76-6ecd-42fa-884b-7a0a43dc1bb1.jpg"
+    "id": "17c83675-bfe5-40cf-b8fe-98b4e762bba2",
+    "image": "17c83675-bfe5-40cf-b8fe-98b4e762bba2.jpg",
+    "Card Type": "Ruler",
+    "backimage": "33008e76-6ecd-42fa-884b-7a0a43dc1bb1.jpg",
+    "alternate1_Card Number": "TMS-031J",
+    "alternate1_name": "Timeline Arsonist, Alisaris",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "When this card enters your field, search your main deck for a card named \"Blazing Metropolis, Vell-Savaria\", reveal it and put it into your hand. Then shuffle your main deck.\nResonators you control gain [Swiftness], [Target Attack], and [First Strike].\nGod's Art [Total Recall] {R}{R}{2}: This card deals 100 damage to each J/resonator your opponent controls for each card in your removed area. Then, you may put any number of cards from your removed area into your graveyard. (Play God's Art [Total Recall] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"You're just as much a prisoner of time as he is.\"",
+    "alternate1_Artist": "BANAMONS*",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "909",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "013 - The Moonlit Saviour",
+    "alternate1_Set Code": "TMS",
+    "alternate1_id": "33008e76-6ecd-42fa-884b-7a0a43dc1bb1",
+    "alternate1_image": "33008e76-6ecd-42fa-884b-7a0a43dc1bb1.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TMS-032",
@@ -745,7 +776,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "647a5e47-4bdc-419c-b134-d7dc5a006467",
-    "image": "647a5e47-4bdc-419c-b134-d7dc5a006467.jpg"
+    "image": "647a5e47-4bdc-419c-b134-d7dc5a006467.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-033",
@@ -767,7 +799,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "d90227ce-5fb3-411d-93de-704b7d419a5e",
-    "image": "d90227ce-5fb3-411d-93de-704b7d419a5e.jpg"
+    "image": "d90227ce-5fb3-411d-93de-704b7d419a5e.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TMS-034",
@@ -789,7 +822,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "f37fc5ff-2ea5-4590-8453-7bf285923857",
-    "image": "f37fc5ff-2ea5-4590-8453-7bf285923857.jpg"
+    "image": "f37fc5ff-2ea5-4590-8453-7bf285923857.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-035",
@@ -811,7 +845,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "086115c5-dd08-4d1e-8522-0f1c03131084",
-    "image": "086115c5-dd08-4d1e-8522-0f1c03131084.jpg"
+    "image": "086115c5-dd08-4d1e-8522-0f1c03131084.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TMS-036",
@@ -833,7 +868,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "a60a18a3-3fb2-4b32-a417-f8f1bc0df5ec",
-    "image": "a60a18a3-3fb2-4b32-a417-f8f1bc0df5ec.jpg"
+    "image": "a60a18a3-3fb2-4b32-a417-f8f1bc0df5ec.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-037",
@@ -855,7 +891,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "4a7d73cc-d29c-4142-9b38-d8df86456624",
-    "image": "4a7d73cc-d29c-4142-9b38-d8df86456624.jpg"
+    "image": "4a7d73cc-d29c-4142-9b38-d8df86456624.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-038",
@@ -877,7 +914,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "7129262c-6067-466b-9cb9-5286b9b0b825",
-    "image": "7129262c-6067-466b-9cb9-5286b9b0b825.jpg"
+    "image": "7129262c-6067-466b-9cb9-5286b9b0b825.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TMS-039",
@@ -899,7 +937,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "d090e29c-3898-4ee4-b32d-314912fdfd99",
-    "image": "d090e29c-3898-4ee4-b32d-314912fdfd99.jpg"
+    "image": "d090e29c-3898-4ee4-b32d-314912fdfd99.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TMS-040",
@@ -921,7 +960,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "a2546f4d-29b7-447b-a046-9e45d7b45430",
-    "image": "a2546f4d-29b7-447b-a046-9e45d7b45430.jpg"
+    "image": "a2546f4d-29b7-447b-a046-9e45d7b45430.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-041",
@@ -943,7 +983,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "e2fed49b-4570-4515-a705-2ae0b2600c27",
-    "image": "e2fed49b-4570-4515-a705-2ae0b2600c27.jpg"
+    "image": "e2fed49b-4570-4515-a705-2ae0b2600c27.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-042",
@@ -965,7 +1006,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "121a8688-699c-49b8-a8bb-7329ee5d72ae",
-    "image": "121a8688-699c-49b8-a8bb-7329ee5d72ae.jpg"
+    "image": "121a8688-699c-49b8-a8bb-7329ee5d72ae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-043",
@@ -987,7 +1029,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "cc9b4aae-4e61-4418-bc39-40ee98fb5840",
-    "image": "cc9b4aae-4e61-4418-bc39-40ee98fb5840.jpg"
+    "image": "cc9b4aae-4e61-4418-bc39-40ee98fb5840.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TMS-044",
@@ -1009,7 +1052,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "ef4bc218-f0f3-49c1-a5e1-25e02c983a10",
-    "image": "ef4bc218-f0f3-49c1-a5e1-25e02c983a10.jpg"
+    "image": "ef4bc218-f0f3-49c1-a5e1-25e02c983a10.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-045",
@@ -1031,51 +1075,53 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "a24d9471-e54e-4feb-a6f9-5cff7098559b",
-    "image": "a24d9471-e54e-4feb-a6f9-5cff7098559b.jpg"
+    "image": "a24d9471-e54e-4feb-a6f9-5cff7098559b.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
-    "Card Number": "TMS-046",
-    "name": "Songstress of Shangri-La",
-    "Type": "Ruler",
-    "Race": "Songstress",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {U}{2}\nYou may look at the top card of your main deck at any time.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Her songs resonated in the hearts of warriors everywhere.",
-    "Artist": "j-peg",
-    "Rarity": "R",
-    "Fowid": "924",
-    "Cluster": "03 - Alice",
-    "Set Name": "013 - The Moonlit Saviour",
-    "Set Code": "TMS",
-    "id": "dcbe339a-c25c-4f6e-83a2-19a57265084a",
-    "image": "dcbe339a-c25c-4f6e-83a2-19a57265084a.jpg"
-  },
-  {
-    "Card Number": "TMS-046J",
-    "name": "Coup d'Etat Mastermind, Shion",
-    "Type": "J-Ruler",
-    "Race": "Traitor",
+    "Card Number": "TMS-046|TMS-046J",
+    "name": "Songstress of Shangri-La // Coup d'Etat Mastermind, Shion",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Songstress|Traitor",
     "Cost": "",
     "Colour": "U",
     "ATK": "900",
     "DEF": "1000",
-    "Abilities": "You may look at the top card of your main deck at any time.\nWhen this card enters your field, reveal the top card of your main deck. If it's a resonator with total cost 5 or less, put it into your field. Otherwise, put it into your hand.\nGod's Art [Serenade of Rebellion] {U}{U}: This card gains [+500/+500] until end of turn. Then it deals damage equal to its ATK to target J/resonator your opponent controls (Play God's Art [Serenade of Rebellion] only once per game.)",
+    "Abilities": "[Judgment] {U}{2}\nYou may look at the top card of your main deck at any time.|You may look at the top card of your main deck at any time.\nWhen this card enters your field, reveal the top card of your main deck. If it's a resonator with total cost 5 or less, put it into your field. Otherwise, put it into your hand.\nGod's Art [Serenade of Rebellion] {U}{U}: This card gains [+500/+500] until end of turn. Then it deals damage equal to its ATK to target J/resonator your opponent controls (Play God's Art [Serenade of Rebellion] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Oh, Lady Valentina, you've changed beyond recognition. So I send you this, my final requiem.\"",
+    "Flavour": "Her songs resonated in the hearts of warriors everywhere.|\"Oh, Lady Valentina, you've changed beyond recognition. So I send you this, my final requiem.\"",
     "Artist": "j-peg",
     "Rarity": "R",
-    "Fowid": "925",
+    "Fowid": "924|925",
     "Cluster": "03 - Alice",
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
-    "id": "06b31902-6ca7-4011-a19a-7d85af81e61a",
-    "image": "06b31902-6ca7-4011-a19a-7d85af81e61a.jpg"
+    "id": "dcbe339a-c25c-4f6e-83a2-19a57265084a",
+    "image": "dcbe339a-c25c-4f6e-83a2-19a57265084a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "06b31902-6ca7-4011-a19a-7d85af81e61a.jpg",
+    "alternate1_Card Number": "TMS-046J",
+    "alternate1_name": "Coup d'Etat Mastermind, Shion",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Traitor",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "You may look at the top card of your main deck at any time.\nWhen this card enters your field, reveal the top card of your main deck. If it's a resonator with total cost 5 or less, put it into your field. Otherwise, put it into your hand.\nGod's Art [Serenade of Rebellion] {U}{U}: This card gains [+500/+500] until end of turn. Then it deals damage equal to its ATK to target J/resonator your opponent controls (Play God's Art [Serenade of Rebellion] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Oh, Lady Valentina, you've changed beyond recognition. So I send you this, my final requiem.\"",
+    "alternate1_Artist": "j-peg",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "925",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "013 - The Moonlit Saviour",
+    "alternate1_Set Code": "TMS",
+    "alternate1_id": "06b31902-6ca7-4011-a19a-7d85af81e61a",
+    "alternate1_image": "06b31902-6ca7-4011-a19a-7d85af81e61a.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TMS-047",
@@ -1097,7 +1143,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "d2bf6de8-ec32-42c6-b62c-f1205c7cb996",
-    "image": "d2bf6de8-ec32-42c6-b62c-f1205c7cb996.jpg"
+    "image": "d2bf6de8-ec32-42c6-b62c-f1205c7cb996.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-048",
@@ -1119,7 +1166,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "b7a0a591-3b3d-430a-b980-e6cee1561ca9",
-    "image": "b7a0a591-3b3d-430a-b980-e6cee1561ca9.jpg"
+    "image": "b7a0a591-3b3d-430a-b980-e6cee1561ca9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-049",
@@ -1141,7 +1189,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "e80a94b3-0912-406d-a60d-91b38e18f4b4",
-    "image": "e80a94b3-0912-406d-a60d-91b38e18f4b4.jpg"
+    "image": "e80a94b3-0912-406d-a60d-91b38e18f4b4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-050",
@@ -1163,7 +1212,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "e00f4eeb-bd13-4cee-bc61-79a3138e3e4d",
-    "image": "e00f4eeb-bd13-4cee-bc61-79a3138e3e4d.jpg"
+    "image": "e00f4eeb-bd13-4cee-bc61-79a3138e3e4d.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TMS-051",
@@ -1185,7 +1235,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "3e1638bd-d4bd-44cb-b910-afac3c296f17",
-    "image": "3e1638bd-d4bd-44cb-b910-afac3c296f17.jpg"
+    "image": "3e1638bd-d4bd-44cb-b910-afac3c296f17.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-052",
@@ -1207,7 +1258,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "6236b503-94af-4319-8123-30f65459e7e7",
-    "image": "6236b503-94af-4319-8123-30f65459e7e7.jpg"
+    "image": "6236b503-94af-4319-8123-30f65459e7e7.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "TMS-053",
@@ -1229,7 +1281,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "075c28ba-a6b4-427f-a17f-c7054adb80fe",
-    "image": "075c28ba-a6b4-427f-a17f-c7054adb80fe.jpg"
+    "image": "075c28ba-a6b4-427f-a17f-c7054adb80fe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-054",
@@ -1251,7 +1304,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "4a56d0db-98fd-4bb6-8f58-5ffafaf2ef9a",
-    "image": "4a56d0db-98fd-4bb6-8f58-5ffafaf2ef9a.jpg"
+    "image": "4a56d0db-98fd-4bb6-8f58-5ffafaf2ef9a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-055",
@@ -1273,7 +1327,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "d1d06cf5-656d-4332-9526-9ac7d4f5e38f",
-    "image": "d1d06cf5-656d-4332-9526-9ac7d4f5e38f.jpg"
+    "image": "d1d06cf5-656d-4332-9526-9ac7d4f5e38f.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TMS-056",
@@ -1295,7 +1350,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "b67ddeb9-f521-4079-bc9a-e33b67aa2aac",
-    "image": "b67ddeb9-f521-4079-bc9a-e33b67aa2aac.jpg"
+    "image": "b67ddeb9-f521-4079-bc9a-e33b67aa2aac.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-057",
@@ -1317,7 +1373,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "1f8dc230-d1c0-4a93-8e44-1b03ac1b9aa3",
-    "image": "1f8dc230-d1c0-4a93-8e44-1b03ac1b9aa3.jpg"
+    "image": "1f8dc230-d1c0-4a93-8e44-1b03ac1b9aa3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-058",
@@ -1339,7 +1396,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "c07ae15f-a468-494e-b3b8-409623037d80",
-    "image": "c07ae15f-a468-494e-b3b8-409623037d80.jpg"
+    "image": "c07ae15f-a468-494e-b3b8-409623037d80.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-059",
@@ -1361,7 +1419,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "451bab56-a238-4e9c-b89d-844891d82622",
-    "image": "451bab56-a238-4e9c-b89d-844891d82622.jpg"
+    "image": "451bab56-a238-4e9c-b89d-844891d82622.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-060",
@@ -1383,7 +1442,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "cf83f0dd-5df5-4aa7-a46a-ba596cc95e2b",
-    "image": "cf83f0dd-5df5-4aa7-a46a-ba596cc95e2b.jpg"
+    "image": "cf83f0dd-5df5-4aa7-a46a-ba596cc95e2b.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TMS-061",
@@ -1405,7 +1465,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "3a0fca2a-0359-4873-9b4d-5efadf783993",
-    "image": "3a0fca2a-0359-4873-9b4d-5efadf783993.jpg"
+    "image": "3a0fca2a-0359-4873-9b4d-5efadf783993.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TMS-062",
@@ -1427,7 +1488,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "949d0835-15bd-4da0-8375-378b35a8312f",
-    "image": "949d0835-15bd-4da0-8375-378b35a8312f.jpg"
+    "image": "949d0835-15bd-4da0-8375-378b35a8312f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-063",
@@ -1449,7 +1511,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "16780b04-bc15-45d6-82c7-2bfc7ce59b4d",
-    "image": "16780b04-bc15-45d6-82c7-2bfc7ce59b4d.jpg"
+    "image": "16780b04-bc15-45d6-82c7-2bfc7ce59b4d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-064",
@@ -1471,7 +1534,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "d147fdb8-f083-412d-9bf4-b9a83f97992d",
-    "image": "d147fdb8-f083-412d-9bf4-b9a83f97992d.jpg"
+    "image": "d147fdb8-f083-412d-9bf4-b9a83f97992d.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TMS-065",
@@ -1493,7 +1557,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "d1492a27-6b81-4188-932d-1126b18e4391",
-    "image": "d1492a27-6b81-4188-932d-1126b18e4391.jpg"
+    "image": "d1492a27-6b81-4188-932d-1126b18e4391.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TMS-066",
@@ -1515,7 +1580,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "0151ecbc-ba60-4d8d-b821-1b428ea4f3e5",
-    "image": "0151ecbc-ba60-4d8d-b821-1b428ea4f3e5.jpg"
+    "image": "0151ecbc-ba60-4d8d-b821-1b428ea4f3e5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-067",
@@ -1537,7 +1603,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "b67b5d5a-a1de-4f47-bb8a-73c931f8d532",
-    "image": "b67b5d5a-a1de-4f47-bb8a-73c931f8d532.jpg"
+    "image": "b67b5d5a-a1de-4f47-bb8a-73c931f8d532.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-068",
@@ -1559,7 +1626,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "88b11ebd-70e5-47cb-99a4-67e99880df8e",
-    "image": "88b11ebd-70e5-47cb-99a4-67e99880df8e.jpg"
+    "image": "88b11ebd-70e5-47cb-99a4-67e99880df8e.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "TMS-069",
@@ -1581,7 +1649,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "a4f1bcd6-4ce9-4509-b926-1e91e7fb7d61",
-    "image": "a4f1bcd6-4ce9-4509-b926-1e91e7fb7d61.jpg"
+    "image": "a4f1bcd6-4ce9-4509-b926-1e91e7fb7d61.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-070",
@@ -1603,7 +1672,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "8b31941c-bcf3-4572-87b6-598d7ce89f0a",
-    "image": "8b31941c-bcf3-4572-87b6-598d7ce89f0a.jpg"
+    "image": "8b31941c-bcf3-4572-87b6-598d7ce89f0a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-071",
@@ -1625,51 +1695,53 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "3fd8c509-1ad3-45e7-b1d0-ff2491109d36",
-    "image": "3fd8c509-1ad3-45e7-b1d0-ff2491109d36.jpg"
+    "image": "3fd8c509-1ad3-45e7-b1d0-ff2491109d36.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
-    "Card Number": "TMS-072",
-    "name": "Conqueror of the Black Moon, Gill Lapis",
-    "Type": "Ruler",
-    "Race": "Wanderer",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {B}{M}{1}\nYour opponent pays {1} more to play regalia's activate abilities.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"I finally found you...\" - Avatar of the Seven Lands, Alice",
-    "Artist": "ネム",
-    "Rarity": "R",
-    "Fowid": "951",
-    "Cluster": "03 - Alice",
-    "Set Name": "013 - The Moonlit Saviour",
-    "Set Code": "TMS",
-    "id": "d9b05fbb-5b91-471b-9ec2-9415e6308567",
-    "image": "d9b05fbb-5b91-471b-9ec2-9415e6308567.jpg"
-  },
-  {
-    "Card Number": "TMS-072J",
-    "name": "Gill Lapis, the Primogenitor",
-    "Type": "J-Ruler",
-    "Race": "Subjugator",
+    "Card Number": "TMS-072|TMS-072J",
+    "name": "Conqueror of the Black Moon, Gill Lapis // Gill Lapis, the Primogenitor",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Wanderer|Subjugator",
     "Cost": "",
     "Colour": "B",
     "ATK": "1200",
     "DEF": "1200",
-    "Abilities": "When this card enters your field, you may search your main deck for a card named \"Pitch Black Moon\" and put it into your field. Then shuffle your main deck.\n{M}: Cancel target activate ability.\n{B}{1}: Target J/resonator gains [-200/-200] until end of turn.\nGod's Art [Space-Time Control] {B}{M}{2}: Search your opponent's main deck for a resonator, regalia, and/or [Addition:Field] and put them into your field. The your opponent shuffles their main deck. (Play God's Art [Space-Time Control] only once per game.)",
+    "Abilities": "[Judgment] {B}{M}{1}\nYour opponent pays {1} more to play regalia's activate abilities.|When this card enters your field, you may search your main deck for a card named \"Pitch Black Moon\" and put it into your field. Then shuffle your main deck.\n{M}: Cancel target activate ability.\n{B}{1}: Target J/resonator gains [-200/-200] until end of turn.\nGod's Art [Space-Time Control] {B}{M}{2}: Search your opponent's main deck for a resonator, regalia, and/or [Addition:Field] and put them into your field. The your opponent shuffles their main deck. (Play God's Art [Space-Time Control] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I see, you're survivors from that planet. Perfect. You've saved me the trouble of hunting your down.\"",
+    "Flavour": "\"I finally found you...\" - Avatar of the Seven Lands, Alice|\"I see, you're survivors from that planet. Perfect. You've saved me the trouble of hunting your down.\"",
     "Artist": "ネム",
     "Rarity": "R",
-    "Fowid": "952",
+    "Fowid": "951|952",
     "Cluster": "03 - Alice",
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
-    "id": "3f0cfdc4-1f3b-451e-909b-fd0ddc0ea3f5",
-    "image": "3f0cfdc4-1f3b-451e-909b-fd0ddc0ea3f5.jpg"
+    "id": "d9b05fbb-5b91-471b-9ec2-9415e6308567",
+    "image": "d9b05fbb-5b91-471b-9ec2-9415e6308567.jpg",
+    "Card Type": "Ruler",
+    "backimage": "3f0cfdc4-1f3b-451e-909b-fd0ddc0ea3f5.jpg",
+    "alternate1_Card Number": "TMS-072J",
+    "alternate1_name": "Gill Lapis, the Primogenitor",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Subjugator",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "When this card enters your field, you may search your main deck for a card named \"Pitch Black Moon\" and put it into your field. Then shuffle your main deck.\n{M}: Cancel target activate ability.\n{B}{1}: Target J/resonator gains [-200/-200] until end of turn.\nGod's Art [Space-Time Control] {B}{M}{2}: Search your opponent's main deck for a resonator, regalia, and/or [Addition:Field] and put them into your field. The your opponent shuffles their main deck. (Play God's Art [Space-Time Control] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I see, you're survivors from that planet. Perfect. You've saved me the trouble of hunting your down.\"",
+    "alternate1_Artist": "ネム",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "952",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "013 - The Moonlit Saviour",
+    "alternate1_Set Code": "TMS",
+    "alternate1_id": "3f0cfdc4-1f3b-451e-909b-fd0ddc0ea3f5",
+    "alternate1_image": "3f0cfdc4-1f3b-451e-909b-fd0ddc0ea3f5.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TMS-073",
@@ -1691,7 +1763,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "6b38ca02-8141-4429-80cf-506a4ebb43fd",
-    "image": "6b38ca02-8141-4429-80cf-506a4ebb43fd.jpg"
+    "image": "6b38ca02-8141-4429-80cf-506a4ebb43fd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-074",
@@ -1713,7 +1786,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "2bd807eb-22f1-468f-81f2-82fcfc903ba1",
-    "image": "2bd807eb-22f1-468f-81f2-82fcfc903ba1.jpg"
+    "image": "2bd807eb-22f1-468f-81f2-82fcfc903ba1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-075",
@@ -1735,7 +1809,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "0ba1d8d4-9d4c-4278-bb46-aa21bc5391bd",
-    "image": "0ba1d8d4-9d4c-4278-bb46-aa21bc5391bd.jpg"
+    "image": "0ba1d8d4-9d4c-4278-bb46-aa21bc5391bd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-076",
@@ -1757,7 +1832,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "25664109-64f8-4c06-9a87-7da4465ca170",
-    "image": "25664109-64f8-4c06-9a87-7da4465ca170.jpg"
+    "image": "25664109-64f8-4c06-9a87-7da4465ca170.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-077",
@@ -1779,7 +1855,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "82c0a07d-3b26-467f-8030-2d2da5ab5050",
-    "image": "82c0a07d-3b26-467f-8030-2d2da5ab5050.jpg"
+    "image": "82c0a07d-3b26-467f-8030-2d2da5ab5050.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-078",
@@ -1801,7 +1878,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "dc16ebf2-80c6-4b67-bfd4-0035c162a94d",
-    "image": "dc16ebf2-80c6-4b67-bfd4-0035c162a94d.jpg"
+    "image": "dc16ebf2-80c6-4b67-bfd4-0035c162a94d.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TMS-079",
@@ -1823,7 +1901,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "f0b8de8f-5329-4a3e-8c4f-136ad8b12f9c",
-    "image": "f0b8de8f-5329-4a3e-8c4f-136ad8b12f9c.jpg"
+    "image": "f0b8de8f-5329-4a3e-8c4f-136ad8b12f9c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-080",
@@ -1845,7 +1924,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "0d465295-1be7-4f35-9391-fc1fa84fbb64",
-    "image": "0d465295-1be7-4f35-9391-fc1fa84fbb64.jpg"
+    "image": "0d465295-1be7-4f35-9391-fc1fa84fbb64.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "TMS-081",
@@ -1867,7 +1947,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "2544c96e-9569-47df-916c-842c2715a627",
-    "image": "2544c96e-9569-47df-916c-842c2715a627.jpg"
+    "image": "2544c96e-9569-47df-916c-842c2715a627.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TMS-082",
@@ -1889,7 +1970,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "c6d446e2-8e24-4097-9195-e6160063c41b",
-    "image": "c6d446e2-8e24-4097-9195-e6160063c41b.jpg"
+    "image": "c6d446e2-8e24-4097-9195-e6160063c41b.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TMS-083",
@@ -1911,7 +1993,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "46fde3da-6299-4a94-9a47-0d4a13377e86",
-    "image": "46fde3da-6299-4a94-9a47-0d4a13377e86.jpg"
+    "image": "46fde3da-6299-4a94-9a47-0d4a13377e86.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TMS-084",
@@ -1933,7 +2016,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "b07c3861-adb7-4ca9-8061-e541dce98f1c",
-    "image": "b07c3861-adb7-4ca9-8061-e541dce98f1c.jpg"
+    "image": "b07c3861-adb7-4ca9-8061-e541dce98f1c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-085",
@@ -1955,7 +2039,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "b1051b04-899d-4a1b-991e-63cf2100a02a",
-    "image": "b1051b04-899d-4a1b-991e-63cf2100a02a.jpg"
+    "image": "b1051b04-899d-4a1b-991e-63cf2100a02a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-086",
@@ -1977,7 +2062,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "3eaace6d-37f8-4959-9f64-2d284fb0dd82",
-    "image": "3eaace6d-37f8-4959-9f64-2d284fb0dd82.jpg"
+    "image": "3eaace6d-37f8-4959-9f64-2d284fb0dd82.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TMS-087",
@@ -1999,7 +2085,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "fd09c36a-081c-4507-aba7-0f9c1ad9317c",
-    "image": "fd09c36a-081c-4507-aba7-0f9c1ad9317c.jpg"
+    "image": "fd09c36a-081c-4507-aba7-0f9c1ad9317c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-088",
@@ -2021,7 +2108,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "a98c736b-31c2-407c-ae67-1497c07d66cc",
-    "image": "a98c736b-31c2-407c-ae67-1497c07d66cc.jpg"
+    "image": "a98c736b-31c2-407c-ae67-1497c07d66cc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TMS-089",
@@ -2043,7 +2131,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "93bb7182-c6fc-4eed-9ac9-19ca98a250ff",
-    "image": "93bb7182-c6fc-4eed-9ac9-19ca98a250ff.jpg"
+    "image": "93bb7182-c6fc-4eed-9ac9-19ca98a250ff.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TMS-090",
@@ -2065,7 +2154,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "92efec43-2d9e-404f-ba2c-9d83185a18ec",
-    "image": "92efec43-2d9e-404f-ba2c-9d83185a18ec.jpg"
+    "image": "92efec43-2d9e-404f-ba2c-9d83185a18ec.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TMS-091",
@@ -2087,7 +2177,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "1cf7f3ed-2510-411e-a839-05fabb4b1cd9",
-    "image": "1cf7f3ed-2510-411e-a839-05fabb4b1cd9.jpg"
+    "image": "1cf7f3ed-2510-411e-a839-05fabb4b1cd9.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TMS-092",
@@ -2109,7 +2200,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "1b3b100b-0b8b-4943-bebf-6ab9f67cd030",
-    "image": "1b3b100b-0b8b-4943-bebf-6ab9f67cd030.jpg"
+    "image": "1b3b100b-0b8b-4943-bebf-6ab9f67cd030.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TMS-093",
@@ -2131,7 +2223,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "d212c481-6927-4e21-91a3-a00141790319",
-    "image": "d212c481-6927-4e21-91a3-a00141790319.jpg"
+    "image": "d212c481-6927-4e21-91a3-a00141790319.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TMS-094",
@@ -2153,7 +2246,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "5a5834ae-4e9a-45dc-8af7-8973ae517653",
-    "image": "5a5834ae-4e9a-45dc-8af7-8973ae517653.jpg"
+    "image": "5a5834ae-4e9a-45dc-8af7-8973ae517653.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TMS-095",
@@ -2175,7 +2269,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "d4babf63-1dfa-47c8-a871-88022dbd34ff",
-    "image": "d4babf63-1dfa-47c8-a871-88022dbd34ff.jpg"
+    "image": "d4babf63-1dfa-47c8-a871-88022dbd34ff.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TMS-096",
@@ -2197,7 +2292,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "73df4b64-4fdc-4305-9482-513a031de93a",
-    "image": "73df4b64-4fdc-4305-9482-513a031de93a.jpg"
+    "image": "73df4b64-4fdc-4305-9482-513a031de93a.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TMS-097",
@@ -2219,7 +2315,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "a11949fa-9396-49dc-afcd-236aaff51b42",
-    "image": "a11949fa-9396-49dc-afcd-236aaff51b42.jpg"
+    "image": "a11949fa-9396-49dc-afcd-236aaff51b42.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TMS-098",
@@ -2241,7 +2338,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "68e5e671-2e62-4d3d-b80d-c889d4d84b28",
-    "image": "68e5e671-2e62-4d3d-b80d-c889d4d84b28.jpg"
+    "image": "68e5e671-2e62-4d3d-b80d-c889d4d84b28.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TMS-099",
@@ -2263,7 +2361,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "ba3a42cf-59a7-43cd-ab5a-c9403197bdfd",
-    "image": "ba3a42cf-59a7-43cd-ab5a-c9403197bdfd.jpg"
+    "image": "ba3a42cf-59a7-43cd-ab5a-c9403197bdfd.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TMS-100",
@@ -2285,7 +2384,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "f0d36627-a81d-40a2-8cc5-fc04eb7b9be2",
-    "image": "f0d36627-a81d-40a2-8cc5-fc04eb7b9be2.jpg"
+    "image": "f0d36627-a81d-40a2-8cc5-fc04eb7b9be2.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TMS-101",
@@ -2307,7 +2407,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "52ab56bb-b1a4-4ae4-8d78-74432cfe9502",
-    "image": "52ab56bb-b1a4-4ae4-8d78-74432cfe9502.jpg"
+    "image": "52ab56bb-b1a4-4ae4-8d78-74432cfe9502.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "TMS-102",
@@ -2329,7 +2430,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "9c661b94-a55c-4c30-a1a0-d876a3deb461",
-    "image": "9c661b94-a55c-4c30-a1a0-d876a3deb461.jpg"
+    "image": "9c661b94-a55c-4c30-a1a0-d876a3deb461.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "TMS-103",
@@ -2351,7 +2453,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "39ce2e94-ea00-4cfb-92db-fc6d175f346c",
-    "image": "39ce2e94-ea00-4cfb-92db-fc6d175f346c.jpg"
+    "image": "39ce2e94-ea00-4cfb-92db-fc6d175f346c.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "TMS-104",
@@ -2373,7 +2476,8 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "1790d5c8-c312-42b7-9f76-a3f3c42766a5",
-    "image": "1790d5c8-c312-42b7-9f76-a3f3c42766a5.jpg"
+    "image": "1790d5c8-c312-42b7-9f76-a3f3c42766a5.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "TMS-105",
@@ -2395,50 +2499,52 @@
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
     "id": "ed075d52-bf66-4856-bfca-5229bbb7d22b",
-    "image": "ed075d52-bf66-4856-bfca-5229bbb7d22b.jpg"
+    "image": "ed075d52-bf66-4856-bfca-5229bbb7d22b.jpg",
+    "Card Type": "Magic Stone"
   },
   {
-    "Card Number": "TMS-106",
-    "name": "Acolyte of the Abyss",
-    "Type": "Ruler",
-    "Race": "Wizard",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {R}{11}. You may pay {1} less to play this ability for each card in your removed area.\n[Energize] {R}\nThis card gains \"The Observer\" in addition to its other names.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "BANAMONS*",
-    "Rarity": "AR",
-    "Fowid": "1845",
-    "Cluster": "03 - Alice",
-    "Set Name": "013 - The Moonlit Saviour",
-    "Set Code": "TMS",
-    "id": "fc9a22ce-41c2-4fe5-b134-1666aab89429",
-    "image": "fc9a22ce-41c2-4fe5-b134-1666aab89429.jpg"
-  },
-  {
-    "Card Number": "TMS-106J",
-    "name": "Alisaris, the Demon of Calamity",
-    "Type": "J-Ruler",
+    "Card Number": "TMS-106|TMS-106J",
+    "name": "Acolyte of the Abyss // Alisaris, the Demon of Calamity",
+    "Type": "Ruler|J-Ruler",
     "Race": "Wizard",
     "Cost": "",
     "Colour": "R",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "This card gains \"Timeline Arsonist, Alisaris\" in addition to its other names.\nWhen this card enters your field ⇒ Search your deck for a card named \"Blazing Metropolis, Vell-Savaria\", and put it into your field. Then shuffle your deck.\nResonators you control gain [Swiftness], [Precision], and [First Strike].\nGod's Art [Abyssal Malediction] {R}{R}{R}: This card deals 100 to each J/resonator your opponent controls for each card in your removed area. Then, you may put any number of cards from your removed area into your graveyard. (Play God's Art [Abyssal Malediction] only once per game.)",
+    "Abilities": "[Judgment] {R}{11}. You may pay {1} less to play this ability for each card in your removed area.\n[Energize] {R}\nThis card gains \"The Observer\" in addition to its other names.|This card gains \"Timeline Arsonist, Alisaris\" in addition to its other names.\nWhen this card enters your field ⇒ Search your deck for a card named \"Blazing Metropolis, Vell-Savaria\", and put it into your field. Then shuffle your deck.\nResonators you control gain [Swiftness], [Precision], and [First Strike].\nGod's Art [Abyssal Malediction] {R}{R}{R}: This card deals 100 to each J/resonator your opponent controls for each card in your removed area. Then, you may put any number of cards from your removed area into your graveyard. (Play God's Art [Abyssal Malediction] only once per game.)",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "BANAMONS*",
     "Rarity": "AR",
-    "Fowid": "1846",
+    "Fowid": "1845|1846",
     "Cluster": "03 - Alice",
     "Set Name": "013 - The Moonlit Saviour",
     "Set Code": "TMS",
-    "id": "00856f69-c16e-4539-93d2-336a3159e5f9",
-    "image": "00856f69-c16e-4539-93d2-336a3159e5f9.jpg"
+    "id": "fc9a22ce-41c2-4fe5-b134-1666aab89429",
+    "image": "fc9a22ce-41c2-4fe5-b134-1666aab89429.jpg",
+    "Card Type": "Ruler",
+    "backimage": "00856f69-c16e-4539-93d2-336a3159e5f9.jpg",
+    "alternate1_Card Number": "TMS-106J",
+    "alternate1_name": "Alisaris, the Demon of Calamity",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "This card gains \"Timeline Arsonist, Alisaris\" in addition to its other names.\nWhen this card enters your field ⇒ Search your deck for a card named \"Blazing Metropolis, Vell-Savaria\", and put it into your field. Then shuffle your deck.\nResonators you control gain [Swiftness], [Precision], and [First Strike].\nGod's Art [Abyssal Malediction] {R}{R}{R}: This card deals 100 to each J/resonator your opponent controls for each card in your removed area. Then, you may put any number of cards from your removed area into your graveyard. (Play God's Art [Abyssal Malediction] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "BANAMONS*",
+    "alternate1_Rarity": "AR",
+    "alternate1_Fowid": "1846",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "013 - The Moonlit Saviour",
+    "alternate1_Set Code": "TMS",
+    "alternate1_id": "00856f69-c16e-4539-93d2-336a3159e5f9",
+    "alternate1_image": "00856f69-c16e-4539-93d2-336a3159e5f9.jpg",
+    "alternate1_Card Type": "J-Ruler"
   }
 ]

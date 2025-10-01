@@ -19,7 +19,8 @@
     "Set Name": "060 - Starter Deck - Villains Deck",
     "Set Code": "DSD",
     "id": "3d810a1b-9267-4c8a-bc9f-f030cc848b59",
-    "image": "3d810a1b-9267-4c8a-bc9f-f030cc848b59.jpg"
+    "image": "3d810a1b-9267-4c8a-bc9f-f030cc848b59.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DSD-013",
@@ -41,7 +42,8 @@
     "Set Name": "060 - Starter Deck - Villains Deck",
     "Set Code": "DSD",
     "id": "122894f8-e9c9-423b-b188-3e62179be867",
-    "image": "122894f8-e9c9-423b-b188-3e62179be867.jpg"
+    "image": "122894f8-e9c9-423b-b188-3e62179be867.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "DSD-014",
@@ -63,7 +65,8 @@
     "Set Name": "060 - Starter Deck - Villains Deck",
     "Set Code": "DSD",
     "id": "16c27887-5dbd-4e9e-ab13-2cd059a5cc77",
-    "image": "16c27887-5dbd-4e9e-ab13-2cd059a5cc77.jpg"
+    "image": "16c27887-5dbd-4e9e-ab13-2cd059a5cc77.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DSD-015",
@@ -85,7 +88,8 @@
     "Set Name": "060 - Starter Deck - Villains Deck",
     "Set Code": "DSD",
     "id": "0eb4e986-9f7d-4ded-8f4e-371dc245d969",
-    "image": "0eb4e986-9f7d-4ded-8f4e-371dc245d969.jpg"
+    "image": "0eb4e986-9f7d-4ded-8f4e-371dc245d969.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DSD-016",
@@ -107,7 +111,8 @@
     "Set Name": "060 - Starter Deck - Villains Deck",
     "Set Code": "DSD",
     "id": "6a387f8d-f424-473d-8b29-2e5cbcfcb230",
-    "image": "6a387f8d-f424-473d-8b29-2e5cbcfcb230.jpg"
+    "image": "6a387f8d-f424-473d-8b29-2e5cbcfcb230.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "DSD-017",
@@ -129,7 +134,8 @@
     "Set Name": "060 - Starter Deck - Villains Deck",
     "Set Code": "DSD",
     "id": "2022ac1e-4fb9-4e2a-9d8b-29264f14dbbe",
-    "image": "2022ac1e-4fb9-4e2a-9d8b-29264f14dbbe.jpg"
+    "image": "2022ac1e-4fb9-4e2a-9d8b-29264f14dbbe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DSD-018",
@@ -151,7 +157,8 @@
     "Set Name": "060 - Starter Deck - Villains Deck",
     "Set Code": "DSD",
     "id": "59128767-8169-4d2a-87a8-85730058715c",
-    "image": "59128767-8169-4d2a-87a8-85730058715c.jpg"
+    "image": "59128767-8169-4d2a-87a8-85730058715c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DSD-019",
@@ -173,7 +180,8 @@
     "Set Name": "060 - Starter Deck - Villains Deck",
     "Set Code": "DSD",
     "id": "37877ca0-78bb-4921-8c14-1fef5826e40e",
-    "image": "37877ca0-78bb-4921-8c14-1fef5826e40e.jpg"
+    "image": "37877ca0-78bb-4921-8c14-1fef5826e40e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "DSD-020",
@@ -195,7 +203,8 @@
     "Set Name": "060 - Starter Deck - Villains Deck",
     "Set Code": "DSD",
     "id": "f9e79df2-c7df-425d-a007-5f068ad08d07",
-    "image": "f9e79df2-c7df-425d-a007-5f068ad08d07.jpg"
+    "image": "f9e79df2-c7df-425d-a007-5f068ad08d07.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DSD-021",
@@ -217,50 +226,52 @@
     "Set Name": "060 - Starter Deck - Villains Deck",
     "Set Code": "DSD",
     "id": "6088c15b-a648-4e20-9388-9043c79ef2a5",
-    "image": "6088c15b-a648-4e20-9388-9043c79ef2a5.jpg"
+    "image": "6088c15b-a648-4e20-9388-9043c79ef2a5.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "DSD-022",
-    "name": "Odin, God of War",
-    "Type": "Ruler",
+    "Card Number": "DSD-022|DSD-022J",
+    "name": "Odin, God of War // Order of War",
+    "Type": "Ruler|Order",
     "Race": "High God",
     "Cost": "",
-    "Colour": "W|G|B",
+    "Colour": "W|G|B|V",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Villains]\nYou cannot have cards with [Tales] in your deck or magic stone deck.\n[Revolution Order] {0} (Once per turn, as you play a resonator spell, you may choose to order it. If you do, that resonator spell gains \"Players cannot chase to this card. This card cannot be canceled or moved to any zone other than the field.\". As that resonator enters the field, put this card with its order side up into your order area.)\n[Force Command] [Faith] (Apply all [Force Resonance] [Faith] abilities of cards you control in all zones.)",
+    "Abilities": "[Villains]\nYou cannot have cards with [Tales] in your deck or magic stone deck.\n[Revolution Order] {0} (Once per turn, as you play a resonator spell, you may choose to order it. If you do, that resonator spell gains \"Players cannot chase to this card. This card cannot be canceled or moved to any zone other than the field.\". As that resonator enters the field, put this card with its order side up into your order area.)\n[Force Command] [Faith] (Apply all [Force Resonance] [Faith] abilities of cards you control in all zones.)|(The ordered card becomes a J-ruler with play cost (and is no longer a resonator)and gains the following abilities as long as this card is in your order area. The J-ruler type and those abilities cannot be removed from or lost by the ordered card in any way.)\n[Force Command] [Faith]\nThe ordered card gains [+200/+200] and [Pierce].\nYou may call a magic stone while the ordered card is rested and calling a magic stone does not cause the ordered card to rest.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Kotakan",
     "Rarity": "R",
-    "Fowid": "5459",
+    "Fowid": "5459|5460",
     "Cluster": "09 - Duel",
     "Set Name": "060 - Starter Deck - Villains Deck",
     "Set Code": "DSD",
     "id": "b7952ddc-814d-4220-8977-0bbd91e54325",
-    "image": "b7952ddc-814d-4220-8977-0bbd91e54325.jpg"
-  },
-  {
-    "Card Number": "DSD-022J",
-    "name": "Order of War",
-    "Type": "Order",
-    "Race": "",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "(The ordered card becomes a J-ruler with play cost (and is no longer a resonator)and gains the following abilities as long as this card is in your order area. The J-ruler type and those abilities cannot be removed from or lost by the ordered card in any way.)\n[Force Command] [Faith]\nThe ordered card gains [+200/+200] and [Pierce].\nYou may call a magic stone while the ordered card is rested and calling a magic stone does not cause the ordered card to rest.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Kotakan",
-    "Rarity": "R",
-    "Fowid": "5460",
-    "Cluster": "09 - Duel",
-    "Set Name": "060 - Starter Deck - Villains Deck",
-    "Set Code": "DSD",
-    "id": "d3fc6c48-a4c8-4219-9fe1-21576a116ea0",
-    "image": "d3fc6c48-a4c8-4219-9fe1-21576a116ea0.jpg"
+    "image": "b7952ddc-814d-4220-8977-0bbd91e54325.jpg",
+    "Card Type": "Ruler",
+    "backimage": "d3fc6c48-a4c8-4219-9fe1-21576a116ea0.jpg",
+    "alternate1_Card Number": "DSD-022J",
+    "alternate1_name": "Order of War",
+    "alternate1_Type": "Order",
+    "alternate1_Race": "",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "(The ordered card becomes a J-ruler with play cost (and is no longer a resonator)and gains the following abilities as long as this card is in your order area. The J-ruler type and those abilities cannot be removed from or lost by the ordered card in any way.)\n[Force Command] [Faith]\nThe ordered card gains [+200/+200] and [Pierce].\nYou may call a magic stone while the ordered card is rested and calling a magic stone does not cause the ordered card to rest.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Kotakan",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5460",
+    "alternate1_Cluster": "09 - Duel",
+    "alternate1_Set Name": "060 - Starter Deck - Villains Deck",
+    "alternate1_Set Code": "DSD",
+    "alternate1_id": "d3fc6c48-a4c8-4219-9fe1-21576a116ea0",
+    "alternate1_image": "d3fc6c48-a4c8-4219-9fe1-21576a116ea0.jpg",
+    "alternate1_Card Type": "Order"
   }
 ]

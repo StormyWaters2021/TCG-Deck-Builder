@@ -19,51 +19,53 @@
     "Set Name": "019 - Starter - Swarming Elves",
     "Set Code": "SDL4",
     "id": "e66f785b-3fa5-4a1b-befd-962616c8c3e2",
-    "image": "e66f785b-3fa5-4a1b-befd-962616c8c3e2.jpg"
+    "image": "e66f785b-3fa5-4a1b-befd-962616c8c3e2.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "SDL4-002",
-    "name": "Fiethsing, Six Sage of Wind",
-    "Type": "Ruler",
-    "Race": "Elf|Six Sages",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {G}{G}{3}\n[Energize] {G} (As the same starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {G}.\")\nWhenever you play your second card each turn ⇒ Put a [100/100] wind Elf resonator token into your field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Fiethsing listened to the voice of the winds. She felt a strong conviction welling up in her chest. At last, she was certain of the looming threat, and her place in it.",
-    "Artist": "狛蜜ザキ",
-    "Rarity": "R",
-    "Fowid": "253",
-    "Cluster": "04 - Lapis",
-    "Set Name": "019 - Starter - Swarming Elves",
-    "Set Code": "SDL4",
-    "id": "11b8965a-c51e-4664-a73e-60a7226c89af",
-    "image": "11b8965a-c51e-4664-a73e-60a7226c89af.jpg"
-  },
-  {
-    "Card Number": "SDL4-002J",
-    "name": "Fiethsing, Master Magus of Holy Wind",
-    "Type": "J-Ruler",
+    "Card Number": "SDL4-002|SDL4-002J",
+    "name": "Fiethsing, Six Sage of Wind // Fiethsing, Master Magus of Holy Wind",
+    "Type": "Ruler|J-Ruler",
     "Race": "Elf|Six Sages",
     "Cost": "",
     "Colour": "G",
     "ATK": "800",
     "DEF": "800",
-    "Abilities": "Other Elves you control gain [+400/+400].\nWhenever you play your second card each turn ⇒ Put two [100/100] wind Elf resonator tokens into your field.",
+    "Abilities": "[Judgment] {G}{G}{3}\n[Energize] {G} (As the same starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {G}.\")\nWhenever you play your second card each turn ⇒ Put a [100/100] wind Elf resonator token into your field.|Other Elves you control gain [+400/+400].\nWhenever you play your second card each turn ⇒ Put two [100/100] wind Elf resonator tokens into your field.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I guess it can't be helped. Let me show you my power!\"",
+    "Flavour": "Fiethsing listened to the voice of the winds. She felt a strong conviction welling up in her chest. At last, she was certain of the looming threat, and her place in it.|\"I guess it can't be helped. Let me show you my power!\"",
     "Artist": "狛蜜ザキ",
     "Rarity": "R",
-    "Fowid": "254",
+    "Fowid": "253|254",
     "Cluster": "04 - Lapis",
     "Set Name": "019 - Starter - Swarming Elves",
     "Set Code": "SDL4",
-    "id": "f7ce47c1-1c00-4645-9475-350639c92a73",
-    "image": "f7ce47c1-1c00-4645-9475-350639c92a73.jpg"
+    "id": "11b8965a-c51e-4664-a73e-60a7226c89af",
+    "image": "11b8965a-c51e-4664-a73e-60a7226c89af.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f7ce47c1-1c00-4645-9475-350639c92a73.jpg",
+    "alternate1_Card Number": "SDL4-002J",
+    "alternate1_name": "Fiethsing, Master Magus of Holy Wind",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Elf|Six Sages",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "Other Elves you control gain [+400/+400].\nWhenever you play your second card each turn ⇒ Put two [100/100] wind Elf resonator tokens into your field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I guess it can't be helped. Let me show you my power!\"",
+    "alternate1_Artist": "狛蜜ザキ",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "254",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "019 - Starter - Swarming Elves",
+    "alternate1_Set Code": "SDL4",
+    "alternate1_id": "f7ce47c1-1c00-4645-9475-350639c92a73",
+    "alternate1_image": "f7ce47c1-1c00-4645-9475-350639c92a73.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDL4-003",
@@ -85,7 +87,8 @@
     "Set Name": "019 - Starter - Swarming Elves",
     "Set Code": "SDL4",
     "id": "3a56ca0d-8cd4-4ec2-8623-c24c06fb43c1",
-    "image": "3a56ca0d-8cd4-4ec2-8623-c24c06fb43c1.jpg"
+    "image": "3a56ca0d-8cd4-4ec2-8623-c24c06fb43c1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDL4-004",
@@ -107,7 +110,8 @@
     "Set Name": "019 - Starter - Swarming Elves",
     "Set Code": "SDL4",
     "id": "daeb32ed-bc90-4e4e-ae1b-ad65bc850baf",
-    "image": "daeb32ed-bc90-4e4e-ae1b-ad65bc850baf.jpg"
+    "image": "daeb32ed-bc90-4e4e-ae1b-ad65bc850baf.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "SDL4-005",
@@ -129,7 +133,8 @@
     "Set Name": "019 - Starter - Swarming Elves",
     "Set Code": "SDL4",
     "id": "e295ce9e-9750-4c62-9ad4-5b7a6c26b65e",
-    "image": "e295ce9e-9750-4c62-9ad4-5b7a6c26b65e.jpg"
+    "image": "e295ce9e-9750-4c62-9ad4-5b7a6c26b65e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL4-006",
@@ -151,7 +156,8 @@
     "Set Name": "019 - Starter - Swarming Elves",
     "Set Code": "SDL4",
     "id": "b7e7fd2e-ad49-42f1-a758-1fa415301e6d",
-    "image": "b7e7fd2e-ad49-42f1-a758-1fa415301e6d.jpg"
+    "image": "b7e7fd2e-ad49-42f1-a758-1fa415301e6d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL4-007",
@@ -173,7 +179,8 @@
     "Set Name": "019 - Starter - Swarming Elves",
     "Set Code": "SDL4",
     "id": "eb64e621-c68b-427b-a730-1b5112eb1908",
-    "image": "eb64e621-c68b-427b-a730-1b5112eb1908.jpg"
+    "image": "eb64e621-c68b-427b-a730-1b5112eb1908.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL4-008",
@@ -195,7 +202,8 @@
     "Set Name": "019 - Starter - Swarming Elves",
     "Set Code": "SDL4",
     "id": "b7212d23-664a-473e-8761-bc1e738ef557",
-    "image": "b7212d23-664a-473e-8761-bc1e738ef557.jpg"
+    "image": "b7212d23-664a-473e-8761-bc1e738ef557.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL4-009",
@@ -217,7 +225,8 @@
     "Set Name": "019 - Starter - Swarming Elves",
     "Set Code": "SDL4",
     "id": "12c4b8ab-fd99-4eca-a112-1457bd72cbf0",
-    "image": "12c4b8ab-fd99-4eca-a112-1457bd72cbf0.jpg"
+    "image": "12c4b8ab-fd99-4eca-a112-1457bd72cbf0.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDL4-010",
@@ -239,7 +248,8 @@
     "Set Name": "019 - Starter - Swarming Elves",
     "Set Code": "SDL4",
     "id": "c7384767-c403-43e1-9be7-5345cd477156",
-    "image": "c7384767-c403-43e1-9be7-5345cd477156.jpg"
+    "image": "c7384767-c403-43e1-9be7-5345cd477156.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL4-011",
@@ -261,7 +271,8 @@
     "Set Name": "019 - Starter - Swarming Elves",
     "Set Code": "SDL4",
     "id": "4278ef2f-9e43-451c-acb9-9d3a265d3f25",
-    "image": "4278ef2f-9e43-451c-acb9-9d3a265d3f25.jpg"
+    "image": "4278ef2f-9e43-451c-acb9-9d3a265d3f25.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDL4-012",
@@ -283,6 +294,7 @@
     "Set Name": "019 - Starter - Swarming Elves",
     "Set Code": "SDL4",
     "id": "125d6b6f-901c-415f-819a-74da59b561b9",
-    "image": "125d6b6f-901c-415f-819a-74da59b561b9.jpg"
+    "image": "125d6b6f-901c-415f-819a-74da59b561b9.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

@@ -1,5 +1,6 @@
 import React, { useMemo, useState, useEffect, useRef } from "react";
 import CardPreview from "../components/CardPreview";
+import { buildCardPreviewProperties } from "../utils/cardPreviewExtra";
 import { matchesExclude } from "../utils/matchesExclude";
 
 function cardNameWithSubtitle(card) {
@@ -808,6 +809,7 @@ function DeckPanel({
                             showName={false}
                             quantity={qty}
                             showButtons={true}
+							extraData={buildCardPreviewProperties(card, settings)}
                             onAdd={e => {
                               e.stopPropagation();
                               if (groupBy === "OCTGN") {
@@ -1021,6 +1023,7 @@ function DeckPanel({
                           showName={false}
                           quantity={qty}
                           showButtons={true}
+						  extraData={buildCardPreviewProperties(card, settings)}
                           onAdd={e => {
                             e.stopPropagation();
                             onAddCard(card.id, 1, group);

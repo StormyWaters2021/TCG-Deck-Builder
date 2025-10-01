@@ -19,7 +19,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "0f8aa8f7-5603-47b5-a8b3-ff066dcb486a",
-    "image": "0f8aa8f7-5603-47b5-a8b3-ff066dcb486a.jpg"
+    "image": "0f8aa8f7-5603-47b5-a8b3-ff066dcb486a.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ENW-002",
@@ -41,7 +42,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "4407bef1-ef65-49fa-a08d-2b51ab4d5699",
-    "image": "4407bef1-ef65-49fa-a08d-2b51ab4d5699.jpg"
+    "image": "4407bef1-ef65-49fa-a08d-2b51ab4d5699.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-003",
@@ -63,51 +65,53 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "6b7469a1-c60d-4cea-b43e-e9a0d5bb05a6",
-    "image": "6b7469a1-c60d-4cea-b43e-e9a0d5bb05a6.jpg"
+    "image": "6b7469a1-c60d-4cea-b43e-e9a0d5bb05a6.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ENW-004",
-    "name": "Book of Light",
-    "Type": "Ruler",
+    "Card Number": "ENW-004|ENW-004J",
+    "name": "Book of Light // Re-Earth, New World Fairy Tale",
+    "Type": "Ruler|J-Ruler",
     "Race": "Fairy Tale",
     "Cost": "",
     "Colour": "W",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Judgment] {X}\n[Energize] {W}\nYou cannot have cards with [Will of Despair] in your deck.\nYou may pay the attribute cost of cards with [Will of Hope] with will of any attribute.",
+    "Abilities": "[Judgment] {X}\n[Energize] {W}\nYou cannot have cards with [Will of Despair] in your deck.\nYou may pay the attribute cost of cards with [Will of Hope] with will of any attribute.|This card cannot be destroyed.\nYou may pay the attribute cost of cards with [Will of Hope] with will of any attribute.\nWhen this card enters your field ⇒ You may put a resonator with [Will of Hope] with total cost X or less you own from outside the game into your field.\nWhen a resonator put in a field by this card leaves a field for a non-field zone ⇒ Put this card into your ruler area, as a ruler.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "A story of hope. It seems to have the results of this battle recorderd in it.",
-    "Artist": "tokiwa",
+    "Flavour": "A story of hope. It seems to have the results of this battle recorderd in it.|Each page contains stories of world saving heroes.",
+    "Artist": "tokiwa|Kamijo Roro",
     "Rarity": "R",
-    "Fowid": "2627",
+    "Fowid": "2627|2628",
     "Cluster": "04 - Lapis",
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "85b5f7cb-6815-457b-9179-f1775d83480f",
-    "image": "85b5f7cb-6815-457b-9179-f1775d83480f.jpg"
-  },
-  {
-    "Card Number": "ENW-004J",
-    "name": "Re-Earth, New World Fairy Tale",
-    "Type": "J-Ruler",
-    "Race": "Fairy Tale",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "This card cannot be destroyed.\nYou may pay the attribute cost of cards with [Will of Hope] with will of any attribute.\nWhen this card enters your field ⇒ You may put a resonator with [Will of Hope] with total cost X or less you own from outside the game into your field.\nWhen a resonator put in a field by this card leaves a field for a non-field zone ⇒ Put this card into your ruler area, as a ruler.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Each page contains stories of world saving heroes.",
-    "Artist": "Kamijo Roro",
-    "Rarity": "R",
-    "Fowid": "2628",
-    "Cluster": "04 - Lapis",
-    "Set Name": "025 - Echoes of the New World",
-    "Set Code": "ENW",
-    "id": "1dfde962-442f-4f07-9b3f-66bb02c75d71",
-    "image": "1dfde962-442f-4f07-9b3f-66bb02c75d71.jpg"
+    "image": "85b5f7cb-6815-457b-9179-f1775d83480f.jpg",
+    "Card Type": "Ruler",
+    "backimage": "1dfde962-442f-4f07-9b3f-66bb02c75d71.jpg",
+    "alternate1_Card Number": "ENW-004J",
+    "alternate1_name": "Re-Earth, New World Fairy Tale",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Fairy Tale",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "This card cannot be destroyed.\nYou may pay the attribute cost of cards with [Will of Hope] with will of any attribute.\nWhen this card enters your field ⇒ You may put a resonator with [Will of Hope] with total cost X or less you own from outside the game into your field.\nWhen a resonator put in a field by this card leaves a field for a non-field zone ⇒ Put this card into your ruler area, as a ruler.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Each page contains stories of world saving heroes.",
+    "alternate1_Artist": "Kamijo Roro",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2628",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "025 - Echoes of the New World",
+    "alternate1_Set Code": "ENW",
+    "alternate1_id": "1dfde962-442f-4f07-9b3f-66bb02c75d71",
+    "alternate1_image": "1dfde962-442f-4f07-9b3f-66bb02c75d71.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ENW-005",
@@ -129,7 +133,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "81983166-c447-40b3-bf07-674ff8142025",
-    "image": "81983166-c447-40b3-bf07-674ff8142025.jpg"
+    "image": "81983166-c447-40b3-bf07-674ff8142025.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-006",
@@ -151,7 +156,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "9fd0e2f5-c16f-44bc-968c-8e4b69d448da",
-    "image": "9fd0e2f5-c16f-44bc-968c-8e4b69d448da.jpg"
+    "image": "9fd0e2f5-c16f-44bc-968c-8e4b69d448da.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-007",
@@ -173,7 +179,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "24678758-f43d-4a13-baed-86edac6361d9",
-    "image": "24678758-f43d-4a13-baed-86edac6361d9.jpg"
+    "image": "24678758-f43d-4a13-baed-86edac6361d9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-008",
@@ -195,7 +202,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "11b24874-5cbd-4812-b952-e4eb48db01a1",
-    "image": "11b24874-5cbd-4812-b952-e4eb48db01a1.jpg"
+    "image": "11b24874-5cbd-4812-b952-e4eb48db01a1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-009",
@@ -217,7 +225,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "29013c96-02a4-4b23-812f-ef0771c3ba57",
-    "image": "29013c96-02a4-4b23-812f-ef0771c3ba57.jpg"
+    "image": "29013c96-02a4-4b23-812f-ef0771c3ba57.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-010",
@@ -239,7 +248,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "c2b6f323-d9af-4345-b024-38c0a4b11fde",
-    "image": "c2b6f323-d9af-4345-b024-38c0a4b11fde.jpg"
+    "image": "c2b6f323-d9af-4345-b024-38c0a4b11fde.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-011",
@@ -261,7 +271,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "702a1bd6-96fc-4502-97c8-afbefb3bcf3d",
-    "image": "702a1bd6-96fc-4502-97c8-afbefb3bcf3d.jpg"
+    "image": "702a1bd6-96fc-4502-97c8-afbefb3bcf3d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-012",
@@ -283,7 +294,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "29a00970-ad3b-44d0-bf51-95a698bb5072",
-    "image": "29a00970-ad3b-44d0-bf51-95a698bb5072.jpg"
+    "image": "29a00970-ad3b-44d0-bf51-95a698bb5072.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-013",
@@ -305,7 +317,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "0fedb22b-9601-49dc-bdbc-724dc8fc7e98",
-    "image": "0fedb22b-9601-49dc-bdbc-724dc8fc7e98.jpg"
+    "image": "0fedb22b-9601-49dc-bdbc-724dc8fc7e98.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-014",
@@ -327,7 +340,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "395a4b01-014a-4c48-a56e-1ad5ca08a07e",
-    "image": "395a4b01-014a-4c48-a56e-1ad5ca08a07e.jpg"
+    "image": "395a4b01-014a-4c48-a56e-1ad5ca08a07e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-015",
@@ -349,7 +363,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "250a667c-3fe7-438d-b515-b512bd73101d",
-    "image": "250a667c-3fe7-438d-b515-b512bd73101d.jpg"
+    "image": "250a667c-3fe7-438d-b515-b512bd73101d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-016",
@@ -371,7 +386,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "dd70f95c-c715-4c9d-b740-5ffbd2056acf",
-    "image": "dd70f95c-c715-4c9d-b740-5ffbd2056acf.jpg"
+    "image": "dd70f95c-c715-4c9d-b740-5ffbd2056acf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-017",
@@ -393,7 +409,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "48eff028-a3cb-48c5-971f-cacdc00235cc",
-    "image": "48eff028-a3cb-48c5-971f-cacdc00235cc.jpg"
+    "image": "48eff028-a3cb-48c5-971f-cacdc00235cc.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ENW-018",
@@ -415,7 +432,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "86585dca-fb49-476d-be14-78df580470c3",
-    "image": "86585dca-fb49-476d-be14-78df580470c3.jpg"
+    "image": "86585dca-fb49-476d-be14-78df580470c3.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-019",
@@ -437,7 +455,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "8890113e-b162-4b8e-b827-141c7cef66fb",
-    "image": "8890113e-b162-4b8e-b827-141c7cef66fb.jpg"
+    "image": "8890113e-b162-4b8e-b827-141c7cef66fb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-020",
@@ -459,7 +478,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "c3d6a02e-599e-4b55-a73b-22651bde70dc",
-    "image": "c3d6a02e-599e-4b55-a73b-22651bde70dc.jpg"
+    "image": "c3d6a02e-599e-4b55-a73b-22651bde70dc.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ENW-021",
@@ -481,7 +501,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "bdc717dc-7eea-470c-b1f1-fa2cc502a1d7",
-    "image": "bdc717dc-7eea-470c-b1f1-fa2cc502a1d7.jpg"
+    "image": "bdc717dc-7eea-470c-b1f1-fa2cc502a1d7.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-022",
@@ -503,7 +524,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "a8ec0016-8019-4296-b1a5-7bec2b237317",
-    "image": "a8ec0016-8019-4296-b1a5-7bec2b237317.jpg"
+    "image": "a8ec0016-8019-4296-b1a5-7bec2b237317.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-023",
@@ -525,7 +547,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "a22c44f9-4ac5-4bce-bc93-e7fca0b42b67",
-    "image": "a22c44f9-4ac5-4bce-bc93-e7fca0b42b67.jpg"
+    "image": "a22c44f9-4ac5-4bce-bc93-e7fca0b42b67.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-024",
@@ -547,7 +570,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "8b10ea9e-87cb-42d4-b6e9-bdd5689207f7",
-    "image": "8b10ea9e-87cb-42d4-b6e9-bdd5689207f7.jpg"
+    "image": "8b10ea9e-87cb-42d4-b6e9-bdd5689207f7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-025",
@@ -569,7 +593,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "77768f70-5430-4505-bc6b-f9eeae2447ce",
-    "image": "77768f70-5430-4505-bc6b-f9eeae2447ce.jpg"
+    "image": "77768f70-5430-4505-bc6b-f9eeae2447ce.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-026",
@@ -591,7 +616,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "91cfc234-ead9-4b76-bb2d-c20ff70a370e",
-    "image": "91cfc234-ead9-4b76-bb2d-c20ff70a370e.jpg"
+    "image": "91cfc234-ead9-4b76-bb2d-c20ff70a370e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-027",
@@ -613,7 +639,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "2e04a831-8296-4811-b82e-6569c5d8ce05",
-    "image": "2e04a831-8296-4811-b82e-6569c5d8ce05.jpg"
+    "image": "2e04a831-8296-4811-b82e-6569c5d8ce05.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-028",
@@ -635,7 +662,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "db1351fb-688b-4da7-bdfa-555ba7593d98",
-    "image": "db1351fb-688b-4da7-bdfa-555ba7593d98.jpg"
+    "image": "db1351fb-688b-4da7-bdfa-555ba7593d98.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ENW-029",
@@ -657,7 +685,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "1ae04c2d-2955-4ec3-a033-e34976c27fec",
-    "image": "1ae04c2d-2955-4ec3-a033-e34976c27fec.jpg"
+    "image": "1ae04c2d-2955-4ec3-a033-e34976c27fec.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-030",
@@ -679,51 +708,53 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "bcc5faab-d2b8-4024-9d35-671f6b24e0b2",
-    "image": "bcc5faab-d2b8-4024-9d35-671f6b24e0b2.jpg"
+    "image": "bcc5faab-d2b8-4024-9d35-671f6b24e0b2.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "ENW-031",
-    "name": "Swordsman of Fire",
-    "Type": "Ruler",
-    "Race": "Wanderer",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {R}{3}\n[Energize] {R}\nYou may pay the attribute cost of Wanderer resonators with will of any attribute.\nWanderer resonators you control gain [First Strike].",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"I heard Scheherazade's report. Seems I managed to arrive in time.\"",
-    "Artist": "Hayama Kohei",
-    "Rarity": "R",
-    "Fowid": "2655",
-    "Cluster": "04 - Lapis",
-    "Set Name": "025 - Echoes of the New World",
-    "Set Code": "ENW",
-    "id": "c211a4d3-cd30-40af-9cc3-ea5698a62d34",
-    "image": "c211a4d3-cd30-40af-9cc3-ea5698a62d34.jpg"
-  },
-  {
-    "Card Number": "ENW-031J",
-    "name": "Dimension Brigade's Leader, Adelbert",
-    "Type": "J-Ruler",
+    "Card Number": "ENW-031|ENW-031J",
+    "name": "Swordsman of Fire // Dimension Brigade's Leader, Adelbert",
+    "Type": "Ruler|J-Ruler",
     "Race": "Wanderer",
     "Cost": "",
     "Colour": "R",
     "ATK": "1200",
     "DEF": "1200",
-    "Abilities": "When this card enters your field ⇒ You may put a Wanderer resonator from your hand into your field.\nWhenever a light resonator enters your field ⇒ Put two [+100/+100] counters on this card.\nWhenever a fire resonator enters your field ⇒ This card deals 500 damage to target resonator.\nWhenever a water resonator enters your field ⇒ Draw a card.\nWhenever a wind resonator enters your field ⇒ This card gains [Flying] and [Barrier] until end of turn.\nWhenever a darkness resonator enters your field ⇒ Your opponent discards a card.",
+    "Abilities": "[Judgment] {R}{3}\n[Energize] {R}\nYou may pay the attribute cost of Wanderer resonators with will of any attribute.\nWanderer resonators you control gain [First Strike].|When this card enters your field ⇒ You may put a Wanderer resonator from your hand into your field.\nWhenever a light resonator enters your field ⇒ Put two [+100/+100] counters on this card.\nWhenever a fire resonator enters your field ⇒ This card deals 500 damage to target resonator.\nWhenever a water resonator enters your field ⇒ Draw a card.\nWhenever a wind resonator enters your field ⇒ This card gains [Flying] and [Barrier] until end of turn.\nWhenever a darkness resonator enters your field ⇒ Your opponent discards a card.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Time to get serious. Reflect, Refrain, are you coming?\" \"Is that alright?\" \"It's fine.\" \"Really?\" \"Really.\"",
+    "Flavour": "\"I heard Scheherazade's report. Seems I managed to arrive in time.\"|\"Time to get serious. Reflect, Refrain, are you coming?\" \"Is that alright?\" \"It's fine.\" \"Really?\" \"Really.\"",
     "Artist": "Hayama Kohei",
     "Rarity": "R",
-    "Fowid": "2656",
+    "Fowid": "2655|2656",
     "Cluster": "04 - Lapis",
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
-    "id": "2ba5cff5-9a57-45ac-ad80-2e2f376eead2",
-    "image": "2ba5cff5-9a57-45ac-ad80-2e2f376eead2.jpg"
+    "id": "c211a4d3-cd30-40af-9cc3-ea5698a62d34",
+    "image": "c211a4d3-cd30-40af-9cc3-ea5698a62d34.jpg",
+    "Card Type": "Ruler",
+    "backimage": "2ba5cff5-9a57-45ac-ad80-2e2f376eead2.jpg",
+    "alternate1_Card Number": "ENW-031J",
+    "alternate1_name": "Dimension Brigade's Leader, Adelbert",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wanderer",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "When this card enters your field ⇒ You may put a Wanderer resonator from your hand into your field.\nWhenever a light resonator enters your field ⇒ Put two [+100/+100] counters on this card.\nWhenever a fire resonator enters your field ⇒ This card deals 500 damage to target resonator.\nWhenever a water resonator enters your field ⇒ Draw a card.\nWhenever a wind resonator enters your field ⇒ This card gains [Flying] and [Barrier] until end of turn.\nWhenever a darkness resonator enters your field ⇒ Your opponent discards a card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Time to get serious. Reflect, Refrain, are you coming?\" \"Is that alright?\" \"It's fine.\" \"Really?\" \"Really.\"",
+    "alternate1_Artist": "Hayama Kohei",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2656",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "025 - Echoes of the New World",
+    "alternate1_Set Code": "ENW",
+    "alternate1_id": "2ba5cff5-9a57-45ac-ad80-2e2f376eead2",
+    "alternate1_image": "2ba5cff5-9a57-45ac-ad80-2e2f376eead2.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ENW-032",
@@ -745,7 +776,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "82bcae4a-49c7-43c3-90b9-2b8aedf47c02",
-    "image": "82bcae4a-49c7-43c3-90b9-2b8aedf47c02.jpg"
+    "image": "82bcae4a-49c7-43c3-90b9-2b8aedf47c02.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-033",
@@ -767,7 +799,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "801799da-1f85-4125-a772-a03fb7c305a3",
-    "image": "801799da-1f85-4125-a772-a03fb7c305a3.jpg"
+    "image": "801799da-1f85-4125-a772-a03fb7c305a3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-034",
@@ -789,7 +822,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "bc29e317-fc4a-4671-ba56-96a690357aa0",
-    "image": "bc29e317-fc4a-4671-ba56-96a690357aa0.jpg"
+    "image": "bc29e317-fc4a-4671-ba56-96a690357aa0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-035",
@@ -811,7 +845,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "6bd737e5-9148-4492-8877-0a1bf009090d",
-    "image": "6bd737e5-9148-4492-8877-0a1bf009090d.jpg"
+    "image": "6bd737e5-9148-4492-8877-0a1bf009090d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-036",
@@ -833,7 +868,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "bf600c25-23e1-4d8e-8e31-00fa3e2ff948",
-    "image": "bf600c25-23e1-4d8e-8e31-00fa3e2ff948.jpg"
+    "image": "bf600c25-23e1-4d8e-8e31-00fa3e2ff948.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-037",
@@ -855,7 +891,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "42768a2c-fd9b-4518-9d06-4fbaf925225a",
-    "image": "42768a2c-fd9b-4518-9d06-4fbaf925225a.jpg"
+    "image": "42768a2c-fd9b-4518-9d06-4fbaf925225a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-038",
@@ -877,7 +914,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "7212ec95-28c2-4679-9b4a-32e9c393bd8a",
-    "image": "7212ec95-28c2-4679-9b4a-32e9c393bd8a.jpg"
+    "image": "7212ec95-28c2-4679-9b4a-32e9c393bd8a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-039",
@@ -899,7 +937,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "d5dfc70b-c33f-4ffa-a3ff-7a096a10cba6",
-    "image": "d5dfc70b-c33f-4ffa-a3ff-7a096a10cba6.jpg"
+    "image": "d5dfc70b-c33f-4ffa-a3ff-7a096a10cba6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-040",
@@ -921,51 +960,53 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "a9139b0e-4daa-41c7-9431-a71d854a7059",
-    "image": "a9139b0e-4daa-41c7-9431-a71d854a7059.jpg"
+    "image": "a9139b0e-4daa-41c7-9431-a71d854a7059.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "ENW-041",
-    "name": "Dragon Shrine Maiden",
-    "Type": "Ruler",
-    "Race": "Dragonoid",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {U}\n[Energize] {U}\n{Rest}: Draw a card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "This guardian with the power to correct time anomalies had been sealed away by Alhama'at.",
-    "Artist": "Pisuke",
-    "Rarity": "R",
-    "Fowid": "2666",
-    "Cluster": "04 - Lapis",
-    "Set Name": "025 - Echoes of the New World",
-    "Set Code": "ENW",
-    "id": "8ea7dc9f-72c8-4662-86db-fbaed5766987",
-    "image": "8ea7dc9f-72c8-4662-86db-fbaed5766987.jpg"
-  },
-  {
-    "Card Number": "ENW-041J",
-    "name": "Flute, Time Altering Priestess",
-    "Type": "J-Ruler",
+    "Card Number": "ENW-041|ENW-041J",
+    "name": "Dragon Shrine Maiden // Flute, Time Altering Priestess",
+    "Type": "Ruler|J-Ruler",
     "Race": "Dragonoid",
     "Cost": "",
     "Colour": "U",
     "ATK": "700",
     "DEF": "800",
-    "Abilities": "When this card enters your field ⇒ Put all non-magic stone cards that were put from a field into your graveyard this turn into your hand.\nRelease all the [Seal] abilities of water cards and spells you control.\n{U}{2}: Put this card into your ruler area, as a ruler.",
+    "Abilities": "[Judgment] {U}\n[Energize] {U}\n{Rest}: Draw a card.|When this card enters your field ⇒ Put all non-magic stone cards that were put from a field into your graveyard this turn into your hand.\nRelease all the [Seal] abilities of water cards and spells you control.\n{U}{2}: Put this card into your ruler area, as a ruler.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"You want me to lend you my power? To alter time?\"",
+    "Flavour": "This guardian with the power to correct time anomalies had been sealed away by Alhama'at.|\"You want me to lend you my power? To alter time?\"",
     "Artist": "Pisuke",
     "Rarity": "R",
-    "Fowid": "2667",
+    "Fowid": "2666|2667",
     "Cluster": "04 - Lapis",
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
-    "id": "1b38cd79-aeb1-47fc-a9b2-60ee3caecc96",
-    "image": "1b38cd79-aeb1-47fc-a9b2-60ee3caecc96.jpg"
+    "id": "8ea7dc9f-72c8-4662-86db-fbaed5766987",
+    "image": "8ea7dc9f-72c8-4662-86db-fbaed5766987.jpg",
+    "Card Type": "Ruler",
+    "backimage": "1b38cd79-aeb1-47fc-a9b2-60ee3caecc96.jpg",
+    "alternate1_Card Number": "ENW-041J",
+    "alternate1_name": "Flute, Time Altering Priestess",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragonoid",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "When this card enters your field ⇒ Put all non-magic stone cards that were put from a field into your graveyard this turn into your hand.\nRelease all the [Seal] abilities of water cards and spells you control.\n{U}{2}: Put this card into your ruler area, as a ruler.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"You want me to lend you my power? To alter time?\"",
+    "alternate1_Artist": "Pisuke",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2667",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "025 - Echoes of the New World",
+    "alternate1_Set Code": "ENW",
+    "alternate1_id": "1b38cd79-aeb1-47fc-a9b2-60ee3caecc96",
+    "alternate1_image": "1b38cd79-aeb1-47fc-a9b2-60ee3caecc96.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ENW-042",
@@ -987,7 +1028,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "c227bf13-323b-4f9d-8716-5386ce718cf4",
-    "image": "c227bf13-323b-4f9d-8716-5386ce718cf4.jpg"
+    "image": "c227bf13-323b-4f9d-8716-5386ce718cf4.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-043",
@@ -1009,7 +1051,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "71fd44b4-36a8-462f-a8ac-e716a604046d",
-    "image": "71fd44b4-36a8-462f-a8ac-e716a604046d.jpg"
+    "image": "71fd44b4-36a8-462f-a8ac-e716a604046d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-044",
@@ -1031,7 +1074,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "bdd646b1-1201-4c44-bad8-037cb586e009",
-    "image": "bdd646b1-1201-4c44-bad8-037cb586e009.jpg"
+    "image": "bdd646b1-1201-4c44-bad8-037cb586e009.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-045",
@@ -1053,7 +1097,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "860f2087-ee15-4c00-bc22-38276352a602",
-    "image": "860f2087-ee15-4c00-bc22-38276352a602.jpg"
+    "image": "860f2087-ee15-4c00-bc22-38276352a602.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-046",
@@ -1075,7 +1120,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "e76cae1e-639b-4b87-8aa2-74047a495b26",
-    "image": "e76cae1e-639b-4b87-8aa2-74047a495b26.jpg"
+    "image": "e76cae1e-639b-4b87-8aa2-74047a495b26.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-047",
@@ -1097,7 +1143,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "30880011-f8c7-4d3e-88d5-0af40060d2c2",
-    "image": "30880011-f8c7-4d3e-88d5-0af40060d2c2.jpg"
+    "image": "30880011-f8c7-4d3e-88d5-0af40060d2c2.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ENW-048",
@@ -1119,7 +1166,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "30920167-c7fe-41e8-8282-e33cad8039f4",
-    "image": "30920167-c7fe-41e8-8282-e33cad8039f4.jpg"
+    "image": "30920167-c7fe-41e8-8282-e33cad8039f4.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ENW-049",
@@ -1141,7 +1189,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "960f86a4-c51a-4f85-b791-adc6b4892167",
-    "image": "960f86a4-c51a-4f85-b791-adc6b4892167.jpg"
+    "image": "960f86a4-c51a-4f85-b791-adc6b4892167.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-050",
@@ -1163,7 +1212,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "2feaf0b2-5b48-4376-abdb-1e597db100ff",
-    "image": "2feaf0b2-5b48-4376-abdb-1e597db100ff.jpg"
+    "image": "2feaf0b2-5b48-4376-abdb-1e597db100ff.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-051",
@@ -1185,7 +1235,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "b37a8bd4-ca09-4fda-baf7-2a8d899df8b4",
-    "image": "b37a8bd4-ca09-4fda-baf7-2a8d899df8b4.jpg"
+    "image": "b37a8bd4-ca09-4fda-baf7-2a8d899df8b4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-052",
@@ -1207,7 +1258,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "97421432-3cfe-4d4f-84f6-32e9e45466f8",
-    "image": "97421432-3cfe-4d4f-84f6-32e9e45466f8.jpg"
+    "image": "97421432-3cfe-4d4f-84f6-32e9e45466f8.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-053",
@@ -1229,7 +1281,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "f2ee8595-7b69-4448-bc61-721119876693",
-    "image": "f2ee8595-7b69-4448-bc61-721119876693.jpg"
+    "image": "f2ee8595-7b69-4448-bc61-721119876693.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-054",
@@ -1251,7 +1304,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "2c52317d-372a-4604-bad1-4f4a0ab9c063",
-    "image": "2c52317d-372a-4604-bad1-4f4a0ab9c063.jpg"
+    "image": "2c52317d-372a-4604-bad1-4f4a0ab9c063.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-055",
@@ -1273,7 +1327,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "15a596a9-7b56-44e1-af49-9fdae4a33221",
-    "image": "15a596a9-7b56-44e1-af49-9fdae4a33221.jpg"
+    "image": "15a596a9-7b56-44e1-af49-9fdae4a33221.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-056",
@@ -1295,7 +1350,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "a0eb7c3a-17a7-4e13-8a89-cb65f6b09210",
-    "image": "a0eb7c3a-17a7-4e13-8a89-cb65f6b09210.jpg"
+    "image": "a0eb7c3a-17a7-4e13-8a89-cb65f6b09210.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-057",
@@ -1317,7 +1373,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "6bba49d2-4abc-4212-9b4b-d780c8f33dac",
-    "image": "6bba49d2-4abc-4212-9b4b-d780c8f33dac.jpg"
+    "image": "6bba49d2-4abc-4212-9b4b-d780c8f33dac.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ENW-058",
@@ -1339,7 +1396,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "957f0d9a-cf26-4ca0-bf65-d1e0925e9a85",
-    "image": "957f0d9a-cf26-4ca0-bf65-d1e0925e9a85.jpg"
+    "image": "957f0d9a-cf26-4ca0-bf65-d1e0925e9a85.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ENW-059",
@@ -1361,7 +1419,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "f1158dcf-7b92-414c-af5c-e8a025ff29c1",
-    "image": "f1158dcf-7b92-414c-af5c-e8a025ff29c1.jpg"
+    "image": "f1158dcf-7b92-414c-af5c-e8a025ff29c1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-060",
@@ -1383,7 +1442,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "00c41fcf-ec1c-4c7f-a0b5-cdbaee9a4b3d",
-    "image": "00c41fcf-ec1c-4c7f-a0b5-cdbaee9a4b3d.jpg"
+    "image": "00c41fcf-ec1c-4c7f-a0b5-cdbaee9a4b3d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-061",
@@ -1405,7 +1465,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "e0cd6322-747b-42f7-a1a6-0ed12e93e818",
-    "image": "e0cd6322-747b-42f7-a1a6-0ed12e93e818.jpg"
+    "image": "e0cd6322-747b-42f7-a1a6-0ed12e93e818.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-062",
@@ -1427,7 +1488,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "a86e8f66-de8c-4b91-80f0-0956543bca22",
-    "image": "a86e8f66-de8c-4b91-80f0-0956543bca22.jpg"
+    "image": "a86e8f66-de8c-4b91-80f0-0956543bca22.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-063",
@@ -1449,7 +1511,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "370de645-2388-4571-8612-17b5f78a7c86",
-    "image": "370de645-2388-4571-8612-17b5f78a7c86.jpg"
+    "image": "370de645-2388-4571-8612-17b5f78a7c86.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-064",
@@ -1471,7 +1534,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "1bc292a4-5b2c-4516-ad3d-fb30814d82d2",
-    "image": "1bc292a4-5b2c-4516-ad3d-fb30814d82d2.jpg"
+    "image": "1bc292a4-5b2c-4516-ad3d-fb30814d82d2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-065",
@@ -1493,7 +1557,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "523a9355-dfc3-4fd7-9ac0-64dc7d762c61",
-    "image": "523a9355-dfc3-4fd7-9ac0-64dc7d762c61.jpg"
+    "image": "523a9355-dfc3-4fd7-9ac0-64dc7d762c61.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-066",
@@ -1515,7 +1580,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "5ee303eb-bfc7-42ab-aa7b-59357b5d11d5",
-    "image": "5ee303eb-bfc7-42ab-aa7b-59357b5d11d5.jpg"
+    "image": "5ee303eb-bfc7-42ab-aa7b-59357b5d11d5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-067",
@@ -1537,7 +1603,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "9a48aadd-8b0a-4eb9-bd58-4410fedce4d2",
-    "image": "9a48aadd-8b0a-4eb9-bd58-4410fedce4d2.jpg"
+    "image": "9a48aadd-8b0a-4eb9-bd58-4410fedce4d2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-068",
@@ -1559,7 +1626,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "8f5f4a47-85bf-4ced-b844-16c872df1eb2",
-    "image": "8f5f4a47-85bf-4ced-b844-16c872df1eb2.jpg"
+    "image": "8f5f4a47-85bf-4ced-b844-16c872df1eb2.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "ENW-069",
@@ -1581,7 +1649,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "45a56d07-4c35-4164-b4e6-0c3f5ce0760a",
-    "image": "45a56d07-4c35-4164-b4e6-0c3f5ce0760a.jpg"
+    "image": "45a56d07-4c35-4164-b4e6-0c3f5ce0760a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-070",
@@ -1603,51 +1672,53 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "6a9c86dd-e69f-463a-a64c-29055fc45829",
-    "image": "6a9c86dd-e69f-463a-a64c-29055fc45829.jpg"
+    "image": "6a9c86dd-e69f-463a-a64c-29055fc45829.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "ENW-071",
-    "name": "Book of Dark",
-    "Type": "Ruler",
+    "Card Number": "ENW-071|ENW-071J",
+    "name": "Book of Dark // Lapistory, Subjugation Fairy Tale",
+    "Type": "Ruler|J-Ruler",
     "Race": "Fairy Tale",
     "Cost": "",
     "Colour": "B",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Judgment] {X}\n[Energize] {B}\nYou cannot have cards with [Will of Hope] in your deck.\nYou may pay the attribute cost of cards with [Will of Despair] with will of any attribute.",
+    "Abilities": "[Judgment] {X}\n[Energize] {B}\nYou cannot have cards with [Will of Hope] in your deck.\nYou may pay the attribute cost of cards with [Will of Despair] with will of any attribute.|This card cannot be destroyed.\nYou may pay the attribute cost of cards with [Will of Despair] with will of any attribute.\nWhen this card enters your field ⇒ You may put a resonator with [Will of Despair] with total cost X or less you own from outside the game into your field.\nWhen a resonator put in a field by this card leaves a field for a non-field zone ⇒ Put this card into your ruler area, as a ruler.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "A story of despair. It seems to have the results of this battle recorded in it.",
-    "Artist": "tokiwa",
+    "Flavour": "A story of despair. It seems to have the results of this battle recorded in it.|Each page contains stories of world destroying villains.",
+    "Artist": "tokiwa|Kamijo Roro",
     "Rarity": "R",
-    "Fowid": "2697",
+    "Fowid": "2697|2698",
     "Cluster": "04 - Lapis",
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "147310ea-dead-4f34-8946-834fcc20776d",
-    "image": "147310ea-dead-4f34-8946-834fcc20776d.jpg"
-  },
-  {
-    "Card Number": "ENW-071J",
-    "name": "Lapistory, Subjugation Fairy Tale",
-    "Type": "J-Ruler",
-    "Race": "Fairy Tale",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "This card cannot be destroyed.\nYou may pay the attribute cost of cards with [Will of Despair] with will of any attribute.\nWhen this card enters your field ⇒ You may put a resonator with [Will of Despair] with total cost X or less you own from outside the game into your field.\nWhen a resonator put in a field by this card leaves a field for a non-field zone ⇒ Put this card into your ruler area, as a ruler.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Each page contains stories of world destroying villains.",
-    "Artist": "Kamijo Roro",
-    "Rarity": "R",
-    "Fowid": "2698",
-    "Cluster": "04 - Lapis",
-    "Set Name": "025 - Echoes of the New World",
-    "Set Code": "ENW",
-    "id": "b7b2a6ed-ef81-4816-b018-2d1afe545608",
-    "image": "b7b2a6ed-ef81-4816-b018-2d1afe545608.jpg"
+    "image": "147310ea-dead-4f34-8946-834fcc20776d.jpg",
+    "Card Type": "Ruler",
+    "backimage": "b7b2a6ed-ef81-4816-b018-2d1afe545608.jpg",
+    "alternate1_Card Number": "ENW-071J",
+    "alternate1_name": "Lapistory, Subjugation Fairy Tale",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Fairy Tale",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "This card cannot be destroyed.\nYou may pay the attribute cost of cards with [Will of Despair] with will of any attribute.\nWhen this card enters your field ⇒ You may put a resonator with [Will of Despair] with total cost X or less you own from outside the game into your field.\nWhen a resonator put in a field by this card leaves a field for a non-field zone ⇒ Put this card into your ruler area, as a ruler.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Each page contains stories of world destroying villains.",
+    "alternate1_Artist": "Kamijo Roro",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2698",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "025 - Echoes of the New World",
+    "alternate1_Set Code": "ENW",
+    "alternate1_id": "b7b2a6ed-ef81-4816-b018-2d1afe545608",
+    "alternate1_image": "b7b2a6ed-ef81-4816-b018-2d1afe545608.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ENW-072",
@@ -1669,7 +1740,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "58973f38-b3a2-4b96-af83-3e2387436d7c",
-    "image": "58973f38-b3a2-4b96-af83-3e2387436d7c.jpg"
+    "image": "58973f38-b3a2-4b96-af83-3e2387436d7c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-073",
@@ -1691,7 +1763,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "9b3d72e0-eeef-48ac-ac45-89a906b16c79",
-    "image": "9b3d72e0-eeef-48ac-ac45-89a906b16c79.jpg"
+    "image": "9b3d72e0-eeef-48ac-ac45-89a906b16c79.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-074",
@@ -1713,7 +1786,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "fd62cdc6-f310-4121-97c3-699279bf63ba",
-    "image": "fd62cdc6-f310-4121-97c3-699279bf63ba.jpg"
+    "image": "fd62cdc6-f310-4121-97c3-699279bf63ba.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-075",
@@ -1735,7 +1809,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "f8dc84f3-eefd-4d80-902b-282149c33baf",
-    "image": "f8dc84f3-eefd-4d80-902b-282149c33baf.jpg"
+    "image": "f8dc84f3-eefd-4d80-902b-282149c33baf.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-076",
@@ -1757,7 +1832,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "11784c49-c6b7-4872-9aee-4404e463c749",
-    "image": "11784c49-c6b7-4872-9aee-4404e463c749.jpg"
+    "image": "11784c49-c6b7-4872-9aee-4404e463c749.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-077",
@@ -1779,7 +1855,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "3aeaa050-7635-4122-96eb-cdfa8c6c41ff",
-    "image": "3aeaa050-7635-4122-96eb-cdfa8c6c41ff.jpg"
+    "image": "3aeaa050-7635-4122-96eb-cdfa8c6c41ff.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ENW-078",
@@ -1801,7 +1878,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "21401e79-235a-4026-97ac-9bd95255ecb0",
-    "image": "21401e79-235a-4026-97ac-9bd95255ecb0.jpg"
+    "image": "21401e79-235a-4026-97ac-9bd95255ecb0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-079",
@@ -1823,7 +1901,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "0eeef78e-75d8-480a-b59f-cce7bc8ad90b",
-    "image": "0eeef78e-75d8-480a-b59f-cce7bc8ad90b.jpg"
+    "image": "0eeef78e-75d8-480a-b59f-cce7bc8ad90b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-080",
@@ -1845,7 +1924,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "50605480-c21a-4909-8b1b-c6aedaf3e2ec",
-    "image": "50605480-c21a-4909-8b1b-c6aedaf3e2ec.jpg"
+    "image": "50605480-c21a-4909-8b1b-c6aedaf3e2ec.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-081",
@@ -1867,7 +1947,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "736ab339-d87b-4a73-8913-89b74fe93f4f",
-    "image": "736ab339-d87b-4a73-8913-89b74fe93f4f.jpg"
+    "image": "736ab339-d87b-4a73-8913-89b74fe93f4f.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ENW-082",
@@ -1889,7 +1970,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "dedfdfd2-bd0f-4a2d-af25-4782ee0beffb",
-    "image": "dedfdfd2-bd0f-4a2d-af25-4782ee0beffb.jpg"
+    "image": "dedfdfd2-bd0f-4a2d-af25-4782ee0beffb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-083",
@@ -1911,7 +1993,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "6b5e0380-dfb1-4108-a527-f4b05b64cf89",
-    "image": "6b5e0380-dfb1-4108-a527-f4b05b64cf89.jpg"
+    "image": "6b5e0380-dfb1-4108-a527-f4b05b64cf89.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-084",
@@ -1933,7 +2016,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "59d6d756-077d-4234-8888-a34233d685de",
-    "image": "59d6d756-077d-4234-8888-a34233d685de.jpg"
+    "image": "59d6d756-077d-4234-8888-a34233d685de.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-085",
@@ -1955,7 +2039,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "2f9bd48f-d4b4-430c-90fc-e24ae8becd8a",
-    "image": "2f9bd48f-d4b4-430c-90fc-e24ae8becd8a.jpg"
+    "image": "2f9bd48f-d4b4-430c-90fc-e24ae8becd8a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-086",
@@ -1977,7 +2062,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "a932163d-b98f-4200-a4d3-3e7a5412f9a6",
-    "image": "a932163d-b98f-4200-a4d3-3e7a5412f9a6.jpg"
+    "image": "a932163d-b98f-4200-a4d3-3e7a5412f9a6.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-087",
@@ -1999,7 +2085,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "04049372-8403-4108-ad11-a47a1295f4e7",
-    "image": "04049372-8403-4108-ad11-a47a1295f4e7.jpg"
+    "image": "04049372-8403-4108-ad11-a47a1295f4e7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-088",
@@ -2021,7 +2108,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "aafd3e61-3391-4b15-b4b7-5c86bd807d81",
-    "image": "aafd3e61-3391-4b15-b4b7-5c86bd807d81.jpg"
+    "image": "aafd3e61-3391-4b15-b4b7-5c86bd807d81.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-089",
@@ -2043,7 +2131,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "38b7c19f-ea95-4de6-ad5f-f2eeadc45e6b",
-    "image": "38b7c19f-ea95-4de6-ad5f-f2eeadc45e6b.jpg"
+    "image": "38b7c19f-ea95-4de6-ad5f-f2eeadc45e6b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-090",
@@ -2065,7 +2154,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "4adaec2a-0c04-4b52-bea9-1a90d334cf24",
-    "image": "4adaec2a-0c04-4b52-bea9-1a90d334cf24.jpg"
+    "image": "4adaec2a-0c04-4b52-bea9-1a90d334cf24.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-091",
@@ -2087,7 +2177,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "573b958b-dc4e-4407-886d-6f94eb735fd7",
-    "image": "573b958b-dc4e-4407-886d-6f94eb735fd7.jpg"
+    "image": "573b958b-dc4e-4407-886d-6f94eb735fd7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-092",
@@ -2109,7 +2200,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "f42a90b4-4c5e-4aa2-a670-2a98489d6dae",
-    "image": "f42a90b4-4c5e-4aa2-a670-2a98489d6dae.jpg"
+    "image": "f42a90b4-4c5e-4aa2-a670-2a98489d6dae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-093",
@@ -2131,7 +2223,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "7c673340-069f-482a-8eb8-9a150c4d3391",
-    "image": "7c673340-069f-482a-8eb8-9a150c4d3391.jpg"
+    "image": "7c673340-069f-482a-8eb8-9a150c4d3391.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-094",
@@ -2153,7 +2246,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "5c82ec55-52bf-4b67-969a-d52b27699f42",
-    "image": "5c82ec55-52bf-4b67-969a-d52b27699f42.jpg"
+    "image": "5c82ec55-52bf-4b67-969a-d52b27699f42.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-095",
@@ -2175,7 +2269,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "352b7118-ecfd-4521-a02d-13382120dd67",
-    "image": "352b7118-ecfd-4521-a02d-13382120dd67.jpg"
+    "image": "352b7118-ecfd-4521-a02d-13382120dd67.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-096",
@@ -2197,7 +2292,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "56821199-5dac-425c-9858-2c8724aa3882",
-    "image": "56821199-5dac-425c-9858-2c8724aa3882.jpg"
+    "image": "56821199-5dac-425c-9858-2c8724aa3882.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-097",
@@ -2219,7 +2315,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "211efd0c-f005-4c0c-9f22-59cd84f3c9bf",
-    "image": "211efd0c-f005-4c0c-9f22-59cd84f3c9bf.jpg"
+    "image": "211efd0c-f005-4c0c-9f22-59cd84f3c9bf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ENW-098",
@@ -2241,7 +2338,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "1959abe2-06c0-4690-ba8d-f9fbc2f7dfa0",
-    "image": "1959abe2-06c0-4690-ba8d-f9fbc2f7dfa0.jpg"
+    "image": "1959abe2-06c0-4690-ba8d-f9fbc2f7dfa0.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ENW-099",
@@ -2263,7 +2361,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "1068455c-99bb-474c-8ac9-9110e14d27ba",
-    "image": "1068455c-99bb-474c-8ac9-9110e14d27ba.jpg"
+    "image": "1068455c-99bb-474c-8ac9-9110e14d27ba.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ENW-100",
@@ -2285,7 +2384,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "568c520e-a07a-4427-b29a-84986ee8bdc0",
-    "image": "568c520e-a07a-4427-b29a-84986ee8bdc0.jpg"
+    "image": "568c520e-a07a-4427-b29a-84986ee8bdc0.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ENW-101",
@@ -2307,7 +2407,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "81dfbe5f-39d0-4e4d-b812-bece3e2d6dd9",
-    "image": "81dfbe5f-39d0-4e4d-b812-bece3e2d6dd9.jpg"
+    "image": "81dfbe5f-39d0-4e4d-b812-bece3e2d6dd9.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "ENW-102",
@@ -2329,7 +2430,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "1ebb25ae-6a88-4bff-866f-de11651cbf2d",
-    "image": "1ebb25ae-6a88-4bff-866f-de11651cbf2d.jpg"
+    "image": "1ebb25ae-6a88-4bff-866f-de11651cbf2d.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "ENW-103",
@@ -2351,7 +2453,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "88217b98-d218-4a29-91df-b9ab6b5585d3",
-    "image": "88217b98-d218-4a29-91df-b9ab6b5585d3.jpg"
+    "image": "88217b98-d218-4a29-91df-b9ab6b5585d3.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "ENW-104",
@@ -2373,7 +2476,8 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "c0082248-0c4a-4e98-a3fd-65c6afdd66a3",
-    "image": "c0082248-0c4a-4e98-a3fd-65c6afdd66a3.jpg"
+    "image": "c0082248-0c4a-4e98-a3fd-65c6afdd66a3.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "ENW-105",
@@ -2395,6 +2499,7 @@
     "Set Name": "025 - Echoes of the New World",
     "Set Code": "ENW",
     "id": "e5ae8c74-7b50-424f-aa56-862e6a92d695",
-    "image": "e5ae8c74-7b50-424f-aa56-862e6a92d695.jpg"
+    "image": "e5ae8c74-7b50-424f-aa56-862e6a92d695.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

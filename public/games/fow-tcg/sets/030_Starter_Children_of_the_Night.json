@@ -19,7 +19,8 @@
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
     "id": "8101e359-5a52-4645-a1b9-76ca2765d1b3",
-    "image": "8101e359-5a52-4645-a1b9-76ca2765d1b3.jpg"
+    "image": "8101e359-5a52-4645-a1b9-76ca2765d1b3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR5-002",
@@ -41,7 +42,8 @@
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
     "id": "02de3e97-23dc-41a7-bab7-03fa61d40c67",
-    "image": "02de3e97-23dc-41a7-bab7-03fa61d40c67.jpg"
+    "image": "02de3e97-23dc-41a7-bab7-03fa61d40c67.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR5-003",
@@ -63,7 +65,8 @@
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
     "id": "d56217f8-d108-474c-a563-61a2edaa215c",
-    "image": "d56217f8-d108-474c-a563-61a2edaa215c.jpg"
+    "image": "d56217f8-d108-474c-a563-61a2edaa215c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR5-004",
@@ -85,7 +88,8 @@
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
     "id": "49813d32-669b-420c-b7dc-ee68e819a338",
-    "image": "49813d32-669b-420c-b7dc-ee68e819a338.jpg"
+    "image": "49813d32-669b-420c-b7dc-ee68e819a338.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR5-005",
@@ -107,7 +111,8 @@
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
     "id": "882ad188-7ca3-405b-8c7a-0669b3cf84aa",
-    "image": "882ad188-7ca3-405b-8c7a-0669b3cf84aa.jpg"
+    "image": "882ad188-7ca3-405b-8c7a-0669b3cf84aa.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDR5-006",
@@ -129,7 +134,8 @@
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
     "id": "1fa41fab-6dea-4995-82c8-0e1c66ded83d",
-    "image": "1fa41fab-6dea-4995-82c8-0e1c66ded83d.jpg"
+    "image": "1fa41fab-6dea-4995-82c8-0e1c66ded83d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR5-007",
@@ -151,7 +157,8 @@
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
     "id": "0b6b64a2-7cb8-444b-9563-3a3856b73316",
-    "image": "0b6b64a2-7cb8-444b-9563-3a3856b73316.jpg"
+    "image": "0b6b64a2-7cb8-444b-9563-3a3856b73316.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR5-008",
@@ -173,51 +180,53 @@
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
     "id": "b9823453-ed31-4572-887c-38cc1ec9360d",
-    "image": "b9823453-ed31-4572-887c-38cc1ec9360d.jpg"
+    "image": "b9823453-ed31-4572-887c-38cc1ec9360d.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "SDR5-009",
-    "name": "Reiya, Fourth Daughter of the Mikage",
-    "Type": "Ruler",
-    "Race": "Vampire",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {B}{B}{1} (Pay {B}{B}{1} to flip this card and put it into the field as a J-Ruler.)\n[Energize] {B} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {B}.\")\nAt the beginning of the game ⇒ Put a mystery counter on this card.\n{Rest}: Put a mystery counter on this card.\nSealed Item [[Ominous Moon]] At the beginning of the game ⇒ Put two mystery counters on this card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "A vampire who suddenly appeared in this world with a mysterious castle.",
-    "Artist": "lack",
-    "Rarity": "R",
-    "Fowid": "2818",
-    "Cluster": "05 - Reiya",
-    "Set Name": "030 - Starter - Children of the Night",
-    "Set Code": "SDR5",
-    "id": "cf808ea6-52d3-49a6-a408-085ae92a747f",
-    "image": "cf808ea6-52d3-49a6-a408-085ae92a747f.jpg"
-  },
-  {
-    "Card Number": "SDR5-009J",
-    "name": "Reiya, Fourth Daughter of the Mikage [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "SDR5-009|SDR5-009J",
+    "name": "Reiya, Fourth Daughter of the Mikage // Reiya, Fourth Daughter of the Mikage [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Vampire",
     "Cost": "",
     "Colour": "B",
     "ATK": "1200",
     "DEF": "1200",
-    "Abilities": "[Flying] (This card cannot be blocked by J/resonators without [Flying].)\nWhen this card enters the field ⇒ Put three mystery counters on it.\n{Rest}, remove a mystery counter from this card: Destroy target resonator.\nSealed Item [[Eye of Ragnarok]] When this card enters the field ⇒ Look at your opponent's hand and choose a card. Until the end of your opponent's next turn, your opponent cannot play cards that share a name with that card.",
+    "Abilities": "[Judgment] {B}{B}{1} (Pay {B}{B}{1} to flip this card and put it into the field as a J-Ruler.)\n[Energize] {B} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {B}.\")\nAt the beginning of the game ⇒ Put a mystery counter on this card.\n{Rest}: Put a mystery counter on this card.\nSealed Item [[Ominous Moon]] At the beginning of the game ⇒ Put two mystery counters on this card.|[Flying] (This card cannot be blocked by J/resonators without [Flying].)\nWhen this card enters the field ⇒ Put three mystery counters on it.\n{Rest}, remove a mystery counter from this card: Destroy target resonator.\nSealed Item [[Eye of Ragnarok]] When this card enters the field ⇒ Look at your opponent's hand and choose a card. Until the end of your opponent's next turn, your opponent cannot play cards that share a name with that card.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"The Ominous Moon will cut you to ribbons.\"",
+    "Flavour": "A vampire who suddenly appeared in this world with a mysterious castle.|\"The Ominous Moon will cut you to ribbons.\"",
     "Artist": "lack",
     "Rarity": "R",
-    "Fowid": "2819",
+    "Fowid": "2818|2819",
     "Cluster": "05 - Reiya",
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
-    "id": "a88c95bb-be9b-4a08-99f2-5a1ebb149394",
-    "image": "a88c95bb-be9b-4a08-99f2-5a1ebb149394.jpg"
+    "id": "cf808ea6-52d3-49a6-a408-085ae92a747f",
+    "image": "cf808ea6-52d3-49a6-a408-085ae92a747f.jpg",
+    "Card Type": "Ruler",
+    "backimage": "a88c95bb-be9b-4a08-99f2-5a1ebb149394.jpg",
+    "alternate1_Card Number": "SDR5-009J",
+    "alternate1_name": "Reiya, Fourth Daughter of the Mikage [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Vampire",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Flying] (This card cannot be blocked by J/resonators without [Flying].)\nWhen this card enters the field ⇒ Put three mystery counters on it.\n{Rest}, remove a mystery counter from this card: Destroy target resonator.\nSealed Item [[Eye of Ragnarok]] When this card enters the field ⇒ Look at your opponent's hand and choose a card. Until the end of your opponent's next turn, your opponent cannot play cards that share a name with that card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"The Ominous Moon will cut you to ribbons.\"",
+    "alternate1_Artist": "lack",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2819",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "030 - Starter - Children of the Night",
+    "alternate1_Set Code": "SDR5",
+    "alternate1_id": "a88c95bb-be9b-4a08-99f2-5a1ebb149394",
+    "alternate1_image": "a88c95bb-be9b-4a08-99f2-5a1ebb149394.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDR5-010",
@@ -239,7 +248,8 @@
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
     "id": "d8d4e368-a3c8-494c-8c09-7b321f77a4a4",
-    "image": "d8d4e368-a3c8-494c-8c09-7b321f77a4a4.jpg"
+    "image": "d8d4e368-a3c8-494c-8c09-7b321f77a4a4.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDR5-011",
@@ -261,7 +271,8 @@
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
     "id": "b0fa4d42-b06f-46c9-b627-cfa6c338d845",
-    "image": "b0fa4d42-b06f-46c9-b627-cfa6c338d845.jpg"
+    "image": "b0fa4d42-b06f-46c9-b627-cfa6c338d845.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDR5-012",
@@ -283,7 +294,8 @@
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
     "id": "ff360661-b12b-48bb-850f-860353c8db83",
-    "image": "ff360661-b12b-48bb-850f-860353c8db83.jpg"
+    "image": "ff360661-b12b-48bb-850f-860353c8db83.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "SDR5-013",
@@ -305,6 +317,7 @@
     "Set Name": "030 - Starter - Children of the Night",
     "Set Code": "SDR5",
     "id": "14fb6dbb-b72d-440f-84a7-19ad2b4ecc76",
-    "image": "14fb6dbb-b72d-440f-84a7-19ad2b4ecc76.jpg"
+    "image": "14fb6dbb-b72d-440f-84a7-19ad2b4ecc76.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

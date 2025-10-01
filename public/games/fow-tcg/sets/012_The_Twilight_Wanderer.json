@@ -1,47 +1,48 @@
 [
   {
-    "Card Number": "TTW-001",
-    "name": "Alice, Girl of the Lake",
-    "Type": "Ruler",
-    "Race": "Wanderer",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {8}. You may pay {1} less to play this ability for each Fairy you control.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "While dozing off, Alice saw a dream. A dream of a world she used to belong to.",
-    "Artist": "Wednesday",
-    "Rarity": "R",
-    "Fowid": "762",
-    "Cluster": "03 - Alice",
-    "Set Name": "012 - The Twilight Wanderer",
-    "Set Code": "TTW",
-    "id": "d14bfc7e-8bd0-4b6f-9b6b-121c8144f078",
-    "image": "d14bfc7e-8bd0-4b6f-9b6b-121c8144f078.jpg"
-  },
-  {
-    "Card Number": "TTW-001J",
-    "name": "Alice, Fairy Queen",
-    "Type": "J-Ruler",
-    "Race": "Queen|Fairy",
+    "Card Number": "TTW-001|TTW-001J",
+    "name": "Alice, Girl of the Lake // Alice, Fairy Queen",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Wanderer|Queen|Fairy",
     "Cost": "",
     "Colour": "W",
     "ATK": "900",
     "DEF": "900",
-    "Abilities": "[Flying]\nWhen this card enters your field, recover all Fairies you control.\nGod's Art [Reminiscence of Utopia] {W}{W}: J/resonators you control gain [+200/+200]. Search your main deck for a card named \"Excalibur, the Spirit God's Sword\" and put it into your field. Then shuffle your main deck. (Play God's Art [Reminiscence of Utopia] only once per game.)",
+    "Abilities": "[Judgment] {8}. You may pay {1} less to play this ability for each Fairy you control.|[Flying]\nWhen this card enters your field, recover all Fairies you control.\nGod's Art [Reminiscence of Utopia] {W}{W}: J/resonators you control gain [+200/+200]. Search your main deck for a card named \"Excalibur, the Spirit God's Sword\" and put it into your field. Then shuffle your main deck. (Play God's Art [Reminiscence of Utopia] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "When Alice awoke, she remembered what needed to be done, and the foe that must be defeated.",
+    "Flavour": "While dozing off, Alice saw a dream. A dream of a world she used to belong to.|When Alice awoke, she remembered what needed to be done, and the foe that must be defeated.",
     "Artist": "Wednesday",
     "Rarity": "R",
-    "Fowid": "763",
+    "Fowid": "762|763",
     "Cluster": "03 - Alice",
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
-    "id": "fcd82386-cbae-4314-a6ea-b44bd1e14af4",
-    "image": "fcd82386-cbae-4314-a6ea-b44bd1e14af4.jpg"
+    "id": "d14bfc7e-8bd0-4b6f-9b6b-121c8144f078",
+    "image": "d14bfc7e-8bd0-4b6f-9b6b-121c8144f078.jpg",
+    "Card Type": "Ruler",
+    "backimage": "fcd82386-cbae-4314-a6ea-b44bd1e14af4.jpg",
+    "alternate1_Card Number": "TTW-001J",
+    "alternate1_name": "Alice, Fairy Queen",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Queen|Fairy",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "[Flying]\nWhen this card enters your field, recover all Fairies you control.\nGod's Art [Reminiscence of Utopia] {W}{W}: J/resonators you control gain [+200/+200]. Search your main deck for a card named \"Excalibur, the Spirit God's Sword\" and put it into your field. Then shuffle your main deck. (Play God's Art [Reminiscence of Utopia] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "When Alice awoke, she remembered what needed to be done, and the foe that must be defeated.",
+    "alternate1_Artist": "Wednesday",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "763",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "012 - The Twilight Wanderer",
+    "alternate1_Set Code": "TTW",
+    "alternate1_id": "fcd82386-cbae-4314-a6ea-b44bd1e14af4",
+    "alternate1_image": "fcd82386-cbae-4314-a6ea-b44bd1e14af4.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTW-002",
@@ -63,7 +64,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "78e1220b-5dd4-49e9-be39-40c81b354bd3",
-    "image": "78e1220b-5dd4-49e9-be39-40c81b354bd3.jpg"
+    "image": "78e1220b-5dd4-49e9-be39-40c81b354bd3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-003",
@@ -85,7 +87,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "9932b798-99a2-4223-9a06-a9a14b60d6b6",
-    "image": "9932b798-99a2-4223-9a06-a9a14b60d6b6.jpg"
+    "image": "9932b798-99a2-4223-9a06-a9a14b60d6b6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-004",
@@ -107,7 +110,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "707420f5-5881-42e8-ac73-601b8d14e880",
-    "image": "707420f5-5881-42e8-ac73-601b8d14e880.jpg"
+    "image": "707420f5-5881-42e8-ac73-601b8d14e880.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-005",
@@ -129,7 +133,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "6d8bc04a-d8e3-4dde-975b-2109820842bb",
-    "image": "6d8bc04a-d8e3-4dde-975b-2109820842bb.jpg"
+    "image": "6d8bc04a-d8e3-4dde-975b-2109820842bb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-006",
@@ -151,7 +156,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "5488e5f6-2569-422a-b5ae-be05ee229565",
-    "image": "5488e5f6-2569-422a-b5ae-be05ee229565.jpg"
+    "image": "5488e5f6-2569-422a-b5ae-be05ee229565.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-007",
@@ -173,7 +179,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "0885527f-ef86-4465-8355-375ec79f0255",
-    "image": "0885527f-ef86-4465-8355-375ec79f0255.jpg"
+    "image": "0885527f-ef86-4465-8355-375ec79f0255.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-008",
@@ -195,7 +202,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "ba197fcb-66c7-456d-b4be-a4607da78459",
-    "image": "ba197fcb-66c7-456d-b4be-a4607da78459.jpg"
+    "image": "ba197fcb-66c7-456d-b4be-a4607da78459.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TTW-009",
@@ -217,7 +225,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "28809468-7d09-486e-9d29-a53d9761841e",
-    "image": "28809468-7d09-486e-9d29-a53d9761841e.jpg"
+    "image": "28809468-7d09-486e-9d29-a53d9761841e.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TTW-010",
@@ -239,7 +248,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "e36b8d0d-4f9e-4693-b555-a6def27b812c",
-    "image": "e36b8d0d-4f9e-4693-b555-a6def27b812c.jpg"
+    "image": "e36b8d0d-4f9e-4693-b555-a6def27b812c.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "TTW-011",
@@ -261,7 +271,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "00b34130-d305-4a48-8177-5bc2e979133f",
-    "image": "00b34130-d305-4a48-8177-5bc2e979133f.jpg"
+    "image": "00b34130-d305-4a48-8177-5bc2e979133f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-012",
@@ -283,7 +294,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "ddb89ab0-9a9b-4f3f-a312-1356a3983180",
-    "image": "ddb89ab0-9a9b-4f3f-a312-1356a3983180.jpg"
+    "image": "ddb89ab0-9a9b-4f3f-a312-1356a3983180.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-013",
@@ -305,7 +317,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "356193f1-77eb-47bc-a79b-e51b1720d09c",
-    "image": "356193f1-77eb-47bc-a79b-e51b1720d09c.jpg"
+    "image": "356193f1-77eb-47bc-a79b-e51b1720d09c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-014",
@@ -327,7 +340,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "22a0b894-fe16-4b50-b2c6-28eaa80a8c40",
-    "image": "22a0b894-fe16-4b50-b2c6-28eaa80a8c40.jpg"
+    "image": "22a0b894-fe16-4b50-b2c6-28eaa80a8c40.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TTW-015",
@@ -349,7 +363,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "dcbd4455-5bc9-4d46-91c1-813b5ebd8102",
-    "image": "dcbd4455-5bc9-4d46-91c1-813b5ebd8102.jpg"
+    "image": "dcbd4455-5bc9-4d46-91c1-813b5ebd8102.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TTW-016",
@@ -371,7 +386,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "c1acb27e-c07d-4806-ae4c-87b0d3935fa3",
-    "image": "c1acb27e-c07d-4806-ae4c-87b0d3935fa3.jpg"
+    "image": "c1acb27e-c07d-4806-ae4c-87b0d3935fa3.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TTW-017",
@@ -393,7 +409,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "827e80b1-1dba-4467-b8ac-abd52b05b2ab",
-    "image": "827e80b1-1dba-4467-b8ac-abd52b05b2ab.jpg"
+    "image": "827e80b1-1dba-4467-b8ac-abd52b05b2ab.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-018",
@@ -415,7 +432,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "d9b9efe7-043b-4896-bb02-5c3fab47b5ab",
-    "image": "d9b9efe7-043b-4896-bb02-5c3fab47b5ab.jpg"
+    "image": "d9b9efe7-043b-4896-bb02-5c3fab47b5ab.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-019",
@@ -437,7 +455,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "18e5418e-cf27-4504-998e-1b0d7acb401f",
-    "image": "18e5418e-cf27-4504-998e-1b0d7acb401f.jpg"
+    "image": "18e5418e-cf27-4504-998e-1b0d7acb401f.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TTW-020",
@@ -459,7 +478,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "cd6244b8-8be1-49af-8018-b6781457f279",
-    "image": "cd6244b8-8be1-49af-8018-b6781457f279.jpg"
+    "image": "cd6244b8-8be1-49af-8018-b6781457f279.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TTW-021",
@@ -481,7 +501,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "5f2405e5-64ac-41f2-af54-458d3916d747",
-    "image": "5f2405e5-64ac-41f2-af54-458d3916d747.jpg"
+    "image": "5f2405e5-64ac-41f2-af54-458d3916d747.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TTW-022",
@@ -503,7 +524,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "f67bdf76-9817-4a7a-bdf6-0dce4a481e0f",
-    "image": "f67bdf76-9817-4a7a-bdf6-0dce4a481e0f.jpg"
+    "image": "f67bdf76-9817-4a7a-bdf6-0dce4a481e0f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-023",
@@ -525,7 +547,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "0afa01b5-1164-42de-af6a-6b244e7570d9",
-    "image": "0afa01b5-1164-42de-af6a-6b244e7570d9.jpg"
+    "image": "0afa01b5-1164-42de-af6a-6b244e7570d9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-024",
@@ -547,7 +570,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "db740678-5972-4304-8f04-411035ef76a2",
-    "image": "db740678-5972-4304-8f04-411035ef76a2.jpg"
+    "image": "db740678-5972-4304-8f04-411035ef76a2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-025",
@@ -569,7 +593,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "2852495d-adf1-4d8e-803d-f6cc676d7c10",
-    "image": "2852495d-adf1-4d8e-803d-f6cc676d7c10.jpg"
+    "image": "2852495d-adf1-4d8e-803d-f6cc676d7c10.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-026",
@@ -591,7 +616,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "94b03a6b-aee5-4cce-a550-109fac3b21e4",
-    "image": "94b03a6b-aee5-4cce-a550-109fac3b21e4.jpg"
+    "image": "94b03a6b-aee5-4cce-a550-109fac3b21e4.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "TTW-027",
@@ -613,7 +639,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "f2e71443-20c0-4ba8-9459-b25996b89207",
-    "image": "f2e71443-20c0-4ba8-9459-b25996b89207.jpg"
+    "image": "f2e71443-20c0-4ba8-9459-b25996b89207.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-028",
@@ -635,7 +662,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "63b25dfd-ccbb-4932-ab29-70b6137a1f47",
-    "image": "63b25dfd-ccbb-4932-ab29-70b6137a1f47.jpg"
+    "image": "63b25dfd-ccbb-4932-ab29-70b6137a1f47.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-029",
@@ -657,7 +685,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "384f1666-b726-4570-9938-917308e797af",
-    "image": "384f1666-b726-4570-9938-917308e797af.jpg"
+    "image": "384f1666-b726-4570-9938-917308e797af.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-030",
@@ -679,7 +708,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "57ed4ee2-2a8c-4bf3-a9b0-e00b3cb95c03",
-    "image": "57ed4ee2-2a8c-4bf3-a9b0-e00b3cb95c03.jpg"
+    "image": "57ed4ee2-2a8c-4bf3-a9b0-e00b3cb95c03.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TTW-031",
@@ -701,51 +731,53 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "7f3ee122-a1cb-4fd7-bfbe-b0b57833d4d0",
-    "image": "7f3ee122-a1cb-4fd7-bfbe-b0b57833d4d0.jpg"
+    "image": "7f3ee122-a1cb-4fd7-bfbe-b0b57833d4d0.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TTW-032",
-    "name": "Sylvia Gill Palarilias",
-    "Type": "Ruler",
-    "Race": "Minion of Primogenitor",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {R}{G}{2}.\nFire magic stones you control gain \"{Rest}: Produce {G}\".",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"So, shall I show you the power that defeated Blazer?\"",
-    "Artist": "SIGMAN",
-    "Rarity": "R",
-    "Fowid": "794",
-    "Cluster": "03 - Alice",
-    "Set Name": "012 - The Twilight Wanderer",
-    "Set Code": "TTW",
-    "id": "24e9da80-6b7b-4221-a090-e197088c48b7",
-    "image": "24e9da80-6b7b-4221-a090-e197088c48b7.jpg"
-  },
-  {
-    "Card Number": "TTW-032J",
-    "name": "Sylvia Gill Palarilias [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Minion of Primogenitor|Dragon",
+    "Card Number": "TTW-032|TTW-032J",
+    "name": "Sylvia Gill Palarilias // Sylvia Gill Palarilias [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Minion of Primogenitor|Minion of Primogenitor|Dragon",
     "Cost": "",
     "Colour": "R",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Flying]\n[Swiftness]\nWhen this card enters your field, it deals 1000 damage to target J/resonator.\nWhenever a J/resonator that was dealt damage by this card this turn is destroyed, you may recover up to three target magic stones you control.",
+    "Abilities": "[Judgment] {R}{G}{2}.\nFire magic stones you control gain \"{Rest}: Produce {G}\".|[Flying]\n[Swiftness]\nWhen this card enters your field, it deals 1000 damage to target J/resonator.\nWhenever a J/resonator that was dealt damage by this card this turn is destroyed, you may recover up to three target magic stones you control.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "With just the beat of her winds she twisted and contorted the battlefield.",
+    "Flavour": "\"So, shall I show you the power that defeated Blazer?\"|With just the beat of her winds she twisted and contorted the battlefield.",
     "Artist": "SIGMAN",
     "Rarity": "R",
-    "Fowid": "795",
+    "Fowid": "794|795",
     "Cluster": "03 - Alice",
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
-    "id": "bbf251a7-b30d-4e28-ada7-d1e541fada27",
-    "image": "bbf251a7-b30d-4e28-ada7-d1e541fada27.jpg"
+    "id": "24e9da80-6b7b-4221-a090-e197088c48b7",
+    "image": "24e9da80-6b7b-4221-a090-e197088c48b7.jpg",
+    "Card Type": "Ruler",
+    "backimage": "bbf251a7-b30d-4e28-ada7-d1e541fada27.jpg",
+    "alternate1_Card Number": "TTW-032J",
+    "alternate1_name": "Sylvia Gill Palarilias [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Minion of Primogenitor|Dragon",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\n[Swiftness]\nWhen this card enters your field, it deals 1000 damage to target J/resonator.\nWhenever a J/resonator that was dealt damage by this card this turn is destroyed, you may recover up to three target magic stones you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "With just the beat of her winds she twisted and contorted the battlefield.",
+    "alternate1_Artist": "SIGMAN",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "795",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "012 - The Twilight Wanderer",
+    "alternate1_Set Code": "TTW",
+    "alternate1_id": "bbf251a7-b30d-4e28-ada7-d1e541fada27",
+    "alternate1_image": "bbf251a7-b30d-4e28-ada7-d1e541fada27.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTW-033",
@@ -767,7 +799,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "2d2258a1-c99d-4705-825a-65dcba83166e",
-    "image": "2d2258a1-c99d-4705-825a-65dcba83166e.jpg"
+    "image": "2d2258a1-c99d-4705-825a-65dcba83166e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-034",
@@ -789,7 +822,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "8350f629-c423-47bf-a1c4-1304473c3483",
-    "image": "8350f629-c423-47bf-a1c4-1304473c3483.jpg"
+    "image": "8350f629-c423-47bf-a1c4-1304473c3483.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TTW-035",
@@ -811,7 +845,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "35c87f33-14f0-47eb-81df-c45dcefe1ccd",
-    "image": "35c87f33-14f0-47eb-81df-c45dcefe1ccd.jpg"
+    "image": "35c87f33-14f0-47eb-81df-c45dcefe1ccd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-036",
@@ -833,7 +868,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "50a27693-6614-4056-9cc7-c68c899f5b8d",
-    "image": "50a27693-6614-4056-9cc7-c68c899f5b8d.jpg"
+    "image": "50a27693-6614-4056-9cc7-c68c899f5b8d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-037",
@@ -855,7 +891,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "94bf1acd-382d-49b4-9c70-f1e3994f4d7e",
-    "image": "94bf1acd-382d-49b4-9c70-f1e3994f4d7e.jpg"
+    "image": "94bf1acd-382d-49b4-9c70-f1e3994f4d7e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-038",
@@ -877,7 +914,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "a475c5be-15c9-4b92-8dd8-cc0cba24d115",
-    "image": "a475c5be-15c9-4b92-8dd8-cc0cba24d115.jpg"
+    "image": "a475c5be-15c9-4b92-8dd8-cc0cba24d115.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TTW-039",
@@ -899,7 +937,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "f07055c2-c757-4872-9895-70d66824451a",
-    "image": "f07055c2-c757-4872-9895-70d66824451a.jpg"
+    "image": "f07055c2-c757-4872-9895-70d66824451a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-040",
@@ -921,7 +960,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "78c181d1-f65d-4605-af57-f4e8d0872eb0",
-    "image": "78c181d1-f65d-4605-af57-f4e8d0872eb0.jpg"
+    "image": "78c181d1-f65d-4605-af57-f4e8d0872eb0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-041",
@@ -943,7 +983,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "ea1d0826-4afd-4c7e-873b-fa4292a07f53",
-    "image": "ea1d0826-4afd-4c7e-873b-fa4292a07f53.jpg"
+    "image": "ea1d0826-4afd-4c7e-873b-fa4292a07f53.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TTW-042",
@@ -965,7 +1006,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "90efbdd5-926a-42c4-8850-39a110c786d4",
-    "image": "90efbdd5-926a-42c4-8850-39a110c786d4.jpg"
+    "image": "90efbdd5-926a-42c4-8850-39a110c786d4.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TTW-043",
@@ -987,7 +1029,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "8666a059-1d9b-4d0b-8a01-c4d56ef94959",
-    "image": "8666a059-1d9b-4d0b-8a01-c4d56ef94959.jpg"
+    "image": "8666a059-1d9b-4d0b-8a01-c4d56ef94959.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-044",
@@ -1009,51 +1052,53 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "d9272818-bb9b-4d6a-9e71-566c35414f2e",
-    "image": "d9272818-bb9b-4d6a-9e71-566c35414f2e.jpg"
+    "image": "d9272818-bb9b-4d6a-9e71-566c35414f2e.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TTW-045",
-    "name": "Valentina, Plotting Lord of the Seas",
-    "Type": "Ruler",
-    "Race": "Overlord",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {U}{2}.\n{U}{1}: Search your main deck for a regalia, reveal it and put it into your hand. Then shuffle your main deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"There is only one path to victory, make allies.\"",
-    "Artist": "石商",
-    "Rarity": "R",
-    "Fowid": "808",
-    "Cluster": "03 - Alice",
-    "Set Name": "012 - The Twilight Wanderer",
-    "Set Code": "TTW",
-    "id": "00861e75-307e-4b2c-9019-fe02b1493c89",
-    "image": "00861e75-307e-4b2c-9019-fe02b1493c89.jpg"
-  },
-  {
-    "Card Number": "TTW-045J",
-    "name": "Overlord of the Seven Lands, Valentina",
-    "Type": "J-Ruler",
+    "Card Number": "TTW-045|TTW-045J",
+    "name": "Valentina, Plotting Lord of the Seas // Overlord of the Seven Lands, Valentina",
+    "Type": "Ruler|J-Ruler",
     "Race": "Overlord",
     "Cost": "",
     "Colour": "U",
     "ATK": "700",
     "DEF": "700",
-    "Abilities": "[Enter] ]]] You may reveal any number of Seven Kings J-Rulers with different names you own from outside the game and keep them revealed until end of game. This card gains [+100/+100] for each card revealed this way and it gains all of those cards names and God's Art abilities.",
+    "Abilities": "[Judgment] {U}{2}.\n{U}{1}: Search your main deck for a regalia, reveal it and put it into your hand. Then shuffle your main deck.|[Enter] ]]] You may reveal any number of Seven Kings J-Rulers with different names you own from outside the game and keep them revealed until end of game. This card gains [+100/+100] for each card revealed this way and it gains all of those cards names and God's Art abilities.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"To rule, the greatest love, it's satisfying enough just to obtain such power, like love for a child.\"",
+    "Flavour": "\"There is only one path to victory, make allies.\"|\"To rule, the greatest love, it's satisfying enough just to obtain such power, like love for a child.\"",
     "Artist": "石商",
     "Rarity": "R",
-    "Fowid": "809",
+    "Fowid": "808|809",
     "Cluster": "03 - Alice",
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
-    "id": "1e95e298-f3bd-41e2-bdf0-327f36cb9ca5",
-    "image": "1e95e298-f3bd-41e2-bdf0-327f36cb9ca5.jpg"
+    "id": "00861e75-307e-4b2c-9019-fe02b1493c89",
+    "image": "00861e75-307e-4b2c-9019-fe02b1493c89.jpg",
+    "Card Type": "Ruler",
+    "backimage": "1e95e298-f3bd-41e2-bdf0-327f36cb9ca5.jpg",
+    "alternate1_Card Number": "TTW-045J",
+    "alternate1_name": "Overlord of the Seven Lands, Valentina",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Overlord",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[Enter] ]]] You may reveal any number of Seven Kings J-Rulers with different names you own from outside the game and keep them revealed until end of game. This card gains [+100/+100] for each card revealed this way and it gains all of those cards names and God's Art abilities.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"To rule, the greatest love, it's satisfying enough just to obtain such power, like love for a child.\"",
+    "alternate1_Artist": "石商",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "809",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "012 - The Twilight Wanderer",
+    "alternate1_Set Code": "TTW",
+    "alternate1_id": "1e95e298-f3bd-41e2-bdf0-327f36cb9ca5",
+    "alternate1_image": "1e95e298-f3bd-41e2-bdf0-327f36cb9ca5.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTW-046",
@@ -1075,7 +1120,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "aaf402d4-cb60-4c5a-9e75-1060101d8b25",
-    "image": "aaf402d4-cb60-4c5a-9e75-1060101d8b25.jpg"
+    "image": "aaf402d4-cb60-4c5a-9e75-1060101d8b25.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-047",
@@ -1097,7 +1143,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "0b1d64b9-34e7-4f90-b494-127a9e588d09",
-    "image": "0b1d64b9-34e7-4f90-b494-127a9e588d09.jpg"
+    "image": "0b1d64b9-34e7-4f90-b494-127a9e588d09.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TTW-048",
@@ -1119,7 +1166,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "51443ca3-58fd-4615-a376-17266ddd67e5",
-    "image": "51443ca3-58fd-4615-a376-17266ddd67e5.jpg"
+    "image": "51443ca3-58fd-4615-a376-17266ddd67e5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-049",
@@ -1141,7 +1189,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "1397fcac-e367-4666-b930-418be68e36bf",
-    "image": "1397fcac-e367-4666-b930-418be68e36bf.jpg"
+    "image": "1397fcac-e367-4666-b930-418be68e36bf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-050",
@@ -1163,7 +1212,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "613520ac-8627-4083-b8f0-994892af0378",
-    "image": "613520ac-8627-4083-b8f0-994892af0378.jpg"
+    "image": "613520ac-8627-4083-b8f0-994892af0378.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TTW-051",
@@ -1185,7 +1235,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "a092facb-7d28-42b7-9b7a-2f660b83aba2",
-    "image": "a092facb-7d28-42b7-9b7a-2f660b83aba2.jpg"
+    "image": "a092facb-7d28-42b7-9b7a-2f660b83aba2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-052",
@@ -1207,7 +1258,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "2f894e44-d672-4e66-a7f4-7ddfabbb4464",
-    "image": "2f894e44-d672-4e66-a7f4-7ddfabbb4464.jpg"
+    "image": "2f894e44-d672-4e66-a7f4-7ddfabbb4464.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-053",
@@ -1229,7 +1281,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "f5eb63c1-652c-4911-9dfb-bb7d1ab25c5e",
-    "image": "f5eb63c1-652c-4911-9dfb-bb7d1ab25c5e.jpg"
+    "image": "f5eb63c1-652c-4911-9dfb-bb7d1ab25c5e.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TTW-054",
@@ -1251,7 +1304,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "33c79635-c6ac-4086-b2e1-05d596b3f6a8",
-    "image": "33c79635-c6ac-4086-b2e1-05d596b3f6a8.jpg"
+    "image": "33c79635-c6ac-4086-b2e1-05d596b3f6a8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-055",
@@ -1273,7 +1327,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "f4289ae7-f1a0-4e5e-81a3-d15f0aed47ca",
-    "image": "f4289ae7-f1a0-4e5e-81a3-d15f0aed47ca.jpg"
+    "image": "f4289ae7-f1a0-4e5e-81a3-d15f0aed47ca.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TTW-056",
@@ -1295,7 +1350,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "b09a6f3d-210c-492c-ac60-f2266d2625b9",
-    "image": "b09a6f3d-210c-492c-ac60-f2266d2625b9.jpg"
+    "image": "b09a6f3d-210c-492c-ac60-f2266d2625b9.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TTW-057",
@@ -1317,7 +1373,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "ea0fb679-0e8b-477e-9e05-1f575943b3d1",
-    "image": "ea0fb679-0e8b-477e-9e05-1f575943b3d1.jpg"
+    "image": "ea0fb679-0e8b-477e-9e05-1f575943b3d1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-058",
@@ -1339,7 +1396,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "a05e3934-251e-49f0-b3ab-35f39c9acaee",
-    "image": "a05e3934-251e-49f0-b3ab-35f39c9acaee.jpg"
+    "image": "a05e3934-251e-49f0-b3ab-35f39c9acaee.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TTW-059",
@@ -1361,7 +1419,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "6c4fbcbd-4823-4ba4-9247-ab43c67f8a22",
-    "image": "6c4fbcbd-4823-4ba4-9247-ab43c67f8a22.jpg"
+    "image": "6c4fbcbd-4823-4ba4-9247-ab43c67f8a22.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-060",
@@ -1383,7 +1442,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "ff5a34eb-6edd-40a1-b027-11adb8c156de",
-    "image": "ff5a34eb-6edd-40a1-b027-11adb8c156de.jpg"
+    "image": "ff5a34eb-6edd-40a1-b027-11adb8c156de.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TTW-061",
@@ -1405,7 +1465,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "dc003780-00cc-4663-8a18-f9fa52a896a0",
-    "image": "dc003780-00cc-4663-8a18-f9fa52a896a0.jpg"
+    "image": "dc003780-00cc-4663-8a18-f9fa52a896a0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-062",
@@ -1427,51 +1488,53 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "a5c1334a-c8a0-48fd-abeb-da21e2cb4bb6",
-    "image": "a5c1334a-c8a0-48fd-abeb-da21e2cb4bb6.jpg"
+    "image": "a5c1334a-c8a0-48fd-abeb-da21e2cb4bb6.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TTW-063",
-    "name": "Reflect, Child of Potential",
-    "Type": "Ruler",
-    "Race": "Little Boy",
+    "Card Number": "TTW-063|TTW-063J",
+    "name": "Reflect, Child of Potential // Refrain, Child of Convergence",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Little Boy|Little Girl",
     "Cost": "",
     "Colour": "G",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Judgment] {0}.\n{0}: Choose one. Play this ability only during your turn and only once per turn -\nTarget resonator gains [+200/+200] until end of turn. Put a magic counter on this card.\nor draw a card, put a card from your hand on the bottom of your main deck. Put a magic counter on this card;\nor recover target resonator at the end of turn. Put a magic counter on this card.",
+    "Abilities": "[Judgment] {0}.\n{0}: Choose one. Play this ability only during your turn and only once per turn -\nTarget resonator gains [+200/+200] until end of turn. Put a magic counter on this card.\nor draw a card, put a card from your hand on the bottom of your main deck. Put a magic counter on this card;\nor recover target resonator at the end of turn. Put a magic counter on this card.|{0}: Put this card into your ruler area, as a ruler. Play this ability only during your opponent's turn.\n{Rest}, remove two magic counters from this card: Return target resonator to its owner's hand.\n{Rest}, remove X magic counters from this card: Cancel target normal spell your opponent controls with total cost X.\n{Rest}, remove four magic counters from this card: Search your main deck for a card and put put it into your hand. Then shuffle your main deck.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "A power not seen in this world is gathering.",
+    "Flavour": "A power not seen in this world is gathering.|When all possibilities converge at one point, the resulting ower will manifest itself.",
     "Artist": "ケルビン",
     "Rarity": "R",
-    "Fowid": "827",
+    "Fowid": "827|828",
     "Cluster": "03 - Alice",
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "7bbb8a58-4a67-437f-9d34-4f1adaf34520",
-    "image": "7bbb8a58-4a67-437f-9d34-4f1adaf34520.jpg"
-  },
-  {
-    "Card Number": "TTW-063J",
-    "name": "Refrain, Child of Convergence",
-    "Type": "J-Ruler",
-    "Race": "Little Girl",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{0}: Put this card into your ruler area, as a ruler. Play this ability only during your opponent's turn.\n{Rest}, remove two magic counters from this card: Return target resonator to its owner's hand.\n{Rest}, remove X magic counters from this card: Cancel target normal spell your opponent controls with total cost X.\n{Rest}, remove four magic counters from this card: Search your main deck for a card and put put it into your hand. Then shuffle your main deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "When all possibilities converge at one point, the resulting ower will manifest itself.",
-    "Artist": "ケルビン",
-    "Rarity": "R",
-    "Fowid": "828",
-    "Cluster": "03 - Alice",
-    "Set Name": "012 - The Twilight Wanderer",
-    "Set Code": "TTW",
-    "id": "e9462006-2add-4d55-856a-d36e8258c364",
-    "image": "e9462006-2add-4d55-856a-d36e8258c364.jpg"
+    "image": "7bbb8a58-4a67-437f-9d34-4f1adaf34520.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e9462006-2add-4d55-856a-d36e8258c364.jpg",
+    "alternate1_Card Number": "TTW-063J",
+    "alternate1_name": "Refrain, Child of Convergence",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Little Girl",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "{0}: Put this card into your ruler area, as a ruler. Play this ability only during your opponent's turn.\n{Rest}, remove two magic counters from this card: Return target resonator to its owner's hand.\n{Rest}, remove X magic counters from this card: Cancel target normal spell your opponent controls with total cost X.\n{Rest}, remove four magic counters from this card: Search your main deck for a card and put put it into your hand. Then shuffle your main deck.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "When all possibilities converge at one point, the resulting ower will manifest itself.",
+    "alternate1_Artist": "ケルビン",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "828",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "012 - The Twilight Wanderer",
+    "alternate1_Set Code": "TTW",
+    "alternate1_id": "e9462006-2add-4d55-856a-d36e8258c364",
+    "alternate1_image": "e9462006-2add-4d55-856a-d36e8258c364.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTW-064",
@@ -1493,7 +1556,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "b991e5ea-50a6-403a-b510-4d64f5fb7da1",
-    "image": "b991e5ea-50a6-403a-b510-4d64f5fb7da1.jpg"
+    "image": "b991e5ea-50a6-403a-b510-4d64f5fb7da1.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TTW-065",
@@ -1515,7 +1579,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "6133630f-4d1f-422a-b4eb-9e9ede071651",
-    "image": "6133630f-4d1f-422a-b4eb-9e9ede071651.jpg"
+    "image": "6133630f-4d1f-422a-b4eb-9e9ede071651.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-066",
@@ -1537,7 +1602,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "d04e42f2-2f78-453d-ac37-f6e2326785d7",
-    "image": "d04e42f2-2f78-453d-ac37-f6e2326785d7.jpg"
+    "image": "d04e42f2-2f78-453d-ac37-f6e2326785d7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-067",
@@ -1559,7 +1625,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "fd5bc96c-3cfb-4c7f-9985-5c2e3af63101",
-    "image": "fd5bc96c-3cfb-4c7f-9985-5c2e3af63101.jpg"
+    "image": "fd5bc96c-3cfb-4c7f-9985-5c2e3af63101.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-068",
@@ -1581,7 +1648,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "9f2c76c2-fdcc-494b-8c20-f6df2df33736",
-    "image": "9f2c76c2-fdcc-494b-8c20-f6df2df33736.jpg"
+    "image": "9f2c76c2-fdcc-494b-8c20-f6df2df33736.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TTW-069",
@@ -1603,7 +1671,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "3195ab3b-dd6e-412f-b55a-cdc755147d69",
-    "image": "3195ab3b-dd6e-412f-b55a-cdc755147d69.jpg"
+    "image": "3195ab3b-dd6e-412f-b55a-cdc755147d69.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-070",
@@ -1625,7 +1694,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "40397e2b-3e36-4e82-96fa-834bb727601b",
-    "image": "40397e2b-3e36-4e82-96fa-834bb727601b.jpg"
+    "image": "40397e2b-3e36-4e82-96fa-834bb727601b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-071",
@@ -1647,7 +1717,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "63727e65-87f6-4b78-943f-a9085e04876e",
-    "image": "63727e65-87f6-4b78-943f-a9085e04876e.jpg"
+    "image": "63727e65-87f6-4b78-943f-a9085e04876e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-072",
@@ -1669,7 +1740,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "44ecb0b7-2e7f-4393-baba-9d001860b51d",
-    "image": "44ecb0b7-2e7f-4393-baba-9d001860b51d.jpg"
+    "image": "44ecb0b7-2e7f-4393-baba-9d001860b51d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-073",
@@ -1691,7 +1763,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "7b07a6f2-41d9-41b0-8e58-976dfd02f83d",
-    "image": "7b07a6f2-41d9-41b0-8e58-976dfd02f83d.jpg"
+    "image": "7b07a6f2-41d9-41b0-8e58-976dfd02f83d.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TTW-074",
@@ -1713,7 +1786,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "2798c1a9-7ff6-4cb7-b3c1-5bc7e04f0861",
-    "image": "2798c1a9-7ff6-4cb7-b3c1-5bc7e04f0861.jpg"
+    "image": "2798c1a9-7ff6-4cb7-b3c1-5bc7e04f0861.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TTW-075",
@@ -1735,51 +1809,53 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "d2eea4ac-a6b4-4fdf-bb53-8b500abf78a5",
-    "image": "d2eea4ac-a6b4-4fdf-bb53-8b500abf78a5.jpg"
+    "image": "d2eea4ac-a6b4-4fdf-bb53-8b500abf78a5.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
-    "Card Number": "TTW-076",
-    "name": "Girl in Twilight Garb",
-    "Type": "Ruler",
-    "Race": "Wanderer",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {0}. Play this ability only if you have removed three or more cards from the game with this card's ability.\n{B}: Remove target card in your opponent's graveyard from the game.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "In the middle of the great conference, the girl appeared. With a shadow darker than black. Her arrival signaled the coming darkness, a darkness reflected in the girl's own heart.",
-    "Artist": "祀花よう子",
-    "Rarity": "R",
-    "Fowid": "841",
-    "Cluster": "03 - Alice",
-    "Set Name": "012 - The Twilight Wanderer",
-    "Set Code": "TTW",
-    "id": "12da5336-a130-4fc0-8421-4a0b4ad158ee",
-    "image": "12da5336-a130-4fc0-8421-4a0b4ad158ee.jpg"
-  },
-  {
-    "Card Number": "TTW-076J",
-    "name": "Dark Alice, Maiden of Slaughter",
-    "Type": "J-Ruler",
-    "Race": "Shadow|Knight",
+    "Card Number": "TTW-076|TTW-076J",
+    "name": "Girl in Twilight Garb // Dark Alice, Maiden of Slaughter",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Wanderer|Shadow|Knight",
     "Cost": "",
     "Colour": "B",
     "ATK": "900",
     "DEF": "900",
-    "Abilities": "[Target Attack]\nWhen this card enters your field, choose a number. Destroy all resonators with total cost equal to the chosen number.\nGod's Art [Walpurgis Night] {B}{B}: J/resonators your opponent controls gain [-200/-200]. Search your main deck for a card named \"Schrödinger, the Fallen Black Cat\" and put it into your field. Then shuffle your main deck. (Play God's Art [Walpurgis Night] only once per game.)",
+    "Abilities": "[Judgment] {0}. Play this ability only if you have removed three or more cards from the game with this card's ability.\n{B}: Remove target card in your opponent's graveyard from the game.|[Target Attack]\nWhen this card enters your field, choose a number. Destroy all resonators with total cost equal to the chosen number.\nGod's Art [Walpurgis Night] {B}{B}: J/resonators your opponent controls gain [-200/-200]. Search your main deck for a card named \"Schrödinger, the Fallen Black Cat\" and put it into your field. Then shuffle your main deck. (Play God's Art [Walpurgis Night] only once per game.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Everyone, I bid you hello... and goodbye!\"",
+    "Flavour": "In the middle of the great conference, the girl appeared. With a shadow darker than black. Her arrival signaled the coming darkness, a darkness reflected in the girl's own heart.|\"Everyone, I bid you hello... and goodbye!\"",
     "Artist": "祀花よう子",
     "Rarity": "R",
-    "Fowid": "842",
+    "Fowid": "841|842",
     "Cluster": "03 - Alice",
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
-    "id": "2800fa47-e7fe-4c8f-9946-8e16b8d7c8bd",
-    "image": "2800fa47-e7fe-4c8f-9946-8e16b8d7c8bd.jpg"
+    "id": "12da5336-a130-4fc0-8421-4a0b4ad158ee",
+    "image": "12da5336-a130-4fc0-8421-4a0b4ad158ee.jpg",
+    "Card Type": "Ruler",
+    "backimage": "2800fa47-e7fe-4c8f-9946-8e16b8d7c8bd.jpg",
+    "alternate1_Card Number": "TTW-076J",
+    "alternate1_name": "Dark Alice, Maiden of Slaughter",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Shadow|Knight",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "[Target Attack]\nWhen this card enters your field, choose a number. Destroy all resonators with total cost equal to the chosen number.\nGod's Art [Walpurgis Night] {B}{B}: J/resonators your opponent controls gain [-200/-200]. Search your main deck for a card named \"Schrödinger, the Fallen Black Cat\" and put it into your field. Then shuffle your main deck. (Play God's Art [Walpurgis Night] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Everyone, I bid you hello... and goodbye!\"",
+    "alternate1_Artist": "祀花よう子",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "842",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "012 - The Twilight Wanderer",
+    "alternate1_Set Code": "TTW",
+    "alternate1_id": "2800fa47-e7fe-4c8f-9946-8e16b8d7c8bd",
+    "alternate1_image": "2800fa47-e7fe-4c8f-9946-8e16b8d7c8bd.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTW-077",
@@ -1801,7 +1877,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "74139107-13c7-4cbc-a470-0a0ca9aee383",
-    "image": "74139107-13c7-4cbc-a470-0a0ca9aee383.jpg"
+    "image": "74139107-13c7-4cbc-a470-0a0ca9aee383.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-078",
@@ -1823,7 +1900,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "74a7d644-a3b6-4b4c-a053-5800ceec1c90",
-    "image": "74a7d644-a3b6-4b4c-a053-5800ceec1c90.jpg"
+    "image": "74a7d644-a3b6-4b4c-a053-5800ceec1c90.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-079",
@@ -1845,7 +1923,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "69e6bb6c-1ffb-4062-9606-c6e4ec0e7938",
-    "image": "69e6bb6c-1ffb-4062-9606-c6e4ec0e7938.jpg"
+    "image": "69e6bb6c-1ffb-4062-9606-c6e4ec0e7938.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-080",
@@ -1867,7 +1946,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "61a62234-e91b-4aee-9826-8fd8a6346b50",
-    "image": "61a62234-e91b-4aee-9826-8fd8a6346b50.jpg"
+    "image": "61a62234-e91b-4aee-9826-8fd8a6346b50.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-081",
@@ -1889,7 +1969,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "efd41255-ac87-45df-b0df-de40871741bd",
-    "image": "efd41255-ac87-45df-b0df-de40871741bd.jpg"
+    "image": "efd41255-ac87-45df-b0df-de40871741bd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-082",
@@ -1911,7 +1992,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "99d09e29-d867-4b7d-bd58-4f47f4872d89",
-    "image": "99d09e29-d867-4b7d-bd58-4f47f4872d89.jpg"
+    "image": "99d09e29-d867-4b7d-bd58-4f47f4872d89.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-083",
@@ -1933,7 +2015,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "9fb46ef6-f8e0-4130-82a4-8d1242cacb9e",
-    "image": "9fb46ef6-f8e0-4130-82a4-8d1242cacb9e.jpg"
+    "image": "9fb46ef6-f8e0-4130-82a4-8d1242cacb9e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-084",
@@ -1955,7 +2038,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "d83b5a8c-e19e-4545-9bb1-43b789bb93e8",
-    "image": "d83b5a8c-e19e-4545-9bb1-43b789bb93e8.jpg"
+    "image": "d83b5a8c-e19e-4545-9bb1-43b789bb93e8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-085",
@@ -1977,7 +2061,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "f0320860-1026-4628-97d8-cdd1d83ac3b9",
-    "image": "f0320860-1026-4628-97d8-cdd1d83ac3b9.jpg"
+    "image": "f0320860-1026-4628-97d8-cdd1d83ac3b9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-086",
@@ -1999,7 +2084,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "68616cf2-fbaa-47ca-83a6-d088cc6e9cc0",
-    "image": "68616cf2-fbaa-47ca-83a6-d088cc6e9cc0.jpg"
+    "image": "68616cf2-fbaa-47ca-83a6-d088cc6e9cc0.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TTW-087",
@@ -2021,7 +2107,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "e854faa4-efa9-4ff1-ac7d-000a6df91cd7",
-    "image": "e854faa4-efa9-4ff1-ac7d-000a6df91cd7.jpg"
+    "image": "e854faa4-efa9-4ff1-ac7d-000a6df91cd7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-088",
@@ -2043,7 +2130,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "78068d83-99f9-4e3f-a54e-44dc94270972",
-    "image": "78068d83-99f9-4e3f-a54e-44dc94270972.jpg"
+    "image": "78068d83-99f9-4e3f-a54e-44dc94270972.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-089",
@@ -2065,7 +2153,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "9d744528-46de-4c1a-b16d-ce145b79683c",
-    "image": "9d744528-46de-4c1a-b16d-ce145b79683c.jpg"
+    "image": "9d744528-46de-4c1a-b16d-ce145b79683c.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TTW-090",
@@ -2087,7 +2176,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "26aad96b-5d5d-433e-ac3a-4e4fd20f59e0",
-    "image": "26aad96b-5d5d-433e-ac3a-4e4fd20f59e0.jpg"
+    "image": "26aad96b-5d5d-433e-ac3a-4e4fd20f59e0.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TTW-091",
@@ -2109,7 +2199,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "d2ae47e9-a699-48db-9e18-195432d46f27",
-    "image": "d2ae47e9-a699-48db-9e18-195432d46f27.jpg"
+    "image": "d2ae47e9-a699-48db-9e18-195432d46f27.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-092",
@@ -2131,7 +2222,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "63f3446d-b3c5-41d7-bd6f-35b348f9e4ac",
-    "image": "63f3446d-b3c5-41d7-bd6f-35b348f9e4ac.jpg"
+    "image": "63f3446d-b3c5-41d7-bd6f-35b348f9e4ac.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-093",
@@ -2153,7 +2245,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "44068a1c-0ad5-4687-8e56-8e532aa1dc18",
-    "image": "44068a1c-0ad5-4687-8e56-8e532aa1dc18.jpg"
+    "image": "44068a1c-0ad5-4687-8e56-8e532aa1dc18.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-094",
@@ -2175,7 +2268,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "b99aebc4-5cbe-4b1f-90bd-5cb7f8957296",
-    "image": "b99aebc4-5cbe-4b1f-90bd-5cb7f8957296.jpg"
+    "image": "b99aebc4-5cbe-4b1f-90bd-5cb7f8957296.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-095",
@@ -2197,7 +2291,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "2207fdcd-38e7-4971-8fc4-d7e3cef0e9cd",
-    "image": "2207fdcd-38e7-4971-8fc4-d7e3cef0e9cd.jpg"
+    "image": "2207fdcd-38e7-4971-8fc4-d7e3cef0e9cd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTW-096",
@@ -2219,7 +2314,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "b5a14c51-f4dd-4a42-aba3-bdfdd4d5d8df",
-    "image": "b5a14c51-f4dd-4a42-aba3-bdfdd4d5d8df.jpg"
+    "image": "b5a14c51-f4dd-4a42-aba3-bdfdd4d5d8df.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TTW-097",
@@ -2241,7 +2337,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "44cd4154-dccc-4468-9b84-c26d2688c00b",
-    "image": "44cd4154-dccc-4468-9b84-c26d2688c00b.jpg"
+    "image": "44cd4154-dccc-4468-9b84-c26d2688c00b.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TTW-098",
@@ -2263,7 +2360,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "e44e97f9-e915-4efe-9c44-b906e6bd3097",
-    "image": "e44e97f9-e915-4efe-9c44-b906e6bd3097.jpg"
+    "image": "e44e97f9-e915-4efe-9c44-b906e6bd3097.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TTW-099",
@@ -2285,7 +2383,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "5343506e-f728-4872-9932-6c6dd7c400ec",
-    "image": "5343506e-f728-4872-9932-6c6dd7c400ec.jpg"
+    "image": "5343506e-f728-4872-9932-6c6dd7c400ec.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TTW-100",
@@ -2307,7 +2406,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "dbbd2aef-b7e6-4ed2-ad8a-ef924b51e1bc",
-    "image": "dbbd2aef-b7e6-4ed2-ad8a-ef924b51e1bc.jpg"
+    "image": "dbbd2aef-b7e6-4ed2-ad8a-ef924b51e1bc.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "TTW-101",
@@ -2329,7 +2429,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "00503c3c-1889-460a-9baf-4c07806f3dcc",
-    "image": "00503c3c-1889-460a-9baf-4c07806f3dcc.jpg"
+    "image": "00503c3c-1889-460a-9baf-4c07806f3dcc.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTW-102",
@@ -2351,7 +2452,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "356d2191-645e-41d2-9b26-c65f93499242",
-    "image": "356d2191-645e-41d2-9b26-c65f93499242.jpg"
+    "image": "356d2191-645e-41d2-9b26-c65f93499242.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTW-103",
@@ -2373,7 +2475,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "af1195ad-4481-4bd2-853c-9531b039f8e5",
-    "image": "af1195ad-4481-4bd2-853c-9531b039f8e5.jpg"
+    "image": "af1195ad-4481-4bd2-853c-9531b039f8e5.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTW-104",
@@ -2395,7 +2498,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "ce52731d-f1ee-469f-930c-900e20fc8386",
-    "image": "ce52731d-f1ee-469f-930c-900e20fc8386.jpg"
+    "image": "ce52731d-f1ee-469f-930c-900e20fc8386.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTW-105",
@@ -2417,7 +2521,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "87d0bf9d-b314-456d-af54-0ff600d491f6",
-    "image": "87d0bf9d-b314-456d-af54-0ff600d491f6.jpg"
+    "image": "87d0bf9d-b314-456d-af54-0ff600d491f6.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTW-106",
@@ -2439,7 +2544,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "2a22b442-bb42-4349-95fe-245b695e0c72",
-    "image": "2a22b442-bb42-4349-95fe-245b695e0c72.jpg"
+    "image": "2a22b442-bb42-4349-95fe-245b695e0c72.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "TTW-107",
@@ -2461,7 +2567,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "ac13ec63-eb91-491c-a82d-8a30bd24ae9f",
-    "image": "ac13ec63-eb91-491c-a82d-8a30bd24ae9f.jpg"
+    "image": "ac13ec63-eb91-491c-a82d-8a30bd24ae9f.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "TTW-108",
@@ -2483,7 +2590,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "c462cfaf-0b04-4933-bb89-e5f866da2cc3",
-    "image": "c462cfaf-0b04-4933-bb89-e5f866da2cc3.jpg"
+    "image": "c462cfaf-0b04-4933-bb89-e5f866da2cc3.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "TTW-109",
@@ -2505,7 +2613,8 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "38e3cf56-68ac-41ed-9ff1-36a5e51376f8",
-    "image": "38e3cf56-68ac-41ed-9ff1-36a5e51376f8.jpg"
+    "image": "38e3cf56-68ac-41ed-9ff1-36a5e51376f8.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "TTW-110",
@@ -2527,50 +2636,52 @@
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
     "id": "207f196c-3778-450e-9fac-fc6fe0b8ac19",
-    "image": "207f196c-3778-450e-9fac-fc6fe0b8ac19.jpg"
+    "image": "207f196c-3778-450e-9fac-fc6fe0b8ac19.jpg",
+    "Card Type": "Magic Stone"
   },
   {
-    "Card Number": "TTW-111",
-    "name": "Alice, the Ally of Fairies",
-    "Type": "Ruler",
-    "Race": "Wanderer",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {7}. You may pay {1} less to play this ability for each Fairy you control.\n[Energize] {W}\nThis card gains \"Alice, Girl of the Lake\" in addition to its other names.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Wednesday",
-    "Rarity": "AR",
-    "Fowid": "1847",
-    "Cluster": "03 - Alice",
-    "Set Name": "012 - The Twilight Wanderer",
-    "Set Code": "TTW",
-    "id": "4ce9e35f-fddd-48b3-bc67-cff2081b41a6",
-    "image": "4ce9e35f-fddd-48b3-bc67-cff2081b41a6.jpg"
-  },
-  {
-    "Card Number": "TTW-111J",
-    "name": "Alice, Paladin of Unwavering Hope",
-    "Type": "J-Ruler",
-    "Race": "Queen|Fairy",
+    "Card Number": "TTW-111|TTW-111J",
+    "name": "Alice, the Ally of Fairies // Alice, Paladin of Unwavering Hope",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Wanderer|Queen|Fairy",
     "Cost": "",
     "Colour": "W",
     "ATK": "1100",
     "DEF": "1100",
-    "Abilities": "[Flying]\nThis card gains \"Alice, Fairy Queen\" in addition to its other names.\nWhen this card enters your field ⇒ Recover all Fairies you control.\nGod's Art [Return to Arcadia] {W}: J/resonators you control gain [+200/+200]. Search your deck for a card named \"Excalibur, the Spirit God's Sword\" and put it into your field. Then shuffle your deck. (Play God's Art [Return to Arcadia] only once per game.)",
+    "Abilities": "[Judgment] {7}. You may pay {1} less to play this ability for each Fairy you control.\n[Energize] {W}\nThis card gains \"Alice, Girl of the Lake\" in addition to its other names.|[Flying]\nThis card gains \"Alice, Fairy Queen\" in addition to its other names.\nWhen this card enters your field ⇒ Recover all Fairies you control.\nGod's Art [Return to Arcadia] {W}: J/resonators you control gain [+200/+200]. Search your deck for a card named \"Excalibur, the Spirit God's Sword\" and put it into your field. Then shuffle your deck. (Play God's Art [Return to Arcadia] only once per game.)",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Wednesday",
     "Rarity": "AR",
-    "Fowid": "1848",
+    "Fowid": "1847|1848",
     "Cluster": "03 - Alice",
     "Set Name": "012 - The Twilight Wanderer",
     "Set Code": "TTW",
-    "id": "9365c0b9-d194-4e0b-b88f-2aa3f4fb77d1",
-    "image": "9365c0b9-d194-4e0b-b88f-2aa3f4fb77d1.jpg"
+    "id": "4ce9e35f-fddd-48b3-bc67-cff2081b41a6",
+    "image": "4ce9e35f-fddd-48b3-bc67-cff2081b41a6.jpg",
+    "Card Type": "Ruler",
+    "backimage": "9365c0b9-d194-4e0b-b88f-2aa3f4fb77d1.jpg",
+    "alternate1_Card Number": "TTW-111J",
+    "alternate1_name": "Alice, Paladin of Unwavering Hope",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Queen|Fairy",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1100",
+    "alternate1_DEF": "1100",
+    "alternate1_Abilities": "[Flying]\nThis card gains \"Alice, Fairy Queen\" in addition to its other names.\nWhen this card enters your field ⇒ Recover all Fairies you control.\nGod's Art [Return to Arcadia] {W}: J/resonators you control gain [+200/+200]. Search your deck for a card named \"Excalibur, the Spirit God's Sword\" and put it into your field. Then shuffle your deck. (Play God's Art [Return to Arcadia] only once per game.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Wednesday",
+    "alternate1_Rarity": "AR",
+    "alternate1_Fowid": "1848",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "012 - The Twilight Wanderer",
+    "alternate1_Set Code": "TTW",
+    "alternate1_id": "9365c0b9-d194-4e0b-b88f-2aa3f4fb77d1",
+    "alternate1_image": "9365c0b9-d194-4e0b-b88f-2aa3f4fb77d1.jpg",
+    "alternate1_Card Type": "J-Ruler"
   }
 ]

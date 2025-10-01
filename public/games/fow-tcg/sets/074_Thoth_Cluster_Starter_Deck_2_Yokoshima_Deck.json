@@ -1,14 +1,14 @@
 [
   {
-    "Card Number": "TSD2-001",
-    "name": "Yokoshima HANADA",
-    "Type": "Ruler",
-    "Race": "Ancient|HANADA",
+    "Card Number": "TSD2-001|TSD2-001J",
+    "name": "Yokoshima HANADA // Yokoshima, Monarch of the Exploding Flame",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Ancient|HANADA|Ancient|HANADA|Monarch",
     "Cost": "",
     "Colour": "R|G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Mana] (2) (You start the game with two mana counters on this card.)\nAncient Magic chants in your hand or graveyard gain [Quickcast].\nAncient Magic chants and Ancient resonators you control gain \"As an additional cost to play this card, you may remove a mana counter from a J/ruler you control. If you do, you pay {W}, {R}, {U}, {G}, or {B} less to play this card.\" in all zones.\nCards with [Remnant] you control gain \"As an additional cost to play this card, you may remove a mana counter from a J/ruler you control. If you do, you pay {1} less to play this card.\" in all zones.\nAt end of turn ]]] Put a mana counter on this card.\n[Judgment] {R}{G}",
+    "ATK": "800",
+    "DEF": "1200",
+    "Abilities": "[Mana] (2) (You start the game with two mana counters on this card.)\nAncient Magic chants in your hand or graveyard gain [Quickcast].\nAncient Magic chants and Ancient resonators you control gain \"As an additional cost to play this card, you may remove a mana counter from a J/ruler you control. If you do, you pay {W}, {R}, {U}, {G}, or {B} less to play this card.\" in all zones.\nCards with [Remnant] you control gain \"As an additional cost to play this card, you may remove a mana counter from a J/ruler you control. If you do, you pay {1} less to play this card.\" in all zones.\nAt end of turn ]]] Put a mana counter on this card.\n[Judgment] {R}{G}|[Imperishable]\n[Barrier] {W}{U}\nAs you play an Ancient Magic chant, awaken it without paying the [Awakening] cost.\n[Enter] or when this card attacks ]]] Put the top card of your magic stone deck into the field rested. This ability triggers only once per turn.\n{R}: Target Ancient Magic chant in your graveyard gains \"You may play this card from your graveyard without paying its cost. If you do, expel this card as it leaves the chase.\" until end of turn. Play this ability only once per turn.\n{R}{R}: Copy target chant spell. You may choose new targets for the copy. Play this ability only once per turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -19,29 +19,30 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "cd2a8743-218b-4ab1-a99b-f920470467ce",
-    "image": "cd2a8743-218b-4ab1-a99b-f920470467ce.jpg"
-  },
-  {
-    "Card Number": "TSD2-001J",
-    "name": "Yokoshima, Monarch of the Exploding Flame",
-    "Type": "J-Ruler",
-    "Race": "Ancient|HANADA|Monarch",
-    "Cost": "",
-    "Colour": "R|G",
-    "ATK": "800",
-    "DEF": "1200",
-    "Abilities": "[Imperishable]\n[Barrier] {W}{U}\nAs you play an Ancient Magic chant, awaken it without paying the [Awakening] cost.\n[Enter] or when this card attacks ]]] Put the top card of your magic stone deck into the field rested. This ability triggers only once per turn.\n{R}: Target Ancient Magic chant in your graveyard gains \"You may play this card from your graveyard without paying its cost. If you do, expel this card as it leaves the chase.\" until end of turn. Play this ability only once per turn.\n{R}{R}: Copy target chant spell. You may choose new targets for the copy. Play this ability only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "ezusuke",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
-    "Set Code": "TSD2",
-    "id": "ecd6b268-a9dd-4b9a-9add-dfc56136fb53",
-    "image": "ecd6b268-a9dd-4b9a-9add-dfc56136fb53.jpg"
+    "image": "cd2a8743-218b-4ab1-a99b-f920470467ce.jpg",
+    "Card Type": "Ruler",
+    "backimage": "ecd6b268-a9dd-4b9a-9add-dfc56136fb53.jpg",
+    "alternate1_Card Number": "TSD2-001J",
+    "alternate1_name": "Yokoshima, Monarch of the Exploding Flame",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Ancient|HANADA|Monarch",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R|G",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Imperishable]\n[Barrier] {W}{U}\nAs you play an Ancient Magic chant, awaken it without paying the [Awakening] cost.\n[Enter] or when this card attacks ]]] Put the top card of your magic stone deck into the field rested. This ability triggers only once per turn.\n{R}: Target Ancient Magic chant in your graveyard gains \"You may play this card from your graveyard without paying its cost. If you do, expel this card as it leaves the chase.\" until end of turn. Play this ability only once per turn.\n{R}{R}: Copy target chant spell. You may choose new targets for the copy. Play this ability only once per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "ezusuke",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
+    "alternate1_Set Code": "TSD2",
+    "alternate1_id": "ecd6b268-a9dd-4b9a-9add-dfc56136fb53",
+    "alternate1_image": "ecd6b268-a9dd-4b9a-9add-dfc56136fb53.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSD2-002",
@@ -63,7 +64,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "adf7de8a-927d-40e5-a41c-1bfaccb1de80",
-    "image": "adf7de8a-927d-40e5-a41c-1bfaccb1de80.jpg"
+    "image": "adf7de8a-927d-40e5-a41c-1bfaccb1de80.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD2-003",
@@ -85,7 +87,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "358e23a1-5753-4c8d-a463-4ebfc9313aae",
-    "image": "358e23a1-5753-4c8d-a463-4ebfc9313aae.jpg"
+    "image": "358e23a1-5753-4c8d-a463-4ebfc9313aae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD2-004",
@@ -107,7 +110,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "4f871497-09d0-4e7d-849f-3174ea1d8a40",
-    "image": "4f871497-09d0-4e7d-849f-3174ea1d8a40.jpg"
+    "image": "4f871497-09d0-4e7d-849f-3174ea1d8a40.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD2-005",
@@ -129,7 +133,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "7eb4c981-d33e-417d-b6c3-14ad35d6bdf0",
-    "image": "7eb4c981-d33e-417d-b6c3-14ad35d6bdf0.jpg"
+    "image": "7eb4c981-d33e-417d-b6c3-14ad35d6bdf0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD2-006",
@@ -151,7 +156,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "cc7e0a4f-0cc4-47b4-a5d9-6069d251383e",
-    "image": "cc7e0a4f-0cc4-47b4-a5d9-6069d251383e.jpg"
+    "image": "cc7e0a4f-0cc4-47b4-a5d9-6069d251383e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD2-007",
@@ -173,7 +179,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "c53190c8-1e11-45b3-bf4d-09be54912b4c",
-    "image": "c53190c8-1e11-45b3-bf4d-09be54912b4c.jpg"
+    "image": "c53190c8-1e11-45b3-bf4d-09be54912b4c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD2-008",
@@ -195,7 +202,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "357e7fdf-3bc3-43e0-b9f0-533d2e1d7cc1",
-    "image": "357e7fdf-3bc3-43e0-b9f0-533d2e1d7cc1.jpg"
+    "image": "357e7fdf-3bc3-43e0-b9f0-533d2e1d7cc1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD2-009",
@@ -217,7 +225,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "b0796622-ed49-4c7b-be2a-12f9e5dea6e2",
-    "image": "b0796622-ed49-4c7b-be2a-12f9e5dea6e2.jpg"
+    "image": "b0796622-ed49-4c7b-be2a-12f9e5dea6e2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSD2-010",
@@ -239,7 +248,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "264611c2-5bf7-475d-b69e-8e05340efd28",
-    "image": "264611c2-5bf7-475d-b69e-8e05340efd28.jpg"
+    "image": "264611c2-5bf7-475d-b69e-8e05340efd28.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSD2-011",
@@ -261,7 +271,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "5d50df1c-97ce-4399-81f5-1eaa647b143b",
-    "image": "5d50df1c-97ce-4399-81f5-1eaa647b143b.jpg"
+    "image": "5d50df1c-97ce-4399-81f5-1eaa647b143b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSD2-012",
@@ -283,7 +294,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "1f84d0a0-b8c7-4b76-86b0-483ff52d9915",
-    "image": "1f84d0a0-b8c7-4b76-86b0-483ff52d9915.jpg"
+    "image": "1f84d0a0-b8c7-4b76-86b0-483ff52d9915.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSD2-013",
@@ -305,7 +317,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "f5a7ba09-195e-462e-8be7-e1d3d29614c4",
-    "image": "f5a7ba09-195e-462e-8be7-e1d3d29614c4.jpg"
+    "image": "f5a7ba09-195e-462e-8be7-e1d3d29614c4.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSD2-014",
@@ -327,7 +340,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "d8717e1c-31c8-4925-b554-7d150bd16228",
-    "image": "d8717e1c-31c8-4925-b554-7d150bd16228.jpg"
+    "image": "d8717e1c-31c8-4925-b554-7d150bd16228.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSD2-015",
@@ -349,7 +363,8 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "1ecf2850-d95f-4247-9ca4-deb8ff205615",
-    "image": "1ecf2850-d95f-4247-9ca4-deb8ff205615.jpg"
+    "image": "1ecf2850-d95f-4247-9ca4-deb8ff205615.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TSD2-016",
@@ -371,6 +386,7 @@
     "Set Name": "074 - Thoth Cluster Starter Deck 2 \"Yokoshima Deck\"",
     "Set Code": "TSD2",
     "id": "f8c7d764-e484-4272-aae2-f7a79ab7fcd1",
-    "image": "f8c7d764-e484-4272-aae2-f7a79ab7fcd1.jpg"
+    "image": "f8c7d764-e484-4272-aae2-f7a79ab7fcd1.jpg",
+    "Card Type": "Special Magic Stone"
   }
 ]

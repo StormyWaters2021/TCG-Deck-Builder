@@ -19,7 +19,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "bbeeaf90-ef95-469b-b8fe-e032ce00d177",
-    "image": "bbeeaf90-ef95-469b-b8fe-e032ce00d177.jpg"
+    "image": "bbeeaf90-ef95-469b-b8fe-e032ce00d177.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "BFA-002",
@@ -41,7 +42,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "2ba76e08-1255-472a-afa6-d364c37cb573",
-    "image": "2ba76e08-1255-472a-afa6-d364c37cb573.jpg"
+    "image": "2ba76e08-1255-472a-afa6-d364c37cb573.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-003",
@@ -63,7 +65,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "315478a7-af13-454b-8e0c-4c241382ae73",
-    "image": "315478a7-af13-454b-8e0c-4c241382ae73.jpg"
+    "image": "315478a7-af13-454b-8e0c-4c241382ae73.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "BFA-004",
@@ -85,7 +88,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "0b5cfdf7-b108-4e85-810c-83aff1e09501",
-    "image": "0b5cfdf7-b108-4e85-810c-83aff1e09501.jpg"
+    "image": "0b5cfdf7-b108-4e85-810c-83aff1e09501.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-005",
@@ -107,7 +111,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "900fe03d-e4d1-485c-818a-5470010a60f4",
-    "image": "900fe03d-e4d1-485c-818a-5470010a60f4.jpg"
+    "image": "900fe03d-e4d1-485c-818a-5470010a60f4.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "BFA-006",
@@ -129,7 +134,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "dda7bda1-5fc5-4ad7-8941-1e6d5a4aeecc",
-    "image": "dda7bda1-5fc5-4ad7-8941-1e6d5a4aeecc.jpg"
+    "image": "dda7bda1-5fc5-4ad7-8941-1e6d5a4aeecc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-007",
@@ -151,7 +157,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "04a8aa93-4572-43c7-b609-e128152892f1",
-    "image": "04a8aa93-4572-43c7-b609-e128152892f1.jpg"
+    "image": "04a8aa93-4572-43c7-b609-e128152892f1.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "BFA-008",
@@ -173,7 +180,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "fb48596a-36b8-4a0c-829d-45fecdab5a7b",
-    "image": "fb48596a-36b8-4a0c-829d-45fecdab5a7b.jpg"
+    "image": "fb48596a-36b8-4a0c-829d-45fecdab5a7b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-009",
@@ -195,7 +203,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "b69344a6-affc-41dc-8654-dd51a24e14a7",
-    "image": "b69344a6-affc-41dc-8654-dd51a24e14a7.jpg"
+    "image": "b69344a6-affc-41dc-8654-dd51a24e14a7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-010",
@@ -217,7 +226,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "40f8ff94-ca4c-4615-9af1-58c33cd9b375",
-    "image": "40f8ff94-ca4c-4615-9af1-58c33cd9b375.jpg"
+    "image": "40f8ff94-ca4c-4615-9af1-58c33cd9b375.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-011",
@@ -239,7 +249,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "d30b39d4-739f-4f59-aaf9-5d338375d2d9",
-    "image": "d30b39d4-739f-4f59-aaf9-5d338375d2d9.jpg"
+    "image": "d30b39d4-739f-4f59-aaf9-5d338375d2d9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-012",
@@ -261,7 +272,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "54ed92de-d84c-4271-9805-958db539584f",
-    "image": "54ed92de-d84c-4271-9805-958db539584f.jpg"
+    "image": "54ed92de-d84c-4271-9805-958db539584f.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "BFA-013",
@@ -283,7 +295,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "476cb60f-133d-4130-93ce-a7f107ebb2a1",
-    "image": "476cb60f-133d-4130-93ce-a7f107ebb2a1.jpg"
+    "image": "476cb60f-133d-4130-93ce-a7f107ebb2a1.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "BFA-014",
@@ -305,7 +318,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "19a44198-b829-4b01-9404-5bed829ea7af",
-    "image": "19a44198-b829-4b01-9404-5bed829ea7af.jpg"
+    "image": "19a44198-b829-4b01-9404-5bed829ea7af.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-015",
@@ -327,7 +341,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "dc154db3-b60e-44d7-aec1-57b77c357c85",
-    "image": "dc154db3-b60e-44d7-aec1-57b77c357c85.jpg"
+    "image": "dc154db3-b60e-44d7-aec1-57b77c357c85.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-016",
@@ -349,7 +364,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "eb5f30a2-09d6-4211-a22d-fcc573f8b7d2",
-    "image": "eb5f30a2-09d6-4211-a22d-fcc573f8b7d2.jpg"
+    "image": "eb5f30a2-09d6-4211-a22d-fcc573f8b7d2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-017",
@@ -371,7 +387,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "8d8c8903-f464-4e9f-bb24-b6dd0e7f3d45",
-    "image": "8d8c8903-f464-4e9f-bb24-b6dd0e7f3d45.jpg"
+    "image": "8d8c8903-f464-4e9f-bb24-b6dd0e7f3d45.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "BFA-018",
@@ -393,7 +410,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "749935ca-503c-463b-80be-b097e7baddfe",
-    "image": "749935ca-503c-463b-80be-b097e7baddfe.jpg"
+    "image": "749935ca-503c-463b-80be-b097e7baddfe.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "BFA-019",
@@ -415,7 +433,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "25f6c6d1-fd92-402f-8896-ef0b3c71579b",
-    "image": "25f6c6d1-fd92-402f-8896-ef0b3c71579b.jpg"
+    "image": "25f6c6d1-fd92-402f-8896-ef0b3c71579b.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "BFA-020",
@@ -437,7 +456,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "4da3c07f-8a02-4c74-a276-edf641abcd53",
-    "image": "4da3c07f-8a02-4c74-a276-edf641abcd53.jpg"
+    "image": "4da3c07f-8a02-4c74-a276-edf641abcd53.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-021",
@@ -459,7 +479,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "9c0252bf-277f-486b-b4fc-d7a6f869cdc4",
-    "image": "9c0252bf-277f-486b-b4fc-d7a6f869cdc4.jpg"
+    "image": "9c0252bf-277f-486b-b4fc-d7a6f869cdc4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-022",
@@ -481,7 +502,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "e903bf77-8a03-4dbb-bb60-6737c787df30",
-    "image": "e903bf77-8a03-4dbb-bb60-6737c787df30.jpg"
+    "image": "e903bf77-8a03-4dbb-bb60-6737c787df30.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-023",
@@ -503,7 +525,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "a81e356c-0ebf-46e8-adde-748345f31ddf",
-    "image": "a81e356c-0ebf-46e8-adde-748345f31ddf.jpg"
+    "image": "a81e356c-0ebf-46e8-adde-748345f31ddf.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "BFA-024",
@@ -525,7 +548,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "e799310b-1708-4060-911f-a607562947c1",
-    "image": "e799310b-1708-4060-911f-a607562947c1.jpg"
+    "image": "e799310b-1708-4060-911f-a607562947c1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-025",
@@ -547,7 +571,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "2c6c49ce-fabe-4a6d-947c-e7a17773e0f2",
-    "image": "2c6c49ce-fabe-4a6d-947c-e7a17773e0f2.jpg"
+    "image": "2c6c49ce-fabe-4a6d-947c-e7a17773e0f2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-026",
@@ -569,7 +594,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "2c265f3f-1ba8-4b02-b269-7ba9a21ec8ec",
-    "image": "2c265f3f-1ba8-4b02-b269-7ba9a21ec8ec.jpg"
+    "image": "2c265f3f-1ba8-4b02-b269-7ba9a21ec8ec.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "BFA-027",
@@ -591,7 +617,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "ed2c1e5e-0b06-4dc4-af86-8d501dd53325",
-    "image": "ed2c1e5e-0b06-4dc4-af86-8d501dd53325.jpg"
+    "image": "ed2c1e5e-0b06-4dc4-af86-8d501dd53325.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "BFA-028",
@@ -613,7 +640,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "9b6fcd87-f944-44cf-880b-ca019d41e827",
-    "image": "9b6fcd87-f944-44cf-880b-ca019d41e827.jpg"
+    "image": "9b6fcd87-f944-44cf-880b-ca019d41e827.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-029",
@@ -635,7 +663,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "9e589bdc-0441-40eb-9127-1de8d9e6ce4f",
-    "image": "9e589bdc-0441-40eb-9127-1de8d9e6ce4f.jpg"
+    "image": "9e589bdc-0441-40eb-9127-1de8d9e6ce4f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-030",
@@ -657,7 +686,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "9a0daab7-bf83-4abf-88a8-705714281992",
-    "image": "9a0daab7-bf83-4abf-88a8-705714281992.jpg"
+    "image": "9a0daab7-bf83-4abf-88a8-705714281992.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-031",
@@ -679,7 +709,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "227441f4-a79f-4b8c-bcb6-3eaac22b2368",
-    "image": "227441f4-a79f-4b8c-bcb6-3eaac22b2368.jpg"
+    "image": "227441f4-a79f-4b8c-bcb6-3eaac22b2368.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-032",
@@ -701,7 +732,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "7dbd3b85-4a2b-4370-b674-4ee70acd9cb9",
-    "image": "7dbd3b85-4a2b-4370-b674-4ee70acd9cb9.jpg"
+    "image": "7dbd3b85-4a2b-4370-b674-4ee70acd9cb9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-033",
@@ -723,7 +755,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "0c5cbf27-e587-4af0-9bd9-47182484bf7b",
-    "image": "0c5cbf27-e587-4af0-9bd9-47182484bf7b.jpg"
+    "image": "0c5cbf27-e587-4af0-9bd9-47182484bf7b.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "BFA-034",
@@ -745,7 +778,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "d0a18ee0-7a70-46ed-ad02-a3914c09276b",
-    "image": "d0a18ee0-7a70-46ed-ad02-a3914c09276b.jpg"
+    "image": "d0a18ee0-7a70-46ed-ad02-a3914c09276b.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "BFA-035",
@@ -767,7 +801,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "931cd0df-04e9-4f3f-af1a-f553b6e4a9bb",
-    "image": "931cd0df-04e9-4f3f-af1a-f553b6e4a9bb.jpg"
+    "image": "931cd0df-04e9-4f3f-af1a-f553b6e4a9bb.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "BFA-036",
@@ -789,7 +824,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "9f7b29b0-4bac-43c6-8fa9-55d3f7fb4e56",
-    "image": "9f7b29b0-4bac-43c6-8fa9-55d3f7fb4e56.jpg"
+    "image": "9f7b29b0-4bac-43c6-8fa9-55d3f7fb4e56.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-037",
@@ -811,7 +847,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "dd54e6a5-24cb-4e59-a72b-d453cbadd0f1",
-    "image": "dd54e6a5-24cb-4e59-a72b-d453cbadd0f1.jpg"
+    "image": "dd54e6a5-24cb-4e59-a72b-d453cbadd0f1.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "BFA-038",
@@ -833,7 +870,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "17eb13a7-37ab-4ee9-87f8-071abbe087c9",
-    "image": "17eb13a7-37ab-4ee9-87f8-071abbe087c9.jpg"
+    "image": "17eb13a7-37ab-4ee9-87f8-071abbe087c9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-039",
@@ -855,7 +893,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "dd9d6783-9a5d-4414-8ced-c5367aff93f0",
-    "image": "dd9d6783-9a5d-4414-8ced-c5367aff93f0.jpg"
+    "image": "dd9d6783-9a5d-4414-8ced-c5367aff93f0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-040",
@@ -877,7 +916,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "9e7e0c0a-1733-461c-9a64-0693e2548c49",
-    "image": "9e7e0c0a-1733-461c-9a64-0693e2548c49.jpg"
+    "image": "9e7e0c0a-1733-461c-9a64-0693e2548c49.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "BFA-041",
@@ -899,7 +939,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "480a8036-39c7-4bf3-b331-29e63dea7f88",
-    "image": "480a8036-39c7-4bf3-b331-29e63dea7f88.jpg"
+    "image": "480a8036-39c7-4bf3-b331-29e63dea7f88.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "BFA-042",
@@ -921,7 +962,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "a9104d00-ad9c-498b-bbc6-613715243259",
-    "image": "a9104d00-ad9c-498b-bbc6-613715243259.jpg"
+    "image": "a9104d00-ad9c-498b-bbc6-613715243259.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-043",
@@ -943,7 +985,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "1d0df1c3-07a4-4c47-a4c8-c6b7d03c5100",
-    "image": "1d0df1c3-07a4-4c47-a4c8-c6b7d03c5100.jpg"
+    "image": "1d0df1c3-07a4-4c47-a4c8-c6b7d03c5100.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-044",
@@ -965,7 +1008,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "02d1d867-391d-4155-a196-8ff7159094a9",
-    "image": "02d1d867-391d-4155-a196-8ff7159094a9.jpg"
+    "image": "02d1d867-391d-4155-a196-8ff7159094a9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-045",
@@ -987,7 +1031,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "d7f355f0-6c15-406a-a90f-e77fa9c0cb37",
-    "image": "d7f355f0-6c15-406a-a90f-e77fa9c0cb37.jpg"
+    "image": "d7f355f0-6c15-406a-a90f-e77fa9c0cb37.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-046",
@@ -1009,7 +1054,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "ddb3e99d-08c9-4088-8a52-1a865a57edf3",
-    "image": "ddb3e99d-08c9-4088-8a52-1a865a57edf3.jpg"
+    "image": "ddb3e99d-08c9-4088-8a52-1a865a57edf3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-047",
@@ -1031,7 +1077,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "2a7e4676-1f11-432e-91d8-48a410b571a9",
-    "image": "2a7e4676-1f11-432e-91d8-48a410b571a9.jpg"
+    "image": "2a7e4676-1f11-432e-91d8-48a410b571a9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-048",
@@ -1053,7 +1100,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "6a47b3c6-6631-4997-96c9-8030c92af124",
-    "image": "6a47b3c6-6631-4997-96c9-8030c92af124.jpg"
+    "image": "6a47b3c6-6631-4997-96c9-8030c92af124.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-049",
@@ -1075,7 +1123,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "dd780a19-675c-447d-ac6d-99b12ecac4ea",
-    "image": "dd780a19-675c-447d-ac6d-99b12ecac4ea.jpg"
+    "image": "dd780a19-675c-447d-ac6d-99b12ecac4ea.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-050",
@@ -1097,7 +1146,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "a2b06d91-b08f-44c8-acb5-9b9e15dfab1e",
-    "image": "a2b06d91-b08f-44c8-acb5-9b9e15dfab1e.jpg"
+    "image": "a2b06d91-b08f-44c8-acb5-9b9e15dfab1e.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "BFA-051",
@@ -1119,7 +1169,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "d365f865-1a9c-445f-adf4-8cde300f6b19",
-    "image": "d365f865-1a9c-445f-adf4-8cde300f6b19.jpg"
+    "image": "d365f865-1a9c-445f-adf4-8cde300f6b19.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "BFA-052",
@@ -1141,7 +1192,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "989164db-b39c-4f08-9ae3-800064cb69a4",
-    "image": "989164db-b39c-4f08-9ae3-800064cb69a4.jpg"
+    "image": "989164db-b39c-4f08-9ae3-800064cb69a4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-053",
@@ -1163,7 +1215,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "96c283d5-1366-477a-a280-145f647271d4",
-    "image": "96c283d5-1366-477a-a280-145f647271d4.jpg"
+    "image": "96c283d5-1366-477a-a280-145f647271d4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-054",
@@ -1185,7 +1238,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "ee27300b-9310-4ac6-9308-9c3876baab7b",
-    "image": "ee27300b-9310-4ac6-9308-9c3876baab7b.jpg"
+    "image": "ee27300b-9310-4ac6-9308-9c3876baab7b.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "BFA-055",
@@ -1207,7 +1261,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "eb7a35d1-e73e-4e65-a55f-7e643336a153",
-    "image": "eb7a35d1-e73e-4e65-a55f-7e643336a153.jpg"
+    "image": "eb7a35d1-e73e-4e65-a55f-7e643336a153.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "BFA-056",
@@ -1229,7 +1284,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "ed6eb58c-129d-4015-a499-a973878abba1",
-    "image": "ed6eb58c-129d-4015-a499-a973878abba1.jpg"
+    "image": "ed6eb58c-129d-4015-a499-a973878abba1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-057",
@@ -1251,7 +1307,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "2d357a61-b9d5-4b69-a927-a596d02fe859",
-    "image": "2d357a61-b9d5-4b69-a927-a596d02fe859.jpg"
+    "image": "2d357a61-b9d5-4b69-a927-a596d02fe859.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "BFA-058",
@@ -1273,7 +1330,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "e3df0bb4-7eb1-4814-9908-865f628625ee",
-    "image": "e3df0bb4-7eb1-4814-9908-865f628625ee.jpg"
+    "image": "e3df0bb4-7eb1-4814-9908-865f628625ee.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-059",
@@ -1295,7 +1353,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "a0b7b320-b857-42c0-b25b-c3deb19e2c75",
-    "image": "a0b7b320-b857-42c0-b25b-c3deb19e2c75.jpg"
+    "image": "a0b7b320-b857-42c0-b25b-c3deb19e2c75.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "BFA-060",
@@ -1317,7 +1376,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "e07e12c9-ccf7-46d1-8245-026d266e40c8",
-    "image": "e07e12c9-ccf7-46d1-8245-026d266e40c8.jpg"
+    "image": "e07e12c9-ccf7-46d1-8245-026d266e40c8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-061",
@@ -1339,7 +1399,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "db1596f3-f7c2-471e-a04b-75cbca59f28b",
-    "image": "db1596f3-f7c2-471e-a04b-75cbca59f28b.jpg"
+    "image": "db1596f3-f7c2-471e-a04b-75cbca59f28b.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "BFA-062",
@@ -1361,7 +1422,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "3094a5db-f51c-4138-a30c-fac71a74f329",
-    "image": "3094a5db-f51c-4138-a30c-fac71a74f329.jpg"
+    "image": "3094a5db-f51c-4138-a30c-fac71a74f329.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "BFA-063",
@@ -1383,7 +1445,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "83eb0542-ee01-4678-8771-31c8f72bb855",
-    "image": "83eb0542-ee01-4678-8771-31c8f72bb855.jpg"
+    "image": "83eb0542-ee01-4678-8771-31c8f72bb855.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "BFA-064",
@@ -1405,7 +1468,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "dc7f71a3-1123-447b-8f8f-8ac2e4f8f2d3",
-    "image": "dc7f71a3-1123-447b-8f8f-8ac2e4f8f2d3.jpg"
+    "image": "dc7f71a3-1123-447b-8f8f-8ac2e4f8f2d3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-065",
@@ -1427,7 +1491,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "ebc7d212-1465-4e6b-9800-6ee48a483792",
-    "image": "ebc7d212-1465-4e6b-9800-6ee48a483792.jpg"
+    "image": "ebc7d212-1465-4e6b-9800-6ee48a483792.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "BFA-066",
@@ -1449,7 +1514,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "847367b3-d648-471c-b299-ea368b7d761c",
-    "image": "847367b3-d648-471c-b299-ea368b7d761c.jpg"
+    "image": "847367b3-d648-471c-b299-ea368b7d761c.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "BFA-067",
@@ -1471,7 +1537,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "d938f6e1-ce33-4613-bcd6-f2b15a6721b2",
-    "image": "d938f6e1-ce33-4613-bcd6-f2b15a6721b2.jpg"
+    "image": "d938f6e1-ce33-4613-bcd6-f2b15a6721b2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-068",
@@ -1493,7 +1560,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "b6f2ea8a-9085-47b8-bc62-272f490f919d",
-    "image": "b6f2ea8a-9085-47b8-bc62-272f490f919d.jpg"
+    "image": "b6f2ea8a-9085-47b8-bc62-272f490f919d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-069",
@@ -1515,7 +1583,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "b2ccd031-446f-4e59-96e1-6ff1041a4835",
-    "image": "b2ccd031-446f-4e59-96e1-6ff1041a4835.jpg"
+    "image": "b2ccd031-446f-4e59-96e1-6ff1041a4835.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-070",
@@ -1537,7 +1606,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "f981c3f1-1e4d-41a2-8833-815aa004b232",
-    "image": "f981c3f1-1e4d-41a2-8833-815aa004b232.jpg"
+    "image": "f981c3f1-1e4d-41a2-8833-815aa004b232.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "BFA-071",
@@ -1559,7 +1629,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "d165b482-4e6f-492d-a5c5-21448830698d",
-    "image": "d165b482-4e6f-492d-a5c5-21448830698d.jpg"
+    "image": "d165b482-4e6f-492d-a5c5-21448830698d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-072",
@@ -1581,7 +1652,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "424b1038-ce4f-45af-b37c-5294df77f243",
-    "image": "424b1038-ce4f-45af-b37c-5294df77f243.jpg"
+    "image": "424b1038-ce4f-45af-b37c-5294df77f243.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-073",
@@ -1603,7 +1675,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "1cde5348-b440-48b5-bdd3-1aebeb622a4c",
-    "image": "1cde5348-b440-48b5-bdd3-1aebeb622a4c.jpg"
+    "image": "1cde5348-b440-48b5-bdd3-1aebeb622a4c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-074",
@@ -1625,7 +1698,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "13c09116-d71b-46d1-a0d6-10c89302a4c6",
-    "image": "13c09116-d71b-46d1-a0d6-10c89302a4c6.jpg"
+    "image": "13c09116-d71b-46d1-a0d6-10c89302a4c6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-075",
@@ -1647,271 +1721,278 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "8593b970-3bb6-4046-b18b-ee15e5765647",
-    "image": "8593b970-3bb6-4046-b18b-ee15e5765647.jpg"
+    "image": "8593b970-3bb6-4046-b18b-ee15e5765647.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "BFA-076",
-    "name": "Alice of Light",
-    "Type": "Resonator",
-    "Race": "Guardian",
-    "Cost": "{W}{2}",
-    "Colour": "W",
-    "ATK": "700",
+    "Card Number": "BFA-076|BFA-076*",
+    "name": "Alice of Light // Alice of Shadow",
+    "Type": "Resonator|Resonator (Shift)",
+    "Race": "Guardian|Murderer|Shadow",
+    "Cost": "{W}{2}|{B}{2}",
+    "Colour": "W|B",
+    "ATK": "700|500",
     "DEF": "700",
-    "Abilities": "[Shift] {B}{2} (You may play either side of this card.\n{B}{2}: Flip this card. You may play [Shift] anytime you can play a [Spell:Chant].)\nWhen this card enters your field, you gain 600 life.\nOther J/resonators you control gain [0/+200].",
+    "Abilities": "[Shift] {B}{2} (You may play either side of this card.\n{B}{2}: Flip this card. You may play [Shift] anytime you can play a [Spell:Chant].)\nWhen this card enters your field, you gain 600 life.\nOther J/resonators you control gain [0/+200].|When this card enters your field or shifts, destroy target resonator with total cost 2 or less.\nOther J/resonators you control gain [+200/0].",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "As Alice fought Lapis, she fought another as well. Her own shadow.",
+    "Flavour": "As Alice fought Lapis, she fought another as well. Her own shadow.|\"I told you, you were weak! Ready Schrödinger? I'm going to kill every single of you!\"",
     "Artist": "Wednesday",
     "Rarity": "SR",
-    "Fowid": "1061",
+    "Fowid": "1061|1062",
     "Cluster": "03 - Alice",
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "48c9c384-79e7-41fd-929c-424eea096104",
-    "image": "48c9c384-79e7-41fd-929c-424eea096104.jpg"
+    "image": "48c9c384-79e7-41fd-929c-424eea096104.jpg",
+    "Card Type": "Resonator",
+    "backimage": "2d8b6377-4223-4b9e-a5f2-33b03d1f4d34.jpg",
+    "alternate1_Card Number": "BFA-076*",
+    "alternate1_name": "Alice of Shadow",
+    "alternate1_Type": "Resonator (Shift)",
+    "alternate1_Race": "Murderer|Shadow",
+    "alternate1_Cost": "{B}{2}",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "500",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "When this card enters your field or shifts, destroy target resonator with total cost 2 or less.\nOther J/resonators you control gain [+200/0].",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I told you, you were weak! Ready Schrödinger? I'm going to kill every single of you!\"",
+    "alternate1_Artist": "Wednesday",
+    "alternate1_Rarity": "SR",
+    "alternate1_Fowid": "1062",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "014 - Battle for Attoractia",
+    "alternate1_Set Code": "BFA",
+    "alternate1_id": "2d8b6377-4223-4b9e-a5f2-33b03d1f4d34",
+    "alternate1_image": "2d8b6377-4223-4b9e-a5f2-33b03d1f4d34.jpg",
+    "alternate1_Card Type": "Resonator (Shift)"
   },
   {
-    "Card Number": "BFA-076*",
-    "name": "Alice of Shadow",
-    "Type": "Resonator (Shift)",
-    "Race": "Murderer|Shadow",
-    "Cost": "{B}{2}",
-    "Colour": "B",
-    "ATK": "500",
-    "DEF": "700",
-    "Abilities": "When this card enters your field or shifts, destroy target resonator with total cost 2 or less.\nOther J/resonators you control gain [+200/0].",
+    "Card Number": "BFA-077|BFA-077*",
+    "name": "Lars, Inheritor of the Sacred Spirit // Glorian Princess of Water, Charlotte",
+    "Type": "Resonator|Resonator (Shift)",
+    "Race": "Knight|Wizard",
+    "Cost": "{R}{1}|{U}{2}",
+    "Colour": "R|U",
+    "ATK": "600|0",
+    "DEF": "600|0",
+    "Abilities": "[Shift] {U}{2} (You may play either side of this card. {U}{2}: Flip this card. You may play [Shift] anytime you can play a [Spell:Chant].)\nPrevent all damage that would be dealt to this card during your turn.|This card enters your field with five [+100/+100] counters.\nAs this card shifts, put ten [+100/+100] counters on it.\nRemove four [+100/+100] counters from this card: Draw a card.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I told you, you were weak! Ready Schrödinger? I'm going to kill every single of you!\"",
-    "Artist": "Wednesday",
-    "Rarity": "SR",
-    "Fowid": "1062",
-    "Cluster": "03 - Alice",
-    "Set Name": "014 - Battle for Attoractia",
-    "Set Code": "BFA",
-    "id": "2d8b6377-4223-4b9e-a5f2-33b03d1f4d34",
-    "image": "2d8b6377-4223-4b9e-a5f2-33b03d1f4d34.jpg"
-  },
-  {
-    "Card Number": "BFA-077",
-    "name": "Lars, Inheritor of the Sacred Spirit",
-    "Type": "Resonator",
-    "Race": "Knight",
-    "Cost": "{R}{1}",
-    "Colour": "R",
-    "ATK": "600",
-    "DEF": "600",
-    "Abilities": "[Shift] {U}{2} (You may play either side of this card. {U}{2}: Flip this card. You may play [Shift] anytime you can play a [Spell:Chant].)\nPrevent all damage that would be dealt to this card during your turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"With this power I can finally save Charlotte and maybe even...\"",
+    "Flavour": "\"With this power I can finally save Charlotte and maybe even...\"|\"Wow, the world sure is big! I wonder where Lars and Faria are...\"",
     "Artist": "猫囃子",
     "Rarity": "SR",
-    "Fowid": "1063",
+    "Fowid": "1063|1064",
     "Cluster": "03 - Alice",
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "c23fe39d-3574-4a0c-b515-b7503d007df2",
-    "image": "c23fe39d-3574-4a0c-b515-b7503d007df2.jpg"
+    "image": "c23fe39d-3574-4a0c-b515-b7503d007df2.jpg",
+    "Card Type": "Resonator",
+    "backimage": "c8456d52-d095-48a3-9c89-47fdf731bb4b.jpg",
+    "alternate1_Card Number": "BFA-077*",
+    "alternate1_name": "Glorian Princess of Water, Charlotte",
+    "alternate1_Type": "Resonator (Shift)",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "{U}{2}",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "0",
+    "alternate1_Abilities": "This card enters your field with five [+100/+100] counters.\nAs this card shifts, put ten [+100/+100] counters on it.\nRemove four [+100/+100] counters from this card: Draw a card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Wow, the world sure is big! I wonder where Lars and Faria are...\"",
+    "alternate1_Artist": "猫囃子",
+    "alternate1_Rarity": "SR",
+    "alternate1_Fowid": "1064",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "014 - Battle for Attoractia",
+    "alternate1_Set Code": "BFA",
+    "alternate1_id": "c8456d52-d095-48a3-9c89-47fdf731bb4b",
+    "alternate1_image": "c8456d52-d095-48a3-9c89-47fdf731bb4b.jpg",
+    "alternate1_Card Type": "Resonator (Shift)"
   },
   {
-    "Card Number": "BFA-077*",
-    "name": "Glorian Princess of Water, Charlotte",
-    "Type": "Resonator (Shift)",
-    "Race": "Wizard",
-    "Cost": "{U}{2}",
-    "Colour": "U",
-    "ATK": "0",
-    "DEF": "0",
-    "Abilities": "This card enters your field with five [+100/+100] counters.\nAs this card shifts, put ten [+100/+100] counters on it.\nRemove four [+100/+100] counters from this card: Draw a card.",
+    "Card Number": "BFA-078|BFA-078*",
+    "name": "Reflect, the Beginning of Time // Refrain, the End of Ages",
+    "Type": "Resonator|Resonator (Shift)",
+    "Race": "Little Boy|Little Girl",
+    "Cost": "{G}|{W}{W}{3}",
+    "Colour": "G|W",
+    "ATK": "0|700",
+    "DEF": "200|700",
+    "Abilities": "[Shift] {W}{W}{3} (You may play either side of this card. {W}{W}{3}: Flip this card. You may play [Shift] anytime you can play a [Spell:Chant].)\nThis card cannot be targeted by spells or abilities.\n{1}: Put a magic counter on this card.|{2}: Put a magic counter on this card.\nRemove four magic counters from this card: Destroy all additions, regalia, resonators, and J-Rulers.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Wow, the world sure is big! I wonder where Lars and Faria are...\"",
-    "Artist": "猫囃子",
-    "Rarity": "SR",
-    "Fowid": "1064",
-    "Cluster": "03 - Alice",
-    "Set Name": "014 - Battle for Attoractia",
-    "Set Code": "BFA",
-    "id": "c8456d52-d095-48a3-9c89-47fdf731bb4b",
-    "image": "c8456d52-d095-48a3-9c89-47fdf731bb4b.jpg"
-  },
-  {
-    "Card Number": "BFA-078",
-    "name": "Reflect, the Beginning of Time",
-    "Type": "Resonator",
-    "Race": "Little Boy",
-    "Cost": "{G}",
-    "Colour": "G",
-    "ATK": "0",
-    "DEF": "200",
-    "Abilities": "[Shift] {W}{W}{3} (You may play either side of this card. {W}{W}{3}: Flip this card. You may play [Shift] anytime you can play a [Spell:Chant].)\nThis card cannot be targeted by spells or abilities.\n{1}: Put a magic counter on this card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"It's finally starting.\" \"No, it's finally over.\" \"Really?\" \"Really.\" - Reflect, the Beginning of Time and Refrain, the End of Ages",
+    "Flavour": "\"It's finally starting.\" \"No, it's finally over.\" \"Really?\" \"Really.\" - Reflect, the Beginning of Time and Refrain, the End of Ages|When this world ended, they too, disappeared. Off to report to someone, somewhere.",
     "Artist": "ケルビン",
     "Rarity": "SR",
-    "Fowid": "1065",
+    "Fowid": "1065|1066",
     "Cluster": "03 - Alice",
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "832903b8-c302-4fe9-af63-622b655dfd7a",
-    "image": "832903b8-c302-4fe9-af63-622b655dfd7a.jpg"
+    "image": "832903b8-c302-4fe9-af63-622b655dfd7a.jpg",
+    "Card Type": "Resonator",
+    "backimage": "985b8c5f-4dc1-43b3-919e-cbef3e53d88e.jpg",
+    "alternate1_Card Number": "BFA-078*",
+    "alternate1_name": "Refrain, the End of Ages",
+    "alternate1_Type": "Resonator (Shift)",
+    "alternate1_Race": "Little Girl",
+    "alternate1_Cost": "{W}{W}{3}",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "{2}: Put a magic counter on this card.\nRemove four magic counters from this card: Destroy all additions, regalia, resonators, and J-Rulers.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "When this world ended, they too, disappeared. Off to report to someone, somewhere.",
+    "alternate1_Artist": "ケルビン",
+    "alternate1_Rarity": "SR",
+    "alternate1_Fowid": "1066",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "014 - Battle for Attoractia",
+    "alternate1_Set Code": "BFA",
+    "alternate1_id": "985b8c5f-4dc1-43b3-919e-cbef3e53d88e",
+    "alternate1_image": "985b8c5f-4dc1-43b3-919e-cbef3e53d88e.jpg",
+    "alternate1_Card Type": "Resonator (Shift)"
   },
   {
-    "Card Number": "BFA-078*",
-    "name": "Refrain, the End of Ages",
-    "Type": "Resonator (Shift)",
-    "Race": "Little Girl",
-    "Cost": "{W}{W}{3}",
-    "Colour": "W",
-    "ATK": "700",
-    "DEF": "700",
-    "Abilities": "{2}: Put a magic counter on this card.\nRemove four magic counters from this card: Destroy all additions, regalia, resonators, and J-Rulers.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "When this world ended, they too, disappeared. Off to report to someone, somewhere.",
-    "Artist": "ケルビン",
-    "Rarity": "SR",
-    "Fowid": "1066",
-    "Cluster": "03 - Alice",
-    "Set Name": "014 - Battle for Attoractia",
-    "Set Code": "BFA",
-    "id": "985b8c5f-4dc1-43b3-919e-cbef3e53d88e",
-    "image": "985b8c5f-4dc1-43b3-919e-cbef3e53d88e.jpg"
-  },
-  {
-    "Card Number": "BFA-079",
-    "name": "Slayer of the Overlord, Pricia",
-    "Type": "Resonator",
-    "Race": "Beast",
-    "Cost": "{G}{1}",
-    "Colour": "G",
-    "ATK": "400",
+    "Card Number": "BFA-079|BFA-079*",
+    "name": "Slayer of the Overlord, Pricia // Possessor Princess of Love, Valentina",
+    "Type": "Resonator|Resonator (Shift)",
+    "Race": "Beast|Twelve Apostles",
+    "Cost": "{G}{1}|{U}{U}{1}",
+    "Colour": "G|U",
+    "ATK": "400|500",
     "DEF": "500",
-    "Abilities": "[Shift] {U}{U}{1} (You may play either side of this card.\n{U}{U}{1}: Flip this card. You may play [Shift] anytime you can play a [Spell:Chant].)\nWhen this card enters your field, this card and target J/resonator your opponent controls deal damage equal to their ATK to each other.\n{1}: This card gains [+100/+100] until end of turn.",
+    "Abilities": "[Shift] {U}{U}{1} (You may play either side of this card.\n{U}{U}{1}: Flip this card. You may play [Shift] anytime you can play a [Spell:Chant].)\nWhen this card enters your field, this card and target J/resonator your opponent controls deal damage equal to their ATK to each other.\n{1}: This card gains [+100/+100] until end of turn.|When this card is put into a graveyard from your field, gain control of target resonator.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"We...we beat her right? So why do I feel so...strange?\"",
+    "Flavour": "\"We...we beat her right? So why do I feel so...strange?\"|\"This body isn't comfortable at all. But that's okay. You're next, Alice.\"",
     "Artist": "fzwrAym",
     "Rarity": "SR",
-    "Fowid": "1067",
+    "Fowid": "1067|1068",
     "Cluster": "03 - Alice",
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "1e8a22fa-6ec2-4110-97c2-322146b1ee89",
-    "image": "1e8a22fa-6ec2-4110-97c2-322146b1ee89.jpg"
+    "image": "1e8a22fa-6ec2-4110-97c2-322146b1ee89.jpg",
+    "Card Type": "Resonator",
+    "backimage": "bfde0222-3625-4359-9645-556fa1b57598.jpg",
+    "alternate1_Card Number": "BFA-079*",
+    "alternate1_name": "Possessor Princess of Love, Valentina",
+    "alternate1_Type": "Resonator (Shift)",
+    "alternate1_Race": "Twelve Apostles",
+    "alternate1_Cost": "{U}{U}{1}",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "500",
+    "alternate1_DEF": "500",
+    "alternate1_Abilities": "When this card is put into a graveyard from your field, gain control of target resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"This body isn't comfortable at all. But that's okay. You're next, Alice.\"",
+    "alternate1_Artist": "fzwrAym",
+    "alternate1_Rarity": "SR",
+    "alternate1_Fowid": "1068",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "014 - Battle for Attoractia",
+    "alternate1_Set Code": "BFA",
+    "alternate1_id": "bfde0222-3625-4359-9645-556fa1b57598",
+    "alternate1_image": "bfde0222-3625-4359-9645-556fa1b57598.jpg",
+    "alternate1_Card Type": "Resonator (Shift)"
   },
   {
-    "Card Number": "BFA-079*",
-    "name": "Possessor Princess of Love, Valentina",
-    "Type": "Resonator (Shift)",
-    "Race": "Twelve Apostles",
-    "Cost": "{U}{U}{1}",
-    "Colour": "U",
-    "ATK": "500",
-    "DEF": "500",
-    "Abilities": "When this card is put into a graveyard from your field, gain control of target resonator.",
+    "Card Number": "BFA-080|BFA-080*",
+    "name": "Interdimensional Monarch, Gill Lapis // Space-Time Pursuer, Gill Lapis",
+    "Type": "Resonator|Resonator (Shift)",
+    "Race": "Conqueror|Wanderer",
+    "Cost": "{B}{B}{1}|{R}{R}{2}",
+    "Colour": "B|R",
+    "ATK": "600|1000",
+    "DEF": "700|1000",
+    "Abilities": "[Shift] {R}{R}{2} (You may play either side of this card.\n{R}{R}{2}: Flip this card. You may play [Shift] anytime you can play a [Spell:Chant].)\nWhen this card enters your field, you may search your main deck for a Twelve Apostle and/or card named \"Attoractia, Dimension of the Seven Kings\", reveal them, and put them into your hand. Then shuffle your main deck.\nDiscard a Twelve Apostle: This card gains [+400/+400] and [Target Attack] until end of turn.|[Target Attack]\nWhen this card enters your field or shifts, choose one - You may pay {0} to play [Shift] abilities of target card in a field rather than pay their cost until end of turn; or you may put a Twelve Apostle from your hand into your field. It gains [Swiftness] until end of turn. Remove it from the game at end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"This body isn't comfortable at all. But that's okay. You're next, Alice.\"",
-    "Artist": "fzwrAym",
-    "Rarity": "SR",
-    "Fowid": "1068",
-    "Cluster": "03 - Alice",
-    "Set Name": "014 - Battle for Attoractia",
-    "Set Code": "BFA",
-    "id": "bfde0222-3625-4359-9645-556fa1b57598",
-    "image": "bfde0222-3625-4359-9645-556fa1b57598.jpg"
-  },
-  {
-    "Card Number": "BFA-080",
-    "name": "Interdimensional Monarch, Gill Lapis",
-    "Type": "Resonator",
-    "Race": "Conqueror",
-    "Cost": "{B}{B}{1}",
-    "Colour": "B",
-    "ATK": "600",
-    "DEF": "700",
-    "Abilities": "[Shift] {R}{R}{2} (You may play either side of this card.\n{R}{R}{2}: Flip this card. You may play [Shift] anytime you can play a [Spell:Chant].)\nWhen this card enters your field, you may search your main deck for a Twelve Apostle and/or card named \"Attoractia, Dimension of the Seven Kings\", reveal them, and put them into your hand. Then shuffle your main deck.\nDiscard a Twelve Apostle: This card gains [+400/+400] and [Target Attack] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"This world...like all worlds...belongs to me.\"",
+    "Flavour": "\"This world...like all worlds...belongs to me.\"|\"Wherever you run I will find you. I am the fate of all. That is true control.\"",
     "Artist": "ネム",
     "Rarity": "SR",
-    "Fowid": "1069",
+    "Fowid": "1069|1070",
     "Cluster": "03 - Alice",
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "fbf456e3-3ccc-4f9d-b19f-03c5e32ebb10",
-    "image": "fbf456e3-3ccc-4f9d-b19f-03c5e32ebb10.jpg"
+    "image": "fbf456e3-3ccc-4f9d-b19f-03c5e32ebb10.jpg",
+    "Card Type": "Resonator",
+    "backimage": "41998f38-1bb0-45a4-ae80-09be68679b86.jpg",
+    "alternate1_Card Number": "BFA-080*",
+    "alternate1_name": "Space-Time Pursuer, Gill Lapis",
+    "alternate1_Type": "Resonator (Shift)",
+    "alternate1_Race": "Wanderer",
+    "alternate1_Cost": "{R}{R}{2}",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Target Attack]\nWhen this card enters your field or shifts, choose one - You may pay {0} to play [Shift] abilities of target card in a field rather than pay their cost until end of turn; or you may put a Twelve Apostle from your hand into your field. It gains [Swiftness] until end of turn. Remove it from the game at end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Wherever you run I will find you. I am the fate of all. That is true control.\"",
+    "alternate1_Artist": "ネム",
+    "alternate1_Rarity": "SR",
+    "alternate1_Fowid": "1070",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "014 - Battle for Attoractia",
+    "alternate1_Set Code": "BFA",
+    "alternate1_id": "41998f38-1bb0-45a4-ae80-09be68679b86",
+    "alternate1_image": "41998f38-1bb0-45a4-ae80-09be68679b86.jpg",
+    "alternate1_Card Type": "Resonator (Shift)"
   },
   {
-    "Card Number": "BFA-080*",
-    "name": "Space-Time Pursuer, Gill Lapis",
-    "Type": "Resonator (Shift)",
-    "Race": "Wanderer",
-    "Cost": "{R}{R}{2}",
-    "Colour": "R",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Target Attack]\nWhen this card enters your field or shifts, choose one - You may pay {0} to play [Shift] abilities of target card in a field rather than pay their cost until end of turn; or you may put a Twelve Apostle from your hand into your field. It gains [Swiftness] until end of turn. Remove it from the game at end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Wherever you run I will find you. I am the fate of all. That is true control.\"",
-    "Artist": "ネム",
-    "Rarity": "SR",
-    "Fowid": "1070",
-    "Cluster": "03 - Alice",
-    "Set Name": "014 - Battle for Attoractia",
-    "Set Code": "BFA",
-    "id": "41998f38-1bb0-45a4-ae80-09be68679b86",
-    "image": "41998f38-1bb0-45a4-ae80-09be68679b86.jpg"
-  },
-  {
-    "Card Number": "BFA-081",
-    "name": "Attoractia, Dimension of the Seven Kings",
-    "Type": "Addition:Field",
+    "Card Number": "BFA-081|BFA-081*",
+    "name": "Attoractia, Dimension of the Seven Kings // Illusory Demonic Globe, Attoractia",
+    "Type": "Addition:Field|Regalia (Shift)",
     "Race": "",
-    "Cost": "{2}",
+    "Cost": "{2}|{7}",
     "Colour": "V",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Shift] {7}\nWhen this card enters your field, draw a card.",
+    "Abilities": "[Shift] {7}\nWhen this card enters your field, draw a card.|{Rest}: Choose one - Remove target resonator, addition, or regalia with an attribute from the game if it doesn't share an attribute with a card in any removed area that was removed by this card; or remove target resonator, addition, or regalia with no attribute from the game if there are no cards with no attribute that were removed by this card in any removed area.\n{Rest}, put six cards in any removed area that were removed by this card into their owners' graveyards: You win the game.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Attoractia, a name that shall be but a footnote in the legacy of my reign.\" - Interdimensional Monarch, Gill Lapis",
+    "Flavour": "\"Attoractia, a name that shall be but a footnote in the legacy of my reign.\" - Interdimensional Monarch, Gill Lapis|\"I may have lost Earth, but it matters little. This planet will make a fine replacement.\" - Space-Time Pursuer, Gill Lapis",
     "Artist": "ひがし",
     "Rarity": "R",
-    "Fowid": "1071",
+    "Fowid": "1071|1072",
     "Cluster": "03 - Alice",
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "4ce76b68-8e2a-4bd6-a72d-4e87778637b0",
-    "image": "4ce76b68-8e2a-4bd6-a72d-4e87778637b0.jpg"
-  },
-  {
-    "Card Number": "BFA-081*",
-    "name": "Illusory Demonic Globe, Attoractia",
-    "Type": "Regalia (Shift)",
-    "Race": "",
-    "Cost": "{7}",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{Rest}: Choose one - Remove target resonator, addition, or regalia with an attribute from the game if it doesn't share an attribute with a card in any removed area that was removed by this card; or remove target resonator, addition, or regalia with no attribute from the game if there are no cards with no attribute that were removed by this card in any removed area.\n{Rest}, put six cards in any removed area that were removed by this card into their owners' graveyards: You win the game.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"I may have lost Earth, but it matters little. This planet will make a fine replacement.\" - Space-Time Pursuer, Gill Lapis",
-    "Artist": "ひがし",
-    "Rarity": "R",
-    "Fowid": "1072",
-    "Cluster": "03 - Alice",
-    "Set Name": "014 - Battle for Attoractia",
-    "Set Code": "BFA",
-    "id": "2c39a9df-51b8-4d46-b3ac-77bbf84f3c7d",
-    "image": "2c39a9df-51b8-4d46-b3ac-77bbf84f3c7d.jpg"
+    "image": "4ce76b68-8e2a-4bd6-a72d-4e87778637b0.jpg",
+    "Card Type": "Addition:Field",
+    "backimage": "2c39a9df-51b8-4d46-b3ac-77bbf84f3c7d.jpg",
+    "alternate1_Card Number": "BFA-081*",
+    "alternate1_name": "Illusory Demonic Globe, Attoractia",
+    "alternate1_Type": "Regalia (Shift)",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{7}",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "{Rest}: Choose one - Remove target resonator, addition, or regalia with an attribute from the game if it doesn't share an attribute with a card in any removed area that was removed by this card; or remove target resonator, addition, or regalia with no attribute from the game if there are no cards with no attribute that were removed by this card in any removed area.\n{Rest}, put six cards in any removed area that were removed by this card into their owners' graveyards: You win the game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I may have lost Earth, but it matters little. This planet will make a fine replacement.\" - Space-Time Pursuer, Gill Lapis",
+    "alternate1_Artist": "ひがし",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1072",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "014 - Battle for Attoractia",
+    "alternate1_Set Code": "BFA",
+    "alternate1_id": "2c39a9df-51b8-4d46-b3ac-77bbf84f3c7d",
+    "alternate1_image": "2c39a9df-51b8-4d46-b3ac-77bbf84f3c7d.jpg",
+    "alternate1_Card Type": "Regalia (Shift)"
   },
   {
     "Card Number": "BFA-082",
@@ -1933,7 +2014,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "cf5a1b66-35dd-4805-ae10-b89caae3225c",
-    "image": "cf5a1b66-35dd-4805-ae10-b89caae3225c.jpg"
+    "image": "cf5a1b66-35dd-4805-ae10-b89caae3225c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-083",
@@ -1955,7 +2037,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "3ab08752-0980-4fdf-91c0-ca93e4b3be3f",
-    "image": "3ab08752-0980-4fdf-91c0-ca93e4b3be3f.jpg"
+    "image": "3ab08752-0980-4fdf-91c0-ca93e4b3be3f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-084",
@@ -1977,7 +2060,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "cfc8bc34-7eae-42c8-af60-a4f77b662af9",
-    "image": "cfc8bc34-7eae-42c8-af60-a4f77b662af9.jpg"
+    "image": "cfc8bc34-7eae-42c8-af60-a4f77b662af9.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "BFA-085",
@@ -1999,7 +2083,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "e14b5e84-4bd1-479a-8464-882b9ed8f04f",
-    "image": "e14b5e84-4bd1-479a-8464-882b9ed8f04f.jpg"
+    "image": "e14b5e84-4bd1-479a-8464-882b9ed8f04f.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "BFA-086",
@@ -2021,7 +2106,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "b02f0d70-b42a-4b88-b121-0c3952dff3b9",
-    "image": "b02f0d70-b42a-4b88-b121-0c3952dff3b9.jpg"
+    "image": "b02f0d70-b42a-4b88-b121-0c3952dff3b9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-087",
@@ -2043,7 +2129,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "58b8b096-7b6c-4241-b840-c2502d017584",
-    "image": "58b8b096-7b6c-4241-b840-c2502d017584.jpg"
+    "image": "58b8b096-7b6c-4241-b840-c2502d017584.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-088",
@@ -2065,7 +2152,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "94926e9a-3dac-464b-b451-bb7cd0917ac8",
-    "image": "94926e9a-3dac-464b-b451-bb7cd0917ac8.jpg"
+    "image": "94926e9a-3dac-464b-b451-bb7cd0917ac8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-089",
@@ -2087,7 +2175,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "46a899f8-6d82-48e1-9a06-d3d4c003b9df",
-    "image": "46a899f8-6d82-48e1-9a06-d3d4c003b9df.jpg"
+    "image": "46a899f8-6d82-48e1-9a06-d3d4c003b9df.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "BFA-090",
@@ -2109,227 +2198,233 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "d057f43d-e938-48e3-8914-566e2fdfdefe",
-    "image": "d057f43d-e938-48e3-8914-566e2fdfdefe.jpg"
+    "image": "d057f43d-e938-48e3-8914-566e2fdfdefe.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "BFA-091",
-    "name": "Memoria of the Seven Lands",
-    "Type": "Ruler",
+    "Card Number": "BFA-091|BFA-091J",
+    "name": "Memoria of the Seven Lands // Faria, Chosen Girl",
+    "Type": "Ruler|J-Ruler",
     "Race": "Heroic Spirit",
     "Cost": "",
-    "Colour": "W|R|U|G|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {4}.",
+    "Colour": "W|R|U|G|B|W",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Judgment] {4}.|This card gains \"Faria, the Ruler of God Sword\" in addition to its other names.\nWhen this card enters your field, if you control \"Call to Action's Memoria\" destroy up to one target resonator. If you control four \"Call to Action's Memoria\", destroy all resonators  your opponent control instead.\nWhenever you gain life, put a [+100/+100] counter on each J/resonator you control.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "A memoria that projects the images of great people from Attoractia.",
-    "Artist": "Cola",
+    "Flavour": "A memoria that projects the images of great people from Attoractia.|\"Brother... I promise I'll protect this land. So please... come home safe.\"",
+    "Artist": "Cola|猫囃子",
     "Rarity": "R",
-    "Fowid": "1082",
+    "Fowid": "1082|1083",
     "Cluster": "03 - Alice",
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "4d0a571e-e202-4d59-b8aa-19d406540982",
-    "image": "4d0a571e-e202-4d59-b8aa-19d406540982.jpg"
+    "image": "4d0a571e-e202-4d59-b8aa-19d406540982.jpg",
+    "Card Type": "Ruler",
+    "backimage": "48fb71f8-b4f1-467f-92ae-2dfa2740ae81.jpg",
+    "alternate1_Card Number": "BFA-091J",
+    "alternate1_name": "Faria, Chosen Girl",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Heroic Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "This card gains \"Faria, the Ruler of God Sword\" in addition to its other names.\nWhen this card enters your field, if you control \"Call to Action's Memoria\" destroy up to one target resonator. If you control four \"Call to Action's Memoria\", destroy all resonators  your opponent control instead.\nWhenever you gain life, put a [+100/+100] counter on each J/resonator you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Brother... I promise I'll protect this land. So please... come home safe.\"",
+    "alternate1_Artist": "猫囃子",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1083",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "014 - Battle for Attoractia",
+    "alternate1_Set Code": "BFA",
+    "alternate1_id": "48fb71f8-b4f1-467f-92ae-2dfa2740ae81",
+    "alternate1_image": "48fb71f8-b4f1-467f-92ae-2dfa2740ae81.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "BFA-091J",
-    "name": "Faria, Chosen Girl",
-    "Type": "J-Ruler",
+    "Card Number": "BFA-092|BFA-092J",
+    "name": "Memoria of the Seven Lands // Melgis, Conqueror of Flame",
+    "Type": "Ruler|J-Ruler",
     "Race": "Heroic Spirit",
     "Cost": "",
-    "Colour": "W",
+    "Colour": "W|R|U|G|B|R",
     "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "This card gains \"Faria, the Ruler of God Sword\" in addition to its other names.\nWhen this card enters your field, if you control \"Call to Action's Memoria\" destroy up to one target resonator. If you control four \"Call to Action's Memoria\", destroy all resonators  your opponent control instead.\nWhenever you gain life, put a [+100/+100] counter on each J/resonator you control.",
+    "DEF": "600",
+    "Abilities": "[Judgment] {4}.|This card gains \"Melgis, the One Charmed by the Demon Sword\" in addition to its other names.\nWhen this card enters your field, if you control a \"Brutal Conqueror's Memoria\" reveal the top three cards of your main deck. Put all resonators with total cost 3 or less from among them into your field. They gain [Swiftness] until end of turn. Put the rest on top of your main deck in any order. If you control four \"Brutal Conqueror's Memoria\" put all resonators from among them into your field instead of all resonators with total cost 3 or less.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Brother... I promise I'll protect this land. So please... come home safe.\"",
-    "Artist": "猫囃子",
+    "Flavour": "A memoria that projects the images of great people from Attoractia.|\"I will defeat Volga and rule Certo. Those who wish to live, join me now!\"",
+    "Artist": "Cola|gekko",
     "Rarity": "R",
-    "Fowid": "1083",
-    "Cluster": "03 - Alice",
-    "Set Name": "014 - Battle for Attoractia",
-    "Set Code": "BFA",
-    "id": "48fb71f8-b4f1-467f-92ae-2dfa2740ae81",
-    "image": "48fb71f8-b4f1-467f-92ae-2dfa2740ae81.jpg"
-  },
-  {
-    "Card Number": "BFA-092",
-    "name": "Memoria of the Seven Lands",
-    "Type": "Ruler",
-    "Race": "Heroic Spirit",
-    "Cost": "",
-    "Colour": "W|R|U|G|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {4}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "A memoria that projects the images of great people from Attoractia.",
-    "Artist": "Cola",
-    "Rarity": "R",
-    "Fowid": "1082",
+    "Fowid": "1082|1084",
     "Cluster": "03 - Alice",
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "a97c29f4-f29c-4a3d-a140-c59cae73b076",
-    "image": "a97c29f4-f29c-4a3d-a140-c59cae73b076.jpg"
+    "image": "a97c29f4-f29c-4a3d-a140-c59cae73b076.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e0ad620b-6cbd-40e2-ad75-9eaeef4c7af5.jpg",
+    "alternate1_Card Number": "BFA-092J",
+    "alternate1_name": "Melgis, Conqueror of Flame",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Heroic Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "600",
+    "alternate1_Abilities": "This card gains \"Melgis, the One Charmed by the Demon Sword\" in addition to its other names.\nWhen this card enters your field, if you control a \"Brutal Conqueror's Memoria\" reveal the top three cards of your main deck. Put all resonators with total cost 3 or less from among them into your field. They gain [Swiftness] until end of turn. Put the rest on top of your main deck in any order. If you control four \"Brutal Conqueror's Memoria\" put all resonators from among them into your field instead of all resonators with total cost 3 or less.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I will defeat Volga and rule Certo. Those who wish to live, join me now!\"",
+    "alternate1_Artist": "gekko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1084",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "014 - Battle for Attoractia",
+    "alternate1_Set Code": "BFA",
+    "alternate1_id": "e0ad620b-6cbd-40e2-ad75-9eaeef4c7af5",
+    "alternate1_image": "e0ad620b-6cbd-40e2-ad75-9eaeef4c7af5.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "BFA-092J",
-    "name": "Melgis, Conqueror of Flame",
-    "Type": "J-Ruler",
+    "Card Number": "BFA-093|BFA-093J",
+    "name": "Memoria of the Seven Lands // Machina, Clever Researcher",
+    "Type": "Ruler|J-Ruler",
     "Race": "Heroic Spirit",
     "Cost": "",
-    "Colour": "R",
-    "ATK": "1000",
-    "DEF": "600",
-    "Abilities": "This card gains \"Melgis, the One Charmed by the Demon Sword\" in addition to its other names.\nWhen this card enters your field, if you control a \"Brutal Conqueror's Memoria\" reveal the top three cards of your main deck. Put all resonators with total cost 3 or less from among them into your field. They gain [Swiftness] until end of turn. Put the rest on top of your main deck in any order. If you control four \"Brutal Conqueror's Memoria\" put all resonators from among them into your field instead of all resonators with total cost 3 or less.",
+    "Colour": "W|R|U|G|B|U",
+    "ATK": "800",
+    "DEF": "800",
+    "Abilities": "[Judgment] {4}.|This card gains \"Machina, the Mechanical Emperor\" in addition to its other names.\nWhen this card enters your field, if you control an \"Aloof Researcher's Memoria\" search your main deck for up to two Machines whose combined total cost is 7 or less, and put them into your field. Then shuffle your main deck. If you control four \"Aloof Researcher's Memoria\" search your main deck for up to four Machines whose combined total cost is 12 or less annd put them into your field instead. Then shuffle your main deck.\nThis card gains [+200/+200] for each Machine you control.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I will defeat Volga and rule Certo. Those who wish to live, join me now!\"",
-    "Artist": "gekko",
+    "Flavour": "A memoria that projects the images of great people from Attoractia.|\"Mariabella, it's so close. It just needs something. Just one thing more and it will be perfect. But what? What am I missing?\"",
+    "Artist": "Cola|るみえ",
     "Rarity": "R",
-    "Fowid": "1084",
-    "Cluster": "03 - Alice",
-    "Set Name": "014 - Battle for Attoractia",
-    "Set Code": "BFA",
-    "id": "e0ad620b-6cbd-40e2-ad75-9eaeef4c7af5",
-    "image": "e0ad620b-6cbd-40e2-ad75-9eaeef4c7af5.jpg"
-  },
-  {
-    "Card Number": "BFA-093",
-    "name": "Memoria of the Seven Lands",
-    "Type": "Ruler",
-    "Race": "Heroic Spirit",
-    "Cost": "",
-    "Colour": "W|R|U|G|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {4}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "A memoria that projects the images of great people from Attoractia.",
-    "Artist": "Cola",
-    "Rarity": "R",
-    "Fowid": "1082",
+    "Fowid": "1082|1085",
     "Cluster": "03 - Alice",
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "73fd5b80-92f5-49d8-a29b-36fad55005ce",
-    "image": "73fd5b80-92f5-49d8-a29b-36fad55005ce.jpg"
+    "image": "73fd5b80-92f5-49d8-a29b-36fad55005ce.jpg",
+    "Card Type": "Ruler",
+    "backimage": "5b8bb397-1775-4432-a172-c0a556e02138.jpg",
+    "alternate1_Card Number": "BFA-093J",
+    "alternate1_name": "Machina, Clever Researcher",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Heroic Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "This card gains \"Machina, the Mechanical Emperor\" in addition to its other names.\nWhen this card enters your field, if you control an \"Aloof Researcher's Memoria\" search your main deck for up to two Machines whose combined total cost is 7 or less, and put them into your field. Then shuffle your main deck. If you control four \"Aloof Researcher's Memoria\" search your main deck for up to four Machines whose combined total cost is 12 or less annd put them into your field instead. Then shuffle your main deck.\nThis card gains [+200/+200] for each Machine you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Mariabella, it's so close. It just needs something. Just one thing more and it will be perfect. But what? What am I missing?\"",
+    "alternate1_Artist": "るみえ",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1085",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "014 - Battle for Attoractia",
+    "alternate1_Set Code": "BFA",
+    "alternate1_id": "5b8bb397-1775-4432-a172-c0a556e02138",
+    "alternate1_image": "5b8bb397-1775-4432-a172-c0a556e02138.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "BFA-093J",
-    "name": "Machina, Clever Researcher",
-    "Type": "J-Ruler",
+    "Card Number": "BFA-094|BFA-094J",
+    "name": "Memoria of the Seven Lands // Arla, Guardian of the Skies",
+    "Type": "Ruler|J-Ruler",
     "Race": "Heroic Spirit",
     "Cost": "",
-    "Colour": "U",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "This card gains \"Machina, the Mechanical Emperor\" in addition to its other names.\nWhen this card enters your field, if you control an \"Aloof Researcher's Memoria\" search your main deck for up to two Machines whose combined total cost is 7 or less, and put them into your field. Then shuffle your main deck. If you control four \"Aloof Researcher's Memoria\" search your main deck for up to four Machines whose combined total cost is 12 or less annd put them into your field instead. Then shuffle your main deck.\nThis card gains [+200/+200] for each Machine you control.",
+    "Colour": "W|R|U|G|B|G",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Judgment] {4}.|This card gains \"Arla, the Hegemon of the Sky\" in addition to its other names.\nWhen this card enters your field, if you control a \"First Flight's Memoria\" put the top card of your magic stone deck into your magic stone area and recover all magic stones you control. Then draw a card. If you control four \"First Flight's Memoria\", draw three cards instead of one.\nWhenever a resonator you control attacks, recover target magic stone you control.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Mariabella, it's so close. It just needs something. Just one thing more and it will be perfect. But what? What am I missing?\"",
-    "Artist": "るみえ",
+    "Flavour": "A memoria that projects the images of great people from Attoractia.|\"We cannot escape the problems of this world in the skies. I will guard this world, all of it.\"",
+    "Artist": "Cola|今野隼史",
     "Rarity": "R",
-    "Fowid": "1085",
-    "Cluster": "03 - Alice",
-    "Set Name": "014 - Battle for Attoractia",
-    "Set Code": "BFA",
-    "id": "5b8bb397-1775-4432-a172-c0a556e02138",
-    "image": "5b8bb397-1775-4432-a172-c0a556e02138.jpg"
-  },
-  {
-    "Card Number": "BFA-094",
-    "name": "Memoria of the Seven Lands",
-    "Type": "Ruler",
-    "Race": "Heroic Spirit",
-    "Cost": "",
-    "Colour": "W|R|U|G|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {4}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "A memoria that projects the images of great people from Attoractia.",
-    "Artist": "Cola",
-    "Rarity": "R",
-    "Fowid": "1082",
+    "Fowid": "1082|1086",
     "Cluster": "03 - Alice",
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "fe48109f-2fe0-486e-b804-c9ea24fd8b2a",
-    "image": "fe48109f-2fe0-486e-b804-c9ea24fd8b2a.jpg"
+    "image": "fe48109f-2fe0-486e-b804-c9ea24fd8b2a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "140cf535-1756-4eed-9397-78aa2be6f246.jpg",
+    "alternate1_Card Number": "BFA-094J",
+    "alternate1_name": "Arla, Guardian of the Skies",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Heroic Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "This card gains \"Arla, the Hegemon of the Sky\" in addition to its other names.\nWhen this card enters your field, if you control a \"First Flight's Memoria\" put the top card of your magic stone deck into your magic stone area and recover all magic stones you control. Then draw a card. If you control four \"First Flight's Memoria\", draw three cards instead of one.\nWhenever a resonator you control attacks, recover target magic stone you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"We cannot escape the problems of this world in the skies. I will guard this world, all of it.\"",
+    "alternate1_Artist": "今野隼史",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1086",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "014 - Battle for Attoractia",
+    "alternate1_Set Code": "BFA",
+    "alternate1_id": "140cf535-1756-4eed-9397-78aa2be6f246",
+    "alternate1_image": "140cf535-1756-4eed-9397-78aa2be6f246.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "BFA-094J",
-    "name": "Arla, Guardian of the Skies",
-    "Type": "J-Ruler",
+    "Card Number": "BFA-095|BFA-095J",
+    "name": "Memoria of the Seven Lands // Rezzard, Dark Necromancer",
+    "Type": "Ruler|J-Ruler",
     "Race": "Heroic Spirit",
     "Cost": "",
-    "Colour": "G",
-    "ATK": "1000",
+    "Colour": "W|R|U|G|B|B",
+    "ATK": "800",
     "DEF": "1000",
-    "Abilities": "This card gains \"Arla, the Hegemon of the Sky\" in addition to its other names.\nWhen this card enters your field, if you control a \"First Flight's Memoria\" put the top card of your magic stone deck into your magic stone area and recover all magic stones you control. Then draw a card. If you control four \"First Flight's Memoria\", draw three cards instead of one.\nWhenever a resonator you control attacks, recover target magic stone you control.",
+    "Abilities": "[Judgment] {4}.|This card gains \"Rezzard, the Desecrating Vampire\" in addition to its other names.\nWhen this card enters your field, if you control a \"Sorrowful Necromancy's Memoria\" put the top four cards of your main deck into your chant-standby area face down. If you control four \"Sorrowful Necromancy's Memoria\" put the top seven cards of your main deck into your chant-standby area face down instead.\n{B}: You may put a card from your hand into your chant-standby area face down.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"We cannot escape the problems of this world in the skies. I will guard this world, all of it.\"",
-    "Artist": "今野隼史",
+    "Flavour": "A memoria that projects the images of great people from Attoractia.|\"Look, mother. Look how well I've honed my craft. I can save you, I know I can! Mother? Why won't you answer me?\"",
+    "Artist": "Cola|touge369",
     "Rarity": "R",
-    "Fowid": "1086",
-    "Cluster": "03 - Alice",
-    "Set Name": "014 - Battle for Attoractia",
-    "Set Code": "BFA",
-    "id": "140cf535-1756-4eed-9397-78aa2be6f246",
-    "image": "140cf535-1756-4eed-9397-78aa2be6f246.jpg"
-  },
-  {
-    "Card Number": "BFA-095",
-    "name": "Memoria of the Seven Lands",
-    "Type": "Ruler",
-    "Race": "Heroic Spirit",
-    "Cost": "",
-    "Colour": "W|R|U|G|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {4}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "A memoria that projects the images of great people from Attoractia.",
-    "Artist": "Cola",
-    "Rarity": "R",
-    "Fowid": "1082",
+    "Fowid": "1082|1087",
     "Cluster": "03 - Alice",
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "4b833c01-08b1-4e2b-8741-9edea35a869a",
-    "image": "4b833c01-08b1-4e2b-8741-9edea35a869a.jpg"
-  },
-  {
-    "Card Number": "BFA-095J",
-    "name": "Rezzard, Dark Necromancer",
-    "Type": "J-Ruler",
-    "Race": "Heroic Spirit",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "800",
-    "DEF": "1000",
-    "Abilities": "This card gains \"Rezzard, the Desecrating Vampire\" in addition to its other names.\nWhen this card enters your field, if you control a \"Sorrowful Necromancy's Memoria\" put the top four cards of your main deck into your chant-standby area face down. If you control four \"Sorrowful Necromancy's Memoria\" put the top seven cards of your main deck into your chant-standby area face down instead.\n{B}: You may put a card from your hand into your chant-standby area face down.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Look, mother. Look how well I've honed my craft. I can save you, I know I can! Mother? Why won't you answer me?\"",
-    "Artist": "touge369",
-    "Rarity": "R",
-    "Fowid": "1087",
-    "Cluster": "03 - Alice",
-    "Set Name": "014 - Battle for Attoractia",
-    "Set Code": "BFA",
-    "id": "99bc3c8b-db3e-4e39-be11-d0688d20f645",
-    "image": "99bc3c8b-db3e-4e39-be11-d0688d20f645.jpg"
+    "image": "4b833c01-08b1-4e2b-8741-9edea35a869a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "99bc3c8b-db3e-4e39-be11-d0688d20f645.jpg",
+    "alternate1_Card Number": "BFA-095J",
+    "alternate1_name": "Rezzard, Dark Necromancer",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Heroic Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "This card gains \"Rezzard, the Desecrating Vampire\" in addition to its other names.\nWhen this card enters your field, if you control a \"Sorrowful Necromancy's Memoria\" put the top four cards of your main deck into your chant-standby area face down. If you control four \"Sorrowful Necromancy's Memoria\" put the top seven cards of your main deck into your chant-standby area face down instead.\n{B}: You may put a card from your hand into your chant-standby area face down.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Look, mother. Look how well I've honed my craft. I can save you, I know I can! Mother? Why won't you answer me?\"",
+    "alternate1_Artist": "touge369",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1087",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "014 - Battle for Attoractia",
+    "alternate1_Set Code": "BFA",
+    "alternate1_id": "99bc3c8b-db3e-4e39-be11-d0688d20f645",
+    "alternate1_image": "99bc3c8b-db3e-4e39-be11-d0688d20f645.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "BFA-096",
@@ -2351,7 +2446,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "293c0f86-5b4d-4e35-8bb5-229bb9284185",
-    "image": "293c0f86-5b4d-4e35-8bb5-229bb9284185.jpg"
+    "image": "293c0f86-5b4d-4e35-8bb5-229bb9284185.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "BFA-097",
@@ -2373,7 +2469,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "cf316af1-2221-4fa5-b354-dde62d8dc992",
-    "image": "cf316af1-2221-4fa5-b354-dde62d8dc992.jpg"
+    "image": "cf316af1-2221-4fa5-b354-dde62d8dc992.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "BFA-098",
@@ -2395,7 +2492,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "95c0b7cd-2381-437d-92f6-7b76c1c4c295",
-    "image": "95c0b7cd-2381-437d-92f6-7b76c1c4c295.jpg"
+    "image": "95c0b7cd-2381-437d-92f6-7b76c1c4c295.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "BFA-099",
@@ -2417,7 +2515,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "71dc19f6-11cc-41f1-a709-2dc1a66ea1c5",
-    "image": "71dc19f6-11cc-41f1-a709-2dc1a66ea1c5.jpg"
+    "image": "71dc19f6-11cc-41f1-a709-2dc1a66ea1c5.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "BFA-100",
@@ -2439,7 +2538,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "be3dd232-0740-428b-a7f9-81ba6ce69d45",
-    "image": "be3dd232-0740-428b-a7f9-81ba6ce69d45.jpg"
+    "image": "be3dd232-0740-428b-a7f9-81ba6ce69d45.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "BFA-101",
@@ -2461,7 +2561,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "8c403234-e27b-4e83-b48e-45aa8b0635ac",
-    "image": "8c403234-e27b-4e83-b48e-45aa8b0635ac.jpg"
+    "image": "8c403234-e27b-4e83-b48e-45aa8b0635ac.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "BFA-102",
@@ -2483,7 +2584,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "7e887e7d-1784-4d6b-b96d-13df59523e3e",
-    "image": "7e887e7d-1784-4d6b-b96d-13df59523e3e.jpg"
+    "image": "7e887e7d-1784-4d6b-b96d-13df59523e3e.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "BFA-103",
@@ -2505,7 +2607,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "15753c7a-569a-40d9-b48e-dc8b47ec40ca",
-    "image": "15753c7a-569a-40d9-b48e-dc8b47ec40ca.jpg"
+    "image": "15753c7a-569a-40d9-b48e-dc8b47ec40ca.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "BFA-104",
@@ -2527,7 +2630,8 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "c6a61961-0673-4155-8ee9-6a9b75b1f42a",
-    "image": "c6a61961-0673-4155-8ee9-6a9b75b1f42a.jpg"
+    "image": "c6a61961-0673-4155-8ee9-6a9b75b1f42a.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "BFA-105",
@@ -2549,6 +2653,7 @@
     "Set Name": "014 - Battle for Attoractia",
     "Set Code": "BFA",
     "id": "d5947b21-f50b-44b0-bad0-930bb6257816",
-    "image": "d5947b21-f50b-44b0-bad0-930bb6257816.jpg"
+    "image": "d5947b21-f50b-44b0-bad0-930bb6257816.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

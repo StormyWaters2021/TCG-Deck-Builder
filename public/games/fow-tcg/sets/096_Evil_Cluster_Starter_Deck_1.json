@@ -1,17 +1,17 @@
 [
   {
-    "Card Number": "ESD1-001",
-    "name": "Immortal King of Sylthmir, Valgott",
-    "Type": "Ruler",
+    "Card Number": "ESD1-001|ESD1-001J",
+    "name": "Immortal King of Sylthmir, Valgott // Valgott, Bloodthirsty Tyrant of Sylthmir",
+    "Type": "Ruler|J-Ruler",
     "Race": "Demonic|Immortal|King|Wicked Spirit",
     "Cost": "",
     "Colour": "U|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] (11)\n[+100/+100] counters on entities you control become [0/0] counters.\nWhenever a Demon resonator without [-100/-100] counters on it is put into a graveyard from the field ]]] Put it from a graveyard into the field under your control with a [-100/-100] counter on it. This ability triggers only once per turn.\nAt the end of your turn ]]] You may banish a Demon resonator. If you do, draw a card.\n[Judgment] {U}{U}{B}",
+    "ATK": "800",
+    "DEF": "1400",
+    "Abilities": "[Divinity] (11)\n[+100/+100] counters on entities you control become [0/0] counters.\nWhenever a Demon resonator without [-100/-100] counters on it is put into a graveyard from the field ]]] Put it from a graveyard into the field under your control with a [-100/-100] counter on it. This ability triggers only once per turn.\nAt the end of your turn ]]] You may banish a Demon resonator. If you do, draw a card.\n[Judgment] {U}{U}{B}|[Divinity] (19)\n[Vileborn] (8)\n[Terrifying]\n[Imperishable] (If this card is destroyed and put into your ruler area, don't put an astral counter on it and it is not astral.)\n[Enter] ]]] Put the top card of your magic stone deck into the field.\n[Resonance] Darkness Magic Stone (Whenever a card with the darkness magic stone type enters the field under your control) ]]] Each other player loses X00 life, where X is the number of Demon cards you control in public areas.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I've been alive for over a thousand years and nothing surprises me anymore.\"",
+    "Flavour": "\"I've been alive for over a thousand years and nothing surprises me anymore.\"|\"Still, there are few things more satisfying than a bloody rampage.\"",
     "Artist": "hatarisu",
     "Rarity": "R",
     "Fowid": "",
@@ -19,29 +19,30 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "5f19151d-8eec-486f-ab6c-cf3943e4d11d",
-    "image": "5f19151d-8eec-486f-ab6c-cf3943e4d11d.jpg"
-  },
-  {
-    "Card Number": "ESD1-001J",
-    "name": "Valgott, Bloodthirsty Tyrant of Sylthmir",
-    "Type": "J-Ruler",
-    "Race": "Demonic|Immortal|King|Wicked Spirit",
-    "Cost": "",
-    "Colour": "U|B",
-    "ATK": "800",
-    "DEF": "1400",
-    "Abilities": "[Divinity] (19)\n[Vileborn] (8)\n[Terrifying]\n[Imperishable] (If this card is destroyed and put into your ruler area, don't put an astral counter on it and it is not astral.)\n[Enter] ]]] Put the top card of your magic stone deck into the field.\n[Resonance] Darkness Magic Stone (Whenever a card with the darkness magic stone type enters the field under your control) ]]] Each other player loses X00 life, where X is the number of Demon cards you control in public areas.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Still, there are few things more satisfying than a bloody rampage.\"",
-    "Artist": "hatarisu",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "096 - Evil Cluster Starter Deck 1",
-    "Set Code": "ESD1",
-    "id": "d87fad31-31fe-43f6-917c-aa2546a867b1",
-    "image": "d87fad31-31fe-43f6-917c-aa2546a867b1.jpg"
+    "image": "5f19151d-8eec-486f-ab6c-cf3943e4d11d.jpg",
+    "Card Type": "Ruler",
+    "backimage": "d87fad31-31fe-43f6-917c-aa2546a867b1.jpg",
+    "alternate1_Card Number": "ESD1-001J",
+    "alternate1_name": "Valgott, Bloodthirsty Tyrant of Sylthmir",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Demonic|Immortal|King|Wicked Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U|B",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "1400",
+    "alternate1_Abilities": "[Divinity] (19)\n[Vileborn] (8)\n[Terrifying]\n[Imperishable] (If this card is destroyed and put into your ruler area, don't put an astral counter on it and it is not astral.)\n[Enter] ]]] Put the top card of your magic stone deck into the field.\n[Resonance] Darkness Magic Stone (Whenever a card with the darkness magic stone type enters the field under your control) ]]] Each other player loses X00 life, where X is the number of Demon cards you control in public areas.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Still, there are few things more satisfying than a bloody rampage.\"",
+    "alternate1_Artist": "hatarisu",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "096 - Evil Cluster Starter Deck 1",
+    "alternate1_Set Code": "ESD1",
+    "alternate1_id": "d87fad31-31fe-43f6-917c-aa2546a867b1",
+    "alternate1_image": "d87fad31-31fe-43f6-917c-aa2546a867b1.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ESD1-002",
@@ -63,7 +64,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "4a932e95-ba54-43a7-a196-94ea3813089f",
-    "image": "4a932e95-ba54-43a7-a196-94ea3813089f.jpg"
+    "image": "4a932e95-ba54-43a7-a196-94ea3813089f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ESD1-003",
@@ -85,7 +87,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "33b31ec5-1bfc-4cec-94a7-9a0d5d007b12",
-    "image": "33b31ec5-1bfc-4cec-94a7-9a0d5d007b12.jpg"
+    "image": "33b31ec5-1bfc-4cec-94a7-9a0d5d007b12.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ESD1-004",
@@ -107,7 +110,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "31861a5c-4037-4c21-8374-12baeea6f4aa",
-    "image": "31861a5c-4037-4c21-8374-12baeea6f4aa.jpg"
+    "image": "31861a5c-4037-4c21-8374-12baeea6f4aa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ESD1-005",
@@ -129,7 +133,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "6aae274a-1069-4be9-abfd-750cb114b31c",
-    "image": "6aae274a-1069-4be9-abfd-750cb114b31c.jpg"
+    "image": "6aae274a-1069-4be9-abfd-750cb114b31c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ESD1-006",
@@ -151,7 +156,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "f5af95e6-94fe-4fff-809f-d0aa9087948f",
-    "image": "f5af95e6-94fe-4fff-809f-d0aa9087948f.jpg"
+    "image": "f5af95e6-94fe-4fff-809f-d0aa9087948f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ESD1-007",
@@ -173,7 +179,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "31abfc74-5782-4181-b577-cacc14f00d8c",
-    "image": "31abfc74-5782-4181-b577-cacc14f00d8c.jpg"
+    "image": "31abfc74-5782-4181-b577-cacc14f00d8c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ESD1-008",
@@ -195,7 +202,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "05fe19c6-d02b-45ab-a5fe-1149b94ee05b",
-    "image": "05fe19c6-d02b-45ab-a5fe-1149b94ee05b.jpg"
+    "image": "05fe19c6-d02b-45ab-a5fe-1149b94ee05b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ESD1-009",
@@ -217,7 +225,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "dfb2a919-a246-4a6d-968a-fadfefbfe328",
-    "image": "dfb2a919-a246-4a6d-968a-fadfefbfe328.jpg"
+    "image": "dfb2a919-a246-4a6d-968a-fadfefbfe328.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "ESD1-010",
@@ -239,7 +248,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "bcc9235a-db41-4f55-9633-7b2e974f2ab5",
-    "image": "bcc9235a-db41-4f55-9633-7b2e974f2ab5.jpg"
+    "image": "bcc9235a-db41-4f55-9633-7b2e974f2ab5.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "ESD1-011",
@@ -261,7 +271,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "01944ff2-ea1c-4ae6-b659-bcba7fbcaf7f",
-    "image": "01944ff2-ea1c-4ae6-b659-bcba7fbcaf7f.jpg"
+    "image": "01944ff2-ea1c-4ae6-b659-bcba7fbcaf7f.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "ESD1-012",
@@ -283,7 +294,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "e72c3ac0-7277-4e01-992c-c82650c9a5a3",
-    "image": "e72c3ac0-7277-4e01-992c-c82650c9a5a3.jpg"
+    "image": "e72c3ac0-7277-4e01-992c-c82650c9a5a3.jpg",
+    "Card Type": "Chant|Rune"
   },
   {
     "Card Number": "ESD1-013",
@@ -305,7 +317,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "5fa980c2-7e93-46bf-8131-4e0f60452de3",
-    "image": "5fa980c2-7e93-46bf-8131-4e0f60452de3.jpg"
+    "image": "5fa980c2-7e93-46bf-8131-4e0f60452de3.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ESD1-014",
@@ -327,20 +340,21 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "8ac4db46-6bad-4645-a947-36e672df7311",
-    "image": "8ac4db46-6bad-4645-a947-36e672df7311.jpg"
+    "image": "8ac4db46-6bad-4645-a947-36e672df7311.jpg",
+    "Card Type": "Regalia"
   },
   {
-    "Card Number": "ESD1-015",
-    "name": "Raven's Order's Professor, Morgana",
-    "Type": "Warden",
+    "Card Number": "ESD1-015|ESD1-015J",
+    "name": "Raven's Order's Professor, Morgana // Morgana, Terrifying Passionate Professor",
+    "Type": "Warden|J-Ruler",
     "Race": "Human|Warlock",
     "Cost": "{B}{B}",
     "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "+1: Each player discards a card. Put the top three cards of your deck into your graveyard. You may put a mono-attribute resonator card from among them into your hand.\n-2: Each other player banishes a resonator with the highest ATK from among resonators they control.\n[Judgment] {B}{B}. Play this judgment process only if there are five willpower counters on this card.",
+    "ATK": "1200",
+    "DEF": "1200",
+    "Abilities": "+1: Each player discards a card. Put the top three cards of your deck into your graveyard. You may put a mono-attribute resonator card from among them into your hand.\n-2: Each other player banishes a resonator with the highest ATK from among resonators they control.\n[Judgment] {B}{B}. Play this judgment process only if there are five willpower counters on this card.|-3: You gain \"You may play cards from your graveyard, with an additional cost of removing three cards in your graveyard from the game.\" until end of game.\n-6: Choose a player. The chosen player banishes all resonators they control, then they discard a card for each resonator banished this way.\n[Terrifying]\n[Vileborn] (5)",
     "Divinity": "",
-    "Willpower": 3,
+    "Willpower": "3",
     "Flavour": "",
     "Artist": "fzwrAym",
     "Rarity": "MR",
@@ -349,29 +363,30 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "5d55ff05-b27c-4bac-b989-cb666af1699c",
-    "image": "5d55ff05-b27c-4bac-b989-cb666af1699c.jpg"
-  },
-  {
-    "Card Number": "ESD1-015J",
-    "name": "Morgana, Terrifying Passionate Professor",
-    "Type": "J-Ruler",
-    "Race": "Human|Warlock",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "1200",
-    "DEF": "1200",
-    "Abilities": "-3: You gain \"You may play cards from your graveyard, with an additional cost of removing three cards in your graveyard from the game.\" until end of game.\n-6: Choose a player. The chosen player banishes all resonators they control, then they discard a card for each resonator banished this way.\n[Terrifying]\n[Vileborn] (5)",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "fzwrAym",
-    "Rarity": "MR",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "096 - Evil Cluster Starter Deck 1",
-    "Set Code": "ESD1",
-    "id": "65f2bf39-220b-42fd-a15b-766b1f0f6b8b",
-    "image": "65f2bf39-220b-42fd-a15b-766b1f0f6b8b.jpg"
+    "image": "5d55ff05-b27c-4bac-b989-cb666af1699c.jpg",
+    "Card Type": "Warden",
+    "backimage": "65f2bf39-220b-42fd-a15b-766b1f0f6b8b.jpg",
+    "alternate1_Card Number": "ESD1-015J",
+    "alternate1_name": "Morgana, Terrifying Passionate Professor",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human|Warlock",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "-3: You gain \"You may play cards from your graveyard, with an additional cost of removing three cards in your graveyard from the game.\" until end of game.\n-6: Choose a player. The chosen player banishes all resonators they control, then they discard a card for each resonator banished this way.\n[Terrifying]\n[Vileborn] (5)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "fzwrAym",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "096 - Evil Cluster Starter Deck 1",
+    "alternate1_Set Code": "ESD1",
+    "alternate1_id": "65f2bf39-220b-42fd-a15b-766b1f0f6b8b",
+    "alternate1_image": "65f2bf39-220b-42fd-a15b-766b1f0f6b8b.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ESD1-016",
@@ -393,7 +408,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "d42ce51c-2632-4c72-b5da-b9d33416c348",
-    "image": "d42ce51c-2632-4c72-b5da-b9d33416c348.jpg"
+    "image": "d42ce51c-2632-4c72-b5da-b9d33416c348.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "ESD1-017",
@@ -415,7 +431,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "2b388ae9-0ecc-4fea-8f84-7e3fc78f5547",
-    "image": "2b388ae9-0ecc-4fea-8f84-7e3fc78f5547.jpg"
+    "image": "2b388ae9-0ecc-4fea-8f84-7e3fc78f5547.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "ESD1-018",
@@ -437,7 +454,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "18985389-65ea-4f5c-a1af-cb241dcea254",
-    "image": "18985389-65ea-4f5c-a1af-cb241dcea254.jpg"
+    "image": "18985389-65ea-4f5c-a1af-cb241dcea254.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "ESD1-019",
@@ -459,7 +477,8 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "b8fccc61-255e-4630-81f9-9c21857fa4d7",
-    "image": "b8fccc61-255e-4630-81f9-9c21857fa4d7.jpg"
+    "image": "b8fccc61-255e-4630-81f9-9c21857fa4d7.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "ESD1-020",
@@ -481,6 +500,7 @@
     "Set Name": "096 - Evil Cluster Starter Deck 1",
     "Set Code": "ESD1",
     "id": "93d06b45-6ce4-4c02-977d-b1754e332b0f",
-    "image": "93d06b45-6ce4-4c02-977d-b1754e332b0f.jpg"
+    "image": "93d06b45-6ce4-4c02-977d-b1754e332b0f.jpg",
+    "Card Type": "Master Rune"
   }
 ]

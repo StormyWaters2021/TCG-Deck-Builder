@@ -19,7 +19,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "b554170c-432a-4258-85d1-f4ba3383a0dc",
-    "image": "b554170c-432a-4258-85d1-f4ba3383a0dc.jpg"
+    "image": "b554170c-432a-4258-85d1-f4ba3383a0dc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-002",
@@ -41,7 +42,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "3e4a8ca5-089b-4f23-b0b1-9f1e5fec35d8",
-    "image": "3e4a8ca5-089b-4f23-b0b1-9f1e5fec35d8.jpg"
+    "image": "3e4a8ca5-089b-4f23-b0b1-9f1e5fec35d8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-003",
@@ -63,7 +65,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "92c8174a-3616-401f-89d6-55f3898b931c",
-    "image": "92c8174a-3616-401f-89d6-55f3898b931c.jpg"
+    "image": "92c8174a-3616-401f-89d6-55f3898b931c.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN001-004",
@@ -85,7 +88,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "4c4e6dc3-83c6-47f0-87b8-1891739e1d99",
-    "image": "4c4e6dc3-83c6-47f0-87b8-1891739e1d99.jpg"
+    "image": "4c4e6dc3-83c6-47f0-87b8-1891739e1d99.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN001-005",
@@ -107,7 +111,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "fee90510-9b7d-4e88-a280-2ac0b7df1037",
-    "image": "fee90510-9b7d-4e88-a280-2ac0b7df1037.jpg"
+    "image": "fee90510-9b7d-4e88-a280-2ac0b7df1037.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-006",
@@ -129,51 +134,53 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "56b35f6e-43f9-4c36-b6d4-f41df8e2810c",
-    "image": "56b35f6e-43f9-4c36-b6d4-f41df8e2810c.jpg"
+    "image": "56b35f6e-43f9-4c36-b6d4-f41df8e2810c.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "VIN001-007",
-    "name": "Hannibal Barca",
-    "Type": "Ruler",
-    "Race": "General",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {W}{2}.\n{2}: Target resonator gains [+0/+200] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Sweet, it went as I expectedHehe, no one can escape my perfect strategies!\"",
-    "Artist": "ukyo_rst",
-    "Rarity": "R",
-    "Fowid": "1587",
-    "Cluster": "02 - Grimm",
-    "Set Name": "009 - Vingolf series - Engage Series",
-    "Set Code": "VIN001",
-    "id": "8a694248-2825-4856-b1bc-cca27f53ab0d",
-    "image": "8a694248-2825-4856-b1bc-cca27f53ab0d.jpg"
-  },
-  {
-    "Card Number": "VIN001-007J",
-    "name": "Hannibal Barca [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "VIN001-007|VIN001-007J",
+    "name": "Hannibal Barca // Hannibal Barca [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "General",
     "Cost": "",
     "Colour": "W",
     "ATK": "800",
     "DEF": "800",
-    "Abilities": "[Target Attack] (This card can attack recovered J/resonators.)\nWhen this card enters your field, you may destroy target rested resonator.\nWhenever this card attacks, you gain 200 life.",
+    "Abilities": "[J-Activate] {W}{2}.\n{2}: Target resonator gains [+0/+200] until end of turn.|[Target Attack] (This card can attack recovered J/resonators.)\nWhen this card enters your field, you may destroy target rested resonator.\nWhenever this card attacks, you gain 200 life.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "",
+    "Flavour": "\"Sweet, it went as I expectedHehe, no one can escape my perfect strategies!\"",
     "Artist": "ukyo_rst",
     "Rarity": "R",
-    "Fowid": "1588",
+    "Fowid": "1587|1588",
     "Cluster": "02 - Grimm",
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
-    "id": "41615fd5-3ec6-449e-aba0-dc60667449eb",
-    "image": "41615fd5-3ec6-449e-aba0-dc60667449eb.jpg"
+    "id": "8a694248-2825-4856-b1bc-cca27f53ab0d",
+    "image": "8a694248-2825-4856-b1bc-cca27f53ab0d.jpg",
+    "Card Type": "Ruler",
+    "backimage": "41615fd5-3ec6-449e-aba0-dc60667449eb.jpg",
+    "alternate1_Card Number": "VIN001-007J",
+    "alternate1_name": "Hannibal Barca [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "General",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Target Attack] (This card can attack recovered J/resonators.)\nWhen this card enters your field, you may destroy target rested resonator.\nWhenever this card attacks, you gain 200 life.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "ukyo_rst",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1588",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "009 - Vingolf series - Engage Series",
+    "alternate1_Set Code": "VIN001",
+    "alternate1_id": "41615fd5-3ec6-449e-aba0-dc60667449eb",
+    "alternate1_image": "41615fd5-3ec6-449e-aba0-dc60667449eb.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN001-008",
@@ -195,7 +202,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "9e79c979-a956-4f3b-99d8-df0e32bb87c2",
-    "image": "9e79c979-a956-4f3b-99d8-df0e32bb87c2.jpg"
+    "image": "9e79c979-a956-4f3b-99d8-df0e32bb87c2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-009",
@@ -217,7 +225,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "bc89c4d7-ddbf-4f7c-a161-8b4948c134fa",
-    "image": "bc89c4d7-ddbf-4f7c-a161-8b4948c134fa.jpg"
+    "image": "bc89c4d7-ddbf-4f7c-a161-8b4948c134fa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-010",
@@ -239,7 +248,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "7fe4fd1d-4357-4be6-9144-957ee7f700a8",
-    "image": "7fe4fd1d-4357-4be6-9144-957ee7f700a8.jpg"
+    "image": "7fe4fd1d-4357-4be6-9144-957ee7f700a8.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN001-011",
@@ -261,7 +271,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "ef32e27f-8ff6-469f-b251-b181edf0cf6c",
-    "image": "ef32e27f-8ff6-469f-b251-b181edf0cf6c.jpg"
+    "image": "ef32e27f-8ff6-469f-b251-b181edf0cf6c.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN001-012",
@@ -283,7 +294,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "0411bb8b-41b2-4e53-a47a-51ea02cf8422",
-    "image": "0411bb8b-41b2-4e53-a47a-51ea02cf8422.jpg"
+    "image": "0411bb8b-41b2-4e53-a47a-51ea02cf8422.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-013",
@@ -305,7 +317,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "ea88230c-9cc7-4406-b502-95de01be2bdd",
-    "image": "ea88230c-9cc7-4406-b502-95de01be2bdd.jpg"
+    "image": "ea88230c-9cc7-4406-b502-95de01be2bdd.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "VIN001-014",
@@ -327,7 +340,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "034f0598-f0ce-442e-8939-c0c6c3558e05",
-    "image": "034f0598-f0ce-442e-8939-c0c6c3558e05.jpg"
+    "image": "034f0598-f0ce-442e-8939-c0c6c3558e05.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-015",
@@ -349,51 +363,53 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "81769953-4eb5-4077-9639-0eb404696dd9",
-    "image": "81769953-4eb5-4077-9639-0eb404696dd9.jpg"
+    "image": "81769953-4eb5-4077-9639-0eb404696dd9.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "VIN001-016",
-    "name": "Alexander",
-    "Type": "Ruler",
-    "Race": "King",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {R}{2}\n{2}: This card deals 200 damage to target resonator.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Listen, a king must be someone who is both smart and braveBasically, someone like me!\"",
-    "Artist": "藤真拓哉",
-    "Rarity": "R",
-    "Fowid": "1597",
-    "Cluster": "02 - Grimm",
-    "Set Name": "009 - Vingolf series - Engage Series",
-    "Set Code": "VIN001",
-    "id": "85ba9d06-4a22-4d16-8fa9-f49c3b09584a",
-    "image": "85ba9d06-4a22-4d16-8fa9-f49c3b09584a.jpg"
-  },
-  {
-    "Card Number": "VIN001-016J",
-    "name": "Alexander [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "VIN001-016|VIN001-016J",
+    "name": "Alexander // Alexander [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "King",
     "Cost": "",
     "Colour": "R",
     "ATK": "1000",
     "DEF": "700",
-    "Abilities": "[Swiftness] (This card can attack and play its {Rest} abilities the same turn it enters a field.)\nWhen this card enters your field, it deals 800 damage to up to one target resonator.\nWhenever this card attacks, target fire resonator you control gains [First Strike] and [Swiftness] until end of turn.",
+    "Abilities": "[J-Activate] {R}{2}\n{2}: This card deals 200 damage to target resonator.|[Swiftness] (This card can attack and play its {Rest} abilities the same turn it enters a field.)\nWhen this card enters your field, it deals 800 damage to up to one target resonator.\nWhenever this card attacks, target fire resonator you control gains [First Strike] and [Swiftness] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "",
+    "Flavour": "\"Listen, a king must be someone who is both smart and braveBasically, someone like me!\"",
     "Artist": "藤真拓哉",
     "Rarity": "R",
-    "Fowid": "1598",
+    "Fowid": "1597|1598",
     "Cluster": "02 - Grimm",
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
-    "id": "9b6ba63a-2a00-40e6-845d-1ec0d00d97f0",
-    "image": "9b6ba63a-2a00-40e6-845d-1ec0d00d97f0.jpg"
+    "id": "85ba9d06-4a22-4d16-8fa9-f49c3b09584a",
+    "image": "85ba9d06-4a22-4d16-8fa9-f49c3b09584a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "9b6ba63a-2a00-40e6-845d-1ec0d00d97f0.jpg",
+    "alternate1_Card Number": "VIN001-016J",
+    "alternate1_name": "Alexander [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "King",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[Swiftness] (This card can attack and play its {Rest} abilities the same turn it enters a field.)\nWhen this card enters your field, it deals 800 damage to up to one target resonator.\nWhenever this card attacks, target fire resonator you control gains [First Strike] and [Swiftness] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "藤真拓哉",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1598",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "009 - Vingolf series - Engage Series",
+    "alternate1_Set Code": "VIN001",
+    "alternate1_id": "9b6ba63a-2a00-40e6-845d-1ec0d00d97f0",
+    "alternate1_image": "9b6ba63a-2a00-40e6-845d-1ec0d00d97f0.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN001-017",
@@ -415,7 +431,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "039e98d5-a141-4a13-b507-fe2552574fb0",
-    "image": "039e98d5-a141-4a13-b507-fe2552574fb0.jpg"
+    "image": "039e98d5-a141-4a13-b507-fe2552574fb0.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN001-018",
@@ -437,7 +454,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "921a5d3b-5753-4eb1-933a-65627199c378",
-    "image": "921a5d3b-5753-4eb1-933a-65627199c378.jpg"
+    "image": "921a5d3b-5753-4eb1-933a-65627199c378.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-019",
@@ -459,7 +477,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "684d2caf-9cb6-4777-bd81-ed2184c131d2",
-    "image": "684d2caf-9cb6-4777-bd81-ed2184c131d2.jpg"
+    "image": "684d2caf-9cb6-4777-bd81-ed2184c131d2.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN001-020",
@@ -481,7 +500,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "1e79ae74-70f0-4141-99a1-8658497c96d5",
-    "image": "1e79ae74-70f0-4141-99a1-8658497c96d5.jpg"
+    "image": "1e79ae74-70f0-4141-99a1-8658497c96d5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-021",
@@ -503,7 +523,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "4a4939c7-6944-4b38-9b2a-6bd9b59b390d",
-    "image": "4a4939c7-6944-4b38-9b2a-6bd9b59b390d.jpg"
+    "image": "4a4939c7-6944-4b38-9b2a-6bd9b59b390d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-022",
@@ -525,7 +546,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "34c16f86-c631-47f2-8cd2-3701308337a7",
-    "image": "34c16f86-c631-47f2-8cd2-3701308337a7.jpg"
+    "image": "34c16f86-c631-47f2-8cd2-3701308337a7.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "VIN001-023",
@@ -547,7 +569,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "e28e5376-2a35-4670-876e-60f7a626b65b",
-    "image": "e28e5376-2a35-4670-876e-60f7a626b65b.jpg"
+    "image": "e28e5376-2a35-4670-876e-60f7a626b65b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-024",
@@ -569,7 +592,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "53e820a0-d812-4356-bf23-330ca32fc768",
-    "image": "53e820a0-d812-4356-bf23-330ca32fc768.jpg"
+    "image": "53e820a0-d812-4356-bf23-330ca32fc768.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-025",
@@ -591,7 +615,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "8527161b-0d76-4ad8-9de3-ba2d05018834",
-    "image": "8527161b-0d76-4ad8-9de3-ba2d05018834.jpg"
+    "image": "8527161b-0d76-4ad8-9de3-ba2d05018834.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-026",
@@ -613,7 +638,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "471b358d-aaea-43d6-925e-e3c1c30c84a2",
-    "image": "471b358d-aaea-43d6-925e-e3c1c30c84a2.jpg"
+    "image": "471b358d-aaea-43d6-925e-e3c1c30c84a2.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN001-027",
@@ -635,7 +661,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "892f40b3-8035-4f58-a438-f52dcfec297a",
-    "image": "892f40b3-8035-4f58-a438-f52dcfec297a.jpg"
+    "image": "892f40b3-8035-4f58-a438-f52dcfec297a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-028",
@@ -657,7 +684,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "e09236d4-740a-4058-87e8-584bb02e113c",
-    "image": "e09236d4-740a-4058-87e8-584bb02e113c.jpg"
+    "image": "e09236d4-740a-4058-87e8-584bb02e113c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-029",
@@ -679,7 +707,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "8e8bc2da-ebbb-49b0-8ca4-95e3c02882d5",
-    "image": "8e8bc2da-ebbb-49b0-8ca4-95e3c02882d5.jpg"
+    "image": "8e8bc2da-ebbb-49b0-8ca4-95e3c02882d5.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN001-030",
@@ -701,7 +730,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "85f82de7-2c30-440a-bd59-14e581ca8878",
-    "image": "85f82de7-2c30-440a-bd59-14e581ca8878.jpg"
+    "image": "85f82de7-2c30-440a-bd59-14e581ca8878.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-031",
@@ -723,7 +753,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "1795cd99-b41f-48b0-b25d-d09d4452a21f",
-    "image": "1795cd99-b41f-48b0-b25d-d09d4452a21f.jpg"
+    "image": "1795cd99-b41f-48b0-b25d-d09d4452a21f.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN001-032",
@@ -745,7 +776,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "68e99376-0f31-4791-8cb5-9918d8080b24",
-    "image": "68e99376-0f31-4791-8cb5-9918d8080b24.jpg"
+    "image": "68e99376-0f31-4791-8cb5-9918d8080b24.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-033",
@@ -767,7 +799,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "8c0ff614-d4c6-4f4b-a331-e91b58107e67",
-    "image": "8c0ff614-d4c6-4f4b-a331-e91b58107e67.jpg"
+    "image": "8c0ff614-d4c6-4f4b-a331-e91b58107e67.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-034",
@@ -789,51 +822,53 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "c4ce464f-5c75-42d5-b24a-df3c43533995",
-    "image": "c4ce464f-5c75-42d5-b24a-df3c43533995.jpg"
+    "image": "c4ce464f-5c75-42d5-b24a-df3c43533995.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "VIN001-035",
-    "name": "Julius Caesar",
-    "Type": "Ruler",
-    "Race": "General",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {U}{2}\n{2}: Target resonator gains [Flying] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Don't call me baldie! It's just that I have a big forehead, okay? Otherwise I'll headbutt you!\"",
-    "Artist": "岸和田ロビン",
-    "Rarity": "R",
-    "Fowid": "1617",
-    "Cluster": "02 - Grimm",
-    "Set Name": "009 - Vingolf series - Engage Series",
-    "Set Code": "VIN001",
-    "id": "aa0a9ac9-b1a0-44db-b017-7a5539aa44c1",
-    "image": "aa0a9ac9-b1a0-44db-b017-7a5539aa44c1.jpg"
-  },
-  {
-    "Card Number": "VIN001-035J",
-    "name": "Julius Caesar [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "VIN001-035|VIN001-035J",
+    "name": "Julius Caesar // Julius Caesar [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "General",
     "Cost": "",
     "Colour": "U",
     "ATK": "800",
     "DEF": "1000",
-    "Abilities": "[Flying] (This card cannot be blocked by J/resonators without [Flying].)\nWhen this card enters your field, draw two cards.\nDiscard a card: Target water resonator gains [Flying] until end of turn.",
+    "Abilities": "[J-Activate] {U}{2}\n{2}: Target resonator gains [Flying] until end of turn.|[Flying] (This card cannot be blocked by J/resonators without [Flying].)\nWhen this card enters your field, draw two cards.\nDiscard a card: Target water resonator gains [Flying] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "",
+    "Flavour": "\"Don't call me baldie! It's just that I have a big forehead, okay? Otherwise I'll headbutt you!\"",
     "Artist": "岸和田ロビン",
     "Rarity": "R",
-    "Fowid": "1618",
+    "Fowid": "1617|1618",
     "Cluster": "02 - Grimm",
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
-    "id": "9afed0b6-a483-4bc5-b502-a240982dab2b",
-    "image": "9afed0b6-a483-4bc5-b502-a240982dab2b.jpg"
+    "id": "aa0a9ac9-b1a0-44db-b017-7a5539aa44c1",
+    "image": "aa0a9ac9-b1a0-44db-b017-7a5539aa44c1.jpg",
+    "Card Type": "Ruler",
+    "backimage": "9afed0b6-a483-4bc5-b502-a240982dab2b.jpg",
+    "alternate1_Card Number": "VIN001-035J",
+    "alternate1_name": "Julius Caesar [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "General",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying] (This card cannot be blocked by J/resonators without [Flying].)\nWhen this card enters your field, draw two cards.\nDiscard a card: Target water resonator gains [Flying] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "岸和田ロビン",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1618",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "009 - Vingolf series - Engage Series",
+    "alternate1_Set Code": "VIN001",
+    "alternate1_id": "9afed0b6-a483-4bc5-b502-a240982dab2b",
+    "alternate1_image": "9afed0b6-a483-4bc5-b502-a240982dab2b.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN001-036",
@@ -855,7 +890,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "00cefadd-095d-421d-8f6c-92e4f0d11a8e",
-    "image": "00cefadd-095d-421d-8f6c-92e4f0d11a8e.jpg"
+    "image": "00cefadd-095d-421d-8f6c-92e4f0d11a8e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-037",
@@ -877,7 +913,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "413991f9-45f0-4bcc-8ec9-8c230d87fbb3",
-    "image": "413991f9-45f0-4bcc-8ec9-8c230d87fbb3.jpg"
+    "image": "413991f9-45f0-4bcc-8ec9-8c230d87fbb3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-038",
@@ -899,7 +936,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "35499399-1ac7-4f8e-81a9-edcede284ea2",
-    "image": "35499399-1ac7-4f8e-81a9-edcede284ea2.jpg"
+    "image": "35499399-1ac7-4f8e-81a9-edcede284ea2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-039",
@@ -921,7 +959,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "175602c0-4a98-45ee-88de-9eb970ad8664",
-    "image": "175602c0-4a98-45ee-88de-9eb970ad8664.jpg"
+    "image": "175602c0-4a98-45ee-88de-9eb970ad8664.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN001-040",
@@ -943,7 +982,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "79ff3f17-2063-4a1d-9c6b-808f0fb3f764",
-    "image": "79ff3f17-2063-4a1d-9c6b-808f0fb3f764.jpg"
+    "image": "79ff3f17-2063-4a1d-9c6b-808f0fb3f764.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN001-041",
@@ -965,7 +1005,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "52db4182-991a-4c79-b9c6-494aacac5dbe",
-    "image": "52db4182-991a-4c79-b9c6-494aacac5dbe.jpg"
+    "image": "52db4182-991a-4c79-b9c6-494aacac5dbe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-042",
@@ -987,7 +1028,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "86f2d955-0c53-4ccf-9951-99ef9d8e36d2",
-    "image": "86f2d955-0c53-4ccf-9951-99ef9d8e36d2.jpg"
+    "image": "86f2d955-0c53-4ccf-9951-99ef9d8e36d2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-043",
@@ -1009,7 +1051,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "97eae209-6a3b-475a-bbab-4338f946bdd0",
-    "image": "97eae209-6a3b-475a-bbab-4338f946bdd0.jpg"
+    "image": "97eae209-6a3b-475a-bbab-4338f946bdd0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-044",
@@ -1031,7 +1074,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "9ad92ba0-9aad-489c-a6e5-e06ae99afdf3",
-    "image": "9ad92ba0-9aad-489c-a6e5-e06ae99afdf3.jpg"
+    "image": "9ad92ba0-9aad-489c-a6e5-e06ae99afdf3.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN001-045",
@@ -1053,7 +1097,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "c9c6f65e-2ca6-4b54-a60e-efe22a611279",
-    "image": "c9c6f65e-2ca6-4b54-a60e-efe22a611279.jpg"
+    "image": "c9c6f65e-2ca6-4b54-a60e-efe22a611279.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "VIN001-046",
@@ -1075,7 +1120,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "48ea8e27-518a-4cf8-9165-095102d55cf3",
-    "image": "48ea8e27-518a-4cf8-9165-095102d55cf3.jpg"
+    "image": "48ea8e27-518a-4cf8-9165-095102d55cf3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-047",
@@ -1097,7 +1143,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "b1665b8e-4616-4b71-af50-90052dd60bd4",
-    "image": "b1665b8e-4616-4b71-af50-90052dd60bd4.jpg"
+    "image": "b1665b8e-4616-4b71-af50-90052dd60bd4.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN001-048",
@@ -1119,7 +1166,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "4c801663-2400-49de-a9c1-8f78e6ca858c",
-    "image": "4c801663-2400-49de-a9c1-8f78e6ca858c.jpg"
+    "image": "4c801663-2400-49de-a9c1-8f78e6ca858c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-049",
@@ -1141,7 +1189,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "9f1bb7b9-cb93-47b6-84ba-22afb07fecf2",
-    "image": "9f1bb7b9-cb93-47b6-84ba-22afb07fecf2.jpg"
+    "image": "9f1bb7b9-cb93-47b6-84ba-22afb07fecf2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-050",
@@ -1163,7 +1212,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "67aab752-ecd5-4027-8911-a5981b5deb50",
-    "image": "67aab752-ecd5-4027-8911-a5981b5deb50.jpg"
+    "image": "67aab752-ecd5-4027-8911-a5981b5deb50.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-051",
@@ -1185,7 +1235,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "a6be7a00-6d96-4ff7-aa8a-bcfe069996e0",
-    "image": "a6be7a00-6d96-4ff7-aa8a-bcfe069996e0.jpg"
+    "image": "a6be7a00-6d96-4ff7-aa8a-bcfe069996e0.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN001-052",
@@ -1207,7 +1258,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "be60d9b8-31db-43f1-8ddf-456da23cbf5d",
-    "image": "be60d9b8-31db-43f1-8ddf-456da23cbf5d.jpg"
+    "image": "be60d9b8-31db-43f1-8ddf-456da23cbf5d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-053",
@@ -1229,7 +1281,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "ba66e032-5058-479f-bff8-3db598c94d7e",
-    "image": "ba66e032-5058-479f-bff8-3db598c94d7e.jpg"
+    "image": "ba66e032-5058-479f-bff8-3db598c94d7e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-054",
@@ -1251,51 +1304,53 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "b2f6ca8d-e236-4cbf-95ec-20f0936f87a2",
-    "image": "b2f6ca8d-e236-4cbf-95ec-20f0936f87a2.jpg"
+    "image": "b2f6ca8d-e236-4cbf-95ec-20f0936f87a2.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
-    "Card Number": "VIN001-055",
-    "name": "Minamoto no Yoshitsune",
-    "Type": "Ruler",
-    "Race": "Warlord",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {G}{2}\n{2}: Target resonator gains [+200/+0] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Secret technique of the eight boats leap, 'Octa Drive'! Everyone who witnessed this ability of mine now is dead!\"",
-    "Artist": "ぱんつもりこ",
-    "Rarity": "R",
-    "Fowid": "1638",
-    "Cluster": "02 - Grimm",
-    "Set Name": "009 - Vingolf series - Engage Series",
-    "Set Code": "VIN001",
-    "id": "15eb93e5-b5d4-449f-afcd-af835188cdd6",
-    "image": "15eb93e5-b5d4-449f-afcd-af835188cdd6.jpg"
-  },
-  {
-    "Card Number": "VIN001-055J",
-    "name": "Minamoto no Yoshitsune [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "VIN001-055|VIN001-055J",
+    "name": "Minamoto no Yoshitsune // Minamoto no Yoshitsune [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Warlord",
     "Cost": "",
     "Colour": "G",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "When this cards enter your field, recover up to two target resonators.\n{G}{G}: This card gains [+200/+200] until end of turn.",
+    "Abilities": "[J-Activate] {G}{2}\n{2}: Target resonator gains [+200/+0] until end of turn.|When this cards enter your field, recover up to two target resonators.\n{G}{G}: This card gains [+200/+200] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "",
+    "Flavour": "\"Secret technique of the eight boats leap, 'Octa Drive'! Everyone who witnessed this ability of mine now is dead!\"",
     "Artist": "ぱんつもりこ",
     "Rarity": "R",
-    "Fowid": "1639",
+    "Fowid": "1638|1639",
     "Cluster": "02 - Grimm",
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
-    "id": "2f8e90cb-4d74-43b6-85af-312357349d36",
-    "image": "2f8e90cb-4d74-43b6-85af-312357349d36.jpg"
+    "id": "15eb93e5-b5d4-449f-afcd-af835188cdd6",
+    "image": "15eb93e5-b5d4-449f-afcd-af835188cdd6.jpg",
+    "Card Type": "Ruler",
+    "backimage": "2f8e90cb-4d74-43b6-85af-312357349d36.jpg",
+    "alternate1_Card Number": "VIN001-055J",
+    "alternate1_name": "Minamoto no Yoshitsune [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Warlord",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "When this cards enter your field, recover up to two target resonators.\n{G}{G}: This card gains [+200/+200] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "ぱんつもりこ",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1639",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "009 - Vingolf series - Engage Series",
+    "alternate1_Set Code": "VIN001",
+    "alternate1_id": "2f8e90cb-4d74-43b6-85af-312357349d36",
+    "alternate1_image": "2f8e90cb-4d74-43b6-85af-312357349d36.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN001-056",
@@ -1317,7 +1372,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "f267d690-a9e1-4815-83b4-91e3b3da6cc3",
-    "image": "f267d690-a9e1-4815-83b4-91e3b3da6cc3.jpg"
+    "image": "f267d690-a9e1-4815-83b4-91e3b3da6cc3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-057",
@@ -1339,7 +1395,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "ec7edddf-6678-4196-a200-11e9f3c21d4f",
-    "image": "ec7edddf-6678-4196-a200-11e9f3c21d4f.jpg"
+    "image": "ec7edddf-6678-4196-a200-11e9f3c21d4f.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "VIN001-058",
@@ -1361,7 +1418,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "5ba8fce1-b389-4208-baa3-4024ba0c80d0",
-    "image": "5ba8fce1-b389-4208-baa3-4024ba0c80d0.jpg"
+    "image": "5ba8fce1-b389-4208-baa3-4024ba0c80d0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-059",
@@ -1383,7 +1441,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "cdb61195-288d-4b03-97c5-2439410cd848",
-    "image": "cdb61195-288d-4b03-97c5-2439410cd848.jpg"
+    "image": "cdb61195-288d-4b03-97c5-2439410cd848.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-060",
@@ -1405,7 +1464,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "feca0b0e-0310-4ad7-979a-2e251bf928f7",
-    "image": "feca0b0e-0310-4ad7-979a-2e251bf928f7.jpg"
+    "image": "feca0b0e-0310-4ad7-979a-2e251bf928f7.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN001-061",
@@ -1427,7 +1487,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "faf0624d-ac34-411d-b80f-7de2224893d8",
-    "image": "faf0624d-ac34-411d-b80f-7de2224893d8.jpg"
+    "image": "faf0624d-ac34-411d-b80f-7de2224893d8.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN001-062",
@@ -1449,7 +1510,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "ee83b40f-b166-4e0b-ac55-cea6cafa3228",
-    "image": "ee83b40f-b166-4e0b-ac55-cea6cafa3228.jpg"
+    "image": "ee83b40f-b166-4e0b-ac55-cea6cafa3228.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-063",
@@ -1471,7 +1533,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "67d90a9f-992d-4d1a-9d3e-3207b32a0d05",
-    "image": "67d90a9f-992d-4d1a-9d3e-3207b32a0d05.jpg"
+    "image": "67d90a9f-992d-4d1a-9d3e-3207b32a0d05.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "VIN001-064",
@@ -1493,7 +1556,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "f84d34cf-c055-43d0-a76e-748aef2a9d39",
-    "image": "f84d34cf-c055-43d0-a76e-748aef2a9d39.jpg"
+    "image": "f84d34cf-c055-43d0-a76e-748aef2a9d39.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-065",
@@ -1515,7 +1579,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "b7d19d85-823c-4122-8fb9-088f4b5304fb",
-    "image": "b7d19d85-823c-4122-8fb9-088f4b5304fb.jpg"
+    "image": "b7d19d85-823c-4122-8fb9-088f4b5304fb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-066",
@@ -1537,7 +1602,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "64d9de0f-1792-459e-8d71-379b3a4114c0",
-    "image": "64d9de0f-1792-459e-8d71-379b3a4114c0.jpg"
+    "image": "64d9de0f-1792-459e-8d71-379b3a4114c0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-067",
@@ -1559,7 +1625,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "085f775e-0cfe-4ef0-bb80-aa7ac6b9fdad",
-    "image": "085f775e-0cfe-4ef0-bb80-aa7ac6b9fdad.jpg"
+    "image": "085f775e-0cfe-4ef0-bb80-aa7ac6b9fdad.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-068",
@@ -1581,7 +1648,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "94f3215a-b24a-4012-81a1-6d79fbbd3ff0",
-    "image": "94f3215a-b24a-4012-81a1-6d79fbbd3ff0.jpg"
+    "image": "94f3215a-b24a-4012-81a1-6d79fbbd3ff0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-069",
@@ -1603,7 +1671,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "e65de4bc-0308-4adc-b15e-192dabeb3599",
-    "image": "e65de4bc-0308-4adc-b15e-192dabeb3599.jpg"
+    "image": "e65de4bc-0308-4adc-b15e-192dabeb3599.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-070",
@@ -1625,7 +1694,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "a78e1dea-6dec-4464-873c-32ca0fe3bbdb",
-    "image": "a78e1dea-6dec-4464-873c-32ca0fe3bbdb.jpg"
+    "image": "a78e1dea-6dec-4464-873c-32ca0fe3bbdb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-071",
@@ -1647,7 +1717,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "3c7210db-c26c-4aa6-99ed-edd046166f0d",
-    "image": "3c7210db-c26c-4aa6-99ed-edd046166f0d.jpg"
+    "image": "3c7210db-c26c-4aa6-99ed-edd046166f0d.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN001-072",
@@ -1669,7 +1740,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "5b73f1c3-514c-4590-b104-9efb741a126e",
-    "image": "5b73f1c3-514c-4590-b104-9efb741a126e.jpg"
+    "image": "5b73f1c3-514c-4590-b104-9efb741a126e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-073",
@@ -1691,7 +1763,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "224cff71-6713-4327-8488-77f981c3468b",
-    "image": "224cff71-6713-4327-8488-77f981c3468b.jpg"
+    "image": "224cff71-6713-4327-8488-77f981c3468b.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN001-074",
@@ -1713,51 +1786,53 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "95fe3c52-da88-4958-97d3-840540651dc8",
-    "image": "95fe3c52-da88-4958-97d3-840540651dc8.jpg"
+    "image": "95fe3c52-da88-4958-97d3-840540651dc8.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
-    "Card Number": "VIN001-075",
-    "name": "Vlad Tepes",
-    "Type": "Ruler",
-    "Race": "Vampire",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] {B}{2}.\n{2}: This card deals 200 damage to target opponent. You gain 200 life.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"What's wrong? Even though I'm quite tall, I won't look down on you! It's just that I drink milk every day!\"",
-    "Artist": "鍋島テツヒロ",
-    "Rarity": "R",
-    "Fowid": "1659",
-    "Cluster": "02 - Grimm",
-    "Set Name": "009 - Vingolf series - Engage Series",
-    "Set Code": "VIN001",
-    "id": "165af62f-71c5-4e0a-b151-377c261c5365",
-    "image": "165af62f-71c5-4e0a-b151-377c261c5365.jpg"
-  },
-  {
-    "Card Number": "VIN001-075J",
-    "name": "Vlad Tepes [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "VIN001-075|VIN001-075J",
+    "name": "Vlad Tepes // Vlad Tepes [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Vampire",
     "Cost": "",
     "Colour": "B",
     "ATK": "800",
     "DEF": "1000",
-    "Abilities": "When this card enters your field, destroy target resonator with total cost 3 or less. You gain life equal to its DEF.\n{B}{2}, banish a darkness resonator: This card gains [Imperishable] until end of turn.",
+    "Abilities": "[J-Activate] {B}{2}.\n{2}: This card deals 200 damage to target opponent. You gain 200 life.|When this card enters your field, destroy target resonator with total cost 3 or less. You gain life equal to its DEF.\n{B}{2}, banish a darkness resonator: This card gains [Imperishable] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "",
+    "Flavour": "\"What's wrong? Even though I'm quite tall, I won't look down on you! It's just that I drink milk every day!\"",
     "Artist": "鍋島テツヒロ",
     "Rarity": "R",
-    "Fowid": "1660",
+    "Fowid": "1659|1660",
     "Cluster": "02 - Grimm",
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
-    "id": "4bc46416-46b9-4398-88f0-b767e4bcf3c3",
-    "image": "4bc46416-46b9-4398-88f0-b767e4bcf3c3.jpg"
+    "id": "165af62f-71c5-4e0a-b151-377c261c5365",
+    "image": "165af62f-71c5-4e0a-b151-377c261c5365.jpg",
+    "Card Type": "Ruler",
+    "backimage": "4bc46416-46b9-4398-88f0-b767e4bcf3c3.jpg",
+    "alternate1_Card Number": "VIN001-075J",
+    "alternate1_name": "Vlad Tepes [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Vampire",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "When this card enters your field, destroy target resonator with total cost 3 or less. You gain life equal to its DEF.\n{B}{2}, banish a darkness resonator: This card gains [Imperishable] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "鍋島テツヒロ",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1660",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "009 - Vingolf series - Engage Series",
+    "alternate1_Set Code": "VIN001",
+    "alternate1_id": "4bc46416-46b9-4398-88f0-b767e4bcf3c3",
+    "alternate1_image": "4bc46416-46b9-4398-88f0-b767e4bcf3c3.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN001-076",
@@ -1779,7 +1854,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "9659a677-c897-431e-9d97-4bfcc604fdb9",
-    "image": "9659a677-c897-431e-9d97-4bfcc604fdb9.jpg"
+    "image": "9659a677-c897-431e-9d97-4bfcc604fdb9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-077",
@@ -1801,7 +1877,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "367032ef-4e80-4a2e-9e07-0155d173861b",
-    "image": "367032ef-4e80-4a2e-9e07-0155d173861b.jpg"
+    "image": "367032ef-4e80-4a2e-9e07-0155d173861b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-078",
@@ -1823,7 +1900,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "31573aad-fb48-41c1-9bae-914453e90550",
-    "image": "31573aad-fb48-41c1-9bae-914453e90550.jpg"
+    "image": "31573aad-fb48-41c1-9bae-914453e90550.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-079",
@@ -1845,7 +1923,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "e4ad8521-2ee1-4445-bd5f-43b0aa8ba1bd",
-    "image": "e4ad8521-2ee1-4445-bd5f-43b0aa8ba1bd.jpg"
+    "image": "e4ad8521-2ee1-4445-bd5f-43b0aa8ba1bd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN001-080",
@@ -1867,7 +1946,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "3cf7218e-16d8-464c-a021-39890c25f6cd",
-    "image": "3cf7218e-16d8-464c-a021-39890c25f6cd.jpg"
+    "image": "3cf7218e-16d8-464c-a021-39890c25f6cd.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN001-081",
@@ -1889,7 +1969,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "8538f86f-2661-4b73-a804-6f87259186df",
-    "image": "8538f86f-2661-4b73-a804-6f87259186df.jpg"
+    "image": "8538f86f-2661-4b73-a804-6f87259186df.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN001-082",
@@ -1911,7 +1992,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "ff444e1d-107a-44de-88f3-a437076920fc",
-    "image": "ff444e1d-107a-44de-88f3-a437076920fc.jpg"
+    "image": "ff444e1d-107a-44de-88f3-a437076920fc.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN001-083",
@@ -1933,7 +2015,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "f3b3d886-3e7e-4d0d-b3dc-0f071b9d78c3",
-    "image": "f3b3d886-3e7e-4d0d-b3dc-0f071b9d78c3.jpg"
+    "image": "f3b3d886-3e7e-4d0d-b3dc-0f071b9d78c3.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN001-084",
@@ -1955,7 +2038,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "c25fadb1-f1fb-44ed-886f-fc8851200510",
-    "image": "c25fadb1-f1fb-44ed-886f-fc8851200510.jpg"
+    "image": "c25fadb1-f1fb-44ed-886f-fc8851200510.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN001-085",
@@ -1977,7 +2061,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "91a095dd-8dd3-4ab3-ab65-58a005eb3fa6",
-    "image": "91a095dd-8dd3-4ab3-ab65-58a005eb3fa6.jpg"
+    "image": "91a095dd-8dd3-4ab3-ab65-58a005eb3fa6.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN001-086",
@@ -1999,7 +2084,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "dbe14b82-733c-413b-980a-f50e128061d0",
-    "image": "dbe14b82-733c-413b-980a-f50e128061d0.jpg"
+    "image": "dbe14b82-733c-413b-980a-f50e128061d0.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN001-087",
@@ -2021,7 +2107,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "27e71f70-1ca6-41f5-af5b-940e5aa5c1da",
-    "image": "27e71f70-1ca6-41f5-af5b-940e5aa5c1da.jpg"
+    "image": "27e71f70-1ca6-41f5-af5b-940e5aa5c1da.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN001-088",
@@ -2043,7 +2130,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "633449a4-adcd-49ff-9ac3-de2806000b95",
-    "image": "633449a4-adcd-49ff-9ac3-de2806000b95.jpg"
+    "image": "633449a4-adcd-49ff-9ac3-de2806000b95.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN001-089",
@@ -2065,7 +2153,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "f67890ff-4572-4755-beed-96c4f445ff96",
-    "image": "f67890ff-4572-4755-beed-96c4f445ff96.jpg"
+    "image": "f67890ff-4572-4755-beed-96c4f445ff96.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN001-090",
@@ -2087,7 +2176,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "7d106df1-8473-4f27-bbba-ab9c85b819de",
-    "image": "7d106df1-8473-4f27-bbba-ab9c85b819de.jpg"
+    "image": "7d106df1-8473-4f27-bbba-ab9c85b819de.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "VIN001-091",
@@ -2109,7 +2199,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "6276d25d-71fc-430a-a0cd-4cc0199d2ea3",
-    "image": "6276d25d-71fc-430a-a0cd-4cc0199d2ea3.jpg"
+    "image": "6276d25d-71fc-430a-a0cd-4cc0199d2ea3.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "VIN001-092",
@@ -2131,7 +2222,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "a36ccd8b-513b-47f7-9f4a-594c9337968b",
-    "image": "a36ccd8b-513b-47f7-9f4a-594c9337968b.jpg"
+    "image": "a36ccd8b-513b-47f7-9f4a-594c9337968b.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "VIN001-093",
@@ -2153,7 +2245,8 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "69869245-780d-48d9-8518-fa2767a41e85",
-    "image": "69869245-780d-48d9-8518-fa2767a41e85.jpg"
+    "image": "69869245-780d-48d9-8518-fa2767a41e85.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "VIN001-094",
@@ -2175,6 +2268,7 @@
     "Set Name": "009 - Vingolf series - Engage Series",
     "Set Code": "VIN001",
     "id": "95b03a43-0da8-4912-a7af-78e3fd79ab4a",
-    "image": "95b03a43-0da8-4912-a7af-78e3fd79ab4a.jpg"
+    "image": "95b03a43-0da8-4912-a7af-78e3fd79ab4a.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

@@ -1,47 +1,48 @@
 [
   {
-    "Card Number": "TSD1-001",
-    "name": "Lehen, Legendary Explorer",
-    "Type": "Ruler",
+    "Card Number": "TSD1-001|TSD1-001J",
+    "name": "Lehen, Legendary Explorer // Lehen, Witch Swordswoman",
+    "Type": "Ruler|J-Ruler",
     "Race": "Witch|Rogue|Explorer",
     "Cost": "",
     "Colour": "W|U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Players cannot move cards from their removed area to another zone as a cost.\n[Thorough Explorer] While revealing cards by an Exploration effect you control, you may reveal an additional card. You can only perform the effect of one [Thorough Explorer] ability each turn and only once per turn.\nAt the beginning of the game ]]] Draw a card.\n{0}: Exploration X, where X is the number of magic stones you control. Play this ability only once per turn. If you play this ability during your opponent's turn, put a card from your hand on the bottom of your deck as it resolves. (You may look at the top X cards of your deck. You may reveal a card from among them. If it is a Treasure card, remove it from the game. Put the rest on the bottom of your deck in any order.)\n{0}: You may play target card from your removed area that was removed by an Exploration effect you performed.\n[Judgment] {W}{U}",
+    "ATK": "900",
+    "DEF": "1100",
+    "Abilities": "Players cannot move cards from their removed area to another zone as a cost.\n[Thorough Explorer] While revealing cards by an Exploration effect you control, you may reveal an additional card. You can only perform the effect of one [Thorough Explorer] ability each turn and only once per turn.\nAt the beginning of the game ]]] Draw a card.\n{0}: Exploration X, where X is the number of magic stones you control. Play this ability only once per turn. If you play this ability during your opponent's turn, put a card from your hand on the bottom of your deck as it resolves. (You may look at the top X cards of your deck. You may reveal a card from among them. If it is a Treasure card, remove it from the game. Put the rest on the bottom of your deck in any order.)\n{0}: You may play target card from your removed area that was removed by an Exploration effect you performed.\n[Judgment] {W}{U}|[Untouchable]\n[Imperishable]\n[Barrier] {R}{B}\nTwice per turn, you may play a card from your item area without paying its cost.\n[Enter] ]]] Put any number of cards with different names that were removed by an Exploration effect you performed from your removed area into your item area.\n[Enter] ]]] Put the top card of your magic stone deck into the field rested.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "",
-    "Artist": "Toridamono",
+    "Flavour": "\"If this is the power of Valhalla, I will use it!\" -Lehen, Witch Swordswoman",
+    "Artist": "Toridamono|mie",
     "Rarity": "R",
     "Fowid": "",
     "Cluster": "11 - Trinity",
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "0aaab2a3-7a16-4ff1-913d-3b2665df5716",
-    "image": "0aaab2a3-7a16-4ff1-913d-3b2665df5716.jpg"
-  },
-  {
-    "Card Number": "TSD1-001J",
-    "name": "Lehen, Witch Swordswoman",
-    "Type": "J-Ruler",
-    "Race": "Witch|Rogue|Explorer",
-    "Cost": "",
-    "Colour": "W|U",
-    "ATK": "900",
-    "DEF": "1100",
-    "Abilities": "[Untouchable]\n[Imperishable]\n[Barrier] {R}{B}\nTwice per turn, you may play a card from your item area without paying its cost.\n[Enter] ]]] Put any number of cards with different names that were removed by an Exploration effect you performed from your removed area into your item area.\n[Enter] ]]] Put the top card of your magic stone deck into the field rested.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"If this is the power of Valhalla, I will use it!\" -Lehen, Witch Swordswoman",
-    "Artist": "mie",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
-    "Set Code": "TSD1",
-    "id": "506a663d-5a84-47af-a0fa-d4537d1c9358",
-    "image": "506a663d-5a84-47af-a0fa-d4537d1c9358.jpg"
+    "image": "0aaab2a3-7a16-4ff1-913d-3b2665df5716.jpg",
+    "Card Type": "Ruler",
+    "backimage": "506a663d-5a84-47af-a0fa-d4537d1c9358.jpg",
+    "alternate1_Card Number": "TSD1-001J",
+    "alternate1_name": "Lehen, Witch Swordswoman",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Witch|Rogue|Explorer",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|U",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "1100",
+    "alternate1_Abilities": "[Untouchable]\n[Imperishable]\n[Barrier] {R}{B}\nTwice per turn, you may play a card from your item area without paying its cost.\n[Enter] ]]] Put any number of cards with different names that were removed by an Exploration effect you performed from your removed area into your item area.\n[Enter] ]]] Put the top card of your magic stone deck into the field rested.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"If this is the power of Valhalla, I will use it!\" -Lehen, Witch Swordswoman",
+    "alternate1_Artist": "mie",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
+    "alternate1_Set Code": "TSD1",
+    "alternate1_id": "506a663d-5a84-47af-a0fa-d4537d1c9358",
+    "alternate1_image": "506a663d-5a84-47af-a0fa-d4537d1c9358.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSD1-002",
@@ -63,7 +64,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "dff337c6-5d4c-4cab-87f1-ea0c738b3909",
-    "image": "dff337c6-5d4c-4cab-87f1-ea0c738b3909.jpg"
+    "image": "dff337c6-5d4c-4cab-87f1-ea0c738b3909.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD1-003",
@@ -85,7 +87,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "a1ee0c9b-85b1-4cdd-aff6-4aa856df4e7f",
-    "image": "a1ee0c9b-85b1-4cdd-aff6-4aa856df4e7f.jpg"
+    "image": "a1ee0c9b-85b1-4cdd-aff6-4aa856df4e7f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD1-004",
@@ -107,7 +110,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "6b355c2f-7377-44ca-9c84-963394edcbc2",
-    "image": "6b355c2f-7377-44ca-9c84-963394edcbc2.jpg"
+    "image": "6b355c2f-7377-44ca-9c84-963394edcbc2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD1-005",
@@ -129,7 +133,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "0efec9a1-f466-4a1d-9af6-c6fd2bc56f92",
-    "image": "0efec9a1-f466-4a1d-9af6-c6fd2bc56f92.jpg"
+    "image": "0efec9a1-f466-4a1d-9af6-c6fd2bc56f92.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD1-006",
@@ -151,7 +156,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "a145b51e-14e7-4478-8f5a-341f91c96adb",
-    "image": "a145b51e-14e7-4478-8f5a-341f91c96adb.jpg"
+    "image": "a145b51e-14e7-4478-8f5a-341f91c96adb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD1-007",
@@ -173,7 +179,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "2823423d-ed99-485b-991b-96d4a80db9b7",
-    "image": "2823423d-ed99-485b-991b-96d4a80db9b7.jpg"
+    "image": "2823423d-ed99-485b-991b-96d4a80db9b7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD1-008",
@@ -195,7 +202,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "87b7e8ff-e646-47e7-b375-206b4dc079e1",
-    "image": "87b7e8ff-e646-47e7-b375-206b4dc079e1.jpg"
+    "image": "87b7e8ff-e646-47e7-b375-206b4dc079e1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD1-009",
@@ -217,7 +225,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "0c40598e-db12-49b0-9d5e-25f30eb77fd5",
-    "image": "0c40598e-db12-49b0-9d5e-25f30eb77fd5.jpg"
+    "image": "0c40598e-db12-49b0-9d5e-25f30eb77fd5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSD1-010",
@@ -239,7 +248,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "68392edb-2d9c-4038-99e1-e7a3551208bf",
-    "image": "68392edb-2d9c-4038-99e1-e7a3551208bf.jpg"
+    "image": "68392edb-2d9c-4038-99e1-e7a3551208bf.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSD1-011",
@@ -261,7 +271,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "ee8dbb49-e10d-45c4-9a8e-bb58889ef281",
-    "image": "ee8dbb49-e10d-45c4-9a8e-bb58889ef281.jpg"
+    "image": "ee8dbb49-e10d-45c4-9a8e-bb58889ef281.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSD1-012",
@@ -283,7 +294,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "c96d814d-eb3b-4c32-8aff-5309487e173a",
-    "image": "c96d814d-eb3b-4c32-8aff-5309487e173a.jpg"
+    "image": "c96d814d-eb3b-4c32-8aff-5309487e173a.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSD1-013",
@@ -305,7 +317,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "79cf817c-929c-48f6-91a8-2b122e285df2",
-    "image": "79cf817c-929c-48f6-91a8-2b122e285df2.jpg"
+    "image": "79cf817c-929c-48f6-91a8-2b122e285df2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSD1-014",
@@ -327,7 +340,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "913616ba-c923-4e36-88b7-22fabb00a6da",
-    "image": "913616ba-c923-4e36-88b7-22fabb00a6da.jpg"
+    "image": "913616ba-c923-4e36-88b7-22fabb00a6da.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSD1-015",
@@ -349,7 +363,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "585e33a1-fbdd-43ec-950b-510b35fac95c",
-    "image": "585e33a1-fbdd-43ec-950b-510b35fac95c.jpg"
+    "image": "585e33a1-fbdd-43ec-950b-510b35fac95c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSD1-016",
@@ -371,7 +386,8 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "ba303044-c3ff-4cf8-8b66-f75b076f3aa0",
-    "image": "ba303044-c3ff-4cf8-8b66-f75b076f3aa0.jpg"
+    "image": "ba303044-c3ff-4cf8-8b66-f75b076f3aa0.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TSD1-017",
@@ -393,6 +409,7 @@
     "Set Name": "073 - Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
     "Set Code": "TSD1",
     "id": "8be5043b-0126-411a-8a98-cb2fe8b21246",
-    "image": "8be5043b-0126-411a-8a98-cb2fe8b21246.jpg"
+    "image": "8be5043b-0126-411a-8a98-cb2fe8b21246.jpg",
+    "Card Type": "Special Magic Stone"
   }
 ]

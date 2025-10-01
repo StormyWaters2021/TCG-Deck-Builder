@@ -19,7 +19,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "a0d85901-c761-41bf-a57a-eaeaeed58ad5",
-    "image": "a0d85901-c761-41bf-a57a-eaeaeed58ad5.jpg"
+    "image": "a0d85901-c761-41bf-a57a-eaeaeed58ad5.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "JRP-001",
@@ -41,51 +42,53 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "6c9b64d6-de32-404c-9794-67e2707d7bf7",
-    "image": "6c9b64d6-de32-404c-9794-67e2707d7bf7.jpg"
+    "image": "6c9b64d6-de32-404c-9794-67e2707d7bf7.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "JRP-002",
-    "name": "Solaristation of Light",
-    "Type": "Ruler",
-    "Race": "Gears|Solaris",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] Put five non-magic stone light cards from your removed area on the bottom of your deck in any order.\nIf you would produce a will from a magic stone or will coin token source, remove the top card of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top card of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "2008",
-    "Cluster": "10 - Hero",
-    "Set Name": "071 - Judgment of the Rogue Planet",
-    "Set Code": "JRP",
-    "id": "2008b53d-342d-445b-a462-a8a34245e584",
-    "image": "2008b53d-342d-445b-a462-a8a34245e584.jpg"
-  },
-  {
-    "Card Number": "JRP-002J",
-    "name": "Avatar of Light Solarisites",
-    "Type": "J-Ruler",
-    "Race": "Dragon|Gears|Solaris",
+    "Card Number": "JRP-002|JRP-002J",
+    "name": "Solaristation of Light // Avatar of Light Solarisites",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Gears|Solaris|Dragon|Gears|Solaris",
     "Cost": "",
     "Colour": "V",
     "ATK": "1200",
     "DEF": "1400",
-    "Abilities": "[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n[Enter] ]]] Destroy all non-magic stone, non-J-ruler, non-Solaris entities.",
+    "Abilities": "[Judgment] Put five non-magic stone light cards from your removed area on the bottom of your deck in any order.\nIf you would produce a will from a magic stone or will coin token source, remove the top card of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top card of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.|[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n[Enter] ]]] Destroy all non-magic stone, non-J-ruler, non-Solaris entities.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "",
     "Rarity": "R",
-    "Fowid": "2009",
+    "Fowid": "2008|2009",
     "Cluster": "10 - Hero",
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
-    "id": "f02d095b-5504-4ee0-a018-fc8e10c2b887",
-    "image": "f02d095b-5504-4ee0-a018-fc8e10c2b887.jpg"
+    "id": "2008b53d-342d-445b-a462-a8a34245e584",
+    "image": "2008b53d-342d-445b-a462-a8a34245e584.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f02d095b-5504-4ee0-a018-fc8e10c2b887.jpg",
+    "alternate1_Card Number": "JRP-002J",
+    "alternate1_name": "Avatar of Light Solarisites",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragon|Gears|Solaris",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1400",
+    "alternate1_Abilities": "[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n[Enter] ]]] Destroy all non-magic stone, non-J-ruler, non-Solaris entities.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2009",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "071 - Judgment of the Rogue Planet",
+    "alternate1_Set Code": "JRP",
+    "alternate1_id": "f02d095b-5504-4ee0-a018-fc8e10c2b887",
+    "alternate1_image": "f02d095b-5504-4ee0-a018-fc8e10c2b887.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "JRP-003",
@@ -107,7 +110,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "58fe2d12-c651-461e-840e-1d3dab4c7b80",
-    "image": "58fe2d12-c651-461e-840e-1d3dab4c7b80.jpg"
+    "image": "58fe2d12-c651-461e-840e-1d3dab4c7b80.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-004",
@@ -129,7 +133,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "f791bc8d-3523-451f-8c7c-8e558cdfc6bd",
-    "image": "f791bc8d-3523-451f-8c7c-8e558cdfc6bd.jpg"
+    "image": "f791bc8d-3523-451f-8c7c-8e558cdfc6bd.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-005",
@@ -151,7 +156,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "2849c5d3-0bcd-4d64-beef-444d083d15e3",
-    "image": "2849c5d3-0bcd-4d64-beef-444d083d15e3.jpg"
+    "image": "2849c5d3-0bcd-4d64-beef-444d083d15e3.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "JRP-006",
@@ -173,7 +179,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "2c861c8c-92bf-4aa6-a626-02be4a69182c",
-    "image": "2c861c8c-92bf-4aa6-a626-02be4a69182c.jpg"
+    "image": "2c861c8c-92bf-4aa6-a626-02be4a69182c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-007",
@@ -195,7 +202,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "082554bd-d6e9-4d06-a864-74a3c7dadae5",
-    "image": "082554bd-d6e9-4d06-a864-74a3c7dadae5.jpg"
+    "image": "082554bd-d6e9-4d06-a864-74a3c7dadae5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-008",
@@ -217,7 +225,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "a25a652c-7277-456a-9c49-93ad9a434d63",
-    "image": "a25a652c-7277-456a-9c49-93ad9a434d63.jpg"
+    "image": "a25a652c-7277-456a-9c49-93ad9a434d63.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-009",
@@ -239,7 +248,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "bbea47b5-afd7-4a89-83b3-2eb02c75df1d",
-    "image": "bbea47b5-afd7-4a89-83b3-2eb02c75df1d.jpg"
+    "image": "bbea47b5-afd7-4a89-83b3-2eb02c75df1d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-010",
@@ -261,7 +271,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "37e28503-265d-4a56-89ba-3e459d936384",
-    "image": "37e28503-265d-4a56-89ba-3e459d936384.jpg"
+    "image": "37e28503-265d-4a56-89ba-3e459d936384.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-011",
@@ -283,7 +294,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "dfc89c95-39e9-4295-9810-e7767464e364",
-    "image": "dfc89c95-39e9-4295-9810-e7767464e364.jpg"
+    "image": "dfc89c95-39e9-4295-9810-e7767464e364.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-012",
@@ -305,7 +317,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "4358a5d2-4a9f-4f9c-9511-77cd9f22ea0b",
-    "image": "4358a5d2-4a9f-4f9c-9511-77cd9f22ea0b.jpg"
+    "image": "4358a5d2-4a9f-4f9c-9511-77cd9f22ea0b.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-013",
@@ -327,7 +340,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "bb58a4df-513c-4bc8-a35d-fa3d3c8e875d",
-    "image": "bb58a4df-513c-4bc8-a35d-fa3d3c8e875d.jpg"
+    "image": "bb58a4df-513c-4bc8-a35d-fa3d3c8e875d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-014",
@@ -349,51 +363,53 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "df9cfab4-64a0-4faf-8cc5-9f50caf17dfb",
-    "image": "df9cfab4-64a0-4faf-8cc5-9f50caf17dfb.jpg"
+    "image": "df9cfab4-64a0-4faf-8cc5-9f50caf17dfb.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "JRP-015",
-    "name": "Solaristation of Fire",
-    "Type": "Ruler",
-    "Race": "Gears|Solaris",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] Put five non-magic stone fire cards from your removed area on the bottom of your deck in any order.\nIf you would produce a will from a magic stone or will coin token source, remove the top card of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top card of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "2022",
-    "Cluster": "10 - Hero",
-    "Set Name": "071 - Judgment of the Rogue Planet",
-    "Set Code": "JRP",
-    "id": "ec0637a3-591d-478a-8579-1bcb08f97a16",
-    "image": "ec0637a3-591d-478a-8579-1bcb08f97a16.jpg"
-  },
-  {
-    "Card Number": "JRP-015J",
-    "name": "Avatar of Fire Solarisites",
-    "Type": "J-Ruler",
-    "Race": "Dragon|Gears|Solaris",
+    "Card Number": "JRP-015|JRP-015J",
+    "name": "Solaristation of Fire // Avatar of Fire Solarisites",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Gears|Solaris|Dragon|Gears|Solaris",
     "Cost": "",
     "Colour": "V",
     "ATK": "1400",
     "DEF": "1200",
-    "Abilities": "[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n[Enter] ]]] This card deals 2000 damage to each J/resonator your opponent controls. If a resonator dealt damage by this card this turn would be put into a graveyard, remove it from the game instead.",
+    "Abilities": "[Judgment] Put five non-magic stone fire cards from your removed area on the bottom of your deck in any order.\nIf you would produce a will from a magic stone or will coin token source, remove the top card of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top card of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.|[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n[Enter] ]]] This card deals 2000 damage to each J/resonator your opponent controls. If a resonator dealt damage by this card this turn would be put into a graveyard, remove it from the game instead.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "",
     "Rarity": "R",
-    "Fowid": "2023",
+    "Fowid": "2022|2023",
     "Cluster": "10 - Hero",
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
-    "id": "1a467975-0a88-44fa-aa4e-993e0009fdd9",
-    "image": "1a467975-0a88-44fa-aa4e-993e0009fdd9.jpg"
+    "id": "ec0637a3-591d-478a-8579-1bcb08f97a16",
+    "image": "ec0637a3-591d-478a-8579-1bcb08f97a16.jpg",
+    "Card Type": "Ruler",
+    "backimage": "1a467975-0a88-44fa-aa4e-993e0009fdd9.jpg",
+    "alternate1_Card Number": "JRP-015J",
+    "alternate1_name": "Avatar of Fire Solarisites",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragon|Gears|Solaris",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1400",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n[Enter] ]]] This card deals 2000 damage to each J/resonator your opponent controls. If a resonator dealt damage by this card this turn would be put into a graveyard, remove it from the game instead.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2023",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "071 - Judgment of the Rogue Planet",
+    "alternate1_Set Code": "JRP",
+    "alternate1_id": "1a467975-0a88-44fa-aa4e-993e0009fdd9",
+    "alternate1_image": "1a467975-0a88-44fa-aa4e-993e0009fdd9.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "JRP-016",
@@ -415,7 +431,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "2f9232b1-77dd-41a5-b44d-e004b8709932",
-    "image": "2f9232b1-77dd-41a5-b44d-e004b8709932.jpg"
+    "image": "2f9232b1-77dd-41a5-b44d-e004b8709932.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-017",
@@ -437,7 +454,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "1e94b557-f738-4b48-8b3e-5a1acc30c0f8",
-    "image": "1e94b557-f738-4b48-8b3e-5a1acc30c0f8.jpg"
+    "image": "1e94b557-f738-4b48-8b3e-5a1acc30c0f8.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-018",
@@ -459,7 +477,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "4f9a9a9f-906c-42bc-bedc-a9061a0ab66c",
-    "image": "4f9a9a9f-906c-42bc-bedc-a9061a0ab66c.jpg"
+    "image": "4f9a9a9f-906c-42bc-bedc-a9061a0ab66c.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "JRP-019",
@@ -481,7 +500,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "18df99d2-4e56-4610-b840-c62ddb14376d",
-    "image": "18df99d2-4e56-4610-b840-c62ddb14376d.jpg"
+    "image": "18df99d2-4e56-4610-b840-c62ddb14376d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-020",
@@ -503,7 +523,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "94a4ad77-205d-4dd7-9ce3-4ed255b77561",
-    "image": "94a4ad77-205d-4dd7-9ce3-4ed255b77561.jpg"
+    "image": "94a4ad77-205d-4dd7-9ce3-4ed255b77561.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-021",
@@ -525,7 +546,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "16a86e2e-8da5-4b5c-b28f-821f6ab9a89a",
-    "image": "16a86e2e-8da5-4b5c-b28f-821f6ab9a89a.jpg"
+    "image": "16a86e2e-8da5-4b5c-b28f-821f6ab9a89a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-022",
@@ -547,7 +569,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "cabb4368-103f-4d1e-abc9-cad4feb64a22",
-    "image": "cabb4368-103f-4d1e-abc9-cad4feb64a22.jpg"
+    "image": "cabb4368-103f-4d1e-abc9-cad4feb64a22.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-023",
@@ -569,7 +592,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "f390b5c6-2c97-4535-8f56-ab5b1acaabf5",
-    "image": "f390b5c6-2c97-4535-8f56-ab5b1acaabf5.jpg"
+    "image": "f390b5c6-2c97-4535-8f56-ab5b1acaabf5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-024",
@@ -591,7 +615,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "6e1d2920-8335-4646-aaa9-aa13b7029c3d",
-    "image": "6e1d2920-8335-4646-aaa9-aa13b7029c3d.jpg"
+    "image": "6e1d2920-8335-4646-aaa9-aa13b7029c3d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-025",
@@ -613,7 +638,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "15de44de-540e-445e-b2b6-f5c99d273c5c",
-    "image": "15de44de-540e-445e-b2b6-f5c99d273c5c.jpg"
+    "image": "15de44de-540e-445e-b2b6-f5c99d273c5c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-026",
@@ -635,7 +661,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "7b364cc6-90ec-4664-8d7f-d728296d5f20",
-    "image": "7b364cc6-90ec-4664-8d7f-d728296d5f20.jpg"
+    "image": "7b364cc6-90ec-4664-8d7f-d728296d5f20.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-027",
@@ -657,51 +684,53 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "acf5abdd-28f8-40cb-b4d0-5a2cfa5a6e77",
-    "image": "acf5abdd-28f8-40cb-b4d0-5a2cfa5a6e77.jpg"
+    "image": "acf5abdd-28f8-40cb-b4d0-5a2cfa5a6e77.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "JRP-028",
-    "name": "Solaristation of Water",
-    "Type": "Ruler",
-    "Race": "Gears|Solaris",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] Put five non-magic stone water cards from your removed area on the bottom of your deck in any order.\nIf you would produce a will from a magic stone or will coin token source, remove the top card of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top card of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "2036",
-    "Cluster": "10 - Hero",
-    "Set Name": "071 - Judgment of the Rogue Planet",
-    "Set Code": "JRP",
-    "id": "6ab97a80-d6ad-4915-a7d9-877b93f2aa0a",
-    "image": "6ab97a80-d6ad-4915-a7d9-877b93f2aa0a.jpg"
-  },
-  {
-    "Card Number": "JRP-028J",
-    "name": "Avatar of Water Solarisites",
-    "Type": "J-Ruler",
-    "Race": "Dragon|Gears|Solaris",
+    "Card Number": "JRP-028|JRP-028J",
+    "name": "Solaristation of Water // Avatar of Water Solarisites",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Gears|Solaris|Dragon|Gears|Solaris",
     "Cost": "",
     "Colour": "V",
     "ATK": "1300",
     "DEF": "1300",
-    "Abilities": "[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n[Enter] ]]] Return any number of target non-magic stone, non-J-ruler entities to their owner's hand.",
+    "Abilities": "[Judgment] Put five non-magic stone water cards from your removed area on the bottom of your deck in any order.\nIf you would produce a will from a magic stone or will coin token source, remove the top card of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top card of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.|[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n[Enter] ]]] Return any number of target non-magic stone, non-J-ruler entities to their owner's hand.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "",
     "Rarity": "R",
-    "Fowid": "2037",
+    "Fowid": "2036|2037",
     "Cluster": "10 - Hero",
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
-    "id": "fd0fce24-3789-459d-9695-fdda36671c14",
-    "image": "fd0fce24-3789-459d-9695-fdda36671c14.jpg"
+    "id": "6ab97a80-d6ad-4915-a7d9-877b93f2aa0a",
+    "image": "6ab97a80-d6ad-4915-a7d9-877b93f2aa0a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "fd0fce24-3789-459d-9695-fdda36671c14.jpg",
+    "alternate1_Card Number": "JRP-028J",
+    "alternate1_name": "Avatar of Water Solarisites",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragon|Gears|Solaris",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1300",
+    "alternate1_DEF": "1300",
+    "alternate1_Abilities": "[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n[Enter] ]]] Return any number of target non-magic stone, non-J-ruler entities to their owner's hand.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2037",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "071 - Judgment of the Rogue Planet",
+    "alternate1_Set Code": "JRP",
+    "alternate1_id": "fd0fce24-3789-459d-9695-fdda36671c14",
+    "alternate1_image": "fd0fce24-3789-459d-9695-fdda36671c14.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "JRP-029",
@@ -723,7 +752,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "9610d54c-fb2d-4230-b2c5-2eb5a20d5fd1",
-    "image": "9610d54c-fb2d-4230-b2c5-2eb5a20d5fd1.jpg"
+    "image": "9610d54c-fb2d-4230-b2c5-2eb5a20d5fd1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-030",
@@ -745,7 +775,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "c25cadb3-ec97-4db4-9252-f1c559f73320",
-    "image": "c25cadb3-ec97-4db4-9252-f1c559f73320.jpg"
+    "image": "c25cadb3-ec97-4db4-9252-f1c559f73320.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-031",
@@ -767,7 +798,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "55208f01-58c6-4079-b79e-d7df13c5d9b4",
-    "image": "55208f01-58c6-4079-b79e-d7df13c5d9b4.jpg"
+    "image": "55208f01-58c6-4079-b79e-d7df13c5d9b4.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "JRP-032",
@@ -789,7 +821,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "7f1262f0-5b5e-4f97-b703-cf04fa7d255a",
-    "image": "7f1262f0-5b5e-4f97-b703-cf04fa7d255a.jpg"
+    "image": "7f1262f0-5b5e-4f97-b703-cf04fa7d255a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-033",
@@ -811,7 +844,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "812d6bbf-9c78-4760-bb67-ea4ce3fdd388",
-    "image": "812d6bbf-9c78-4760-bb67-ea4ce3fdd388.jpg"
+    "image": "812d6bbf-9c78-4760-bb67-ea4ce3fdd388.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-034",
@@ -833,7 +867,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "0b4c6897-cc6b-4a71-8491-0e8881fcd1c8",
-    "image": "0b4c6897-cc6b-4a71-8491-0e8881fcd1c8.jpg"
+    "image": "0b4c6897-cc6b-4a71-8491-0e8881fcd1c8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-035",
@@ -855,7 +890,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "f4782376-b76e-4b36-b2a6-db70fc8705c0",
-    "image": "f4782376-b76e-4b36-b2a6-db70fc8705c0.jpg"
+    "image": "f4782376-b76e-4b36-b2a6-db70fc8705c0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-036",
@@ -877,7 +913,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "3390e188-8cac-424a-9a49-e454badb4abb",
-    "image": "3390e188-8cac-424a-9a49-e454badb4abb.jpg"
+    "image": "3390e188-8cac-424a-9a49-e454badb4abb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-037",
@@ -899,7 +936,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "0ab5c67a-27a2-4a56-b5b7-2f37f438fc33",
-    "image": "0ab5c67a-27a2-4a56-b5b7-2f37f438fc33.jpg"
+    "image": "0ab5c67a-27a2-4a56-b5b7-2f37f438fc33.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-038",
@@ -921,7 +959,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "2ee86366-9697-48c5-afaa-86a2d719f83c",
-    "image": "2ee86366-9697-48c5-afaa-86a2d719f83c.jpg"
+    "image": "2ee86366-9697-48c5-afaa-86a2d719f83c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-039",
@@ -943,7 +982,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "c341455c-2c80-4b6f-a368-a8b7c5f0100b",
-    "image": "c341455c-2c80-4b6f-a368-a8b7c5f0100b.jpg"
+    "image": "c341455c-2c80-4b6f-a368-a8b7c5f0100b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-040",
@@ -965,51 +1005,53 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "38fce29f-762b-4d54-8c5a-3387a31615d4",
-    "image": "38fce29f-762b-4d54-8c5a-3387a31615d4.jpg"
+    "image": "38fce29f-762b-4d54-8c5a-3387a31615d4.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "JRP-041",
-    "name": "Solaristation of Wind",
-    "Type": "Ruler",
-    "Race": "Gears|Solaris",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] Put five non-magic stone wind cards from your removed area on the bottom of your deck in any order.\nIf you would produce a will from a magic stone or will coin token source, remove the top card of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top card of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "2050",
-    "Cluster": "10 - Hero",
-    "Set Name": "071 - Judgment of the Rogue Planet",
-    "Set Code": "JRP",
-    "id": "2b9ecfb1-b947-4ffc-8908-a031a2a7535f",
-    "image": "2b9ecfb1-b947-4ffc-8908-a031a2a7535f.jpg"
-  },
-  {
-    "Card Number": "JRP-041J",
-    "name": "Avatar of Wind Solarisites",
-    "Type": "J-Ruler",
-    "Race": "Dragon|Gears|Solaris",
+    "Card Number": "JRP-041|JRP-041J",
+    "name": "Solaristation of Wind // Avatar of Wind Solarisites",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Gears|Solaris|Dragon|Gears|Solaris",
     "Cost": "",
     "Colour": "V",
     "ATK": "1200",
     "DEF": "1400",
-    "Abilities": "[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\nResonators you control gain \"{Rest}: You pay {W}, {R}, {U}, {G}, {B} or {1} less to play your next spell with [Solarisation] and an attribute cost including {W}, {R}, {U}, {G} or {B} respectively and/or a free cost of {1} or more until will clearance. This is a will ability.\".\n[Enter] ]]] Put four [100/100] wind Elf, Gears resonator tokens into the field.",
+    "Abilities": "[Judgment] Put five non-magic stone wind cards from your removed area on the bottom of your deck in any order.\nIf you would produce a will from a magic stone or will coin token source, remove the top card of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top card of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.|[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\nResonators you control gain \"{Rest}: You pay {W}, {R}, {U}, {G}, {B} or {1} less to play your next spell with [Solarisation] and an attribute cost including {W}, {R}, {U}, {G} or {B} respectively and/or a free cost of {1} or more until will clearance. This is a will ability.\".\n[Enter] ]]] Put four [100/100] wind Elf, Gears resonator tokens into the field.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "",
     "Rarity": "R",
-    "Fowid": "2051",
+    "Fowid": "2050|2051",
     "Cluster": "10 - Hero",
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
-    "id": "eddec40e-34aa-485d-b5c5-8142985a4f7c",
-    "image": "eddec40e-34aa-485d-b5c5-8142985a4f7c.jpg"
+    "id": "2b9ecfb1-b947-4ffc-8908-a031a2a7535f",
+    "image": "2b9ecfb1-b947-4ffc-8908-a031a2a7535f.jpg",
+    "Card Type": "Ruler",
+    "backimage": "eddec40e-34aa-485d-b5c5-8142985a4f7c.jpg",
+    "alternate1_Card Number": "JRP-041J",
+    "alternate1_name": "Avatar of Wind Solarisites",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragon|Gears|Solaris",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1400",
+    "alternate1_Abilities": "[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\nResonators you control gain \"{Rest}: You pay {W}, {R}, {U}, {G}, {B} or {1} less to play your next spell with [Solarisation] and an attribute cost including {W}, {R}, {U}, {G} or {B} respectively and/or a free cost of {1} or more until will clearance. This is a will ability.\".\n[Enter] ]]] Put four [100/100] wind Elf, Gears resonator tokens into the field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2051",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "071 - Judgment of the Rogue Planet",
+    "alternate1_Set Code": "JRP",
+    "alternate1_id": "eddec40e-34aa-485d-b5c5-8142985a4f7c",
+    "alternate1_image": "eddec40e-34aa-485d-b5c5-8142985a4f7c.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "JRP-042",
@@ -1031,7 +1073,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "0062bc4b-32b3-43c2-a5ad-a37455e368e3",
-    "image": "0062bc4b-32b3-43c2-a5ad-a37455e368e3.jpg"
+    "image": "0062bc4b-32b3-43c2-a5ad-a37455e368e3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-043",
@@ -1053,7 +1096,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "0f9c3738-563a-412c-b21c-224c1165359e",
-    "image": "0f9c3738-563a-412c-b21c-224c1165359e.jpg"
+    "image": "0f9c3738-563a-412c-b21c-224c1165359e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-044",
@@ -1075,7 +1119,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "3e54b49d-ecf0-46f4-99e5-8a16995721e9",
-    "image": "3e54b49d-ecf0-46f4-99e5-8a16995721e9.jpg"
+    "image": "3e54b49d-ecf0-46f4-99e5-8a16995721e9.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "JRP-045",
@@ -1097,7 +1142,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "97030f85-a043-4d0b-b5ee-8c1f7a4083ec",
-    "image": "97030f85-a043-4d0b-b5ee-8c1f7a4083ec.jpg"
+    "image": "97030f85-a043-4d0b-b5ee-8c1f7a4083ec.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-046",
@@ -1119,7 +1165,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "c58ada33-06d9-4fde-ae54-5daa49f3d09c",
-    "image": "c58ada33-06d9-4fde-ae54-5daa49f3d09c.jpg"
+    "image": "c58ada33-06d9-4fde-ae54-5daa49f3d09c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-047",
@@ -1141,7 +1188,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "b73db2ed-d486-4f02-8c65-ee761e7faa1c",
-    "image": "b73db2ed-d486-4f02-8c65-ee761e7faa1c.jpg"
+    "image": "b73db2ed-d486-4f02-8c65-ee761e7faa1c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-048",
@@ -1163,7 +1211,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "8f4b8987-09ba-41db-9ef6-1f755aab8be4",
-    "image": "8f4b8987-09ba-41db-9ef6-1f755aab8be4.jpg"
+    "image": "8f4b8987-09ba-41db-9ef6-1f755aab8be4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-049",
@@ -1185,7 +1234,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "7a4e7b20-6739-494d-b7ca-5bd479bef6cd",
-    "image": "7a4e7b20-6739-494d-b7ca-5bd479bef6cd.jpg"
+    "image": "7a4e7b20-6739-494d-b7ca-5bd479bef6cd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-050",
@@ -1207,7 +1257,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "eccbdcf9-1bb4-4038-8bd1-4ab85e50f4c9",
-    "image": "eccbdcf9-1bb4-4038-8bd1-4ab85e50f4c9.jpg"
+    "image": "eccbdcf9-1bb4-4038-8bd1-4ab85e50f4c9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-051",
@@ -1229,7 +1280,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "01d0728e-9562-4553-ab81-a2f88494f550",
-    "image": "01d0728e-9562-4553-ab81-a2f88494f550.jpg"
+    "image": "01d0728e-9562-4553-ab81-a2f88494f550.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-052",
@@ -1251,7 +1303,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "d370fa56-1127-4c2e-88d4-b7e41a27c9be",
-    "image": "d370fa56-1127-4c2e-88d4-b7e41a27c9be.jpg"
+    "image": "d370fa56-1127-4c2e-88d4-b7e41a27c9be.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-053",
@@ -1273,51 +1326,53 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "c2409ad8-be0b-490b-8545-b75dd0c091f4",
-    "image": "c2409ad8-be0b-490b-8545-b75dd0c091f4.jpg"
+    "image": "c2409ad8-be0b-490b-8545-b75dd0c091f4.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "JRP-054",
-    "name": "Solaristation of Darkness",
-    "Type": "Ruler",
-    "Race": "Gears|Solaris",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] Put five non-magic stone darkness cards from your removed area on the bottom of your deck in any order.\nIf you would produce a will from a magic stone or will coin token source, remove the top card of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top card of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "2064",
-    "Cluster": "10 - Hero",
-    "Set Name": "071 - Judgment of the Rogue Planet",
-    "Set Code": "JRP",
-    "id": "6cb9dcd0-271a-4439-b303-2681b258d862",
-    "image": "6cb9dcd0-271a-4439-b303-2681b258d862.jpg"
-  },
-  {
-    "Card Number": "JRP-054J",
-    "name": "Avatar of Darkness Solarisites",
-    "Type": "J-Ruler",
-    "Race": "Dragon|Gears|Solaris",
+    "Card Number": "JRP-054|JRP-054J",
+    "name": "Solaristation of Darkness // Avatar of Darkness Solarisites",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Gears|Solaris|Dragon|Gears|Solaris",
     "Cost": "",
     "Colour": "V",
     "ATK": "1400",
     "DEF": "1000",
-    "Abilities": "[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n[Enter] ]]] Your opponent banishes two resonators. Remove the cards banished this way from their owner's graveyard from the game face down. Their owner may look at them at any time.",
+    "Abilities": "[Judgment] Put five non-magic stone darkness cards from your removed area on the bottom of your deck in any order.\nIf you would produce a will from a magic stone or will coin token source, remove the top card of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top card of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.|[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n[Enter] ]]] Your opponent banishes two resonators. Remove the cards banished this way from their owner's graveyard from the game face down. Their owner may look at them at any time.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "",
     "Rarity": "R",
-    "Fowid": "2065",
+    "Fowid": "2064|2065",
     "Cluster": "10 - Hero",
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
-    "id": "2ce943c8-9216-475c-8217-377a71487b66",
-    "image": "2ce943c8-9216-475c-8217-377a71487b66.jpg"
+    "id": "6cb9dcd0-271a-4439-b303-2681b258d862",
+    "image": "6cb9dcd0-271a-4439-b303-2681b258d862.jpg",
+    "Card Type": "Ruler",
+    "backimage": "2ce943c8-9216-475c-8217-377a71487b66.jpg",
+    "alternate1_Card Number": "JRP-054J",
+    "alternate1_name": "Avatar of Darkness Solarisites",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragon|Gears|Solaris",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1400",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\nIf you would produce a will from a magic stone or will coin token source, remove the top two cards of your deck from the game instead.\nIf your opponent would produce any amount of will from a non-magic stone, non-will coin token source, they produce no will instead and each player removes the top two cards of their deck from the game.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n[Enter] ]]] Your opponent banishes two resonators. Remove the cards banished this way from their owner's graveyard from the game face down. Their owner may look at them at any time.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2065",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "071 - Judgment of the Rogue Planet",
+    "alternate1_Set Code": "JRP",
+    "alternate1_id": "2ce943c8-9216-475c-8217-377a71487b66",
+    "alternate1_image": "2ce943c8-9216-475c-8217-377a71487b66.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "JRP-055",
@@ -1339,7 +1394,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "27f2c5a2-893f-4c66-b26a-94efa09c889f",
-    "image": "27f2c5a2-893f-4c66-b26a-94efa09c889f.jpg"
+    "image": "27f2c5a2-893f-4c66-b26a-94efa09c889f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-056",
@@ -1361,7 +1417,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "7b17ab92-66c9-4205-b22d-2ca3d13907b9",
-    "image": "7b17ab92-66c9-4205-b22d-2ca3d13907b9.jpg"
+    "image": "7b17ab92-66c9-4205-b22d-2ca3d13907b9.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-057",
@@ -1383,7 +1440,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "56443ca7-172a-4476-a65f-33ee6e438e45",
-    "image": "56443ca7-172a-4476-a65f-33ee6e438e45.jpg"
+    "image": "56443ca7-172a-4476-a65f-33ee6e438e45.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "JRP-058",
@@ -1405,7 +1463,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "28389eb8-5a12-4c11-81d1-655a0def784a",
-    "image": "28389eb8-5a12-4c11-81d1-655a0def784a.jpg"
+    "image": "28389eb8-5a12-4c11-81d1-655a0def784a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-059",
@@ -1427,7 +1486,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "4447d0c9-ede2-424d-b684-e76b380716f6",
-    "image": "4447d0c9-ede2-424d-b684-e76b380716f6.jpg"
+    "image": "4447d0c9-ede2-424d-b684-e76b380716f6.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-060",
@@ -1449,7 +1509,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "665f6e75-ee85-4fe8-9433-9967399e23d4",
-    "image": "665f6e75-ee85-4fe8-9433-9967399e23d4.jpg"
+    "image": "665f6e75-ee85-4fe8-9433-9967399e23d4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-061",
@@ -1471,7 +1532,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "7ca015da-4c29-433b-ace2-67c8fdd966e8",
-    "image": "7ca015da-4c29-433b-ace2-67c8fdd966e8.jpg"
+    "image": "7ca015da-4c29-433b-ace2-67c8fdd966e8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-062",
@@ -1493,7 +1555,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "1e3eb783-9d86-47d0-8b58-cf848c3da69d",
-    "image": "1e3eb783-9d86-47d0-8b58-cf848c3da69d.jpg"
+    "image": "1e3eb783-9d86-47d0-8b58-cf848c3da69d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-063",
@@ -1515,7 +1578,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "93771f70-a08d-4217-8132-59f1adfce69c",
-    "image": "93771f70-a08d-4217-8132-59f1adfce69c.jpg"
+    "image": "93771f70-a08d-4217-8132-59f1adfce69c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-064",
@@ -1537,7 +1601,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "7678159f-8bc3-4b1d-a2ab-0382a59991e2",
-    "image": "7678159f-8bc3-4b1d-a2ab-0382a59991e2.jpg"
+    "image": "7678159f-8bc3-4b1d-a2ab-0382a59991e2.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-065",
@@ -1559,7 +1624,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "0835c185-8bb3-40fc-bd53-49f1cb538865",
-    "image": "0835c185-8bb3-40fc-bd53-49f1cb538865.jpg"
+    "image": "0835c185-8bb3-40fc-bd53-49f1cb538865.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "JRP-066",
@@ -1581,7 +1647,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "f77dfe1b-84c3-40c2-bcff-34465a7f655e",
-    "image": "f77dfe1b-84c3-40c2-bcff-34465a7f655e.jpg"
+    "image": "f77dfe1b-84c3-40c2-bcff-34465a7f655e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-067",
@@ -1603,7 +1670,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "876f47d1-0407-400f-8851-ce8f5bd89962",
-    "image": "876f47d1-0407-400f-8851-ce8f5bd89962.jpg"
+    "image": "876f47d1-0407-400f-8851-ce8f5bd89962.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-068",
@@ -1625,7 +1693,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "0e0216ba-25cd-44a1-8d36-1c58b19d621b",
-    "image": "0e0216ba-25cd-44a1-8d36-1c58b19d621b.jpg"
+    "image": "0e0216ba-25cd-44a1-8d36-1c58b19d621b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-069",
@@ -1647,7 +1716,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "312f6eb4-66c0-48c4-b22b-f4e1f5539595",
-    "image": "312f6eb4-66c0-48c4-b22b-f4e1f5539595.jpg"
+    "image": "312f6eb4-66c0-48c4-b22b-f4e1f5539595.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-070",
@@ -1669,7 +1739,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "cec51ab1-3a89-42e5-8f3f-14cb41209a3b",
-    "image": "cec51ab1-3a89-42e5-8f3f-14cb41209a3b.jpg"
+    "image": "cec51ab1-3a89-42e5-8f3f-14cb41209a3b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-071",
@@ -1691,7 +1762,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "5f3fcdff-6cf5-40dd-b2f8-ad7b20fcd210",
-    "image": "5f3fcdff-6cf5-40dd-b2f8-ad7b20fcd210.jpg"
+    "image": "5f3fcdff-6cf5-40dd-b2f8-ad7b20fcd210.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-072",
@@ -1713,7 +1785,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "880f13a3-6f90-4158-b2bc-d8d5054ba61c",
-    "image": "880f13a3-6f90-4158-b2bc-d8d5054ba61c.jpg"
+    "image": "880f13a3-6f90-4158-b2bc-d8d5054ba61c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-073",
@@ -1735,7 +1808,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "de837076-fe60-4501-adf8-4cd939f66849",
-    "image": "de837076-fe60-4501-adf8-4cd939f66849.jpg"
+    "image": "de837076-fe60-4501-adf8-4cd939f66849.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-074",
@@ -1757,7 +1831,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "61328fb9-4a91-424a-8d98-55fa44c4937b",
-    "image": "61328fb9-4a91-424a-8d98-55fa44c4937b.jpg"
+    "image": "61328fb9-4a91-424a-8d98-55fa44c4937b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-075",
@@ -1779,51 +1854,53 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "d3ac53c7-dd3b-4f38-8376-9a21d100cbd0",
-    "image": "d3ac53c7-dd3b-4f38-8376-9a21d100cbd0.jpg"
+    "image": "d3ac53c7-dd3b-4f38-8376-9a21d100cbd0.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "JRP-076",
-    "name": "Solaria, Ruler of Desire",
-    "Type": "Ruler",
-    "Race": "Gears|Solaris",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] Rest five recovered Solaris rulers you control.\nNon-Chronogear, non-Gears, non-Solaris entities you control lose all abilities.\nGears in your removed area gain light, fire, water, wind and darkness in addition to their other attributes as long as they are in your removed area.\nHomeland (Gears) - At the beginning of the game ]]] You may put a Gears addition from your hand into the field.\nAt the beginning of your main phase ]]] You may put a light, fire, water, wind or darkness Solaris ruler you own from outside the game that does not share an attribute with J/rulers you control into your ruler area.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "2087",
-    "Cluster": "10 - Hero",
-    "Set Name": "071 - Judgment of the Rogue Planet",
-    "Set Code": "JRP",
-    "id": "86e7e362-817b-4abe-9e3b-9b1064f63149",
-    "image": "86e7e362-817b-4abe-9e3b-9b1064f63149.jpg"
-  },
-  {
-    "Card Number": "JRP-076J",
-    "name": "Solaria, Empress of Arcus",
-    "Type": "J-Ruler",
+    "Card Number": "JRP-076|JRP-076J",
+    "name": "Solaria, Ruler of Desire // Solaria, Empress of Arcus",
+    "Type": "Ruler|J-Ruler",
     "Race": "Gears|Solaris",
     "Cost": "",
     "Colour": "V",
     "ATK": "0",
     "DEF": "0",
-    "Abilities": "[Barrier]\nThis card gains [+300/+300] for each magic stone you control.\nGears in your removed area gain light, fire, water, wind and darkness in addition to their other attributes as long as they are in your removed area.\nWhen this card is destroyed ]]] You may reveal a J-ruler named \"Ark, Providence of Solaris\" you own from outside the game. If you do, put all magic stones you control on the bottom of your magic stone deck in a random order and put that J-ruler from outside the game into the field. Players cannot chase to this ability.",
+    "Abilities": "[Judgment] Rest five recovered Solaris rulers you control.\nNon-Chronogear, non-Gears, non-Solaris entities you control lose all abilities.\nGears in your removed area gain light, fire, water, wind and darkness in addition to their other attributes as long as they are in your removed area.\nHomeland (Gears) - At the beginning of the game ]]] You may put a Gears addition from your hand into the field.\nAt the beginning of your main phase ]]] You may put a light, fire, water, wind or darkness Solaris ruler you own from outside the game that does not share an attribute with J/rulers you control into your ruler area.|[Barrier]\nThis card gains [+300/+300] for each magic stone you control.\nGears in your removed area gain light, fire, water, wind and darkness in addition to their other attributes as long as they are in your removed area.\nWhen this card is destroyed ]]] You may reveal a J-ruler named \"Ark, Providence of Solaris\" you own from outside the game. If you do, put all magic stones you control on the bottom of your magic stone deck in a random order and put that J-ruler from outside the game into the field. Players cannot chase to this ability.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "",
     "Rarity": "R",
-    "Fowid": "2088",
+    "Fowid": "2087|2088",
     "Cluster": "10 - Hero",
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
-    "id": "e4f9ec80-ab34-499b-bb16-553b5aae5a47",
-    "image": "e4f9ec80-ab34-499b-bb16-553b5aae5a47.jpg"
+    "id": "86e7e362-817b-4abe-9e3b-9b1064f63149",
+    "image": "86e7e362-817b-4abe-9e3b-9b1064f63149.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e4f9ec80-ab34-499b-bb16-553b5aae5a47.jpg",
+    "alternate1_Card Number": "JRP-076J",
+    "alternate1_name": "Solaria, Empress of Arcus",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Gears|Solaris",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "0",
+    "alternate1_Abilities": "[Barrier]\nThis card gains [+300/+300] for each magic stone you control.\nGears in your removed area gain light, fire, water, wind and darkness in addition to their other attributes as long as they are in your removed area.\nWhen this card is destroyed ]]] You may reveal a J-ruler named \"Ark, Providence of Solaris\" you own from outside the game. If you do, put all magic stones you control on the bottom of your magic stone deck in a random order and put that J-ruler from outside the game into the field. Players cannot chase to this ability.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2088",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "071 - Judgment of the Rogue Planet",
+    "alternate1_Set Code": "JRP",
+    "alternate1_id": "e4f9ec80-ab34-499b-bb16-553b5aae5a47",
+    "alternate1_image": "e4f9ec80-ab34-499b-bb16-553b5aae5a47.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "JRP-077",
@@ -1845,7 +1922,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "4d07adec-6d6a-471d-86c4-15452e6a6f5a",
-    "image": "4d07adec-6d6a-471d-86c4-15452e6a6f5a.jpg"
+    "image": "4d07adec-6d6a-471d-86c4-15452e6a6f5a.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-078",
@@ -1867,7 +1945,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "edad32cc-d216-4f67-bd22-9e078b097d8f",
-    "image": "edad32cc-d216-4f67-bd22-9e078b097d8f.jpg"
+    "image": "edad32cc-d216-4f67-bd22-9e078b097d8f.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-079",
@@ -1889,7 +1968,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "69db2144-67c6-4db2-aee5-96f02b28ac3e",
-    "image": "69db2144-67c6-4db2-aee5-96f02b28ac3e.jpg"
+    "image": "69db2144-67c6-4db2-aee5-96f02b28ac3e.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-080",
@@ -1911,7 +1991,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "7ace843d-16fa-4b02-bcfb-c8ea80ddf8ba",
-    "image": "7ace843d-16fa-4b02-bcfb-c8ea80ddf8ba.jpg"
+    "image": "7ace843d-16fa-4b02-bcfb-c8ea80ddf8ba.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-081",
@@ -1933,51 +2014,53 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "9ead4a3a-ad57-4dd7-a97e-4a09107b7fad",
-    "image": "9ead4a3a-ad57-4dd7-a97e-4a09107b7fad.jpg"
+    "image": "9ead4a3a-ad57-4dd7-a97e-4a09107b7fad.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "JRP-082",
-    "name": "Ark, Lord of Solaris",
-    "Type": "Ruler",
-    "Race": "Gears|Solaris",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] Put four magic stones you control named \"Ark's Gearsatellite\" and all magic stones in your removed area on the bottom of your magic stone deck in a random order.\nAs the game starts, you may search your magic stone deck for a card named \"Ark's Gearsatellite\" and remove it from the game. If you do, shuffle your magic stone deck and banish all will coin tokens.\nIf you would call a magic stone, remove the top X cards of your magic stone deck from the game instead, where X is the number of magic stones your opponent controls.\nIf you would pay any amount of will for Gears or Replicants spells or abilities, you may put that many magic stone cards from your removed area on the bottom of your magic stone deck in any order instead.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\nAt the beginning of the game ]]] You may put a card named \"Ark's Gears Grail\" you own from outside the game into the field. If you do, put a card from your hand on the bottom of your deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "2094",
-    "Cluster": "10 - Hero",
-    "Set Name": "071 - Judgment of the Rogue Planet",
-    "Set Code": "JRP",
-    "id": "2196968e-783d-4f26-838c-d57197b7dc01",
-    "image": "2196968e-783d-4f26-838c-d57197b7dc01.jpg"
-  },
-  {
-    "Card Number": "JRP-082J",
-    "name": "Ark, Providence of Solaris",
-    "Type": "J-Ruler",
+    "Card Number": "JRP-082|JRP-082J",
+    "name": "Ark, Lord of Solaris // Ark, Providence of Solaris",
+    "Type": "Ruler|J-Ruler",
     "Race": "Gears|Solaris",
     "Cost": "",
     "Colour": "V",
     "ATK": "0",
     "DEF": "0",
-    "Abilities": "This card gains [+500/+500] for each card in your magic stone deck.\nThis card cannot be targeted or destroyed by spells or abilities your opponent controls.\nIf this card leaves the field, you lose the game.\nIf you would pay any amount of will, you may put that many magic stone cards from your removed area on the bottom of your magic stone deck in any order instead.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\nWhenever your opponent rests an entity ]]] Put the top card of your magic stone deck into the field. It gains \"At the beginning of your recovery phase ]]] This card's controller puts it from the field on the bottom of its owner's magic stone deck.\" until end of game.",
+    "Abilities": "[Judgment] Put four magic stones you control named \"Ark's Gearsatellite\" and all magic stones in your removed area on the bottom of your magic stone deck in a random order.\nAs the game starts, you may search your magic stone deck for a card named \"Ark's Gearsatellite\" and remove it from the game. If you do, shuffle your magic stone deck and banish all will coin tokens.\nIf you would call a magic stone, remove the top X cards of your magic stone deck from the game instead, where X is the number of magic stones your opponent controls.\nIf you would pay any amount of will for Gears or Replicants spells or abilities, you may put that many magic stone cards from your removed area on the bottom of your magic stone deck in any order instead.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\nAt the beginning of the game ]]] You may put a card named \"Ark's Gears Grail\" you own from outside the game into the field. If you do, put a card from your hand on the bottom of your deck.|This card gains [+500/+500] for each card in your magic stone deck.\nThis card cannot be targeted or destroyed by spells or abilities your opponent controls.\nIf this card leaves the field, you lose the game.\nIf you would pay any amount of will, you may put that many magic stone cards from your removed area on the bottom of your magic stone deck in any order instead.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\nWhenever your opponent rests an entity ]]] Put the top card of your magic stone deck into the field. It gains \"At the beginning of your recovery phase ]]] This card's controller puts it from the field on the bottom of its owner's magic stone deck.\" until end of game.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "",
     "Rarity": "R",
-    "Fowid": "2095",
+    "Fowid": "2094|2095",
     "Cluster": "10 - Hero",
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
-    "id": "1f3dbef0-2304-4bf6-8cc5-233703d15a2d",
-    "image": "1f3dbef0-2304-4bf6-8cc5-233703d15a2d.jpg"
+    "id": "2196968e-783d-4f26-838c-d57197b7dc01",
+    "image": "2196968e-783d-4f26-838c-d57197b7dc01.jpg",
+    "Card Type": "Ruler",
+    "backimage": "1f3dbef0-2304-4bf6-8cc5-233703d15a2d.jpg",
+    "alternate1_Card Number": "JRP-082J",
+    "alternate1_name": "Ark, Providence of Solaris",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Gears|Solaris",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "0",
+    "alternate1_Abilities": "This card gains [+500/+500] for each card in your magic stone deck.\nThis card cannot be targeted or destroyed by spells or abilities your opponent controls.\nIf this card leaves the field, you lose the game.\nIf you would pay any amount of will, you may put that many magic stone cards from your removed area on the bottom of your magic stone deck in any order instead.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\nWhenever your opponent rests an entity ]]] Put the top card of your magic stone deck into the field. It gains \"At the beginning of your recovery phase ]]] This card's controller puts it from the field on the bottom of its owner's magic stone deck.\" until end of game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2095",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "071 - Judgment of the Rogue Planet",
+    "alternate1_Set Code": "JRP",
+    "alternate1_id": "1f3dbef0-2304-4bf6-8cc5-233703d15a2d",
+    "alternate1_image": "1f3dbef0-2304-4bf6-8cc5-233703d15a2d.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "JRP-083",
@@ -1999,7 +2082,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "7797c4a1-b55a-4691-9293-30f6520cadba",
-    "image": "7797c4a1-b55a-4691-9293-30f6520cadba.jpg"
+    "image": "7797c4a1-b55a-4691-9293-30f6520cadba.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "JRP-084",
@@ -2021,7 +2105,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "cd0a3907-1ce9-4e3c-810e-2df081b918c2",
-    "image": "cd0a3907-1ce9-4e3c-810e-2df081b918c2.jpg"
+    "image": "cd0a3907-1ce9-4e3c-810e-2df081b918c2.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "JRP-085",
@@ -2043,7 +2128,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "1d0b887e-3103-405e-be4e-34c9e9c713af",
-    "image": "1d0b887e-3103-405e-be4e-34c9e9c713af.jpg"
+    "image": "1d0b887e-3103-405e-be4e-34c9e9c713af.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "JRP-086",
@@ -2065,7 +2151,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "10e8586d-57e3-4ab6-a435-dbecf053ac35",
-    "image": "10e8586d-57e3-4ab6-a435-dbecf053ac35.jpg"
+    "image": "10e8586d-57e3-4ab6-a435-dbecf053ac35.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "JRP-087",
@@ -2087,7 +2174,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "a2f67f34-53d0-453a-9286-f110e8fdb396",
-    "image": "a2f67f34-53d0-453a-9286-f110e8fdb396.jpg"
+    "image": "a2f67f34-53d0-453a-9286-f110e8fdb396.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "JRP-088",
@@ -2109,7 +2197,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "c9419d4f-b6b3-4f38-b587-e0162dc6bf50",
-    "image": "c9419d4f-b6b3-4f38-b587-e0162dc6bf50.jpg"
+    "image": "c9419d4f-b6b3-4f38-b587-e0162dc6bf50.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "JRP-089",
@@ -2131,7 +2220,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "8d256ef1-0458-4b14-9ade-ef279aa3fde2",
-    "image": "8d256ef1-0458-4b14-9ade-ef279aa3fde2.jpg"
+    "image": "8d256ef1-0458-4b14-9ade-ef279aa3fde2.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "JRP-090",
@@ -2153,7 +2243,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "506577e1-a218-4a17-80da-4a84361527c7",
-    "image": "506577e1-a218-4a17-80da-4a84361527c7.jpg"
+    "image": "506577e1-a218-4a17-80da-4a84361527c7.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-091",
@@ -2175,7 +2266,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "cda3d180-b8e6-4451-8ed7-ab2afcfa1ef6",
-    "image": "cda3d180-b8e6-4451-8ed7-ab2afcfa1ef6.jpg"
+    "image": "cda3d180-b8e6-4451-8ed7-ab2afcfa1ef6.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-092",
@@ -2197,7 +2289,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "a725a148-cf0d-4869-a9d5-7f60cc509580",
-    "image": "a725a148-cf0d-4869-a9d5-7f60cc509580.jpg"
+    "image": "a725a148-cf0d-4869-a9d5-7f60cc509580.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-093",
@@ -2219,7 +2312,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "23e75bb0-30a4-4ea7-92bf-abe7c271d9c5",
-    "image": "23e75bb0-30a4-4ea7-92bf-abe7c271d9c5.jpg"
+    "image": "23e75bb0-30a4-4ea7-92bf-abe7c271d9c5.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-094",
@@ -2241,7 +2335,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "d51edc19-0448-4385-9936-76c22d7260ed",
-    "image": "d51edc19-0448-4385-9936-76c22d7260ed.jpg"
+    "image": "d51edc19-0448-4385-9936-76c22d7260ed.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-095",
@@ -2263,7 +2358,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "a5d13199-d52b-4f72-9dfd-1a3c5166ca20",
-    "image": "a5d13199-d52b-4f72-9dfd-1a3c5166ca20.jpg"
+    "image": "a5d13199-d52b-4f72-9dfd-1a3c5166ca20.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-096",
@@ -2285,7 +2381,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "52079aa3-458d-48a7-a9ce-db2be8a1a2d0",
-    "image": "52079aa3-458d-48a7-a9ce-db2be8a1a2d0.jpg"
+    "image": "52079aa3-458d-48a7-a9ce-db2be8a1a2d0.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-097",
@@ -2307,7 +2404,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "9d73e485-291c-497e-ad17-d34671d7bcd4",
-    "image": "9d73e485-291c-497e-ad17-d34671d7bcd4.jpg"
+    "image": "9d73e485-291c-497e-ad17-d34671d7bcd4.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-098",
@@ -2329,7 +2427,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "84f07f67-60b5-4e30-8bb8-c9078cf21572",
-    "image": "84f07f67-60b5-4e30-8bb8-c9078cf21572.jpg"
+    "image": "84f07f67-60b5-4e30-8bb8-c9078cf21572.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-099",
@@ -2351,7 +2450,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "e383693a-8c20-4a9b-ab76-6fb14d30605d",
-    "image": "e383693a-8c20-4a9b-ab76-6fb14d30605d.jpg"
+    "image": "e383693a-8c20-4a9b-ab76-6fb14d30605d.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-100",
@@ -2373,7 +2473,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "3a829428-decf-40aa-9cc9-706f3e240aa1",
-    "image": "3a829428-decf-40aa-9cc9-706f3e240aa1.jpg"
+    "image": "3a829428-decf-40aa-9cc9-706f3e240aa1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-101",
@@ -2395,7 +2496,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "02fb4037-571e-4700-a32b-b079192ac60b",
-    "image": "02fb4037-571e-4700-a32b-b079192ac60b.jpg"
+    "image": "02fb4037-571e-4700-a32b-b079192ac60b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "JRP-102",
@@ -2417,7 +2519,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "9abb5bc7-e4d7-4af2-a0da-ae8424d67bd4",
-    "image": "9abb5bc7-e4d7-4af2-a0da-ae8424d67bd4.jpg"
+    "image": "9abb5bc7-e4d7-4af2-a0da-ae8424d67bd4.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-103",
@@ -2439,7 +2542,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "19123658-2383-49ab-8401-5ac91675d76d",
-    "image": "19123658-2383-49ab-8401-5ac91675d76d.jpg"
+    "image": "19123658-2383-49ab-8401-5ac91675d76d.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-104",
@@ -2461,7 +2565,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "6a6bdbae-d63f-47e6-a8d1-2894cd3de87c",
-    "image": "6a6bdbae-d63f-47e6-a8d1-2894cd3de87c.jpg"
+    "image": "6a6bdbae-d63f-47e6-a8d1-2894cd3de87c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-105",
@@ -2483,7 +2588,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "c71c9ca0-b505-460e-b1a8-6be5d53ccfbd",
-    "image": "c71c9ca0-b505-460e-b1a8-6be5d53ccfbd.jpg"
+    "image": "c71c9ca0-b505-460e-b1a8-6be5d53ccfbd.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "JRP-106",
@@ -2505,7 +2611,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "1d43986b-e1c0-4b78-a7b4-919070cdda8c",
-    "image": "1d43986b-e1c0-4b78-a7b4-919070cdda8c.jpg"
+    "image": "1d43986b-e1c0-4b78-a7b4-919070cdda8c.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "JRP-107",
@@ -2527,7 +2634,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "26293edc-5d76-47c0-a9d8-8ed5c942abdc",
-    "image": "26293edc-5d76-47c0-a9d8-8ed5c942abdc.jpg"
+    "image": "26293edc-5d76-47c0-a9d8-8ed5c942abdc.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "JRP-EOC",
@@ -2549,7 +2657,8 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "4d967868-3e9a-4b7c-a29c-c42fe6ecfa9d",
-    "image": "4d967868-3e9a-4b7c-a29c-c42fe6ecfa9d.jpg"
+    "image": "4d967868-3e9a-4b7c-a29c-c42fe6ecfa9d.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MC03-NWE",
@@ -2571,6 +2680,7 @@
     "Set Name": "071 - Judgment of the Rogue Planet",
     "Set Code": "JRP",
     "id": "2ebf2f2c-6fb4-4478-9c8a-497a84da36ec",
-    "image": "2ebf2f2c-6fb4-4478-9c8a-497a84da36ec.jpg"
+    "image": "2ebf2f2c-6fb4-4478-9c8a-497a84da36ec.jpg",
+    "Card Type": "Chant"
   }
 ]

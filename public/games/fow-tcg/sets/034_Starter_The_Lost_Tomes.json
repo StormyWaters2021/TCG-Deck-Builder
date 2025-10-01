@@ -19,7 +19,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "215b040b-10d1-4896-b815-6a05d15b9b20",
-    "image": "215b040b-10d1-4896-b815-6a05d15b9b20.jpg"
+    "image": "215b040b-10d1-4896-b815-6a05d15b9b20.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR6-002",
@@ -41,7 +42,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "f3084cf5-2206-412d-82b4-f8850b16cc38",
-    "image": "f3084cf5-2206-412d-82b4-f8850b16cc38.jpg"
+    "image": "f3084cf5-2206-412d-82b4-f8850b16cc38.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR6-003",
@@ -63,7 +65,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "2ff4fb12-58ad-4577-9d7b-678d4117f97b",
-    "image": "2ff4fb12-58ad-4577-9d7b-678d4117f97b.jpg"
+    "image": "2ff4fb12-58ad-4577-9d7b-678d4117f97b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR6-004",
@@ -85,7 +88,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "8708ebd9-b276-49b8-b2e6-1fc200ccb599",
-    "image": "8708ebd9-b276-49b8-b2e6-1fc200ccb599.jpg"
+    "image": "8708ebd9-b276-49b8-b2e6-1fc200ccb599.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR6-005",
@@ -107,7 +111,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "f34f7ea8-ba49-4fd8-9fd5-13493a97651b",
-    "image": "f34f7ea8-ba49-4fd8-9fd5-13493a97651b.jpg"
+    "image": "f34f7ea8-ba49-4fd8-9fd5-13493a97651b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDR6-006",
@@ -129,7 +134,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "175f9044-12e5-473b-a0a3-b9694d90e979",
-    "image": "175f9044-12e5-473b-a0a3-b9694d90e979.jpg"
+    "image": "175f9044-12e5-473b-a0a3-b9694d90e979.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR6-007",
@@ -151,7 +157,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "4da0aaf6-b17b-482d-ad1f-f877f9d7cc77",
-    "image": "4da0aaf6-b17b-482d-ad1f-f877f9d7cc77.jpg"
+    "image": "4da0aaf6-b17b-482d-ad1f-f877f9d7cc77.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR6-008",
@@ -173,7 +180,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "8e9f0089-490b-4bd2-bc79-72be05bcc227",
-    "image": "8e9f0089-490b-4bd2-bc79-72be05bcc227.jpg"
+    "image": "8e9f0089-490b-4bd2-bc79-72be05bcc227.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR6-009",
@@ -195,7 +203,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "bcea9069-0c17-445a-812a-8a0f5d9ed119",
-    "image": "bcea9069-0c17-445a-812a-8a0f5d9ed119.jpg"
+    "image": "bcea9069-0c17-445a-812a-8a0f5d9ed119.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR6-010",
@@ -217,51 +226,53 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "6937b56d-c61c-4a79-85e2-186748721ae4",
-    "image": "6937b56d-c61c-4a79-85e2-186748721ae4.jpg"
+    "image": "6937b56d-c61c-4a79-85e2-186748721ae4.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "SDR6-011",
-    "name": "Gill Alhama'at, He Who Controls the Taboo",
-    "Type": "Ruler",
-    "Race": "Wizard|Historical",
-    "Cost": "",
-    "Colour": "W|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {W}{B}{3}\n[Energize] {W}{B}\nYou may pay the attribute cost of Historical cards with will of any attribute.\nWhenever you play a Historical card ⇒ Put a fate counter on target non-magic stone entity you control.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Gill at last knew the nature of his prophetic dreams. The ancient destruction of this world, the path he would follow.",
-    "Artist": "gekko",
-    "Rarity": "",
-    "Fowid": "3362",
-    "Cluster": "05 - Reiya",
-    "Set Name": "034 - Starter - The Lost Tomes",
-    "Set Code": "SDR6",
-    "id": "7052ef37-62d4-40b5-ba08-976b5a9d08a8",
-    "image": "7052ef37-62d4-40b5-ba08-976b5a9d08a8.jpg"
-  },
-  {
-    "Card Number": "SDR6-011J",
-    "name": "Gill Alhama'at, Treasonous Emperor",
-    "Type": "J-Ruler",
+    "Card Number": "SDR6-011|SDR6-011J",
+    "name": "Gill Alhama'at, He Who Controls the Taboo // Gill Alhama'at, Treasonous Emperor",
+    "Type": "Ruler|J-Ruler",
     "Race": "Wizard|Historical",
     "Cost": "",
     "Colour": "W|B",
     "ATK": "1000",
     "DEF": "1200",
-    "Abilities": "[Flying]\nMagic stones you control gain \"{Rest}: Produce {W}, {R}, {U}, {G}, or {B}.\".\n{1}, banish a resonator: This card gains [Swiftness], [Imperishable], or [Precision] until end of turn.\nGod's Art \"Twist of Fate\" {0}: Destroy all other non-magic stone entities with no fate counters on them. Then remove all fate counters from all entities.",
+    "Abilities": "[Judgment] {W}{B}{3}\n[Energize] {W}{B}\nYou may pay the attribute cost of Historical cards with will of any attribute.\nWhenever you play a Historical card ⇒ Put a fate counter on target non-magic stone entity you control.|[Flying]\nMagic stones you control gain \"{Rest}: Produce {W}, {R}, {U}, {G}, or {B}.\".\n{1}, banish a resonator: This card gains [Swiftness], [Imperishable], or [Precision] until end of turn.\nGod's Art \"Twist of Fate\" {0}: Destroy all other non-magic stone entities with no fate counters on them. Then remove all fate counters from all entities.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Sacrifice everything, it is the only way to beat the witch.\"",
+    "Flavour": "Gill at last knew the nature of his prophetic dreams. The ancient destruction of this world, the path he would follow.|\"Sacrifice everything, it is the only way to beat the witch.\"",
     "Artist": "gekko",
     "Rarity": "",
-    "Fowid": "3363",
+    "Fowid": "3362|3363",
     "Cluster": "05 - Reiya",
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
-    "id": "61455a52-a397-4a86-b5e7-aad3ace9f369",
-    "image": "61455a52-a397-4a86-b5e7-aad3ace9f369.jpg"
+    "id": "7052ef37-62d4-40b5-ba08-976b5a9d08a8",
+    "image": "7052ef37-62d4-40b5-ba08-976b5a9d08a8.jpg",
+    "Card Type": "Ruler",
+    "backimage": "61455a52-a397-4a86-b5e7-aad3ace9f369.jpg",
+    "alternate1_Card Number": "SDR6-011J",
+    "alternate1_name": "Gill Alhama'at, Treasonous Emperor",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard|Historical",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Flying]\nMagic stones you control gain \"{Rest}: Produce {W}, {R}, {U}, {G}, or {B}.\".\n{1}, banish a resonator: This card gains [Swiftness], [Imperishable], or [Precision] until end of turn.\nGod's Art \"Twist of Fate\" {0}: Destroy all other non-magic stone entities with no fate counters on them. Then remove all fate counters from all entities.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Sacrifice everything, it is the only way to beat the witch.\"",
+    "alternate1_Artist": "gekko",
+    "alternate1_Rarity": "",
+    "alternate1_Fowid": "3363",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "034 - Starter - The Lost Tomes",
+    "alternate1_Set Code": "SDR6",
+    "alternate1_id": "61455a52-a397-4a86-b5e7-aad3ace9f369",
+    "alternate1_image": "61455a52-a397-4a86-b5e7-aad3ace9f369.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDR6-012",
@@ -283,7 +294,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "c21754ee-72bc-490c-9226-5ac5712a76a8",
-    "image": "c21754ee-72bc-490c-9226-5ac5712a76a8.jpg"
+    "image": "c21754ee-72bc-490c-9226-5ac5712a76a8.jpg",
+    "Card Type": "Special Magic Stone|True Magic Stone"
   },
   {
     "Card Number": "SDR6-013",
@@ -305,7 +317,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "16611060-1ee9-4fd6-b433-0e1112966fdc",
-    "image": "16611060-1ee9-4fd6-b433-0e1112966fdc.jpg"
+    "image": "16611060-1ee9-4fd6-b433-0e1112966fdc.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "SDR6-014",
@@ -327,7 +340,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "50665586-9b69-42e2-9df5-1c893e214c12",
-    "image": "50665586-9b69-42e2-9df5-1c893e214c12.jpg"
+    "image": "50665586-9b69-42e2-9df5-1c893e214c12.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "SDR6-015",
@@ -349,7 +363,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "3cc84376-edca-43e1-aa57-a72eb5160dc7",
-    "image": "3cc84376-edca-43e1-aa57-a72eb5160dc7.jpg"
+    "image": "3cc84376-edca-43e1-aa57-a72eb5160dc7.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "SDR6-016",
@@ -371,7 +386,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "8aafd728-b051-48ab-a21d-8f313d157945",
-    "image": "8aafd728-b051-48ab-a21d-8f313d157945.jpg"
+    "image": "8aafd728-b051-48ab-a21d-8f313d157945.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "SDR6-017",
@@ -393,7 +409,8 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "c962ec76-c14d-42ab-86f0-287d16c0c8a1",
-    "image": "c962ec76-c14d-42ab-86f0-287d16c0c8a1.jpg"
+    "image": "c962ec76-c14d-42ab-86f0-287d16c0c8a1.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "SDR6-018",
@@ -415,6 +432,7 @@
     "Set Name": "034 - Starter - The Lost Tomes",
     "Set Code": "SDR6",
     "id": "35743b75-9926-4523-ad8f-da2414fbe56a",
-    "image": "35743b75-9926-4523-ad8f-da2414fbe56a.jpg"
+    "image": "35743b75-9926-4523-ad8f-da2414fbe56a.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

@@ -19,7 +19,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "e01d782c-2b98-441d-8176-0e6772ff7ef3",
-    "image": "e01d782c-2b98-441d-8176-0e6772ff7ef3.jpg"
+    "image": "e01d782c-2b98-441d-8176-0e6772ff7ef3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-002",
@@ -41,7 +42,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "9586609d-03d4-4054-82ac-d4489c5994f8",
-    "image": "9586609d-03d4-4054-82ac-d4489c5994f8.jpg"
+    "image": "9586609d-03d4-4054-82ac-d4489c5994f8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-003",
@@ -63,7 +65,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "c17e4060-b316-4a2b-aa55-820204cef53a",
-    "image": "c17e4060-b316-4a2b-aa55-820204cef53a.jpg"
+    "image": "c17e4060-b316-4a2b-aa55-820204cef53a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-004",
@@ -85,7 +88,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "63424969-ebb0-4bb9-996d-4ec8ca449d00",
-    "image": "63424969-ebb0-4bb9-996d-4ec8ca449d00.jpg"
+    "image": "63424969-ebb0-4bb9-996d-4ec8ca449d00.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "CMF-005",
@@ -107,7 +111,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "78d90646-abc3-4f91-9c9c-3fad5bf95122",
-    "image": "78d90646-abc3-4f91-9c9c-3fad5bf95122.jpg"
+    "image": "78d90646-abc3-4f91-9c9c-3fad5bf95122.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "CMF-006",
@@ -129,7 +134,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "3599e162-371d-4b93-931d-41393b00bb1b",
-    "image": "3599e162-371d-4b93-931d-41393b00bb1b.jpg"
+    "image": "3599e162-371d-4b93-931d-41393b00bb1b.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "CMF-007",
@@ -151,7 +157,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "a68baebb-7edd-4866-b1c7-f42ff04595ba",
-    "image": "a68baebb-7edd-4866-b1c7-f42ff04595ba.jpg"
+    "image": "a68baebb-7edd-4866-b1c7-f42ff04595ba.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "CMF-008",
@@ -173,7 +180,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "b8d43ed3-3d6a-44f7-a63c-afd65b8a41cb",
-    "image": "b8d43ed3-3d6a-44f7-a63c-afd65b8a41cb.jpg"
+    "image": "b8d43ed3-3d6a-44f7-a63c-afd65b8a41cb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-009",
@@ -195,7 +203,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "b281d516-2e20-4d01-a863-db7cc73cfa4d",
-    "image": "b281d516-2e20-4d01-a863-db7cc73cfa4d.jpg"
+    "image": "b281d516-2e20-4d01-a863-db7cc73cfa4d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-010",
@@ -217,7 +226,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "1acdad81-3a50-4f1d-aac1-ff44fa015e37",
-    "image": "1acdad81-3a50-4f1d-aac1-ff44fa015e37.jpg"
+    "image": "1acdad81-3a50-4f1d-aac1-ff44fa015e37.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-011",
@@ -239,7 +249,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "d073bd3a-1b45-4c7f-a6ed-b29a61497a8f",
-    "image": "d073bd3a-1b45-4c7f-a6ed-b29a61497a8f.jpg"
+    "image": "d073bd3a-1b45-4c7f-a6ed-b29a61497a8f.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "CMF-012",
@@ -261,51 +272,53 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "b0e271c9-073f-4ba8-90d2-5aa7dec761b8",
-    "image": "b0e271c9-073f-4ba8-90d2-5aa7dec761b8.jpg"
+    "image": "b0e271c9-073f-4ba8-90d2-5aa7dec761b8.jpg",
+    "Card Type": "Addition:Field"
   },
   {
-    "Card Number": "CMF-013",
-    "name": "Pandora, Girl of the Box",
-    "Type": "Ruler",
+    "Card Number": "CMF-013|CMF-013J",
+    "name": "Pandora, Girl of the Box // Pandora of Light",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human",
     "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {W}{B}{3}.",
+    "Colour": "V|W",
+    "ATK": "400",
+    "DEF": "800",
+    "Abilities": "[J-Activate] Pay {W}{B}{3}.|[Enter]: Destroy all resonators.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "She must ask her heart for that which she truly desires - true hope or absolute despair...",
+    "Flavour": "She must ask her heart for that which she truly desires - true hope or absolute despair...|True hope begins to write the story of the future.",
     "Artist": "碧風羽",
     "Rarity": "R",
-    "Fowid": "1210",
+    "Fowid": "1210|1211",
     "Cluster": "02 - Grimm",
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "4a2c4b62-2855-4a20-9e2a-e2b82120cb51",
-    "image": "4a2c4b62-2855-4a20-9e2a-e2b82120cb51.jpg"
-  },
-  {
-    "Card Number": "CMF-013J",
-    "name": "Pandora of Light",
-    "Type": "J-Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "400",
-    "DEF": "800",
-    "Abilities": "[Enter]: Destroy all resonators.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "True hope begins to write the story of the future.",
-    "Artist": "碧風羽",
-    "Rarity": "R",
-    "Fowid": "1211",
-    "Cluster": "02 - Grimm",
-    "Set Name": "005 - The Crimson Moon Fairy Tale",
-    "Set Code": "CMF",
-    "id": "9352fc33-3d13-4a78-8154-8fea6fc3cedb",
-    "image": "9352fc33-3d13-4a78-8154-8fea6fc3cedb.jpg"
+    "image": "4a2c4b62-2855-4a20-9e2a-e2b82120cb51.jpg",
+    "Card Type": "Ruler",
+    "backimage": "9352fc33-3d13-4a78-8154-8fea6fc3cedb.jpg",
+    "alternate1_Card Number": "CMF-013J",
+    "alternate1_name": "Pandora of Light",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "400",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Enter]: Destroy all resonators.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "True hope begins to write the story of the future.",
+    "alternate1_Artist": "碧風羽",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1211",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "005 - The Crimson Moon Fairy Tale",
+    "alternate1_Set Code": "CMF",
+    "alternate1_id": "9352fc33-3d13-4a78-8154-8fea6fc3cedb",
+    "alternate1_image": "9352fc33-3d13-4a78-8154-8fea6fc3cedb.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMF-014",
@@ -327,7 +340,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "e348464a-139f-4d92-afee-c66c2a0b1743",
-    "image": "e348464a-139f-4d92-afee-c66c2a0b1743.jpg"
+    "image": "e348464a-139f-4d92-afee-c66c2a0b1743.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-015",
@@ -349,7 +363,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "eabf2e35-24b8-4a93-aff0-239bfa981c1e",
-    "image": "eabf2e35-24b8-4a93-aff0-239bfa981c1e.jpg"
+    "image": "eabf2e35-24b8-4a93-aff0-239bfa981c1e.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "CMF-016",
@@ -371,7 +386,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "82160242-1d8d-4ef7-a397-49599383442c",
-    "image": "82160242-1d8d-4ef7-a397-49599383442c.jpg"
+    "image": "82160242-1d8d-4ef7-a397-49599383442c.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "CMF-017",
@@ -393,7 +409,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "22b4b3c0-5818-42b6-8139-414a24485aaa",
-    "image": "22b4b3c0-5818-42b6-8139-414a24485aaa.jpg"
+    "image": "22b4b3c0-5818-42b6-8139-414a24485aaa.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "CMF-018",
@@ -415,7 +432,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "3a83175e-44df-4158-bb57-550454302bbd",
-    "image": "3a83175e-44df-4158-bb57-550454302bbd.jpg"
+    "image": "3a83175e-44df-4158-bb57-550454302bbd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-019",
@@ -437,7 +455,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "7a4a8c18-da8a-4def-8ed2-8b1e1f2a4703",
-    "image": "7a4a8c18-da8a-4def-8ed2-8b1e1f2a4703.jpg"
+    "image": "7a4a8c18-da8a-4def-8ed2-8b1e1f2a4703.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-020",
@@ -459,7 +478,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "9cb6fe8a-5b52-46ec-98ca-7b0f02cbdeda",
-    "image": "9cb6fe8a-5b52-46ec-98ca-7b0f02cbdeda.jpg"
+    "image": "9cb6fe8a-5b52-46ec-98ca-7b0f02cbdeda.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "CMF-021",
@@ -481,7 +501,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "2cc2c908-2f65-4a71-9341-f7d6b7165759",
-    "image": "2cc2c908-2f65-4a71-9341-f7d6b7165759.jpg"
+    "image": "2cc2c908-2f65-4a71-9341-f7d6b7165759.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "CMF-022",
@@ -503,7 +524,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "1725d3dc-6f82-403f-a5a6-93b2fbda50a6",
-    "image": "1725d3dc-6f82-403f-a5a6-93b2fbda50a6.jpg"
+    "image": "1725d3dc-6f82-403f-a5a6-93b2fbda50a6.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "CMF-023",
@@ -525,7 +547,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "db35f32e-636b-4700-805b-cf2fbbe7c156",
-    "image": "db35f32e-636b-4700-805b-cf2fbbe7c156.jpg"
+    "image": "db35f32e-636b-4700-805b-cf2fbbe7c156.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-024",
@@ -547,7 +570,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "c2cbd224-1f5c-436b-8e12-386c2110a8c4",
-    "image": "c2cbd224-1f5c-436b-8e12-386c2110a8c4.jpg"
+    "image": "c2cbd224-1f5c-436b-8e12-386c2110a8c4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-025",
@@ -569,7 +593,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "1f260f1e-00d4-4b5e-ac9f-e8d8153488a0",
-    "image": "1f260f1e-00d4-4b5e-ac9f-e8d8153488a0.jpg"
+    "image": "1f260f1e-00d4-4b5e-ac9f-e8d8153488a0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-026",
@@ -591,51 +616,53 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "e4e25ef2-f759-4476-9bd8-9a524e525488",
-    "image": "e4e25ef2-f759-4476-9bd8-9a524e525488.jpg"
+    "image": "e4e25ef2-f759-4476-9bd8-9a524e525488.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "CMF-027",
-    "name": "Little Red Riding Hood",
-    "Type": "Ruler",
-    "Race": "Little Girl",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {0}: You cannot play this ability if you haven't put any Moon into a field this turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Once upon a time there was a dear little girl who always wore a red hood...\" ~from the fairy tale \"Little Red Riding Hood\"",
-    "Artist": "Azusa",
-    "Rarity": "R",
-    "Fowid": "1225",
-    "Cluster": "02 - Grimm",
-    "Set Name": "005 - The Crimson Moon Fairy Tale",
-    "Set Code": "CMF",
-    "id": "b12edf03-602c-45ae-9063-9927a0b0788f",
-    "image": "b12edf03-602c-45ae-9063-9927a0b0788f.jpg"
-  },
-  {
-    "Card Number": "CMF-027J",
-    "name": "Little Red, the Wolf Girl",
-    "Type": "J-Ruler",
-    "Race": "Little Wolf-Girl",
+    "Card Number": "CMF-027|CMF-027J",
+    "name": "Little Red Riding Hood // Little Red, the Wolf Girl",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Little Girl|Little Wolf-Girl",
     "Cost": "",
     "Colour": "R",
     "ATK": "1200",
     "DEF": "200",
-    "Abilities": "[Swiftness] (This card can attack and activate its {Rest} ability in a turn it comes into a field.)\n[Enter]: This card deals 800 damage to target resonator.\n[Continuous]: At end of turn, return this card to is Ruler side.",
+    "Abilities": "[J-Activate] Pay {0}: You cannot play this ability if you haven't put any Moon into a field this turn.|[Swiftness] (This card can attack and activate its {Rest} ability in a turn it comes into a field.)\n[Enter]: This card deals 800 damage to target resonator.\n[Continuous]: At end of turn, return this card to is Ruler side.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "As a wolf girl, Little Red was alot more honest than the wolf she once knew.",
+    "Flavour": "\"Once upon a time there was a dear little girl who always wore a red hood...\" ~from the fairy tale \"Little Red Riding Hood\"|As a wolf girl, Little Red was alot more honest than the wolf she once knew.",
     "Artist": "Azusa",
     "Rarity": "R",
-    "Fowid": "1226",
+    "Fowid": "1225|1226",
     "Cluster": "02 - Grimm",
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
-    "id": "39b83668-dd2b-4e8b-88a7-837f4eb288b2",
-    "image": "39b83668-dd2b-4e8b-88a7-837f4eb288b2.jpg"
+    "id": "b12edf03-602c-45ae-9063-9927a0b0788f",
+    "image": "b12edf03-602c-45ae-9063-9927a0b0788f.jpg",
+    "Card Type": "Ruler",
+    "backimage": "39b83668-dd2b-4e8b-88a7-837f4eb288b2.jpg",
+    "alternate1_Card Number": "CMF-027J",
+    "alternate1_name": "Little Red, the Wolf Girl",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Little Wolf-Girl",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "200",
+    "alternate1_Abilities": "[Swiftness] (This card can attack and activate its {Rest} ability in a turn it comes into a field.)\n[Enter]: This card deals 800 damage to target resonator.\n[Continuous]: At end of turn, return this card to is Ruler side.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "As a wolf girl, Little Red was alot more honest than the wolf she once knew.",
+    "alternate1_Artist": "Azusa",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1226",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "005 - The Crimson Moon Fairy Tale",
+    "alternate1_Set Code": "CMF",
+    "alternate1_id": "39b83668-dd2b-4e8b-88a7-837f4eb288b2",
+    "alternate1_image": "39b83668-dd2b-4e8b-88a7-837f4eb288b2.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMF-028",
@@ -657,7 +684,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "80ef8fa9-2900-453f-a673-fb1a3b59be19",
-    "image": "80ef8fa9-2900-453f-a673-fb1a3b59be19.jpg"
+    "image": "80ef8fa9-2900-453f-a673-fb1a3b59be19.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-029",
@@ -679,7 +707,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "1837d35a-61c8-4012-9de8-f295c4bcea1d",
-    "image": "1837d35a-61c8-4012-9de8-f295c4bcea1d.jpg"
+    "image": "1837d35a-61c8-4012-9de8-f295c4bcea1d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-030",
@@ -701,7 +730,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "8853a72d-9804-4769-9031-e3b74263de2d",
-    "image": "8853a72d-9804-4769-9031-e3b74263de2d.jpg"
+    "image": "8853a72d-9804-4769-9031-e3b74263de2d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-031",
@@ -723,7 +753,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "b4ba5669-a432-4e04-b355-f334a73470d4",
-    "image": "b4ba5669-a432-4e04-b355-f334a73470d4.jpg"
+    "image": "b4ba5669-a432-4e04-b355-f334a73470d4.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "CMF-032",
@@ -745,7 +776,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "f3f133af-094b-4ca7-b9a0-940db0aa8b34",
-    "image": "f3f133af-094b-4ca7-b9a0-940db0aa8b34.jpg"
+    "image": "f3f133af-094b-4ca7-b9a0-940db0aa8b34.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "CMF-033",
@@ -767,7 +799,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "168764c1-8859-4c96-8d04-6a09356810c8",
-    "image": "168764c1-8859-4c96-8d04-6a09356810c8.jpg"
+    "image": "168764c1-8859-4c96-8d04-6a09356810c8.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "CMF-034",
@@ -789,7 +822,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "bfce5208-a434-413a-9365-2ec91ea4e8fd",
-    "image": "bfce5208-a434-413a-9365-2ec91ea4e8fd.jpg"
+    "image": "bfce5208-a434-413a-9365-2ec91ea4e8fd.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "CMF-035",
@@ -811,51 +845,53 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "e6ffc793-c0c0-4cfd-a22f-93bfe3796777",
-    "image": "e6ffc793-c0c0-4cfd-a22f-93bfe3796777.jpg"
+    "image": "e6ffc793-c0c0-4cfd-a22f-93bfe3796777.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "CMF-036",
-    "name": "Snow White",
-    "Type": "Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {W}{R}{2}.\n[J-Activate] Pay {1}, discard \"Poison Apple\".",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Perhaps she had a Nightmare while she was sleeping?",
-    "Artist": "今野隼史",
-    "Rarity": "R",
-    "Fowid": "1235",
-    "Cluster": "02 - Grimm",
-    "Set Name": "005 - The Crimson Moon Fairy Tale",
-    "Set Code": "CMF",
-    "id": "39b13194-e0e4-4dec-a53d-a8cff317f4cb",
-    "image": "39b13194-e0e4-4dec-a53d-a8cff317f4cb.jpg"
-  },
-  {
-    "Card Number": "CMF-036J",
-    "name": "Bloody Snow White",
-    "Type": "J-Ruler",
-    "Race": "Nightmare|Human",
+    "Card Number": "CMF-036|CMF-036J",
+    "name": "Snow White // Bloody Snow White",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Nightmare|Human",
     "Cost": "",
     "Colour": "R",
     "ATK": "1300",
     "DEF": "1300",
-    "Abilities": "[Target Attack] (This card can attack against recovered J/resonator.)\n[Activate] {Rest}: Rest target J/resonator.\n[Activate] Pay {1}, discard \"Poison Apple\": Destroy target resonator.",
+    "Abilities": "[J-Activate] Pay {W}{R}{2}.\n[J-Activate] Pay {1}, discard \"Poison Apple\".|[Target Attack] (This card can attack against recovered J/resonator.)\n[Activate] {Rest}: Rest target J/resonator.\n[Activate] Pay {1}, discard \"Poison Apple\": Destroy target resonator.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Ignoring her better judgement, she took a bite out of the appleThe first bite was sweet; but the second was much more bitter...",
+    "Flavour": "Perhaps she had a Nightmare while she was sleeping?|Ignoring her better judgement, she took a bite out of the appleThe first bite was sweet; but the second was much more bitter...",
     "Artist": "今野隼史",
     "Rarity": "R",
-    "Fowid": "1236",
+    "Fowid": "1235|1236",
     "Cluster": "02 - Grimm",
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
-    "id": "40860b24-5287-46a5-9b91-725a321fa21b",
-    "image": "40860b24-5287-46a5-9b91-725a321fa21b.jpg"
+    "id": "39b13194-e0e4-4dec-a53d-a8cff317f4cb",
+    "image": "39b13194-e0e4-4dec-a53d-a8cff317f4cb.jpg",
+    "Card Type": "Ruler",
+    "backimage": "40860b24-5287-46a5-9b91-725a321fa21b.jpg",
+    "alternate1_Card Number": "CMF-036J",
+    "alternate1_name": "Bloody Snow White",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Nightmare|Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1300",
+    "alternate1_DEF": "1300",
+    "alternate1_Abilities": "[Target Attack] (This card can attack against recovered J/resonator.)\n[Activate] {Rest}: Rest target J/resonator.\n[Activate] Pay {1}, discard \"Poison Apple\": Destroy target resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Ignoring her better judgement, she took a bite out of the appleThe first bite was sweet; but the second was much more bitter...",
+    "alternate1_Artist": "今野隼史",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1236",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "005 - The Crimson Moon Fairy Tale",
+    "alternate1_Set Code": "CMF",
+    "alternate1_id": "40860b24-5287-46a5-9b91-725a321fa21b",
+    "alternate1_image": "40860b24-5287-46a5-9b91-725a321fa21b.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMF-037",
@@ -877,7 +913,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "87303ed3-4640-4178-acba-e279b7c8b60f",
-    "image": "87303ed3-4640-4178-acba-e279b7c8b60f.jpg"
+    "image": "87303ed3-4640-4178-acba-e279b7c8b60f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-038",
@@ -899,7 +936,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "4967076b-59ec-431c-a440-b15428b109ac",
-    "image": "4967076b-59ec-431c-a440-b15428b109ac.jpg"
+    "image": "4967076b-59ec-431c-a440-b15428b109ac.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "CMF-039",
@@ -921,7 +959,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "964d2020-a7b2-4cd9-ad6b-c0e019958f15",
-    "image": "964d2020-a7b2-4cd9-ad6b-c0e019958f15.jpg"
+    "image": "964d2020-a7b2-4cd9-ad6b-c0e019958f15.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-040",
@@ -943,7 +982,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "6db4ce0b-1a53-44ba-b3b2-3d33b20cb006",
-    "image": "6db4ce0b-1a53-44ba-b3b2-3d33b20cb006.jpg"
+    "image": "6db4ce0b-1a53-44ba-b3b2-3d33b20cb006.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-041",
@@ -965,7 +1005,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "43223207-d327-4223-b02e-73edf8ccb465",
-    "image": "43223207-d327-4223-b02e-73edf8ccb465.jpg"
+    "image": "43223207-d327-4223-b02e-73edf8ccb465.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-042",
@@ -987,7 +1028,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "87bc604c-3074-4a5e-a1ba-8c77d838359f",
-    "image": "87bc604c-3074-4a5e-a1ba-8c77d838359f.jpg"
+    "image": "87bc604c-3074-4a5e-a1ba-8c77d838359f.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "CMF-043",
@@ -1009,7 +1051,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "5c33ec94-e093-4ec4-9954-e1e0a2617a2d",
-    "image": "5c33ec94-e093-4ec4-9954-e1e0a2617a2d.jpg"
+    "image": "5c33ec94-e093-4ec4-9954-e1e0a2617a2d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-044",
@@ -1031,7 +1074,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "9bee9108-b626-4b7b-9ba7-4eeff5a0b413",
-    "image": "9bee9108-b626-4b7b-9ba7-4eeff5a0b413.jpg"
+    "image": "9bee9108-b626-4b7b-9ba7-4eeff5a0b413.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "CMF-045",
@@ -1053,7 +1097,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "6adff57a-c01f-4b88-8784-9ffbf4d157ee",
-    "image": "6adff57a-c01f-4b88-8784-9ffbf4d157ee.jpg"
+    "image": "6adff57a-c01f-4b88-8784-9ffbf4d157ee.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "CMF-046",
@@ -1075,51 +1120,53 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "cdb1e3de-01a6-49c1-980e-a8215a3c528f",
-    "image": "cdb1e3de-01a6-49c1-980e-a8215a3c528f.jpg"
+    "image": "cdb1e3de-01a6-49c1-980e-a8215a3c528f.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "CMF-047",
-    "name": "Nameless Girl",
-    "Type": "Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {R}{U}{2}: If a Human is put into your graveyard from a field this turn, you may pay {0} to play this ability instead.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Who... am I? ... You? These voices...\"",
-    "Artist": "ひがし",
-    "Rarity": "R",
-    "Fowid": "1247",
-    "Cluster": "02 - Grimm",
-    "Set Name": "005 - The Crimson Moon Fairy Tale",
-    "Set Code": "CMF",
-    "id": "698edce9-e620-4746-bbd7-33cc356ea87e",
-    "image": "698edce9-e620-4746-bbd7-33cc356ea87e.jpg"
-  },
-  {
-    "Card Number": "CMF-047J",
-    "name": "Jeanne d'Arc, the Flame of Hatred",
-    "Type": "J-Ruler",
-    "Race": "Nightmare|Human",
+    "Card Number": "CMF-047|CMF-047J",
+    "name": "Nameless Girl // Jeanne d'Arc, the Flame of Hatred",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Nightmare|Human",
     "Cost": "",
     "Colour": "U",
     "ATK": "1200",
     "DEF": "1200",
-    "Abilities": "[Enter]: Destroy all other Humans.\n[Activate] {Rest}: Prevent all damage from target Human resonator until end of turn.\n[Activate] Pay {R}{1}: This card deals 500 damage to target Human.",
+    "Abilities": "[J-Activate] Pay {R}{U}{2}: If a Human is put into your graveyard from a field this turn, you may pay {0} to play this ability instead.|[Enter]: Destroy all other Humans.\n[Activate] {Rest}: Prevent all damage from target Human resonator until end of turn.\n[Activate] Pay {R}{1}: This card deals 500 damage to target Human.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I can hear the voice of God... it tells me to pass judgement on all sinners!\"",
-    "Artist": "ピスケ",
+    "Flavour": "\"Who... am I? ... You? These voices...\"|\"I can hear the voice of God... it tells me to pass judgement on all sinners!\"",
+    "Artist": "ひがし|ピスケ",
     "Rarity": "R",
-    "Fowid": "1248",
+    "Fowid": "1247|1248",
     "Cluster": "02 - Grimm",
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
-    "id": "5b0f7ae1-6b6d-491c-84d9-c0f73c6d5f0e",
-    "image": "5b0f7ae1-6b6d-491c-84d9-c0f73c6d5f0e.jpg"
+    "id": "698edce9-e620-4746-bbd7-33cc356ea87e",
+    "image": "698edce9-e620-4746-bbd7-33cc356ea87e.jpg",
+    "Card Type": "Ruler",
+    "backimage": "5b0f7ae1-6b6d-491c-84d9-c0f73c6d5f0e.jpg",
+    "alternate1_Card Number": "CMF-047J",
+    "alternate1_name": "Jeanne d'Arc, the Flame of Hatred",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Nightmare|Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Enter]: Destroy all other Humans.\n[Activate] {Rest}: Prevent all damage from target Human resonator until end of turn.\n[Activate] Pay {R}{1}: This card deals 500 damage to target Human.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I can hear the voice of God... it tells me to pass judgement on all sinners!\"",
+    "alternate1_Artist": "ピスケ",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1248",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "005 - The Crimson Moon Fairy Tale",
+    "alternate1_Set Code": "CMF",
+    "alternate1_id": "5b0f7ae1-6b6d-491c-84d9-c0f73c6d5f0e",
+    "alternate1_image": "5b0f7ae1-6b6d-491c-84d9-c0f73c6d5f0e.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMF-048",
@@ -1141,7 +1188,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "00750686-784e-4cc7-a4bf-626c1e971180",
-    "image": "00750686-784e-4cc7-a4bf-626c1e971180.jpg"
+    "image": "00750686-784e-4cc7-a4bf-626c1e971180.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-049",
@@ -1163,7 +1211,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "eaf06bd9-4e28-47cb-bb31-1eb84778be6b",
-    "image": "eaf06bd9-4e28-47cb-bb31-1eb84778be6b.jpg"
+    "image": "eaf06bd9-4e28-47cb-bb31-1eb84778be6b.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "CMF-050",
@@ -1185,7 +1234,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "bba74f40-69ee-493c-b561-bbc5eefe3098",
-    "image": "bba74f40-69ee-493c-b561-bbc5eefe3098.jpg"
+    "image": "bba74f40-69ee-493c-b561-bbc5eefe3098.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "CMF-051",
@@ -1207,51 +1257,53 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "3d063688-2b99-4338-b6fe-0f0208c007fd",
-    "image": "3d063688-2b99-4338-b6fe-0f0208c007fd.jpg"
+    "image": "3d063688-2b99-4338-b6fe-0f0208c007fd.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
-    "Card Number": "CMF-052",
-    "name": "Seer of the Blue Moon",
-    "Type": "Ruler",
+    "Card Number": "CMF-052|CMF-052J",
+    "name": "Seer of the Blue Moon // Kaguya, Princess of the Moon",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human",
     "Cost": "",
     "Colour": "U",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[J-Activate] Pay {0}: You cannot play this ability if you haven't put any Treasury Item into a field this turn.\n[Continuous]: You pay {1} to put cards into your chant-standby area rather than pay {2}.",
+    "Abilities": "[J-Activate] Pay {0}: You cannot play this ability if you haven't put any Treasury Item into a field this turn.\n[Continuous]: You pay {1} to put cards into your chant-standby area rather than pay {2}.|[Activate] Pay {0}: Change the text of target Treasury Item you control by replacing all instances of one attribute with another one until end of turn.\n[Activate] Pay {U}{U}{1}: Search your main deck for a Treasury Item, reveal it and put it into your hand. Then shuffle your main deck.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Once the blue moon shines in the night sky, the prophecies shall come true.\"",
+    "Flavour": "\"Once the blue moon shines in the night sky, the prophecies shall come true.\"|When Kaguya touches the ancient treasures, they begin to shine with new life.",
     "Artist": "百舌鳥",
     "Rarity": "R",
-    "Fowid": "1253",
+    "Fowid": "1253|1254",
     "Cluster": "02 - Grimm",
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "44842461-f86a-49fe-a9f5-3b307dc0a2a6",
-    "image": "44842461-f86a-49fe-a9f5-3b307dc0a2a6.jpg"
-  },
-  {
-    "Card Number": "CMF-052J",
-    "name": "Kaguya, Princess of the Moon",
-    "Type": "J-Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Activate] Pay {0}: Change the text of target Treasury Item you control by replacing all instances of one attribute with another one until end of turn.\n[Activate] Pay {U}{U}{1}: Search your main deck for a Treasury Item, reveal it and put it into your hand. Then shuffle your main deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "When Kaguya touches the ancient treasures, they begin to shine with new life.",
-    "Artist": "百舌鳥",
-    "Rarity": "R",
-    "Fowid": "1254",
-    "Cluster": "02 - Grimm",
-    "Set Name": "005 - The Crimson Moon Fairy Tale",
-    "Set Code": "CMF",
-    "id": "fbf53666-9360-4a04-80b0-6e5c2bd992ad",
-    "image": "fbf53666-9360-4a04-80b0-6e5c2bd992ad.jpg"
+    "image": "44842461-f86a-49fe-a9f5-3b307dc0a2a6.jpg",
+    "Card Type": "Ruler",
+    "backimage": "fbf53666-9360-4a04-80b0-6e5c2bd992ad.jpg",
+    "alternate1_Card Number": "CMF-052J",
+    "alternate1_name": "Kaguya, Princess of the Moon",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Activate] Pay {0}: Change the text of target Treasury Item you control by replacing all instances of one attribute with another one until end of turn.\n[Activate] Pay {U}{U}{1}: Search your main deck for a Treasury Item, reveal it and put it into your hand. Then shuffle your main deck.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "When Kaguya touches the ancient treasures, they begin to shine with new life.",
+    "alternate1_Artist": "百舌鳥",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1254",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "005 - The Crimson Moon Fairy Tale",
+    "alternate1_Set Code": "CMF",
+    "alternate1_id": "fbf53666-9360-4a04-80b0-6e5c2bd992ad",
+    "alternate1_image": "fbf53666-9360-4a04-80b0-6e5c2bd992ad.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMF-053",
@@ -1273,7 +1325,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "ff7ca088-6494-4924-947f-f99e74111fa0",
-    "image": "ff7ca088-6494-4924-947f-f99e74111fa0.jpg"
+    "image": "ff7ca088-6494-4924-947f-f99e74111fa0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-054",
@@ -1295,7 +1348,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "be5cca82-5d45-49e6-be7f-75563a862f7f",
-    "image": "be5cca82-5d45-49e6-be7f-75563a862f7f.jpg"
+    "image": "be5cca82-5d45-49e6-be7f-75563a862f7f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-055",
@@ -1317,7 +1371,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "55359287-83bc-4bd3-830b-7f20e5d76e2c",
-    "image": "55359287-83bc-4bd3-830b-7f20e5d76e2c.jpg"
+    "image": "55359287-83bc-4bd3-830b-7f20e5d76e2c.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "CMF-056",
@@ -1339,7 +1394,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "28e05653-0ba1-40f1-a915-299e8ce66400",
-    "image": "28e05653-0ba1-40f1-a915-299e8ce66400.jpg"
+    "image": "28e05653-0ba1-40f1-a915-299e8ce66400.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-057",
@@ -1361,7 +1417,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "2429c256-d01d-41c5-8415-561507870699",
-    "image": "2429c256-d01d-41c5-8415-561507870699.jpg"
+    "image": "2429c256-d01d-41c5-8415-561507870699.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "CMF-058",
@@ -1383,7 +1440,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "9b426c5f-c766-488f-a6b9-8a74d20ba74c",
-    "image": "9b426c5f-c766-488f-a6b9-8a74d20ba74c.jpg"
+    "image": "9b426c5f-c766-488f-a6b9-8a74d20ba74c.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "CMF-059",
@@ -1405,7 +1463,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "aa887dc2-d240-43cf-9410-44cb7aff36fd",
-    "image": "aa887dc2-d240-43cf-9410-44cb7aff36fd.jpg"
+    "image": "aa887dc2-d240-43cf-9410-44cb7aff36fd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-060",
@@ -1427,51 +1486,53 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "a8c8f79d-5a1b-4cef-92c2-d106cae0bcc8",
-    "image": "a8c8f79d-5a1b-4cef-92c2-d106cae0bcc8.jpg"
+    "image": "a8c8f79d-5a1b-4cef-92c2-d106cae0bcc8.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "CMF-061",
-    "name": "Christie, the Wind Tracker",
-    "Type": "Ruler",
-    "Race": "Elf",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {G}{G}{2}: If your opponent controls a Vampire, Immortal of Werewolf resonator, you may pay {0} to play this ability instead.\n[Activate] {Rest}: Draw a card. You cannot play this ability if you don't have exactly five cards in your hand.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "A cunning tracker chases that which cannot be seen eyes.",
-    "Artist": "touge369",
-    "Rarity": "R",
-    "Fowid": "1263",
-    "Cluster": "02 - Grimm",
-    "Set Name": "005 - The Crimson Moon Fairy Tale",
-    "Set Code": "CMF",
-    "id": "3a5bfebb-813b-4bb7-9dd8-ea30fc3d7c63",
-    "image": "3a5bfebb-813b-4bb7-9dd8-ea30fc3d7c63.jpg"
-  },
-  {
-    "Card Number": "CMF-061J",
-    "name": "Helsing, the Vampire Hunter",
-    "Type": "J-Ruler",
+    "Card Number": "CMF-061|CMF-061J",
+    "name": "Christie, the Wind Tracker // Helsing, the Vampire Hunter",
+    "Type": "Ruler|J-Ruler",
     "Race": "Elf",
     "Cost": "",
     "Colour": "G",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Enter]: Target non-Human J/resonator loses all abilities until end of turn. At the end of turn, destroy it.",
+    "Abilities": "[J-Activate] Pay {G}{G}{2}: If your opponent controls a Vampire, Immortal of Werewolf resonator, you may pay {0} to play this ability instead.\n[Activate] {Rest}: Draw a card. You cannot play this ability if you don't have exactly five cards in your hand.|[Enter]: Target non-Human J/resonator loses all abilities until end of turn. At the end of turn, destroy it.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I lost my faith a long time agoSlaying vampires is my only motivation now.\"",
+    "Flavour": "A cunning tracker chases that which cannot be seen eyes.|\"I lost my faith a long time agoSlaying vampires is my only motivation now.\"",
     "Artist": "touge369",
     "Rarity": "R",
-    "Fowid": "1264",
+    "Fowid": "1263|1264",
     "Cluster": "02 - Grimm",
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
-    "id": "e0f2536b-99ee-47ca-aaf5-85eaa24e9dde",
-    "image": "e0f2536b-99ee-47ca-aaf5-85eaa24e9dde.jpg"
+    "id": "3a5bfebb-813b-4bb7-9dd8-ea30fc3d7c63",
+    "image": "3a5bfebb-813b-4bb7-9dd8-ea30fc3d7c63.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e0f2536b-99ee-47ca-aaf5-85eaa24e9dde.jpg",
+    "alternate1_Card Number": "CMF-061J",
+    "alternate1_name": "Helsing, the Vampire Hunter",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Elf",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Enter]: Target non-Human J/resonator loses all abilities until end of turn. At the end of turn, destroy it.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I lost my faith a long time agoSlaying vampires is my only motivation now.\"",
+    "alternate1_Artist": "touge369",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1264",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "005 - The Crimson Moon Fairy Tale",
+    "alternate1_Set Code": "CMF",
+    "alternate1_id": "e0f2536b-99ee-47ca-aaf5-85eaa24e9dde",
+    "alternate1_image": "e0f2536b-99ee-47ca-aaf5-85eaa24e9dde.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMF-062",
@@ -1493,7 +1554,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "d5b93f13-37bc-4c7f-a694-1934200ac852",
-    "image": "d5b93f13-37bc-4c7f-a694-1934200ac852.jpg"
+    "image": "d5b93f13-37bc-4c7f-a694-1934200ac852.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "CMF-063",
@@ -1515,7 +1577,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "39b9bb1d-5b8e-46ad-a35c-047db60f6365",
-    "image": "39b9bb1d-5b8e-46ad-a35c-047db60f6365.jpg"
+    "image": "39b9bb1d-5b8e-46ad-a35c-047db60f6365.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "CMF-064",
@@ -1537,7 +1600,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "0d32c870-ab7e-4670-ab56-252d727d552e",
-    "image": "0d32c870-ab7e-4670-ab56-252d727d552e.jpg"
+    "image": "0d32c870-ab7e-4670-ab56-252d727d552e.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "CMF-065",
@@ -1559,7 +1623,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "d548492c-b97c-4bd1-ac83-6bfd6b59935b",
-    "image": "d548492c-b97c-4bd1-ac83-6bfd6b59935b.jpg"
+    "image": "d548492c-b97c-4bd1-ac83-6bfd6b59935b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-066",
@@ -1581,7 +1646,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "552d21e5-3e4a-419b-aefe-3e3d47e23794",
-    "image": "552d21e5-3e4a-419b-aefe-3e3d47e23794.jpg"
+    "image": "552d21e5-3e4a-419b-aefe-3e3d47e23794.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-067",
@@ -1603,7 +1669,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "33cfa2b0-83f2-4000-9fbe-19d4630dd68c",
-    "image": "33cfa2b0-83f2-4000-9fbe-19d4630dd68c.jpg"
+    "image": "33cfa2b0-83f2-4000-9fbe-19d4630dd68c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-068",
@@ -1625,7 +1692,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "06cfcbd8-83f7-4532-a46b-92006d390dfc",
-    "image": "06cfcbd8-83f7-4532-a46b-92006d390dfc.jpg"
+    "image": "06cfcbd8-83f7-4532-a46b-92006d390dfc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-069",
@@ -1647,7 +1715,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "7a70699b-3580-4fa2-b242-549c46a19863",
-    "image": "7a70699b-3580-4fa2-b242-549c46a19863.jpg"
+    "image": "7a70699b-3580-4fa2-b242-549c46a19863.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-070",
@@ -1669,7 +1738,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "029f66f4-3075-4f77-a905-e948f431c923",
-    "image": "029f66f4-3075-4f77-a905-e948f431c923.jpg"
+    "image": "029f66f4-3075-4f77-a905-e948f431c923.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-071",
@@ -1691,7 +1761,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "84241790-7248-49a7-af68-fa6b407ee85b",
-    "image": "84241790-7248-49a7-af68-fa6b407ee85b.jpg"
+    "image": "84241790-7248-49a7-af68-fa6b407ee85b.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "CMF-072",
@@ -1713,7 +1784,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "9723e8d3-5723-4e05-ad82-cdb9f3210089",
-    "image": "9723e8d3-5723-4e05-ad82-cdb9f3210089.jpg"
+    "image": "9723e8d3-5723-4e05-ad82-cdb9f3210089.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "CMF-073",
@@ -1735,51 +1807,53 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "6ea3de53-cb25-464d-879a-69cdd7d5f724",
-    "image": "6ea3de53-cb25-464d-879a-69cdd7d5f724.jpg"
+    "image": "6ea3de53-cb25-464d-879a-69cdd7d5f724.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "CMF-074",
-    "name": "Puss in Boots",
-    "Type": "Ruler",
-    "Race": "Fairy Tale|Cat",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {9}: If you control \"Athos, the Three Musketeers\", you pay {3} less to play this ability. So does \"Aramis, the Three Musketeers\" and \"Porthos, the Three Musketeers\".\n[Continuous]: You may pay {1} less to play Musketeer resonators.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Give me my boots, my hat and good company, then there's nothing I can't do!\"",
-    "Artist": "ケルビン",
-    "Rarity": "R",
-    "Fowid": "1277",
-    "Cluster": "02 - Grimm",
-    "Set Name": "005 - The Crimson Moon Fairy Tale",
-    "Set Code": "CMF",
-    "id": "5c3843c0-bacf-40c8-a49b-c81c05287a02",
-    "image": "5c3843c0-bacf-40c8-a49b-c81c05287a02.jpg"
-  },
-  {
-    "Card Number": "CMF-074J",
-    "name": "D'Artagnan, the Bayoneteer",
-    "Type": "J-Ruler",
-    "Race": "Fairy Tale|Musketeer",
+    "Card Number": "CMF-074|CMF-074J",
+    "name": "Puss in Boots // D'Artagnan, the Bayoneteer",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Fairy Tale|Cat|Fairy Tale|Musketeer",
     "Cost": "",
     "Colour": "G",
     "ATK": "1000",
     "DEF": "800",
-    "Abilities": "[Pierce]\n[Target Attack]\n[Continuous]: Each Musketeer resonator you control gains [+400/+400]. ",
+    "Abilities": "[J-Activate] Pay {9}: If you control \"Athos, the Three Musketeers\", you pay {3} less to play this ability. So does \"Aramis, the Three Musketeers\" and \"Porthos, the Three Musketeers\".\n[Continuous]: You may pay {1} less to play Musketeer resonators.|[Pierce]\n[Target Attack]\n[Continuous]: Each Musketeer resonator you control gains [+400/+400].",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "They taught their foes the weakness in fighting aloneThey never gave them chance to use that lesson for next time.",
+    "Flavour": "\"Give me my boots, my hat and good company, then there's nothing I can't do!\"|They taught their foes the weakness in fighting aloneThey never gave them chance to use that lesson for next time.",
     "Artist": "ケルビン",
     "Rarity": "R",
-    "Fowid": "1278",
+    "Fowid": "1277|1278",
     "Cluster": "02 - Grimm",
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
-    "id": "28ff5474-8538-46a5-bef8-1e489144fb9e",
-    "image": "28ff5474-8538-46a5-bef8-1e489144fb9e.jpg"
+    "id": "5c3843c0-bacf-40c8-a49b-c81c05287a02",
+    "image": "5c3843c0-bacf-40c8-a49b-c81c05287a02.jpg",
+    "Card Type": "Ruler",
+    "backimage": "28ff5474-8538-46a5-bef8-1e489144fb9e.jpg",
+    "alternate1_Card Number": "CMF-074J",
+    "alternate1_name": "D'Artagnan, the Bayoneteer",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Fairy Tale|Musketeer",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Pierce]\n[Target Attack]\n[Continuous]: Each Musketeer resonator you control gains [+400/+400]. ",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "They taught their foes the weakness in fighting aloneThey never gave them chance to use that lesson for next time.",
+    "alternate1_Artist": "ケルビン",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1278",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "005 - The Crimson Moon Fairy Tale",
+    "alternate1_Set Code": "CMF",
+    "alternate1_id": "28ff5474-8538-46a5-bef8-1e489144fb9e",
+    "alternate1_image": "28ff5474-8538-46a5-bef8-1e489144fb9e.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMF-075",
@@ -1801,7 +1875,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "b86391ff-b66c-4222-b73d-32989edb0236",
-    "image": "b86391ff-b66c-4222-b73d-32989edb0236.jpg"
+    "image": "b86391ff-b66c-4222-b73d-32989edb0236.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "CMF-076",
@@ -1823,51 +1898,53 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "a6c6de32-5c30-49f8-b2d8-168ae0d0e785",
-    "image": "a6c6de32-5c30-49f8-b2d8-168ae0d0e785.jpg"
+    "image": "a6c6de32-5c30-49f8-b2d8-168ae0d0e785.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
-    "Card Number": "CMF-077",
-    "name": "Alucard, the Dark Noble",
-    "Type": "Ruler",
-    "Race": "Vampire",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {0}: You cannot play this ability if you don't control a Vampire resonator and a resonator your opponent controlled hasn't entered a graveyard this turn.\n[Activate] {Rest}: Target resonator gains [-0/-300] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Fear is a disease that infects most quicklyThese nightmares will soon spread throughout the world.\"",
-    "Artist": "Fushikaden",
-    "Rarity": "R",
-    "Fowid": "1281",
-    "Cluster": "02 - Grimm",
-    "Set Name": "005 - The Crimson Moon Fairy Tale",
-    "Set Code": "CMF",
-    "id": "998f3ac3-262b-4efe-80ce-6f4367913d46",
-    "image": "998f3ac3-262b-4efe-80ce-6f4367913d46.jpg"
-  },
-  {
-    "Card Number": "CMF-077J",
-    "name": "Dracula, the Demonic One",
-    "Type": "J-Ruler",
+    "Card Number": "CMF-077|CMF-077J",
+    "name": "Alucard, the Dark Noble // Dracula, the Demonic One",
+    "Type": "Ruler|J-Ruler",
     "Race": "Vampire",
     "Cost": "",
     "Colour": "B",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Flying] (This card cannot be blocked by resonators without [Flying].)\n[Imperishable] (If this card would be destroyed, move this card to your Ruler area as a Ruler without losing any abilities.)\n[Continuous]: Whenever a resonator your opponent controls is put into a graveyard, if it was dealt damage by this card this turn, put it into your field under your control. It gains Nightmare and Vampire in addition to its own race.",
+    "Abilities": "[J-Activate] Pay {0}: You cannot play this ability if you don't control a Vampire resonator and a resonator your opponent controlled hasn't entered a graveyard this turn.\n[Activate] {Rest}: Target resonator gains [-0/-300] until end of turn.|[Flying] (This card cannot be blocked by resonators without [Flying].)\n[Imperishable] (If this card would be destroyed, move this card to your Ruler area as a Ruler without losing any abilities.)\n[Continuous]: Whenever a resonator your opponent controls is put into a graveyard, if it was dealt damage by this card this turn, put it into your field under your control. It gains Nightmare and Vampire in addition to its own race.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Many have crossed his path, and all end up his undead slaves.",
+    "Flavour": "\"Fear is a disease that infects most quicklyThese nightmares will soon spread throughout the world.\"|Many have crossed his path, and all end up his undead slaves.",
     "Artist": "Fushikaden",
     "Rarity": "R",
-    "Fowid": "1282",
+    "Fowid": "1281|1282",
     "Cluster": "02 - Grimm",
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
-    "id": "330104f0-55ff-455c-9c1a-feedc8335c61",
-    "image": "330104f0-55ff-455c-9c1a-feedc8335c61.jpg"
+    "id": "998f3ac3-262b-4efe-80ce-6f4367913d46",
+    "image": "998f3ac3-262b-4efe-80ce-6f4367913d46.jpg",
+    "Card Type": "Ruler",
+    "backimage": "330104f0-55ff-455c-9c1a-feedc8335c61.jpg",
+    "alternate1_Card Number": "CMF-077J",
+    "alternate1_name": "Dracula, the Demonic One",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Vampire",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying] (This card cannot be blocked by resonators without [Flying].)\n[Imperishable] (If this card would be destroyed, move this card to your Ruler area as a Ruler without losing any abilities.)\n[Continuous]: Whenever a resonator your opponent controls is put into a graveyard, if it was dealt damage by this card this turn, put it into your field under your control. It gains Nightmare and Vampire in addition to its own race.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Many have crossed his path, and all end up his undead slaves.",
+    "alternate1_Artist": "Fushikaden",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1282",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "005 - The Crimson Moon Fairy Tale",
+    "alternate1_Set Code": "CMF",
+    "alternate1_id": "330104f0-55ff-455c-9c1a-feedc8335c61",
+    "alternate1_image": "330104f0-55ff-455c-9c1a-feedc8335c61.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMF-078",
@@ -1889,7 +1966,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "617cca7d-f2b8-43ad-abc1-3b4a71ad70ec",
-    "image": "617cca7d-f2b8-43ad-abc1-3b4a71ad70ec.jpg"
+    "image": "617cca7d-f2b8-43ad-abc1-3b4a71ad70ec.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "CMF-079",
@@ -1911,7 +1989,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "7de2d950-8b9c-46a9-8172-6028261ef303",
-    "image": "7de2d950-8b9c-46a9-8172-6028261ef303.jpg"
+    "image": "7de2d950-8b9c-46a9-8172-6028261ef303.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "CMF-080",
@@ -1933,7 +2012,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "c024e1a2-7f1e-47c1-8172-42447544bc52",
-    "image": "c024e1a2-7f1e-47c1-8172-42447544bc52.jpg"
+    "image": "c024e1a2-7f1e-47c1-8172-42447544bc52.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "CMF-081",
@@ -1955,7 +2035,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "d23d8c6c-19ad-4434-86cd-fd2818e02812",
-    "image": "d23d8c6c-19ad-4434-86cd-fd2818e02812.jpg"
+    "image": "d23d8c6c-19ad-4434-86cd-fd2818e02812.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-082",
@@ -1977,7 +2058,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "aad944af-1f36-4ef4-93e1-cb9eff0d1d83",
-    "image": "aad944af-1f36-4ef4-93e1-cb9eff0d1d83.jpg"
+    "image": "aad944af-1f36-4ef4-93e1-cb9eff0d1d83.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-083",
@@ -1999,7 +2081,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "c38ed5f8-337d-4850-b2d0-8882ad118e73",
-    "image": "c38ed5f8-337d-4850-b2d0-8882ad118e73.jpg"
+    "image": "c38ed5f8-337d-4850-b2d0-8882ad118e73.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-084",
@@ -2021,7 +2104,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "abfad463-afcc-438c-a7da-eab91c45bbb7",
-    "image": "abfad463-afcc-438c-a7da-eab91c45bbb7.jpg"
+    "image": "abfad463-afcc-438c-a7da-eab91c45bbb7.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "CMF-085",
@@ -2043,7 +2127,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "099d43cc-327a-41c2-8197-c0e46f7543b5",
-    "image": "099d43cc-327a-41c2-8197-c0e46f7543b5.jpg"
+    "image": "099d43cc-327a-41c2-8197-c0e46f7543b5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-086",
@@ -2065,51 +2150,53 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "320ca340-6dcb-437d-b333-ab5d79758cbf",
-    "image": "320ca340-6dcb-437d-b333-ab5d79758cbf.jpg"
+    "image": "320ca340-6dcb-437d-b333-ab5d79758cbf.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "CMF-087",
-    "name": "Pandora, Girl of the Box",
-    "Type": "Ruler",
+    "Card Number": "CMF-087|CMF-087J",
+    "name": "Pandora, Girl of the Box // Pandora of Dark",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human",
     "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {W}{B}{3}.",
+    "Colour": "V|B",
+    "ATK": "400",
+    "DEF": "800",
+    "Abilities": "[J-Activate] Pay {W}{B}{3}.|[Enter]: Your opponent discards all cards from his or her hand.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "She must ask her heart for that which she truly desires - true hope or absolute despair...",
+    "Flavour": "She must ask her heart for that which she truly desires - true hope or absolute despair...|Then, all hope was shut from this world.",
     "Artist": "碧風羽",
     "Rarity": "R",
-    "Fowid": "1210",
+    "Fowid": "1210|1292",
     "Cluster": "02 - Grimm",
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "0014add5-72d5-4d51-ae2e-4d3e25afe892",
-    "image": "0014add5-72d5-4d51-ae2e-4d3e25afe892.jpg"
-  },
-  {
-    "Card Number": "CMF-087J",
-    "name": "Pandora of Dark",
-    "Type": "J-Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "400",
-    "DEF": "800",
-    "Abilities": "[Enter]: Your opponent discards all cards from his or her hand.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Then, all hope was shut from this world.",
-    "Artist": "碧風羽",
-    "Rarity": "R",
-    "Fowid": "1292",
-    "Cluster": "02 - Grimm",
-    "Set Name": "005 - The Crimson Moon Fairy Tale",
-    "Set Code": "CMF",
-    "id": "f3cf79b9-0cfd-4c24-b154-b256799e807f",
-    "image": "f3cf79b9-0cfd-4c24-b154-b256799e807f.jpg"
+    "image": "0014add5-72d5-4d51-ae2e-4d3e25afe892.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f3cf79b9-0cfd-4c24-b154-b256799e807f.jpg",
+    "alternate1_Card Number": "CMF-087J",
+    "alternate1_name": "Pandora of Dark",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "400",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Enter]: Your opponent discards all cards from his or her hand.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Then, all hope was shut from this world.",
+    "alternate1_Artist": "碧風羽",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1292",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "005 - The Crimson Moon Fairy Tale",
+    "alternate1_Set Code": "CMF",
+    "alternate1_id": "f3cf79b9-0cfd-4c24-b154-b256799e807f",
+    "alternate1_image": "f3cf79b9-0cfd-4c24-b154-b256799e807f.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CMF-088",
@@ -2131,7 +2218,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "1d760599-0374-40bf-bfc6-601ff80ae45d",
-    "image": "1d760599-0374-40bf-bfc6-601ff80ae45d.jpg"
+    "image": "1d760599-0374-40bf-bfc6-601ff80ae45d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-089",
@@ -2153,7 +2241,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "8fc013a9-405f-4402-b958-ae81e8d1e8c5",
-    "image": "8fc013a9-405f-4402-b958-ae81e8d1e8c5.jpg"
+    "image": "8fc013a9-405f-4402-b958-ae81e8d1e8c5.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "CMF-090",
@@ -2175,7 +2264,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "a6c3c531-0268-4598-a2bf-d2958b6d4ac3",
-    "image": "a6c3c531-0268-4598-a2bf-d2958b6d4ac3.jpg"
+    "image": "a6c3c531-0268-4598-a2bf-d2958b6d4ac3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-091",
@@ -2197,7 +2287,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "20ecbef2-e9fd-45d9-b65c-f17a94f02804",
-    "image": "20ecbef2-e9fd-45d9-b65c-f17a94f02804.jpg"
+    "image": "20ecbef2-e9fd-45d9-b65c-f17a94f02804.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-092",
@@ -2219,7 +2310,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "a1f9c6b8-034e-44dc-a7f1-3f589b703283",
-    "image": "a1f9c6b8-034e-44dc-a7f1-3f589b703283.jpg"
+    "image": "a1f9c6b8-034e-44dc-a7f1-3f589b703283.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "CMF-093",
@@ -2241,7 +2333,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "7b46af2b-fa5e-44d7-8807-1e4be892592b",
-    "image": "7b46af2b-fa5e-44d7-8807-1e4be892592b.jpg"
+    "image": "7b46af2b-fa5e-44d7-8807-1e4be892592b.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "CMF-094",
@@ -2263,7 +2356,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "40381b11-1b8e-4a1f-ac38-942a35a0c3ae",
-    "image": "40381b11-1b8e-4a1f-ac38-942a35a0c3ae.jpg"
+    "image": "40381b11-1b8e-4a1f-ac38-942a35a0c3ae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-095",
@@ -2285,7 +2379,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "d62e63e5-cb18-4a64-a3c7-b87ed1366e0c",
-    "image": "d62e63e5-cb18-4a64-a3c7-b87ed1366e0c.jpg"
+    "image": "d62e63e5-cb18-4a64-a3c7-b87ed1366e0c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CMF-096",
@@ -2307,7 +2402,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "d88ff516-e6f9-4731-b0ec-0e6fbab1a2b9",
-    "image": "d88ff516-e6f9-4731-b0ec-0e6fbab1a2b9.jpg"
+    "image": "d88ff516-e6f9-4731-b0ec-0e6fbab1a2b9.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "CMF-097",
@@ -2329,7 +2425,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "30871f5b-688d-4721-bd03-76ba762c8146",
-    "image": "30871f5b-688d-4721-bd03-76ba762c8146.jpg"
+    "image": "30871f5b-688d-4721-bd03-76ba762c8146.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "CMF-098",
@@ -2351,7 +2448,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "5c1f69fd-e953-4d0e-ab7c-d5971c567f42",
-    "image": "5c1f69fd-e953-4d0e-ab7c-d5971c567f42.jpg"
+    "image": "5c1f69fd-e953-4d0e-ab7c-d5971c567f42.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "CMF-099",
@@ -2373,7 +2471,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "ea56a817-d818-485b-bf13-bcf65d4b2b3d",
-    "image": "ea56a817-d818-485b-bf13-bcf65d4b2b3d.jpg"
+    "image": "ea56a817-d818-485b-bf13-bcf65d4b2b3d.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "CMF-100",
@@ -2395,7 +2494,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "b72a00b7-eb1a-4cc9-96a1-ea1f792b04b6",
-    "image": "b72a00b7-eb1a-4cc9-96a1-ea1f792b04b6.jpg"
+    "image": "b72a00b7-eb1a-4cc9-96a1-ea1f792b04b6.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "CMF-101",
@@ -2417,7 +2517,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "8ccf9aa2-f258-4bb2-b67a-3735c5700782",
-    "image": "8ccf9aa2-f258-4bb2-b67a-3735c5700782.jpg"
+    "image": "8ccf9aa2-f258-4bb2-b67a-3735c5700782.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "CMF-102",
@@ -2439,7 +2540,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "a43c31fe-d096-4d46-9ab2-77edb702c2c5",
-    "image": "a43c31fe-d096-4d46-9ab2-77edb702c2c5.jpg"
+    "image": "a43c31fe-d096-4d46-9ab2-77edb702c2c5.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "CMF-103",
@@ -2461,7 +2563,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "00b92adc-ccc9-4d8a-bc79-6501fa476256",
-    "image": "00b92adc-ccc9-4d8a-bc79-6501fa476256.jpg"
+    "image": "00b92adc-ccc9-4d8a-bc79-6501fa476256.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "CMF-104",
@@ -2483,7 +2586,8 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "7ee3c99d-bec6-46f8-b685-e2ec5162edb5",
-    "image": "7ee3c99d-bec6-46f8-b685-e2ec5162edb5.jpg"
+    "image": "7ee3c99d-bec6-46f8-b685-e2ec5162edb5.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "CMF-105",
@@ -2505,6 +2609,7 @@
     "Set Name": "005 - The Crimson Moon Fairy Tale",
     "Set Code": "CMF",
     "id": "39e68dab-26aa-4e45-8f0b-64767e2a00fa",
-    "image": "39e68dab-26aa-4e45-8f0b-64767e2a00fa.jpg"
+    "image": "39e68dab-26aa-4e45-8f0b-64767e2a00fa.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

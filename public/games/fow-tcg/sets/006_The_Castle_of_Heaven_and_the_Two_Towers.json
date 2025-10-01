@@ -19,7 +19,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "5e0053bb-35b4-4899-8b6f-ac6445f816c3",
-    "image": "5e0053bb-35b4-4899-8b6f-ac6445f816c3.jpg"
+    "image": "5e0053bb-35b4-4899-8b6f-ac6445f816c3.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TAT-002",
@@ -41,7 +42,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "fbb4d9e6-da2f-4af4-b0e6-cca2cb9a92d2",
-    "image": "fbb4d9e6-da2f-4af4-b0e6-cca2cb9a92d2.jpg"
+    "image": "fbb4d9e6-da2f-4af4-b0e6-cca2cb9a92d2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-003",
@@ -63,7 +65,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "675d9ba8-129f-4424-aa57-f9113fa409d4",
-    "image": "675d9ba8-129f-4424-aa57-f9113fa409d4.jpg"
+    "image": "675d9ba8-129f-4424-aa57-f9113fa409d4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-004",
@@ -85,7 +88,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "c1392ca4-f4e2-41ec-8ba8-48dece92fbeb",
-    "image": "c1392ca4-f4e2-41ec-8ba8-48dece92fbeb.jpg"
+    "image": "c1392ca4-f4e2-41ec-8ba8-48dece92fbeb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-005",
@@ -107,7 +111,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "af36589b-b373-4e32-81ae-d2fe74898dae",
-    "image": "af36589b-b373-4e32-81ae-d2fe74898dae.jpg"
+    "image": "af36589b-b373-4e32-81ae-d2fe74898dae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-006",
@@ -129,7 +134,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "cbb1c679-a4bd-4712-9810-d25200dab1a1",
-    "image": "cbb1c679-a4bd-4712-9810-d25200dab1a1.jpg"
+    "image": "cbb1c679-a4bd-4712-9810-d25200dab1a1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-007",
@@ -151,7 +157,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "f7942ea6-a472-44c6-a919-2699abb842da",
-    "image": "f7942ea6-a472-44c6-a919-2699abb842da.jpg"
+    "image": "f7942ea6-a472-44c6-a919-2699abb842da.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "TAT-008",
@@ -173,7 +180,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "1fded024-3ac9-4de3-a4da-aa287f8b268f",
-    "image": "1fded024-3ac9-4de3-a4da-aa287f8b268f.jpg"
+    "image": "1fded024-3ac9-4de3-a4da-aa287f8b268f.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TAT-009",
@@ -195,7 +203,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "943afbe3-ceb5-4ae3-9866-708a31cba18d",
-    "image": "943afbe3-ceb5-4ae3-9866-708a31cba18d.jpg"
+    "image": "943afbe3-ceb5-4ae3-9866-708a31cba18d.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TAT-010",
@@ -217,7 +226,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "551d008a-32a6-4cf4-a133-7e998dcabc82",
-    "image": "551d008a-32a6-4cf4-a133-7e998dcabc82.jpg"
+    "image": "551d008a-32a6-4cf4-a133-7e998dcabc82.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TAT-011",
@@ -239,7 +249,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "7d5974f3-5d9a-4bc3-b769-a475f279fa54",
-    "image": "7d5974f3-5d9a-4bc3-b769-a475f279fa54.jpg"
+    "image": "7d5974f3-5d9a-4bc3-b769-a475f279fa54.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TAT-012",
@@ -261,7 +272,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "a0bfb509-9b1a-412a-a7e1-b7762c3a5ff6",
-    "image": "a0bfb509-9b1a-412a-a7e1-b7762c3a5ff6.jpg"
+    "image": "a0bfb509-9b1a-412a-a7e1-b7762c3a5ff6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-013",
@@ -283,51 +295,53 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "7dbda160-aefe-4428-a959-c2ca24459fa3",
-    "image": "7dbda160-aefe-4428-a959-c2ca24459fa3.jpg"
+    "image": "7dbda160-aefe-4428-a959-c2ca24459fa3.jpg",
+    "Card Type": "Addition:Field"
   },
   {
-    "Card Number": "TAT-014",
-    "name": "Sacred Princess of Guidance",
-    "Type": "Ruler",
-    "Race": "Princess",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {W}. Play this ability only if you control \"Almerius, the Levitating Stone\".\n[J-Activate] Pay {W}{W}{1}.\n[Activate] {Rest}: You gain 300 life.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Such determination for one so small",
-    "Artist": "下江クリス",
-    "Rarity": "R",
-    "Fowid": "1324",
-    "Cluster": "02 - Grimm",
-    "Set Name": "006 - The Castle of Heaven and the Two Towers",
-    "Set Code": "TAT",
-    "id": "8f0aa02a-3375-4f4b-9030-182e162e8144",
-    "image": "8f0aa02a-3375-4f4b-9030-182e162e8144.jpg"
-  },
-  {
-    "Card Number": "TAT-014J",
-    "name": "Lumia, the Creator of Hope",
-    "Type": "J-Ruler",
-    "Race": "Savior|Human",
+    "Card Number": "TAT-014|TAT-014J",
+    "name": "Sacred Princess of Guidance // Lumia, the Creator of Hope",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Princess|Savior|Human",
     "Cost": "",
     "Colour": "W",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Continuous]: Once per turn, you may play a card from your removed from the game zone.\n[Activate] Pay {0}: If there are no cards in your removed from this game zone, remove top three cards of your main deck from the game face down. You may look at them at any time.",
+    "Abilities": "[J-Activate] Pay {W}. Play this ability only if you control \"Almerius, the Levitating Stone\".\n[J-Activate] Pay {W}{W}{1}.\n[Activate] {Rest}: You gain 300 life.|[Continuous]: Once per turn, you may play a card from your removed from the game zone.\n[Activate] Pay {0}: If there are no cards in your removed from this game zone, remove top three cards of your main deck from the game face down. You may look at them at any time.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "True hope is a power that can always begin anew, she casts hope where all seems lost.",
+    "Flavour": "Such determination for one so small|True hope is a power that can always begin anew, she casts hope where all seems lost.",
     "Artist": "下江クリス",
     "Rarity": "R",
-    "Fowid": "1325",
+    "Fowid": "1324|1325",
     "Cluster": "02 - Grimm",
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
-    "id": "fe080ab2-8c0e-4806-89e9-47842a813316",
-    "image": "fe080ab2-8c0e-4806-89e9-47842a813316.jpg"
+    "id": "8f0aa02a-3375-4f4b-9030-182e162e8144",
+    "image": "8f0aa02a-3375-4f4b-9030-182e162e8144.jpg",
+    "Card Type": "Ruler",
+    "backimage": "fe080ab2-8c0e-4806-89e9-47842a813316.jpg",
+    "alternate1_Card Number": "TAT-014J",
+    "alternate1_name": "Lumia, the Creator of Hope",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Savior|Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Continuous]: Once per turn, you may play a card from your removed from the game zone.\n[Activate] Pay {0}: If there are no cards in your removed from this game zone, remove top three cards of your main deck from the game face down. You may look at them at any time.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "True hope is a power that can always begin anew, she casts hope where all seems lost.",
+    "alternate1_Artist": "下江クリス",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1325",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "006 - The Castle of Heaven and the Two Towers",
+    "alternate1_Set Code": "TAT",
+    "alternate1_id": "fe080ab2-8c0e-4806-89e9-47842a813316",
+    "alternate1_image": "fe080ab2-8c0e-4806-89e9-47842a813316.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TAT-015",
@@ -349,7 +363,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "4aef4219-67c5-436d-b306-44f2cf9b4b45",
-    "image": "4aef4219-67c5-436d-b306-44f2cf9b4b45.jpg"
+    "image": "4aef4219-67c5-436d-b306-44f2cf9b4b45.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TAT-016",
@@ -371,7 +386,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "0ba46d51-dd6e-4453-96a2-f030fc86f6cb",
-    "image": "0ba46d51-dd6e-4453-96a2-f030fc86f6cb.jpg"
+    "image": "0ba46d51-dd6e-4453-96a2-f030fc86f6cb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-017",
@@ -393,7 +409,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "ed88b93e-eb52-4f65-b202-25f007b663c2",
-    "image": "ed88b93e-eb52-4f65-b202-25f007b663c2.jpg"
+    "image": "ed88b93e-eb52-4f65-b202-25f007b663c2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-018",
@@ -415,7 +432,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "a1df6e28-2c09-485a-bfe7-7afc6fd3ac3d",
-    "image": "a1df6e28-2c09-485a-bfe7-7afc6fd3ac3d.jpg"
+    "image": "a1df6e28-2c09-485a-bfe7-7afc6fd3ac3d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-019",
@@ -437,7 +455,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "4f7a4d67-4923-48e9-b6fa-2410999f4399",
-    "image": "4f7a4d67-4923-48e9-b6fa-2410999f4399.jpg"
+    "image": "4f7a4d67-4923-48e9-b6fa-2410999f4399.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-020",
@@ -459,7 +478,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "53290339-a57f-4105-a45f-8ee07003c874",
-    "image": "53290339-a57f-4105-a45f-8ee07003c874.jpg"
+    "image": "53290339-a57f-4105-a45f-8ee07003c874.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "TAT-021",
@@ -481,7 +501,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "9cc21cc6-2589-4bea-aa5d-24f727731dd9",
-    "image": "9cc21cc6-2589-4bea-aa5d-24f727731dd9.jpg"
+    "image": "9cc21cc6-2589-4bea-aa5d-24f727731dd9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-022",
@@ -503,7 +524,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "3ddd6bd2-589c-4d22-a4fb-21ece0936016",
-    "image": "3ddd6bd2-589c-4d22-a4fb-21ece0936016.jpg"
+    "image": "3ddd6bd2-589c-4d22-a4fb-21ece0936016.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-023",
@@ -525,7 +547,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "063e5e8e-9eab-428b-88a5-05219964f854",
-    "image": "063e5e8e-9eab-428b-88a5-05219964f854.jpg"
+    "image": "063e5e8e-9eab-428b-88a5-05219964f854.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TAT-024",
@@ -547,7 +570,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "08e7ec82-dc2d-4898-bbb2-617d03a6e1d1",
-    "image": "08e7ec82-dc2d-4898-bbb2-617d03a6e1d1.jpg"
+    "image": "08e7ec82-dc2d-4898-bbb2-617d03a6e1d1.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TAT-025",
@@ -569,51 +593,53 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "147447cb-dc13-4d52-b0a4-3152262927e8",
-    "image": "147447cb-dc13-4d52-b0a4-3152262927e8.jpg"
+    "image": "147447cb-dc13-4d52-b0a4-3152262927e8.jpg",
+    "Card Type": "Addition:Field"
   },
   {
-    "Card Number": "TAT-026",
-    "name": "Falltgold, the Dragoon",
-    "Type": "Ruler",
-    "Race": "Knight",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Banish a fire resonator.\n[Activate] {Rest}: Search your main deck for a Dragon resonator, reveal it and put it into your hand. Then shuffle your main deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Strong ones, fight with me.\"",
-    "Artist": "kakotomirai",
-    "Rarity": "R",
-    "Fowid": "1337",
-    "Cluster": "02 - Grimm",
-    "Set Name": "006 - The Castle of Heaven and the Two Towers",
-    "Set Code": "TAT",
-    "id": "2bee392b-a369-4d4c-a993-2e79d7d05e3a",
-    "image": "2bee392b-a369-4d4c-a993-2e79d7d05e3a.jpg"
-  },
-  {
-    "Card Number": "TAT-026J",
-    "name": "Bahamut, the Dragon King",
-    "Type": "J-Ruler",
-    "Race": "Dragon",
+    "Card Number": "TAT-026|TAT-026J",
+    "name": "Falltgold, the Dragoon // Bahamut, the Dragon King",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Knight|Dragon",
     "Cost": "",
     "Colour": "R",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Flying] (While attacking, this card cannot be blocked by J/resonator without [Flying].)\n[Enter]: This card deals damage to target resonator equal to the ATK of resonator banished for its judgment.\n[Activate] Banish a fire resonator: This card gains [Imperishable] until end of turn.",
+    "Abilities": "[J-Activate] Banish a fire resonator.\n[Activate] {Rest}: Search your main deck for a Dragon resonator, reveal it and put it into your hand. Then shuffle your main deck.|[Flying] (While attacking, this card cannot be blocked by J/resonator without [Flying].)\n[Enter]: This card deals damage to target resonator equal to the ATK of resonator banished for its judgment.\n[Activate] Banish a fire resonator: This card gains [Imperishable] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Many dragons write down their terrifying experiences for future generations. However, Bahamut will not partake in this tradition.",
+    "Flavour": "\"Strong ones, fight with me.\"|Many dragons write down their terrifying experiences for future generations. However, Bahamut will not partake in this tradition.",
     "Artist": "kakotomirai",
     "Rarity": "R",
-    "Fowid": "1338",
+    "Fowid": "1337|1338",
     "Cluster": "02 - Grimm",
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
-    "id": "3dd94ccc-a641-44f6-832c-3d115d31a7c5",
-    "image": "3dd94ccc-a641-44f6-832c-3d115d31a7c5.jpg"
+    "id": "2bee392b-a369-4d4c-a993-2e79d7d05e3a",
+    "image": "2bee392b-a369-4d4c-a993-2e79d7d05e3a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "3dd94ccc-a641-44f6-832c-3d115d31a7c5.jpg",
+    "alternate1_Card Number": "TAT-026J",
+    "alternate1_name": "Bahamut, the Dragon King",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragon",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying] (While attacking, this card cannot be blocked by J/resonator without [Flying].)\n[Enter]: This card deals damage to target resonator equal to the ATK of resonator banished for its judgment.\n[Activate] Banish a fire resonator: This card gains [Imperishable] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Many dragons write down their terrifying experiences for future generations. However, Bahamut will not partake in this tradition.",
+    "alternate1_Artist": "kakotomirai",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1338",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "006 - The Castle of Heaven and the Two Towers",
+    "alternate1_Set Code": "TAT",
+    "alternate1_id": "3dd94ccc-a641-44f6-832c-3d115d31a7c5",
+    "alternate1_image": "3dd94ccc-a641-44f6-832c-3d115d31a7c5.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TAT-027",
@@ -635,7 +661,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "4c517454-5606-415a-9f0e-9f7e4fa308d4",
-    "image": "4c517454-5606-415a-9f0e-9f7e4fa308d4.jpg"
+    "image": "4c517454-5606-415a-9f0e-9f7e4fa308d4.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TAT-028",
@@ -657,7 +684,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "f0839443-766e-4885-88ac-9ca7e12338e5",
-    "image": "f0839443-766e-4885-88ac-9ca7e12338e5.jpg"
+    "image": "f0839443-766e-4885-88ac-9ca7e12338e5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-029",
@@ -679,7 +707,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "b69bd1dd-49cd-4481-8439-544333177e6d",
-    "image": "b69bd1dd-49cd-4481-8439-544333177e6d.jpg"
+    "image": "b69bd1dd-49cd-4481-8439-544333177e6d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-030",
@@ -701,7 +730,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "16f8363b-823f-4785-8b57-d4ec02d93ebd",
-    "image": "16f8363b-823f-4785-8b57-d4ec02d93ebd.jpg"
+    "image": "16f8363b-823f-4785-8b57-d4ec02d93ebd.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TAT-031",
@@ -723,7 +753,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "b7fd2f6b-1afa-4358-837b-06f2f2bb6a05",
-    "image": "b7fd2f6b-1afa-4358-837b-06f2f2bb6a05.jpg"
+    "image": "b7fd2f6b-1afa-4358-837b-06f2f2bb6a05.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-032",
@@ -745,7 +776,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "46f64825-c7c4-49a5-a10f-8378cda52782",
-    "image": "46f64825-c7c4-49a5-a10f-8378cda52782.jpg"
+    "image": "46f64825-c7c4-49a5-a10f-8378cda52782.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TAT-033",
@@ -767,7 +799,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "966f4ca3-0c57-423e-8c91-b0d636ba0b50",
-    "image": "966f4ca3-0c57-423e-8c91-b0d636ba0b50.jpg"
+    "image": "966f4ca3-0c57-423e-8c91-b0d636ba0b50.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TAT-034",
@@ -789,7 +822,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "c6ff99eb-9564-4ad7-8c1b-9c035867f7f6",
-    "image": "c6ff99eb-9564-4ad7-8c1b-9c035867f7f6.jpg"
+    "image": "c6ff99eb-9564-4ad7-8c1b-9c035867f7f6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-035",
@@ -811,7 +845,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "c33c7ae7-cea1-4da0-a304-f7c7ffe309a8",
-    "image": "c33c7ae7-cea1-4da0-a304-f7c7ffe309a8.jpg"
+    "image": "c33c7ae7-cea1-4da0-a304-f7c7ffe309a8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-036",
@@ -833,51 +868,53 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "9a606858-39bc-429a-9b9f-244b890c953c",
-    "image": "9a606858-39bc-429a-9b9f-244b890c953c.jpg"
+    "image": "9a606858-39bc-429a-9b9f-244b890c953c.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TAT-037",
-    "name": "Alice in Wonderland",
-    "Type": "Ruler",
-    "Race": "Little Girl",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay any number of will. You cannot choose to pay {0}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Hey Grimm, do you think it was a good idea? I've entrusted your hopes to the Princess.\"",
-    "Artist": "Wednesday",
-    "Rarity": "R",
-    "Fowid": "1349",
-    "Cluster": "02 - Grimm",
-    "Set Name": "006 - The Castle of Heaven and the Two Towers",
-    "Set Code": "TAT",
-    "id": "c136ea3c-515f-4879-9e95-513325a3f4a1",
-    "image": "c136ea3c-515f-4879-9e95-513325a3f4a1.jpg"
-  },
-  {
-    "Card Number": "TAT-037J",
-    "name": "Alice, the Drifter in the World",
-    "Type": "J-Ruler",
-    "Race": "Wanderer|Little Girl",
+    "Card Number": "TAT-037|TAT-037J",
+    "name": "Alice in Wonderland // Alice, the Drifter in the World",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Little Girl|Wanderer|Little Girl",
     "Cost": "",
     "Colour": "U",
     "ATK": "700",
     "DEF": "700",
-    "Abilities": "[Enter]: If you paid {W} for doing judgment, you gain 1000 life. If you paid {U}, draw a card. If you paid {B}, target opponent discard a card. If you paid {R}, this card deals 1000 damage to up to one target resonator. If you paid {G}, destroy up to one target addition. If you paid will of each attribute and will produced from \"Moojdart, the Fantasy Stone\", this card gains [Flying] and [Swiftness] until end of turn.",
+    "Abilities": "[J-Activate] Pay any number of will. You cannot choose to pay {0}.|[Enter]: If you paid {W} for doing judgment, you gain 1000 life. If you paid {U}, draw a card. If you paid {B}, target opponent discard a card. If you paid {R}, this card deals 1000 damage to up to one target resonator. If you paid {G}, destroy up to one target addition. If you paid will of each attribute and will produced from \"Moojdart, the Fantasy Stone\", this card gains [Flying] and [Swiftness] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Being renowned all across the world is not important to me, observing and keeping the world in balance is important.\"",
+    "Flavour": "\"Hey Grimm, do you think it was a good idea? I've entrusted your hopes to the Princess.\"|\"Being renowned all across the world is not important to me, observing and keeping the world in balance is important.\"",
     "Artist": "Wednesday",
     "Rarity": "R",
-    "Fowid": "1350",
+    "Fowid": "1349|1350",
     "Cluster": "02 - Grimm",
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
-    "id": "30e97373-9e50-4274-bffe-98f8a4fe5533",
-    "image": "30e97373-9e50-4274-bffe-98f8a4fe5533.jpg"
+    "id": "c136ea3c-515f-4879-9e95-513325a3f4a1",
+    "image": "c136ea3c-515f-4879-9e95-513325a3f4a1.jpg",
+    "Card Type": "Ruler",
+    "backimage": "30e97373-9e50-4274-bffe-98f8a4fe5533.jpg",
+    "alternate1_Card Number": "TAT-037J",
+    "alternate1_name": "Alice, the Drifter in the World",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wanderer|Little Girl",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[Enter]: If you paid {W} for doing judgment, you gain 1000 life. If you paid {U}, draw a card. If you paid {B}, target opponent discard a card. If you paid {R}, this card deals 1000 damage to up to one target resonator. If you paid {G}, destroy up to one target addition. If you paid will of each attribute and will produced from \"Moojdart, the Fantasy Stone\", this card gains [Flying] and [Swiftness] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Being renowned all across the world is not important to me, observing and keeping the world in balance is important.\"",
+    "alternate1_Artist": "Wednesday",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1350",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "006 - The Castle of Heaven and the Two Towers",
+    "alternate1_Set Code": "TAT",
+    "alternate1_id": "30e97373-9e50-4274-bffe-98f8a4fe5533",
+    "alternate1_image": "30e97373-9e50-4274-bffe-98f8a4fe5533.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TAT-038",
@@ -899,7 +936,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "ccf5cc7b-7fe1-48fd-a366-14be7ba73637",
-    "image": "ccf5cc7b-7fe1-48fd-a366-14be7ba73637.jpg"
+    "image": "ccf5cc7b-7fe1-48fd-a366-14be7ba73637.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TAT-039",
@@ -921,7 +959,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "40bf9737-8ae5-4168-8adc-83dc22a0933a",
-    "image": "40bf9737-8ae5-4168-8adc-83dc22a0933a.jpg"
+    "image": "40bf9737-8ae5-4168-8adc-83dc22a0933a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-040",
@@ -943,7 +982,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "752ea41c-e46b-4e83-8a53-a1da621ad6cf",
-    "image": "752ea41c-e46b-4e83-8a53-a1da621ad6cf.jpg"
+    "image": "752ea41c-e46b-4e83-8a53-a1da621ad6cf.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TAT-041",
@@ -965,7 +1005,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "cbf74676-12e0-4e85-bf36-05fd3b5584e2",
-    "image": "cbf74676-12e0-4e85-bf36-05fd3b5584e2.jpg"
+    "image": "cbf74676-12e0-4e85-bf36-05fd3b5584e2.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "TAT-042",
@@ -987,7 +1028,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "4d5a5309-5506-4ace-ab8a-13cf09d48ab4",
-    "image": "4d5a5309-5506-4ace-ab8a-13cf09d48ab4.jpg"
+    "image": "4d5a5309-5506-4ace-ab8a-13cf09d48ab4.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TAT-043",
@@ -1009,7 +1051,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "3ddb5fcc-b71a-43d9-9e49-68f1e04d5ab5",
-    "image": "3ddb5fcc-b71a-43d9-9e49-68f1e04d5ab5.jpg"
+    "image": "3ddb5fcc-b71a-43d9-9e49-68f1e04d5ab5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-044",
@@ -1031,7 +1074,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "78d8e99c-bf9a-4048-90b6-09f0e1d3e806",
-    "image": "78d8e99c-bf9a-4048-90b6-09f0e1d3e806.jpg"
+    "image": "78d8e99c-bf9a-4048-90b6-09f0e1d3e806.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-045",
@@ -1053,7 +1097,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "2928c0e0-7820-474c-a985-665cb8978495",
-    "image": "2928c0e0-7820-474c-a985-665cb8978495.jpg"
+    "image": "2928c0e0-7820-474c-a985-665cb8978495.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-046",
@@ -1075,7 +1120,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "0c951321-6faf-43e3-9f46-cee707c1d95d",
-    "image": "0c951321-6faf-43e3-9f46-cee707c1d95d.jpg"
+    "image": "0c951321-6faf-43e3-9f46-cee707c1d95d.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TAT-047",
@@ -1097,7 +1143,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "6dcea9a2-e5a8-4db8-b15e-bb6192abcfef",
-    "image": "6dcea9a2-e5a8-4db8-b15e-bb6192abcfef.jpg"
+    "image": "6dcea9a2-e5a8-4db8-b15e-bb6192abcfef.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-048",
@@ -1119,7 +1166,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "1b1b03b7-5b5c-41ae-a979-06d49a9db332",
-    "image": "1b1b03b7-5b5c-41ae-a979-06d49a9db332.jpg"
+    "image": "1b1b03b7-5b5c-41ae-a979-06d49a9db332.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-049",
@@ -1141,7 +1189,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "5f40ff1e-6540-4607-af6c-0dfb0765d708",
-    "image": "5f40ff1e-6540-4607-af6c-0dfb0765d708.jpg"
+    "image": "5f40ff1e-6540-4607-af6c-0dfb0765d708.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-050",
@@ -1163,7 +1212,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "f0581b8e-6d66-4933-9c93-ae1ba104492c",
-    "image": "f0581b8e-6d66-4933-9c93-ae1ba104492c.jpg"
+    "image": "f0581b8e-6d66-4933-9c93-ae1ba104492c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-051",
@@ -1185,7 +1235,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "831356b4-9a2f-4bdc-a130-19bfcacf3c07",
-    "image": "831356b4-9a2f-4bdc-a130-19bfcacf3c07.jpg"
+    "image": "831356b4-9a2f-4bdc-a130-19bfcacf3c07.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-052",
@@ -1207,7 +1258,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "de33ab26-82da-49f8-a049-f874f1f8d798",
-    "image": "de33ab26-82da-49f8-a049-f874f1f8d798.jpg"
+    "image": "de33ab26-82da-49f8-a049-f874f1f8d798.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TAT-053",
@@ -1229,7 +1281,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "ad391934-78b5-44cb-a66d-f10fe55818b1",
-    "image": "ad391934-78b5-44cb-a66d-f10fe55818b1.jpg"
+    "image": "ad391934-78b5-44cb-a66d-f10fe55818b1.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TAT-054",
@@ -1251,7 +1304,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "8caabe5b-0c84-4b88-8213-7f7c31e9f75b",
-    "image": "8caabe5b-0c84-4b88-8213-7f7c31e9f75b.jpg"
+    "image": "8caabe5b-0c84-4b88-8213-7f7c31e9f75b.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TAT-055",
@@ -1273,7 +1327,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "eb509e9a-0d9d-4376-8e26-8364969d6645",
-    "image": "eb509e9a-0d9d-4376-8e26-8364969d6645.jpg"
+    "image": "eb509e9a-0d9d-4376-8e26-8364969d6645.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-056",
@@ -1295,51 +1350,53 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "9b3be9ab-df3f-4c50-8ab8-a0f2ad01c19d",
-    "image": "9b3be9ab-df3f-4c50-8ab8-a0f2ad01c19d.jpg"
+    "image": "9b3be9ab-df3f-4c50-8ab8-a0f2ad01c19d.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TAT-057",
-    "name": "Crimson Girl in the Sky",
-    "Type": "Ruler",
-    "Race": "Little Girl",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {0}. Play this ability only if you put \"Refarth. the Castle of Heaven\" into a field this turn.\n[J-Activate] Pay {G}{G}{1}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "You never know whether the true story has been told or not.",
-    "Artist": "祀花よう子",
-    "Rarity": "R",
-    "Fowid": "1370",
-    "Cluster": "02 - Grimm",
-    "Set Name": "006 - The Castle of Heaven and the Two Towers",
-    "Set Code": "TAT",
-    "id": "6855ace4-3f8c-448a-b5f0-1c5e7d5433ac",
-    "image": "6855ace4-3f8c-448a-b5f0-1c5e7d5433ac.jpg"
-  },
-  {
-    "Card Number": "TAT-057J",
-    "name": "Little Red, the True Fairy Tale",
-    "Type": "J-Ruler",
-    "Race": "Fairy Tale|Ancient",
+    "Card Number": "TAT-057|TAT-057J",
+    "name": "Crimson Girl in the Sky // Little Red, the True Fairy Tale",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Little Girl|Fairy Tale|Ancient",
     "Cost": "",
     "Colour": "G",
     "ATK": "800",
     "DEF": "1000",
-    "Abilities": "[Continuous]: This card cannot be targeted by darkness or fire spells or darkness or fire card's abilities.\n[Continuous]: If a spell or ability would increase ATK or DEF of resonators you control, it increases double that much instead.\n[Continuous]: If a spell or ability would decrease ATK or DEF of resonators you control, it decreases none instead.",
+    "Abilities": "[J-Activate] Pay {0}. Play this ability only if you put \"Refarth. the Castle of Heaven\" into a field this turn.\n[J-Activate] Pay {G}{G}{1}.|[Continuous]: This card cannot be targeted by darkness or fire spells or darkness or fire card's abilities.\n[Continuous]: If a spell or ability would increase ATK or DEF of resonators you control, it increases double that much instead.\n[Continuous]: If a spell or ability would decrease ATK or DEF of resonators you control, it decreases none instead.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I have waited more than 100 years for this moment...allies, let me take my world, my appearance, my story back!\"",
+    "Flavour": "You never know whether the true story has been told or not.|\"I have waited more than 100 years for this moment...allies, let me take my world, my appearance, my story back!\"",
     "Artist": "祀花よう子",
     "Rarity": "R",
-    "Fowid": "1371",
+    "Fowid": "1370|1371",
     "Cluster": "02 - Grimm",
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
-    "id": "4c02421c-b24c-4665-8b90-485c2f9332c8",
-    "image": "4c02421c-b24c-4665-8b90-485c2f9332c8.jpg"
+    "id": "6855ace4-3f8c-448a-b5f0-1c5e7d5433ac",
+    "image": "6855ace4-3f8c-448a-b5f0-1c5e7d5433ac.jpg",
+    "Card Type": "Ruler",
+    "backimage": "4c02421c-b24c-4665-8b90-485c2f9332c8.jpg",
+    "alternate1_Card Number": "TAT-057J",
+    "alternate1_name": "Little Red, the True Fairy Tale",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Fairy Tale|Ancient",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Continuous]: This card cannot be targeted by darkness or fire spells or darkness or fire card's abilities.\n[Continuous]: If a spell or ability would increase ATK or DEF of resonators you control, it increases double that much instead.\n[Continuous]: If a spell or ability would decrease ATK or DEF of resonators you control, it decreases none instead.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I have waited more than 100 years for this moment...allies, let me take my world, my appearance, my story back!\"",
+    "alternate1_Artist": "祀花よう子",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1371",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "006 - The Castle of Heaven and the Two Towers",
+    "alternate1_Set Code": "TAT",
+    "alternate1_id": "4c02421c-b24c-4665-8b90-485c2f9332c8",
+    "alternate1_image": "4c02421c-b24c-4665-8b90-485c2f9332c8.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TAT-058",
@@ -1361,7 +1418,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "e7fc093f-bfd8-488f-804c-b547638e9f6d",
-    "image": "e7fc093f-bfd8-488f-804c-b547638e9f6d.jpg"
+    "image": "e7fc093f-bfd8-488f-804c-b547638e9f6d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-059",
@@ -1383,7 +1441,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "307344f5-9205-4637-9d58-f56c039695cf",
-    "image": "307344f5-9205-4637-9d58-f56c039695cf.jpg"
+    "image": "307344f5-9205-4637-9d58-f56c039695cf.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TAT-060",
@@ -1405,7 +1464,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "3e35ceee-f048-4066-8010-61e83ffed7ce",
-    "image": "3e35ceee-f048-4066-8010-61e83ffed7ce.jpg"
+    "image": "3e35ceee-f048-4066-8010-61e83ffed7ce.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TAT-061",
@@ -1427,7 +1487,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "b53ce8b3-5a42-49b5-82ab-29e3f3d2d0a9",
-    "image": "b53ce8b3-5a42-49b5-82ab-29e3f3d2d0a9.jpg"
+    "image": "b53ce8b3-5a42-49b5-82ab-29e3f3d2d0a9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-062",
@@ -1449,7 +1510,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "2c116233-db8f-4348-bec0-16e66cfa795d",
-    "image": "2c116233-db8f-4348-bec0-16e66cfa795d.jpg"
+    "image": "2c116233-db8f-4348-bec0-16e66cfa795d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-063",
@@ -1471,7 +1533,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "a70e4b23-7092-4cc2-8d70-6888a01d2a1f",
-    "image": "a70e4b23-7092-4cc2-8d70-6888a01d2a1f.jpg"
+    "image": "a70e4b23-7092-4cc2-8d70-6888a01d2a1f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-064",
@@ -1493,7 +1556,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "9cdab063-a3c9-443e-9a6d-6fda190b7165",
-    "image": "9cdab063-a3c9-443e-9a6d-6fda190b7165.jpg"
+    "image": "9cdab063-a3c9-443e-9a6d-6fda190b7165.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-065",
@@ -1515,7 +1579,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "4f06c7f5-9a7e-4ba1-89d2-c189873d51a3",
-    "image": "4f06c7f5-9a7e-4ba1-89d2-c189873d51a3.jpg"
+    "image": "4f06c7f5-9a7e-4ba1-89d2-c189873d51a3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-066",
@@ -1537,7 +1602,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "2a771e22-d1d5-41f4-a442-648ccef91b75",
-    "image": "2a771e22-d1d5-41f4-a442-648ccef91b75.jpg"
+    "image": "2a771e22-d1d5-41f4-a442-648ccef91b75.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TAT-067",
@@ -1559,7 +1625,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "3379b90e-cf14-41d1-8fbc-e63ffa982a7b",
-    "image": "3379b90e-cf14-41d1-8fbc-e63ffa982a7b.jpg"
+    "image": "3379b90e-cf14-41d1-8fbc-e63ffa982a7b.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "TAT-068",
@@ -1581,7 +1648,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "81c7492e-86ca-4acb-b6ff-91c038864b5c",
-    "image": "81c7492e-86ca-4acb-b6ff-91c038864b5c.jpg"
+    "image": "81c7492e-86ca-4acb-b6ff-91c038864b5c.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TAT-069",
@@ -1603,7 +1671,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "d49dd76c-2bb7-4ed1-bd45-e81f8b38c105",
-    "image": "d49dd76c-2bb7-4ed1-bd45-e81f8b38c105.jpg"
+    "image": "d49dd76c-2bb7-4ed1-bd45-e81f8b38c105.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TAT-070",
@@ -1625,7 +1694,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "8f4f2619-8ab5-4693-bf9f-252df28905c7",
-    "image": "8f4f2619-8ab5-4693-bf9f-252df28905c7.jpg"
+    "image": "8f4f2619-8ab5-4693-bf9f-252df28905c7.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TAT-071",
@@ -1647,7 +1717,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "b0fc2653-6380-4c47-b716-c1b4a23e254b",
-    "image": "b0fc2653-6380-4c47-b716-c1b4a23e254b.jpg"
+    "image": "b0fc2653-6380-4c47-b716-c1b4a23e254b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-072",
@@ -1669,7 +1740,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "9564d691-dc36-4ed3-9dff-5b922f34ab50",
-    "image": "9564d691-dc36-4ed3-9dff-5b922f34ab50.jpg"
+    "image": "9564d691-dc36-4ed3-9dff-5b922f34ab50.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TAT-073",
@@ -1691,7 +1763,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "98d59835-8014-4fae-8225-ffe1c23441d8",
-    "image": "98d59835-8014-4fae-8225-ffe1c23441d8.jpg"
+    "image": "98d59835-8014-4fae-8225-ffe1c23441d8.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TAT-074",
@@ -1713,7 +1786,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "1b2968a6-037b-4cab-8a8c-1ce441f143e6",
-    "image": "1b2968a6-037b-4cab-8a8c-1ce441f143e6.jpg"
+    "image": "1b2968a6-037b-4cab-8a8c-1ce441f143e6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-075",
@@ -1735,7 +1809,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "ff93c989-e9e6-45db-8292-ce9aefd9b20b",
-    "image": "ff93c989-e9e6-45db-8292-ce9aefd9b20b.jpg"
+    "image": "ff93c989-e9e6-45db-8292-ce9aefd9b20b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-076",
@@ -1757,7 +1832,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "bdd11dac-632d-435f-8d18-4247ee0fae7c",
-    "image": "bdd11dac-632d-435f-8d18-4247ee0fae7c.jpg"
+    "image": "bdd11dac-632d-435f-8d18-4247ee0fae7c.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "TAT-077",
@@ -1779,7 +1855,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "3e8fdb30-3a62-46f2-951f-6c376c4318a0",
-    "image": "3e8fdb30-3a62-46f2-951f-6c376c4318a0.jpg"
+    "image": "3e8fdb30-3a62-46f2-951f-6c376c4318a0.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TAT-078",
@@ -1801,51 +1878,53 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "f736be74-056d-4571-972c-fd9df6693c5b",
-    "image": "f736be74-056d-4571-972c-fd9df6693c5b.jpg"
+    "image": "f736be74-056d-4571-972c-fd9df6693c5b.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TAT-079",
-    "name": "Ebony Prophet",
-    "Type": "Ruler",
-    "Race": "Prophet",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {B}. Play this ability only if you control \"Grusbalesta, the Sealing Stone\".\n[J-Activate] Pay {B}{B}{1}.\n[Activate] {Rest}: Target resonator gains [-300/-300] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The black prophecy foretells of a dire future.",
-    "Artist": "gozz",
-    "Rarity": "R",
-    "Fowid": "1393",
-    "Cluster": "02 - Grimm",
-    "Set Name": "006 - The Castle of Heaven and the Two Towers",
-    "Set Code": "TAT",
-    "id": "222ca4ea-b5c5-4768-9c3e-16d9e16384b1",
-    "image": "222ca4ea-b5c5-4768-9c3e-16d9e16384b1.jpg"
-  },
-  {
-    "Card Number": "TAT-079J",
-    "name": "Abdul Alhazred, the Harbinger of Despair",
-    "Type": "J-Ruler",
-    "Race": "Wizard",
+    "Card Number": "TAT-079|TAT-079J",
+    "name": "Ebony Prophet // Abdul Alhazred, the Harbinger of Despair",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Prophet|Wizard",
     "Cost": "",
     "Colour": "B",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Continuous]: [Enter] abilities of cards your opponent controls don't trigger.\n[Activate] {0}: Target resonator or addition loses all abilities until end of turn. You may play this ability up to twice per turn.",
+    "Abilities": "[J-Activate] Pay {B}. Play this ability only if you control \"Grusbalesta, the Sealing Stone\".\n[J-Activate] Pay {B}{B}{1}.\n[Activate] {Rest}: Target resonator gains [-300/-300] until end of turn.|[Continuous]: [Enter] abilities of cards your opponent controls don't trigger.\n[Activate] {0}: Target resonator or addition loses all abilities until end of turn. You may play this ability up to twice per turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Dracula fell... such a pity. The time has come for me to erase all...\"",
+    "Flavour": "The black prophecy foretells of a dire future.|\"Dracula fell... such a pity. The time has come for me to erase all...\"",
     "Artist": "gozz",
     "Rarity": "R",
-    "Fowid": "1394",
+    "Fowid": "1393|1394",
     "Cluster": "02 - Grimm",
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
-    "id": "2d6a6c5d-45fb-426d-9332-f72213fc34ce",
-    "image": "2d6a6c5d-45fb-426d-9332-f72213fc34ce.jpg"
+    "id": "222ca4ea-b5c5-4768-9c3e-16d9e16384b1",
+    "image": "222ca4ea-b5c5-4768-9c3e-16d9e16384b1.jpg",
+    "Card Type": "Ruler",
+    "backimage": "2d6a6c5d-45fb-426d-9332-f72213fc34ce.jpg",
+    "alternate1_Card Number": "TAT-079J",
+    "alternate1_name": "Abdul Alhazred, the Harbinger of Despair",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Continuous]: [Enter] abilities of cards your opponent controls don't trigger.\n[Activate] {0}: Target resonator or addition loses all abilities until end of turn. You may play this ability up to twice per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Dracula fell... such a pity. The time has come for me to erase all...\"",
+    "alternate1_Artist": "gozz",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1394",
+    "alternate1_Cluster": "02 - Grimm",
+    "alternate1_Set Name": "006 - The Castle of Heaven and the Two Towers",
+    "alternate1_Set Code": "TAT",
+    "alternate1_id": "2d6a6c5d-45fb-426d-9332-f72213fc34ce",
+    "alternate1_image": "2d6a6c5d-45fb-426d-9332-f72213fc34ce.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TAT-080",
@@ -1867,7 +1946,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "edda90a2-3d75-4316-956d-934cf88fd57b",
-    "image": "edda90a2-3d75-4316-956d-934cf88fd57b.jpg"
+    "image": "edda90a2-3d75-4316-956d-934cf88fd57b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-081",
@@ -1889,7 +1969,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "46712573-50a1-4c01-8a1c-c9c67f224dd1",
-    "image": "46712573-50a1-4c01-8a1c-c9c67f224dd1.jpg"
+    "image": "46712573-50a1-4c01-8a1c-c9c67f224dd1.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "TAT-082",
@@ -1911,7 +1992,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "c78ef46e-ed09-4ce5-966d-4e8aca9ada76",
-    "image": "c78ef46e-ed09-4ce5-966d-4e8aca9ada76.jpg"
+    "image": "c78ef46e-ed09-4ce5-966d-4e8aca9ada76.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-083",
@@ -1933,7 +2015,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "7e5e1da9-e8c1-4d3e-81f0-57c29e6215bf",
-    "image": "7e5e1da9-e8c1-4d3e-81f0-57c29e6215bf.jpg"
+    "image": "7e5e1da9-e8c1-4d3e-81f0-57c29e6215bf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-084",
@@ -1955,7 +2038,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "1584b858-1a19-47e1-aecb-d8ad766ba178",
-    "image": "1584b858-1a19-47e1-aecb-d8ad766ba178.jpg"
+    "image": "1584b858-1a19-47e1-aecb-d8ad766ba178.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "TAT-085",
@@ -1977,7 +2061,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "95c8fc85-04ca-41da-bb4e-53081358cc17",
-    "image": "95c8fc85-04ca-41da-bb4e-53081358cc17.jpg"
+    "image": "95c8fc85-04ca-41da-bb4e-53081358cc17.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-086",
@@ -1999,7 +2084,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "70c1ad0f-816f-49e1-9aa3-6e4d2926088b",
-    "image": "70c1ad0f-816f-49e1-9aa3-6e4d2926088b.jpg"
+    "image": "70c1ad0f-816f-49e1-9aa3-6e4d2926088b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-087",
@@ -2021,7 +2107,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "954f85ff-5d8a-47b0-8ba6-175b020f45b0",
-    "image": "954f85ff-5d8a-47b0-8ba6-175b020f45b0.jpg"
+    "image": "954f85ff-5d8a-47b0-8ba6-175b020f45b0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TAT-088",
@@ -2043,7 +2130,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "12e8f93e-31c9-4fe4-94fe-81646d7a4f79",
-    "image": "12e8f93e-31c9-4fe4-94fe-81646d7a4f79.jpg"
+    "image": "12e8f93e-31c9-4fe4-94fe-81646d7a4f79.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TAT-089",
@@ -2065,7 +2153,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "fb8ce38e-5717-4d2a-b2e7-8626a7e295aa",
-    "image": "fb8ce38e-5717-4d2a-b2e7-8626a7e295aa.jpg"
+    "image": "fb8ce38e-5717-4d2a-b2e7-8626a7e295aa.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "TAT-090",
@@ -2087,7 +2176,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "de084512-0274-42a0-be89-c03347aa30a3",
-    "image": "de084512-0274-42a0-be89-c03347aa30a3.jpg"
+    "image": "de084512-0274-42a0-be89-c03347aa30a3.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "TAT-091",
@@ -2109,7 +2199,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "a4a7fb5a-d92a-4e09-b140-30b32fcb33c2",
-    "image": "a4a7fb5a-d92a-4e09-b140-30b32fcb33c2.jpg"
+    "image": "a4a7fb5a-d92a-4e09-b140-30b32fcb33c2.jpg",
+    "Card Type": "Special Magic Stone|True Magic Stone"
   },
   {
     "Card Number": "TAT-092",
@@ -2131,7 +2222,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "8212e9ca-3113-4f34-892d-0074a70ed5de",
-    "image": "8212e9ca-3113-4f34-892d-0074a70ed5de.jpg"
+    "image": "8212e9ca-3113-4f34-892d-0074a70ed5de.jpg",
+    "Card Type": "Special Magic Stone|True Magic Stone"
   },
   {
     "Card Number": "TAT-093",
@@ -2153,7 +2245,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "140a84ad-f32b-417b-8075-9ae0ed9e99af",
-    "image": "140a84ad-f32b-417b-8075-9ae0ed9e99af.jpg"
+    "image": "140a84ad-f32b-417b-8075-9ae0ed9e99af.jpg",
+    "Card Type": "Special Magic Stone|True Magic Stone"
   },
   {
     "Card Number": "TAT-094",
@@ -2175,7 +2268,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "a041e43d-b47e-448d-8e0d-b6dc6e82c826",
-    "image": "a041e43d-b47e-448d-8e0d-b6dc6e82c826.jpg"
+    "image": "a041e43d-b47e-448d-8e0d-b6dc6e82c826.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TAT-095",
@@ -2197,7 +2291,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "13809445-19f6-40f4-9869-5a73a41f5450",
-    "image": "13809445-19f6-40f4-9869-5a73a41f5450.jpg"
+    "image": "13809445-19f6-40f4-9869-5a73a41f5450.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TAT-096",
@@ -2219,7 +2314,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "6d683e4d-42db-4318-b293-d0602887d2c5",
-    "image": "6d683e4d-42db-4318-b293-d0602887d2c5.jpg"
+    "image": "6d683e4d-42db-4318-b293-d0602887d2c5.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TAT-097",
@@ -2241,7 +2337,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "6f6fdd7e-d7e0-4245-b2cf-e1f0694a4fe0",
-    "image": "6f6fdd7e-d7e0-4245-b2cf-e1f0694a4fe0.jpg"
+    "image": "6f6fdd7e-d7e0-4245-b2cf-e1f0694a4fe0.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TAT-098",
@@ -2263,7 +2360,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "21621930-e07c-4462-b4db-cd20253ae1b0",
-    "image": "21621930-e07c-4462-b4db-cd20253ae1b0.jpg"
+    "image": "21621930-e07c-4462-b4db-cd20253ae1b0.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TAT-099",
@@ -2285,7 +2383,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "e5b30aa5-d66a-45f2-b63c-537f02eac261",
-    "image": "e5b30aa5-d66a-45f2-b63c-537f02eac261.jpg"
+    "image": "e5b30aa5-d66a-45f2-b63c-537f02eac261.jpg",
+    "Card Type": "Special Magic Stone|True Magic Stone"
   },
   {
     "Card Number": "TAT-100",
@@ -2307,7 +2406,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "26372089-c617-4915-b377-27b670479803",
-    "image": "26372089-c617-4915-b377-27b670479803.jpg"
+    "image": "26372089-c617-4915-b377-27b670479803.jpg",
+    "Card Type": "Special Magic Stone|True Magic Stone"
   },
   {
     "Card Number": "TAT-101",
@@ -2329,7 +2429,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "b1db4540-13e1-4f27-ad3d-4a467b40908a",
-    "image": "b1db4540-13e1-4f27-ad3d-4a467b40908a.jpg"
+    "image": "b1db4540-13e1-4f27-ad3d-4a467b40908a.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "TAT-102",
@@ -2351,7 +2452,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "42028381-ec17-4d11-ba8b-793d7feca422",
-    "image": "42028381-ec17-4d11-ba8b-793d7feca422.jpg"
+    "image": "42028381-ec17-4d11-ba8b-793d7feca422.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "TAT-103",
@@ -2373,7 +2475,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "95030e39-9a4a-448b-b682-bfa62f5a8ab4",
-    "image": "95030e39-9a4a-448b-b682-bfa62f5a8ab4.jpg"
+    "image": "95030e39-9a4a-448b-b682-bfa62f5a8ab4.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "TAT-104",
@@ -2395,7 +2498,8 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "eaae8718-90db-4c10-8d4f-85e7d5b9d44d",
-    "image": "eaae8718-90db-4c10-8d4f-85e7d5b9d44d.jpg"
+    "image": "eaae8718-90db-4c10-8d4f-85e7d5b9d44d.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "TAT-105",
@@ -2417,6 +2521,7 @@
     "Set Name": "006 - The Castle of Heaven and the Two Towers",
     "Set Code": "TAT",
     "id": "4aa7cfee-f7af-4d21-a9bb-7e61fd10d8b7",
-    "image": "4aa7cfee-f7af-4d21-a9bb-7e61fd10d8b7.jpg"
+    "image": "4aa7cfee-f7af-4d21-a9bb-7e61fd10d8b7.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

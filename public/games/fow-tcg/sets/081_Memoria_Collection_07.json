@@ -19,7 +19,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "3c74211f-c5cb-42b4-b3b3-d9deb79a4923",
-    "image": "3c74211f-c5cb-42b4-b3b3-d9deb79a4923.jpg"
+    "image": "3c74211f-c5cb-42b4-b3b3-d9deb79a4923.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-002",
@@ -41,51 +42,53 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "5642e692-cd18-4a98-93fc-8ebdb2775e7c",
-    "image": "5642e692-cd18-4a98-93fc-8ebdb2775e7c.jpg"
+    "image": "5642e692-cd18-4a98-93fc-8ebdb2775e7c.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MC07-003",
-    "name": "Memory of Worlds",
+    "Card Number": "MC07-003|MC07-003J",
+    "name": "Memory of Worlds // Recorder of Worlds",
     "Type": "Chant",
-    "Race": "Contract",
+    "Race": "Contract|Wanderer",
     "Cost": "{G}",
     "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nChoose one;\n- Remove target spell from the game. Its owner may play it from their removed area as long as it is in their removed area.\n- Remove target spell that was not played from a hand from the game. If you do, contract this card with \"Reflect, Resident of Wanderers' Castle\".\nMastery \"Reflect, Resident of Wanderers' Castle\"",
+    "ATK": "800",
+    "DEF": "800",
+    "Abilities": "[Quickcast]\nChoose one;\n- Remove target spell from the game. Its owner may play it from their removed area as long as it is in their removed area.\n- Remove target spell that was not played from a hand from the game. If you do, contract this card with \"Reflect, Resident of Wanderers' Castle\".\nMastery \"Reflect, Resident of Wanderers' Castle\"|This card has \"Reflect, Resident of Wanderers' Castle\" in addition to its other names.\nPut a magic counter on a J/ruler you control: Choose one. Play this ability only during your turn and only once per turn;\n- Target J/resonator gains [+600/+600], [Eternal] and [Barrier] until end of turn.\n- Draw a card.\n- Recover target entity.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "Tsukumi",
+    "Artist": "Tsukumi|Kelvin",
     "Rarity": "R",
     "Fowid": "",
     "Cluster": "11 - Trinity",
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "848bb743-0e46-4662-86bf-d5f82a163082",
-    "image": "848bb743-0e46-4662-86bf-d5f82a163082.jpg"
-  },
-  {
-    "Card Number": "MC07-003J",
-    "name": "Recorder of Worlds",
-    "Type": "Chant",
-    "Race": "Wanderer",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "This card has \"Reflect, Resident of Wanderers' Castle\" in addition to its other names.\nPut a magic counter on a J/ruler you control: Choose one. Play this ability only during your turn and only once per turn;\n- Target J/resonator gains [+600/+600], [Eternal] and [Barrier] until end of turn.\n- Draw a card.\n- Recover target entity.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Kelvin",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "081 - Memoria Collection 07",
-    "Set Code": "MC07",
-    "id": "028d3c5f-9f88-45a3-854a-cabe2345443f",
-    "image": "028d3c5f-9f88-45a3-854a-cabe2345443f.jpg"
+    "image": "848bb743-0e46-4662-86bf-d5f82a163082.jpg",
+    "Card Type": "Chant",
+    "backimage": "028d3c5f-9f88-45a3-854a-cabe2345443f.jpg",
+    "alternate1_Card Number": "MC07-003J",
+    "alternate1_name": "Recorder of Worlds",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "Wanderer",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "This card has \"Reflect, Resident of Wanderers' Castle\" in addition to its other names.\nPut a magic counter on a J/ruler you control: Choose one. Play this ability only during your turn and only once per turn;\n- Target J/resonator gains [+600/+600], [Eternal] and [Barrier] until end of turn.\n- Draw a card.\n- Recover target entity.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Kelvin",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "081 - Memoria Collection 07",
+    "alternate1_Set Code": "MC07",
+    "alternate1_id": "028d3c5f-9f88-45a3-854a-cabe2345443f",
+    "alternate1_image": "028d3c5f-9f88-45a3-854a-cabe2345443f.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MC07-004",
@@ -107,7 +110,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "abdd336c-03e5-42ef-8144-9f193f2410b1",
-    "image": "abdd336c-03e5-42ef-8144-9f193f2410b1.jpg"
+    "image": "abdd336c-03e5-42ef-8144-9f193f2410b1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-005",
@@ -129,7 +133,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "adad984c-7f20-4d5e-b263-dd448f3c76ae",
-    "image": "adad984c-7f20-4d5e-b263-dd448f3c76ae.jpg"
+    "image": "adad984c-7f20-4d5e-b263-dd448f3c76ae.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MC07-006",
@@ -151,7 +156,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "bf7c8e48-095e-4d9f-8abb-457c72c9abe7",
-    "image": "bf7c8e48-095e-4d9f-8abb-457c72c9abe7.jpg"
+    "image": "bf7c8e48-095e-4d9f-8abb-457c72c9abe7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-007",
@@ -173,7 +179,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "1127411a-17db-48fe-aa61-45fcca4c34c5",
-    "image": "1127411a-17db-48fe-aa61-45fcca4c34c5.jpg"
+    "image": "1127411a-17db-48fe-aa61-45fcca4c34c5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-008",
@@ -195,7 +202,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "0986af65-40fc-41a1-afc1-e084a42687d7",
-    "image": "0986af65-40fc-41a1-afc1-e084a42687d7.jpg"
+    "image": "0986af65-40fc-41a1-afc1-e084a42687d7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-009",
@@ -217,7 +225,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "33c0e7f6-5535-42e8-b481-70e594322aee",
-    "image": "33c0e7f6-5535-42e8-b481-70e594322aee.jpg"
+    "image": "33c0e7f6-5535-42e8-b481-70e594322aee.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MC07-010",
@@ -239,7 +248,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "deb69095-1abe-4259-8849-4571906e09da",
-    "image": "deb69095-1abe-4259-8849-4571906e09da.jpg"
+    "image": "deb69095-1abe-4259-8849-4571906e09da.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-011",
@@ -261,7 +271,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "a249e64e-391a-4137-9983-bf499dbedbd7",
-    "image": "a249e64e-391a-4137-9983-bf499dbedbd7.jpg"
+    "image": "a249e64e-391a-4137-9983-bf499dbedbd7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-012",
@@ -283,7 +294,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "47446805-50bd-45ca-9e2c-1cb340baf174",
-    "image": "47446805-50bd-45ca-9e2c-1cb340baf174.jpg"
+    "image": "47446805-50bd-45ca-9e2c-1cb340baf174.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MC07-013",
@@ -305,7 +317,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "0a44c3d8-acb5-40b0-9bca-336903f335d9",
-    "image": "0a44c3d8-acb5-40b0-9bca-336903f335d9.jpg"
+    "image": "0a44c3d8-acb5-40b0-9bca-336903f335d9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-014",
@@ -327,7 +340,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "4bb969f5-cc2c-4f89-8969-64e6e198e102",
-    "image": "4bb969f5-cc2c-4f89-8969-64e6e198e102.jpg"
+    "image": "4bb969f5-cc2c-4f89-8969-64e6e198e102.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-015",
@@ -349,7 +363,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "4b8ca49c-588c-4bc6-9e23-1fa95047649e",
-    "image": "4b8ca49c-588c-4bc6-9e23-1fa95047649e.jpg"
+    "image": "4b8ca49c-588c-4bc6-9e23-1fa95047649e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-016",
@@ -371,7 +386,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "89518771-4c7d-437d-ad2d-ce940176344e",
-    "image": "89518771-4c7d-437d-ad2d-ce940176344e.jpg"
+    "image": "89518771-4c7d-437d-ad2d-ce940176344e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-017",
@@ -393,7 +409,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "12cf5412-42da-48da-909d-4c1a2fc45572",
-    "image": "12cf5412-42da-48da-909d-4c1a2fc45572.jpg"
+    "image": "12cf5412-42da-48da-909d-4c1a2fc45572.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-018",
@@ -415,7 +432,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "26b800a1-d470-42e0-8c9e-f8667076524c",
-    "image": "26b800a1-d470-42e0-8c9e-f8667076524c.jpg"
+    "image": "26b800a1-d470-42e0-8c9e-f8667076524c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MC07-019",
@@ -437,7 +455,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "bf65ccc8-b22e-4de9-9d8f-c81dcb86a15d",
-    "image": "bf65ccc8-b22e-4de9-9d8f-c81dcb86a15d.jpg"
+    "image": "bf65ccc8-b22e-4de9-9d8f-c81dcb86a15d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MC07-020",
@@ -459,7 +478,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "d513663a-1ea6-4ef2-89e4-e204eae3e38f",
-    "image": "d513663a-1ea6-4ef2-89e4-e204eae3e38f.jpg"
+    "image": "d513663a-1ea6-4ef2-89e4-e204eae3e38f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-021",
@@ -481,7 +501,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "1a803456-aef1-4316-83f2-aaa2266a2afe",
-    "image": "1a803456-aef1-4316-83f2-aaa2266a2afe.jpg"
+    "image": "1a803456-aef1-4316-83f2-aaa2266a2afe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-022",
@@ -503,7 +524,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "0f6dc91d-7971-4e30-93c5-98be31296e8d",
-    "image": "0f6dc91d-7971-4e30-93c5-98be31296e8d.jpg"
+    "image": "0f6dc91d-7971-4e30-93c5-98be31296e8d.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MC07-023",
@@ -525,7 +547,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "3d7baa58-0ad0-498f-8e1f-ab8b7ff24c6e",
-    "image": "3d7baa58-0ad0-498f-8e1f-ab8b7ff24c6e.jpg"
+    "image": "3d7baa58-0ad0-498f-8e1f-ab8b7ff24c6e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-024",
@@ -547,7 +570,8 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "f016c318-6050-4fa8-947f-ac3251c6cf0a",
-    "image": "f016c318-6050-4fa8-947f-ac3251c6cf0a.jpg"
+    "image": "f016c318-6050-4fa8-947f-ac3251c6cf0a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC07-025",
@@ -569,6 +593,7 @@
     "Set Name": "081 - Memoria Collection 07",
     "Set Code": "MC07",
     "id": "61eeda16-fbd4-4c3e-af83-3f6d52f0077d",
-    "image": "61eeda16-fbd4-4c3e-af83-3f6d52f0077d.jpg"
+    "image": "61eeda16-fbd4-4c3e-af83-3f6d52f0077d.jpg",
+    "Card Type": "Resonator"
   }
 ]

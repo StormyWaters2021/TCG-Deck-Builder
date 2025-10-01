@@ -1,17 +1,17 @@
 [
   {
-    "Card Number": "ABC-SD07-000",
-    "name": "Arcana: Leader of the Kabuki",
-    "Type": "Ruler",
+    "Card Number": "ABC-SD07-000|ABC-SD07-000J",
+    "name": "Arcana: Leader of the Kabuki // Arcana: Yökai of Purgatory",
+    "Type": "Ruler|J-Ruler",
     "Race": "Arcana",
     "Cost": "",
     "Colour": "R|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Convoke] {R}{B}\nYou can only have fire cards and darkness cards in your deck, and no cards with attributes other than fire or darkness.\nAt the beginning of the game ]]] Put three limited counters on this card.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.\n[Judgment] {R}{B}{1}",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Convoke] {R}{B}\nYou can only have fire cards and darkness cards in your deck, and no cards with attributes other than fire or darkness.\nAt the beginning of the game ]]] Put three limited counters on this card.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.\n[Judgment] {R}{B}{1}|[Convoke] {R}{B}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "His acting is so good that he never slips out of the role.",
+    "Flavour": "His acting is so good that he never slips out of the role.|\"Fire does not purify, it stains.\" ーYökai of Purgatory",
     "Artist": "",
     "Rarity": "R",
     "Fowid": "None",
@@ -19,87 +19,89 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "12a06ad7-6399-41ef-b29d-e1655b4141e4",
-    "image": "12a06ad7-6399-41ef-b29d-e1655b4141e4.jpg"
+    "image": "12a06ad7-6399-41ef-b29d-e1655b4141e4.jpg",
+    "Card Type": "Ruler",
+    "backimage": "b41f1b8c-2da6-4c83-9644-cb10452ad120.jpg",
+    "alternate1_Card Number": "ABC-SD07-000J",
+    "alternate1_name": "Arcana: Yökai of Purgatory",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Arcana",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R|B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Convoke] {R}{B}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Fire does not purify, it stains.\" ーYökai of Purgatory",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "None",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "090 - Efreet vs Falchion (Efreet)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "b41f1b8c-2da6-4c83-9644-cb10452ad120",
+    "alternate1_image": "b41f1b8c-2da6-4c83-9644-cb10452ad120.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD07-000J",
-    "name": "Arcana: Yökai of Purgatory",
-    "Type": "J-Ruler",
-    "Race": "Arcana",
-    "Cost": "",
-    "Colour": "R|B",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Convoke] {R}{B}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Fire does not purify, it stains.\" ーYökai of Purgatory",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "None",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "090 - Efreet vs Falchion (Efreet)",
-    "Set Code": "ABC",
-    "id": "b41f1b8c-2da6-4c83-9644-cb10452ad120",
-    "image": "b41f1b8c-2da6-4c83-9644-cb10452ad120.jpg"
-  },
-  {
-    "Card Number": "ABC-SD07-001",
-    "name": "Astema",
-    "Type": "Ruler",
-    "Race": "Fallen Angel|Wanderer",
-    "Cost": "",
-    "Colour": "R|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Tag] (Fallen Angel)\nYou cannot win the game. Your opponent cannot lose the game.\nWhenever an entity your opponent controls is put into a graveyard from the field ]]] Choose one. This ability triggers only once per turn;\n- Produce {R} or {B}.\n- Draw a card.\nGod's Art \"Envy\" {0}: Search your deck for a card named \"Inferno\", reveal it and put it into your hand, then shuffle your deck. \n[Judgment] {R}{B}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Astema returned from New Valhalla, and once again descended into the Demonic World.",
-    "Artist": "j-peg",
-    "Rarity": "R",
-    "Fowid": "5387",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "090 - Efreet vs Falchion (Efreet)",
-    "Set Code": "ABC",
-    "id": "38d6b91c-74d3-4e5f-a7b3-324b4b9bcc41",
-    "image": "38d6b91c-74d3-4e5f-a7b3-324b4b9bcc41.jpg"
-  },
-  {
-    "Card Number": "ABC-SD07-001J",
-    "name": "Astema [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "ABC-SD07-001|ABC-SD07-001J",
+    "name": "Astema // Astema [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Fallen Angel|Wanderer",
     "Cost": "",
     "Colour": "R|B",
     "ATK": "1200",
     "DEF": "1200",
-    "Abilities": "[Precision]\n[Flying]\n[First Strike]\n[Bane]\nYou cannot win the game. Your opponent cannot lose the game.\n[Enter] ]]] Destroy up to two target J/resonators your opponent controls.\nWhenever an entity your opponent controls is put into a graveyard from the field ]]] Choose one. This ability triggers only once per turn;\n- Produce {R}{B}.\n- Draw two cards.",
+    "Abilities": "[Tag] (Fallen Angel)\nYou cannot win the game. Your opponent cannot lose the game.\nWhenever an entity your opponent controls is put into a graveyard from the field ]]] Choose one. This ability triggers only once per turn;\n- Produce {R} or {B}.\n- Draw a card.\nGod's Art \"Envy\" {0}: Search your deck for a card named \"Inferno\", reveal it and put it into your hand, then shuffle your deck. \n[Judgment] {R}{B}|[Precision]\n[Flying]\n[First Strike]\n[Bane]\nYou cannot win the game. Your opponent cannot lose the game.\n[Enter] ]]] Destroy up to two target J/resonators your opponent controls.\nWhenever an entity your opponent controls is put into a graveyard from the field ]]] Choose one. This ability triggers only once per turn;\n- Produce {R}{B}.\n- Draw two cards.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Astema, you must gather my seven powers and return them to me.\" —Satan",
-    "Artist": "",
+    "Flavour": "Astema returned from New Valhalla, and once again descended into the Demonic World.|\"Astema, you must gather my seven powers and return them to me.\" —Satan",
+    "Artist": "j-peg",
     "Rarity": "R",
-    "Fowid": "5386",
+    "Fowid": "5387|5386",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
-    "id": "c7fc8159-7231-43b3-a045-c802e7a342d3",
-    "image": "c7fc8159-7231-43b3-a045-c802e7a342d3.jpg"
+    "id": "38d6b91c-74d3-4e5f-a7b3-324b4b9bcc41",
+    "image": "38d6b91c-74d3-4e5f-a7b3-324b4b9bcc41.jpg",
+    "Card Type": "Ruler",
+    "backimage": "c7fc8159-7231-43b3-a045-c802e7a342d3.jpg",
+    "alternate1_Card Number": "ABC-SD07-001J",
+    "alternate1_name": "Astema [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Fallen Angel|Wanderer",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R|B",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Precision]\n[Flying]\n[First Strike]\n[Bane]\nYou cannot win the game. Your opponent cannot lose the game.\n[Enter] ]]] Destroy up to two target J/resonators your opponent controls.\nWhenever an entity your opponent controls is put into a graveyard from the field ]]] Choose one. This ability triggers only once per turn;\n- Produce {R}{B}.\n- Draw two cards.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Astema, you must gather my seven powers and return them to me.\" —Satan",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5386",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "090 - Efreet vs Falchion (Efreet)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "c7fc8159-7231-43b3-a045-c802e7a342d3",
+    "alternate1_image": "c7fc8159-7231-43b3-a045-c802e7a342d3.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD07-002",
-    "name": "Efreet, Imprisoned Lord of Flame",
-    "Type": "Ruler",
-    "Race": "Daimyo|King",
+    "Card Number": "ABC-SD07-002|ABC-SD07-002J",
+    "name": "Efreet, Imprisoned Lord of Flame // Liberated Primal Flame, Efreet",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Daimyo|King|Daimyo|Flame Spirit",
     "Cost": "",
     "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Daimyo resonators you control gain [Eternal] as long as they are attacking.\nWhenever a Daimyo resonator deals battle damage to a player ]]] Recover it. This ability triggers only once per turn.\n{R}: Play a fire Daimyo resonator from your hand without paying its cost. If you do, it gains [Bloodlust], \"If this card would leave the field for a non-hand zone, expel it instead.\" and \"At end of turn ]]] Return this card to its owner's hand.\" until end of game. Play this ability only during main timing.\n[Judgment] {R}. Play this ability only if you control two Daimyo resonators.",
+    "ATK": "600",
+    "DEF": "200",
+    "Abilities": "Daimyo resonators you control gain [Eternal] as long as they are attacking.\nWhenever a Daimyo resonator deals battle damage to a player ]]] Recover it. This ability triggers only once per turn.\n{R}: Play a fire Daimyo resonator from your hand without paying its cost. If you do, it gains [Bloodlust], \"If this card would leave the field for a non-hand zone, expel it instead.\" and \"At end of turn ]]] Return this card to its owner's hand.\" until end of game. Play this ability only during main timing.\n[Judgment] {R}. Play this ability only if you control two Daimyo resonators.|[Belligerence]\n[Multi Strike]\n[Imperishable]\nDaimyo J/resonators you control gain [Eternal] as long as they are attacking and [Barrier] (Total cost 1 or less).\nWhenever a Daimyo J/resonator you control deals battle damage to a J/resonator ]]] It deals that much damage to that J/resonator's controller.\n{R}: Play a fire Daimyo resonator from your hand without paying its cost. If you do, it gains [Bloodlust], \"If this card would leave the field for a non-hand zone, expel it instead.\" and \"At end of turn ]]] Return this card to its owner's hand.\" until end of game.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Is the king of fire, and desperately wants to be free.",
+    "Flavour": "Is the king of fire, and desperately wants to be free.|\"Feel the real power of fire!\"",
     "Artist": "",
     "Rarity": "R",
     "Fowid": "",
@@ -107,73 +109,75 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "5f409ac2-bbea-444b-a1d0-c16f602c0065",
-    "image": "5f409ac2-bbea-444b-a1d0-c16f602c0065.jpg"
+    "image": "5f409ac2-bbea-444b-a1d0-c16f602c0065.jpg",
+    "Card Type": "Ruler",
+    "backimage": "df755dbe-68e5-47b9-86c7-9ed13c3171b2.jpg",
+    "alternate1_Card Number": "ABC-SD07-002J",
+    "alternate1_name": "Liberated Primal Flame, Efreet",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Daimyo|Flame Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "600",
+    "alternate1_DEF": "200",
+    "alternate1_Abilities": "[Belligerence]\n[Multi Strike]\n[Imperishable]\nDaimyo J/resonators you control gain [Eternal] as long as they are attacking and [Barrier] (Total cost 1 or less).\nWhenever a Daimyo J/resonator you control deals battle damage to a J/resonator ]]] It deals that much damage to that J/resonator's controller.\n{R}: Play a fire Daimyo resonator from your hand without paying its cost. If you do, it gains [Bloodlust], \"If this card would leave the field for a non-hand zone, expel it instead.\" and \"At end of turn ]]] Return this card to its owner's hand.\" until end of game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Feel the real power of fire!\"",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "090 - Efreet vs Falchion (Efreet)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "df755dbe-68e5-47b9-86c7-9ed13c3171b2",
+    "alternate1_image": "df755dbe-68e5-47b9-86c7-9ed13c3171b2.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD07-002J",
-    "name": "Liberated Primal Flame, Efreet",
-    "Type": "J-Ruler",
-    "Race": "Daimyo|Flame Spirit",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "600",
-    "DEF": "200",
-    "Abilities": "[Belligerence]\n[Multi Strike]\n[Imperishable]\nDaimyo J/resonators you control gain [Eternal] as long as they are attacking and [Barrier] (Total cost 1 or less).\nWhenever a Daimyo J/resonator you control deals battle damage to a J/resonator ]]] It deals that much damage to that J/resonator's controller.\n{R}: Play a fire Daimyo resonator from your hand without paying its cost. If you do, it gains [Bloodlust], \"If this card would leave the field for a non-hand zone, expel it instead.\" and \"At end of turn ]]] Return this card to its owner's hand.\" until end of game.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Feel the real power of fire!\"",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "090 - Efreet vs Falchion (Efreet)",
-    "Set Code": "ABC",
-    "id": "df755dbe-68e5-47b9-86c7-9ed13c3171b2",
-    "image": "df755dbe-68e5-47b9-86c7-9ed13c3171b2.jpg"
-  },
-  {
-    "Card Number": "ABC-SD07-003",
-    "name": "Lich",
-    "Type": "Ruler",
+    "Card Number": "ABC-SD07-003|ABC-SD07-003J",
+    "name": "Lich // Lich, the Saint of Death",
+    "Type": "Ruler|J-Ruler",
     "Race": "Deathless|Lich",
     "Cost": "",
     "Colour": "B",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Divinity] 10\n[Judgment] {B}{B}{1}",
+    "Abilities": "[Divinity] 10\n[Judgment] {B}{B}{1}|[Divinity] 10\n[Bane]\nWhenever a non-token darkness resonator you control is put into a graveyard from the field ]]] Put a [100/100] darkness Skeleton resonator token in the field.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Those with noble spirit in life gain immense dark power when turned undead.",
+    "Flavour": "Those with noble spirit in life gain immense dark power when turned undead.|Death itself speaks highly of the Lich.",
     "Artist": "Kotakan",
     "Rarity": "R",
-    "Fowid": "3858",
+    "Fowid": "3858|3859",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "3acdaf78-7496-436e-a6b7-ab28bc336fc9",
-    "image": "3acdaf78-7496-436e-a6b7-ab28bc336fc9.jpg"
-  },
-  {
-    "Card Number": "ABC-SD07-003J",
-    "name": "Lich, the Saint of Death",
-    "Type": "J-Ruler",
-    "Race": "Deathless|Lich",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] 10\n[Bane]\nWhenever a non-token darkness resonator you control is put into a graveyard from the field ]]] Put a [100/100] darkness Skeleton resonator token in the field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Death itself speaks highly of the Lich.",
-    "Artist": "Kotakan",
-    "Rarity": "R",
-    "Fowid": "3859",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "090 - Efreet vs Falchion (Efreet)",
-    "Set Code": "ABC",
-    "id": "f15cf054-51fc-4a91-b1b1-900140d97774",
-    "image": "f15cf054-51fc-4a91-b1b1-900140d97774.jpg"
+    "image": "3acdaf78-7496-436e-a6b7-ab28bc336fc9.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f15cf054-51fc-4a91-b1b1-900140d97774.jpg",
+    "alternate1_Card Number": "ABC-SD07-003J",
+    "alternate1_name": "Lich, the Saint of Death",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Deathless|Lich",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Divinity] 10\n[Bane]\nWhenever a non-token darkness resonator you control is put into a graveyard from the field ]]] Put a [100/100] darkness Skeleton resonator token in the field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Death itself speaks highly of the Lich.",
+    "alternate1_Artist": "Kotakan",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3859",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "090 - Efreet vs Falchion (Efreet)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "f15cf054-51fc-4a91-b1b1-900140d97774",
+    "alternate1_image": "f15cf054-51fc-4a91-b1b1-900140d97774.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD07-004",
@@ -195,7 +199,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "78c5bf91-cc4a-46b3-896f-8c45e7e8158b",
-    "image": "78c5bf91-cc4a-46b3-896f-8c45e7e8158b.jpg"
+    "image": "78c5bf91-cc4a-46b3-896f-8c45e7e8158b.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "ABC-SD07-005",
@@ -217,7 +222,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "ecf603e2-5640-4bd4-8a7c-a8c6c7a88b8f",
-    "image": "ecf603e2-5640-4bd4-8a7c-a8c6c7a88b8f.jpg"
+    "image": "ecf603e2-5640-4bd4-8a7c-a8c6c7a88b8f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-006",
@@ -239,7 +245,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "f865da42-0692-46fe-bb39-4aac61254049",
-    "image": "f865da42-0692-46fe-bb39-4aac61254049.jpg"
+    "image": "f865da42-0692-46fe-bb39-4aac61254049.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-007",
@@ -261,7 +268,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "8ee142ea-a584-41ac-a813-403e76424dfd",
-    "image": "8ee142ea-a584-41ac-a813-403e76424dfd.jpg"
+    "image": "8ee142ea-a584-41ac-a813-403e76424dfd.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-008",
@@ -283,7 +291,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "5be1e256-80e0-4feb-ac08-59d7dbf1ad6d",
-    "image": "5be1e256-80e0-4feb-ac08-59d7dbf1ad6d.jpg"
+    "image": "5be1e256-80e0-4feb-ac08-59d7dbf1ad6d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-009",
@@ -305,7 +314,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "8721830b-634a-4a6a-b17c-f903c58883ff",
-    "image": "8721830b-634a-4a6a-b17c-f903c58883ff.jpg"
+    "image": "8721830b-634a-4a6a-b17c-f903c58883ff.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-010",
@@ -327,7 +337,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "97291eed-6c5c-4769-b6e7-4b6c8f876cab",
-    "image": "97291eed-6c5c-4769-b6e7-4b6c8f876cab.jpg"
+    "image": "97291eed-6c5c-4769-b6e7-4b6c8f876cab.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-011",
@@ -349,7 +360,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "31dcdd3d-7683-4295-9f82-41a59fce75d1",
-    "image": "31dcdd3d-7683-4295-9f82-41a59fce75d1.jpg"
+    "image": "31dcdd3d-7683-4295-9f82-41a59fce75d1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-012",
@@ -371,7 +383,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "35c697bf-17e1-43c1-8e30-4609d91bb5b7",
-    "image": "35c697bf-17e1-43c1-8e30-4609d91bb5b7.jpg"
+    "image": "35c697bf-17e1-43c1-8e30-4609d91bb5b7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-013",
@@ -393,7 +406,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "2b584f3a-67e2-4f41-8101-c024a80ead9a",
-    "image": "2b584f3a-67e2-4f41-8101-c024a80ead9a.jpg"
+    "image": "2b584f3a-67e2-4f41-8101-c024a80ead9a.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-014",
@@ -415,7 +429,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "e947f5d5-9108-47c0-b77d-c0a37a29a6f1",
-    "image": "e947f5d5-9108-47c0-b77d-c0a37a29a6f1.jpg"
+    "image": "e947f5d5-9108-47c0-b77d-c0a37a29a6f1.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD07-015",
@@ -437,7 +452,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "f3b39765-2dcc-44ec-af0b-391b89957cb2",
-    "image": "f3b39765-2dcc-44ec-af0b-391b89957cb2.jpg"
+    "image": "f3b39765-2dcc-44ec-af0b-391b89957cb2.jpg",
+    "Card Type": "Master Rune"
   },
   {
     "Card Number": "ABC-SD07-016",
@@ -459,7 +475,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "b41cd76f-c3ed-4e6a-aeda-988889321c21",
-    "image": "b41cd76f-c3ed-4e6a-aeda-988889321c21.jpg"
+    "image": "b41cd76f-c3ed-4e6a-aeda-988889321c21.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "ABC-SD07-017",
@@ -481,7 +498,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "ed45f632-1766-4103-946c-81d61e51bac1",
-    "image": "ed45f632-1766-4103-946c-81d61e51bac1.jpg"
+    "image": "ed45f632-1766-4103-946c-81d61e51bac1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-018",
@@ -503,51 +521,53 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "25901a59-bf16-4120-9702-e1cb78a7c5c1",
-    "image": "25901a59-bf16-4120-9702-e1cb78a7c5c1.jpg"
+    "image": "25901a59-bf16-4120-9702-e1cb78a7c5c1.jpg",
+    "Card Type": "Rune"
   },
   {
-    "Card Number": "ABC-SD07-019",
-    "name": "Extract of the Fire Moon",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "ABC-SD07-019|ABC-SD07-019J",
+    "name": "Extract of the Fire Moon // Berserker",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Human",
     "Cost": "{R}{B}",
     "Colour": "R|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Produce two wills in any combination of {R} and/or {B}. Draw a card. If your life is 2000 or less, contract this card with \"Viga, Steadfast Steward\".",
+    "ATK": "800",
+    "DEF": "800",
+    "Abilities": "Produce two wills in any combination of {R} and/or {B}. Draw a card. If your life is 2000 or less, contract this card with \"Viga, Steadfast Steward\".|[Swiftness]\n[First Strike]\n[Pierce]\n[Bane]\nIf this card would deal damage to a J/resonator your opponent controls, it deals that much damage to that J/resonator and that J/resonator's controller instead. This card cannot deal more damage to that J/resonator's controller this way than it deals to that J/resonator.\n{R}: Recover this card.\n{B}: This card gains [Eternal] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "This extract of a rare flower that can only be found in a single spot deep in the Narrow Valley gives the cultivator way more power than they can safely handle.",
-    "Artist": "haniwa",
+    "Flavour": "This extract of a rare flower that can only be found in a single spot deep in the Narrow Valley gives the cultivator way more power than they can safely handle.|In a single moment, sanity turns into insanity.",
+    "Artist": "haniwa|J CREATION:Sadui",
     "Rarity": "R",
-    "Fowid": "1516",
+    "Fowid": "1516|1517",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "fe108f90-8fc2-45ce-96f3-e7f1e312b18d",
-    "image": "fe108f90-8fc2-45ce-96f3-e7f1e312b18d.jpg"
-  },
-  {
-    "Card Number": "ABC-SD07-019J",
-    "name": "Berserker",
-    "Type": "J-Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "R|B",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "[Swiftness]\n[First Strike]\n[Pierce]\n[Bane]\nIf this card would deal damage to a J/resonator your opponent controls, it deals that much damage to that J/resonator and that J/resonator's controller instead. This card cannot deal more damage to that J/resonator's controller this way than it deals to that J/resonator.\n{R}: Recover this card.\n{B}: This card gains [Eternal] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "In a single moment, sanity turns into insanity.",
-    "Artist": "J CREATION:Sadui",
-    "Rarity": "R",
-    "Fowid": "1517",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "090 - Efreet vs Falchion (Efreet)",
-    "Set Code": "ABC",
-    "id": "ed88c386-6026-495d-a49f-42f1fdc25d36",
-    "image": "ed88c386-6026-495d-a49f-42f1fdc25d36.jpg"
+    "image": "fe108f90-8fc2-45ce-96f3-e7f1e312b18d.jpg",
+    "Card Type": "Chant",
+    "backimage": "ed88c386-6026-495d-a49f-42f1fdc25d36.jpg",
+    "alternate1_Card Number": "ABC-SD07-019J",
+    "alternate1_name": "Berserker",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R|B",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Swiftness]\n[First Strike]\n[Pierce]\n[Bane]\nIf this card would deal damage to a J/resonator your opponent controls, it deals that much damage to that J/resonator and that J/resonator's controller instead. This card cannot deal more damage to that J/resonator's controller this way than it deals to that J/resonator.\n{R}: Recover this card.\n{B}: This card gains [Eternal] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "In a single moment, sanity turns into insanity.",
+    "alternate1_Artist": "J CREATION:Sadui",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1517",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "090 - Efreet vs Falchion (Efreet)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "ed88c386-6026-495d-a49f-42f1fdc25d36",
+    "alternate1_image": "ed88c386-6026-495d-a49f-42f1fdc25d36.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD07-020",
@@ -569,7 +589,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "6e4a3572-206c-4e1a-a75e-1c3f02cb9f84",
-    "image": "6e4a3572-206c-4e1a-a75e-1c3f02cb9f84.jpg"
+    "image": "6e4a3572-206c-4e1a-a75e-1c3f02cb9f84.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-021",
@@ -591,51 +612,53 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "53240ef5-053d-49b7-bf00-f1dee9a87c90",
-    "image": "53240ef5-053d-49b7-bf00-f1dee9a87c90.jpg"
+    "image": "53240ef5-053d-49b7-bf00-f1dee9a87c90.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "ABC-SD07-022",
-    "name": "Groundsplitter Rabbit",
-    "Type": "Resonator",
+    "Card Number": "ABC-SD07-022|ABC-SD07-022*",
+    "name": "Groundsplitter Rabbit // Split Heaven and Earth",
+    "Type": "Resonator|Chant",
     "Race": "Beast",
-    "Cost": "{R}",
+    "Cost": "{R}|{R}{R}",
     "Colour": "R",
     "ATK": "300",
     "DEF": "600",
-    "Abilities": "[Swiftness]\n[Pierce]\nIf this card would deal damage while it is damaged, it deals double that much instead.\n{R}: Beast J/resonators gain [+200/0] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "SR",
-    "Fowid": "None",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "090 - Efreet vs Falchion (Efreet)",
-    "Set Code": "ABC",
-    "id": "f9265666-fa88-4406-8af9-83745745d2c8",
-    "image": "f9265666-fa88-4406-8af9-83745745d2c8.jpg"
-  },
-  {
-    "Card Number": "ABC-SD07-022*",
-    "name": "Split Heaven and Earth",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{R}{R}",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "This card deals 300 damage to each player for each special magic stone they control.",
+    "Abilities": "[Swiftness]\n[Pierce]\nIf this card would deal damage while it is damaged, it deals double that much instead.\n{R}: Beast J/resonators gain [+200/0] until end of turn.|This card deals 300 damage to each player for each special magic stone they control.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Fushikaden K.K.",
     "Rarity": "SR",
-    "Fowid": "1456",
+    "Fowid": "None|1456",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
-    "id": "76bb0c9e-9ec0-4f4d-8099-d1ddc0f5f5fb",
-    "image": "76bb0c9e-9ec0-4f4d-8099-d1ddc0f5f5fb.jpg"
+    "id": "f9265666-fa88-4406-8af9-83745745d2c8",
+    "image": "f9265666-fa88-4406-8af9-83745745d2c8.jpg",
+    "Card Type": "Resonator",
+    "backimage": "76bb0c9e-9ec0-4f4d-8099-d1ddc0f5f5fb.jpg",
+    "alternate1_Card Number": "ABC-SD07-022*",
+    "alternate1_name": "Split Heaven and Earth",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{R}{R}",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "This card deals 300 damage to each player for each special magic stone they control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Fushikaden K.K.",
+    "alternate1_Rarity": "SR",
+    "alternate1_Fowid": "1456",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "090 - Efreet vs Falchion (Efreet)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "76bb0c9e-9ec0-4f4d-8099-d1ddc0f5f5fb",
+    "alternate1_image": "76bb0c9e-9ec0-4f4d-8099-d1ddc0f5f5fb.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-023",
@@ -657,7 +680,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "2889c07e-8257-4b42-ae55-00a30f870663",
-    "image": "2889c07e-8257-4b42-ae55-00a30f870663.jpg"
+    "image": "2889c07e-8257-4b42-ae55-00a30f870663.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-024",
@@ -679,7 +703,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "d1d40eb0-b431-4d56-8e7e-533df09cbab0",
-    "image": "d1d40eb0-b431-4d56-8e7e-533df09cbab0.jpg"
+    "image": "d1d40eb0-b431-4d56-8e7e-533df09cbab0.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-025",
@@ -701,7 +726,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "56959290-a956-41a0-9d19-bc1bb3c61bc3",
-    "image": "56959290-a956-41a0-9d19-bc1bb3c61bc3.jpg"
+    "image": "56959290-a956-41a0-9d19-bc1bb3c61bc3.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-026",
@@ -723,7 +749,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "46dd86be-5b8b-41fe-8457-006229c39779",
-    "image": "46dd86be-5b8b-41fe-8457-006229c39779.jpg"
+    "image": "46dd86be-5b8b-41fe-8457-006229c39779.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-027",
@@ -745,7 +772,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "481d9c1a-7f6f-4f45-a081-83375d6daa74",
-    "image": "481d9c1a-7f6f-4f45-a081-83375d6daa74.jpg"
+    "image": "481d9c1a-7f6f-4f45-a081-83375d6daa74.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD07-028",
@@ -767,7 +795,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "72e28860-0b18-4fdb-8ada-9efe0f60a274",
-    "image": "72e28860-0b18-4fdb-8ada-9efe0f60a274.jpg"
+    "image": "72e28860-0b18-4fdb-8ada-9efe0f60a274.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-029",
@@ -789,18 +818,19 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "63dbd07b-f8e7-4959-b326-daa4be8fae3c",
-    "image": "63dbd07b-f8e7-4959-b326-daa4be8fae3c.jpg"
+    "image": "63dbd07b-f8e7-4959-b326-daa4be8fae3c.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ABC-SD07-030",
-    "name": "Lilias Petal",
-    "Type": "Resonator",
+    "Card Number": "ABC-SD07-030|ABC-SD07-030*",
+    "name": "Lilias Petal // Awakening of the Nine-Tailed Fox",
+    "Type": "Resonator|Chant",
     "Race": "Human",
-    "Cost": "{B}",
+    "Cost": "{B}|{B}{B}{B}",
     "Colour": "B",
     "ATK": "400",
     "DEF": "400",
-    "Abilities": "[Quickcast]\n[Enter] ]]] Destroy target damaged J/resonator.\nWhen this card is put into the field by the effect of its \"Awakening of the Nine-Tailed Fox\" part ]]] Put nine [+100/+100] counters on this card.",
+    "Abilities": "[Quickcast]\n[Enter] ]]] Destroy target damaged J/resonator.\nWhen this card is put into the field by the effect of its \"Awakening of the Nine-Tailed Fox\" part ]]] Put nine [+100/+100] counters on this card.|[Quickcast]\nThis card deals 900 damage to each J/resonator. If you control three magic stones with different names, put this card's \"Lilias Petal\" part into the field instead of putting this card into its owner's graveyard.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -811,29 +841,30 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "e3fc2e1e-0591-4830-9385-95bd50f925a2",
-    "image": "e3fc2e1e-0591-4830-9385-95bd50f925a2.jpg"
-  },
-  {
-    "Card Number": "ABC-SD07-030*",
-    "name": "Awakening of the Nine-Tailed Fox",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{B}{B}{B}",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nThis card deals 900 damage to each J/resonator. If you control three magic stones with different names, put this card's \"Lilias Petal\" part into the field instead of putting this card into its owner's graveyard.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Kusanagi Tyouen",
-    "Rarity": "MR",
-    "Fowid": "5144",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "090 - Efreet vs Falchion (Efreet)",
-    "Set Code": "ABC",
-    "id": "2e3772f3-f546-48f7-aca0-db5ef097f41c",
-    "image": "2e3772f3-f546-48f7-aca0-db5ef097f41c.jpg"
+    "image": "e3fc2e1e-0591-4830-9385-95bd50f925a2.jpg",
+    "Card Type": "Resonator",
+    "backimage": "2e3772f3-f546-48f7-aca0-db5ef097f41c.jpg",
+    "alternate1_Card Number": "ABC-SD07-030*",
+    "alternate1_name": "Awakening of the Nine-Tailed Fox",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{B}{B}{B}",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nThis card deals 900 damage to each J/resonator. If you control three magic stones with different names, put this card's \"Lilias Petal\" part into the field instead of putting this card into its owner's graveyard.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Kusanagi Tyouen",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5144",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "090 - Efreet vs Falchion (Efreet)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "2e3772f3-f546-48f7-aca0-db5ef097f41c",
+    "alternate1_image": "2e3772f3-f546-48f7-aca0-db5ef097f41c.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-031",
@@ -855,7 +886,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "f6568f52-20db-48ba-899d-bcd1e0bd8a36",
-    "image": "f6568f52-20db-48ba-899d-bcd1e0bd8a36.jpg"
+    "image": "f6568f52-20db-48ba-899d-bcd1e0bd8a36.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-032",
@@ -877,7 +909,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "d7de333f-54e2-4ce6-a1ae-49246aaa9c30",
-    "image": "d7de333f-54e2-4ce6-a1ae-49246aaa9c30.jpg"
+    "image": "d7de333f-54e2-4ce6-a1ae-49246aaa9c30.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-033",
@@ -899,7 +932,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "b47d919b-6b96-433c-b51b-7d4b69d51050",
-    "image": "b47d919b-6b96-433c-b51b-7d4b69d51050.jpg"
+    "image": "b47d919b-6b96-433c-b51b-7d4b69d51050.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-034",
@@ -921,7 +955,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "5d031812-e10a-4438-830e-b9d7f79d7d1f",
-    "image": "5d031812-e10a-4438-830e-b9d7f79d7d1f.jpg"
+    "image": "5d031812-e10a-4438-830e-b9d7f79d7d1f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-035",
@@ -943,7 +978,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "5779f2a1-1c47-4942-b62b-2703215f1d81",
-    "image": "5779f2a1-1c47-4942-b62b-2703215f1d81.jpg"
+    "image": "5779f2a1-1c47-4942-b62b-2703215f1d81.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "ABC-SD07-036",
@@ -965,7 +1001,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "e14f706c-f065-454d-84b1-45236b402d38",
-    "image": "e14f706c-f065-454d-84b1-45236b402d38.jpg"
+    "image": "e14f706c-f065-454d-84b1-45236b402d38.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD07-037",
@@ -987,7 +1024,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "341cd059-07ef-4184-9990-ba7208b348b8",
-    "image": "341cd059-07ef-4184-9990-ba7208b348b8.jpg"
+    "image": "341cd059-07ef-4184-9990-ba7208b348b8.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-038",
@@ -1009,7 +1047,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "88868812-e5a5-4d63-9792-2f662dfce17e",
-    "image": "88868812-e5a5-4d63-9792-2f662dfce17e.jpg"
+    "image": "88868812-e5a5-4d63-9792-2f662dfce17e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-039",
@@ -1031,7 +1070,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "4fdb278e-a4df-4ad0-a89f-b88565907e42",
-    "image": "4fdb278e-a4df-4ad0-a89f-b88565907e42.jpg"
+    "image": "4fdb278e-a4df-4ad0-a89f-b88565907e42.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-040",
@@ -1053,7 +1093,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "b97f6a8a-7d6a-4920-b66a-0572df4ae7f2",
-    "image": "b97f6a8a-7d6a-4920-b66a-0572df4ae7f2.jpg"
+    "image": "b97f6a8a-7d6a-4920-b66a-0572df4ae7f2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-041",
@@ -1075,7 +1116,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "49ff9513-c38c-45e5-924f-161a98441a5f",
-    "image": "49ff9513-c38c-45e5-924f-161a98441a5f.jpg"
+    "image": "49ff9513-c38c-45e5-924f-161a98441a5f.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD07-042",
@@ -1097,7 +1139,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "4c421bcb-1242-4781-89d4-bdd51430fb21",
-    "image": "4c421bcb-1242-4781-89d4-bdd51430fb21.jpg"
+    "image": "4c421bcb-1242-4781-89d4-bdd51430fb21.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-043",
@@ -1119,7 +1162,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "d68b7927-29fb-4bda-9e22-343f87667215",
-    "image": "d68b7927-29fb-4bda-9e22-343f87667215.jpg"
+    "image": "d68b7927-29fb-4bda-9e22-343f87667215.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-044",
@@ -1141,7 +1185,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "5340bafa-acf7-4156-a18c-a0749c40991e",
-    "image": "5340bafa-acf7-4156-a18c-a0749c40991e.jpg"
+    "image": "5340bafa-acf7-4156-a18c-a0749c40991e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-045",
@@ -1163,7 +1208,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "d9fd568c-3913-4805-a522-9241ade99571",
-    "image": "d9fd568c-3913-4805-a522-9241ade99571.jpg"
+    "image": "d9fd568c-3913-4805-a522-9241ade99571.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD07-046",
@@ -1185,7 +1231,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "667b700e-79ac-4b54-8876-1541041a7212",
-    "image": "667b700e-79ac-4b54-8876-1541041a7212.jpg"
+    "image": "667b700e-79ac-4b54-8876-1541041a7212.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-047",
@@ -1207,7 +1254,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "fa74834c-c0b6-4763-b281-6a6101d38f46",
-    "image": "fa74834c-c0b6-4763-b281-6a6101d38f46.jpg"
+    "image": "fa74834c-c0b6-4763-b281-6a6101d38f46.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "ABC-SD07-048",
@@ -1229,7 +1277,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "7c3dfd98-922d-4aac-b476-039334283f3d",
-    "image": "7c3dfd98-922d-4aac-b476-039334283f3d.jpg"
+    "image": "7c3dfd98-922d-4aac-b476-039334283f3d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-049",
@@ -1251,7 +1300,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "aa561398-d9bc-419e-81eb-c15e4aa9663f",
-    "image": "aa561398-d9bc-419e-81eb-c15e4aa9663f.jpg"
+    "image": "aa561398-d9bc-419e-81eb-c15e4aa9663f.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD07-050",
@@ -1273,7 +1323,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "a148b24e-ea2b-4660-9460-f7a837fd28c3",
-    "image": "a148b24e-ea2b-4660-9460-f7a837fd28c3.jpg"
+    "image": "a148b24e-ea2b-4660-9460-f7a837fd28c3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-051",
@@ -1295,7 +1346,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "138235f2-7c32-4b21-8739-7d0c8a28b704",
-    "image": "138235f2-7c32-4b21-8739-7d0c8a28b704.jpg"
+    "image": "138235f2-7c32-4b21-8739-7d0c8a28b704.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-052",
@@ -1317,7 +1369,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "fe170e92-3027-4f54-a532-ce9ed21ec59f",
-    "image": "fe170e92-3027-4f54-a532-ce9ed21ec59f.jpg"
+    "image": "fe170e92-3027-4f54-a532-ce9ed21ec59f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD07-053",
@@ -1339,7 +1392,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "3943c426-936b-454f-b5bc-8ce8970dba9c",
-    "image": "3943c426-936b-454f-b5bc-8ce8970dba9c.jpg"
+    "image": "3943c426-936b-454f-b5bc-8ce8970dba9c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD07-054",
@@ -1361,7 +1415,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "0c22b06d-7687-448f-848d-9d736ed7f8c9",
-    "image": "0c22b06d-7687-448f-848d-9d736ed7f8c9.jpg"
+    "image": "0c22b06d-7687-448f-848d-9d736ed7f8c9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-055",
@@ -1383,7 +1438,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "bb063142-7cce-466b-990b-902a785199c1",
-    "image": "bb063142-7cce-466b-990b-902a785199c1.jpg"
+    "image": "bb063142-7cce-466b-990b-902a785199c1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-056",
@@ -1405,7 +1461,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "d193a022-81c6-45d3-b97c-1454dcb02b69",
-    "image": "d193a022-81c6-45d3-b97c-1454dcb02b69.jpg"
+    "image": "d193a022-81c6-45d3-b97c-1454dcb02b69.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD07-057",
@@ -1427,7 +1484,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "7422588d-5bb7-43ce-b2a5-9abbb99d7a6d",
-    "image": "7422588d-5bb7-43ce-b2a5-9abbb99d7a6d.jpg"
+    "image": "7422588d-5bb7-43ce-b2a5-9abbb99d7a6d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-058",
@@ -1449,7 +1507,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "1f735f47-d9f3-4274-ba41-fb98b7ed7e39",
-    "image": "1f735f47-d9f3-4274-ba41-fb98b7ed7e39.jpg"
+    "image": "1f735f47-d9f3-4274-ba41-fb98b7ed7e39.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-059",
@@ -1471,7 +1530,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "97ce2e8c-c3be-492a-abb1-407b54401d7e",
-    "image": "97ce2e8c-c3be-492a-abb1-407b54401d7e.jpg"
+    "image": "97ce2e8c-c3be-492a-abb1-407b54401d7e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-060",
@@ -1493,7 +1553,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "f4989909-cee3-4c3b-b144-26f02c7dca5c",
-    "image": "f4989909-cee3-4c3b-b144-26f02c7dca5c.jpg"
+    "image": "f4989909-cee3-4c3b-b144-26f02c7dca5c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD07-061",
@@ -1515,7 +1576,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "a79395af-ddcc-411d-b292-35e80be76f0e",
-    "image": "a79395af-ddcc-411d-b292-35e80be76f0e.jpg"
+    "image": "a79395af-ddcc-411d-b292-35e80be76f0e.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD07-062",
@@ -1537,7 +1599,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "1e9431ad-9313-4ced-8b83-444d36e08722",
-    "image": "1e9431ad-9313-4ced-8b83-444d36e08722.jpg"
+    "image": "1e9431ad-9313-4ced-8b83-444d36e08722.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD07-063",
@@ -1559,7 +1622,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "1d59d4ec-40a4-46cf-a9ce-ba1139045a3c",
-    "image": "1d59d4ec-40a4-46cf-a9ce-ba1139045a3c.jpg"
+    "image": "1d59d4ec-40a4-46cf-a9ce-ba1139045a3c.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD07-064",
@@ -1581,7 +1645,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "abe31977-f7dc-4285-921f-a6748dda08f1",
-    "image": "abe31977-f7dc-4285-921f-a6748dda08f1.jpg"
+    "image": "abe31977-f7dc-4285-921f-a6748dda08f1.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD07-065",
@@ -1603,7 +1668,8 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "a0544441-ba1e-4e59-a7e9-abf7e20663fd",
-    "image": "a0544441-ba1e-4e59-a7e9-abf7e20663fd.jpg"
+    "image": "a0544441-ba1e-4e59-a7e9-abf7e20663fd.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD07-066",
@@ -1625,6 +1691,7 @@
     "Set Name": "090 - Efreet vs Falchion (Efreet)",
     "Set Code": "ABC",
     "id": "7b4ca227-dc59-4a32-af20-41a3307d90a7",
-    "image": "7b4ca227-dc59-4a32-af20-41a3307d90a7.jpg"
+    "image": "7b4ca227-dc59-4a32-af20-41a3307d90a7.jpg",
+    "Card Type": "Special Magic Stone"
   }
 ]

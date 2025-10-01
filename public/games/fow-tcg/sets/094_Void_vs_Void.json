@@ -1,17 +1,17 @@
 [
   {
-    "Card Number": "ABC-SD11-000",
-    "name": "Arcana: Lord of Time",
-    "Type": "Ruler",
+    "Card Number": "ABC-SD11-000|ABC-SD11-000J",
+    "name": "Arcana: Lord of Time // Arcana: Devourer of the Void",
+    "Type": "Ruler|J-Ruler",
     "Race": "Arcana",
     "Cost": "",
     "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Convoke] {V}{V}\nYou can only have non-attribute cards and cards with \"This card has no attribute.\" in your deck.\nYou may have up to three non-attribute sub-rulers in your deck.\nYou may pay the attribute cost of resonators with \"This card has no attribute.\" with non-attribute will.\nGod's Art \"Time Reversal\" {0}: Heal an astral ruler you control. Play this ability only if you control an astral ruler named \"Arcana: Lord of Time\".\n[Judgment] {V}{V}{V}",
+    "ATK": "1200",
+    "DEF": "1200",
+    "Abilities": "[Convoke] {V}{V}\nYou can only have non-attribute cards and cards with \"This card has no attribute.\" in your deck.\nYou may have up to three non-attribute sub-rulers in your deck.\nYou may pay the attribute cost of resonators with \"This card has no attribute.\" with non-attribute will.\nGod's Art \"Time Reversal\" {0}: Heal an astral ruler you control. Play this ability only if you control an astral ruler named \"Arcana: Lord of Time\".\n[Judgment] {V}{V}{V}|[Convoke] {V}{V}\n[Pierce]\n[Imperishable]\nYou may pay the attribute cost of resonators with \"This card has no attribute.\" with non-attribute will.\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler or a sub-ruler, reveal it and put it into your hand, then shuffle your deck. Put a sub-ruler from your hand into your ruler area with three convoke counters on it.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Ignored by time, plots against every living being.",
+    "Flavour": "Ignored by time, plots against every living being.|\"We were here when everything started, and we will be here when everything ends.\" —Devourer of the Void",
     "Artist": "",
     "Rarity": "R",
     "Fowid": "",
@@ -19,43 +19,44 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "190fc094-09a9-44ed-ac66-a196720046a1",
-    "image": "190fc094-09a9-44ed-ac66-a196720046a1.jpg"
+    "image": "190fc094-09a9-44ed-ac66-a196720046a1.jpg",
+    "Card Type": "Ruler",
+    "backimage": "c389dd24-eda6-4d97-ae7f-8a6298354424.jpg",
+    "alternate1_Card Number": "ABC-SD11-000J",
+    "alternate1_name": "Arcana: Devourer of the Void",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Arcana",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Convoke] {V}{V}\n[Pierce]\n[Imperishable]\nYou may pay the attribute cost of resonators with \"This card has no attribute.\" with non-attribute will.\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler or a sub-ruler, reveal it and put it into your hand, then shuffle your deck. Put a sub-ruler from your hand into your ruler area with three convoke counters on it.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"We were here when everything started, and we will be here when everything ends.\" —Devourer of the Void",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "094 - Void vs Void",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "c389dd24-eda6-4d97-ae7f-8a6298354424",
+    "alternate1_image": "c389dd24-eda6-4d97-ae7f-8a6298354424.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD11-000J",
-    "name": "Arcana: Devourer of the Void",
-    "Type": "J-Ruler",
-    "Race": "Arcana",
+    "Card Number": "ABC-SD11-001|ABC-SD11-001J",
+    "name": "Dexia, The Prince in the XYZ Machine // Dexia, Everlasting of Twelve Sacred Knights",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Gears|Human|Prince|Ethereal|Prince|Twelve Sacred Knights",
     "Cost": "",
     "Colour": "V",
-    "ATK": "1200",
-    "DEF": "1200",
-    "Abilities": "[Convoke] {V}{V}\n[Pierce]\n[Imperishable]\nYou may pay the attribute cost of resonators with \"This card has no attribute.\" with non-attribute will.\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler or a sub-ruler, reveal it and put it into your hand, then shuffle your deck. Put a sub-ruler from your hand into your ruler area with three convoke counters on it.",
+    "ATK": "800",
+    "DEF": "800",
+    "Abilities": "You cannot use this card as your starting ruler.\n{X}: Search your deck for a non-attribute resonator with total cost X and put it into the field, then shuffle your deck. Play this ability only during your turn and only once per turn.\nAt the end of your turn ]]] Search your deck for a non-attribute card with total cost Y, reveal it and put it into your hand, where Y is the number of magic stones you control minus one, then shuffle your deck.\n[Judgment] {Z}, where Z is the number of magic stones you control minus one.|[Untouchable] [Flying] [Barrier] (Resonator)\nGod's Art \"Astral Projection\" {2}: Target a non-Arcana J/ruler. If the chosen target is a ruler with [Judgment], put an astral counter on it. It is now referred to as a ruler \"with astral condition\". If the chosen target is a J-ruler, it loses all abilities until end of turn, then destroy it.\nGod's Art \"Glory of the Twelve Sacred Knights\" {0}: Each player expels all resonators they control. You cannot play spells or abilities or until end of turn. Play this ability only during main timing, only if J/resonators you control haven't attacked this turn and only if you control two ore more J-rulers.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"We were here when everything started, and we will be here when everything ends.\" —Devourer of the Void",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "094 - Void vs Void",
-    "Set Code": "ABC",
-    "id": "c389dd24-eda6-4d97-ae7f-8a6298354424",
-    "image": "c389dd24-eda6-4d97-ae7f-8a6298354424.jpg"
-  },
-  {
-    "Card Number": "ABC-SD11-001",
-    "name": "Dexia, The Prince in the XYZ Machine",
-    "Type": "Ruler",
-    "Race": "Gears|Human|Prince",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "You cannot use this card as your starting ruler.\n{X}: Search your deck for a non-attribute resonator with total cost X and put it into the field, then shuffle your deck. Play this ability only during your turn and only once per turn.\nAt the end of your turn ]]] Search your deck for a non-attribute card with total cost Y, reveal it and put it into your hand, where Y is the number of magic stones you control minus one, then shuffle your deck.\n[Judgment] {Z}, where Z is the number of magic stones you control minus one.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The machine kept Dexia alive, but erased all his memories.",
+    "Flavour": "The machine kept Dexia alive, but erased all his memories.|\"It is my duty! As a knight, as a twin brother!\"",
     "Artist": "",
     "Rarity": "R",
     "Fowid": "",
@@ -63,29 +64,30 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "06242226-6c2b-4421-b1ff-d21ca275f21d",
-    "image": "06242226-6c2b-4421-b1ff-d21ca275f21d.jpg"
-  },
-  {
-    "Card Number": "ABC-SD11-001J",
-    "name": "Dexia, Everlasting of Twelve Sacred Knights",
-    "Type": "J-Ruler",
-    "Race": "Ethereal|Prince|Twelve Sacred Knights",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "[Untouchable] [Flying] [Barrier] (Resonator)\nGod's Art \"Astral Projection\" {2}: Target a non-Arcana J/ruler. If the chosen target is a ruler with [Judgment], put an astral counter on it. It is now referred to as a ruler \"with astral condition\". If the chosen target is a J-ruler, it loses all abilities until end of turn, then destroy it.\nGod's Art \"Glory of the Twelve Sacred Knights\" {0}: Each player expels all resonators they control. You cannot play spells or abilities or until end of turn. Play this ability only during main timing, only if J/resonators you control haven't attacked this turn and only if you control two ore more J-rulers.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"It is my duty! As a knight, as a twin brother!\"",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "094 - Void vs Void",
-    "Set Code": "ABC",
-    "id": "9b22589a-d7b0-421c-9897-2b57aeccc5db",
-    "image": "9b22589a-d7b0-421c-9897-2b57aeccc5db.jpg"
+    "image": "06242226-6c2b-4421-b1ff-d21ca275f21d.jpg",
+    "Card Type": "Ruler",
+    "backimage": "9b22589a-d7b0-421c-9897-2b57aeccc5db.jpg",
+    "alternate1_Card Number": "ABC-SD11-001J",
+    "alternate1_name": "Dexia, Everlasting of Twelve Sacred Knights",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Ethereal|Prince|Twelve Sacred Knights",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Untouchable] [Flying] [Barrier] (Resonator)\nGod's Art \"Astral Projection\" {2}: Target a non-Arcana J/ruler. If the chosen target is a ruler with [Judgment], put an astral counter on it. It is now referred to as a ruler \"with astral condition\". If the chosen target is a J-ruler, it loses all abilities until end of turn, then destroy it.\nGod's Art \"Glory of the Twelve Sacred Knights\" {0}: Each player expels all resonators they control. You cannot play spells or abilities or until end of turn. Play this ability only during main timing, only if J/resonators you control haven't attacked this turn and only if you control two ore more J-rulers.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"It is my duty! As a knight, as a twin brother!\"",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "094 - Void vs Void",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "9b22589a-d7b0-421c-9897-2b57aeccc5db",
+    "alternate1_image": "9b22589a-d7b0-421c-9897-2b57aeccc5db.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD11-002",
@@ -107,51 +109,53 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "c55d3e4e-8ae3-4ff0-a61d-4db9872ee27b",
-    "image": "c55d3e4e-8ae3-4ff0-a61d-4db9872ee27b.jpg"
+    "image": "c55d3e4e-8ae3-4ff0-a61d-4db9872ee27b.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "ABC-SD11-003",
-    "name": "Machina, the Machine Lord",
-    "Type": "Ruler",
-    "Race": "Seven Kings",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{X}: Search your deck for a non-attribute addition or resonator with total cost X or less, reveal it and put it into your hand, then shuffle your deck. Play this ability only once per turn.\n[Judgment] {4}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The ruler of Leginus and creator of all the machines. He's managed to create a nearly infinite source of energy thanks to the magic stones. He has no interest in anything other than his research. He considers the entire world his personal laboratory.",
-    "Artist": "るみえ",
-    "Rarity": "R",
-    "Fowid": "740",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "094 - Void vs Void",
-    "Set Code": "ABC",
-    "id": "be231c66-eec8-44b6-918c-ebd1779d0ef7",
-    "image": "be231c66-eec8-44b6-918c-ebd1779d0ef7.jpg"
-  },
-  {
-    "Card Number": "ABC-SD11-003J",
-    "name": "Machina, the Mechanical Emperor",
-    "Type": "J-Ruler",
+    "Card Number": "ABC-SD11-003|ABC-SD11-003J",
+    "name": "Machina, the Machine Lord // Machina, the Mechanical Emperor",
+    "Type": "Ruler|J-Ruler",
     "Race": "Seven Kings",
     "Cost": "",
     "Colour": "V",
     "ATK": "800",
     "DEF": "800",
-    "Abilities": "[Enter] ]]] Put up to three non-attribute resonators or additions from your hand into the field.\nBanish a non-attribute resonator: Prevent all damage that would be dealt to this card until end of turn.\nGod's Art \"Invincible Soldiers\" {3}: Non-attribute resonators you control gain [Eternal] until end of turn.",
+    "Abilities": "{X}: Search your deck for a non-attribute addition or resonator with total cost X or less, reveal it and put it into your hand, then shuffle your deck. Play this ability only once per turn.\n[Judgment] {4}|[Enter] ]]] Put up to three non-attribute resonators or additions from your hand into the field.\nBanish a non-attribute resonator: Prevent all damage that would be dealt to this card until end of turn.\nGod's Art \"Invincible Soldiers\" {3}: Non-attribute resonators you control gain [Eternal] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Go Marybell, with this fight we'll test your abilities.\"",
+    "Flavour": "The ruler of Leginus and creator of all the machines. He's managed to create a nearly infinite source of energy thanks to the magic stones. He has no interest in anything other than his research. He considers the entire world his personal laboratory.|\"Go Marybell, with this fight we'll test your abilities.\"",
     "Artist": "るみえ",
     "Rarity": "R",
-    "Fowid": "741",
+    "Fowid": "740|741",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
-    "id": "03d1905b-d578-42f5-86b2-8a5855236e6e",
-    "image": "03d1905b-d578-42f5-86b2-8a5855236e6e.jpg"
+    "id": "be231c66-eec8-44b6-918c-ebd1779d0ef7",
+    "image": "be231c66-eec8-44b6-918c-ebd1779d0ef7.jpg",
+    "Card Type": "Ruler",
+    "backimage": "03d1905b-d578-42f5-86b2-8a5855236e6e.jpg",
+    "alternate1_Card Number": "ABC-SD11-003J",
+    "alternate1_name": "Machina, the Mechanical Emperor",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Kings",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Enter] ]]] Put up to three non-attribute resonators or additions from your hand into the field.\nBanish a non-attribute resonator: Prevent all damage that would be dealt to this card until end of turn.\nGod's Art \"Invincible Soldiers\" {3}: Non-attribute resonators you control gain [Eternal] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Go Marybell, with this fight we'll test your abilities.\"",
+    "alternate1_Artist": "るみえ",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "741",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "094 - Void vs Void",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "03d1905b-d578-42f5-86b2-8a5855236e6e",
+    "alternate1_image": "03d1905b-d578-42f5-86b2-8a5855236e6e.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD11-004",
@@ -173,7 +177,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "bba536bc-8ceb-4494-a00f-d879af456fb2",
-    "image": "bba536bc-8ceb-4494-a00f-d879af456fb2.jpg"
+    "image": "bba536bc-8ceb-4494-a00f-d879af456fb2.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "ABC-SD11-005",
@@ -195,7 +200,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "9e69239e-2475-4c75-80bc-fb611a618904",
-    "image": "9e69239e-2475-4c75-80bc-fb611a618904.jpg"
+    "image": "9e69239e-2475-4c75-80bc-fb611a618904.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD11-006",
@@ -217,51 +223,53 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "8ecfc57e-608d-4440-ae2c-ef25b1749c05",
-    "image": "8ecfc57e-608d-4440-ae2c-ef25b1749c05.jpg"
+    "image": "8ecfc57e-608d-4440-ae2c-ef25b1749c05.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "ABC-SD11-007",
-    "name": "Attack Order",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "ABC-SD11-007|ABC-SD11-007J",
+    "name": "Attack Order // Genocider",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Gears",
     "Cost": "{1}",
     "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nDestroy target J/resonator with total cost 2 or less. If you control a Treasury Item entity, contract this card with \"Imitation: Cain\".",
+    "ATK": "400",
+    "DEF": "400",
+    "Abilities": "[Quickcast]\nDestroy target J/resonator with total cost 2 or less. If you control a Treasury Item entity, contract this card with \"Imitation: Cain\".|[Precision]\n[Flying]\nThis card has \"Imitation: Cain\" in addition to its other names.\nGears J-rulers you control gain [+200/+200] for each Treasury Item entity you control.\nWhenever this card attacks ]]] Your opponent banishes a resonator.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "\"…Attack.\" ーTsuki-hime, Gears Princess of the Moon",
-    "Artist": "muranako",
+    "Artist": "muranako|ISHIDA VAL",
     "Rarity": "R",
     "Fowid": "None",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "99b42873-a92a-46ec-918a-1f6ec798aaab",
-    "image": "99b42873-a92a-46ec-918a-1f6ec798aaab.jpg"
-  },
-  {
-    "Card Number": "ABC-SD11-007J",
-    "name": "Genocider",
-    "Type": "J-Ruler",
-    "Race": "Gears",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "400",
-    "DEF": "400",
-    "Abilities": "[Precision]\n[Flying]\nThis card has \"Imitation: Cain\" in addition to its other names.\nGears J-rulers you control gain [+200/+200] for each Treasury Item entity you control.\nWhenever this card attacks ]]] Your opponent banishes a resonator.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "ISHIDA VAL",
-    "Rarity": "R",
-    "Fowid": "None",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "094 - Void vs Void",
-    "Set Code": "ABC",
-    "id": "6442e1f1-2e69-4e58-ab9e-d2852e12cb79",
-    "image": "6442e1f1-2e69-4e58-ab9e-d2852e12cb79.jpg"
+    "image": "99b42873-a92a-46ec-918a-1f6ec798aaab.jpg",
+    "Card Type": "Chant",
+    "backimage": "6442e1f1-2e69-4e58-ab9e-d2852e12cb79.jpg",
+    "alternate1_Card Number": "ABC-SD11-007J",
+    "alternate1_name": "Genocider",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Gears",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "400",
+    "alternate1_DEF": "400",
+    "alternate1_Abilities": "[Precision]\n[Flying]\nThis card has \"Imitation: Cain\" in addition to its other names.\nGears J-rulers you control gain [+200/+200] for each Treasury Item entity you control.\nWhenever this card attacks ]]] Your opponent banishes a resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "ISHIDA VAL",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "None",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "094 - Void vs Void",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "6442e1f1-2e69-4e58-ab9e-d2852e12cb79",
+    "alternate1_image": "6442e1f1-2e69-4e58-ab9e-d2852e12cb79.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD11-008",
@@ -283,51 +291,53 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "bf16c05b-95fa-4e31-9538-82c067a23e01",
-    "image": "bf16c05b-95fa-4e31-9538-82c067a23e01.jpg"
+    "image": "bf16c05b-95fa-4e31-9538-82c067a23e01.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ABC-SD11-009",
-    "name": "Attoractia, Dimension of the Seven Kings",
-    "Type": "Regalia",
+    "Card Number": "ABC-SD11-009|ABC-SD11-009*",
+    "name": "Attoractia, Dimension of the Seven Kings // Illusory Demonic Globe, Attoractia",
+    "Type": "Regalia|Regalia (Shift)",
     "Race": "",
-    "Cost": "{2}",
+    "Cost": "{2}|{7}",
     "Colour": "V",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Shift] {7}\n[Enter] ]]] Draw a card.",
+    "Abilities": "[Shift] {7}\n[Enter] ]]] Draw a card.|{Rest}: Choose one; \n- Remove target resonator, addition, or regalia with one or more attributes from the game if it doesn't share an attribute with a card in any removed area that was removed by this card.\n- Remove target non-attribute resonator, addition, or regalia from the game if there are no non-attribute cards that were removed by this card in any removed area.\n{Rest}, put six cards in any removed area that were removed by this card into their owner's graveyard: You win the game.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Attoractia, a name that shall be but a footnote in the legacy of my reign.\" —Interdimensional Monarch, Gill Lapis",
+    "Flavour": "\"Attoractia, a name that shall be but a footnote in the legacy of my reign.\" —Interdimensional Monarch, Gill Lapis|\"I may have lost Earth, but it matters little. This planet will make a fine replacement.\" —Space-Time Pursuer, Gill Lapis",
     "Artist": "ひがし",
     "Rarity": "SR",
-    "Fowid": "1071",
+    "Fowid": "1071|1072",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "bc7d27e4-b5f6-49fd-839e-c1c40e1e7d4f",
-    "image": "bc7d27e4-b5f6-49fd-839e-c1c40e1e7d4f.jpg"
-  },
-  {
-    "Card Number": "ABC-SD11-009*",
-    "name": "Illusory Demonic Globe, Attoractia",
-    "Type": "Regalia (Shift)",
-    "Race": "",
-    "Cost": "{7}",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{Rest}: Choose one; \n- Remove target resonator, addition, or regalia with one or more attributes from the game if it doesn't share an attribute with a card in any removed area that was removed by this card.\n- Remove target non-attribute resonator, addition, or regalia from the game if there are no non-attribute cards that were removed by this card in any removed area.\n{Rest}, put six cards in any removed area that were removed by this card into their owner's graveyard: You win the game.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"I may have lost Earth, but it matters little. This planet will make a fine replacement.\" —Space-Time Pursuer, Gill Lapis",
-    "Artist": "ひがし",
-    "Rarity": "SR",
-    "Fowid": "1072",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "094 - Void vs Void",
-    "Set Code": "ABC",
-    "id": "35f56325-21d7-40bd-877e-ff787772056a",
-    "image": "35f56325-21d7-40bd-877e-ff787772056a.jpg"
+    "image": "bc7d27e4-b5f6-49fd-839e-c1c40e1e7d4f.jpg",
+    "Card Type": "Regalia",
+    "backimage": "35f56325-21d7-40bd-877e-ff787772056a.jpg",
+    "alternate1_Card Number": "ABC-SD11-009*",
+    "alternate1_name": "Illusory Demonic Globe, Attoractia",
+    "alternate1_Type": "Regalia (Shift)",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{7}",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "{Rest}: Choose one; \n- Remove target resonator, addition, or regalia with one or more attributes from the game if it doesn't share an attribute with a card in any removed area that was removed by this card.\n- Remove target non-attribute resonator, addition, or regalia from the game if there are no non-attribute cards that were removed by this card in any removed area.\n{Rest}, put six cards in any removed area that were removed by this card into their owner's graveyard: You win the game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I may have lost Earth, but it matters little. This planet will make a fine replacement.\" —Space-Time Pursuer, Gill Lapis",
+    "alternate1_Artist": "ひがし",
+    "alternate1_Rarity": "SR",
+    "alternate1_Fowid": "1072",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "094 - Void vs Void",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "35f56325-21d7-40bd-877e-ff787772056a",
+    "alternate1_image": "35f56325-21d7-40bd-877e-ff787772056a.jpg",
+    "alternate1_Card Type": "Regalia (Shift)"
   },
   {
     "Card Number": "ABC-SD11-010",
@@ -349,7 +359,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "8a05ec7e-66af-4d11-a8bd-61fbb98702c5",
-    "image": "8a05ec7e-66af-4d11-a8bd-61fbb98702c5.jpg"
+    "image": "8a05ec7e-66af-4d11-a8bd-61fbb98702c5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-011",
@@ -371,7 +382,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "a7cc290e-8ba6-4e61-8f12-036b0e38609a",
-    "image": "a7cc290e-8ba6-4e61-8f12-036b0e38609a.jpg"
+    "image": "a7cc290e-8ba6-4e61-8f12-036b0e38609a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-012",
@@ -393,7 +405,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "0265eb38-7118-4f34-af82-f769d6e5f53a",
-    "image": "0265eb38-7118-4f34-af82-f769d6e5f53a.jpg"
+    "image": "0265eb38-7118-4f34-af82-f769d6e5f53a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-013",
@@ -415,7 +428,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "a5e94332-bdbc-46ec-b5c7-aa9e82f1bcfe",
-    "image": "a5e94332-bdbc-46ec-b5c7-aa9e82f1bcfe.jpg"
+    "image": "a5e94332-bdbc-46ec-b5c7-aa9e82f1bcfe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-014",
@@ -437,7 +451,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "09cbfdaf-18bf-4e97-a807-f37cc56dfd9c",
-    "image": "09cbfdaf-18bf-4e97-a807-f37cc56dfd9c.jpg"
+    "image": "09cbfdaf-18bf-4e97-a807-f37cc56dfd9c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-015",
@@ -459,7 +474,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "905833ad-a4a6-4d96-a6e3-f38fa382162c",
-    "image": "905833ad-a4a6-4d96-a6e3-f38fa382162c.jpg"
+    "image": "905833ad-a4a6-4d96-a6e3-f38fa382162c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-016",
@@ -481,7 +497,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "78bca315-e359-4a9f-8da2-7d2b58d62425",
-    "image": "78bca315-e359-4a9f-8da2-7d2b58d62425.jpg"
+    "image": "78bca315-e359-4a9f-8da2-7d2b58d62425.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-017",
@@ -503,7 +520,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "2eb94202-423f-4d99-a599-bde02a138553",
-    "image": "2eb94202-423f-4d99-a599-bde02a138553.jpg"
+    "image": "2eb94202-423f-4d99-a599-bde02a138553.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-018",
@@ -525,7 +543,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "d1b45117-8dd8-4521-b1af-09c26e9cbe59",
-    "image": "d1b45117-8dd8-4521-b1af-09c26e9cbe59.jpg"
+    "image": "d1b45117-8dd8-4521-b1af-09c26e9cbe59.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-019",
@@ -547,7 +566,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "d17cbd2b-c956-408d-afa7-ea81747cf9aa",
-    "image": "d17cbd2b-c956-408d-afa7-ea81747cf9aa.jpg"
+    "image": "d17cbd2b-c956-408d-afa7-ea81747cf9aa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-020",
@@ -569,7 +589,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "6fb5b518-1e46-443f-8e8d-c81bf54f1fd7",
-    "image": "6fb5b518-1e46-443f-8e8d-c81bf54f1fd7.jpg"
+    "image": "6fb5b518-1e46-443f-8e8d-c81bf54f1fd7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-021",
@@ -591,7 +612,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "8e157be4-9075-48f1-aee1-650d10fa6cf4",
-    "image": "8e157be4-9075-48f1-aee1-650d10fa6cf4.jpg"
+    "image": "8e157be4-9075-48f1-aee1-650d10fa6cf4.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "ABC-SD11-022",
@@ -613,7 +635,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "e179b3f9-d2ff-4d87-95cc-078b69bee25e",
-    "image": "e179b3f9-d2ff-4d87-95cc-078b69bee25e.jpg"
+    "image": "e179b3f9-d2ff-4d87-95cc-078b69bee25e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-023",
@@ -635,7 +658,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "e52e1756-9c2f-472b-aa85-09ec1edd2b51",
-    "image": "e52e1756-9c2f-472b-aa85-09ec1edd2b51.jpg"
+    "image": "e52e1756-9c2f-472b-aa85-09ec1edd2b51.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-024",
@@ -657,7 +681,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "5c23c720-20ed-4ed8-8e49-dc5d2cbeb342",
-    "image": "5c23c720-20ed-4ed8-8e49-dc5d2cbeb342.jpg"
+    "image": "5c23c720-20ed-4ed8-8e49-dc5d2cbeb342.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD11-025",
@@ -679,7 +704,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "139d5fb5-463f-4956-ac70-d0d03ece6879",
-    "image": "139d5fb5-463f-4956-ac70-d0d03ece6879.jpg"
+    "image": "139d5fb5-463f-4956-ac70-d0d03ece6879.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "ABC-SD11-026",
@@ -701,7 +727,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "b483fd64-6d8e-45b1-92c4-faa4b3f5555d",
-    "image": "b483fd64-6d8e-45b1-92c4-faa4b3f5555d.jpg"
+    "image": "b483fd64-6d8e-45b1-92c4-faa4b3f5555d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD11-027",
@@ -723,7 +750,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "fc6ae87e-2153-49c8-b1da-0b5560a734b6",
-    "image": "fc6ae87e-2153-49c8-b1da-0b5560a734b6.jpg"
+    "image": "fc6ae87e-2153-49c8-b1da-0b5560a734b6.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD11-028",
@@ -745,7 +773,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "7f463617-b83f-4605-9d9f-4da66f06b752",
-    "image": "7f463617-b83f-4605-9d9f-4da66f06b752.jpg"
+    "image": "7f463617-b83f-4605-9d9f-4da66f06b752.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-029",
@@ -767,7 +796,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "d00c1b8f-a6c3-4877-9a94-5c4cf0485ac4",
-    "image": "d00c1b8f-a6c3-4877-9a94-5c4cf0485ac4.jpg"
+    "image": "d00c1b8f-a6c3-4877-9a94-5c4cf0485ac4.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "ABC-SD11-030",
@@ -789,7 +819,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "7f40ff61-babd-4391-ab17-973de7fa7bd0",
-    "image": "7f40ff61-babd-4391-ab17-973de7fa7bd0.jpg"
+    "image": "7f40ff61-babd-4391-ab17-973de7fa7bd0.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD11-031",
@@ -811,7 +842,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "0d417522-88e6-4333-83ce-f4fdaa8e74c7",
-    "image": "0d417522-88e6-4333-83ce-f4fdaa8e74c7.jpg"
+    "image": "0d417522-88e6-4333-83ce-f4fdaa8e74c7.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD11-032",
@@ -833,7 +865,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "afc6bde2-8f9f-495c-8c57-845f7e7d45b8",
-    "image": "afc6bde2-8f9f-495c-8c57-845f7e7d45b8.jpg"
+    "image": "afc6bde2-8f9f-495c-8c57-845f7e7d45b8.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD11-033",
@@ -855,7 +888,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "4cfd2f70-7d5a-4222-841c-e8a6f8ba7f5d",
-    "image": "4cfd2f70-7d5a-4222-841c-e8a6f8ba7f5d.jpg"
+    "image": "4cfd2f70-7d5a-4222-841c-e8a6f8ba7f5d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD11-034",
@@ -877,7 +911,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "84eb029c-a34a-482b-ae93-a9c729011592",
-    "image": "84eb029c-a34a-482b-ae93-a9c729011592.jpg"
+    "image": "84eb029c-a34a-482b-ae93-a9c729011592.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD11-035",
@@ -899,7 +934,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "202b5c18-4d5d-4404-9579-bc6475fbbe77",
-    "image": "202b5c18-4d5d-4404-9579-bc6475fbbe77.jpg"
+    "image": "202b5c18-4d5d-4404-9579-bc6475fbbe77.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD11-036",
@@ -921,7 +957,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "899e5531-0c35-4220-bd2d-4ec9cc6fa720",
-    "image": "899e5531-0c35-4220-bd2d-4ec9cc6fa720.jpg"
+    "image": "899e5531-0c35-4220-bd2d-4ec9cc6fa720.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-037",
@@ -943,7 +980,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "63a3dfa5-7888-4b45-bdc5-114d7097ab24",
-    "image": "63a3dfa5-7888-4b45-bdc5-114d7097ab24.jpg"
+    "image": "63a3dfa5-7888-4b45-bdc5-114d7097ab24.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD11-038",
@@ -965,7 +1003,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "caabec44-6518-4ad8-8631-3bf6dd121e69",
-    "image": "caabec44-6518-4ad8-8631-3bf6dd121e69.jpg"
+    "image": "caabec44-6518-4ad8-8631-3bf6dd121e69.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD11-039",
@@ -987,7 +1026,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "093fb108-c06d-43ff-af32-7a94e9a81f97",
-    "image": "093fb108-c06d-43ff-af32-7a94e9a81f97.jpg"
+    "image": "093fb108-c06d-43ff-af32-7a94e9a81f97.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-040",
@@ -1009,7 +1049,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "40e43f57-5fcd-46e4-ab8b-d039beeecadf",
-    "image": "40e43f57-5fcd-46e4-ab8b-d039beeecadf.jpg"
+    "image": "40e43f57-5fcd-46e4-ab8b-d039beeecadf.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD11-041",
@@ -1031,7 +1072,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "118af703-c971-4958-b921-e488ebdd78b3",
-    "image": "118af703-c971-4958-b921-e488ebdd78b3.jpg"
+    "image": "118af703-c971-4958-b921-e488ebdd78b3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-042",
@@ -1053,7 +1095,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "f053decb-d2b5-4a8f-a9d8-ce017db98091",
-    "image": "f053decb-d2b5-4a8f-a9d8-ce017db98091.jpg"
+    "image": "f053decb-d2b5-4a8f-a9d8-ce017db98091.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-043",
@@ -1075,7 +1118,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "d6e4f601-d40f-476b-932e-20299e279d11",
-    "image": "d6e4f601-d40f-476b-932e-20299e279d11.jpg"
+    "image": "d6e4f601-d40f-476b-932e-20299e279d11.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD11-044",
@@ -1097,7 +1141,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "59c4ae46-156d-4c13-9963-3697c234559e",
-    "image": "59c4ae46-156d-4c13-9963-3697c234559e.jpg"
+    "image": "59c4ae46-156d-4c13-9963-3697c234559e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-045",
@@ -1119,7 +1164,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "b39f11ed-000e-4905-9baa-a7b772346e0c",
-    "image": "b39f11ed-000e-4905-9baa-a7b772346e0c.jpg"
+    "image": "b39f11ed-000e-4905-9baa-a7b772346e0c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-046",
@@ -1141,7 +1187,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "5b4f9ab5-1422-43de-8546-30426af74e42",
-    "image": "5b4f9ab5-1422-43de-8546-30426af74e42.jpg"
+    "image": "5b4f9ab5-1422-43de-8546-30426af74e42.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD11-047",
@@ -1163,7 +1210,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "9f5e43f7-fd62-463d-885d-d7945760da97",
-    "image": "9f5e43f7-fd62-463d-885d-d7945760da97.jpg"
+    "image": "9f5e43f7-fd62-463d-885d-d7945760da97.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-048",
@@ -1185,7 +1233,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "48d1bbe8-ef21-49f7-b85e-98c2bbe17434",
-    "image": "48d1bbe8-ef21-49f7-b85e-98c2bbe17434.jpg"
+    "image": "48d1bbe8-ef21-49f7-b85e-98c2bbe17434.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD11-049",
@@ -1207,7 +1256,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "6f2b7341-5138-40d3-81d7-f74116522d55",
-    "image": "6f2b7341-5138-40d3-81d7-f74116522d55.jpg"
+    "image": "6f2b7341-5138-40d3-81d7-f74116522d55.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD11-050",
@@ -1229,7 +1279,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "0f67508c-058f-4e88-bc3a-51a42e543818",
-    "image": "0f67508c-058f-4e88-bc3a-51a42e543818.jpg"
+    "image": "0f67508c-058f-4e88-bc3a-51a42e543818.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD11-051",
@@ -1251,51 +1302,53 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "e5a7a953-9cca-4b51-a75c-8507b65ca5b2",
-    "image": "e5a7a953-9cca-4b51-a75c-8507b65ca5b2.jpg"
+    "image": "e5a7a953-9cca-4b51-a75c-8507b65ca5b2.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "ABC-SD11-052",
-    "name": "The Flight of the Demon Sword",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "ABC-SD11-052|ABC-SD11-052J",
+    "name": "The Flight of the Demon Sword // Laevateinn Chronogear",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Chronogear|Gears",
     "Cost": "{1}",
     "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nPlay this card only if you will pay its cost with will produced by Gears entities.\nDestroy target non-magic stone entity. If you control in the field and own revealed outside the game seven Gears cards, contract this card with \"Eins\".",
+    "ATK": "1700",
+    "DEF": "1700",
+    "Abilities": "[Quickcast]\nPlay this card only if you will pay its cost with will produced by Gears entities.\nDestroy target non-magic stone entity. If you control in the field and own revealed outside the game seven Gears cards, contract this card with \"Eins\".|[Enter] ]]] Put any number of Gears cards you own revealed outside the game that don't share a name into the field.\nWhenever this card attacks ]]] Destroy target non-magic stone entity.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "At Eins' command, the demon sword took off at incredible speed and flew to Cocoon.",
+    "Flavour": "At Eins' command, the demon sword took off at incredible speed and flew to Cocoon.|Under contract, this demon sword becomes the ultimate battle evolution of Gears.",
     "Artist": "muranako",
-    "Rarity": "SR",
-    "Fowid": "1497",
+    "Rarity": "SR|R",
+    "Fowid": "1497|1498",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "ecb26dfb-f002-4830-8cef-732bf8bb1949",
-    "image": "ecb26dfb-f002-4830-8cef-732bf8bb1949.jpg"
-  },
-  {
-    "Card Number": "ABC-SD11-052J",
-    "name": "Laevateinn Chronogear",
-    "Type": "J-Ruler",
-    "Race": "Chronogear|Gears",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "1700",
-    "DEF": "1700",
-    "Abilities": "[Enter] ]]] Put any number of Gears cards you own revealed outside the game that don't share a name into the field.\nWhenever this card attacks ]]] Destroy target non-magic stone entity.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Under contract, this demon sword becomes the ultimate battle evolution of Gears.",
-    "Artist": "muranako",
-    "Rarity": "R",
-    "Fowid": "1498",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "094 - Void vs Void",
-    "Set Code": "ABC",
-    "id": "4a6513b3-b658-4a7e-8c4e-e137489b9584",
-    "image": "4a6513b3-b658-4a7e-8c4e-e137489b9584.jpg"
+    "image": "ecb26dfb-f002-4830-8cef-732bf8bb1949.jpg",
+    "Card Type": "Chant",
+    "backimage": "4a6513b3-b658-4a7e-8c4e-e137489b9584.jpg",
+    "alternate1_Card Number": "ABC-SD11-052J",
+    "alternate1_name": "Laevateinn Chronogear",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Chronogear|Gears",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1700",
+    "alternate1_DEF": "1700",
+    "alternate1_Abilities": "[Enter] ]]] Put any number of Gears cards you own revealed outside the game that don't share a name into the field.\nWhenever this card attacks ]]] Destroy target non-magic stone entity.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Under contract, this demon sword becomes the ultimate battle evolution of Gears.",
+    "alternate1_Artist": "muranako",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1498",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "094 - Void vs Void",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "4a6513b3-b658-4a7e-8c4e-e137489b9584",
+    "alternate1_image": "4a6513b3-b658-4a7e-8c4e-e137489b9584.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD11-053",
@@ -1317,7 +1370,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "25247d15-bcca-4285-a8dd-57ffd2c95c5a",
-    "image": "25247d15-bcca-4285-a8dd-57ffd2c95c5a.jpg"
+    "image": "25247d15-bcca-4285-a8dd-57ffd2c95c5a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-054",
@@ -1339,7 +1393,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "02661a9a-7295-4b90-95f6-ddbe3d3cb4da",
-    "image": "02661a9a-7295-4b90-95f6-ddbe3d3cb4da.jpg"
+    "image": "02661a9a-7295-4b90-95f6-ddbe3d3cb4da.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-055",
@@ -1361,7 +1416,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "4456aef4-86aa-4314-ab84-743a72cdda61",
-    "image": "4456aef4-86aa-4314-ab84-743a72cdda61.jpg"
+    "image": "4456aef4-86aa-4314-ab84-743a72cdda61.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-056",
@@ -1383,7 +1439,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "fb5535c9-7eb5-406b-94d3-5abb322e61d3",
-    "image": "fb5535c9-7eb5-406b-94d3-5abb322e61d3.jpg"
+    "image": "fb5535c9-7eb5-406b-94d3-5abb322e61d3.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD11-057",
@@ -1405,51 +1462,53 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "75ed1caa-02f4-4c12-afb1-dd857a77dcb1",
-    "image": "75ed1caa-02f4-4c12-afb1-dd857a77dcb1.jpg"
+    "image": "75ed1caa-02f4-4c12-afb1-dd857a77dcb1.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ABC-SD11-058",
-    "name": "Twin Deathscythe, Severing Scythe",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "ABC-SD11-058|ABC-SD11-058J",
+    "name": "Twin Deathscythe, Severing Scythe // Deathscythe Chronogear",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Chronogear|Gears",
     "Cost": "{2}",
     "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nPlay this card only if you will pay its cost with will produced by Gears entities.\nCancel target spell or activate or automatic ability with one or more attributes. If you do, contract this card with \"Sechs\". If you control an entity named \"Deathscythe Chronogear\", contract this card with \"Neun\" instead.",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Quickcast]\nPlay this card only if you will pay its cost with will produced by Gears entities.\nCancel target spell or activate or automatic ability with one or more attributes. If you do, contract this card with \"Sechs\". If you control an entity named \"Deathscythe Chronogear\", contract this card with \"Neun\" instead.|[Flying]\nJ/resonators your opponent controls lose all abilities.\nThis card gains [+1000/+1000] and [Barrier] as long as you control two entities named \"Deathscythe Chronogear\".\n{3}: Destroy target J/resonator. You pay {1} less to play this ability for each entity you control named \"Deathscythe Chronogear\". Play this ability only once per turn.\n[Enter] ]]] Search your deck for up to nine cards and remove them from the game, then shuffle your deck. If you removed cards with a total of nine different card names this way, take an extra turn after this one. This ability only triggers if you control two entities named \"Deathscythe Chronogear\".",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "Its scythe cuts through space and destroys those who defy Solaris.",
     "Artist": "ISHIDA VAL",
-    "Rarity": "SR",
-    "Fowid": "1659",
+    "Rarity": "SR|R",
+    "Fowid": "1659|1660",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "be3d8b9c-5a73-4981-817a-a5167dedce1a",
-    "image": "be3d8b9c-5a73-4981-817a-a5167dedce1a.jpg"
-  },
-  {
-    "Card Number": "ABC-SD11-058J",
-    "name": "Deathscythe Chronogear",
-    "Type": "J-Ruler",
-    "Race": "Chronogear|Gears",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Flying]\nJ/resonators your opponent controls lose all abilities.\nThis card gains [+1000/+1000] and [Barrier] as long as you control two entities named \"Deathscythe Chronogear\".\n{3}: Destroy target J/resonator. You pay {1} less to play this ability for each entity you control named \"Deathscythe Chronogear\". Play this ability only once per turn.\n[Enter] ]]] Search your deck for up to nine cards and remove them from the game, then shuffle your deck. If you removed cards with a total of nine different card names this way, take an extra turn after this one. This ability only triggers if you control two entities named \"Deathscythe Chronogear\".",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "ISHIDA VAL",
-    "Rarity": "R",
-    "Fowid": "1660",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "094 - Void vs Void",
-    "Set Code": "ABC",
-    "id": "0ce6c5b3-0359-4bd3-96d7-40512dd4cce6",
-    "image": "0ce6c5b3-0359-4bd3-96d7-40512dd4cce6.jpg"
+    "image": "be3d8b9c-5a73-4981-817a-a5167dedce1a.jpg",
+    "Card Type": "Chant",
+    "backimage": "0ce6c5b3-0359-4bd3-96d7-40512dd4cce6.jpg",
+    "alternate1_Card Number": "ABC-SD11-058J",
+    "alternate1_name": "Deathscythe Chronogear",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Chronogear|Gears",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\nJ/resonators your opponent controls lose all abilities.\nThis card gains [+1000/+1000] and [Barrier] as long as you control two entities named \"Deathscythe Chronogear\".\n{3}: Destroy target J/resonator. You pay {1} less to play this ability for each entity you control named \"Deathscythe Chronogear\". Play this ability only once per turn.\n[Enter] ]]] Search your deck for up to nine cards and remove them from the game, then shuffle your deck. If you removed cards with a total of nine different card names this way, take an extra turn after this one. This ability only triggers if you control two entities named \"Deathscythe Chronogear\".",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "ISHIDA VAL",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1660",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "094 - Void vs Void",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "0ce6c5b3-0359-4bd3-96d7-40512dd4cce6",
+    "alternate1_image": "0ce6c5b3-0359-4bd3-96d7-40512dd4cce6.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD11-059",
@@ -1471,7 +1530,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "5079c2a3-69c5-4ced-a493-e726d1f1aa26",
-    "image": "5079c2a3-69c5-4ced-a493-e726d1f1aa26.jpg"
+    "image": "5079c2a3-69c5-4ced-a493-e726d1f1aa26.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "ABC-SD11-060",
@@ -1493,7 +1553,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "066ba4d4-62f3-4178-8564-c119b4f205a6",
-    "image": "066ba4d4-62f3-4178-8564-c119b4f205a6.jpg"
+    "image": "066ba4d4-62f3-4178-8564-c119b4f205a6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD11-061",
@@ -1515,7 +1576,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "b148c695-cef0-45e4-9b6b-ddf22ff9c767",
-    "image": "b148c695-cef0-45e4-9b6b-ddf22ff9c767.jpg"
+    "image": "b148c695-cef0-45e4-9b6b-ddf22ff9c767.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD11-062",
@@ -1537,7 +1599,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "bee46bfa-07d8-4483-88ec-651fcb00609a",
-    "image": "bee46bfa-07d8-4483-88ec-651fcb00609a.jpg"
+    "image": "bee46bfa-07d8-4483-88ec-651fcb00609a.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD11-063",
@@ -1559,7 +1622,8 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "61c4b934-b2cd-421f-a45d-ca994e89bdc4",
-    "image": "61c4b934-b2cd-421f-a45d-ca994e89bdc4.jpg"
+    "image": "61c4b934-b2cd-421f-a45d-ca994e89bdc4.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD11-067",
@@ -1581,6 +1645,7 @@
     "Set Name": "094 - Void vs Void",
     "Set Code": "ABC",
     "id": "93655063-91bc-4548-9420-69f657747438",
-    "image": "93655063-91bc-4548-9420-69f657747438.jpg"
+    "image": "93655063-91bc-4548-9420-69f657747438.jpg",
+    "Card Type": "Basic Magic Stone"
   }
 ]

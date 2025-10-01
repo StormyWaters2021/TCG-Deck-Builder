@@ -19,7 +19,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "02b392d8-9c16-4e06-809c-5236e9acc20c",
-    "image": "02b392d8-9c16-4e06-809c-5236e9acc20c.jpg"
+    "image": "02b392d8-9c16-4e06-809c-5236e9acc20c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-002",
@@ -41,7 +42,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "918afab2-0ff7-4159-9735-472316efed39",
-    "image": "918afab2-0ff7-4159-9735-472316efed39.jpg"
+    "image": "918afab2-0ff7-4159-9735-472316efed39.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-003",
@@ -63,7 +65,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "b5201933-cdbe-463f-915a-ac6caf2faa8f",
-    "image": "b5201933-cdbe-463f-915a-ac6caf2faa8f.jpg"
+    "image": "b5201933-cdbe-463f-915a-ac6caf2faa8f.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-004",
@@ -85,7 +88,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "1694680d-2295-488b-8cfe-4ebbcedb2142",
-    "image": "1694680d-2295-488b-8cfe-4ebbcedb2142.jpg"
+    "image": "1694680d-2295-488b-8cfe-4ebbcedb2142.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-005",
@@ -107,7 +111,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "6cebdbf0-51f3-4c2e-b016-92ff1dbfa00c",
-    "image": "6cebdbf0-51f3-4c2e-b016-92ff1dbfa00c.jpg"
+    "image": "6cebdbf0-51f3-4c2e-b016-92ff1dbfa00c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-006",
@@ -129,7 +134,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "094bd8e8-cd7e-445e-9f49-be4b15d72f93",
-    "image": "094bd8e8-cd7e-445e-9f49-be4b15d72f93.jpg"
+    "image": "094bd8e8-cd7e-445e-9f49-be4b15d72f93.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-007",
@@ -151,7 +157,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "5041427a-3c58-4563-bbc7-88a1372d0fa1",
-    "image": "5041427a-3c58-4563-bbc7-88a1372d0fa1.jpg"
+    "image": "5041427a-3c58-4563-bbc7-88a1372d0fa1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-008",
@@ -173,7 +180,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "89d842fc-f74c-4f2d-9389-f0ed90e8f8b3",
-    "image": "89d842fc-f74c-4f2d-9389-f0ed90e8f8b3.jpg"
+    "image": "89d842fc-f74c-4f2d-9389-f0ed90e8f8b3.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-009",
@@ -195,7 +203,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "fc192d67-c7ea-4e4e-922e-b22119fd8363",
-    "image": "fc192d67-c7ea-4e4e-922e-b22119fd8363.jpg"
+    "image": "fc192d67-c7ea-4e4e-922e-b22119fd8363.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "AO3-010",
@@ -217,7 +226,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "6e18a9c5-ca15-4b1e-9344-a338aa204d05",
-    "image": "6e18a9c5-ca15-4b1e-9344-a338aa204d05.jpg"
+    "image": "6e18a9c5-ca15-4b1e-9344-a338aa204d05.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-011",
@@ -239,7 +249,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "3e71f5cf-9e93-4d4d-9e1d-8ee59e22c4eb",
-    "image": "3e71f5cf-9e93-4d4d-9e1d-8ee59e22c4eb.jpg"
+    "image": "3e71f5cf-9e93-4d4d-9e1d-8ee59e22c4eb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-012",
@@ -261,7 +272,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "f5f5b676-28bd-463c-a52f-4f14dd6e9b93",
-    "image": "f5f5b676-28bd-463c-a52f-4f14dd6e9b93.jpg"
+    "image": "f5f5b676-28bd-463c-a52f-4f14dd6e9b93.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-013",
@@ -283,7 +295,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "8b342b85-1133-4385-a87c-cdc0e42b9803",
-    "image": "8b342b85-1133-4385-a87c-cdc0e42b9803.jpg"
+    "image": "8b342b85-1133-4385-a87c-cdc0e42b9803.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-014",
@@ -305,7 +318,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "3df947ab-7666-4fa3-a6cd-0cabe5e7e8e3",
-    "image": "3df947ab-7666-4fa3-a6cd-0cabe5e7e8e3.jpg"
+    "image": "3df947ab-7666-4fa3-a6cd-0cabe5e7e8e3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-015",
@@ -327,7 +341,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "55d167bd-deb6-4355-a9f9-f50ffe949313",
-    "image": "55d167bd-deb6-4355-a9f9-f50ffe949313.jpg"
+    "image": "55d167bd-deb6-4355-a9f9-f50ffe949313.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-016",
@@ -349,7 +364,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "2d481996-25ad-4116-8ebf-8552003edaec",
-    "image": "2d481996-25ad-4116-8ebf-8552003edaec.jpg"
+    "image": "2d481996-25ad-4116-8ebf-8552003edaec.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-017",
@@ -371,7 +387,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "2a99bd8c-ffcf-42a3-a08d-a9c657e5b18f",
-    "image": "2a99bd8c-ffcf-42a3-a08d-a9c657e5b18f.jpg"
+    "image": "2a99bd8c-ffcf-42a3-a08d-a9c657e5b18f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-018",
@@ -393,7 +410,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "01038ae0-6f39-4606-bbb7-9e8f6a207d17",
-    "image": "01038ae0-6f39-4606-bbb7-9e8f6a207d17.jpg"
+    "image": "01038ae0-6f39-4606-bbb7-9e8f6a207d17.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-019",
@@ -415,7 +433,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "3a6547bc-82e9-4e9e-95bf-0c746dc3e40a",
-    "image": "3a6547bc-82e9-4e9e-95bf-0c746dc3e40a.jpg"
+    "image": "3a6547bc-82e9-4e9e-95bf-0c746dc3e40a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-020",
@@ -437,7 +456,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "bb662226-2961-4731-aab3-7fd792649dbd",
-    "image": "bb662226-2961-4731-aab3-7fd792649dbd.jpg"
+    "image": "bb662226-2961-4731-aab3-7fd792649dbd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-021",
@@ -459,7 +479,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "a9bb7bbe-a55e-4219-ba17-9f1b8de56fbe",
-    "image": "a9bb7bbe-a55e-4219-ba17-9f1b8de56fbe.jpg"
+    "image": "a9bb7bbe-a55e-4219-ba17-9f1b8de56fbe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-022",
@@ -481,7 +502,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "2f74b442-fc49-408d-a95e-632cc156103c",
-    "image": "2f74b442-fc49-408d-a95e-632cc156103c.jpg"
+    "image": "2f74b442-fc49-408d-a95e-632cc156103c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-023",
@@ -503,7 +525,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "ad2ec0d1-3524-4507-9d61-40befe271c5c",
-    "image": "ad2ec0d1-3524-4507-9d61-40befe271c5c.jpg"
+    "image": "ad2ec0d1-3524-4507-9d61-40befe271c5c.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-024",
@@ -525,7 +548,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "454f9cf9-e7d5-41eb-9170-db1547083801",
-    "image": "454f9cf9-e7d5-41eb-9170-db1547083801.jpg"
+    "image": "454f9cf9-e7d5-41eb-9170-db1547083801.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-025",
@@ -547,7 +571,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "71a18621-94da-4bf8-9c1e-a9e79c914de0",
-    "image": "71a18621-94da-4bf8-9c1e-a9e79c914de0.jpg"
+    "image": "71a18621-94da-4bf8-9c1e-a9e79c914de0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-026",
@@ -569,7 +594,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "2f2e58ef-70e9-4d21-802e-30e54f8bc3e3",
-    "image": "2f2e58ef-70e9-4d21-802e-30e54f8bc3e3.jpg"
+    "image": "2f2e58ef-70e9-4d21-802e-30e54f8bc3e3.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-027",
@@ -591,7 +617,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "e254d0c8-90bd-4cea-95fb-03f26bc92d25",
-    "image": "e254d0c8-90bd-4cea-95fb-03f26bc92d25.jpg"
+    "image": "e254d0c8-90bd-4cea-95fb-03f26bc92d25.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-028",
@@ -613,7 +640,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "11e50498-5355-4989-a401-6456155763f3",
-    "image": "11e50498-5355-4989-a401-6456155763f3.jpg"
+    "image": "11e50498-5355-4989-a401-6456155763f3.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-029",
@@ -635,7 +663,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "b4ee8c42-3f25-471d-a8d4-bf941a6efcbd",
-    "image": "b4ee8c42-3f25-471d-a8d4-bf941a6efcbd.jpg"
+    "image": "b4ee8c42-3f25-471d-a8d4-bf941a6efcbd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-030",
@@ -657,7 +686,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "47992e4b-567c-4d91-8315-cb88d76f00d8",
-    "image": "47992e4b-567c-4d91-8315-cb88d76f00d8.jpg"
+    "image": "47992e4b-567c-4d91-8315-cb88d76f00d8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-031",
@@ -679,7 +709,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "69baf854-edaf-487d-a7df-8fe9972e4ac9",
-    "image": "69baf854-edaf-487d-a7df-8fe9972e4ac9.jpg"
+    "image": "69baf854-edaf-487d-a7df-8fe9972e4ac9.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-032",
@@ -701,7 +732,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "6f34af3c-6227-43ad-b3a9-b135f0344389",
-    "image": "6f34af3c-6227-43ad-b3a9-b135f0344389.jpg"
+    "image": "6f34af3c-6227-43ad-b3a9-b135f0344389.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-033",
@@ -723,7 +755,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "c200af7a-a465-4c5d-8112-ea8f5a8f6bf5",
-    "image": "c200af7a-a465-4c5d-8112-ea8f5a8f6bf5.jpg"
+    "image": "c200af7a-a465-4c5d-8112-ea8f5a8f6bf5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-034",
@@ -745,7 +778,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "01e31431-dc2d-460e-917c-b58f8f2b3e8e",
-    "image": "01e31431-dc2d-460e-917c-b58f8f2b3e8e.jpg"
+    "image": "01e31431-dc2d-460e-917c-b58f8f2b3e8e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-035",
@@ -767,7 +801,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "fc69266f-2b54-41ed-a11c-97bb710d157b",
-    "image": "fc69266f-2b54-41ed-a11c-97bb710d157b.jpg"
+    "image": "fc69266f-2b54-41ed-a11c-97bb710d157b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-036",
@@ -789,7 +824,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "fe5b50b1-ecb0-4fa2-a6aa-d5ca8fefe38e",
-    "image": "fe5b50b1-ecb0-4fa2-a6aa-d5ca8fefe38e.jpg"
+    "image": "fe5b50b1-ecb0-4fa2-a6aa-d5ca8fefe38e.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-037",
@@ -811,7 +847,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "b0ddd522-98b2-4dd7-8c8b-5071225011d1",
-    "image": "b0ddd522-98b2-4dd7-8c8b-5071225011d1.jpg"
+    "image": "b0ddd522-98b2-4dd7-8c8b-5071225011d1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-038",
@@ -833,7 +870,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "132767ee-335e-4b7f-af01-5b5690715bfb",
-    "image": "132767ee-335e-4b7f-af01-5b5690715bfb.jpg"
+    "image": "132767ee-335e-4b7f-af01-5b5690715bfb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-039",
@@ -855,7 +893,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "aa4abc31-8756-4c68-8ff0-3f9064fc1403",
-    "image": "aa4abc31-8756-4c68-8ff0-3f9064fc1403.jpg"
+    "image": "aa4abc31-8756-4c68-8ff0-3f9064fc1403.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-040",
@@ -877,7 +916,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "61d798dc-75cc-46a2-a9ab-28da8438ad8c",
-    "image": "61d798dc-75cc-46a2-a9ab-28da8438ad8c.jpg"
+    "image": "61d798dc-75cc-46a2-a9ab-28da8438ad8c.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-041",
@@ -899,7 +939,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "aa0d5b16-d24a-4b94-9f71-1b1d1c778d12",
-    "image": "aa0d5b16-d24a-4b94-9f71-1b1d1c778d12.jpg"
+    "image": "aa0d5b16-d24a-4b94-9f71-1b1d1c778d12.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-042",
@@ -921,7 +962,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "a88e0473-7220-4f82-9bef-14fa7d2df6c6",
-    "image": "a88e0473-7220-4f82-9bef-14fa7d2df6c6.jpg"
+    "image": "a88e0473-7220-4f82-9bef-14fa7d2df6c6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-043",
@@ -943,7 +985,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "33d41742-2e2b-4715-b7e0-cbae3f416f97",
-    "image": "33d41742-2e2b-4715-b7e0-cbae3f416f97.jpg"
+    "image": "33d41742-2e2b-4715-b7e0-cbae3f416f97.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-044",
@@ -965,7 +1008,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "ea2518a0-28a5-4793-bb28-da73968203a7",
-    "image": "ea2518a0-28a5-4793-bb28-da73968203a7.jpg"
+    "image": "ea2518a0-28a5-4793-bb28-da73968203a7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-045",
@@ -987,7 +1031,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "40d80194-faa4-40dd-b0fc-6ae573cb627f",
-    "image": "40d80194-faa4-40dd-b0fc-6ae573cb627f.jpg"
+    "image": "40d80194-faa4-40dd-b0fc-6ae573cb627f.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-046",
@@ -1009,7 +1054,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "43f81fed-ff4d-40dd-a7da-3fa2c5812bcc",
-    "image": "43f81fed-ff4d-40dd-a7da-3fa2c5812bcc.jpg"
+    "image": "43f81fed-ff4d-40dd-a7da-3fa2c5812bcc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-047",
@@ -1031,7 +1077,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "c3e09dd8-7174-457c-aec9-275b25f531d0",
-    "image": "c3e09dd8-7174-457c-aec9-275b25f531d0.jpg"
+    "image": "c3e09dd8-7174-457c-aec9-275b25f531d0.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-048",
@@ -1053,7 +1100,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "f513d39e-08da-4114-afb2-b30f63defdab",
-    "image": "f513d39e-08da-4114-afb2-b30f63defdab.jpg"
+    "image": "f513d39e-08da-4114-afb2-b30f63defdab.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "AO3-049",
@@ -1075,7 +1123,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "40a6c184-0002-42a9-aade-1ab847edf94d",
-    "image": "40a6c184-0002-42a9-aade-1ab847edf94d.jpg"
+    "image": "40a6c184-0002-42a9-aade-1ab847edf94d.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "AO3-050",
@@ -1097,7 +1146,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "aa74640e-c339-433b-a5ea-d04e403e0001",
-    "image": "aa74640e-c339-433b-a5ea-d04e403e0001.jpg"
+    "image": "aa74640e-c339-433b-a5ea-d04e403e0001.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-051",
@@ -1119,7 +1169,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "b147db09-b3df-48b9-9b3c-1770bc3a93ae",
-    "image": "b147db09-b3df-48b9-9b3c-1770bc3a93ae.jpg"
+    "image": "b147db09-b3df-48b9-9b3c-1770bc3a93ae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-052",
@@ -1141,7 +1192,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "b04d1c1f-e1e9-4e42-98de-6aef57de160c",
-    "image": "b04d1c1f-e1e9-4e42-98de-6aef57de160c.jpg"
+    "image": "b04d1c1f-e1e9-4e42-98de-6aef57de160c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-053",
@@ -1163,7 +1215,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "bf2c390c-78f0-47ad-aff2-520be3e36bb9",
-    "image": "bf2c390c-78f0-47ad-aff2-520be3e36bb9.jpg"
+    "image": "bf2c390c-78f0-47ad-aff2-520be3e36bb9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-054",
@@ -1185,7 +1238,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "2dcc9128-dbb7-460a-8bcc-ccaf373c079a",
-    "image": "2dcc9128-dbb7-460a-8bcc-ccaf373c079a.jpg"
+    "image": "2dcc9128-dbb7-460a-8bcc-ccaf373c079a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-055",
@@ -1207,7 +1261,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "b2b1e25c-d344-44e5-9940-daf03d1b9975",
-    "image": "b2b1e25c-d344-44e5-9940-daf03d1b9975.jpg"
+    "image": "b2b1e25c-d344-44e5-9940-daf03d1b9975.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-056",
@@ -1229,7 +1284,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "4f4382a1-9f12-482e-9bd6-135550efdf60",
-    "image": "4f4382a1-9f12-482e-9bd6-135550efdf60.jpg"
+    "image": "4f4382a1-9f12-482e-9bd6-135550efdf60.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-057",
@@ -1251,7 +1307,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "6bf60d51-aade-4afb-8073-34cd70139b6c",
-    "image": "6bf60d51-aade-4afb-8073-34cd70139b6c.jpg"
+    "image": "6bf60d51-aade-4afb-8073-34cd70139b6c.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-058",
@@ -1273,7 +1330,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "f82eed38-c7be-48ad-a76a-a306d6263ae5",
-    "image": "f82eed38-c7be-48ad-a76a-a306d6263ae5.jpg"
+    "image": "f82eed38-c7be-48ad-a76a-a306d6263ae5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-059",
@@ -1295,7 +1353,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "f10d3741-d88f-4a9d-af28-f7c4d1db82eb",
-    "image": "f10d3741-d88f-4a9d-af28-f7c4d1db82eb.jpg"
+    "image": "f10d3741-d88f-4a9d-af28-f7c4d1db82eb.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-060",
@@ -1317,7 +1376,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "2bc2bd5a-010c-4df9-abc4-636b9471b48f",
-    "image": "2bc2bd5a-010c-4df9-abc4-636b9471b48f.jpg"
+    "image": "2bc2bd5a-010c-4df9-abc4-636b9471b48f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-061",
@@ -1339,7 +1399,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "334f3a34-9dee-4749-ad78-fb3aaa23d756",
-    "image": "334f3a34-9dee-4749-ad78-fb3aaa23d756.jpg"
+    "image": "334f3a34-9dee-4749-ad78-fb3aaa23d756.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-062",
@@ -1361,7 +1422,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "f381316d-89bd-40aa-b050-d47f06ae70f5",
-    "image": "f381316d-89bd-40aa-b050-d47f06ae70f5.jpg"
+    "image": "f381316d-89bd-40aa-b050-d47f06ae70f5.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "AO3-063",
@@ -1383,7 +1445,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "fdb3291f-db4d-4f3a-acce-7ec417b37a53",
-    "image": "fdb3291f-db4d-4f3a-acce-7ec417b37a53.jpg"
+    "image": "fdb3291f-db4d-4f3a-acce-7ec417b37a53.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "AO3-064",
@@ -1405,7 +1468,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "20a1d5c1-2230-4bde-a604-2523b49fce9c",
-    "image": "20a1d5c1-2230-4bde-a604-2523b49fce9c.jpg"
+    "image": "20a1d5c1-2230-4bde-a604-2523b49fce9c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-065",
@@ -1427,7 +1491,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "426794d3-35d2-4521-9d6f-6b8630173a8d",
-    "image": "426794d3-35d2-4521-9d6f-6b8630173a8d.jpg"
+    "image": "426794d3-35d2-4521-9d6f-6b8630173a8d.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "AO3-066",
@@ -1449,7 +1514,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "56a248e8-9035-40e8-97e5-5ae077278717",
-    "image": "56a248e8-9035-40e8-97e5-5ae077278717.jpg"
+    "image": "56a248e8-9035-40e8-97e5-5ae077278717.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-067",
@@ -1471,7 +1537,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "791b852c-133c-4ce2-9327-94a268a5d793",
-    "image": "791b852c-133c-4ce2-9327-94a268a5d793.jpg"
+    "image": "791b852c-133c-4ce2-9327-94a268a5d793.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-068",
@@ -1493,7 +1560,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "c1edeaf5-e679-495d-93ac-eb15250bb26e",
-    "image": "c1edeaf5-e679-495d-93ac-eb15250bb26e.jpg"
+    "image": "c1edeaf5-e679-495d-93ac-eb15250bb26e.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-069",
@@ -1515,7 +1583,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "22ead4be-e79b-4cbb-b786-3e18b5ad3e10",
-    "image": "22ead4be-e79b-4cbb-b786-3e18b5ad3e10.jpg"
+    "image": "22ead4be-e79b-4cbb-b786-3e18b5ad3e10.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "AO3-070",
@@ -1537,7 +1606,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "f25e7643-365d-4160-8130-2dd3ca822774",
-    "image": "f25e7643-365d-4160-8130-2dd3ca822774.jpg"
+    "image": "f25e7643-365d-4160-8130-2dd3ca822774.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-071",
@@ -1559,7 +1629,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "efa96d76-85d7-4e47-ab76-1353b65e14ce",
-    "image": "efa96d76-85d7-4e47-ab76-1353b65e14ce.jpg"
+    "image": "efa96d76-85d7-4e47-ab76-1353b65e14ce.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-072",
@@ -1581,7 +1652,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "23ba57f7-1144-4e3b-9062-dfb7a5e06d39",
-    "image": "23ba57f7-1144-4e3b-9062-dfb7a5e06d39.jpg"
+    "image": "23ba57f7-1144-4e3b-9062-dfb7a5e06d39.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-073",
@@ -1603,7 +1675,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "df4973fd-ffe7-4a73-9a9d-91cde4289c5e",
-    "image": "df4973fd-ffe7-4a73-9a9d-91cde4289c5e.jpg"
+    "image": "df4973fd-ffe7-4a73-9a9d-91cde4289c5e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-074",
@@ -1625,7 +1698,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "de7dd2ec-3293-4731-85d3-143a8101db6e",
-    "image": "de7dd2ec-3293-4731-85d3-143a8101db6e.jpg"
+    "image": "de7dd2ec-3293-4731-85d3-143a8101db6e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-075",
@@ -1647,7 +1721,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "ac9f4a1d-55e7-4660-9c67-907e2ce165e3",
-    "image": "ac9f4a1d-55e7-4660-9c67-907e2ce165e3.jpg"
+    "image": "ac9f4a1d-55e7-4660-9c67-907e2ce165e3.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-076",
@@ -1669,7 +1744,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "f356e414-a414-42b6-ad77-84ddbdb8a137",
-    "image": "f356e414-a414-42b6-ad77-84ddbdb8a137.jpg"
+    "image": "f356e414-a414-42b6-ad77-84ddbdb8a137.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-077",
@@ -1691,7 +1767,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "c8410409-06db-42c5-83a5-57e41e63b9a0",
-    "image": "c8410409-06db-42c5-83a5-57e41e63b9a0.jpg"
+    "image": "c8410409-06db-42c5-83a5-57e41e63b9a0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-078",
@@ -1713,7 +1790,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "32f2ac22-6458-41f5-9b76-ba331a55a55e",
-    "image": "32f2ac22-6458-41f5-9b76-ba331a55a55e.jpg"
+    "image": "32f2ac22-6458-41f5-9b76-ba331a55a55e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-079",
@@ -1735,7 +1813,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "76c671ee-a4dd-4b7a-8ea8-98b674327ab9",
-    "image": "76c671ee-a4dd-4b7a-8ea8-98b674327ab9.jpg"
+    "image": "76c671ee-a4dd-4b7a-8ea8-98b674327ab9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-080",
@@ -1757,7 +1836,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "e06d128b-77cb-4278-9dd9-53b820297e23",
-    "image": "e06d128b-77cb-4278-9dd9-53b820297e23.jpg"
+    "image": "e06d128b-77cb-4278-9dd9-53b820297e23.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-081",
@@ -1779,7 +1859,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "a99f7b36-0b5a-4b9a-8953-8be320ffd336",
-    "image": "a99f7b36-0b5a-4b9a-8953-8be320ffd336.jpg"
+    "image": "a99f7b36-0b5a-4b9a-8953-8be320ffd336.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-082",
@@ -1801,7 +1882,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "04f44af9-e2b2-4a33-8bfb-d95987c13b80",
-    "image": "04f44af9-e2b2-4a33-8bfb-d95987c13b80.jpg"
+    "image": "04f44af9-e2b2-4a33-8bfb-d95987c13b80.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-083",
@@ -1823,7 +1905,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "a9b4442d-d95a-4907-958f-fafdf6ebf77b",
-    "image": "a9b4442d-d95a-4907-958f-fafdf6ebf77b.jpg"
+    "image": "a9b4442d-d95a-4907-958f-fafdf6ebf77b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-084",
@@ -1845,7 +1928,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "36b74eae-0c88-4c84-ad0a-d9062a24f520",
-    "image": "36b74eae-0c88-4c84-ad0a-d9062a24f520.jpg"
+    "image": "36b74eae-0c88-4c84-ad0a-d9062a24f520.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-085",
@@ -1867,7 +1951,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "e1a65cc1-fa8f-4c10-99cd-243cdf4698bf",
-    "image": "e1a65cc1-fa8f-4c10-99cd-243cdf4698bf.jpg"
+    "image": "e1a65cc1-fa8f-4c10-99cd-243cdf4698bf.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "AO3-086",
@@ -1889,7 +1974,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "f80d12d9-123f-4043-ae63-def909526957",
-    "image": "f80d12d9-123f-4043-ae63-def909526957.jpg"
+    "image": "f80d12d9-123f-4043-ae63-def909526957.jpg",
+    "Card Type": "Resonator (Stranger)"
   },
   {
     "Card Number": "AO3-087",
@@ -1911,7 +1997,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "997ed74e-a1b8-4e85-9110-9ad7132e37f2",
-    "image": "997ed74e-a1b8-4e85-9110-9ad7132e37f2.jpg"
+    "image": "997ed74e-a1b8-4e85-9110-9ad7132e37f2.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "AO3-088",
@@ -1933,7 +2020,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "578f2d17-da55-4d4b-9b20-0d41a0a4336a",
-    "image": "578f2d17-da55-4d4b-9b20-0d41a0a4336a.jpg"
+    "image": "578f2d17-da55-4d4b-9b20-0d41a0a4336a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "AO3-089",
@@ -1955,7 +2043,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "ac9c4b55-f679-4d07-b284-fddbc2257fcb",
-    "image": "ac9c4b55-f679-4d07-b284-fddbc2257fcb.jpg"
+    "image": "ac9c4b55-f679-4d07-b284-fddbc2257fcb.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "AO3-090",
@@ -1977,7 +2066,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "5f16426a-4f00-4746-b787-c5f259f7ff8a",
-    "image": "5f16426a-4f00-4746-b787-c5f259f7ff8a.jpg"
+    "image": "5f16426a-4f00-4746-b787-c5f259f7ff8a.jpg",
+    "Card Type": "Special Magic Stone|Wind Magic Stone|Darkness Magic Stone"
   },
   {
     "Card Number": "AO3-091",
@@ -1999,7 +2089,8 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "1564b570-5a76-4657-88e7-3bd0c99cad58",
-    "image": "1564b570-5a76-4657-88e7-3bd0c99cad58.jpg"
+    "image": "1564b570-5a76-4657-88e7-3bd0c99cad58.jpg",
+    "Card Type": "Special Magic Stone|Light Magic Stone|Wind Magic Stone"
   },
   {
     "Card Number": "AO3-092",
@@ -2021,21 +2112,22 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "bf4e8fb5-bbf8-4d19-beef-4dd8f3ebaea5",
-    "image": "bf4e8fb5-bbf8-4d19-beef-4dd8f3ebaea5.jpg"
+    "image": "bf4e8fb5-bbf8-4d19-beef-4dd8f3ebaea5.jpg",
+    "Card Type": "Special Magic Stone|Fire Magic Stone|Water Magic Stone"
   },
   {
-    "Card Number": "AO3 Buy a Box-1",
-    "name": "Arla",
-    "Type": "Ruler",
-    "Race": "Human",
+    "Card Number": "AO3 Buy a Box-1|AO3 Buy a Box-1J",
+    "name": "Arla // Arla [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Seven Kings",
     "Cost": "",
     "Colour": "W|G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Stranger] 10 (You may begin the game with an extra deck of exactly ten (Stranger) resonators. You may not have more than two copies of any card in your Stranger deck.)\n[Judgment] {W}{G}{G}\n[Energize] {W}{G}\nWhenever a light regalia enters the field under your control ⇒ Choose one, if the regalia is \"Wings of the Archangel\", choose up to two instead - Choose two cards from your Stranger deck at random and remove them from the game; or up to two target resonators gain [Flying] and [+200/+200] until end of turn; or draw a card for each resonator you control with [Flying] ; or you may pay {0} to do judgment until end of turn.",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Stranger] 10 (You may begin the game with an extra deck of exactly ten (Stranger) resonators. You may not have more than two copies of any card in your Stranger deck.)\n[Judgment] {W}{G}{G}\n[Energize] {W}{G}\nWhenever a light regalia enters the field under your control ⇒ Choose one, if the regalia is \"Wings of the Archangel\", choose up to two instead - Choose two cards from your Stranger deck at random and remove them from the game; or up to two target resonators gain [Flying] and [+200/+200] until end of turn; or draw a card for each resonator you control with [Flying] ; or you may pay {0} to do judgment until end of turn.|[Enter] ⇒ Put the top card of your magic stone deck into the field. Choose a card from your Stranger deck at random and remove it from the game.\nGod's Art \"Rise of Armalla\" {W}{W}{G}{G}: Put any number of light or wind (Stranger) resonators with different names from your removed area into the field. When you don't control a (Stranger) resonator ⇒ You lose the game.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Armalla, a fertile and peaceful land, is suffering from encroaching filth and corruption.",
+    "Flavour": "Armalla, a fertile and peaceful land, is suffering from encroaching filth and corruption.|Will the rise of Armalla be a temporary relief or permanent salvation?",
     "Artist": "",
     "Rarity": "R",
     "Fowid": "",
@@ -2043,43 +2135,44 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "c0897991-04b5-4082-b2d6-5eb8e2484d06",
-    "image": "c0897991-04b5-4082-b2d6-5eb8e2484d06.jpg"
+    "image": "c0897991-04b5-4082-b2d6-5eb8e2484d06.jpg",
+    "Card Type": "Ruler",
+    "backimage": "da72ffe1-fd81-4305-b3cb-26b4befa8478.jpg",
+    "alternate1_Card Number": "AO3 Buy a Box-1J",
+    "alternate1_name": "Arla [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Kings",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Enter] ⇒ Put the top card of your magic stone deck into the field. Choose a card from your Stranger deck at random and remove it from the game.\nGod's Art \"Rise of Armalla\" {W}{W}{G}{G}: Put any number of light or wind (Stranger) resonators with different names from your removed area into the field. When you don't control a (Stranger) resonator ⇒ You lose the game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Will the rise of Armalla be a temporary relief or permanent salvation?",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "07 - Alice Origin",
+    "alternate1_Set Name": "052 - Alice Origin III",
+    "alternate1_Set Code": "AO3",
+    "alternate1_id": "da72ffe1-fd81-4305-b3cb-26b4befa8478",
+    "alternate1_image": "da72ffe1-fd81-4305-b3cb-26b4befa8478.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "AO3 Buy a Box-1J",
-    "name": "Arla [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Seven Kings",
-    "Cost": "",
-    "Colour": "W|G",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Enter] ⇒ Put the top card of your magic stone deck into the field. Choose a card from your Stranger deck at random and remove it from the game.\nGod's Art \"Rise of Armalla\" {W}{W}{G}{G}: Put any number of light or wind (Stranger) resonators with different names from your removed area into the field. When you don't control a (Stranger) resonator ⇒ You lose the game.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Will the rise of Armalla be a temporary relief or permanent salvation?",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "07 - Alice Origin",
-    "Set Name": "052 - Alice Origin III",
-    "Set Code": "AO3",
-    "id": "da72ffe1-fd81-4305-b3cb-26b4befa8478",
-    "image": "da72ffe1-fd81-4305-b3cb-26b4befa8478.jpg"
-  },
-  {
-    "Card Number": "AO3 Buy a Box-2",
-    "name": "Reflect",
+    "Card Number": "AO3 Buy a Box-2|AO3 Buy a Box-2*",
+    "name": "Reflect // Refrain",
     "Type": "Ruler",
-    "Race": "Little Boy",
+    "Race": "Little Boy|Little Girl",
     "Cost": "",
     "Colour": "R|U",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Stranger] 10 (You may begin the game with an extra deck of exactly ten (Stranger) resonators. You may not have more than two copies of any card in your Stranger deck.)\n[Energize] {R}{U}\nAs the first turn starts, you may invert this card.\nYou gain [Passion].\nWhenever a fire regalia enters the field under your control ⇒ Choose one. If the regalia is \"Change the Heart\", choose up to two instead - Produce {R} ; or this card deals 600 damage to target player or J/resonator; or destroy target damaged resonator.",
+    "Abilities": "[Stranger] 10 (You may begin the game with an extra deck of exactly ten (Stranger) resonators. You may not have more than two copies of any card in your Stranger deck.)\n[Energize] {R}{U}\nAs the first turn starts, you may invert this card.\nYou gain [Passion].\nWhenever a fire regalia enters the field under your control ⇒ Choose one. If the regalia is \"Change the Heart\", choose up to two instead - Produce {R} ; or this card deals 600 damage to target player or J/resonator; or destroy target damaged resonator.|You gain [Calmness].\nWhenever a water regalia enters the field under your control ⇒ Choose one, if the regalia is \"Change the Heart\", choose up to two instead - Produce {U} ; or rest target entity; or draw a card.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Genuine interest in Attoractia",
+    "Flavour": "Genuine interest in Attoractia|Calm observation of Attoractia.",
     "Artist": "",
     "Rarity": "R",
     "Fowid": "",
@@ -2087,43 +2180,44 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "3d4ab6bd-8374-4675-bc36-2ff57651cab4",
-    "image": "3d4ab6bd-8374-4675-bc36-2ff57651cab4.jpg"
+    "image": "3d4ab6bd-8374-4675-bc36-2ff57651cab4.jpg",
+    "Card Type": "Ruler",
+    "backimage": "4a100c93-dcbe-4f30-95f3-c9a88a60a5e3.jpg",
+    "alternate1_Card Number": "AO3 Buy a Box-2*",
+    "alternate1_name": "Refrain",
+    "alternate1_Type": "Ruler",
+    "alternate1_Race": "Little Girl",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R|U",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "You gain [Calmness].\nWhenever a water regalia enters the field under your control ⇒ Choose one, if the regalia is \"Change the Heart\", choose up to two instead - Produce {U} ; or rest target entity; or draw a card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Calm observation of Attoractia.",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "07 - Alice Origin",
+    "alternate1_Set Name": "052 - Alice Origin III",
+    "alternate1_Set Code": "AO3",
+    "alternate1_id": "4a100c93-dcbe-4f30-95f3-c9a88a60a5e3",
+    "alternate1_image": "4a100c93-dcbe-4f30-95f3-c9a88a60a5e3.jpg",
+    "alternate1_Card Type": "Ruler"
   },
   {
-    "Card Number": "AO3 Buy a Box-2*",
-    "name": "Refrain",
-    "Type": "Ruler",
-    "Race": "Little Girl",
-    "Cost": "",
-    "Colour": "R|U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "You gain [Calmness].\nWhenever a water regalia enters the field under your control ⇒ Choose one, if the regalia is \"Change the Heart\", choose up to two instead - Produce {U} ; or rest target entity; or draw a card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Calm observation of Attoractia.",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "07 - Alice Origin",
-    "Set Name": "052 - Alice Origin III",
-    "Set Code": "AO3",
-    "id": "4a100c93-dcbe-4f30-95f3-c9a88a60a5e3",
-    "image": "4a100c93-dcbe-4f30-95f3-c9a88a60a5e3.jpg"
-  },
-  {
-    "Card Number": "AO3 Buy a Box-3",
-    "name": "Rezzard",
-    "Type": "Ruler",
-    "Race": "Human",
+    "Card Number": "AO3 Buy a Box-3|AO3 Buy a Box-3J",
+    "name": "Rezzard // Rezzard [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Seven Kings|Vampire",
     "Cost": "",
     "Colour": "G|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Stranger] 10 (You may begin the game with an extra deck of exactly ten (Stranger) resonators. You may not have more than two copies of any card in your Stranger deck.)\n[Judgment] {G}{B}{B}\n[Energize] {G}{B}\nWhenever a darkness regalia enters the field under your control ⇒ Choose one, if the regalia is \"Deathscythe\", choose up to two instead - Choose two cards from your Stranger deck at random and put them into your graveyard; or each player banishes a resonator; or put a resonator from your graveyard into your hand; or you may pay {0} to do judgment until end of turn.",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Stranger] 10 (You may begin the game with an extra deck of exactly ten (Stranger) resonators. You may not have more than two copies of any card in your Stranger deck.)\n[Judgment] {G}{B}{B}\n[Energize] {G}{B}\nWhenever a darkness regalia enters the field under your control ⇒ Choose one, if the regalia is \"Deathscythe\", choose up to two instead - Choose two cards from your Stranger deck at random and put them into your graveyard; or each player banishes a resonator; or put a resonator from your graveyard into your hand; or you may pay {0} to do judgment until end of turn.|[Enter] ⇒ Put the top four cards of your deck into your graveyard. Then, you may put a resonator from your graveyard into the field. If you do, it gains darkness in addition to its other attributes and Vampire in addition to its other races.\nGod's Art \"Blood Revolution\" {B}{G}: For each Vampire you control and starting from the one with the highest ATK to the one with the lowest ATK, target a resonator your opponent controls. Vampires you control gain [+400/+400] until end of turn. Then, each of them deals damage equal to its ATK to its chosen target. (You may choose the same target multiple times with different Vampires.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Sometimes distorted hope goes beyond despair.",
+    "Flavour": "Sometimes distorted hope goes beyond despair.|The Blood Revolution transformed the Black City into a realm of the dead.",
     "Artist": "",
     "Rarity": "R",
     "Fowid": "",
@@ -2131,28 +2225,29 @@
     "Set Name": "052 - Alice Origin III",
     "Set Code": "AO3",
     "id": "445162b5-1a08-43ca-ac2a-c3653f96e2bf",
-    "image": "445162b5-1a08-43ca-ac2a-c3653f96e2bf.jpg"
-  },
-  {
-    "Card Number": "AO3 Buy a Box-3J",
-    "name": "Rezzard [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Seven Kings|Vampire",
-    "Cost": "",
-    "Colour": "G|B",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Enter] ⇒ Put the top four cards of your deck into your graveyard. Then, you may put a resonator from your graveyard into the field. If you do, it gains darkness in addition to its other attributes and Vampire in addition to its other races.\nGod's Art \"Blood Revolution\" {B}{G}: For each Vampire you control and starting from the one with the highest ATK to the one with the lowest ATK, target a resonator your opponent controls. Vampires you control gain [+400/+400] until end of turn. Then, each of them deals damage equal to its ATK to its chosen target. (You may choose the same target multiple times with different Vampires.)",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The Blood Revolution transformed the Black City into a realm of the dead.",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "07 - Alice Origin",
-    "Set Name": "052 - Alice Origin III",
-    "Set Code": "AO3",
-    "id": "a282f146-6158-4bff-9248-d3707c476dfe",
-    "image": "a282f146-6158-4bff-9248-d3707c476dfe.jpg"
+    "image": "445162b5-1a08-43ca-ac2a-c3653f96e2bf.jpg",
+    "Card Type": "Ruler",
+    "backimage": "a282f146-6158-4bff-9248-d3707c476dfe.jpg",
+    "alternate1_Card Number": "AO3 Buy a Box-3J",
+    "alternate1_name": "Rezzard [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Kings|Vampire",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G|B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Enter] ⇒ Put the top four cards of your deck into your graveyard. Then, you may put a resonator from your graveyard into the field. If you do, it gains darkness in addition to its other attributes and Vampire in addition to its other races.\nGod's Art \"Blood Revolution\" {B}{G}: For each Vampire you control and starting from the one with the highest ATK to the one with the lowest ATK, target a resonator your opponent controls. Vampires you control gain [+400/+400] until end of turn. Then, each of them deals damage equal to its ATK to its chosen target. (You may choose the same target multiple times with different Vampires.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "The Blood Revolution transformed the Black City into a realm of the dead.",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "07 - Alice Origin",
+    "alternate1_Set Name": "052 - Alice Origin III",
+    "alternate1_Set Code": "AO3",
+    "alternate1_id": "a282f146-6158-4bff-9248-d3707c476dfe",
+    "alternate1_image": "a282f146-6158-4bff-9248-d3707c476dfe.jpg",
+    "alternate1_Card Type": "J-Ruler"
   }
 ]

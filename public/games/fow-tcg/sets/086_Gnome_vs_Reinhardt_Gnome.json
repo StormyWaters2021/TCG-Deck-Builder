@@ -1,17 +1,17 @@
 [
   {
-    "Card Number": "ABC-SD03-000",
-    "name": "Arcana: Elven Wind Sorceress",
-    "Type": "Ruler",
+    "Card Number": "ABC-SD03-000|ABC-SD03-000J",
+    "name": "Arcana: Elven Wind Sorceress // Arcana: Spirit of Nature's Beauty",
+    "Type": "Ruler|J-Ruler",
     "Race": "Arcana",
     "Cost": "",
     "Colour": "W|G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Convoke] {W}{G}\nYou can only have light cards and wind cards in your deck, and no cards with attributes other than light or wind.\nAt the beginning of the game ]]] Put three limited counters on this card.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.\n[Judgment] {W}{G}{1}",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Convoke] {W}{G}\nYou can only have light cards and wind cards in your deck, and no cards with attributes other than light or wind.\nAt the beginning of the game ]]] Put three limited counters on this card.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.\n[Judgment] {W}{G}{1}|[Convoke] {W}{G}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "She is the heir to all the wisdom and courage of this world.",
+    "Flavour": "She is the heir to all the wisdom and courage of this world.|\"Even Nature will take part on this fight.\" ーSpirit of Nature's Beauty",
     "Artist": "",
     "Rarity": "R",
     "Fowid": "None",
@@ -19,128 +19,131 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "81dc6cf4-943e-4e17-a525-773d91b444fb",
-    "image": "81dc6cf4-943e-4e17-a525-773d91b444fb.jpg"
+    "image": "81dc6cf4-943e-4e17-a525-773d91b444fb.jpg",
+    "Card Type": "Ruler",
+    "backimage": "b4b035fe-cd09-426f-b2bb-b4bb2c2b809d.jpg",
+    "alternate1_Card Number": "ABC-SD03-000J",
+    "alternate1_name": "Arcana: Spirit of Nature's Beauty",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Arcana",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Convoke] {W}{G}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Even Nature will take part on this fight.\" ーSpirit of Nature's Beauty",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "None",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "086 - Gnome vs Reinhardt (Gnome)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "b4b035fe-cd09-426f-b2bb-b4bb2c2b809d",
+    "alternate1_image": "b4b035fe-cd09-426f-b2bb-b4bb2c2b809d.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD03-000J",
-    "name": "Arcana: Spirit of Nature's Beauty",
-    "Type": "J-Ruler",
-    "Race": "Arcana",
-    "Cost": "",
-    "Colour": "W|G",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Convoke] {W}{G}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Even Nature will take part on this fight.\" ーSpirit of Nature's Beauty",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "None",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
-    "Set Code": "ABC",
-    "id": "b4b035fe-cd09-426f-b2bb-b4bb2c2b809d",
-    "image": "b4b035fe-cd09-426f-b2bb-b4bb2c2b809d.jpg"
-  },
-  {
-    "Card Number": "ABC-SD03-001",
-    "name": "Brunhild",
-    "Type": "Ruler",
-    "Race": "Valkyrie",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] 10\n[Judgment] {W}{W}{2}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The leader of the Valkyries and the voice of Odin.",
-    "Artist": "jugemt",
-    "Rarity": "R",
-    "Fowid": "3755",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
-    "Set Code": "ABC",
-    "id": "772322e3-783b-4d41-9f1a-0ad7f8ca4cab",
-    "image": "772322e3-783b-4d41-9f1a-0ad7f8ca4cab.jpg"
-  },
-  {
-    "Card Number": "ABC-SD03-001J",
-    "name": "Brunhild, Caller of Spirits",
-    "Type": "J-Ruler",
+    "Card Number": "ABC-SD03-001|ABC-SD03-001J",
+    "name": "Brunhild // Brunhild, Caller of Spirits",
+    "Type": "Ruler|J-Ruler",
     "Race": "Valkyrie",
     "Cost": "",
     "Colour": "W",
     "ATK": "1200",
     "DEF": "1200",
-    "Abilities": "[Divinity] 10\n[Flying]\n[Enter] ]]] Put target resonator from your graveyard into the field.",
+    "Abilities": "[Divinity] 10\n[Judgment] {W}{W}{2}|[Divinity] 10\n[Flying]\n[Enter] ]]] Put target resonator from your graveyard into the field.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Souls chosen by Brunhild return to the battlefield as heroes.",
+    "Flavour": "The leader of the Valkyries and the voice of Odin.|Souls chosen by Brunhild return to the battlefield as heroes.",
     "Artist": "jugemt",
     "Rarity": "R",
-    "Fowid": "3756",
+    "Fowid": "3755|3756",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
-    "id": "c71f5940-3ae2-403a-a010-a1c1605f2be9",
-    "image": "c71f5940-3ae2-403a-a010-a1c1605f2be9.jpg"
+    "id": "772322e3-783b-4d41-9f1a-0ad7f8ca4cab",
+    "image": "772322e3-783b-4d41-9f1a-0ad7f8ca4cab.jpg",
+    "Card Type": "Ruler",
+    "backimage": "c71f5940-3ae2-403a-a010-a1c1605f2be9.jpg",
+    "alternate1_Card Number": "ABC-SD03-001J",
+    "alternate1_name": "Brunhild, Caller of Spirits",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Valkyrie",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Divinity] 10\n[Flying]\n[Enter] ]]] Put target resonator from your graveyard into the field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Souls chosen by Brunhild return to the battlefield as heroes.",
+    "alternate1_Artist": "jugemt",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3756",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "086 - Gnome vs Reinhardt (Gnome)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "c71f5940-3ae2-403a-a010-a1c1605f2be9",
+    "alternate1_image": "c71f5940-3ae2-403a-a010-a1c1605f2be9.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD03-002",
-    "name": "Friend from Another World, Kaguya",
-    "Type": "Ruler",
-    "Race": "Little Girl|Wanderer",
-    "Cost": "",
-    "Colour": "W|G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "You may spend {M} will as though it were {G} will.\nWhenever a Moon entity enters the field under your control ]]] Draw a card. This ability triggers only once per turn.\n[Judgment] {W}{M}{1}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Sheesh, she's become such a showoff. Now who's fault could that be?\" \"Are you saying it's my fault? It's clearly yours.\" —Fiethsing and Zero",
-    "Artist": "桂福蔵",
-    "Rarity": "R",
-    "Fowid": "879",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
-    "Set Code": "ABC",
-    "id": "7f4f8daa-08eb-4156-aa19-966b3a12a9ac",
-    "image": "7f4f8daa-08eb-4156-aa19-966b3a12a9ac.jpg"
-  },
-  {
-    "Card Number": "ABC-SD03-002J",
-    "name": "Kaguya, the Moonlit Savior",
-    "Type": "J-Ruler",
-    "Race": "Wizard",
+    "Card Number": "ABC-SD03-002|ABC-SD03-002J",
+    "name": "Friend from Another World, Kaguya // Kaguya, the Moonlit Savior",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Little Girl|Wanderer|Wizard",
     "Cost": "",
     "Colour": "W|G",
     "ATK": "700",
     "DEF": "900",
-    "Abilities": "You may spend {M} will as though it were {G} will.\nWhenever you awaken a card ]]] Put two [+100/+100] counters on this card.\n{M}: Cancel target automatic ability.\n{W}{1}: Prevent the next damage that would be dealt to this card this turn.\nGod's Art \"Light of the Sacred Moon\" {W}{M}{3}: Rest all J/resonators your opponent controls, then recover all magic stones you control. You pay {M} less to play [Awakening] costs this turn.",
+    "Abilities": "You may spend {M} will as though it were {G} will.\nWhenever a Moon entity enters the field under your control ]]] Draw a card. This ability triggers only once per turn.\n[Judgment] {W}{M}{1}|You may spend {M} will as though it were {G} will.\nWhenever you awaken a card ]]] Put two [+100/+100] counters on this card.\n{M}: Cancel target automatic ability.\n{W}{1}: Prevent the next damage that would be dealt to this card this turn.\nGod's Art \"Light of the Sacred Moon\" {W}{M}{3}: Rest all J/resonators your opponent controls, then recover all magic stones you control. You pay {M} less to play [Awakening] costs this turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"An ally of justice shall appear from the moon! And who could that mysterious hero be? Obviously it's me!\"",
+    "Flavour": "\"Sheesh, she's become such a showoff. Now who's fault could that be?\" \"Are you saying it's my fault? It's clearly yours.\" —Fiethsing and Zero|\"An ally of justice shall appear from the moon! And who could that mysterious hero be? Obviously it's me!\"",
     "Artist": "桂福蔵",
     "Rarity": "R",
-    "Fowid": "880",
+    "Fowid": "879|880",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
-    "id": "aea51f5a-8001-4c8a-8574-8111141f133f",
-    "image": "aea51f5a-8001-4c8a-8574-8111141f133f.jpg"
+    "id": "7f4f8daa-08eb-4156-aa19-966b3a12a9ac",
+    "image": "7f4f8daa-08eb-4156-aa19-966b3a12a9ac.jpg",
+    "Card Type": "Ruler",
+    "backimage": "aea51f5a-8001-4c8a-8574-8111141f133f.jpg",
+    "alternate1_Card Number": "ABC-SD03-002J",
+    "alternate1_name": "Kaguya, the Moonlit Savior",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|G",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "You may spend {M} will as though it were {G} will.\nWhenever you awaken a card ]]] Put two [+100/+100] counters on this card.\n{M}: Cancel target automatic ability.\n{W}{1}: Prevent the next damage that would be dealt to this card this turn.\nGod's Art \"Light of the Sacred Moon\" {W}{M}{3}: Rest all J/resonators your opponent controls, then recover all magic stones you control. You pay {M} less to play [Awakening] costs this turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"An ally of justice shall appear from the moon! And who could that mysterious hero be? Obviously it's me!\"",
+    "alternate1_Artist": "桂福蔵",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "880",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "086 - Gnome vs Reinhardt (Gnome)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "aea51f5a-8001-4c8a-8574-8111141f133f",
+    "alternate1_image": "aea51f5a-8001-4c8a-8574-8111141f133f.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD03-003",
-    "name": "Gnome, Tiny Spirit of the Ground",
-    "Type": "Ruler",
-    "Race": "King|Spirit",
+    "Card Number": "ABC-SD03-003|ABC-SD03-003J",
+    "name": "Gnome, Tiny Spirit of the Ground // Incarnation of the Forest",
+    "Type": "Ruler|J-Ruler",
+    "Race": "King|Spirit|Guardian|Spirit",
     "Cost": "",
     "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "You cannot have more than one copy of any non-basic magic stone card in your magic stone deck.\nYou pay {G} less to play wind Spirit spells with total cost 2 or more.\n{0}: Recover target Spirit ruler or wind Spirit J/resonator. Play this ability only once per turn and only during another player's turn.\nGod's Art \"Spreading Nature\" {G}{1}: Expel a magic stone. If you do, search your magic stone deck for two basic magic stones and put them into the field rested, then shuffle your magic stone deck.\n[Judgment] {G}{1}. Play this judgment process only if you control a magic stone named \"Spirit Stone\".",
+    "ATK": "1500",
+    "DEF": "1500",
+    "Abilities": "You cannot have more than one copy of any non-basic magic stone card in your magic stone deck.\nYou pay {G} less to play wind Spirit spells with total cost 2 or more.\n{0}: Recover target Spirit ruler or wind Spirit J/resonator. Play this ability only once per turn and only during another player's turn.\nGod's Art \"Spreading Nature\" {G}{1}: Expel a magic stone. If you do, search your magic stone deck for two basic magic stones and put them into the field rested, then shuffle your magic stone deck.\n[Judgment] {G}{1}. Play this judgment process only if you control a magic stone named \"Spirit Stone\".|[Pierce] [Barrier] (Total cost 2 or less)\n[Floration] If you would produce will with a basic magic stone, you may produce that will plus {G} instead. If you do, banish that magic stone. You can only apply the effect of one [Floration] ability per turn and only once per turn.\nWind Spirit resonators you control gain [+500/+500].\n{G}: Recover target wind Spirit J/ruler or wind Spirit resonator. Play this ability only once per turn.\n{G}: Search your hand or deck for a wind Spirit resonator with total cost 3 or less and put it into the field. If you searched your deck, shuffle it. Play this ability only once per turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -151,73 +154,75 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "7df20d05-942a-4337-ae43-812cd8ffb6aa",
-    "image": "7df20d05-942a-4337-ae43-812cd8ffb6aa.jpg"
+    "image": "7df20d05-942a-4337-ae43-812cd8ffb6aa.jpg",
+    "Card Type": "Ruler",
+    "backimage": "1163cfe1-8de0-477f-a65d-077910eaf81c.jpg",
+    "alternate1_Card Number": "ABC-SD03-003J",
+    "alternate1_name": "Incarnation of the Forest",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Guardian|Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1500",
+    "alternate1_DEF": "1500",
+    "alternate1_Abilities": "[Pierce] [Barrier] (Total cost 2 or less)\n[Floration] If you would produce will with a basic magic stone, you may produce that will plus {G} instead. If you do, banish that magic stone. You can only apply the effect of one [Floration] ability per turn and only once per turn.\nWind Spirit resonators you control gain [+500/+500].\n{G}: Recover target wind Spirit J/ruler or wind Spirit resonator. Play this ability only once per turn.\n{G}: Search your hand or deck for a wind Spirit resonator with total cost 3 or less and put it into the field. If you searched your deck, shuffle it. Play this ability only once per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "086 - Gnome vs Reinhardt (Gnome)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "1163cfe1-8de0-477f-a65d-077910eaf81c",
+    "alternate1_image": "1163cfe1-8de0-477f-a65d-077910eaf81c.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD03-003J",
-    "name": "Incarnation of the Forest",
-    "Type": "J-Ruler",
-    "Race": "Guardian|Spirit",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "1500",
-    "DEF": "1500",
-    "Abilities": "[Pierce] [Barrier] (Total cost 2 or less)\n[Floration] If you would produce will with a basic magic stone, you may produce that will plus {G} instead. If you do, banish that magic stone. You can only apply the effect of one [Floration] ability per turn and only once per turn.\nWind Spirit resonators you control gain [+500/+500].\n{G}: Recover target wind Spirit J/ruler or wind Spirit resonator. Play this ability only once per turn.\n{G}: Search your hand or deck for a wind Spirit resonator with total cost 3 or less and put it into the field. If you searched your deck, shuffle it. Play this ability only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
-    "Set Code": "ABC",
-    "id": "1163cfe1-8de0-477f-a65d-077910eaf81c",
-    "image": "1163cfe1-8de0-477f-a65d-077910eaf81c.jpg"
-  },
-  {
-    "Card Number": "ABC-SD03-004",
-    "name": "Reflect, Child of Potential",
-    "Type": "Ruler",
-    "Race": "Little Boy",
+    "Card Number": "ABC-SD03-004|ABC-SD03-004J",
+    "name": "Reflect, Child of Potential // Refrain, Child of Convergence",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Little Boy|Little Girl",
     "Cost": "",
     "Colour": "G",
     "ATK": "",
     "DEF": "",
-    "Abilities": "{0}: Choose one. Play this ability only during your turn and only once per turn;\n- Target resonator gains [+200/+200] until end of turn. Put a magic counter on this card.\n- Draw a card, then put a card from your hand on the bottom of your deck. Put a magic counter on this card.\n- Put a magic counter on this card. Target a resonator. At the next end of turn ]]] Its controller recovers the chosen target.\n[Judgment] {0}",
+    "Abilities": "{0}: Choose one. Play this ability only during your turn and only once per turn;\n- Target resonator gains [+200/+200] until end of turn. Put a magic counter on this card.\n- Draw a card, then put a card from your hand on the bottom of your deck. Put a magic counter on this card.\n- Put a magic counter on this card. Target a resonator. At the next end of turn ]]] Its controller recovers the chosen target.\n[Judgment] {0}|{0}: Put this card into your ruler area as a ruler. Play this ability only during your opponent's turn.\n{Rest}, remove two magic counters from this card: Return target resonator to its owner's hand.\n{Rest}, remove X magic counters from this card: Cancel target non-resonator spell your opponent controls with total cost X.\n{Rest}, remove four magic counters from this card: Search your deck for a card and put it into your hand, then shuffle your deck.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "A power not seen in this world is gathering.",
+    "Flavour": "A power not seen in this world is gathering.|When all possibilities converge at one point, the resulting power will manifest itself.",
     "Artist": "ケルビン",
     "Rarity": "R",
-    "Fowid": "827",
+    "Fowid": "827|828",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "0ac7993b-5d3c-4b95-87b0-9b71bb614709",
-    "image": "0ac7993b-5d3c-4b95-87b0-9b71bb614709.jpg"
-  },
-  {
-    "Card Number": "ABC-SD03-004J",
-    "name": "Refrain, Child of Convergence",
-    "Type": "J-Ruler",
-    "Race": "Little Girl",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{0}: Put this card into your ruler area as a ruler. Play this ability only during your opponent's turn.\n{Rest}, remove two magic counters from this card: Return target resonator to its owner's hand.\n{Rest}, remove X magic counters from this card: Cancel target non-resonator spell your opponent controls with total cost X.\n{Rest}, remove four magic counters from this card: Search your deck for a card and put it into your hand, then shuffle your deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "When all possibilities converge at one point, the resulting power will manifest itself.",
-    "Artist": "ケルビン",
-    "Rarity": "R",
-    "Fowid": "828",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
-    "Set Code": "ABC",
-    "id": "17bb3143-de3e-4c4d-852c-7005b151ba47",
-    "image": "17bb3143-de3e-4c4d-852c-7005b151ba47.jpg"
+    "image": "0ac7993b-5d3c-4b95-87b0-9b71bb614709.jpg",
+    "Card Type": "Ruler",
+    "backimage": "17bb3143-de3e-4c4d-852c-7005b151ba47.jpg",
+    "alternate1_Card Number": "ABC-SD03-004J",
+    "alternate1_name": "Refrain, Child of Convergence",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Little Girl",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "{0}: Put this card into your ruler area as a ruler. Play this ability only during your opponent's turn.\n{Rest}, remove two magic counters from this card: Return target resonator to its owner's hand.\n{Rest}, remove X magic counters from this card: Cancel target non-resonator spell your opponent controls with total cost X.\n{Rest}, remove four magic counters from this card: Search your deck for a card and put it into your hand, then shuffle your deck.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "When all possibilities converge at one point, the resulting power will manifest itself.",
+    "alternate1_Artist": "ケルビン",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "828",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "086 - Gnome vs Reinhardt (Gnome)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "17bb3143-de3e-4c4d-852c-7005b151ba47",
+    "alternate1_image": "17bb3143-de3e-4c4d-852c-7005b151ba47.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD03-005",
@@ -239,7 +244,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "c5d3e6b6-45fb-4567-aa8f-b3825b1f1e48",
-    "image": "c5d3e6b6-45fb-4567-aa8f-b3825b1f1e48.jpg"
+    "image": "c5d3e6b6-45fb-4567-aa8f-b3825b1f1e48.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-006",
@@ -261,7 +267,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "b78f595a-7cea-4953-83b5-bf65c5e8a671",
-    "image": "b78f595a-7cea-4953-83b5-bf65c5e8a671.jpg"
+    "image": "b78f595a-7cea-4953-83b5-bf65c5e8a671.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD03-007",
@@ -283,18 +290,19 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "e6752df7-38c9-44e5-bc5c-ccf83b1b65c6",
-    "image": "e6752df7-38c9-44e5-bc5c-ccf83b1b65c6.jpg"
+    "image": "e6752df7-38c9-44e5-bc5c-ccf83b1b65c6.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ABC-SD03-008",
-    "name": "Altesing, Mischievous Boy",
-    "Type": "Resonator",
+    "Card Number": "ABC-SD03-008|ABC-SD03-008*",
+    "name": "Altesing, Mischievous Boy // A Glimpse of the Prodigy",
+    "Type": "Resonator|Chant",
     "Race": "Elf|Wizard",
-    "Cost": "{G}{G}",
+    "Cost": "{G}{G}|{G}{G}{G}",
     "Colour": "G",
     "ATK": "500",
     "DEF": "700",
-    "Abilities": "[Quickcast]\n[Enter] ]]] Prevent all damage that would be dealt by target J/resonator until end of turn.\n{G}: Return this card to its owner's hand. You pay {G}{G} less to play cards named \"A Glimpse of the Prodigy\" until end of turn.",
+    "Abilities": "[Quickcast]\n[Enter] ]]] Prevent all damage that would be dealt by target J/resonator until end of turn.\n{G}: Return this card to its owner's hand. You pay {G}{G} less to play cards named \"A Glimpse of the Prodigy\" until end of turn.|[Quickcast]\nCancel target spell or automatic ability.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -305,29 +313,30 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "9fce0850-f9bc-4426-80cc-ca7e695af8ef",
-    "image": "9fce0850-f9bc-4426-80cc-ca7e695af8ef.jpg"
-  },
-  {
-    "Card Number": "ABC-SD03-008*",
-    "name": "A Glimpse of the Prodigy",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{G}{G}{G}",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nCancel target spell or automatic ability.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "MR",
-    "Fowid": "None",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
-    "Set Code": "ABC",
-    "id": "45c7a653-75c5-4b08-8ee3-eb4b90444c1a",
-    "image": "45c7a653-75c5-4b08-8ee3-eb4b90444c1a.jpg"
+    "image": "9fce0850-f9bc-4426-80cc-ca7e695af8ef.jpg",
+    "Card Type": "Resonator",
+    "backimage": "45c7a653-75c5-4b08-8ee3-eb4b90444c1a.jpg",
+    "alternate1_Card Number": "ABC-SD03-008*",
+    "alternate1_name": "A Glimpse of the Prodigy",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{G}{G}{G}",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nCancel target spell or automatic ability.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "None",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "086 - Gnome vs Reinhardt (Gnome)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "45c7a653-75c5-4b08-8ee3-eb4b90444c1a",
+    "alternate1_image": "45c7a653-75c5-4b08-8ee3-eb4b90444c1a.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-009",
@@ -349,7 +358,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "f079c4a9-cf11-46dd-b872-669df2723c74",
-    "image": "f079c4a9-cf11-46dd-b872-669df2723c74.jpg"
+    "image": "f079c4a9-cf11-46dd-b872-669df2723c74.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-010",
@@ -371,7 +381,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "7a8a20eb-9f4e-42dc-8a0b-9739268c76ec",
-    "image": "7a8a20eb-9f4e-42dc-8a0b-9739268c76ec.jpg"
+    "image": "7a8a20eb-9f4e-42dc-8a0b-9739268c76ec.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-011",
@@ -393,7 +404,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "2ba9ace6-da1d-4de8-b745-02d661280f5b",
-    "image": "2ba9ace6-da1d-4de8-b745-02d661280f5b.jpg"
+    "image": "2ba9ace6-da1d-4de8-b745-02d661280f5b.jpg",
+    "Card Type": "Chant/Master Rune"
   },
   {
     "Card Number": "ABC-SD03-012",
@@ -415,7 +427,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "f7f04073-b46e-4ad1-829a-151c92ffacb6",
-    "image": "f7f04073-b46e-4ad1-829a-151c92ffacb6.jpg"
+    "image": "f7f04073-b46e-4ad1-829a-151c92ffacb6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-013",
@@ -437,7 +450,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "883d3a46-7e55-4a39-8c4b-6a00e81ef1cf",
-    "image": "883d3a46-7e55-4a39-8c4b-6a00e81ef1cf.jpg"
+    "image": "883d3a46-7e55-4a39-8c4b-6a00e81ef1cf.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-014",
@@ -459,7 +473,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "1657da0f-c1f4-4557-9553-f6ebd359baad",
-    "image": "1657da0f-c1f4-4557-9553-f6ebd359baad.jpg"
+    "image": "1657da0f-c1f4-4557-9553-f6ebd359baad.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD03-015",
@@ -481,7 +496,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "b03104cf-8250-4f74-8b22-561719f280eb",
-    "image": "b03104cf-8250-4f74-8b22-561719f280eb.jpg"
+    "image": "b03104cf-8250-4f74-8b22-561719f280eb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-016",
@@ -503,7 +519,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "8ba8422b-950c-4b4a-a926-5cd824ad0340",
-    "image": "8ba8422b-950c-4b4a-a926-5cd824ad0340.jpg"
+    "image": "8ba8422b-950c-4b4a-a926-5cd824ad0340.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-017",
@@ -525,7 +542,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "7a360851-5be6-457c-a650-a29b62b09e7b",
-    "image": "7a360851-5be6-457c-a650-a29b62b09e7b.jpg"
+    "image": "7a360851-5be6-457c-a650-a29b62b09e7b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-018",
@@ -547,7 +565,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "f57beac2-8e0f-48c2-a4a2-43f7fc44006a",
-    "image": "f57beac2-8e0f-48c2-a4a2-43f7fc44006a.jpg"
+    "image": "f57beac2-8e0f-48c2-a4a2-43f7fc44006a.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD03-019",
@@ -569,7 +588,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "b99389c0-6ca3-46d5-bad6-863966b6ecfd",
-    "image": "b99389c0-6ca3-46d5-bad6-863966b6ecfd.jpg"
+    "image": "b99389c0-6ca3-46d5-bad6-863966b6ecfd.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "ABC-SD03-020",
@@ -591,7 +611,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "0f8c912a-f7fb-4c95-bae2-659e1c28a3a2",
-    "image": "0f8c912a-f7fb-4c95-bae2-659e1c28a3a2.jpg"
+    "image": "0f8c912a-f7fb-4c95-bae2-659e1c28a3a2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-021",
@@ -613,7 +634,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "1587eb99-b3f6-40b0-8dbe-6591fa328113",
-    "image": "1587eb99-b3f6-40b0-8dbe-6591fa328113.jpg"
+    "image": "1587eb99-b3f6-40b0-8dbe-6591fa328113.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-022",
@@ -635,7 +657,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "9522913d-f0a7-4f82-abf3-f306a990ebff",
-    "image": "9522913d-f0a7-4f82-abf3-f306a990ebff.jpg"
+    "image": "9522913d-f0a7-4f82-abf3-f306a990ebff.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-023",
@@ -657,7 +680,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "e1b728ad-f5ba-4de8-a171-b9bc71ea7a72",
-    "image": "e1b728ad-f5ba-4de8-a171-b9bc71ea7a72.jpg"
+    "image": "e1b728ad-f5ba-4de8-a171-b9bc71ea7a72.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-024",
@@ -679,7 +703,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "a4da9adf-c198-4a89-b1d5-a42cfa402b6e",
-    "image": "a4da9adf-c198-4a89-b1d5-a42cfa402b6e.jpg"
+    "image": "a4da9adf-c198-4a89-b1d5-a42cfa402b6e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-025",
@@ -701,7 +726,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "2f1e4de7-8444-488f-a18e-f436064eeec2",
-    "image": "2f1e4de7-8444-488f-a18e-f436064eeec2.jpg"
+    "image": "2f1e4de7-8444-488f-a18e-f436064eeec2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-026",
@@ -723,7 +749,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "68254bb3-dc6b-45f7-8c87-77cb9d86d23e",
-    "image": "68254bb3-dc6b-45f7-8c87-77cb9d86d23e.jpg"
+    "image": "68254bb3-dc6b-45f7-8c87-77cb9d86d23e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-027",
@@ -745,7 +772,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "afed046b-1ea4-4c3e-b03d-5bb1390f2b62",
-    "image": "afed046b-1ea4-4c3e-b03d-5bb1390f2b62.jpg"
+    "image": "afed046b-1ea4-4c3e-b03d-5bb1390f2b62.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-028",
@@ -767,7 +795,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "5121cf15-c2f0-4fb9-aa87-b54b59e49bca",
-    "image": "5121cf15-c2f0-4fb9-aa87-b54b59e49bca.jpg"
+    "image": "5121cf15-c2f0-4fb9-aa87-b54b59e49bca.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-029",
@@ -789,7 +818,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "838b7933-5dd2-44c0-a4bf-e131ccf9f546",
-    "image": "838b7933-5dd2-44c0-a4bf-e131ccf9f546.jpg"
+    "image": "838b7933-5dd2-44c0-a4bf-e131ccf9f546.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-030",
@@ -811,7 +841,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "b2c557f9-5827-4af5-b433-c7ba8bdaede0",
-    "image": "b2c557f9-5827-4af5-b433-c7ba8bdaede0.jpg"
+    "image": "b2c557f9-5827-4af5-b433-c7ba8bdaede0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-031",
@@ -833,7 +864,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "2eeaff81-3aac-4ae7-83fc-ec016e6f9b12",
-    "image": "2eeaff81-3aac-4ae7-83fc-ec016e6f9b12.jpg"
+    "image": "2eeaff81-3aac-4ae7-83fc-ec016e6f9b12.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-032",
@@ -855,7 +887,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "e9efbfe2-df15-4787-ab54-dc0823d3e093",
-    "image": "e9efbfe2-df15-4787-ab54-dc0823d3e093.jpg"
+    "image": "e9efbfe2-df15-4787-ab54-dc0823d3e093.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-033",
@@ -877,7 +910,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "e1c90f95-6058-49b5-97e0-3cefbe7a9dbc",
-    "image": "e1c90f95-6058-49b5-97e0-3cefbe7a9dbc.jpg"
+    "image": "e1c90f95-6058-49b5-97e0-3cefbe7a9dbc.jpg",
+    "Card Type": "Master Rune"
   },
   {
     "Card Number": "ABC-SD03-034",
@@ -899,18 +933,19 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "9a1a6776-fad3-4f8f-b202-cef0b5d9177b",
-    "image": "9a1a6776-fad3-4f8f-b202-cef0b5d9177b.jpg"
+    "image": "9a1a6776-fad3-4f8f-b202-cef0b5d9177b.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ABC-SD03-035",
-    "name": "Princess Kaguya",
-    "Type": "Resonator",
+    "Card Number": "ABC-SD03-035|ABC-SD03-035*",
+    "name": "Princess Kaguya // Flying Bamboo",
+    "Type": "Resonator|Chant",
     "Race": "Fairy Tale|Princess",
     "Cost": "{W}{1}",
     "Colour": "W",
     "ATK": "600",
     "DEF": "600",
-    "Abilities": "Calling a magic stone does not cause J/rulers you control to rest.\nIf you would produce will with a magic stone you control, you produce that will plus {M} instead.\n{M}: This card gains [+200/+200] and [Flying] until end of turn",
+    "Abilities": "Calling a magic stone does not cause J/rulers you control to rest.\nIf you would produce will with a magic stone you control, you produce that will plus {M} instead.\n{M}: This card gains [+200/+200] and [Flying] until end of turn|[Quickcast]\nChoose a ruler you control with [Tag] (Six Sages) and a ruler you own with [Tag] (Six Sages) from outside the game. Swap those rulers. If you spent {M} to play this card, put its \"Princess Kaguya\" part into the field instead of putting this card into its owner's graveyard.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -921,29 +956,30 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "9681c79d-85b0-498b-9d92-a9739a3fa423",
-    "image": "9681c79d-85b0-498b-9d92-a9739a3fa423.jpg"
-  },
-  {
-    "Card Number": "ABC-SD03-035*",
-    "name": "Flying Bamboo",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{W}{1}",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nChoose a ruler you control with [Tag] (Six Sages) and a ruler you own with [Tag] (Six Sages) from outside the game. Swap those rulers. If you spent {M} to play this card, put its \"Princess Kaguya\" part into the field instead of putting this card into its owner's graveyard.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Fukuzo Katsura / Yosuke Adachi + Studio Encount,K.K",
-    "Rarity": "MR",
-    "Fowid": "5073",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
-    "Set Code": "ABC",
-    "id": "dcbeb959-7df2-4c60-817d-5aee9cce7912",
-    "image": "dcbeb959-7df2-4c60-817d-5aee9cce7912.jpg"
+    "image": "9681c79d-85b0-498b-9d92-a9739a3fa423.jpg",
+    "Card Type": "Resonator",
+    "backimage": "dcbeb959-7df2-4c60-817d-5aee9cce7912.jpg",
+    "alternate1_Card Number": "ABC-SD03-035*",
+    "alternate1_name": "Flying Bamboo",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{W}{1}",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nChoose a ruler you control with [Tag] (Six Sages) and a ruler you own with [Tag] (Six Sages) from outside the game. Swap those rulers. If you spent {M} to play this card, put its \"Princess Kaguya\" part into the field instead of putting this card into its owner's graveyard.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Fukuzo Katsura / Yosuke Adachi + Studio Encount,K.K",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5073",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "086 - Gnome vs Reinhardt (Gnome)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "dcbeb959-7df2-4c60-817d-5aee9cce7912",
+    "alternate1_image": "dcbeb959-7df2-4c60-817d-5aee9cce7912.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-036",
@@ -965,7 +1001,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "9eddd8d3-deac-44e5-8f54-0746d477286e",
-    "image": "9eddd8d3-deac-44e5-8f54-0746d477286e.jpg"
+    "image": "9eddd8d3-deac-44e5-8f54-0746d477286e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-037",
@@ -987,7 +1024,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "f6b28271-7ced-463a-b877-4276e14c78c6",
-    "image": "f6b28271-7ced-463a-b877-4276e14c78c6.jpg"
+    "image": "f6b28271-7ced-463a-b877-4276e14c78c6.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "ABC-SD03-038",
@@ -1009,7 +1047,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "1f93dc9c-6031-4877-ad24-0d6374b81d38",
-    "image": "1f93dc9c-6031-4877-ad24-0d6374b81d38.jpg"
+    "image": "1f93dc9c-6031-4877-ad24-0d6374b81d38.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-039",
@@ -1031,18 +1070,19 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "4a80cdcb-9642-48b9-a7af-8ba8d76dc775",
-    "image": "4a80cdcb-9642-48b9-a7af-8ba8d76dc775.jpg"
+    "image": "4a80cdcb-9642-48b9-a7af-8ba8d76dc775.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "ABC-SD03-040",
-    "name": "Silmeria, Summoner of Spirits",
-    "Type": "Resonator",
+    "Card Number": "ABC-SD03-040|ABC-SD03-040*",
+    "name": "Silmeria, Summoner of Spirits // Dance of Spirits",
+    "Type": "Resonator|Chant",
     "Race": "Human|Wizard",
     "Cost": "{W}{W}",
     "Colour": "W",
     "ATK": "500",
     "DEF": "1000",
-    "Abilities": "[Flying]\n{Rest}, remove X [+100/+100] counters from this card: Put a [0/0] light Spirit resonator token with [Flying] and with X [+100/+100] counters on it into the field.",
+    "Abilities": "[Flying]\n{Rest}, remove X [+100/+100] counters from this card: Put a [0/0] light Spirit resonator token with [Flying] and with X [+100/+100] counters on it into the field.|[Quickcast]\nTarget player cannot play spells until end of turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1053,29 +1093,30 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "26c10dcb-cc06-467e-b6c9-546172a44a17",
-    "image": "26c10dcb-cc06-467e-b6c9-546172a44a17.jpg"
-  },
-  {
-    "Card Number": "ABC-SD03-040*",
-    "name": "Dance of Spirits",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{W}{W}",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nTarget player cannot play spells until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "None",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
-    "Set Code": "ABC",
-    "id": "36caaa1c-748f-4844-ae11-51d283ab17d4",
-    "image": "36caaa1c-748f-4844-ae11-51d283ab17d4.jpg"
+    "image": "26c10dcb-cc06-467e-b6c9-546172a44a17.jpg",
+    "Card Type": "Resonator",
+    "backimage": "36caaa1c-748f-4844-ae11-51d283ab17d4.jpg",
+    "alternate1_Card Number": "ABC-SD03-040*",
+    "alternate1_name": "Dance of Spirits",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{W}{W}",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nTarget player cannot play spells until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "None",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "086 - Gnome vs Reinhardt (Gnome)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "36caaa1c-748f-4844-ae11-51d283ab17d4",
+    "alternate1_image": "36caaa1c-748f-4844-ae11-51d283ab17d4.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-041",
@@ -1097,7 +1138,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "39ac9132-dec4-4c51-b5bc-ae3d33b436e6",
-    "image": "39ac9132-dec4-4c51-b5bc-ae3d33b436e6.jpg"
+    "image": "39ac9132-dec4-4c51-b5bc-ae3d33b436e6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-042",
@@ -1119,7 +1161,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "d74dd5ea-ae93-4cd0-b67c-cc025b77a88f",
-    "image": "d74dd5ea-ae93-4cd0-b67c-cc025b77a88f.jpg"
+    "image": "d74dd5ea-ae93-4cd0-b67c-cc025b77a88f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-043",
@@ -1141,7 +1184,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "9ea92821-efef-4142-8f31-9909b3caf270",
-    "image": "9ea92821-efef-4142-8f31-9909b3caf270.jpg"
+    "image": "9ea92821-efef-4142-8f31-9909b3caf270.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-044",
@@ -1163,7 +1207,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "501daeca-6ab1-49e9-9fe2-cd4d12293cee",
-    "image": "501daeca-6ab1-49e9-9fe2-cd4d12293cee.jpg"
+    "image": "501daeca-6ab1-49e9-9fe2-cd4d12293cee.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-045",
@@ -1185,7 +1230,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "03068ec6-5edc-4f33-95db-dce95f1fd7ef",
-    "image": "03068ec6-5edc-4f33-95db-dce95f1fd7ef.jpg"
+    "image": "03068ec6-5edc-4f33-95db-dce95f1fd7ef.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-046",
@@ -1207,18 +1253,19 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "370410ac-cf22-43b2-a148-489e1afbea5a",
-    "image": "370410ac-cf22-43b2-a148-489e1afbea5a.jpg"
+    "image": "370410ac-cf22-43b2-a148-489e1afbea5a.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ABC-SD03-047",
-    "name": "Spirit of the Soil",
-    "Type": "Resonator",
+    "Card Number": "ABC-SD03-047|ABC-SD03-047*",
+    "name": "Spirit of the Soil // Loamy Soil",
+    "Type": "Resonator|Chant",
     "Race": "Spirit",
-    "Cost": "{G}{G}",
+    "Cost": "{G}{G}|{G}{2}",
     "Colour": "G",
     "ATK": "500",
     "DEF": "700",
-    "Abilities": "When this card is put into a graveyard from the field ]]] Put the top card of your magic stone deck into the field rested.",
+    "Abilities": "When this card is put into a graveyard from the field ]]] Put the top card of your magic stone deck into the field rested.|Put the top card of your magic stone deck into the field rested.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1229,29 +1276,30 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "3b65af0d-983d-4ceb-9442-4d7a86da7353",
-    "image": "3b65af0d-983d-4ceb-9442-4d7a86da7353.jpg"
-  },
-  {
-    "Card Number": "ABC-SD03-047*",
-    "name": "Loamy Soil",
-    "Type": "Chant",
-    "Race": "Spirit",
-    "Cost": "{G}{2}",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Put the top card of your magic stone deck into the field rested.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "None",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
-    "Set Code": "ABC",
-    "id": "d1124c5d-650f-458d-a237-cec8505316ba",
-    "image": "d1124c5d-650f-458d-a237-cec8505316ba.jpg"
+    "image": "3b65af0d-983d-4ceb-9442-4d7a86da7353.jpg",
+    "Card Type": "Resonator",
+    "backimage": "d1124c5d-650f-458d-a237-cec8505316ba.jpg",
+    "alternate1_Card Number": "ABC-SD03-047*",
+    "alternate1_name": "Loamy Soil",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "Spirit",
+    "alternate1_Cost": "{G}{2}",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "Put the top card of your magic stone deck into the field rested.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "None",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "086 - Gnome vs Reinhardt (Gnome)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "d1124c5d-650f-458d-a237-cec8505316ba",
+    "alternate1_image": "d1124c5d-650f-458d-a237-cec8505316ba.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-048",
@@ -1273,7 +1321,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "dbd05080-0cf6-4a4e-b83d-d351aaf9fe3b",
-    "image": "dbd05080-0cf6-4a4e-b83d-d351aaf9fe3b.jpg"
+    "image": "dbd05080-0cf6-4a4e-b83d-d351aaf9fe3b.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD03-049",
@@ -1295,7 +1344,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "f8a43919-9547-4728-93ea-ac5728e1303c",
-    "image": "f8a43919-9547-4728-93ea-ac5728e1303c.jpg"
+    "image": "f8a43919-9547-4728-93ea-ac5728e1303c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD03-050",
@@ -1317,7 +1367,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "4cf4d75f-254a-4964-aa86-6384b0b3c482",
-    "image": "4cf4d75f-254a-4964-aa86-6384b0b3c482.jpg"
+    "image": "4cf4d75f-254a-4964-aa86-6384b0b3c482.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-051",
@@ -1339,7 +1390,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "1f7cdc0f-755c-41c1-92b0-a17b56877e00",
-    "image": "1f7cdc0f-755c-41c1-92b0-a17b56877e00.jpg"
+    "image": "1f7cdc0f-755c-41c1-92b0-a17b56877e00.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-052",
@@ -1361,7 +1413,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "b99df880-d083-4afc-9745-f6b6c77972fd",
-    "image": "b99df880-d083-4afc-9745-f6b6c77972fd.jpg"
+    "image": "b99df880-d083-4afc-9745-f6b6c77972fd.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-053",
@@ -1383,7 +1436,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "1848b7a6-59d5-4fda-869f-ffdc5566567f",
-    "image": "1848b7a6-59d5-4fda-869f-ffdc5566567f.jpg"
+    "image": "1848b7a6-59d5-4fda-869f-ffdc5566567f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-054",
@@ -1405,7 +1459,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "67a36bf7-fb86-4ec2-bddf-9d0a65367ad6",
-    "image": "67a36bf7-fb86-4ec2-bddf-9d0a65367ad6.jpg"
+    "image": "67a36bf7-fb86-4ec2-bddf-9d0a65367ad6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-055",
@@ -1427,7 +1482,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "31258cba-80d0-4936-930e-e38836c02912",
-    "image": "31258cba-80d0-4936-930e-e38836c02912.jpg"
+    "image": "31258cba-80d0-4936-930e-e38836c02912.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-056",
@@ -1449,7 +1505,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "6c4835ad-6cae-46ea-9027-b23076704038",
-    "image": "6c4835ad-6cae-46ea-9027-b23076704038.jpg"
+    "image": "6c4835ad-6cae-46ea-9027-b23076704038.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-057",
@@ -1471,7 +1528,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "a9adc749-3a52-484f-840f-d50e57bea6f0",
-    "image": "a9adc749-3a52-484f-840f-d50e57bea6f0.jpg"
+    "image": "a9adc749-3a52-484f-840f-d50e57bea6f0.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "ABC-SD03-058",
@@ -1493,7 +1551,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "295e65ce-b1d2-4b55-a024-f18bbb4ea8af",
-    "image": "295e65ce-b1d2-4b55-a024-f18bbb4ea8af.jpg"
+    "image": "295e65ce-b1d2-4b55-a024-f18bbb4ea8af.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-059",
@@ -1515,7 +1574,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "7f03cb92-a4de-4a42-813d-955e9b57d637",
-    "image": "7f03cb92-a4de-4a42-813d-955e9b57d637.jpg"
+    "image": "7f03cb92-a4de-4a42-813d-955e9b57d637.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD03-060",
@@ -1537,7 +1597,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "431daecc-f065-4c38-85b6-e774898fc41d",
-    "image": "431daecc-f065-4c38-85b6-e774898fc41d.jpg"
+    "image": "431daecc-f065-4c38-85b6-e774898fc41d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD03-061",
@@ -1559,7 +1620,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "a9828818-eda4-4704-9b5c-dfafb2d617b4",
-    "image": "a9828818-eda4-4704-9b5c-dfafb2d617b4.jpg"
+    "image": "a9828818-eda4-4704-9b5c-dfafb2d617b4.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD03-062",
@@ -1581,7 +1643,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "9b8ad0fc-9eee-4b43-98c5-800633ba4c53",
-    "image": "9b8ad0fc-9eee-4b43-98c5-800633ba4c53.jpg"
+    "image": "9b8ad0fc-9eee-4b43-98c5-800633ba4c53.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD03-063",
@@ -1603,7 +1666,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "9e33ca51-e7dd-4122-9146-32b9a85ed15c",
-    "image": "9e33ca51-e7dd-4122-9146-32b9a85ed15c.jpg"
+    "image": "9e33ca51-e7dd-4122-9146-32b9a85ed15c.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD03-064",
@@ -1625,7 +1689,8 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "b456b8a6-fd45-4b21-b1cf-ff0b729fe994",
-    "image": "b456b8a6-fd45-4b21-b1cf-ff0b729fe994.jpg"
+    "image": "b456b8a6-fd45-4b21-b1cf-ff0b729fe994.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD03-065",
@@ -1647,6 +1712,7 @@
     "Set Name": "086 - Gnome vs Reinhardt (Gnome)",
     "Set Code": "ABC",
     "id": "e2272954-258c-4224-bef1-fb8ee2b9f879",
-    "image": "e2272954-258c-4224-bef1-fb8ee2b9f879.jpg"
+    "image": "e2272954-258c-4224-bef1-fb8ee2b9f879.jpg",
+    "Card Type": "Special Magic Stone"
   }
 ]

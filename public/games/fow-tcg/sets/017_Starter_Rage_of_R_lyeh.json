@@ -19,7 +19,8 @@
     "Set Name": "017 - Starter - Rage of R'lyeh",
     "Set Code": "SDL2",
     "id": "3504bfb0-5191-4d94-a7ab-7c6279787052",
-    "image": "3504bfb0-5191-4d94-a7ab-7c6279787052.jpg"
+    "image": "3504bfb0-5191-4d94-a7ab-7c6279787052.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDL2-002",
@@ -41,7 +42,8 @@
     "Set Name": "017 - Starter - Rage of R'lyeh",
     "Set Code": "SDL2",
     "id": "df811d3f-e6d7-4659-8cf7-0a82f9c8c705",
-    "image": "df811d3f-e6d7-4659-8cf7-0a82f9c8c705.jpg"
+    "image": "df811d3f-e6d7-4659-8cf7-0a82f9c8c705.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL2-003",
@@ -63,7 +65,8 @@
     "Set Name": "017 - Starter - Rage of R'lyeh",
     "Set Code": "SDL2",
     "id": "875cc962-6e13-4877-abaf-1c65ac7dabab",
-    "image": "875cc962-6e13-4877-abaf-1c65ac7dabab.jpg"
+    "image": "875cc962-6e13-4877-abaf-1c65ac7dabab.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL2-004",
@@ -85,7 +88,8 @@
     "Set Name": "017 - Starter - Rage of R'lyeh",
     "Set Code": "SDL2",
     "id": "d32446a9-c785-4f23-a331-57cf611888c0",
-    "image": "d32446a9-c785-4f23-a331-57cf611888c0.jpg"
+    "image": "d32446a9-c785-4f23-a331-57cf611888c0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL2-005",
@@ -107,7 +111,8 @@
     "Set Name": "017 - Starter - Rage of R'lyeh",
     "Set Code": "SDL2",
     "id": "bd4f3438-c1ed-4afb-8be0-0ef6e536f890",
-    "image": "bd4f3438-c1ed-4afb-8be0-0ef6e536f890.jpg"
+    "image": "bd4f3438-c1ed-4afb-8be0-0ef6e536f890.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL2-006",
@@ -129,51 +134,53 @@
     "Set Name": "017 - Starter - Rage of R'lyeh",
     "Set Code": "SDL2",
     "id": "5ab97d10-9686-425d-b684-28c008078da7",
-    "image": "5ab97d10-9686-425d-b684-28c008078da7.jpg"
+    "image": "5ab97d10-9686-425d-b684-28c008078da7.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "SDL2-007",
-    "name": "Lunya, the Wolf Girl",
-    "Type": "Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {R}{R}{2}\n[Energize] {R} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {R}.\")\nWhenever a resonator you control attacks ⇒ This card deals 100 damage to target resonator.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"I know where Lumia is! No lie, honest!\" the girl exclaimed as she burst into the Light Palace.",
-    "Artist": "夕子",
-    "Rarity": "R",
-    "Fowid": "232",
-    "Cluster": "04 - Lapis",
-    "Set Name": "017 - Starter - Rage of R'lyeh",
-    "Set Code": "SDL2",
-    "id": "a365172a-2377-4ba6-9c33-63a3d23229b7",
-    "image": "a365172a-2377-4ba6-9c33-63a3d23229b7.jpg"
-  },
-  {
-    "Card Number": "SDL2-007J",
-    "name": "Nyarlathotep, the True False Legend",
-    "Type": "J-Ruler",
-    "Race": "Human|Cthulhu",
+    "Card Number": "SDL2-007|SDL2-007J",
+    "name": "Lunya, the Wolf Girl // Nyarlathotep, the True False Legend",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Human|Cthulhu",
     "Cost": "",
     "Colour": "R",
     "ATK": "1200",
     "DEF": "800",
-    "Abilities": "[Swiftness] [Limit] 2 (This card enters your field with two limits counters on it. Whenever this card attacks or blocks ⇒ Remove a limit counter from it.)\nWhen this card enters your field ⇒ It deals 800 damage to target resonator.\nAt the end of turn ⇒ Is there are no limit counters on this card, put it into your ruler area, as a ruler.",
+    "Abilities": "[Judgment] {R}{R}{2}\n[Energize] {R} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {R}.\")\nWhenever a resonator you control attacks ⇒ This card deals 100 damage to target resonator.|[Swiftness] [Limit] 2 (This card enters your field with two limits counters on it. Whenever this card attacks or blocks ⇒ Remove a limit counter from it.)\nWhen this card enters your field ⇒ It deals 800 damage to target resonator.\nAt the end of turn ⇒ Is there are no limit counters on this card, put it into your ruler area, as a ruler.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Hehehe, not to worry. This time I really am going to help.\"",
+    "Flavour": "\"I know where Lumia is! No lie, honest!\" the girl exclaimed as she burst into the Light Palace.|\"Hehehe, not to worry. This time I really am going to help.\"",
     "Artist": "夕子",
     "Rarity": "R",
-    "Fowid": "233",
+    "Fowid": "232|233",
     "Cluster": "04 - Lapis",
     "Set Name": "017 - Starter - Rage of R'lyeh",
     "Set Code": "SDL2",
-    "id": "b94cacbc-0def-4365-8af6-b64c395918e5",
-    "image": "b94cacbc-0def-4365-8af6-b64c395918e5.jpg"
+    "id": "a365172a-2377-4ba6-9c33-63a3d23229b7",
+    "image": "a365172a-2377-4ba6-9c33-63a3d23229b7.jpg",
+    "Card Type": "Ruler",
+    "backimage": "b94cacbc-0def-4365-8af6-b64c395918e5.jpg",
+    "alternate1_Card Number": "SDL2-007J",
+    "alternate1_name": "Nyarlathotep, the True False Legend",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human|Cthulhu",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Swiftness] [Limit] 2 (This card enters your field with two limits counters on it. Whenever this card attacks or blocks ⇒ Remove a limit counter from it.)\nWhen this card enters your field ⇒ It deals 800 damage to target resonator.\nAt the end of turn ⇒ Is there are no limit counters on this card, put it into your ruler area, as a ruler.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Hehehe, not to worry. This time I really am going to help.\"",
+    "alternate1_Artist": "夕子",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "233",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "017 - Starter - Rage of R'lyeh",
+    "alternate1_Set Code": "SDL2",
+    "alternate1_id": "b94cacbc-0def-4365-8af6-b64c395918e5",
+    "alternate1_image": "b94cacbc-0def-4365-8af6-b64c395918e5.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDL2-008",
@@ -195,7 +202,8 @@
     "Set Name": "017 - Starter - Rage of R'lyeh",
     "Set Code": "SDL2",
     "id": "c5f73927-b00b-4f98-9ccd-681455084c3f",
-    "image": "c5f73927-b00b-4f98-9ccd-681455084c3f.jpg"
+    "image": "c5f73927-b00b-4f98-9ccd-681455084c3f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL2-009",
@@ -217,7 +225,8 @@
     "Set Name": "017 - Starter - Rage of R'lyeh",
     "Set Code": "SDL2",
     "id": "32fcd7d3-3c2f-4ba6-9062-860fd309e6d1",
-    "image": "32fcd7d3-3c2f-4ba6-9062-860fd309e6d1.jpg"
+    "image": "32fcd7d3-3c2f-4ba6-9062-860fd309e6d1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL2-010",
@@ -239,7 +248,8 @@
     "Set Name": "017 - Starter - Rage of R'lyeh",
     "Set Code": "SDL2",
     "id": "ce6972ff-01b2-4437-a63c-82c5c3f55cf4",
-    "image": "ce6972ff-01b2-4437-a63c-82c5c3f55cf4.jpg"
+    "image": "ce6972ff-01b2-4437-a63c-82c5c3f55cf4.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDL2-011",
@@ -261,7 +271,8 @@
     "Set Name": "017 - Starter - Rage of R'lyeh",
     "Set Code": "SDL2",
     "id": "3590f64f-41e3-44ed-a72d-e07ef72ba2b0",
-    "image": "3590f64f-41e3-44ed-a72d-e07ef72ba2b0.jpg"
+    "image": "3590f64f-41e3-44ed-a72d-e07ef72ba2b0.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "SDL2-012",
@@ -283,6 +294,7 @@
     "Set Name": "017 - Starter - Rage of R'lyeh",
     "Set Code": "SDL2",
     "id": "85a98aae-c43c-48a8-8bb2-89820d8c581b",
-    "image": "85a98aae-c43c-48a8-8bb2-89820d8c581b.jpg"
+    "image": "85a98aae-c43c-48a8-8bb2-89820d8c581b.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

@@ -1,14 +1,14 @@
 [
   {
-    "Card Number": "2-001",
-    "name": "White Wizard",
-    "Type": "Ruler",
+    "Card Number": "2-001|2-001J",
+    "name": "White Wizard // White Wizard [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Wizard",
     "Cost": "",
     "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {W}{W}{W}.\n[Continuous]: The free cost for light attribute [Spell:Chant] and [Spell:Chant-Instant] cards are reduced by {1}.",
+    "ATK": "200",
+    "DEF": "800",
+    "Abilities": "[J-Activate] Pay {W}{W}{W}.\n[Continuous]: The free cost for light attribute [Spell:Chant] and [Spell:Chant-Instant] cards are reduced by {1}.|[Activate] {Rest}: Produce {W}{W}{W}.\n[Continuous]: The free cost for [Spell:Chant] and [Spell:Chant-Instant] cards you play are reduced by {2}.\n[Enter]: You may put any number of [Spell:Chant-Standby] cards from your hand into your chant-standby area.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -19,29 +19,30 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "06c83264-ff6e-475f-a225-6fcdc6787c60",
-    "image": "06c83264-ff6e-475f-a225-6fcdc6787c60.jpg"
-  },
-  {
-    "Card Number": "2-001J",
-    "name": "White Wizard [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Wizard",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "200",
-    "DEF": "800",
-    "Abilities": "[Activate] {Rest}: Produce {W}{W}{W}.\n[Continuous]: The free cost for [Spell:Chant] and [Spell:Chant-Instant] cards you play are reduced by {2}.\n[Enter]: You may put any number of [Spell:Chant-Standby] cards from your hand into your chant-standby area.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "003 - The War of Valhalla",
-    "Set Code": "2",
-    "id": "8f62a4cf-f1a6-441b-b4e5-c8c9e79d9a75",
-    "image": "8f62a4cf-f1a6-441b-b4e5-c8c9e79d9a75.jpg"
+    "image": "06c83264-ff6e-475f-a225-6fcdc6787c60.jpg",
+    "Card Type": "Ruler",
+    "backimage": "8f62a4cf-f1a6-441b-b4e5-c8c9e79d9a75.jpg",
+    "alternate1_Card Number": "2-001J",
+    "alternate1_name": "White Wizard [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "200",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Activate] {Rest}: Produce {W}{W}{W}.\n[Continuous]: The free cost for [Spell:Chant] and [Spell:Chant-Instant] cards you play are reduced by {2}.\n[Enter]: You may put any number of [Spell:Chant-Standby] cards from your hand into your chant-standby area.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "003 - The War of Valhalla",
+    "alternate1_Set Code": "2",
+    "alternate1_id": "8f62a4cf-f1a6-441b-b4e5-c8c9e79d9a75",
+    "alternate1_image": "8f62a4cf-f1a6-441b-b4e5-c8c9e79d9a75.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "2-002",
@@ -63,7 +64,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "88ef9052-56cb-4b8d-8700-4002addcf554",
-    "image": "88ef9052-56cb-4b8d-8700-4002addcf554.jpg"
+    "image": "88ef9052-56cb-4b8d-8700-4002addcf554.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-003",
@@ -85,7 +87,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "56c4affb-611a-4448-a172-2fbc841779b9",
-    "image": "56c4affb-611a-4448-a172-2fbc841779b9.jpg"
+    "image": "56c4affb-611a-4448-a172-2fbc841779b9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-004",
@@ -107,7 +110,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "700b25c6-12fe-40ed-9f2a-025d522fc127",
-    "image": "700b25c6-12fe-40ed-9f2a-025d522fc127.jpg"
+    "image": "700b25c6-12fe-40ed-9f2a-025d522fc127.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-005",
@@ -129,7 +133,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "cb82cff6-a299-4502-a270-fe773a9febb8",
-    "image": "cb82cff6-a299-4502-a270-fe773a9febb8.jpg"
+    "image": "cb82cff6-a299-4502-a270-fe773a9febb8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-006",
@@ -151,7 +156,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "054a8e9a-d52f-4c97-a5f7-9526fd04ac43",
-    "image": "054a8e9a-d52f-4c97-a5f7-9526fd04ac43.jpg"
+    "image": "054a8e9a-d52f-4c97-a5f7-9526fd04ac43.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-007",
@@ -173,7 +179,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "1b53b449-dd74-4ce7-ad2f-782ca8ba4c02",
-    "image": "1b53b449-dd74-4ce7-ad2f-782ca8ba4c02.jpg"
+    "image": "1b53b449-dd74-4ce7-ad2f-782ca8ba4c02.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-008",
@@ -195,7 +202,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "8a9fff74-75cf-4b3a-970c-946ff92d1a08",
-    "image": "8a9fff74-75cf-4b3a-970c-946ff92d1a08.jpg"
+    "image": "8a9fff74-75cf-4b3a-970c-946ff92d1a08.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-009",
@@ -217,7 +225,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "6a9c8769-a31f-480e-999a-d51112bafa08",
-    "image": "6a9c8769-a31f-480e-999a-d51112bafa08.jpg"
+    "image": "6a9c8769-a31f-480e-999a-d51112bafa08.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-010",
@@ -239,7 +248,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "47395a12-635b-421f-8d4c-ef2a8e5b2745",
-    "image": "47395a12-635b-421f-8d4c-ef2a8e5b2745.jpg"
+    "image": "47395a12-635b-421f-8d4c-ef2a8e5b2745.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-011",
@@ -261,7 +271,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "2d8f7640-a2ea-4dbb-afb6-aa2c67f9eb3a",
-    "image": "2d8f7640-a2ea-4dbb-afb6-aa2c67f9eb3a.jpg"
+    "image": "2d8f7640-a2ea-4dbb-afb6-aa2c67f9eb3a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-012",
@@ -283,7 +294,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "01cad3cc-25c0-4a0f-9c1f-501bafd57211",
-    "image": "01cad3cc-25c0-4a0f-9c1f-501bafd57211.jpg"
+    "image": "01cad3cc-25c0-4a0f-9c1f-501bafd57211.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-013",
@@ -305,7 +317,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "1f6ce25f-8d86-44f6-9171-674a354699ca",
-    "image": "1f6ce25f-8d86-44f6-9171-674a354699ca.jpg"
+    "image": "1f6ce25f-8d86-44f6-9171-674a354699ca.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-014",
@@ -327,7 +340,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "8e91f86d-12d6-4295-b6d4-81d6dbdfac27",
-    "image": "8e91f86d-12d6-4295-b6d4-81d6dbdfac27.jpg"
+    "image": "8e91f86d-12d6-4295-b6d4-81d6dbdfac27.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-015",
@@ -349,7 +363,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "e19885bc-886f-429b-8853-72996c5aaedb",
-    "image": "e19885bc-886f-429b-8853-72996c5aaedb.jpg"
+    "image": "e19885bc-886f-429b-8853-72996c5aaedb.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "2-016",
@@ -371,7 +386,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "78831871-e39a-4aaf-9cd7-8d41f1981eb3",
-    "image": "78831871-e39a-4aaf-9cd7-8d41f1981eb3.jpg"
+    "image": "78831871-e39a-4aaf-9cd7-8d41f1981eb3.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-017",
@@ -393,7 +409,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "48f7db9d-4680-4f2a-be29-7e91972d2e29",
-    "image": "48f7db9d-4680-4f2a-be29-7e91972d2e29.jpg"
+    "image": "48f7db9d-4680-4f2a-be29-7e91972d2e29.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-018",
@@ -415,7 +432,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "70577574-33b6-4e88-9298-b65b48abbcb0",
-    "image": "70577574-33b6-4e88-9298-b65b48abbcb0.jpg"
+    "image": "70577574-33b6-4e88-9298-b65b48abbcb0.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "2-019",
@@ -437,7 +455,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "250ca139-d8e0-4ee5-bf47-064db95c7e55",
-    "image": "250ca139-d8e0-4ee5-bf47-064db95c7e55.jpg"
+    "image": "250ca139-d8e0-4ee5-bf47-064db95c7e55.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "2-020",
@@ -459,18 +478,19 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "e6b1e402-2bb3-45ea-8807-c02cfa0dde9b",
-    "image": "e6b1e402-2bb3-45ea-8807-c02cfa0dde9b.jpg"
+    "image": "e6b1e402-2bb3-45ea-8807-c02cfa0dde9b.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "2-021",
-    "name": "Red Wizard",
-    "Type": "Ruler",
+    "Card Number": "2-021|2-021J",
+    "name": "Red Wizard // Red Wizard [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Wizard",
     "Cost": "",
     "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {R}{R}{R}.\n[Activate] {Rest}: You can only use this ability during a main phase. Damage dealt by your spells deal 300 more damage until end of turn.",
+    "ATK": "200",
+    "DEF": "800",
+    "Abilities": "[J-Activate] Pay {R}{R}{R}.\n[Activate] {Rest}: You can only use this ability during a main phase. Damage dealt by your spells deal 300 more damage until end of turn.|[Activate] Discard a card from your hand: This card deals 200 damage to target resonator.\n[Activate] {Rest}: You can only use this ability during a main phase. Damage dealt by your spells deal 500 more damage until end of turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -481,29 +501,30 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "1f6af0f8-ecbf-4b7b-abca-65e38b31f73b",
-    "image": "1f6af0f8-ecbf-4b7b-abca-65e38b31f73b.jpg"
-  },
-  {
-    "Card Number": "2-021J",
-    "name": "Red Wizard [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Wizard",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "200",
-    "DEF": "800",
-    "Abilities": "[Activate] Discard a card from your hand: This card deals 200 damage to target resonator.\n[Activate] {Rest}: You can only use this ability during a main phase. Damage dealt by your spells deal 500 more damage until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "003 - The War of Valhalla",
-    "Set Code": "2",
-    "id": "c344ff3e-a550-464b-80c0-7db391207eeb",
-    "image": "c344ff3e-a550-464b-80c0-7db391207eeb.jpg"
+    "image": "1f6af0f8-ecbf-4b7b-abca-65e38b31f73b.jpg",
+    "Card Type": "Ruler",
+    "backimage": "c344ff3e-a550-464b-80c0-7db391207eeb.jpg",
+    "alternate1_Card Number": "2-021J",
+    "alternate1_name": "Red Wizard [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "200",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Activate] Discard a card from your hand: This card deals 200 damage to target resonator.\n[Activate] {Rest}: You can only use this ability during a main phase. Damage dealt by your spells deal 500 more damage until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "003 - The War of Valhalla",
+    "alternate1_Set Code": "2",
+    "alternate1_id": "c344ff3e-a550-464b-80c0-7db391207eeb",
+    "alternate1_image": "c344ff3e-a550-464b-80c0-7db391207eeb.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "2-022",
@@ -525,7 +546,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "1b87230f-71d7-42fc-9874-85fad8002aa2",
-    "image": "1b87230f-71d7-42fc-9874-85fad8002aa2.jpg"
+    "image": "1b87230f-71d7-42fc-9874-85fad8002aa2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-023",
@@ -547,7 +569,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "d7c0adff-d47f-4659-8590-0493bec9e490",
-    "image": "d7c0adff-d47f-4659-8590-0493bec9e490.jpg"
+    "image": "d7c0adff-d47f-4659-8590-0493bec9e490.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-024",
@@ -569,7 +592,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "cdfc08cb-fe3c-4679-a3f1-ad99165114f8",
-    "image": "cdfc08cb-fe3c-4679-a3f1-ad99165114f8.jpg"
+    "image": "cdfc08cb-fe3c-4679-a3f1-ad99165114f8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-025",
@@ -591,7 +615,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "9935681f-20ee-4f3d-9860-67d976d0ba85",
-    "image": "9935681f-20ee-4f3d-9860-67d976d0ba85.jpg"
+    "image": "9935681f-20ee-4f3d-9860-67d976d0ba85.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-026",
@@ -613,7 +638,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "c063a138-4b7f-4149-83e7-b0acdaa62af0",
-    "image": "c063a138-4b7f-4149-83e7-b0acdaa62af0.jpg"
+    "image": "c063a138-4b7f-4149-83e7-b0acdaa62af0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-027",
@@ -635,7 +661,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "8c89019f-37b0-4339-8436-9523efa332b3",
-    "image": "8c89019f-37b0-4339-8436-9523efa332b3.jpg"
+    "image": "8c89019f-37b0-4339-8436-9523efa332b3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-028",
@@ -657,7 +684,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "76984bcb-85d4-4559-a07f-51b8a7b15b3a",
-    "image": "76984bcb-85d4-4559-a07f-51b8a7b15b3a.jpg"
+    "image": "76984bcb-85d4-4559-a07f-51b8a7b15b3a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-029",
@@ -679,7 +707,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "ca07be37-ccc0-4bf6-92b5-c93bb1a18089",
-    "image": "ca07be37-ccc0-4bf6-92b5-c93bb1a18089.jpg"
+    "image": "ca07be37-ccc0-4bf6-92b5-c93bb1a18089.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-030",
@@ -701,7 +730,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "57d7cffe-a529-42ef-af0f-31fb2581b804",
-    "image": "57d7cffe-a529-42ef-af0f-31fb2581b804.jpg"
+    "image": "57d7cffe-a529-42ef-af0f-31fb2581b804.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-031",
@@ -723,7 +753,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "54c74d34-4c51-4bac-bd86-8757bcdb8d35",
-    "image": "54c74d34-4c51-4bac-bd86-8757bcdb8d35.jpg"
+    "image": "54c74d34-4c51-4bac-bd86-8757bcdb8d35.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-032",
@@ -745,7 +776,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "11e6d50b-f43b-4cd7-9432-0ea8d1796441",
-    "image": "11e6d50b-f43b-4cd7-9432-0ea8d1796441.jpg"
+    "image": "11e6d50b-f43b-4cd7-9432-0ea8d1796441.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-033",
@@ -767,7 +799,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "f33112fe-363f-4cb7-bc9f-1d4fc87975a4",
-    "image": "f33112fe-363f-4cb7-bc9f-1d4fc87975a4.jpg"
+    "image": "f33112fe-363f-4cb7-bc9f-1d4fc87975a4.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "2-034",
@@ -789,7 +822,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "a05f6c21-9b58-496e-81a4-7e4012889bab",
-    "image": "a05f6c21-9b58-496e-81a4-7e4012889bab.jpg"
+    "image": "a05f6c21-9b58-496e-81a4-7e4012889bab.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-035",
@@ -811,7 +845,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "d3fd345d-2a66-4096-9918-f7a9bb6a12bb",
-    "image": "d3fd345d-2a66-4096-9918-f7a9bb6a12bb.jpg"
+    "image": "d3fd345d-2a66-4096-9918-f7a9bb6a12bb.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "2-036",
@@ -833,7 +868,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "4bc212b5-563b-4d1e-a629-76713f8e2d43",
-    "image": "4bc212b5-563b-4d1e-a629-76713f8e2d43.jpg"
+    "image": "4bc212b5-563b-4d1e-a629-76713f8e2d43.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "2-037",
@@ -855,7 +891,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "cb2c9b28-64f6-403b-8a62-f9f1132ee5fb",
-    "image": "cb2c9b28-64f6-403b-8a62-f9f1132ee5fb.jpg"
+    "image": "cb2c9b28-64f6-403b-8a62-f9f1132ee5fb.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "2-038",
@@ -877,7 +914,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "78481343-4590-4bf5-9fdd-3d7884be137f",
-    "image": "78481343-4590-4bf5-9fdd-3d7884be137f.jpg"
+    "image": "78481343-4590-4bf5-9fdd-3d7884be137f.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "2-039",
@@ -899,18 +937,19 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "68e49029-3769-400c-8440-fff4686ec028",
-    "image": "68e49029-3769-400c-8440-fff4686ec028.jpg"
+    "image": "68e49029-3769-400c-8440-fff4686ec028.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "2-040",
-    "name": "Blue Wizard",
-    "Type": "Ruler",
+    "Card Number": "2-040|2-040J",
+    "name": "Blue Wizard // Blue Wizard [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Wizard",
     "Cost": "",
     "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {U}{U}{U}.\n[Activate] Pay {U}{U}{U}, discard a card from your hand: Return target resonator to its owner's hand.",
+    "ATK": "200",
+    "DEF": "800",
+    "Abilities": "[J-Activate] Pay {U}{U}{U}.\n[Activate] Pay {U}{U}{U}, discard a card from your hand: Return target resonator to its owner's hand.|[Activate] Pay {U}{1}, discard a card from your hand: Return target resonator to its owner's hand.\n[Activate] Pay {U}{U}: Draw a card from your main deck. Then discard a card from your hand.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -921,29 +960,30 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "77b6eff2-3b56-499e-b820-4c68329bf467",
-    "image": "77b6eff2-3b56-499e-b820-4c68329bf467.jpg"
-  },
-  {
-    "Card Number": "2-040J",
-    "name": "Blue Wizard [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Wizard",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "200",
-    "DEF": "800",
-    "Abilities": "[Activate] Pay {U}{1}, discard a card from your hand: Return target resonator to its owner's hand.\n[Activate] Pay {U}{U}: Draw a card from your main deck. Then discard a card from your hand.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "003 - The War of Valhalla",
-    "Set Code": "2",
-    "id": "0d8b9c65-3b1a-4d82-b79e-d2c492a6ea46",
-    "image": "0d8b9c65-3b1a-4d82-b79e-d2c492a6ea46.jpg"
+    "image": "77b6eff2-3b56-499e-b820-4c68329bf467.jpg",
+    "Card Type": "Ruler",
+    "backimage": "0d8b9c65-3b1a-4d82-b79e-d2c492a6ea46.jpg",
+    "alternate1_Card Number": "2-040J",
+    "alternate1_name": "Blue Wizard [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "200",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Activate] Pay {U}{1}, discard a card from your hand: Return target resonator to its owner's hand.\n[Activate] Pay {U}{U}: Draw a card from your main deck. Then discard a card from your hand.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "003 - The War of Valhalla",
+    "alternate1_Set Code": "2",
+    "alternate1_id": "0d8b9c65-3b1a-4d82-b79e-d2c492a6ea46",
+    "alternate1_image": "0d8b9c65-3b1a-4d82-b79e-d2c492a6ea46.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "2-041",
@@ -965,7 +1005,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "136039ea-be11-46f1-ace4-2d35d4faa749",
-    "image": "136039ea-be11-46f1-ace4-2d35d4faa749.jpg"
+    "image": "136039ea-be11-46f1-ace4-2d35d4faa749.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-042",
@@ -987,7 +1028,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "bc147942-d480-4d3f-ba2f-4aeeb6e29ac4",
-    "image": "bc147942-d480-4d3f-ba2f-4aeeb6e29ac4.jpg"
+    "image": "bc147942-d480-4d3f-ba2f-4aeeb6e29ac4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-043",
@@ -1009,7 +1051,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "f85f4339-6933-4211-b32d-e0a6a68346cb",
-    "image": "f85f4339-6933-4211-b32d-e0a6a68346cb.jpg"
+    "image": "f85f4339-6933-4211-b32d-e0a6a68346cb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-044",
@@ -1031,7 +1074,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "5da2e91f-141e-4226-abc6-3d7cba716179",
-    "image": "5da2e91f-141e-4226-abc6-3d7cba716179.jpg"
+    "image": "5da2e91f-141e-4226-abc6-3d7cba716179.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-045",
@@ -1053,7 +1097,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "195cb537-bcc5-4d01-9caf-2c91722c58bc",
-    "image": "195cb537-bcc5-4d01-9caf-2c91722c58bc.jpg"
+    "image": "195cb537-bcc5-4d01-9caf-2c91722c58bc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-046",
@@ -1075,7 +1120,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "4ed59e31-5a7e-4618-bc81-0da756051c49",
-    "image": "4ed59e31-5a7e-4618-bc81-0da756051c49.jpg"
+    "image": "4ed59e31-5a7e-4618-bc81-0da756051c49.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-047",
@@ -1097,7 +1143,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "1cbd34cf-2c14-4251-8df4-c53ff875dc8a",
-    "image": "1cbd34cf-2c14-4251-8df4-c53ff875dc8a.jpg"
+    "image": "1cbd34cf-2c14-4251-8df4-c53ff875dc8a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-048",
@@ -1119,7 +1166,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "b02e8138-74ef-4f27-94f7-b268c87ec4d6",
-    "image": "b02e8138-74ef-4f27-94f7-b268c87ec4d6.jpg"
+    "image": "b02e8138-74ef-4f27-94f7-b268c87ec4d6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-049",
@@ -1141,7 +1189,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "4bfaf0fb-1c14-4f15-8b15-9ea584e55123",
-    "image": "4bfaf0fb-1c14-4f15-8b15-9ea584e55123.jpg"
+    "image": "4bfaf0fb-1c14-4f15-8b15-9ea584e55123.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-050",
@@ -1163,7 +1212,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "e796118c-d4b9-428a-b4c6-4b5ea2591ff1",
-    "image": "e796118c-d4b9-428a-b4c6-4b5ea2591ff1.jpg"
+    "image": "e796118c-d4b9-428a-b4c6-4b5ea2591ff1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-051",
@@ -1185,7 +1235,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "f9e34dd1-cc7e-4e2a-aa37-6a44a0eb0d07",
-    "image": "f9e34dd1-cc7e-4e2a-aa37-6a44a0eb0d07.jpg"
+    "image": "f9e34dd1-cc7e-4e2a-aa37-6a44a0eb0d07.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-052",
@@ -1207,7 +1258,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "a27b6e45-f901-4d09-9629-ee7b1e62b6e1",
-    "image": "a27b6e45-f901-4d09-9629-ee7b1e62b6e1.jpg"
+    "image": "a27b6e45-f901-4d09-9629-ee7b1e62b6e1.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "2-053",
@@ -1229,7 +1281,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "de8bbfa9-dcba-4d27-9a33-10c09c113df9",
-    "image": "de8bbfa9-dcba-4d27-9a33-10c09c113df9.jpg"
+    "image": "de8bbfa9-dcba-4d27-9a33-10c09c113df9.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "2-055",
@@ -1251,7 +1304,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "c412438e-09b9-469a-8ae1-a84567f81521",
-    "image": "c412438e-09b9-469a-8ae1-a84567f81521.jpg"
+    "image": "c412438e-09b9-469a-8ae1-a84567f81521.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-056",
@@ -1273,7 +1327,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "af138737-1ddf-4000-a8cb-245a1afa29d7",
-    "image": "af138737-1ddf-4000-a8cb-245a1afa29d7.jpg"
+    "image": "af138737-1ddf-4000-a8cb-245a1afa29d7.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-057",
@@ -1295,7 +1350,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "e5c4ca4d-f86f-4a84-909a-22682a8e3807",
-    "image": "e5c4ca4d-f86f-4a84-909a-22682a8e3807.jpg"
+    "image": "e5c4ca4d-f86f-4a84-909a-22682a8e3807.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "2-058",
@@ -1317,7 +1373,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "1ebca8f3-ff5a-416b-90b4-a63bdbe14d79",
-    "image": "1ebca8f3-ff5a-416b-90b4-a63bdbe14d79.jpg"
+    "image": "1ebca8f3-ff5a-416b-90b4-a63bdbe14d79.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "2-059",
@@ -1339,18 +1396,19 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "41a48cc5-d58b-4916-9fbf-44099692e659",
-    "image": "41a48cc5-d58b-4916-9fbf-44099692e659.jpg"
+    "image": "41a48cc5-d58b-4916-9fbf-44099692e659.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "2-060",
-    "name": "Arwyn, the Queen of Deep Green",
-    "Type": "Ruler",
+    "Card Number": "2-060|2-060J",
+    "name": "Arwyn, the Queen of Deep Green // Oberon, the Fairy King",
+    "Type": "Ruler|J-Ruler",
     "Race": "Elf",
     "Cost": "",
     "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {G}{G}{G}. You can activate this if you have three or more resonators in your field.\n[Activate] {Rest}: Target wind attribute resonator gains [+500/+500] until the end of turn.",
+    "ATK": "200",
+    "DEF": "1000",
+    "Abilities": "[J-Activate] Pay {G}{G}{G}. You can activate this if you have three or more resonators in your field.\n[Activate] {Rest}: Target wind attribute resonator gains [+500/+500] until the end of turn.|[Continuous]: Your [Race:Elf] resonators gain [+200/+200].\n[Continuous]: Your [Race:Elf] resonator gain \"[Activate] {Rest}: Recover target magic stone.\".\n[Enter]: You may put any number of [Race:Elf] resonators from your hand into your field.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1361,40 +1419,41 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "969fd18d-19e5-4c00-a953-e552dd57ffd2",
-    "image": "969fd18d-19e5-4c00-a953-e552dd57ffd2.jpg"
+    "image": "969fd18d-19e5-4c00-a953-e552dd57ffd2.jpg",
+    "Card Type": "Ruler",
+    "backimage": "2ae60520-62f6-44bf-9795-cd550157f8f2.jpg",
+    "alternate1_Card Number": "2-060J",
+    "alternate1_name": "Oberon, the Fairy King",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Elf",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "200",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Continuous]: Your [Race:Elf] resonators gain [+200/+200].\n[Continuous]: Your [Race:Elf] resonator gain \"[Activate] {Rest}: Recover target magic stone.\".\n[Enter]: You may put any number of [Race:Elf] resonators from your hand into your field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "003 - The War of Valhalla",
+    "alternate1_Set Code": "2",
+    "alternate1_id": "2ae60520-62f6-44bf-9795-cd550157f8f2",
+    "alternate1_image": "2ae60520-62f6-44bf-9795-cd550157f8f2.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "2-060J",
-    "name": "Oberon, the Fairy King",
-    "Type": "J-Ruler",
-    "Race": "Elf",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "200",
-    "DEF": "1000",
-    "Abilities": "[Continuous]: Your [Race:Elf] resonators gain [+200/+200].\n[Continuous]: Your [Race:Elf] resonator gain \"[Activate] {Rest}: Recover target magic stone.\".\n[Enter]: You may put any number of [Race:Elf] resonators from your hand into your field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "003 - The War of Valhalla",
-    "Set Code": "2",
-    "id": "2ae60520-62f6-44bf-9795-cd550157f8f2",
-    "image": "2ae60520-62f6-44bf-9795-cd550157f8f2.jpg"
-  },
-  {
-    "Card Number": "2-061",
-    "name": "Green Wizard",
-    "Type": "Ruler",
+    "Card Number": "2-061|2-061J",
+    "name": "Green Wizard // Green Wizard [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Wizard",
     "Cost": "",
     "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {G}{G}{G}\n[Activate] {Rest}: Destroy target resonator with [Flying].",
+    "ATK": "200",
+    "DEF": "600",
+    "Abilities": "[J-Activate] Pay {G}{G}{G}\n[Activate] {Rest}: Destroy target resonator with [Flying].|[Continuous]: Resonators in your field can block resonator with [Flying].\n[Enter]: Choose a spell in your graveyard and put it into your hand.\n[Activate] Pay {G}{G}, discard a card from you hand: Cancel target spell played by your opponent.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1405,29 +1464,30 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "17089dcc-18df-467c-ac45-a604189f8c43",
-    "image": "17089dcc-18df-467c-ac45-a604189f8c43.jpg"
-  },
-  {
-    "Card Number": "2-061J",
-    "name": "Green Wizard [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Wizard",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "200",
-    "DEF": "600",
-    "Abilities": "[Continuous]: Resonators in your field can block resonator with [Flying].\n[Enter]: Choose a spell in your graveyard and put it into your hand.\n[Activate] Pay {G}{G}, discard a card from you hand: Cancel target spell played by your opponent.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "003 - The War of Valhalla",
-    "Set Code": "2",
-    "id": "5cc52f91-083c-401e-a5a3-c39352aecca6",
-    "image": "5cc52f91-083c-401e-a5a3-c39352aecca6.jpg"
+    "image": "17089dcc-18df-467c-ac45-a604189f8c43.jpg",
+    "Card Type": "Ruler",
+    "backimage": "5cc52f91-083c-401e-a5a3-c39352aecca6.jpg",
+    "alternate1_Card Number": "2-061J",
+    "alternate1_name": "Green Wizard [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "200",
+    "alternate1_DEF": "600",
+    "alternate1_Abilities": "[Continuous]: Resonators in your field can block resonator with [Flying].\n[Enter]: Choose a spell in your graveyard and put it into your hand.\n[Activate] Pay {G}{G}, discard a card from you hand: Cancel target spell played by your opponent.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "003 - The War of Valhalla",
+    "alternate1_Set Code": "2",
+    "alternate1_id": "5cc52f91-083c-401e-a5a3-c39352aecca6",
+    "alternate1_image": "5cc52f91-083c-401e-a5a3-c39352aecca6.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "2-062",
@@ -1449,7 +1509,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "8edcfc2d-d726-4e45-9dbc-cf002833dea8",
-    "image": "8edcfc2d-d726-4e45-9dbc-cf002833dea8.jpg"
+    "image": "8edcfc2d-d726-4e45-9dbc-cf002833dea8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-063",
@@ -1471,7 +1532,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "52b93b00-75ee-4e71-a6b6-3d406faca355",
-    "image": "52b93b00-75ee-4e71-a6b6-3d406faca355.jpg"
+    "image": "52b93b00-75ee-4e71-a6b6-3d406faca355.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-064",
@@ -1493,7 +1555,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "075a389e-27d0-4380-a92e-b6839efa28a2",
-    "image": "075a389e-27d0-4380-a92e-b6839efa28a2.jpg"
+    "image": "075a389e-27d0-4380-a92e-b6839efa28a2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-065",
@@ -1515,7 +1578,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "7e31f7c0-6db8-4ea5-9723-66ca7da77b81",
-    "image": "7e31f7c0-6db8-4ea5-9723-66ca7da77b81.jpg"
+    "image": "7e31f7c0-6db8-4ea5-9723-66ca7da77b81.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-066",
@@ -1537,7 +1601,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "89ea372c-5b2c-48ee-bbf2-d272c40647d0",
-    "image": "89ea372c-5b2c-48ee-bbf2-d272c40647d0.jpg"
+    "image": "89ea372c-5b2c-48ee-bbf2-d272c40647d0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-067",
@@ -1559,7 +1624,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "b9d7956f-6b2a-4ea8-99d1-c2fae7373bbc",
-    "image": "b9d7956f-6b2a-4ea8-99d1-c2fae7373bbc.jpg"
+    "image": "b9d7956f-6b2a-4ea8-99d1-c2fae7373bbc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-068",
@@ -1581,7 +1647,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "d00e54b6-df12-4d28-87b5-5bfe133deea5",
-    "image": "d00e54b6-df12-4d28-87b5-5bfe133deea5.jpg"
+    "image": "d00e54b6-df12-4d28-87b5-5bfe133deea5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-069",
@@ -1603,7 +1670,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "5476c2fa-f526-4579-b752-95d29ce153be",
-    "image": "5476c2fa-f526-4579-b752-95d29ce153be.jpg"
+    "image": "5476c2fa-f526-4579-b752-95d29ce153be.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-070",
@@ -1625,7 +1693,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "1dff1d2d-746e-41cd-8441-fd20d91f2d05",
-    "image": "1dff1d2d-746e-41cd-8441-fd20d91f2d05.jpg"
+    "image": "1dff1d2d-746e-41cd-8441-fd20d91f2d05.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-071",
@@ -1647,7 +1716,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "d46d6e19-2129-4d73-9e61-18457bd5e3da",
-    "image": "d46d6e19-2129-4d73-9e61-18457bd5e3da.jpg"
+    "image": "d46d6e19-2129-4d73-9e61-18457bd5e3da.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-072",
@@ -1669,7 +1739,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "781f7218-e209-4dbf-8aa3-e176f4655287",
-    "image": "781f7218-e209-4dbf-8aa3-e176f4655287.jpg"
+    "image": "781f7218-e209-4dbf-8aa3-e176f4655287.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-073",
@@ -1691,7 +1762,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "10f244ef-696f-4e36-a250-1762aa808f97",
-    "image": "10f244ef-696f-4e36-a250-1762aa808f97.jpg"
+    "image": "10f244ef-696f-4e36-a250-1762aa808f97.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-074",
@@ -1713,7 +1785,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "c9bab6e0-f452-4658-a21b-56ac4f21c622",
-    "image": "c9bab6e0-f452-4658-a21b-56ac4f21c622.jpg"
+    "image": "c9bab6e0-f452-4658-a21b-56ac4f21c622.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-075",
@@ -1735,7 +1808,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "86997a49-d793-43bb-82e4-92805847014d",
-    "image": "86997a49-d793-43bb-82e4-92805847014d.jpg"
+    "image": "86997a49-d793-43bb-82e4-92805847014d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-076",
@@ -1757,7 +1831,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "1a2332d7-7276-434b-bfba-4f04f7bec487",
-    "image": "1a2332d7-7276-434b-bfba-4f04f7bec487.jpg"
+    "image": "1a2332d7-7276-434b-bfba-4f04f7bec487.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-077",
@@ -1779,7 +1854,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "ae813b48-cfaa-49f6-ae0e-8349c90278b6",
-    "image": "ae813b48-cfaa-49f6-ae0e-8349c90278b6.jpg"
+    "image": "ae813b48-cfaa-49f6-ae0e-8349c90278b6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-078",
@@ -1801,7 +1877,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "0d964c79-bd64-4dc1-887f-c695d6151eb0",
-    "image": "0d964c79-bd64-4dc1-887f-c695d6151eb0.jpg"
+    "image": "0d964c79-bd64-4dc1-887f-c695d6151eb0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-079",
@@ -1823,7 +1900,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "e2f90f48-4743-4db4-86cd-4cc89196eedf",
-    "image": "e2f90f48-4743-4db4-86cd-4cc89196eedf.jpg"
+    "image": "e2f90f48-4743-4db4-86cd-4cc89196eedf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-080",
@@ -1845,7 +1923,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "ecc2fca7-1308-49da-bf8e-ee1f88737926",
-    "image": "ecc2fca7-1308-49da-bf8e-ee1f88737926.jpg"
+    "image": "ecc2fca7-1308-49da-bf8e-ee1f88737926.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-081",
@@ -1867,7 +1946,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "755672c9-7f77-49d5-91e1-b207abc9f3bc",
-    "image": "755672c9-7f77-49d5-91e1-b207abc9f3bc.jpg"
+    "image": "755672c9-7f77-49d5-91e1-b207abc9f3bc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-082",
@@ -1889,7 +1969,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "7d42bd06-3ac3-441b-a150-d01df43111c3",
-    "image": "7d42bd06-3ac3-441b-a150-d01df43111c3.jpg"
+    "image": "7d42bd06-3ac3-441b-a150-d01df43111c3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-083",
@@ -1911,7 +1992,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "6d75ad39-46d1-44e2-bb53-76cf34f49cba",
-    "image": "6d75ad39-46d1-44e2-bb53-76cf34f49cba.jpg"
+    "image": "6d75ad39-46d1-44e2-bb53-76cf34f49cba.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-084",
@@ -1933,7 +2015,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "7bcc7173-3dbb-4ab5-9141-d41c0ddee4cc",
-    "image": "7bcc7173-3dbb-4ab5-9141-d41c0ddee4cc.jpg"
+    "image": "7bcc7173-3dbb-4ab5-9141-d41c0ddee4cc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-085",
@@ -1955,7 +2038,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "01509acd-0d78-433c-b67b-899359f78dde",
-    "image": "01509acd-0d78-433c-b67b-899359f78dde.jpg"
+    "image": "01509acd-0d78-433c-b67b-899359f78dde.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-086",
@@ -1977,7 +2061,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "9c7b0576-f101-442a-85ab-2f96992341c3",
-    "image": "9c7b0576-f101-442a-85ab-2f96992341c3.jpg"
+    "image": "9c7b0576-f101-442a-85ab-2f96992341c3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-087",
@@ -1999,7 +2084,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "7eab6d5f-2bd6-4424-93ae-6205283a4570",
-    "image": "7eab6d5f-2bd6-4424-93ae-6205283a4570.jpg"
+    "image": "7eab6d5f-2bd6-4424-93ae-6205283a4570.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-088",
@@ -2021,7 +2107,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "3ea4782a-2e1d-45a0-9775-84aa811af435",
-    "image": "3ea4782a-2e1d-45a0-9775-84aa811af435.jpg"
+    "image": "3ea4782a-2e1d-45a0-9775-84aa811af435.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-089",
@@ -2043,7 +2130,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "1c96eded-59e4-4c89-bfb4-9d2948f476f3",
-    "image": "1c96eded-59e4-4c89-bfb4-9d2948f476f3.jpg"
+    "image": "1c96eded-59e4-4c89-bfb4-9d2948f476f3.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-090",
@@ -2065,7 +2153,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "9d20126a-088c-4691-a1d8-dfdc99fda393",
-    "image": "9d20126a-088c-4691-a1d8-dfdc99fda393.jpg"
+    "image": "9d20126a-088c-4691-a1d8-dfdc99fda393.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-091",
@@ -2087,7 +2176,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "ea45ae6b-5918-4da4-8769-23f016e53fcc",
-    "image": "ea45ae6b-5918-4da4-8769-23f016e53fcc.jpg"
+    "image": "ea45ae6b-5918-4da4-8769-23f016e53fcc.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-092",
@@ -2109,7 +2199,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "11213741-fd11-4c65-a601-6555f1bbe34c",
-    "image": "11213741-fd11-4c65-a601-6555f1bbe34c.jpg"
+    "image": "11213741-fd11-4c65-a601-6555f1bbe34c.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-093",
@@ -2131,7 +2222,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "ca71338c-2237-462d-9db3-799b103ec767",
-    "image": "ca71338c-2237-462d-9db3-799b103ec767.jpg"
+    "image": "ca71338c-2237-462d-9db3-799b103ec767.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "2-094",
@@ -2153,7 +2245,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "2d42a6b8-6bf4-485c-9c9f-3b1b41787031",
-    "image": "2d42a6b8-6bf4-485c-9c9f-3b1b41787031.jpg"
+    "image": "2d42a6b8-6bf4-485c-9c9f-3b1b41787031.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "2-095",
@@ -2175,7 +2268,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "e8e82565-e7d3-466d-8095-6ebf979ad250",
-    "image": "e8e82565-e7d3-466d-8095-6ebf979ad250.jpg"
+    "image": "e8e82565-e7d3-466d-8095-6ebf979ad250.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-096",
@@ -2197,7 +2291,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "eda44fe2-4eff-4ce9-99f1-88838be95cd6",
-    "image": "eda44fe2-4eff-4ce9-99f1-88838be95cd6.jpg"
+    "image": "eda44fe2-4eff-4ce9-99f1-88838be95cd6.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-097",
@@ -2219,7 +2314,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "44118e0e-f585-482c-81d3-17d6202ea8e6",
-    "image": "44118e0e-f585-482c-81d3-17d6202ea8e6.jpg"
+    "image": "44118e0e-f585-482c-81d3-17d6202ea8e6.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-098",
@@ -2241,7 +2337,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "6fa27a64-d595-42f8-ba80-0055f64b225c",
-    "image": "6fa27a64-d595-42f8-ba80-0055f64b225c.jpg"
+    "image": "6fa27a64-d595-42f8-ba80-0055f64b225c.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-099",
@@ -2263,7 +2360,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "5e8a295f-7689-426c-8969-d596f72eb5a3",
-    "image": "5e8a295f-7689-426c-8969-d596f72eb5a3.jpg"
+    "image": "5e8a295f-7689-426c-8969-d596f72eb5a3.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "2-100",
@@ -2285,7 +2383,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "aaac46e2-47b1-4299-a0e4-79aec64510f3",
-    "image": "aaac46e2-47b1-4299-a0e4-79aec64510f3.jpg"
+    "image": "aaac46e2-47b1-4299-a0e4-79aec64510f3.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "2-101",
@@ -2307,7 +2406,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "bb84191a-af7d-464a-ade4-765d81912ab2",
-    "image": "bb84191a-af7d-464a-ade4-765d81912ab2.jpg"
+    "image": "bb84191a-af7d-464a-ade4-765d81912ab2.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "2-102",
@@ -2329,7 +2429,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "3dcbfd37-290f-4799-b1f1-807986a9b4f0",
-    "image": "3dcbfd37-290f-4799-b1f1-807986a9b4f0.jpg"
+    "image": "3dcbfd37-290f-4799-b1f1-807986a9b4f0.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "2-103",
@@ -2351,7 +2452,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "5174cc78-f718-43c8-ad91-3b944e284cb1",
-    "image": "5174cc78-f718-43c8-ad91-3b944e284cb1.jpg"
+    "image": "5174cc78-f718-43c8-ad91-3b944e284cb1.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "2-104",
@@ -2373,7 +2475,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "19994cd9-596c-4e7e-aa0c-98d19ae2f43c",
-    "image": "19994cd9-596c-4e7e-aa0c-98d19ae2f43c.jpg"
+    "image": "19994cd9-596c-4e7e-aa0c-98d19ae2f43c.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "2-105",
@@ -2395,7 +2498,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "c1fd43f9-7bd2-4d63-8e49-97c2b6e8cb5c",
-    "image": "c1fd43f9-7bd2-4d63-8e49-97c2b6e8cb5c.jpg"
+    "image": "c1fd43f9-7bd2-4d63-8e49-97c2b6e8cb5c.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "2-106",
@@ -2417,18 +2521,19 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "7c983398-a2c1-4b97-92de-84da9d399e3c",
-    "image": "7c983398-a2c1-4b97-92de-84da9d399e3c.jpg"
+    "image": "7c983398-a2c1-4b97-92de-84da9d399e3c.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
-    "Card Number": "2-107",
-    "name": "Garmheld, the King of the Dead",
-    "Type": "Ruler",
-    "Race": "Skeleton",
+    "Card Number": "2-107|2-107J",
+    "name": "Garmheld, the King of the Dead // Loki, the Ancient Demon Lord",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Skeleton|Deity",
     "Cost": "",
     "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay 1000 life.\n[Activate] Pay 400 life: Produce {B}. This ability can be activated only once per turn.",
+    "ATK": "800",
+    "DEF": "100",
+    "Abilities": "[J-Activate] Pay 1000 life.\n[Activate] Pay 400 life: Produce {B}. This ability can be activated only once per turn.|[Continuous]: This card gains [+0/+100] for each card in your graveyard.\n[Enter]: Look at the top ten cards from your main deck. Put one of them into your hand, return the rest to your main deck and shuffle it.\n[Activate] Remove a resonator in your graveyard from the game: This card deals 100 damage to each resonator.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -2439,40 +2544,41 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "a3092c46-0e35-4347-b7fb-2fd3cca93529",
-    "image": "a3092c46-0e35-4347-b7fb-2fd3cca93529.jpg"
+    "image": "a3092c46-0e35-4347-b7fb-2fd3cca93529.jpg",
+    "Card Type": "Ruler",
+    "backimage": "c7559714-fe71-48be-a785-b9a55b93ffdc.jpg",
+    "alternate1_Card Number": "2-107J",
+    "alternate1_name": "Loki, the Ancient Demon Lord",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Deity",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "100",
+    "alternate1_Abilities": "[Continuous]: This card gains [+0/+100] for each card in your graveyard.\n[Enter]: Look at the top ten cards from your main deck. Put one of them into your hand, return the rest to your main deck and shuffle it.\n[Activate] Remove a resonator in your graveyard from the game: This card deals 100 damage to each resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "003 - The War of Valhalla",
+    "alternate1_Set Code": "2",
+    "alternate1_id": "c7559714-fe71-48be-a785-b9a55b93ffdc",
+    "alternate1_image": "c7559714-fe71-48be-a785-b9a55b93ffdc.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "2-107J",
-    "name": "Loki, the Ancient Demon Lord",
-    "Type": "J-Ruler",
-    "Race": "Deity",
+    "Card Number": "2-108|2-108J",
+    "name": "Sariel, the Lord of the End // Diabolos, the Nether Tyrant",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Fallen Angel|Demon",
     "Cost": "",
     "Colour": "B",
-    "ATK": "800",
-    "DEF": "100",
-    "Abilities": "[Continuous]: This card gains [+0/+100] for each card in your graveyard.\n[Enter]: Look at the top ten cards from your main deck. Put one of them into your hand, return the rest to your main deck and shuffle it.\n[Activate] Remove a resonator in your graveyard from the game: This card deals 100 damage to each resonator.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "003 - The War of Valhalla",
-    "Set Code": "2",
-    "id": "c7559714-fe71-48be-a785-b9a55b93ffdc",
-    "image": "c7559714-fe71-48be-a785-b9a55b93ffdc.jpg"
-  },
-  {
-    "Card Number": "2-108",
-    "name": "Sariel, the Lord of the End",
-    "Type": "Ruler",
-    "Race": "Fallen Angel",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {5}, discard three cards from your hand.\n[Activate] Pay {4}: Put a resonator from your graveyard into your field. It can attack this turn. At end of turn, remove it from the game if it's in a field or a graveyard.",
+    "ATK": "700",
+    "DEF": "700",
+    "Abilities": "[J-Activate] Pay {5}, discard three cards from your hand.\n[Activate] Pay {4}: Put a resonator from your graveyard into your field. It can attack this turn. At end of turn, remove it from the game if it's in a field or a graveyard.|[Flying]\n[Enter]: Destroy all resonators. Then put three resonators in your graveyard into your field. If you cannot choose three, you cannot put them.\n[Activate] Pay {B}{2}, banish two resonators in your field: Put a resonator in your graveyard into your field. It can attack this turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -2483,40 +2589,41 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "699ef627-9bc2-4914-9c27-eeea5dab3cbb",
-    "image": "699ef627-9bc2-4914-9c27-eeea5dab3cbb.jpg"
+    "image": "699ef627-9bc2-4914-9c27-eeea5dab3cbb.jpg",
+    "Card Type": "Ruler",
+    "backimage": "25bb0a5d-9da2-4773-b5b8-2b9a8de13b30.jpg",
+    "alternate1_Card Number": "2-108J",
+    "alternate1_name": "Diabolos, the Nether Tyrant",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Demon",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[Flying]\n[Enter]: Destroy all resonators. Then put three resonators in your graveyard into your field. If you cannot choose three, you cannot put them.\n[Activate] Pay {B}{2}, banish two resonators in your field: Put a resonator in your graveyard into your field. It can attack this turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "003 - The War of Valhalla",
+    "alternate1_Set Code": "2",
+    "alternate1_id": "25bb0a5d-9da2-4773-b5b8-2b9a8de13b30",
+    "alternate1_image": "25bb0a5d-9da2-4773-b5b8-2b9a8de13b30.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "2-108J",
-    "name": "Diabolos, the Nether Tyrant",
-    "Type": "J-Ruler",
-    "Race": "Demon",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "700",
-    "DEF": "700",
-    "Abilities": "[Flying]\n[Enter]: Destroy all resonators. Then put three resonators in your graveyard into your field. If you cannot choose three, you cannot put them.\n[Activate] Pay {B}{2}, banish two resonators in your field: Put a resonator in your graveyard into your field. It can attack this turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "003 - The War of Valhalla",
-    "Set Code": "2",
-    "id": "25bb0a5d-9da2-4773-b5b8-2b9a8de13b30",
-    "image": "25bb0a5d-9da2-4773-b5b8-2b9a8de13b30.jpg"
-  },
-  {
-    "Card Number": "2-109",
-    "name": "Enforcer of Grudge",
-    "Type": "Ruler",
+    "Card Number": "2-109|2-109J",
+    "name": "Enforcer of Grudge // Enforcer of Grudge [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Black Ones",
     "Cost": "",
     "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {0}: You can activate this if you have four or more resonators in your field.\n[Activate] {B},{Rest}: Target player chooses a card in his or her hand at random and discards it.",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[J-Activate] Pay {0}: You can activate this if you have four or more resonators in your field.\n[Activate] {B},{Rest}: Target player chooses a card in his or her hand at random and discards it.|[Pierce]\n[First Strike]\n[Enter]: Destroy target two resonators.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -2527,29 +2634,30 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "21067182-101a-4ac5-aad6-863ab35dadf0",
-    "image": "21067182-101a-4ac5-aad6-863ab35dadf0.jpg"
-  },
-  {
-    "Card Number": "2-109J",
-    "name": "Enforcer of Grudge [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Black Ones",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Pierce]\n[First Strike]\n[Enter]: Destroy target two resonators.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "003 - The War of Valhalla",
-    "Set Code": "2",
-    "id": "71351536-2cb9-44f8-aa49-db2862a01474",
-    "image": "71351536-2cb9-44f8-aa49-db2862a01474.jpg"
+    "image": "21067182-101a-4ac5-aad6-863ab35dadf0.jpg",
+    "Card Type": "Ruler",
+    "backimage": "71351536-2cb9-44f8-aa49-db2862a01474.jpg",
+    "alternate1_Card Number": "2-109J",
+    "alternate1_name": "Enforcer of Grudge [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Black Ones",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Pierce]\n[First Strike]\n[Enter]: Destroy target two resonators.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "003 - The War of Valhalla",
+    "alternate1_Set Code": "2",
+    "alternate1_id": "71351536-2cb9-44f8-aa49-db2862a01474",
+    "alternate1_image": "71351536-2cb9-44f8-aa49-db2862a01474.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "2-110",
@@ -2571,7 +2679,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "3bf577ac-83fc-4923-bab3-9f376a98f5f3",
-    "image": "3bf577ac-83fc-4923-bab3-9f376a98f5f3.jpg"
+    "image": "3bf577ac-83fc-4923-bab3-9f376a98f5f3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-111",
@@ -2593,7 +2702,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "867cd18f-9a5e-43c5-9c4d-3ab2cdb4749b",
-    "image": "867cd18f-9a5e-43c5-9c4d-3ab2cdb4749b.jpg"
+    "image": "867cd18f-9a5e-43c5-9c4d-3ab2cdb4749b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-112",
@@ -2615,7 +2725,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "2303435b-daed-4e84-b8e9-a355f5dbf7de",
-    "image": "2303435b-daed-4e84-b8e9-a355f5dbf7de.jpg"
+    "image": "2303435b-daed-4e84-b8e9-a355f5dbf7de.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-113",
@@ -2637,7 +2748,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "c3714de4-6ad4-474f-aa67-8990fb49e96a",
-    "image": "c3714de4-6ad4-474f-aa67-8990fb49e96a.jpg"
+    "image": "c3714de4-6ad4-474f-aa67-8990fb49e96a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-114",
@@ -2659,7 +2771,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "aabe61c0-b583-4891-9caf-81f7bea227cb",
-    "image": "aabe61c0-b583-4891-9caf-81f7bea227cb.jpg"
+    "image": "aabe61c0-b583-4891-9caf-81f7bea227cb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-115",
@@ -2681,7 +2794,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "545a659b-13b3-45a2-8e62-2eac62887c74",
-    "image": "545a659b-13b3-45a2-8e62-2eac62887c74.jpg"
+    "image": "545a659b-13b3-45a2-8e62-2eac62887c74.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-116",
@@ -2703,7 +2817,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "e9b5eb9e-8ea5-48b4-8632-84e60d4ec633",
-    "image": "e9b5eb9e-8ea5-48b4-8632-84e60d4ec633.jpg"
+    "image": "e9b5eb9e-8ea5-48b4-8632-84e60d4ec633.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-117",
@@ -2725,7 +2840,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "ab3bd91a-d66b-4451-bac4-17a4a01e0c56",
-    "image": "ab3bd91a-d66b-4451-bac4-17a4a01e0c56.jpg"
+    "image": "ab3bd91a-d66b-4451-bac4-17a4a01e0c56.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-118",
@@ -2747,7 +2863,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "6d0671ca-1891-4f33-8010-771dd390e0b7",
-    "image": "6d0671ca-1891-4f33-8010-771dd390e0b7.jpg"
+    "image": "6d0671ca-1891-4f33-8010-771dd390e0b7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-119",
@@ -2769,7 +2886,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "54225363-7711-4738-b80f-7924c356615b",
-    "image": "54225363-7711-4738-b80f-7924c356615b.jpg"
+    "image": "54225363-7711-4738-b80f-7924c356615b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-120",
@@ -2791,7 +2909,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "d62a03bf-93ae-4ba2-a2f3-6675fb9316d0",
-    "image": "d62a03bf-93ae-4ba2-a2f3-6675fb9316d0.jpg"
+    "image": "d62a03bf-93ae-4ba2-a2f3-6675fb9316d0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-121",
@@ -2813,7 +2932,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "1a730e50-df3e-46a4-94bf-ef7a3fddc5a7",
-    "image": "1a730e50-df3e-46a4-94bf-ef7a3fddc5a7.jpg"
+    "image": "1a730e50-df3e-46a4-94bf-ef7a3fddc5a7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-122",
@@ -2835,7 +2955,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "2388c77d-07c0-47bc-a8c0-76caf9d45f26",
-    "image": "2388c77d-07c0-47bc-a8c0-76caf9d45f26.jpg"
+    "image": "2388c77d-07c0-47bc-a8c0-76caf9d45f26.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-123",
@@ -2857,7 +2978,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "caf1c1f3-6a73-4ce9-8fc2-3c7f21279ecb",
-    "image": "caf1c1f3-6a73-4ce9-8fc2-3c7f21279ecb.jpg"
+    "image": "caf1c1f3-6a73-4ce9-8fc2-3c7f21279ecb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-124",
@@ -2879,7 +3001,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "bad0d10b-59df-41b9-9336-a99f89c6ef6e",
-    "image": "bad0d10b-59df-41b9-9336-a99f89c6ef6e.jpg"
+    "image": "bad0d10b-59df-41b9-9336-a99f89c6ef6e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-125",
@@ -2901,7 +3024,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "c44f6a3a-d584-4e33-b63a-b6e364b0402a",
-    "image": "c44f6a3a-d584-4e33-b63a-b6e364b0402a.jpg"
+    "image": "c44f6a3a-d584-4e33-b63a-b6e364b0402a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-126",
@@ -2923,7 +3047,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "4cfc5f2f-6617-4c15-95d7-f556eebe448e",
-    "image": "4cfc5f2f-6617-4c15-95d7-f556eebe448e.jpg"
+    "image": "4cfc5f2f-6617-4c15-95d7-f556eebe448e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-127",
@@ -2945,7 +3070,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "2f661a4f-0e6c-493d-86f9-1b829b06a23f",
-    "image": "2f661a4f-0e6c-493d-86f9-1b829b06a23f.jpg"
+    "image": "2f661a4f-0e6c-493d-86f9-1b829b06a23f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-128",
@@ -2967,7 +3093,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "ca354cd1-f4fe-462e-8a03-f5f9238584d1",
-    "image": "ca354cd1-f4fe-462e-8a03-f5f9238584d1.jpg"
+    "image": "ca354cd1-f4fe-462e-8a03-f5f9238584d1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-129",
@@ -2989,7 +3116,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "88d4abcc-57f0-4b87-aec3-674162b62813",
-    "image": "88d4abcc-57f0-4b87-aec3-674162b62813.jpg"
+    "image": "88d4abcc-57f0-4b87-aec3-674162b62813.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-130",
@@ -3011,7 +3139,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "6c9a9e2a-6797-4c91-88e0-bd3343423a84",
-    "image": "6c9a9e2a-6797-4c91-88e0-bd3343423a84.jpg"
+    "image": "6c9a9e2a-6797-4c91-88e0-bd3343423a84.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-131",
@@ -3033,7 +3162,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "a4f6b24f-4e29-488e-8335-b6a5a09579e4",
-    "image": "a4f6b24f-4e29-488e-8335-b6a5a09579e4.jpg"
+    "image": "a4f6b24f-4e29-488e-8335-b6a5a09579e4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-132",
@@ -3055,7 +3185,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "ee52ad3d-51e4-4138-8310-9c5457e75ead",
-    "image": "ee52ad3d-51e4-4138-8310-9c5457e75ead.jpg"
+    "image": "ee52ad3d-51e4-4138-8310-9c5457e75ead.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-133",
@@ -3077,7 +3208,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "e9b37554-5380-4ad5-af50-0dd594dab736",
-    "image": "e9b37554-5380-4ad5-af50-0dd594dab736.jpg"
+    "image": "e9b37554-5380-4ad5-af50-0dd594dab736.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-134",
@@ -3099,7 +3231,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "be6ae493-4f7c-4efe-acbe-d8d31b8ce115",
-    "image": "be6ae493-4f7c-4efe-acbe-d8d31b8ce115.jpg"
+    "image": "be6ae493-4f7c-4efe-acbe-d8d31b8ce115.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-135",
@@ -3121,7 +3254,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "f16bb86b-7720-4333-8b84-ede11f2feac9",
-    "image": "f16bb86b-7720-4333-8b84-ede11f2feac9.jpg"
+    "image": "f16bb86b-7720-4333-8b84-ede11f2feac9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-136",
@@ -3143,7 +3277,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "38dde3d7-407c-44be-a32b-800abab9bb9b",
-    "image": "38dde3d7-407c-44be-a32b-800abab9bb9b.jpg"
+    "image": "38dde3d7-407c-44be-a32b-800abab9bb9b.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-137",
@@ -3165,7 +3300,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "edc42fa7-b1bf-4427-82fa-85b7b7ca2a7c",
-    "image": "edc42fa7-b1bf-4427-82fa-85b7b7ca2a7c.jpg"
+    "image": "edc42fa7-b1bf-4427-82fa-85b7b7ca2a7c.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-138",
@@ -3187,7 +3323,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "1db11df2-807f-4ecd-8f97-1a8ac96ea863",
-    "image": "1db11df2-807f-4ecd-8f97-1a8ac96ea863.jpg"
+    "image": "1db11df2-807f-4ecd-8f97-1a8ac96ea863.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-139",
@@ -3209,7 +3346,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "10475d54-415c-442d-b805-f8f5e87f99e5",
-    "image": "10475d54-415c-442d-b805-f8f5e87f99e5.jpg"
+    "image": "10475d54-415c-442d-b805-f8f5e87f99e5.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-140",
@@ -3231,7 +3369,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "bb2af876-5f01-4b67-9fc2-1b3c37a2e12d",
-    "image": "bb2af876-5f01-4b67-9fc2-1b3c37a2e12d.jpg"
+    "image": "bb2af876-5f01-4b67-9fc2-1b3c37a2e12d.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "2-141",
@@ -3253,7 +3392,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "a689fa6c-1d94-49cb-b7e6-540167cdf294",
-    "image": "a689fa6c-1d94-49cb-b7e6-540167cdf294.jpg"
+    "image": "a689fa6c-1d94-49cb-b7e6-540167cdf294.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "2-142",
@@ -3275,7 +3415,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "e99ba73a-6498-45cf-bd9f-2647efaaab13",
-    "image": "e99ba73a-6498-45cf-bd9f-2647efaaab13.jpg"
+    "image": "e99ba73a-6498-45cf-bd9f-2647efaaab13.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "2-143",
@@ -3297,7 +3438,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "c69f0931-be94-46be-b534-2788b41f8f64",
-    "image": "c69f0931-be94-46be-b534-2788b41f8f64.jpg"
+    "image": "c69f0931-be94-46be-b534-2788b41f8f64.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-144",
@@ -3319,7 +3461,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "ee984ceb-c0b3-41cd-8006-0d370295a868",
-    "image": "ee984ceb-c0b3-41cd-8006-0d370295a868.jpg"
+    "image": "ee984ceb-c0b3-41cd-8006-0d370295a868.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-145",
@@ -3341,7 +3484,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "e40e991c-9dda-4792-80f2-96e78aa0c653",
-    "image": "e40e991c-9dda-4792-80f2-96e78aa0c653.jpg"
+    "image": "e40e991c-9dda-4792-80f2-96e78aa0c653.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-146",
@@ -3363,7 +3507,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "bb49c28f-55dd-4dd9-885b-6e45d2611a95",
-    "image": "bb49c28f-55dd-4dd9-885b-6e45d2611a95.jpg"
+    "image": "bb49c28f-55dd-4dd9-885b-6e45d2611a95.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-147",
@@ -3385,7 +3530,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "0a23b615-c104-4e08-8dbb-f9d646d03bf8",
-    "image": "0a23b615-c104-4e08-8dbb-f9d646d03bf8.jpg"
+    "image": "0a23b615-c104-4e08-8dbb-f9d646d03bf8.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-148",
@@ -3407,7 +3553,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "61acdab0-4747-4b2e-9500-5ad7b3ae3337",
-    "image": "61acdab0-4747-4b2e-9500-5ad7b3ae3337.jpg"
+    "image": "61acdab0-4747-4b2e-9500-5ad7b3ae3337.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-149",
@@ -3429,7 +3576,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "f379765b-e7df-488c-ae55-48212a8830d5",
-    "image": "f379765b-e7df-488c-ae55-48212a8830d5.jpg"
+    "image": "f379765b-e7df-488c-ae55-48212a8830d5.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-150",
@@ -3451,7 +3599,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "61f40a99-c00a-4c7b-8598-e15957829579",
-    "image": "61f40a99-c00a-4c7b-8598-e15957829579.jpg"
+    "image": "61f40a99-c00a-4c7b-8598-e15957829579.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "2-151",
@@ -3473,7 +3622,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "e5cf88b8-49ec-4de3-b9c0-1b212fbca963",
-    "image": "e5cf88b8-49ec-4de3-b9c0-1b212fbca963.jpg"
+    "image": "e5cf88b8-49ec-4de3-b9c0-1b212fbca963.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "2-152",
@@ -3495,7 +3645,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "5bd34935-8c9c-4c51-95ec-4b10a62d5fad",
-    "image": "5bd34935-8c9c-4c51-95ec-4b10a62d5fad.jpg"
+    "image": "5bd34935-8c9c-4c51-95ec-4b10a62d5fad.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "2-153",
@@ -3517,7 +3668,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "b1301f5d-1d00-4507-90d0-9e34d6cdaf67",
-    "image": "b1301f5d-1d00-4507-90d0-9e34d6cdaf67.jpg"
+    "image": "b1301f5d-1d00-4507-90d0-9e34d6cdaf67.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "2-154",
@@ -3539,7 +3691,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "65d41cce-f7c3-4b84-8d46-aa117f7c21a7",
-    "image": "65d41cce-f7c3-4b84-8d46-aa117f7c21a7.jpg"
+    "image": "65d41cce-f7c3-4b84-8d46-aa117f7c21a7.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "2-155",
@@ -3561,7 +3714,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "0fe18973-c647-4a69-a1b3-c7b97fbbc3e7",
-    "image": "0fe18973-c647-4a69-a1b3-c7b97fbbc3e7.jpg"
+    "image": "0fe18973-c647-4a69-a1b3-c7b97fbbc3e7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-156",
@@ -3583,7 +3737,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "3713cf8f-c406-4d6c-9c4c-a27e46eb694a",
-    "image": "3713cf8f-c406-4d6c-9c4c-a27e46eb694a.jpg"
+    "image": "3713cf8f-c406-4d6c-9c4c-a27e46eb694a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "2-157",
@@ -3605,7 +3760,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "1d1e0dd5-b6c6-458f-a7ce-eb28fc7ba1f2",
-    "image": "1d1e0dd5-b6c6-458f-a7ce-eb28fc7ba1f2.jpg"
+    "image": "1d1e0dd5-b6c6-458f-a7ce-eb28fc7ba1f2.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "2-158",
@@ -3627,7 +3783,8 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "350a55a7-d113-410b-a478-fe1a8ab6b5da",
-    "image": "350a55a7-d113-410b-a478-fe1a8ab6b5da.jpg"
+    "image": "350a55a7-d113-410b-a478-fe1a8ab6b5da.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "2-054",
@@ -3649,6 +3806,7 @@
     "Set Name": "003 - The War of Valhalla",
     "Set Code": "2",
     "id": "3d7a7b18-834c-4a40-9c17-67a5f52410e6",
-    "image": "3d7a7b18-834c-4a40-9c17-67a5f52410e6.jpg"
+    "image": "3d7a7b18-834c-4a40-9c17-67a5f52410e6.jpg",
+    "Card Type": "Spell:Chant"
   }
 ]

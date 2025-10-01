@@ -19,7 +19,8 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "a1a7c01c-4fb4-488e-a52f-7ca230c90630",
-    "image": "a1a7c01c-4fb4-488e-a52f-7ca230c90630.jpg"
+    "image": "a1a7c01c-4fb4-488e-a52f-7ca230c90630.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ATD-002",
@@ -41,7 +42,8 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "40261764-2ce1-4d5d-a12c-8a4bf67d6057",
-    "image": "40261764-2ce1-4d5d-a12c-8a4bf67d6057.jpg"
+    "image": "40261764-2ce1-4d5d-a12c-8a4bf67d6057.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ATD-003",
@@ -63,7 +65,8 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "621d2f00-b065-4e37-8049-a48677ffa7fc",
-    "image": "621d2f00-b065-4e37-8049-a48677ffa7fc.jpg"
+    "image": "621d2f00-b065-4e37-8049-a48677ffa7fc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ATD-004",
@@ -85,7 +88,8 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "6ae228ef-9abb-48e2-8e5c-974b22f40f67",
-    "image": "6ae228ef-9abb-48e2-8e5c-974b22f40f67.jpg"
+    "image": "6ae228ef-9abb-48e2-8e5c-974b22f40f67.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ATD-005",
@@ -107,7 +111,8 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "63ae041a-d51b-40d1-89e8-14d4cefd8305",
-    "image": "63ae041a-d51b-40d1-89e8-14d4cefd8305.jpg"
+    "image": "63ae041a-d51b-40d1-89e8-14d4cefd8305.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ATD-006",
@@ -129,40 +134,19 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "75b1c818-b420-4825-aa38-5b5fb71d263a",
-    "image": "75b1c818-b420-4825-aa38-5b5fb71d263a.jpg"
+    "image": "75b1c818-b420-4825-aa38-5b5fb71d263a.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "ATD-007",
-    "name": "Rekha, Exorcist of Dawn and Dusk",
-    "Type": "Resonator",
+    "Card Number": "ATD-007|ATD-007*",
+    "name": "Rekha, Exorcist of Dawn and Dusk // Song of Endings and Beginnings",
+    "Type": "Resonator|Chant",
     "Race": "Dryad|Songstress|Spirit",
-    "Cost": "{G}{1}",
-    "Colour": "G",
+    "Cost": "{G}{1}|{B}{1}",
+    "Colour": "G|B",
     "ATK": "500",
     "DEF": "700",
-    "Abilities": "[Reunited] \"Athenia\" or \"Nine-Tailed Fox\" or \"Rehka\"\n- [Necrobloom] (Whenever you banish a magic stone ]]] If you haven't played any spell with [Necrobloom] this turn, play this card from your graveyard without paying its cost.)\n- [Enter] ]]] Search your deck, graveyard, and/or hand for a Spirit card with \"Growth\" or \"Shade\" in its name and put it into the field. If you searched your deck, shuffle it.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "NOMORE",
-    "Rarity": "MR",
-    "Fowid": "",
-    "Cluster": "14 - Evil",
-    "Set Name": "100 - Antechamber of the Ten Dimensions",
-    "Set Code": "ATD",
-    "id": "eb1787d8-0813-4836-ad65-16bc5ed000bb",
-    "image": "eb1787d8-0813-4836-ad65-16bc5ed000bb.jpg"
-  },
-  {
-    "Card Number": "ATD-007*",
-    "name": "Song of Endings and Beginnings",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{B}{1}",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Reunited] \"Athenia\" or \"Nine-Tailed Fox\" or \"Rehka\"\n- Darkness resonator cards in your graveyard gain [Necrobloom] until the beginning of your next turn. You gain 1000 life.",
+    "Abilities": "[Reunited] \"Athenia\" or \"Nine-Tailed Fox\" or \"Rehka\"\n- [Necrobloom] (Whenever you banish a magic stone ]]] If you haven't played any spell with [Necrobloom] this turn, play this card from your graveyard without paying its cost.)\n- [Enter] ]]] Search your deck, graveyard, and/or hand for a Spirit card with \"Growth\" or \"Shade\" in its name and put it into the field. If you searched your deck, shuffle it.|[Reunited] \"Athenia\" or \"Nine-Tailed Fox\" or \"Rehka\"\n- Darkness resonator cards in your graveyard gain [Necrobloom] until the beginning of your next turn. You gain 1000 life.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "In the dimension of Seiz, if your spirit isn't exorcised when you die, your spirit will haunt and kill your loved ones.",
@@ -172,8 +156,31 @@
     "Cluster": "14 - Evil",
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
-    "id": "2fcd1f0f-190f-4406-b274-39c33c7939fb",
-    "image": "2fcd1f0f-190f-4406-b274-39c33c7939fb.jpg"
+    "id": "eb1787d8-0813-4836-ad65-16bc5ed000bb",
+    "image": "eb1787d8-0813-4836-ad65-16bc5ed000bb.jpg",
+    "Card Type": "Resonator",
+    "backimage": "2fcd1f0f-190f-4406-b274-39c33c7939fb.jpg",
+    "alternate1_Card Number": "ATD-007*",
+    "alternate1_name": "Song of Endings and Beginnings",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{B}{1}",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Reunited] \"Athenia\" or \"Nine-Tailed Fox\" or \"Rehka\"\n- Darkness resonator cards in your graveyard gain [Necrobloom] until the beginning of your next turn. You gain 1000 life.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "In the dimension of Seiz, if your spirit isn't exorcised when you die, your spirit will haunt and kill your loved ones.",
+    "alternate1_Artist": "NOMORE",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "14 - Evil",
+    "alternate1_Set Name": "100 - Antechamber of the Ten Dimensions",
+    "alternate1_Set Code": "ATD",
+    "alternate1_id": "2fcd1f0f-190f-4406-b274-39c33c7939fb",
+    "alternate1_image": "2fcd1f0f-190f-4406-b274-39c33c7939fb.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ATD-008",
@@ -195,7 +202,8 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "0129fcf0-5fd8-4917-8dcc-19ff1f14fa87",
-    "image": "0129fcf0-5fd8-4917-8dcc-19ff1f14fa87.jpg"
+    "image": "0129fcf0-5fd8-4917-8dcc-19ff1f14fa87.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ATD-009",
@@ -217,7 +225,8 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "4379452a-f784-4e25-b5f4-09895ecee53a",
-    "image": "4379452a-f784-4e25-b5f4-09895ecee53a.jpg"
+    "image": "4379452a-f784-4e25-b5f4-09895ecee53a.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ATD-010",
@@ -239,7 +248,8 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "2fdc5eda-580f-46cc-a26d-b719df97878f",
-    "image": "2fdc5eda-580f-46cc-a26d-b719df97878f.jpg"
+    "image": "2fdc5eda-580f-46cc-a26d-b719df97878f.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ATD-011",
@@ -261,7 +271,8 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "676c1f39-920e-473b-9721-f3cec2cfc230",
-    "image": "676c1f39-920e-473b-9721-f3cec2cfc230.jpg"
+    "image": "676c1f39-920e-473b-9721-f3cec2cfc230.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "ATD-012",
@@ -283,7 +294,8 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "7e5a4652-f989-4789-8d94-368cedb0ebbd",
-    "image": "7e5a4652-f989-4789-8d94-368cedb0ebbd.jpg"
+    "image": "7e5a4652-f989-4789-8d94-368cedb0ebbd.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "ATD-013",
@@ -305,7 +317,8 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "ca339a2b-e324-45d7-97be-fa7668271f00",
-    "image": "ca339a2b-e324-45d7-97be-fa7668271f00.jpg"
+    "image": "ca339a2b-e324-45d7-97be-fa7668271f00.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ATD-014",
@@ -327,7 +340,8 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "6a37e8ea-be02-4d44-9d34-8b97a7e27998",
-    "image": "6a37e8ea-be02-4d44-9d34-8b97a7e27998.jpg"
+    "image": "6a37e8ea-be02-4d44-9d34-8b97a7e27998.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ATD-015",
@@ -349,6 +363,7 @@
     "Set Name": "100 - Antechamber of the Ten Dimensions",
     "Set Code": "ATD",
     "id": "b5f7fc83-1fff-409e-b7ed-31dc1e7b8873",
-    "image": "b5f7fc83-1fff-409e-b7ed-31dc1e7b8873.jpg"
+    "image": "b5f7fc83-1fff-409e-b7ed-31dc1e7b8873.jpg",
+    "Card Type": "Regalia"
   }
 ]

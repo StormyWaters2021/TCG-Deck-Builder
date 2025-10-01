@@ -19,7 +19,8 @@
     "Set Name": "016 - Starter - Fairy Tale Force",
     "Set Code": "SDL1",
     "id": "e5465284-a7cf-4176-ad46-6acef4f0391d",
-    "image": "e5465284-a7cf-4176-ad46-6acef4f0391d.jpg"
+    "image": "e5465284-a7cf-4176-ad46-6acef4f0391d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL1-002",
@@ -41,7 +42,8 @@
     "Set Name": "016 - Starter - Fairy Tale Force",
     "Set Code": "SDL1",
     "id": "e649e178-4b0e-4ce3-b4c5-5743a2ca325e",
-    "image": "e649e178-4b0e-4ce3-b4c5-5743a2ca325e.jpg"
+    "image": "e649e178-4b0e-4ce3-b4c5-5743a2ca325e.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "SDL1-003",
@@ -63,7 +65,8 @@
     "Set Name": "016 - Starter - Fairy Tale Force",
     "Set Code": "SDL1",
     "id": "fdb01333-66c7-4f01-b4ea-3840bd7b2762",
-    "image": "fdb01333-66c7-4f01-b4ea-3840bd7b2762.jpg"
+    "image": "fdb01333-66c7-4f01-b4ea-3840bd7b2762.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL1-004",
@@ -85,7 +88,8 @@
     "Set Name": "016 - Starter - Fairy Tale Force",
     "Set Code": "SDL1",
     "id": "d23190cc-e3d2-4be4-8858-e817db139d75",
-    "image": "d23190cc-e3d2-4be4-8858-e817db139d75.jpg"
+    "image": "d23190cc-e3d2-4be4-8858-e817db139d75.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL1-005",
@@ -107,7 +111,8 @@
     "Set Name": "016 - Starter - Fairy Tale Force",
     "Set Code": "SDL1",
     "id": "6f40ea96-12f6-42db-af00-76b3d8458000",
-    "image": "6f40ea96-12f6-42db-af00-76b3d8458000.jpg"
+    "image": "6f40ea96-12f6-42db-af00-76b3d8458000.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL1-006",
@@ -129,7 +134,8 @@
     "Set Name": "016 - Starter - Fairy Tale Force",
     "Set Code": "SDL1",
     "id": "31d59486-f096-4fd8-b7a8-3a8f8dd7da0b",
-    "image": "31d59486-f096-4fd8-b7a8-3a8f8dd7da0b.jpg"
+    "image": "31d59486-f096-4fd8-b7a8-3a8f8dd7da0b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL1-007",
@@ -151,7 +157,8 @@
     "Set Name": "016 - Starter - Fairy Tale Force",
     "Set Code": "SDL1",
     "id": "f24adc84-790b-46d6-8d3e-764a46d0393b",
-    "image": "f24adc84-790b-46d6-8d3e-764a46d0393b.jpg"
+    "image": "f24adc84-790b-46d6-8d3e-764a46d0393b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDL1-008",
@@ -173,51 +180,53 @@
     "Set Name": "016 - Starter - Fairy Tale Force",
     "Set Code": "SDL1",
     "id": "b8710525-c702-4f6b-9596-762d2ff3faeb",
-    "image": "b8710525-c702-4f6b-9596-762d2ff3faeb.jpg"
+    "image": "b8710525-c702-4f6b-9596-762d2ff3faeb.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "SDL1-009",
-    "name": "Millium, Prince of the Light Palace",
-    "Type": "Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {W}{W}{1}\n[Energize] {W} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {W}.\")\nYou may pay the attribute cost of Fairy Tale resonators with light will.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The child of Grimm, and prince of the kingdom. Millium fights alongside fairy tales, as friends.",
-    "Artist": "城戸春一",
-    "Rarity": "R",
-    "Fowid": "221",
-    "Cluster": "04 - Lapis",
-    "Set Name": "016 - Starter - Fairy Tale Force",
-    "Set Code": "SDL1",
-    "id": "a8f003ac-3bd5-43f3-ac27-f978e448f1a9",
-    "image": "a8f003ac-3bd5-43f3-ac27-f978e448f1a9.jpg"
-  },
-  {
-    "Card Number": "SDL1-009J",
-    "name": "Millium, Voice of a New Generation",
-    "Type": "J-Ruler",
+    "Card Number": "SDL1-009|SDL1-009J",
+    "name": "Millium, Prince of the Light Palace // Millium, Voice of a New Generation",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human",
     "Cost": "",
     "Colour": "W",
     "ATK": "900",
     "DEF": "900",
-    "Abilities": "When this card enters your field ⇒ Put the top card of your magic stone deck into your field.\nYou may pay the attribute cost of Fairy Tale resonators with light will.\nWhenever this card attacks or blocks ⇒ [Force] 1 (Roll a die.) Put X [+100/+100] counters on this card, where X is the result of the roll.",
+    "Abilities": "[Judgment] {W}{W}{1}\n[Energize] {W} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {W}.\")\nYou may pay the attribute cost of Fairy Tale resonators with light will.|When this card enters your field ⇒ Put the top card of your magic stone deck into your field.\nYou may pay the attribute cost of Fairy Tale resonators with light will.\nWhenever this card attacks or blocks ⇒ [Force] 1 (Roll a die.) Put X [+100/+100] counters on this card, where X is the result of the roll.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "The item Lunya brought proved to be unstable at first, but in time its true power revealed itself.",
+    "Flavour": "The child of Grimm, and prince of the kingdom. Millium fights alongside fairy tales, as friends.|The item Lunya brought proved to be unstable at first, but in time its true power revealed itself.",
     "Artist": "城戸春一",
     "Rarity": "R",
-    "Fowid": "222",
+    "Fowid": "221|222",
     "Cluster": "04 - Lapis",
     "Set Name": "016 - Starter - Fairy Tale Force",
     "Set Code": "SDL1",
-    "id": "10036d45-7f9a-40db-a667-a4d302990ed6",
-    "image": "10036d45-7f9a-40db-a667-a4d302990ed6.jpg"
+    "id": "a8f003ac-3bd5-43f3-ac27-f978e448f1a9",
+    "image": "a8f003ac-3bd5-43f3-ac27-f978e448f1a9.jpg",
+    "Card Type": "Ruler",
+    "backimage": "10036d45-7f9a-40db-a667-a4d302990ed6.jpg",
+    "alternate1_Card Number": "SDL1-009J",
+    "alternate1_name": "Millium, Voice of a New Generation",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "When this card enters your field ⇒ Put the top card of your magic stone deck into your field.\nYou may pay the attribute cost of Fairy Tale resonators with light will.\nWhenever this card attacks or blocks ⇒ [Force] 1 (Roll a die.) Put X [+100/+100] counters on this card, where X is the result of the roll.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "The item Lunya brought proved to be unstable at first, but in time its true power revealed itself.",
+    "alternate1_Artist": "城戸春一",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "222",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "016 - Starter - Fairy Tale Force",
+    "alternate1_Set Code": "SDL1",
+    "alternate1_id": "10036d45-7f9a-40db-a667-a4d302990ed6",
+    "alternate1_image": "10036d45-7f9a-40db-a667-a4d302990ed6.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDL1-010",
@@ -239,7 +248,8 @@
     "Set Name": "016 - Starter - Fairy Tale Force",
     "Set Code": "SDL1",
     "id": "fe6bd3b3-9262-41ac-b285-5321556c1999",
-    "image": "fe6bd3b3-9262-41ac-b285-5321556c1999.jpg"
+    "image": "fe6bd3b3-9262-41ac-b285-5321556c1999.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDL1-011",
@@ -261,7 +271,8 @@
     "Set Name": "016 - Starter - Fairy Tale Force",
     "Set Code": "SDL1",
     "id": "d2561e38-7894-4d9d-976d-ccfb468884d8",
-    "image": "d2561e38-7894-4d9d-976d-ccfb468884d8.jpg"
+    "image": "d2561e38-7894-4d9d-976d-ccfb468884d8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL1-012",
@@ -283,6 +294,7 @@
     "Set Name": "016 - Starter - Fairy Tale Force",
     "Set Code": "SDL1",
     "id": "23c44aa7-0445-480e-9b27-218b84f77e76",
-    "image": "23c44aa7-0445-480e-9b27-218b84f77e76.jpg"
+    "image": "23c44aa7-0445-480e-9b27-218b84f77e76.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

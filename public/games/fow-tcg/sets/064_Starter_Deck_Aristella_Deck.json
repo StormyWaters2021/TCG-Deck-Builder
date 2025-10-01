@@ -19,7 +19,8 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "de17cebe-6580-4fef-88b4-937fa649446d",
-    "image": "de17cebe-6580-4fef-88b4-937fa649446d.jpg"
+    "image": "de17cebe-6580-4fef-88b4-937fa649446d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "HSD-002",
@@ -41,7 +42,8 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "ccb3d8da-0668-4e3a-8a09-4fc0857aa56a",
-    "image": "ccb3d8da-0668-4e3a-8a09-4fc0857aa56a.jpg"
+    "image": "ccb3d8da-0668-4e3a-8a09-4fc0857aa56a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "HSD-003",
@@ -63,7 +65,8 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "8ea72ab7-7d5b-437d-9027-8317b237c7fe",
-    "image": "8ea72ab7-7d5b-437d-9027-8317b237c7fe.jpg"
+    "image": "8ea72ab7-7d5b-437d-9027-8317b237c7fe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "HSD-004",
@@ -85,7 +88,8 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "3dd8c61e-7611-4004-89cf-f6b542c4ea85",
-    "image": "3dd8c61e-7611-4004-89cf-f6b542c4ea85.jpg"
+    "image": "3dd8c61e-7611-4004-89cf-f6b542c4ea85.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "HSD-005",
@@ -107,7 +111,8 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "620da1f0-8322-489d-a838-dc0b5bb284f0",
-    "image": "620da1f0-8322-489d-a838-dc0b5bb284f0.jpg"
+    "image": "620da1f0-8322-489d-a838-dc0b5bb284f0.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "HSD-006",
@@ -129,7 +134,8 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "940fcf34-3d29-4628-8911-e8e59fad3c7e",
-    "image": "940fcf34-3d29-4628-8911-e8e59fad3c7e.jpg"
+    "image": "940fcf34-3d29-4628-8911-e8e59fad3c7e.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "HSD-007",
@@ -151,7 +157,8 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "21cb3ab9-6ec0-4098-ba61-c82ae4b5cf6f",
-    "image": "21cb3ab9-6ec0-4098-ba61-c82ae4b5cf6f.jpg"
+    "image": "21cb3ab9-6ec0-4098-ba61-c82ae4b5cf6f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "HSD-008",
@@ -173,7 +180,8 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "0dedfbd1-f027-44dc-a3f4-8d9ca601047a",
-    "image": "0dedfbd1-f027-44dc-a3f4-8d9ca601047a.jpg"
+    "image": "0dedfbd1-f027-44dc-a3f4-8d9ca601047a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "HSD-009",
@@ -195,51 +203,53 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "350600fc-ebc0-42b3-9f83-5803b523617b",
-    "image": "350600fc-ebc0-42b3-9f83-5803b523617b.jpg"
+    "image": "350600fc-ebc0-42b3-9f83-5803b523617b.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "HSD-010",
-    "name": "Contract of the Water Moon",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "HSD-010|HSD-010J",
+    "name": "Contract of the Water Moon // Fairy Tale King",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Fairy Tale|Spirit",
     "Cost": "{W}{U}",
     "Colour": "W|U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Return target non-magic stone, non-J-ruler entity to its owner's hand. Draw a card. If you played a God's Art this turn, you may contract this card with \"Aristella, Twin Prince\".",
+    "ATK": "800",
+    "DEF": "800",
+    "Abilities": "Return target non-magic stone, non-J-ruler entity to its owner's hand. Draw a card. If you played a God's Art this turn, you may contract this card with \"Aristella, Twin Prince\".|[Enter] ]]] You may search your deck for a Fairy Tale resonator, reveal it and put it into your hand. If you do, shuffle your deck.\nFairy Tale resonators you control gain [+400/+400].",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "gekko",
+    "Artist": "gekko|Haruichi Kido",
     "Rarity": "",
-    "Fowid": "1531",
+    "Fowid": "1531|1532",
     "Cluster": "10 - Hero",
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "ab1bfdad-5b2c-4e45-8191-b71d96619cc8",
-    "image": "ab1bfdad-5b2c-4e45-8191-b71d96619cc8.jpg"
-  },
-  {
-    "Card Number": "HSD-010J",
-    "name": "Fairy Tale King",
-    "Type": "J-Ruler",
-    "Race": "Fairy Tale|Spirit",
-    "Cost": "",
-    "Colour": "W|U",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "[Enter] ]]] You may search your deck for a Fairy Tale resonator, reveal it and put it into your hand. If you do, shuffle your deck.\nFairy Tale resonators you control gain [+400/+400].",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Haruichi Kido",
-    "Rarity": "",
-    "Fowid": "1532",
-    "Cluster": "10 - Hero",
-    "Set Name": "064 - Starter Deck - Aristella Deck",
-    "Set Code": "HSD",
-    "id": "ae2667aa-0056-465a-b886-28117c81e582",
-    "image": "ae2667aa-0056-465a-b886-28117c81e582.jpg"
+    "image": "ab1bfdad-5b2c-4e45-8191-b71d96619cc8.jpg",
+    "Card Type": "Chant",
+    "backimage": "ae2667aa-0056-465a-b886-28117c81e582.jpg",
+    "alternate1_Card Number": "HSD-010J",
+    "alternate1_name": "Fairy Tale King",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Fairy Tale|Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|U",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Enter] ]]] You may search your deck for a Fairy Tale resonator, reveal it and put it into your hand. If you do, shuffle your deck.\nFairy Tale resonators you control gain [+400/+400].",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Haruichi Kido",
+    "alternate1_Rarity": "",
+    "alternate1_Fowid": "1532",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "064 - Starter Deck - Aristella Deck",
+    "alternate1_Set Code": "HSD",
+    "alternate1_id": "ae2667aa-0056-465a-b886-28117c81e582",
+    "alternate1_image": "ae2667aa-0056-465a-b886-28117c81e582.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "HSD-011",
@@ -261,7 +271,8 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "dbb47db7-1871-40d4-b6c9-54820be754fc",
-    "image": "dbb47db7-1871-40d4-b6c9-54820be754fc.jpg"
+    "image": "dbb47db7-1871-40d4-b6c9-54820be754fc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "HSD-012",
@@ -283,7 +294,8 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "0030a5c0-fc8c-4c9c-858e-627090bb34fb",
-    "image": "0030a5c0-fc8c-4c9c-858e-627090bb34fb.jpg"
+    "image": "0030a5c0-fc8c-4c9c-858e-627090bb34fb.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "HSD-025",
@@ -305,7 +317,8 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "400ec5f6-4eb3-4a73-ad2d-28f36884bdc9",
-    "image": "400ec5f6-4eb3-4a73-ad2d-28f36884bdc9.jpg"
+    "image": "400ec5f6-4eb3-4a73-ad2d-28f36884bdc9.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "HSD-026",
@@ -327,6 +340,7 @@
     "Set Name": "064 - Starter Deck - Aristella Deck",
     "Set Code": "HSD",
     "id": "91e69b90-6ec5-466b-9664-a682699f9cc1",
-    "image": "91e69b90-6ec5-466b-9664-a682699f9cc1.jpg"
+    "image": "91e69b90-6ec5-466b-9664-a682699f9cc1.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

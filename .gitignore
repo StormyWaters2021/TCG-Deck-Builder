@@ -41,10 +41,6 @@ Thumbs.db
 cards/*.jpg
 cards/*.png
 
-# Ignore all .png and .jpg in games directory and subdirectories
-public/games/**/*.png
-public/games/**/*.jpg
-
 # Cards data output (if you generate cleaned or temp files)
 *cards-clean.json
 

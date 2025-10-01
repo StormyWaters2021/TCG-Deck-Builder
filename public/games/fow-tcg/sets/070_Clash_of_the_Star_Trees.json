@@ -19,7 +19,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "29f0287a-dd0f-42a1-86b1-419f69fbc3fb",
-    "image": "29f0287a-dd0f-42a1-86b1-419f69fbc3fb.jpg"
+    "image": "29f0287a-dd0f-42a1-86b1-419f69fbc3fb.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "CST-001",
@@ -41,51 +42,53 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "b1402ca8-736e-4dd4-b8ad-1d49e7ef46b9",
-    "image": "b1402ca8-736e-4dd4-b8ad-1d49e7ef46b9.jpg"
+    "image": "b1402ca8-736e-4dd4-b8ad-1d49e7ef46b9.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "CST-002",
-    "name": "Dominatus, Star Gladius",
-    "Type": "Regalia",
-    "Race": "Contract",
+    "Card Number": "CST-002|CST-002J",
+    "name": "Dominatus, Star Gladius // Tina, Virtuous Stella",
+    "Type": "Regalia|J-Ruler",
+    "Race": "Contract|Seven Stars|Fairy",
     "Cost": "{W}",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Tina, Virtuous Stella\".\n[Enter] ]]] Draw a card. Put a [400/400] light Fairy resonator token with [Flying] into the field.\n[Seal] (X), where X is six minus the number of Fairy entities you control. (This card gains the following text as long as you control X or more magic stones, where X is six minus the number of Fairy entities you control.)\n{Rest}: You may contract this card with \"Tina, Virtuous Stella\". Play this ability only during your turn.",
+    "Colour": "W|V",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Tina, Virtuous Stella\".\n[Enter] ]]] Draw a card. Put a [400/400] light Fairy resonator token with [Flying] into the field.\n[Seal] (X), where X is six minus the number of Fairy entities you control. (This card gains the following text as long as you control X or more magic stones, where X is six minus the number of Fairy entities you control.)\n{Rest}: You may contract this card with \"Tina, Virtuous Stella\". Play this ability only during your turn.|[Flying]\nFairy J/resonators you control gain [+200/+200].\nWhenever you play a Virtuous Skill spell ]]] Put a [400/400] light Fairy resonator token with [Flying] into the field. Put two [+100/+100] counters on each J/resonator you control.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "M ganzy",
+    "Artist": "M ganzy|Mayo",
     "Rarity": "R",
-    "Fowid": "1898",
+    "Fowid": "1898|1899",
     "Cluster": "10 - Hero",
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "cfa40084-38b4-40c4-aad3-2d8fc745e396",
-    "image": "cfa40084-38b4-40c4-aad3-2d8fc745e396.jpg"
-  },
-  {
-    "Card Number": "CST-002J",
-    "name": "Tina, Virtuous Stella",
-    "Type": "J-Ruler",
-    "Race": "Seven Stars|Fairy",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Flying]\nFairy J/resonators you control gain [+200/+200].\nWhenever you play a Virtuous Skill spell ]]] Put a [400/400] light Fairy resonator token with [Flying] into the field. Put two [+100/+100] counters on each J/resonator you control.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Mayo",
-    "Rarity": "R",
-    "Fowid": "1899",
-    "Cluster": "10 - Hero",
-    "Set Name": "070 - Clash of the Star Trees",
-    "Set Code": "CST",
-    "id": "4540edae-2f0a-4eff-aa8b-7660e93e99f0",
-    "image": "4540edae-2f0a-4eff-aa8b-7660e93e99f0.jpg"
+    "image": "cfa40084-38b4-40c4-aad3-2d8fc745e396.jpg",
+    "Card Type": "Regalia",
+    "backimage": "4540edae-2f0a-4eff-aa8b-7660e93e99f0.jpg",
+    "alternate1_Card Number": "CST-002J",
+    "alternate1_name": "Tina, Virtuous Stella",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Stars|Fairy",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\nFairy J/resonators you control gain [+200/+200].\nWhenever you play a Virtuous Skill spell ]]] Put a [400/400] light Fairy resonator token with [Flying] into the field. Put two [+100/+100] counters on each J/resonator you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Mayo",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1899",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "070 - Clash of the Star Trees",
+    "alternate1_Set Code": "CST",
+    "alternate1_id": "4540edae-2f0a-4eff-aa8b-7660e93e99f0",
+    "alternate1_image": "4540edae-2f0a-4eff-aa8b-7660e93e99f0.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CST-003",
@@ -107,7 +110,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "d641656a-a339-491c-a435-d7d65878337e",
-    "image": "d641656a-a339-491c-a435-d7d65878337e.jpg"
+    "image": "d641656a-a339-491c-a435-d7d65878337e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-004",
@@ -129,7 +133,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "abd7ee67-0c27-44f0-88f1-95758f617fa3",
-    "image": "abd7ee67-0c27-44f0-88f1-95758f617fa3.jpg"
+    "image": "abd7ee67-0c27-44f0-88f1-95758f617fa3.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-005",
@@ -151,7 +156,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "95a4ddc6-22d1-47f7-933e-3b299310b128",
-    "image": "95a4ddc6-22d1-47f7-933e-3b299310b128.jpg"
+    "image": "95a4ddc6-22d1-47f7-933e-3b299310b128.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-006",
@@ -173,7 +179,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "9b70319f-b242-443e-b54a-ae077767f4b5",
-    "image": "9b70319f-b242-443e-b54a-ae077767f4b5.jpg"
+    "image": "9b70319f-b242-443e-b54a-ae077767f4b5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-007",
@@ -195,7 +202,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "dd34ffed-07ea-4742-b49f-90e995ba51eb",
-    "image": "dd34ffed-07ea-4742-b49f-90e995ba51eb.jpg"
+    "image": "dd34ffed-07ea-4742-b49f-90e995ba51eb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-008",
@@ -217,7 +225,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "c7edd43c-455c-4174-8f3b-5e9ac08b10bb",
-    "image": "c7edd43c-455c-4174-8f3b-5e9ac08b10bb.jpg"
+    "image": "c7edd43c-455c-4174-8f3b-5e9ac08b10bb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-009",
@@ -239,7 +248,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "b765c270-9a53-422e-b77e-37902c046b7d",
-    "image": "b765c270-9a53-422e-b77e-37902c046b7d.jpg"
+    "image": "b765c270-9a53-422e-b77e-37902c046b7d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-010",
@@ -261,7 +271,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "233ac57a-3db3-485a-8135-cd14e880f350",
-    "image": "233ac57a-3db3-485a-8135-cd14e880f350.jpg"
+    "image": "233ac57a-3db3-485a-8135-cd14e880f350.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CST-011",
@@ -283,7 +294,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "01313d4c-dbc1-4ae1-ae19-20a904b00827",
-    "image": "01313d4c-dbc1-4ae1-ae19-20a904b00827.jpg"
+    "image": "01313d4c-dbc1-4ae1-ae19-20a904b00827.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-012",
@@ -305,7 +317,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "b237ad22-dd59-4a2f-bc98-d81553aff172",
-    "image": "b237ad22-dd59-4a2f-bc98-d81553aff172.jpg"
+    "image": "b237ad22-dd59-4a2f-bc98-d81553aff172.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-013",
@@ -327,7 +340,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "1c0efea9-b8e3-413c-88b8-8022fb8e7308",
-    "image": "1c0efea9-b8e3-413c-88b8-8022fb8e7308.jpg"
+    "image": "1c0efea9-b8e3-413c-88b8-8022fb8e7308.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-014",
@@ -349,7 +363,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "a8d3bb82-18e7-498b-9a05-e13f8c7c0b1a",
-    "image": "a8d3bb82-18e7-498b-9a05-e13f8c7c0b1a.jpg"
+    "image": "a8d3bb82-18e7-498b-9a05-e13f8c7c0b1a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-015",
@@ -371,51 +386,53 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "78ec1db6-705a-4e39-b757-39ec8e1e7d0f",
-    "image": "78ec1db6-705a-4e39-b757-39ec8e1e7d0f.jpg"
+    "image": "78ec1db6-705a-4e39-b757-39ec8e1e7d0f.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "CST-016",
-    "name": "Protuberanz, Star Whip",
-    "Type": "Regalia",
-    "Race": "Contract",
+    "Card Number": "CST-016|CST-016J",
+    "name": "Protuberanz, Star Whip // Brandhardt, Blazing Stern",
+    "Type": "Regalia|J-Ruler",
+    "Race": "Contract|Seven Stars",
     "Cost": "{R}",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Brandhardt, Blazing Stern\".\n[Enter] ]]] Draw two cards, then discard a card. Produce {R}. Spend this will only to play activate abilities of J/resonators you control.\n[Seal] (X), where X is six minus the number of Blazing Skills in your graveyard. (This card gains the following text as long as you control X or more magic stones, where X is six minus the number of Blazing Skills in your graveyard.)\n{Rest}: You may contract this card with \"Brandhardt, Blazing Stern\". Play this ability only during your turn.",
+    "Colour": "R|V",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Brandhardt, Blazing Stern\".\n[Enter] ]]] Draw two cards, then discard a card. Produce {R}. Spend this will only to play activate abilities of J/resonators you control.\n[Seal] (X), where X is six minus the number of Blazing Skills in your graveyard. (This card gains the following text as long as you control X or more magic stones, where X is six minus the number of Blazing Skills in your graveyard.)\n{Rest}: You may contract this card with \"Brandhardt, Blazing Stern\". Play this ability only during your turn.|[Swiftness]\n[First Strike]\nWhenever you play a Blazing Skill spell ]]] This card deals 400 damage to target player or J/resonator.\n{R}: Target Blazing Skill in your graveyard gains [Remnant] until end of turn. Play this ability only during your turn and only once per turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "311taro",
     "Rarity": "R",
-    "Fowid": "1913",
+    "Fowid": "1913|1914",
     "Cluster": "10 - Hero",
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "bbe240b7-c9a9-4d2c-a78a-e1c6bf982f86",
-    "image": "bbe240b7-c9a9-4d2c-a78a-e1c6bf982f86.jpg"
-  },
-  {
-    "Card Number": "CST-016J",
-    "name": "Brandhardt, Blazing Stern",
-    "Type": "J-Ruler",
-    "Race": "Seven Stars",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Swiftness]\n[First Strike]\nWhenever you play a Blazing Skill spell ]]] This card deals 400 damage to target player or J/resonator.\n{R}: Target Blazing Skill in your graveyard gains [Remnant] until end of turn. Play this ability only during your turn and only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "311taro",
-    "Rarity": "R",
-    "Fowid": "1914",
-    "Cluster": "10 - Hero",
-    "Set Name": "070 - Clash of the Star Trees",
-    "Set Code": "CST",
-    "id": "289fdf7c-48de-400d-b07d-26f610899e5b",
-    "image": "289fdf7c-48de-400d-b07d-26f610899e5b.jpg"
+    "image": "bbe240b7-c9a9-4d2c-a78a-e1c6bf982f86.jpg",
+    "Card Type": "Regalia",
+    "backimage": "289fdf7c-48de-400d-b07d-26f610899e5b.jpg",
+    "alternate1_Card Number": "CST-016J",
+    "alternate1_name": "Brandhardt, Blazing Stern",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Stars",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Swiftness]\n[First Strike]\nWhenever you play a Blazing Skill spell ]]] This card deals 400 damage to target player or J/resonator.\n{R}: Target Blazing Skill in your graveyard gains [Remnant] until end of turn. Play this ability only during your turn and only once per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "311taro",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1914",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "070 - Clash of the Star Trees",
+    "alternate1_Set Code": "CST",
+    "alternate1_id": "289fdf7c-48de-400d-b07d-26f610899e5b",
+    "alternate1_image": "289fdf7c-48de-400d-b07d-26f610899e5b.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CST-017",
@@ -437,7 +454,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "7b970dfe-8932-4eae-8975-bdc952a8b495",
-    "image": "7b970dfe-8932-4eae-8975-bdc952a8b495.jpg"
+    "image": "7b970dfe-8932-4eae-8975-bdc952a8b495.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-018",
@@ -459,7 +477,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "0ef19e64-d5c2-4e9f-bd75-bcecbae78298",
-    "image": "0ef19e64-d5c2-4e9f-bd75-bcecbae78298.jpg"
+    "image": "0ef19e64-d5c2-4e9f-bd75-bcecbae78298.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-019",
@@ -481,7 +500,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "18577b36-435b-4870-a06d-4ef4e0d6c691",
-    "image": "18577b36-435b-4870-a06d-4ef4e0d6c691.jpg"
+    "image": "18577b36-435b-4870-a06d-4ef4e0d6c691.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-020",
@@ -503,7 +523,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "37f8252f-8504-4bd8-9a3e-c4c43acd95a6",
-    "image": "37f8252f-8504-4bd8-9a3e-c4c43acd95a6.jpg"
+    "image": "37f8252f-8504-4bd8-9a3e-c4c43acd95a6.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-021",
@@ -525,7 +546,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "32402e39-4a6f-4ea1-b893-68448c15d234",
-    "image": "32402e39-4a6f-4ea1-b893-68448c15d234.jpg"
+    "image": "32402e39-4a6f-4ea1-b893-68448c15d234.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-022",
@@ -547,7 +569,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "514bad2a-d1af-4aef-8be3-a512f3b6ed9c",
-    "image": "514bad2a-d1af-4aef-8be3-a512f3b6ed9c.jpg"
+    "image": "514bad2a-d1af-4aef-8be3-a512f3b6ed9c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-023",
@@ -569,7 +592,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "52d6c0c7-4d4d-452a-93c5-3b2639158375",
-    "image": "52d6c0c7-4d4d-452a-93c5-3b2639158375.jpg"
+    "image": "52d6c0c7-4d4d-452a-93c5-3b2639158375.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-024",
@@ -591,7 +615,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "d3310289-b90b-465e-acee-edb28d89b6e0",
-    "image": "d3310289-b90b-465e-acee-edb28d89b6e0.jpg"
+    "image": "d3310289-b90b-465e-acee-edb28d89b6e0.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CST-025",
@@ -613,7 +638,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "5692114d-adaf-4dc8-84eb-94c1071b22c6",
-    "image": "5692114d-adaf-4dc8-84eb-94c1071b22c6.jpg"
+    "image": "5692114d-adaf-4dc8-84eb-94c1071b22c6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-026",
@@ -635,7 +661,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "803ea382-5187-4e2b-847a-6983902ee309",
-    "image": "803ea382-5187-4e2b-847a-6983902ee309.jpg"
+    "image": "803ea382-5187-4e2b-847a-6983902ee309.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-027",
@@ -657,7 +684,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "b616da68-b8d4-4be3-84cc-ba7198b66c81",
-    "image": "b616da68-b8d4-4be3-84cc-ba7198b66c81.jpg"
+    "image": "b616da68-b8d4-4be3-84cc-ba7198b66c81.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-028",
@@ -679,7 +707,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "03946955-e14e-4c61-afb1-ae24364afc08",
-    "image": "03946955-e14e-4c61-afb1-ae24364afc08.jpg"
+    "image": "03946955-e14e-4c61-afb1-ae24364afc08.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-029",
@@ -701,51 +730,53 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "f30adead-c7b0-445d-826e-9094d053efc5",
-    "image": "f30adead-c7b0-445d-826e-9094d053efc5.jpg"
+    "image": "f30adead-c7b0-445d-826e-9094d053efc5.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "CST-030",
-    "name": "Pluie de Pétale, Star Scepter",
-    "Type": "Regalia",
-    "Race": "Contract",
+    "Card Number": "CST-030|CST-030J",
+    "name": "Pluie de Pétale, Star Scepter // Nicklausse, Enchanting Étoile",
+    "Type": "Regalia|J-Ruler",
+    "Race": "Contract|Seven Stars",
     "Cost": "{U}",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Nicklausse, Enchanting Étoile\".\n[Enter] ]]] Draw a card. You may put a Flower addition with total cost 1 or less from your hand into the field.\n[Seal] (X), where X is six minus the number of Flower additions you control in the field and in your graveyard. (This card gains the following text as long as you control X or more magic stones, where X is six minus the number of Flower additions you control in the field and in your graveyard.)\n{Rest}: You may contract this card with \"Nicklausse, Enchanting Étoile\". Play this ability only during your turn.",
+    "Colour": "U|V",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Nicklausse, Enchanting Étoile\".\n[Enter] ]]] Draw a card. You may put a Flower addition with total cost 1 or less from your hand into the field.\n[Seal] (X), where X is six minus the number of Flower additions you control in the field and in your graveyard. (This card gains the following text as long as you control X or more magic stones, where X is six minus the number of Flower additions you control in the field and in your graveyard.)\n{Rest}: You may contract this card with \"Nicklausse, Enchanting Étoile\". Play this ability only during your turn.|[Flying]\n[Barrier]\nFlower additions in your hand gain [Quickcast].\nFlower additions you control become [1000/1000] resonators with [Flying]. They are still their original type.\nWhenever you play an Enchanting Skill spell ]]] Rest up to one target non-magic stone entity.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Kamijo Roro",
     "Rarity": "R",
-    "Fowid": "1928",
+    "Fowid": "1928|1929",
     "Cluster": "10 - Hero",
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "22ce8a4e-bd12-4766-80df-629925242f7c",
-    "image": "22ce8a4e-bd12-4766-80df-629925242f7c.jpg"
-  },
-  {
-    "Card Number": "CST-030J",
-    "name": "Nicklausse, Enchanting Étoile",
-    "Type": "J-Ruler",
-    "Race": "Seven Stars",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Flying]\n[Barrier]\nFlower additions in your hand gain [Quickcast].\nFlower additions you control become [1000/1000] resonators with [Flying]. They are still their original type.\nWhenever you play an Enchanting Skill spell ]]] Rest up to one target non-magic stone entity.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Kamijo Roro",
-    "Rarity": "R",
-    "Fowid": "1929",
-    "Cluster": "10 - Hero",
-    "Set Name": "070 - Clash of the Star Trees",
-    "Set Code": "CST",
-    "id": "4568aeb2-7f4b-4417-958c-f17ead6f17bd",
-    "image": "4568aeb2-7f4b-4417-958c-f17ead6f17bd.jpg"
+    "image": "22ce8a4e-bd12-4766-80df-629925242f7c.jpg",
+    "Card Type": "Regalia",
+    "backimage": "4568aeb2-7f4b-4417-958c-f17ead6f17bd.jpg",
+    "alternate1_Card Number": "CST-030J",
+    "alternate1_name": "Nicklausse, Enchanting Étoile",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Stars",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\n[Barrier]\nFlower additions in your hand gain [Quickcast].\nFlower additions you control become [1000/1000] resonators with [Flying]. They are still their original type.\nWhenever you play an Enchanting Skill spell ]]] Rest up to one target non-magic stone entity.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Kamijo Roro",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1929",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "070 - Clash of the Star Trees",
+    "alternate1_Set Code": "CST",
+    "alternate1_id": "4568aeb2-7f4b-4417-958c-f17ead6f17bd",
+    "alternate1_image": "4568aeb2-7f4b-4417-958c-f17ead6f17bd.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CST-031",
@@ -767,7 +798,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "a10d99ce-22aa-4788-be05-96be9b5584e8",
-    "image": "a10d99ce-22aa-4788-be05-96be9b5584e8.jpg"
+    "image": "a10d99ce-22aa-4788-be05-96be9b5584e8.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-032",
@@ -789,7 +821,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "cf6f0897-d20a-4317-956d-bae2bf46f99c",
-    "image": "cf6f0897-d20a-4317-956d-bae2bf46f99c.jpg"
+    "image": "cf6f0897-d20a-4317-956d-bae2bf46f99c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-033",
@@ -811,7 +844,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "0409ad5a-9058-4525-b7e3-12a5521c1a9f",
-    "image": "0409ad5a-9058-4525-b7e3-12a5521c1a9f.jpg"
+    "image": "0409ad5a-9058-4525-b7e3-12a5521c1a9f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-034",
@@ -833,7 +867,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "c67a15e8-3c3c-484d-9cb6-c77629a9170d",
-    "image": "c67a15e8-3c3c-484d-9cb6-c77629a9170d.jpg"
+    "image": "c67a15e8-3c3c-484d-9cb6-c77629a9170d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-035",
@@ -855,7 +890,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "98bf4246-bd98-4494-93cb-9417c2957eea",
-    "image": "98bf4246-bd98-4494-93cb-9417c2957eea.jpg"
+    "image": "98bf4246-bd98-4494-93cb-9417c2957eea.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-036",
@@ -877,7 +913,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "7ed448aa-89a1-42ed-947e-aee63cf8d6cf",
-    "image": "7ed448aa-89a1-42ed-947e-aee63cf8d6cf.jpg"
+    "image": "7ed448aa-89a1-42ed-947e-aee63cf8d6cf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-037",
@@ -899,7 +936,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "8fd1d872-b7dc-4ef4-854d-64dd4c444770",
-    "image": "8fd1d872-b7dc-4ef4-854d-64dd4c444770.jpg"
+    "image": "8fd1d872-b7dc-4ef4-854d-64dd4c444770.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-038",
@@ -921,7 +959,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "d3c0e4aa-2edc-4c0e-b307-d54ca51f8c88",
-    "image": "d3c0e4aa-2edc-4c0e-b307-d54ca51f8c88.jpg"
+    "image": "d3c0e4aa-2edc-4c0e-b307-d54ca51f8c88.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CST-039",
@@ -943,7 +982,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "14a1c7b8-79a2-4ab9-8fa5-1b9398805104",
-    "image": "14a1c7b8-79a2-4ab9-8fa5-1b9398805104.jpg"
+    "image": "14a1c7b8-79a2-4ab9-8fa5-1b9398805104.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-040",
@@ -965,7 +1005,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "0bd5a0b7-bf87-4da1-b6d1-9bfb35971193",
-    "image": "0bd5a0b7-bf87-4da1-b6d1-9bfb35971193.jpg"
+    "image": "0bd5a0b7-bf87-4da1-b6d1-9bfb35971193.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-041",
@@ -987,7 +1028,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "100333fb-d600-483f-8e88-7859559bc9e0",
-    "image": "100333fb-d600-483f-8e88-7859559bc9e0.jpg"
+    "image": "100333fb-d600-483f-8e88-7859559bc9e0.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CST-042",
@@ -1009,7 +1051,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "3071f585-45cb-49b6-a3cf-e5bf2fbaea06",
-    "image": "3071f585-45cb-49b6-a3cf-e5bf2fbaea06.jpg"
+    "image": "3071f585-45cb-49b6-a3cf-e5bf2fbaea06.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CST-043",
@@ -1031,7 +1074,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "015623b1-423b-4d4e-9147-36d3d448c7ab",
-    "image": "015623b1-423b-4d4e-9147-36d3d448c7ab.jpg"
+    "image": "015623b1-423b-4d4e-9147-36d3d448c7ab.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CST-044",
@@ -1053,51 +1097,53 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "9e3b4b0e-7c35-4c95-844d-25c024a62dfc",
-    "image": "9e3b4b0e-7c35-4c95-844d-25c024a62dfc.jpg"
+    "image": "9e3b4b0e-7c35-4c95-844d-25c024a62dfc.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "CST-045",
-    "name": "Tigre Plateado, Star Tiger Fur",
-    "Type": "Regalia",
-    "Race": "Contract",
+    "Card Number": "CST-045|CST-045J",
+    "name": "Tigre Plateado, Star Tiger Fur // Maya, Wild Estrella",
+    "Type": "Regalia|J-Ruler",
+    "Race": "Contract|Seven Stars|Beast",
     "Cost": "{G}",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Maya, Wild Estrella\".\nThis card has the magic stone type wind magic stone.\n[Enter] ]]] Draw a card.\n[Seal] (X), where X is six minus the number of entities with magic stone type wind magic stone you control. (This card gains the following text as long as you control X or more magic stones, where X is six minus the number of entities with magic stone type wind magic stone you control.)\n{Rest}: You may contract this card with \"Maya, Wild Estrella\". Play this ability only during your turn.",
+    "Colour": "G|V",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Maya, Wild Estrella\".\nThis card has the magic stone type wind magic stone.\n[Enter] ]]] Draw a card.\n[Seal] (X), where X is six minus the number of entities with magic stone type wind magic stone you control. (This card gains the following text as long as you control X or more magic stones, where X is six minus the number of entities with magic stone type wind magic stone you control.)\n{Rest}: You may contract this card with \"Maya, Wild Estrella\". Play this ability only during your turn.|[Precision]\n[Pierce]\n[Enter] ]]] Destroy all J/resonators with [Flying] your opponent controls. Recover a magic stone.\nWhenever you play a Wild Skill spell ]]] Double ATK and DEF of this card until end of turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "Rumie",
     "Rarity": "R",
-    "Fowid": "1944",
+    "Fowid": "1944|1945",
     "Cluster": "10 - Hero",
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "e03f00ea-2012-4e0a-8809-abe0a37081aa",
-    "image": "e03f00ea-2012-4e0a-8809-abe0a37081aa.jpg"
-  },
-  {
-    "Card Number": "CST-045J",
-    "name": "Maya, Wild Estrella",
-    "Type": "J-Ruler",
-    "Race": "Seven Stars|Beast",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Precision]\n[Pierce]\n[Enter] ]]] Destroy all J/resonators with [Flying] your opponent controls. Recover a magic stone.\nWhenever you play a Wild Skill spell ]]] Double ATK and DEF of this card until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Rumie",
-    "Rarity": "R",
-    "Fowid": "1945",
-    "Cluster": "10 - Hero",
-    "Set Name": "070 - Clash of the Star Trees",
-    "Set Code": "CST",
-    "id": "357b07f0-18bd-4e3e-8755-66883fcb6bf3",
-    "image": "357b07f0-18bd-4e3e-8755-66883fcb6bf3.jpg"
+    "image": "e03f00ea-2012-4e0a-8809-abe0a37081aa.jpg",
+    "Card Type": "Regalia",
+    "backimage": "357b07f0-18bd-4e3e-8755-66883fcb6bf3.jpg",
+    "alternate1_Card Number": "CST-045J",
+    "alternate1_name": "Maya, Wild Estrella",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Stars|Beast",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Precision]\n[Pierce]\n[Enter] ]]] Destroy all J/resonators with [Flying] your opponent controls. Recover a magic stone.\nWhenever you play a Wild Skill spell ]]] Double ATK and DEF of this card until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Rumie",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1945",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "070 - Clash of the Star Trees",
+    "alternate1_Set Code": "CST",
+    "alternate1_id": "357b07f0-18bd-4e3e-8755-66883fcb6bf3",
+    "alternate1_image": "357b07f0-18bd-4e3e-8755-66883fcb6bf3.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CST-046",
@@ -1119,7 +1165,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "1e79b3fc-0b32-46ea-9df0-d5a27b02a69b",
-    "image": "1e79b3fc-0b32-46ea-9df0-d5a27b02a69b.jpg"
+    "image": "1e79b3fc-0b32-46ea-9df0-d5a27b02a69b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-047",
@@ -1141,7 +1188,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "8e7491bd-b170-4406-9803-cad3153a8b85",
-    "image": "8e7491bd-b170-4406-9803-cad3153a8b85.jpg"
+    "image": "8e7491bd-b170-4406-9803-cad3153a8b85.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-048",
@@ -1163,7 +1211,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "d5332ba1-f66d-46df-a82a-ef1c7b22576b",
-    "image": "d5332ba1-f66d-46df-a82a-ef1c7b22576b.jpg"
+    "image": "d5332ba1-f66d-46df-a82a-ef1c7b22576b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-049",
@@ -1185,7 +1234,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "45333ba7-1e89-4887-bc3a-2514ba85a301",
-    "image": "45333ba7-1e89-4887-bc3a-2514ba85a301.jpg"
+    "image": "45333ba7-1e89-4887-bc3a-2514ba85a301.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-050",
@@ -1207,7 +1257,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "1d0b90e7-96b8-4b28-b922-b9e3994cfe39",
-    "image": "1d0b90e7-96b8-4b28-b922-b9e3994cfe39.jpg"
+    "image": "1d0b90e7-96b8-4b28-b922-b9e3994cfe39.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-051",
@@ -1229,7 +1280,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "b8a61c09-66c2-47c2-bde6-a7b2b971104a",
-    "image": "b8a61c09-66c2-47c2-bde6-a7b2b971104a.jpg"
+    "image": "b8a61c09-66c2-47c2-bde6-a7b2b971104a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-052",
@@ -1251,7 +1303,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "5457fc16-6b06-4031-9157-e00d8c0687d3",
-    "image": "5457fc16-6b06-4031-9157-e00d8c0687d3.jpg"
+    "image": "5457fc16-6b06-4031-9157-e00d8c0687d3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-053",
@@ -1273,7 +1326,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "b11b8ba9-acfc-41d6-803e-11e9c7534dd5",
-    "image": "b11b8ba9-acfc-41d6-803e-11e9c7534dd5.jpg"
+    "image": "b11b8ba9-acfc-41d6-803e-11e9c7534dd5.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CST-054",
@@ -1295,7 +1349,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "46156862-b841-4367-b230-472ab1e67001",
-    "image": "46156862-b841-4367-b230-472ab1e67001.jpg"
+    "image": "46156862-b841-4367-b230-472ab1e67001.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-055",
@@ -1317,7 +1372,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "5fe8a7a9-c342-4784-b670-0380c3e6aebc",
-    "image": "5fe8a7a9-c342-4784-b670-0380c3e6aebc.jpg"
+    "image": "5fe8a7a9-c342-4784-b670-0380c3e6aebc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-056",
@@ -1339,7 +1395,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "ecc05cad-f567-4596-89f7-6c05976fc360",
-    "image": "ecc05cad-f567-4596-89f7-6c05976fc360.jpg"
+    "image": "ecc05cad-f567-4596-89f7-6c05976fc360.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-057",
@@ -1361,7 +1418,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "55a1b021-a5ad-4b7b-a04f-4a435394dc99",
-    "image": "55a1b021-a5ad-4b7b-a04f-4a435394dc99.jpg"
+    "image": "55a1b021-a5ad-4b7b-a04f-4a435394dc99.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-058",
@@ -1383,51 +1441,53 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "30c2ee37-43bf-4ccd-889f-32037b3017b7",
-    "image": "30c2ee37-43bf-4ccd-889f-32037b3017b7.jpg"
+    "image": "30c2ee37-43bf-4ccd-889f-32037b3017b7.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "CST-059",
-    "name": "Lifezapper, Star Statue",
-    "Type": "Regalia",
-    "Race": "Contract",
+    "Card Number": "CST-059|CST-059J",
+    "name": "Lifezapper, Star Statue // Stein, Deathly Star",
+    "Type": "Regalia|J-Ruler",
+    "Race": "Contract|Seven Stars",
     "Cost": "{B}",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Stein, Deathly Star\".\n[Enter] ]]] Draw a card. Put two [400/400] darkness Ethereal resonator tokens into the field. They gain \"At the next end of turn ]]] This card's controller banishes it.\".\n[Seal] (X), where X is six minus the number of resonators that left the field this turn. (This card gains the following text as long as you control X or more magic stones, where X is six minus the number of resonators that left the field this turn.)\n{Rest}: You may contract this card with \"Stein, Deathly Star\". Play this ability only during your turn.",
+    "Colour": "B|V",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Stein, Deathly Star\".\n[Enter] ]]] Draw a card. Put two [400/400] darkness Ethereal resonator tokens into the field. They gain \"At the next end of turn ]]] This card's controller banishes it.\".\n[Seal] (X), where X is six minus the number of resonators that left the field this turn. (This card gains the following text as long as you control X or more magic stones, where X is six minus the number of resonators that left the field this turn.)\n{Rest}: You may contract this card with \"Stein, Deathly Star\". Play this ability only during your turn.|[Drain]\n[Bane]\nEthereal J/resonators you control gain [+200/+200].\n[Enter] ]]] This card deals 200 damage to up to X target J/resonators, where X is the number of resonators that were put into your graveyard this turn.\nWhenever you play a Deathly Skill spell ]]] Put a [400/400] darkness Ethereal resonator token into the field. It gains \"At the next end of turn ]]] This card's controller banishes it.\".\nBanish an Ethereal resonator token: This card gains [Eternal] and [Barrier] until end of turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "IWAO",
     "Rarity": "R",
-    "Fowid": "1959",
+    "Fowid": "1959|1960",
     "Cluster": "10 - Hero",
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "88031486-0f76-45d0-99ec-92ef82968dc5",
-    "image": "88031486-0f76-45d0-99ec-92ef82968dc5.jpg"
-  },
-  {
-    "Card Number": "CST-059J",
-    "name": "Stein, Deathly Star",
-    "Type": "J-Ruler",
-    "Race": "Seven Stars",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Drain]\n[Bane]\nEthereal J/resonators you control gain [+200/+200].\n[Enter] ]]] This card deals 200 damage to up to X target J/resonators, where X is the number of resonators that were put into your graveyard this turn.\nWhenever you play a Deathly Skill spell ]]] Put a [400/400] darkness Ethereal resonator token into the field. It gains \"At the next end of turn ]]] This card's controller banishes it.\".\nBanish an Ethereal resonator token: This card gains [Eternal] and [Barrier] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "IWAO",
-    "Rarity": "R",
-    "Fowid": "1960",
-    "Cluster": "10 - Hero",
-    "Set Name": "070 - Clash of the Star Trees",
-    "Set Code": "CST",
-    "id": "52e00669-940a-413c-b57e-e3c373814859",
-    "image": "52e00669-940a-413c-b57e-e3c373814859.jpg"
+    "image": "88031486-0f76-45d0-99ec-92ef82968dc5.jpg",
+    "Card Type": "Regalia",
+    "backimage": "52e00669-940a-413c-b57e-e3c373814859.jpg",
+    "alternate1_Card Number": "CST-059J",
+    "alternate1_name": "Stein, Deathly Star",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Stars",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Drain]\n[Bane]\nEthereal J/resonators you control gain [+200/+200].\n[Enter] ]]] This card deals 200 damage to up to X target J/resonators, where X is the number of resonators that were put into your graveyard this turn.\nWhenever you play a Deathly Skill spell ]]] Put a [400/400] darkness Ethereal resonator token into the field. It gains \"At the next end of turn ]]] This card's controller banishes it.\".\nBanish an Ethereal resonator token: This card gains [Eternal] and [Barrier] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "IWAO",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1960",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "070 - Clash of the Star Trees",
+    "alternate1_Set Code": "CST",
+    "alternate1_id": "52e00669-940a-413c-b57e-e3c373814859",
+    "alternate1_image": "52e00669-940a-413c-b57e-e3c373814859.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CST-060",
@@ -1449,7 +1509,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "d4bcaea3-fb8e-480d-8925-1fe9bd48cdb6",
-    "image": "d4bcaea3-fb8e-480d-8925-1fe9bd48cdb6.jpg"
+    "image": "d4bcaea3-fb8e-480d-8925-1fe9bd48cdb6.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-061",
@@ -1471,7 +1532,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "a1064904-f058-4b16-94d5-846dae023aac",
-    "image": "a1064904-f058-4b16-94d5-846dae023aac.jpg"
+    "image": "a1064904-f058-4b16-94d5-846dae023aac.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-062",
@@ -1493,7 +1555,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "78cf7c72-195f-4042-8935-50ba98689e19",
-    "image": "78cf7c72-195f-4042-8935-50ba98689e19.jpg"
+    "image": "78cf7c72-195f-4042-8935-50ba98689e19.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-063",
@@ -1515,7 +1578,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "25f74d58-b304-4171-95ca-9e6411abf831",
-    "image": "25f74d58-b304-4171-95ca-9e6411abf831.jpg"
+    "image": "25f74d58-b304-4171-95ca-9e6411abf831.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-064",
@@ -1537,7 +1601,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "d9fb384a-85fc-4359-85ed-dfb5b45dc8b0",
-    "image": "d9fb384a-85fc-4359-85ed-dfb5b45dc8b0.jpg"
+    "image": "d9fb384a-85fc-4359-85ed-dfb5b45dc8b0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-065",
@@ -1559,7 +1624,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "84ebc618-9c24-438f-85e4-37a219a16f75",
-    "image": "84ebc618-9c24-438f-85e4-37a219a16f75.jpg"
+    "image": "84ebc618-9c24-438f-85e4-37a219a16f75.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-066",
@@ -1581,7 +1647,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "3aad63bd-df18-4a91-8c6b-358f2b5f802f",
-    "image": "3aad63bd-df18-4a91-8c6b-358f2b5f802f.jpg"
+    "image": "3aad63bd-df18-4a91-8c6b-358f2b5f802f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-067",
@@ -1603,7 +1670,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "c564349a-a765-47dc-98fd-c7ed3ee905b2",
-    "image": "c564349a-a765-47dc-98fd-c7ed3ee905b2.jpg"
+    "image": "c564349a-a765-47dc-98fd-c7ed3ee905b2.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CST-068",
@@ -1625,7 +1693,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "7be48e12-9742-434f-bbd0-d465e4bf6c6a",
-    "image": "7be48e12-9742-434f-bbd0-d465e4bf6c6a.jpg"
+    "image": "7be48e12-9742-434f-bbd0-d465e4bf6c6a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-069",
@@ -1647,7 +1716,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "1690930b-cb58-429e-8a4f-d5a11303a7e6",
-    "image": "1690930b-cb58-429e-8a4f-d5a11303a7e6.jpg"
+    "image": "1690930b-cb58-429e-8a4f-d5a11303a7e6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-070",
@@ -1669,7 +1739,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "a2b98f9b-5b2d-450c-ba18-003ddc5b035d",
-    "image": "a2b98f9b-5b2d-450c-ba18-003ddc5b035d.jpg"
+    "image": "a2b98f9b-5b2d-450c-ba18-003ddc5b035d.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "CST-071",
@@ -1691,7 +1762,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "d6211efe-bfb8-459e-ad5c-ef13762422e0",
-    "image": "d6211efe-bfb8-459e-ad5c-ef13762422e0.jpg"
+    "image": "d6211efe-bfb8-459e-ad5c-ef13762422e0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-072",
@@ -1713,51 +1785,53 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "f3abba2d-bd3b-460c-9532-41f40115a804",
-    "image": "f3abba2d-bd3b-460c-9532-41f40115a804.jpg"
+    "image": "f3abba2d-bd3b-460c-9532-41f40115a804.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "CST-073",
-    "name": "Kerukeion, Star Sword",
-    "Type": "Regalia",
-    "Race": "Contract",
+    "Card Number": "CST-073|CST-073J",
+    "name": "Kerukeion, Star Sword // Lenneth, Guardian of Legacies",
+    "Type": "Regalia|J-Ruler",
+    "Race": "Contract|Seven Stars",
     "Cost": "{W}{R}",
-    "Colour": "W|R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Lenneth, Lonely Asteras\".\n[Enter] ]]] Draw a card. You gain 1000 life. You may reveal a Seven Kings ruler you own from outside the game that does not share a name with other Seven Kings rulers you own revealed outside the game and keep it revealed until end of game.\n[Seal] (X), where X is seven minus the number of Seven Kings rulers you own revealed outside the game. (This card gains the following text as long as you control X or more magic stones, where X is seven minus the number of Seven Kings rulers you own revealed outside the game.)\n{Rest}: You may contract this card with \"Lenneth, Lonely Asteras\". Play this ability only during your turn.",
+    "Colour": "W|R|V",
+    "ATK": "0",
+    "DEF": "0",
+    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Lenneth, Lonely Asteras\".\n[Enter] ]]] Draw a card. You gain 1000 life. You may reveal a Seven Kings ruler you own from outside the game that does not share a name with other Seven Kings rulers you own revealed outside the game and keep it revealed until end of game.\n[Seal] (X), where X is seven minus the number of Seven Kings rulers you own revealed outside the game. (This card gains the following text as long as you control X or more magic stones, where X is seven minus the number of Seven Kings rulers you own revealed outside the game.)\n{Rest}: You may contract this card with \"Lenneth, Lonely Asteras\". Play this ability only during your turn.|[Flying]\n[Drain]\nThis card has \"Lenneth, Lonely Asteras\" in addition to its other names.\nThis card gains [+400/+400] for each Seven Kings ruler you own revealed outside the game.\n[Enter] ]]] You may reveal a Seven Kings ruler you own from outside the game that does not share a name with other Seven Kings rulers you own revealed outside the game and keep it revealed until end of game.\nGod's Art \"Quickening of the World Tree\" {W}: Put any number of cards from your hand on the bottom of your deck in any order, then draw that many cards. You may search your deck for a card named \"Avatar of the Seven Lands, Alice\" and/or a card named \"Blade of the Seven Lands, Excalibur X\" and put them into the field. If you do, shuffle your deck.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
     "Artist": "j-peg",
     "Rarity": "R",
-    "Fowid": "1974",
+    "Fowid": "1974|1975",
     "Cluster": "10 - Hero",
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "8af62985-fa35-4113-b19d-5a93fbc4e165",
-    "image": "8af62985-fa35-4113-b19d-5a93fbc4e165.jpg"
-  },
-  {
-    "Card Number": "CST-073J",
-    "name": "Lenneth, Guardian of Legacies",
-    "Type": "J-Ruler",
-    "Race": "Seven Stars",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "0",
-    "DEF": "0",
-    "Abilities": "[Flying]\n[Drain]\nThis card has \"Lenneth, Lonely Asteras\" in addition to its other names.\nThis card gains [+400/+400] for each Seven Kings ruler you own revealed outside the game.\n[Enter] ]]] You may reveal a Seven Kings ruler you own from outside the game that does not share a name with other Seven Kings rulers you own revealed outside the game and keep it revealed until end of game.\nGod's Art \"Quickening of the World Tree\" {W}: Put any number of cards from your hand on the bottom of your deck in any order, then draw that many cards. You may search your deck for a card named \"Avatar of the Seven Lands, Alice\" and/or a card named \"Blade of the Seven Lands, Excalibur X\" and put them into the field. If you do, shuffle your deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "j-peg",
-    "Rarity": "R",
-    "Fowid": "1975",
-    "Cluster": "10 - Hero",
-    "Set Name": "070 - Clash of the Star Trees",
-    "Set Code": "CST",
-    "id": "51bbb544-d7a9-43ff-9630-ce5283f8ab1e",
-    "image": "51bbb544-d7a9-43ff-9630-ce5283f8ab1e.jpg"
+    "image": "8af62985-fa35-4113-b19d-5a93fbc4e165.jpg",
+    "Card Type": "Regalia",
+    "backimage": "51bbb544-d7a9-43ff-9630-ce5283f8ab1e.jpg",
+    "alternate1_Card Number": "CST-073J",
+    "alternate1_name": "Lenneth, Guardian of Legacies",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Stars",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "0",
+    "alternate1_Abilities": "[Flying]\n[Drain]\nThis card has \"Lenneth, Lonely Asteras\" in addition to its other names.\nThis card gains [+400/+400] for each Seven Kings ruler you own revealed outside the game.\n[Enter] ]]] You may reveal a Seven Kings ruler you own from outside the game that does not share a name with other Seven Kings rulers you own revealed outside the game and keep it revealed until end of game.\nGod's Art \"Quickening of the World Tree\" {W}: Put any number of cards from your hand on the bottom of your deck in any order, then draw that many cards. You may search your deck for a card named \"Avatar of the Seven Lands, Alice\" and/or a card named \"Blade of the Seven Lands, Excalibur X\" and put them into the field. If you do, shuffle your deck.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "j-peg",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1975",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "070 - Clash of the Star Trees",
+    "alternate1_Set Code": "CST",
+    "alternate1_id": "51bbb544-d7a9-43ff-9630-ce5283f8ab1e",
+    "alternate1_image": "51bbb544-d7a9-43ff-9630-ce5283f8ab1e.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CST-074",
@@ -1779,7 +1853,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "59356229-252a-4b00-b91c-6c2eab720f43",
-    "image": "59356229-252a-4b00-b91c-6c2eab720f43.jpg"
+    "image": "59356229-252a-4b00-b91c-6c2eab720f43.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-075",
@@ -1801,7 +1876,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "58417773-e090-4681-ac8f-cf37e7a7dbd9",
-    "image": "58417773-e090-4681-ac8f-cf37e7a7dbd9.jpg"
+    "image": "58417773-e090-4681-ac8f-cf37e7a7dbd9.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-076",
@@ -1823,7 +1899,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "a41265d3-8737-4827-b075-9cd24d36282f",
-    "image": "a41265d3-8737-4827-b075-9cd24d36282f.jpg"
+    "image": "a41265d3-8737-4827-b075-9cd24d36282f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-077",
@@ -1845,7 +1922,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "e0611ee4-b3b5-4cd3-815c-6c226c1fb4a5",
-    "image": "e0611ee4-b3b5-4cd3-815c-6c226c1fb4a5.jpg"
+    "image": "e0611ee4-b3b5-4cd3-815c-6c226c1fb4a5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-078",
@@ -1867,7 +1945,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "fd508f4f-a0f4-440f-bd4d-642b81d0fffe",
-    "image": "fd508f4f-a0f4-440f-bd4d-642b81d0fffe.jpg"
+    "image": "fd508f4f-a0f4-440f-bd4d-642b81d0fffe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-079",
@@ -1889,7 +1968,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "38479b85-0686-4c7c-927b-fa93db118cc6",
-    "image": "38479b85-0686-4c7c-927b-fa93db118cc6.jpg"
+    "image": "38479b85-0686-4c7c-927b-fa93db118cc6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-080",
@@ -1911,7 +1991,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "517acab4-4449-4910-868e-d975adf1f47d",
-    "image": "517acab4-4449-4910-868e-d975adf1f47d.jpg"
+    "image": "517acab4-4449-4910-868e-d975adf1f47d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-081",
@@ -1933,7 +2014,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "70d62978-a83e-45df-8d30-2bdb99fabc96",
-    "image": "70d62978-a83e-45df-8d30-2bdb99fabc96.jpg"
+    "image": "70d62978-a83e-45df-8d30-2bdb99fabc96.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-082",
@@ -1955,51 +2037,53 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "cb1b7588-b736-454c-bedd-11fbe9ecb5de",
-    "image": "cb1b7588-b736-454c-bedd-11fbe9ecb5de.jpg"
+    "image": "cb1b7588-b736-454c-bedd-11fbe9ecb5de.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "CST-083",
-    "name": "$@tell1te M@ze, Star Ciborium",
-    "Type": "Regalia",
-    "Race": "Contract",
+    "Card Number": "CST-083|CST-083J",
+    "name": "$@tell1te M@ze, Star Ciborium // Sieben, Administrator of the Maze",
+    "Type": "Regalia|J-Ruler",
+    "Race": "Contract|Seven Stars|Chronogear",
     "Cost": "{G}{B}",
-    "Colour": "G|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Sieben, Malefic $t@r\".\n[Enter] ]]] Draw a card. You may reveal a Seven Kings ruler you own from outside the game that does not share a name with other Seven Kings rulers you own revealed outside the game and keep it revealed until end of game.\n[Seal] (X), where X is seven minus the number of Seven Kings rulers you own revealed outside the game. (This card gains the following text as long as you control X or more magic stones, where X is seven minus the number of Seven Kings rulers you own revealed outside the game.)\n{Rest}: You may contract this card with \"Sieben, Malefic $t@r\". Play this ability only during your turn.",
+    "Colour": "G|B|V",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Quickcast]\n[Mythic]\nPlay this card or its abilities only if you control a J/ruler named \"Sieben, Malefic $t@r\".\n[Enter] ]]] Draw a card. You may reveal a Seven Kings ruler you own from outside the game that does not share a name with other Seven Kings rulers you own revealed outside the game and keep it revealed until end of game.\n[Seal] (X), where X is seven minus the number of Seven Kings rulers you own revealed outside the game. (This card gains the following text as long as you control X or more magic stones, where X is seven minus the number of Seven Kings rulers you own revealed outside the game.)\n{Rest}: You may contract this card with \"Sieben, Malefic $t@r\". Play this ability only during your turn.|[Flying]\n[Bane]\nThis card has \"Sieben, Malefic $t@r\" in addition to its other names.\nJ/resonators your opponent controls gain [-200/-200] for each Seven Kings ruler you own revealed outside the game.\n[Enter] ]]] You may reveal a Seven Kings ruler you own from outside the game that does not share a name with other Seven Kings rulers you own revealed outside the game and keep it revealed until end of game.\nGod's Art \"Administrator.initWorld();\" {B}: Shuffle all non-magic stone cards from your removed area into your deck. Shuffle all magic stones from your removed area into your magic stone deck. Draw two cards.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
-    "Artist": "SO",
+    "Artist": "SO|ISHIDA VAL",
     "Rarity": "R",
-    "Fowid": "1988",
+    "Fowid": "1988|1989",
     "Cluster": "10 - Hero",
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "0dc08101-5d45-4c19-b66c-0596fcf9ab34",
-    "image": "0dc08101-5d45-4c19-b66c-0596fcf9ab34.jpg"
-  },
-  {
-    "Card Number": "CST-083J",
-    "name": "Sieben, Administrator of the Maze",
-    "Type": "J-Ruler",
-    "Race": "Seven Stars|Chronogear",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Flying]\n[Bane]\nThis card has \"Sieben, Malefic $t@r\" in addition to its other names.\nJ/resonators your opponent controls gain [-200/-200] for each Seven Kings ruler you own revealed outside the game.\n[Enter] ]]] You may reveal a Seven Kings ruler you own from outside the game that does not share a name with other Seven Kings rulers you own revealed outside the game and keep it revealed until end of game.\nGod's Art \"Administrator.initWorld();\" {B}: Shuffle all non-magic stone cards from your removed area into your deck. Shuffle all magic stones from your removed area into your magic stone deck. Draw two cards.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "ISHIDA VAL",
-    "Rarity": "R",
-    "Fowid": "1989",
-    "Cluster": "10 - Hero",
-    "Set Name": "070 - Clash of the Star Trees",
-    "Set Code": "CST",
-    "id": "5814f41f-9e52-4fb6-8730-da29ced5c105",
-    "image": "5814f41f-9e52-4fb6-8730-da29ced5c105.jpg"
+    "image": "0dc08101-5d45-4c19-b66c-0596fcf9ab34.jpg",
+    "Card Type": "Regalia",
+    "backimage": "5814f41f-9e52-4fb6-8730-da29ced5c105.jpg",
+    "alternate1_Card Number": "CST-083J",
+    "alternate1_name": "Sieben, Administrator of the Maze",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Seven Stars|Chronogear",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\n[Bane]\nThis card has \"Sieben, Malefic $t@r\" in addition to its other names.\nJ/resonators your opponent controls gain [-200/-200] for each Seven Kings ruler you own revealed outside the game.\n[Enter] ]]] You may reveal a Seven Kings ruler you own from outside the game that does not share a name with other Seven Kings rulers you own revealed outside the game and keep it revealed until end of game.\nGod's Art \"Administrator.initWorld();\" {B}: Shuffle all non-magic stone cards from your removed area into your deck. Shuffle all magic stones from your removed area into your magic stone deck. Draw two cards.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "ISHIDA VAL",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1989",
+    "alternate1_Cluster": "10 - Hero",
+    "alternate1_Set Name": "070 - Clash of the Star Trees",
+    "alternate1_Set Code": "CST",
+    "alternate1_id": "5814f41f-9e52-4fb6-8730-da29ced5c105",
+    "alternate1_image": "5814f41f-9e52-4fb6-8730-da29ced5c105.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "CST-084",
@@ -2021,7 +2105,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "c958654a-52e7-434c-90bc-461b86dcd643",
-    "image": "c958654a-52e7-434c-90bc-461b86dcd643.jpg"
+    "image": "c958654a-52e7-434c-90bc-461b86dcd643.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-085",
@@ -2043,7 +2128,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "6e257da9-7527-41cf-9484-ef9af55fa845",
-    "image": "6e257da9-7527-41cf-9484-ef9af55fa845.jpg"
+    "image": "6e257da9-7527-41cf-9484-ef9af55fa845.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-086",
@@ -2065,7 +2151,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "201e46fc-e59d-4163-b77e-56d2c8eee974",
-    "image": "201e46fc-e59d-4163-b77e-56d2c8eee974.jpg"
+    "image": "201e46fc-e59d-4163-b77e-56d2c8eee974.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-087",
@@ -2087,7 +2174,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "383fbd17-f9bd-43fd-8664-bc296f204414",
-    "image": "383fbd17-f9bd-43fd-8664-bc296f204414.jpg"
+    "image": "383fbd17-f9bd-43fd-8664-bc296f204414.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-088",
@@ -2109,7 +2197,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "ffe5f640-4a15-45fe-a33d-bc0051c4c528",
-    "image": "ffe5f640-4a15-45fe-a33d-bc0051c4c528.jpg"
+    "image": "ffe5f640-4a15-45fe-a33d-bc0051c4c528.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-089",
@@ -2131,7 +2220,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "ecb585d4-48fc-493f-a0aa-0c6fc793bd07",
-    "image": "ecb585d4-48fc-493f-a0aa-0c6fc793bd07.jpg"
+    "image": "ecb585d4-48fc-493f-a0aa-0c6fc793bd07.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "CST-090",
@@ -2153,7 +2243,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "15140e7e-9783-4b54-8813-6e115f0fc477",
-    "image": "15140e7e-9783-4b54-8813-6e115f0fc477.jpg"
+    "image": "15140e7e-9783-4b54-8813-6e115f0fc477.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-091",
@@ -2175,7 +2266,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "646cafe1-a613-4411-960a-e23ab2dff639",
-    "image": "646cafe1-a613-4411-960a-e23ab2dff639.jpg"
+    "image": "646cafe1-a613-4411-960a-e23ab2dff639.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "CST-LVW",
@@ -2197,7 +2289,8 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "d5d3da4a-6631-44d6-ac10-6ba7da41440f",
-    "image": "d5d3da4a-6631-44d6-ac10-6ba7da41440f.jpg"
+    "image": "d5d3da4a-6631-44d6-ac10-6ba7da41440f.jpg",
+    "Card Type": "Extension Rule"
   },
   {
     "Card Number": "CST-Λ&∀",
@@ -2219,6 +2312,7 @@
     "Set Name": "070 - Clash of the Star Trees",
     "Set Code": "CST",
     "id": "abdc19ad-fc7f-4d3d-8bdb-a3de8900e50e",
-    "image": "abdc19ad-fc7f-4d3d-8bdb-a3de8900e50e.jpg"
+    "image": "abdc19ad-fc7f-4d3d-8bdb-a3de8900e50e.jpg",
+    "Card Type": "Extension Rule"
   }
 ]

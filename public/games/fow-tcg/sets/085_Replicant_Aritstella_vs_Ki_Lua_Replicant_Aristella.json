@@ -1,17 +1,17 @@
 [
   {
-    "Card Number": "ABC-SD02-000",
-    "name": "Arcana: Holy Protector",
-    "Type": "Ruler",
+    "Card Number": "ABC-SD02-000|ABC-SD02-000J",
+    "name": "Arcana: Holy Protector // Arcana: Archangel of Radiant Waves",
+    "Type": "Ruler|J-Ruler",
     "Race": "Arcana",
     "Cost": "",
     "Colour": "W|U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Convoke] {W}{U}\nYou can only have light cards and water cards in your deck, and no cards with attributes other than light or water.\nAt the beginning of the game ]]] Put three limited counters on this card.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.\n[Judgment] {W}{U}{1}",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Convoke] {W}{U}\nYou can only have light cards and water cards in your deck, and no cards with attributes other than light or water.\nAt the beginning of the game ]]] Put three limited counters on this card.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.\n[Judgment] {W}{U}{1}|[Convoke] {W}{U}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "She was a messenger sent to put an end to this fight.",
+    "Flavour": "She was a messenger sent to put an end to this fight.|\"I will protect even those who attempt to hurt me.\" ーArchangel of Radiant Waves",
     "Artist": "",
     "Rarity": "R",
     "Fowid": "None",
@@ -19,43 +19,44 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "e8f00b59-e481-4f92-bbe0-e7a96443d66c",
-    "image": "e8f00b59-e481-4f92-bbe0-e7a96443d66c.jpg"
+    "image": "e8f00b59-e481-4f92-bbe0-e7a96443d66c.jpg",
+    "Card Type": "Ruler",
+    "backimage": "851e12b3-646f-45f3-95e2-fed577605b31.jpg",
+    "alternate1_Card Number": "ABC-SD02-000J",
+    "alternate1_name": "Arcana: Archangel of Radiant Waves",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Arcana",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|U",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Convoke] {W}{U}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I will protect even those who attempt to hurt me.\" ーArchangel of Radiant Waves",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "None",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "851e12b3-646f-45f3-95e2-fed577605b31",
+    "alternate1_image": "851e12b3-646f-45f3-95e2-fed577605b31.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD02-000J",
-    "name": "Arcana: Archangel of Radiant Waves",
-    "Type": "J-Ruler",
-    "Race": "Arcana",
-    "Cost": "",
-    "Colour": "W|U",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Convoke] {W}{U}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"I will protect even those who attempt to hurt me.\" ーArchangel of Radiant Waves",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "None",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
-    "Set Code": "ABC",
-    "id": "851e12b3-646f-45f3-95e2-fed577605b31",
-    "image": "851e12b3-646f-45f3-95e2-fed577605b31.jpg"
-  },
-  {
-    "Card Number": "ABC-SD02-001",
-    "name": "Aristella I, Returned King",
-    "Type": "Ruler",
-    "Race": "Human|King|Twelve Sacred Knights",
+    "Card Number": "ABC-SD02-001|ABC-SD02-001J",
+    "name": "Aristella I, Returned King // Replicant: Aristella",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|King|Twelve Sacred Knights|Replicant|Twelve Sacred Knights",
     "Cost": "",
     "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Twelve Sacred Knights resonators gain [Quickcast] in all zones.\n{1}, discard a Twelve Sacred Knights card: Search your deck for a Twelve Sacred Knights resonator, reveal it and put it into your hand, then shuffle your deck. Play this ability only once per turn.\nGod's Art \"King's Protection\" {W}: Search your hand or deck for a card named \"The Great Wall of the Twelve Sacred Knights\" and put it into the field. If you searched your deck, shuffle it.\n[Judgment] {W}{W}",
+    "ATK": "700",
+    "DEF": "800",
+    "Abilities": "Twelve Sacred Knights resonators gain [Quickcast] in all zones.\n{1}, discard a Twelve Sacred Knights card: Search your deck for a Twelve Sacred Knights resonator, reveal it and put it into your hand, then shuffle your deck. Play this ability only once per turn.\nGod's Art \"King's Protection\" {W}: Search your hand or deck for a card named \"The Great Wall of the Twelve Sacred Knights\" and put it into the field. If you searched your deck, shuffle it.\n[Judgment] {W}{W}|[Protect] [First Strike] [Barrier] (Total cost 1 or less)\n[Enter] ]]] Search your deck for two mono-attribute Twelve Sacred Knights cards with total cost 2 or less and different names, reveal them, put one into your hand and the other into the field, then shuffle your deck.\nGod's Art \"Replicant of the Twelve Sacred Knights\" {W}: Until end of game, you may play all God's Art abilities from cards with \"Member of the Twelve Sacred Knights\" in their name you already played this game an additional time.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "The king has many titles, but for him, only one is important: twin brother.",
+    "Flavour": "The king has many titles, but for him, only one is important: twin brother.|Aristella had to watch over his world, so using the remaining power of Solaris he created a substitute that he could trust.",
     "Artist": "",
     "Rarity": "R",
     "Fowid": "",
@@ -63,29 +64,30 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "86dc358d-6f7c-4a50-8e83-c6ea0d588f2e",
-    "image": "86dc358d-6f7c-4a50-8e83-c6ea0d588f2e.jpg"
-  },
-  {
-    "Card Number": "ABC-SD02-001J",
-    "name": "Replicant: Aristella",
-    "Type": "J-Ruler",
-    "Race": "Replicant|Twelve Sacred Knights",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "700",
-    "DEF": "800",
-    "Abilities": "[Protect] [First Strike] [Barrier] (Total cost 1 or less)\n[Enter] ]]] Search your deck for two mono-attribute Twelve Sacred Knights cards with total cost 2 or less and different names, reveal them, put one into your hand and the other into the field, then shuffle your deck.\nGod's Art \"Replicant of the Twelve Sacred Knights\" {W}: Until end of game, you may play all God's Art abilities from cards with \"Member of the Twelve Sacred Knights\" in their name you already played this game an additional time.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Aristella had to watch over his world, so using the remaining power of Solaris he created a substitute that he could trust.",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
-    "Set Code": "ABC",
-    "id": "573926eb-fa10-4010-911c-8458af588401",
-    "image": "573926eb-fa10-4010-911c-8458af588401.jpg"
+    "image": "86dc358d-6f7c-4a50-8e83-c6ea0d588f2e.jpg",
+    "Card Type": "Ruler",
+    "backimage": "573926eb-fa10-4010-911c-8458af588401.jpg",
+    "alternate1_Card Number": "ABC-SD02-001J",
+    "alternate1_name": "Replicant: Aristella",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Replicant|Twelve Sacred Knights",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Protect] [First Strike] [Barrier] (Total cost 1 or less)\n[Enter] ]]] Search your deck for two mono-attribute Twelve Sacred Knights cards with total cost 2 or less and different names, reveal them, put one into your hand and the other into the field, then shuffle your deck.\nGod's Art \"Replicant of the Twelve Sacred Knights\" {W}: Until end of game, you may play all God's Art abilities from cards with \"Member of the Twelve Sacred Knights\" in their name you already played this game an additional time.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Aristella had to watch over his world, so using the remaining power of Solaris he created a substitute that he could trust.",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "573926eb-fa10-4010-911c-8458af588401",
+    "alternate1_image": "573926eb-fa10-4010-911c-8458af588401.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD02-002",
@@ -107,95 +109,98 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "d93db97c-c18e-4550-8f34-5c51433f65d0",
-    "image": "d93db97c-c18e-4550-8f34-5c51433f65d0.jpg"
+    "image": "d93db97c-c18e-4550-8f34-5c51433f65d0.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "ABC-SD02-003",
-    "name": "Ayu, Lunar Swordswoman",
-    "Type": "Ruler",
-    "Race": "Wererabbit",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "You cannot have more than one copy of any card in your deck.\nAt the beginning of the game ]]] Draw a card.\n[Judgment] {U}{1}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"This meeting...is definitely a once in a lifetime event!\"",
-    "Artist": "Misa Tsutsui",
-    "Rarity": "R",
-    "Fowid": "2288",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
-    "Set Code": "ABC",
-    "id": "0c01ad82-467d-476a-acdf-ee59fe8f98f2",
-    "image": "0c01ad82-467d-476a-acdf-ee59fe8f98f2.jpg"
-  },
-  {
-    "Card Number": "ABC-SD02-003J",
-    "name": "Ayu, Shaman Swordswoman",
-    "Type": "J-Ruler",
+    "Card Number": "ABC-SD02-003|ABC-SD02-003J",
+    "name": "Ayu, Lunar Swordswoman // Ayu, Shaman Swordswoman",
+    "Type": "Ruler|J-Ruler",
     "Race": "Wererabbit",
     "Cost": "",
     "Colour": "U",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Imperishable]\n[Enter] ]]] Search your deck for a Soul resonator, reveal it and put it into your hand, then shuffle your deck.\nDiscard a Soul resonator: This card gains [+500/+500], [Flying] and [First Strike] until end of turn.\nGod's Art \"Once In A Lifetime\" {0}: Name a card. Reveal cards from the top of your deck until you reveal the named card. Put that card into your hand, and remove the rest from the game.",
+    "Abilities": "You cannot have more than one copy of any card in your deck.\nAt the beginning of the game ]]] Draw a card.\n[Judgment] {U}{1}|[Imperishable]\n[Enter] ]]] Search your deck for a Soul resonator, reveal it and put it into your hand, then shuffle your deck.\nDiscard a Soul resonator: This card gains [+500/+500], [Flying] and [First Strike] until end of turn.\nGod's Art \"Once In A Lifetime\" {0}: Name a card. Reveal cards from the top of your deck until you reveal the named card. Put that card into your hand, and remove the rest from the game.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Because all meetings are once in a lifetime!\"",
+    "Flavour": "\"This meeting...is definitely a once in a lifetime event!\"|\"Because all meetings are once in a lifetime!\"",
     "Artist": "Misa Tsutsui",
     "Rarity": "R",
-    "Fowid": "2289",
+    "Fowid": "2288|2289",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
-    "id": "ea376975-4891-4c60-9de9-e3dcf0c45cc4",
-    "image": "ea376975-4891-4c60-9de9-e3dcf0c45cc4.jpg"
+    "id": "0c01ad82-467d-476a-acdf-ee59fe8f98f2",
+    "image": "0c01ad82-467d-476a-acdf-ee59fe8f98f2.jpg",
+    "Card Type": "Ruler",
+    "backimage": "ea376975-4891-4c60-9de9-e3dcf0c45cc4.jpg",
+    "alternate1_Card Number": "ABC-SD02-003J",
+    "alternate1_name": "Ayu, Shaman Swordswoman",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wererabbit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Imperishable]\n[Enter] ]]] Search your deck for a Soul resonator, reveal it and put it into your hand, then shuffle your deck.\nDiscard a Soul resonator: This card gains [+500/+500], [Flying] and [First Strike] until end of turn.\nGod's Art \"Once In A Lifetime\" {0}: Name a card. Reveal cards from the top of your deck until you reveal the named card. Put that card into your hand, and remove the rest from the game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Because all meetings are once in a lifetime!\"",
+    "alternate1_Artist": "Misa Tsutsui",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2289",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "ea376975-4891-4c60-9de9-e3dcf0c45cc4",
+    "alternate1_image": "ea376975-4891-4c60-9de9-e3dcf0c45cc4.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD02-004",
-    "name": "Moojdart",
-    "Type": "Ruler",
-    "Race": "Human|Six Sages",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Tag] (Six Sages)\nIf you would draw a starting hand, you draw a starting hand plus one additional card and your maximum hand size is increased by one until end of game instead.\nWhenever a J-ruler enters the field under your control ]]] Draw a card.\n{Rest}: Draw a card, then put a card from your hand on the bottom of your deck.\n[Judgment] {U}{U}{1}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "She is determined to protect Milest at all costs. Even if she would have to give up her love and her memories.",
-    "Artist": "ishishou",
-    "Rarity": "R",
-    "Fowid": "5109",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
-    "Set Code": "ABC",
-    "id": "e20e3640-b638-4dd8-a812-a5b570581c04",
-    "image": "e20e3640-b638-4dd8-a812-a5b570581c04.jpg"
-  },
-  {
-    "Card Number": "ABC-SD02-004J",
-    "name": "Moojdart [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Six Sages|Spirit",
+    "Card Number": "ABC-SD02-004|ABC-SD02-004J",
+    "name": "Moojdart // Moojdart [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Six Sages|Six Sages|Spirit",
     "Cost": "",
     "Colour": "U",
     "ATK": "0",
     "DEF": "700",
-    "Abilities": "[Flying]\nThis card gains [+300/0] for each card in your hand.\nWhenever this card deals damage to your opponent ]]] Draw a card.",
+    "Abilities": "[Tag] (Six Sages)\nIf you would draw a starting hand, you draw a starting hand plus one additional card and your maximum hand size is increased by one until end of game instead.\nWhenever a J-ruler enters the field under your control ]]] Draw a card.\n{Rest}: Draw a card, then put a card from your hand on the bottom of your deck.\n[Judgment] {U}{U}{1}|[Flying]\nThis card gains [+300/0] for each card in your hand.\nWhenever this card deals damage to your opponent ]]] Draw a card.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "To guard her lover and this world, Moojdart became a spirit, sacrificing her love and her memories.",
+    "Flavour": "She is determined to protect Milest at all costs. Even if she would have to give up her love and her memories.|To guard her lover and this world, Moojdart became a spirit, sacrificing her love and her memories.",
     "Artist": "ishishou",
     "Rarity": "R",
-    "Fowid": "5110",
+    "Fowid": "5109|5110",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
-    "id": "ec1cca35-8a79-480f-b264-8c7b34768f4d",
-    "image": "ec1cca35-8a79-480f-b264-8c7b34768f4d.jpg"
+    "id": "e20e3640-b638-4dd8-a812-a5b570581c04",
+    "image": "e20e3640-b638-4dd8-a812-a5b570581c04.jpg",
+    "Card Type": "Ruler",
+    "backimage": "ec1cca35-8a79-480f-b264-8c7b34768f4d.jpg",
+    "alternate1_Card Number": "ABC-SD02-004J",
+    "alternate1_name": "Moojdart [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Six Sages|Spirit",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[Flying]\nThis card gains [+300/0] for each card in your hand.\nWhenever this card deals damage to your opponent ]]] Draw a card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "To guard her lover and this world, Moojdart became a spirit, sacrificing her love and her memories.",
+    "alternate1_Artist": "ishishou",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5110",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "ec1cca35-8a79-480f-b264-8c7b34768f4d",
+    "alternate1_image": "ec1cca35-8a79-480f-b264-8c7b34768f4d.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD02-005",
@@ -217,7 +222,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "3b2f5ec0-b107-4ded-af80-8e9bafa2c642",
-    "image": "3b2f5ec0-b107-4ded-af80-8e9bafa2c642.jpg"
+    "image": "3b2f5ec0-b107-4ded-af80-8e9bafa2c642.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-006",
@@ -239,7 +245,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "693c8320-ad3c-490b-971d-0971e172fe68",
-    "image": "693c8320-ad3c-490b-971d-0971e172fe68.jpg"
+    "image": "693c8320-ad3c-490b-971d-0971e172fe68.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-007",
@@ -261,7 +268,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "7e8812b1-8b45-4fe6-a67b-9da67950dbe0",
-    "image": "7e8812b1-8b45-4fe6-a67b-9da67950dbe0.jpg"
+    "image": "7e8812b1-8b45-4fe6-a67b-9da67950dbe0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-008",
@@ -283,7 +291,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "9eed2cba-4ce6-4302-b180-09310dfd2395",
-    "image": "9eed2cba-4ce6-4302-b180-09310dfd2395.jpg"
+    "image": "9eed2cba-4ce6-4302-b180-09310dfd2395.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-009",
@@ -305,7 +314,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "2f297268-adc0-4524-b30b-702e44bb90eb",
-    "image": "2f297268-adc0-4524-b30b-702e44bb90eb.jpg"
+    "image": "2f297268-adc0-4524-b30b-702e44bb90eb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-010",
@@ -327,7 +337,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "5868d3c7-c650-4314-8f70-a6c131b65daa",
-    "image": "5868d3c7-c650-4314-8f70-a6c131b65daa.jpg"
+    "image": "5868d3c7-c650-4314-8f70-a6c131b65daa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-011",
@@ -349,7 +360,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "fefaeab4-6c39-433a-9e65-90130347e9dd",
-    "image": "fefaeab4-6c39-433a-9e65-90130347e9dd.jpg"
+    "image": "fefaeab4-6c39-433a-9e65-90130347e9dd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-012",
@@ -371,7 +383,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "642f78ab-362a-4ffd-b4a3-73822e47e073",
-    "image": "642f78ab-362a-4ffd-b4a3-73822e47e073.jpg"
+    "image": "642f78ab-362a-4ffd-b4a3-73822e47e073.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-013",
@@ -393,7 +406,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "c2171e97-6c79-4f83-9f44-5ddc2060553e",
-    "image": "c2171e97-6c79-4f83-9f44-5ddc2060553e.jpg"
+    "image": "c2171e97-6c79-4f83-9f44-5ddc2060553e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-014",
@@ -415,7 +429,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "2da31306-c6d7-49d6-887e-13ae167f5ae7",
-    "image": "2da31306-c6d7-49d6-887e-13ae167f5ae7.jpg"
+    "image": "2da31306-c6d7-49d6-887e-13ae167f5ae7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-015",
@@ -437,18 +452,19 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "d2f74e20-dd29-476c-9305-6ec56a44aa6b",
-    "image": "d2f74e20-dd29-476c-9305-6ec56a44aa6b.jpg"
+    "image": "d2f74e20-dd29-476c-9305-6ec56a44aa6b.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ABC-SD02-016",
-    "name": "Cinderella, Freed from the Ashes",
-    "Type": "Resonator",
+    "Card Number": "ABC-SD02-016|ABC-SD02-016*",
+    "name": "Cinderella, Freed from the Ashes // Rampaging Pumpkin Carriage",
+    "Type": "Resonator|Chant",
     "Race": "Fairy Tale",
-    "Cost": "{U}{1}",
+    "Cost": "{U}{1}|{U}{U}{U}",
     "Colour": "U",
     "ATK": "600",
     "DEF": "600",
-    "Abilities": "[Quickcast]\n[Enter] ]]] Look at the top two cards of target player's deck. Put them on top and/or on the bottom of that deck in any order.",
+    "Abilities": "[Quickcast]\n[Enter] ]]] Look at the top two cards of target player's deck. Put them on top and/or on the bottom of that deck in any order.|[Quickcast]\nPut up to two target non-magic stone, non-J-ruler entities your opponent controls on top of their owner's deck in any order. If this card was awakened, put its \"Cinderella, Freed from the Ashes\" part into the field instead of putting this card into its owner's graveyard.\n[Awakening] {1}",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -459,29 +475,30 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "7db1a7c6-3af5-4210-8d53-5d5156897d53",
-    "image": "7db1a7c6-3af5-4210-8d53-5d5156897d53.jpg"
-  },
-  {
-    "Card Number": "ABC-SD02-016*",
-    "name": "Rampaging Pumpkin Carriage",
-    "Type": "Chant",
-    "Race": "Fairy Tale",
-    "Cost": "{U}{U}{U}",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nPut up to two target non-magic stone, non-J-ruler entities your opponent controls on top of their owner's deck in any order. If this card was awakened, put its \"Cinderella, Freed from the Ashes\" part into the field instead of putting this card into its owner's graveyard.\n[Awakening] {1}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "muraicchi",
-    "Rarity": "MR",
-    "Fowid": "5102",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
-    "Set Code": "ABC",
-    "id": "8c1af857-0ca9-4f0f-b076-535354cf1316",
-    "image": "8c1af857-0ca9-4f0f-b076-535354cf1316.jpg"
+    "image": "7db1a7c6-3af5-4210-8d53-5d5156897d53.jpg",
+    "Card Type": "Resonator",
+    "backimage": "8c1af857-0ca9-4f0f-b076-535354cf1316.jpg",
+    "alternate1_Card Number": "ABC-SD02-016*",
+    "alternate1_name": "Rampaging Pumpkin Carriage",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "Fairy Tale",
+    "alternate1_Cost": "{U}{U}{U}",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nPut up to two target non-magic stone, non-J-ruler entities your opponent controls on top of their owner's deck in any order. If this card was awakened, put its \"Cinderella, Freed from the Ashes\" part into the field instead of putting this card into its owner's graveyard.\n[Awakening] {1}",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "muraicchi",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5102",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "8c1af857-0ca9-4f0f-b076-535354cf1316",
+    "alternate1_image": "8c1af857-0ca9-4f0f-b076-535354cf1316.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-017",
@@ -503,7 +520,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "29c60f96-2403-44a8-869a-a1f5a7b4351a",
-    "image": "29c60f96-2403-44a8-869a-a1f5a7b4351a.jpg"
+    "image": "29c60f96-2403-44a8-869a-a1f5a7b4351a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-018",
@@ -525,7 +543,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "9055af38-876c-4716-981f-509b0c5a25cb",
-    "image": "9055af38-876c-4716-981f-509b0c5a25cb.jpg"
+    "image": "9055af38-876c-4716-981f-509b0c5a25cb.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-019",
@@ -547,7 +566,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "6d3471cc-2ccc-484d-92bb-93a28e64b6e5",
-    "image": "6d3471cc-2ccc-484d-92bb-93a28e64b6e5.jpg"
+    "image": "6d3471cc-2ccc-484d-92bb-93a28e64b6e5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-020",
@@ -569,7 +589,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "fad043ec-0a05-4137-958f-5b1aa8d82a28",
-    "image": "fad043ec-0a05-4137-958f-5b1aa8d82a28.jpg"
+    "image": "fad043ec-0a05-4137-958f-5b1aa8d82a28.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-021",
@@ -591,7 +612,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "9af1c6bc-327e-4d12-ab87-052764ead7dd",
-    "image": "9af1c6bc-327e-4d12-ab87-052764ead7dd.jpg"
+    "image": "9af1c6bc-327e-4d12-ab87-052764ead7dd.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-022",
@@ -613,7 +635,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "744199b5-3f58-4365-9d60-daff4e49f30a",
-    "image": "744199b5-3f58-4365-9d60-daff4e49f30a.jpg"
+    "image": "744199b5-3f58-4365-9d60-daff4e49f30a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-023",
@@ -635,7 +658,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "fce7446f-e950-48d6-b9d4-b57896d3efe3",
-    "image": "fce7446f-e950-48d6-b9d4-b57896d3efe3.jpg"
+    "image": "fce7446f-e950-48d6-b9d4-b57896d3efe3.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD02-024",
@@ -657,7 +681,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "00f0d7ca-b971-4575-8950-cb9e026c468e",
-    "image": "00f0d7ca-b971-4575-8950-cb9e026c468e.jpg"
+    "image": "00f0d7ca-b971-4575-8950-cb9e026c468e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-025",
@@ -679,7 +704,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "a476f806-47d8-49ef-96bd-99cc352abfa3",
-    "image": "a476f806-47d8-49ef-96bd-99cc352abfa3.jpg"
+    "image": "a476f806-47d8-49ef-96bd-99cc352abfa3.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-026",
@@ -701,7 +727,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "f7ea8248-1404-4dcb-9711-743797021289",
-    "image": "f7ea8248-1404-4dcb-9711-743797021289.jpg"
+    "image": "f7ea8248-1404-4dcb-9711-743797021289.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-027",
@@ -723,7 +750,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "2afb018f-605d-4b10-a198-18b13380d06d",
-    "image": "2afb018f-605d-4b10-a198-18b13380d06d.jpg"
+    "image": "2afb018f-605d-4b10-a198-18b13380d06d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-028",
@@ -745,7 +773,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "1dfc782a-dd2e-4add-8517-de0125ca7706",
-    "image": "1dfc782a-dd2e-4add-8517-de0125ca7706.jpg"
+    "image": "1dfc782a-dd2e-4add-8517-de0125ca7706.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-029",
@@ -767,7 +796,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "e9104385-1f37-45e3-981b-5c6665897d4a",
-    "image": "e9104385-1f37-45e3-981b-5c6665897d4a.jpg"
+    "image": "e9104385-1f37-45e3-981b-5c6665897d4a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-030",
@@ -789,7 +819,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "d574de01-561b-4590-878b-4f5ae7825d8c",
-    "image": "d574de01-561b-4590-878b-4f5ae7825d8c.jpg"
+    "image": "d574de01-561b-4590-878b-4f5ae7825d8c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-031",
@@ -811,7 +842,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "6d34afb3-1daa-4053-9c39-4134676345e5",
-    "image": "6d34afb3-1daa-4053-9c39-4134676345e5.jpg"
+    "image": "6d34afb3-1daa-4053-9c39-4134676345e5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-032",
@@ -833,7 +865,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "3d777d6e-e00c-40fd-aad4-435847decbae",
-    "image": "3d777d6e-e00c-40fd-aad4-435847decbae.jpg"
+    "image": "3d777d6e-e00c-40fd-aad4-435847decbae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-033",
@@ -855,7 +888,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "d3bdfab6-0302-43ef-9748-497ee547a7e5",
-    "image": "d3bdfab6-0302-43ef-9748-497ee547a7e5.jpg"
+    "image": "d3bdfab6-0302-43ef-9748-497ee547a7e5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-034",
@@ -877,7 +911,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "c0328e9d-9602-4507-8b66-fa8185d97f5f",
-    "image": "c0328e9d-9602-4507-8b66-fa8185d97f5f.jpg"
+    "image": "c0328e9d-9602-4507-8b66-fa8185d97f5f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-035",
@@ -899,7 +934,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "8690dba9-5b01-4752-b0e0-6262fc6dd3c6",
-    "image": "8690dba9-5b01-4752-b0e0-6262fc6dd3c6.jpg"
+    "image": "8690dba9-5b01-4752-b0e0-6262fc6dd3c6.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD02-036",
@@ -921,7 +957,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "5f869356-fcbc-4ef2-9a2b-964778495f70",
-    "image": "5f869356-fcbc-4ef2-9a2b-964778495f70.jpg"
+    "image": "5f869356-fcbc-4ef2-9a2b-964778495f70.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-037",
@@ -943,7 +980,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "c2f892ba-4ea6-47a1-aea4-a5ff5586d488",
-    "image": "c2f892ba-4ea6-47a1-aea4-a5ff5586d488.jpg"
+    "image": "c2f892ba-4ea6-47a1-aea4-a5ff5586d488.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-038",
@@ -965,7 +1003,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "edcf4a41-2ad7-441b-81d9-889e35c1c583",
-    "image": "edcf4a41-2ad7-441b-81d9-889e35c1c583.jpg"
+    "image": "edcf4a41-2ad7-441b-81d9-889e35c1c583.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-039",
@@ -987,7 +1026,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "779ca45b-5662-4744-8dc9-39b02642c2cc",
-    "image": "779ca45b-5662-4744-8dc9-39b02642c2cc.jpg"
+    "image": "779ca45b-5662-4744-8dc9-39b02642c2cc.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-040",
@@ -1009,7 +1049,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "e60fdba3-7614-453e-84b2-35cb418a13fd",
-    "image": "e60fdba3-7614-453e-84b2-35cb418a13fd.jpg"
+    "image": "e60fdba3-7614-453e-84b2-35cb418a13fd.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-041",
@@ -1031,7 +1072,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "229e3dad-f44b-4ef1-b530-36fa75a23c53",
-    "image": "229e3dad-f44b-4ef1-b530-36fa75a23c53.jpg"
+    "image": "229e3dad-f44b-4ef1-b530-36fa75a23c53.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-042",
@@ -1053,7 +1095,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "40a78b44-1523-476f-8fa7-ab45d85c6a32",
-    "image": "40a78b44-1523-476f-8fa7-ab45d85c6a32.jpg"
+    "image": "40a78b44-1523-476f-8fa7-ab45d85c6a32.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-043",
@@ -1075,7 +1118,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "5cec8bf2-9a2e-4105-a6d1-b99d1e84d04a",
-    "image": "5cec8bf2-9a2e-4105-a6d1-b99d1e84d04a.jpg"
+    "image": "5cec8bf2-9a2e-4105-a6d1-b99d1e84d04a.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-044",
@@ -1097,7 +1141,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "a560e2ec-e3c1-4aff-8eec-932f1fcb0c02",
-    "image": "a560e2ec-e3c1-4aff-8eec-932f1fcb0c02.jpg"
+    "image": "a560e2ec-e3c1-4aff-8eec-932f1fcb0c02.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-045",
@@ -1119,7 +1164,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "2785caa9-a4c2-4041-9d65-1da5bc541b6a",
-    "image": "2785caa9-a4c2-4041-9d65-1da5bc541b6a.jpg"
+    "image": "2785caa9-a4c2-4041-9d65-1da5bc541b6a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-046",
@@ -1141,7 +1187,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "e4c1f225-95ac-4f20-ad56-f59d390749f0",
-    "image": "e4c1f225-95ac-4f20-ad56-f59d390749f0.jpg"
+    "image": "e4c1f225-95ac-4f20-ad56-f59d390749f0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-047",
@@ -1163,7 +1210,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "5cc33c5d-68bc-44e1-80e9-3c24e2b57e02",
-    "image": "5cc33c5d-68bc-44e1-80e9-3c24e2b57e02.jpg"
+    "image": "5cc33c5d-68bc-44e1-80e9-3c24e2b57e02.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-048",
@@ -1185,51 +1233,53 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "9b7888e1-59c6-48b0-bb14-437984eec236",
-    "image": "9b7888e1-59c6-48b0-bb14-437984eec236.jpg"
+    "image": "9b7888e1-59c6-48b0-bb14-437984eec236.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "ABC-SD02-049",
-    "name": "The Flight of the Holy Sword",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "ABC-SD02-049|ABC-SD02-049J",
+    "name": "The Flight of the Holy Sword // Excalibur Chronogear",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Chronogear",
     "Cost": "{W}{U}",
     "Colour": "W|U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nChoose one;\n- Non-magic stone entities you control gain [Eternal] and [Barrier] until end of turn.\n- Until end of game, you may play all God's Art abilities you already played this game an additional time.\nIf this card was awakened, contract it with \"Aristella, Twin Prince\".\n[Awakening] {W}{U}",
+    "ATK": "2000",
+    "DEF": "2000",
+    "Abilities": "[Quickcast]\nChoose one;\n- Non-magic stone entities you control gain [Eternal] and [Barrier] until end of turn.\n- Until end of game, you may play all God's Art abilities you already played this game an additional time.\nIf this card was awakened, contract it with \"Aristella, Twin Prince\".\n[Awakening] {W}{U}|[Flying]\nIf damage would be dealt to you, it is dealt to this card instead.\n[Enter] ]]] Destroy all other non-magic stone entities. Draw a card. Players cannot chase to this ability.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "This flying holy sword becomes the weapon that protects everything.",
+    "Flavour": "This flying holy sword becomes the weapon that protects everything.|Under contract, this holy sword becomes the weapon that destroys everything.",
     "Artist": "ISHIDA VAL",
-    "Rarity": "MR",
-    "Fowid": "1480",
+    "Rarity": "MR|R",
+    "Fowid": "1480|1481",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "bb018a6c-0e92-4f98-8a95-a8b142aef50c",
-    "image": "bb018a6c-0e92-4f98-8a95-a8b142aef50c.jpg"
-  },
-  {
-    "Card Number": "ABC-SD02-049J",
-    "name": "Excalibur Chronogear",
-    "Type": "J-Ruler",
-    "Race": "Chronogear",
-    "Cost": "",
-    "Colour": "W|U",
-    "ATK": "2000",
-    "DEF": "2000",
-    "Abilities": "[Flying]\nIf damage would be dealt to you, it is dealt to this card instead.\n[Enter] ]]] Destroy all other non-magic stone entities. Draw a card. Players cannot chase to this ability.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Under contract, this holy sword becomes the weapon that destroys everything.",
-    "Artist": "ISHIDA VAL",
-    "Rarity": "R",
-    "Fowid": "1481",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
-    "Set Code": "ABC",
-    "id": "1225ebf4-e234-453d-9925-9a5d7c7f4cc7",
-    "image": "1225ebf4-e234-453d-9925-9a5d7c7f4cc7.jpg"
+    "image": "bb018a6c-0e92-4f98-8a95-a8b142aef50c.jpg",
+    "Card Type": "Chant",
+    "backimage": "1225ebf4-e234-453d-9925-9a5d7c7f4cc7.jpg",
+    "alternate1_Card Number": "ABC-SD02-049J",
+    "alternate1_name": "Excalibur Chronogear",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Chronogear",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|U",
+    "alternate1_ATK": "2000",
+    "alternate1_DEF": "2000",
+    "alternate1_Abilities": "[Flying]\nIf damage would be dealt to you, it is dealt to this card instead.\n[Enter] ]]] Destroy all other non-magic stone entities. Draw a card. Players cannot chase to this ability.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Under contract, this holy sword becomes the weapon that destroys everything.",
+    "alternate1_Artist": "ISHIDA VAL",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1481",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "1225ebf4-e234-453d-9925-9a5d7c7f4cc7",
+    "alternate1_image": "1225ebf4-e234-453d-9925-9a5d7c7f4cc7.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD02-050",
@@ -1251,7 +1301,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "e147092e-5b71-485f-8425-262b8c37da43",
-    "image": "e147092e-5b71-485f-8425-262b8c37da43.jpg"
+    "image": "e147092e-5b71-485f-8425-262b8c37da43.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD02-051",
@@ -1273,7 +1324,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "c7a06a58-3e6c-4966-b92d-2d7c058e9ee6",
-    "image": "c7a06a58-3e6c-4966-b92d-2d7c058e9ee6.jpg"
+    "image": "c7a06a58-3e6c-4966-b92d-2d7c058e9ee6.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD02-052",
@@ -1295,7 +1347,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "9b89977a-6d04-4559-94cf-55b01682ad79",
-    "image": "9b89977a-6d04-4559-94cf-55b01682ad79.jpg"
+    "image": "9b89977a-6d04-4559-94cf-55b01682ad79.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-053",
@@ -1317,7 +1370,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "c88184bb-90ac-412c-a6d3-8c3cc022e698",
-    "image": "c88184bb-90ac-412c-a6d3-8c3cc022e698.jpg"
+    "image": "c88184bb-90ac-412c-a6d3-8c3cc022e698.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-054",
@@ -1339,7 +1393,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "3a5d8558-557b-4b8b-a797-2c8a61de2542",
-    "image": "3a5d8558-557b-4b8b-a797-2c8a61de2542.jpg"
+    "image": "3a5d8558-557b-4b8b-a797-2c8a61de2542.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "ABC-SD02-055",
@@ -1361,7 +1416,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "b1c29214-62a2-4c5f-9c58-a2b502ea6f3f",
-    "image": "b1c29214-62a2-4c5f-9c58-a2b502ea6f3f.jpg"
+    "image": "b1c29214-62a2-4c5f-9c58-a2b502ea6f3f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-056",
@@ -1383,7 +1439,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "27376f69-504a-43ef-8b3d-b0384956e888",
-    "image": "27376f69-504a-43ef-8b3d-b0384956e888.jpg"
+    "image": "27376f69-504a-43ef-8b3d-b0384956e888.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD02-057",
@@ -1405,7 +1462,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "656f1b45-734c-4e77-b17c-8ec7e9560441",
-    "image": "656f1b45-734c-4e77-b17c-8ec7e9560441.jpg"
+    "image": "656f1b45-734c-4e77-b17c-8ec7e9560441.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-058",
@@ -1427,7 +1485,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "1ea4e50e-fa6a-4c5a-a136-5a841ae141fa",
-    "image": "1ea4e50e-fa6a-4c5a-a136-5a841ae141fa.jpg"
+    "image": "1ea4e50e-fa6a-4c5a-a136-5a841ae141fa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-059",
@@ -1449,7 +1508,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "8e9832f3-56de-460f-95c3-bddb01b00cd1",
-    "image": "8e9832f3-56de-460f-95c3-bddb01b00cd1.jpg"
+    "image": "8e9832f3-56de-460f-95c3-bddb01b00cd1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-060",
@@ -1471,7 +1531,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "794fec0b-dffa-4696-8050-fdb0af924e2d",
-    "image": "794fec0b-dffa-4696-8050-fdb0af924e2d.jpg"
+    "image": "794fec0b-dffa-4696-8050-fdb0af924e2d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD02-061",
@@ -1493,7 +1554,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "d0d733b4-7a13-449a-a665-9485625972c8",
-    "image": "d0d733b4-7a13-449a-a665-9485625972c8.jpg"
+    "image": "d0d733b4-7a13-449a-a665-9485625972c8.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD02-062",
@@ -1515,7 +1577,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "bacf70ae-03e5-49ff-991d-777836c02995",
-    "image": "bacf70ae-03e5-49ff-991d-777836c02995.jpg"
+    "image": "bacf70ae-03e5-49ff-991d-777836c02995.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD02-063",
@@ -1537,7 +1600,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "dbbcfb49-f620-4845-9910-ac6c107cf7f7",
-    "image": "dbbcfb49-f620-4845-9910-ac6c107cf7f7.jpg"
+    "image": "dbbcfb49-f620-4845-9910-ac6c107cf7f7.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD02-064",
@@ -1559,7 +1623,8 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "0dfeb980-84bc-4891-983c-d6c6002529f7",
-    "image": "0dfeb980-84bc-4891-983c-d6c6002529f7.jpg"
+    "image": "0dfeb980-84bc-4891-983c-d6c6002529f7.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD02-065",
@@ -1581,6 +1646,7 @@
     "Set Name": "085 - Replicant: Aritstella vs Ki Lua (Replicant: Aristella)",
     "Set Code": "ABC",
     "id": "6dbc9a4b-bd82-4f64-ae5e-da02d9d0c7d8",
-    "image": "6dbc9a4b-bd82-4f64-ae5e-da02d9d0c7d8.jpg"
+    "image": "6dbc9a4b-bd82-4f64-ae5e-da02d9d0c7d8.jpg",
+    "Card Type": "Special Magic Stone"
   }
 ]

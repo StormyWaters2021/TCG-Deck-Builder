@@ -1,135 +1,138 @@
 [
   {
-    "Card Number": "TSW-001",
-    "name": "Aimul's Unicorn",
+    "Card Number": "TSW-001|TSW-001*",
+    "name": "Aimul's Unicorn // Aimul's Twisted Beast",
     "Type": "Resonator",
-    "Race": "Beast",
+    "Race": "Beast|Beast|Inverse",
     "Cost": "{W}{1}",
-    "Colour": "W",
-    "ATK": "600",
+    "Colour": "W|B",
+    "ATK": "600|800",
     "DEF": "600",
-    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card. (Flip it over.)",
+    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card. (Flip it over.)|[Precision]\nWhen this card inverts ⇒ Destroy target resonator with ATK less than this card's ATK.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "You can't tell what's lurking beneath its outward appearance",
+    "Flavour": "You can't tell what's lurking beneath its outward appearance|\"Ah, perhaps that was too rough of a greeting?\" -Aimul, Princess of Despair",
     "Artist": "hatarisu",
     "Rarity": "C",
-    "Fowid": "3177",
+    "Fowid": "3177|3178",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "8fbfbd71-9bd0-4848-8126-0cf5a08f53fc",
-    "image": "8fbfbd71-9bd0-4848-8126-0cf5a08f53fc.jpg"
+    "image": "8fbfbd71-9bd0-4848-8126-0cf5a08f53fc.jpg",
+    "Card Type": "Resonator",
+    "backimage": "21786184-3ead-428c-a140-d7300fd28bb2.jpg",
+    "alternate1_Card Number": "TSW-001*",
+    "alternate1_name": "Aimul's Twisted Beast",
+    "alternate1_Type": "Resonator",
+    "alternate1_Race": "Beast|Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "600",
+    "alternate1_Abilities": "[Precision]\nWhen this card inverts ⇒ Destroy target resonator with ATK less than this card's ATK.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Ah, perhaps that was too rough of a greeting?\" -Aimul, Princess of Despair",
+    "alternate1_Artist": "hatarisu",
+    "alternate1_Rarity": "C",
+    "alternate1_Fowid": "3178",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "21786184-3ead-428c-a140-d7300fd28bb2",
+    "alternate1_image": "21786184-3ead-428c-a140-d7300fd28bb2.jpg",
+    "alternate1_Card Type": "Resonator"
   },
   {
-    "Card Number": "TSW-001*",
-    "name": "Aimul's Twisted Beast",
+    "Card Number": "TSW-002|TSW-002*",
+    "name": "Angel of Hope // Angel of Despair",
     "Type": "Resonator",
-    "Race": "Beast|Inverse",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "800",
-    "DEF": "600",
-    "Abilities": "[Precision]\nWhen this card inverts ⇒ Destroy target resonator with ATK less than this card's ATK.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Ah, perhaps that was too rough of a greeting?\" -Aimul, Princess of Despair",
-    "Artist": "hatarisu",
-    "Rarity": "C",
-    "Fowid": "3178",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "21786184-3ead-428c-a140-d7300fd28bb2",
-    "image": "21786184-3ead-428c-a140-d7300fd28bb2.jpg"
-  },
-  {
-    "Card Number": "TSW-002",
-    "name": "Angel of Hope",
-    "Type": "Resonator",
-    "Race": "Angel",
+    "Race": "Angel|Angel|Inverse",
     "Cost": "{W}",
-    "Colour": "W",
-    "ATK": "200",
-    "DEF": "300",
-    "Abilities": "[Flying]\n[Drain]\nWhenever you do judgment of a ruler ⇒ Invert this card.\nWhenever you gain life ⇒ Put a [+100/+100] counter on this card.",
+    "Colour": "W|B",
+    "ATK": "200|400",
+    "DEF": "300|500",
+    "Abilities": "[Flying]\n[Drain]\nWhenever you do judgment of a ruler ⇒ Invert this card.\nWhenever you gain life ⇒ Put a [+100/+100] counter on this card.|[Flying]\nWhen this card inverts ⇒ Destroy target resonator if there is a [+100/+100] counter on this card.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "An angel carrying hope...",
+    "Flavour": "An angel carrying hope...|...invites despair in the end.",
     "Artist": "Mayo",
     "Rarity": "U",
-    "Fowid": "3179",
+    "Fowid": "3179|3180",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "a90e1b90-08b4-4cff-9f73-282f56b4716a",
-    "image": "a90e1b90-08b4-4cff-9f73-282f56b4716a.jpg"
+    "image": "a90e1b90-08b4-4cff-9f73-282f56b4716a.jpg",
+    "Card Type": "Resonator",
+    "backimage": "baa0913c-e5ec-41e1-a15a-3610729313df.jpg",
+    "alternate1_Card Number": "TSW-002*",
+    "alternate1_name": "Angel of Despair",
+    "alternate1_Type": "Resonator",
+    "alternate1_Race": "Angel|Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "400",
+    "alternate1_DEF": "500",
+    "alternate1_Abilities": "[Flying]\nWhen this card inverts ⇒ Destroy target resonator if there is a [+100/+100] counter on this card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "...invites despair in the end.",
+    "alternate1_Artist": "Mayo",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "3180",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "baa0913c-e5ec-41e1-a15a-3610729313df",
+    "alternate1_image": "baa0913c-e5ec-41e1-a15a-3610729313df.jpg",
+    "alternate1_Card Type": "Resonator"
   },
   {
-    "Card Number": "TSW-002*",
-    "name": "Angel of Despair",
+    "Card Number": "TSW-003|TSW-003*",
+    "name": "Dr. Jekyll // Ms. Hyde",
     "Type": "Resonator",
-    "Race": "Angel|Inverse",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "400",
-    "DEF": "500",
-    "Abilities": "[Flying]\nWhen this card inverts ⇒ Destroy target resonator if there is a [+100/+100] counter on this card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "...invites despair in the end.",
-    "Artist": "Mayo",
-    "Rarity": "U",
-    "Fowid": "3180",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "baa0913c-e5ec-41e1-a15a-3610729313df",
-    "image": "baa0913c-e5ec-41e1-a15a-3610729313df.jpg"
-  },
-  {
-    "Card Number": "TSW-003",
-    "name": "Dr. Jekyll",
-    "Type": "Resonator",
-    "Race": "Human",
+    "Race": "Human|Human|Inverse",
     "Cost": "{W}{2}",
-    "Colour": "W",
-    "ATK": "700",
-    "DEF": "800",
-    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card.\nYou may pay {W} less to do judgment.",
+    "Colour": "W|B",
+    "ATK": "700|800",
+    "DEF": "800|900",
+    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card.\nYou may pay {W} less to do judgment.|This card cannot be attacked.\nOther Inverse resonators you control gain [+400/+400].",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Anyone can change...",
+    "Flavour": "Anyone can change...|...good or evil.",
     "Artist": "Kamijo Roro",
     "Rarity": "R",
-    "Fowid": "3181",
+    "Fowid": "3181|3182",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "18b70f81-a3f5-497e-97b4-3d1c19e438a7",
-    "image": "18b70f81-a3f5-497e-97b4-3d1c19e438a7.jpg"
-  },
-  {
-    "Card Number": "TSW-003*",
-    "name": "Ms. Hyde",
-    "Type": "Resonator",
-    "Race": "Human|Inverse",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "800",
-    "DEF": "900",
-    "Abilities": "This card cannot be attacked.\nOther Inverse resonators you control gain [+400/+400].",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "...good or evil.",
-    "Artist": "Kamijo Roro",
-    "Rarity": "R",
-    "Fowid": "3182",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "b26cbe7b-bdf4-42cc-a9de-45cd888efc03",
-    "image": "b26cbe7b-bdf4-42cc-a9de-45cd888efc03.jpg"
+    "image": "18b70f81-a3f5-497e-97b4-3d1c19e438a7.jpg",
+    "Card Type": "Resonator",
+    "backimage": "b26cbe7b-bdf4-42cc-a9de-45cd888efc03.jpg",
+    "alternate1_Card Number": "TSW-003*",
+    "alternate1_name": "Ms. Hyde",
+    "alternate1_Type": "Resonator",
+    "alternate1_Race": "Human|Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "900",
+    "alternate1_Abilities": "This card cannot be attacked.\nOther Inverse resonators you control gain [+400/+400].",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "...good or evil.",
+    "alternate1_Artist": "Kamijo Roro",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3182",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "b26cbe7b-bdf4-42cc-a9de-45cd888efc03",
+    "alternate1_image": "b26cbe7b-bdf4-42cc-a9de-45cd888efc03.jpg",
+    "alternate1_Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-004",
@@ -151,51 +154,53 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "5dca8649-ad2d-4bd7-831a-c93fc33d99ed",
-    "image": "5dca8649-ad2d-4bd7-831a-c93fc33d99ed.jpg"
+    "image": "5dca8649-ad2d-4bd7-831a-c93fc33d99ed.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TSW-005",
-    "name": "False Peace",
+    "Card Number": "TSW-005|TSW-005*",
+    "name": "False Peace // Deadly Pox",
     "Type": "Chant",
-    "Race": "",
-    "Cost": "{W}",
-    "Colour": "W",
+    "Race": "Inverse",
+    "Cost": "{W}|{B}{1}",
+    "Colour": "W|B",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Quickcast]\nYou gain 400 life and draw a card. Then remove this card inverted from the game. (Remove this card from the game, flipped over.)",
+    "Abilities": "[Quickcast]\nYou gain 400 life and draw a card. Then remove this card inverted from the game. (Remove this card from the game, flipped over.)|(If this card moves to a non-chase zone, flip it over.)\nPlay this card only from your removed area.\nYour opponent loses 400 life and discards a card.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Come now, you can still fight, can't you?\" - Princess of Fleeting Hope",
+    "Flavour": "\"Come now, you can still fight, can't you?\" - Princess of Fleeting Hope|\"Fall into despair.\" - Aimul, Princess of Despair",
     "Artist": "Shirai Hidemi",
     "Rarity": "C",
-    "Fowid": "3184",
+    "Fowid": "3184|3185",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "c36e38aa-2e02-4ff5-bdc4-88638ceaa733",
-    "image": "c36e38aa-2e02-4ff5-bdc4-88638ceaa733.jpg"
-  },
-  {
-    "Card Number": "TSW-005*",
-    "name": "Deadly Pox",
-    "Type": "Chant",
-    "Race": "Inverse",
-    "Cost": "{B}{1}",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "(If this card moves to a non-chase zone, flip it over.)\nPlay this card only from your removed area.\nYour opponent loses 400 life and discards a card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Fall into despair.\" - Aimul, Princess of Despair",
-    "Artist": "Shirai Hidemi",
-    "Rarity": "C",
-    "Fowid": "3185",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "060578e0-6514-48cd-8f48-fdb33d49886e",
-    "image": "060578e0-6514-48cd-8f48-fdb33d49886e.jpg"
+    "image": "c36e38aa-2e02-4ff5-bdc4-88638ceaa733.jpg",
+    "Card Type": "Chant",
+    "backimage": "060578e0-6514-48cd-8f48-fdb33d49886e.jpg",
+    "alternate1_Card Number": "TSW-005*",
+    "alternate1_name": "Deadly Pox",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "Inverse",
+    "alternate1_Cost": "{B}{1}",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "(If this card moves to a non-chase zone, flip it over.)\nPlay this card only from your removed area.\nYour opponent loses 400 life and discards a card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Fall into despair.\" - Aimul, Princess of Despair",
+    "alternate1_Artist": "Shirai Hidemi",
+    "alternate1_Rarity": "C",
+    "alternate1_Fowid": "3185",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "060578e0-6514-48cd-8f48-fdb33d49886e",
+    "alternate1_image": "060578e0-6514-48cd-8f48-fdb33d49886e.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "TSW-006",
@@ -217,7 +222,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "2ba4c849-fcde-494f-83ba-bc176e234f1e",
-    "image": "2ba4c849-fcde-494f-83ba-bc176e234f1e.jpg"
+    "image": "2ba4c849-fcde-494f-83ba-bc176e234f1e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-007",
@@ -239,51 +245,53 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "293c5166-9482-47eb-8317-b45be4b3fcc4",
-    "image": "293c5166-9482-47eb-8317-b45be4b3fcc4.jpg"
+    "image": "293c5166-9482-47eb-8317-b45be4b3fcc4.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TSW-008",
-    "name": "Flourishing Hope",
+    "Card Number": "TSW-008|TSW-008*",
+    "name": "Flourishing Hope // Burgeoning Despair",
     "Type": "Chant",
-    "Race": "",
-    "Cost": "{W}",
-    "Colour": "W",
+    "Race": "Inverse",
+    "Cost": "{W}|{B}{2}",
+    "Colour": "W|B",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Quickcast]\nTarget J/resonator gains \"This card cannot be destroyed.\" until end of turn. Then remove this card inverted from the game.",
+    "Abilities": "[Quickcast]\nTarget J/resonator gains \"This card cannot be destroyed.\" until end of turn. Then remove this card inverted from the game.|(If this card moves to a non-chase zone, flip it over.)\n[Quickcast]\nPlay this card only from your removed area.\nTarget player banishes two resonators.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Remember, the will to be reborn.\" -Grimm, Hope from the Future",
+    "Flavour": "\"Remember, the will to be reborn.\" -Grimm, Hope from the Future|\"Ahh, so you finally remember me, Onii-sama? Then you should have no regrets. Die now, peacefully.\" -Aimul, Princess of Despair.",
     "Artist": "Haruichi Kido",
     "Rarity": "R",
-    "Fowid": "3188",
+    "Fowid": "3188|3189",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "fc41c916-fd26-4cce-87eb-5d203478ee16",
-    "image": "fc41c916-fd26-4cce-87eb-5d203478ee16.jpg"
-  },
-  {
-    "Card Number": "TSW-008*",
-    "name": "Burgeoning Despair",
-    "Type": "Chant",
-    "Race": "Inverse",
-    "Cost": "{B}{2}",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "(If this card moves to a non-chase zone, flip it over.)\n[Quickcast]\nPlay this card only from your removed area.\nTarget player banishes two resonators.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Ahh, so you finally remember me, Onii-sama? Then you should have no regrets. Die now, peacefully.\" -Aimul, Princess of Despair.",
-    "Artist": "Haruichi Kido",
-    "Rarity": "R",
-    "Fowid": "3189",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "08f1a6c3-7e8d-408d-8974-bc7c1564b1e6",
-    "image": "08f1a6c3-7e8d-408d-8974-bc7c1564b1e6.jpg"
+    "image": "fc41c916-fd26-4cce-87eb-5d203478ee16.jpg",
+    "Card Type": "Chant",
+    "backimage": "08f1a6c3-7e8d-408d-8974-bc7c1564b1e6.jpg",
+    "alternate1_Card Number": "TSW-008*",
+    "alternate1_name": "Burgeoning Despair",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "Inverse",
+    "alternate1_Cost": "{B}{2}",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "(If this card moves to a non-chase zone, flip it over.)\n[Quickcast]\nPlay this card only from your removed area.\nTarget player banishes two resonators.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Ahh, so you finally remember me, Onii-sama? Then you should have no regrets. Die now, peacefully.\" -Aimul, Princess of Despair.",
+    "alternate1_Artist": "Haruichi Kido",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3189",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "08f1a6c3-7e8d-408d-8974-bc7c1564b1e6",
+    "alternate1_image": "08f1a6c3-7e8d-408d-8974-bc7c1564b1e6.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "TSW-009",
@@ -305,7 +313,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "b2a42ea8-e217-4b67-b2b6-640dfcd45c70",
-    "image": "b2a42ea8-e217-4b67-b2b6-640dfcd45c70.jpg"
+    "image": "b2a42ea8-e217-4b67-b2b6-640dfcd45c70.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-010",
@@ -327,7 +336,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "16d1b2f1-d589-4b1b-b5d9-b780877a9fba",
-    "image": "16d1b2f1-d589-4b1b-b5d9-b780877a9fba.jpg"
+    "image": "16d1b2f1-d589-4b1b-b5d9-b780877a9fba.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-011",
@@ -349,7 +359,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "5e8513fb-83d6-431a-b1e0-4dfe0073d5d2",
-    "image": "5e8513fb-83d6-431a-b1e0-4dfe0073d5d2.jpg"
+    "image": "5e8513fb-83d6-431a-b1e0-4dfe0073d5d2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-012",
@@ -371,7 +382,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "3495889e-9b9a-4357-958c-b34535293ba1",
-    "image": "3495889e-9b9a-4357-958c-b34535293ba1.jpg"
+    "image": "3495889e-9b9a-4357-958c-b34535293ba1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-013",
@@ -393,139 +405,143 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "267a3ba1-2549-435a-8a18-dfec1baf52fc",
-    "image": "267a3ba1-2549-435a-8a18-dfec1baf52fc.jpg"
+    "image": "267a3ba1-2549-435a-8a18-dfec1baf52fc.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TSW-014",
-    "name": "Knight of Hope",
+    "Card Number": "TSW-014|TSW-014*",
+    "name": "Knight of Hope // Knight of Despair",
     "Type": "Resonator",
-    "Race": "Human",
+    "Race": "Human|Human|Inverse",
     "Cost": "{W}",
-    "Colour": "W",
-    "ATK": "400",
-    "DEF": "400",
+    "Colour": "W|B",
+    "ATK": "400|800",
+    "DEF": "400|800",
     "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card. (Flip it over.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Hope is a beautiful lie.",
+    "Flavour": "Hope is a beautiful lie.|Despair is an inconvenient truth.",
     "Artist": "Matsurika Yoko",
     "Rarity": "C",
-    "Fowid": "3195",
+    "Fowid": "3195|3196",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "c0f65ca2-47c8-4935-ba20-6a9833050e18",
-    "image": "c0f65ca2-47c8-4935-ba20-6a9833050e18.jpg"
+    "image": "c0f65ca2-47c8-4935-ba20-6a9833050e18.jpg",
+    "Card Type": "Resonator",
+    "backimage": "127ba6c2-7d95-45a5-9291-b19c05237537.jpg",
+    "alternate1_Card Number": "TSW-014*",
+    "alternate1_name": "Knight of Despair",
+    "alternate1_Type": "Resonator",
+    "alternate1_Race": "Human|Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Despair is an inconvenient truth.",
+    "alternate1_Artist": "Matsurika Yoko",
+    "alternate1_Rarity": "C",
+    "alternate1_Fowid": "3196",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "127ba6c2-7d95-45a5-9291-b19c05237537",
+    "alternate1_image": "127ba6c2-7d95-45a5-9291-b19c05237537.jpg",
+    "alternate1_Card Type": "Resonator"
   },
   {
-    "Card Number": "TSW-014*",
-    "name": "Knight of Despair",
-    "Type": "Resonator",
-    "Race": "Human|Inverse",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Despair is an inconvenient truth.",
-    "Artist": "Matsurika Yoko",
-    "Rarity": "C",
-    "Fowid": "3196",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "127ba6c2-7d95-45a5-9291-b19c05237537",
-    "image": "127ba6c2-7d95-45a5-9291-b19c05237537.jpg"
-  },
-  {
-    "Card Number": "TSW-015",
-    "name": "Light Castle, Palace of Hope",
+    "Card Number": "TSW-015|TSW-015*",
+    "name": "Light Castle, Palace of Hope // Dark Castle, Palace of Despair",
     "Type": "Addition",
-    "Race": "",
+    "Race": "Inverse",
     "Cost": "{W}{1}",
-    "Colour": "W",
+    "Colour": "W|B",
     "ATK": "",
     "DEF": "",
-    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card.\nWhen this card enters the field ⇒ Put two [+100/+100] counters on each resonator you control.",
+    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card.\nWhen this card enters the field ⇒ Put two [+100/+100] counters on each resonator you control.|When this card inverts ⇒ Put four [-100/-100] counters on each resonator your opponents controls.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Sasaru Palace crumbled and a shining new palace was erected.",
+    "Flavour": "Sasaru Palace crumbled and a shining new palace was erected.|All lights must eventually go out.",
     "Artist": "Shinichi Chiba",
     "Rarity": "U",
-    "Fowid": "3197",
+    "Fowid": "3197|3198",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "f4ce3505-22d2-479a-9592-12a99518b1c9",
-    "image": "f4ce3505-22d2-479a-9592-12a99518b1c9.jpg"
+    "image": "f4ce3505-22d2-479a-9592-12a99518b1c9.jpg",
+    "Card Type": "Addition",
+    "backimage": "26edea0d-7011-410c-b995-f85209f476ec.jpg",
+    "alternate1_Card Number": "TSW-015*",
+    "alternate1_name": "Dark Castle, Palace of Despair",
+    "alternate1_Type": "Addition",
+    "alternate1_Race": "Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "When this card inverts ⇒ Put four [-100/-100] counters on each resonator your opponents controls.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "All lights must eventually go out.",
+    "alternate1_Artist": "Shinichi Chiba",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "3198",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "26edea0d-7011-410c-b995-f85209f476ec",
+    "alternate1_image": "26edea0d-7011-410c-b995-f85209f476ec.jpg",
+    "alternate1_Card Type": "Addition"
   },
   {
-    "Card Number": "TSW-015*",
-    "name": "Dark Castle, Palace of Despair",
+    "Card Number": "TSW-016|TSW-016*",
+    "name": "Life Stealing Altar // Soul Returning Altar",
     "Type": "Addition",
     "Race": "Inverse",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "When this card inverts ⇒ Put four [-100/-100] counters on each resonator your opponents controls.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "All lights must eventually go out.",
-    "Artist": "Shinichi Chiba",
-    "Rarity": "U",
-    "Fowid": "3198",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "26edea0d-7011-410c-b995-f85209f476ec",
-    "image": "26edea0d-7011-410c-b995-f85209f476ec.jpg"
-  },
-  {
-    "Card Number": "TSW-016",
-    "name": "Life Stealing Altar",
-    "Type": "Addition",
-    "Race": "",
     "Cost": "{W}",
-    "Colour": "W",
+    "Colour": "W|B",
     "ATK": "",
     "DEF": "",
-    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card. (Flip it over.)\nWhenever a resonator you control is put into a graveyard from the field ⇒ You may pay {1}. If you do, draw a card.",
+    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card. (Flip it over.)\nWhenever a resonator you control is put into a graveyard from the field ⇒ You may pay {1}. If you do, draw a card.|When this card inverts ⇒ Put the top card of your magic stone deck into the field rested.\nBanish a resonator: Target resonator gains [-400/-400] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "The ritual begins with one's own despair...",
+    "Flavour": "The ritual begins with one's own despair...|...and ends with another's.",
     "Artist": "Tsukumi",
     "Rarity": "C",
-    "Fowid": "3199",
+    "Fowid": "3199|3200",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "0b8f9f54-796c-477c-b9e4-3e37199a2a72",
-    "image": "0b8f9f54-796c-477c-b9e4-3e37199a2a72.jpg"
-  },
-  {
-    "Card Number": "TSW-016*",
-    "name": "Soul Returning Altar",
-    "Type": "Addition",
-    "Race": "Inverse",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "When this card inverts ⇒ Put the top card of your magic stone deck into the field rested.\nBanish a resonator: Target resonator gains [-400/-400] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "...and ends with another's.",
-    "Artist": "Tsukumi",
-    "Rarity": "C",
-    "Fowid": "3200",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "3cd672c3-22bc-4342-adee-203a42775579",
-    "image": "3cd672c3-22bc-4342-adee-203a42775579.jpg"
+    "image": "0b8f9f54-796c-477c-b9e4-3e37199a2a72.jpg",
+    "Card Type": "Addition",
+    "backimage": "3cd672c3-22bc-4342-adee-203a42775579.jpg",
+    "alternate1_Card Number": "TSW-016*",
+    "alternate1_name": "Soul Returning Altar",
+    "alternate1_Type": "Addition",
+    "alternate1_Race": "Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "When this card inverts ⇒ Put the top card of your magic stone deck into the field rested.\nBanish a resonator: Target resonator gains [-400/-400] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "...and ends with another's.",
+    "alternate1_Artist": "Tsukumi",
+    "alternate1_Rarity": "C",
+    "alternate1_Fowid": "3200",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "3cd672c3-22bc-4342-adee-203a42775579",
+    "alternate1_image": "3cd672c3-22bc-4342-adee-203a42775579.jpg",
+    "alternate1_Card Type": "Addition"
   },
   {
     "Card Number": "TSW-017",
@@ -547,51 +563,53 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "9416afca-4f2b-4e90-8d60-1693f0494997",
-    "image": "9416afca-4f2b-4e90-8d60-1693f0494997.jpg"
+    "image": "9416afca-4f2b-4e90-8d60-1693f0494997.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TSW-018",
-    "name": "Mephistopheles",
+    "Card Number": "TSW-018|TSW-018*",
+    "name": "Mephistopheles // Mephistopheles [Inverse]",
     "Type": "Resonator",
-    "Race": "Demon",
+    "Race": "Demon|Demon|Inverse",
     "Cost": "{W}{W}{1}",
-    "Colour": "W",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card.\nJ/resonators your opponent controls enter the field rested.",
+    "Colour": "W|B",
+    "ATK": "800|1000",
+    "DEF": "800|1000",
+    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card.\nJ/resonators your opponent controls enter the field rested.|[Flying]\nJ/resonators your opponent controls gain [-200/-200].\nResonators entering the field under your opponent's control don't cause their own abilities to trigger.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Stay.\" -Princess of Fleeting Hope",
+    "Flavour": "\"Stay.\" -Princess of Fleeting Hope|\"Come Mephistopheles. Devour everything.\" -Aimul, Princess of Despair",
     "Artist": "MATSUMOTO EIGHT",
     "Rarity": "SR",
-    "Fowid": "3202",
+    "Fowid": "3202|3203",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "afaf906d-d90e-4ec2-9adc-a6ddae7fbb75",
-    "image": "afaf906d-d90e-4ec2-9adc-a6ddae7fbb75.jpg"
-  },
-  {
-    "Card Number": "TSW-018*",
-    "name": "Mephistopheles [Inverse]",
-    "Type": "Resonator",
-    "Race": "Demon|Inverse",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Flying]\nJ/resonators your opponent controls gain [-200/-200].\nResonators entering the field under your opponent's control don't cause their own abilities to trigger.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Come Mephistopheles. Devour everything.\" -Aimul, Princess of Despair",
-    "Artist": "MATSUMOTO EIGHT",
-    "Rarity": "SR",
-    "Fowid": "3203",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "1570576e-1602-49f1-a05c-95a714d62042",
-    "image": "1570576e-1602-49f1-a05c-95a714d62042.jpg"
+    "image": "afaf906d-d90e-4ec2-9adc-a6ddae7fbb75.jpg",
+    "Card Type": "Resonator",
+    "backimage": "1570576e-1602-49f1-a05c-95a714d62042.jpg",
+    "alternate1_Card Number": "TSW-018*",
+    "alternate1_name": "Mephistopheles [Inverse]",
+    "alternate1_Type": "Resonator",
+    "alternate1_Race": "Demon|Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\nJ/resonators your opponent controls gain [-200/-200].\nResonators entering the field under your opponent's control don't cause their own abilities to trigger.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Come Mephistopheles. Devour everything.\" -Aimul, Princess of Despair",
+    "alternate1_Artist": "MATSUMOTO EIGHT",
+    "alternate1_Rarity": "SR",
+    "alternate1_Fowid": "3203",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "1570576e-1602-49f1-a05c-95a714d62042",
+    "alternate1_image": "1570576e-1602-49f1-a05c-95a714d62042.jpg",
+    "alternate1_Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-019",
@@ -613,51 +631,53 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "26c22a64-48dc-4482-8c78-4a6ed7111b73",
-    "image": "26c22a64-48dc-4482-8c78-4a6ed7111b73.jpg"
+    "image": "26c22a64-48dc-4482-8c78-4a6ed7111b73.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TSW-020",
-    "name": "Panda Medium",
+    "Card Number": "TSW-020|TSW-020*",
+    "name": "Panda Medium // Possessed Panda",
     "Type": "Resonator",
-    "Race": "Panda",
+    "Race": "Panda|Panda|Inverse",
     "Cost": "{W}{W}{1}",
-    "Colour": "W",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card.\n{Rest}: Remove target card in your graveyard from the game.",
+    "Colour": "W|B",
+    "ATK": "800|1000",
+    "DEF": "800|1000",
+    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card.\n{Rest}: Remove target card in your graveyard from the game.|{Rest}: Put target card from a removed area that was removed by this card into its owner's hand.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Hm? You'd like to show me something?\" -Princess of Fleeting Hope",
+    "Flavour": "\"Hm? You'd like to show me something?\" -Princess of Fleeting Hope|\"Thank you. Keep the change.\" -Aimul, Princess of Despair",
     "Artist": "Retro",
     "Rarity": "U",
-    "Fowid": "3205",
+    "Fowid": "3205|3206",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "5e620537-bb03-4f5c-99a2-f9ac2d8644db",
-    "image": "5e620537-bb03-4f5c-99a2-f9ac2d8644db.jpg"
-  },
-  {
-    "Card Number": "TSW-020*",
-    "name": "Possessed Panda",
-    "Type": "Resonator",
-    "Race": "Panda|Inverse",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "{Rest}: Put target card from a removed area that was removed by this card into its owner's hand.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Thank you. Keep the change.\" -Aimul, Princess of Despair",
-    "Artist": "Retro",
-    "Rarity": "U",
-    "Fowid": "3206",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "3d64ee96-5b7d-408f-a3f3-ce7c7e1cc0b0",
-    "image": "3d64ee96-5b7d-408f-a3f3-ce7c7e1cc0b0.jpg"
+    "image": "5e620537-bb03-4f5c-99a2-f9ac2d8644db.jpg",
+    "Card Type": "Resonator",
+    "backimage": "3d64ee96-5b7d-408f-a3f3-ce7c7e1cc0b0.jpg",
+    "alternate1_Card Number": "TSW-020*",
+    "alternate1_name": "Possessed Panda",
+    "alternate1_Type": "Resonator",
+    "alternate1_Race": "Panda|Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "{Rest}: Put target card from a removed area that was removed by this card into its owner's hand.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Thank you. Keep the change.\" -Aimul, Princess of Despair",
+    "alternate1_Artist": "Retro",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "3206",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "3d64ee96-5b7d-408f-a3f3-ce7c7e1cc0b0",
+    "alternate1_image": "3d64ee96-5b7d-408f-a3f3-ce7c7e1cc0b0.jpg",
+    "alternate1_Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-021",
@@ -679,51 +699,53 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "e3ff5bb3-c0d7-46d5-b403-2ec276dc7239",
-    "image": "e3ff5bb3-c0d7-46d5-b403-2ec276dc7239.jpg"
+    "image": "e3ff5bb3-c0d7-46d5-b403-2ec276dc7239.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TSW-022",
-    "name": "Princess of Fleeting Hope",
-    "Type": "Ruler",
+    "Card Number": "TSW-022|TSW-022J",
+    "name": "Princess of Fleeting Hope // Aimul, Princess of Despair",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human",
     "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {W}{W}\n[Energize] {W}{B}\n{0}: Recover target resonator. Play this ability only during your opponent's turn and only once per turn.",
+    "Colour": "W|B",
+    "ATK": "300",
+    "DEF": "300",
+    "Abilities": "[Judgment] {W}{W}\n[Energize] {W}{B}\n{0}: Recover target resonator. Play this ability only during your opponent's turn and only once per turn.|[Flying]\n[Imperishable]\n[Drain] (Whenever this card deals damage ⇒ You gain that much life.)\nWhen this card enters the field ⇒ Look at the top three cards of your deck. You may put a non-chant card with total cost 3 or less from among them into the field. You may invert that card. Put the rest on the bottom of your deck in any order.\nThis card gains [+200/+200] for each Inverse entity you control.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Onii-sama. That pitiful form... Don't worry, I shall release you.\"",
+    "Flavour": "\"Onii-sama. That pitiful form... Don't worry, I shall release you.\"|A false peace, a deadly sickness.",
     "Artist": "kurisu",
     "Rarity": "R",
-    "Fowid": "3208",
+    "Fowid": "3208|3209",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "a14b9863-e54b-4b8c-bacf-93ecb7e97f1b",
-    "image": "a14b9863-e54b-4b8c-bacf-93ecb7e97f1b.jpg"
-  },
-  {
-    "Card Number": "TSW-022J",
-    "name": "Aimul, Princess of Despair",
-    "Type": "J-Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "300",
-    "DEF": "300",
-    "Abilities": "[Flying]\n[Imperishable]\n[Drain] (Whenever this card deals damage ⇒ You gain that much life.)\nWhen this card enters the field ⇒ Look at the top three cards of your deck. You may put a non-chant card with total cost 3 or less from among them into the field. You may invert that card. Put the rest on the bottom of your deck in any order.\nThis card gains [+200/+200] for each Inverse entity you control.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "A false peace, a deadly sickness.",
-    "Artist": "kurisu",
-    "Rarity": "R",
-    "Fowid": "3209",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "ab6fa90b-1335-48da-97d1-a86611d6e02c",
-    "image": "ab6fa90b-1335-48da-97d1-a86611d6e02c.jpg"
+    "image": "a14b9863-e54b-4b8c-bacf-93ecb7e97f1b.jpg",
+    "Card Type": "Ruler",
+    "backimage": "ab6fa90b-1335-48da-97d1-a86611d6e02c.jpg",
+    "alternate1_Card Number": "TSW-022J",
+    "alternate1_name": "Aimul, Princess of Despair",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "300",
+    "alternate1_DEF": "300",
+    "alternate1_Abilities": "[Flying]\n[Imperishable]\n[Drain] (Whenever this card deals damage ⇒ You gain that much life.)\nWhen this card enters the field ⇒ Look at the top three cards of your deck. You may put a non-chant card with total cost 3 or less from among them into the field. You may invert that card. Put the rest on the bottom of your deck in any order.\nThis card gains [+200/+200] for each Inverse entity you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "A false peace, a deadly sickness.",
+    "alternate1_Artist": "kurisu",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3209",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "ab6fa90b-1335-48da-97d1-a86611d6e02c",
+    "alternate1_image": "ab6fa90b-1335-48da-97d1-a86611d6e02c.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSW-023",
@@ -745,51 +767,53 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "5637c6e7-d875-4554-86ac-2785025ee785",
-    "image": "5637c6e7-d875-4554-86ac-2785025ee785.jpg"
+    "image": "5637c6e7-d875-4554-86ac-2785025ee785.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TSW-024",
-    "name": "Sacred Knight of Atonement",
+    "Card Number": "TSW-024|TSW-024*",
+    "name": "Sacred Knight of Atonement // Dark Knight of Conviction",
     "Type": "Resonator",
-    "Race": "Human",
+    "Race": "Human|Human|Inverse",
     "Cost": "{W}{W}{2}",
-    "Colour": "W",
-    "ATK": "900",
-    "DEF": "900",
-    "Abilities": "[Quickcast]\nWhenever you do judgment of a ruler ⇒ Invert this card. (Flip it over.)\nWhen this card enters the field ⇒ Prevent all damage that would be dealt to this card until end of turn.",
+    "Colour": "W|B",
+    "ATK": "900|1000",
+    "DEF": "900|1000",
+    "Abilities": "[Quickcast]\nWhenever you do judgment of a ruler ⇒ Invert this card. (Flip it over.)\nWhen this card enters the field ⇒ Prevent all damage that would be dealt to this card until end of turn.|[Precision]\nWhenever this card attacks ⇒ Target J/resonator gains [-200/-200] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Standing on the battle field to atone...",
+    "Flavour": "Standing on the battle field to atone...|...this knight convicts the innocent.",
     "Artist": "Azusa",
     "Rarity": "C",
-    "Fowid": "3211",
+    "Fowid": "3211|3212",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "8b614b22-731c-4565-8323-0a114b4f66ae",
-    "image": "8b614b22-731c-4565-8323-0a114b4f66ae.jpg"
-  },
-  {
-    "Card Number": "TSW-024*",
-    "name": "Dark Knight of Conviction",
-    "Type": "Resonator",
-    "Race": "Human|Inverse",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Precision]\nWhenever this card attacks ⇒ Target J/resonator gains [-200/-200] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "...this knight convicts the innocent.",
-    "Artist": "Azusa",
-    "Rarity": "C",
-    "Fowid": "3212",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "38b56a67-73d8-49ed-b0fa-b1d35d491165",
-    "image": "38b56a67-73d8-49ed-b0fa-b1d35d491165.jpg"
+    "image": "8b614b22-731c-4565-8323-0a114b4f66ae.jpg",
+    "Card Type": "Resonator",
+    "backimage": "38b56a67-73d8-49ed-b0fa-b1d35d491165.jpg",
+    "alternate1_Card Number": "TSW-024*",
+    "alternate1_name": "Dark Knight of Conviction",
+    "alternate1_Type": "Resonator",
+    "alternate1_Race": "Human|Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Precision]\nWhenever this card attacks ⇒ Target J/resonator gains [-200/-200] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "...this knight convicts the innocent.",
+    "alternate1_Artist": "Azusa",
+    "alternate1_Rarity": "C",
+    "alternate1_Fowid": "3212",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "38b56a67-73d8-49ed-b0fa-b1d35d491165",
+    "alternate1_image": "38b56a67-73d8-49ed-b0fa-b1d35d491165.jpg",
+    "alternate1_Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-025",
@@ -811,7 +835,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "f97adaae-911d-4c56-958e-cc4dcaebf44b",
-    "image": "f97adaae-911d-4c56-958e-cc4dcaebf44b.jpg"
+    "image": "f97adaae-911d-4c56-958e-cc4dcaebf44b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-026",
@@ -833,7 +858,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "4f0efbe2-3c55-4450-b714-7947ace229a8",
-    "image": "4f0efbe2-3c55-4450-b714-7947ace229a8.jpg"
+    "image": "4f0efbe2-3c55-4450-b714-7947ace229a8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-027",
@@ -855,7 +881,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "452081b4-2e05-4b31-b4e1-fb4fb1b575dc",
-    "image": "452081b4-2e05-4b31-b4e1-fb4fb1b575dc.jpg"
+    "image": "452081b4-2e05-4b31-b4e1-fb4fb1b575dc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-028",
@@ -877,7 +904,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "6dc83588-651c-4795-ae74-70467e7e2536",
-    "image": "6dc83588-651c-4795-ae74-70467e7e2536.jpg"
+    "image": "6dc83588-651c-4795-ae74-70467e7e2536.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-029",
@@ -899,7 +927,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "9fc53df0-6103-46bc-a1d4-19d41c09c681",
-    "image": "9fc53df0-6103-46bc-a1d4-19d41c09c681.jpg"
+    "image": "9fc53df0-6103-46bc-a1d4-19d41c09c681.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-030",
@@ -921,7 +950,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "9a954c8d-e86a-4e63-b94f-e9fa5c21f0f8",
-    "image": "9a954c8d-e86a-4e63-b94f-e9fa5c21f0f8.jpg"
+    "image": "9a954c8d-e86a-4e63-b94f-e9fa5c21f0f8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-031",
@@ -943,7 +973,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "6968ee6c-1b3a-4b5f-a995-6ec502b849b0",
-    "image": "6968ee6c-1b3a-4b5f-a995-6ec502b849b0.jpg"
+    "image": "6968ee6c-1b3a-4b5f-a995-6ec502b849b0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-032",
@@ -965,7 +996,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "1b2e4ea7-a603-4f8a-985d-a654e7021528",
-    "image": "1b2e4ea7-a603-4f8a-985d-a654e7021528.jpg"
+    "image": "1b2e4ea7-a603-4f8a-985d-a654e7021528.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-033",
@@ -987,7 +1019,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "19252449-3cf1-463e-8132-9d3f8cf02d09",
-    "image": "19252449-3cf1-463e-8132-9d3f8cf02d09.jpg"
+    "image": "19252449-3cf1-463e-8132-9d3f8cf02d09.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-034",
@@ -1009,7 +1042,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "48da854d-9753-41ef-8717-466c78294ea7",
-    "image": "48da854d-9753-41ef-8717-466c78294ea7.jpg"
+    "image": "48da854d-9753-41ef-8717-466c78294ea7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-035",
@@ -1031,7 +1065,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "5fbc2b6f-7b82-435c-afe4-b2d7e8907a79",
-    "image": "5fbc2b6f-7b82-435c-afe4-b2d7e8907a79.jpg"
+    "image": "5fbc2b6f-7b82-435c-afe4-b2d7e8907a79.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-036",
@@ -1053,7 +1088,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "b5a98a99-e8b1-4500-b2d4-d5eeb5856b83",
-    "image": "b5a98a99-e8b1-4500-b2d4-d5eeb5856b83.jpg"
+    "image": "b5a98a99-e8b1-4500-b2d4-d5eeb5856b83.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-037",
@@ -1075,7 +1111,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "7e941fb0-9fa4-4542-8ee1-c863c76e6b46",
-    "image": "7e941fb0-9fa4-4542-8ee1-c863c76e6b46.jpg"
+    "image": "7e941fb0-9fa4-4542-8ee1-c863c76e6b46.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-038",
@@ -1097,7 +1134,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "8961b81d-40c6-48cf-8e77-0a91795b3ba6",
-    "image": "8961b81d-40c6-48cf-8e77-0a91795b3ba6.jpg"
+    "image": "8961b81d-40c6-48cf-8e77-0a91795b3ba6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-039",
@@ -1119,7 +1157,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "dc09e5f1-e036-4bb2-8e43-9100bfa51faa",
-    "image": "dc09e5f1-e036-4bb2-8e43-9100bfa51faa.jpg"
+    "image": "dc09e5f1-e036-4bb2-8e43-9100bfa51faa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-040",
@@ -1141,7 +1180,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "5e8626d9-a85c-4132-8789-3fd83976affe",
-    "image": "5e8626d9-a85c-4132-8789-3fd83976affe.jpg"
+    "image": "5e8626d9-a85c-4132-8789-3fd83976affe.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-041",
@@ -1163,7 +1203,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "bef7d020-ca52-4535-909d-6f42d0aacbdd",
-    "image": "bef7d020-ca52-4535-909d-6f42d0aacbdd.jpg"
+    "image": "bef7d020-ca52-4535-909d-6f42d0aacbdd.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSW-042",
@@ -1185,7 +1226,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "902900db-377b-40c2-b8dd-6d1196bb9a31",
-    "image": "902900db-377b-40c2-b8dd-6d1196bb9a31.jpg"
+    "image": "902900db-377b-40c2-b8dd-6d1196bb9a31.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-043",
@@ -1207,7 +1249,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "a4408282-9589-456d-8f27-f1edd8568a1e",
-    "image": "a4408282-9589-456d-8f27-f1edd8568a1e.jpg"
+    "image": "a4408282-9589-456d-8f27-f1edd8568a1e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-044",
@@ -1229,51 +1272,53 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "a6fe4fab-c0a6-4da9-9f03-91d0004ac77f",
-    "image": "a6fe4fab-c0a6-4da9-9f03-91d0004ac77f.jpg"
+    "image": "a6fe4fab-c0a6-4da9-9f03-91d0004ac77f.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "TSW-045",
-    "name": "Kirik Rerik",
-    "Type": "Ruler",
-    "Race": "Dragonoid",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {R}{R}{1}\n[Energize] {R}\nAt the beginning of the game ⇒ Put ten strength counters on this card.\n{Rest}: Put X strength counters on this card where X is ten minus the number of strength counters on this card.\nSealed Item [[Blood of the Dragon God]] Remove two strength counters from this card: Look at the top five cards of your deck. You may reveal a Battle Arts from among them and put it into your hand. Put the rest on the bottom of your deck in any order. Play this ability only during your turn and only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "With Shooting Star's defeat, Kirik gained newfound power from the creature's blood.",
-    "Artist": "SIGMAN",
-    "Rarity": "R",
-    "Fowid": "3233",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "514904b7-81c1-49d6-9f22-89f5f8e36a48",
-    "image": "514904b7-81c1-49d6-9f22-89f5f8e36a48.jpg"
-  },
-  {
-    "Card Number": "TSW-045J",
-    "name": "Kirik Rerik, the Draconic Warrior",
-    "Type": "J-Ruler",
+    "Card Number": "TSW-045|TSW-045J",
+    "name": "Kirik Rerik // Kirik Rerik, the Draconic Warrior",
+    "Type": "Ruler|J-Ruler",
     "Race": "Dragonoid",
     "Cost": "",
     "Colour": "R",
     "ATK": "1200",
     "DEF": "1000",
-    "Abilities": "[Precision]\nWhen this card enters the field ⇒ Put X strength counters on it, where X is fifteen minus the number of strength counters on this card.\nRemove five strength counters from this card: This card deals 500 damage to target J/resonator.\nSealed Item [[Blood of the Dragon God]] God's Art \"Dragon King's Descent\" {R}, remove seven strength counters from this card: Look at the top seven cards of your deck. You may put a Dragon resonator from among them into the field. Put the rest in your graveyard. This card gains [+1000/+1000] until end of turn.",
+    "Abilities": "[Judgment] {R}{R}{1}\n[Energize] {R}\nAt the beginning of the game ⇒ Put ten strength counters on this card.\n{Rest}: Put X strength counters on this card where X is ten minus the number of strength counters on this card.\nSealed Item [[Blood of the Dragon God]] Remove two strength counters from this card: Look at the top five cards of your deck. You may reveal a Battle Arts from among them and put it into your hand. Put the rest on the bottom of your deck in any order. Play this ability only during your turn and only once per turn.|[Precision]\nWhen this card enters the field ⇒ Put X strength counters on it, where X is fifteen minus the number of strength counters on this card.\nRemove five strength counters from this card: This card deals 500 damage to target J/resonator.\nSealed Item [[Blood of the Dragon God]] God's Art \"Dragon King's Descent\" {R}, remove seven strength counters from this card: Look at the top seven cards of your deck. You may put a Dragon resonator from among them into the field. Put the rest in your graveyard. This card gains [+1000/+1000] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Dragon god! Grant me power!\"",
+    "Flavour": "With Shooting Star's defeat, Kirik gained newfound power from the creature's blood.|\"Dragon god! Grant me power!\"",
     "Artist": "SIGMAN",
     "Rarity": "R",
-    "Fowid": "3234",
+    "Fowid": "3233|3234",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
-    "id": "e6b06bf7-7cef-4249-bc3f-e015d52fb83b",
-    "image": "e6b06bf7-7cef-4249-bc3f-e015d52fb83b.jpg"
+    "id": "514904b7-81c1-49d6-9f22-89f5f8e36a48",
+    "image": "514904b7-81c1-49d6-9f22-89f5f8e36a48.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e6b06bf7-7cef-4249-bc3f-e015d52fb83b.jpg",
+    "alternate1_Card Number": "TSW-045J",
+    "alternate1_name": "Kirik Rerik, the Draconic Warrior",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragonoid",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Precision]\nWhen this card enters the field ⇒ Put X strength counters on it, where X is fifteen minus the number of strength counters on this card.\nRemove five strength counters from this card: This card deals 500 damage to target J/resonator.\nSealed Item [[Blood of the Dragon God]] God's Art \"Dragon King's Descent\" {R}, remove seven strength counters from this card: Look at the top seven cards of your deck. You may put a Dragon resonator from among them into the field. Put the rest in your graveyard. This card gains [+1000/+1000] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Dragon god! Grant me power!\"",
+    "alternate1_Artist": "SIGMAN",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3234",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "e6b06bf7-7cef-4249-bc3f-e015d52fb83b",
+    "alternate1_image": "e6b06bf7-7cef-4249-bc3f-e015d52fb83b.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSW-046",
@@ -1295,7 +1340,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "8e88e082-4a39-4adc-81ee-cea2cc1c187b",
-    "image": "8e88e082-4a39-4adc-81ee-cea2cc1c187b.jpg"
+    "image": "8e88e082-4a39-4adc-81ee-cea2cc1c187b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-047",
@@ -1317,7 +1363,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "3c5fb0c7-10ff-405d-8a25-256069b11c3c",
-    "image": "3c5fb0c7-10ff-405d-8a25-256069b11c3c.jpg"
+    "image": "3c5fb0c7-10ff-405d-8a25-256069b11c3c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-048",
@@ -1339,7 +1386,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "dbe26451-6b44-43c0-a36b-25311acc700f",
-    "image": "dbe26451-6b44-43c0-a36b-25311acc700f.jpg"
+    "image": "dbe26451-6b44-43c0-a36b-25311acc700f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-049",
@@ -1361,7 +1409,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "37ce0271-4ac1-42d6-b392-48a17891a487",
-    "image": "37ce0271-4ac1-42d6-b392-48a17891a487.jpg"
+    "image": "37ce0271-4ac1-42d6-b392-48a17891a487.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-050",
@@ -1383,7 +1432,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "ec4f0443-e343-4e46-970d-4bbcc3794085",
-    "image": "ec4f0443-e343-4e46-970d-4bbcc3794085.jpg"
+    "image": "ec4f0443-e343-4e46-970d-4bbcc3794085.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-051",
@@ -1405,7 +1455,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "f773abd4-57b6-4eec-9068-28beeb9f05a6",
-    "image": "f773abd4-57b6-4eec-9068-28beeb9f05a6.jpg"
+    "image": "f773abd4-57b6-4eec-9068-28beeb9f05a6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-052",
@@ -1427,7 +1478,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "0ac682b7-7e42-4943-a536-fe7985464280",
-    "image": "0ac682b7-7e42-4943-a536-fe7985464280.jpg"
+    "image": "0ac682b7-7e42-4943-a536-fe7985464280.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-053",
@@ -1449,7 +1501,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "a222564a-7b14-40ca-a319-8d4bf45ad53d",
-    "image": "a222564a-7b14-40ca-a319-8d4bf45ad53d.jpg"
+    "image": "a222564a-7b14-40ca-a319-8d4bf45ad53d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-054",
@@ -1471,7 +1524,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "0d4050d2-d950-4d88-a5c4-0aba043483aa",
-    "image": "0d4050d2-d950-4d88-a5c4-0aba043483aa.jpg"
+    "image": "0d4050d2-d950-4d88-a5c4-0aba043483aa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-055",
@@ -1493,7 +1547,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "3b1a44b7-a794-419e-8fde-ddd24d841ffb",
-    "image": "3b1a44b7-a794-419e-8fde-ddd24d841ffb.jpg"
+    "image": "3b1a44b7-a794-419e-8fde-ddd24d841ffb.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-056",
@@ -1515,7 +1570,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "eeed41a8-0356-4a29-a7bf-f694d258e539",
-    "image": "eeed41a8-0356-4a29-a7bf-f694d258e539.jpg"
+    "image": "eeed41a8-0356-4a29-a7bf-f694d258e539.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-057",
@@ -1537,7 +1593,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "25ad4dbb-17ac-47a4-b5fd-43859236658a",
-    "image": "25ad4dbb-17ac-47a4-b5fd-43859236658a.jpg"
+    "image": "25ad4dbb-17ac-47a4-b5fd-43859236658a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-058",
@@ -1559,7 +1616,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "b50c92e2-ba84-4e1f-a0e3-318a2d004a2b",
-    "image": "b50c92e2-ba84-4e1f-a0e3-318a2d004a2b.jpg"
+    "image": "b50c92e2-ba84-4e1f-a0e3-318a2d004a2b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-059",
@@ -1581,7 +1639,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "5481cb61-b18e-4d95-ba30-cbde2c1689cb",
-    "image": "5481cb61-b18e-4d95-ba30-cbde2c1689cb.jpg"
+    "image": "5481cb61-b18e-4d95-ba30-cbde2c1689cb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-060",
@@ -1603,7 +1662,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "641a8bac-ed75-4f5e-868c-54de9d14f7e0",
-    "image": "641a8bac-ed75-4f5e-868c-54de9d14f7e0.jpg"
+    "image": "641a8bac-ed75-4f5e-868c-54de9d14f7e0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-061",
@@ -1625,7 +1685,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "f4d35c2c-2810-4c3b-bab0-e17ff8aa2aa1",
-    "image": "f4d35c2c-2810-4c3b-bab0-e17ff8aa2aa1.jpg"
+    "image": "f4d35c2c-2810-4c3b-bab0-e17ff8aa2aa1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-062",
@@ -1647,7 +1708,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "d85260e4-4373-4b5d-b468-8f593776e492",
-    "image": "d85260e4-4373-4b5d-b468-8f593776e492.jpg"
+    "image": "d85260e4-4373-4b5d-b468-8f593776e492.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-063",
@@ -1669,7 +1731,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "3f5bcdcf-0083-4f88-b900-f6a3323c8d5c",
-    "image": "3f5bcdcf-0083-4f88-b900-f6a3323c8d5c.jpg"
+    "image": "3f5bcdcf-0083-4f88-b900-f6a3323c8d5c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-064",
@@ -1691,7 +1754,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "34c818b1-d502-446e-927e-c4989100748c",
-    "image": "34c818b1-d502-446e-927e-c4989100748c.jpg"
+    "image": "34c818b1-d502-446e-927e-c4989100748c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSW-065",
@@ -1713,7 +1777,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "7953b58c-ede5-4d2a-b349-ac3ae505c7e7",
-    "image": "7953b58c-ede5-4d2a-b349-ac3ae505c7e7.jpg"
+    "image": "7953b58c-ede5-4d2a-b349-ac3ae505c7e7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-066",
@@ -1735,7 +1800,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "c53b8a40-fbe2-4388-b287-f39fd90ec6bf",
-    "image": "c53b8a40-fbe2-4388-b287-f39fd90ec6bf.jpg"
+    "image": "c53b8a40-fbe2-4388-b287-f39fd90ec6bf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-067",
@@ -1757,7 +1823,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "9a063a26-234b-448c-99f8-94c9ae033e28",
-    "image": "9a063a26-234b-448c-99f8-94c9ae033e28.jpg"
+    "image": "9a063a26-234b-448c-99f8-94c9ae033e28.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-068",
@@ -1779,7 +1846,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "97986631-3d75-44e0-a450-70ae15345b7f",
-    "image": "97986631-3d75-44e0-a450-70ae15345b7f.jpg"
+    "image": "97986631-3d75-44e0-a450-70ae15345b7f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-069",
@@ -1801,7 +1869,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "afabd00f-d125-4cf7-b4b3-be23e7b4b500",
-    "image": "afabd00f-d125-4cf7-b4b3-be23e7b4b500.jpg"
+    "image": "afabd00f-d125-4cf7-b4b3-be23e7b4b500.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-070",
@@ -1823,7 +1892,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "eb2160c8-8ba8-4491-aba6-da7f6fda0f51",
-    "image": "eb2160c8-8ba8-4491-aba6-da7f6fda0f51.jpg"
+    "image": "eb2160c8-8ba8-4491-aba6-da7f6fda0f51.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-071",
@@ -1845,7 +1915,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "2c27b9e7-f713-4a64-9861-c7991cf413c1",
-    "image": "2c27b9e7-f713-4a64-9861-c7991cf413c1.jpg"
+    "image": "2c27b9e7-f713-4a64-9861-c7991cf413c1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-072",
@@ -1867,7 +1938,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "522631b2-3835-4c9b-a56b-8266e024fe79",
-    "image": "522631b2-3835-4c9b-a56b-8266e024fe79.jpg"
+    "image": "522631b2-3835-4c9b-a56b-8266e024fe79.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-073",
@@ -1889,7 +1961,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "36675105-af89-41d8-8192-5542579ce768",
-    "image": "36675105-af89-41d8-8192-5542579ce768.jpg"
+    "image": "36675105-af89-41d8-8192-5542579ce768.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-074",
@@ -1911,7 +1984,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "83cdbd98-0a2e-40da-8caf-28e1b99dfb7b",
-    "image": "83cdbd98-0a2e-40da-8caf-28e1b99dfb7b.jpg"
+    "image": "83cdbd98-0a2e-40da-8caf-28e1b99dfb7b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-075",
@@ -1933,51 +2007,53 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "48dc3a56-faa5-4592-b496-451e8eff46fe",
-    "image": "48dc3a56-faa5-4592-b496-451e8eff46fe.jpg"
+    "image": "48dc3a56-faa5-4592-b496-451e8eff46fe.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TSW-076",
-    "name": "Shaela",
-    "Type": "Ruler",
-    "Race": "Mermaid",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {U}{U}{1}\n[Energize] {U}\nThe weather is rain during your turn.\n{Rest}: Search your deck for a card named \"Weather Change: Rain\", reveal it and put it into your hand. Then shuffle your deck.\nSealed Item [[Thunder Parasol]] {0}: Choose one. Play this ability only during your turn and only once per turn - Put an electricity counter on this card; or remove an electricity counter from this card. If you do, the weather is thunderstorm until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Shaela returned from the Lightning Cave with a mind to call her new power the Thunder Parasol.",
-    "Artist": "SIE NANAHARA",
-    "Rarity": "R",
-    "Fowid": "3265",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "b0459ca3-bec7-483a-aea7-86ee38f058cf",
-    "image": "b0459ca3-bec7-483a-aea7-86ee38f058cf.jpg"
-  },
-  {
-    "Card Number": "TSW-076J",
-    "name": "Shaela, the Mermaid Princess",
-    "Type": "J-Ruler",
+    "Card Number": "TSW-076|TSW-076J",
+    "name": "Shaela // Shaela, the Mermaid Princess",
+    "Type": "Ruler|J-Ruler",
     "Race": "Mermaid",
     "Cost": "",
     "Colour": "U",
     "ATK": "1000",
     "DEF": "1200",
-    "Abilities": "The weather is rain.\nWhen this card enters the field ⇒ Draw a card.\nSealed Item [[Thunder Parasol]] {0}: The weather is thunderstorm until end of turn.\nSealed Item [[Thunder Parasol]] God's Art \"Indignation\" {U}, remove two electricty counters from this card: Destroy target J/resonator. Rest all resonators your opponent controls.",
+    "Abilities": "[Judgment] {U}{U}{1}\n[Energize] {U}\nThe weather is rain during your turn.\n{Rest}: Search your deck for a card named \"Weather Change: Rain\", reveal it and put it into your hand. Then shuffle your deck.\nSealed Item [[Thunder Parasol]] {0}: Choose one. Play this ability only during your turn and only once per turn - Put an electricity counter on this card; or remove an electricity counter from this card. If you do, the weather is thunderstorm until end of turn.|The weather is rain.\nWhen this card enters the field ⇒ Draw a card.\nSealed Item [[Thunder Parasol]] {0}: The weather is thunderstorm until end of turn.\nSealed Item [[Thunder Parasol]] God's Art \"Indignation\" {U}, remove two electricty counters from this card: Destroy target J/resonator. Rest all resonators your opponent controls.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"This is where the shocks begin.\"",
+    "Flavour": "Shaela returned from the Lightning Cave with a mind to call her new power the Thunder Parasol.|\"This is where the shocks begin.\"",
     "Artist": "SIE NANAHARA",
     "Rarity": "R",
-    "Fowid": "3266",
+    "Fowid": "3265|3266",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
-    "id": "f86616ec-2a96-4534-8f19-f020aa0f7a2e",
-    "image": "f86616ec-2a96-4534-8f19-f020aa0f7a2e.jpg"
+    "id": "b0459ca3-bec7-483a-aea7-86ee38f058cf",
+    "image": "b0459ca3-bec7-483a-aea7-86ee38f058cf.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f86616ec-2a96-4534-8f19-f020aa0f7a2e.jpg",
+    "alternate1_Card Number": "TSW-076J",
+    "alternate1_name": "Shaela, the Mermaid Princess",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Mermaid",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "The weather is rain.\nWhen this card enters the field ⇒ Draw a card.\nSealed Item [[Thunder Parasol]] {0}: The weather is thunderstorm until end of turn.\nSealed Item [[Thunder Parasol]] God's Art \"Indignation\" {U}, remove two electricty counters from this card: Destroy target J/resonator. Rest all resonators your opponent controls.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"This is where the shocks begin.\"",
+    "alternate1_Artist": "SIE NANAHARA",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3266",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "f86616ec-2a96-4534-8f19-f020aa0f7a2e",
+    "alternate1_image": "f86616ec-2a96-4534-8f19-f020aa0f7a2e.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSW-077",
@@ -1999,7 +2075,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "1079df10-ad72-4577-9504-07198a3fc47d",
-    "image": "1079df10-ad72-4577-9504-07198a3fc47d.jpg"
+    "image": "1079df10-ad72-4577-9504-07198a3fc47d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-078",
@@ -2021,7 +2098,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "7608fb7c-4a87-4dd1-b121-462e6176d294",
-    "image": "7608fb7c-4a87-4dd1-b121-462e6176d294.jpg"
+    "image": "7608fb7c-4a87-4dd1-b121-462e6176d294.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-079",
@@ -2043,7 +2121,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "801fc2da-f089-4daf-86f3-253fd1a8930c",
-    "image": "801fc2da-f089-4daf-86f3-253fd1a8930c.jpg"
+    "image": "801fc2da-f089-4daf-86f3-253fd1a8930c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-080",
@@ -2065,7 +2144,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "bd8ffa53-b0e7-4b7a-bc38-97e34076bdbc",
-    "image": "bd8ffa53-b0e7-4b7a-bc38-97e34076bdbc.jpg"
+    "image": "bd8ffa53-b0e7-4b7a-bc38-97e34076bdbc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-081",
@@ -2087,7 +2167,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "0e0729b9-3142-4218-bf26-c9af8256f15f",
-    "image": "0e0729b9-3142-4218-bf26-c9af8256f15f.jpg"
+    "image": "0e0729b9-3142-4218-bf26-c9af8256f15f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-082",
@@ -2109,7 +2190,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "34f7edbf-7006-45cd-b603-6f889f50486d",
-    "image": "34f7edbf-7006-45cd-b603-6f889f50486d.jpg"
+    "image": "34f7edbf-7006-45cd-b603-6f889f50486d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-083",
@@ -2131,7 +2213,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "1244f0de-5566-48c8-be30-600b65d950cb",
-    "image": "1244f0de-5566-48c8-be30-600b65d950cb.jpg"
+    "image": "1244f0de-5566-48c8-be30-600b65d950cb.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-084",
@@ -2153,7 +2236,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "c09d9235-d710-48c3-ac7e-f67206895d4f",
-    "image": "c09d9235-d710-48c3-ac7e-f67206895d4f.jpg"
+    "image": "c09d9235-d710-48c3-ac7e-f67206895d4f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-085",
@@ -2175,7 +2259,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "c80d448a-221c-4dc0-8ae0-6a9b02dae949",
-    "image": "c80d448a-221c-4dc0-8ae0-6a9b02dae949.jpg"
+    "image": "c80d448a-221c-4dc0-8ae0-6a9b02dae949.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-086",
@@ -2197,7 +2282,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "dceee27d-9d59-419c-ac93-ba972c4c3ced",
-    "image": "dceee27d-9d59-419c-ac93-ba972c4c3ced.jpg"
+    "image": "dceee27d-9d59-419c-ac93-ba972c4c3ced.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-087",
@@ -2219,7 +2305,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "df9b652d-5526-4ba5-b98b-a9b9424aa6a7",
-    "image": "df9b652d-5526-4ba5-b98b-a9b9424aa6a7.jpg"
+    "image": "df9b652d-5526-4ba5-b98b-a9b9424aa6a7.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-088",
@@ -2241,7 +2328,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "2529a94e-cd02-4928-a9e6-d8f30969150b",
-    "image": "2529a94e-cd02-4928-a9e6-d8f30969150b.jpg"
+    "image": "2529a94e-cd02-4928-a9e6-d8f30969150b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-089",
@@ -2263,7 +2351,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "21fc75cc-653e-4bdc-a7f7-9734c8d54c78",
-    "image": "21fc75cc-653e-4bdc-a7f7-9734c8d54c78.jpg"
+    "image": "21fc75cc-653e-4bdc-a7f7-9734c8d54c78.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-090",
@@ -2285,7 +2374,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "807a3852-4d33-48d2-b8bc-9b7e88d6b916",
-    "image": "807a3852-4d33-48d2-b8bc-9b7e88d6b916.jpg"
+    "image": "807a3852-4d33-48d2-b8bc-9b7e88d6b916.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-091",
@@ -2307,7 +2397,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "d89e77c4-3cfb-4608-a22b-cd533aed71a3",
-    "image": "d89e77c4-3cfb-4608-a22b-cd533aed71a3.jpg"
+    "image": "d89e77c4-3cfb-4608-a22b-cd533aed71a3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-092",
@@ -2329,7 +2420,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "e3a74bcd-209b-4942-bffc-7bb5454e295b",
-    "image": "e3a74bcd-209b-4942-bffc-7bb5454e295b.jpg"
+    "image": "e3a74bcd-209b-4942-bffc-7bb5454e295b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-093",
@@ -2351,7 +2443,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "c739b8fc-6f70-44a2-9a35-1e16aea48acd",
-    "image": "c739b8fc-6f70-44a2-9a35-1e16aea48acd.jpg"
+    "image": "c739b8fc-6f70-44a2-9a35-1e16aea48acd.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-094",
@@ -2373,7 +2466,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "37c78b6a-c5f3-45fa-879a-cc8d92b10123",
-    "image": "37c78b6a-c5f3-45fa-879a-cc8d92b10123.jpg"
+    "image": "37c78b6a-c5f3-45fa-879a-cc8d92b10123.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-095",
@@ -2395,7 +2489,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "2e0b75e9-b9c3-4de4-8160-abc9f89265a5",
-    "image": "2e0b75e9-b9c3-4de4-8160-abc9f89265a5.jpg"
+    "image": "2e0b75e9-b9c3-4de4-8160-abc9f89265a5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-096",
@@ -2417,7 +2512,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "386f2ddf-c0b8-4e25-875b-20409a61a714",
-    "image": "386f2ddf-c0b8-4e25-875b-20409a61a714.jpg"
+    "image": "386f2ddf-c0b8-4e25-875b-20409a61a714.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-097",
@@ -2439,7 +2535,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "31b8dc5e-f575-4d3c-af67-a15e55500890",
-    "image": "31b8dc5e-f575-4d3c-af67-a15e55500890.jpg"
+    "image": "31b8dc5e-f575-4d3c-af67-a15e55500890.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-098",
@@ -2461,7 +2558,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "6587ea12-0ae8-4e91-9aa7-86ff0fd15642",
-    "image": "6587ea12-0ae8-4e91-9aa7-86ff0fd15642.jpg"
+    "image": "6587ea12-0ae8-4e91-9aa7-86ff0fd15642.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-099",
@@ -2483,7 +2581,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "d0d134bb-3449-4bfb-b09c-fa879914b0af",
-    "image": "d0d134bb-3449-4bfb-b09c-fa879914b0af.jpg"
+    "image": "d0d134bb-3449-4bfb-b09c-fa879914b0af.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-100",
@@ -2505,7 +2604,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "8f172530-89f9-4fcd-bd28-be2ae34833e5",
-    "image": "8f172530-89f9-4fcd-bd28-be2ae34833e5.jpg"
+    "image": "8f172530-89f9-4fcd-bd28-be2ae34833e5.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSW-101",
@@ -2527,7 +2627,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "9597c603-1411-4908-b847-3ec4b0606ede",
-    "image": "9597c603-1411-4908-b847-3ec4b0606ede.jpg"
+    "image": "9597c603-1411-4908-b847-3ec4b0606ede.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-102",
@@ -2549,7 +2650,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "949703c9-7d3c-4d84-80d3-2c8a9d251a21",
-    "image": "949703c9-7d3c-4d84-80d3-2c8a9d251a21.jpg"
+    "image": "949703c9-7d3c-4d84-80d3-2c8a9d251a21.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-103",
@@ -2571,7 +2673,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "d91fa8df-9e1e-4589-92e0-3044b4c9fc40",
-    "image": "d91fa8df-9e1e-4589-92e0-3044b4c9fc40.jpg"
+    "image": "d91fa8df-9e1e-4589-92e0-3044b4c9fc40.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-104",
@@ -2593,7 +2696,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "6d8c4172-876f-4a3b-9604-2c0c499b7592",
-    "image": "6d8c4172-876f-4a3b-9604-2c0c499b7592.jpg"
+    "image": "6d8c4172-876f-4a3b-9604-2c0c499b7592.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-105",
@@ -2615,7 +2719,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "4b2087b9-70e2-4632-a9b8-24d2cd9b0d15",
-    "image": "4b2087b9-70e2-4632-a9b8-24d2cd9b0d15.jpg"
+    "image": "4b2087b9-70e2-4632-a9b8-24d2cd9b0d15.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-106",
@@ -2637,7 +2742,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "90d38fb9-6e86-4541-9e39-0e8ddfd49737",
-    "image": "90d38fb9-6e86-4541-9e39-0e8ddfd49737.jpg"
+    "image": "90d38fb9-6e86-4541-9e39-0e8ddfd49737.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-107",
@@ -2659,7 +2765,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "e9c478bb-15f7-4529-8725-71bf887e203b",
-    "image": "e9c478bb-15f7-4529-8725-71bf887e203b.jpg"
+    "image": "e9c478bb-15f7-4529-8725-71bf887e203b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-108",
@@ -2681,51 +2788,53 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "ac41b127-7ddf-44e6-be3c-57975b41d14f",
-    "image": "ac41b127-7ddf-44e6-be3c-57975b41d14f.jpg"
+    "image": "ac41b127-7ddf-44e6-be3c-57975b41d14f.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TSW-109",
-    "name": "Speaker of Eternal Night",
-    "Type": "Ruler",
+    "Card Number": "TSW-109|TSW-109J",
+    "name": "Speaker of Eternal Night // Scheherazade of the Catastrophic Nights",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human",
     "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {G}{G}{1}\n[Energize] {G}{B}\n[Grimoire] (5) (Begin the game with an extra deck of up to five Story chants. You may not have more than one copy of any card in your extra deck.)\nDolls in your hand gain [Quickcast].\n{0}: Reveal a face-down card from your extra deck and keep it revealed until end of game. You may copy that card. If you do, you may play the copy. (You have to pay its cost.) Play this ability only once per turn.",
+    "Colour": "G|B",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Judgment] {G}{G}{1}\n[Energize] {G}{B}\n[Grimoire] (5) (Begin the game with an extra deck of up to five Story chants. You may not have more than one copy of any card in your extra deck.)\nDolls in your hand gain [Quickcast].\n{0}: Reveal a face-down card from your extra deck and keep it revealed until end of game. You may copy that card. If you do, you may play the copy. (You have to pay its cost.) Play this ability only once per turn.|[Flying]\nDolls in your hand gain [Quickcast].\nWhen this card enters the field ⇒ Put target Doll from your graveyard into the field.\n[Legend] (3) - When this card enters the field ⇒ Put target non-magic stone, non-J-Ruler entity your opponent controls on top of its owner's deck.\n[Legend] (5) - When this card enters the field ⇒ Search your deck for a Doll and put it into the field. Then shuffle your deck.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "A story with no end, means a night that lasts forever.",
+    "Flavour": "A story with no end, means a night that lasts forever.|\"Dance, my puppets. Dance towards demise.\"",
     "Artist": "noki",
     "Rarity": "R",
-    "Fowid": "3299",
+    "Fowid": "3299|3300",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "e692c579-11d9-4a12-9aa0-2b0a5916211a",
-    "image": "e692c579-11d9-4a12-9aa0-2b0a5916211a.jpg"
-  },
-  {
-    "Card Number": "TSW-109J",
-    "name": "Scheherazade of the Catastrophic Nights",
-    "Type": "J-Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Flying]\nDolls in your hand gain [Quickcast].\nWhen this card enters the field ⇒ Put target Doll from your graveyard into the field.\n[Legend] (3) - When this card enters the field ⇒ Put target non-magic stone, non-J-Ruler entity your opponent controls on top of its owner's deck.\n[Legend] (5) - When this card enters the field ⇒ Search your deck for a Doll and put it into the field. Then shuffle your deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Dance, my puppets. Dance towards demise.\"",
-    "Artist": "noki",
-    "Rarity": "R",
-    "Fowid": "3300",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "b43f779b-388c-4a14-8f98-0b92f007dc78",
-    "image": "b43f779b-388c-4a14-8f98-0b92f007dc78.jpg"
+    "image": "e692c579-11d9-4a12-9aa0-2b0a5916211a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "b43f779b-388c-4a14-8f98-0b92f007dc78.jpg",
+    "alternate1_Card Number": "TSW-109J",
+    "alternate1_name": "Scheherazade of the Catastrophic Nights",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\nDolls in your hand gain [Quickcast].\nWhen this card enters the field ⇒ Put target Doll from your graveyard into the field.\n[Legend] (3) - When this card enters the field ⇒ Put target non-magic stone, non-J-Ruler entity your opponent controls on top of its owner's deck.\n[Legend] (5) - When this card enters the field ⇒ Search your deck for a Doll and put it into the field. Then shuffle your deck.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Dance, my puppets. Dance towards demise.\"",
+    "alternate1_Artist": "noki",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3300",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "b43f779b-388c-4a14-8f98-0b92f007dc78",
+    "alternate1_image": "b43f779b-388c-4a14-8f98-0b92f007dc78.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSW-110",
@@ -2747,7 +2856,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "75ee9c19-7a55-4353-871c-043bac208ce5",
-    "image": "75ee9c19-7a55-4353-871c-043bac208ce5.jpg"
+    "image": "75ee9c19-7a55-4353-871c-043bac208ce5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-111",
@@ -2769,7 +2879,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "bacfd153-c26c-4ffa-b309-cc34f4f0e80f",
-    "image": "bacfd153-c26c-4ffa-b309-cc34f4f0e80f.jpg"
+    "image": "bacfd153-c26c-4ffa-b309-cc34f4f0e80f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-112",
@@ -2791,7 +2902,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "7c107edb-c689-482d-8885-35acb051c7bf",
-    "image": "7c107edb-c689-482d-8885-35acb051c7bf.jpg"
+    "image": "7c107edb-c689-482d-8885-35acb051c7bf.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TSW-113",
@@ -2813,7 +2925,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "c3313880-e618-49f3-a41d-0d9ae9c46295",
-    "image": "c3313880-e618-49f3-a41d-0d9ae9c46295.jpg"
+    "image": "c3313880-e618-49f3-a41d-0d9ae9c46295.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-114",
@@ -2835,7 +2948,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "9bc7e540-a6bc-4a41-b32d-b8a794df743f",
-    "image": "9bc7e540-a6bc-4a41-b32d-b8a794df743f.jpg"
+    "image": "9bc7e540-a6bc-4a41-b32d-b8a794df743f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-115",
@@ -2857,7 +2971,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "06cf3281-1b86-4b4f-969f-7ae2c0155129",
-    "image": "06cf3281-1b86-4b4f-969f-7ae2c0155129.jpg"
+    "image": "06cf3281-1b86-4b4f-969f-7ae2c0155129.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-116",
@@ -2879,7 +2994,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "09ea4778-faa5-4c82-b11a-afefca01f5d3",
-    "image": "09ea4778-faa5-4c82-b11a-afefca01f5d3.jpg"
+    "image": "09ea4778-faa5-4c82-b11a-afefca01f5d3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-117",
@@ -2901,7 +3017,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "16a92fc0-eeef-4908-af4e-be81a4f0eb8e",
-    "image": "16a92fc0-eeef-4908-af4e-be81a4f0eb8e.jpg"
+    "image": "16a92fc0-eeef-4908-af4e-be81a4f0eb8e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-118",
@@ -2923,7 +3040,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "01a7d843-e3ae-48af-87d6-784990f5b1ea",
-    "image": "01a7d843-e3ae-48af-87d6-784990f5b1ea.jpg"
+    "image": "01a7d843-e3ae-48af-87d6-784990f5b1ea.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-119",
@@ -2945,7 +3063,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "88d06aa1-0353-4402-a34c-04d1a7e38f8b",
-    "image": "88d06aa1-0353-4402-a34c-04d1a7e38f8b.jpg"
+    "image": "88d06aa1-0353-4402-a34c-04d1a7e38f8b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-120",
@@ -2967,7 +3086,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "9b648410-77a9-48d0-8c5f-d01d0052c956",
-    "image": "9b648410-77a9-48d0-8c5f-d01d0052c956.jpg"
+    "image": "9b648410-77a9-48d0-8c5f-d01d0052c956.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-121",
@@ -2989,7 +3109,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "b70a54e1-45a3-4a51-a537-477f08ad2c79",
-    "image": "b70a54e1-45a3-4a51-a537-477f08ad2c79.jpg"
+    "image": "b70a54e1-45a3-4a51-a537-477f08ad2c79.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-122",
@@ -3011,7 +3132,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "5032c56e-5292-44d4-880c-c217f95eca8e",
-    "image": "5032c56e-5292-44d4-880c-c217f95eca8e.jpg"
+    "image": "5032c56e-5292-44d4-880c-c217f95eca8e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-123",
@@ -3033,7 +3155,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "babfebdb-d001-4462-a2b4-6bfa0d67f474",
-    "image": "babfebdb-d001-4462-a2b4-6bfa0d67f474.jpg"
+    "image": "babfebdb-d001-4462-a2b4-6bfa0d67f474.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-124",
@@ -3055,51 +3178,53 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "44442234-cc75-453a-89f2-1aaa756b7504",
-    "image": "44442234-cc75-453a-89f2-1aaa756b7504.jpg"
+    "image": "44442234-cc75-453a-89f2-1aaa756b7504.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TSW-125",
-    "name": "Dark Riding Hood, Messenger of Truth",
+    "Card Number": "TSW-125|TSW-125*",
+    "name": "Dark Riding Hood, Messenger of Truth // Red Riding Hood, Recovered Hope",
     "Type": "Resonator",
-    "Race": "Fairy Tale",
+    "Race": "Fairy Tale|Fairy Tale|Inverse",
     "Cost": "{B}{1}",
-    "Colour": "B",
-    "ATK": "600",
-    "DEF": "600",
-    "Abilities": "Remove a mystery counter from your J/ruler: Invert this card.",
+    "Colour": "B|G",
+    "ATK": "600|800",
+    "DEF": "600|800",
+    "Abilities": "Remove a mystery counter from your J/ruler: Invert this card.|[Barrier] {R}{B}.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I've been wanting to meet you.\"",
+    "Flavour": "\"I've been wanting to meet you.\"|\"I will show you how to heal. I will show you this hope we call the future.\"",
     "Artist": "Matsurika Yoko",
     "Rarity": "R",
-    "Fowid": "3316",
+    "Fowid": "3316|3317",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "b4b8d3b7-a306-4a09-b0f7-8e20d06c927d",
-    "image": "b4b8d3b7-a306-4a09-b0f7-8e20d06c927d.jpg"
-  },
-  {
-    "Card Number": "TSW-125*",
-    "name": "Red Riding Hood, Recovered Hope",
-    "Type": "Resonator",
-    "Race": "Fairy Tale|Inverse",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "[Barrier] {R}{B}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"I will show you how to heal. I will show you this hope we call the future.\"",
-    "Artist": "Matsurika Yoko",
-    "Rarity": "R",
-    "Fowid": "3317",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "a54ef674-ef19-4acd-a0f5-b6b390f8df6a",
-    "image": "a54ef674-ef19-4acd-a0f5-b6b390f8df6a.jpg"
+    "image": "b4b8d3b7-a306-4a09-b0f7-8e20d06c927d.jpg",
+    "Card Type": "Resonator",
+    "backimage": "a54ef674-ef19-4acd-a0f5-b6b390f8df6a.jpg",
+    "alternate1_Card Number": "TSW-125*",
+    "alternate1_name": "Red Riding Hood, Recovered Hope",
+    "alternate1_Type": "Resonator",
+    "alternate1_Race": "Fairy Tale|Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Barrier] {R}{B}.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I will show you how to heal. I will show you this hope we call the future.\"",
+    "alternate1_Artist": "Matsurika Yoko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3317",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "a54ef674-ef19-4acd-a0f5-b6b390f8df6a",
+    "alternate1_image": "a54ef674-ef19-4acd-a0f5-b6b390f8df6a.jpg",
+    "alternate1_Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-126",
@@ -3121,7 +3246,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "c54fceed-53b0-4a29-bf34-a7542e99b26c",
-    "image": "c54fceed-53b0-4a29-bf34-a7542e99b26c.jpg"
+    "image": "c54fceed-53b0-4a29-bf34-a7542e99b26c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-127",
@@ -3143,7 +3269,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "ae92f152-cbea-4d2b-8d8f-17a967a086a1",
-    "image": "ae92f152-cbea-4d2b-8d8f-17a967a086a1.jpg"
+    "image": "ae92f152-cbea-4d2b-8d8f-17a967a086a1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-128",
@@ -3165,7 +3292,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "1aa80b87-77b1-4a27-863a-bc90bb804908",
-    "image": "1aa80b87-77b1-4a27-863a-bc90bb804908.jpg"
+    "image": "1aa80b87-77b1-4a27-863a-bc90bb804908.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-129",
@@ -3187,51 +3315,53 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "ce05bf62-a2cc-46ac-9150-0f7bb2b03de0",
-    "image": "ce05bf62-a2cc-46ac-9150-0f7bb2b03de0.jpg"
+    "image": "ce05bf62-a2cc-46ac-9150-0f7bb2b03de0.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TSW-130",
-    "name": "Grimm of the Crimson Moon",
+    "Card Number": "TSW-130|TSW-130*",
+    "name": "Grimm of the Crimson Moon // Grimm, Hope from the Future",
     "Type": "Resonator",
-    "Race": "Fairy Tale|Vampire",
+    "Race": "Fairy Tale|Vampire|Fairy Tale|Human|Inverse",
     "Cost": "{B}{2}",
-    "Colour": "B",
-    "ATK": "700",
-    "DEF": "700",
-    "Abilities": "[Flying] [Barrier] {W}{B}\nWhen this card enters the field ⇒ Reveal any number of Fairy Tale resonators from your hand. Put a [+100/+100] counter on this card for each card revealed this way.\nWhenever this card attacks ⇒ Put two mystery counters on your J/ruler.\nWhenever you do judgment of a ruler ⇒ You may remove two mystery counters from your J/ruler. If you do, invert this card.",
+    "Colour": "B|W",
+    "ATK": "700|1000",
+    "DEF": "700|1000",
+    "Abilities": "[Flying] [Barrier] {W}{B}\nWhen this card enters the field ⇒ Reveal any number of Fairy Tale resonators from your hand. Put a [+100/+100] counter on this card for each card revealed this way.\nWhenever this card attacks ⇒ Put two mystery counters on your J/ruler.\nWhenever you do judgment of a ruler ⇒ You may remove two mystery counters from your J/ruler. If you do, invert this card.|[Flying] [Barrier] {W}{B}\nWhen this card inverts ⇒ Target non-magic stone entity loses [Imperishable] and \"This card cannot be destroyed.\" until end of turn. Then destroy that entity.\nCards in your opponent's graveyard lose all abilities.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Eternity repeats, and a crimson moon shone in the night sky once more.",
+    "Flavour": "Eternity repeats, and a crimson moon shone in the night sky once more.|A light that was once stained in darkness. But the will of hope never fades.",
     "Artist": "Haruichi Kido",
     "Rarity": "SR",
-    "Fowid": "3322",
+    "Fowid": "3322|3323",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "95e7a817-4711-4059-8039-ac6646ffcda6",
-    "image": "95e7a817-4711-4059-8039-ac6646ffcda6.jpg"
-  },
-  {
-    "Card Number": "TSW-130*",
-    "name": "Grimm, Hope from the Future",
-    "Type": "Resonator",
-    "Race": "Fairy Tale|Human|Inverse",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Flying] [Barrier] {W}{B}\nWhen this card inverts ⇒ Target non-magic stone entity loses [Imperishable] and \"This card cannot be destroyed.\" until end of turn. Then destroy that entity.\nCards in your opponent's graveyard lose all abilities.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "A light that was once stained in darkness. But the will of hope never fades.",
-    "Artist": "Haruichi Kido",
-    "Rarity": "SR",
-    "Fowid": "3323",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "b0e5ca1e-33a3-4f8f-be27-792cc4eeef45",
-    "image": "b0e5ca1e-33a3-4f8f-be27-792cc4eeef45.jpg"
+    "image": "95e7a817-4711-4059-8039-ac6646ffcda6.jpg",
+    "Card Type": "Resonator",
+    "backimage": "b0e5ca1e-33a3-4f8f-be27-792cc4eeef45.jpg",
+    "alternate1_Card Number": "TSW-130*",
+    "alternate1_name": "Grimm, Hope from the Future",
+    "alternate1_Type": "Resonator",
+    "alternate1_Race": "Fairy Tale|Human|Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying] [Barrier] {W}{B}\nWhen this card inverts ⇒ Target non-magic stone entity loses [Imperishable] and \"This card cannot be destroyed.\" until end of turn. Then destroy that entity.\nCards in your opponent's graveyard lose all abilities.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "A light that was once stained in darkness. But the will of hope never fades.",
+    "alternate1_Artist": "Haruichi Kido",
+    "alternate1_Rarity": "SR",
+    "alternate1_Fowid": "3323",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "b0e5ca1e-33a3-4f8f-be27-792cc4eeef45",
+    "alternate1_image": "b0e5ca1e-33a3-4f8f-be27-792cc4eeef45.jpg",
+    "alternate1_Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-131",
@@ -3253,7 +3383,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "cd4a7c26-d5ef-49f1-812e-2b61aec1836e",
-    "image": "cd4a7c26-d5ef-49f1-812e-2b61aec1836e.jpg"
+    "image": "cd4a7c26-d5ef-49f1-812e-2b61aec1836e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-132",
@@ -3275,7 +3406,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "23372a67-db2d-4673-9bd6-d24038faf799",
-    "image": "23372a67-db2d-4673-9bd6-d24038faf799.jpg"
+    "image": "23372a67-db2d-4673-9bd6-d24038faf799.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-133",
@@ -3297,7 +3429,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "b33ff4e4-fc0f-4723-a2a0-3c270c7ab86e",
-    "image": "b33ff4e4-fc0f-4723-a2a0-3c270c7ab86e.jpg"
+    "image": "b33ff4e4-fc0f-4723-a2a0-3c270c7ab86e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-134",
@@ -3319,7 +3452,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "2bb3bca1-b94a-4aa6-a49f-da03502f58ee",
-    "image": "2bb3bca1-b94a-4aa6-a49f-da03502f58ee.jpg"
+    "image": "2bb3bca1-b94a-4aa6-a49f-da03502f58ee.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-135",
@@ -3341,7 +3475,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "2ca8d513-4722-48b6-b59c-75c592e0197e",
-    "image": "2ca8d513-4722-48b6-b59c-75c592e0197e.jpg"
+    "image": "2ca8d513-4722-48b6-b59c-75c592e0197e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-136",
@@ -3363,7 +3498,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "ce42bd08-8d56-4c25-8c8e-1fc46044c5e9",
-    "image": "ce42bd08-8d56-4c25-8c8e-1fc46044c5e9.jpg"
+    "image": "ce42bd08-8d56-4c25-8c8e-1fc46044c5e9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-137",
@@ -3385,7 +3521,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "213c0de6-2733-4a8a-a366-1ff727c3f2e7",
-    "image": "213c0de6-2733-4a8a-a366-1ff727c3f2e7.jpg"
+    "image": "213c0de6-2733-4a8a-a366-1ff727c3f2e7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-138",
@@ -3407,7 +3544,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "40dda32d-340b-4326-b4f1-3a73c2dafd99",
-    "image": "40dda32d-340b-4326-b4f1-3a73c2dafd99.jpg"
+    "image": "40dda32d-340b-4326-b4f1-3a73c2dafd99.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-139",
@@ -3429,7 +3567,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "0932c168-05b3-4a5a-8b0c-97ed6d012641",
-    "image": "0932c168-05b3-4a5a-8b0c-97ed6d012641.jpg"
+    "image": "0932c168-05b3-4a5a-8b0c-97ed6d012641.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-140",
@@ -3451,7 +3590,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "6bb41457-270d-43ca-9956-3d67039a9a80",
-    "image": "6bb41457-270d-43ca-9956-3d67039a9a80.jpg"
+    "image": "6bb41457-270d-43ca-9956-3d67039a9a80.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-141",
@@ -3473,51 +3613,53 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "33429016-f122-44b1-af19-afa1cc6e0d45",
-    "image": "33429016-f122-44b1-af19-afa1cc6e0d45.jpg"
+    "image": "33429016-f122-44b1-af19-afa1cc6e0d45.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TSW-142",
-    "name": "The Dusk Girl",
-    "Type": "Ruler",
-    "Race": "Fairy Tale",
-    "Cost": "",
-    "Colour": "R|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {B}. Play this ability only if you have no cards in your hand.\n[Energize] {R}{B}\n{R}, discard a card: This card deals 500 damage to target resonator. This card deals 700 damage instead if you discarded a Dinosaur.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The stands on the border of truth and lie.",
-    "Artist": "yuko",
-    "Rarity": "R",
-    "Fowid": "3335",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "61ee1f16-1cb3-48da-b065-7d9837f706ac",
-    "image": "61ee1f16-1cb3-48da-b065-7d9837f706ac.jpg"
-  },
-  {
-    "Card Number": "TSW-142J",
-    "name": "Scarlet, the Crimson Beast",
-    "Type": "J-Ruler",
-    "Race": "Cthulhu",
+    "Card Number": "TSW-142|TSW-142J",
+    "name": "The Dusk Girl // Scarlet, the Crimson Beast",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Fairy Tale|Cthulhu",
     "Cost": "",
     "Colour": "R|B",
     "ATK": "1000",
     "DEF": "200",
-    "Abilities": "[Swiftness]\n[Imperishable]\n[Precision]\n[First Strike]\nDamage cannot be prevented.\nWhenever a J/resonator that was dealt damage by this card this turn is destroyed ⇒ Recover this card. This ability triggers only once per turn.\n{R}: This card gains [+200/0] until end of turn.",
+    "Abilities": "[Judgment] {B}. Play this ability only if you have no cards in your hand.\n[Energize] {R}{B}\n{R}, discard a card: This card deals 500 damage to target resonator. This card deals 700 damage instead if you discarded a Dinosaur.|[Swiftness]\n[Imperishable]\n[Precision]\n[First Strike]\nDamage cannot be prevented.\nWhenever a J/resonator that was dealt damage by this card this turn is destroyed ⇒ Recover this card. This ability triggers only once per turn.\n{R}: This card gains [+200/0] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "The girl's scars bled a brilliant crimson, and she became something far more monstrous and terrible.",
+    "Flavour": "The stands on the border of truth and lie.|The girl's scars bled a brilliant crimson, and she became something far more monstrous and terrible.",
     "Artist": "yuko",
     "Rarity": "R",
-    "Fowid": "3336",
+    "Fowid": "3335|3336",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
-    "id": "3466ab2d-6bac-43d7-bcf0-540bc3099741",
-    "image": "3466ab2d-6bac-43d7-bcf0-540bc3099741.jpg"
+    "id": "61ee1f16-1cb3-48da-b065-7d9837f706ac",
+    "image": "61ee1f16-1cb3-48da-b065-7d9837f706ac.jpg",
+    "Card Type": "Ruler",
+    "backimage": "3466ab2d-6bac-43d7-bcf0-540bc3099741.jpg",
+    "alternate1_Card Number": "TSW-142J",
+    "alternate1_name": "Scarlet, the Crimson Beast",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Cthulhu",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R|B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "200",
+    "alternate1_Abilities": "[Swiftness]\n[Imperishable]\n[Precision]\n[First Strike]\nDamage cannot be prevented.\nWhenever a J/resonator that was dealt damage by this card this turn is destroyed ⇒ Recover this card. This ability triggers only once per turn.\n{R}: This card gains [+200/0] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "The girl's scars bled a brilliant crimson, and she became something far more monstrous and terrible.",
+    "alternate1_Artist": "yuko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3336",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "3466ab2d-6bac-43d7-bcf0-540bc3099741",
+    "alternate1_image": "3466ab2d-6bac-43d7-bcf0-540bc3099741.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TSW-143",
@@ -3539,7 +3681,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "20509267-70b8-4fdb-8b93-1a9b28f3f337",
-    "image": "20509267-70b8-4fdb-8b93-1a9b28f3f337.jpg"
+    "image": "20509267-70b8-4fdb-8b93-1a9b28f3f337.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-144",
@@ -3561,7 +3704,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "e469d46b-8fcd-4bf1-81a8-1c930d20b589",
-    "image": "e469d46b-8fcd-4bf1-81a8-1c930d20b589.jpg"
+    "image": "e469d46b-8fcd-4bf1-81a8-1c930d20b589.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-145",
@@ -3583,7 +3727,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "f32f9130-12e7-48bd-a45d-9c68cac8bca7",
-    "image": "f32f9130-12e7-48bd-a45d-9c68cac8bca7.jpg"
+    "image": "f32f9130-12e7-48bd-a45d-9c68cac8bca7.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TSW-146",
@@ -3605,95 +3750,98 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "e37a45be-4da0-495a-9727-246e0693bd5f",
-    "image": "e37a45be-4da0-495a-9727-246e0693bd5f.jpg"
+    "image": "e37a45be-4da0-495a-9727-246e0693bd5f.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TSW-147",
-    "name": "Twin Blades of Hope and Despair",
+    "Card Number": "TSW-147|TSW-147*",
+    "name": "Twin Blades of Hope and Despair // Sword of Fate",
     "Type": "Chant",
-    "Race": "",
-    "Cost": "{W}{B}",
+    "Race": "Inverse",
+    "Cost": "{W}{B}|{W}{W}{B}{B}",
     "Colour": "W|B",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Quickcast]\nTarget resonator you control gains [+600/+600] and target resonator your opponent controls gains [-600/-600] until end of turn. Them remove this card inverted from the game.",
+    "Abilities": "[Quickcast]\nTarget resonator you control gains [+600/+600] and target resonator your opponent controls gains [-600/-600] until end of turn. Them remove this card inverted from the game.|(If this card moves to a non-chase zone, flip it over.)\nPlay this card only from your removed area.\nChoose one - Destroy target J/resonator; or put target resonator with total cost 5 or less from your graveyard into the field.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Hope is just someone's denial of their despair. Enough with these cheap tricks.\" - Princess of Fleeting Hope",
+    "Flavour": "\"Hope is just someone's denial of their despair. Enough with these cheap tricks.\" - Princess of Fleeting Hope|Fate is terrisbly, horribly, unfair and cruel.",
     "Artist": "Mad",
     "Rarity": "SR",
-    "Fowid": "3341",
+    "Fowid": "3341|3342",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "27ef1ae5-9f8f-4e4c-8306-a7b4df3f5aee",
-    "image": "27ef1ae5-9f8f-4e4c-8306-a7b4df3f5aee.jpg"
+    "image": "27ef1ae5-9f8f-4e4c-8306-a7b4df3f5aee.jpg",
+    "Card Type": "Chant",
+    "backimage": "a45278eb-cc61-41b4-8fb2-c021fc61fb44.jpg",
+    "alternate1_Card Number": "TSW-147*",
+    "alternate1_name": "Sword of Fate",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "Inverse",
+    "alternate1_Cost": "{W}{W}{B}{B}",
+    "alternate1_Colour": "W|B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "(If this card moves to a non-chase zone, flip it over.)\nPlay this card only from your removed area.\nChoose one - Destroy target J/resonator; or put target resonator with total cost 5 or less from your graveyard into the field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Fate is terrisbly, horribly, unfair and cruel.",
+    "alternate1_Artist": "Mad",
+    "alternate1_Rarity": "SR",
+    "alternate1_Fowid": "3342",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "a45278eb-cc61-41b4-8fb2-c021fc61fb44",
+    "alternate1_image": "a45278eb-cc61-41b4-8fb2-c021fc61fb44.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
-    "Card Number": "TSW-147*",
-    "name": "Sword of Fate",
-    "Type": "Chant",
-    "Race": "Inverse",
-    "Cost": "{W}{W}{B}{B}",
-    "Colour": "W|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "(If this card moves to a non-chase zone, flip it over.)\nPlay this card only from your removed area.\nChoose one - Destroy target J/resonator; or put target resonator with total cost 5 or less from your graveyard into the field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Fate is terrisbly, horribly, unfair and cruel.",
-    "Artist": "Mad",
-    "Rarity": "SR",
-    "Fowid": "3342",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "a45278eb-cc61-41b4-8fb2-c021fc61fb44",
-    "image": "a45278eb-cc61-41b4-8fb2-c021fc61fb44.jpg"
-  },
-  {
-    "Card Number": "TSW-148",
-    "name": "Magic Stone of Hope",
+    "Card Number": "TSW-148|TSW-148*",
+    "name": "Magic Stone of Hope // Magic Stone of Despair",
     "Type": "Special Magic Stone",
-    "Race": "",
+    "Race": "Inverse",
     "Cost": "",
     "Colour": "V",
     "ATK": "",
     "DEF": "",
-    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card.\n{Rest}: Produce {W}.",
+    "Abilities": "Whenever you do judgment of a ruler ⇒ Invert this card.\n{Rest}: Produce {W}.|{Rest}: Produce {W} or {B}.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Plant a seed of hope...",
+    "Flavour": "Plant a seed of hope...|...and watch despair bloom.",
     "Artist": "Saiko Takaki",
     "Rarity": "R",
-    "Fowid": "3343",
+    "Fowid": "3343|3344",
     "Cluster": "05 - Reiya",
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "3064576e-7ab2-42c0-97b8-6f0987e2be43",
-    "image": "3064576e-7ab2-42c0-97b8-6f0987e2be43.jpg"
-  },
-  {
-    "Card Number": "TSW-148*",
-    "name": "Magic Stone of Despair",
-    "Type": "Special Magic Stone",
-    "Race": "Inverse",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{Rest}: Produce {W} or {B}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "...and watch despair bloom.",
-    "Artist": "Saiko Takaki",
-    "Rarity": "R",
-    "Fowid": "3344",
-    "Cluster": "05 - Reiya",
-    "Set Name": "033 - The Time-Spinning Witch",
-    "Set Code": "TSW",
-    "id": "b54cf5ab-d077-4a2a-8565-583f12168dec",
-    "image": "b54cf5ab-d077-4a2a-8565-583f12168dec.jpg"
+    "image": "3064576e-7ab2-42c0-97b8-6f0987e2be43.jpg",
+    "Card Type": "Special Magic Stone",
+    "backimage": "b54cf5ab-d077-4a2a-8565-583f12168dec.jpg",
+    "alternate1_Card Number": "TSW-148*",
+    "alternate1_name": "Magic Stone of Despair",
+    "alternate1_Type": "Special Magic Stone",
+    "alternate1_Race": "Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "{Rest}: Produce {W} or {B}.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "...and watch despair bloom.",
+    "alternate1_Artist": "Saiko Takaki",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3344",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "033 - The Time-Spinning Witch",
+    "alternate1_Set Code": "TSW",
+    "alternate1_id": "b54cf5ab-d077-4a2a-8565-583f12168dec",
+    "alternate1_image": "b54cf5ab-d077-4a2a-8565-583f12168dec.jpg",
+    "alternate1_Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TSW-149",
@@ -3715,7 +3863,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "4feb0807-7ca0-4f97-b8a9-bf76b11f0d1d",
-    "image": "4feb0807-7ca0-4f97-b8a9-bf76b11f0d1d.jpg"
+    "image": "4feb0807-7ca0-4f97-b8a9-bf76b11f0d1d.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TSW-150",
@@ -3737,7 +3886,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "b9f72557-8a1d-4a17-8d6b-757db03c23d1",
-    "image": "b9f72557-8a1d-4a17-8d6b-757db03c23d1.jpg"
+    "image": "b9f72557-8a1d-4a17-8d6b-757db03c23d1.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TSW-151",
@@ -3759,7 +3909,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "2c8175b6-e2dd-41ec-923c-267c31de7726",
-    "image": "2c8175b6-e2dd-41ec-923c-267c31de7726.jpg"
+    "image": "2c8175b6-e2dd-41ec-923c-267c31de7726.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-152",
@@ -3781,7 +3932,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "5cdd022c-11a6-4af2-90c7-49ccc88a43b3",
-    "image": "5cdd022c-11a6-4af2-90c7-49ccc88a43b3.jpg"
+    "image": "5cdd022c-11a6-4af2-90c7-49ccc88a43b3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-153",
@@ -3803,7 +3955,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "28d117e6-9f81-48c9-964d-b0528f502c68",
-    "image": "28d117e6-9f81-48c9-964d-b0528f502c68.jpg"
+    "image": "28d117e6-9f81-48c9-964d-b0528f502c68.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-154",
@@ -3825,7 +3978,8 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "4c419dcd-e572-40d8-9f44-7dbd649b9bd1",
-    "image": "4c419dcd-e572-40d8-9f44-7dbd649b9bd1.jpg"
+    "image": "4c419dcd-e572-40d8-9f44-7dbd649b9bd1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TSW-155",
@@ -3847,6 +4001,7 @@
     "Set Name": "033 - The Time-Spinning Witch",
     "Set Code": "TSW",
     "id": "55610a64-d1b5-4d3e-bcaa-5461b83ee99b",
-    "image": "55610a64-d1b5-4d3e-bcaa-5461b83ee99b.jpg"
+    "image": "55610a64-d1b5-4d3e-bcaa-5461b83ee99b.jpg",
+    "Card Type": "Resonator"
   }
 ]

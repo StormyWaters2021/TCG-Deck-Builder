@@ -1,47 +1,48 @@
 [
   {
-    "Card Number": "VIN002-001",
-    "name": "Alicia Melchiott [Light]",
-    "Type": "Ruler",
-    "Race": "Military|Squad 7",
+    "Card Number": "VIN002-001|VIN002-001J",
+    "name": "Alicia Melchiott [Light] // Alicia Gunther",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Military|Squad 7|Baker",
     "Cost": "",
     "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {7}. You may pay {1} less to play this ability for each Squad 7 resonator you control.",
+    "ATK": "400",
+    "DEF": "1000",
+    "Abilities": "[Judgment] {7}. You may pay {1} less to play this ability for each Squad 7 resonator you control.|When this card enters your field ⇒ Recover all Squad 7 resonators you control.\nSquad 7 resonators you control gain [+200/+200].",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "\"When this is over...there's something I want to tell you.\"",
     "Artist": "SEGA",
     "Rarity": "R",
-    "Fowid": "1098",
+    "Fowid": "1098|1099",
     "Cluster": "03 - Alice",
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "96f22caa-9765-4112-8d43-4d7a0c1d2f39",
-    "image": "96f22caa-9765-4112-8d43-4d7a0c1d2f39.jpg"
-  },
-  {
-    "Card Number": "VIN002-001J",
-    "name": "Alicia Gunther",
-    "Type": "J-Ruler",
-    "Race": "Baker",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "400",
-    "DEF": "1000",
-    "Abilities": "When this card enters your field ⇒ Recover all Squad 7 resonators you control.\nSquad 7 resonators you control gain [+200/+200].",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "SEGA",
-    "Rarity": "R",
-    "Fowid": "1099",
-    "Cluster": "03 - Alice",
-    "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
-    "Set Code": "VIN002",
-    "id": "2097a693-3739-4ff1-944e-36857fdee18c",
-    "image": "2097a693-3739-4ff1-944e-36857fdee18c.jpg"
+    "image": "96f22caa-9765-4112-8d43-4d7a0c1d2f39.jpg",
+    "Card Type": "Ruler",
+    "backimage": "2097a693-3739-4ff1-944e-36857fdee18c.jpg",
+    "alternate1_Card Number": "VIN002-001J",
+    "alternate1_name": "Alicia Gunther",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Baker",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "400",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "When this card enters your field ⇒ Recover all Squad 7 resonators you control.\nSquad 7 resonators you control gain [+200/+200].",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "SEGA",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1099",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
+    "alternate1_Set Code": "VIN002",
+    "alternate1_id": "2097a693-3739-4ff1-944e-36857fdee18c",
+    "alternate1_image": "2097a693-3739-4ff1-944e-36857fdee18c.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN002-002",
@@ -63,7 +64,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "50198e2d-6395-4034-b555-a45fbe5bf1cc",
-    "image": "50198e2d-6395-4034-b555-a45fbe5bf1cc.jpg"
+    "image": "50198e2d-6395-4034-b555-a45fbe5bf1cc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-003",
@@ -85,7 +87,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "c4996bc0-7f6e-4757-be4e-f1aabfa09699",
-    "image": "c4996bc0-7f6e-4757-be4e-f1aabfa09699.jpg"
+    "image": "c4996bc0-7f6e-4757-be4e-f1aabfa09699.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-004",
@@ -107,7 +110,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "281639a1-45d8-401a-87cd-dea5dd2f365c",
-    "image": "281639a1-45d8-401a-87cd-dea5dd2f365c.jpg"
+    "image": "281639a1-45d8-401a-87cd-dea5dd2f365c.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN002-005",
@@ -129,7 +133,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "130d6606-4a5d-40ae-8b2f-5ee76042d83f",
-    "image": "130d6606-4a5d-40ae-8b2f-5ee76042d83f.jpg"
+    "image": "130d6606-4a5d-40ae-8b2f-5ee76042d83f.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN002-006",
@@ -151,7 +156,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "0bf90ec8-2fd0-49af-91ee-643ca66b0ff5",
-    "image": "0bf90ec8-2fd0-49af-91ee-643ca66b0ff5.jpg"
+    "image": "0bf90ec8-2fd0-49af-91ee-643ca66b0ff5.jpg",
+    "Card Type": "Addition:J/Resonator"
   },
   {
     "Card Number": "VIN002-007",
@@ -173,7 +179,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "7c6cab6b-770e-4924-b20b-aeb5fa0f9678",
-    "image": "7c6cab6b-770e-4924-b20b-aeb5fa0f9678.jpg"
+    "image": "7c6cab6b-770e-4924-b20b-aeb5fa0f9678.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-008",
@@ -195,7 +202,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "34282724-2059-43fd-aa28-a54a70fafa0b",
-    "image": "34282724-2059-43fd-aa28-a54a70fafa0b.jpg"
+    "image": "34282724-2059-43fd-aa28-a54a70fafa0b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-009",
@@ -217,7 +225,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "237b2ae0-2fb8-4b50-b0df-c6ea947df111",
-    "image": "237b2ae0-2fb8-4b50-b0df-c6ea947df111.jpg"
+    "image": "237b2ae0-2fb8-4b50-b0df-c6ea947df111.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-010",
@@ -239,7 +248,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "f5833d48-0521-47c8-8f51-761a873b70d9",
-    "image": "f5833d48-0521-47c8-8f51-761a873b70d9.jpg"
+    "image": "f5833d48-0521-47c8-8f51-761a873b70d9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-011",
@@ -261,7 +271,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "8f8cbfd6-8cda-4dfa-a326-0eeaa18bb351",
-    "image": "8f8cbfd6-8cda-4dfa-a326-0eeaa18bb351.jpg"
+    "image": "8f8cbfd6-8cda-4dfa-a326-0eeaa18bb351.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-012",
@@ -283,7 +294,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "0ddc260d-17e6-4c3e-81af-4b14ab08d0e8",
-    "image": "0ddc260d-17e6-4c3e-81af-4b14ab08d0e8.jpg"
+    "image": "0ddc260d-17e6-4c3e-81af-4b14ab08d0e8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-013",
@@ -305,7 +317,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "f7b28c29-c43d-432f-920a-7f648e955432",
-    "image": "f7b28c29-c43d-432f-920a-7f648e955432.jpg"
+    "image": "f7b28c29-c43d-432f-920a-7f648e955432.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-014",
@@ -327,7 +340,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "678d1cd4-60db-4c08-80ef-3e82b840ac4c",
-    "image": "678d1cd4-60db-4c08-80ef-3e82b840ac4c.jpg"
+    "image": "678d1cd4-60db-4c08-80ef-3e82b840ac4c.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN002-015",
@@ -349,7 +363,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "5cdf17af-2c59-47c5-af8b-0eb29fb8fbcc",
-    "image": "5cdf17af-2c59-47c5-af8b-0eb29fb8fbcc.jpg"
+    "image": "5cdf17af-2c59-47c5-af8b-0eb29fb8fbcc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-016",
@@ -371,7 +386,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "8c810357-a025-4bd2-b37d-24719cf48909",
-    "image": "8c810357-a025-4bd2-b37d-24719cf48909.jpg"
+    "image": "8c810357-a025-4bd2-b37d-24719cf48909.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-017",
@@ -393,7 +409,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "ebe1b949-b0f3-4268-a354-865edfff38f3",
-    "image": "ebe1b949-b0f3-4268-a354-865edfff38f3.jpg"
+    "image": "ebe1b949-b0f3-4268-a354-865edfff38f3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-018",
@@ -415,7 +432,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "7d7e1bba-243b-40ab-a01e-a78864f22e30",
-    "image": "7d7e1bba-243b-40ab-a01e-a78864f22e30.jpg"
+    "image": "7d7e1bba-243b-40ab-a01e-a78864f22e30.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN002-019",
@@ -437,7 +455,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "3e81508a-17f3-4473-9f1b-d1073c73b25c",
-    "image": "3e81508a-17f3-4473-9f1b-d1073c73b25c.jpg"
+    "image": "3e81508a-17f3-4473-9f1b-d1073c73b25c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-020",
@@ -459,7 +478,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "ba6d5e6d-348e-44cf-a77a-b19fffe8c23c",
-    "image": "ba6d5e6d-348e-44cf-a77a-b19fffe8c23c.jpg"
+    "image": "ba6d5e6d-348e-44cf-a77a-b19fffe8c23c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-021",
@@ -481,7 +501,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "71f414f8-71f2-4883-8757-2fe8478cf739",
-    "image": "71f414f8-71f2-4883-8757-2fe8478cf739.jpg"
+    "image": "71f414f8-71f2-4883-8757-2fe8478cf739.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN002-022",
@@ -503,7 +524,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "1fc0b52e-10ba-470b-b977-548c0839ce86",
-    "image": "1fc0b52e-10ba-470b-b977-548c0839ce86.jpg"
+    "image": "1fc0b52e-10ba-470b-b977-548c0839ce86.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-023",
@@ -525,7 +547,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "55ec90d1-68b6-4238-8b99-aa91311555a0",
-    "image": "55ec90d1-68b6-4238-8b99-aa91311555a0.jpg"
+    "image": "55ec90d1-68b6-4238-8b99-aa91311555a0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-024",
@@ -547,7 +570,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "5d7b8333-20be-46ab-9761-5c396f254e6a",
-    "image": "5d7b8333-20be-46ab-9761-5c396f254e6a.jpg"
+    "image": "5d7b8333-20be-46ab-9761-5c396f254e6a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-025",
@@ -569,7 +593,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "b4dc845b-fe58-4551-ab06-5d0d71766535",
-    "image": "b4dc845b-fe58-4551-ab06-5d0d71766535.jpg"
+    "image": "b4dc845b-fe58-4551-ab06-5d0d71766535.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-026",
@@ -591,7 +616,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "9f151317-e04a-439a-9e40-5402b3ed7288",
-    "image": "9f151317-e04a-439a-9e40-5402b3ed7288.jpg"
+    "image": "9f151317-e04a-439a-9e40-5402b3ed7288.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN002-027",
@@ -613,7 +639,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "91830f18-04e7-4434-8640-66f97767991b",
-    "image": "91830f18-04e7-4434-8640-66f97767991b.jpg"
+    "image": "91830f18-04e7-4434-8640-66f97767991b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-028",
@@ -635,51 +662,53 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "11d04dc4-b9a4-4ae1-b1ec-f8b743eb8987",
-    "image": "11d04dc4-b9a4-4ae1-b1ec-f8b743eb8987.jpg"
+    "image": "11d04dc4-b9a4-4ae1-b1ec-f8b743eb8987.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "VIN002-029",
-    "name": "Riela Marcellis",
-    "Type": "Ruler",
-    "Race": "Military|Nameless",
+    "Card Number": "VIN002-029|VIN002-029J",
+    "name": "Riela Marcellis // Riela Marcellis [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Military|Nameless|Valkyrur|Nameless",
     "Cost": "",
     "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {9}. You may pay {1} less to play this ability for each Nameless resonator you control.",
+    "ATK": "1000",
+    "DEF": "600",
+    "Abilities": "[Judgment] {9}. You may pay {1} less to play this ability for each Nameless resonator you control.|As long as you control \"Kurt Irving\", this card gains [Swiftness].\nWhen this card enters your field ⇒ It deals 1000 damage to target resonator.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "\"There was one person who told me I'm not the Grim Reaper.\"",
     "Artist": "SEGA",
     "Rarity": "R",
-    "Fowid": "1127",
+    "Fowid": "1127|1128",
     "Cluster": "03 - Alice",
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "8309c27a-d3b0-4063-9ddf-f59125625e45",
-    "image": "8309c27a-d3b0-4063-9ddf-f59125625e45.jpg"
-  },
-  {
-    "Card Number": "VIN002-029J",
-    "name": "Riela Marcellis [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Valkyrur|Nameless",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "1000",
-    "DEF": "600",
-    "Abilities": "As long as you control \"Kurt Irving\", this card gains [Swiftness].\nWhen this card enters your field ⇒ It deals 1000 damage to target resonator.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "SEGA",
-    "Rarity": "R",
-    "Fowid": "1128",
-    "Cluster": "03 - Alice",
-    "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
-    "Set Code": "VIN002",
-    "id": "796ead82-c2ca-48f5-baeb-53f39fd97b6e",
-    "image": "796ead82-c2ca-48f5-baeb-53f39fd97b6e.jpg"
+    "image": "8309c27a-d3b0-4063-9ddf-f59125625e45.jpg",
+    "Card Type": "Ruler",
+    "backimage": "796ead82-c2ca-48f5-baeb-53f39fd97b6e.jpg",
+    "alternate1_Card Number": "VIN002-029J",
+    "alternate1_name": "Riela Marcellis [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Valkyrur|Nameless",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "600",
+    "alternate1_Abilities": "As long as you control \"Kurt Irving\", this card gains [Swiftness].\nWhen this card enters your field ⇒ It deals 1000 damage to target resonator.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "SEGA",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1128",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
+    "alternate1_Set Code": "VIN002",
+    "alternate1_id": "796ead82-c2ca-48f5-baeb-53f39fd97b6e",
+    "alternate1_image": "796ead82-c2ca-48f5-baeb-53f39fd97b6e.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN002-030",
@@ -701,51 +730,53 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "6f6b07bd-b9d9-4e01-bd25-2ac72441faee",
-    "image": "6f6b07bd-b9d9-4e01-bd25-2ac72441faee.jpg"
+    "image": "6f6b07bd-b9d9-4e01-bd25-2ac72441faee.jpg",
+    "Card Type": "Addition:J/Resonator"
   },
   {
-    "Card Number": "VIN002-031",
-    "name": "Alicia Melchiott [Water]",
-    "Type": "Ruler",
-    "Race": "Military|Squad 7",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {7}. You may pay {1} less to play this ability for each Squad 7 resonator you control.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"When I think about the war I realize that I wasn't just fighting for my life, I was fighting for a new one.\"",
-    "Artist": "SEGA",
-    "Rarity": "R",
-    "Fowid": "1130",
-    "Cluster": "03 - Alice",
-    "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
-    "Set Code": "VIN002",
-    "id": "c17283d7-b270-4993-8341-6ffc350ac4b5",
-    "image": "c17283d7-b270-4993-8341-6ffc350ac4b5.jpg"
-  },
-  {
-    "Card Number": "VIN002-031J",
-    "name": "Alicia Melchiott [Water/J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Valkyrur|Squad 7",
+    "Card Number": "VIN002-031|VIN002-031J",
+    "name": "Alicia Melchiott [Water] // Alicia Melchiott [Water/J-Ruler]",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Military|Squad 7|Valkyrur|Squad 7",
     "Cost": "",
     "Colour": "U",
     "ATK": "800",
     "DEF": "800",
-    "Abilities": "When this card enters your field ⇒ Return target resonator to its owner's hand.\nWhen this card enters your field ⇒ You may add an [Addition:J/Resonator] from your hand to this card.",
+    "Abilities": "[Judgment] {7}. You may pay {1} less to play this ability for each Squad 7 resonator you control.|When this card enters your field ⇒ Return target resonator to its owner's hand.\nWhen this card enters your field ⇒ You may add an [Addition:J/Resonator] from your hand to this card.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"As long as I live, I'll protect my home and the people of Gallia.\"",
+    "Flavour": "\"When I think about the war I realize that I wasn't just fighting for my life, I was fighting for a new one.\"|\"As long as I live, I'll protect my home and the people of Gallia.\"",
     "Artist": "SEGA",
     "Rarity": "R",
-    "Fowid": "1131",
+    "Fowid": "1130|1131",
     "Cluster": "03 - Alice",
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
-    "id": "822fab3c-6df0-40ec-b24a-3519479ebea2",
-    "image": "822fab3c-6df0-40ec-b24a-3519479ebea2.jpg"
+    "id": "c17283d7-b270-4993-8341-6ffc350ac4b5",
+    "image": "c17283d7-b270-4993-8341-6ffc350ac4b5.jpg",
+    "Card Type": "Ruler",
+    "backimage": "822fab3c-6df0-40ec-b24a-3519479ebea2.jpg",
+    "alternate1_Card Number": "VIN002-031J",
+    "alternate1_name": "Alicia Melchiott [Water/J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Valkyrur|Squad 7",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "When this card enters your field ⇒ Return target resonator to its owner's hand.\nWhen this card enters your field ⇒ You may add an [Addition:J/Resonator] from your hand to this card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"As long as I live, I'll protect my home and the people of Gallia.\"",
+    "alternate1_Artist": "SEGA",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1131",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
+    "alternate1_Set Code": "VIN002",
+    "alternate1_id": "822fab3c-6df0-40ec-b24a-3519479ebea2",
+    "alternate1_image": "822fab3c-6df0-40ec-b24a-3519479ebea2.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN002-032",
@@ -767,7 +798,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "afea7876-c9b2-4146-b09b-66342cbf3d0e",
-    "image": "afea7876-c9b2-4146-b09b-66342cbf3d0e.jpg"
+    "image": "afea7876-c9b2-4146-b09b-66342cbf3d0e.jpg",
+    "Card Type": "Addition:J/Resonator"
   },
   {
     "Card Number": "VIN002-033",
@@ -789,7 +821,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "ccde578c-1f04-460c-b549-7d518bdb046a",
-    "image": "ccde578c-1f04-460c-b549-7d518bdb046a.jpg"
+    "image": "ccde578c-1f04-460c-b549-7d518bdb046a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-034",
@@ -811,7 +844,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "de1a310c-d1d5-40ab-944c-48898935a1d9",
-    "image": "de1a310c-d1d5-40ab-944c-48898935a1d9.jpg"
+    "image": "de1a310c-d1d5-40ab-944c-48898935a1d9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-035",
@@ -833,7 +867,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "2c47f86b-ab9f-4cdd-a7b6-f0952cf81421",
-    "image": "2c47f86b-ab9f-4cdd-a7b6-f0952cf81421.jpg"
+    "image": "2c47f86b-ab9f-4cdd-a7b6-f0952cf81421.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-036",
@@ -855,7 +890,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "0b4d9484-fe19-4d98-9f99-32e64f3a4598",
-    "image": "0b4d9484-fe19-4d98-9f99-32e64f3a4598.jpg"
+    "image": "0b4d9484-fe19-4d98-9f99-32e64f3a4598.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-037",
@@ -877,7 +913,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "0e112f3b-6c53-4710-8faf-a9f51afc70ad",
-    "image": "0e112f3b-6c53-4710-8faf-a9f51afc70ad.jpg"
+    "image": "0e112f3b-6c53-4710-8faf-a9f51afc70ad.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-038",
@@ -899,7 +936,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "e006f4c0-957a-4e5a-adab-039fda5c5f4a",
-    "image": "e006f4c0-957a-4e5a-adab-039fda5c5f4a.jpg"
+    "image": "e006f4c0-957a-4e5a-adab-039fda5c5f4a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-039",
@@ -921,7 +959,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "43e824dc-1281-4266-85d2-cfaff4eb3fae",
-    "image": "43e824dc-1281-4266-85d2-cfaff4eb3fae.jpg"
+    "image": "43e824dc-1281-4266-85d2-cfaff4eb3fae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-040",
@@ -943,7 +982,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "803e9431-a22b-4436-baf8-b718b8a8f512",
-    "image": "803e9431-a22b-4436-baf8-b718b8a8f512.jpg"
+    "image": "803e9431-a22b-4436-baf8-b718b8a8f512.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-041",
@@ -965,7 +1005,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "2adff5b2-8992-4cfe-af1a-f26013d5322c",
-    "image": "2adff5b2-8992-4cfe-af1a-f26013d5322c.jpg"
+    "image": "2adff5b2-8992-4cfe-af1a-f26013d5322c.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN002-042",
@@ -987,7 +1028,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "1d6cfe25-803d-45b9-8ccb-db1e6d0ed039",
-    "image": "1d6cfe25-803d-45b9-8ccb-db1e6d0ed039.jpg"
+    "image": "1d6cfe25-803d-45b9-8ccb-db1e6d0ed039.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN002-043",
@@ -1009,7 +1051,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "6619728a-9b61-4bbc-91e5-9c2b0150a724",
-    "image": "6619728a-9b61-4bbc-91e5-9c2b0150a724.jpg"
+    "image": "6619728a-9b61-4bbc-91e5-9c2b0150a724.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN002-044",
@@ -1031,7 +1074,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "85f03c16-d364-4917-944d-a1909aaedfc5",
-    "image": "85f03c16-d364-4917-944d-a1909aaedfc5.jpg"
+    "image": "85f03c16-d364-4917-944d-a1909aaedfc5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-045",
@@ -1053,7 +1097,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "4fdb421c-c5c0-4163-afeb-f5b6207604a3",
-    "image": "4fdb421c-c5c0-4163-afeb-f5b6207604a3.jpg"
+    "image": "4fdb421c-c5c0-4163-afeb-f5b6207604a3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-046",
@@ -1075,51 +1120,53 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "72930c6c-f713-42b7-8c83-9343e44bed96",
-    "image": "72930c6c-f713-42b7-8c83-9343e44bed96.jpg"
+    "image": "72930c6c-f713-42b7-8c83-9343e44bed96.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "VIN002-047",
-    "name": "Aliasse",
-    "Type": "Ruler",
-    "Race": "Student|Class G",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {5}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"All right, guys! Here we gooo!\"",
-    "Artist": "SEGA",
-    "Rarity": "R",
-    "Fowid": "1147",
-    "Cluster": "03 - Alice",
-    "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
-    "Set Code": "VIN002",
-    "id": "cee13bd8-3ca6-4d99-b67e-d41d9d98eab1",
-    "image": "cee13bd8-3ca6-4d99-b67e-d41d9d98eab1.jpg"
-  },
-  {
-    "Card Number": "VIN002-047J",
-    "name": "Aliasse [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Valkyrur",
+    "Card Number": "VIN002-047|VIN002-047J",
+    "name": "Aliasse // Aliasse [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Student|Class G|Valkyrur",
     "Cost": "",
     "Colour": "G",
     "ATK": "800",
     "DEF": "1000",
-    "Abilities": "[Flying]\nWhenever this card attacks ⇒ Recover all magic stones you control.",
+    "Abilities": "[Judgment] {5}.|[Flying]\nWhenever this card attacks ⇒ Recover all magic stones you control.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I want to protect everyone in Class G.\"",
+    "Flavour": "\"All right, guys! Here we gooo!\"|\"I want to protect everyone in Class G.\"",
     "Artist": "SEGA",
     "Rarity": "R",
-    "Fowid": "1148",
+    "Fowid": "1147|1148",
     "Cluster": "03 - Alice",
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
-    "id": "c3726b86-67c1-45cb-8e6c-ac71523932bd",
-    "image": "c3726b86-67c1-45cb-8e6c-ac71523932bd.jpg"
+    "id": "cee13bd8-3ca6-4d99-b67e-d41d9d98eab1",
+    "image": "cee13bd8-3ca6-4d99-b67e-d41d9d98eab1.jpg",
+    "Card Type": "Ruler",
+    "backimage": "c3726b86-67c1-45cb-8e6c-ac71523932bd.jpg",
+    "alternate1_Card Number": "VIN002-047J",
+    "alternate1_name": "Aliasse [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Valkyrur",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\nWhenever this card attacks ⇒ Recover all magic stones you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I want to protect everyone in Class G.\"",
+    "alternate1_Artist": "SEGA",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1148",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
+    "alternate1_Set Code": "VIN002",
+    "alternate1_id": "c3726b86-67c1-45cb-8e6c-ac71523932bd",
+    "alternate1_image": "c3726b86-67c1-45cb-8e6c-ac71523932bd.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN002-048",
@@ -1141,7 +1188,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "bdc6c416-0367-4835-ab3d-ccd5a19184a7",
-    "image": "bdc6c416-0367-4835-ab3d-ccd5a19184a7.jpg"
+    "image": "bdc6c416-0367-4835-ab3d-ccd5a19184a7.jpg",
+    "Card Type": "Addition:J/Resonator"
   },
   {
     "Card Number": "VIN002-049",
@@ -1163,7 +1211,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "abf6408d-add9-47b9-afb6-0c867c803fca",
-    "image": "abf6408d-add9-47b9-afb6-0c867c803fca.jpg"
+    "image": "abf6408d-add9-47b9-afb6-0c867c803fca.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-050",
@@ -1185,7 +1234,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "dbd6223c-58d7-4c24-a2fd-d360334b7bcb",
-    "image": "dbd6223c-58d7-4c24-a2fd-d360334b7bcb.jpg"
+    "image": "dbd6223c-58d7-4c24-a2fd-d360334b7bcb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-051",
@@ -1207,7 +1257,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "026ba834-4683-4fec-acea-4dd26e501c49",
-    "image": "026ba834-4683-4fec-acea-4dd26e501c49.jpg"
+    "image": "026ba834-4683-4fec-acea-4dd26e501c49.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN002-052",
@@ -1229,7 +1280,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "10bf84b5-0f68-4f99-846d-9b8856cab77a",
-    "image": "10bf84b5-0f68-4f99-846d-9b8856cab77a.jpg"
+    "image": "10bf84b5-0f68-4f99-846d-9b8856cab77a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-053",
@@ -1251,7 +1303,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "e862dc00-b872-423f-8f37-e1035c317d30",
-    "image": "e862dc00-b872-423f-8f37-e1035c317d30.jpg"
+    "image": "e862dc00-b872-423f-8f37-e1035c317d30.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "VIN002-054",
@@ -1273,7 +1326,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "0dbef492-e6f1-4e26-b5c1-536c1302e62c",
-    "image": "0dbef492-e6f1-4e26-b5c1-536c1302e62c.jpg"
+    "image": "0dbef492-e6f1-4e26-b5c1-536c1302e62c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-055",
@@ -1295,7 +1349,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "1ba903dd-112a-46df-bc95-92f14568f252",
-    "image": "1ba903dd-112a-46df-bc95-92f14568f252.jpg"
+    "image": "1ba903dd-112a-46df-bc95-92f14568f252.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-056",
@@ -1317,7 +1372,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "5230410c-312a-444b-8175-358302730ee1",
-    "image": "5230410c-312a-444b-8175-358302730ee1.jpg"
+    "image": "5230410c-312a-444b-8175-358302730ee1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-057",
@@ -1339,7 +1395,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "bcb1e3af-c8be-42c9-b592-afccc5eb6667",
-    "image": "bcb1e3af-c8be-42c9-b592-afccc5eb6667.jpg"
+    "image": "bcb1e3af-c8be-42c9-b592-afccc5eb6667.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-058",
@@ -1361,7 +1418,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "1476f5ec-a723-4a7a-9bc3-354bc7306ebf",
-    "image": "1476f5ec-a723-4a7a-9bc3-354bc7306ebf.jpg"
+    "image": "1476f5ec-a723-4a7a-9bc3-354bc7306ebf.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN002-059",
@@ -1383,7 +1441,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "97eced23-91ab-4591-b8dd-f517bc357392",
-    "image": "97eced23-91ab-4591-b8dd-f517bc357392.jpg"
+    "image": "97eced23-91ab-4591-b8dd-f517bc357392.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-060",
@@ -1405,7 +1464,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "a8c8fcba-6882-474c-aa91-db49f9007c3a",
-    "image": "a8c8fcba-6882-474c-aa91-db49f9007c3a.jpg"
+    "image": "a8c8fcba-6882-474c-aa91-db49f9007c3a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-061",
@@ -1427,7 +1487,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "5f6c0234-92c0-4ad2-bcb3-5fbe6934453f",
-    "image": "5f6c0234-92c0-4ad2-bcb3-5fbe6934453f.jpg"
+    "image": "5f6c0234-92c0-4ad2-bcb3-5fbe6934453f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-062",
@@ -1449,7 +1510,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "d68085bc-106b-47e6-b50b-14baad72a9e8",
-    "image": "d68085bc-106b-47e6-b50b-14baad72a9e8.jpg"
+    "image": "d68085bc-106b-47e6-b50b-14baad72a9e8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-063",
@@ -1471,7 +1533,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "e5a20f1c-871e-433d-9fcf-f0dd7b252b15",
-    "image": "e5a20f1c-871e-433d-9fcf-f0dd7b252b15.jpg"
+    "image": "e5a20f1c-871e-433d-9fcf-f0dd7b252b15.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-064",
@@ -1493,7 +1556,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "48cfd2ae-9985-4baf-adc5-c8e8a44d7b93",
-    "image": "48cfd2ae-9985-4baf-adc5-c8e8a44d7b93.jpg"
+    "image": "48cfd2ae-9985-4baf-adc5-c8e8a44d7b93.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-065",
@@ -1515,7 +1579,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "fd5e1fe4-8bb9-4d7c-a208-f6724393a59b",
-    "image": "fd5e1fe4-8bb9-4d7c-a208-f6724393a59b.jpg"
+    "image": "fd5e1fe4-8bb9-4d7c-a208-f6724393a59b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-066",
@@ -1537,7 +1602,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "de0f31e5-f605-4750-8cda-9020313a19a3",
-    "image": "de0f31e5-f605-4750-8cda-9020313a19a3.jpg"
+    "image": "de0f31e5-f605-4750-8cda-9020313a19a3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-067",
@@ -1559,7 +1625,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "7f8c3660-3558-4339-851c-a1fb991f7e41",
-    "image": "7f8c3660-3558-4339-851c-a1fb991f7e41.jpg"
+    "image": "7f8c3660-3558-4339-851c-a1fb991f7e41.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN002-068",
@@ -1581,7 +1648,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "ab150b21-cdf3-46c0-8cce-c745cec802be",
-    "image": "ab150b21-cdf3-46c0-8cce-c745cec802be.jpg"
+    "image": "ab150b21-cdf3-46c0-8cce-c745cec802be.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-069",
@@ -1603,7 +1671,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "1ec88a9c-8e9b-42d4-8b91-ec982682abe2",
-    "image": "1ec88a9c-8e9b-42d4-8b91-ec982682abe2.jpg"
+    "image": "1ec88a9c-8e9b-42d4-8b91-ec982682abe2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-070",
@@ -1625,7 +1694,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "904412a2-7816-4d79-b4b8-70aae647ccfc",
-    "image": "904412a2-7816-4d79-b4b8-70aae647ccfc.jpg"
+    "image": "904412a2-7816-4d79-b4b8-70aae647ccfc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-071",
@@ -1647,7 +1717,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "49d7c34b-4fc7-4ae9-a778-6ede904e04f7",
-    "image": "49d7c34b-4fc7-4ae9-a778-6ede904e04f7.jpg"
+    "image": "49d7c34b-4fc7-4ae9-a778-6ede904e04f7.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "VIN002-072",
@@ -1669,51 +1740,53 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "1759d880-1ddd-4a4b-b51e-ea144e954f73",
-    "image": "1759d880-1ddd-4a4b-b51e-ea144e954f73.jpg"
+    "image": "1759d880-1ddd-4a4b-b51e-ea144e954f73.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
-    "Card Number": "VIN002-073",
-    "name": "Selvaria Bles",
-    "Type": "Ruler",
-    "Race": "Military|Drei Stern",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {6}. You may pay {3} less to play this ability if you control \"Maximilian\".",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"I will use my powers for the purposes of my lord!\"",
-    "Artist": "SEGA",
-    "Rarity": "R",
-    "Fowid": "1174",
-    "Cluster": "03 - Alice",
-    "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
-    "Set Code": "VIN002",
-    "id": "666f9c42-e264-4ea9-890d-22c5114fea35",
-    "image": "666f9c42-e264-4ea9-890d-22c5114fea35.jpg"
-  },
-  {
-    "Card Number": "VIN002-073J",
-    "name": "Selvaria Bles [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Valkyrur|Drein Stern",
+    "Card Number": "VIN002-073|VIN002-073J",
+    "name": "Selvaria Bles // Selvaria Bles [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Military|Drei Stern|Valkyrur|Drein Stern",
     "Cost": "",
     "Colour": "B",
     "ATK": "900",
     "DEF": "700",
-    "Abilities": "When this card enters your field ⇒ Up to two target resonators gain [-300/-300] for each Drei Stern you control.",
+    "Abilities": "[Judgment] {6}. You may pay {3} less to play this ability if you control \"Maximilian\".|When this card enters your field ⇒ Up to two target resonators gain [-300/-300] for each Drei Stern you control.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"The power of the Valkyrur is within me too!\"",
+    "Flavour": "\"I will use my powers for the purposes of my lord!\"|\"The power of the Valkyrur is within me too!\"",
     "Artist": "SEGA",
     "Rarity": "R",
-    "Fowid": "1175",
+    "Fowid": "1174|1175",
     "Cluster": "03 - Alice",
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
-    "id": "f1e100bd-199b-45a0-8a98-1234fe9dc09a",
-    "image": "f1e100bd-199b-45a0-8a98-1234fe9dc09a.jpg"
+    "id": "666f9c42-e264-4ea9-890d-22c5114fea35",
+    "image": "666f9c42-e264-4ea9-890d-22c5114fea35.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f1e100bd-199b-45a0-8a98-1234fe9dc09a.jpg",
+    "alternate1_Card Number": "VIN002-073J",
+    "alternate1_name": "Selvaria Bles [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Valkyrur|Drein Stern",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "900",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "When this card enters your field ⇒ Up to two target resonators gain [-300/-300] for each Drei Stern you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"The power of the Valkyrur is within me too!\"",
+    "alternate1_Artist": "SEGA",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1175",
+    "alternate1_Cluster": "03 - Alice",
+    "alternate1_Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
+    "alternate1_Set Code": "VIN002",
+    "alternate1_id": "f1e100bd-199b-45a0-8a98-1234fe9dc09a",
+    "alternate1_image": "f1e100bd-199b-45a0-8a98-1234fe9dc09a.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN002-074",
@@ -1735,7 +1808,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "75b06d65-2ca6-4058-901f-d8f946db53d0",
-    "image": "75b06d65-2ca6-4058-901f-d8f946db53d0.jpg"
+    "image": "75b06d65-2ca6-4058-901f-d8f946db53d0.jpg",
+    "Card Type": "Addition:J/Resonator"
   },
   {
     "Card Number": "VIN002-075",
@@ -1757,7 +1831,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "5863949c-ca49-458c-9393-ccd773df4dde",
-    "image": "5863949c-ca49-458c-9393-ccd773df4dde.jpg"
+    "image": "5863949c-ca49-458c-9393-ccd773df4dde.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN002-076",
@@ -1779,7 +1854,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "77d53f37-d06d-451c-85cd-df40bc6b7804",
-    "image": "77d53f37-d06d-451c-85cd-df40bc6b7804.jpg"
+    "image": "77d53f37-d06d-451c-85cd-df40bc6b7804.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "VIN002-077",
@@ -1801,7 +1877,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "f086909e-e94e-4c2e-891e-a98c1e985035",
-    "image": "f086909e-e94e-4c2e-891e-a98c1e985035.jpg"
+    "image": "f086909e-e94e-4c2e-891e-a98c1e985035.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "VIN002-078",
@@ -1823,7 +1900,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "b422dc55-f758-4295-a1a0-5f3f7332d969",
-    "image": "b422dc55-f758-4295-a1a0-5f3f7332d969.jpg"
+    "image": "b422dc55-f758-4295-a1a0-5f3f7332d969.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "VIN002-079",
@@ -1845,7 +1923,8 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "0c7cf0f7-1f0e-4733-ad36-152ba7ccb65f",
-    "image": "0c7cf0f7-1f0e-4733-ad36-152ba7ccb65f.jpg"
+    "image": "0c7cf0f7-1f0e-4733-ad36-152ba7ccb65f.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "VIN002-080",
@@ -1867,6 +1946,7 @@
     "Set Name": "015 - Vingolf 2 - Valkyria Chronicles",
     "Set Code": "VIN002",
     "id": "0e776d24-a7da-460c-b445-80320bf0e8c7",
-    "image": "0e776d24-a7da-460c-b445-80320bf0e8c7.jpg"
+    "image": "0e776d24-a7da-460c-b445-80320bf0e8c7.jpg",
+    "Card Type": "Regalia"
   }
 ]

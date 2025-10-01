@@ -19,7 +19,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "a72f3ba7-4564-4916-952f-eac8b888b44b",
-    "image": "a72f3ba7-4564-4916-952f-eac8b888b44b.jpg"
+    "image": "a72f3ba7-4564-4916-952f-eac8b888b44b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ROL-002",
@@ -41,7 +42,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "a7390f22-3a4d-4a53-9d5f-2572f582b286",
-    "image": "a7390f22-3a4d-4a53-9d5f-2572f582b286.jpg"
+    "image": "a7390f22-3a4d-4a53-9d5f-2572f582b286.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ROL-003",
@@ -63,7 +65,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "640f49ec-75d7-46a8-aba0-87827af0affe",
-    "image": "640f49ec-75d7-46a8-aba0-87827af0affe.jpg"
+    "image": "640f49ec-75d7-46a8-aba0-87827af0affe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ROL-004",
@@ -85,18 +88,19 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "ad9d085c-c228-4b00-8268-e22aeef981f1",
-    "image": "ad9d085c-c228-4b00-8268-e22aeef981f1.jpg"
+    "image": "ad9d085c-c228-4b00-8268-e22aeef981f1.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ROL-005",
-    "name": "Lumia, Princess of Rebirth",
-    "Type": "Resonator",
+    "Card Number": "ROL-005|ROL-005*",
+    "name": "Lumia, Princess of Rebirth // Wings of Light and Darkness",
+    "Type": "Resonator|Chant",
     "Race": "Human",
-    "Cost": "{W}",
-    "Colour": "W",
+    "Cost": "{W}|{B}",
+    "Colour": "W|B",
     "ATK": "200",
     "DEF": "500",
-    "Abilities": "[Quickcast]\n[Enter] ]]] You gain life equal to the amount of life you lost in any way (e.g. loss of life, payment of life, and reduction of life due to damage) this turn. Draw a card.",
+    "Abilities": "[Quickcast]\n[Enter] ]]] You gain life equal to the amount of life you lost in any way (e.g. loss of life, payment of life, and reduction of life due to damage) this turn. Draw a card.|[Quickcast]\nRemove target resonator with total cost 2 or less from the game. If this card was awakened, put its \"Lumia, Princess of Rebirth\" part into the field instead of putting this card into its owner's graveyard.\n[Awakening] {W}",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -107,29 +111,30 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "a0b8749b-c2d7-4497-99a6-f49fdf821dad",
-    "image": "a0b8749b-c2d7-4497-99a6-f49fdf821dad.jpg"
-  },
-  {
-    "Card Number": "ROL-005*",
-    "name": "Wings of Light and Darkness",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{B}",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nRemove target resonator with total cost 2 or less from the game. If this card was awakened, put its \"Lumia, Princess of Rebirth\" part into the field instead of putting this card into its owner's graveyard.\n[Awakening] {W}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "kurisu",
-    "Rarity": "MR",
-    "Fowid": "5203",
-    "Cluster": "08 - Saga",
-    "Set Name": "056 - Rebirth of Legend",
-    "Set Code": "ROL",
-    "id": "2472ae5a-c85c-4bef-a57c-42a37deb05eb",
-    "image": "2472ae5a-c85c-4bef-a57c-42a37deb05eb.jpg"
+    "image": "a0b8749b-c2d7-4497-99a6-f49fdf821dad.jpg",
+    "Card Type": "Resonator",
+    "backimage": "2472ae5a-c85c-4bef-a57c-42a37deb05eb.jpg",
+    "alternate1_Card Number": "ROL-005*",
+    "alternate1_name": "Wings of Light and Darkness",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{B}",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nRemove target resonator with total cost 2 or less from the game. If this card was awakened, put its \"Lumia, Princess of Rebirth\" part into the field instead of putting this card into its owner's graveyard.\n[Awakening] {W}",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "kurisu",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5203",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "056 - Rebirth of Legend",
+    "alternate1_Set Code": "ROL",
+    "alternate1_id": "2472ae5a-c85c-4bef-a57c-42a37deb05eb",
+    "alternate1_image": "2472ae5a-c85c-4bef-a57c-42a37deb05eb.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ROL-006",
@@ -151,7 +156,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "448eb1cd-52a0-4e4b-9ca5-68584feae6b8",
-    "image": "448eb1cd-52a0-4e4b-9ca5-68584feae6b8.jpg"
+    "image": "448eb1cd-52a0-4e4b-9ca5-68584feae6b8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ROL-007",
@@ -173,18 +179,19 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "a9a4a418-ae96-49b6-8ee6-7e9a10669d2f",
-    "image": "a9a4a418-ae96-49b6-8ee6-7e9a10669d2f.jpg"
+    "image": "a9a4a418-ae96-49b6-8ee6-7e9a10669d2f.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "ROL-008",
-    "name": "Magna",
-    "Type": "Resonator",
+    "Card Number": "ROL-008|ROL-008*",
+    "name": "Magna // God's Breath",
+    "Type": "Resonator|Chant",
     "Race": "Human|Hero",
-    "Cost": "{R}{R}",
+    "Cost": "{R}{R}|{R}",
     "Colour": "R",
     "ATK": "700",
     "DEF": "700",
-    "Abilities": "You may play this card from your removed area.\nOther J/resonators you control gain [+200/+400].",
+    "Abilities": "You may play this card from your removed area.\nOther J/resonators you control gain [+200/+400].|[Quickcast]\nPut a counter with a name of your choice on a ruler or entity you control. Remove this card from the game.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -195,29 +202,30 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "4558fa8b-ab93-4872-99df-f7bfc47459bf",
-    "image": "4558fa8b-ab93-4872-99df-f7bfc47459bf.jpg"
-  },
-  {
-    "Card Number": "ROL-008*",
-    "name": "God's Breath",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{R}",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nPut a counter with a name of your choice on a ruler or entity you control. Remove this card from the game.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Kotakan",
-    "Rarity": "MR",
-    "Fowid": "5207",
-    "Cluster": "08 - Saga",
-    "Set Name": "056 - Rebirth of Legend",
-    "Set Code": "ROL",
-    "id": "9d8f9422-efe3-4199-a97a-7ea85859f189",
-    "image": "9d8f9422-efe3-4199-a97a-7ea85859f189.jpg"
+    "image": "4558fa8b-ab93-4872-99df-f7bfc47459bf.jpg",
+    "Card Type": "Resonator",
+    "backimage": "9d8f9422-efe3-4199-a97a-7ea85859f189.jpg",
+    "alternate1_Card Number": "ROL-008*",
+    "alternate1_name": "God's Breath",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{R}",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nPut a counter with a name of your choice on a ruler or entity you control. Remove this card from the game.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Kotakan",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5207",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "056 - Rebirth of Legend",
+    "alternate1_Set Code": "ROL",
+    "alternate1_id": "9d8f9422-efe3-4199-a97a-7ea85859f189",
+    "alternate1_image": "9d8f9422-efe3-4199-a97a-7ea85859f189.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ROL-009",
@@ -239,7 +247,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "5d08683a-ec35-4513-8ea4-6704cf6ac57e",
-    "image": "5d08683a-ec35-4513-8ea4-6704cf6ac57e.jpg"
+    "image": "5d08683a-ec35-4513-8ea4-6704cf6ac57e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ROL-010",
@@ -261,7 +270,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "c9d4255b-bdc8-41a8-a3b8-481f20616092",
-    "image": "c9d4255b-bdc8-41a8-a3b8-481f20616092.jpg"
+    "image": "c9d4255b-bdc8-41a8-a3b8-481f20616092.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ROL-011",
@@ -283,7 +293,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "2e97afab-e144-4ad9-9c17-08f523689040",
-    "image": "2e97afab-e144-4ad9-9c17-08f523689040.jpg"
+    "image": "2e97afab-e144-4ad9-9c17-08f523689040.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ROL-012",
@@ -305,18 +316,19 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "cbef4fc6-29a3-4c48-b404-486e7df42294",
-    "image": "cbef4fc6-29a3-4c48-b404-486e7df42294.jpg"
+    "image": "cbef4fc6-29a3-4c48-b404-486e7df42294.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ROL-013",
-    "name": "Mariabella, Sincere Engineer",
-    "Type": "Resonator",
+    "Card Number": "ROL-013|ROL-013*",
+    "name": "Mariabella, Sincere Engineer // Heart-to-Heart Talk",
+    "Type": "Resonator|Chant",
     "Race": "Human",
-    "Cost": "{U}{1}",
-    "Colour": "U",
+    "Cost": "{U}{1}|{1}",
+    "Colour": "U|V",
     "ATK": "500",
     "DEF": "500",
-    "Abilities": "You may play this card from your removed area.\n[Enter] ]]] You may search your deck for a Machine with total cost 1 or less and put it into the field. Then shuffle your deck.",
+    "Abilities": "You may play this card from your removed area.\n[Enter] ]]] You may search your deck for a Machine with total cost 1 or less and put it into the field. Then shuffle your deck.|Draw a card, then remove this card from the game. This card gains \"Each turn, you may pay {1} less to play the first activate ability of a ruler you control.\" as long as it is removed from the game. (If you control two rulers, only the first ability is affected, not the first of both.)",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -327,29 +339,30 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "0c2780bf-acda-4d47-84b9-6c656692d45c",
-    "image": "0c2780bf-acda-4d47-84b9-6c656692d45c.jpg"
-  },
-  {
-    "Card Number": "ROL-013*",
-    "name": "Heart-to-Heart Talk",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{1}",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Draw a card, then remove this card from the game. This card gains \"Each turn, you may pay {1} less to play the first activate ability of a ruler you control.\" as long as it is removed from the game. (If you control two rulers, only the first ability is affected, not the first of both.)",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Rumie",
-    "Rarity": "MR",
-    "Fowid": "5204",
-    "Cluster": "08 - Saga",
-    "Set Name": "056 - Rebirth of Legend",
-    "Set Code": "ROL",
-    "id": "7eddc57a-1a26-4ea1-ae9f-4cea2671d44c",
-    "image": "7eddc57a-1a26-4ea1-ae9f-4cea2671d44c.jpg"
+    "image": "0c2780bf-acda-4d47-84b9-6c656692d45c.jpg",
+    "Card Type": "Resonator",
+    "backimage": "7eddc57a-1a26-4ea1-ae9f-4cea2671d44c.jpg",
+    "alternate1_Card Number": "ROL-013*",
+    "alternate1_name": "Heart-to-Heart Talk",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{1}",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "Draw a card, then remove this card from the game. This card gains \"Each turn, you may pay {1} less to play the first activate ability of a ruler you control.\" as long as it is removed from the game. (If you control two rulers, only the first ability is affected, not the first of both.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Rumie",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5204",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "056 - Rebirth of Legend",
+    "alternate1_Set Code": "ROL",
+    "alternate1_id": "7eddc57a-1a26-4ea1-ae9f-4cea2671d44c",
+    "alternate1_image": "7eddc57a-1a26-4ea1-ae9f-4cea2671d44c.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ROL-014",
@@ -371,7 +384,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "81851a7f-3d08-43ec-9837-67077ddc0ba6",
-    "image": "81851a7f-3d08-43ec-9837-67077ddc0ba6.jpg"
+    "image": "81851a7f-3d08-43ec-9837-67077ddc0ba6.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ROL-015",
@@ -393,7 +407,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "1e3534ca-4b6f-4c20-9e67-834f50d8c6aa",
-    "image": "1e3534ca-4b6f-4c20-9e67-834f50d8c6aa.jpg"
+    "image": "1e3534ca-4b6f-4c20-9e67-834f50d8c6aa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ROL-016",
@@ -415,7 +430,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "0692629c-1c18-4a9a-bea0-e2354745e067",
-    "image": "0692629c-1c18-4a9a-bea0-e2354745e067.jpg"
+    "image": "0692629c-1c18-4a9a-bea0-e2354745e067.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ROL-017",
@@ -437,18 +453,19 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "9fe6f967-a72e-4e18-9953-42b036fd32d3",
-    "image": "9fe6f967-a72e-4e18-9953-42b036fd32d3.jpg"
+    "image": "9fe6f967-a72e-4e18-9953-42b036fd32d3.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ROL-018",
-    "name": "Pricia, Seeker of Friends",
-    "Type": "Resonator",
+    "Card Number": "ROL-018|ROL-018*",
+    "name": "Pricia, Seeker of Friends // Pricia's Big Show",
+    "Type": "Resonator|Chant",
     "Race": "Wanderer",
-    "Cost": "{G}{1}",
+    "Cost": "{G}{1}|{G}",
     "Colour": "G",
     "ATK": "700",
     "DEF": "700",
-    "Abilities": "[Quickcast]\n[Enter] ]]] Search your deck for a resonator with total cost X or less and put it into the field, where X is the number of times you already played a card named \"Pricia's Big Show\" in this game. Then shuffle your deck.",
+    "Abilities": "[Quickcast]\n[Enter] ]]] Search your deck for a resonator with total cost X or less and put it into the field, where X is the number of times you already played a card named \"Pricia's Big Show\" in this game. Then shuffle your deck.|[Quickcast]\nForesee 2. Put this card into its owner's hand as it resolves.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -459,29 +476,30 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "df2071be-5c7b-49aa-88c1-2516e8e6bf24",
-    "image": "df2071be-5c7b-49aa-88c1-2516e8e6bf24.jpg"
-  },
-  {
-    "Card Number": "ROL-018*",
-    "name": "Pricia's Big Show",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{G}",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nForesee 2. Put this card into its owner's hand as it resolves.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "fzwrAym",
-    "Rarity": "MR",
-    "Fowid": "5205",
-    "Cluster": "08 - Saga",
-    "Set Name": "056 - Rebirth of Legend",
-    "Set Code": "ROL",
-    "id": "7a821395-2b20-4fc3-910f-d9c485822817",
-    "image": "7a821395-2b20-4fc3-910f-d9c485822817.jpg"
+    "image": "df2071be-5c7b-49aa-88c1-2516e8e6bf24.jpg",
+    "Card Type": "Resonator",
+    "backimage": "7a821395-2b20-4fc3-910f-d9c485822817.jpg",
+    "alternate1_Card Number": "ROL-018*",
+    "alternate1_name": "Pricia's Big Show",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{G}",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nForesee 2. Put this card into its owner's hand as it resolves.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "fzwrAym",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5205",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "056 - Rebirth of Legend",
+    "alternate1_Set Code": "ROL",
+    "alternate1_id": "7a821395-2b20-4fc3-910f-d9c485822817",
+    "alternate1_image": "7a821395-2b20-4fc3-910f-d9c485822817.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ROL-019",
@@ -503,7 +521,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "d6cbac89-db6b-4375-80d9-3273a08594fa",
-    "image": "d6cbac89-db6b-4375-80d9-3273a08594fa.jpg"
+    "image": "d6cbac89-db6b-4375-80d9-3273a08594fa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ROL-020",
@@ -525,7 +544,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "9f75d981-4323-4491-9d44-b1d30d6e5ef7",
-    "image": "9f75d981-4323-4491-9d44-b1d30d6e5ef7.jpg"
+    "image": "9f75d981-4323-4491-9d44-b1d30d6e5ef7.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ROL-021",
@@ -547,7 +567,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "6b745aa9-45d9-4821-90d9-d1359dff588d",
-    "image": "6b745aa9-45d9-4821-90d9-d1359dff588d.jpg"
+    "image": "6b745aa9-45d9-4821-90d9-d1359dff588d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ROL-022",
@@ -569,18 +590,19 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "b3d7a113-8822-4c4e-ab4d-6854f5890448",
-    "image": "b3d7a113-8822-4c4e-ab4d-6854f5890448.jpg"
+    "image": "b3d7a113-8822-4c4e-ab4d-6854f5890448.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "ROL-023",
-    "name": "Dracula, Reborn Vampire",
-    "Type": "Resonator",
+    "Card Number": "ROL-023|ROL-023*",
+    "name": "Dracula, Reborn Vampire // The Jewel of Darkness",
+    "Type": "Resonator|Chant",
     "Race": "Vampire",
-    "Cost": "{B}",
+    "Cost": "{B}|{B}{6}",
     "Colour": "B",
     "ATK": "400",
     "DEF": "400",
-    "Abilities": "[Flying]\n[Barrier] {W}\n[+100/+100] counters on this card do not cease to exist if it is put from the field into a graveyard or from a graveyard into the field.\nWhen this card is put into a graveyard from the field ]]] At the next end of turn ]]] Put this card into the field with two additional [+100/+100] counters on it.",
+    "Abilities": "[Flying]\n[Barrier] {W}\n[+100/+100] counters on this card do not cease to exist if it is put from the field into a graveyard or from a graveyard into the field.\nWhen this card is put into a graveyard from the field ]]] At the next end of turn ]]] Put this card into the field with two additional [+100/+100] counters on it.|[Remnant]\nYou may pay {1} less to play this card from your graveyard for each [+100/+100] counter on it.\nDestroy all J/resonators your opponent controls.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -591,29 +613,30 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "a718b43e-f5c7-42eb-8f22-dc9ab029414c",
-    "image": "a718b43e-f5c7-42eb-8f22-dc9ab029414c.jpg"
-  },
-  {
-    "Card Number": "ROL-023*",
-    "name": "The Jewel of Darkness",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{B}{6}",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Remnant]\nYou may pay {1} less to play this card from your graveyard for each [+100/+100] counter on it.\nDestroy all J/resonators your opponent controls.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Sadui/JCREATiON",
-    "Rarity": "MR",
-    "Fowid": "5206",
-    "Cluster": "08 - Saga",
-    "Set Name": "056 - Rebirth of Legend",
-    "Set Code": "ROL",
-    "id": "bf67600a-8a05-4a2e-a6ca-52355f4c7cb5",
-    "image": "bf67600a-8a05-4a2e-a6ca-52355f4c7cb5.jpg"
+    "image": "a718b43e-f5c7-42eb-8f22-dc9ab029414c.jpg",
+    "Card Type": "Resonator",
+    "backimage": "bf67600a-8a05-4a2e-a6ca-52355f4c7cb5.jpg",
+    "alternate1_Card Number": "ROL-023*",
+    "alternate1_name": "The Jewel of Darkness",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{B}{6}",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Remnant]\nYou may pay {1} less to play this card from your graveyard for each [+100/+100] counter on it.\nDestroy all J/resonators your opponent controls.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Sadui/JCREATiON",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5206",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "056 - Rebirth of Legend",
+    "alternate1_Set Code": "ROL",
+    "alternate1_id": "bf67600a-8a05-4a2e-a6ca-52355f4c7cb5",
+    "alternate1_image": "bf67600a-8a05-4a2e-a6ca-52355f4c7cb5.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ROL-024",
@@ -635,7 +658,8 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "35e10ddf-a76b-4d78-b206-4fbef3304a49",
-    "image": "35e10ddf-a76b-4d78-b206-4fbef3304a49.jpg"
+    "image": "35e10ddf-a76b-4d78-b206-4fbef3304a49.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ROL-025",
@@ -657,6 +681,7 @@
     "Set Name": "056 - Rebirth of Legend",
     "Set Code": "ROL",
     "id": "ed9aafd0-a2a3-4de7-8d3d-857599b48e94",
-    "image": "ed9aafd0-a2a3-4de7-8d3d-857599b48e94.jpg"
+    "image": "ed9aafd0-a2a3-4de7-8d3d-857599b48e94.jpg",
+    "Card Type": "Special Magic Stone"
   }
 ]

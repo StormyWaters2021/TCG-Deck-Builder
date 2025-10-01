@@ -19,7 +19,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "aefb1d4a-a9d9-4827-a854-dbbf41bc49cf",
-    "image": "aefb1d4a-a9d9-4827-a854-dbbf41bc49cf.jpg"
+    "image": "aefb1d4a-a9d9-4827-a854-dbbf41bc49cf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV2-002",
@@ -41,7 +42,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "743a1791-73fd-4f43-9b45-61b4665c3f00",
-    "image": "743a1791-73fd-4f43-9b45-61b4665c3f00.jpg"
+    "image": "743a1791-73fd-4f43-9b45-61b4665c3f00.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV2-003",
@@ -63,7 +65,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "2de9d01b-87a7-4a52-b283-bdb916eb3225",
-    "image": "2de9d01b-87a7-4a52-b283-bdb916eb3225.jpg"
+    "image": "2de9d01b-87a7-4a52-b283-bdb916eb3225.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV2-004",
@@ -85,7 +88,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "93d8a7f3-6bef-4387-9624-321730a924e2",
-    "image": "93d8a7f3-6bef-4387-9624-321730a924e2.jpg"
+    "image": "93d8a7f3-6bef-4387-9624-321730a924e2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV2-005",
@@ -107,7 +111,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "a69dfed7-a2df-4d6c-863a-c8dfda6c6170",
-    "image": "a69dfed7-a2df-4d6c-863a-c8dfda6c6170.jpg"
+    "image": "a69dfed7-a2df-4d6c-863a-c8dfda6c6170.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV2-006",
@@ -129,7 +134,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "2db8c3f0-540a-49d0-9d2f-5b74a58f17aa",
-    "image": "2db8c3f0-540a-49d0-9d2f-5b74a58f17aa.jpg"
+    "image": "2db8c3f0-540a-49d0-9d2f-5b74a58f17aa.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV2-007",
@@ -151,7 +157,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "d9b6e319-8066-4f24-9f97-3ea45c8315af",
-    "image": "d9b6e319-8066-4f24-9f97-3ea45c8315af.jpg"
+    "image": "d9b6e319-8066-4f24-9f97-3ea45c8315af.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV2-008",
@@ -173,51 +180,53 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "54d6aa4a-b2cf-4349-9e68-c17e54ea8527",
-    "image": "54d6aa4a-b2cf-4349-9e68-c17e54ea8527.jpg"
+    "image": "54d6aa4a-b2cf-4349-9e68-c17e54ea8527.jpg",
+    "Card Type": "Master Rune"
   },
   {
-    "Card Number": "SDV2-009",
-    "name": "Fu Xi",
-    "Type": "Ruler",
-    "Race": "King",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] 10\n[Judgment] {R} {R} {3}\n[Energize] {R}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The ruler of Kunlun is always prepared for war.",
-    "Artist": "Kusanagi Tyouen",
-    "Rarity": "R",
-    "Fowid": "3783",
-    "Cluster": "06 - New Valhalla",
-    "Set Name": "037 - Starter Deck Valhalla - Fire",
-    "Set Code": "SDV2",
-    "id": "fdf1a10b-110d-4307-a752-71cddc8b837f",
-    "image": "fdf1a10b-110d-4307-a752-71cddc8b837f.jpg"
-  },
-  {
-    "Card Number": "SDV2-009J",
-    "name": "Fu Xi, King of Kunlun",
-    "Type": "J-Ruler",
+    "Card Number": "SDV2-009|SDV2-009J",
+    "name": "Fu Xi // Fu Xi, King of Kunlun",
+    "Type": "Ruler|J-Ruler",
     "Race": "King",
     "Cost": "",
     "Colour": "R",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Divinity] 10\n[Flying]\n[Enter] ⇒ Search your deck for a Dragon with total cost 4 or less and put it into the field. Then shuffle your deck. (When this card enters the field ⇒ Perform the effect.)",
+    "Abilities": "[Divinity] 10\n[Judgment] {R} {R} {3}\n[Energize] {R}|[Divinity] 10\n[Flying]\n[Enter] ⇒ Search your deck for a Dragon with total cost 4 or less and put it into the field. Then shuffle your deck. (When this card enters the field ⇒ Perform the effect.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Let me show you what it means to be king!\"",
+    "Flavour": "The ruler of Kunlun is always prepared for war.|\"Let me show you what it means to be king!\"",
     "Artist": "Kusanagi Tyouen",
     "Rarity": "R",
-    "Fowid": "3784",
+    "Fowid": "3783|3784",
     "Cluster": "06 - New Valhalla",
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
-    "id": "cd13e7d3-a63c-4856-a64c-60a85a394832",
-    "image": "cd13e7d3-a63c-4856-a64c-60a85a394832.jpg"
+    "id": "fdf1a10b-110d-4307-a752-71cddc8b837f",
+    "image": "fdf1a10b-110d-4307-a752-71cddc8b837f.jpg",
+    "Card Type": "Ruler",
+    "backimage": "cd13e7d3-a63c-4856-a64c-60a85a394832.jpg",
+    "alternate1_Card Number": "SDV2-009J",
+    "alternate1_name": "Fu Xi, King of Kunlun",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "King",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Divinity] 10\n[Flying]\n[Enter] ⇒ Search your deck for a Dragon with total cost 4 or less and put it into the field. Then shuffle your deck. (When this card enters the field ⇒ Perform the effect.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Let me show you what it means to be king!\"",
+    "alternate1_Artist": "Kusanagi Tyouen",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3784",
+    "alternate1_Cluster": "06 - New Valhalla",
+    "alternate1_Set Name": "037 - Starter Deck Valhalla - Fire",
+    "alternate1_Set Code": "SDV2",
+    "alternate1_id": "cd13e7d3-a63c-4856-a64c-60a85a394832",
+    "alternate1_image": "cd13e7d3-a63c-4856-a64c-60a85a394832.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDV2-010",
@@ -239,51 +248,53 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "0217300c-f41e-4696-84bd-92de3b1739fd",
-    "image": "0217300c-f41e-4696-84bd-92de3b1739fd.jpg"
+    "image": "0217300c-f41e-4696-84bd-92de3b1739fd.jpg",
+    "Card Type": "Rune"
   },
   {
-    "Card Number": "SDV2-011",
-    "name": "Isis",
-    "Type": "Ruler",
-    "Race": "Ascendant",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] 10\n[Judgment] {R} {R} {2}\n[Energize] {R}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The gods who birthed Sandora from nothing distributed their own power to a few humans, those of which would later rule as Ascendants.",
-    "Artist": "Matsurika Yoko",
-    "Rarity": "R",
-    "Fowid": "3786",
-    "Cluster": "06 - New Valhalla",
-    "Set Name": "037 - Starter Deck Valhalla - Fire",
-    "Set Code": "SDV2",
-    "id": "53a28619-f498-4e2e-99f4-c83e35feb0ff",
-    "image": "53a28619-f498-4e2e-99f4-c83e35feb0ff.jpg"
-  },
-  {
-    "Card Number": "SDV2-011J",
-    "name": "Isis, the Hundred Weapon Master",
-    "Type": "J-Ruler",
+    "Card Number": "SDV2-011|SDV2-011J",
+    "name": "Isis // Isis, the Hundred Weapon Master",
+    "Type": "Ruler|J-Ruler",
     "Race": "Ascendant",
     "Cost": "",
     "Colour": "R",
     "ATK": "1400",
     "DEF": "800",
-    "Abilities": "[Divinity]\n[First Strike]\n{R}: This card deals 200 damage to target J/resonator.\n{R}: This card gains [Precision] until end of turn.\n{R} {R}: This card gains [Barrier] until end of turn.",
+    "Abilities": "[Divinity] 10\n[Judgment] {R} {R} {2}\n[Energize] {R}|[Divinity]\n[First Strike]\n{R}: This card deals 200 damage to target J/resonator.\n{R}: This card gains [Precision] until end of turn.\n{R} {R}: This card gains [Barrier] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Her ultimate attack resembles petals scattering in the wind, earning her the title the \"Flower of the Desert\".",
+    "Flavour": "The gods who birthed Sandora from nothing distributed their own power to a few humans, those of which would later rule as Ascendants.|Her ultimate attack resembles petals scattering in the wind, earning her the title the \"Flower of the Desert\".",
     "Artist": "Matsurika Yoko",
     "Rarity": "R",
-    "Fowid": "3787",
+    "Fowid": "3786|3787",
     "Cluster": "06 - New Valhalla",
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
-    "id": "bfd20f8e-c840-4e69-b801-e2e055cdab1c",
-    "image": "bfd20f8e-c840-4e69-b801-e2e055cdab1c.jpg"
+    "id": "53a28619-f498-4e2e-99f4-c83e35feb0ff",
+    "image": "53a28619-f498-4e2e-99f4-c83e35feb0ff.jpg",
+    "Card Type": "Ruler",
+    "backimage": "bfd20f8e-c840-4e69-b801-e2e055cdab1c.jpg",
+    "alternate1_Card Number": "SDV2-011J",
+    "alternate1_name": "Isis, the Hundred Weapon Master",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Ascendant",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1400",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Divinity]\n[First Strike]\n{R}: This card deals 200 damage to target J/resonator.\n{R}: This card gains [Precision] until end of turn.\n{R} {R}: This card gains [Barrier] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Her ultimate attack resembles petals scattering in the wind, earning her the title the \"Flower of the Desert\".",
+    "alternate1_Artist": "Matsurika Yoko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3787",
+    "alternate1_Cluster": "06 - New Valhalla",
+    "alternate1_Set Name": "037 - Starter Deck Valhalla - Fire",
+    "alternate1_Set Code": "SDV2",
+    "alternate1_id": "bfd20f8e-c840-4e69-b801-e2e055cdab1c",
+    "alternate1_image": "bfd20f8e-c840-4e69-b801-e2e055cdab1c.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDV2-012",
@@ -305,7 +316,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "bb194404-5db4-4a52-99c6-238b6a3e7ab3",
-    "image": "bb194404-5db4-4a52-99c6-238b6a3e7ab3.jpg"
+    "image": "bb194404-5db4-4a52-99c6-238b6a3e7ab3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV2-013",
@@ -327,7 +339,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "b96df340-3fc4-4631-8b5e-fabf41fd834c",
-    "image": "b96df340-3fc4-4631-8b5e-fabf41fd834c.jpg"
+    "image": "b96df340-3fc4-4631-8b5e-fabf41fd834c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV2-014",
@@ -349,7 +362,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "86a67396-06d6-4f6d-bdb6-d2f32b1028a5",
-    "image": "86a67396-06d6-4f6d-bdb6-d2f32b1028a5.jpg"
+    "image": "86a67396-06d6-4f6d-bdb6-d2f32b1028a5.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV2-015",
@@ -371,7 +385,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "3bd21613-098b-464f-83de-aea26a7a3a07",
-    "image": "3bd21613-098b-464f-83de-aea26a7a3a07.jpg"
+    "image": "3bd21613-098b-464f-83de-aea26a7a3a07.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV2-016",
@@ -393,7 +408,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "8e37effd-d4b5-4f5e-a738-fd07debc82af",
-    "image": "8e37effd-d4b5-4f5e-a738-fd07debc82af.jpg"
+    "image": "8e37effd-d4b5-4f5e-a738-fd07debc82af.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV2-017",
@@ -415,7 +431,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "bdeec539-0439-4603-ac90-70f1840b9cbc",
-    "image": "bdeec539-0439-4603-ac90-70f1840b9cbc.jpg"
+    "image": "bdeec539-0439-4603-ac90-70f1840b9cbc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV2-018",
@@ -437,7 +454,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "f4ccc80c-71b4-43e6-8470-44f4d35c3773",
-    "image": "f4ccc80c-71b4-43e6-8470-44f4d35c3773.jpg"
+    "image": "f4ccc80c-71b4-43e6-8470-44f4d35c3773.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV2-019",
@@ -459,7 +477,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "7ca0a57d-122a-478d-9d69-906ec32aa052",
-    "image": "7ca0a57d-122a-478d-9d69-906ec32aa052.jpg"
+    "image": "7ca0a57d-122a-478d-9d69-906ec32aa052.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV2-020",
@@ -481,7 +500,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "9dbbc39b-eade-4cbe-9654-1cb821c828eb",
-    "image": "9dbbc39b-eade-4cbe-9654-1cb821c828eb.jpg"
+    "image": "9dbbc39b-eade-4cbe-9654-1cb821c828eb.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV2-021",
@@ -503,7 +523,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "c8f1eb42-4b28-4de0-b9dd-389d72430810",
-    "image": "c8f1eb42-4b28-4de0-b9dd-389d72430810.jpg"
+    "image": "c8f1eb42-4b28-4de0-b9dd-389d72430810.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV2-022",
@@ -525,7 +546,8 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "60607f31-2bb7-4395-bba1-a8c958e9f5fd",
-    "image": "60607f31-2bb7-4395-bba1-a8c958e9f5fd.jpg"
+    "image": "60607f31-2bb7-4395-bba1-a8c958e9f5fd.jpg",
+    "Card Type": "Master Rune"
   },
   {
     "Card Number": "SDV2-023",
@@ -547,6 +569,7 @@
     "Set Name": "037 - Starter Deck Valhalla - Fire",
     "Set Code": "SDV2",
     "id": "8383a4fd-ce5a-471b-91e1-059826fbac65",
-    "image": "8383a4fd-ce5a-471b-91e1-059826fbac65.jpg"
+    "image": "8383a4fd-ce5a-471b-91e1-059826fbac65.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

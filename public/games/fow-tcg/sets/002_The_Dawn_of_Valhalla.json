@@ -1,14 +1,14 @@
 [
   {
-    "Card Number": "1-001",
-    "name": "Siegfried, the Knight Commander",
-    "Type": "Ruler",
-    "Race": "Knight",
+    "Card Number": "1-001|1-001J",
+    "name": "Siegfried, the Knight Commander // Siegfried, the Dragon Knight",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Knight|Hero",
     "Cost": "",
     "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {4} and discard 3 cards from your hand.\n[Continuous]: Free cost for [Race:Dragon] resonator you play costs {1} less to play.",
+    "ATK": "1500",
+    "DEF": "800",
+    "Abilities": "[J-Activate] Pay {4} and discard 3 cards from your hand.\n[Continuous]: Free cost for [Race:Dragon] resonator you play costs {1} less to play.|[Continuous]: Your [Race:Dragon] resonators gain [+200/+0].\n[Enter]: You may put any number of [Race:Dragon] resonator cards from your hand into your field.\n[Activate] Pay {2}: This card gains [+0/+300] until end of turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -19,40 +19,41 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "00aabf17-0922-4f9d-94b4-8170d55c5b38",
-    "image": "00aabf17-0922-4f9d-94b4-8170d55c5b38.jpg"
+    "image": "00aabf17-0922-4f9d-94b4-8170d55c5b38.jpg",
+    "Card Type": "Ruler",
+    "backimage": "29563e63-7cc8-4ebe-b4ab-80ca198bcae5.jpg",
+    "alternate1_Card Number": "1-001J",
+    "alternate1_name": "Siegfried, the Dragon Knight",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Hero",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1500",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Continuous]: Your [Race:Dragon] resonators gain [+200/+0].\n[Enter]: You may put any number of [Race:Dragon] resonator cards from your hand into your field.\n[Activate] Pay {2}: This card gains [+0/+300] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "002 - The Dawn of Valhalla",
+    "alternate1_Set Code": "1",
+    "alternate1_id": "29563e63-7cc8-4ebe-b4ab-80ca198bcae5",
+    "alternate1_image": "29563e63-7cc8-4ebe-b4ab-80ca198bcae5.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "1-001J",
-    "name": "Siegfried, the Dragon Knight",
-    "Type": "J-Ruler",
-    "Race": "Hero",
+    "Card Number": "1-002|1-002J",
+    "name": "Arthur, the King of Knights // Ares, the Knight God Emperor",
+    "Type": "Ruler|J-Ruler",
+    "Race": "King|Deity",
     "Cost": "",
     "Colour": "W",
-    "ATK": "1500",
+    "ATK": "800",
     "DEF": "800",
-    "Abilities": "[Continuous]: Your [Race:Dragon] resonators gain [+200/+0].\n[Enter]: You may put any number of [Race:Dragon] resonator cards from your hand into your field.\n[Activate] Pay {2}: This card gains [+0/+300] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "002 - The Dawn of Valhalla",
-    "Set Code": "1",
-    "id": "29563e63-7cc8-4ebe-b4ab-80ca198bcae5",
-    "image": "29563e63-7cc8-4ebe-b4ab-80ca198bcae5.jpg"
-  },
-  {
-    "Card Number": "1-002",
-    "name": "Arthur, the King of Knights",
-    "Type": "Ruler",
-    "Race": "King",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {W}{W}{W}{2}\n[Continuous]: Your [Race:Knight of the Round Table] resonators gain: \"[Activate] {Rest}: Produce {W}.\".\n[Activate] {Rest}: Activate only at the beginning of your opponent's battle phase. Recover target [Race:Knight of the Round Table] resonator. It gains [+0/+500] until end of turn.",
+    "Abilities": "[J-Activate] Pay {W}{W}{W}{2}\n[Continuous]: Your [Race:Knight of the Round Table] resonators gain: \"[Activate] {Rest}: Produce {W}.\".\n[Activate] {Rest}: Activate only at the beginning of your opponent's battle phase. Recover target [Race:Knight of the Round Table] resonator. It gains [+0/+500] until end of turn.|[Continuous]: Your [Race:Knight of the Round Table] resonators gain [+100/+100].\n[Enter]: You may put any number of [Addition:Resonator] cards from your hand and/or your graveyard on this card.\n[Continuous]: Each [Addition:Resonator] on this card affects this card as though this card is a resonator.\n[Activate] {Rest}: Produce {W} for each [Race:Knight of the Round Table] resonator in your field.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -63,40 +64,41 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "545f9a4f-381a-4284-8c95-89fd68a8a4ca",
-    "image": "545f9a4f-381a-4284-8c95-89fd68a8a4ca.jpg"
+    "image": "545f9a4f-381a-4284-8c95-89fd68a8a4ca.jpg",
+    "Card Type": "Ruler",
+    "backimage": "2ba299cc-060d-4581-a809-3e1ecd8c8fd6.jpg",
+    "alternate1_Card Number": "1-002J",
+    "alternate1_name": "Ares, the Knight God Emperor",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Deity",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Continuous]: Your [Race:Knight of the Round Table] resonators gain [+100/+100].\n[Enter]: You may put any number of [Addition:Resonator] cards from your hand and/or your graveyard on this card.\n[Continuous]: Each [Addition:Resonator] on this card affects this card as though this card is a resonator.\n[Activate] {Rest}: Produce {W} for each [Race:Knight of the Round Table] resonator in your field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "002 - The Dawn of Valhalla",
+    "alternate1_Set Code": "1",
+    "alternate1_id": "2ba299cc-060d-4581-a809-3e1ecd8c8fd6",
+    "alternate1_image": "2ba299cc-060d-4581-a809-3e1ecd8c8fd6.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "1-002J",
-    "name": "Ares, the Knight God Emperor",
-    "Type": "J-Ruler",
-    "Race": "Deity",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "[Continuous]: Your [Race:Knight of the Round Table] resonators gain [+100/+100].\n[Enter]: You may put any number of [Addition:Resonator] cards from your hand and/or your graveyard on this card.\n[Continuous]: Each [Addition:Resonator] on this card affects this card as though this card is a resonator.\n[Activate] {Rest}: Produce {W} for each [Race:Knight of the Round Table] resonator in your field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "002 - The Dawn of Valhalla",
-    "Set Code": "1",
-    "id": "2ba299cc-060d-4581-a809-3e1ecd8c8fd6",
-    "image": "2ba299cc-060d-4581-a809-3e1ecd8c8fd6.jpg"
-  },
-  {
-    "Card Number": "1-003",
-    "name": "Commander of the Flash Knights",
-    "Type": "Ruler",
+    "Card Number": "1-003|1-003J",
+    "name": "Commander of the Flash Knights // Commander of the Flash Knights [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Knight",
     "Cost": "",
     "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {0}. You can activate this if you have four or more resonators in your field.\n[Activate] {Rest}: Target resonator gains [Target Attack] until end of turn.",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[J-Activate] Pay {0}. You can activate this if you have four or more resonators in your field.\n[Activate] {Rest}: Target resonator gains [Target Attack] until end of turn.|[Pierce]\n[Target Attack]\n[Enter]: This card can attack on the turn you did judgment. Resonators in your field gain [+200/+200] until end of turn. At the end of turn, recover all resonators in your field.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -107,29 +109,30 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "817b105c-3b09-4235-b82a-cd32f255df1e",
-    "image": "817b105c-3b09-4235-b82a-cd32f255df1e.jpg"
-  },
-  {
-    "Card Number": "1-003J",
-    "name": "Commander of the Flash Knights [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Knight",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Pierce]\n[Target Attack]\n[Enter]: This card can attack on the turn you did judgment. Resonators in your field gain [+200/+200] until end of turn. At the end of turn, recover all resonators in your field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "002 - The Dawn of Valhalla",
-    "Set Code": "1",
-    "id": "0496d586-3567-447d-b7d7-88428a197b54",
-    "image": "0496d586-3567-447d-b7d7-88428a197b54.jpg"
+    "image": "817b105c-3b09-4235-b82a-cd32f255df1e.jpg",
+    "Card Type": "Ruler",
+    "backimage": "0496d586-3567-447d-b7d7-88428a197b54.jpg",
+    "alternate1_Card Number": "1-003J",
+    "alternate1_name": "Commander of the Flash Knights [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Knight",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Pierce]\n[Target Attack]\n[Enter]: This card can attack on the turn you did judgment. Resonators in your field gain [+200/+200] until end of turn. At the end of turn, recover all resonators in your field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "002 - The Dawn of Valhalla",
+    "alternate1_Set Code": "1",
+    "alternate1_id": "0496d586-3567-447d-b7d7-88428a197b54",
+    "alternate1_image": "0496d586-3567-447d-b7d7-88428a197b54.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "1-004",
@@ -151,7 +154,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "3ddc776c-c397-479d-ba60-0fd2256de01a",
-    "image": "3ddc776c-c397-479d-ba60-0fd2256de01a.jpg"
+    "image": "3ddc776c-c397-479d-ba60-0fd2256de01a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-005",
@@ -173,7 +177,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "a60752ce-8634-471d-9241-9dbba4ed46dc",
-    "image": "a60752ce-8634-471d-9241-9dbba4ed46dc.jpg"
+    "image": "a60752ce-8634-471d-9241-9dbba4ed46dc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-006",
@@ -195,7 +200,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "d776feb8-f37d-4a90-8e66-1254eb10496c",
-    "image": "d776feb8-f37d-4a90-8e66-1254eb10496c.jpg"
+    "image": "d776feb8-f37d-4a90-8e66-1254eb10496c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-007",
@@ -217,7 +223,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "1d7d5eff-ce84-4fe0-9fcb-9da45afcee50",
-    "image": "1d7d5eff-ce84-4fe0-9fcb-9da45afcee50.jpg"
+    "image": "1d7d5eff-ce84-4fe0-9fcb-9da45afcee50.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-008",
@@ -239,7 +246,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "486d030c-7759-47b8-9db4-5a006e8b1841",
-    "image": "486d030c-7759-47b8-9db4-5a006e8b1841.jpg"
+    "image": "486d030c-7759-47b8-9db4-5a006e8b1841.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-009",
@@ -261,7 +269,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "038197e9-0b56-4bfc-bacf-78c0a26a9505",
-    "image": "038197e9-0b56-4bfc-bacf-78c0a26a9505.jpg"
+    "image": "038197e9-0b56-4bfc-bacf-78c0a26a9505.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-010",
@@ -283,7 +292,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "d1498ab3-ef52-4463-88c5-a49d8b24a539",
-    "image": "d1498ab3-ef52-4463-88c5-a49d8b24a539.jpg"
+    "image": "d1498ab3-ef52-4463-88c5-a49d8b24a539.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-011",
@@ -305,7 +315,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "d8a5258c-26e5-4156-ac08-699b7fe6ff0d",
-    "image": "d8a5258c-26e5-4156-ac08-699b7fe6ff0d.jpg"
+    "image": "d8a5258c-26e5-4156-ac08-699b7fe6ff0d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-012",
@@ -327,7 +338,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "e241e1e5-5610-4048-b86f-48987efb03d4",
-    "image": "e241e1e5-5610-4048-b86f-48987efb03d4.jpg"
+    "image": "e241e1e5-5610-4048-b86f-48987efb03d4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-013",
@@ -349,7 +361,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "1cda8483-dd33-4134-b84e-0b6ebd88160d",
-    "image": "1cda8483-dd33-4134-b84e-0b6ebd88160d.jpg"
+    "image": "1cda8483-dd33-4134-b84e-0b6ebd88160d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-014",
@@ -371,7 +384,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "21f3161a-ca88-401a-a0dc-ee493c812af9",
-    "image": "21f3161a-ca88-401a-a0dc-ee493c812af9.jpg"
+    "image": "21f3161a-ca88-401a-a0dc-ee493c812af9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-015",
@@ -393,7 +407,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "6621007e-79a6-47e7-9772-c4ac66d7df2f",
-    "image": "6621007e-79a6-47e7-9772-c4ac66d7df2f.jpg"
+    "image": "6621007e-79a6-47e7-9772-c4ac66d7df2f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-016",
@@ -415,7 +430,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "90c646fe-0a99-48eb-aed1-68e50a6df8f2",
-    "image": "90c646fe-0a99-48eb-aed1-68e50a6df8f2.jpg"
+    "image": "90c646fe-0a99-48eb-aed1-68e50a6df8f2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-017",
@@ -437,7 +453,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "f9fa1347-b5b5-4547-b5fb-3a7927ab6124",
-    "image": "f9fa1347-b5b5-4547-b5fb-3a7927ab6124.jpg"
+    "image": "f9fa1347-b5b5-4547-b5fb-3a7927ab6124.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-018",
@@ -459,7 +476,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "96f0acb5-38db-48e6-92b2-5fe31918029c",
-    "image": "96f0acb5-38db-48e6-92b2-5fe31918029c.jpg"
+    "image": "96f0acb5-38db-48e6-92b2-5fe31918029c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-019",
@@ -481,7 +499,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "634c0e28-71ea-4401-88a0-631d42c65c2c",
-    "image": "634c0e28-71ea-4401-88a0-631d42c65c2c.jpg"
+    "image": "634c0e28-71ea-4401-88a0-631d42c65c2c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-020",
@@ -503,7 +522,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "5751940b-d738-4687-bfc4-dea94ce19f1c",
-    "image": "5751940b-d738-4687-bfc4-dea94ce19f1c.jpg"
+    "image": "5751940b-d738-4687-bfc4-dea94ce19f1c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-021",
@@ -525,7 +545,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "102f609f-64dd-4ea7-9740-9a581e19a4f7",
-    "image": "102f609f-64dd-4ea7-9740-9a581e19a4f7.jpg"
+    "image": "102f609f-64dd-4ea7-9740-9a581e19a4f7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-022",
@@ -547,7 +568,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "3503efea-aa48-4c95-a381-8a225da9bda1",
-    "image": "3503efea-aa48-4c95-a381-8a225da9bda1.jpg"
+    "image": "3503efea-aa48-4c95-a381-8a225da9bda1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-023",
@@ -569,7 +591,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "64b63852-a10f-4179-ae12-e03f2a4988d1",
-    "image": "64b63852-a10f-4179-ae12-e03f2a4988d1.jpg"
+    "image": "64b63852-a10f-4179-ae12-e03f2a4988d1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-024",
@@ -591,7 +614,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "260f13d1-1f23-4b4c-8b24-f3ffffe88584",
-    "image": "260f13d1-1f23-4b4c-8b24-f3ffffe88584.jpg"
+    "image": "260f13d1-1f23-4b4c-8b24-f3ffffe88584.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-025",
@@ -613,7 +637,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "f3a8717a-8811-41f6-8849-843049074269",
-    "image": "f3a8717a-8811-41f6-8849-843049074269.jpg"
+    "image": "f3a8717a-8811-41f6-8849-843049074269.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-026",
@@ -635,7 +660,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "7d285319-3c28-44d7-9c89-c4bd0dce8cdc",
-    "image": "7d285319-3c28-44d7-9c89-c4bd0dce8cdc.jpg"
+    "image": "7d285319-3c28-44d7-9c89-c4bd0dce8cdc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-027",
@@ -657,7 +683,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "44a00e0a-46a0-4c2e-8847-73f8b5f14bf1",
-    "image": "44a00e0a-46a0-4c2e-8847-73f8b5f14bf1.jpg"
+    "image": "44a00e0a-46a0-4c2e-8847-73f8b5f14bf1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-028",
@@ -679,7 +706,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "056f28f3-4fa1-4946-b703-933a384b253b",
-    "image": "056f28f3-4fa1-4946-b703-933a384b253b.jpg"
+    "image": "056f28f3-4fa1-4946-b703-933a384b253b.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "1-029",
@@ -701,7 +729,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "be6fc0c0-5709-4925-ba86-1e5b807fbba2",
-    "image": "be6fc0c0-5709-4925-ba86-1e5b807fbba2.jpg"
+    "image": "be6fc0c0-5709-4925-ba86-1e5b807fbba2.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "1-030",
@@ -723,7 +752,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "d666cc0a-3e3d-4d4b-af16-7f02c08cf058",
-    "image": "d666cc0a-3e3d-4d4b-af16-7f02c08cf058.jpg"
+    "image": "d666cc0a-3e3d-4d4b-af16-7f02c08cf058.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "1-031",
@@ -745,7 +775,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "5a64fe71-532a-4e79-8b5c-130517dafad5",
-    "image": "5a64fe71-532a-4e79-8b5c-130517dafad5.jpg"
+    "image": "5a64fe71-532a-4e79-8b5c-130517dafad5.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-032",
@@ -767,7 +798,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "17028999-3001-46c5-8955-cdcd2c2fb828",
-    "image": "17028999-3001-46c5-8955-cdcd2c2fb828.jpg"
+    "image": "17028999-3001-46c5-8955-cdcd2c2fb828.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-033",
@@ -789,7 +821,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "090d5337-c148-42f2-9853-5a02018f41ec",
-    "image": "090d5337-c148-42f2-9853-5a02018f41ec.jpg"
+    "image": "090d5337-c148-42f2-9853-5a02018f41ec.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-034",
@@ -811,7 +844,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "9f91021f-c978-4dfd-b847-9b47992a25b7",
-    "image": "9f91021f-c978-4dfd-b847-9b47992a25b7.jpg"
+    "image": "9f91021f-c978-4dfd-b847-9b47992a25b7.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-035",
@@ -833,7 +867,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "c68542c3-33a4-45e2-bd7b-5b372ff44e05",
-    "image": "c68542c3-33a4-45e2-bd7b-5b372ff44e05.jpg"
+    "image": "c68542c3-33a4-45e2-bd7b-5b372ff44e05.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-036",
@@ -855,7 +890,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "134fd839-0b00-4dc8-a8de-e213074914d4",
-    "image": "134fd839-0b00-4dc8-a8de-e213074914d4.jpg"
+    "image": "134fd839-0b00-4dc8-a8de-e213074914d4.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-037",
@@ -877,7 +913,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "66c930c6-2600-4ec4-b487-d00e7feb78b2",
-    "image": "66c930c6-2600-4ec4-b487-d00e7feb78b2.jpg"
+    "image": "66c930c6-2600-4ec4-b487-d00e7feb78b2.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-038",
@@ -899,7 +936,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "ededda74-639b-450e-9f06-c3cfcbed521f",
-    "image": "ededda74-639b-450e-9f06-c3cfcbed521f.jpg"
+    "image": "ededda74-639b-450e-9f06-c3cfcbed521f.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-039",
@@ -921,7 +959,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "8b8e90da-a2b3-4e49-a38e-279e1f80953a",
-    "image": "8b8e90da-a2b3-4e49-a38e-279e1f80953a.jpg"
+    "image": "8b8e90da-a2b3-4e49-a38e-279e1f80953a.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-040",
@@ -943,7 +982,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "6731938a-bf8e-4611-9910-e1d9d7bbcf3e",
-    "image": "6731938a-bf8e-4611-9910-e1d9d7bbcf3e.jpg"
+    "image": "6731938a-bf8e-4611-9910-e1d9d7bbcf3e.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-041",
@@ -965,7 +1005,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "caccf173-556c-4948-9480-830540d3046d",
-    "image": "caccf173-556c-4948-9480-830540d3046d.jpg"
+    "image": "caccf173-556c-4948-9480-830540d3046d.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-042",
@@ -987,7 +1028,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "41092179-aa50-429f-b839-90843b22a54c",
-    "image": "41092179-aa50-429f-b839-90843b22a54c.jpg"
+    "image": "41092179-aa50-429f-b839-90843b22a54c.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-043",
@@ -1009,7 +1051,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "a8692fe3-2ee8-45f2-bc90-fe1b8efebbd4",
-    "image": "a8692fe3-2ee8-45f2-bc90-fe1b8efebbd4.jpg"
+    "image": "a8692fe3-2ee8-45f2-bc90-fe1b8efebbd4.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-044",
@@ -1031,7 +1074,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "891c5dfd-af72-45ff-b0c6-f12dbbcf4b4a",
-    "image": "891c5dfd-af72-45ff-b0c6-f12dbbcf4b4a.jpg"
+    "image": "891c5dfd-af72-45ff-b0c6-f12dbbcf4b4a.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-045",
@@ -1053,7 +1097,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "a98328d6-7f51-4293-b8a4-034f6e27fdf6",
-    "image": "a98328d6-7f51-4293-b8a4-034f6e27fdf6.jpg"
+    "image": "a98328d6-7f51-4293-b8a4-034f6e27fdf6.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-046",
@@ -1075,7 +1120,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "6919a3d1-f4ee-48e3-9449-ee7d509f8a86",
-    "image": "6919a3d1-f4ee-48e3-9449-ee7d509f8a86.jpg"
+    "image": "6919a3d1-f4ee-48e3-9449-ee7d509f8a86.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-047",
@@ -1097,7 +1143,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "0ce15788-d334-4850-ba91-a71465a158c7",
-    "image": "0ce15788-d334-4850-ba91-a71465a158c7.jpg"
+    "image": "0ce15788-d334-4850-ba91-a71465a158c7.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-048",
@@ -1119,18 +1166,19 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "84f1539e-6e17-40f8-beee-30900859c4b9",
-    "image": "84f1539e-6e17-40f8-beee-30900859c4b9.jpg"
+    "image": "84f1539e-6e17-40f8-beee-30900859c4b9.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "1-049",
-    "name": "Shuren, the King of Supremacy",
-    "Type": "Ruler",
-    "Race": "King",
+    "Card Number": "1-049|1-049J",
+    "name": "Shuren, the King of Supremacy // Barust, the Machine God of Conflagration",
+    "Type": "Ruler|J-Ruler",
+    "Race": "King|Demon",
     "Cost": "",
     "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {R}{R}{R}, choose a card in you hand at random and discard it.\n[Continuous]: Your [Race:Samurai] resonators gain [+200/+0].",
+    "ATK": "0",
+    "DEF": "100",
+    "Abilities": "[J-Activate] Pay {R}{R}{R}, choose a card in you hand at random and discard it.\n[Continuous]: Your [Race:Samurai] resonators gain [+200/+0].|[Continuous]: ATK and DEF of this card is equal to [total number of card in all magic stone areas x 100].\n[Enter]: Destroy all resonators in your field, then destroy all resonators and J-Ruler with 800 or more ATK in your opponent's field.\n[Activate] Banish a card in your magic stone area: This card deals 100 damage to target resonator or J-Ruler.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1141,40 +1189,41 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "f47f7815-cdaa-4b41-8018-51943cff6fc6",
-    "image": "f47f7815-cdaa-4b41-8018-51943cff6fc6.jpg"
+    "image": "f47f7815-cdaa-4b41-8018-51943cff6fc6.jpg",
+    "Card Type": "Ruler",
+    "backimage": "600db740-7419-44bb-aec3-31f97ed03eab.jpg",
+    "alternate1_Card Number": "1-049J",
+    "alternate1_name": "Barust, the Machine God of Conflagration",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Demon",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "100",
+    "alternate1_Abilities": "[Continuous]: ATK and DEF of this card is equal to [total number of card in all magic stone areas x 100].\n[Enter]: Destroy all resonators in your field, then destroy all resonators and J-Ruler with 800 or more ATK in your opponent's field.\n[Activate] Banish a card in your magic stone area: This card deals 100 damage to target resonator or J-Ruler.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "002 - The Dawn of Valhalla",
+    "alternate1_Set Code": "1",
+    "alternate1_id": "600db740-7419-44bb-aec3-31f97ed03eab",
+    "alternate1_image": "600db740-7419-44bb-aec3-31f97ed03eab.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "1-049J",
-    "name": "Barust, the Machine God of Conflagration",
-    "Type": "J-Ruler",
-    "Race": "Demon",
+    "Card Number": "1-050|1-050J",
+    "name": "Raging Flame Kabuki // Barbatos, the Crimson Duke",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Samurai|Demon",
     "Cost": "",
     "Colour": "R",
-    "ATK": "0",
-    "DEF": "100",
-    "Abilities": "[Continuous]: ATK and DEF of this card is equal to [total number of card in all magic stone areas x 100].\n[Enter]: Destroy all resonators in your field, then destroy all resonators and J-Ruler with 800 or more ATK in your opponent's field.\n[Activate] Banish a card in your magic stone area: This card deals 100 damage to target resonator or J-Ruler.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "002 - The Dawn of Valhalla",
-    "Set Code": "1",
-    "id": "600db740-7419-44bb-aec3-31f97ed03eab",
-    "image": "600db740-7419-44bb-aec3-31f97ed03eab.jpg"
-  },
-  {
-    "Card Number": "1-050",
-    "name": "Raging Flame Kabuki",
-    "Type": "Ruler",
-    "Race": "Samurai",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Banish three resonators in your field. This can be activated only at the beginning of your main phase.\n[Continuous]: Your fire attribute resonators with total cost three or less can attack in the turn it's summoned.",
+    "ATK": "1000",
+    "DEF": "400",
+    "Abilities": "[J-Activate] Banish three resonators in your field. This can be activated only at the beginning of your main phase.\n[Continuous]: Your fire attribute resonators with total cost three or less can attack in the turn it's summoned.|[Continuous]: At the end of turn, it deals 500 damage to you and return to the ruler side.\n[Enter]: Rest all resonators.\n[Enter]: This card can attack on the turn you did judgment.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1185,40 +1234,41 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "e5bea239-1300-4acd-92b4-25d42e4ea8d9",
-    "image": "e5bea239-1300-4acd-92b4-25d42e4ea8d9.jpg"
+    "image": "e5bea239-1300-4acd-92b4-25d42e4ea8d9.jpg",
+    "Card Type": "Ruler",
+    "backimage": "0257163a-150b-4535-8469-aafa855ea489.jpg",
+    "alternate1_Card Number": "1-050J",
+    "alternate1_name": "Barbatos, the Crimson Duke",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Demon",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "400",
+    "alternate1_Abilities": "[Continuous]: At the end of turn, it deals 500 damage to you and return to the ruler side.\n[Enter]: Rest all resonators.\n[Enter]: This card can attack on the turn you did judgment.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "002 - The Dawn of Valhalla",
+    "alternate1_Set Code": "1",
+    "alternate1_id": "0257163a-150b-4535-8469-aafa855ea489",
+    "alternate1_image": "0257163a-150b-4535-8469-aafa855ea489.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "1-050J",
-    "name": "Barbatos, the Crimson Duke",
-    "Type": "J-Ruler",
-    "Race": "Demon",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "1000",
-    "DEF": "400",
-    "Abilities": "[Continuous]: At the end of turn, it deals 500 damage to you and return to the ruler side.\n[Enter]: Rest all resonators.\n[Enter]: This card can attack on the turn you did judgment.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "002 - The Dawn of Valhalla",
-    "Set Code": "1",
-    "id": "0257163a-150b-4535-8469-aafa855ea489",
-    "image": "0257163a-150b-4535-8469-aafa855ea489.jpg"
-  },
-  {
-    "Card Number": "1-051",
-    "name": "Warlord of Exploding Flame",
-    "Type": "Ruler",
+    "Card Number": "1-051|1-051J",
+    "name": "Warlord of Exploding Flame // Warlord of Exploding Flame [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Samurai",
     "Cost": "",
     "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {R}{R}{2}\n[Activate] Discard a card from your hand: Target resonator gains [Explode] until end of turn.",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[J-Activate] Pay {R}{R}{2}\n[Activate] Discard a card from your hand: Target resonator gains [Explode] until end of turn.|[Pierce]\n[Target Attack]\n[Enter]: All resonators gain [+200/+0] and [Explode] until end of turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1229,29 +1279,30 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "199d269a-a437-4134-8d2c-863089aa823e",
-    "image": "199d269a-a437-4134-8d2c-863089aa823e.jpg"
-  },
-  {
-    "Card Number": "1-051J",
-    "name": "Warlord of Exploding Flame [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Samurai",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Pierce]\n[Target Attack]\n[Enter]: All resonators gain [+200/+0] and [Explode] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "002 - The Dawn of Valhalla",
-    "Set Code": "1",
-    "id": "293c7839-4f79-47bb-9d40-4e45a0f44a9b",
-    "image": "293c7839-4f79-47bb-9d40-4e45a0f44a9b.jpg"
+    "image": "199d269a-a437-4134-8d2c-863089aa823e.jpg",
+    "Card Type": "Ruler",
+    "backimage": "293c7839-4f79-47bb-9d40-4e45a0f44a9b.jpg",
+    "alternate1_Card Number": "1-051J",
+    "alternate1_name": "Warlord of Exploding Flame [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Samurai",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Pierce]\n[Target Attack]\n[Enter]: All resonators gain [+200/+0] and [Explode] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "002 - The Dawn of Valhalla",
+    "alternate1_Set Code": "1",
+    "alternate1_id": "293c7839-4f79-47bb-9d40-4e45a0f44a9b",
+    "alternate1_image": "293c7839-4f79-47bb-9d40-4e45a0f44a9b.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "1-052",
@@ -1273,7 +1324,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "75dafdeb-7503-488b-bae1-8cea2126f8de",
-    "image": "75dafdeb-7503-488b-bae1-8cea2126f8de.jpg"
+    "image": "75dafdeb-7503-488b-bae1-8cea2126f8de.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-053",
@@ -1295,7 +1347,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "3925f93b-d13b-4691-b728-d44867a4a3e8",
-    "image": "3925f93b-d13b-4691-b728-d44867a4a3e8.jpg"
+    "image": "3925f93b-d13b-4691-b728-d44867a4a3e8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-054",
@@ -1317,7 +1370,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "fa0a1728-e17e-4fb9-a58a-4fd3e95ee422",
-    "image": "fa0a1728-e17e-4fb9-a58a-4fd3e95ee422.jpg"
+    "image": "fa0a1728-e17e-4fb9-a58a-4fd3e95ee422.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-055",
@@ -1339,7 +1393,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "dff24b8f-30b5-4174-97ae-b4f84ec5e4e4",
-    "image": "dff24b8f-30b5-4174-97ae-b4f84ec5e4e4.jpg"
+    "image": "dff24b8f-30b5-4174-97ae-b4f84ec5e4e4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-056",
@@ -1361,7 +1416,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "60e1e66f-af38-4ab0-8dcd-68c402a21d0e",
-    "image": "60e1e66f-af38-4ab0-8dcd-68c402a21d0e.jpg"
+    "image": "60e1e66f-af38-4ab0-8dcd-68c402a21d0e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-057",
@@ -1383,7 +1439,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "101252b2-f811-40d9-8e3a-bf3e2ba72857",
-    "image": "101252b2-f811-40d9-8e3a-bf3e2ba72857.jpg"
+    "image": "101252b2-f811-40d9-8e3a-bf3e2ba72857.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-058",
@@ -1405,7 +1462,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "65a7ad36-77fd-4970-aac5-3568c07bb659",
-    "image": "65a7ad36-77fd-4970-aac5-3568c07bb659.jpg"
+    "image": "65a7ad36-77fd-4970-aac5-3568c07bb659.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-059",
@@ -1427,7 +1485,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "9118d507-f0c1-4e5f-b80c-d0558feed627",
-    "image": "9118d507-f0c1-4e5f-b80c-d0558feed627.jpg"
+    "image": "9118d507-f0c1-4e5f-b80c-d0558feed627.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-060",
@@ -1449,7 +1508,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "c55fc521-9643-4ef0-867e-7596dca19125",
-    "image": "c55fc521-9643-4ef0-867e-7596dca19125.jpg"
+    "image": "c55fc521-9643-4ef0-867e-7596dca19125.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-061",
@@ -1471,7 +1531,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "4a6fe41f-f90f-44ec-bfd8-90788eeb4000",
-    "image": "4a6fe41f-f90f-44ec-bfd8-90788eeb4000.jpg"
+    "image": "4a6fe41f-f90f-44ec-bfd8-90788eeb4000.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-062",
@@ -1493,7 +1554,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "45e11b51-6dd4-478e-b8ea-0fd1f675b1c5",
-    "image": "45e11b51-6dd4-478e-b8ea-0fd1f675b1c5.jpg"
+    "image": "45e11b51-6dd4-478e-b8ea-0fd1f675b1c5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-063",
@@ -1515,7 +1577,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "af7b687d-62f0-48e5-9779-0854b5f1ac6f",
-    "image": "af7b687d-62f0-48e5-9779-0854b5f1ac6f.jpg"
+    "image": "af7b687d-62f0-48e5-9779-0854b5f1ac6f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-064",
@@ -1537,7 +1600,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "54b2f43f-699a-45e6-adb6-ec395156be96",
-    "image": "54b2f43f-699a-45e6-adb6-ec395156be96.jpg"
+    "image": "54b2f43f-699a-45e6-adb6-ec395156be96.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-065",
@@ -1559,7 +1623,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "ce96e71b-f2aa-48e6-90e0-2c4ab5b8147d",
-    "image": "ce96e71b-f2aa-48e6-90e0-2c4ab5b8147d.jpg"
+    "image": "ce96e71b-f2aa-48e6-90e0-2c4ab5b8147d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-066",
@@ -1581,7 +1646,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "44d6d78c-332f-43e0-9b7e-9b4d00af7e05",
-    "image": "44d6d78c-332f-43e0-9b7e-9b4d00af7e05.jpg"
+    "image": "44d6d78c-332f-43e0-9b7e-9b4d00af7e05.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-067",
@@ -1603,7 +1669,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "ae3e4315-1d41-4809-abad-9deea19bc5c6",
-    "image": "ae3e4315-1d41-4809-abad-9deea19bc5c6.jpg"
+    "image": "ae3e4315-1d41-4809-abad-9deea19bc5c6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-068",
@@ -1625,7 +1692,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "4bc8f2b0-4421-4f4e-a4cd-03fbccee2562",
-    "image": "4bc8f2b0-4421-4f4e-a4cd-03fbccee2562.jpg"
+    "image": "4bc8f2b0-4421-4f4e-a4cd-03fbccee2562.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-069",
@@ -1647,7 +1715,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "978c4583-e391-4fe7-9c1d-97d0b67818b5",
-    "image": "978c4583-e391-4fe7-9c1d-97d0b67818b5.jpg"
+    "image": "978c4583-e391-4fe7-9c1d-97d0b67818b5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-070",
@@ -1669,7 +1738,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "c50ec2a5-1af5-4258-bde8-e8a7cafda6d6",
-    "image": "c50ec2a5-1af5-4258-bde8-e8a7cafda6d6.jpg"
+    "image": "c50ec2a5-1af5-4258-bde8-e8a7cafda6d6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-071",
@@ -1691,7 +1761,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "99adc9c5-6b91-4729-8dad-2afd455356fe",
-    "image": "99adc9c5-6b91-4729-8dad-2afd455356fe.jpg"
+    "image": "99adc9c5-6b91-4729-8dad-2afd455356fe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-072",
@@ -1713,7 +1784,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "95097ded-ee37-4005-852b-4f670057fa2d",
-    "image": "95097ded-ee37-4005-852b-4f670057fa2d.jpg"
+    "image": "95097ded-ee37-4005-852b-4f670057fa2d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-073",
@@ -1735,7 +1807,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "f3f36ef9-bbf7-4758-8840-364bf340d37d",
-    "image": "f3f36ef9-bbf7-4758-8840-364bf340d37d.jpg"
+    "image": "f3f36ef9-bbf7-4758-8840-364bf340d37d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-074",
@@ -1757,7 +1830,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "67c072e6-5fc4-473a-acc8-eb3399a25fd8",
-    "image": "67c072e6-5fc4-473a-acc8-eb3399a25fd8.jpg"
+    "image": "67c072e6-5fc4-473a-acc8-eb3399a25fd8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-075",
@@ -1779,7 +1853,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "076ead84-bc5e-4077-8a46-37d65be4496a",
-    "image": "076ead84-bc5e-4077-8a46-37d65be4496a.jpg"
+    "image": "076ead84-bc5e-4077-8a46-37d65be4496a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-076",
@@ -1801,7 +1876,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "47a11f96-93bd-4230-a203-9431a76e929b",
-    "image": "47a11f96-93bd-4230-a203-9431a76e929b.jpg"
+    "image": "47a11f96-93bd-4230-a203-9431a76e929b.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "1-077",
@@ -1823,7 +1899,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "6645512e-cd5e-43c3-9849-d0876b5bf03a",
-    "image": "6645512e-cd5e-43c3-9849-d0876b5bf03a.jpg"
+    "image": "6645512e-cd5e-43c3-9849-d0876b5bf03a.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-078",
@@ -1845,7 +1922,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "a26e2e5d-198b-4779-a9b2-741103920329",
-    "image": "a26e2e5d-198b-4779-a9b2-741103920329.jpg"
+    "image": "a26e2e5d-198b-4779-a9b2-741103920329.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-079",
@@ -1867,7 +1945,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "18692f30-0ba2-4c16-a336-74ceb804ebe8",
-    "image": "18692f30-0ba2-4c16-a336-74ceb804ebe8.jpg"
+    "image": "18692f30-0ba2-4c16-a336-74ceb804ebe8.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-080",
@@ -1889,7 +1968,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "a41d22fb-aa10-4c7b-91dd-045262d3782d",
-    "image": "a41d22fb-aa10-4c7b-91dd-045262d3782d.jpg"
+    "image": "a41d22fb-aa10-4c7b-91dd-045262d3782d.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-081",
@@ -1911,7 +1991,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "1b430512-84c5-4b1e-b3d8-3531ced522b1",
-    "image": "1b430512-84c5-4b1e-b3d8-3531ced522b1.jpg"
+    "image": "1b430512-84c5-4b1e-b3d8-3531ced522b1.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-082",
@@ -1933,7 +2014,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "c8b16a7d-7484-4c92-8fee-6e5e6216adb5",
-    "image": "c8b16a7d-7484-4c92-8fee-6e5e6216adb5.jpg"
+    "image": "c8b16a7d-7484-4c92-8fee-6e5e6216adb5.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-083",
@@ -1955,7 +2037,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "1cd9e1cd-b7b8-404a-8b6f-0e18a141b370",
-    "image": "1cd9e1cd-b7b8-404a-8b6f-0e18a141b370.jpg"
+    "image": "1cd9e1cd-b7b8-404a-8b6f-0e18a141b370.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-084",
@@ -1977,7 +2060,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "4f028e09-a8da-47ec-b57f-eb2483690508",
-    "image": "4f028e09-a8da-47ec-b57f-eb2483690508.jpg"
+    "image": "4f028e09-a8da-47ec-b57f-eb2483690508.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-085",
@@ -1999,7 +2083,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "44ac5391-574a-4846-8ade-aff0db142af5",
-    "image": "44ac5391-574a-4846-8ade-aff0db142af5.jpg"
+    "image": "44ac5391-574a-4846-8ade-aff0db142af5.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-086",
@@ -2021,7 +2106,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "eb1b6507-044d-4739-9f91-125915f883e9",
-    "image": "eb1b6507-044d-4739-9f91-125915f883e9.jpg"
+    "image": "eb1b6507-044d-4739-9f91-125915f883e9.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-087",
@@ -2043,7 +2129,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "11a48d34-6070-434d-ad5e-f28ee0eda98d",
-    "image": "11a48d34-6070-434d-ad5e-f28ee0eda98d.jpg"
+    "image": "11a48d34-6070-434d-ad5e-f28ee0eda98d.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-088",
@@ -2065,7 +2152,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "1797d7d9-195a-4742-950c-02a752f675b1",
-    "image": "1797d7d9-195a-4742-950c-02a752f675b1.jpg"
+    "image": "1797d7d9-195a-4742-950c-02a752f675b1.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-089",
@@ -2087,7 +2175,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "306ffd2b-1452-4615-bffe-37402fa8876c",
-    "image": "306ffd2b-1452-4615-bffe-37402fa8876c.jpg"
+    "image": "306ffd2b-1452-4615-bffe-37402fa8876c.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-090",
@@ -2109,7 +2198,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "2afffb86-34c9-4c50-97cd-6071a4172005",
-    "image": "2afffb86-34c9-4c50-97cd-6071a4172005.jpg"
+    "image": "2afffb86-34c9-4c50-97cd-6071a4172005.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-091",
@@ -2131,7 +2221,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "8fd6fc91-5cbb-4287-9fc5-6b6d29971c98",
-    "image": "8fd6fc91-5cbb-4287-9fc5-6b6d29971c98.jpg"
+    "image": "8fd6fc91-5cbb-4287-9fc5-6b6d29971c98.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-092",
@@ -2153,7 +2244,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "eb39cbeb-43a6-456d-93fd-60f687dc7184",
-    "image": "eb39cbeb-43a6-456d-93fd-60f687dc7184.jpg"
+    "image": "eb39cbeb-43a6-456d-93fd-60f687dc7184.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-093",
@@ -2175,7 +2267,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "4c50f9e0-7a46-44de-93d9-9428f7c20ddf",
-    "image": "4c50f9e0-7a46-44de-93d9-9428f7c20ddf.jpg"
+    "image": "4c50f9e0-7a46-44de-93d9-9428f7c20ddf.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-094",
@@ -2197,7 +2290,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "575a900f-33d6-4681-a182-412718205c88",
-    "image": "575a900f-33d6-4681-a182-412718205c88.jpg"
+    "image": "575a900f-33d6-4681-a182-412718205c88.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-095",
@@ -2219,7 +2313,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "ad02b10d-3344-44ca-8eee-551d79e7911b",
-    "image": "ad02b10d-3344-44ca-8eee-551d79e7911b.jpg"
+    "image": "ad02b10d-3344-44ca-8eee-551d79e7911b.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-096",
@@ -2241,18 +2336,19 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "7fa8b480-0e4f-45b6-92d5-e66c0491cd42",
-    "image": "7fa8b480-0e4f-45b6-92d5-e66c0491cd42.jpg"
+    "image": "7fa8b480-0e4f-45b6-92d5-e66c0491cd42.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "1-097",
-    "name": "Oathkeeper of the Sacred Sea",
-    "Type": "Ruler",
-    "Race": "Mermaid",
+    "Card Number": "1-097|1-097J",
+    "name": "Oathkeeper of the Sacred Sea // Triton, the Prince of Ocean",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Mermaid|Deity",
     "Cost": "",
     "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Banish two cards in your chant-standby area.\n[Activate] Pay {U}{3},{Rest}: Gain control of target resonator until end of turn.",
+    "ATK": "0",
+    "DEF": "600",
+    "Abilities": "[J-Activate] Banish two cards in your chant-standby area.\n[Activate] Pay {U}{3},{Rest}: Gain control of target resonator until end of turn.|[Enter]: You may search for a \"Rahab, the Emperor Dragon of Riptide\" from your main deck or your hand and put it into your field. This triggers [Enter] ability of that card. Then shuffle your main deck.\n[Activate] Pay {2}: This card cannot be attacked until end of turn.\n[Activate] Pay {U}{2},{Rest}: Gain control of target resonator until end of turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -2263,29 +2359,30 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "ab56b6d8-4086-4ae7-8704-e283d9971be1",
-    "image": "ab56b6d8-4086-4ae7-8704-e283d9971be1.jpg"
-  },
-  {
-    "Card Number": "1-097J",
-    "name": "Triton, the Prince of Ocean",
-    "Type": "J-Ruler",
-    "Race": "Deity",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "0",
-    "DEF": "600",
-    "Abilities": "[Enter]: You may search for a \"Rahab, the Emperor Dragon of Riptide\" from your main deck or your hand and put it into your field. This triggers [Enter] ability of that card. Then shuffle your main deck.\n[Activate] Pay {2}: This card cannot be attacked until end of turn.\n[Activate] Pay {U}{2},{Rest}: Gain control of target resonator until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "002 - The Dawn of Valhalla",
-    "Set Code": "1",
-    "id": "f9f5c326-f280-476f-b0ce-222c100ebf1a",
-    "image": "f9f5c326-f280-476f-b0ce-222c100ebf1a.jpg"
+    "image": "ab56b6d8-4086-4ae7-8704-e283d9971be1.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f9f5c326-f280-476f-b0ce-222c100ebf1a.jpg",
+    "alternate1_Card Number": "1-097J",
+    "alternate1_name": "Triton, the Prince of Ocean",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Deity",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "600",
+    "alternate1_Abilities": "[Enter]: You may search for a \"Rahab, the Emperor Dragon of Riptide\" from your main deck or your hand and put it into your field. This triggers [Enter] ability of that card. Then shuffle your main deck.\n[Activate] Pay {2}: This card cannot be attacked until end of turn.\n[Activate] Pay {U}{2},{Rest}: Gain control of target resonator until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "002 - The Dawn of Valhalla",
+    "alternate1_Set Code": "1",
+    "alternate1_id": "f9f5c326-f280-476f-b0ce-222c100ebf1a",
+    "alternate1_image": "f9f5c326-f280-476f-b0ce-222c100ebf1a.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "1-098",
@@ -2307,18 +2404,19 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "c9212485-2ebe-429a-aedd-2c8db4494ccb",
-    "image": "c9212485-2ebe-429a-aedd-2c8db4494ccb.jpg"
+    "image": "c9212485-2ebe-429a-aedd-2c8db4494ccb.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "1-099",
-    "name": "Twin Swords of Water's Mercy",
-    "Type": "Ruler",
+    "Card Number": "1-099|1-099J",
+    "name": "Twin Swords of Water's Mercy // Twin Swords of Water's Mercy [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Swordsman",
     "Cost": "",
     "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] You have two or more cards in your chant-standby area.\n[Activate] {Rest}: Target resonator gains [Flying] until end of turn.",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[J-Activate] You have two or more cards in your chant-standby area.\n[Activate] {Rest}: Target resonator gains [Flying] until end of turn.|[Pierce]\n[Target Attack]\n[Enter]: Return target two resonators to their owner's hand.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -2329,29 +2427,30 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "e203549f-a7c3-469a-b831-64fcd5eb1b1d",
-    "image": "e203549f-a7c3-469a-b831-64fcd5eb1b1d.jpg"
-  },
-  {
-    "Card Number": "1-099J",
-    "name": "Twin Swords of Water's Mercy [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Swordsman",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Pierce]\n[Target Attack]\n[Enter]: Return target two resonators to their owner's hand.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "002 - The Dawn of Valhalla",
-    "Set Code": "1",
-    "id": "0349f9b3-bdb5-4e75-b031-8ade4cacbb9c",
-    "image": "0349f9b3-bdb5-4e75-b031-8ade4cacbb9c.jpg"
+    "image": "e203549f-a7c3-469a-b831-64fcd5eb1b1d.jpg",
+    "Card Type": "Ruler",
+    "backimage": "0349f9b3-bdb5-4e75-b031-8ade4cacbb9c.jpg",
+    "alternate1_Card Number": "1-099J",
+    "alternate1_name": "Twin Swords of Water's Mercy [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Swordsman",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Pierce]\n[Target Attack]\n[Enter]: Return target two resonators to their owner's hand.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "002 - The Dawn of Valhalla",
+    "alternate1_Set Code": "1",
+    "alternate1_id": "0349f9b3-bdb5-4e75-b031-8ade4cacbb9c",
+    "alternate1_image": "0349f9b3-bdb5-4e75-b031-8ade4cacbb9c.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "1-100",
@@ -2373,7 +2472,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "69c1897d-a913-4b31-b8ec-18b00ad10a3f",
-    "image": "69c1897d-a913-4b31-b8ec-18b00ad10a3f.jpg"
+    "image": "69c1897d-a913-4b31-b8ec-18b00ad10a3f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-101",
@@ -2395,7 +2495,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "cb901550-2374-41bd-8823-99a8f371be23",
-    "image": "cb901550-2374-41bd-8823-99a8f371be23.jpg"
+    "image": "cb901550-2374-41bd-8823-99a8f371be23.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-102",
@@ -2417,7 +2518,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "90ba8f94-52cd-4d3f-b906-5881096ce640",
-    "image": "90ba8f94-52cd-4d3f-b906-5881096ce640.jpg"
+    "image": "90ba8f94-52cd-4d3f-b906-5881096ce640.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-103",
@@ -2439,7 +2541,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "9a071677-fb0e-44dd-b959-ffe38f7388c4",
-    "image": "9a071677-fb0e-44dd-b959-ffe38f7388c4.jpg"
+    "image": "9a071677-fb0e-44dd-b959-ffe38f7388c4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-104",
@@ -2461,7 +2564,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "1c3f9abd-a5c0-4c28-9b6c-c7cf56fe44ad",
-    "image": "1c3f9abd-a5c0-4c28-9b6c-c7cf56fe44ad.jpg"
+    "image": "1c3f9abd-a5c0-4c28-9b6c-c7cf56fe44ad.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-105",
@@ -2483,7 +2587,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "e5b1003e-882f-44da-a34b-6dfba0e93a5e",
-    "image": "e5b1003e-882f-44da-a34b-6dfba0e93a5e.jpg"
+    "image": "e5b1003e-882f-44da-a34b-6dfba0e93a5e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-106",
@@ -2505,7 +2610,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "b6f9147a-d314-4dc6-b89d-ababb302b889",
-    "image": "b6f9147a-d314-4dc6-b89d-ababb302b889.jpg"
+    "image": "b6f9147a-d314-4dc6-b89d-ababb302b889.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-107",
@@ -2527,7 +2633,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "34ec870e-a6c1-4299-a4b4-e47d7f231edf",
-    "image": "34ec870e-a6c1-4299-a4b4-e47d7f231edf.jpg"
+    "image": "34ec870e-a6c1-4299-a4b4-e47d7f231edf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-108",
@@ -2549,7 +2656,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "f297174c-1782-4852-a627-1fe4a800f192",
-    "image": "f297174c-1782-4852-a627-1fe4a800f192.jpg"
+    "image": "f297174c-1782-4852-a627-1fe4a800f192.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-109",
@@ -2571,7 +2679,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "cac62981-7f42-4c2a-9eee-6468455260f4",
-    "image": "cac62981-7f42-4c2a-9eee-6468455260f4.jpg"
+    "image": "cac62981-7f42-4c2a-9eee-6468455260f4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-110",
@@ -2593,7 +2702,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "cff6866c-5ac2-43b2-a993-26ceca59f9d4",
-    "image": "cff6866c-5ac2-43b2-a993-26ceca59f9d4.jpg"
+    "image": "cff6866c-5ac2-43b2-a993-26ceca59f9d4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-111",
@@ -2615,7 +2725,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "6784c8ec-5895-4c23-a251-9df76ea0c3ed",
-    "image": "6784c8ec-5895-4c23-a251-9df76ea0c3ed.jpg"
+    "image": "6784c8ec-5895-4c23-a251-9df76ea0c3ed.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-112",
@@ -2637,7 +2748,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "87bb862f-dd9f-4bac-bcf9-64764c4a81c4",
-    "image": "87bb862f-dd9f-4bac-bcf9-64764c4a81c4.jpg"
+    "image": "87bb862f-dd9f-4bac-bcf9-64764c4a81c4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-113",
@@ -2659,7 +2771,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "db691f2b-e86c-42d4-99a7-ab1d9e880241",
-    "image": "db691f2b-e86c-42d4-99a7-ab1d9e880241.jpg"
+    "image": "db691f2b-e86c-42d4-99a7-ab1d9e880241.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-114",
@@ -2681,7 +2794,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "2b97368f-6769-4db8-8133-cc6e4798864f",
-    "image": "2b97368f-6769-4db8-8133-cc6e4798864f.jpg"
+    "image": "2b97368f-6769-4db8-8133-cc6e4798864f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-115",
@@ -2703,7 +2817,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "3215213c-9738-4efe-908f-d61c1f0c3c3a",
-    "image": "3215213c-9738-4efe-908f-d61c1f0c3c3a.jpg"
+    "image": "3215213c-9738-4efe-908f-d61c1f0c3c3a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-116",
@@ -2725,7 +2840,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "9fa80ebc-8318-426f-9b9f-f4f26a41b313",
-    "image": "9fa80ebc-8318-426f-9b9f-f4f26a41b313.jpg"
+    "image": "9fa80ebc-8318-426f-9b9f-f4f26a41b313.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-117",
@@ -2747,7 +2863,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "8655c3f5-215d-4865-87ac-d941c1d60191",
-    "image": "8655c3f5-215d-4865-87ac-d941c1d60191.jpg"
+    "image": "8655c3f5-215d-4865-87ac-d941c1d60191.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-118",
@@ -2769,7 +2886,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "6ac73745-a96c-41a9-a74a-a1af0213f00c",
-    "image": "6ac73745-a96c-41a9-a74a-a1af0213f00c.jpg"
+    "image": "6ac73745-a96c-41a9-a74a-a1af0213f00c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-119",
@@ -2791,7 +2909,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "33ac4762-3f67-4a2a-8374-38c8a73ab39d",
-    "image": "33ac4762-3f67-4a2a-8374-38c8a73ab39d.jpg"
+    "image": "33ac4762-3f67-4a2a-8374-38c8a73ab39d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-120",
@@ -2813,7 +2932,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "a0b6fa37-22fc-4111-96bc-6ed5a1837a39",
-    "image": "a0b6fa37-22fc-4111-96bc-6ed5a1837a39.jpg"
+    "image": "a0b6fa37-22fc-4111-96bc-6ed5a1837a39.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-121",
@@ -2835,7 +2955,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "e62e46a5-c148-48c4-9e4b-26cd0b06d3d8",
-    "image": "e62e46a5-c148-48c4-9e4b-26cd0b06d3d8.jpg"
+    "image": "e62e46a5-c148-48c4-9e4b-26cd0b06d3d8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-122",
@@ -2857,7 +2978,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "78a2a733-2022-43ae-96d0-dd182359defa",
-    "image": "78a2a733-2022-43ae-96d0-dd182359defa.jpg"
+    "image": "78a2a733-2022-43ae-96d0-dd182359defa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-123",
@@ -2879,7 +3001,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "776db04a-dfa9-4138-846f-8ea9d830ffaa",
-    "image": "776db04a-dfa9-4138-846f-8ea9d830ffaa.jpg"
+    "image": "776db04a-dfa9-4138-846f-8ea9d830ffaa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-124",
@@ -2901,7 +3024,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "71a362ab-87dc-4f33-8b66-f50e6c460eae",
-    "image": "71a362ab-87dc-4f33-8b66-f50e6c460eae.jpg"
+    "image": "71a362ab-87dc-4f33-8b66-f50e6c460eae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-125",
@@ -2923,7 +3047,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "d0ed9305-9208-4829-80ed-74c23dd688cd",
-    "image": "d0ed9305-9208-4829-80ed-74c23dd688cd.jpg"
+    "image": "d0ed9305-9208-4829-80ed-74c23dd688cd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-126",
@@ -2945,7 +3070,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "0d7e0f98-6c05-4eab-9297-276e921bb8ac",
-    "image": "0d7e0f98-6c05-4eab-9297-276e921bb8ac.jpg"
+    "image": "0d7e0f98-6c05-4eab-9297-276e921bb8ac.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-127",
@@ -2967,7 +3093,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "12fa5121-7cbb-40bc-9f94-11554f168512",
-    "image": "12fa5121-7cbb-40bc-9f94-11554f168512.jpg"
+    "image": "12fa5121-7cbb-40bc-9f94-11554f168512.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "1-128",
@@ -2989,7 +3116,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "2c64e30b-bbeb-4e27-a066-1f1445018407",
-    "image": "2c64e30b-bbeb-4e27-a066-1f1445018407.jpg"
+    "image": "2c64e30b-bbeb-4e27-a066-1f1445018407.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "1-129",
@@ -3011,7 +3139,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "b8dfc2a3-e16c-4220-9f5a-5676f0fbcfcc",
-    "image": "b8dfc2a3-e16c-4220-9f5a-5676f0fbcfcc.jpg"
+    "image": "b8dfc2a3-e16c-4220-9f5a-5676f0fbcfcc.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-130",
@@ -3033,7 +3162,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "50bdd0b1-9cdb-4cfa-845a-621686be66fd",
-    "image": "50bdd0b1-9cdb-4cfa-845a-621686be66fd.jpg"
+    "image": "50bdd0b1-9cdb-4cfa-845a-621686be66fd.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-131",
@@ -3055,7 +3185,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "d35e09e2-035d-40de-9710-425da528740c",
-    "image": "d35e09e2-035d-40de-9710-425da528740c.jpg"
+    "image": "d35e09e2-035d-40de-9710-425da528740c.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-132",
@@ -3077,7 +3208,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "6b267ff5-1db9-48a0-b055-efb6af635567",
-    "image": "6b267ff5-1db9-48a0-b055-efb6af635567.jpg"
+    "image": "6b267ff5-1db9-48a0-b055-efb6af635567.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-133",
@@ -3099,7 +3231,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "fc9ce2a3-2c7b-4013-8a15-9dc1c4848c30",
-    "image": "fc9ce2a3-2c7b-4013-8a15-9dc1c4848c30.jpg"
+    "image": "fc9ce2a3-2c7b-4013-8a15-9dc1c4848c30.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-134",
@@ -3121,7 +3254,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "aaa9d46a-a450-4328-9783-a033d2311f2b",
-    "image": "aaa9d46a-a450-4328-9783-a033d2311f2b.jpg"
+    "image": "aaa9d46a-a450-4328-9783-a033d2311f2b.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-135",
@@ -3143,7 +3277,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "ea33c2eb-c7cf-49af-bb46-023f4d93eb2d",
-    "image": "ea33c2eb-c7cf-49af-bb46-023f4d93eb2d.jpg"
+    "image": "ea33c2eb-c7cf-49af-bb46-023f4d93eb2d.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-136",
@@ -3165,7 +3300,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "479504ae-ca95-4080-91e6-cf9f475604fb",
-    "image": "479504ae-ca95-4080-91e6-cf9f475604fb.jpg"
+    "image": "479504ae-ca95-4080-91e6-cf9f475604fb.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-137",
@@ -3187,7 +3323,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "05bdb910-7fac-45ab-aea6-eeecdde15f04",
-    "image": "05bdb910-7fac-45ab-aea6-eeecdde15f04.jpg"
+    "image": "05bdb910-7fac-45ab-aea6-eeecdde15f04.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-138",
@@ -3209,7 +3346,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "4e1b34a5-5dc5-40fb-a1c1-05f928a39947",
-    "image": "4e1b34a5-5dc5-40fb-a1c1-05f928a39947.jpg"
+    "image": "4e1b34a5-5dc5-40fb-a1c1-05f928a39947.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-139",
@@ -3231,7 +3369,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "e805e6d8-5db3-470c-97a3-ae7e07b0da25",
-    "image": "e805e6d8-5db3-470c-97a3-ae7e07b0da25.jpg"
+    "image": "e805e6d8-5db3-470c-97a3-ae7e07b0da25.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-140",
@@ -3253,7 +3392,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "af5c0cb2-04f1-406e-bdd0-3833d3daa2bf",
-    "image": "af5c0cb2-04f1-406e-bdd0-3833d3daa2bf.jpg"
+    "image": "af5c0cb2-04f1-406e-bdd0-3833d3daa2bf.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-141",
@@ -3275,7 +3415,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "309a8b81-f3bb-4bcb-b2af-0b502ae19de9",
-    "image": "309a8b81-f3bb-4bcb-b2af-0b502ae19de9.jpg"
+    "image": "309a8b81-f3bb-4bcb-b2af-0b502ae19de9.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-142",
@@ -3297,7 +3438,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "2410e245-2382-4388-9788-e81ecdf45bf4",
-    "image": "2410e245-2382-4388-9788-e81ecdf45bf4.jpg"
+    "image": "2410e245-2382-4388-9788-e81ecdf45bf4.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-143",
@@ -3319,7 +3461,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "f3c7c93a-a022-4e0d-b2a1-f88e8dd74dd4",
-    "image": "f3c7c93a-a022-4e0d-b2a1-f88e8dd74dd4.jpg"
+    "image": "f3c7c93a-a022-4e0d-b2a1-f88e8dd74dd4.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-144",
@@ -3341,18 +3484,19 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "67e0188b-10bc-43ea-b1a8-99bdb1dce6c6",
-    "image": "67e0188b-10bc-43ea-b1a8-99bdb1dce6c6.jpg"
+    "image": "67e0188b-10bc-43ea-b1a8-99bdb1dce6c6.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "1-145",
-    "name": "Guardian of Outland",
-    "Type": "Ruler",
+    "Card Number": "1-145|1-145J",
+    "name": "Guardian of Outland // Guardian of Outland [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Treeman",
     "Cost": "",
     "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {G}{G}{G}\n[Activate] {Rest}: Target resonator gains [+200/+0] and [Pierce] until end of turn.",
+    "ATK": "0",
+    "DEF": "3000",
+    "Abilities": "[J-Activate] Pay {G}{G}{G}\n[Activate] {Rest}: Target resonator gains [+200/+0] and [Pierce] until end of turn.|[Continuous]: At the end of turn, return each resonator this card blocked to its owner's hand.\n[Continuous]: When this card becomes targeted by an opponent's spell, return this card to ruler side at the end of turn.\n[Continuous]: This card can block resonators with [Flying].\n[Enter]: Target player draws two cards from his or her main deck.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -3363,29 +3507,30 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "32dd7fb3-9c8c-451e-b72f-4a5bf9787211",
-    "image": "32dd7fb3-9c8c-451e-b72f-4a5bf9787211.jpg"
-  },
-  {
-    "Card Number": "1-145J",
-    "name": "Guardian of Outland [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Treeman",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "0",
-    "DEF": "3000",
-    "Abilities": "[Continuous]: At the end of turn, return each resonator this card blocked to its owner's hand.\n[Continuous]: When this card becomes targeted by an opponent's spell, return this card to ruler side at the end of turn.\n[Continuous]: This card can block resonators with [Flying].\n[Enter]: Target player draws two cards from his or her main deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "002 - The Dawn of Valhalla",
-    "Set Code": "1",
-    "id": "20bde155-4703-4547-a511-b9b4a9975b7c",
-    "image": "20bde155-4703-4547-a511-b9b4a9975b7c.jpg"
+    "image": "32dd7fb3-9c8c-451e-b72f-4a5bf9787211.jpg",
+    "Card Type": "Ruler",
+    "backimage": "20bde155-4703-4547-a511-b9b4a9975b7c.jpg",
+    "alternate1_Card Number": "1-145J",
+    "alternate1_name": "Guardian of Outland [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Treeman",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "3000",
+    "alternate1_Abilities": "[Continuous]: At the end of turn, return each resonator this card blocked to its owner's hand.\n[Continuous]: When this card becomes targeted by an opponent's spell, return this card to ruler side at the end of turn.\n[Continuous]: This card can block resonators with [Flying].\n[Enter]: Target player draws two cards from his or her main deck.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "002 - The Dawn of Valhalla",
+    "alternate1_Set Code": "1",
+    "alternate1_id": "20bde155-4703-4547-a511-b9b4a9975b7c",
+    "alternate1_image": "20bde155-4703-4547-a511-b9b4a9975b7c.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "1-146",
@@ -3407,7 +3552,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "42e9648e-be03-4a80-a803-7befbf14aa1f",
-    "image": "42e9648e-be03-4a80-a803-7befbf14aa1f.jpg"
+    "image": "42e9648e-be03-4a80-a803-7befbf14aa1f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-147",
@@ -3429,7 +3575,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "183c6e93-cbfa-4e86-beb7-b61ad329b4cd",
-    "image": "183c6e93-cbfa-4e86-beb7-b61ad329b4cd.jpg"
+    "image": "183c6e93-cbfa-4e86-beb7-b61ad329b4cd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-148",
@@ -3451,7 +3598,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "c7c2f452-97bd-48fc-ad97-f4eadc12bfc6",
-    "image": "c7c2f452-97bd-48fc-ad97-f4eadc12bfc6.jpg"
+    "image": "c7c2f452-97bd-48fc-ad97-f4eadc12bfc6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-149",
@@ -3473,7 +3621,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "f34ce949-cdd3-4b80-8ecc-b7a63f9185a0",
-    "image": "f34ce949-cdd3-4b80-8ecc-b7a63f9185a0.jpg"
+    "image": "f34ce949-cdd3-4b80-8ecc-b7a63f9185a0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-150",
@@ -3495,7 +3644,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "fb7569ee-2fdf-4952-8dc4-973450c30744",
-    "image": "fb7569ee-2fdf-4952-8dc4-973450c30744.jpg"
+    "image": "fb7569ee-2fdf-4952-8dc4-973450c30744.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-151",
@@ -3517,7 +3667,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "82737835-745f-4829-9169-ade27e199515",
-    "image": "82737835-745f-4829-9169-ade27e199515.jpg"
+    "image": "82737835-745f-4829-9169-ade27e199515.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-152",
@@ -3539,7 +3690,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "8e66a131-30ec-4b9b-a5e6-26179f32d30b",
-    "image": "8e66a131-30ec-4b9b-a5e6-26179f32d30b.jpg"
+    "image": "8e66a131-30ec-4b9b-a5e6-26179f32d30b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-153",
@@ -3561,7 +3713,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "408ab03e-df9e-4d0f-8804-9ece324060a3",
-    "image": "408ab03e-df9e-4d0f-8804-9ece324060a3.jpg"
+    "image": "408ab03e-df9e-4d0f-8804-9ece324060a3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-154",
@@ -3583,7 +3736,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "a5529169-22b8-4135-ab71-0d21d491b58d",
-    "image": "a5529169-22b8-4135-ab71-0d21d491b58d.jpg"
+    "image": "a5529169-22b8-4135-ab71-0d21d491b58d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-155",
@@ -3605,7 +3759,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "424ccb9d-cc61-4dcb-bd9d-6e2e501d4f81",
-    "image": "424ccb9d-cc61-4dcb-bd9d-6e2e501d4f81.jpg"
+    "image": "424ccb9d-cc61-4dcb-bd9d-6e2e501d4f81.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-156",
@@ -3627,7 +3782,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "5d81d426-ece6-4fe1-b148-116cfc687c65",
-    "image": "5d81d426-ece6-4fe1-b148-116cfc687c65.jpg"
+    "image": "5d81d426-ece6-4fe1-b148-116cfc687c65.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-157",
@@ -3649,7 +3805,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "b42e88e0-8f04-4e7a-b84d-fc4601868b4b",
-    "image": "b42e88e0-8f04-4e7a-b84d-fc4601868b4b.jpg"
+    "image": "b42e88e0-8f04-4e7a-b84d-fc4601868b4b.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "1-158",
@@ -3671,7 +3828,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "19f753da-ca66-4d27-bc3e-6f52e94de6ce",
-    "image": "19f753da-ca66-4d27-bc3e-6f52e94de6ce.jpg"
+    "image": "19f753da-ca66-4d27-bc3e-6f52e94de6ce.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-159",
@@ -3693,7 +3851,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "9789ac50-4875-42d0-9d2f-6b5acbc9c395",
-    "image": "9789ac50-4875-42d0-9d2f-6b5acbc9c395.jpg"
+    "image": "9789ac50-4875-42d0-9d2f-6b5acbc9c395.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-160",
@@ -3715,7 +3874,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "68732ca1-b894-4c0c-917d-86ce7c4d412f",
-    "image": "68732ca1-b894-4c0c-917d-86ce7c4d412f.jpg"
+    "image": "68732ca1-b894-4c0c-917d-86ce7c4d412f.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-161",
@@ -3737,7 +3897,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "259e7a32-8441-40fa-865d-45434a1da130",
-    "image": "259e7a32-8441-40fa-865d-45434a1da130.jpg"
+    "image": "259e7a32-8441-40fa-865d-45434a1da130.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-162",
@@ -3759,7 +3920,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "61b63a27-a64f-42e7-afbd-4fbedb252a95",
-    "image": "61b63a27-a64f-42e7-afbd-4fbedb252a95.jpg"
+    "image": "61b63a27-a64f-42e7-afbd-4fbedb252a95.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-163",
@@ -3781,7 +3943,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "68db3ae4-d112-4b49-8e81-ec1bffaba546",
-    "image": "68db3ae4-d112-4b49-8e81-ec1bffaba546.jpg"
+    "image": "68db3ae4-d112-4b49-8e81-ec1bffaba546.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-164",
@@ -3803,7 +3966,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "d9bcf99b-e0f3-4ced-a97a-6023ad6fe6b7",
-    "image": "d9bcf99b-e0f3-4ced-a97a-6023ad6fe6b7.jpg"
+    "image": "d9bcf99b-e0f3-4ced-a97a-6023ad6fe6b7.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-165",
@@ -3825,7 +3989,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "6b9afdee-43f0-42a4-af4e-447f39187900",
-    "image": "6b9afdee-43f0-42a4-af4e-447f39187900.jpg"
+    "image": "6b9afdee-43f0-42a4-af4e-447f39187900.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-166",
@@ -3847,18 +4012,19 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "862d4a7e-30bb-41d9-b283-823ec89cd4b7",
-    "image": "862d4a7e-30bb-41d9-b283-823ec89cd4b7.jpg"
+    "image": "862d4a7e-30bb-41d9-b283-823ec89cd4b7.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
-    "Card Number": "1-167",
-    "name": "Black Wizard",
-    "Type": "Ruler",
+    "Card Number": "1-167|1-167J",
+    "name": "Black Wizard // Black Wizard [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Wizard",
     "Cost": "",
     "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[J-Activate] Pay {B}{B}{B}\n[Activate] Pay {B}, discard a resonator card from your hand: Draw a card from your main deck.",
+    "ATK": "200",
+    "DEF": "800",
+    "Abilities": "[J-Activate] Pay {B}{B}{B}\n[Activate] Pay {B}, discard a resonator card from your hand: Draw a card from your main deck.|[Enter]: Destroy target resonator.\n[Activate] Pay {B}{B}{3},{Rest}: Destroy target resonator.\n[Activate] Pay {B}: This card deals 100 damage to each resonator and other J-Rulers.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -3869,29 +4035,30 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "0519f61d-80e7-4b79-8a66-f3f712865fb1",
-    "image": "0519f61d-80e7-4b79-8a66-f3f712865fb1.jpg"
-  },
-  {
-    "Card Number": "1-167J",
-    "name": "Black Wizard [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Wizard",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "200",
-    "DEF": "800",
-    "Abilities": "[Enter]: Destroy target resonator.\n[Activate] Pay {B}{B}{3},{Rest}: Destroy target resonator.\n[Activate] Pay {B}: This card deals 100 damage to each resonator and other J-Rulers.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "U",
-    "Fowid": "",
-    "Cluster": "01 - Valhalla",
-    "Set Name": "002 - The Dawn of Valhalla",
-    "Set Code": "1",
-    "id": "bc54f262-5edf-4e5a-9809-9a7641cecd4c",
-    "image": "bc54f262-5edf-4e5a-9809-9a7641cecd4c.jpg"
+    "image": "0519f61d-80e7-4b79-8a66-f3f712865fb1.jpg",
+    "Card Type": "Ruler",
+    "backimage": "bc54f262-5edf-4e5a-9809-9a7641cecd4c.jpg",
+    "alternate1_Card Number": "1-167J",
+    "alternate1_name": "Black Wizard [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "200",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Enter]: Destroy target resonator.\n[Activate] Pay {B}{B}{3},{Rest}: Destroy target resonator.\n[Activate] Pay {B}: This card deals 100 damage to each resonator and other J-Rulers.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "U",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "01 - Valhalla",
+    "alternate1_Set Name": "002 - The Dawn of Valhalla",
+    "alternate1_Set Code": "1",
+    "alternate1_id": "bc54f262-5edf-4e5a-9809-9a7641cecd4c",
+    "alternate1_image": "bc54f262-5edf-4e5a-9809-9a7641cecd4c.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "1-168",
@@ -3913,7 +4080,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "295d4fa5-e9a4-40a5-b13c-06a196692b4f",
-    "image": "295d4fa5-e9a4-40a5-b13c-06a196692b4f.jpg"
+    "image": "295d4fa5-e9a4-40a5-b13c-06a196692b4f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-169",
@@ -3935,7 +4103,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "7ecb9443-f247-4e5f-9a00-52d2dd746955",
-    "image": "7ecb9443-f247-4e5f-9a00-52d2dd746955.jpg"
+    "image": "7ecb9443-f247-4e5f-9a00-52d2dd746955.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-170",
@@ -3957,7 +4126,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "f054b18f-cd9d-4b1d-9fba-d4eed363f336",
-    "image": "f054b18f-cd9d-4b1d-9fba-d4eed363f336.jpg"
+    "image": "f054b18f-cd9d-4b1d-9fba-d4eed363f336.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-171",
@@ -3979,7 +4149,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "dbbd4386-f5b6-4b46-84e7-6af44cb9d967",
-    "image": "dbbd4386-f5b6-4b46-84e7-6af44cb9d967.jpg"
+    "image": "dbbd4386-f5b6-4b46-84e7-6af44cb9d967.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-172",
@@ -4001,7 +4172,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "2ed01c00-b690-415f-9916-b7f6f503a664",
-    "image": "2ed01c00-b690-415f-9916-b7f6f503a664.jpg"
+    "image": "2ed01c00-b690-415f-9916-b7f6f503a664.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-173",
@@ -4023,7 +4195,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "51ea24e0-a225-4ce1-9dc1-cab965d6d576",
-    "image": "51ea24e0-a225-4ce1-9dc1-cab965d6d576.jpg"
+    "image": "51ea24e0-a225-4ce1-9dc1-cab965d6d576.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-174",
@@ -4045,7 +4218,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "32695f3d-ce7e-4bc0-94d6-1244d95bd6f3",
-    "image": "32695f3d-ce7e-4bc0-94d6-1244d95bd6f3.jpg"
+    "image": "32695f3d-ce7e-4bc0-94d6-1244d95bd6f3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-175",
@@ -4067,7 +4241,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "4635b8e8-2194-48f9-b269-f1d4317692ee",
-    "image": "4635b8e8-2194-48f9-b269-f1d4317692ee.jpg"
+    "image": "4635b8e8-2194-48f9-b269-f1d4317692ee.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-176",
@@ -4089,7 +4264,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "0c5618d4-3235-4b34-b65e-a9c8d3ad8f49",
-    "image": "0c5618d4-3235-4b34-b65e-a9c8d3ad8f49.jpg"
+    "image": "0c5618d4-3235-4b34-b65e-a9c8d3ad8f49.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-177",
@@ -4111,7 +4287,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "4157edfb-09ce-4fcd-aa86-1379cae36458",
-    "image": "4157edfb-09ce-4fcd-aa86-1379cae36458.jpg"
+    "image": "4157edfb-09ce-4fcd-aa86-1379cae36458.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-178",
@@ -4133,7 +4310,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "24df430d-a918-4e2b-98a4-2472dc113aab",
-    "image": "24df430d-a918-4e2b-98a4-2472dc113aab.jpg"
+    "image": "24df430d-a918-4e2b-98a4-2472dc113aab.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-179",
@@ -4155,7 +4333,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "13a5ee75-fef0-4920-8e4e-a17524909f7b",
-    "image": "13a5ee75-fef0-4920-8e4e-a17524909f7b.jpg"
+    "image": "13a5ee75-fef0-4920-8e4e-a17524909f7b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-180",
@@ -4177,7 +4356,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "646350d7-e820-4405-acb0-42e7e8054089",
-    "image": "646350d7-e820-4405-acb0-42e7e8054089.jpg"
+    "image": "646350d7-e820-4405-acb0-42e7e8054089.jpg",
+    "Card Type": "Addition:Field"
   },
   {
     "Card Number": "1-181",
@@ -4199,7 +4379,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "bae57706-8e1d-4d04-a3c5-736d9eb88ce4",
-    "image": "bae57706-8e1d-4d04-a3c5-736d9eb88ce4.jpg"
+    "image": "bae57706-8e1d-4d04-a3c5-736d9eb88ce4.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-182",
@@ -4221,7 +4402,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "5f511545-1a87-411d-b709-6a4fb469fb45",
-    "image": "5f511545-1a87-411d-b709-6a4fb469fb45.jpg"
+    "image": "5f511545-1a87-411d-b709-6a4fb469fb45.jpg",
+    "Card Type": "Addition:Resonator"
   },
   {
     "Card Number": "1-183",
@@ -4243,7 +4425,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "c7b256b5-3161-4c94-bb42-7e91a515de4e",
-    "image": "c7b256b5-3161-4c94-bb42-7e91a515de4e.jpg"
+    "image": "c7b256b5-3161-4c94-bb42-7e91a515de4e.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-184",
@@ -4265,7 +4448,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "d23169ea-ef0a-4fbf-b815-5c7093e53fc8",
-    "image": "d23169ea-ef0a-4fbf-b815-5c7093e53fc8.jpg"
+    "image": "d23169ea-ef0a-4fbf-b815-5c7093e53fc8.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-185",
@@ -4287,7 +4471,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "5cdfe4d1-b7c0-4fed-ade5-d21a3e29bf1d",
-    "image": "5cdfe4d1-b7c0-4fed-ade5-d21a3e29bf1d.jpg"
+    "image": "5cdfe4d1-b7c0-4fed-ade5-d21a3e29bf1d.jpg",
+    "Card Type": "Spell:Chant"
   },
   {
     "Card Number": "1-186",
@@ -4309,7 +4494,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "30cb1887-f032-4d04-ab94-45b603e430e3",
-    "image": "30cb1887-f032-4d04-ab94-45b603e430e3.jpg"
+    "image": "30cb1887-f032-4d04-ab94-45b603e430e3.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-187",
@@ -4331,7 +4517,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "11d84f44-fc2d-4811-8083-de9f60544f3f",
-    "image": "11d84f44-fc2d-4811-8083-de9f60544f3f.jpg"
+    "image": "11d84f44-fc2d-4811-8083-de9f60544f3f.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-188",
@@ -4353,7 +4540,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "5df6c753-061f-4395-8611-adc27e68d48c",
-    "image": "5df6c753-061f-4395-8611-adc27e68d48c.jpg"
+    "image": "5df6c753-061f-4395-8611-adc27e68d48c.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-189",
@@ -4375,7 +4563,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "62d49a98-76b3-455c-98f4-3573b59d306f",
-    "image": "62d49a98-76b3-455c-98f4-3573b59d306f.jpg"
+    "image": "62d49a98-76b3-455c-98f4-3573b59d306f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-190",
@@ -4397,7 +4586,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "c6d316d5-f198-4413-bcae-482312e3ab5e",
-    "image": "c6d316d5-f198-4413-bcae-482312e3ab5e.jpg"
+    "image": "c6d316d5-f198-4413-bcae-482312e3ab5e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-191",
@@ -4419,7 +4609,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "7d19929b-6caf-46e7-9c7f-820d7b215f3d",
-    "image": "7d19929b-6caf-46e7-9c7f-820d7b215f3d.jpg"
+    "image": "7d19929b-6caf-46e7-9c7f-820d7b215f3d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-192",
@@ -4441,7 +4632,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "d0d7f004-c84c-4a8c-8b97-0558c3f4841f",
-    "image": "d0d7f004-c84c-4a8c-8b97-0558c3f4841f.jpg"
+    "image": "d0d7f004-c84c-4a8c-8b97-0558c3f4841f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-193",
@@ -4463,7 +4655,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "649e2c9b-0e19-4220-af26-e86a9e6ea763",
-    "image": "649e2c9b-0e19-4220-af26-e86a9e6ea763.jpg"
+    "image": "649e2c9b-0e19-4220-af26-e86a9e6ea763.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-194",
@@ -4485,7 +4678,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "28337fbf-cb5a-4df3-a6f9-66b80015024c",
-    "image": "28337fbf-cb5a-4df3-a6f9-66b80015024c.jpg"
+    "image": "28337fbf-cb5a-4df3-a6f9-66b80015024c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-195",
@@ -4507,7 +4701,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "f7ac193d-34ec-4f15-8f5e-9f4e01e09b8f",
-    "image": "f7ac193d-34ec-4f15-8f5e-9f4e01e09b8f.jpg"
+    "image": "f7ac193d-34ec-4f15-8f5e-9f4e01e09b8f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-196",
@@ -4529,7 +4724,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "0e41e573-0a1d-4b2a-a16e-92461bce4bfa",
-    "image": "0e41e573-0a1d-4b2a-a16e-92461bce4bfa.jpg"
+    "image": "0e41e573-0a1d-4b2a-a16e-92461bce4bfa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "1-197",
@@ -4551,7 +4747,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "11e08288-d427-4bcf-ae68-4b5cf4b5a832",
-    "image": "11e08288-d427-4bcf-ae68-4b5cf4b5a832.jpg"
+    "image": "11e08288-d427-4bcf-ae68-4b5cf4b5a832.jpg",
+    "Card Type": "Addition:Ruler/J-Ruler"
   },
   {
     "Card Number": "1-198",
@@ -4573,7 +4770,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "a0e81386-272f-46ea-8b4a-db1bbac3e4a2",
-    "image": "a0e81386-272f-46ea-8b4a-db1bbac3e4a2.jpg"
+    "image": "a0e81386-272f-46ea-8b4a-db1bbac3e4a2.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-199",
@@ -4595,7 +4793,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "5d0a05a3-9ba4-4ddc-a124-72621fda9b65",
-    "image": "5d0a05a3-9ba4-4ddc-a124-72621fda9b65.jpg"
+    "image": "5d0a05a3-9ba4-4ddc-a124-72621fda9b65.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-200",
@@ -4617,7 +4816,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "d44b3841-095e-4dbc-a377-19fd6ed47ffe",
-    "image": "d44b3841-095e-4dbc-a377-19fd6ed47ffe.jpg"
+    "image": "d44b3841-095e-4dbc-a377-19fd6ed47ffe.jpg",
+    "Card Type": "Spell:Chant-Instant"
   },
   {
     "Card Number": "1-201",
@@ -4639,7 +4839,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "d4371fc7-c573-4fdb-b9be-69e29328f166",
-    "image": "d4371fc7-c573-4fdb-b9be-69e29328f166.jpg"
+    "image": "d4371fc7-c573-4fdb-b9be-69e29328f166.jpg",
+    "Card Type": "Spell:Chant-Standby"
   },
   {
     "Card Number": "1-202",
@@ -4661,7 +4862,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "489f564d-8a4f-4be6-85c6-712468ff2069",
-    "image": "489f564d-8a4f-4be6-85c6-712468ff2069.jpg"
+    "image": "489f564d-8a4f-4be6-85c6-712468ff2069.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "1-203",
@@ -4683,7 +4885,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "57e3f053-15e0-4b13-8828-21295684a234",
-    "image": "57e3f053-15e0-4b13-8828-21295684a234.jpg"
+    "image": "57e3f053-15e0-4b13-8828-21295684a234.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "1-204",
@@ -4705,7 +4908,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "65c9ca53-c57f-4d65-a6f9-e288b850e5b1",
-    "image": "65c9ca53-c57f-4d65-a6f9-e288b850e5b1.jpg"
+    "image": "65c9ca53-c57f-4d65-a6f9-e288b850e5b1.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "1-205",
@@ -4727,7 +4931,8 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "8e403362-a1d5-43d5-96bf-68d3fb34886f",
-    "image": "8e403362-a1d5-43d5-96bf-68d3fb34886f.jpg"
+    "image": "8e403362-a1d5-43d5-96bf-68d3fb34886f.jpg",
+    "Card Type": "Magic Stone"
   },
   {
     "Card Number": "1-206",
@@ -4749,6 +4954,7 @@
     "Set Name": "002 - The Dawn of Valhalla",
     "Set Code": "1",
     "id": "ef1d166b-72b1-4dc0-807b-f8124661d079",
-    "image": "ef1d166b-72b1-4dc0-807b-f8124661d079.jpg"
+    "image": "ef1d166b-72b1-4dc0-807b-f8124661d079.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

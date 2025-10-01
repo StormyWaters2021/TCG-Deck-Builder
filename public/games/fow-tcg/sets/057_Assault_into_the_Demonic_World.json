@@ -19,7 +19,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "4c906571-9cb8-4727-9f98-067fa305dbc4",
-    "image": "4c906571-9cb8-4727-9f98-067fa305dbc4.jpg"
+    "image": "4c906571-9cb8-4727-9f98-067fa305dbc4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-002",
@@ -41,51 +42,53 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "bcbf3e10-2c09-4000-bb3f-3eb6de4a666f",
-    "image": "bcbf3e10-2c09-4000-bb3f-3eb6de4a666f.jpg"
+    "image": "bcbf3e10-2c09-4000-bb3f-3eb6de4a666f.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "ADW-003",
-    "name": "Excalibur Genesis",
-    "Type": "Ruler",
-    "Race": "",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {0}. Play this ability only if there are four or more guidance counters on this card.\nAt the beginning of your main phase ]]] Choose one;\n- Put a guidance counter on this card.\n- Put a guidance counter on target entity you control.\nWhenever one or more guidance counters are put on this card ]]]\n- [Guidance] (1): Produce {W}.\n- [Guidance] (2): Draw a card.\n- [Guidance] (3): Put a Hero from your hand into the field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The sword flew by its own will, crossing dimensions, until it pierced the ground in the Demonic World, becoming a beacon for the heroes.",
-    "Artist": "Nekobayashi",
-    "Rarity": "R",
-    "Fowid": "5210",
-    "Cluster": "08 - Saga",
-    "Set Name": "057 - Assault into the Demonic World",
-    "Set Code": "ADW",
-    "id": "dc681aa1-31d5-4489-ba1e-17f927a8117e",
-    "image": "dc681aa1-31d5-4489-ba1e-17f927a8117e.jpg"
-  },
-  {
-    "Card Number": "ADW-003J",
-    "name": "Faria, Swordmaster of Creation",
-    "Type": "J-Ruler",
+    "Card Number": "ADW-003|ADW-003J",
+    "name": "Excalibur Genesis // Faria, Swordmaster of Creation",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human|Hero",
     "Cost": "",
     "Colour": "W",
     "ATK": "1500",
     "DEF": "1500",
-    "Abilities": "[Imperishable]\n[Enter] ]]] Put the top card of your magic stone deck into the field rested. Then move all guidance counters from this card to other entities you control.\nAt the end of your turn ]]] Put a guidance counter on target entity you control.",
+    "Abilities": "[Judgment] {0}. Play this ability only if there are four or more guidance counters on this card.\nAt the beginning of your main phase ]]] Choose one;\n- Put a guidance counter on this card.\n- Put a guidance counter on target entity you control.\nWhenever one or more guidance counters are put on this card ]]]\n- [Guidance] (1): Produce {W}.\n- [Guidance] (2): Draw a card.\n- [Guidance] (3): Put a Hero from your hand into the field.|[Imperishable]\n[Enter] ]]] Put the top card of your magic stone deck into the field rested. Then move all guidance counters from this card to other entities you control.\nAt the end of your turn ]]] Put a guidance counter on target entity you control.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I'm off, my brother.\"",
-    "Artist": "",
+    "Flavour": "The sword flew by its own will, crossing dimensions, until it pierced the ground in the Demonic World, becoming a beacon for the heroes.|\"I'm off, my brother.\"",
+    "Artist": "Nekobayashi",
     "Rarity": "R",
-    "Fowid": "5211",
+    "Fowid": "5210|5211",
     "Cluster": "08 - Saga",
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
-    "id": "ef11a42e-8c46-494c-9aa7-476d1d18a07a",
-    "image": "ef11a42e-8c46-494c-9aa7-476d1d18a07a.jpg"
+    "id": "dc681aa1-31d5-4489-ba1e-17f927a8117e",
+    "image": "dc681aa1-31d5-4489-ba1e-17f927a8117e.jpg",
+    "Card Type": "Ruler",
+    "backimage": "ef11a42e-8c46-494c-9aa7-476d1d18a07a.jpg",
+    "alternate1_Card Number": "ADW-003J",
+    "alternate1_name": "Faria, Swordmaster of Creation",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human|Hero",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1500",
+    "alternate1_DEF": "1500",
+    "alternate1_Abilities": "[Imperishable]\n[Enter] ]]] Put the top card of your magic stone deck into the field rested. Then move all guidance counters from this card to other entities you control.\nAt the end of your turn ]]] Put a guidance counter on target entity you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I'm off, my brother.\"",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5211",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "057 - Assault into the Demonic World",
+    "alternate1_Set Code": "ADW",
+    "alternate1_id": "ef11a42e-8c46-494c-9aa7-476d1d18a07a",
+    "alternate1_image": "ef11a42e-8c46-494c-9aa7-476d1d18a07a.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ADW-004",
@@ -107,7 +110,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "27c1805f-36ca-48ad-b8cb-fc50e07b4337",
-    "image": "27c1805f-36ca-48ad-b8cb-fc50e07b4337.jpg"
+    "image": "27c1805f-36ca-48ad-b8cb-fc50e07b4337.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-005",
@@ -129,7 +133,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "8f253177-4b6a-455a-849c-73d0cf3b539d",
-    "image": "8f253177-4b6a-455a-849c-73d0cf3b539d.jpg"
+    "image": "8f253177-4b6a-455a-849c-73d0cf3b539d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-006",
@@ -151,7 +156,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "0af658c9-448f-4cb8-a363-972d676611a7",
-    "image": "0af658c9-448f-4cb8-a363-972d676611a7.jpg"
+    "image": "0af658c9-448f-4cb8-a363-972d676611a7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-007",
@@ -173,7 +179,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "52f687f8-d187-490b-870f-416f1d6a4df5",
-    "image": "52f687f8-d187-490b-870f-416f1d6a4df5.jpg"
+    "image": "52f687f8-d187-490b-870f-416f1d6a4df5.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-008",
@@ -195,7 +202,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "dbb80e91-63ce-4f50-9c6c-d0d156ef72c2",
-    "image": "dbb80e91-63ce-4f50-9c6c-d0d156ef72c2.jpg"
+    "image": "dbb80e91-63ce-4f50-9c6c-d0d156ef72c2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-009",
@@ -217,7 +225,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "b060d3be-2cdc-4d08-8819-fa81ff799622",
-    "image": "b060d3be-2cdc-4d08-8819-fa81ff799622.jpg"
+    "image": "b060d3be-2cdc-4d08-8819-fa81ff799622.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-010",
@@ -239,7 +248,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "7ea4c991-2415-451e-994e-328d6e38518a",
-    "image": "7ea4c991-2415-451e-994e-328d6e38518a.jpg"
+    "image": "7ea4c991-2415-451e-994e-328d6e38518a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-011",
@@ -261,7 +271,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "6b1203df-b889-4475-b0c8-94ab26c06e36",
-    "image": "6b1203df-b889-4475-b0c8-94ab26c06e36.jpg"
+    "image": "6b1203df-b889-4475-b0c8-94ab26c06e36.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-012",
@@ -283,7 +294,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "2b5d3150-e4de-4814-84b9-3284a5804934",
-    "image": "2b5d3150-e4de-4814-84b9-3284a5804934.jpg"
+    "image": "2b5d3150-e4de-4814-84b9-3284a5804934.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-013",
@@ -305,7 +317,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "affc6726-20dd-4476-a325-91e1303f749e",
-    "image": "affc6726-20dd-4476-a325-91e1303f749e.jpg"
+    "image": "affc6726-20dd-4476-a325-91e1303f749e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-014",
@@ -327,7 +340,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "bc02aeed-7bf9-4248-8f3a-57333ec16e07",
-    "image": "bc02aeed-7bf9-4248-8f3a-57333ec16e07.jpg"
+    "image": "bc02aeed-7bf9-4248-8f3a-57333ec16e07.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-015",
@@ -349,7 +363,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "48673a00-fa4f-4d0e-8fe7-e8a3b2f12c3a",
-    "image": "48673a00-fa4f-4d0e-8fe7-e8a3b2f12c3a.jpg"
+    "image": "48673a00-fa4f-4d0e-8fe7-e8a3b2f12c3a.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-016",
@@ -371,7 +386,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "ce8864a1-b968-44fc-bdb4-567ba9e8e5c2",
-    "image": "ce8864a1-b968-44fc-bdb4-567ba9e8e5c2.jpg"
+    "image": "ce8864a1-b968-44fc-bdb4-567ba9e8e5c2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-017",
@@ -393,7 +409,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "7e38eded-de2e-43d3-a604-8fa523a1ca5f",
-    "image": "7e38eded-de2e-43d3-a604-8fa523a1ca5f.jpg"
+    "image": "7e38eded-de2e-43d3-a604-8fa523a1ca5f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-018",
@@ -415,7 +432,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "25573402-41f1-4bc5-a77a-b8cde28002d6",
-    "image": "25573402-41f1-4bc5-a77a-b8cde28002d6.jpg"
+    "image": "25573402-41f1-4bc5-a77a-b8cde28002d6.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-019",
@@ -437,7 +455,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "c5683134-1879-41f7-8c7e-dfa58eac2b36",
-    "image": "c5683134-1879-41f7-8c7e-dfa58eac2b36.jpg"
+    "image": "c5683134-1879-41f7-8c7e-dfa58eac2b36.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-020",
@@ -459,7 +478,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "fefd78b5-62d8-4cae-b3a2-8e3864d7236e",
-    "image": "fefd78b5-62d8-4cae-b3a2-8e3864d7236e.jpg"
+    "image": "fefd78b5-62d8-4cae-b3a2-8e3864d7236e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-021",
@@ -481,7 +501,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "9127d7a4-e12c-4ecc-aab0-c4d6a329a1df",
-    "image": "9127d7a4-e12c-4ecc-aab0-c4d6a329a1df.jpg"
+    "image": "9127d7a4-e12c-4ecc-aab0-c4d6a329a1df.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-022",
@@ -503,7 +524,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "8fd12bf9-24fe-4f17-8e49-1b0b8c58a8bb",
-    "image": "8fd12bf9-24fe-4f17-8e49-1b0b8c58a8bb.jpg"
+    "image": "8fd12bf9-24fe-4f17-8e49-1b0b8c58a8bb.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-023",
@@ -525,7 +547,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "3c48a2d5-5133-424b-866c-db5ad183249b",
-    "image": "3c48a2d5-5133-424b-866c-db5ad183249b.jpg"
+    "image": "3c48a2d5-5133-424b-866c-db5ad183249b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-024",
@@ -547,7 +570,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "17c19294-03dd-4789-8cd8-4309140b219f",
-    "image": "17c19294-03dd-4789-8cd8-4309140b219f.jpg"
+    "image": "17c19294-03dd-4789-8cd8-4309140b219f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-025",
@@ -569,7 +593,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "ff217e7b-5dbc-4d7e-94c6-53dd390a63f0",
-    "image": "ff217e7b-5dbc-4d7e-94c6-53dd390a63f0.jpg"
+    "image": "ff217e7b-5dbc-4d7e-94c6-53dd390a63f0.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-026",
@@ -591,7 +616,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "aaab9cc7-ec5b-4f4d-b0a1-0bbaee580ae9",
-    "image": "aaab9cc7-ec5b-4f4d-b0a1-0bbaee580ae9.jpg"
+    "image": "aaab9cc7-ec5b-4f4d-b0a1-0bbaee580ae9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-027",
@@ -613,7 +639,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "035a38be-5f8c-47e1-ae52-668f57ff927b",
-    "image": "035a38be-5f8c-47e1-ae52-668f57ff927b.jpg"
+    "image": "035a38be-5f8c-47e1-ae52-668f57ff927b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-028",
@@ -635,7 +662,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "1dce2500-9ffe-42d7-936f-2b50f90c3999",
-    "image": "1dce2500-9ffe-42d7-936f-2b50f90c3999.jpg"
+    "image": "1dce2500-9ffe-42d7-936f-2b50f90c3999.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-029",
@@ -657,51 +685,53 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "4240b2a2-837e-4c45-bb9d-ff9de4770202",
-    "image": "4240b2a2-837e-4c45-bb9d-ff9de4770202.jpg"
+    "image": "4240b2a2-837e-4c45-bb9d-ff9de4770202.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ADW-030",
-    "name": "Violet, Atomic Automaton",
-    "Type": "Ruler",
-    "Race": "Machine",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {R}{R}\n{1}: Draw a card, then discard a card. Play this ability only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Machina and Mariabella finally built an automaton with feelings and a heart. But somehow it works better than it should. While the machine interacts very well with Mariabella, for some reasons it tends to ignore Machina more often than not.",
-    "Artist": "Rumie",
-    "Rarity": "R",
-    "Fowid": "5238",
-    "Cluster": "08 - Saga",
-    "Set Name": "057 - Assault into the Demonic World",
-    "Set Code": "ADW",
-    "id": "b1d09b05-54c0-4153-b932-0a3780127298",
-    "image": "b1d09b05-54c0-4153-b932-0a3780127298.jpg"
-  },
-  {
-    "Card Number": "ADW-030J",
-    "name": "Violet, Atomic Automaton [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "ADW-030|ADW-030J",
+    "name": "Violet, Atomic Automaton // Violet, Atomic Automaton [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Machine",
     "Cost": "",
     "Colour": "R",
     "ATK": "800",
     "DEF": "800",
-    "Abilities": "Discard a card: This card gains [+200/+200], [Swiftness], [Flying], [Precision], [Drain], or [Barrier] until end of turn.",
+    "Abilities": "[Judgment] {R}{R}\n{1}: Draw a card, then discard a card. Play this ability only once per turn.|Discard a card: This card gains [+200/+200], [Swiftness], [Flying], [Precision], [Drain], or [Barrier] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "With the new power source in place, her abilities for self-learning increased beyond Machina's expectations. And that scares him, a lot.",
-    "Artist": "",
+    "Flavour": "Machina and Mariabella finally built an automaton with feelings and a heart. But somehow it works better than it should. While the machine interacts very well with Mariabella, for some reasons it tends to ignore Machina more often than not.|With the new power source in place, her abilities for self-learning increased beyond Machina's expectations. And that scares him, a lot.",
+    "Artist": "Rumie",
     "Rarity": "R",
-    "Fowid": "5239",
+    "Fowid": "5238|5239",
     "Cluster": "08 - Saga",
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
-    "id": "28371f67-4d95-4885-ba0f-ace84d26ab00",
-    "image": "28371f67-4d95-4885-ba0f-ace84d26ab00.jpg"
+    "id": "b1d09b05-54c0-4153-b932-0a3780127298",
+    "image": "b1d09b05-54c0-4153-b932-0a3780127298.jpg",
+    "Card Type": "Ruler",
+    "backimage": "28371f67-4d95-4885-ba0f-ace84d26ab00.jpg",
+    "alternate1_Card Number": "ADW-030J",
+    "alternate1_name": "Violet, Atomic Automaton [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Machine",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "Discard a card: This card gains [+200/+200], [Swiftness], [Flying], [Precision], [Drain], or [Barrier] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "With the new power source in place, her abilities for self-learning increased beyond Machina's expectations. And that scares him, a lot.",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5239",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "057 - Assault into the Demonic World",
+    "alternate1_Set Code": "ADW",
+    "alternate1_id": "28371f67-4d95-4885-ba0f-ace84d26ab00",
+    "alternate1_image": "28371f67-4d95-4885-ba0f-ace84d26ab00.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ADW-031",
@@ -723,7 +753,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "a35e4951-0344-419d-b8c7-aa5138256456",
-    "image": "a35e4951-0344-419d-b8c7-aa5138256456.jpg"
+    "image": "a35e4951-0344-419d-b8c7-aa5138256456.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-032",
@@ -745,7 +776,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "0b92bd49-7512-4900-87b8-64a603021b92",
-    "image": "0b92bd49-7512-4900-87b8-64a603021b92.jpg"
+    "image": "0b92bd49-7512-4900-87b8-64a603021b92.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-033",
@@ -767,7 +799,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "94092722-c941-4f40-aac7-cfca178c3d83",
-    "image": "94092722-c941-4f40-aac7-cfca178c3d83.jpg"
+    "image": "94092722-c941-4f40-aac7-cfca178c3d83.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-034",
@@ -789,7 +822,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "ceaeb88c-89b8-482d-8aa3-5b7f6167349e",
-    "image": "ceaeb88c-89b8-482d-8aa3-5b7f6167349e.jpg"
+    "image": "ceaeb88c-89b8-482d-8aa3-5b7f6167349e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-035",
@@ -811,7 +845,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "ea14092c-a0c6-4b01-ab7f-d3b41823a53a",
-    "image": "ea14092c-a0c6-4b01-ab7f-d3b41823a53a.jpg"
+    "image": "ea14092c-a0c6-4b01-ab7f-d3b41823a53a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-036",
@@ -833,7 +868,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "c1736ddc-c900-40e4-9ca3-47c4d49430cc",
-    "image": "c1736ddc-c900-40e4-9ca3-47c4d49430cc.jpg"
+    "image": "c1736ddc-c900-40e4-9ca3-47c4d49430cc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-037",
@@ -855,7 +891,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "10211e7b-9fcb-4be2-9533-154de6affe3f",
-    "image": "10211e7b-9fcb-4be2-9533-154de6affe3f.jpg"
+    "image": "10211e7b-9fcb-4be2-9533-154de6affe3f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-038",
@@ -877,51 +914,53 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "c2b13197-1b93-4109-9f10-f0c6e10d9490",
-    "image": "c2b13197-1b93-4109-9f10-f0c6e10d9490.jpg"
+    "image": "c2b13197-1b93-4109-9f10-f0c6e10d9490.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ADW-039",
-    "name": "Olivia, Thunder Empress",
-    "Type": "Ruler",
-    "Race": "Mermaid",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {U}{U}\n[Olivia's Determination] If you would choose or target randomly, you may choose or target non-randomly instead. You can only perform the effect of one [Olivia's Determination] ability per turn and only once per turn.\nGod's Art \"Come to me, Dolly!\" {0}: Search your deck for a card named \"Dolly, Olivia's Electric Dolphin\" and put it into the field. Then shuffle your deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "She comes from the Shaelaean Sea, which was named after a famous mermaid princess that lived there more than 10,000 years ago.",
-    "Artist": "gekko",
-    "Rarity": "R",
-    "Fowid": "5248",
-    "Cluster": "08 - Saga",
-    "Set Name": "057 - Assault into the Demonic World",
-    "Set Code": "ADW",
-    "id": "d7ae4e46-7b71-4609-ae7f-d7934d427d18",
-    "image": "d7ae4e46-7b71-4609-ae7f-d7934d427d18.jpg"
-  },
-  {
-    "Card Number": "ADW-039J",
-    "name": "Olivia, Thunder Empress [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "ADW-039|ADW-039J",
+    "name": "Olivia, Thunder Empress // Olivia, Thunder Empress [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Mermaid",
     "Cost": "",
     "Colour": "U",
     "ATK": "1000",
     "DEF": "1200",
-    "Abilities": "[Barrier] (Chant)\n[Enter] ]]] Put the top card of your magic stone deck into your field rested.\n[Olivia's Determination] If you would choose or target randomly, you may choose or target non-randomly instead. You can only perform the effect of one [Olivia's Determination] ability per turn and only once per turn.\nGod's Art \"Earnest Empress\" {0}: Until end of turn, if you would choose or target randomly, you may choose or target non-randomly instead.",
+    "Abilities": "[Judgment] {U}{U}\n[Olivia's Determination] If you would choose or target randomly, you may choose or target non-randomly instead. You can only perform the effect of one [Olivia's Determination] ability per turn and only once per turn.\nGod's Art \"Come to me, Dolly!\" {0}: Search your deck for a card named \"Dolly, Olivia's Electric Dolphin\" and put it into the field. Then shuffle your deck.|[Barrier] (Chant)\n[Enter] ]]] Put the top card of your magic stone deck into your field rested.\n[Olivia's Determination] If you would choose or target randomly, you may choose or target non-randomly instead. You can only perform the effect of one [Olivia's Determination] ability per turn and only once per turn.\nGod's Art \"Earnest Empress\" {0}: Until end of turn, if you would choose or target randomly, you may choose or target non-randomly instead.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "She is the only one who knows where the thunder is going.",
-    "Artist": "",
+    "Flavour": "She comes from the Shaelaean Sea, which was named after a famous mermaid princess that lived there more than 10,000 years ago.|She is the only one who knows where the thunder is going.",
+    "Artist": "gekko",
     "Rarity": "R",
-    "Fowid": "5249",
+    "Fowid": "5248|5249",
     "Cluster": "08 - Saga",
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
-    "id": "e218ed69-c70a-4f3b-822d-4a856a67dea6",
-    "image": "e218ed69-c70a-4f3b-822d-4a856a67dea6.jpg"
+    "id": "d7ae4e46-7b71-4609-ae7f-d7934d427d18",
+    "image": "d7ae4e46-7b71-4609-ae7f-d7934d427d18.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e218ed69-c70a-4f3b-822d-4a856a67dea6.jpg",
+    "alternate1_Card Number": "ADW-039J",
+    "alternate1_name": "Olivia, Thunder Empress [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Mermaid",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Barrier] (Chant)\n[Enter] ]]] Put the top card of your magic stone deck into your field rested.\n[Olivia's Determination] If you would choose or target randomly, you may choose or target non-randomly instead. You can only perform the effect of one [Olivia's Determination] ability per turn and only once per turn.\nGod's Art \"Earnest Empress\" {0}: Until end of turn, if you would choose or target randomly, you may choose or target non-randomly instead.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "She is the only one who knows where the thunder is going.",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5249",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "057 - Assault into the Demonic World",
+    "alternate1_Set Code": "ADW",
+    "alternate1_id": "e218ed69-c70a-4f3b-822d-4a856a67dea6",
+    "alternate1_image": "e218ed69-c70a-4f3b-822d-4a856a67dea6.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ADW-040",
@@ -943,7 +982,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "6a76ada5-3478-4b34-a447-a161f6ba66f5",
-    "image": "6a76ada5-3478-4b34-a447-a161f6ba66f5.jpg"
+    "image": "6a76ada5-3478-4b34-a447-a161f6ba66f5.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-041",
@@ -965,7 +1005,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "3b7da5f0-62bc-40d4-ac08-9a4b4969c641",
-    "image": "3b7da5f0-62bc-40d4-ac08-9a4b4969c641.jpg"
+    "image": "3b7da5f0-62bc-40d4-ac08-9a4b4969c641.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-042",
@@ -987,7 +1028,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "cc02e9c0-5fbf-4473-a1e0-77a5026d5294",
-    "image": "cc02e9c0-5fbf-4473-a1e0-77a5026d5294.jpg"
+    "image": "cc02e9c0-5fbf-4473-a1e0-77a5026d5294.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-043",
@@ -1009,7 +1051,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "74292fff-1772-4cf8-a7a2-76009dad9843",
-    "image": "74292fff-1772-4cf8-a7a2-76009dad9843.jpg"
+    "image": "74292fff-1772-4cf8-a7a2-76009dad9843.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-044",
@@ -1031,7 +1074,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "eefac45c-523a-4406-979c-e3060f79a348",
-    "image": "eefac45c-523a-4406-979c-e3060f79a348.jpg"
+    "image": "eefac45c-523a-4406-979c-e3060f79a348.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-045",
@@ -1053,7 +1097,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "d901da91-d909-4735-90fc-dc77721a8adf",
-    "image": "d901da91-d909-4735-90fc-dc77721a8adf.jpg"
+    "image": "d901da91-d909-4735-90fc-dc77721a8adf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-046",
@@ -1075,7 +1120,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "c1c0fd33-7934-4505-81a6-12c400b21d54",
-    "image": "c1c0fd33-7934-4505-81a6-12c400b21d54.jpg"
+    "image": "c1c0fd33-7934-4505-81a6-12c400b21d54.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-047",
@@ -1097,51 +1143,53 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "912ee6f3-872e-4a7f-a90d-aac08df99737",
-    "image": "912ee6f3-872e-4a7f-a90d-aac08df99737.jpg"
+    "image": "912ee6f3-872e-4a7f-a90d-aac08df99737.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ADW-048",
-    "name": "Brad, Immortal Sage",
-    "Type": "Ruler",
-    "Race": "Human|Wizard",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {G}\nYou may do judgment of this card while it is rested.\nYou may do judgment of this card more than once per turn.\nYou may treat knowledge counters on this card as magic stones for [Seal] abilities you control.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "He is the only student of the Five Sages, ever. Being immortal helps a lot with his quest to learn everything about everything.",
-    "Artist": "suranaki",
-    "Rarity": "R",
-    "Fowid": "5258",
-    "Cluster": "08 - Saga",
-    "Set Name": "057 - Assault into the Demonic World",
-    "Set Code": "ADW",
-    "id": "164b1219-f5ac-4cd2-bf89-9dabbce73c73",
-    "image": "164b1219-f5ac-4cd2-bf89-9dabbce73c73.jpg"
-  },
-  {
-    "Card Number": "ADW-048J",
-    "name": "Brad, Immortal Sage [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "ADW-048|ADW-048J",
+    "name": "Brad, Immortal Sage // Brad, Immortal Sage [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human|Wizard",
     "Cost": "",
     "Colour": "G",
     "ATK": "700",
     "DEF": "700",
-    "Abilities": "[Imperishable]\n[Barrier]\n[Enter] ]]] Put a knowledge counter on this card.\nYou may treat knowledge counters on this card as magic stones for [Seal] abilities you control.",
+    "Abilities": "[Judgment] {G}\nYou may do judgment of this card while it is rested.\nYou may do judgment of this card more than once per turn.\nYou may treat knowledge counters on this card as magic stones for [Seal] abilities you control.|[Imperishable]\n[Barrier]\n[Enter] ]]] Put a knowledge counter on this card.\nYou may treat knowledge counters on this card as magic stones for [Seal] abilities you control.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "He is a quick learner and never forgets anything, at all.",
-    "Artist": "",
+    "Flavour": "He is the only student of the Five Sages, ever. Being immortal helps a lot with his quest to learn everything about everything.|He is a quick learner and never forgets anything, at all.",
+    "Artist": "suranaki",
     "Rarity": "R",
-    "Fowid": "5259",
+    "Fowid": "5258|5259",
     "Cluster": "08 - Saga",
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
-    "id": "e6a9b3ba-72cb-4793-b39f-4b15f4e63c0c",
-    "image": "e6a9b3ba-72cb-4793-b39f-4b15f4e63c0c.jpg"
+    "id": "164b1219-f5ac-4cd2-bf89-9dabbce73c73",
+    "image": "164b1219-f5ac-4cd2-bf89-9dabbce73c73.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e6a9b3ba-72cb-4793-b39f-4b15f4e63c0c.jpg",
+    "alternate1_Card Number": "ADW-048J",
+    "alternate1_name": "Brad, Immortal Sage [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human|Wizard",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[Imperishable]\n[Barrier]\n[Enter] ]]] Put a knowledge counter on this card.\nYou may treat knowledge counters on this card as magic stones for [Seal] abilities you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "He is a quick learner and never forgets anything, at all.",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5259",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "057 - Assault into the Demonic World",
+    "alternate1_Set Code": "ADW",
+    "alternate1_id": "e6a9b3ba-72cb-4793-b39f-4b15f4e63c0c",
+    "alternate1_image": "e6a9b3ba-72cb-4793-b39f-4b15f4e63c0c.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ADW-049",
@@ -1163,7 +1211,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "1fe31bd7-4e74-4c64-adde-a7d919a17819",
-    "image": "1fe31bd7-4e74-4c64-adde-a7d919a17819.jpg"
+    "image": "1fe31bd7-4e74-4c64-adde-a7d919a17819.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-050",
@@ -1185,7 +1234,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "6679d255-faac-458d-9509-bf9dbff39959",
-    "image": "6679d255-faac-458d-9509-bf9dbff39959.jpg"
+    "image": "6679d255-faac-458d-9509-bf9dbff39959.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-051",
@@ -1207,7 +1257,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "1baebde0-90a8-42cd-8f0d-6e55895ad792",
-    "image": "1baebde0-90a8-42cd-8f0d-6e55895ad792.jpg"
+    "image": "1baebde0-90a8-42cd-8f0d-6e55895ad792.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-052",
@@ -1229,7 +1280,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "98330672-56fd-4354-8bef-0f7bfb935029",
-    "image": "98330672-56fd-4354-8bef-0f7bfb935029.jpg"
+    "image": "98330672-56fd-4354-8bef-0f7bfb935029.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-053",
@@ -1251,7 +1303,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "3c3cd0c8-7ee9-4a5e-aae4-c039312a86af",
-    "image": "3c3cd0c8-7ee9-4a5e-aae4-c039312a86af.jpg"
+    "image": "3c3cd0c8-7ee9-4a5e-aae4-c039312a86af.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-054",
@@ -1273,7 +1326,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "6abd9c61-80a4-41f3-8d3c-71bd5847a7a4",
-    "image": "6abd9c61-80a4-41f3-8d3c-71bd5847a7a4.jpg"
+    "image": "6abd9c61-80a4-41f3-8d3c-71bd5847a7a4.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-055",
@@ -1295,7 +1349,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "b422c31c-0bf4-46d4-b954-bbb25f299091",
-    "image": "b422c31c-0bf4-46d4-b954-bbb25f299091.jpg"
+    "image": "b422c31c-0bf4-46d4-b954-bbb25f299091.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-056",
@@ -1317,7 +1372,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "7e238cf5-a0cf-42d9-89db-d2c2b5b57106",
-    "image": "7e238cf5-a0cf-42d9-89db-d2c2b5b57106.jpg"
+    "image": "7e238cf5-a0cf-42d9-89db-d2c2b5b57106.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-057",
@@ -1339,7 +1395,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "7272ea41-26d3-4fde-a3b8-23d5bd30fcae",
-    "image": "7272ea41-26d3-4fde-a3b8-23d5bd30fcae.jpg"
+    "image": "7272ea41-26d3-4fde-a3b8-23d5bd30fcae.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-058",
@@ -1361,7 +1418,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "b3e348c8-2f42-4773-a4a0-fcb2d9e4014c",
-    "image": "b3e348c8-2f42-4773-a4a0-fcb2d9e4014c.jpg"
+    "image": "b3e348c8-2f42-4773-a4a0-fcb2d9e4014c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-059",
@@ -1383,7 +1441,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "b8e88bf8-1788-4295-9079-ba71d60c48d8",
-    "image": "b8e88bf8-1788-4295-9079-ba71d60c48d8.jpg"
+    "image": "b8e88bf8-1788-4295-9079-ba71d60c48d8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-060",
@@ -1405,7 +1464,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "9e741d33-1cd1-4da0-9732-9250b8008a64",
-    "image": "9e741d33-1cd1-4da0-9732-9250b8008a64.jpg"
+    "image": "9e741d33-1cd1-4da0-9732-9250b8008a64.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-061",
@@ -1427,7 +1487,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "3b65da5f-4f0d-482a-8ce1-cb20b1118f17",
-    "image": "3b65da5f-4f0d-482a-8ce1-cb20b1118f17.jpg"
+    "image": "3b65da5f-4f0d-482a-8ce1-cb20b1118f17.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-062",
@@ -1449,7 +1510,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "8d7dd24e-91d3-4825-ba73-7a23eb2835e1",
-    "image": "8d7dd24e-91d3-4825-ba73-7a23eb2835e1.jpg"
+    "image": "8d7dd24e-91d3-4825-ba73-7a23eb2835e1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-063",
@@ -1471,7 +1533,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "a3b15674-ce34-47ca-9b18-c89bdc4a3992",
-    "image": "a3b15674-ce34-47ca-9b18-c89bdc4a3992.jpg"
+    "image": "a3b15674-ce34-47ca-9b18-c89bdc4a3992.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-064",
@@ -1493,7 +1556,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "32b4f57b-9e69-4763-93e2-0317c5939e32",
-    "image": "32b4f57b-9e69-4763-93e2-0317c5939e32.jpg"
+    "image": "32b4f57b-9e69-4763-93e2-0317c5939e32.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-065",
@@ -1515,7 +1579,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "19560f92-cf1a-40f0-ac8f-27f6d67b5aba",
-    "image": "19560f92-cf1a-40f0-ac8f-27f6d67b5aba.jpg"
+    "image": "19560f92-cf1a-40f0-ac8f-27f6d67b5aba.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-066",
@@ -1537,7 +1602,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "da4ae789-2512-42f3-9d9b-d5916a9f8b7e",
-    "image": "da4ae789-2512-42f3-9d9b-d5916a9f8b7e.jpg"
+    "image": "da4ae789-2512-42f3-9d9b-d5916a9f8b7e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-067",
@@ -1559,7 +1625,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "3f7e3c5c-90e1-410a-899b-4db02f218cd7",
-    "image": "3f7e3c5c-90e1-410a-899b-4db02f218cd7.jpg"
+    "image": "3f7e3c5c-90e1-410a-899b-4db02f218cd7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-068",
@@ -1581,7 +1648,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "115065ea-f558-4648-8a0f-80d8fbfdbee2",
-    "image": "115065ea-f558-4648-8a0f-80d8fbfdbee2.jpg"
+    "image": "115065ea-f558-4648-8a0f-80d8fbfdbee2.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-069",
@@ -1603,7 +1671,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "809bac87-5613-4e5b-ae1f-2e5c8e37db04",
-    "image": "809bac87-5613-4e5b-ae1f-2e5c8e37db04.jpg"
+    "image": "809bac87-5613-4e5b-ae1f-2e5c8e37db04.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-070",
@@ -1625,7 +1694,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "56afffad-c01a-4bb6-a7a5-229b67ce04d3",
-    "image": "56afffad-c01a-4bb6-a7a5-229b67ce04d3.jpg"
+    "image": "56afffad-c01a-4bb6-a7a5-229b67ce04d3.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-071",
@@ -1647,7 +1717,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "92b9bbfb-a18f-4d96-98a3-692cbf8a84ae",
-    "image": "92b9bbfb-a18f-4d96-98a3-692cbf8a84ae.jpg"
+    "image": "92b9bbfb-a18f-4d96-98a3-692cbf8a84ae.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-072",
@@ -1669,7 +1740,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "ecfa0766-f2a2-4354-9e45-13054d64048b",
-    "image": "ecfa0766-f2a2-4354-9e45-13054d64048b.jpg"
+    "image": "ecfa0766-f2a2-4354-9e45-13054d64048b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-073",
@@ -1691,7 +1763,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "1a15dcc3-6fc8-43b2-92f5-d3bc60a04fb3",
-    "image": "1a15dcc3-6fc8-43b2-92f5-d3bc60a04fb3.jpg"
+    "image": "1a15dcc3-6fc8-43b2-92f5-d3bc60a04fb3.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-074",
@@ -1713,51 +1786,53 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "2e3742ed-f332-458b-bee3-6cac1fa7becb",
-    "image": "2e3742ed-f332-458b-bee3-6cac1fa7becb.jpg"
+    "image": "2e3742ed-f332-458b-bee3-6cac1fa7becb.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "ADW-075",
-    "name": "Wolfgang, Guide of the Demonic World",
-    "Type": "Ruler",
-    "Race": "Demonic",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {B}{B}\n{X}: You may search your deck for a Demonic World addition with total cost X or less that doesn't share a name with entities you control and put it into the field. Then shuffle your deck. Play this ability only during your turn and only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Wolfgang was accidentally reincarnated by the Re-Earth fiasco, and then sent to lead the expedition into the Demonic World.",
-    "Artist": "JCREATiON",
-    "Rarity": "R",
-    "Fowid": "5286",
-    "Cluster": "08 - Saga",
-    "Set Name": "057 - Assault into the Demonic World",
-    "Set Code": "ADW",
-    "id": "1561b84c-88ae-4193-b903-4dd3e95423b6",
-    "image": "1561b84c-88ae-4193-b903-4dd3e95423b6.jpg"
-  },
-  {
-    "Card Number": "ADW-075J",
-    "name": "Wolfgang, Guide of the Demonic World [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Demonic|Demonic World",
+    "Card Number": "ADW-075|ADW-075J",
+    "name": "Wolfgang, Guide of the Demonic World // Wolfgang, Guide of the Demonic World [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Demonic|Demonic|Demonic World",
     "Cost": "",
     "Colour": "B",
     "ATK": "700",
     "DEF": "1000",
-    "Abilities": "[Bane]\n[Enter] ]]] Put the top card of your magic stone deck into the field rested. You may search your deck for a Demonic World addition and put it into the field. Then shuffle your deck.",
+    "Abilities": "[Judgment] {B}{B}\n{X}: You may search your deck for a Demonic World addition with total cost X or less that doesn't share a name with entities you control and put it into the field. Then shuffle your deck. Play this ability only during your turn and only once per turn.|[Bane]\n[Enter] ]]] Put the top card of your magic stone deck into the field rested. You may search your deck for a Demonic World addition and put it into the field. Then shuffle your deck.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Ah, the Demonic World, oh, how I missed you.\"",
-    "Artist": "",
+    "Flavour": "Wolfgang was accidentally reincarnated by the Re-Earth fiasco, and then sent to lead the expedition into the Demonic World.|\"Ah, the Demonic World, oh, how I missed you.\"",
+    "Artist": "JCREATiON",
     "Rarity": "R",
-    "Fowid": "5287",
+    "Fowid": "5286|5287",
     "Cluster": "08 - Saga",
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
-    "id": "a90518a5-00b3-425d-9472-573ec8b4c648",
-    "image": "a90518a5-00b3-425d-9472-573ec8b4c648.jpg"
+    "id": "1561b84c-88ae-4193-b903-4dd3e95423b6",
+    "image": "1561b84c-88ae-4193-b903-4dd3e95423b6.jpg",
+    "Card Type": "Ruler",
+    "backimage": "a90518a5-00b3-425d-9472-573ec8b4c648.jpg",
+    "alternate1_Card Number": "ADW-075J",
+    "alternate1_name": "Wolfgang, Guide of the Demonic World [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Demonic|Demonic World",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Bane]\n[Enter] ]]] Put the top card of your magic stone deck into the field rested. You may search your deck for a Demonic World addition and put it into the field. Then shuffle your deck.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Ah, the Demonic World, oh, how I missed you.\"",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5287",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "057 - Assault into the Demonic World",
+    "alternate1_Set Code": "ADW",
+    "alternate1_id": "a90518a5-00b3-425d-9472-573ec8b4c648",
+    "alternate1_image": "a90518a5-00b3-425d-9472-573ec8b4c648.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ADW-076",
@@ -1779,7 +1854,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "cc5e8e28-f1dc-4768-ba77-3b9b592bf4ca",
-    "image": "cc5e8e28-f1dc-4768-ba77-3b9b592bf4ca.jpg"
+    "image": "cc5e8e28-f1dc-4768-ba77-3b9b592bf4ca.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-077",
@@ -1801,7 +1877,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "95297638-f44e-4ac5-9d51-9cbbe287df5f",
-    "image": "95297638-f44e-4ac5-9d51-9cbbe287df5f.jpg"
+    "image": "95297638-f44e-4ac5-9d51-9cbbe287df5f.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-078",
@@ -1823,7 +1900,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "6ebe7285-1319-4e9a-8b4a-3eef5dd7aabf",
-    "image": "6ebe7285-1319-4e9a-8b4a-3eef5dd7aabf.jpg"
+    "image": "6ebe7285-1319-4e9a-8b4a-3eef5dd7aabf.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-079",
@@ -1845,7 +1923,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "0c8e37c3-31ad-4116-b81b-ed3919ae5876",
-    "image": "0c8e37c3-31ad-4116-b81b-ed3919ae5876.jpg"
+    "image": "0c8e37c3-31ad-4116-b81b-ed3919ae5876.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-080",
@@ -1867,7 +1946,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "5e426bdc-f13e-4ba5-a1bb-4970e9639a84",
-    "image": "5e426bdc-f13e-4ba5-a1bb-4970e9639a84.jpg"
+    "image": "5e426bdc-f13e-4ba5-a1bb-4970e9639a84.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-081",
@@ -1889,7 +1969,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "e3be5f50-a2fb-4445-b673-5253d2d732aa",
-    "image": "e3be5f50-a2fb-4445-b673-5253d2d732aa.jpg"
+    "image": "e3be5f50-a2fb-4445-b673-5253d2d732aa.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-082",
@@ -1911,7 +1992,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "692fa05a-abb7-4ef0-8db0-48cf99008ec1",
-    "image": "692fa05a-abb7-4ef0-8db0-48cf99008ec1.jpg"
+    "image": "692fa05a-abb7-4ef0-8db0-48cf99008ec1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-083",
@@ -1933,7 +2015,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "7435a93a-883e-41ce-8395-636c7b75c83f",
-    "image": "7435a93a-883e-41ce-8395-636c7b75c83f.jpg"
+    "image": "7435a93a-883e-41ce-8395-636c7b75c83f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-084",
@@ -1955,7 +2038,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "67cfc281-45b5-4e75-a990-2701a22fb939",
-    "image": "67cfc281-45b5-4e75-a990-2701a22fb939.jpg"
+    "image": "67cfc281-45b5-4e75-a990-2701a22fb939.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-085",
@@ -1977,7 +2061,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "1e5ec842-47f2-456f-8868-130a943be2a2",
-    "image": "1e5ec842-47f2-456f-8868-130a943be2a2.jpg"
+    "image": "1e5ec842-47f2-456f-8868-130a943be2a2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-086",
@@ -1999,7 +2084,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "6a6c9669-72ee-4913-bd91-4a1813fb18d9",
-    "image": "6a6c9669-72ee-4913-bd91-4a1813fb18d9.jpg"
+    "image": "6a6c9669-72ee-4913-bd91-4a1813fb18d9.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-087",
@@ -2021,7 +2107,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "c326a13d-b7b0-4158-90fe-71a1980bd25f",
-    "image": "c326a13d-b7b0-4158-90fe-71a1980bd25f.jpg"
+    "image": "c326a13d-b7b0-4158-90fe-71a1980bd25f.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-088",
@@ -2043,7 +2130,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "906d5198-43e7-4204-b311-cbe0fd590b13",
-    "image": "906d5198-43e7-4204-b311-cbe0fd590b13.jpg"
+    "image": "906d5198-43e7-4204-b311-cbe0fd590b13.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-089",
@@ -2065,7 +2153,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "b5a45052-ad45-4c79-a1ad-8f2078dd404e",
-    "image": "b5a45052-ad45-4c79-a1ad-8f2078dd404e.jpg"
+    "image": "b5a45052-ad45-4c79-a1ad-8f2078dd404e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-090",
@@ -2087,7 +2176,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "1d2b9297-7f93-4fab-ba35-733961407702",
-    "image": "1d2b9297-7f93-4fab-ba35-733961407702.jpg"
+    "image": "1d2b9297-7f93-4fab-ba35-733961407702.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-091",
@@ -2109,7 +2199,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "f05bda1b-9289-4344-a79c-6cdbddbc4ea9",
-    "image": "f05bda1b-9289-4344-a79c-6cdbddbc4ea9.jpg"
+    "image": "f05bda1b-9289-4344-a79c-6cdbddbc4ea9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ADW-092",
@@ -2131,7 +2222,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "4192853d-1e62-4f81-b090-9353edd5f31f",
-    "image": "4192853d-1e62-4f81-b090-9353edd5f31f.jpg"
+    "image": "4192853d-1e62-4f81-b090-9353edd5f31f.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-093",
@@ -2153,7 +2245,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "07885dfe-a988-4ee4-ac50-5e7a6b083b60",
-    "image": "07885dfe-a988-4ee4-ac50-5e7a6b083b60.jpg"
+    "image": "07885dfe-a988-4ee4-ac50-5e7a6b083b60.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-094",
@@ -2175,7 +2268,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "dbfe5e8e-e475-4d79-8ecd-064a9bd73942",
-    "image": "dbfe5e8e-e475-4d79-8ecd-064a9bd73942.jpg"
+    "image": "dbfe5e8e-e475-4d79-8ecd-064a9bd73942.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ADW-095",
@@ -2197,7 +2291,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "7d2e36c8-ddef-46d4-abb8-2d0ddf197b6b",
-    "image": "7d2e36c8-ddef-46d4-abb8-2d0ddf197b6b.jpg"
+    "image": "7d2e36c8-ddef-46d4-abb8-2d0ddf197b6b.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ADW-096",
@@ -2219,7 +2314,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "f5b7efcb-47dd-41b8-8eb9-4dbe33384554",
-    "image": "f5b7efcb-47dd-41b8-8eb9-4dbe33384554.jpg"
+    "image": "f5b7efcb-47dd-41b8-8eb9-4dbe33384554.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ADW-097",
@@ -2241,7 +2337,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "1145d8c3-61d6-42fb-998e-d88bd661719e",
-    "image": "1145d8c3-61d6-42fb-998e-d88bd661719e.jpg"
+    "image": "1145d8c3-61d6-42fb-998e-d88bd661719e.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ADW-098",
@@ -2263,7 +2360,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "87e3b4c0-bcec-478c-af3f-dc55afb0ae17",
-    "image": "87e3b4c0-bcec-478c-af3f-dc55afb0ae17.jpg"
+    "image": "87e3b4c0-bcec-478c-af3f-dc55afb0ae17.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ADW-099",
@@ -2285,7 +2383,8 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "63f09c52-58d2-4c00-9e72-8e28dfb2efa9",
-    "image": "63f09c52-58d2-4c00-9e72-8e28dfb2efa9.jpg"
+    "image": "63f09c52-58d2-4c00-9e72-8e28dfb2efa9.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ADW-100",
@@ -2307,6 +2406,7 @@
     "Set Name": "057 - Assault into the Demonic World",
     "Set Code": "ADW",
     "id": "f693e68d-7c98-482b-bbc7-71eb28c7e1b2",
-    "image": "f693e68d-7c98-482b-bbc7-71eb28c7e1b2.jpg"
+    "image": "f693e68d-7c98-482b-bbc7-71eb28c7e1b2.jpg",
+    "Card Type": "Special Magic Stone"
   }
 ]

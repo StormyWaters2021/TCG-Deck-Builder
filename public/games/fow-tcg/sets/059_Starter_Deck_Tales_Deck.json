@@ -19,7 +19,8 @@
     "Set Name": "059 - Starter Deck - Tales Deck",
     "Set Code": "DSD",
     "id": "6e8cac70-5788-44ca-9be3-d60e2e7ad368",
-    "image": "6e8cac70-5788-44ca-9be3-d60e2e7ad368.jpg"
+    "image": "6e8cac70-5788-44ca-9be3-d60e2e7ad368.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DSD-002",
@@ -41,7 +42,8 @@
     "Set Name": "059 - Starter Deck - Tales Deck",
     "Set Code": "DSD",
     "id": "ccfa68c6-7f00-4997-a6b9-4ec4e0c229f7",
-    "image": "ccfa68c6-7f00-4997-a6b9-4ec4e0c229f7.jpg"
+    "image": "ccfa68c6-7f00-4997-a6b9-4ec4e0c229f7.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "DSD-003",
@@ -63,7 +65,8 @@
     "Set Name": "059 - Starter Deck - Tales Deck",
     "Set Code": "DSD",
     "id": "7c6db681-a5ed-415c-9f4c-1c1ad5dedeed",
-    "image": "7c6db681-a5ed-415c-9f4c-1c1ad5dedeed.jpg"
+    "image": "7c6db681-a5ed-415c-9f4c-1c1ad5dedeed.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DSD-004",
@@ -85,7 +88,8 @@
     "Set Name": "059 - Starter Deck - Tales Deck",
     "Set Code": "DSD",
     "id": "4b4f92c4-dbba-4aa7-8f03-74105d3b9f4b",
-    "image": "4b4f92c4-dbba-4aa7-8f03-74105d3b9f4b.jpg"
+    "image": "4b4f92c4-dbba-4aa7-8f03-74105d3b9f4b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DSD-005",
@@ -107,7 +111,8 @@
     "Set Name": "059 - Starter Deck - Tales Deck",
     "Set Code": "DSD",
     "id": "4df8fe1a-d4bb-4877-8ddd-50f1f7223ed5",
-    "image": "4df8fe1a-d4bb-4877-8ddd-50f1f7223ed5.jpg"
+    "image": "4df8fe1a-d4bb-4877-8ddd-50f1f7223ed5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DSD-006",
@@ -129,7 +134,8 @@
     "Set Name": "059 - Starter Deck - Tales Deck",
     "Set Code": "DSD",
     "id": "b26a12d5-e298-4ec1-b143-ff2e7b5272b2",
-    "image": "b26a12d5-e298-4ec1-b143-ff2e7b5272b2.jpg"
+    "image": "b26a12d5-e298-4ec1-b143-ff2e7b5272b2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DSD-007",
@@ -151,7 +157,8 @@
     "Set Name": "059 - Starter Deck - Tales Deck",
     "Set Code": "DSD",
     "id": "f3811982-2538-46ff-ade2-340cb9cd5b6d",
-    "image": "f3811982-2538-46ff-ade2-340cb9cd5b6d.jpg"
+    "image": "f3811982-2538-46ff-ade2-340cb9cd5b6d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "DSD-008",
@@ -173,7 +180,8 @@
     "Set Name": "059 - Starter Deck - Tales Deck",
     "Set Code": "DSD",
     "id": "272eda27-3179-4619-aa58-b00c15342e53",
-    "image": "272eda27-3179-4619-aa58-b00c15342e53.jpg"
+    "image": "272eda27-3179-4619-aa58-b00c15342e53.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "DSD-009",
@@ -195,7 +203,8 @@
     "Set Name": "059 - Starter Deck - Tales Deck",
     "Set Code": "DSD",
     "id": "aec62905-4ec8-47e4-a2ab-fb20164d89ff",
-    "image": "aec62905-4ec8-47e4-a2ab-fb20164d89ff.jpg"
+    "image": "aec62905-4ec8-47e4-a2ab-fb20164d89ff.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "DSD-010",
@@ -217,51 +226,53 @@
     "Set Name": "059 - Starter Deck - Tales Deck",
     "Set Code": "DSD",
     "id": "d4b6e073-8156-4c31-9e52-ea5747e8d5c5",
-    "image": "d4b6e073-8156-4c31-9e52-ea5747e8d5c5.jpg"
+    "image": "d4b6e073-8156-4c31-9e52-ea5747e8d5c5.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "DSD-011",
-    "name": "Nyarlathotep, Game Master",
-    "Type": "Ruler",
+    "Card Number": "DSD-011|DSD-011J",
+    "name": "Nyarlathotep, Game Master // Order of the Game",
+    "Type": "Ruler|Order",
     "Race": "High God",
     "Cost": "",
-    "Colour": "W|R|B",
+    "Colour": "W|R|B|V",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Tales]\nYou cannot have cards with [Villains] in your deck or magic stone deck.\n[Revolution Order] {0} (Once per turn, as you play a resonator spell, you may choose to order it. If you do, that resonator spell gains \"Players cannot chase to this card. This card cannot be canceled or moved to any zone other than the field.\". As that resonator enters the field, put this card with its order side up into your order area.)\n[Force Command] [Chaos] (Apply all [Force Resonance] [Chaos] abilities of cards you control in all zones.)",
+    "Abilities": "[Tales]\nYou cannot have cards with [Villains] in your deck or magic stone deck.\n[Revolution Order] {0} (Once per turn, as you play a resonator spell, you may choose to order it. If you do, that resonator spell gains \"Players cannot chase to this card. This card cannot be canceled or moved to any zone other than the field.\". As that resonator enters the field, put this card with its order side up into your order area.)\n[Force Command] [Chaos] (Apply all [Force Resonance] [Chaos] abilities of cards you control in all zones.)|(The ordered card becomes a J-ruler with play cost (and is no longer a resonator) and gains the following abilities as long as this card is in your order area. The J-ruler type and those abilities cannot be removed from or lost by the ordered card in any way.)\n[Force Command] [Chaos]\nThe ordered card gains [+X00/+X00], where X is the number of magic stones you control.\nYou may call a magic stone while the ordered card is rested and calling a magic stone does not cause the ordered card to rest.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Nyarlathotep invited the gods into her world to enter the game of gods.",
+    "Flavour": "Nyarlathotep invited the gods into her world to enter the game of gods.|The game of gods begins here and now.",
     "Artist": "yuko",
     "Rarity": "R",
-    "Fowid": "5436",
+    "Fowid": "5436|5437",
     "Cluster": "09 - Duel",
     "Set Name": "059 - Starter Deck - Tales Deck",
     "Set Code": "DSD",
     "id": "447ff89f-c029-442a-bf1b-9f8a4a5f7838",
-    "image": "447ff89f-c029-442a-bf1b-9f8a4a5f7838.jpg"
-  },
-  {
-    "Card Number": "DSD-011J",
-    "name": "Order of the Game",
-    "Type": "Order",
-    "Race": "",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "(The ordered card becomes a J-ruler with play cost (and is no longer a resonator) and gains the following abilities as long as this card is in your order area. The J-ruler type and those abilities cannot be removed from or lost by the ordered card in any way.)\n[Force Command] [Chaos]\nThe ordered card gains [+X00/+X00], where X is the number of magic stones you control.\nYou may call a magic stone while the ordered card is rested and calling a magic stone does not cause the ordered card to rest.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The game of gods begins here and now.",
-    "Artist": "yuko",
-    "Rarity": "R",
-    "Fowid": "5437",
-    "Cluster": "09 - Duel",
-    "Set Name": "059 - Starter Deck - Tales Deck",
-    "Set Code": "DSD",
-    "id": "9768eb89-845d-40d3-afdc-596d550d78ce",
-    "image": "9768eb89-845d-40d3-afdc-596d550d78ce.jpg"
+    "image": "447ff89f-c029-442a-bf1b-9f8a4a5f7838.jpg",
+    "Card Type": "Ruler",
+    "backimage": "9768eb89-845d-40d3-afdc-596d550d78ce.jpg",
+    "alternate1_Card Number": "DSD-011J",
+    "alternate1_name": "Order of the Game",
+    "alternate1_Type": "Order",
+    "alternate1_Race": "",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "(The ordered card becomes a J-ruler with play cost (and is no longer a resonator) and gains the following abilities as long as this card is in your order area. The J-ruler type and those abilities cannot be removed from or lost by the ordered card in any way.)\n[Force Command] [Chaos]\nThe ordered card gains [+X00/+X00], where X is the number of magic stones you control.\nYou may call a magic stone while the ordered card is rested and calling a magic stone does not cause the ordered card to rest.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "The game of gods begins here and now.",
+    "alternate1_Artist": "yuko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5437",
+    "alternate1_Cluster": "09 - Duel",
+    "alternate1_Set Name": "059 - Starter Deck - Tales Deck",
+    "alternate1_Set Code": "DSD",
+    "alternate1_id": "9768eb89-845d-40d3-afdc-596d550d78ce",
+    "alternate1_image": "9768eb89-845d-40d3-afdc-596d550d78ce.jpg",
+    "alternate1_Card Type": "Order"
   },
   {
     "Card Number": "DSD-023",
@@ -283,6 +294,7 @@
     "Set Name": "059 - Starter Deck - Tales Deck",
     "Set Code": "DSD",
     "id": "65791fe3-f4db-4ac2-ad61-74981858da8b",
-    "image": "65791fe3-f4db-4ac2-ad61-74981858da8b.jpg"
+    "image": "65791fe3-f4db-4ac2-ad61-74981858da8b.jpg",
+    "Card Type": "Basic Magic Stone"
   }
 ]

@@ -19,7 +19,8 @@
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
     "id": "70412e98-7eab-48be-859c-df66fcfcd8d0",
-    "image": "70412e98-7eab-48be-859c-df66fcfcd8d0.jpg"
+    "image": "70412e98-7eab-48be-859c-df66fcfcd8d0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR4-002",
@@ -41,7 +42,8 @@
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
     "id": "bfb70d23-66c1-468b-b9b2-f81ba613514a",
-    "image": "bfb70d23-66c1-468b-b9b2-f81ba613514a.jpg"
+    "image": "bfb70d23-66c1-468b-b9b2-f81ba613514a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR4-003",
@@ -63,51 +65,53 @@
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
     "id": "988970a3-f14d-48fe-9db8-a5988e98ff86",
-    "image": "988970a3-f14d-48fe-9db8-a5988e98ff86.jpg"
+    "image": "988970a3-f14d-48fe-9db8-a5988e98ff86.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "SDR4-004",
-    "name": "Gill",
-    "Type": "Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {G}{G}{1} (Pay {G}{G}{1} to flip this card and put it into the field as a J-Ruler.)\n[Energize] {G} (As the game starts, if you're not the player going first, you get a will coin with \"Banish this coin: Produce {G}\".)\nRemove an Elemental in your graveyard from the game: Produce {G}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.\n{Rest}: Search your deck for a card named \"Gentle Breeze Elemental\", reveal it and put it into your hand. Then shuffle your deck.\nSealed Item [[Ultra Magic Stone]] At the end of your turn ⇒ Put the top card of your deck into your graveyard.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Inside the boy's heart slept a great amibition.",
-    "Artist": "gekko",
-    "Rarity": "R",
-    "Fowid": "2799",
-    "Cluster": "05 - Reiya",
-    "Set Name": "029 - Starter - Elemental Surge",
-    "Set Code": "SDR4",
-    "id": "8063034f-aa8d-40c6-bd9d-0c21f9da9cc3",
-    "image": "8063034f-aa8d-40c6-bd9d-0c21f9da9cc3.jpg"
-  },
-  {
-    "Card Number": "SDR4-004J",
-    "name": "Gill, the Gifted Conjurer",
-    "Type": "J-Ruler",
+    "Card Number": "SDR4-004|SDR4-004J",
+    "name": "Gill // Gill, the Gifted Conjurer",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human",
     "Cost": "",
     "Colour": "G",
     "ATK": "1100",
     "DEF": "1100",
-    "Abilities": "[Barrier] (Cards you control with [Barrier] cannot be targeted by spells or abilities your opponent controls.)\nRemove an Elemental in your graveyard from the game: Produce {G}. Spend this ability only to play Spirit Magic chants. Play this ability only once per turn.\nSealed Item [[Ultra Magic Stone]] If you would produce will with this card, produce that will plus {G} instead.\nSealed Item [[Ultra Magic Stone]] Put two cards from your removed area that were removed by this card on the bottom of your deck in any order: Search your deck for a chant, reveal it and put it into your hand. Then shuffle your deck. Play this ability only once per turn.",
+    "Abilities": "[Judgment] {G}{G}{1} (Pay {G}{G}{1} to flip this card and put it into the field as a J-Ruler.)\n[Energize] {G} (As the game starts, if you're not the player going first, you get a will coin with \"Banish this coin: Produce {G}\".)\nRemove an Elemental in your graveyard from the game: Produce {G}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.\n{Rest}: Search your deck for a card named \"Gentle Breeze Elemental\", reveal it and put it into your hand. Then shuffle your deck.\nSealed Item [[Ultra Magic Stone]] At the end of your turn ⇒ Put the top card of your deck into your graveyard.|[Barrier] (Cards you control with [Barrier] cannot be targeted by spells or abilities your opponent controls.)\nRemove an Elemental in your graveyard from the game: Produce {G}. Spend this ability only to play Spirit Magic chants. Play this ability only once per turn.\nSealed Item [[Ultra Magic Stone]] If you would produce will with this card, produce that will plus {G} instead.\nSealed Item [[Ultra Magic Stone]] Put two cards from your removed area that were removed by this card on the bottom of your deck in any order: Search your deck for a chant, reveal it and put it into your hand. Then shuffle your deck. Play this ability only once per turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Alright, I guess I'll give it a shot!\"",
+    "Flavour": "Inside the boy's heart slept a great amibition.|\"Alright, I guess I'll give it a shot!\"",
     "Artist": "gekko",
     "Rarity": "R",
-    "Fowid": "2800",
+    "Fowid": "2799|2800",
     "Cluster": "05 - Reiya",
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
-    "id": "9e11346e-d6cb-4645-acbf-60efee61d302",
-    "image": "9e11346e-d6cb-4645-acbf-60efee61d302.jpg"
+    "id": "8063034f-aa8d-40c6-bd9d-0c21f9da9cc3",
+    "image": "8063034f-aa8d-40c6-bd9d-0c21f9da9cc3.jpg",
+    "Card Type": "Ruler",
+    "backimage": "9e11346e-d6cb-4645-acbf-60efee61d302.jpg",
+    "alternate1_Card Number": "SDR4-004J",
+    "alternate1_name": "Gill, the Gifted Conjurer",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1100",
+    "alternate1_DEF": "1100",
+    "alternate1_Abilities": "[Barrier] (Cards you control with [Barrier] cannot be targeted by spells or abilities your opponent controls.)\nRemove an Elemental in your graveyard from the game: Produce {G}. Spend this ability only to play Spirit Magic chants. Play this ability only once per turn.\nSealed Item [[Ultra Magic Stone]] If you would produce will with this card, produce that will plus {G} instead.\nSealed Item [[Ultra Magic Stone]] Put two cards from your removed area that were removed by this card on the bottom of your deck in any order: Search your deck for a chant, reveal it and put it into your hand. Then shuffle your deck. Play this ability only once per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Alright, I guess I'll give it a shot!\"",
+    "alternate1_Artist": "gekko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2800",
+    "alternate1_Cluster": "05 - Reiya",
+    "alternate1_Set Name": "029 - Starter - Elemental Surge",
+    "alternate1_Set Code": "SDR4",
+    "alternate1_id": "9e11346e-d6cb-4645-acbf-60efee61d302",
+    "alternate1_image": "9e11346e-d6cb-4645-acbf-60efee61d302.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDR4-005",
@@ -129,7 +133,8 @@
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
     "id": "b8c5ad61-f998-4308-bde5-a0539f9be616",
-    "image": "b8c5ad61-f998-4308-bde5-a0539f9be616.jpg"
+    "image": "b8c5ad61-f998-4308-bde5-a0539f9be616.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR4-006",
@@ -151,7 +156,8 @@
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
     "id": "da8e05a8-86eb-4d7f-a5c2-c7863b7e0769",
-    "image": "da8e05a8-86eb-4d7f-a5c2-c7863b7e0769.jpg"
+    "image": "da8e05a8-86eb-4d7f-a5c2-c7863b7e0769.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR4-007",
@@ -173,7 +179,8 @@
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
     "id": "d2feb1d6-f18b-4fd7-9422-a36c1a223d52",
-    "image": "d2feb1d6-f18b-4fd7-9422-a36c1a223d52.jpg"
+    "image": "d2feb1d6-f18b-4fd7-9422-a36c1a223d52.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR4-008",
@@ -195,7 +202,8 @@
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
     "id": "95f5a6f3-c5f8-4573-99a8-04d87584eba7",
-    "image": "95f5a6f3-c5f8-4573-99a8-04d87584eba7.jpg"
+    "image": "95f5a6f3-c5f8-4573-99a8-04d87584eba7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR4-009",
@@ -217,7 +225,8 @@
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
     "id": "6882ddaa-da6f-49e2-bddd-5479664e0f38",
-    "image": "6882ddaa-da6f-49e2-bddd-5479664e0f38.jpg"
+    "image": "6882ddaa-da6f-49e2-bddd-5479664e0f38.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDR4-010",
@@ -239,7 +248,8 @@
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
     "id": "4b9e8807-c96d-4fa6-a545-39aff0f9e787",
-    "image": "4b9e8807-c96d-4fa6-a545-39aff0f9e787.jpg"
+    "image": "4b9e8807-c96d-4fa6-a545-39aff0f9e787.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDR4-011",
@@ -261,7 +271,8 @@
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
     "id": "f22e4167-ed35-4239-903d-ba6a46c9764a",
-    "image": "f22e4167-ed35-4239-903d-ba6a46c9764a.jpg"
+    "image": "f22e4167-ed35-4239-903d-ba6a46c9764a.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDR4-012",
@@ -283,7 +294,8 @@
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
     "id": "b6ef5910-805b-4eaf-96b7-6f396e82a560",
-    "image": "b6ef5910-805b-4eaf-96b7-6f396e82a560.jpg"
+    "image": "b6ef5910-805b-4eaf-96b7-6f396e82a560.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "SDR4-013",
@@ -305,6 +317,7 @@
     "Set Name": "029 - Starter - Elemental Surge",
     "Set Code": "SDR4",
     "id": "318542a5-cc90-4719-bc76-8c0a9711399f",
-    "image": "318542a5-cc90-4719-bc76-8c0a9711399f.jpg"
+    "image": "318542a5-cc90-4719-bc76-8c0a9711399f.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

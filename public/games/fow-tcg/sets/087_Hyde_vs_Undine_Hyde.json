@@ -1,17 +1,17 @@
 [
   {
-    "Card Number": "ABC-SD04-000",
-    "name": "Arcana: Knight of the Heavens",
-    "Type": "Ruler",
+    "Card Number": "ABC-SD04-000|ABC-SD04-000J",
+    "name": "Arcana: Knight of the Heavens // Arcana: God of Shadowy Light",
+    "Type": "Ruler|J-Ruler",
     "Race": "Arcana",
     "Cost": "",
     "Colour": "W|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Convoke] {W}{B}\nYou can only have light cards and darkness cards in your deck, and no cards with attributes other than light or darkness.\nAt the beginning of the game ]]] Put three limited counters on this card.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.\n[Judgment] {W}{B}{1}",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Convoke] {W}{B}\nYou can only have light cards and darkness cards in your deck, and no cards with attributes other than light or darkness.\nAt the beginning of the game ]]] Put three limited counters on this card.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.\n[Judgment] {W}{B}{1}|[Convoke] {W}{B}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "He walks the fine line between light and darkness.",
+    "Flavour": "He walks the fine line between light and darkness.|\"Your prayers have been heard.\" ーGod of Shadowy Light",
     "Artist": "",
     "Rarity": "R",
     "Fowid": "None",
@@ -19,43 +19,44 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "221e4b21-2bfa-4157-8297-ad9aa212cac8",
-    "image": "221e4b21-2bfa-4157-8297-ad9aa212cac8.jpg"
+    "image": "221e4b21-2bfa-4157-8297-ad9aa212cac8.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e0047f5a-08ba-47a8-8fd9-cb8a36ed3a52.jpg",
+    "alternate1_Card Number": "ABC-SD04-000J",
+    "alternate1_name": "Arcana: God of Shadowy Light",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Arcana",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|B",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Convoke] {W}{B}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Your prayers have been heard.\" ーGod of Shadowy Light",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "None",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "087 - Hyde vs Undine (Hyde)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "e0047f5a-08ba-47a8-8fd9-cb8a36ed3a52",
+    "alternate1_image": "e0047f5a-08ba-47a8-8fd9-cb8a36ed3a52.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD04-000J",
-    "name": "Arcana: God of Shadowy Light",
-    "Type": "J-Ruler",
-    "Race": "Arcana",
-    "Cost": "",
-    "Colour": "W|B",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Convoke] {W}{B}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Your prayers have been heard.\" ーGod of Shadowy Light",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "None",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "087 - Hyde vs Undine (Hyde)",
-    "Set Code": "ABC",
-    "id": "e0047f5a-08ba-47a8-8fd9-cb8a36ed3a52",
-    "image": "e0047f5a-08ba-47a8-8fd9-cb8a36ed3a52.jpg"
-  },
-  {
-    "Card Number": "ABC-SD04-001",
+    "Card Number": "ABC-SD04-001|ABC-SD04-001J",
     "name": "Belial",
-    "Type": "Ruler",
+    "Type": "Ruler|J-Ruler",
     "Race": "Fallen Angel",
     "Cost": "",
     "Colour": "W|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Tag] (Fallen Angel)\nYou have a starting life of 2000.\nFallen Angel resonator tokens you control gain [+200/+200] and [Bane].\nGod's Art \"Pride\" {W}: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Draw a card.\n[Judgment] {W}{B}. Play this judgment process only if you already played two God's Art abilities this game.",
+    "ATK": "800",
+    "DEF": "800",
+    "Abilities": "[Tag] (Fallen Angel)\nYou have a starting life of 2000.\nFallen Angel resonator tokens you control gain [+200/+200] and [Bane].\nGod's Art \"Pride\" {W}: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Draw a card.\n[Judgment] {W}{B}. Play this judgment process only if you already played two God's Art abilities this game.|[Flying]\nFallen Angel resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] ]]] Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\nGod's Art \"Damaged Pride\" {0}: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Ages ago, when the Demonic World was created, the power of Satan was divided into seven parts. One part, Pride, was entrusted to Belial.",
+    "Flavour": "Ages ago, when the Demonic World was created, the power of Satan was divided into seven parts. One part, Pride, was entrusted to Belial.|\"Belial, take my Pride. Be arrogant, condescending and dominant.\" -Satan",
     "Artist": "Fukuzo Katsura",
     "Rarity": "R",
     "Fowid": "None",
@@ -63,43 +64,44 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "535a5448-d358-4ca3-8891-4e05922e1f25",
-    "image": "535a5448-d358-4ca3-8891-4e05922e1f25.jpg"
+    "image": "535a5448-d358-4ca3-8891-4e05922e1f25.jpg",
+    "Card Type": "Ruler",
+    "backimage": "1e2a1d49-5af8-4e79-9b39-a14c6f40de05.jpg",
+    "alternate1_Card Number": "ABC-SD04-001J",
+    "alternate1_name": "Belial",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Fallen Angel",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|B",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Flying]\nFallen Angel resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] ]]] Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\nGod's Art \"Damaged Pride\" {0}: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Belial, take my Pride. Be arrogant, condescending and dominant.\" -Satan",
+    "alternate1_Artist": "Fukuzo Katsura",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "None",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "087 - Hyde vs Undine (Hyde)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "1e2a1d49-5af8-4e79-9b39-a14c6f40de05",
+    "alternate1_image": "1e2a1d49-5af8-4e79-9b39-a14c6f40de05.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD04-001J",
-    "name": "Belial",
-    "Type": "J-Ruler",
-    "Race": "Fallen Angel",
-    "Cost": "",
-    "Colour": "W|B",
-    "ATK": "800",
-    "DEF": "800",
-    "Abilities": "[Flying]\nFallen Angel resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] ]]] Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\nGod's Art \"Damaged Pride\" {0}: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Belial, take my Pride. Be arrogant, condescending and dominant.\" -Satan",
-    "Artist": "Fukuzo Katsura",
-    "Rarity": "R",
-    "Fowid": "None",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "087 - Hyde vs Undine (Hyde)",
-    "Set Code": "ABC",
-    "id": "1e2a1d49-5af8-4e79-9b39-a14c6f40de05",
-    "image": "1e2a1d49-5af8-4e79-9b39-a14c6f40de05.jpg"
-  },
-  {
-    "Card Number": "ABC-SD04-002",
+    "Card Number": "ABC-SD04-002|ABC-SD04-002J",
     "name": "Dark Alice",
-    "Type": "Ruler",
+    "Type": "Ruler|J-Ruler",
     "Race": "Fairy Tale|Wanderer",
     "Cost": "",
     "Colour": "W|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Whenever a darkness regalia enters the field under your control ]]] Choose one. If the regalia is \"Unknown Mother Goose\", repeat this process once;\n- Gain two light crystals.\n- Gain two darkness crystals.\n[Judgment] {W}{B}{B}",
+    "ATK": "1200",
+    "DEF": "1400",
+    "Abilities": "Whenever a darkness regalia enters the field under your control ]]] Choose one. If the regalia is \"Unknown Mother Goose\", repeat this process once;\n- Gain two light crystals.\n- Gain two darkness crystals.\n[Judgment] {W}{B}{B}|[Drain]\n[Bane]\n[Enter] ]]] Search your deck for a Fairy Tale resonator and put it into the field, then shuffle your deck.\n{W}, banish two light crystals: Target entity gains [Eternal] and [Barrier] until end of turn.\n{B}, banish X darkness crystals: Destroy all resonators with total cost X. \nGod's Art \"Mother Goose Rising\" {W}{B}: Put any number of target Fairy Tale resonators and/or Shadow resonators with different names from your graveyard into your hand.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Traveling through endless darkness, she seeks the light beyond.",
+    "Flavour": "Traveling through endless darkness, she seeks the light beyond.|\"OK, let's get started. Welcome to the show of slaughter and revenge!\"",
     "Artist": "Matsurika Yoko",
     "Rarity": "R",
     "Fowid": "4712",
@@ -107,29 +109,30 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "acef8d76-7242-42f2-a35a-7f95b04e874f",
-    "image": "acef8d76-7242-42f2-a35a-7f95b04e874f.jpg"
-  },
-  {
-    "Card Number": "ABC-SD04-002J",
-    "name": "Dark Alice",
-    "Type": "J-Ruler",
-    "Race": "Fairy Tale|Wanderer",
-    "Cost": "",
-    "Colour": "W|B",
-    "ATK": "1200",
-    "DEF": "1400",
-    "Abilities": "[Drain]\n[Bane]\n[Enter] ]]] Search your deck for a Fairy Tale resonator and put it into the field, then shuffle your deck.\n{W}, banish two light crystals: Target entity gains [Eternal] and [Barrier] until end of turn.\n{B}, banish X darkness crystals: Destroy all resonators with total cost X. \nGod's Art \"Mother Goose Rising\" {W}{B}: Put any number of target Fairy Tale resonators and/or Shadow resonators with different names from your graveyard into your hand.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"OK, let's get started. Welcome to the show of slaughter and revenge!\"",
-    "Artist": "Matsurika Yoko",
-    "Rarity": "R",
-    "Fowid": "4712",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "087 - Hyde vs Undine (Hyde)",
-    "Set Code": "ABC",
-    "id": "6a20ad92-4cb7-44e5-b635-27f9e7963c5c",
-    "image": "6a20ad92-4cb7-44e5-b635-27f9e7963c5c.jpg"
+    "image": "acef8d76-7242-42f2-a35a-7f95b04e874f.jpg",
+    "Card Type": "Ruler",
+    "backimage": "6a20ad92-4cb7-44e5-b635-27f9e7963c5c.jpg",
+    "alternate1_Card Number": "ABC-SD04-002J",
+    "alternate1_name": "Dark Alice",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Fairy Tale|Wanderer",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|B",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1400",
+    "alternate1_Abilities": "[Drain]\n[Bane]\n[Enter] ]]] Search your deck for a Fairy Tale resonator and put it into the field, then shuffle your deck.\n{W}, banish two light crystals: Target entity gains [Eternal] and [Barrier] until end of turn.\n{B}, banish X darkness crystals: Destroy all resonators with total cost X. \nGod's Art \"Mother Goose Rising\" {W}{B}: Put any number of target Fairy Tale resonators and/or Shadow resonators with different names from your graveyard into your hand.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"OK, let's get started. Welcome to the show of slaughter and revenge!\"",
+    "alternate1_Artist": "Matsurika Yoko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "4712",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "087 - Hyde vs Undine (Hyde)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "6a20ad92-4cb7-44e5-b635-27f9e7963c5c",
+    "alternate1_image": "6a20ad92-4cb7-44e5-b635-27f9e7963c5c.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD04-003",
@@ -151,7 +154,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "4f4b9319-ff57-4f81-b4ab-ba0992bc402d",
-    "image": "4f4b9319-ff57-4f81-b4ab-ba0992bc402d.jpg"
+    "image": "4f4b9319-ff57-4f81-b4ab-ba0992bc402d.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "ABC-SD04-004",
@@ -173,7 +177,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "eb7135fc-bc9f-436c-9fa5-3c6e4abc57fc",
-    "image": "eb7135fc-bc9f-436c-9fa5-3c6e4abc57fc.jpg"
+    "image": "eb7135fc-bc9f-436c-9fa5-3c6e4abc57fc.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "ABC-SD04-005",
@@ -195,7 +200,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "f26416cf-1d2b-4734-9ef7-f7402d637638",
-    "image": "f26416cf-1d2b-4734-9ef7-f7402d637638.jpg"
+    "image": "f26416cf-1d2b-4734-9ef7-f7402d637638.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-006",
@@ -217,7 +223,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "24e5aec0-75f6-4ec7-b1b3-84e8cfe1c8ca",
-    "image": "24e5aec0-75f6-4ec7-b1b3-84e8cfe1c8ca.jpg"
+    "image": "24e5aec0-75f6-4ec7-b1b3-84e8cfe1c8ca.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-007",
@@ -239,7 +246,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "ced8f47b-0c88-43ce-9521-e552a3e7c982",
-    "image": "ced8f47b-0c88-43ce-9521-e552a3e7c982.jpg"
+    "image": "ced8f47b-0c88-43ce-9521-e552a3e7c982.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-008",
@@ -261,7 +269,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "46be28f9-bb68-4bba-9b20-17350d62eab7",
-    "image": "46be28f9-bb68-4bba-9b20-17350d62eab7.jpg"
+    "image": "46be28f9-bb68-4bba-9b20-17350d62eab7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-009",
@@ -283,7 +292,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "f2773760-4568-4874-bfad-7305f87eaaa3",
-    "image": "f2773760-4568-4874-bfad-7305f87eaaa3.jpg"
+    "image": "f2773760-4568-4874-bfad-7305f87eaaa3.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-010",
@@ -305,7 +315,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "e44213e5-9dc5-4050-ad15-e4fdfc76ffff",
-    "image": "e44213e5-9dc5-4050-ad15-e4fdfc76ffff.jpg"
+    "image": "e44213e5-9dc5-4050-ad15-e4fdfc76ffff.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD04-011",
@@ -327,7 +338,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "bf89ca09-8f70-409f-83b8-4bed5b2a03ca",
-    "image": "bf89ca09-8f70-409f-83b8-4bed5b2a03ca.jpg"
+    "image": "bf89ca09-8f70-409f-83b8-4bed5b2a03ca.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD04-012",
@@ -349,7 +361,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "ce12a0e2-bb46-4160-a0b9-9f3d10397147",
-    "image": "ce12a0e2-bb46-4160-a0b9-9f3d10397147.jpg"
+    "image": "ce12a0e2-bb46-4160-a0b9-9f3d10397147.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD04-013",
@@ -371,7 +384,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "958169b8-c36f-4248-88a6-a5319b32d4e9",
-    "image": "958169b8-c36f-4248-88a6-a5319b32d4e9.jpg"
+    "image": "958169b8-c36f-4248-88a6-a5319b32d4e9.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD04-014",
@@ -393,7 +407,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "a2658f88-4223-4972-99f9-b28485018857",
-    "image": "a2658f88-4223-4972-99f9-b28485018857.jpg"
+    "image": "a2658f88-4223-4972-99f9-b28485018857.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-015",
@@ -415,7 +430,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "66d399ad-0382-46b7-98f8-723e2edf5b6e",
-    "image": "66d399ad-0382-46b7-98f8-723e2edf5b6e.jpg"
+    "image": "66d399ad-0382-46b7-98f8-723e2edf5b6e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-016",
@@ -437,7 +453,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "2ae1435c-121c-4673-b593-1059c2ffde96",
-    "image": "2ae1435c-121c-4673-b593-1059c2ffde96.jpg"
+    "image": "2ae1435c-121c-4673-b593-1059c2ffde96.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-017",
@@ -459,7 +476,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "3740b9cd-9438-47b7-9bb6-0cb8bafaa1bd",
-    "image": "3740b9cd-9438-47b7-9bb6-0cb8bafaa1bd.jpg"
+    "image": "3740b9cd-9438-47b7-9bb6-0cb8bafaa1bd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-018",
@@ -481,7 +499,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "b8a82c5c-5718-498a-9ff8-1dfc88f0dc43",
-    "image": "b8a82c5c-5718-498a-9ff8-1dfc88f0dc43.jpg"
+    "image": "b8a82c5c-5718-498a-9ff8-1dfc88f0dc43.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-019",
@@ -503,7 +522,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "ebd343f6-aa44-4131-893b-1a6a0cdaae52",
-    "image": "ebd343f6-aa44-4131-893b-1a6a0cdaae52.jpg"
+    "image": "ebd343f6-aa44-4131-893b-1a6a0cdaae52.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-020",
@@ -525,7 +545,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "1ef6cbe4-33bc-47d8-b102-c21dcfdb51d1",
-    "image": "1ef6cbe4-33bc-47d8-b102-c21dcfdb51d1.jpg"
+    "image": "1ef6cbe4-33bc-47d8-b102-c21dcfdb51d1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-021",
@@ -547,7 +568,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "996260b3-e66e-4f42-98b7-bd69278e18b6",
-    "image": "996260b3-e66e-4f42-98b7-bd69278e18b6.jpg"
+    "image": "996260b3-e66e-4f42-98b7-bd69278e18b6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-022",
@@ -569,7 +591,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "cc2a0efc-005b-466c-a8e1-24553711928a",
-    "image": "cc2a0efc-005b-466c-a8e1-24553711928a.jpg"
+    "image": "cc2a0efc-005b-466c-a8e1-24553711928a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-023",
@@ -591,7 +614,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "29f417a4-aff0-4027-a76d-353342971afe",
-    "image": "29f417a4-aff0-4027-a76d-353342971afe.jpg"
+    "image": "29f417a4-aff0-4027-a76d-353342971afe.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-024",
@@ -613,7 +637,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "125e7d54-54a2-4f7e-9189-4f2dc1ecad73",
-    "image": "125e7d54-54a2-4f7e-9189-4f2dc1ecad73.jpg"
+    "image": "125e7d54-54a2-4f7e-9189-4f2dc1ecad73.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-025",
@@ -635,7 +660,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "dd6f380e-4dfd-49d4-b554-481d5380b4dd",
-    "image": "dd6f380e-4dfd-49d4-b554-481d5380b4dd.jpg"
+    "image": "dd6f380e-4dfd-49d4-b554-481d5380b4dd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-026",
@@ -657,7 +683,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "d6be3495-13d8-4e83-ab65-f50f124a364a",
-    "image": "d6be3495-13d8-4e83-ab65-f50f124a364a.jpg"
+    "image": "d6be3495-13d8-4e83-ab65-f50f124a364a.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD04-027",
@@ -679,7 +706,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "15cfabf7-0ec5-49b4-bba2-6b20c89e0861",
-    "image": "15cfabf7-0ec5-49b4-bba2-6b20c89e0861.jpg"
+    "image": "15cfabf7-0ec5-49b4-bba2-6b20c89e0861.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-028",
@@ -701,7 +729,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "19fd3301-6981-456a-84ac-582bba15868e",
-    "image": "19fd3301-6981-456a-84ac-582bba15868e.jpg"
+    "image": "19fd3301-6981-456a-84ac-582bba15868e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-029",
@@ -723,18 +752,19 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "cdb599a5-0db4-409f-bf44-1bef6260bb3c",
-    "image": "cdb599a5-0db4-409f-bf44-1bef6260bb3c.jpg"
+    "image": "cdb599a5-0db4-409f-bf44-1bef6260bb3c.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ABC-SD04-030",
-    "name": "Lumia, Princess of Rebirth",
-    "Type": "Resonator",
+    "Card Number": "ABC-SD04-030|ABC-SD04-030*",
+    "name": "Lumia, Princess of Rebirth // Wings of Light and Darkness",
+    "Type": "Resonator|Chant",
     "Race": "Human",
-    "Cost": "{W}",
-    "Colour": "W",
+    "Cost": "{W}|{B}",
+    "Colour": "W|B",
     "ATK": "200",
     "DEF": "500",
-    "Abilities": "[Quickcast]\n[Enter] ]]] You gain life equal to the amount of life you lost in any way (e.g. loss of life, payment of life, and reduction of life due to damage) this turn. Draw a card.",
+    "Abilities": "[Quickcast]\n[Enter] ]]] You gain life equal to the amount of life you lost in any way (e.g. loss of life, payment of life, and reduction of life due to damage) this turn. Draw a card.|[Quickcast]\nRemove target resonator with total cost 2 or less from the game. If this card was awakened, put its \"Lumia, Princess of Rebirth\" part into the field instead of putting this card into its owner's graveyard.\n[Awakening] {W}",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -745,29 +775,30 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "439a3b3d-3f8e-4639-bc32-2369ea9a5999",
-    "image": "439a3b3d-3f8e-4639-bc32-2369ea9a5999.jpg"
-  },
-  {
-    "Card Number": "ABC-SD04-030*",
-    "name": "Wings of Light and Darkness",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{B}",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nRemove target resonator with total cost 2 or less from the game. If this card was awakened, put its \"Lumia, Princess of Rebirth\" part into the field instead of putting this card into its owner's graveyard.\n[Awakening] {W}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "kurisu",
-    "Rarity": "MR",
-    "Fowid": "5203",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "087 - Hyde vs Undine (Hyde)",
-    "Set Code": "ABC",
-    "id": "cc87302c-ecd6-4226-b20a-cbf3230909f1",
-    "image": "cc87302c-ecd6-4226-b20a-cbf3230909f1.jpg"
+    "image": "439a3b3d-3f8e-4639-bc32-2369ea9a5999.jpg",
+    "Card Type": "Resonator",
+    "backimage": "cc87302c-ecd6-4226-b20a-cbf3230909f1.jpg",
+    "alternate1_Card Number": "ABC-SD04-030*",
+    "alternate1_name": "Wings of Light and Darkness",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{B}",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nRemove target resonator with total cost 2 or less from the game. If this card was awakened, put its \"Lumia, Princess of Rebirth\" part into the field instead of putting this card into its owner's graveyard.\n[Awakening] {W}",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "kurisu",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5203",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "087 - Hyde vs Undine (Hyde)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "cc87302c-ecd6-4226-b20a-cbf3230909f1",
+    "alternate1_image": "cc87302c-ecd6-4226-b20a-cbf3230909f1.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-031",
@@ -789,7 +820,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "ebe878a5-30d6-4b41-a603-16f61d5a707a",
-    "image": "ebe878a5-30d6-4b41-a603-16f61d5a707a.jpg"
+    "image": "ebe878a5-30d6-4b41-a603-16f61d5a707a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-032",
@@ -811,7 +843,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "37ba8e4f-c59d-495f-bf91-b0f8d23ab756",
-    "image": "37ba8e4f-c59d-495f-bf91-b0f8d23ab756.jpg"
+    "image": "37ba8e4f-c59d-495f-bf91-b0f8d23ab756.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-033",
@@ -833,7 +866,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "1f507fb5-0532-49be-afb0-8d7b472e128a",
-    "image": "1f507fb5-0532-49be-afb0-8d7b472e128a.jpg"
+    "image": "1f507fb5-0532-49be-afb0-8d7b472e128a.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-034",
@@ -855,7 +889,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "cf460ba4-f03d-45cd-947f-65414bc9df70",
-    "image": "cf460ba4-f03d-45cd-947f-65414bc9df70.jpg"
+    "image": "cf460ba4-f03d-45cd-947f-65414bc9df70.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-035",
@@ -877,7 +912,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "e5163180-733f-4511-839c-e5134394591c",
-    "image": "e5163180-733f-4511-839c-e5134394591c.jpg"
+    "image": "e5163180-733f-4511-839c-e5134394591c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-036",
@@ -899,7 +935,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "b057de9f-3cb0-4e7c-b1ec-105accb268b2",
-    "image": "b057de9f-3cb0-4e7c-b1ec-105accb268b2.jpg"
+    "image": "b057de9f-3cb0-4e7c-b1ec-105accb268b2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-037",
@@ -921,7 +958,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "17dcbb21-209a-4012-bfd1-ad798a6ed995",
-    "image": "17dcbb21-209a-4012-bfd1-ad798a6ed995.jpg"
+    "image": "17dcbb21-209a-4012-bfd1-ad798a6ed995.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-038",
@@ -943,51 +981,53 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "335e121b-acd4-4129-8638-6a009a316de2",
-    "image": "335e121b-acd4-4129-8638-6a009a316de2.jpg"
+    "image": "335e121b-acd4-4129-8638-6a009a316de2.jpg",
+    "Card Type": "Regalia|Resonator"
   },
   {
-    "Card Number": "ABC-SD04-039",
-    "name": "Rocket Dive",
-    "Type": "Chant",
-    "Race": "Contract|Ninjutsu",
+    "Card Number": "ABC-SD04-039|ABC-SD04-039J",
+    "name": "Rocket Dive // Pink Spider",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Ninjutsu|Ninja|Spider",
     "Cost": "{W}{B}",
     "Colour": "W|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Choose one;\n- Your opponent banishes two resonators.\n- Expand your [Shinobi] EX Area by one space until end of game.\nIf you played this card from your [Shinobi] EX Area, contract this card with \"Hyde, Solitary Assassin\".",
+    "ATK": "800",
+    "DEF": "1100",
+    "Abilities": "Choose one;\n- Your opponent banishes two resonators.\n- Expand your [Shinobi] EX Area by one space until end of game.\nIf you played this card from your [Shinobi] EX Area, contract this card with \"Hyde, Solitary Assassin\".|[Drain]\n[Bane]\nYou may play cards from your [Shinobi] EX Area.\n[Enter] ]]] Expand your [Shinobi] EX Area by one space until end of game. Put any number of cards from your hand face down into your [Shinobi] EX Area. Draw X cards, where X is the number of cards put into your [Shinobi] EX Area this way.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I make my own destiny!\" ーHyde, Solitary Assassin",
-    "Artist": "kicori",
+    "Flavour": "\"I make my own destiny!\" ーHyde, Solitary Assassin|Her contract with the Cat Moon transformed her into this special form.",
+    "Artist": "kicori|Nekobayashi",
     "Rarity": "R",
-    "Fowid": "1634",
+    "Fowid": "1634|1635",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "9c4abcb8-c59f-4f12-b52d-70d4535e9717",
-    "image": "9c4abcb8-c59f-4f12-b52d-70d4535e9717.jpg"
-  },
-  {
-    "Card Number": "ABC-SD04-039J",
-    "name": "Pink Spider",
-    "Type": "J-Ruler",
-    "Race": "Ninja|Spider",
-    "Cost": "",
-    "Colour": "W|B",
-    "ATK": "800",
-    "DEF": "1100",
-    "Abilities": "[Drain]\n[Bane]\nYou may play cards from your [Shinobi] EX Area.\n[Enter] ]]] Expand your [Shinobi] EX Area by one space until end of game. Put any number of cards from your hand face down into your [Shinobi] EX Area. Draw X cards, where X is the number of cards put into your [Shinobi] EX Area this way.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Her contract with the Cat Moon transformed her into this special form.",
-    "Artist": "Nekobayashi",
-    "Rarity": "R",
-    "Fowid": "1635",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "087 - Hyde vs Undine (Hyde)",
-    "Set Code": "ABC",
-    "id": "9877d28a-829f-44a0-b750-8dcaba7094ed",
-    "image": "9877d28a-829f-44a0-b750-8dcaba7094ed.jpg"
+    "image": "9c4abcb8-c59f-4f12-b52d-70d4535e9717.jpg",
+    "Card Type": "Chant",
+    "backimage": "9877d28a-829f-44a0-b750-8dcaba7094ed.jpg",
+    "alternate1_Card Number": "ABC-SD04-039J",
+    "alternate1_name": "Pink Spider",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Ninja|Spider",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|B",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "1100",
+    "alternate1_Abilities": "[Drain]\n[Bane]\nYou may play cards from your [Shinobi] EX Area.\n[Enter] ]]] Expand your [Shinobi] EX Area by one space until end of game. Put any number of cards from your hand face down into your [Shinobi] EX Area. Draw X cards, where X is the number of cards put into your [Shinobi] EX Area this way.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Her contract with the Cat Moon transformed her into this special form.",
+    "alternate1_Artist": "Nekobayashi",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1635",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "087 - Hyde vs Undine (Hyde)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "9877d28a-829f-44a0-b750-8dcaba7094ed",
+    "alternate1_image": "9877d28a-829f-44a0-b750-8dcaba7094ed.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD04-040",
@@ -1009,7 +1049,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "a947392b-d6b7-4d96-8835-16bf182b723e",
-    "image": "a947392b-d6b7-4d96-8835-16bf182b723e.jpg"
+    "image": "a947392b-d6b7-4d96-8835-16bf182b723e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-041",
@@ -1031,7 +1072,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "01cd09ac-faf4-4ad4-a4ed-87e549f1db87",
-    "image": "01cd09ac-faf4-4ad4-a4ed-87e549f1db87.jpg"
+    "image": "01cd09ac-faf4-4ad4-a4ed-87e549f1db87.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-042",
@@ -1053,7 +1095,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "60512ccb-a598-4d24-b5bb-0686d83215fe",
-    "image": "60512ccb-a598-4d24-b5bb-0686d83215fe.jpg"
+    "image": "60512ccb-a598-4d24-b5bb-0686d83215fe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-043",
@@ -1075,7 +1118,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "b651964e-e572-40dc-927a-41855ad641f4",
-    "image": "b651964e-e572-40dc-927a-41855ad641f4.jpg"
+    "image": "b651964e-e572-40dc-927a-41855ad641f4.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD04-044",
@@ -1097,7 +1141,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "3328e9db-3bd8-4455-b2e2-1f74291a5ba5",
-    "image": "3328e9db-3bd8-4455-b2e2-1f74291a5ba5.jpg"
+    "image": "3328e9db-3bd8-4455-b2e2-1f74291a5ba5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-045",
@@ -1119,7 +1164,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "cafc7497-df04-4dc0-bc28-e8e2eb5136d9",
-    "image": "cafc7497-df04-4dc0-bc28-e8e2eb5136d9.jpg"
+    "image": "cafc7497-df04-4dc0-bc28-e8e2eb5136d9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-046",
@@ -1141,7 +1187,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "ab3beb2a-a6b0-492b-bc9a-6853d4d011b7",
-    "image": "ab3beb2a-a6b0-492b-bc9a-6853d4d011b7.jpg"
+    "image": "ab3beb2a-a6b0-492b-bc9a-6853d4d011b7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-047",
@@ -1163,7 +1210,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "f72bfcc0-564c-4792-95b9-beaa35003fae",
-    "image": "f72bfcc0-564c-4792-95b9-beaa35003fae.jpg"
+    "image": "f72bfcc0-564c-4792-95b9-beaa35003fae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-048",
@@ -1185,7 +1233,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "ee6e8679-6a25-401c-8967-c11ce85079fb",
-    "image": "ee6e8679-6a25-401c-8967-c11ce85079fb.jpg"
+    "image": "ee6e8679-6a25-401c-8967-c11ce85079fb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-049",
@@ -1207,7 +1256,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "5f204626-765b-4c86-8d55-9beb2f14acfd",
-    "image": "5f204626-765b-4c86-8d55-9beb2f14acfd.jpg"
+    "image": "5f204626-765b-4c86-8d55-9beb2f14acfd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-050",
@@ -1229,7 +1279,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "1177d7df-dcd5-45e2-adbd-bf8874cf361b",
-    "image": "1177d7df-dcd5-45e2-adbd-bf8874cf361b.jpg"
+    "image": "1177d7df-dcd5-45e2-adbd-bf8874cf361b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-051",
@@ -1251,7 +1302,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "a63057e8-7340-446b-a241-8661f3293579",
-    "image": "a63057e8-7340-446b-a241-8661f3293579.jpg"
+    "image": "a63057e8-7340-446b-a241-8661f3293579.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD04-052",
@@ -1273,7 +1325,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "70be3859-5731-466c-b324-c0606c3d0f0c",
-    "image": "70be3859-5731-466c-b324-c0606c3d0f0c.jpg"
+    "image": "70be3859-5731-466c-b324-c0606c3d0f0c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD04-053",
@@ -1295,7 +1348,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "cd4096b6-73c6-4a50-92e2-d85f701acf48",
-    "image": "cd4096b6-73c6-4a50-92e2-d85f701acf48.jpg"
+    "image": "cd4096b6-73c6-4a50-92e2-d85f701acf48.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-054",
@@ -1317,7 +1371,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "52f40565-a915-4dee-8a2a-f190c5c9ab94",
-    "image": "52f40565-a915-4dee-8a2a-f190c5c9ab94.jpg"
+    "image": "52f40565-a915-4dee-8a2a-f190c5c9ab94.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-055",
@@ -1339,7 +1394,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "5971b9ff-3fe0-4578-b6ed-bc119e3acb2d",
-    "image": "5971b9ff-3fe0-4578-b6ed-bc119e3acb2d.jpg"
+    "image": "5971b9ff-3fe0-4578-b6ed-bc119e3acb2d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-056",
@@ -1361,51 +1417,53 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "f86196e6-06ea-44de-b117-8ea05eb9d062",
-    "image": "f86196e6-06ea-44de-b117-8ea05eb9d062.jpg"
+    "image": "f86196e6-06ea-44de-b117-8ea05eb9d062.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "ABC-SD04-057",
-    "name": "Twin Blades of Hope and Despair",
+    "Card Number": "ABC-SD04-057|ABC-SD04-057*",
+    "name": "Twin Blades of Hope and Despair // Sword of Fate",
     "Type": "Chant",
-    "Race": "",
-    "Cost": "{W}{B}",
+    "Race": "Inverse",
+    "Cost": "{W}{B}|{W}{W}{B}{B}",
     "Colour": "W|B",
     "ATK": "",
     "DEF": "",
-    "Abilities": "[Quickcast]\nTarget J/resonator you control gains [+600/+600] and target J/resonator your opponent controls gains [-600/-600] until end of turn. Remove this card inverted from the game.",
+    "Abilities": "[Quickcast]\nTarget J/resonator you control gains [+600/+600] and target J/resonator your opponent controls gains [-600/-600] until end of turn. Remove this card inverted from the game.|(If this card moves to a non-chase zone, flip it over.)\nPlay this card only from your removed area.\nChoose one;\n- Destroy target J/resonator.\n- Put target resonator with total cost 5 or less from your graveyard into the field.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Hope is just someone's denial of their despair. Enough with these cheap tricks.\" ーPrincess of Fleeting Hope",
+    "Flavour": "\"Hope is just someone's denial of their despair. Enough with these cheap tricks.\" ーPrincess of Fleeting Hope|Fate is terribly, horribly, unfair and cruel.",
     "Artist": "Mad",
     "Rarity": "SR",
-    "Fowid": "3341",
+    "Fowid": "3341|3342",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "22019411-869b-46cc-814c-8e498e6e3721",
-    "image": "22019411-869b-46cc-814c-8e498e6e3721.jpg"
-  },
-  {
-    "Card Number": "ABC-SD04-057*",
-    "name": "Sword of Fate",
-    "Type": "Chant",
-    "Race": "Inverse",
-    "Cost": "{W}{W}{B}{B}",
-    "Colour": "W|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "(If this card moves to a non-chase zone, flip it over.)\nPlay this card only from your removed area.\nChoose one;\n- Destroy target J/resonator.\n- Put target resonator with total cost 5 or less from your graveyard into the field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Fate is terribly, horribly, unfair and cruel.",
-    "Artist": "Mad",
-    "Rarity": "SR",
-    "Fowid": "3342",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "087 - Hyde vs Undine (Hyde)",
-    "Set Code": "ABC",
-    "id": "8c20641c-9700-4561-87a3-0be33477f849",
-    "image": "8c20641c-9700-4561-87a3-0be33477f849.jpg"
+    "image": "22019411-869b-46cc-814c-8e498e6e3721.jpg",
+    "Card Type": "Chant",
+    "backimage": "8c20641c-9700-4561-87a3-0be33477f849.jpg",
+    "alternate1_Card Number": "ABC-SD04-057*",
+    "alternate1_name": "Sword of Fate",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "Inverse",
+    "alternate1_Cost": "{W}{W}{B}{B}",
+    "alternate1_Colour": "W|B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "(If this card moves to a non-chase zone, flip it over.)\nPlay this card only from your removed area.\nChoose one;\n- Destroy target J/resonator.\n- Put target resonator with total cost 5 or less from your graveyard into the field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Fate is terribly, horribly, unfair and cruel.",
+    "alternate1_Artist": "Mad",
+    "alternate1_Rarity": "SR",
+    "alternate1_Fowid": "3342",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "087 - Hyde vs Undine (Hyde)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "8c20641c-9700-4561-87a3-0be33477f849",
+    "alternate1_image": "8c20641c-9700-4561-87a3-0be33477f849.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-058",
@@ -1427,7 +1485,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "0720adc2-77c4-4534-b101-f3dfce26608d",
-    "image": "0720adc2-77c4-4534-b101-f3dfce26608d.jpg"
+    "image": "0720adc2-77c4-4534-b101-f3dfce26608d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD04-059",
@@ -1449,7 +1508,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "4e9bb190-5256-4d25-9805-54d37e4a24ef",
-    "image": "4e9bb190-5256-4d25-9805-54d37e4a24ef.jpg"
+    "image": "4e9bb190-5256-4d25-9805-54d37e4a24ef.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "ABC-SD04-060",
@@ -1471,7 +1531,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "0e87569c-0a23-46ac-b931-e15f31c468f9",
-    "image": "0e87569c-0a23-46ac-b931-e15f31c468f9.jpg"
+    "image": "0e87569c-0a23-46ac-b931-e15f31c468f9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD04-061",
@@ -1493,7 +1554,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "5fc3d4b0-bede-4f52-ac0a-c652dd0afe85",
-    "image": "5fc3d4b0-bede-4f52-ac0a-c652dd0afe85.jpg"
+    "image": "5fc3d4b0-bede-4f52-ac0a-c652dd0afe85.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD04-062",
@@ -1515,51 +1577,53 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "ebcadd65-4806-4a3b-b8a1-b65431005524",
-    "image": "ebcadd65-4806-4a3b-b8a1-b65431005524.jpg"
+    "image": "ebcadd65-4806-4a3b-b8a1-b65431005524.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
-    "Card Number": "ABC-SD04-063",
-    "name": "Magic Stone of Hope",
-    "Type": "Special Magic Stone",
-    "Race": "",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Whenever a J-ruler enters the field under your control ]]] Invert this card.\n{Rest}: Produce {W}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Plant a seed of hope...",
-    "Artist": "Saiko Takaki",
-    "Rarity": "R",
-    "Fowid": "3343",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "087 - Hyde vs Undine (Hyde)",
-    "Set Code": "ABC",
-    "id": "baacbe41-c7a8-4c79-b1f2-618ae178cd99",
-    "image": "baacbe41-c7a8-4c79-b1f2-618ae178cd99.jpg"
-  },
-  {
-    "Card Number": "ABC-SD04-063*",
-    "name": "Magic Stone of Despair",
+    "Card Number": "ABC-SD04-063|ABC-SD04-063*",
+    "name": "Magic Stone of Hope // Magic Stone of Despair",
     "Type": "Special Magic Stone",
     "Race": "Inverse",
     "Cost": "",
     "Colour": "V",
     "ATK": "",
     "DEF": "",
-    "Abilities": "{Rest}: Produce {W} or {B}.",
+    "Abilities": "Whenever a J-ruler enters the field under your control ]]] Invert this card.\n{Rest}: Produce {W}.|{Rest}: Produce {W} or {B}.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "...and watch despair bloom.",
+    "Flavour": "Plant a seed of hope...|...and watch despair bloom.",
     "Artist": "Saiko Takaki",
     "Rarity": "R",
-    "Fowid": "3344",
+    "Fowid": "3343|3344",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
-    "id": "be9b045f-a5c5-4315-a8c0-411dbf1c0083",
-    "image": "be9b045f-a5c5-4315-a8c0-411dbf1c0083.jpg"
+    "id": "baacbe41-c7a8-4c79-b1f2-618ae178cd99",
+    "image": "baacbe41-c7a8-4c79-b1f2-618ae178cd99.jpg",
+    "Card Type": "Special Magic Stone",
+    "backimage": "be9b045f-a5c5-4315-a8c0-411dbf1c0083.jpg",
+    "alternate1_Card Number": "ABC-SD04-063*",
+    "alternate1_name": "Magic Stone of Despair",
+    "alternate1_Type": "Special Magic Stone",
+    "alternate1_Race": "Inverse",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "{Rest}: Produce {W} or {B}.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "...and watch despair bloom.",
+    "alternate1_Artist": "Saiko Takaki",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3344",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "087 - Hyde vs Undine (Hyde)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "be9b045f-a5c5-4315-a8c0-411dbf1c0083",
+    "alternate1_image": "be9b045f-a5c5-4315-a8c0-411dbf1c0083.jpg",
+    "alternate1_Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD04-064",
@@ -1581,7 +1645,8 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "d01078c5-06dc-40e4-8bbb-783c44c965e6",
-    "image": "d01078c5-06dc-40e4-8bbb-783c44c965e6.jpg"
+    "image": "d01078c5-06dc-40e4-8bbb-783c44c965e6.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD04-065",
@@ -1603,6 +1668,7 @@
     "Set Name": "087 - Hyde vs Undine (Hyde)",
     "Set Code": "ABC",
     "id": "22beb056-bc8d-44bc-a7f9-a6313f3cbad9",
-    "image": "22beb056-bc8d-44bc-a7f9-a6313f3cbad9.jpg"
+    "image": "22beb056-bc8d-44bc-a7f9-a6313f3cbad9.jpg",
+    "Card Type": "Special Magic Stone"
   }
 ]

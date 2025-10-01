@@ -19,51 +19,53 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "d8884911-69fd-43e0-9ba4-f3eda8e803f5",
-    "image": "d8884911-69fd-43e0-9ba4-f3eda8e803f5.jpg"
+    "image": "d8884911-69fd-43e0-9ba4-f3eda8e803f5.jpg",
+    "Card Type": "Master Rune"
   },
   {
-    "Card Number": "SDV3-002",
-    "name": "Arthur",
-    "Type": "Ruler",
-    "Race": "Machine",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] 10\n[Judgment] {U} {U} {U}\n[Energize] {U}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Within the castle in the sky lies Arthur and his knights of steel.",
-    "Artist": "Shinichi Chiba",
-    "Rarity": "R",
-    "Fowid": "3801",
-    "Cluster": "06 - New Valhalla",
-    "Set Name": "038 - Starter Deck Valhalla - Water",
-    "Set Code": "SDV3",
-    "id": "9a751196-49ef-443b-b408-10be21f2847e",
-    "image": "9a751196-49ef-443b-b408-10be21f2847e.jpg"
-  },
-  {
-    "Card Number": "SDV3-002J",
-    "name": "Arthur, King of Machines",
-    "Type": "J-Ruler",
+    "Card Number": "SDV3-002|SDV3-002J",
+    "name": "Arthur // Arthur, King of Machines",
+    "Type": "Ruler|J-Ruler",
     "Race": "Machine",
     "Cost": "",
     "Colour": "U",
     "ATK": "0",
     "DEF": "800",
-    "Abilities": "[Divinity] 10\n[Flying]\n[Enter] ⇒ Look at the top five cards of your deck. Choose up to two Machine resonators from among them and remove them from the game. Put [+100/+100] counters equal to the combined total cost of cards removed this way on this card. Put the rest into your graveyard. (When this card enters the field ⇒ Perform the effect.)",
+    "Abilities": "[Divinity] 10\n[Judgment] {U} {U} {U}\n[Energize] {U}|[Divinity] 10\n[Flying]\n[Enter] ⇒ Look at the top five cards of your deck. Choose up to two Machine resonators from among them and remove them from the game. Put [+100/+100] counters equal to the combined total cost of cards removed this way on this card. Put the rest into your graveyard. (When this card enters the field ⇒ Perform the effect.)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "The knights, created by Deus Ex Machina, continue to carry out their duties in this world.",
+    "Flavour": "Within the castle in the sky lies Arthur and his knights of steel.|The knights, created by Deus Ex Machina, continue to carry out their duties in this world.",
     "Artist": "Shinichi Chiba",
     "Rarity": "R",
-    "Fowid": "3802",
+    "Fowid": "3801|3802",
     "Cluster": "06 - New Valhalla",
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
-    "id": "2b1cde4e-b47c-4070-ad6c-7e883d23d0a3",
-    "image": "2b1cde4e-b47c-4070-ad6c-7e883d23d0a3.jpg"
+    "id": "9a751196-49ef-443b-b408-10be21f2847e",
+    "image": "9a751196-49ef-443b-b408-10be21f2847e.jpg",
+    "Card Type": "Ruler",
+    "backimage": "2b1cde4e-b47c-4070-ad6c-7e883d23d0a3.jpg",
+    "alternate1_Card Number": "SDV3-002J",
+    "alternate1_name": "Arthur, King of Machines",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Machine",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Divinity] 10\n[Flying]\n[Enter] ⇒ Look at the top five cards of your deck. Choose up to two Machine resonators from among them and remove them from the game. Put [+100/+100] counters equal to the combined total cost of cards removed this way on this card. Put the rest into your graveyard. (When this card enters the field ⇒ Perform the effect.)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "The knights, created by Deus Ex Machina, continue to carry out their duties in this world.",
+    "alternate1_Artist": "Shinichi Chiba",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3802",
+    "alternate1_Cluster": "06 - New Valhalla",
+    "alternate1_Set Name": "038 - Starter Deck Valhalla - Water",
+    "alternate1_Set Code": "SDV3",
+    "alternate1_id": "2b1cde4e-b47c-4070-ad6c-7e883d23d0a3",
+    "alternate1_image": "2b1cde4e-b47c-4070-ad6c-7e883d23d0a3.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDV3-003",
@@ -85,7 +87,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "5180b8f0-ea50-46bf-8c0d-cbc3a9693ca1",
-    "image": "5180b8f0-ea50-46bf-8c0d-cbc3a9693ca1.jpg"
+    "image": "5180b8f0-ea50-46bf-8c0d-cbc3a9693ca1.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV3-004",
@@ -107,7 +110,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "f25cdae1-8d16-4ef4-b0d0-11bf40b47a47",
-    "image": "f25cdae1-8d16-4ef4-b0d0-11bf40b47a47.jpg"
+    "image": "f25cdae1-8d16-4ef4-b0d0-11bf40b47a47.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV3-005",
@@ -129,7 +133,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "f05e972c-acba-4f87-ba5b-8a828f06de99",
-    "image": "f05e972c-acba-4f87-ba5b-8a828f06de99.jpg"
+    "image": "f05e972c-acba-4f87-ba5b-8a828f06de99.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV3-006",
@@ -151,7 +156,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "33b48aa5-6b2a-4631-8472-53597a9e49ed",
-    "image": "33b48aa5-6b2a-4631-8472-53597a9e49ed.jpg"
+    "image": "33b48aa5-6b2a-4631-8472-53597a9e49ed.jpg",
+    "Card Type": "Master Rune"
   },
   {
     "Card Number": "SDV3-007",
@@ -173,7 +179,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "462e4273-d8bf-4cc7-994b-e9c54f507af5",
-    "image": "462e4273-d8bf-4cc7-994b-e9c54f507af5.jpg"
+    "image": "462e4273-d8bf-4cc7-994b-e9c54f507af5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV3-008",
@@ -195,7 +202,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "07f4890c-97ed-4666-9f21-a4d5522a2027",
-    "image": "07f4890c-97ed-4666-9f21-a4d5522a2027.jpg"
+    "image": "07f4890c-97ed-4666-9f21-a4d5522a2027.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV3-009",
@@ -217,7 +225,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "98fd7a00-5de3-42e2-a4e1-a3a7453aa793",
-    "image": "98fd7a00-5de3-42e2-a4e1-a3a7453aa793.jpg"
+    "image": "98fd7a00-5de3-42e2-a4e1-a3a7453aa793.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV3-010",
@@ -239,51 +248,53 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "ab0ce2b7-228f-453b-adff-4168aad8c1b9",
-    "image": "ab0ce2b7-228f-453b-adff-4168aad8c1b9.jpg"
+    "image": "ab0ce2b7-228f-453b-adff-4168aad8c1b9.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "SDV3-011",
-    "name": "Loki",
-    "Type": "Ruler",
-    "Race": "Witch",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Divinity] 10\n[Judgment] {U} {U} {1}\n[Energize] {U}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Now then, let's get this show on the road.\"",
-    "Artist": "ishishou",
-    "Rarity": "R",
-    "Fowid": "3811",
-    "Cluster": "06 - New Valhalla",
-    "Set Name": "038 - Starter Deck Valhalla - Water",
-    "Set Code": "SDV3",
-    "id": "1d9522bb-b701-4362-89be-8fdf67748a07",
-    "image": "1d9522bb-b701-4362-89be-8fdf67748a07.jpg"
-  },
-  {
-    "Card Number": "SDV3-011J",
-    "name": "Loki, the Witch of Chaos",
-    "Type": "J-Ruler",
+    "Card Number": "SDV3-011|SDV3-011J",
+    "name": "Loki // Loki, the Witch of Chaos",
+    "Type": "Ruler|J-Ruler",
     "Race": "Witch",
     "Cost": "",
     "Colour": "U",
     "ATK": "800",
     "DEF": "1200",
-    "Abilities": "[Divinity] 10\nYou may pay {2} less for the [Awakening] costs of spells you control. (If you awaken a spell multiple times, you may pay {2} less for each [Awakening].)",
+    "Abilities": "[Divinity] 10\n[Judgment] {U} {U} {1}\n[Energize] {U}|[Divinity] 10\nYou may pay {2} less for the [Awakening] costs of spells you control. (If you awaken a spell multiple times, you may pay {2} less for each [Awakening].)",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"The power of the gods... Hehehe... I wonder, will they manage to master it?\"",
+    "Flavour": "\"Now then, let's get this show on the road.\"|\"The power of the gods... Hehehe... I wonder, will they manage to master it?\"",
     "Artist": "ishishou",
     "Rarity": "R",
-    "Fowid": "3812",
+    "Fowid": "3811|3812",
     "Cluster": "06 - New Valhalla",
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
-    "id": "88ff9d0c-5232-444a-8ad1-22b22a7ec81f",
-    "image": "88ff9d0c-5232-444a-8ad1-22b22a7ec81f.jpg"
+    "id": "1d9522bb-b701-4362-89be-8fdf67748a07",
+    "image": "1d9522bb-b701-4362-89be-8fdf67748a07.jpg",
+    "Card Type": "Ruler",
+    "backimage": "88ff9d0c-5232-444a-8ad1-22b22a7ec81f.jpg",
+    "alternate1_Card Number": "SDV3-011J",
+    "alternate1_name": "Loki, the Witch of Chaos",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Witch",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Divinity] 10\nYou may pay {2} less for the [Awakening] costs of spells you control. (If you awaken a spell multiple times, you may pay {2} less for each [Awakening].)",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"The power of the gods... Hehehe... I wonder, will they manage to master it?\"",
+    "alternate1_Artist": "ishishou",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "3812",
+    "alternate1_Cluster": "06 - New Valhalla",
+    "alternate1_Set Name": "038 - Starter Deck Valhalla - Water",
+    "alternate1_Set Code": "SDV3",
+    "alternate1_id": "88ff9d0c-5232-444a-8ad1-22b22a7ec81f",
+    "alternate1_image": "88ff9d0c-5232-444a-8ad1-22b22a7ec81f.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDV3-012",
@@ -305,7 +316,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "7cb2459d-b8b6-466c-9de2-fd0795f3f509",
-    "image": "7cb2459d-b8b6-466c-9de2-fd0795f3f509.jpg"
+    "image": "7cb2459d-b8b6-466c-9de2-fd0795f3f509.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV3-013",
@@ -327,7 +339,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "2963af9a-c86d-4c84-879e-ef737cf2a34c",
-    "image": "2963af9a-c86d-4c84-879e-ef737cf2a34c.jpg"
+    "image": "2963af9a-c86d-4c84-879e-ef737cf2a34c.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV3-014",
@@ -349,7 +362,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "f20a150c-8d4b-4f8d-80ff-31716962ad9b",
-    "image": "f20a150c-8d4b-4f8d-80ff-31716962ad9b.jpg"
+    "image": "f20a150c-8d4b-4f8d-80ff-31716962ad9b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV3-015",
@@ -371,7 +385,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "984da4e9-29e8-4b8c-a096-cbb9a6a607af",
-    "image": "984da4e9-29e8-4b8c-a096-cbb9a6a607af.jpg"
+    "image": "984da4e9-29e8-4b8c-a096-cbb9a6a607af.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV3-016",
@@ -393,7 +408,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "d6ebda60-0c01-4032-85f2-ab124659fc78",
-    "image": "d6ebda60-0c01-4032-85f2-ab124659fc78.jpg"
+    "image": "d6ebda60-0c01-4032-85f2-ab124659fc78.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV3-017",
@@ -415,7 +431,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "818b5e4c-969e-4dd8-b755-15587999c484",
-    "image": "818b5e4c-969e-4dd8-b755-15587999c484.jpg"
+    "image": "818b5e4c-969e-4dd8-b755-15587999c484.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV3-018",
@@ -437,7 +454,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "04791b06-2a62-471b-8e5c-3df364a50211",
-    "image": "04791b06-2a62-471b-8e5c-3df364a50211.jpg"
+    "image": "04791b06-2a62-471b-8e5c-3df364a50211.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV3-019",
@@ -459,7 +477,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "980ae29f-d246-4811-91cf-a0266721e44c",
-    "image": "980ae29f-d246-4811-91cf-a0266721e44c.jpg"
+    "image": "980ae29f-d246-4811-91cf-a0266721e44c.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV3-020",
@@ -481,7 +500,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "155505bf-8e3b-4b3e-80fc-ad7fccc28df6",
-    "image": "155505bf-8e3b-4b3e-80fc-ad7fccc28df6.jpg"
+    "image": "155505bf-8e3b-4b3e-80fc-ad7fccc28df6.jpg",
+    "Card Type": "Rune"
   },
   {
     "Card Number": "SDV3-021",
@@ -503,7 +523,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "24d417c4-ce27-4ba5-b4b8-2a3c46afd153",
-    "image": "24d417c4-ce27-4ba5-b4b8-2a3c46afd153.jpg"
+    "image": "24d417c4-ce27-4ba5-b4b8-2a3c46afd153.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV3-022",
@@ -525,7 +546,8 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "e4570c84-8826-42b2-957b-3d13323ae415",
-    "image": "e4570c84-8826-42b2-957b-3d13323ae415.jpg"
+    "image": "e4570c84-8826-42b2-957b-3d13323ae415.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDV3-023",
@@ -547,6 +569,7 @@
     "Set Name": "038 - Starter Deck Valhalla - Water",
     "Set Code": "SDV3",
     "id": "31d37fc4-e91d-4b2d-a3bc-c36d6093127b",
-    "image": "31d37fc4-e91d-4b2d-a3bc-c36d6093127b.jpg"
+    "image": "31d37fc4-e91d-4b2d-a3bc-c36d6093127b.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

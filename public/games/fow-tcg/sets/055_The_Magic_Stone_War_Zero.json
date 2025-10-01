@@ -19,51 +19,53 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "1d45baac-11e8-4eec-bfe4-cec7fab16ad3",
-    "image": "1d45baac-11e8-4eec-bfe4-cec7fab16ad3.jpg"
+    "image": "1d45baac-11e8-4eec-bfe4-cec7fab16ad3.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "MSW-002",
-    "name": "Almerius",
-    "Type": "Ruler",
-    "Race": "Human|Six Sages",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {W}{W}{1}\n[Tag] (Six Sages) - You may start the game with this ruler and another ruler with [Tag] (Six Sages) that doesn't share a name with this card. Put both in your ruler area.\nIf you would set your starting life, set it to that much plus 3000 instead.\nYou may pay {1} less to do judgment of rulers you control.\n{Rest}: Target J/resonator gains [+200/+200] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"I'm the leader now? But, why?!\"",
-    "Artist": "Miko Yamazaki",
-    "Rarity": "R",
-    "Fowid": "5066",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "2734decd-cbef-42f2-9c1f-870c744f296e",
-    "image": "2734decd-cbef-42f2-9c1f-870c744f296e.jpg"
-  },
-  {
-    "Card Number": "MSW-002J",
-    "name": "Almerius [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "MSW-002|MSW-002J",
+    "name": "Almerius // Almerius [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human|Six Sages",
     "Cost": "",
     "Colour": "W",
     "ATK": "600",
     "DEF": "800",
-    "Abilities": "[Flying]\n[Enter] ]]] Put target light non-chant card or light alternative card with its non-chant part from your graveyard into the field.\n{W}: J/resonators you control gain [+200/+200] until end of turn.",
+    "Abilities": "[Judgment] {W}{W}{1}\n[Tag] (Six Sages) - You may start the game with this ruler and another ruler with [Tag] (Six Sages) that doesn't share a name with this card. Put both in your ruler area.\nIf you would set your starting life, set it to that much plus 3000 instead.\nYou may pay {1} less to do judgment of rulers you control.\n{Rest}: Target J/resonator gains [+200/+200] until end of turn.|[Flying]\n[Enter] ]]] Put target light non-chant card or light alternative card with its non-chant part from your graveyard into the field.\n{W}: J/resonators you control gain [+200/+200] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Hmm, no choice then. Let's go everyone!\"",
+    "Flavour": "\"I'm the leader now? But, why?!\"|\"Hmm, no choice then. Let's go everyone!\"",
     "Artist": "Miko Yamazaki",
     "Rarity": "R",
-    "Fowid": "5067",
+    "Fowid": "5066|5067",
     "Cluster": "08 - Saga",
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
-    "id": "430a681a-046d-4bd3-9c08-b5b2099dc0b1",
-    "image": "430a681a-046d-4bd3-9c08-b5b2099dc0b1.jpg"
+    "id": "2734decd-cbef-42f2-9c1f-870c744f296e",
+    "image": "2734decd-cbef-42f2-9c1f-870c744f296e.jpg",
+    "Card Type": "Ruler",
+    "backimage": "430a681a-046d-4bd3-9c08-b5b2099dc0b1.jpg",
+    "alternate1_Card Number": "MSW-002J",
+    "alternate1_name": "Almerius [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human|Six Sages",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "600",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Flying]\n[Enter] ]]] Put target light non-chant card or light alternative card with its non-chant part from your graveyard into the field.\n{W}: J/resonators you control gain [+200/+200] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Hmm, no choice then. Let's go everyone!\"",
+    "alternate1_Artist": "Miko Yamazaki",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5067",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "430a681a-046d-4bd3-9c08-b5b2099dc0b1",
+    "alternate1_image": "430a681a-046d-4bd3-9c08-b5b2099dc0b1.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MSW-003",
@@ -85,7 +87,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "af8a6fdd-54e6-43da-a3bd-7f9ed5748de3",
-    "image": "af8a6fdd-54e6-43da-a3bd-7f9ed5748de3.jpg"
+    "image": "af8a6fdd-54e6-43da-a3bd-7f9ed5748de3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-004",
@@ -107,7 +110,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "a776fc4d-bc67-4379-9ad5-75c74774f6ce",
-    "image": "a776fc4d-bc67-4379-9ad5-75c74774f6ce.jpg"
+    "image": "a776fc4d-bc67-4379-9ad5-75c74774f6ce.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-005",
@@ -129,7 +133,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "4ccc3103-030c-4034-b99d-27127719b1e5",
-    "image": "4ccc3103-030c-4034-b99d-27127719b1e5.jpg"
+    "image": "4ccc3103-030c-4034-b99d-27127719b1e5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-006",
@@ -151,7 +156,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "4df17d5f-107e-4c22-b6e8-02f1e2734307",
-    "image": "4df17d5f-107e-4c22-b6e8-02f1e2734307.jpg"
+    "image": "4df17d5f-107e-4c22-b6e8-02f1e2734307.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-007",
@@ -173,18 +179,19 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "8a714d68-405b-4e0a-91ae-67fdd0db31aa",
-    "image": "8a714d68-405b-4e0a-91ae-67fdd0db31aa.jpg"
+    "image": "8a714d68-405b-4e0a-91ae-67fdd0db31aa.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MSW-008",
-    "name": "Princess Kaguya",
-    "Type": "Resonator",
+    "Card Number": "MSW-008|MSW-008*",
+    "name": "Princess Kaguya // Flying Bamboo",
+    "Type": "Resonator|Chant",
     "Race": "Fairy Tale",
     "Cost": "{W}{1}",
     "Colour": "W",
     "ATK": "600",
     "DEF": "600",
-    "Abilities": "If you would produce will with a magic stone you control, you produce that will plus {M} instead.\nCalling a magic stone does not cause your J/rulers to rest.\n{M}: This card gains [+200/+200] and [Flying] until end of turn.",
+    "Abilities": "If you would produce will with a magic stone you control, you produce that will plus {M} instead.\nCalling a magic stone does not cause your J/rulers to rest.\n{M}: This card gains [+200/+200] and [Flying] until end of turn.|[Quickcast]\nChoose a ruler with [Tag] (Six Sages) you control and a ruler with [Tag] (Six Sages) you own from outside the game. Swap those rulers. If you spent {M} to play this card, put its \"Princess Kaguya\" part into the field instead of putting this card into its owner's graveyard.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -195,29 +202,30 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "fef606c9-d196-400e-a150-8013066dfe0b",
-    "image": "fef606c9-d196-400e-a150-8013066dfe0b.jpg"
-  },
-  {
-    "Card Number": "MSW-008*",
-    "name": "Flying Bamboo",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{W}{1}",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nChoose a ruler with [Tag] (Six Sages) you control and a ruler with [Tag] (Six Sages) you own from outside the game. Swap those rulers. If you spent {M} to play this card, put its \"Princess Kaguya\" part into the field instead of putting this card into its owner's graveyard.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Fukuzo Katsura / Yosuke Adachi + Studio Encount,K.K",
-    "Rarity": "MR",
-    "Fowid": "5073",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "ccdfdf0a-0a6e-4dd3-8180-9352999df25e",
-    "image": "ccdfdf0a-0a6e-4dd3-8180-9352999df25e.jpg"
+    "image": "fef606c9-d196-400e-a150-8013066dfe0b.jpg",
+    "Card Type": "Resonator",
+    "backimage": "ccdfdf0a-0a6e-4dd3-8180-9352999df25e.jpg",
+    "alternate1_Card Number": "MSW-008*",
+    "alternate1_name": "Flying Bamboo",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{W}{1}",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nChoose a ruler with [Tag] (Six Sages) you control and a ruler with [Tag] (Six Sages) you own from outside the game. Swap those rulers. If you spent {M} to play this card, put its \"Princess Kaguya\" part into the field instead of putting this card into its owner's graveyard.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Fukuzo Katsura / Yosuke Adachi + Studio Encount,K.K",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5073",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "ccdfdf0a-0a6e-4dd3-8180-9352999df25e",
+    "alternate1_image": "ccdfdf0a-0a6e-4dd3-8180-9352999df25e.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MSW-009",
@@ -239,7 +247,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "419dec4c-c312-440f-9f52-1c92f6a1a588",
-    "image": "419dec4c-c312-440f-9f52-1c92f6a1a588.jpg"
+    "image": "419dec4c-c312-440f-9f52-1c92f6a1a588.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-010",
@@ -261,7 +270,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "0fd83191-a73e-4616-9095-e4ae665fb724",
-    "image": "0fd83191-a73e-4616-9095-e4ae665fb724.jpg"
+    "image": "0fd83191-a73e-4616-9095-e4ae665fb724.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-011",
@@ -283,7 +293,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "b74c7257-adb3-4cb7-b5f7-06fae0af3d93",
-    "image": "b74c7257-adb3-4cb7-b5f7-06fae0af3d93.jpg"
+    "image": "b74c7257-adb3-4cb7-b5f7-06fae0af3d93.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-012",
@@ -305,7 +316,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "1fc160d7-052f-4679-b35c-515f18301d2c",
-    "image": "1fc160d7-052f-4679-b35c-515f18301d2c.jpg"
+    "image": "1fc160d7-052f-4679-b35c-515f18301d2c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MSW-013",
@@ -327,7 +339,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "9cc3fc54-5132-42df-9a36-2f9ed73c6a75",
-    "image": "9cc3fc54-5132-42df-9a36-2f9ed73c6a75.jpg"
+    "image": "9cc3fc54-5132-42df-9a36-2f9ed73c6a75.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MSW-014",
@@ -349,7 +362,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "e632103e-1424-4864-bcf6-c4e19bccab13",
-    "image": "e632103e-1424-4864-bcf6-c4e19bccab13.jpg"
+    "image": "e632103e-1424-4864-bcf6-c4e19bccab13.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-015",
@@ -371,7 +385,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "bec0718c-defa-42db-90a4-191f906636d9",
-    "image": "bec0718c-defa-42db-90a4-191f906636d9.jpg"
+    "image": "bec0718c-defa-42db-90a4-191f906636d9.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-016",
@@ -393,18 +408,19 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "a1708b6d-4dbf-43d2-b24e-d90a3f07cfbe",
-    "image": "a1708b6d-4dbf-43d2-b24e-d90a3f07cfbe.jpg"
+    "image": "a1708b6d-4dbf-43d2-b24e-d90a3f07cfbe.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "MSW-017",
-    "name": "Tinker Bell, the Spirit",
-    "Type": "Resonator",
+    "Card Number": "MSW-017|MSW-017*",
+    "name": "Tinker Bell, the Spirit // Rain of Light",
+    "Type": "Resonator|Chant",
     "Race": "Fairy Tale|Spirit",
-    "Cost": "{W}",
-    "Colour": "W",
+    "Cost": "{W}|{W}{U}{X}",
+    "Colour": "W|W|U",
     "ATK": "0",
     "DEF": "0",
-    "Abilities": "This card gains [+200/+200] for each Fairy Tale you control.",
+    "Abilities": "This card gains [+200/+200] for each Fairy Tale you control.|[Quickcast]\nTarget up to X resonators. Rest those your opponent controls and recover those you control.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -415,73 +431,75 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "40af5dca-cd8b-4f42-a75f-d4db7a5c32c6",
-    "image": "40af5dca-cd8b-4f42-a75f-d4db7a5c32c6.jpg"
+    "image": "40af5dca-cd8b-4f42-a75f-d4db7a5c32c6.jpg",
+    "Card Type": "Resonator",
+    "backimage": "64193443-739c-491d-ba20-e8ace3ea7e3e.jpg",
+    "alternate1_Card Number": "MSW-017*",
+    "alternate1_name": "Rain of Light",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{W}{U}{X}",
+    "alternate1_Colour": "W|U",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nTarget up to X resonators. Rest those your opponent controls and recover those you control.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Toridamono / yuko",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5082",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "64193443-739c-491d-ba20-e8ace3ea7e3e",
+    "alternate1_image": "64193443-739c-491d-ba20-e8ace3ea7e3e.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
-    "Card Number": "MSW-017*",
-    "name": "Rain of Light",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{W}{U}{X}",
-    "Colour": "W|U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nTarget up to X resonators. Rest those your opponent controls and recover those you control.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Toridamono / yuko",
-    "Rarity": "R",
-    "Fowid": "5082",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "64193443-739c-491d-ba20-e8ace3ea7e3e",
-    "image": "64193443-739c-491d-ba20-e8ace3ea7e3e.jpg"
-  },
-  {
-    "Card Number": "MSW-018",
-    "name": "Zero, Apprentice Sage",
-    "Type": "Ruler",
-    "Race": "Human|Six Sages",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {W}\nYou cannot do judgment of this card unless your other ruler is astral.\n[Tag] (Six Sages) - You may start the game with this ruler and another ruler with [Tag] (Six Sages) that doesn't share a name with this card. Put both in your ruler area.\nAt the beginning of the game ]]] Put four [+100/+100] counters on each ruler you control.\nYour J-ruler gains [Barrier].\n{Rest}: Put two [+100/+100] counters on this card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"Hmph, 'Apprentice Sage', and all I do is serving tea. I wonder when the master will finally teach me magic?!\"",
-    "Artist": "karuta shiki",
-    "Rarity": "R",
-    "Fowid": "5083",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "7fcc9605-7148-4057-8f4d-7e84cacf63fa",
-    "image": "7fcc9605-7148-4057-8f4d-7e84cacf63fa.jpg"
-  },
-  {
-    "Card Number": "MSW-018J",
-    "name": "Zero, Apprentice Sage [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "MSW-018|MSW-018J",
+    "name": "Zero, Apprentice Sage // Zero, Apprentice Sage [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human|Six Sages",
     "Cost": "",
     "Colour": "W",
     "ATK": "800",
     "DEF": "800",
-    "Abilities": "[Barrier]\n[Enter] ]]] Destroy all other J/resonators.",
+    "Abilities": "[Judgment] {W}\nYou cannot do judgment of this card unless your other ruler is astral.\n[Tag] (Six Sages) - You may start the game with this ruler and another ruler with [Tag] (Six Sages) that doesn't share a name with this card. Put both in your ruler area.\nAt the beginning of the game ]]] Put four [+100/+100] counters on each ruler you control.\nYour J-ruler gains [Barrier].\n{Rest}: Put two [+100/+100] counters on this card.|[Barrier]\n[Enter] ]]] Destroy all other J/resonators.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Zero's talent really shines when she's angry.",
+    "Flavour": "\"Hmph, 'Apprentice Sage', and all I do is serving tea. I wonder when the master will finally teach me magic?!\"|Zero's talent really shines when she's angry.",
     "Artist": "karuta shiki",
     "Rarity": "R",
-    "Fowid": "5084",
+    "Fowid": "5083|5084",
     "Cluster": "08 - Saga",
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
-    "id": "e5b7eca1-61f7-4ddc-a7bd-362f773c670e",
-    "image": "e5b7eca1-61f7-4ddc-a7bd-362f773c670e.jpg"
+    "id": "7fcc9605-7148-4057-8f4d-7e84cacf63fa",
+    "image": "7fcc9605-7148-4057-8f4d-7e84cacf63fa.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e5b7eca1-61f7-4ddc-a7bd-362f773c670e.jpg",
+    "alternate1_Card Number": "MSW-018J",
+    "alternate1_name": "Zero, Apprentice Sage [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human|Six Sages",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "800",
+    "alternate1_Abilities": "[Barrier]\n[Enter] ]]] Destroy all other J/resonators.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Zero's talent really shines when she's angry.",
+    "alternate1_Artist": "karuta shiki",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5084",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "e5b7eca1-61f7-4ddc-a7bd-362f773c670e",
+    "alternate1_image": "e5b7eca1-61f7-4ddc-a7bd-362f773c670e.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MSW-019",
@@ -503,7 +521,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "ca8e2ed0-a988-48ab-916c-3677b18e2d6e",
-    "image": "ca8e2ed0-a988-48ab-916c-3677b18e2d6e.jpg"
+    "image": "ca8e2ed0-a988-48ab-916c-3677b18e2d6e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-020",
@@ -525,7 +544,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "b663bfa8-7fc3-428b-bbfe-963784c0b42c",
-    "image": "b663bfa8-7fc3-428b-bbfe-963784c0b42c.jpg"
+    "image": "b663bfa8-7fc3-428b-bbfe-963784c0b42c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MSW-021",
@@ -547,7 +567,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "25cfc016-f732-4838-9e58-7e68b51130a8",
-    "image": "25cfc016-f732-4838-9e58-7e68b51130a8.jpg"
+    "image": "25cfc016-f732-4838-9e58-7e68b51130a8.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-022",
@@ -569,7 +590,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "ae12c529-42ca-4e74-bcfe-580a9cd8aa33",
-    "image": "ae12c529-42ca-4e74-bcfe-580a9cd8aa33.jpg"
+    "image": "ae12c529-42ca-4e74-bcfe-580a9cd8aa33.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-023",
@@ -591,7 +613,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "8fc183a0-62f6-4cf6-b75f-b38ce7fd05b0",
-    "image": "8fc183a0-62f6-4cf6-b75f-b38ce7fd05b0.jpg"
+    "image": "8fc183a0-62f6-4cf6-b75f-b38ce7fd05b0.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-024",
@@ -613,7 +636,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "61803b0e-3ee3-48c2-8daf-39bc85df7340",
-    "image": "61803b0e-3ee3-48c2-8daf-39bc85df7340.jpg"
+    "image": "61803b0e-3ee3-48c2-8daf-39bc85df7340.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MSW-025",
@@ -635,62 +659,64 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "ea8d2945-fe7e-4f63-8200-06ae9cc3d9a5",
-    "image": "ea8d2945-fe7e-4f63-8200-06ae9cc3d9a5.jpg"
+    "image": "ea8d2945-fe7e-4f63-8200-06ae9cc3d9a5.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "MSW-026",
-    "name": "Milest",
-    "Type": "Ruler",
-    "Race": "Human|Six Sages",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {R}{R}{1}\n[Tag] (Six Sages) - You may start the game with this ruler and another ruler with [Tag] (Six Sages) that doesn't share a name with this card. Put both in your ruler area.\nAt the beginning of the main phase of your first turn ]]] Produce {R}.\nYour J-ruler gains [Swiftness].\n{Rest}: This card deals 200 damage to target player or J/resonator.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "He is determined to protect Moojdart at all costs. Even if he would have to give up all ways to express his emotions.",
-    "Artist": "SIGMAN",
-    "Rarity": "R",
-    "Fowid": "5092",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "d7a11889-3aad-4d5b-bbcc-94cc0194fbb8",
-    "image": "d7a11889-3aad-4d5b-bbcc-94cc0194fbb8.jpg"
-  },
-  {
-    "Card Number": "MSW-026J",
-    "name": "Milest [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Spirit|Six Sages",
+    "Card Number": "MSW-026|MSW-026J",
+    "name": "Milest // Milest [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Six Sages|Spirit|Six Sages",
     "Cost": "",
     "Colour": "R",
     "ATK": "0",
     "DEF": "700",
-    "Abilities": "[Swiftness]\n[Enter] ]]] This card deals damage equal to its ATK to each J/resonator your opponent controls.\nThis card gains [+300/0] for each card in your hand.",
+    "Abilities": "[Judgment] {R}{R}{1}\n[Tag] (Six Sages) - You may start the game with this ruler and another ruler with [Tag] (Six Sages) that doesn't share a name with this card. Put both in your ruler area.\nAt the beginning of the main phase of your first turn ]]] Produce {R}.\nYour J-ruler gains [Swiftness].\n{Rest}: This card deals 200 damage to target player or J/resonator.|[Swiftness]\n[Enter] ]]] This card deals damage equal to its ATK to each J/resonator your opponent controls.\nThis card gains [+300/0] for each card in your hand.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "To guard his lover and this world, Milest became a spirit, sacrificing the ability to express his emotions in any way.",
+    "Flavour": "He is determined to protect Moojdart at all costs. Even if he would have to give up all ways to express his emotions.|To guard his lover and this world, Milest became a spirit, sacrificing the ability to express his emotions in any way.",
     "Artist": "SIGMAN",
     "Rarity": "R",
-    "Fowid": "5093",
+    "Fowid": "5092|5093",
     "Cluster": "08 - Saga",
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
-    "id": "8e119a3d-2ec9-4241-ba59-3c77b4f53e72",
-    "image": "8e119a3d-2ec9-4241-ba59-3c77b4f53e72.jpg"
+    "id": "d7a11889-3aad-4d5b-bbcc-94cc0194fbb8",
+    "image": "d7a11889-3aad-4d5b-bbcc-94cc0194fbb8.jpg",
+    "Card Type": "Ruler",
+    "backimage": "8e119a3d-2ec9-4241-ba59-3c77b4f53e72.jpg",
+    "alternate1_Card Number": "MSW-026J",
+    "alternate1_name": "Milest [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Spirit|Six Sages",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[Swiftness]\n[Enter] ]]] This card deals damage equal to its ATK to each J/resonator your opponent controls.\nThis card gains [+300/0] for each card in your hand.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "To guard his lover and this world, Milest became a spirit, sacrificing the ability to express his emotions in any way.",
+    "alternate1_Artist": "SIGMAN",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5093",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "8e119a3d-2ec9-4241-ba59-3c77b4f53e72",
+    "alternate1_image": "8e119a3d-2ec9-4241-ba59-3c77b4f53e72.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "MSW-027",
-    "name": "Salamander, the Spirit of Fire",
-    "Type": "Resonator",
+    "Card Number": "MSW-027|MSW-027*",
+    "name": "Salamander, the Spirit of Fire // Ghostflame",
+    "Type": "Resonator|Chant",
     "Race": "Spirit",
     "Cost": "{R}",
     "Colour": "R",
     "ATK": "300",
     "DEF": "100",
-    "Abilities": "Banish this card: This card deals damage equal to its ATK to target J/resonator.",
+    "Abilities": "Banish this card: This card deals damage equal to its ATK to target J/resonator.|This card deals 300 damage to target player or resonator.\n{R}{R}{1}: Put this card from your graveyard into your hand.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -701,29 +727,30 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "e2097b44-2171-4dab-ba4f-f03b92560908",
-    "image": "e2097b44-2171-4dab-ba4f-f03b92560908.jpg"
-  },
-  {
-    "Card Number": "MSW-027*",
-    "name": "Ghostflame",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{R}",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "This card deals 300 damage to target player or resonator.\n{R}{R}{1}: Put this card from your graveyard into your hand.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Takumi Sugikawa / SIGMAN",
-    "Rarity": "R",
-    "Fowid": "5094",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "a49aedee-ea52-4197-b11f-941d7af0b96e",
-    "image": "a49aedee-ea52-4197-b11f-941d7af0b96e.jpg"
+    "image": "e2097b44-2171-4dab-ba4f-f03b92560908.jpg",
+    "Card Type": "Resonator",
+    "backimage": "a49aedee-ea52-4197-b11f-941d7af0b96e.jpg",
+    "alternate1_Card Number": "MSW-027*",
+    "alternate1_name": "Ghostflame",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{R}",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "This card deals 300 damage to target player or resonator.\n{R}{R}{1}: Put this card from your graveyard into your hand.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Takumi Sugikawa / SIGMAN",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5094",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "a49aedee-ea52-4197-b11f-941d7af0b96e",
+    "alternate1_image": "a49aedee-ea52-4197-b11f-941d7af0b96e.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MSW-028",
@@ -745,18 +772,19 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "d1ea9fce-e0b2-451e-9f3f-ef2c70843d87",
-    "image": "d1ea9fce-e0b2-451e-9f3f-ef2c70843d87.jpg"
+    "image": "d1ea9fce-e0b2-451e-9f3f-ef2c70843d87.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MSW-029",
-    "name": "Snow White of the Red Apple",
-    "Type": "Resonator",
+    "Card Number": "MSW-029|MSW-029*",
+    "name": "Snow White of the Red Apple // Apple Avenger",
+    "Type": "Resonator|Chant",
     "Race": "Fairy Tale",
-    "Cost": "{R}",
+    "Cost": "{R}|{R}{R}",
     "Colour": "R",
     "ATK": "0",
     "DEF": "0",
-    "Abilities": "[Quickcast] [First Strike]\nThis card enters the field with X [+100/+100] counters on it, where X is the total damage dealt by sources you controlled this turn divided by 100.",
+    "Abilities": "[Quickcast] [First Strike]\nThis card enters the field with X [+100/+100] counters on it, where X is the total damage dealt by sources you controlled this turn divided by 100.|[Quickcast]\nThis card deals X damage divided as you choose to any number of target J/resonators your opponent controls, where X is the total damage that was dealt to you this turn. If X is 1000 or more, put this card's \"Snow White of the Red Apple\" part into the field instead of putting this card into its owner's graveyard.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -767,29 +795,30 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "1d8881c0-50b2-42cf-9ffd-4a8ba783918d",
-    "image": "1d8881c0-50b2-42cf-9ffd-4a8ba783918d.jpg"
-  },
-  {
-    "Card Number": "MSW-029*",
-    "name": "Apple Avenger",
-    "Type": "Chant",
-    "Race": "Fairy Tale",
-    "Cost": "{R}{R}",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nThis card deals X damage divided as you choose to any number of target J/resonators your opponent controls, where X is the total damage that was dealt to you this turn. If X is 1000 or more, put this card's \"Snow White of the Red Apple\" part into the field instead of putting this card into its owner's graveyard.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "KONNO Takashi",
-    "Rarity": "MR",
-    "Fowid": "5096",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "110a9719-8d7c-4464-8a1f-6bd0c24eb121",
-    "image": "110a9719-8d7c-4464-8a1f-6bd0c24eb121.jpg"
+    "image": "1d8881c0-50b2-42cf-9ffd-4a8ba783918d.jpg",
+    "Card Type": "Resonator",
+    "backimage": "110a9719-8d7c-4464-8a1f-6bd0c24eb121.jpg",
+    "alternate1_Card Number": "MSW-029*",
+    "alternate1_name": "Apple Avenger",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "Fairy Tale",
+    "alternate1_Cost": "{R}{R}",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nThis card deals X damage divided as you choose to any number of target J/resonators your opponent controls, where X is the total damage that was dealt to you this turn. If X is 1000 or more, put this card's \"Snow White of the Red Apple\" part into the field instead of putting this card into its owner's graveyard.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "KONNO Takashi",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5096",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "110a9719-8d7c-4464-8a1f-6bd0c24eb121",
+    "alternate1_image": "110a9719-8d7c-4464-8a1f-6bd0c24eb121.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MSW-030",
@@ -811,7 +840,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "9aeab14a-3ba1-48ef-bc04-64c20b765edf",
-    "image": "9aeab14a-3ba1-48ef-bc04-64c20b765edf.jpg"
+    "image": "9aeab14a-3ba1-48ef-bc04-64c20b765edf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-031",
@@ -833,7 +863,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "e687663d-532d-496e-a31e-dee0151d5855",
-    "image": "e687663d-532d-496e-a31e-dee0151d5855.jpg"
+    "image": "e687663d-532d-496e-a31e-dee0151d5855.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-032",
@@ -855,7 +886,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "87526590-086e-47fd-9618-e61f6ae22fc2",
-    "image": "87526590-086e-47fd-9618-e61f6ae22fc2.jpg"
+    "image": "87526590-086e-47fd-9618-e61f6ae22fc2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-033",
@@ -877,7 +909,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "c8e9c552-21ca-4f4d-9e9f-16e4c9ed22b5",
-    "image": "c8e9c552-21ca-4f4d-9e9f-16e4c9ed22b5.jpg"
+    "image": "c8e9c552-21ca-4f4d-9e9f-16e4c9ed22b5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-034",
@@ -899,18 +932,19 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "23749428-f074-4ec0-9b4f-5342df25b5a1",
-    "image": "23749428-f074-4ec0-9b4f-5342df25b5a1.jpg"
+    "image": "23749428-f074-4ec0-9b4f-5342df25b5a1.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "MSW-035",
-    "name": "Cinderella, Freed from the Ashes",
-    "Type": "Resonator",
+    "Card Number": "MSW-035|MSW-035*",
+    "name": "Cinderella, Freed from the Ashes // Rampaging Pumpkin Carriage",
+    "Type": "Resonator|Chant",
     "Race": "Fairy Tale",
-    "Cost": "{U}{1}",
+    "Cost": "{U}{1}|{U}{U}{U}",
     "Colour": "U",
     "ATK": "600",
     "DEF": "600",
-    "Abilities": "[Quickcast]\n[Enter] ]]] Look at the top two cards of your opponent's deck. Then put them on top and/or on the bottom of your opponent's deck in any order.",
+    "Abilities": "[Quickcast]\n[Enter] ]]] Look at the top two cards of your opponent's deck. Then put them on top and/or on the bottom of your opponent's deck in any order.|[Quickcast]\nPut up to two target non-magic stone, non-J-ruler entities your opponent controls on top of their owner's deck in any order. If this card was awakened, put its \"Cinderella, Freed from the Ashes\" part into the field instead of putting this card into its owner's graveyard.\n[Awakening] {1}",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -921,29 +955,30 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "1553b2ba-60a8-4af5-8636-ef52fdaa9c44",
-    "image": "1553b2ba-60a8-4af5-8636-ef52fdaa9c44.jpg"
-  },
-  {
-    "Card Number": "MSW-035*",
-    "name": "Rampaging Pumpkin Carriage",
-    "Type": "Chant",
-    "Race": "Fairy Tale",
-    "Cost": "{U}{U}{U}",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nPut up to two target non-magic stone, non-J-ruler entities your opponent controls on top of their owner's deck in any order. If this card was awakened, put its \"Cinderella, Freed from the Ashes\" part into the field instead of putting this card into its owner's graveyard.\n[Awakening] {1}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "muraicchi",
-    "Rarity": "MR",
-    "Fowid": "5102",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "84cf2cfa-a6a8-483f-8b1d-bce715dc4e59",
-    "image": "84cf2cfa-a6a8-483f-8b1d-bce715dc4e59.jpg"
+    "image": "1553b2ba-60a8-4af5-8636-ef52fdaa9c44.jpg",
+    "Card Type": "Resonator",
+    "backimage": "84cf2cfa-a6a8-483f-8b1d-bce715dc4e59.jpg",
+    "alternate1_Card Number": "MSW-035*",
+    "alternate1_name": "Rampaging Pumpkin Carriage",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "Fairy Tale",
+    "alternate1_Cost": "{U}{U}{U}",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nPut up to two target non-magic stone, non-J-ruler entities your opponent controls on top of their owner's deck in any order. If this card was awakened, put its \"Cinderella, Freed from the Ashes\" part into the field instead of putting this card into its owner's graveyard.\n[Awakening] {1}",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "muraicchi",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5102",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "84cf2cfa-a6a8-483f-8b1d-bce715dc4e59",
+    "alternate1_image": "84cf2cfa-a6a8-483f-8b1d-bce715dc4e59.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MSW-036",
@@ -965,7 +1000,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "f8faf77d-7dfe-4056-b3a7-640a2a7d4f71",
-    "image": "f8faf77d-7dfe-4056-b3a7-640a2a7d4f71.jpg"
+    "image": "f8faf77d-7dfe-4056-b3a7-640a2a7d4f71.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-037",
@@ -987,7 +1023,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "d95f793c-7161-49db-aa16-937a94003391",
-    "image": "d95f793c-7161-49db-aa16-937a94003391.jpg"
+    "image": "d95f793c-7161-49db-aa16-937a94003391.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-038",
@@ -1009,7 +1046,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "ff8e5237-22ce-4a42-8155-bea571feff06",
-    "image": "ff8e5237-22ce-4a42-8155-bea571feff06.jpg"
+    "image": "ff8e5237-22ce-4a42-8155-bea571feff06.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MSW-039",
@@ -1031,7 +1069,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "39a1f37a-6018-42c3-a211-076bddc73e4f",
-    "image": "39a1f37a-6018-42c3-a211-076bddc73e4f.jpg"
+    "image": "39a1f37a-6018-42c3-a211-076bddc73e4f.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MSW-040",
@@ -1053,7 +1092,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "938dfcfe-a92f-4d12-a3f9-9082f79295f0",
-    "image": "938dfcfe-a92f-4d12-a3f9-9082f79295f0.jpg"
+    "image": "938dfcfe-a92f-4d12-a3f9-9082f79295f0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-041",
@@ -1075,51 +1115,53 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "5132bcbb-cbae-436c-a818-60c118a2667b",
-    "image": "5132bcbb-cbae-436c-a818-60c118a2667b.jpg"
+    "image": "5132bcbb-cbae-436c-a818-60c118a2667b.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "MSW-042",
-    "name": "Moojdart",
-    "Type": "Ruler",
-    "Race": "Human|Six Sages",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {U}{U}{1}\n[Tag] (Six Sages) - You may start the game with this ruler and another ruler with [Tag] (Six Sages) that doesn't share a name with this card. Put both in your ruler area.\nIf you would draw a starting hand, you draw a starting hand plus one additional card and your maximum hand size is increased by one until end of game instead.\nWhenever you do judgment of a ruler ]]] Draw a card.\n{Rest}: Draw a card. Then put a card from your hand on the bottom of your deck. ",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "She is determined to protect Milest at all costs. Even if she would have to give up her love and her memories.",
-    "Artist": "ishishou",
-    "Rarity": "R",
-    "Fowid": "5109",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "06426a55-8216-488a-9e55-2a0770062ffa",
-    "image": "06426a55-8216-488a-9e55-2a0770062ffa.jpg"
-  },
-  {
-    "Card Number": "MSW-042J",
-    "name": "Moojdart [J-Ruler]",
-    "Type": "J-Ruler",
-    "Race": "Spirit|Six Sages",
+    "Card Number": "MSW-042|MSW-042J",
+    "name": "Moojdart // Moojdart [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Human|Six Sages|Spirit|Six Sages",
     "Cost": "",
     "Colour": "U",
     "ATK": "0",
     "DEF": "700",
-    "Abilities": "[Flying]\nThis card gains [+300/0] for each card in your hand.\nWhenever this card deals damage to your opponent ]]] Draw a card.",
+    "Abilities": "[Judgment] {U}{U}{1}\n[Tag] (Six Sages) - You may start the game with this ruler and another ruler with [Tag] (Six Sages) that doesn't share a name with this card. Put both in your ruler area.\nIf you would draw a starting hand, you draw a starting hand plus one additional card and your maximum hand size is increased by one until end of game instead.\nWhenever you do judgment of a ruler ]]] Draw a card.\n{Rest}: Draw a card. Then put a card from your hand on the bottom of your deck.|[Flying]\nThis card gains [+300/0] for each card in your hand.\nWhenever this card deals damage to your opponent ]]] Draw a card.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "To guard her lover and this world, Moojdart became a spirit, sacrificing her love and her memories.",
+    "Flavour": "She is determined to protect Milest at all costs. Even if she would have to give up her love and her memories.|To guard her lover and this world, Moojdart became a spirit, sacrificing her love and her memories.",
     "Artist": "ishishou",
     "Rarity": "R",
-    "Fowid": "5110",
+    "Fowid": "5109|5110",
     "Cluster": "08 - Saga",
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
-    "id": "75a4f095-9d12-4972-9ad6-105e06ff67bd",
-    "image": "75a4f095-9d12-4972-9ad6-105e06ff67bd.jpg"
+    "id": "06426a55-8216-488a-9e55-2a0770062ffa",
+    "image": "06426a55-8216-488a-9e55-2a0770062ffa.jpg",
+    "Card Type": "Ruler",
+    "backimage": "75a4f095-9d12-4972-9ad6-105e06ff67bd.jpg",
+    "alternate1_Card Number": "MSW-042J",
+    "alternate1_name": "Moojdart [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Spirit|Six Sages",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[Flying]\nThis card gains [+300/0] for each card in your hand.\nWhenever this card deals damage to your opponent ]]] Draw a card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "To guard her lover and this world, Moojdart became a spirit, sacrificing her love and her memories.",
+    "alternate1_Artist": "ishishou",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5110",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "75a4f095-9d12-4972-9ad6-105e06ff67bd",
+    "alternate1_image": "75a4f095-9d12-4972-9ad6-105e06ff67bd.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MSW-043",
@@ -1141,7 +1183,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "f16f3e41-e5ea-4de4-b98e-6fe22c4c960a",
-    "image": "f16f3e41-e5ea-4de4-b98e-6fe22c4c960a.jpg"
+    "image": "f16f3e41-e5ea-4de4-b98e-6fe22c4c960a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-044",
@@ -1163,18 +1206,19 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "28561651-0040-4849-a7a5-4fcce45f300a",
-    "image": "28561651-0040-4849-a7a5-4fcce45f300a.jpg"
+    "image": "28561651-0040-4849-a7a5-4fcce45f300a.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "MSW-045",
-    "name": "Purplemist, the Fantasy Dragon",
-    "Type": "Resonator",
+    "Card Number": "MSW-045|MSW-045*",
+    "name": "Purplemist, the Fantasy Dragon // Moon Incarnation",
+    "Type": "Resonator|Chant",
     "Race": "Fantasy|Dragon",
-    "Cost": "{U}{U}{U}{2}",
+    "Cost": "{U}{U}{U}{2}|{U}",
     "Colour": "U",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Flying]\nThis card cannot be targeted by spells or abilities.",
+    "Abilities": "[Flying]\nThis card cannot be targeted by spells or abilities.|Search your deck for a Moon addition, reveal it and put it into your hand. Then shuffle your deck.\n[Awakening] {2}: You may put a Moon addition from your hand into the field.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1185,29 +1229,30 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "da1326b5-d0f7-435a-a232-e1415d4d9633",
-    "image": "da1326b5-d0f7-435a-a232-e1415d4d9633.jpg"
-  },
-  {
-    "Card Number": "MSW-045*",
-    "name": "Moon Incarnation",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{U}",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Search your deck for a Moon addition, reveal it and put it into your hand. Then shuffle your deck.\n[Awakening] {2}: You may put a Moon addition from your hand into the field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Kelvin / Nanami Lusia",
-    "Rarity": "R",
-    "Fowid": "5113",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "7cd0bb09-16ee-4eda-9ce9-fd5094c3884b",
-    "image": "7cd0bb09-16ee-4eda-9ce9-fd5094c3884b.jpg"
+    "image": "da1326b5-d0f7-435a-a232-e1415d4d9633.jpg",
+    "Card Type": "Resonator",
+    "backimage": "7cd0bb09-16ee-4eda-9ce9-fd5094c3884b.jpg",
+    "alternate1_Card Number": "MSW-045*",
+    "alternate1_name": "Moon Incarnation",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{U}",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "Search your deck for a Moon addition, reveal it and put it into your hand. Then shuffle your deck.\n[Awakening] {2}: You may put a Moon addition from your hand into the field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Kelvin / Nanami Lusia",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5113",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "7cd0bb09-16ee-4eda-9ce9-fd5094c3884b",
+    "alternate1_image": "7cd0bb09-16ee-4eda-9ce9-fd5094c3884b.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MSW-046",
@@ -1229,7 +1274,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "088dadfd-81bb-438b-aa9f-2ed10888ac5f",
-    "image": "088dadfd-81bb-438b-aa9f-2ed10888ac5f.jpg"
+    "image": "088dadfd-81bb-438b-aa9f-2ed10888ac5f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-047",
@@ -1251,7 +1297,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "cba05227-5c03-4db1-9252-1007d00ed767",
-    "image": "cba05227-5c03-4db1-9252-1007d00ed767.jpg"
+    "image": "cba05227-5c03-4db1-9252-1007d00ed767.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-048",
@@ -1273,7 +1320,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "4bd02fc1-a932-45ac-bb94-0066a866ff6c",
-    "image": "4bd02fc1-a932-45ac-bb94-0066a866ff6c.jpg"
+    "image": "4bd02fc1-a932-45ac-bb94-0066a866ff6c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-049",
@@ -1295,7 +1343,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "e94ffe86-396d-4dcc-8f25-00af94c7b0f3",
-    "image": "e94ffe86-396d-4dcc-8f25-00af94c7b0f3.jpg"
+    "image": "e94ffe86-396d-4dcc-8f25-00af94c7b0f3.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MSW-050",
@@ -1317,7 +1366,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "10ac3742-a062-4399-b6d9-64b265da4bc8",
-    "image": "10ac3742-a062-4399-b6d9-64b265da4bc8.jpg"
+    "image": "10ac3742-a062-4399-b6d9-64b265da4bc8.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-051",
@@ -1339,7 +1389,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "6e65f91f-739f-46c3-b0f5-cf723c3db01f",
-    "image": "6e65f91f-739f-46c3-b0f5-cf723c3db01f.jpg"
+    "image": "6e65f91f-739f-46c3-b0f5-cf723c3db01f.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MSW-052",
@@ -1361,51 +1412,53 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "c37d31ba-ea76-4be7-a269-4a045b39a385",
-    "image": "c37d31ba-ea76-4be7-a269-4a045b39a385.jpg"
+    "image": "c37d31ba-ea76-4be7-a269-4a045b39a385.jpg",
+    "Card Type": "Addition"
   },
   {
-    "Card Number": "MSW-053",
-    "name": "Fiethsing",
-    "Type": "Ruler",
-    "Race": "Elf|Six Sages",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {G}{G}{1}\n[Tag] (Six Sages) - You may start the game with this ruler and another ruler with [Tag] (Six Sages) that doesn't share a name with this card. Put both in your ruler area.\nAs the game starts, you may mulligan up to three times instead of once.\nYou may do judgment any time you could play a card with [Quickcast].\n{Rest}: Produce {1}. Spend this will only to play chants.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Nobody can predict where the wind will go.",
-    "Artist": "ComamitsuZaki",
-    "Rarity": "R",
-    "Fowid": "5121",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "db846c51-a54c-458d-9b70-5dcdc91c6493",
-    "image": "db846c51-a54c-458d-9b70-5dcdc91c6493.jpg"
-  },
-  {
-    "Card Number": "MSW-053J",
-    "name": "Fiethsing [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "MSW-053|MSW-053J",
+    "name": "Fiethsing // Fiethsing [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Elf|Six Sages",
     "Cost": "",
     "Colour": "G",
     "ATK": "500",
     "DEF": "700",
-    "Abilities": "[Flying]\n[Enter] ]]] Choose up to two;\n- Cancel target spell.\n- Prevent all damage that would be dealt by target entity until end of turn.",
+    "Abilities": "[Judgment] {G}{G}{1}\n[Tag] (Six Sages) - You may start the game with this ruler and another ruler with [Tag] (Six Sages) that doesn't share a name with this card. Put both in your ruler area.\nAs the game starts, you may mulligan up to three times instead of once.\nYou may do judgment any time you could play a card with [Quickcast].\n{Rest}: Produce {1}. Spend this will only to play chants.|[Flying]\n[Enter] ]]] Choose up to two;\n- Cancel target spell.\n- Prevent all damage that would be dealt by target entity until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Well, it's my turn now. Huh? What have you done?\"",
+    "Flavour": "Nobody can predict where the wind will go.|\"Well, it's my turn now. Huh? What have you done?\"",
     "Artist": "ComamitsuZaki",
     "Rarity": "R",
-    "Fowid": "5122",
+    "Fowid": "5121|5122",
     "Cluster": "08 - Saga",
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
-    "id": "d610790b-2986-4cb4-ab5b-911ab65b28fa",
-    "image": "d610790b-2986-4cb4-ab5b-911ab65b28fa.jpg"
+    "id": "db846c51-a54c-458d-9b70-5dcdc91c6493",
+    "image": "db846c51-a54c-458d-9b70-5dcdc91c6493.jpg",
+    "Card Type": "Ruler",
+    "backimage": "d610790b-2986-4cb4-ab5b-911ab65b28fa.jpg",
+    "alternate1_Card Number": "MSW-053J",
+    "alternate1_name": "Fiethsing [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Elf|Six Sages",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "500",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "[Flying]\n[Enter] ]]] Choose up to two;\n- Cancel target spell.\n- Prevent all damage that would be dealt by target entity until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Well, it's my turn now. Huh? What have you done?\"",
+    "alternate1_Artist": "ComamitsuZaki",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5122",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "d610790b-2986-4cb4-ab5b-911ab65b28fa",
+    "alternate1_image": "d610790b-2986-4cb4-ab5b-911ab65b28fa.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "MSW-054",
@@ -1427,18 +1480,19 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "e31f68a2-150c-4f9f-9b52-370f9f95aaa7",
-    "image": "e31f68a2-150c-4f9f-9b52-370f9f95aaa7.jpg"
+    "image": "e31f68a2-150c-4f9f-9b52-370f9f95aaa7.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MSW-055",
-    "name": "Little Red, Fairy Tale of Air",
-    "Type": "Resonator",
+    "Card Number": "MSW-055|MSW-055*",
+    "name": "Little Red, Fairy Tale of Air // Wind of Gods",
+    "Type": "Resonator|Chant",
     "Race": "Fairy Tale",
     "Cost": "{G}",
     "Colour": "G",
     "ATK": "300",
     "DEF": "300",
-    "Abilities": "This card gains [+100/+100] for each wind magic stone you control.\nThis card gains [Swiftness] as long as you control a basic wind magic stone.",
+    "Abilities": "This card gains [+100/+100] for each wind magic stone you control.\nThis card gains [Swiftness] as long as you control a basic wind magic stone.|Put target fire or darkness resonator on top of its owner's deck.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1449,29 +1503,30 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "56ebd7de-22fa-48c3-bdcd-f4f076360ca9",
-    "image": "56ebd7de-22fa-48c3-bdcd-f4f076360ca9.jpg"
-  },
-  {
-    "Card Number": "MSW-055*",
-    "name": "Wind of Gods",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{G}",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Put target fire or darkness resonator on top of its owner's deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Matsurika Yoko / ComamitsuZaki",
-    "Rarity": "R",
-    "Fowid": "5124",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "eca1ee15-f97c-4463-a797-0d35b4a8a887",
-    "image": "eca1ee15-f97c-4463-a797-0d35b4a8a887.jpg"
+    "image": "56ebd7de-22fa-48c3-bdcd-f4f076360ca9.jpg",
+    "Card Type": "Resonator",
+    "backimage": "eca1ee15-f97c-4463-a797-0d35b4a8a887.jpg",
+    "alternate1_Card Number": "MSW-055*",
+    "alternate1_name": "Wind of Gods",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{G}",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "Put target fire or darkness resonator on top of its owner's deck.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Matsurika Yoko / ComamitsuZaki",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5124",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "eca1ee15-f97c-4463-a797-0d35b4a8a887",
+    "alternate1_image": "eca1ee15-f97c-4463-a797-0d35b4a8a887.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MSW-056",
@@ -1493,7 +1548,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "a9af9d70-cb5e-4666-a5f9-af2d70b100c4",
-    "image": "a9af9d70-cb5e-4666-a5f9-af2d70b100c4.jpg"
+    "image": "a9af9d70-cb5e-4666-a5f9-af2d70b100c4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-057",
@@ -1515,7 +1571,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "9df7ddaf-cf4c-4e75-82ca-a0d36b3bd3dc",
-    "image": "9df7ddaf-cf4c-4e75-82ca-a0d36b3bd3dc.jpg"
+    "image": "9df7ddaf-cf4c-4e75-82ca-a0d36b3bd3dc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-058",
@@ -1537,7 +1594,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "705fd62a-476b-435a-afbc-06de97fe99e0",
-    "image": "705fd62a-476b-435a-afbc-06de97fe99e0.jpg"
+    "image": "705fd62a-476b-435a-afbc-06de97fe99e0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-059",
@@ -1559,7 +1617,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "e497355e-16cf-480c-81aa-baf5b57d76b9",
-    "image": "e497355e-16cf-480c-81aa-baf5b57d76b9.jpg"
+    "image": "e497355e-16cf-480c-81aa-baf5b57d76b9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-060",
@@ -1581,7 +1640,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "c0d8c946-e348-4965-b643-3ec64067ff3c",
-    "image": "c0d8c946-e348-4965-b643-3ec64067ff3c.jpg"
+    "image": "c0d8c946-e348-4965-b643-3ec64067ff3c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-061",
@@ -1603,7 +1663,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "82e291ad-2269-4f61-beab-919eb6a0e3cd",
-    "image": "82e291ad-2269-4f61-beab-919eb6a0e3cd.jpg"
+    "image": "82e291ad-2269-4f61-beab-919eb6a0e3cd.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MSW-062",
@@ -1625,7 +1686,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "3308eba8-d279-4170-8a0b-5a4a8c50d11b",
-    "image": "3308eba8-d279-4170-8a0b-5a4a8c50d11b.jpg"
+    "image": "3308eba8-d279-4170-8a0b-5a4a8c50d11b.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-063",
@@ -1647,18 +1709,19 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "40a64ed7-e331-4d48-99bc-efdce0ff082e",
-    "image": "40a64ed7-e331-4d48-99bc-efdce0ff082e.jpg"
+    "image": "40a64ed7-e331-4d48-99bc-efdce0ff082e.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MSW-064",
-    "name": "Welser, Master of the Six Sages",
-    "Type": "Resonator",
+    "Card Number": "MSW-064|MSW-064*",
+    "name": "Welser, Master of the Six Sages // His Last Lecture",
+    "Type": "Resonator|Chant",
     "Race": "Human|Wizard",
-    "Cost": "{G}{G}",
+    "Cost": "{G}{G}|{G}",
     "Colour": "G",
     "ATK": "600",
     "DEF": "600",
-    "Abilities": "[Quickcast]\n[Enter] ]]] Return target spell to its owner's hand. If this card was put into the field by the effect of its \"His Last Lecture\" part, remove this card from the game and put two [+100/+100] counters on each J/ruler you control.",
+    "Abilities": "[Quickcast]\n[Enter] ]]] Return target spell to its owner's hand. If this card was put into the field by the effect of its \"His Last Lecture\" part, remove this card from the game and put two [+100/+100] counters on each J/ruler you control.|[Quickcast]\nRecover a ruler you control. If it is a Six Sages, put this card's \"Welser, Master of the Six Sages\" part into the field instead of putting this card into its owner's graveyard.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1669,29 +1732,30 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "ab12532a-6df2-45ce-b365-6c7680ab7880",
-    "image": "ab12532a-6df2-45ce-b365-6c7680ab7880.jpg"
-  },
-  {
-    "Card Number": "MSW-064*",
-    "name": "His Last Lecture",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{G}",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nRecover a ruler you control. If it is a Six Sages, put this card's \"Welser, Master of the Six Sages\" part into the field instead of putting this card into its owner's graveyard.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Yuko Nagasaki",
-    "Rarity": "MR",
-    "Fowid": "5133",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "aeefb02b-bb8a-471d-9bf0-98ed268d8ec7",
-    "image": "aeefb02b-bb8a-471d-9bf0-98ed268d8ec7.jpg"
+    "image": "ab12532a-6df2-45ce-b365-6c7680ab7880.jpg",
+    "Card Type": "Resonator",
+    "backimage": "aeefb02b-bb8a-471d-9bf0-98ed268d8ec7.jpg",
+    "alternate1_Card Number": "MSW-064*",
+    "alternate1_name": "His Last Lecture",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{G}",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nRecover a ruler you control. If it is a Six Sages, put this card's \"Welser, Master of the Six Sages\" part into the field instead of putting this card into its owner's graveyard.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Yuko Nagasaki",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5133",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "aeefb02b-bb8a-471d-9bf0-98ed268d8ec7",
+    "alternate1_image": "aeefb02b-bb8a-471d-9bf0-98ed268d8ec7.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MSW-065",
@@ -1713,7 +1777,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "65f99d33-e969-474c-910d-92b76e0b5270",
-    "image": "65f99d33-e969-474c-910d-92b76e0b5270.jpg"
+    "image": "65f99d33-e969-474c-910d-92b76e0b5270.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-066",
@@ -1735,7 +1800,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "6e780dcb-c9e0-4db1-b868-b8ce78bd5078",
-    "image": "6e780dcb-c9e0-4db1-b868-b8ce78bd5078.jpg"
+    "image": "6e780dcb-c9e0-4db1-b868-b8ce78bd5078.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-067",
@@ -1757,18 +1823,19 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "28bbcada-220b-43d7-b663-72035eeed1c0",
-    "image": "28bbcada-220b-43d7-b663-72035eeed1c0.jpg"
+    "image": "28bbcada-220b-43d7-b663-72035eeed1c0.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "MSW-068",
-    "name": "Abdul Alhazred, Poet of Madness",
-    "Type": "Resonator",
+    "Card Number": "MSW-068|MSW-068*",
+    "name": "Abdul Alhazred, Poet of Madness // Dark Pulse",
+    "Type": "Resonator|Chant",
     "Race": "Wizard",
-    "Cost": "{B}{B}",
+    "Cost": "{B}{B}|{B}{B}{2}",
     "Colour": "B",
     "ATK": "600",
     "DEF": "600",
-    "Abilities": "Resonators entering the field under your opponent's control don't cause their own abilities to trigger.",
+    "Abilities": "Resonators entering the field under your opponent's control don't cause their own abilities to trigger.|[Quickcast]\nDestroy all resonators with total cost 2 or less.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1779,29 +1846,30 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "41d03b5c-939c-4712-90ab-ef43a66737ec",
-    "image": "41d03b5c-939c-4712-90ab-ef43a66737ec.jpg"
-  },
-  {
-    "Card Number": "MSW-068*",
-    "name": "Dark Pulse",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{B}{B}{2}",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nDestroy all resonators with total cost 2 or less.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "gozz / Tom",
-    "Rarity": "R",
-    "Fowid": "5137",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "694bd43b-9a34-463a-831e-4b41b5b736ca",
-    "image": "694bd43b-9a34-463a-831e-4b41b5b736ca.jpg"
+    "image": "41d03b5c-939c-4712-90ab-ef43a66737ec.jpg",
+    "Card Type": "Resonator",
+    "backimage": "694bd43b-9a34-463a-831e-4b41b5b736ca.jpg",
+    "alternate1_Card Number": "MSW-068*",
+    "alternate1_name": "Dark Pulse",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{B}{B}{2}",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nDestroy all resonators with total cost 2 or less.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "gozz / Tom",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5137",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "694bd43b-9a34-463a-831e-4b41b5b736ca",
+    "alternate1_image": "694bd43b-9a34-463a-831e-4b41b5b736ca.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MSW-069",
@@ -1823,7 +1891,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "205caf45-7ad5-45b5-8b5a-2bd225724f9e",
-    "image": "205caf45-7ad5-45b5-8b5a-2bd225724f9e.jpg"
+    "image": "205caf45-7ad5-45b5-8b5a-2bd225724f9e.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-070",
@@ -1845,7 +1914,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "fac346fa-8116-4a04-9c91-4e5a1d6f6acc",
-    "image": "fac346fa-8116-4a04-9c91-4e5a1d6f6acc.jpg"
+    "image": "fac346fa-8116-4a04-9c91-4e5a1d6f6acc.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-071",
@@ -1867,7 +1937,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "c3bda5a2-03cb-43f2-a94e-afb25dfa7f5f",
-    "image": "c3bda5a2-03cb-43f2-a94e-afb25dfa7f5f.jpg"
+    "image": "c3bda5a2-03cb-43f2-a94e-afb25dfa7f5f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-072",
@@ -1889,62 +1960,64 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "06516ad3-1570-4722-8785-d09f1853eaaa",
-    "image": "06516ad3-1570-4722-8785-d09f1853eaaa.jpg"
+    "image": "06516ad3-1570-4722-8785-d09f1853eaaa.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MSW-073",
-    "name": "Grusbalesta",
-    "Type": "Ruler",
-    "Race": "Human|Six Sages",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {B}{B}{1}\n[Tag] (Six Sages) - You may start the game with this ruler and another ruler with [Tag] (Six Sages) that doesn't share a name with this card. Put both in your ruler area.\nIf you would call your first magic stone this game, you may search your magic stone deck for a card and put it into the field instead. If you do, shuffle your magic stone deck.\nWhenever a magic stone is put into the field by the call of a J/ruler you control ]]] It gains \"{Rest}: Produce {M} or one will of any attribute.\" until end of turn.\n{Rest}: Banish a magic stone. If you do, put the top card of your magic stone deck into the field rested.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Grusbalesta, coming from a long family line of excellent researchers, is the main scientist of the Six Sages.",
-    "Artist": "fzwrAym",
-    "Rarity": "R",
-    "Fowid": "5142",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "d6bf398f-3919-4665-ad51-9c9607e94588",
-    "image": "d6bf398f-3919-4665-ad51-9c9607e94588.jpg"
-  },
-  {
-    "Card Number": "MSW-073J",
-    "name": "Grusbalesta [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "MSW-073|MSW-073J",
+    "name": "Grusbalesta // Grusbalesta [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human|Six Sages",
     "Cost": "",
     "Colour": "B",
     "ATK": "700",
     "DEF": "700",
-    "Abilities": "This card gains [+200/+200] for each different name among all magic stones you control.\nThis card gains [Eternal] as long as you control five or more magic stones with different names.\nMagic stones you control gain \"{Rest}: Produce {M} or one will of any attribute.\".",
+    "Abilities": "[Judgment] {B}{B}{1}\n[Tag] (Six Sages) - You may start the game with this ruler and another ruler with [Tag] (Six Sages) that doesn't share a name with this card. Put both in your ruler area.\nIf you would call your first magic stone this game, you may search your magic stone deck for a card and put it into the field instead. If you do, shuffle your magic stone deck.\nWhenever a magic stone is put into the field by the call of a J/ruler you control ]]] It gains \"{Rest}: Produce {M} or one will of any attribute.\" until end of turn.\n{Rest}: Banish a magic stone. If you do, put the top card of your magic stone deck into the field rested.|This card gains [+200/+200] for each different name among all magic stones you control.\nThis card gains [Eternal] as long as you control five or more magic stones with different names.\nMagic stones you control gain \"{Rest}: Produce {M} or one will of any attribute.\".",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "After Welser's death, he thought it would be best if the fate of this world would be entrusted to Kaguya.",
+    "Flavour": "Grusbalesta, coming from a long family line of excellent researchers, is the main scientist of the Six Sages.|After Welser's death, he thought it would be best if the fate of this world would be entrusted to Kaguya.",
     "Artist": "fzwrAym",
     "Rarity": "R",
-    "Fowid": "5143",
+    "Fowid": "5142|5143",
     "Cluster": "08 - Saga",
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
-    "id": "a161d178-95da-4a28-9059-385da44fbc5f",
-    "image": "a161d178-95da-4a28-9059-385da44fbc5f.jpg"
+    "id": "d6bf398f-3919-4665-ad51-9c9607e94588",
+    "image": "d6bf398f-3919-4665-ad51-9c9607e94588.jpg",
+    "Card Type": "Ruler",
+    "backimage": "a161d178-95da-4a28-9059-385da44fbc5f.jpg",
+    "alternate1_Card Number": "MSW-073J",
+    "alternate1_name": "Grusbalesta [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human|Six Sages",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "700",
+    "alternate1_Abilities": "This card gains [+200/+200] for each different name among all magic stones you control.\nThis card gains [Eternal] as long as you control five or more magic stones with different names.\nMagic stones you control gain \"{Rest}: Produce {M} or one will of any attribute.\".",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "After Welser's death, he thought it would be best if the fate of this world would be entrusted to Kaguya.",
+    "alternate1_Artist": "fzwrAym",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5143",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "a161d178-95da-4a28-9059-385da44fbc5f",
+    "alternate1_image": "a161d178-95da-4a28-9059-385da44fbc5f.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "MSW-074",
-    "name": "Lilias Petal",
-    "Type": "Resonator",
+    "Card Number": "MSW-074|MSW-074*",
+    "name": "Lilias Petal // Awakening of the Nine-Tailed Fox",
+    "Type": "Resonator|Chant",
     "Race": "Human",
-    "Cost": "{B}",
+    "Cost": "{B}|{B}{B}{B}",
     "Colour": "B",
     "ATK": "400",
     "DEF": "400",
-    "Abilities": "[Quickcast]\n[Enter] ]]] Destroy target damaged J/resonator.\nWhen this card is put into the field by the effect of its \"Awakening of the Nine-Tailed Fox\" part ]]] Put nine [+100/+100] counters on this card.",
+    "Abilities": "[Quickcast]\n[Enter] ]]] Destroy target damaged J/resonator.\nWhen this card is put into the field by the effect of its \"Awakening of the Nine-Tailed Fox\" part ]]] Put nine [+100/+100] counters on this card.|[Quickcast]\nThis card deals 900 damage to each J/resonator. If you control three or more magic stones with different names, put this card's \"Lilias Petal\" part into the field instead of putting this card into its owner's graveyard.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -1955,29 +2028,30 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "dd7acb75-d3a8-4b72-b3ef-a6f23cdf27bb",
-    "image": "dd7acb75-d3a8-4b72-b3ef-a6f23cdf27bb.jpg"
-  },
-  {
-    "Card Number": "MSW-074*",
-    "name": "Awakening of the Nine-Tailed Fox",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{B}{B}{B}",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nThis card deals 900 damage to each J/resonator. If you control three or more magic stones with different names, put this card's \"Lilias Petal\" part into the field instead of putting this card into its owner's graveyard.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Kusanagi Tyouen",
-    "Rarity": "MR",
-    "Fowid": "5144",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "5fa5e04d-b8aa-4a78-b8d3-c0d1b9801423",
-    "image": "5fa5e04d-b8aa-4a78-b8d3-c0d1b9801423.jpg"
+    "image": "dd7acb75-d3a8-4b72-b3ef-a6f23cdf27bb.jpg",
+    "Card Type": "Resonator",
+    "backimage": "5fa5e04d-b8aa-4a78-b8d3-c0d1b9801423.jpg",
+    "alternate1_Card Number": "MSW-074*",
+    "alternate1_name": "Awakening of the Nine-Tailed Fox",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{B}{B}{B}",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nThis card deals 900 damage to each J/resonator. If you control three or more magic stones with different names, put this card's \"Lilias Petal\" part into the field instead of putting this card into its owner's graveyard.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Kusanagi Tyouen",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "5144",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "5fa5e04d-b8aa-4a78-b8d3-c0d1b9801423",
+    "alternate1_image": "5fa5e04d-b8aa-4a78-b8d3-c0d1b9801423.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MSW-075",
@@ -1999,7 +2073,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "d475c51d-1be0-4280-8979-e271378e6cc1",
-    "image": "d475c51d-1be0-4280-8979-e271378e6cc1.jpg"
+    "image": "d475c51d-1be0-4280-8979-e271378e6cc1.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-076",
@@ -2021,7 +2096,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "772081ab-c09e-41bb-ab00-42ac483d5e7c",
-    "image": "772081ab-c09e-41bb-ab00-42ac483d5e7c.jpg"
+    "image": "772081ab-c09e-41bb-ab00-42ac483d5e7c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MSW-077",
@@ -2043,7 +2119,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "bfc89e2b-a033-466b-9e13-002b159458cd",
-    "image": "bfc89e2b-a033-466b-9e13-002b159458cd.jpg"
+    "image": "bfc89e2b-a033-466b-9e13-002b159458cd.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-078",
@@ -2065,7 +2142,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "c3d7373f-ac5b-47c2-832b-3612765de2e4",
-    "image": "c3d7373f-ac5b-47c2-832b-3612765de2e4.jpg"
+    "image": "c3d7373f-ac5b-47c2-832b-3612765de2e4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-079",
@@ -2087,7 +2165,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "69cb42f6-07fb-4118-af1a-90c32c8e0020",
-    "image": "69cb42f6-07fb-4118-af1a-90c32c8e0020.jpg"
+    "image": "69cb42f6-07fb-4118-af1a-90c32c8e0020.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-080",
@@ -2109,7 +2188,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "37603805-c27b-4c70-be00-a54232546626",
-    "image": "37603805-c27b-4c70-be00-a54232546626.jpg"
+    "image": "37603805-c27b-4c70-be00-a54232546626.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-081",
@@ -2131,7 +2211,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "467e5710-f46a-4c8a-86de-653c631955d3",
-    "image": "467e5710-f46a-4c8a-86de-653c631955d3.jpg"
+    "image": "467e5710-f46a-4c8a-86de-653c631955d3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-082",
@@ -2153,7 +2234,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "4c458a18-6f4b-4203-a6ff-746c54fd827c",
-    "image": "4c458a18-6f4b-4203-a6ff-746c54fd827c.jpg"
+    "image": "4c458a18-6f4b-4203-a6ff-746c54fd827c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-083",
@@ -2175,7 +2257,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "e6d1485a-844d-45b3-a0ac-bf4ffb3acc97",
-    "image": "e6d1485a-844d-45b3-a0ac-bf4ffb3acc97.jpg"
+    "image": "e6d1485a-844d-45b3-a0ac-bf4ffb3acc97.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-084",
@@ -2197,7 +2280,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "003316c8-77e6-49f1-af0e-320ae5295134",
-    "image": "003316c8-77e6-49f1-af0e-320ae5295134.jpg"
+    "image": "003316c8-77e6-49f1-af0e-320ae5295134.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-085",
@@ -2219,7 +2303,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "faa71255-5d43-40e0-934b-dcf131a76964",
-    "image": "faa71255-5d43-40e0-934b-dcf131a76964.jpg"
+    "image": "faa71255-5d43-40e0-934b-dcf131a76964.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-086",
@@ -2241,7 +2326,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "cbb78252-1037-44eb-a54d-26f5d7aa4d0b",
-    "image": "cbb78252-1037-44eb-a54d-26f5d7aa4d0b.jpg"
+    "image": "cbb78252-1037-44eb-a54d-26f5d7aa4d0b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-087",
@@ -2263,7 +2349,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "68b9deef-9276-481e-910f-9593935945f2",
-    "image": "68b9deef-9276-481e-910f-9593935945f2.jpg"
+    "image": "68b9deef-9276-481e-910f-9593935945f2.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MSW-088",
@@ -2285,7 +2372,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "f3ce741d-d2b8-47f9-94b5-08d0970fdf0c",
-    "image": "f3ce741d-d2b8-47f9-94b5-08d0970fdf0c.jpg"
+    "image": "f3ce741d-d2b8-47f9-94b5-08d0970fdf0c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-089",
@@ -2307,7 +2395,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "c9de9283-aec0-4d58-ade6-2bd94a84f0b4",
-    "image": "c9de9283-aec0-4d58-ade6-2bd94a84f0b4.jpg"
+    "image": "c9de9283-aec0-4d58-ade6-2bd94a84f0b4.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MSW-090",
@@ -2329,18 +2418,19 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "8324646d-382d-48dd-8fce-9d539b6542f3",
-    "image": "8324646d-382d-48dd-8fce-9d539b6542f3.jpg"
+    "image": "8324646d-382d-48dd-8fce-9d539b6542f3.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "MSW-091",
-    "name": "Satan's Phantasmal Body",
-    "Type": "Resonator",
+    "Card Number": "MSW-091|MSW-091*",
+    "name": "Satan's Phantasmal Body // Flame of Outer World",
+    "Type": "Resonator|Chant",
     "Race": "God|Illusion",
     "Cost": "{R}{B}",
     "Colour": "R|B",
     "ATK": "600",
     "DEF": "600",
-    "Abilities": "[Enter] ]]] Remove two madness counters from your ruler.\nWhile you are searching your deck, you may play this card from your deck by paying its cost. You may play either part of this alternative card.",
+    "Abilities": "[Enter] ]]] Remove two madness counters from your ruler.\nWhile you are searching your deck, you may play this card from your deck by paying its cost. You may play either part of this alternative card.|[Quickcast]\nThis card deals 800 damage to target J/resonator. Players cannot chase to this card.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -2351,29 +2441,30 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "f4f4c941-1cbb-4f44-a480-b6633d14a30f",
-    "image": "f4f4c941-1cbb-4f44-a480-b6633d14a30f.jpg"
-  },
-  {
-    "Card Number": "MSW-091*",
-    "name": "Flame of Outer World",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{R}{B}",
-    "Colour": "R|B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nThis card deals 800 damage to target J/resonator. Players cannot chase to this card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "IWAO / tetsuya koizumi",
-    "Rarity": "R",
-    "Fowid": "5161",
-    "Cluster": "08 - Saga",
-    "Set Name": "055 - The Magic Stone War - Zero",
-    "Set Code": "MSW",
-    "id": "97d9479d-b780-4e7b-b359-ff752baa1d13",
-    "image": "97d9479d-b780-4e7b-b359-ff752baa1d13.jpg"
+    "image": "f4f4c941-1cbb-4f44-a480-b6633d14a30f.jpg",
+    "Card Type": "Resonator",
+    "backimage": "97d9479d-b780-4e7b-b359-ff752baa1d13.jpg",
+    "alternate1_Card Number": "MSW-091*",
+    "alternate1_name": "Flame of Outer World",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{R}{B}",
+    "alternate1_Colour": "R|B",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nThis card deals 800 damage to target J/resonator. Players cannot chase to this card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "IWAO / tetsuya koizumi",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "5161",
+    "alternate1_Cluster": "08 - Saga",
+    "alternate1_Set Name": "055 - The Magic Stone War - Zero",
+    "alternate1_Set Code": "MSW",
+    "alternate1_id": "97d9479d-b780-4e7b-b359-ff752baa1d13",
+    "alternate1_image": "97d9479d-b780-4e7b-b359-ff752baa1d13.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "MSW-092",
@@ -2395,7 +2486,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "279cd828-0e81-44eb-bcb1-842408cda3f7",
-    "image": "279cd828-0e81-44eb-bcb1-842408cda3f7.jpg"
+    "image": "279cd828-0e81-44eb-bcb1-842408cda3f7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-093",
@@ -2417,7 +2509,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "2e9b6c55-4c41-487d-8a07-ccd21692bc79",
-    "image": "2e9b6c55-4c41-487d-8a07-ccd21692bc79.jpg"
+    "image": "2e9b6c55-4c41-487d-8a07-ccd21692bc79.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-094",
@@ -2439,7 +2532,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "693454a1-44c7-4bf9-80c6-a326c65465ae",
-    "image": "693454a1-44c7-4bf9-80c6-a326c65465ae.jpg"
+    "image": "693454a1-44c7-4bf9-80c6-a326c65465ae.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-095",
@@ -2461,7 +2555,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "91e6ace8-2ec8-44d1-bd97-b137f9d19366",
-    "image": "91e6ace8-2ec8-44d1-bd97-b137f9d19366.jpg"
+    "image": "91e6ace8-2ec8-44d1-bd97-b137f9d19366.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-096",
@@ -2483,7 +2578,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "56000a4c-c5b8-416c-8d63-9c276c53c69a",
-    "image": "56000a4c-c5b8-416c-8d63-9c276c53c69a.jpg"
+    "image": "56000a4c-c5b8-416c-8d63-9c276c53c69a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-097",
@@ -2505,7 +2601,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "c551d57a-82fd-47c0-bb41-4cecdd202cc0",
-    "image": "c551d57a-82fd-47c0-bb41-4cecdd202cc0.jpg"
+    "image": "c551d57a-82fd-47c0-bb41-4cecdd202cc0.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "MSW-098",
@@ -2527,7 +2624,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "1a06e892-4654-4f3e-8014-e2ac85f6a76c",
-    "image": "1a06e892-4654-4f3e-8014-e2ac85f6a76c.jpg"
+    "image": "1a06e892-4654-4f3e-8014-e2ac85f6a76c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MSW-099",
@@ -2549,7 +2647,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "1d59239e-01d1-4062-94a0-a3c8005559bf",
-    "image": "1d59239e-01d1-4062-94a0-a3c8005559bf.jpg"
+    "image": "1d59239e-01d1-4062-94a0-a3c8005559bf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MSW-100",
@@ -2571,7 +2670,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "9d47d180-fea7-4b57-8dec-0593ffaa12f6",
-    "image": "9d47d180-fea7-4b57-8dec-0593ffaa12f6.jpg"
+    "image": "9d47d180-fea7-4b57-8dec-0593ffaa12f6.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "MSW-101",
@@ -2593,7 +2693,8 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "836ad454-e1c8-4e10-9875-d6bc97119f12",
-    "image": "836ad454-e1c8-4e10-9875-d6bc97119f12.jpg"
+    "image": "836ad454-e1c8-4e10-9875-d6bc97119f12.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "MSW-102",
@@ -2615,6 +2716,7 @@
     "Set Name": "055 - The Magic Stone War - Zero",
     "Set Code": "MSW",
     "id": "7e606a03-5231-427b-9e88-7f48b9453898",
-    "image": "7e606a03-5231-427b-9e88-7f48b9453898.jpg"
+    "image": "7e606a03-5231-427b-9e88-7f48b9453898.jpg",
+    "Card Type": "Special Magic Stone"
   }
 ]

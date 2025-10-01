@@ -19,7 +19,8 @@
     "Set Name": "018 - Starter - Malefic Ice",
     "Set Code": "SDL3",
     "id": "33fb308b-5477-49ef-8b45-3b6868c22db4",
-    "image": "33fb308b-5477-49ef-8b45-3b6868c22db4.jpg"
+    "image": "33fb308b-5477-49ef-8b45-3b6868c22db4.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "SDL3-002",
@@ -41,7 +42,8 @@
     "Set Name": "018 - Starter - Malefic Ice",
     "Set Code": "SDL3",
     "id": "0244a3d3-595e-4a08-b666-346cbcd44eb1",
-    "image": "0244a3d3-595e-4a08-b666-346cbcd44eb1.jpg"
+    "image": "0244a3d3-595e-4a08-b666-346cbcd44eb1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDL3-003",
@@ -63,7 +65,8 @@
     "Set Name": "018 - Starter - Malefic Ice",
     "Set Code": "SDL3",
     "id": "93dc3d69-1d0a-44d7-a890-a6df4cc04ac9",
-    "image": "93dc3d69-1d0a-44d7-a890-a6df4cc04ac9.jpg"
+    "image": "93dc3d69-1d0a-44d7-a890-a6df4cc04ac9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL3-004",
@@ -85,7 +88,8 @@
     "Set Name": "018 - Starter - Malefic Ice",
     "Set Code": "SDL3",
     "id": "58398d27-1881-40c8-ae08-7666720fcab0",
-    "image": "58398d27-1881-40c8-ae08-7666720fcab0.jpg"
+    "image": "58398d27-1881-40c8-ae08-7666720fcab0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL3-005",
@@ -107,7 +111,8 @@
     "Set Name": "018 - Starter - Malefic Ice",
     "Set Code": "SDL3",
     "id": "7954cefc-35a4-44e6-b5d4-a8fb4004e089",
-    "image": "7954cefc-35a4-44e6-b5d4-a8fb4004e089.jpg"
+    "image": "7954cefc-35a4-44e6-b5d4-a8fb4004e089.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL3-006",
@@ -129,51 +134,53 @@
     "Set Name": "018 - Starter - Malefic Ice",
     "Set Code": "SDL3",
     "id": "fb89a6f8-fbfe-466c-8807-aa580e58f806",
-    "image": "fb89a6f8-fbfe-466c-8807-aa580e58f806.jpg"
+    "image": "fb89a6f8-fbfe-466c-8807-aa580e58f806.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "SDL3-007",
-    "name": "Mercurius, Wizard of the Water Star",
-    "Type": "Ruler",
-    "Race": "Seven Luminaries Mage",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {U}{U}{1}\n[Energize] {U} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {U}.\")\n[Mana] 2 (As the game starts, put two mana counters on this card.)\nRemove a mana counter from this card: Produce {U}. Spend this will only to play Ancient Magic cards.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The woman stood before the frozen casket, certain there was something inside.",
-    "Artist": "長崎祐子",
-    "Rarity": "R",
-    "Fowid": "245",
-    "Cluster": "04 - Lapis",
-    "Set Name": "018 - Starter - Malefic Ice",
-    "Set Code": "SDL3",
-    "id": "86e557fa-0b80-4044-9808-793040258571",
-    "image": "86e557fa-0b80-4044-9808-793040258571.jpg"
-  },
-  {
-    "Card Number": "SDL3-007J",
-    "name": "Mercurius, Dark Commander of Ice",
-    "Type": "J-Ruler",
-    "Race": "Dark Commander",
+    "Card Number": "SDL3-007|SDL3-007J",
+    "name": "Mercurius, Wizard of the Water Star // Mercurius, Dark Commander of Ice",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Seven Luminaries Mage|Dark Commander",
     "Cost": "",
     "Colour": "U",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Mana] 5 (This card enters your field with five mana counters on it.)\nAs this card enters your field, you may remove a card named \"Astaroth, Great Duke of Hell\" in your hand from the game. If you do, this card enters your field with five mana counters on it.\nThis card gains [Flying] as long as a card named \"Astaroth, Great Duke of Hell\" is in your removed area and was removed by this card.\nRemove a mana counter from this card: Produce {U}. Spend this will only to play Ancient Magic cards.",
+    "Abilities": "[Judgment] {U}{U}{1}\n[Energize] {U} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {U}.\")\n[Mana] 2 (As the game starts, put two mana counters on this card.)\nRemove a mana counter from this card: Produce {U}. Spend this will only to play Ancient Magic cards.|[Mana] 5 (This card enters your field with five mana counters on it.)\nAs this card enters your field, you may remove a card named \"Astaroth, Great Duke of Hell\" in your hand from the game. If you do, this card enters your field with five mana counters on it.\nThis card gains [Flying] as long as a card named \"Astaroth, Great Duke of Hell\" is in your removed area and was removed by this card.\nRemove a mana counter from this card: Produce {U}. Spend this will only to play Ancient Magic cards.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Do you honestly think those weaklings stand a chance against me?\"",
+    "Flavour": "The woman stood before the frozen casket, certain there was something inside.|\"Do you honestly think those weaklings stand a chance against me?\"",
     "Artist": "長崎祐子",
     "Rarity": "R",
-    "Fowid": "246",
+    "Fowid": "245|246",
     "Cluster": "04 - Lapis",
     "Set Name": "018 - Starter - Malefic Ice",
     "Set Code": "SDL3",
-    "id": "f86eb9dc-6019-4700-81df-cd2b6f55730d",
-    "image": "f86eb9dc-6019-4700-81df-cd2b6f55730d.jpg"
+    "id": "86e557fa-0b80-4044-9808-793040258571",
+    "image": "86e557fa-0b80-4044-9808-793040258571.jpg",
+    "Card Type": "Ruler",
+    "backimage": "f86eb9dc-6019-4700-81df-cd2b6f55730d.jpg",
+    "alternate1_Card Number": "SDL3-007J",
+    "alternate1_name": "Mercurius, Dark Commander of Ice",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dark Commander",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Mana] 5 (This card enters your field with five mana counters on it.)\nAs this card enters your field, you may remove a card named \"Astaroth, Great Duke of Hell\" in your hand from the game. If you do, this card enters your field with five mana counters on it.\nThis card gains [Flying] as long as a card named \"Astaroth, Great Duke of Hell\" is in your removed area and was removed by this card.\nRemove a mana counter from this card: Produce {U}. Spend this will only to play Ancient Magic cards.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"Do you honestly think those weaklings stand a chance against me?\"",
+    "alternate1_Artist": "長崎祐子",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "246",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "018 - Starter - Malefic Ice",
+    "alternate1_Set Code": "SDL3",
+    "alternate1_id": "f86eb9dc-6019-4700-81df-cd2b6f55730d",
+    "alternate1_image": "f86eb9dc-6019-4700-81df-cd2b6f55730d.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "SDL3-008",
@@ -195,7 +202,8 @@
     "Set Name": "018 - Starter - Malefic Ice",
     "Set Code": "SDL3",
     "id": "2a821758-0617-4577-ab35-35257be43676",
-    "image": "2a821758-0617-4577-ab35-35257be43676.jpg"
+    "image": "2a821758-0617-4577-ab35-35257be43676.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "SDL3-009",
@@ -217,7 +225,8 @@
     "Set Name": "018 - Starter - Malefic Ice",
     "Set Code": "SDL3",
     "id": "00e72002-5330-4382-855e-7947185ecb9e",
-    "image": "00e72002-5330-4382-855e-7947185ecb9e.jpg"
+    "image": "00e72002-5330-4382-855e-7947185ecb9e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL3-010",
@@ -239,7 +248,8 @@
     "Set Name": "018 - Starter - Malefic Ice",
     "Set Code": "SDL3",
     "id": "3b6cd8a1-b987-43db-a284-88d9b57ea084",
-    "image": "3b6cd8a1-b987-43db-a284-88d9b57ea084.jpg"
+    "image": "3b6cd8a1-b987-43db-a284-88d9b57ea084.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL3-011",
@@ -261,7 +271,8 @@
     "Set Name": "018 - Starter - Malefic Ice",
     "Set Code": "SDL3",
     "id": "503e47a8-800b-467a-97cd-a5bbb4ff0ce4",
-    "image": "503e47a8-800b-467a-97cd-a5bbb4ff0ce4.jpg"
+    "image": "503e47a8-800b-467a-97cd-a5bbb4ff0ce4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "SDL3-012",
@@ -283,6 +294,7 @@
     "Set Name": "018 - Starter - Malefic Ice",
     "Set Code": "SDL3",
     "id": "31c9e02b-4965-4640-8724-6c8984afde16",
-    "image": "31c9e02b-4965-4640-8724-6c8984afde16.jpg"
+    "image": "31c9e02b-4965-4640-8724-6c8984afde16.jpg",
+    "Card Type": "Magic Stone"
   }
 ]

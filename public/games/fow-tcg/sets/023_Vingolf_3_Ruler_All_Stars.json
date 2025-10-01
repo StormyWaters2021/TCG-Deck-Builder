@@ -19,7 +19,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "3ac662e2-9155-4d5b-8d52-383e714937f8",
-    "image": "3ac662e2-9155-4d5b-8d52-383e714937f8.jpg"
+    "image": "3ac662e2-9155-4d5b-8d52-383e714937f8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-002",
@@ -41,7 +42,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "3bd33f09-aad5-44df-9f14-8204a2fa029f",
-    "image": "3bd33f09-aad5-44df-9f14-8204a2fa029f.jpg"
+    "image": "3bd33f09-aad5-44df-9f14-8204a2fa029f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-003",
@@ -63,7 +65,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "01618a83-dd81-402a-9341-d5ad5aba57da",
-    "image": "01618a83-dd81-402a-9341-d5ad5aba57da.jpg"
+    "image": "01618a83-dd81-402a-9341-d5ad5aba57da.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-004",
@@ -85,7 +88,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "116b9484-ad78-44ef-a646-c6f581449c4c",
-    "image": "116b9484-ad78-44ef-a646-c6f581449c4c.jpg"
+    "image": "116b9484-ad78-44ef-a646-c6f581449c4c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-005",
@@ -107,7 +111,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "d82b774e-9161-4fab-94a7-04a60dc55074",
-    "image": "d82b774e-9161-4fab-94a7-04a60dc55074.jpg"
+    "image": "d82b774e-9161-4fab-94a7-04a60dc55074.jpg",
+    "Card Type": "Addition|Addition: Field"
   },
   {
     "Card Number": "VIN003-006",
@@ -129,51 +134,53 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "6fe46a64-06bd-4552-9950-a61046ab5cd7",
-    "image": "6fe46a64-06bd-4552-9950-a61046ab5cd7.jpg"
+    "image": "6fe46a64-06bd-4552-9950-a61046ab5cd7.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "VIN003-007",
-    "name": "Guardian of Light Magic Stones",
-    "Type": "Ruler",
-    "Race": "Dragon",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {W}{W}{3}\n[Energize] {W}\n[Resonance] Light Magic Stone ⇒ Target resonator you control gains [+200/+200] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The light guardian welcomes all champions of justice.",
-    "Artist": "gozz",
-    "Rarity": "R",
-    "Fowid": "509",
-    "Cluster": "04 - Lapis",
-    "Set Name": "023 - Vingolf 3 - Ruler All Stars",
-    "Set Code": "VIN003",
-    "id": "1c34b710-af33-4cf5-b0dd-0c99cee3fe6b",
-    "image": "1c34b710-af33-4cf5-b0dd-0c99cee3fe6b.jpg"
-  },
-  {
-    "Card Number": "VIN003-007J",
-    "name": "Avatar of Light Magic Stones",
-    "Type": "J-Ruler",
+    "Card Number": "VIN003-007|VIN003-007J",
+    "name": "Guardian of Light Magic Stones // Avatar of Light Magic Stones",
+    "Type": "Ruler|J-Ruler",
     "Race": "Dragon",
     "Cost": "",
     "Colour": "W",
     "ATK": "1000",
     "DEF": "1200",
-    "Abilities": "[Flying]\nWhen this card enters your field ⇒ Destroy all non-magic stone, non-J-Ruler cards.",
+    "Abilities": "[Judgment] {W}{W}{3}\n[Energize] {W}\n[Resonance] Light Magic Stone ⇒ Target resonator you control gains [+200/+200] until end of turn.|[Flying]\nWhen this card enters your field ⇒ Destroy all non-magic stone, non-J-Ruler cards.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "The avatar's light swallows all.",
+    "Flavour": "The light guardian welcomes all champions of justice.|The avatar's light swallows all.",
     "Artist": "gozz",
     "Rarity": "R",
-    "Fowid": "510",
+    "Fowid": "509|510",
     "Cluster": "04 - Lapis",
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
-    "id": "b1612a32-c349-48f4-901d-1cc81473d4ff",
-    "image": "b1612a32-c349-48f4-901d-1cc81473d4ff.jpg"
+    "id": "1c34b710-af33-4cf5-b0dd-0c99cee3fe6b",
+    "image": "1c34b710-af33-4cf5-b0dd-0c99cee3fe6b.jpg",
+    "Card Type": "Ruler",
+    "backimage": "b1612a32-c349-48f4-901d-1cc81473d4ff.jpg",
+    "alternate1_Card Number": "VIN003-007J",
+    "alternate1_name": "Avatar of Light Magic Stones",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragon",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Flying]\nWhen this card enters your field ⇒ Destroy all non-magic stone, non-J-Ruler cards.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "The avatar's light swallows all.",
+    "alternate1_Artist": "gozz",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "510",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "023 - Vingolf 3 - Ruler All Stars",
+    "alternate1_Set Code": "VIN003",
+    "alternate1_id": "b1612a32-c349-48f4-901d-1cc81473d4ff",
+    "alternate1_image": "b1612a32-c349-48f4-901d-1cc81473d4ff.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN003-008",
@@ -195,7 +202,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "feee5679-e260-418f-929d-b59a87ae2278",
-    "image": "feee5679-e260-418f-929d-b59a87ae2278.jpg"
+    "image": "feee5679-e260-418f-929d-b59a87ae2278.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-009",
@@ -217,7 +225,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "f9762e42-ad12-4d76-9761-0bf929e221c7",
-    "image": "f9762e42-ad12-4d76-9761-0bf929e221c7.jpg"
+    "image": "f9762e42-ad12-4d76-9761-0bf929e221c7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-010",
@@ -239,7 +248,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "440a2f46-f3ca-4ab3-afb8-3f4fd9afb3d5",
-    "image": "440a2f46-f3ca-4ab3-afb8-3f4fd9afb3d5.jpg"
+    "image": "440a2f46-f3ca-4ab3-afb8-3f4fd9afb3d5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-011",
@@ -261,7 +271,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "29b3356f-6277-4007-ad97-541cc7999be6",
-    "image": "29b3356f-6277-4007-ad97-541cc7999be6.jpg"
+    "image": "29b3356f-6277-4007-ad97-541cc7999be6.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-012",
@@ -283,7 +294,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "ee9a5706-a1f3-4faf-8167-791099f1c033",
-    "image": "ee9a5706-a1f3-4faf-8167-791099f1c033.jpg"
+    "image": "ee9a5706-a1f3-4faf-8167-791099f1c033.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-013",
@@ -305,7 +317,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "22dfdae8-5103-41f3-97ce-83a3b4b7c67e",
-    "image": "22dfdae8-5103-41f3-97ce-83a3b4b7c67e.jpg"
+    "image": "22dfdae8-5103-41f3-97ce-83a3b4b7c67e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-014",
@@ -327,7 +340,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "67d593b9-c63d-49c7-b4a7-db01bd3e532a",
-    "image": "67d593b9-c63d-49c7-b4a7-db01bd3e532a.jpg"
+    "image": "67d593b9-c63d-49c7-b4a7-db01bd3e532a.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-015",
@@ -349,7 +363,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "f702656f-7b0f-46a3-9253-56602d9cba55",
-    "image": "f702656f-7b0f-46a3-9253-56602d9cba55.jpg"
+    "image": "f702656f-7b0f-46a3-9253-56602d9cba55.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-016",
@@ -371,7 +386,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "8a6e3b10-9220-4343-b0e2-67287bdea96c",
-    "image": "8a6e3b10-9220-4343-b0e2-67287bdea96c.jpg"
+    "image": "8a6e3b10-9220-4343-b0e2-67287bdea96c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-017",
@@ -393,7 +409,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "19dbc6d3-35b7-43ef-9cae-b67419ee723d",
-    "image": "19dbc6d3-35b7-43ef-9cae-b67419ee723d.jpg"
+    "image": "19dbc6d3-35b7-43ef-9cae-b67419ee723d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-018",
@@ -415,7 +432,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "4fa0092b-f3c9-4088-8259-db3970fcf54c",
-    "image": "4fa0092b-f3c9-4088-8259-db3970fcf54c.jpg"
+    "image": "4fa0092b-f3c9-4088-8259-db3970fcf54c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-019",
@@ -437,7 +455,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "f46eb454-bde3-4fdd-9e5c-519130e8142d",
-    "image": "f46eb454-bde3-4fdd-9e5c-519130e8142d.jpg"
+    "image": "f46eb454-bde3-4fdd-9e5c-519130e8142d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-020",
@@ -459,7 +478,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "413a8c53-271e-4578-85ac-b0a3db9c1d96",
-    "image": "413a8c53-271e-4578-85ac-b0a3db9c1d96.jpg"
+    "image": "413a8c53-271e-4578-85ac-b0a3db9c1d96.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-021",
@@ -481,7 +501,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "d95363f9-7d6d-4488-baf9-383ad21e906c",
-    "image": "d95363f9-7d6d-4488-baf9-383ad21e906c.jpg"
+    "image": "d95363f9-7d6d-4488-baf9-383ad21e906c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-022",
@@ -503,7 +524,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "b5b5549f-1e13-411a-a82f-2b07e53a9230",
-    "image": "b5b5549f-1e13-411a-a82f-2b07e53a9230.jpg"
+    "image": "b5b5549f-1e13-411a-a82f-2b07e53a9230.jpg",
+    "Card Type": "Addition|Addition: Field"
   },
   {
     "Card Number": "VIN003-023",
@@ -525,7 +547,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "679a98a8-ef09-4ed9-aee4-27f0a4fc95a8",
-    "image": "679a98a8-ef09-4ed9-aee4-27f0a4fc95a8.jpg"
+    "image": "679a98a8-ef09-4ed9-aee4-27f0a4fc95a8.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-024",
@@ -547,51 +570,53 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "1f9063a5-ad6a-4b86-9a8f-16b6abab00b2",
-    "image": "1f9063a5-ad6a-4b86-9a8f-16b6abab00b2.jpg"
+    "image": "1f9063a5-ad6a-4b86-9a8f-16b6abab00b2.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "VIN003-025",
-    "name": "Guardian of Fire Magic Stones",
-    "Type": "Ruler",
-    "Race": "Dragon",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {R}{R}{3}\n[Energize] {R}\n[Resonance] Fire Magic Stone ⇒ This card may deal 200 damage to target resonator.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The fire guardian welcomes all warriors with a fire in their heart.",
-    "Artist": "douzen",
-    "Rarity": "R",
-    "Fowid": "528",
-    "Cluster": "04 - Lapis",
-    "Set Name": "023 - Vingolf 3 - Ruler All Stars",
-    "Set Code": "VIN003",
-    "id": "35026b02-28cb-47dc-8e73-1a770735ffe8",
-    "image": "35026b02-28cb-47dc-8e73-1a770735ffe8.jpg"
-  },
-  {
-    "Card Number": "VIN003-025J",
-    "name": "Avatar of Fire Magic Stones",
-    "Type": "J-Ruler",
+    "Card Number": "VIN003-025|VIN003-025J",
+    "name": "Guardian of Fire Magic Stones // Avatar of Fire Magic Stones",
+    "Type": "Ruler|J-Ruler",
     "Race": "Dragon",
     "Cost": "",
     "Colour": "R",
     "ATK": "1200",
     "DEF": "1000",
-    "Abilities": "[Flying]\nWhen this card enters your field ⇒ This card deals 1000 damage to each resonator your opponent controls.\nIf a resonator dealt damage by this card this turn would be put into a graveyard, remove it from the game instead.",
+    "Abilities": "[Judgment] {R}{R}{3}\n[Energize] {R}\n[Resonance] Fire Magic Stone ⇒ This card may deal 200 damage to target resonator.|[Flying]\nWhen this card enters your field ⇒ This card deals 1000 damage to each resonator your opponent controls.\nIf a resonator dealt damage by this card this turn would be put into a graveyard, remove it from the game instead.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "The avatar's fire burns all to ash.",
+    "Flavour": "The fire guardian welcomes all warriors with a fire in their heart.|The avatar's fire burns all to ash.",
     "Artist": "douzen",
     "Rarity": "R",
-    "Fowid": "529",
+    "Fowid": "528|529",
     "Cluster": "04 - Lapis",
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
-    "id": "1dfc7bfb-7f7e-4d05-a55f-902bc2d1fbca",
-    "image": "1dfc7bfb-7f7e-4d05-a55f-902bc2d1fbca.jpg"
+    "id": "35026b02-28cb-47dc-8e73-1a770735ffe8",
+    "image": "35026b02-28cb-47dc-8e73-1a770735ffe8.jpg",
+    "Card Type": "Ruler",
+    "backimage": "1dfc7bfb-7f7e-4d05-a55f-902bc2d1fbca.jpg",
+    "alternate1_Card Number": "VIN003-025J",
+    "alternate1_name": "Avatar of Fire Magic Stones",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragon",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\nWhen this card enters your field ⇒ This card deals 1000 damage to each resonator your opponent controls.\nIf a resonator dealt damage by this card this turn would be put into a graveyard, remove it from the game instead.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "The avatar's fire burns all to ash.",
+    "alternate1_Artist": "douzen",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "529",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "023 - Vingolf 3 - Ruler All Stars",
+    "alternate1_Set Code": "VIN003",
+    "alternate1_id": "1dfc7bfb-7f7e-4d05-a55f-902bc2d1fbca",
+    "alternate1_image": "1dfc7bfb-7f7e-4d05-a55f-902bc2d1fbca.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN003-026",
@@ -613,7 +638,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "c803906f-61d3-4c95-b812-5da3c79852e4",
-    "image": "c803906f-61d3-4c95-b812-5da3c79852e4.jpg"
+    "image": "c803906f-61d3-4c95-b812-5da3c79852e4.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-027",
@@ -635,7 +661,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "cb4da9ec-6188-4376-a0f9-b514727200cb",
-    "image": "cb4da9ec-6188-4376-a0f9-b514727200cb.jpg"
+    "image": "cb4da9ec-6188-4376-a0f9-b514727200cb.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-028",
@@ -657,7 +684,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "92475855-af9c-45c3-94b3-fb912f7259c5",
-    "image": "92475855-af9c-45c3-94b3-fb912f7259c5.jpg"
+    "image": "92475855-af9c-45c3-94b3-fb912f7259c5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-029",
@@ -679,7 +707,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "4b52292c-d1fe-4ab2-b070-e681ddf23f04",
-    "image": "4b52292c-d1fe-4ab2-b070-e681ddf23f04.jpg"
+    "image": "4b52292c-d1fe-4ab2-b070-e681ddf23f04.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-030",
@@ -701,7 +730,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "0ba213ce-71ad-4c95-9460-a87e8a4dcd76",
-    "image": "0ba213ce-71ad-4c95-9460-a87e8a4dcd76.jpg"
+    "image": "0ba213ce-71ad-4c95-9460-a87e8a4dcd76.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-031",
@@ -723,7 +753,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "70c7307d-ceb4-4cbe-9add-d1bb4ae156ba",
-    "image": "70c7307d-ceb4-4cbe-9add-d1bb4ae156ba.jpg"
+    "image": "70c7307d-ceb4-4cbe-9add-d1bb4ae156ba.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-032",
@@ -745,7 +776,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "4ae3e9b3-e4ea-4204-9761-5a095cd37db7",
-    "image": "4ae3e9b3-e4ea-4204-9761-5a095cd37db7.jpg"
+    "image": "4ae3e9b3-e4ea-4204-9761-5a095cd37db7.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-033",
@@ -767,7 +799,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "d53ee8d4-81dc-4861-86f7-5376aabd5064",
-    "image": "d53ee8d4-81dc-4861-86f7-5376aabd5064.jpg"
+    "image": "d53ee8d4-81dc-4861-86f7-5376aabd5064.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-034",
@@ -789,7 +822,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "13b00024-bd8f-4332-a19b-8adec776b964",
-    "image": "13b00024-bd8f-4332-a19b-8adec776b964.jpg"
+    "image": "13b00024-bd8f-4332-a19b-8adec776b964.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-035",
@@ -811,51 +845,53 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "221ba0de-d26f-49b0-bc21-ae955f144975",
-    "image": "221ba0de-d26f-49b0-bc21-ae955f144975.jpg"
+    "image": "221ba0de-d26f-49b0-bc21-ae955f144975.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "VIN003-036",
-    "name": "Guardian of Water Magic Stones",
-    "Type": "Ruler",
-    "Race": "Dragon",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {U}{U}{3}\n[Energize] {U}\n[Resonance] Water Magic Stone ⇒ Look at the top card of your deck, then put it on the top or the bottom of your deck.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The water guardian welcomes all those of nobility and grace.",
-    "Artist": "Hayama Kohei",
-    "Rarity": "R",
-    "Fowid": "540",
-    "Cluster": "04 - Lapis",
-    "Set Name": "023 - Vingolf 3 - Ruler All Stars",
-    "Set Code": "VIN003",
-    "id": "b3ff6949-a5e7-46c8-82d4-0093cb787cd8",
-    "image": "b3ff6949-a5e7-46c8-82d4-0093cb787cd8.jpg"
-  },
-  {
-    "Card Number": "VIN003-036J",
-    "name": "Avatar of Water Magic Stones",
-    "Type": "J-Ruler",
+    "Card Number": "VIN003-036|VIN003-036J",
+    "name": "Guardian of Water Magic Stones // Avatar of Water Magic Stones",
+    "Type": "Ruler|J-Ruler",
     "Race": "Dragon",
     "Cost": "",
     "Colour": "U",
     "ATK": "1100",
     "DEF": "1100",
-    "Abilities": "[Flying]\nWhen this card enters your field ⇒ Return all resonators your opponent controls to their owners' hand.",
+    "Abilities": "[Judgment] {U}{U}{3}\n[Energize] {U}\n[Resonance] Water Magic Stone ⇒ Look at the top card of your deck, then put it on the top or the bottom of your deck.|[Flying]\nWhen this card enters your field ⇒ Return all resonators your opponent controls to their owners' hand.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "The avatar's water washes away any trace of what was there.",
+    "Flavour": "The water guardian welcomes all those of nobility and grace.|The avatar's water washes away any trace of what was there.",
     "Artist": "Hayama Kohei",
     "Rarity": "R",
-    "Fowid": "541",
+    "Fowid": "540|541",
     "Cluster": "04 - Lapis",
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
-    "id": "4e562d4d-c5bf-465d-b7bc-90224d4d2258",
-    "image": "4e562d4d-c5bf-465d-b7bc-90224d4d2258.jpg"
+    "id": "b3ff6949-a5e7-46c8-82d4-0093cb787cd8",
+    "image": "b3ff6949-a5e7-46c8-82d4-0093cb787cd8.jpg",
+    "Card Type": "Ruler",
+    "backimage": "4e562d4d-c5bf-465d-b7bc-90224d4d2258.jpg",
+    "alternate1_Card Number": "VIN003-036J",
+    "alternate1_name": "Avatar of Water Magic Stones",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragon",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "1100",
+    "alternate1_DEF": "1100",
+    "alternate1_Abilities": "[Flying]\nWhen this card enters your field ⇒ Return all resonators your opponent controls to their owners' hand.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "The avatar's water washes away any trace of what was there.",
+    "alternate1_Artist": "Hayama Kohei",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "541",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "023 - Vingolf 3 - Ruler All Stars",
+    "alternate1_Set Code": "VIN003",
+    "alternate1_id": "4e562d4d-c5bf-465d-b7bc-90224d4d2258",
+    "alternate1_image": "4e562d4d-c5bf-465d-b7bc-90224d4d2258.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN003-037",
@@ -877,7 +913,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "88a2b86c-effb-4673-bb9d-b80d0a3fe22d",
-    "image": "88a2b86c-effb-4673-bb9d-b80d0a3fe22d.jpg"
+    "image": "88a2b86c-effb-4673-bb9d-b80d0a3fe22d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-038",
@@ -899,7 +936,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "5fdde738-155f-4715-9880-51bf56401c0b",
-    "image": "5fdde738-155f-4715-9880-51bf56401c0b.jpg"
+    "image": "5fdde738-155f-4715-9880-51bf56401c0b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-039",
@@ -921,7 +959,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "9355651a-4c4b-45c8-b0b0-b7313236f087",
-    "image": "9355651a-4c4b-45c8-b0b0-b7313236f087.jpg"
+    "image": "9355651a-4c4b-45c8-b0b0-b7313236f087.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-040",
@@ -943,7 +982,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "a407c260-bdd0-4d97-ac59-cb49732f4aa9",
-    "image": "a407c260-bdd0-4d97-ac59-cb49732f4aa9.jpg"
+    "image": "a407c260-bdd0-4d97-ac59-cb49732f4aa9.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "VIN003-041",
@@ -965,7 +1005,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "140c33c1-9966-4b81-b6ae-ba9984ac262b",
-    "image": "140c33c1-9966-4b81-b6ae-ba9984ac262b.jpg"
+    "image": "140c33c1-9966-4b81-b6ae-ba9984ac262b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-042",
@@ -987,7 +1028,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "a7107e00-217a-490e-83ce-99ff5ff1615e",
-    "image": "a7107e00-217a-490e-83ce-99ff5ff1615e.jpg"
+    "image": "a7107e00-217a-490e-83ce-99ff5ff1615e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-043",
@@ -1009,7 +1051,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "1bde6c27-9380-429e-b55f-accb76d731d3",
-    "image": "1bde6c27-9380-429e-b55f-accb76d731d3.jpg"
+    "image": "1bde6c27-9380-429e-b55f-accb76d731d3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-044",
@@ -1031,7 +1074,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "75a47987-65c8-4625-a94e-5671df944e56",
-    "image": "75a47987-65c8-4625-a94e-5671df944e56.jpg"
+    "image": "75a47987-65c8-4625-a94e-5671df944e56.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-045",
@@ -1053,7 +1097,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "30778b33-6ba0-4a94-86bf-6b1c88347a3d",
-    "image": "30778b33-6ba0-4a94-86bf-6b1c88347a3d.jpg"
+    "image": "30778b33-6ba0-4a94-86bf-6b1c88347a3d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-046",
@@ -1075,7 +1120,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "19352c2c-7a29-4a93-9362-d229bbc38532",
-    "image": "19352c2c-7a29-4a93-9362-d229bbc38532.jpg"
+    "image": "19352c2c-7a29-4a93-9362-d229bbc38532.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-047",
@@ -1097,51 +1143,53 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "9a570edb-549d-41a9-98cf-e01849436b1f",
-    "image": "9a570edb-549d-41a9-98cf-e01849436b1f.jpg"
+    "image": "9a570edb-549d-41a9-98cf-e01849436b1f.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "VIN003-048",
-    "name": "Guardian of Wind Magic Stones",
-    "Type": "Ruler",
-    "Race": "Dragon",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {G}{G}{3}\n[Energize] {G}\n[Resonance] Wind Magic Stone ⇒ Target resonator gains \" {Rest}: Produce {W}, {R}, {U}, {G}, or {B}.\" until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The wind guardian greets champions with a mighty gust.",
-    "Artist": "Saiko Takaki",
-    "Rarity": "R",
-    "Fowid": "553",
-    "Cluster": "04 - Lapis",
-    "Set Name": "023 - Vingolf 3 - Ruler All Stars",
-    "Set Code": "VIN003",
-    "id": "210b2524-2c3a-4826-b81f-b5e6a12326b6",
-    "image": "210b2524-2c3a-4826-b81f-b5e6a12326b6.jpg"
-  },
-  {
-    "Card Number": "VIN003-048J",
-    "name": "Avatar of Wind Magic Stones",
-    "Type": "J-Ruler",
+    "Card Number": "VIN003-048|VIN003-048J",
+    "name": "Guardian of Wind Magic Stones // Avatar of Wind Magic Stones",
+    "Type": "Ruler|J-Ruler",
     "Race": "Dragon",
     "Cost": "",
     "Colour": "G",
     "ATK": "1000",
     "DEF": "1200",
-    "Abilities": "When this card enters your field ⇒ Put two [100/100] wind Elf resonator tokens into your field.\nResonators you control gain \" {Rest}: Produce {W}, {R}, {U}, {G}, {B}.\".",
+    "Abilities": "[Judgment] {G}{G}{3}\n[Energize] {G}\n[Resonance] Wind Magic Stone ⇒ Target resonator gains \" {Rest}: Produce {W}, {R}, {U}, {G}, or {B}.\" until end of turn.|When this card enters your field ⇒ Put two [100/100] wind Elf resonator tokens into your field.\nResonators you control gain \" {Rest}: Produce {W}, {R}, {U}, {G}, {B}.\".",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "The avatar's wind inspires the will of everyone.",
+    "Flavour": "The wind guardian greets champions with a mighty gust.|The avatar's wind inspires the will of everyone.",
     "Artist": "Saiko Takaki",
     "Rarity": "R",
-    "Fowid": "554",
+    "Fowid": "553|554",
     "Cluster": "04 - Lapis",
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
-    "id": "0f923e3f-ace9-43bf-a4d3-9ea0dd3f96dc",
-    "image": "0f923e3f-ace9-43bf-a4d3-9ea0dd3f96dc.jpg"
+    "id": "210b2524-2c3a-4826-b81f-b5e6a12326b6",
+    "image": "210b2524-2c3a-4826-b81f-b5e6a12326b6.jpg",
+    "Card Type": "Ruler",
+    "backimage": "0f923e3f-ace9-43bf-a4d3-9ea0dd3f96dc.jpg",
+    "alternate1_Card Number": "VIN003-048J",
+    "alternate1_name": "Avatar of Wind Magic Stones",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragon",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "When this card enters your field ⇒ Put two [100/100] wind Elf resonator tokens into your field.\nResonators you control gain \" {Rest}: Produce {W}, {R}, {U}, {G}, {B}.\".",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "The avatar's wind inspires the will of everyone.",
+    "alternate1_Artist": "Saiko Takaki",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "554",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "023 - Vingolf 3 - Ruler All Stars",
+    "alternate1_Set Code": "VIN003",
+    "alternate1_id": "0f923e3f-ace9-43bf-a4d3-9ea0dd3f96dc",
+    "alternate1_image": "0f923e3f-ace9-43bf-a4d3-9ea0dd3f96dc.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN003-049",
@@ -1163,7 +1211,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "978d59b2-24b9-4c7e-9776-9f689b2390ec",
-    "image": "978d59b2-24b9-4c7e-9776-9f689b2390ec.jpg"
+    "image": "978d59b2-24b9-4c7e-9776-9f689b2390ec.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-050",
@@ -1185,7 +1234,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "f86f6b4f-8e22-4216-bcba-34b5a3430d71",
-    "image": "f86f6b4f-8e22-4216-bcba-34b5a3430d71.jpg"
+    "image": "f86f6b4f-8e22-4216-bcba-34b5a3430d71.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-051",
@@ -1207,7 +1257,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "abb937ab-e6c5-48d5-8bd0-9bb2ce3301be",
-    "image": "abb937ab-e6c5-48d5-8bd0-9bb2ce3301be.jpg"
+    "image": "abb937ab-e6c5-48d5-8bd0-9bb2ce3301be.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-052",
@@ -1229,7 +1280,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "9b6284a4-f05b-4465-8bf8-5577cff4988d",
-    "image": "9b6284a4-f05b-4465-8bf8-5577cff4988d.jpg"
+    "image": "9b6284a4-f05b-4465-8bf8-5577cff4988d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-053",
@@ -1251,7 +1303,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "6ef42897-6fae-41c1-8d1b-957cfb77b197",
-    "image": "6ef42897-6fae-41c1-8d1b-957cfb77b197.jpg"
+    "image": "6ef42897-6fae-41c1-8d1b-957cfb77b197.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-054",
@@ -1273,7 +1326,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "2933f8fe-44b9-4ccf-a72b-c9412ec44ead",
-    "image": "2933f8fe-44b9-4ccf-a72b-c9412ec44ead.jpg"
+    "image": "2933f8fe-44b9-4ccf-a72b-c9412ec44ead.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-055",
@@ -1295,7 +1349,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "d2f3e9ef-704b-43a4-8435-543765d66f9d",
-    "image": "d2f3e9ef-704b-43a4-8435-543765d66f9d.jpg"
+    "image": "d2f3e9ef-704b-43a4-8435-543765d66f9d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-056",
@@ -1317,7 +1372,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "f9616ebb-ef99-4ccc-82f1-32ac5ae851b6",
-    "image": "f9616ebb-ef99-4ccc-82f1-32ac5ae851b6.jpg"
+    "image": "f9616ebb-ef99-4ccc-82f1-32ac5ae851b6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-057",
@@ -1339,7 +1395,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "81b89f7b-98cf-42fb-9646-21e89e63dcf0",
-    "image": "81b89f7b-98cf-42fb-9646-21e89e63dcf0.jpg"
+    "image": "81b89f7b-98cf-42fb-9646-21e89e63dcf0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-058",
@@ -1361,7 +1418,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "f880751f-c327-4bef-8550-6c5794d312f5",
-    "image": "f880751f-c327-4bef-8550-6c5794d312f5.jpg"
+    "image": "f880751f-c327-4bef-8550-6c5794d312f5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-059",
@@ -1383,7 +1441,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "50229d3a-f024-446c-a520-ab6ee15941d7",
-    "image": "50229d3a-f024-446c-a520-ab6ee15941d7.jpg"
+    "image": "50229d3a-f024-446c-a520-ab6ee15941d7.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-060",
@@ -1405,7 +1464,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "61289e60-8b9f-4009-a680-7d6ff219ffd8",
-    "image": "61289e60-8b9f-4009-a680-7d6ff219ffd8.jpg"
+    "image": "61289e60-8b9f-4009-a680-7d6ff219ffd8.jpg",
+    "Card Type": "Addition|Addition: Field"
   },
   {
     "Card Number": "VIN003-061",
@@ -1427,7 +1487,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "9d70384b-c711-48cf-a74f-dc6eff81621c",
-    "image": "9d70384b-c711-48cf-a74f-dc6eff81621c.jpg"
+    "image": "9d70384b-c711-48cf-a74f-dc6eff81621c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-062",
@@ -1449,7 +1510,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "de6de04a-eecb-4875-a694-b24377ad6bdc",
-    "image": "de6de04a-eecb-4875-a694-b24377ad6bdc.jpg"
+    "image": "de6de04a-eecb-4875-a694-b24377ad6bdc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-063",
@@ -1471,7 +1533,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "b5038fb8-ae45-4766-83a1-22933c581791",
-    "image": "b5038fb8-ae45-4766-83a1-22933c581791.jpg"
+    "image": "b5038fb8-ae45-4766-83a1-22933c581791.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-064",
@@ -1493,7 +1556,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "5a34a0a7-905e-4750-b66b-47556e723480",
-    "image": "5a34a0a7-905e-4750-b66b-47556e723480.jpg"
+    "image": "5a34a0a7-905e-4750-b66b-47556e723480.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-065",
@@ -1515,7 +1579,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "7d9fb9bb-d7b0-49fc-8a76-ceaf8f4ed918",
-    "image": "7d9fb9bb-d7b0-49fc-8a76-ceaf8f4ed918.jpg"
+    "image": "7d9fb9bb-d7b0-49fc-8a76-ceaf8f4ed918.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-066",
@@ -1537,7 +1602,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "31e334b3-268b-406b-ac03-7a330cdfef2a",
-    "image": "31e334b3-268b-406b-ac03-7a330cdfef2a.jpg"
+    "image": "31e334b3-268b-406b-ac03-7a330cdfef2a.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-067",
@@ -1559,51 +1625,53 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "3db53764-dd13-44dd-8b1f-3913ec37162a",
-    "image": "3db53764-dd13-44dd-8b1f-3913ec37162a.jpg"
+    "image": "3db53764-dd13-44dd-8b1f-3913ec37162a.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "VIN003-068",
-    "name": "Guardian of Darkness Magic Stones",
-    "Type": "Ruler",
-    "Race": "Dragon",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Judgment] {B}{B}{3}\n[Energize] {B}\n[Resonance] Darkness Magic Stone ⇒ Target J/resonator gains [-100/-100] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The darkness guardian addresses the worthy in a jet black void.",
-    "Artist": "Mad",
-    "Rarity": "R",
-    "Fowid": "574",
-    "Cluster": "04 - Lapis",
-    "Set Name": "023 - Vingolf 3 - Ruler All Stars",
-    "Set Code": "VIN003",
-    "id": "2f85fe3f-e873-46f2-bbf3-c6e67e37920a",
-    "image": "2f85fe3f-e873-46f2-bbf3-c6e67e37920a.jpg"
-  },
-  {
-    "Card Number": "VIN003-068J",
-    "name": "Avatar of Darkness Magic Stones",
-    "Type": "J-Ruler",
+    "Card Number": "VIN003-068|VIN003-068J",
+    "name": "Guardian of Darkness Magic Stones // Avatar of Darkness Magic Stones",
+    "Type": "Ruler|J-Ruler",
     "Race": "Dragon",
     "Cost": "",
     "Colour": "B",
     "ATK": "1200",
     "DEF": "1000",
-    "Abilities": "[Flying]\nWhen this card enters your field ⇒ Your opponent banishes two resonators.",
+    "Abilities": "[Judgment] {B}{B}{3}\n[Energize] {B}\n[Resonance] Darkness Magic Stone ⇒ Target J/resonator gains [-100/-100] until end of turn.|[Flying]\nWhen this card enters your field ⇒ Your opponent banishes two resonators.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "The avatar's darkness steals everything away.",
+    "Flavour": "The darkness guardian addresses the worthy in a jet black void.|The avatar's darkness steals everything away.",
     "Artist": "Mad",
     "Rarity": "R",
-    "Fowid": "575",
+    "Fowid": "574|575",
     "Cluster": "04 - Lapis",
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
-    "id": "5f816fd0-d0ec-480e-a3cf-d41ea4df40ea",
-    "image": "5f816fd0-d0ec-480e-a3cf-d41ea4df40ea.jpg"
+    "id": "2f85fe3f-e873-46f2-bbf3-c6e67e37920a",
+    "image": "2f85fe3f-e873-46f2-bbf3-c6e67e37920a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "5f816fd0-d0ec-480e-a3cf-d41ea4df40ea.jpg",
+    "alternate1_Card Number": "VIN003-068J",
+    "alternate1_name": "Avatar of Darkness Magic Stones",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragon",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Flying]\nWhen this card enters your field ⇒ Your opponent banishes two resonators.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "The avatar's darkness steals everything away.",
+    "alternate1_Artist": "Mad",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "575",
+    "alternate1_Cluster": "04 - Lapis",
+    "alternate1_Set Name": "023 - Vingolf 3 - Ruler All Stars",
+    "alternate1_Set Code": "VIN003",
+    "alternate1_id": "5f816fd0-d0ec-480e-a3cf-d41ea4df40ea",
+    "alternate1_image": "5f816fd0-d0ec-480e-a3cf-d41ea4df40ea.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "VIN003-069",
@@ -1625,7 +1693,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "9df8f97f-a1e2-4bb9-8fdc-430b9da90d22",
-    "image": "9df8f97f-a1e2-4bb9-8fdc-430b9da90d22.jpg"
+    "image": "9df8f97f-a1e2-4bb9-8fdc-430b9da90d22.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-070",
@@ -1647,7 +1716,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "083f3407-1a32-48c4-8b16-af355ab65803",
-    "image": "083f3407-1a32-48c4-8b16-af355ab65803.jpg"
+    "image": "083f3407-1a32-48c4-8b16-af355ab65803.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-071",
@@ -1669,7 +1739,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "c9cd5d94-1443-4b48-88b2-bace0e967e62",
-    "image": "c9cd5d94-1443-4b48-88b2-bace0e967e62.jpg"
+    "image": "c9cd5d94-1443-4b48-88b2-bace0e967e62.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-072",
@@ -1691,7 +1762,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "35ee3cef-b1f9-4814-90fd-94d532230f9e",
-    "image": "35ee3cef-b1f9-4814-90fd-94d532230f9e.jpg"
+    "image": "35ee3cef-b1f9-4814-90fd-94d532230f9e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-073",
@@ -1713,7 +1785,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "768c917a-de9e-4de4-a7f9-d005429cee56",
-    "image": "768c917a-de9e-4de4-a7f9-d005429cee56.jpg"
+    "image": "768c917a-de9e-4de4-a7f9-d005429cee56.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "VIN003-074",
@@ -1735,7 +1808,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "d549dbcc-5be3-43cb-afb7-6d1d9023ce83",
-    "image": "d549dbcc-5be3-43cb-afb7-6d1d9023ce83.jpg"
+    "image": "d549dbcc-5be3-43cb-afb7-6d1d9023ce83.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-075",
@@ -1757,7 +1831,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "a6c3f535-a4a6-49e7-a6f9-2587f3b977d6",
-    "image": "a6c3f535-a4a6-49e7-a6f9-2587f3b977d6.jpg"
+    "image": "a6c3f535-a4a6-49e7-a6f9-2587f3b977d6.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "VIN003-076",
@@ -1779,7 +1854,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "01f7ca98-6802-4a24-baf6-f09ac63c2f7c",
-    "image": "01f7ca98-6802-4a24-baf6-f09ac63c2f7c.jpg"
+    "image": "01f7ca98-6802-4a24-baf6-f09ac63c2f7c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-077",
@@ -1801,7 +1877,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "42d6e620-83f9-4085-a047-e9ca57f8f6cc",
-    "image": "42d6e620-83f9-4085-a047-e9ca57f8f6cc.jpg"
+    "image": "42d6e620-83f9-4085-a047-e9ca57f8f6cc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-078",
@@ -1823,7 +1900,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "5d9b9a26-cf02-49e4-995f-34458bc47d3c",
-    "image": "5d9b9a26-cf02-49e4-995f-34458bc47d3c.jpg"
+    "image": "5d9b9a26-cf02-49e4-995f-34458bc47d3c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-079",
@@ -1845,7 +1923,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "c073ec1e-1f6a-4f20-ab22-e4d166b2c070",
-    "image": "c073ec1e-1f6a-4f20-ab22-e4d166b2c070.jpg"
+    "image": "c073ec1e-1f6a-4f20-ab22-e4d166b2c070.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-080",
@@ -1867,7 +1946,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "aa7a97fa-4533-404b-8b89-4b0932b28f6f",
-    "image": "aa7a97fa-4533-404b-8b89-4b0932b28f6f.jpg"
+    "image": "aa7a97fa-4533-404b-8b89-4b0932b28f6f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-081",
@@ -1889,7 +1969,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "3ec22f0d-8c91-4e0a-9549-ccb13c49e494",
-    "image": "3ec22f0d-8c91-4e0a-9549-ccb13c49e494.jpg"
+    "image": "3ec22f0d-8c91-4e0a-9549-ccb13c49e494.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-082",
@@ -1911,7 +1992,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "96cb84e3-e14f-4dba-9496-bbfaa0c72d33",
-    "image": "96cb84e3-e14f-4dba-9496-bbfaa0c72d33.jpg"
+    "image": "96cb84e3-e14f-4dba-9496-bbfaa0c72d33.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-083",
@@ -1933,7 +2015,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "44bf7f18-1e4b-4714-a3a0-07226a646ed5",
-    "image": "44bf7f18-1e4b-4714-a3a0-07226a646ed5.jpg"
+    "image": "44bf7f18-1e4b-4714-a3a0-07226a646ed5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-084",
@@ -1955,7 +2038,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "4d77228f-b03a-4fa5-b0ca-42b7b0dff423",
-    "image": "4d77228f-b03a-4fa5-b0ca-42b7b0dff423.jpg"
+    "image": "4d77228f-b03a-4fa5-b0ca-42b7b0dff423.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-085",
@@ -1977,7 +2061,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "44142d8f-0b49-459b-9570-3d2e03794b88",
-    "image": "44142d8f-0b49-459b-9570-3d2e03794b88.jpg"
+    "image": "44142d8f-0b49-459b-9570-3d2e03794b88.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "VIN003-086",
@@ -1999,7 +2084,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "6de8b973-851b-4fd2-a908-f289e44cfd37",
-    "image": "6de8b973-851b-4fd2-a908-f289e44cfd37.jpg"
+    "image": "6de8b973-851b-4fd2-a908-f289e44cfd37.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN003-087",
@@ -2021,7 +2107,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "cd005f36-90a6-40a4-8553-477fbb4c60d0",
-    "image": "cd005f36-90a6-40a4-8553-477fbb4c60d0.jpg"
+    "image": "cd005f36-90a6-40a4-8553-477fbb4c60d0.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN003-088",
@@ -2043,7 +2130,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "eed5f410-7ceb-435a-a46d-94ca960399df",
-    "image": "eed5f410-7ceb-435a-a46d-94ca960399df.jpg"
+    "image": "eed5f410-7ceb-435a-a46d-94ca960399df.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN003-089",
@@ -2065,7 +2153,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "2af185f2-e80e-4e8c-bc51-436f77392b57",
-    "image": "2af185f2-e80e-4e8c-bc51-436f77392b57.jpg"
+    "image": "2af185f2-e80e-4e8c-bc51-436f77392b57.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN003-090",
@@ -2087,7 +2176,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "17f83cb6-1d58-4e8d-b4a2-d2313a60ece1",
-    "image": "17f83cb6-1d58-4e8d-b4a2-d2313a60ece1.jpg"
+    "image": "17f83cb6-1d58-4e8d-b4a2-d2313a60ece1.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN003-091",
@@ -2109,7 +2199,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "e1a87a64-5426-4761-987e-2c44cb489fe6",
-    "image": "e1a87a64-5426-4761-987e-2c44cb489fe6.jpg"
+    "image": "e1a87a64-5426-4761-987e-2c44cb489fe6.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN003-092",
@@ -2131,7 +2222,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "373c48c4-d24b-4074-aba6-e7e7a247aa84",
-    "image": "373c48c4-d24b-4074-aba6-e7e7a247aa84.jpg"
+    "image": "373c48c4-d24b-4074-aba6-e7e7a247aa84.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN003-093",
@@ -2153,7 +2245,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "7097f865-ecc0-4359-ad5c-4e6b549dfbd8",
-    "image": "7097f865-ecc0-4359-ad5c-4e6b549dfbd8.jpg"
+    "image": "7097f865-ecc0-4359-ad5c-4e6b549dfbd8.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN003-094",
@@ -2175,7 +2268,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "1abaae9c-baf4-4252-93cd-253bff12d16f",
-    "image": "1abaae9c-baf4-4252-93cd-253bff12d16f.jpg"
+    "image": "1abaae9c-baf4-4252-93cd-253bff12d16f.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN003-095",
@@ -2197,7 +2291,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "6e03526e-efba-4b4c-9076-9f2596f520af",
-    "image": "6e03526e-efba-4b4c-9076-9f2596f520af.jpg"
+    "image": "6e03526e-efba-4b4c-9076-9f2596f520af.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "VIN003-096",
@@ -2219,7 +2314,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "b28732b5-8057-4447-a345-e01fcd2e2cae",
-    "image": "b28732b5-8057-4447-a345-e01fcd2e2cae.jpg"
+    "image": "b28732b5-8057-4447-a345-e01fcd2e2cae.jpg",
+    "Card Type": "Basic Magic Stone|Darkness Magic Stone"
   },
   {
     "Card Number": "VIN003-097",
@@ -2241,7 +2337,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "e0b013ba-2dae-4023-aeaa-53ee31560bec",
-    "image": "e0b013ba-2dae-4023-aeaa-53ee31560bec.jpg"
+    "image": "e0b013ba-2dae-4023-aeaa-53ee31560bec.jpg",
+    "Card Type": "Basic Magic Stone|Fire Magic Stone"
   },
   {
     "Card Number": "VIN003-098",
@@ -2263,7 +2360,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "b673153d-12ab-4157-a41f-16beb38022d8",
-    "image": "b673153d-12ab-4157-a41f-16beb38022d8.jpg"
+    "image": "b673153d-12ab-4157-a41f-16beb38022d8.jpg",
+    "Card Type": "Basic Magic Stone|Light Magic Stone"
   },
   {
     "Card Number": "VIN003-099",
@@ -2285,7 +2383,8 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "cb43c65d-a250-4598-9f1a-e71326ee8db8",
-    "image": "cb43c65d-a250-4598-9f1a-e71326ee8db8.jpg"
+    "image": "cb43c65d-a250-4598-9f1a-e71326ee8db8.jpg",
+    "Card Type": "Basic Magic Stone|Water Magic Stone"
   },
   {
     "Card Number": "VIN003-100",
@@ -2307,6 +2406,7 @@
     "Set Name": "023 - Vingolf 3 - Ruler All Stars",
     "Set Code": "VIN003",
     "id": "ee26ae6c-c389-41fe-85f1-017eb67c322b",
-    "image": "ee26ae6c-c389-41fe-85f1-017eb67c322b.jpg"
+    "image": "ee26ae6c-c389-41fe-85f1-017eb67c322b.jpg",
+    "Card Type": "Basic Magic Stone|Wind Magic Stone"
   }
 ]

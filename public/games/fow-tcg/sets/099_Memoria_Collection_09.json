@@ -19,7 +19,8 @@
     "Set Name": "099 - Memoria Collection 09",
     "Set Code": "MC09",
     "id": "ad645fe3-292f-449f-adcd-3e762ef02d14",
-    "image": "ad645fe3-292f-449f-adcd-3e762ef02d14.jpg"
+    "image": "ad645fe3-292f-449f-adcd-3e762ef02d14.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC09-002",
@@ -41,7 +42,8 @@
     "Set Name": "099 - Memoria Collection 09",
     "Set Code": "MC09",
     "id": "f422f79b-05a9-4895-b8f6-65c6ea8fca9f",
-    "image": "f422f79b-05a9-4895-b8f6-65c6ea8fca9f.jpg"
+    "image": "f422f79b-05a9-4895-b8f6-65c6ea8fca9f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC09-003",
@@ -63,7 +65,8 @@
     "Set Name": "099 - Memoria Collection 09",
     "Set Code": "MC09",
     "id": "9064de2c-8d5e-4c7c-88f2-a4c599216af9",
-    "image": "9064de2c-8d5e-4c7c-88f2-a4c599216af9.jpg"
+    "image": "9064de2c-8d5e-4c7c-88f2-a4c599216af9.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "MC09-004",
@@ -85,7 +88,8 @@
     "Set Name": "099 - Memoria Collection 09",
     "Set Code": "MC09",
     "id": "97e76787-9735-4baa-b4e4-841b533759df",
-    "image": "97e76787-9735-4baa-b4e4-841b533759df.jpg"
+    "image": "97e76787-9735-4baa-b4e4-841b533759df.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MC09-005",
@@ -107,7 +111,8 @@
     "Set Name": "099 - Memoria Collection 09",
     "Set Code": "MC09",
     "id": "19508fcf-df08-4be5-952b-969a63313105",
-    "image": "19508fcf-df08-4be5-952b-969a63313105.jpg"
+    "image": "19508fcf-df08-4be5-952b-969a63313105.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC09-006",
@@ -129,7 +134,8 @@
     "Set Name": "099 - Memoria Collection 09",
     "Set Code": "MC09",
     "id": "bdf1120c-629d-4031-8afd-617652f5a182",
-    "image": "bdf1120c-629d-4031-8afd-617652f5a182.jpg"
+    "image": "bdf1120c-629d-4031-8afd-617652f5a182.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MC09-007",
@@ -151,7 +157,8 @@
     "Set Name": "099 - Memoria Collection 09",
     "Set Code": "MC09",
     "id": "e2ba2e49-0237-4059-8dc7-b4eaca54f15c",
-    "image": "e2ba2e49-0237-4059-8dc7-b4eaca54f15c.jpg"
+    "image": "e2ba2e49-0237-4059-8dc7-b4eaca54f15c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC09-008",
@@ -173,7 +180,8 @@
     "Set Name": "099 - Memoria Collection 09",
     "Set Code": "MC09",
     "id": "b2ccd91a-a52e-40a1-a369-ba4a0d4a6641",
-    "image": "b2ccd91a-a52e-40a1-a369-ba4a0d4a6641.jpg"
+    "image": "b2ccd91a-a52e-40a1-a369-ba4a0d4a6641.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "MC09-009",
@@ -195,7 +203,8 @@
     "Set Name": "099 - Memoria Collection 09",
     "Set Code": "MC09",
     "id": "e764cb04-84ad-425b-ab3b-83cdfc5ca450",
-    "image": "e764cb04-84ad-425b-ab3b-83cdfc5ca450.jpg"
+    "image": "e764cb04-84ad-425b-ab3b-83cdfc5ca450.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "MC09-010",
@@ -217,6 +226,7 @@
     "Set Name": "099 - Memoria Collection 09",
     "Set Code": "MC09",
     "id": "5517aa8a-db48-40ec-8c94-6d1f11bd3c9f",
-    "image": "5517aa8a-db48-40ec-8c94-6d1f11bd3c9f.jpg"
+    "image": "5517aa8a-db48-40ec-8c94-6d1f11bd3c9f.jpg",
+    "Card Type": "Resonator"
   }
 ]

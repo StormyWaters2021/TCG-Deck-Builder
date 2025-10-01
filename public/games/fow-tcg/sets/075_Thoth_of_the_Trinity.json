@@ -19,7 +19,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "55a11e39-aa1f-41d0-b6db-d9781bee8f2f",
-    "image": "55a11e39-aa1f-41d0-b6db-d9781bee8f2f.jpg"
+    "image": "55a11e39-aa1f-41d0-b6db-d9781bee8f2f.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-002",
@@ -41,18 +42,19 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "fedf63ef-5d4a-412e-b5ca-17cfe98eca3d",
-    "image": "fedf63ef-5d4a-412e-b5ca-17cfe98eca3d.jpg"
+    "image": "fedf63ef-5d4a-412e-b5ca-17cfe98eca3d.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TTT-003",
-    "name": "Helen, Witch of the Ruins",
-    "Type": "Ruler",
+    "Card Number": "TTT-003|TTT-003J",
+    "name": "Helen, Witch of the Ruins // 2√6 - Route to the Perfect Number",
+    "Type": "Ruler|J-Ruler",
     "Race": "Witch|Rogue",
     "Cost": "",
     "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Players cannot move cards from their removed area to another zone as a cost.\nWitch cards gain Treasure and all attributes while they are revealed from your deck by an Exploration effect you control or while they are in your removed area and were removed by an Exploration effect you performed.\n{0}: Exploration 2. Play this ability only once per turn. (You may look at the top X cards of your deck. You may reveal a card from among them. If it is a Treasure card, remove it from the game. Put the rest on the bottom of your deck in any order.)\n[Judgment] {0}. Play this judgment process only if you control a card named \"Remnant of the Ruin\" and three or more Witch resonators with different names in your removed area that were removed by an Exploration effect you performed.",
+    "ATK": "0",
+    "DEF": "1800",
+    "Abilities": "Players cannot move cards from their removed area to another zone as a cost.\nWitch cards gain Treasure and all attributes while they are revealed from your deck by an Exploration effect you control or while they are in your removed area and were removed by an Exploration effect you performed.\n{0}: Exploration 2. Play this ability only once per turn. (You may look at the top X cards of your deck. You may reveal a card from among them. If it is a Treasure card, remove it from the game. Put the rest on the bottom of your deck in any order.)\n[Judgment] {0}. Play this judgment process only if you control a card named \"Remnant of the Ruin\" and three or more Witch resonators with different names in your removed area that were removed by an Exploration effect you performed.|[Eternal]\nYou have a maximum life of 5000.\nIf you lose or pay life due to an ability or effect of another card you control, or a source you control deals damage to you, your life is reduced by double that amount.\nAt the beginning of the end phase ]]] Check if X is even or odd, where X is your life divided by 100.\n- Even - Your life becomes your current life divided by two. If it became 100 this way, you win the game.\n- Odd - Your life becomes your current life multiplied by three plus 100.\nRemove a rune counter from a card in your removed area: Prevent the next damage that would be dealt to you this turn.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -63,29 +65,30 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "92c710c9-6a0a-4763-8f83-530dd0b2d783",
-    "image": "92c710c9-6a0a-4763-8f83-530dd0b2d783.jpg"
-  },
-  {
-    "Card Number": "TTT-003J",
-    "name": "2√6 - Route to the Perfect Number",
-    "Type": "J-Ruler",
-    "Race": "Witch|Rogue",
-    "Cost": "",
-    "Colour": "W",
-    "ATK": "0",
-    "DEF": "1800",
-    "Abilities": "[Eternal]\nYou have a maximum life of 5000.\nIf you lose or pay life due to an ability or effect of another card you control, or a source you control deals damage to you, your life is reduced by double that amount.\nAt the beginning of the end phase ]]] Check if X is even or odd, where X is your life divided by 100.\n- Even - Your life becomes your current life divided by two. If it became 100 this way, you win the game.\n- Odd - Your life becomes your current life multiplied by three plus 100.\nRemove a rune counter from a card in your removed area: Prevent the next damage that would be dealt to you this turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Nakaba Higurashi",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "075 - Thoth of the Trinity",
-    "Set Code": "TTT",
-    "id": "0f0bf1de-a3a3-4248-a78b-ff3e24786940",
-    "image": "0f0bf1de-a3a3-4248-a78b-ff3e24786940.jpg"
+    "image": "92c710c9-6a0a-4763-8f83-530dd0b2d783.jpg",
+    "Card Type": "Ruler",
+    "backimage": "0f0bf1de-a3a3-4248-a78b-ff3e24786940.jpg",
+    "alternate1_Card Number": "TTT-003J",
+    "alternate1_name": "2√6 - Route to the Perfect Number",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Witch|Rogue",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "1800",
+    "alternate1_Abilities": "[Eternal]\nYou have a maximum life of 5000.\nIf you lose or pay life due to an ability or effect of another card you control, or a source you control deals damage to you, your life is reduced by double that amount.\nAt the beginning of the end phase ]]] Check if X is even or odd, where X is your life divided by 100.\n- Even - Your life becomes your current life divided by two. If it became 100 this way, you win the game.\n- Odd - Your life becomes your current life multiplied by three plus 100.\nRemove a rune counter from a card in your removed area: Prevent the next damage that would be dealt to you this turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Nakaba Higurashi",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "075 - Thoth of the Trinity",
+    "alternate1_Set Code": "TTT",
+    "alternate1_id": "0f0bf1de-a3a3-4248-a78b-ff3e24786940",
+    "alternate1_image": "0f0bf1de-a3a3-4248-a78b-ff3e24786940.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTT-004",
@@ -107,7 +110,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "725cb1d2-9346-4ecd-9eb7-d8111de09491",
-    "image": "725cb1d2-9346-4ecd-9eb7-d8111de09491.jpg"
+    "image": "725cb1d2-9346-4ecd-9eb7-d8111de09491.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-005",
@@ -129,7 +133,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "3f4b0f18-f8d0-4e23-8cbd-c7964346ed23",
-    "image": "3f4b0f18-f8d0-4e23-8cbd-c7964346ed23.jpg"
+    "image": "3f4b0f18-f8d0-4e23-8cbd-c7964346ed23.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-006",
@@ -151,7 +156,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "3228cb9b-2ec5-42d4-b0e1-665d5fe11bd3",
-    "image": "3228cb9b-2ec5-42d4-b0e1-665d5fe11bd3.jpg"
+    "image": "3228cb9b-2ec5-42d4-b0e1-665d5fe11bd3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-007",
@@ -173,7 +179,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "bad937f7-65d4-4ab3-95b8-82f1b1861f85",
-    "image": "bad937f7-65d4-4ab3-95b8-82f1b1861f85.jpg"
+    "image": "bad937f7-65d4-4ab3-95b8-82f1b1861f85.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-008",
@@ -195,7 +202,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "5faa2efb-5f86-492d-be03-c4d1b86f0a69",
-    "image": "5faa2efb-5f86-492d-be03-c4d1b86f0a69.jpg"
+    "image": "5faa2efb-5f86-492d-be03-c4d1b86f0a69.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-009",
@@ -217,7 +225,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "055a56eb-0648-4000-9891-79070effd689",
-    "image": "055a56eb-0648-4000-9891-79070effd689.jpg"
+    "image": "055a56eb-0648-4000-9891-79070effd689.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-010",
@@ -239,7 +248,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "9935db77-1eaa-4f96-bee2-e2261bba93e0",
-    "image": "9935db77-1eaa-4f96-bee2-e2261bba93e0.jpg"
+    "image": "9935db77-1eaa-4f96-bee2-e2261bba93e0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-011",
@@ -261,7 +271,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "cc80a52f-76c6-475c-a37e-850788f28fd4",
-    "image": "cc80a52f-76c6-475c-a37e-850788f28fd4.jpg"
+    "image": "cc80a52f-76c6-475c-a37e-850788f28fd4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-012",
@@ -283,7 +294,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "32ee79f8-fc04-450e-a619-ca2fa336ab1d",
-    "image": "32ee79f8-fc04-450e-a619-ca2fa336ab1d.jpg"
+    "image": "32ee79f8-fc04-450e-a619-ca2fa336ab1d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-013",
@@ -305,7 +317,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "4debe014-abcc-40c9-98af-e217d4d2637b",
-    "image": "4debe014-abcc-40c9-98af-e217d4d2637b.jpg"
+    "image": "4debe014-abcc-40c9-98af-e217d4d2637b.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-014",
@@ -327,7 +340,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "543812d3-f3f4-40d2-ab9d-cf491ab89dd6",
-    "image": "543812d3-f3f4-40d2-ab9d-cf491ab89dd6.jpg"
+    "image": "543812d3-f3f4-40d2-ab9d-cf491ab89dd6.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-015",
@@ -349,51 +363,53 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "bfeb4245-6781-42ce-a0b8-6a64d376a9dd",
-    "image": "bfeb4245-6781-42ce-a0b8-6a64d376a9dd.jpg"
+    "image": "bfeb4245-6781-42ce-a0b8-6a64d376a9dd.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TTT-016",
-    "name": "Lyka, Stregheria of Beasts",
-    "Type": "Ruler",
-    "Race": "Lycanthrope|Aradia",
+    "Card Number": "TTT-016|TTT-016J",
+    "name": "Lyka, Stregheria of Beasts // Lyka, Stregheria of the Beast",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Lycanthrope|Aradia|Lycanthrope|Werebeast|Wolf|Aradia",
     "Cost": "",
     "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Players cannot chase to spells named \"Therionmorphing\".\nResonators with \"Aradia\" in their name gain [Untouchable] in all zones as long as your life is higher than your opponent's life. (Resonator spells with \"Aradia\" in their name or abilities of resonators with \"Aradia\" in their name cannot be canceled, targeted or moved by spells or abilities as long as they are in the chase area.)\nRemove a Beast card in your graveyard from the game: This card deals 200 damage to target J/resonator and each player with the highest life. Play this ability only once per turn.\n[Judgment] {R}, discard a card named \"Therionmorphing\".",
+    "ATK": "800",
+    "DEF": "400",
+    "Abilities": "Players cannot chase to spells named \"Therionmorphing\".\nResonators with \"Aradia\" in their name gain [Untouchable] in all zones as long as your life is higher than your opponent's life. (Resonator spells with \"Aradia\" in their name or abilities of resonators with \"Aradia\" in their name cannot be canceled, targeted or moved by spells or abilities as long as they are in the chase area.)\nRemove a Beast card in your graveyard from the game: This card deals 200 damage to target J/resonator and each player with the highest life. Play this ability only once per turn.\n[Judgment] {R}, discard a card named \"Therionmorphing\".|Calling a magic stone does not cause this card to rest.\nFire Beast resonators you control gain [Barrier] and [Untouchable] in all zones as long as your life is higher than your opponent's life.\n[Enter] ]]] Beast resonators you control gain [+200/+200] and [Swiftness] until end of turn.\nRemove a Beast card in your graveyard from the game: This card deals 400 damage to target J/resonator and each player with the highest life. Play this ability only once per turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"Wanna take a ride?\"",
-    "Artist": "SIGMAN",
+    "Flavour": "\"Wanna take a ride?\"|\"My kind of magic is \"shred\", \"rip\" and \"mangle\".\"",
+    "Artist": "SIGMAN|ISHIDA VAL",
     "Rarity": "R",
     "Fowid": "",
     "Cluster": "11 - Trinity",
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "1ad9dc95-af60-4cf2-879c-d2982b552c78",
-    "image": "1ad9dc95-af60-4cf2-879c-d2982b552c78.jpg"
-  },
-  {
-    "Card Number": "TTT-016J",
-    "name": "Lyka, Stregheria of the Beast",
-    "Type": "J-Ruler",
-    "Race": "Lycanthrope|Werebeast|Wolf|Aradia",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "800",
-    "DEF": "400",
-    "Abilities": "Calling a magic stone does not cause this card to rest.\nFire Beast resonators you control gain [Barrier] and [Untouchable] in all zones as long as your life is higher than your opponent's life.\n[Enter] ]]] Beast resonators you control gain [+200/+200] and [Swiftness] until end of turn.\nRemove a Beast card in your graveyard from the game: This card deals 400 damage to target J/resonator and each player with the highest life. Play this ability only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"My kind of magic is \"shred\", \"rip\" and \"mangle\".\"",
-    "Artist": "ISHIDA VAL",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "075 - Thoth of the Trinity",
-    "Set Code": "TTT",
-    "id": "08d21b80-7c69-4271-aef3-8b2f38be34aa",
-    "image": "08d21b80-7c69-4271-aef3-8b2f38be34aa.jpg"
+    "image": "1ad9dc95-af60-4cf2-879c-d2982b552c78.jpg",
+    "Card Type": "Ruler",
+    "backimage": "08d21b80-7c69-4271-aef3-8b2f38be34aa.jpg",
+    "alternate1_Card Number": "TTT-016J",
+    "alternate1_name": "Lyka, Stregheria of the Beast",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Lycanthrope|Werebeast|Wolf|Aradia",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "800",
+    "alternate1_DEF": "400",
+    "alternate1_Abilities": "Calling a magic stone does not cause this card to rest.\nFire Beast resonators you control gain [Barrier] and [Untouchable] in all zones as long as your life is higher than your opponent's life.\n[Enter] ]]] Beast resonators you control gain [+200/+200] and [Swiftness] until end of turn.\nRemove a Beast card in your graveyard from the game: This card deals 400 damage to target J/resonator and each player with the highest life. Play this ability only once per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"My kind of magic is \"shred\", \"rip\" and \"mangle\".\"",
+    "alternate1_Artist": "ISHIDA VAL",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "075 - Thoth of the Trinity",
+    "alternate1_Set Code": "TTT",
+    "alternate1_id": "08d21b80-7c69-4271-aef3-8b2f38be34aa",
+    "alternate1_image": "08d21b80-7c69-4271-aef3-8b2f38be34aa.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTT-017J",
@@ -415,7 +431,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "95613545-b770-4f46-8eb9-cc7d7d899ee2",
-    "image": "95613545-b770-4f46-8eb9-cc7d7d899ee2.jpg"
+    "image": "95613545-b770-4f46-8eb9-cc7d7d899ee2.jpg",
+    "Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTT-018J",
@@ -437,7 +454,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "9f91fce7-f980-4781-98f3-e92050686ee7",
-    "image": "9f91fce7-f980-4781-98f3-e92050686ee7.jpg"
+    "image": "9f91fce7-f980-4781-98f3-e92050686ee7.jpg",
+    "Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTT-019J",
@@ -459,7 +477,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "9e334143-2894-4393-a6f9-0b5b8556052e",
-    "image": "9e334143-2894-4393-a6f9-0b5b8556052e.jpg"
+    "image": "9e334143-2894-4393-a6f9-0b5b8556052e.jpg",
+    "Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTT-020",
@@ -481,7 +500,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "5696bdc2-6c2a-4930-842a-a2d1d4ef3b47",
-    "image": "5696bdc2-6c2a-4930-842a-a2d1d4ef3b47.jpg"
+    "image": "5696bdc2-6c2a-4930-842a-a2d1d4ef3b47.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-021",
@@ -503,7 +523,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "dbcd7de8-cac2-4b17-9112-a21c35412e04",
-    "image": "dbcd7de8-cac2-4b17-9112-a21c35412e04.jpg"
+    "image": "dbcd7de8-cac2-4b17-9112-a21c35412e04.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-022",
@@ -525,7 +546,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "223c243f-310e-4f94-b53b-648c4942bd47",
-    "image": "223c243f-310e-4f94-b53b-648c4942bd47.jpg"
+    "image": "223c243f-310e-4f94-b53b-648c4942bd47.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-023",
@@ -547,7 +569,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "99bdbe73-15b6-46bf-8924-1acca82ba6d9",
-    "image": "99bdbe73-15b6-46bf-8924-1acca82ba6d9.jpg"
+    "image": "99bdbe73-15b6-46bf-8924-1acca82ba6d9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-024",
@@ -569,7 +592,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "52e37864-f1f5-4ecd-8049-3f4c2f269743",
-    "image": "52e37864-f1f5-4ecd-8049-3f4c2f269743.jpg"
+    "image": "52e37864-f1f5-4ecd-8049-3f4c2f269743.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-025",
@@ -591,7 +615,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "69a724f4-8e93-4f64-a157-96a079ba1458",
-    "image": "69a724f4-8e93-4f64-a157-96a079ba1458.jpg"
+    "image": "69a724f4-8e93-4f64-a157-96a079ba1458.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-026",
@@ -613,7 +638,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "23af2f60-f3d5-448a-b14c-ac7e859237a2",
-    "image": "23af2f60-f3d5-448a-b14c-ac7e859237a2.jpg"
+    "image": "23af2f60-f3d5-448a-b14c-ac7e859237a2.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-027",
@@ -635,7 +661,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "1d0bbee1-2829-4bff-a744-a8cb0eb9a385",
-    "image": "1d0bbee1-2829-4bff-a744-a8cb0eb9a385.jpg"
+    "image": "1d0bbee1-2829-4bff-a744-a8cb0eb9a385.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-028",
@@ -657,7 +684,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "647a7f8d-17e2-4d14-8462-aff232bb539a",
-    "image": "647a7f8d-17e2-4d14-8462-aff232bb539a.jpg"
+    "image": "647a7f8d-17e2-4d14-8462-aff232bb539a.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-029",
@@ -679,7 +707,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "8669cc91-0610-4de1-8184-b505b2c1bd72",
-    "image": "8669cc91-0610-4de1-8184-b505b2c1bd72.jpg"
+    "image": "8669cc91-0610-4de1-8184-b505b2c1bd72.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-030",
@@ -701,21 +730,22 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "9c459d78-aade-4a90-9277-57805135f20a",
-    "image": "9c459d78-aade-4a90-9277-57805135f20a.jpg"
+    "image": "9c459d78-aade-4a90-9277-57805135f20a.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TTT-031",
-    "name": "Lucie, Synthetic Alchemist",
-    "Type": "Ruler",
+    "Card Number": "TTT-031|TTT-031J",
+    "name": "Lucie, Synthetic Alchemist // Lucie, the \"Witch\"",
+    "Type": "Ruler|J-Ruler",
     "Race": "Witch|Alchemist",
     "Cost": "",
     "Colour": "U",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Elemental, Spirit resonators you control cannot attack or block.\nJ/resonators your opponent controls gain [Precision] and \"This card cannot attack your opponent as long as they control a resonator with \"Synthetic Spirit\" in its name.\".\n[Judgment] {0}. Play this judgment process only if there are five or more resonators with \"Synthetic Spirit\" in their name and with different names in your item area.",
+    "ATK": "700",
+    "DEF": "1000",
+    "Abilities": "Elemental, Spirit resonators you control cannot attack or block.\nJ/resonators your opponent controls gain [Precision] and \"This card cannot attack your opponent as long as they control a resonator with \"Synthetic Spirit\" in its name.\".\n[Judgment] {0}. Play this judgment process only if there are five or more resonators with \"Synthetic Spirit\" in their name and with different names in your item area.|[Imperishable]\n[Barrier]\nPut an Elemental, Spirit card from your item area on the bottom of your deck: Put an Elemental, Spirit card from your graveyard into the field. Play this ability only once per turn.\nPut two Elemental, Spirit card from your item area on the bottom of your deck in any order: Target a spell. Its controller expels it. Play this ability only once per turn.\nPut three Elemental, Spirit card from your item area on the bottom of your deck in any order: Put up to five Elemental, Spirit resonators with different names from your item area or graveyard into the field.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"The research materials left behind by my mother were heavy, so it's baby steps for me right now.\"",
+    "Flavour": "\"The research materials left behind by my mother were heavy, so it's baby steps for me right now.\"|No matter how cute she may look, don't fall in love with her. She is a \"witch\".",
     "Artist": "kurisu",
     "Rarity": "R",
     "Fowid": "",
@@ -723,29 +753,30 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "4c470910-8525-48c8-a4a4-0283c43b1fb3",
-    "image": "4c470910-8525-48c8-a4a4-0283c43b1fb3.jpg"
-  },
-  {
-    "Card Number": "TTT-031J",
-    "name": "Lucie, the \"Witch\"",
-    "Type": "J-Ruler",
-    "Race": "Witch|Alchemist",
-    "Cost": "",
-    "Colour": "U",
-    "ATK": "700",
-    "DEF": "1000",
-    "Abilities": "[Imperishable]\n[Barrier]\nPut an Elemental, Spirit card from your item area on the bottom of your deck: Put an Elemental, Spirit card from your graveyard into the field. Play this ability only once per turn.\nPut two Elemental, Spirit card from your item area on the bottom of your deck in any order: Target a spell. Its controller expels it. Play this ability only once per turn.\nPut three Elemental, Spirit card from your item area on the bottom of your deck in any order: Put up to five Elemental, Spirit resonators with different names from your item area or graveyard into the field.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "No matter how cute she may look, don't fall in love with her. She is a \"witch\".",
-    "Artist": "kurisu",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "075 - Thoth of the Trinity",
-    "Set Code": "TTT",
-    "id": "7d1192f6-214d-48f1-ba60-f48e79e86840",
-    "image": "7d1192f6-214d-48f1-ba60-f48e79e86840.jpg"
+    "image": "4c470910-8525-48c8-a4a4-0283c43b1fb3.jpg",
+    "Card Type": "Ruler",
+    "backimage": "7d1192f6-214d-48f1-ba60-f48e79e86840.jpg",
+    "alternate1_Card Number": "TTT-031J",
+    "alternate1_name": "Lucie, the \"Witch\"",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Witch|Alchemist",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "U",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Imperishable]\n[Barrier]\nPut an Elemental, Spirit card from your item area on the bottom of your deck: Put an Elemental, Spirit card from your graveyard into the field. Play this ability only once per turn.\nPut two Elemental, Spirit card from your item area on the bottom of your deck in any order: Target a spell. Its controller expels it. Play this ability only once per turn.\nPut three Elemental, Spirit card from your item area on the bottom of your deck in any order: Put up to five Elemental, Spirit resonators with different names from your item area or graveyard into the field.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "No matter how cute she may look, don't fall in love with her. She is a \"witch\".",
+    "alternate1_Artist": "kurisu",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "075 - Thoth of the Trinity",
+    "alternate1_Set Code": "TTT",
+    "alternate1_id": "7d1192f6-214d-48f1-ba60-f48e79e86840",
+    "alternate1_image": "7d1192f6-214d-48f1-ba60-f48e79e86840.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTT-032",
@@ -767,7 +798,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "62c79ce5-a9c9-444f-9058-4376f8e5218c",
-    "image": "62c79ce5-a9c9-444f-9058-4376f8e5218c.jpg"
+    "image": "62c79ce5-a9c9-444f-9058-4376f8e5218c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-033",
@@ -789,7 +821,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "18c3f7c3-6706-48c1-a206-2535e545eebc",
-    "image": "18c3f7c3-6706-48c1-a206-2535e545eebc.jpg"
+    "image": "18c3f7c3-6706-48c1-a206-2535e545eebc.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "TTT-034",
@@ -811,7 +844,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "bf9ff325-e2bb-4409-91e9-386cdd1586d8",
-    "image": "bf9ff325-e2bb-4409-91e9-386cdd1586d8.jpg"
+    "image": "bf9ff325-e2bb-4409-91e9-386cdd1586d8.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-035",
@@ -833,7 +867,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "eaffb1db-ad37-4742-b34f-ba92d231ad22",
-    "image": "eaffb1db-ad37-4742-b34f-ba92d231ad22.jpg"
+    "image": "eaffb1db-ad37-4742-b34f-ba92d231ad22.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-036",
@@ -855,7 +890,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "64002c1b-5d4d-4823-babf-152bcc5b8dba",
-    "image": "64002c1b-5d4d-4823-babf-152bcc5b8dba.jpg"
+    "image": "64002c1b-5d4d-4823-babf-152bcc5b8dba.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-037",
@@ -877,7 +913,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "caa644c6-bffa-4454-83cc-cad65cc15ae9",
-    "image": "caa644c6-bffa-4454-83cc-cad65cc15ae9.jpg"
+    "image": "caa644c6-bffa-4454-83cc-cad65cc15ae9.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-038",
@@ -899,7 +936,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "ca0095f4-3293-48b6-a939-ae2ff830b60f",
-    "image": "ca0095f4-3293-48b6-a939-ae2ff830b60f.jpg"
+    "image": "ca0095f4-3293-48b6-a939-ae2ff830b60f.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-039",
@@ -921,7 +959,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "4a5230e3-d35b-4ade-a03f-7248693ffaa5",
-    "image": "4a5230e3-d35b-4ade-a03f-7248693ffaa5.jpg"
+    "image": "4a5230e3-d35b-4ade-a03f-7248693ffaa5.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-040",
@@ -943,7 +982,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "fb8c8778-96cf-4c8b-9e7b-86cd0eb961bc",
-    "image": "fb8c8778-96cf-4c8b-9e7b-86cd0eb961bc.jpg"
+    "image": "fb8c8778-96cf-4c8b-9e7b-86cd0eb961bc.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-041",
@@ -965,7 +1005,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "52dd755c-d1b4-4157-a640-81f361910f83",
-    "image": "52dd755c-d1b4-4157-a640-81f361910f83.jpg"
+    "image": "52dd755c-d1b4-4157-a640-81f361910f83.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-042",
@@ -987,21 +1028,22 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "322259e9-f9f4-4859-8e0e-9abbe53e8c7d",
-    "image": "322259e9-f9f4-4859-8e0e-9abbe53e8c7d.jpg"
+    "image": "322259e9-f9f4-4859-8e0e-9abbe53e8c7d.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TTT-043",
-    "name": "Utsunes, Phosphorescent Priestess",
-    "Type": "Ruler",
-    "Race": "Priest|Werebeast|Aradia",
+    "Card Number": "TTT-043|TTT-043J",
+    "name": "Utsunes, Phosphorescent Priestess // Remnantheos Utsunes",
+    "Type": "Ruler|J-Ruler",
+    "Race": "Priest|Werebeast|Aradia|God|Aradia",
     "Cost": "",
     "Colour": "G",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Cards you control named \"Aradia, HeAVEN of Æon\" gain [Eternal].\nYou may spend {G} or {T} will as though it were {T} or {G} will.\nWhenever you play a card from your graveyard with [Remnant] ]]] Draw a card.\n[Judgment] {G}{G}{G}{T}{T}{T}. You pay {G}{T} less to play this judgment process for each resonator with \"Remnantherion\" in their name and with different names among expelled cards you own outside the game.",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "Cards you control named \"Aradia, HeAVEN of Æon\" gain [Eternal].\nYou may spend {G} or {T} will as though it were {T} or {G} will.\nWhenever you play a card from your graveyard with [Remnant] ]]] Draw a card.\n[Judgment] {G}{G}{G}{T}{T}{T}. You pay {G}{T} less to play this judgment process for each resonator with \"Remnantherion\" in their name and with different names among expelled cards you own outside the game.|This card and cards you control named named \"Aradia, HeAVEN of Æon\" gain [Eternal].\nYou may spend {G} or {T} will as though it were {T} or {G} will.\nWhenever you play a card from your graveyard with [Remnant] ]]] Draw a card.\nDiscard a card: Put target resonator with \"Remnantherion\" in its name from your removed area into the field. Play this ability only during main timing and only twice per turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"This is a place I \"created\". If you don't like it, get out.\"",
+    "Flavour": "\"This is a place I \"created\". If you don't like it, get out.\"|She wants to be the mother of a once abandoned land and every who now lives there, because once upon a time she was abandoned by everyone herself.",
     "Artist": "Muraichi Suzume",
     "Rarity": "R",
     "Fowid": "",
@@ -1009,29 +1051,30 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "7a90b9fd-2d40-4f13-95ce-9108b82482be",
-    "image": "7a90b9fd-2d40-4f13-95ce-9108b82482be.jpg"
-  },
-  {
-    "Card Number": "TTT-043J",
-    "name": "Remnantheos Utsunes",
-    "Type": "J-Ruler",
-    "Race": "God|Aradia",
-    "Cost": "",
-    "Colour": "G",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "This card and cards you control named named \"Aradia, HeAVEN of Æon\" gain [Eternal].\nYou may spend {G} or {T} will as though it were {T} or {G} will.\nWhenever you play a card from your graveyard with [Remnant] ]]] Draw a card.\nDiscard a card: Put target resonator with \"Remnantherion\" in its name from your removed area into the field. Play this ability only during main timing and only twice per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "She wants to be the mother of a once abandoned land and every who now lives there, because once upon a time she was abandoned by everyone herself.",
-    "Artist": "Muraichi Suzume",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "075 - Thoth of the Trinity",
-    "Set Code": "TTT",
-    "id": "70684974-00f5-4a97-b185-5468cf1e0941",
-    "image": "70684974-00f5-4a97-b185-5468cf1e0941.jpg"
+    "image": "7a90b9fd-2d40-4f13-95ce-9108b82482be.jpg",
+    "Card Type": "Ruler",
+    "backimage": "70684974-00f5-4a97-b185-5468cf1e0941.jpg",
+    "alternate1_Card Number": "TTT-043J",
+    "alternate1_name": "Remnantheos Utsunes",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "God|Aradia",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "G",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "This card and cards you control named named \"Aradia, HeAVEN of Æon\" gain [Eternal].\nYou may spend {G} or {T} will as though it were {T} or {G} will.\nWhenever you play a card from your graveyard with [Remnant] ]]] Draw a card.\nDiscard a card: Put target resonator with \"Remnantherion\" in its name from your removed area into the field. Play this ability only during main timing and only twice per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "She wants to be the mother of a once abandoned land and every who now lives there, because once upon a time she was abandoned by everyone herself.",
+    "alternate1_Artist": "Muraichi Suzume",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "075 - Thoth of the Trinity",
+    "alternate1_Set Code": "TTT",
+    "alternate1_id": "70684974-00f5-4a97-b185-5468cf1e0941",
+    "alternate1_image": "70684974-00f5-4a97-b185-5468cf1e0941.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTT-044",
@@ -1053,7 +1096,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "4f51aad6-3d2c-4b3e-a05c-ea32454c9fa6",
-    "image": "4f51aad6-3d2c-4b3e-a05c-ea32454c9fa6.jpg"
+    "image": "4f51aad6-3d2c-4b3e-a05c-ea32454c9fa6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-045",
@@ -1075,7 +1119,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "df9320cb-2dd3-4137-88e0-a343666ce156",
-    "image": "df9320cb-2dd3-4137-88e0-a343666ce156.jpg"
+    "image": "df9320cb-2dd3-4137-88e0-a343666ce156.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-046",
@@ -1097,7 +1142,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "a6295cca-e189-4edc-a6ed-4c9266a507d8",
-    "image": "a6295cca-e189-4edc-a6ed-4c9266a507d8.jpg"
+    "image": "a6295cca-e189-4edc-a6ed-4c9266a507d8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-047",
@@ -1119,7 +1165,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "0defbfc2-29b9-42b7-b2d3-e43240544c93",
-    "image": "0defbfc2-29b9-42b7-b2d3-e43240544c93.jpg"
+    "image": "0defbfc2-29b9-42b7-b2d3-e43240544c93.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-048",
@@ -1141,7 +1188,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "5765f396-cfc0-41cf-852f-a5db49583727",
-    "image": "5765f396-cfc0-41cf-852f-a5db49583727.jpg"
+    "image": "5765f396-cfc0-41cf-852f-a5db49583727.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-049",
@@ -1163,7 +1211,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "66e62923-c788-45d1-b81a-6381d51a9dc6",
-    "image": "66e62923-c788-45d1-b81a-6381d51a9dc6.jpg"
+    "image": "66e62923-c788-45d1-b81a-6381d51a9dc6.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-050",
@@ -1185,18 +1234,19 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "7b66ece0-1fb6-47ac-8d04-a6a3f6d243fa",
-    "image": "7b66ece0-1fb6-47ac-8d04-a6a3f6d243fa.jpg"
+    "image": "7b66ece0-1fb6-47ac-8d04-a6a3f6d243fa.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "TTT-051",
-    "name": "Gandennia, Witch of Sympathy",
-    "Type": "Ruler",
+    "Card Number": "TTT-051|TTT-051J",
+    "name": "Gandennia, Witch of Sympathy // Gandennia, Empress of Empathy",
+    "Type": "Ruler|J-Ruler",
     "Race": "Witch|Human",
     "Cost": "",
     "Colour": "B",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Whenever damage is dealt to you ]]] This card deals that much damage to up to one target resonator you control that shares an attribute or race with this card. Until end of turn, you cannot target an entity with this ability that already has been targeted with this ability this turn.\nPut three cards named \"Restraints of Empathy\" from your graveyard or removed area on the bottom of your deck in any order: Draw a card.\n[Judgment] Put five non-magic stone cards with \"Gandennia\" in their name from your graveyard or removed area on the bottom of your deck in any order.",
+    "ATK": "0",
+    "DEF": "1000",
+    "Abilities": "Whenever damage is dealt to you ]]] This card deals that much damage to up to one target resonator you control that shares an attribute or race with this card. Until end of turn, you cannot target an entity with this ability that already has been targeted with this ability this turn.\nPut three cards named \"Restraints of Empathy\" from your graveyard or removed area on the bottom of your deck in any order: Draw a card.\n[Judgment] Put five non-magic stone cards with \"Gandennia\" in their name from your graveyard or removed area on the bottom of your deck in any order.|If this card would be destroyed, you may destroy a resonator you control with \"Gandennia\" in its name instead.\nIf damage would be dealt to you by a source you control, that damage is dealt to this card instead.\nWhenever damage is dealt to you or this card ]]] Choose one;\n- This card deals that much damage to your opponent. Choose this option only once per turn.\n- This card deals that much damage to target resonator you control that shares an attribute or race with this card. Until end of turn, you cannot target an entity with this ability that already has been targeted with this ability this turn.\nPut two cards named \"Restraints of Empathy\" from your graveyard or removed area on the bottom of your deck in any order: Draw a card.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "\"Oh, new guests! Make yourselves comfortable.\"",
@@ -1207,29 +1257,30 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "945ee2d7-36bf-4f89-867b-549e1b1bcb36",
-    "image": "945ee2d7-36bf-4f89-867b-549e1b1bcb36.jpg"
-  },
-  {
-    "Card Number": "TTT-051J",
-    "name": "Gandennia, Empress of Empathy",
-    "Type": "J-Ruler",
-    "Race": "Witch|Human",
-    "Cost": "",
-    "Colour": "B",
-    "ATK": "0",
-    "DEF": "1000",
-    "Abilities": "If this card would be destroyed, you may destroy a resonator you control with \"Gandennia\" in its name instead.\nIf damage would be dealt to you by a source you control, that damage is dealt to this card instead.\nWhenever damage is dealt to you or this card ]]] Choose one;\n- This card deals that much damage to your opponent. Choose this option only once per turn.\n- This card deals that much damage to target resonator you control that shares an attribute or race with this card. Until end of turn, you cannot target an entity with this ability that already has been targeted with this ability this turn.\nPut two cards named \"Restraints of Empathy\" from your graveyard or removed area on the bottom of your deck in any order: Draw a card.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "Kamijo Roro",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "075 - Thoth of the Trinity",
-    "Set Code": "TTT",
-    "id": "3c1903f3-3947-44f1-a412-82709b212c52",
-    "image": "3c1903f3-3947-44f1-a412-82709b212c52.jpg"
+    "image": "945ee2d7-36bf-4f89-867b-549e1b1bcb36.jpg",
+    "Card Type": "Ruler",
+    "backimage": "3c1903f3-3947-44f1-a412-82709b212c52.jpg",
+    "alternate1_Card Number": "TTT-051J",
+    "alternate1_name": "Gandennia, Empress of Empathy",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Witch|Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "B",
+    "alternate1_ATK": "0",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "If this card would be destroyed, you may destroy a resonator you control with \"Gandennia\" in its name instead.\nIf damage would be dealt to you by a source you control, that damage is dealt to this card instead.\nWhenever damage is dealt to you or this card ]]] Choose one;\n- This card deals that much damage to your opponent. Choose this option only once per turn.\n- This card deals that much damage to target resonator you control that shares an attribute or race with this card. Until end of turn, you cannot target an entity with this ability that already has been targeted with this ability this turn.\nPut two cards named \"Restraints of Empathy\" from your graveyard or removed area on the bottom of your deck in any order: Draw a card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "Kamijo Roro",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "075 - Thoth of the Trinity",
+    "alternate1_Set Code": "TTT",
+    "alternate1_id": "3c1903f3-3947-44f1-a412-82709b212c52",
+    "alternate1_image": "3c1903f3-3947-44f1-a412-82709b212c52.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTT-052",
@@ -1251,7 +1302,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "73b2517a-3e90-4afb-acb8-402f358699e9",
-    "image": "73b2517a-3e90-4afb-acb8-402f358699e9.jpg"
+    "image": "73b2517a-3e90-4afb-acb8-402f358699e9.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-053",
@@ -1273,7 +1325,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "ee8d8031-051f-4ab0-b281-3b3dfd7a2d77",
-    "image": "ee8d8031-051f-4ab0-b281-3b3dfd7a2d77.jpg"
+    "image": "ee8d8031-051f-4ab0-b281-3b3dfd7a2d77.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-054",
@@ -1295,7 +1348,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "043ef7d1-0892-4b76-9009-003838530055",
-    "image": "043ef7d1-0892-4b76-9009-003838530055.jpg"
+    "image": "043ef7d1-0892-4b76-9009-003838530055.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-055",
@@ -1317,7 +1371,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "8591c13a-adcc-4a15-98cd-fee783b478f3",
-    "image": "8591c13a-adcc-4a15-98cd-fee783b478f3.jpg"
+    "image": "8591c13a-adcc-4a15-98cd-fee783b478f3.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-056",
@@ -1339,7 +1394,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "259edc82-a5c6-41ba-b3b7-f339324672fe",
-    "image": "259edc82-a5c6-41ba-b3b7-f339324672fe.jpg"
+    "image": "259edc82-a5c6-41ba-b3b7-f339324672fe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-057",
@@ -1361,7 +1417,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "e2fb9559-7783-4206-be8a-e08453027265",
-    "image": "e2fb9559-7783-4206-be8a-e08453027265.jpg"
+    "image": "e2fb9559-7783-4206-be8a-e08453027265.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-058",
@@ -1383,7 +1440,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "7a3940e5-c8ed-4aea-8f15-5e3e1c294e4c",
-    "image": "7a3940e5-c8ed-4aea-8f15-5e3e1c294e4c.jpg"
+    "image": "7a3940e5-c8ed-4aea-8f15-5e3e1c294e4c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-059",
@@ -1405,7 +1463,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "4710f2dc-08db-4fa7-b7d7-653647de420e",
-    "image": "4710f2dc-08db-4fa7-b7d7-653647de420e.jpg"
+    "image": "4710f2dc-08db-4fa7-b7d7-653647de420e.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-060",
@@ -1427,7 +1486,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "c6a628c3-89c5-496a-80fe-1e0eca7f41cc",
-    "image": "c6a628c3-89c5-496a-80fe-1e0eca7f41cc.jpg"
+    "image": "c6a628c3-89c5-496a-80fe-1e0eca7f41cc.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-061",
@@ -1449,7 +1509,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "56742f39-b7ec-4a25-9450-6a3e31e65ab0",
-    "image": "56742f39-b7ec-4a25-9450-6a3e31e65ab0.jpg"
+    "image": "56742f39-b7ec-4a25-9450-6a3e31e65ab0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-062",
@@ -1471,7 +1532,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "c06ac5ed-2379-49b1-9030-bd229439b0f9",
-    "image": "c06ac5ed-2379-49b1-9030-bd229439b0f9.jpg"
+    "image": "c06ac5ed-2379-49b1-9030-bd229439b0f9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-063",
@@ -1493,7 +1555,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "5b55294a-6812-45e1-8715-7b58be9b9edd",
-    "image": "5b55294a-6812-45e1-8715-7b58be9b9edd.jpg"
+    "image": "5b55294a-6812-45e1-8715-7b58be9b9edd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-064",
@@ -1515,7 +1578,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "f9a3941f-dd74-4649-b5ab-c43b25894f85",
-    "image": "f9a3941f-dd74-4649-b5ab-c43b25894f85.jpg"
+    "image": "f9a3941f-dd74-4649-b5ab-c43b25894f85.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-065",
@@ -1537,7 +1601,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "efa770e3-16e2-404f-b562-0b31ca23d2ee",
-    "image": "efa770e3-16e2-404f-b562-0b31ca23d2ee.jpg"
+    "image": "efa770e3-16e2-404f-b562-0b31ca23d2ee.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-066",
@@ -1559,7 +1624,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "a992a2fe-ffbd-4aa7-bcb8-67111dc2b0fc",
-    "image": "a992a2fe-ffbd-4aa7-bcb8-67111dc2b0fc.jpg"
+    "image": "a992a2fe-ffbd-4aa7-bcb8-67111dc2b0fc.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-067",
@@ -1581,7 +1647,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "007472cc-607d-4570-831a-978a243b7776",
-    "image": "007472cc-607d-4570-831a-978a243b7776.jpg"
+    "image": "007472cc-607d-4570-831a-978a243b7776.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-068",
@@ -1603,7 +1670,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "d6b211f2-2a38-49d3-a121-3423feaeec7b",
-    "image": "d6b211f2-2a38-49d3-a121-3423feaeec7b.jpg"
+    "image": "d6b211f2-2a38-49d3-a121-3423feaeec7b.jpg",
+    "Card Type": "Sub-Ruler"
   },
   {
     "Card Number": "TTT-069",
@@ -1625,7 +1693,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "cc21879a-507c-46c3-b21a-4a6385e65dae",
-    "image": "cc21879a-507c-46c3-b21a-4a6385e65dae.jpg"
+    "image": "cc21879a-507c-46c3-b21a-4a6385e65dae.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-070",
@@ -1647,7 +1716,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "92c1d655-c523-412d-be20-c3eae5bbcc39",
-    "image": "92c1d655-c523-412d-be20-c3eae5bbcc39.jpg"
+    "image": "92c1d655-c523-412d-be20-c3eae5bbcc39.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-071",
@@ -1669,7 +1739,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "6b871867-e6c5-484d-81f9-cf36c52bbdb3",
-    "image": "6b871867-e6c5-484d-81f9-cf36c52bbdb3.jpg"
+    "image": "6b871867-e6c5-484d-81f9-cf36c52bbdb3.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-072",
@@ -1691,7 +1762,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "a078c699-07bb-4752-9e53-788729f405f0",
-    "image": "a078c699-07bb-4752-9e53-788729f405f0.jpg"
+    "image": "a078c699-07bb-4752-9e53-788729f405f0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-073",
@@ -1713,7 +1785,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "55f005e8-7945-4bb9-8235-23762608fd9e",
-    "image": "55f005e8-7945-4bb9-8235-23762608fd9e.jpg"
+    "image": "55f005e8-7945-4bb9-8235-23762608fd9e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-074",
@@ -1735,7 +1808,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "54b2c787-957b-432e-b090-052e4609a0bf",
-    "image": "54b2c787-957b-432e-b090-052e4609a0bf.jpg"
+    "image": "54b2c787-957b-432e-b090-052e4609a0bf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-075",
@@ -1757,7 +1831,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "49b77b30-1e00-456b-b530-b7084e5a037c",
-    "image": "49b77b30-1e00-456b-b530-b7084e5a037c.jpg"
+    "image": "49b77b30-1e00-456b-b530-b7084e5a037c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-076",
@@ -1779,7 +1854,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "358cdcc7-4076-4cd9-bf31-f482ab14aaf2",
-    "image": "358cdcc7-4076-4cd9-bf31-f482ab14aaf2.jpg"
+    "image": "358cdcc7-4076-4cd9-bf31-f482ab14aaf2.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-077",
@@ -1801,7 +1877,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "92544d19-52c3-42bd-960c-eb11e02b8b27",
-    "image": "92544d19-52c3-42bd-960c-eb11e02b8b27.jpg"
+    "image": "92544d19-52c3-42bd-960c-eb11e02b8b27.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-078",
@@ -1823,40 +1900,19 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "9854ad7c-fbdc-4b3b-b447-bde06e6dc58d",
-    "image": "9854ad7c-fbdc-4b3b-b447-bde06e6dc58d.jpg"
+    "image": "9854ad7c-fbdc-4b3b-b447-bde06e6dc58d.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "TTT-079",
-    "name": "Wu Xiaohu, Trained Tiny Tiger",
-    "Type": "Ruler",
-    "Race": "AAA|Werebeast",
-    "Cost": "",
-    "Colour": "V",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "As the game starts, banish all will coin tokens and expel your magic stone deck.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n{Rest}: Apply the following effects based on the number of non-magic stone entities that entered the field under your opponent's control this turn;\n- 1 or more - Return up to one target AAA resonator you control to its owner's hand.\n- 2 or more - Up to one target resonator your opponent controls becomes a magic stone until the next end of your turn. It is no longer a resonator. If it would move to a magic stone deck, it doesn't move instead. It gains \"{Rest}: Produce {1}.\" and loses all other abilities as long as it is a magic stone.\n- 3 or more - Destroy target magic stone with printed type resonator.\n[Judgment] Discard a card named \"Therionmorphing\".",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "311taro",
-    "Rarity": "R",
-    "Fowid": "",
-    "Cluster": "11 - Trinity",
-    "Set Name": "075 - Thoth of the Trinity",
-    "Set Code": "TTT",
-    "id": "d0d3b75a-3187-4997-9bcc-f7bc7ac717b0",
-    "image": "d0d3b75a-3187-4997-9bcc-f7bc7ac717b0.jpg"
-  },
-  {
-    "Card Number": "TTT-079J",
-    "name": "Wu Xiaohu, Trained Tiny Tiger!?",
-    "Type": "J-Ruler",
-    "Race": "AAA|Human",
+    "Card Number": "TTT-079|TTT-079J",
+    "name": "Wu Xiaohu, Trained Tiny Tiger // Wu Xiaohu, Trained Tiny Tiger!?",
+    "Type": "Ruler|J-Ruler",
+    "Race": "AAA|Werebeast|AAA|Human",
     "Cost": "",
     "Colour": "V",
     "ATK": "100",
     "DEF": "100",
-    "Abilities": "This card gains and cannot lose [Swiftness] and [Imperishable].\n[Enter] ]]] Choose one;\n- Return target AAA resonator you control to its owner's hand.\n- Up to one target resonator your opponent controls becomes a magic stone until the next end of your turn. It is no longer a resonator. If it would move to a magic stone deck, it doesn't move instead. It gains \"{Rest}: Produce {1}.\" and loses all other abilities as long as it is a magic stone.\n- Destroy target magic stone with printed type resonator.\nAt the beginning of the end phase ]]] Put this card into your ruler area as a ruler.",
+    "Abilities": "As the game starts, banish all will coin tokens and expel your magic stone deck.\nIf an ability or effect your opponent controls would make you pay any amount of will, you pay {0} instead.\n{Rest}: Apply the following effects based on the number of non-magic stone entities that entered the field under your opponent's control this turn;\n- 1 or more - Return up to one target AAA resonator you control to its owner's hand.\n- 2 or more - Up to one target resonator your opponent controls becomes a magic stone until the next end of your turn. It is no longer a resonator. If it would move to a magic stone deck, it doesn't move instead. It gains \"{Rest}: Produce {1}.\" and loses all other abilities as long as it is a magic stone.\n- 3 or more - Destroy target magic stone with printed type resonator.\n[Judgment] Discard a card named \"Therionmorphing\".|This card gains and cannot lose [Swiftness] and [Imperishable].\n[Enter] ]]] Choose one;\n- Return target AAA resonator you control to its owner's hand.\n- Up to one target resonator your opponent controls becomes a magic stone until the next end of your turn. It is no longer a resonator. If it would move to a magic stone deck, it doesn't move instead. It gains \"{Rest}: Produce {1}.\" and loses all other abilities as long as it is a magic stone.\n- Destroy target magic stone with printed type resonator.\nAt the beginning of the end phase ]]] Put this card into your ruler area as a ruler.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "\"I am not a CAT!!!!\".",
@@ -1866,8 +1922,31 @@
     "Cluster": "11 - Trinity",
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
-    "id": "fd9951bb-3792-4f02-97fb-5af3fa5f906b",
-    "image": "fd9951bb-3792-4f02-97fb-5af3fa5f906b.jpg"
+    "id": "d0d3b75a-3187-4997-9bcc-f7bc7ac717b0",
+    "image": "d0d3b75a-3187-4997-9bcc-f7bc7ac717b0.jpg",
+    "Card Type": "Ruler",
+    "backimage": "fd9951bb-3792-4f02-97fb-5af3fa5f906b.jpg",
+    "alternate1_Card Number": "TTT-079J",
+    "alternate1_name": "Wu Xiaohu, Trained Tiny Tiger!?",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "AAA|Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "V",
+    "alternate1_ATK": "100",
+    "alternate1_DEF": "100",
+    "alternate1_Abilities": "This card gains and cannot lose [Swiftness] and [Imperishable].\n[Enter] ]]] Choose one;\n- Return target AAA resonator you control to its owner's hand.\n- Up to one target resonator your opponent controls becomes a magic stone until the next end of your turn. It is no longer a resonator. If it would move to a magic stone deck, it doesn't move instead. It gains \"{Rest}: Produce {1}.\" and loses all other abilities as long as it is a magic stone.\n- Destroy target magic stone with printed type resonator.\nAt the beginning of the end phase ]]] Put this card into your ruler area as a ruler.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I am not a CAT!!!!\".",
+    "alternate1_Artist": "311taro",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "",
+    "alternate1_Cluster": "11 - Trinity",
+    "alternate1_Set Name": "075 - Thoth of the Trinity",
+    "alternate1_Set Code": "TTT",
+    "alternate1_id": "fd9951bb-3792-4f02-97fb-5af3fa5f906b",
+    "alternate1_image": "fd9951bb-3792-4f02-97fb-5af3fa5f906b.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "TTT-080",
@@ -1889,7 +1968,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "27d5168f-4545-4818-92ad-4b7c3d53dae3",
-    "image": "27d5168f-4545-4818-92ad-4b7c3d53dae3.jpg"
+    "image": "27d5168f-4545-4818-92ad-4b7c3d53dae3.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTT-081",
@@ -1911,7 +1991,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "178148fd-ac2a-4bc6-b683-2dc97977a826",
-    "image": "178148fd-ac2a-4bc6-b683-2dc97977a826.jpg"
+    "image": "178148fd-ac2a-4bc6-b683-2dc97977a826.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTT-082",
@@ -1933,7 +2014,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "53952790-1b55-4a13-9b19-53f2afbbef55",
-    "image": "53952790-1b55-4a13-9b19-53f2afbbef55.jpg"
+    "image": "53952790-1b55-4a13-9b19-53f2afbbef55.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTT-083",
@@ -1955,7 +2037,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "59ea1f02-b5f8-41b7-a7fa-a776d1db52b2",
-    "image": "59ea1f02-b5f8-41b7-a7fa-a776d1db52b2.jpg"
+    "image": "59ea1f02-b5f8-41b7-a7fa-a776d1db52b2.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTT-084",
@@ -1977,7 +2060,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "503dadce-0cae-4943-aadc-95c2afb87511",
-    "image": "503dadce-0cae-4943-aadc-95c2afb87511.jpg"
+    "image": "503dadce-0cae-4943-aadc-95c2afb87511.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTT-085",
@@ -1999,7 +2083,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "f0abffc5-8d53-469f-97ba-654e45521f66",
-    "image": "f0abffc5-8d53-469f-97ba-654e45521f66.jpg"
+    "image": "f0abffc5-8d53-469f-97ba-654e45521f66.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTT-086",
@@ -2021,7 +2106,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "605f6f61-f86d-4689-a790-e2a13d0a57b1",
-    "image": "605f6f61-f86d-4689-a790-e2a13d0a57b1.jpg"
+    "image": "605f6f61-f86d-4689-a790-e2a13d0a57b1.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTT-087",
@@ -2043,7 +2129,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "c78907a3-8f45-4b2f-a925-bf3ee7b57c8a",
-    "image": "c78907a3-8f45-4b2f-a925-bf3ee7b57c8a.jpg"
+    "image": "c78907a3-8f45-4b2f-a925-bf3ee7b57c8a.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTT-088",
@@ -2065,7 +2152,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "99b89aee-1d01-4cd7-9b92-9a2188d76ab8",
-    "image": "99b89aee-1d01-4cd7-9b92-9a2188d76ab8.jpg"
+    "image": "99b89aee-1d01-4cd7-9b92-9a2188d76ab8.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTT-089",
@@ -2087,7 +2175,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "3057f0dd-22ba-422c-b498-294466261994",
-    "image": "3057f0dd-22ba-422c-b498-294466261994.jpg"
+    "image": "3057f0dd-22ba-422c-b498-294466261994.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTT-090",
@@ -2109,7 +2198,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "86ac57f0-743c-4cd4-b62b-09a282169011",
-    "image": "86ac57f0-743c-4cd4-b62b-09a282169011.jpg"
+    "image": "86ac57f0-743c-4cd4-b62b-09a282169011.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "TTT-091",
@@ -2131,7 +2221,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "16671c4d-61f0-4ec9-9d0f-8f7fd3aa0e92",
-    "image": "16671c4d-61f0-4ec9-9d0f-8f7fd3aa0e92.jpg"
+    "image": "16671c4d-61f0-4ec9-9d0f-8f7fd3aa0e92.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-092",
@@ -2153,7 +2244,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "f9c869ce-653d-41ac-9bd4-fc66e0df3339",
-    "image": "f9c869ce-653d-41ac-9bd4-fc66e0df3339.jpg"
+    "image": "f9c869ce-653d-41ac-9bd4-fc66e0df3339.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-093",
@@ -2175,7 +2267,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "66a3b970-b3f5-46c1-948c-409f16712c4c",
-    "image": "66a3b970-b3f5-46c1-948c-409f16712c4c.jpg"
+    "image": "66a3b970-b3f5-46c1-948c-409f16712c4c.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-094",
@@ -2197,7 +2290,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "81a9467c-d6dc-4719-bc09-007fcd06566a",
-    "image": "81a9467c-d6dc-4719-bc09-007fcd06566a.jpg"
+    "image": "81a9467c-d6dc-4719-bc09-007fcd06566a.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-095",
@@ -2219,7 +2313,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "3835e2d4-61b7-4589-880c-3103397b7577",
-    "image": "3835e2d4-61b7-4589-880c-3103397b7577.jpg"
+    "image": "3835e2d4-61b7-4589-880c-3103397b7577.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-096",
@@ -2241,7 +2336,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "bbcec343-d031-4d1a-abaf-b6e192e30b06",
-    "image": "bbcec343-d031-4d1a-abaf-b6e192e30b06.jpg"
+    "image": "bbcec343-d031-4d1a-abaf-b6e192e30b06.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "TTT-097",
@@ -2263,7 +2359,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "3dbec22f-df82-4da9-ad7f-bc58fcebeba7",
-    "image": "3dbec22f-df82-4da9-ad7f-bc58fcebeba7.jpg"
+    "image": "3dbec22f-df82-4da9-ad7f-bc58fcebeba7.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "TTT-098",
@@ -2285,7 +2382,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "e6fb3755-ee11-46c5-9cbd-23a6fd256eb4",
-    "image": "e6fb3755-ee11-46c5-9cbd-23a6fd256eb4.jpg"
+    "image": "e6fb3755-ee11-46c5-9cbd-23a6fd256eb4.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-099",
@@ -2307,7 +2405,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "ce2aaaf0-9d69-4e44-acba-1b3a9d9c6262",
-    "image": "ce2aaaf0-9d69-4e44-acba-1b3a9d9c6262.jpg"
+    "image": "ce2aaaf0-9d69-4e44-acba-1b3a9d9c6262.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "TTT-100",
@@ -2329,7 +2428,8 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "baec0cec-f2bb-44b7-b947-d4c1ae051a78",
-    "image": "baec0cec-f2bb-44b7-b947-d4c1ae051a78.jpg"
+    "image": "baec0cec-f2bb-44b7-b947-d4c1ae051a78.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "T1 Buy a Box",
@@ -2351,6 +2451,7 @@
     "Set Name": "075 - Thoth of the Trinity",
     "Set Code": "TTT",
     "id": "69965f0f-70f6-4a47-a914-2e07dbf58bc1",
-    "image": "69965f0f-70f6-4a47-a914-2e07dbf58bc1.jpg"
+    "image": "69965f0f-70f6-4a47-a914-2e07dbf58bc1.jpg",
+    "Card Type": "Resonator"
   }
 ]

@@ -1,17 +1,17 @@
 [
   {
-    "Card Number": "ABC-SD01-000",
-    "name": "Arcana: Guardian of the Temple",
-    "Type": "Ruler",
+    "Card Number": "ABC-SD01-000|ABC-SD01-000J",
+    "name": "Arcana: Guardian of the Temple // Arcana: Oracle of Sparkling Fire",
+    "Type": "Ruler|J-Ruler",
     "Race": "Arcana",
     "Cost": "",
     "Colour": "W|R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Convoke] {W}{R}\nYou can only have light cards and fire cards in your deck, and no cards with attributes other than light or fire.\nAt the beginning of the game ]]] Put three limited counters on this card.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.\n[Judgment] {W}{R}{1}",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "[Convoke] {W}{R}\nYou can only have light cards and fire cards in your deck, and no cards with attributes other than light or fire.\nAt the beginning of the game ]]] Put three limited counters on this card.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.\n[Judgment] {W}{R}{1}|[Convoke] {W}{R}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "She fights to protect the flame that burns at the heart of the temple.",
+    "Flavour": "She fights to protect the flame that burns at the heart of the temple.|\"I've seen the future in the flame, and it's bright.\" ーOracle of Sparkling Fire",
     "Artist": "",
     "Rarity": "R",
     "Fowid": "None",
@@ -19,29 +19,30 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "9b2fcd68-dc08-4be7-80e3-ba0c22f3631a",
-    "image": "9b2fcd68-dc08-4be7-80e3-ba0c22f3631a.jpg"
-  },
-  {
-    "Card Number": "ABC-SD01-000J",
-    "name": "Arcana: Oracle of Sparkling Fire",
-    "Type": "J-Ruler",
-    "Race": "Arcana",
-    "Cost": "",
-    "Colour": "W|R",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Convoke] {W}{R}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "\"I've seen the future in the flame, and it's bright.\" ーOracle of Sparkling Fire",
-    "Artist": "",
-    "Rarity": "R",
-    "Fowid": "None",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "084 - Elektra vs The Lich King (Elektra)",
-    "Set Code": "ABC",
-    "id": "108065a7-61d6-4cc0-9867-8dcf636ef78f",
-    "image": "108065a7-61d6-4cc0-9867-8dcf636ef78f.jpg"
+    "image": "9b2fcd68-dc08-4be7-80e3-ba0c22f3631a.jpg",
+    "Card Type": "Ruler",
+    "backimage": "108065a7-61d6-4cc0-9867-8dcf636ef78f.jpg",
+    "alternate1_Card Number": "ABC-SD01-000J",
+    "alternate1_name": "Arcana: Oracle of Sparkling Fire",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Arcana",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Convoke] {W}{R}\n[Pierce]\n[Imperishable]\nOther J-rulers you control gain [Eternal].\n[Enter] ]]] Choose one;\n- Put the top card of your magic stone deck into the field rested.\n- Search your deck for a ruler, reveal it and put it into your hand. If you do, shuffle your deck.\n{1}, remove a limited counter from this card: Produce {W}, {R}, {U}, {G}, or {B}.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I've seen the future in the flame, and it's bright.\" ーOracle of Sparkling Fire",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "None",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "084 - Elektra vs The Lich King (Elektra)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "108065a7-61d6-4cc0-9867-8dcf636ef78f",
+    "alternate1_image": "108065a7-61d6-4cc0-9867-8dcf636ef78f.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD01-001",
@@ -63,95 +64,98 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "1359b015-1b33-43f7-86d1-49c40f76d3aa",
-    "image": "1359b015-1b33-43f7-86d1-49c40f76d3aa.jpg"
+    "image": "1359b015-1b33-43f7-86d1-49c40f76d3aa.jpg",
+    "Card Type": "Ruler"
   },
   {
-    "Card Number": "ABC-SD01-002",
-    "name": "Lilias, Last Descendant of Dragonoids",
-    "Type": "Ruler",
-    "Race": "Dragonoid",
-    "Cost": "",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "{0}: Choose one. Play this ability only during your turn and only once per turn;\n- This card deals 200 damage to target player or J/resonator.\n- Look at the top card of your deck. You may play it.\n- Put five strength counters on this card.\n{Rest}: Put five strength counters on this card.\n[Judgment] {R}{R}{R}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The survivor of the ruined nation of dragonoids, the last descendant.",
-    "Artist": "SIGMAN",
-    "Rarity": "R",
-    "Fowid": "4871",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "084 - Elektra vs The Lich King (Elektra)",
-    "Set Code": "ABC",
-    "id": "0bcefc05-8bb9-45bc-badc-77a9fb5bfd68",
-    "image": "0bcefc05-8bb9-45bc-badc-77a9fb5bfd68.jpg"
-  },
-  {
-    "Card Number": "ABC-SD01-002J",
-    "name": "Lilias, Last Descendant of Dragonoids [J-Ruler]",
-    "Type": "J-Ruler",
+    "Card Number": "ABC-SD01-002|ABC-SD01-002J",
+    "name": "Lilias, Last Descendant of Dragonoids // Lilias, Last Descendant of Dragonoids [J-Ruler]",
+    "Type": "Ruler|J-Ruler",
     "Race": "Dragonoid",
     "Cost": "",
     "Colour": "R",
     "ATK": "1200",
     "DEF": "1200",
-    "Abilities": "[Swiftness]\nIf a fire source you control would deal damage, it deals that much plus X00 instead, where X is the number of strength counters on this card.",
+    "Abilities": "{0}: Choose one. Play this ability only during your turn and only once per turn;\n- This card deals 200 damage to target player or J/resonator.\n- Look at the top card of your deck. You may play it.\n- Put five strength counters on this card.\n{Rest}: Put five strength counters on this card.\n[Judgment] {R}{R}{R}|[Swiftness]\nIf a fire source you control would deal damage, it deals that much plus X00 instead, where X is the number of strength counters on this card.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"The secret of survival in this world is simple, just strike your opponent down with a single hit. That's it.\"",
-    "Artist": "",
+    "Flavour": "The survivor of the ruined nation of dragonoids, the last descendant.|\"The secret of survival in this world is simple, just strike your opponent down with a single hit. That's it.\"",
+    "Artist": "SIGMAN",
     "Rarity": "R",
-    "Fowid": "4872",
+    "Fowid": "4871|4872",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
-    "id": "e73f1392-afc0-4997-8731-7566ba3adca9",
-    "image": "e73f1392-afc0-4997-8731-7566ba3adca9.jpg"
+    "id": "0bcefc05-8bb9-45bc-badc-77a9fb5bfd68",
+    "image": "0bcefc05-8bb9-45bc-badc-77a9fb5bfd68.jpg",
+    "Card Type": "Ruler",
+    "backimage": "e73f1392-afc0-4997-8731-7566ba3adca9.jpg",
+    "alternate1_Card Number": "ABC-SD01-002J",
+    "alternate1_name": "Lilias, Last Descendant of Dragonoids [J-Ruler]",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Dragonoid",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "1200",
+    "alternate1_DEF": "1200",
+    "alternate1_Abilities": "[Swiftness]\nIf a fire source you control would deal damage, it deals that much plus X00 instead, where X is the number of strength counters on this card.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"The secret of survival in this world is simple, just strike your opponent down with a single hit. That's it.\"",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "4872",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "084 - Elektra vs The Lich King (Elektra)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "e73f1392-afc0-4997-8731-7566ba3adca9",
+    "alternate1_image": "e73f1392-afc0-4997-8731-7566ba3adca9.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
-    "Card Number": "ABC-SD01-003",
-    "name": "Lumia, the Fated Rebirth",
-    "Type": "Ruler",
-    "Race": "Human",
-    "Cost": "",
-    "Colour": "W|R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "At the beginning of your end phase ]]] Remove target rested resonator you control from the game, then put it into the field under its owner's control.\n[Judgment] {W}{R}{1}",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Fate is a cycle. When the world fell into crisis again, the girl stood defiant once more.",
-    "Artist": "下江クリス",
-    "Rarity": "R",
-    "Fowid": "351",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "084 - Elektra vs The Lich King (Elektra)",
-    "Set Code": "ABC",
-    "id": "11b6a6ab-3870-4213-9659-6a4aa3f33965",
-    "image": "11b6a6ab-3870-4213-9659-6a4aa3f33965.jpg"
-  },
-  {
-    "Card Number": "ABC-SD01-003J",
-    "name": "Lumia, Saint of the Crimson Lotus",
-    "Type": "J-Ruler",
+    "Card Number": "ABC-SD01-003|ABC-SD01-003J",
+    "name": "Lumia, the Fated Rebirth // Lumia, Saint of the Crimson Lotus",
+    "Type": "Ruler|J-Ruler",
     "Race": "Human",
     "Cost": "",
     "Colour": "W|R",
     "ATK": "1000",
     "DEF": "1000",
-    "Abilities": "[Swiftness]\nAs this card enters the field, remove a card named \"Nyarlathotep, the Crimson Radiance\" in your hand from the game.\nThis card gains [Drain] and [Imperishable] as long as a card named \"Nyarlathotep, the Crimson Radiance\" is in your removed area and was removed by this card.\nWhenever this card attacks ]]] Remove target resonator from the game, then put it into the field under its owner's control rested.",
+    "Abilities": "At the beginning of your end phase ]]] Remove target rested resonator you control from the game, then put it into the field under its owner's control.\n[Judgment] {W}{R}{1}|[Swiftness]\nAs this card enters the field, remove a card named \"Nyarlathotep, the Crimson Radiance\" in your hand from the game.\nThis card gains [Drain] and [Imperishable] as long as a card named \"Nyarlathotep, the Crimson Radiance\" is in your removed area and was removed by this card.\nWhenever this card attacks ]]] Remove target resonator from the game, then put it into the field under its owner's control rested.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "\"I never thought I'd borrow your power, but I'm counting on you, crimson girl!\"",
+    "Flavour": "Fate is a cycle. When the world fell into crisis again, the girl stood defiant once more.|\"I never thought I'd borrow your power, but I'm counting on you, crimson girl!\"",
     "Artist": "下江クリス",
     "Rarity": "R",
-    "Fowid": "352",
+    "Fowid": "351|352",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
-    "id": "0fc5e865-7d08-499e-8138-c6f5e3e7f3d3",
-    "image": "0fc5e865-7d08-499e-8138-c6f5e3e7f3d3.jpg"
+    "id": "11b6a6ab-3870-4213-9659-6a4aa3f33965",
+    "image": "11b6a6ab-3870-4213-9659-6a4aa3f33965.jpg",
+    "Card Type": "Ruler",
+    "backimage": "0fc5e865-7d08-499e-8138-c6f5e3e7f3d3.jpg",
+    "alternate1_Card Number": "ABC-SD01-003J",
+    "alternate1_name": "Lumia, Saint of the Crimson Lotus",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Swiftness]\nAs this card enters the field, remove a card named \"Nyarlathotep, the Crimson Radiance\" in your hand from the game.\nThis card gains [Drain] and [Imperishable] as long as a card named \"Nyarlathotep, the Crimson Radiance\" is in your removed area and was removed by this card.\nWhenever this card attacks ]]] Remove target resonator from the game, then put it into the field under its owner's control rested.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "\"I never thought I'd borrow your power, but I'm counting on you, crimson girl!\"",
+    "alternate1_Artist": "下江クリス",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "352",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "084 - Elektra vs The Lich King (Elektra)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "0fc5e865-7d08-499e-8138-c6f5e3e7f3d3",
+    "alternate1_image": "0fc5e865-7d08-499e-8138-c6f5e3e7f3d3.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD01-004",
@@ -173,7 +177,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "8fd67d92-b312-4593-a721-baeed2001909",
-    "image": "8fd67d92-b312-4593-a721-baeed2001909.jpg"
+    "image": "8fd67d92-b312-4593-a721-baeed2001909.jpg",
+    "Card Type": "Ruler"
   },
   {
     "Card Number": "ABC-SD01-005",
@@ -195,7 +200,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "db58cdf3-e1bf-408b-9a96-e6c95e6a1f72",
-    "image": "db58cdf3-e1bf-408b-9a96-e6c95e6a1f72.jpg"
+    "image": "db58cdf3-e1bf-408b-9a96-e6c95e6a1f72.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-006",
@@ -217,7 +223,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "a203c05c-66fa-4497-86b4-a0bde2776bbe",
-    "image": "a203c05c-66fa-4497-86b4-a0bde2776bbe.jpg"
+    "image": "a203c05c-66fa-4497-86b4-a0bde2776bbe.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-007",
@@ -239,7 +246,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "b968dba8-ee68-41a0-9fb3-564d3a737910",
-    "image": "b968dba8-ee68-41a0-9fb3-564d3a737910.jpg"
+    "image": "b968dba8-ee68-41a0-9fb3-564d3a737910.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-008",
@@ -261,7 +269,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "4aa8e644-ac66-48d2-b5a6-9bf5b6aaa098",
-    "image": "4aa8e644-ac66-48d2-b5a6-9bf5b6aaa098.jpg"
+    "image": "4aa8e644-ac66-48d2-b5a6-9bf5b6aaa098.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-009",
@@ -283,7 +292,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "6b5764b2-cc55-4916-b2d3-1c5c9119a477",
-    "image": "6b5764b2-cc55-4916-b2d3-1c5c9119a477.jpg"
+    "image": "6b5764b2-cc55-4916-b2d3-1c5c9119a477.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-010",
@@ -305,18 +315,19 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "15fc24e3-ef8a-41a2-a49b-d87030d2bde4",
-    "image": "15fc24e3-ef8a-41a2-a49b-d87030d2bde4.jpg"
+    "image": "15fc24e3-ef8a-41a2-a49b-d87030d2bde4.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ABC-SD01-011",
-    "name": "Arle, the Seven-Tailed Fox",
-    "Type": "Resonator",
+    "Card Number": "ABC-SD01-011|ABC-SD01-011*",
+    "name": "Arle, the Seven-Tailed Fox // Arle's Flame",
+    "Type": "Resonator|Chant",
     "Race": "Beast|Fox",
-    "Cost": "{R}{R}",
+    "Cost": "{R}{R}|{R}",
     "Colour": "R",
     "ATK": "600",
     "DEF": "800",
-    "Abilities": "Whenever damage is dealt to this card ]]] It deals that much damage to target player or J/resonator.\n{R}{R}{R}: Put this card from your graveyard into the field. Play this ability only if this card is in your graveyard.",
+    "Abilities": "Whenever damage is dealt to this card ]]] It deals that much damage to target player or J/resonator.\n{R}{R}{R}: Put this card from your graveyard into the field. Play this ability only if this card is in your graveyard.|[Quickcast]\nThis card deals 1400 damage divided as you choose to target resonator you control and target resonator your opponent controls. You must assign a minimum of 200 damage to each target.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "",
@@ -327,29 +338,30 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "dc137e28-2eaf-4090-991d-9bd86b121a86",
-    "image": "dc137e28-2eaf-4090-991d-9bd86b121a86.jpg"
-  },
-  {
-    "Card Number": "ABC-SD01-011*",
-    "name": "Arle's Flame",
-    "Type": "Chant",
-    "Race": "",
-    "Cost": "{R}",
-    "Colour": "R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "[Quickcast]\nThis card deals 1400 damage divided as you choose to target resonator you control and target resonator your opponent controls. You must assign a minimum of 200 damage to each target.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "",
-    "Artist": "",
-    "Rarity": "MR",
-    "Fowid": "None",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "084 - Elektra vs The Lich King (Elektra)",
-    "Set Code": "ABC",
-    "id": "79efb6ad-8065-417c-9c45-ce32ea489b58",
-    "image": "79efb6ad-8065-417c-9c45-ce32ea489b58.jpg"
+    "image": "dc137e28-2eaf-4090-991d-9bd86b121a86.jpg",
+    "Card Type": "Resonator",
+    "backimage": "79efb6ad-8065-417c-9c45-ce32ea489b58.jpg",
+    "alternate1_Card Number": "ABC-SD01-011*",
+    "alternate1_name": "Arle's Flame",
+    "alternate1_Type": "Chant",
+    "alternate1_Race": "",
+    "alternate1_Cost": "{R}",
+    "alternate1_Colour": "R",
+    "alternate1_ATK": "",
+    "alternate1_DEF": "",
+    "alternate1_Abilities": "[Quickcast]\nThis card deals 1400 damage divided as you choose to target resonator you control and target resonator your opponent controls. You must assign a minimum of 200 damage to each target.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "",
+    "alternate1_Artist": "",
+    "alternate1_Rarity": "MR",
+    "alternate1_Fowid": "None",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "084 - Elektra vs The Lich King (Elektra)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "79efb6ad-8065-417c-9c45-ce32ea489b58",
+    "alternate1_image": "79efb6ad-8065-417c-9c45-ce32ea489b58.jpg",
+    "alternate1_Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-012",
@@ -371,7 +383,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "c4d91829-f059-40cb-a18c-6344d22dfd4e",
-    "image": "c4d91829-f059-40cb-a18c-6344d22dfd4e.jpg"
+    "image": "c4d91829-f059-40cb-a18c-6344d22dfd4e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-013",
@@ -393,7 +406,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "f84c6fe6-3248-4cca-a458-3056575c9f89",
-    "image": "f84c6fe6-3248-4cca-a458-3056575c9f89.jpg"
+    "image": "f84c6fe6-3248-4cca-a458-3056575c9f89.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-014",
@@ -415,7 +429,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "ceaf0eff-290a-406d-b8a9-53720daed617",
-    "image": "ceaf0eff-290a-406d-b8a9-53720daed617.jpg"
+    "image": "ceaf0eff-290a-406d-b8a9-53720daed617.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD01-015",
@@ -437,7 +452,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "88f1556e-0569-4f3b-8a14-70be10da094d",
-    "image": "88f1556e-0569-4f3b-8a14-70be10da094d.jpg"
+    "image": "88f1556e-0569-4f3b-8a14-70be10da094d.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-016",
@@ -459,7 +475,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "50ce452d-42f5-436d-8e5e-bf4d5213e541",
-    "image": "50ce452d-42f5-436d-8e5e-bf4d5213e541.jpg"
+    "image": "50ce452d-42f5-436d-8e5e-bf4d5213e541.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-017",
@@ -481,7 +498,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "19f4e87f-6ea4-4f4d-9813-2375b5a5e063",
-    "image": "19f4e87f-6ea4-4f4d-9813-2375b5a5e063.jpg"
+    "image": "19f4e87f-6ea4-4f4d-9813-2375b5a5e063.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-018",
@@ -503,7 +521,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "df03dedf-d6ba-4915-b0b2-670bfb87a8c3",
-    "image": "df03dedf-d6ba-4915-b0b2-670bfb87a8c3.jpg"
+    "image": "df03dedf-d6ba-4915-b0b2-670bfb87a8c3.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-019",
@@ -525,7 +544,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "1cf3bca5-f1ab-4df4-9696-169ea4aaca4c",
-    "image": "1cf3bca5-f1ab-4df4-9696-169ea4aaca4c.jpg"
+    "image": "1cf3bca5-f1ab-4df4-9696-169ea4aaca4c.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-020",
@@ -547,51 +567,53 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "a325060a-f767-4789-a470-2fa102a98206",
-    "image": "a325060a-f767-4789-a470-2fa102a98206.jpg"
+    "image": "a325060a-f767-4789-a470-2fa102a98206.jpg",
+    "Card Type": "Chant"
   },
   {
-    "Card Number": "ABC-SD01-021",
-    "name": "Crimson Moon's Fairy Tale",
-    "Type": "Regalia",
-    "Race": "Contract|Crimson Moon|Fairy Tale",
+    "Card Number": "ABC-SD01-021|ABC-SD01-021J",
+    "name": "Crimson Moon's Fairy Tale // Grimm, Crown of the Crimson Moon",
+    "Type": "Regalia|J-Ruler",
+    "Race": "Contract|Crimson Moon|Fairy Tale|Crimson Moon|Fairy Tale|Human",
     "Cost": "{W}",
-    "Colour": "W",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "If you would discard a Fairy Tale resonator, you may discard this card instead.\nWhen this card is discarded ]]] If you control a J/ruler with \"Grimm\" or \"Book\" in its name, put this card from your graveyard into the field rested.\nWhenever you discard a card ]]] You gain 500 life.\n{Rest}, pay 1000 life: Produce {W}, {R}, {U}, {G} or {B}. Spend this will only to play Fairy Tale spells or Moon spells.\n{W}{R}: Contract this card with \"Grimm, the Fairy Tale Prince\". Play this ability only during main timing.",
+    "Colour": "W|W|R",
+    "ATK": "700",
+    "DEF": "1000",
+    "Abilities": "If you would discard a Fairy Tale resonator, you may discard this card instead.\nWhen this card is discarded ]]] If you control a J/ruler with \"Grimm\" or \"Book\" in its name, put this card from your graveyard into the field rested.\nWhenever you discard a card ]]] You gain 500 life.\n{Rest}, pay 1000 life: Produce {W}, {R}, {U}, {G} or {B}. Spend this will only to play Fairy Tale spells or Moon spells.\n{W}{R}: Contract this card with \"Grimm, the Fairy Tale Prince\". Play this ability only during main timing.|This card has \"Grimm, the Fairy Tale Prince\" in addition to its other names.\nYou may pay the attribute cost of Fairy Tale resonators with will of any attribute.\n[Enter] ]]] Put target Fairy Tale resonator with total cost 3 or less from your graveyard into the field.\n{0}, discard a Fairy Tale resonator: Search your deck for a Fairy Tale resonator, reveal it and put it into your hand, then shuffle your deck. Put two [+100/+100] counters on a Fairy Tale J/resonator. Play this ability only once per turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "Even after 1000 years the light of the Crimson Moon is still seen as a warning.",
-    "Artist": "jitari",
-    "Rarity": "MR",
-    "Fowid": "2125",
+    "Flavour": "Even after 1000 years the light of the Crimson Moon is still seen as a warning.|Great tales never fade.",
+    "Artist": "jitari|Haruichi Kido",
+    "Rarity": "MR|R",
+    "Fowid": "2125|2126",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "40fa8a9a-8563-4dd6-b478-924bf545322f",
-    "image": "40fa8a9a-8563-4dd6-b478-924bf545322f.jpg"
-  },
-  {
-    "Card Number": "ABC-SD01-021J",
-    "name": "Grimm, Crown of the Crimson Moon",
-    "Type": "J-Ruler",
-    "Race": "Crimson Moon|Fairy Tale|Human",
-    "Cost": "",
-    "Colour": "W|R",
-    "ATK": "700",
-    "DEF": "1000",
-    "Abilities": "This card has \"Grimm, the Fairy Tale Prince\" in addition to its other names.\nYou may pay the attribute cost of Fairy Tale resonators with will of any attribute.\n[Enter] ]]] Put target Fairy Tale resonator with total cost 3 or less from your graveyard into the field.\n{0}, discard a Fairy Tale resonator: Search your deck for a Fairy Tale resonator, reveal it and put it into your hand, then shuffle your deck. Put two [+100/+100] counters on a Fairy Tale J/resonator. Play this ability only once per turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "Great tales never fade.",
-    "Artist": "Haruichi Kido",
-    "Rarity": "R",
-    "Fowid": "2126",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "084 - Elektra vs The Lich King (Elektra)",
-    "Set Code": "ABC",
-    "id": "a9e1514c-3163-4950-b370-32a485975080",
-    "image": "a9e1514c-3163-4950-b370-32a485975080.jpg"
+    "image": "40fa8a9a-8563-4dd6-b478-924bf545322f.jpg",
+    "Card Type": "Regalia",
+    "backimage": "a9e1514c-3163-4950-b370-32a485975080.jpg",
+    "alternate1_Card Number": "ABC-SD01-021J",
+    "alternate1_name": "Grimm, Crown of the Crimson Moon",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Crimson Moon|Fairy Tale|Human",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|R",
+    "alternate1_ATK": "700",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "This card has \"Grimm, the Fairy Tale Prince\" in addition to its other names.\nYou may pay the attribute cost of Fairy Tale resonators with will of any attribute.\n[Enter] ]]] Put target Fairy Tale resonator with total cost 3 or less from your graveyard into the field.\n{0}, discard a Fairy Tale resonator: Search your deck for a Fairy Tale resonator, reveal it and put it into your hand, then shuffle your deck. Put two [+100/+100] counters on a Fairy Tale J/resonator. Play this ability only once per turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "Great tales never fade.",
+    "alternate1_Artist": "Haruichi Kido",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "2126",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "084 - Elektra vs The Lich King (Elektra)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "a9e1514c-3163-4950-b370-32a485975080",
+    "alternate1_image": "a9e1514c-3163-4950-b370-32a485975080.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD01-022",
@@ -613,51 +635,53 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "53d86b11-57b9-4a1c-8c5e-b30df37716e6",
-    "image": "53d86b11-57b9-4a1c-8c5e-b30df37716e6.jpg"
+    "image": "53d86b11-57b9-4a1c-8c5e-b30df37716e6.jpg",
+    "Card Type": "Resonator"
   },
   {
-    "Card Number": "ABC-SD01-023",
-    "name": "Decree of Absolution",
-    "Type": "Chant",
-    "Race": "Contract",
+    "Card Number": "ABC-SD01-023|ABC-SD01-023J",
+    "name": "Decree of Absolution // Messiah",
+    "Type": "Chant|J-Ruler",
+    "Race": "Contract|Angel",
     "Cost": "{W}{R}",
     "Colour": "W|R",
-    "ATK": "",
-    "DEF": "",
-    "Abilities": "Put two [400/400] light Human resonator tokens into the field. Draw a card. If a J/resonator you controlled and a J/resonator your opponent controlled were destroyed this turn, contract this card with \"Mika, Saint of the Solaris Order\".",
+    "ATK": "1000",
+    "DEF": "1000",
+    "Abilities": "Put two [400/400] light Human resonator tokens into the field. Draw a card. If a J/resonator you controlled and a J/resonator your opponent controlled were destroyed this turn, contract this card with \"Mika, Saint of the Solaris Order\".|[Precision]\n[Flying]\n[Enter] ]]] Target up to X J/resonators, where X is the number of magic stones you control. Rest those your opponent controls. Those you control gain [+200/+200] and [Swiftness] until end of turn.",
     "Divinity": "",
     "Willpower": "",
-    "Flavour": "A time for absolution.",
-    "Artist": "jugemt",
+    "Flavour": "A time for absolution.|The savior of the end.",
+    "Artist": "jugemt|J CREATION:Sadui",
     "Rarity": "R",
-    "Fowid": "1514",
+    "Fowid": "1514|1515",
     "Cluster": "12 - Arcana Battle Colosseum",
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "d07d29bc-8c1e-4509-9057-06d4dda9cdb3",
-    "image": "d07d29bc-8c1e-4509-9057-06d4dda9cdb3.jpg"
-  },
-  {
-    "Card Number": "ABC-SD01-023J",
-    "name": "Messiah",
-    "Type": "J-Ruler",
-    "Race": "Angel",
-    "Cost": "",
-    "Colour": "W|R",
-    "ATK": "1000",
-    "DEF": "1000",
-    "Abilities": "[Precision]\n[Flying]\n[Enter] ]]] Target up to X J/resonators, where X is the number of magic stones you control. Rest those your opponent controls. Those you control gain [+200/+200] and [Swiftness] until end of turn.",
-    "Divinity": "",
-    "Willpower": "",
-    "Flavour": "The savior of the end.",
-    "Artist": "J CREATION:Sadui",
-    "Rarity": "R",
-    "Fowid": "1515",
-    "Cluster": "12 - Arcana Battle Colosseum",
-    "Set Name": "084 - Elektra vs The Lich King (Elektra)",
-    "Set Code": "ABC",
-    "id": "6b6e96b0-4e1e-40fc-bf2e-6f3a2339c2fb",
-    "image": "6b6e96b0-4e1e-40fc-bf2e-6f3a2339c2fb.jpg"
+    "image": "d07d29bc-8c1e-4509-9057-06d4dda9cdb3.jpg",
+    "Card Type": "Chant",
+    "backimage": "6b6e96b0-4e1e-40fc-bf2e-6f3a2339c2fb.jpg",
+    "alternate1_Card Number": "ABC-SD01-023J",
+    "alternate1_name": "Messiah",
+    "alternate1_Type": "J-Ruler",
+    "alternate1_Race": "Angel",
+    "alternate1_Cost": "",
+    "alternate1_Colour": "W|R",
+    "alternate1_ATK": "1000",
+    "alternate1_DEF": "1000",
+    "alternate1_Abilities": "[Precision]\n[Flying]\n[Enter] ]]] Target up to X J/resonators, where X is the number of magic stones you control. Rest those your opponent controls. Those you control gain [+200/+200] and [Swiftness] until end of turn.",
+    "alternate1_Divinity": "",
+    "alternate1_Willpower": "",
+    "alternate1_Flavour": "The savior of the end.",
+    "alternate1_Artist": "J CREATION:Sadui",
+    "alternate1_Rarity": "R",
+    "alternate1_Fowid": "1515",
+    "alternate1_Cluster": "12 - Arcana Battle Colosseum",
+    "alternate1_Set Name": "084 - Elektra vs The Lich King (Elektra)",
+    "alternate1_Set Code": "ABC",
+    "alternate1_id": "6b6e96b0-4e1e-40fc-bf2e-6f3a2339c2fb",
+    "alternate1_image": "6b6e96b0-4e1e-40fc-bf2e-6f3a2339c2fb.jpg",
+    "alternate1_Card Type": "J-Ruler"
   },
   {
     "Card Number": "ABC-SD01-024",
@@ -679,7 +703,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "8437a2e2-ba02-44c4-a9f8-ee18582a12b0",
-    "image": "8437a2e2-ba02-44c4-a9f8-ee18582a12b0.jpg"
+    "image": "8437a2e2-ba02-44c4-a9f8-ee18582a12b0.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-025",
@@ -701,7 +726,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "eb8e62cf-6d61-4625-9ffa-1a2fab7f3607",
-    "image": "eb8e62cf-6d61-4625-9ffa-1a2fab7f3607.jpg"
+    "image": "eb8e62cf-6d61-4625-9ffa-1a2fab7f3607.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-026",
@@ -723,7 +749,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "1f954bd4-b0b4-4d49-b2ff-f3ddcdc9c79c",
-    "image": "1f954bd4-b0b4-4d49-b2ff-f3ddcdc9c79c.jpg"
+    "image": "1f954bd4-b0b4-4d49-b2ff-f3ddcdc9c79c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-027",
@@ -745,7 +772,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "4f8aa496-310b-43ab-a53d-72ade41ca438",
-    "image": "4f8aa496-310b-43ab-a53d-72ade41ca438.jpg"
+    "image": "4f8aa496-310b-43ab-a53d-72ade41ca438.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-028",
@@ -767,7 +795,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "14ff7f02-ea67-48be-9094-f8c0986fce70",
-    "image": "14ff7f02-ea67-48be-9094-f8c0986fce70.jpg"
+    "image": "14ff7f02-ea67-48be-9094-f8c0986fce70.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-029",
@@ -789,7 +818,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "2f813837-5c2c-4e42-a5e8-734fb83cb755",
-    "image": "2f813837-5c2c-4e42-a5e8-734fb83cb755.jpg"
+    "image": "2f813837-5c2c-4e42-a5e8-734fb83cb755.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-030",
@@ -811,7 +841,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "0e00fb50-ff2b-48c2-88b5-2906827c4628",
-    "image": "0e00fb50-ff2b-48c2-88b5-2906827c4628.jpg"
+    "image": "0e00fb50-ff2b-48c2-88b5-2906827c4628.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-031",
@@ -833,7 +864,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "f0ec9a19-140b-4f9d-a8a2-a0ed426cd071",
-    "image": "f0ec9a19-140b-4f9d-a8a2-a0ed426cd071.jpg"
+    "image": "f0ec9a19-140b-4f9d-a8a2-a0ed426cd071.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-032",
@@ -855,7 +887,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "46e8d4b6-0b0a-455b-bf0b-06c5cbc59257",
-    "image": "46e8d4b6-0b0a-455b-bf0b-06c5cbc59257.jpg"
+    "image": "46e8d4b6-0b0a-455b-bf0b-06c5cbc59257.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-033",
@@ -877,7 +910,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "05344415-b648-4d20-975d-c6c41bb57f41",
-    "image": "05344415-b648-4d20-975d-c6c41bb57f41.jpg"
+    "image": "05344415-b648-4d20-975d-c6c41bb57f41.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-034",
@@ -899,7 +933,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "062df2f2-6bd6-4a96-bb24-76c5ccc2cc57",
-    "image": "062df2f2-6bd6-4a96-bb24-76c5ccc2cc57.jpg"
+    "image": "062df2f2-6bd6-4a96-bb24-76c5ccc2cc57.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-035",
@@ -921,7 +956,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "5ebda27f-9014-4ed1-80d0-3e92381ae115",
-    "image": "5ebda27f-9014-4ed1-80d0-3e92381ae115.jpg"
+    "image": "5ebda27f-9014-4ed1-80d0-3e92381ae115.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-036",
@@ -943,7 +979,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "6507cbb0-0ac3-4ed0-adb2-9a9641cf14c5",
-    "image": "6507cbb0-0ac3-4ed0-adb2-9a9641cf14c5.jpg"
+    "image": "6507cbb0-0ac3-4ed0-adb2-9a9641cf14c5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-037",
@@ -965,7 +1002,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "8682ec24-e682-4427-be5f-ee5ed8fc2cc1",
-    "image": "8682ec24-e682-4427-be5f-ee5ed8fc2cc1.jpg"
+    "image": "8682ec24-e682-4427-be5f-ee5ed8fc2cc1.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-038",
@@ -987,7 +1025,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "2f59244d-7e2b-43ef-abe4-915566d03977",
-    "image": "2f59244d-7e2b-43ef-abe4-915566d03977.jpg"
+    "image": "2f59244d-7e2b-43ef-abe4-915566d03977.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-039",
@@ -1009,7 +1048,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "48a7aedf-5293-43d7-a910-73712e86886d",
-    "image": "48a7aedf-5293-43d7-a910-73712e86886d.jpg"
+    "image": "48a7aedf-5293-43d7-a910-73712e86886d.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-040",
@@ -1031,7 +1071,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "ff3aeb61-f12f-4558-b52d-f858b8d99805",
-    "image": "ff3aeb61-f12f-4558-b52d-f858b8d99805.jpg"
+    "image": "ff3aeb61-f12f-4558-b52d-f858b8d99805.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-041",
@@ -1053,7 +1094,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "99c0ccca-84f4-4d4c-8f04-c7bf339c6678",
-    "image": "99c0ccca-84f4-4d4c-8f04-c7bf339c6678.jpg"
+    "image": "99c0ccca-84f4-4d4c-8f04-c7bf339c6678.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-042",
@@ -1075,7 +1117,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "91a39428-0a9a-4a68-b029-f610616399cf",
-    "image": "91a39428-0a9a-4a68-b029-f610616399cf.jpg"
+    "image": "91a39428-0a9a-4a68-b029-f610616399cf.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-043",
@@ -1097,7 +1140,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "256aee3f-fe87-465e-8957-ca2bfe5eb7c9",
-    "image": "256aee3f-fe87-465e-8957-ca2bfe5eb7c9.jpg"
+    "image": "256aee3f-fe87-465e-8957-ca2bfe5eb7c9.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-044",
@@ -1119,7 +1163,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "8ea35a98-e2b3-4ede-9456-34bb2601b458",
-    "image": "8ea35a98-e2b3-4ede-9456-34bb2601b458.jpg"
+    "image": "8ea35a98-e2b3-4ede-9456-34bb2601b458.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD01-045",
@@ -1141,7 +1186,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "e6024aca-923a-421f-8b2d-2924cfc7a0cb",
-    "image": "e6024aca-923a-421f-8b2d-2924cfc7a0cb.jpg"
+    "image": "e6024aca-923a-421f-8b2d-2924cfc7a0cb.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD01-046",
@@ -1163,7 +1209,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "8b02bbd7-5f09-445d-b3ab-ad93edebf022",
-    "image": "8b02bbd7-5f09-445d-b3ab-ad93edebf022.jpg"
+    "image": "8b02bbd7-5f09-445d-b3ab-ad93edebf022.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-047",
@@ -1185,7 +1232,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "35d0b612-80bf-4e9c-a3b3-65e1462b9b0e",
-    "image": "35d0b612-80bf-4e9c-a3b3-65e1462b9b0e.jpg"
+    "image": "35d0b612-80bf-4e9c-a3b3-65e1462b9b0e.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-048",
@@ -1207,7 +1255,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "ab0ec99f-77a9-4dd7-8e9e-50b2f8984bd0",
-    "image": "ab0ec99f-77a9-4dd7-8e9e-50b2f8984bd0.jpg"
+    "image": "ab0ec99f-77a9-4dd7-8e9e-50b2f8984bd0.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-049",
@@ -1229,7 +1278,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "4915fe70-3d9f-4cd2-8bfb-8f544c6dc973",
-    "image": "4915fe70-3d9f-4cd2-8bfb-8f544c6dc973.jpg"
+    "image": "4915fe70-3d9f-4cd2-8bfb-8f544c6dc973.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-050",
@@ -1251,7 +1301,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "3405793a-23ea-42c2-9bb0-a2ba4ed27b4a",
-    "image": "3405793a-23ea-42c2-9bb0-a2ba4ed27b4a.jpg"
+    "image": "3405793a-23ea-42c2-9bb0-a2ba4ed27b4a.jpg",
+    "Card Type": "Addition"
   },
   {
     "Card Number": "ABC-SD01-051",
@@ -1273,7 +1324,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "dcafe829-dcf4-4d6e-a41a-a34a4bb328e8",
-    "image": "dcafe829-dcf4-4d6e-a41a-a34a4bb328e8.jpg"
+    "image": "dcafe829-dcf4-4d6e-a41a-a34a4bb328e8.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-052",
@@ -1295,7 +1347,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "02a8b8f8-dd69-4cab-aaa2-5e8b6fae4a54",
-    "image": "02a8b8f8-dd69-4cab-aaa2-5e8b6fae4a54.jpg"
+    "image": "02a8b8f8-dd69-4cab-aaa2-5e8b6fae4a54.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-053",
@@ -1317,7 +1370,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "d6c1016b-bde7-4306-81bc-2e8e6d7b0c52",
-    "image": "d6c1016b-bde7-4306-81bc-2e8e6d7b0c52.jpg"
+    "image": "d6c1016b-bde7-4306-81bc-2e8e6d7b0c52.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-054",
@@ -1339,7 +1393,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "99110e2b-3bc9-45c3-bb99-564afa6c31d5",
-    "image": "99110e2b-3bc9-45c3-bb99-564afa6c31d5.jpg"
+    "image": "99110e2b-3bc9-45c3-bb99-564afa6c31d5.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-055",
@@ -1361,7 +1416,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "3c786c09-f69f-4f94-b9e7-9a024754ac23",
-    "image": "3c786c09-f69f-4f94-b9e7-9a024754ac23.jpg"
+    "image": "3c786c09-f69f-4f94-b9e7-9a024754ac23.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-056",
@@ -1383,7 +1439,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "da1fd39e-8485-4802-800e-8e59d5ee2fb0",
-    "image": "da1fd39e-8485-4802-800e-8e59d5ee2fb0.jpg"
+    "image": "da1fd39e-8485-4802-800e-8e59d5ee2fb0.jpg",
+    "Card Type": "Chant"
   },
   {
     "Card Number": "ABC-SD01-057",
@@ -1405,7 +1462,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "efce56e8-92fd-4b4b-a146-6e40e749c9fd",
-    "image": "efce56e8-92fd-4b4b-a146-6e40e749c9fd.jpg"
+    "image": "efce56e8-92fd-4b4b-a146-6e40e749c9fd.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-058",
@@ -1427,7 +1485,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "c3ff786c-cd88-409e-8837-a5fb874df1d7",
-    "image": "c3ff786c-cd88-409e-8837-a5fb874df1d7.jpg"
+    "image": "c3ff786c-cd88-409e-8837-a5fb874df1d7.jpg",
+    "Card Type": "Regalia"
   },
   {
     "Card Number": "ABC-SD01-059",
@@ -1449,7 +1508,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "ed1a61d9-f98f-4cdc-b30d-ceced2c32a3c",
-    "image": "ed1a61d9-f98f-4cdc-b30d-ceced2c32a3c.jpg"
+    "image": "ed1a61d9-f98f-4cdc-b30d-ceced2c32a3c.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-060",
@@ -1471,7 +1531,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "97ca38ce-7bbf-4c0e-9b4b-64825b731932",
-    "image": "97ca38ce-7bbf-4c0e-9b4b-64825b731932.jpg"
+    "image": "97ca38ce-7bbf-4c0e-9b4b-64825b731932.jpg",
+    "Card Type": "Resonator"
   },
   {
     "Card Number": "ABC-SD01-061",
@@ -1493,7 +1554,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "3f6c812d-c3e3-41a4-ac54-9f848876db30",
-    "image": "3f6c812d-c3e3-41a4-ac54-9f848876db30.jpg"
+    "image": "3f6c812d-c3e3-41a4-ac54-9f848876db30.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD01-062",
@@ -1515,7 +1577,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "bc32e0e1-e3ef-4b8b-b9d9-ae494f2a7dc7",
-    "image": "bc32e0e1-e3ef-4b8b-b9d9-ae494f2a7dc7.jpg"
+    "image": "bc32e0e1-e3ef-4b8b-b9d9-ae494f2a7dc7.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD01-063",
@@ -1537,7 +1600,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "ac335bdc-3799-4dc7-97b4-d6954b407586",
-    "image": "ac335bdc-3799-4dc7-97b4-d6954b407586.jpg"
+    "image": "ac335bdc-3799-4dc7-97b4-d6954b407586.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD01-064",
@@ -1559,7 +1623,8 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "4c496f2e-5cd1-4891-97ab-85b98425468f",
-    "image": "4c496f2e-5cd1-4891-97ab-85b98425468f.jpg"
+    "image": "4c496f2e-5cd1-4891-97ab-85b98425468f.jpg",
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "ABC-SD01-065",
@@ -1581,6 +1646,7 @@
     "Set Name": "084 - Elektra vs The Lich King (Elektra)",
     "Set Code": "ABC",
     "id": "8266e092-aea5-4f9f-af6f-c61ece6c2333",
-    "image": "8266e092-aea5-4f9f-af6f-c61ece6c2333.jpg"
+    "image": "8266e092-aea5-4f9f-af6f-c61ece6c2333.jpg",
+    "Card Type": "Special Magic Stone"
   }
 ]
