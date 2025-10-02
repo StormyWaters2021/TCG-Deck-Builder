@@ -123,7 +123,7 @@
     "Colour": "W",
     "ATK": "",
     "DEF": "",
-    "Abilities": "Put up to one target [Addition: Field] and up to one target resonator from your graveyard into your field. Put up to one target magic stone from your graveyard into your magic stone area.",
+    "Abilities": "Put up to one target [Addition:Field] and up to one target resonator from your graveyard into your field. Put up to one target magic stone from your graveyard into your magic stone area.",
     "Divinity": "",
     "Willpower": "",
     "Flavour": "God said: \"Let there be light!\" Thus, there was light - the Old Testament Book of Genesis",
@@ -2412,7 +2412,7 @@
   {
     "Card Number": "MPR-101",
     "name": "Magic Stone of Darkness",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2430,12 +2430,12 @@
     "Set Code": "MPR",
     "id": "1d82cf5e-2841-4b4a-83c7-b86f9e57c4d9",
     "image": "1d82cf5e-2841-4b4a-83c7-b86f9e57c4d9.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "MPR-102",
     "name": "Magic Stone of Flame",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2453,12 +2453,12 @@
     "Set Code": "MPR",
     "id": "d318cb60-b0b5-49fe-9eea-e50bd897b328",
     "image": "d318cb60-b0b5-49fe-9eea-e50bd897b328.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "MPR-103",
     "name": "Magic Stone of Light",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2476,12 +2476,12 @@
     "Set Code": "MPR",
     "id": "e09c8b59-4311-4d03-a446-388fb9c6e82c",
     "image": "e09c8b59-4311-4d03-a446-388fb9c6e82c.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "MPR-104",
     "name": "Magic Stone of Water",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2499,12 +2499,12 @@
     "Set Code": "MPR",
     "id": "b78727ab-f5e6-4322-91e1-6aa3e88c4b36",
     "image": "b78727ab-f5e6-4322-91e1-6aa3e88c4b36.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "MPR-105",
     "name": "Magic Stone of Wind",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2522,6 +2522,6 @@
     "Set Code": "MPR",
     "id": "44a77fdd-ae1d-46a4-b6a7-8bbffb10f9c3",
     "image": "44a77fdd-ae1d-46a4-b6a7-8bbffb10f9c3.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

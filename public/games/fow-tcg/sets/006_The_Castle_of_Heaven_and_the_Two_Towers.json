@@ -2412,7 +2412,7 @@
   {
     "Card Number": "TAT-101",
     "name": "Magic Stone of Light",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2430,12 +2430,12 @@
     "Set Code": "TAT",
     "id": "b1db4540-13e1-4f27-ad3d-4a467b40908a",
     "image": "b1db4540-13e1-4f27-ad3d-4a467b40908a.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "TAT-102",
     "name": "Magic Stone of Flame",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2453,12 +2453,12 @@
     "Set Code": "TAT",
     "id": "42028381-ec17-4d11-ba8b-793d7feca422",
     "image": "42028381-ec17-4d11-ba8b-793d7feca422.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "TAT-103",
     "name": "Magic Stone of Water",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2476,12 +2476,12 @@
     "Set Code": "TAT",
     "id": "95030e39-9a4a-448b-b682-bfa62f5a8ab4",
     "image": "95030e39-9a4a-448b-b682-bfa62f5a8ab4.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "TAT-104",
     "name": "Magic Stone of Wind",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2499,12 +2499,12 @@
     "Set Code": "TAT",
     "id": "eaae8718-90db-4c10-8d4f-85e7d5b9d44d",
     "image": "eaae8718-90db-4c10-8d4f-85e7d5b9d44d.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "TAT-105",
     "name": "Magic Stone of Darkness",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2522,6 +2522,6 @@
     "Set Code": "TAT",
     "id": "4aa7cfee-f7af-4d21-a9bb-7e61fd10d8b7",
     "image": "4aa7cfee-f7af-4d21-a9bb-7e61fd10d8b7.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

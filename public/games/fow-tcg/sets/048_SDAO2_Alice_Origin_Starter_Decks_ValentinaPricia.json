@@ -805,7 +805,7 @@
   {
     "Card Number": "SDAO2-034",
     "name": "Magic Stone of Blasting Waves",
-    "Type": "Special Magic Stone|Fire Magic Stone|Wind Magic Stone",
+    "Type": "Special Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -823,12 +823,12 @@
     "Set Code": "SDAO2",
     "id": "03a8d586-5a24-453f-91a3-87b5b9845945",
     "image": "03a8d586-5a24-453f-91a3-87b5b9845945.jpg",
-    "Card Type": "Special Magic Stone|Fire Magic Stone|Wind Magic Stone"
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "SDAO2-035",
     "name": "Magic Stone of Dark Depth",
-    "Type": "Special Magic Stone|Water Magic Stone|Darkness Magic Stone",
+    "Type": "Special Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -846,12 +846,12 @@
     "Set Code": "SDAO2",
     "id": "f5433922-c08e-45d8-87e0-41b589019871",
     "image": "f5433922-c08e-45d8-87e0-41b589019871.jpg",
-    "Card Type": "Special Magic Stone|Water Magic Stone|Darkness Magic Stone"
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "SDAO2-036",
     "name": "Water Magic Stone",
-    "Type": "Basic Magic Stone|Water Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -869,12 +869,12 @@
     "Set Code": "SDAO2",
     "id": "2f7fb247-fc7e-4753-9a79-7521f157167f",
     "image": "2f7fb247-fc7e-4753-9a79-7521f157167f.jpg",
-    "Card Type": "Basic Magic Stone|Water Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "SDAO2-037",
     "name": "Wind Magic Stone",
-    "Type": "Basic Magic Stone|Wind Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -892,6 +892,6 @@
     "Set Code": "SDAO2",
     "id": "ac7fe1b9-b332-4dde-8374-6f3a0148726b",
     "image": "ac7fe1b9-b332-4dde-8374-6f3a0148726b.jpg",
-    "Card Type": "Basic Magic Stone|Wind Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

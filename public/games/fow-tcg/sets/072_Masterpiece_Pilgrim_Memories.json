@@ -4229,7 +4229,7 @@
   {
     "Card Number": "MP01-158",
     "name": "Godly Aura",
-    "Type": "Chant/Rune",
+    "Type": "Chant|Rune",
     "Race": "",
     "Cost": "{R}",
     "Colour": "R",
@@ -4665,7 +4665,7 @@
   {
     "Card Number": "MP01-176",
     "name": "Light Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -4683,12 +4683,12 @@
     "Set Code": "MP01",
     "id": "46399a1f-3737-4c60-9dd0-80a21782618e",
     "image": "46399a1f-3737-4c60-9dd0-80a21782618e.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "MP01-177",
     "name": "Fire Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -4706,12 +4706,12 @@
     "Set Code": "MP01",
     "id": "d605c87c-42c7-4827-a52c-cec9bf2e307a",
     "image": "d605c87c-42c7-4827-a52c-cec9bf2e307a.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "MP01-178",
     "name": "Water Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -4729,12 +4729,12 @@
     "Set Code": "MP01",
     "id": "ee863a00-0fec-45e1-99a8-8bb1c5579068",
     "image": "ee863a00-0fec-45e1-99a8-8bb1c5579068.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "MP01-179",
     "name": "Wind Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -4752,12 +4752,12 @@
     "Set Code": "MP01",
     "id": "f4ab61f3-71d9-48a6-a305-d57b20f0485b",
     "image": "f4ab61f3-71d9-48a6-a305-d57b20f0485b.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "MP01-180",
     "name": "Darkness Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -4775,7 +4775,7 @@
     "Set Code": "MP01",
     "id": "594ba192-1f4f-49ba-92af-d477cca32c10",
     "image": "594ba192-1f4f-49ba-92af-d477cca32c10.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "MP01-ACV",

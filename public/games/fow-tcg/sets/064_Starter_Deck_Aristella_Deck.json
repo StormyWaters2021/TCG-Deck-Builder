@@ -300,7 +300,7 @@
   {
     "Card Number": "HSD-025",
     "name": "Light Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -318,12 +318,12 @@
     "Set Code": "HSD",
     "id": "400ec5f6-4eb3-4a73-ad2d-28f36884bdc9",
     "image": "400ec5f6-4eb3-4a73-ad2d-28f36884bdc9.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "HSD-026",
     "name": "Water Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -341,6 +341,6 @@
     "Set Code": "HSD",
     "id": "91e69b90-6ec5-466b-9664-a682699f9cc1",
     "image": "91e69b90-6ec5-466b-9664-a682699f9cc1.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

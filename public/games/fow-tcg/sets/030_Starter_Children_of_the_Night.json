@@ -300,7 +300,7 @@
   {
     "Card Number": "SDR5-013",
     "name": "Darkness Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -318,6 +318,6 @@
     "Set Code": "SDR5",
     "id": "14fb6dbb-b72d-440f-84a7-19ad2b4ecc76",
     "image": "14fb6dbb-b72d-440f-84a7-19ad2b4ecc76.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

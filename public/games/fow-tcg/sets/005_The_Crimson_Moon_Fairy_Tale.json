@@ -2500,7 +2500,7 @@
   {
     "Card Number": "CMF-101",
     "name": "Magic Stone of Darkness",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2518,12 +2518,12 @@
     "Set Code": "CMF",
     "id": "8ccf9aa2-f258-4bb2-b67a-3735c5700782",
     "image": "8ccf9aa2-f258-4bb2-b67a-3735c5700782.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "CMF-102",
     "name": "Magic Stone of Flame",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2541,12 +2541,12 @@
     "Set Code": "CMF",
     "id": "a43c31fe-d096-4d46-9ab2-77edb702c2c5",
     "image": "a43c31fe-d096-4d46-9ab2-77edb702c2c5.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "CMF-103",
     "name": "Magic Stone of Light",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2564,12 +2564,12 @@
     "Set Code": "CMF",
     "id": "00b92adc-ccc9-4d8a-bc79-6501fa476256",
     "image": "00b92adc-ccc9-4d8a-bc79-6501fa476256.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "CMF-104",
     "name": "Magic Stone of Water",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2587,12 +2587,12 @@
     "Set Code": "CMF",
     "id": "7ee3c99d-bec6-46f8-b685-e2ec5162edb5",
     "image": "7ee3c99d-bec6-46f8-b685-e2ec5162edb5.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "CMF-105",
     "name": "Magic Stone of Wind",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2610,6 +2610,6 @@
     "Set Code": "CMF",
     "id": "39e68dab-26aa-4e45-8f0b-64767e2a00fa",
     "image": "39e68dab-26aa-4e45-8f0b-64767e2a00fa.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

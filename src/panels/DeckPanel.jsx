@@ -173,7 +173,7 @@ function groupDeckByOctgn(
 // --- OCTGN grouping logic END ---
 
 // DeckStatsBanner & DeckStats as previously written — unchanged
-function DeckStatsBanner({ deck, cards, statsConfig }) {
+function DeckStatsBanner({ deck, cards, statsConfig, settings }) {
   const processedDeck = {};
   Object.entries(deck).forEach(([cardId, entry]) => {
     const card = cards.find(c => c.id === cardId);
@@ -264,7 +264,23 @@ function DeckStatsBanner({ deck, cards, statsConfig }) {
   const stats = [];
   for (const item of statsConfig) {
     if (item.type === "totalCount") {
-      const totalCards = deckList.reduce((sum, { qty }) => sum + qty, 0);
+      const minMaxExclude = settings?.deckValidation?.minMaxExclude;
+      const totalCards = deckList.reduce((sum, { card, qty }) => {
+        // No section context in the banner; property-based rules still apply.
+        const excluded =
+          Array.isArray(minMaxExclude) &&
+          minMaxExclude.some(rule => {
+            if (rule?.property && Object.prototype.hasOwnProperty.call(card || {}, rule.property)) {
+              return card[rule.property] === rule.value;
+            }
+            if (rule?.properties && typeof rule.properties === "object") {
+              return Object.entries(rule.properties).every(([k, v]) => (card && card[k] === v));
+            }
+            return false;
+          });
+        return excluded ? sum : sum + qty;
+      }, 0);
+
       stats.push(
         <span key="totalCount" className="deck-stat">
           {item.label || "Total"}: <b>{totalCards}</b>
@@ -382,7 +398,12 @@ function DeckStats({ deck, cards, settings }) {
   }, [settings.gameName, statsConfig]);
   if (!statsConfig) return null;
   return (
-    <DeckStatsBanner deck={deck} cards={cards} statsConfig={statsConfig} />
+    <DeckStatsBanner
+      deck={deck}
+      cards={cards}
+      statsConfig={statsConfig}
+      settings={settings}
+    />
   );
 }
 
@@ -553,11 +574,42 @@ function DeckPanel({
   });
 
   const minMaxExclude = settings.deckValidation?.minMaxExclude;
+  // Fallback wrapper: try the shared util first; if it returns false,
+  // evaluate simple property/group rules locally so we always match.
+  const excludedByDeckRules = (card, section) => {
+    try {
+      if (typeof matchesExclude === "function" && matchesExclude(card, minMaxExclude, section)) return true;
+    } catch (e) { /* noop */ }
+    if (!minMaxExclude || !Array.isArray(minMaxExclude)) return false;
+    return minMaxExclude.some(rule => {
+      if (!rule) return false;
+      // Group/section rule
+      if (rule.group && section && section === rule.group) return true;
+      // Single property rule
+      if (rule.property && Object.prototype.hasOwnProperty.call(card || {}, rule.property)) {
+        return card[rule.property] === rule.value;
+      }
+      // Multi-property AND rule
+      if (rule.properties && typeof rule.properties === "object") {
+        return Object.entries(rule.properties).every(([k, v]) => (card && card[k] === v));
+      }
+      return false;
+    });
+  };
   const errors = [];
   const totalCards =
     groupBy === "OCTGN"
-      ? Object.values(grouped).flat().reduce((sum, { qty }) => sum + qty, 0)
-      : Object.values(deck).reduce((sum, e) => sum + (e.count || 0), 0);
+      ? Object.entries(grouped).reduce((sum, [sectionName, arr]) => {
+          const sectionTotal = arr.reduce((s, { card, qty }) => {
+            return excludedByDeckRules(card, sectionName) ? s : s + qty;
+          }, 0);
+          return sum + sectionTotal;
+        }, 0)
+      : Object.entries(deck).reduce((sum, [cardId, e]) => {
+          const card = cards.find(c => c.id === cardId);
+          if (!card) return sum;
+          return excludedByDeckRules(card, undefined) ? sum : sum + (e.count || 0);
+        }, 0);
 
   if (totalCards < settings.deckValidation.minCards)
     errors.push("Not enough cards in deck!");
@@ -566,7 +618,9 @@ function DeckPanel({
 
   for (const name in processedDeckByName) {
     const { qty, card } = processedDeckByName[name];
-    if (qty > settings.deckValidation.maxCopiesPerCard) {
+    // If globally excluded, skip from copy-limit enforcement too
+    if (excludedByDeckRules(card, undefined)) continue;
+   if (qty > settings.deckValidation.maxCopiesPerCard) {
       errors.push(
         `Too many copies of ${name} (max ${settings.deckValidation.maxCopiesPerCard})`
       );
@@ -581,12 +635,16 @@ function DeckPanel({
     let matchesCard;
     if (rule.properties && typeof rule.properties === "object") {
       matchesCard = (card) =>
-        Object.entries(rule.properties).every(
-          ([prop, val]) => card && card[prop] === val
-        );
+        Object.entries(rule.properties).every(([prop, val]) => {
+          const cv = card && card[prop];
+          return Array.isArray(val) ? val.includes(cv) : cv === val;
+        });
     } else if (rule.property) {
-      matchesCard = (card) =>
-        card && card[rule.property] === rule.value;
+      matchesCard = (card) => {
+        const cv = card && card[rule.property];
+        const val = rule.value;
+        return Array.isArray(val) ? val.includes(cv) : cv === val;
+      };
     } else {
       continue;
     }

@@ -3145,7 +3145,7 @@
   {
     "Card Number": "3-131",
     "name": "Magic Stone of Light",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -3163,12 +3163,12 @@
     "Set Code": "3",
     "id": "7462dc42-149d-45e1-be3d-72ee978150a5",
     "image": "7462dc42-149d-45e1-be3d-72ee978150a5.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "3-132",
     "name": "Magic Stone of Flame",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -3186,12 +3186,12 @@
     "Set Code": "3",
     "id": "ec8c2243-ebb3-4474-85b7-147fac7b49d4",
     "image": "ec8c2243-ebb3-4474-85b7-147fac7b49d4.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "3-133",
     "name": "Magic Stone of Water",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -3209,12 +3209,12 @@
     "Set Code": "3",
     "id": "b29a2afa-f330-4f17-b53d-02f77b6102d5",
     "image": "b29a2afa-f330-4f17-b53d-02f77b6102d5.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "3-134",
     "name": "Magic Stone of Wind",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -3232,12 +3232,12 @@
     "Set Code": "3",
     "id": "35234edf-8a6b-475f-8e14-d850a3850557",
     "image": "35234edf-8a6b-475f-8e14-d850a3850557.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "3-135",
     "name": "Magic Stone of Darkness",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -3255,7 +3255,7 @@
     "Set Code": "3",
     "id": "5758bd5b-e839-405d-8058-2296be800ddd",
     "image": "5758bd5b-e839-405d-8058-2296be800ddd.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "3-105",

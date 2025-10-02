@@ -552,7 +552,7 @@
   {
     "Card Number": "SDV3-023",
     "name": "Water Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -570,6 +570,6 @@
     "Set Code": "SDV3",
     "id": "31d37fc4-e91d-4b2d-a3bc-c36d6093127b",
     "image": "31d37fc4-e91d-4b2d-a3bc-c36d6093127b.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

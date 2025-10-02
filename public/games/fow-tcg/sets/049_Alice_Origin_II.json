@@ -1451,7 +1451,7 @@
   {
     "Card Number": "AO2-064",
     "name": "Magic Stone of Deep Wood",
-    "Type": "Special Magic Stone|Water Magic Stone|Wind Magic Stone",
+    "Type": "Special Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -1469,6 +1469,6 @@
     "Set Code": "AO2",
     "id": "cb285726-4e96-4822-899c-d9f4715bbaa0",
     "image": "cb285726-4e96-4822-899c-d9f4715bbaa0.jpg",
-    "Card Type": "Special Magic Stone|Water Magic Stone|Wind Magic Stone"
+    "Card Type": "Special Magic Stone"
   }
 ]

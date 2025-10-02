@@ -2527,7 +2527,7 @@
   {
     "Card Number": "TTW-106",
     "name": "Darkness Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2545,12 +2545,12 @@
     "Set Code": "TTW",
     "id": "2a22b442-bb42-4349-95fe-245b695e0c72",
     "image": "2a22b442-bb42-4349-95fe-245b695e0c72.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "TTW-107",
     "name": "Fire Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2568,12 +2568,12 @@
     "Set Code": "TTW",
     "id": "ac13ec63-eb91-491c-a82d-8a30bd24ae9f",
     "image": "ac13ec63-eb91-491c-a82d-8a30bd24ae9f.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "TTW-108",
     "name": "Light Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2591,12 +2591,12 @@
     "Set Code": "TTW",
     "id": "c462cfaf-0b04-4933-bb89-e5f866da2cc3",
     "image": "c462cfaf-0b04-4933-bb89-e5f866da2cc3.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "TTW-109",
     "name": "Water Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2614,12 +2614,12 @@
     "Set Code": "TTW",
     "id": "38e3cf56-68ac-41ed-9ff1-36a5e51376f8",
     "image": "38e3cf56-68ac-41ed-9ff1-36a5e51376f8.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "TTW-110",
     "name": "Wind Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2637,7 +2637,7 @@
     "Set Code": "TTW",
     "id": "207f196c-3778-450e-9fac-fc6fe0b8ac19",
     "image": "207f196c-3778-450e-9fac-fc6fe0b8ac19.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "TTW-111|TTW-111J",

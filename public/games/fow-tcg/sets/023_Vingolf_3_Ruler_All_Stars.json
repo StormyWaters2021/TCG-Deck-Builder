@@ -94,7 +94,7 @@
   {
     "Card Number": "VIN003-005",
     "name": "Gloria's Castle Town",
-    "Type": "Addition|Addition: Field",
+    "Type": "Addition|Addition:Field",
     "Race": "Castle",
     "Cost": "{W}{1}",
     "Colour": "W",
@@ -112,7 +112,7 @@
     "Set Code": "VIN003",
     "id": "d82b774e-9161-4fab-94a7-04a60dc55074",
     "image": "d82b774e-9161-4fab-94a7-04a60dc55074.jpg",
-    "Card Type": "Addition|Addition: Field"
+    "Card Type": "Addition|Addition:Field"
   },
   {
     "Card Number": "VIN003-006",
@@ -507,7 +507,7 @@
   {
     "Card Number": "VIN003-022",
     "name": "Certo, the Blazing Volcano",
-    "Type": "Addition|Addition: Field",
+    "Type": "Addition|Addition:Field",
     "Race": "Mountain",
     "Cost": "{R}{1}",
     "Colour": "R",
@@ -525,7 +525,7 @@
     "Set Code": "VIN003",
     "id": "b5b5549f-1e13-411a-a82f-2b07e53a9230",
     "image": "b5b5549f-1e13-411a-a82f-2b07e53a9230.jpg",
-    "Card Type": "Addition|Addition: Field"
+    "Card Type": "Addition|Addition:Field"
   },
   {
     "Card Number": "VIN003-023",
@@ -1447,7 +1447,7 @@
   {
     "Card Number": "VIN003-060",
     "name": "Wind-Secluded Refuge",
-    "Type": "Addition|Addition: Field",
+    "Type": "Addition|Addition:Field",
     "Race": "",
     "Cost": "{G}{1}",
     "Colour": "G",
@@ -1465,7 +1465,7 @@
     "Set Code": "VIN003",
     "id": "61289e60-8b9f-4009-a680-7d6ff219ffd8",
     "image": "61289e60-8b9f-4009-a680-7d6ff219ffd8.jpg",
-    "Card Type": "Addition|Addition: Field"
+    "Card Type": "Addition|Addition:Field"
   },
   {
     "Card Number": "VIN003-061",
@@ -2297,7 +2297,7 @@
   {
     "Card Number": "VIN003-096",
     "name": "Darkness Magic Stone",
-    "Type": "Basic Magic Stone|Darkness Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2315,12 +2315,12 @@
     "Set Code": "VIN003",
     "id": "b28732b5-8057-4447-a345-e01fcd2e2cae",
     "image": "b28732b5-8057-4447-a345-e01fcd2e2cae.jpg",
-    "Card Type": "Basic Magic Stone|Darkness Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "VIN003-097",
     "name": "Fire Magic Stone",
-    "Type": "Basic Magic Stone|Fire Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2338,12 +2338,12 @@
     "Set Code": "VIN003",
     "id": "e0b013ba-2dae-4023-aeaa-53ee31560bec",
     "image": "e0b013ba-2dae-4023-aeaa-53ee31560bec.jpg",
-    "Card Type": "Basic Magic Stone|Fire Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "VIN003-098",
     "name": "Light Magic Stone",
-    "Type": "Basic Magic Stone|Light Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2361,12 +2361,12 @@
     "Set Code": "VIN003",
     "id": "b673153d-12ab-4157-a41f-16beb38022d8",
     "image": "b673153d-12ab-4157-a41f-16beb38022d8.jpg",
-    "Card Type": "Basic Magic Stone|Light Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "VIN003-099",
     "name": "Water Magic Stone",
-    "Type": "Basic Magic Stone|Water Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2384,12 +2384,12 @@
     "Set Code": "VIN003",
     "id": "cb43c65d-a250-4598-9f1a-e71326ee8db8",
     "image": "cb43c65d-a250-4598-9f1a-e71326ee8db8.jpg",
-    "Card Type": "Basic Magic Stone|Water Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "VIN003-100",
     "name": "Wind Magic Stone",
-    "Type": "Basic Magic Stone|Wind Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2407,6 +2407,6 @@
     "Set Code": "VIN003",
     "id": "ee26ae6c-c389-41fe-85f1-017eb67c322b",
     "image": "ee26ae6c-c389-41fe-85f1-017eb67c322b.jpg",
-    "Card Type": "Basic Magic Stone|Wind Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

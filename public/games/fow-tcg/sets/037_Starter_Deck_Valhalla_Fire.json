@@ -552,7 +552,7 @@
   {
     "Card Number": "SDV2-023",
     "name": "Fire Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -570,6 +570,6 @@
     "Set Code": "SDV2",
     "id": "8383a4fd-ce5a-471b-91e1-059826fbac65",
     "image": "8383a4fd-ce5a-471b-91e1-059826fbac65.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

@@ -300,7 +300,7 @@
   {
     "Card Number": "SDR4-013",
     "name": "Wind Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -318,6 +318,6 @@
     "Set Code": "SDR4",
     "id": "318542a5-cc90-4719-bc76-8c0a9711399f",
     "image": "318542a5-cc90-4719-bc76-8c0a9711399f.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

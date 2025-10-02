@@ -1,0 +1,24 @@
+[
+  {
+    "type": "totalCount",
+    "label": "Total Cards in Deck"
+  },
+  {
+    "type": "countContains",
+    "prop": "Card Type",
+    "contains": "Resonator",
+    "label": "Resonators"
+  },
+  {
+    "type": "countContains",
+    "prop": "Card Type",
+    "contains": "Chant",
+    "label": "Chants"
+  },
+  {
+    "type": "countContains",
+    "prop": "Card Type",
+    "contains": "Magic Stone",
+    "label": "Magic Stones"
+  }
+]

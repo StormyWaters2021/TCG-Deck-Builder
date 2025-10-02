@@ -277,7 +277,7 @@
   {
     "Card Number": "SDL1-012",
     "name": "Light Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -295,6 +295,6 @@
     "Set Code": "SDL1",
     "id": "23c44aa7-0445-480e-9b27-218b84f77e76",
     "image": "23c44aa7-0445-480e-9b27-218b84f77e76.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

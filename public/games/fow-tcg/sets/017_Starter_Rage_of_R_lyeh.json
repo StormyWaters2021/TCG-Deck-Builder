@@ -277,7 +277,7 @@
   {
     "Card Number": "SDL2-012",
     "name": "Fire Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -295,6 +295,6 @@
     "Set Code": "SDL2",
     "id": "85a98aae-c43c-48a8-8bb2-89820d8c581b",
     "image": "85a98aae-c43c-48a8-8bb2-89820d8c581b.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

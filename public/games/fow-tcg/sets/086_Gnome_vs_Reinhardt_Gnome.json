@@ -387,7 +387,7 @@
   {
     "Card Number": "ABC-SD03-011",
     "name": "Blade of Faith",
-    "Type": "Chant/Master Rune",
+    "Type": "Chant|Master Rune",
     "Race": "",
     "Cost": "{W}{3}",
     "Colour": "W",

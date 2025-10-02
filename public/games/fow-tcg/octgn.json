@@ -1,0 +1,45 @@
+{
+  "gameGuid": "1cde38e5-34ce-47ae-aca3-29eb93113fd3",
+  "sections": [
+    {
+      "name": "Ruler",
+      "shared": false,
+      "criteria": {
+        "Card Type": [
+          "Ruler"
+        ]
+      }
+    },
+	{
+      "name": "Main Deck",
+      "shared": false,
+      "criteria": {
+        "Type": []
+      }
+    },
+	{
+      "name": "Magic Stone Deck",
+      "shared": false,
+      "criteria": {
+        "Card Type": [
+          "Magic Stone",
+		  "Basic Magic Stone",
+		  "Special Magic Stone",
+		  "True Magic Stone",
+		  "Special Magic Stone|True Magic Stone"
+        ]
+      }
+    },
+	{
+      "name": "Extra Deck",
+      "shared": false,
+      "criteria": {}
+    },
+	{
+      "name": "Side Deck",
+      "shared": false,
+      "criteria": {}
+    }
+  ],
+  "defaultSection": "Main Deck"
+}

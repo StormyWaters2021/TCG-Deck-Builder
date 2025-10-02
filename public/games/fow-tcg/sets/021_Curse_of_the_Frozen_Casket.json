@@ -2319,7 +2319,7 @@
   {
     "Card Number": "CFC-096",
     "name": "Darkness Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2337,12 +2337,12 @@
     "Set Code": "CFC",
     "id": "4e294596-f5bd-4a66-82bc-89f41a2a7255",
     "image": "4e294596-f5bd-4a66-82bc-89f41a2a7255.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "CFC-097",
     "name": "Fire Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2360,12 +2360,12 @@
     "Set Code": "CFC",
     "id": "adcf26b9-d58d-40b9-a62b-f5161f39d677",
     "image": "adcf26b9-d58d-40b9-a62b-f5161f39d677.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "CFC-098",
     "name": "Light Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2383,12 +2383,12 @@
     "Set Code": "CFC",
     "id": "70747f21-8b6d-44b8-8872-b4f16546e361",
     "image": "70747f21-8b6d-44b8-8872-b4f16546e361.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "CFC-099",
     "name": "Water Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2406,12 +2406,12 @@
     "Set Code": "CFC",
     "id": "dcb24ffe-182d-4b9e-9577-52c9829c6fc3",
     "image": "dcb24ffe-182d-4b9e-9577-52c9829c6fc3.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "CFC-100",
     "name": "Wind Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2429,6 +2429,6 @@
     "Set Code": "CFC",
     "id": "352a0184-e7d2-48c0-b059-f5233a516b19",
     "image": "352a0184-e7d2-48c0-b059-f5233a516b19.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

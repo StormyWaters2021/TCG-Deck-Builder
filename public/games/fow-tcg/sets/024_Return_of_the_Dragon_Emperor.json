@@ -2434,7 +2434,7 @@
   {
     "Card Number": "RDE-101",
     "name": "Darkness Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2452,12 +2452,12 @@
     "Set Code": "RDE",
     "id": "4290d61b-76a8-45c4-961a-9277394baa01",
     "image": "4290d61b-76a8-45c4-961a-9277394baa01.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "RDE-102",
     "name": "Fire Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2475,12 +2475,12 @@
     "Set Code": "RDE",
     "id": "6949979e-9b4b-4edc-857d-b7d9473152ca",
     "image": "6949979e-9b4b-4edc-857d-b7d9473152ca.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "RDE-103",
     "name": "Light Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2498,12 +2498,12 @@
     "Set Code": "RDE",
     "id": "8b934012-9650-459b-bc4a-9f058808a3f9",
     "image": "8b934012-9650-459b-bc4a-9f058808a3f9.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "RDE-104",
     "name": "Water Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2521,12 +2521,12 @@
     "Set Code": "RDE",
     "id": "0916bcb9-3a04-4b6c-bf53-5993d6ae73e3",
     "image": "0916bcb9-3a04-4b6c-bf53-5993d6ae73e3.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "RDE-105",
     "name": "Wind Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2544,6 +2544,6 @@
     "Set Code": "RDE",
     "id": "a40baa75-002d-4754-94aa-0552ce85e9c4",
     "image": "a40baa75-002d-4754-94aa-0552ce85e9c4.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

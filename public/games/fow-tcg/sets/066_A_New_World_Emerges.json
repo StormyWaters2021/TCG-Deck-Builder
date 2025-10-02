@@ -2594,7 +2594,7 @@
   {
     "Card Number": "NWE-107",
     "name": "Light Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2612,12 +2612,12 @@
     "Set Code": "NWE",
     "id": "bd1c7353-6350-4a83-815d-1e3881146843",
     "image": "bd1c7353-6350-4a83-815d-1e3881146843.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "NWE-108",
     "name": "Fire Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2635,12 +2635,12 @@
     "Set Code": "NWE",
     "id": "c0166894-bcea-4705-ac2f-55a5b6ff28e0",
     "image": "c0166894-bcea-4705-ac2f-55a5b6ff28e0.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "NWE-109",
     "name": "Water Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2658,12 +2658,12 @@
     "Set Code": "NWE",
     "id": "d280fbf2-9da4-4ec1-bc46-c166c5352b14",
     "image": "d280fbf2-9da4-4ec1-bc46-c166c5352b14.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "NWE-110",
     "name": "Wind Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2681,12 +2681,12 @@
     "Set Code": "NWE",
     "id": "9f088c82-3115-480b-a6c0-2cd0dc9cdf8b",
     "image": "9f088c82-3115-480b-a6c0-2cd0dc9cdf8b.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "NWE-111",
     "name": "Darkness Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2704,7 +2704,7 @@
     "Set Code": "NWE",
     "id": "4ac482db-ca48-465b-b105-b228e80122ab",
     "image": "4ac482db-ca48-465b-b105-b228e80122ab.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "NWE-SEC1|NWE-SEC1J",

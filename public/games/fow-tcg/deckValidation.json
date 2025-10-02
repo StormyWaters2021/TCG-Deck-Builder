@@ -1,5 +1,38 @@
 {
   "minCards": 40,
-  "maxCards": 999
-
+  "maxCards": 60,
+  "maxCopiesPerCard": 4,
+  
+  "minMaxExclude": [
+    { "property": "Card Type", "value": "Ruler" },
+    { "property": "Type", "value": "Basic Magic Stone" },
+	{ "group": "Magic Stone Deck" }
+  ],
+				
+  "banList": [],
+  "propertyLimits": [
+    {
+      "property": "Card Type",
+      "value": "Ruler",
+      "min": 1,
+      "max": 3,
+      "showPropertyNameInError": true,
+      "errorMessage": "Must have between {min} and {max} rulers."
+    },
+	{
+	  "property": "Card Type",
+	  "value": ["Basic Magic Stone", "Special Magic Stone", "True Magic Stone", "Special Magic Stone|True Magic Stone"],
+	  "min": 10,
+	  "max": 20,
+	  "showPropertyNameInError": false,
+      "errorMessage": "Must have between {min} and {max} magic stones."
+	},
+	{
+      "property": "Card Type",
+      "value": "Extension Rule",
+      "min": 0,
+      "max": 1,
+      "showPropertyNameInError": true,
+      "errorMessage": "Limit {max} Extension Rule."
+    }]
 }

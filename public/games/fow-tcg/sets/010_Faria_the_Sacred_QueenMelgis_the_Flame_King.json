@@ -782,7 +782,7 @@
   {
     "Card Number": "VS01-033",
     "name": "Fire Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -800,12 +800,12 @@
     "Set Code": "VS01",
     "id": "a00a6bab-b5a3-4cdb-91e8-37ea3d9c7ffd",
     "image": "a00a6bab-b5a3-4cdb-91e8-37ea3d9c7ffd.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "VS01-034",
     "name": "Light Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -823,6 +823,6 @@
     "Set Code": "VS01",
     "id": "73acc36d-2772-487f-b07b-0133132a0eda",
     "image": "73acc36d-2772-487f-b07b-0133132a0eda.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

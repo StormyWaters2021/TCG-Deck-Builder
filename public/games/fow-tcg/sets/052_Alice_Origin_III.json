@@ -2049,7 +2049,7 @@
   {
     "Card Number": "AO3-090",
     "name": "Magic Stone of Black Silence",
-    "Type": "Special Magic Stone|Wind Magic Stone|Darkness Magic Stone",
+    "Type": "Special Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2067,12 +2067,12 @@
     "Set Code": "AO3",
     "id": "5f16426a-4f00-4746-b787-c5f259f7ff8a",
     "image": "5f16426a-4f00-4746-b787-c5f259f7ff8a.jpg",
-    "Card Type": "Special Magic Stone|Wind Magic Stone|Darkness Magic Stone"
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "AO3-091",
     "name": "Magic Stone of Gusting Skies",
-    "Type": "Special Magic Stone|Light Magic Stone|Wind Magic Stone",
+    "Type": "Special Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2090,12 +2090,12 @@
     "Set Code": "AO3",
     "id": "1564b570-5a76-4657-88e7-3bd0c99cad58",
     "image": "1564b570-5a76-4657-88e7-3bd0c99cad58.jpg",
-    "Card Type": "Special Magic Stone|Light Magic Stone|Wind Magic Stone"
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "AO3-092",
     "name": "Magic Stone of Hearth's Core",
-    "Type": "Special Magic Stone|Fire Magic Stone|Water Magic Stone",
+    "Type": "Special Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2113,7 +2113,7 @@
     "Set Code": "AO3",
     "id": "bf4e8fb5-bbf8-4d19-beef-4dd8f3ebaea5",
     "image": "bf4e8fb5-bbf8-4d19-beef-4dd8f3ebaea5.jpg",
-    "Card Type": "Special Magic Stone|Fire Magic Stone|Water Magic Stone"
+    "Card Type": "Special Magic Stone"
   },
   {
     "Card Number": "AO3 Buy a Box-1|AO3 Buy a Box-1J",

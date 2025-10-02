@@ -2522,7 +2522,7 @@
   {
     "Card Number": "SKL-101",
     "name": "Darkness Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2540,12 +2540,12 @@
     "Set Code": "SKL",
     "id": "ce5153a7-48c2-45a2-a293-ff9b9f4caead",
     "image": "ce5153a7-48c2-45a2-a293-ff9b9f4caead.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "SKL-102",
     "name": "Fire Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2563,12 +2563,12 @@
     "Set Code": "SKL",
     "id": "546de4f5-7ce5-47c7-b730-753197b28300",
     "image": "546de4f5-7ce5-47c7-b730-753197b28300.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "SKL-103",
     "name": "Light Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2586,12 +2586,12 @@
     "Set Code": "SKL",
     "id": "7f73656c-6b5d-4857-9803-ec9a1d31689b",
     "image": "7f73656c-6b5d-4857-9803-ec9a1d31689b.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "SKL-104",
     "name": "Water Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2609,12 +2609,12 @@
     "Set Code": "SKL",
     "id": "dd701a30-fd4f-4e65-8950-0764db3f6e29",
     "image": "dd701a30-fd4f-4e65-8950-0764db3f6e29.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "SKL-105",
     "name": "Wind Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -2632,7 +2632,7 @@
     "Set Code": "SKL",
     "id": "489c6818-df14-41cc-85c7-080630a26892",
     "image": "489c6818-df14-41cc-85c7-080630a26892.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "SKL-106|SKL-106J",

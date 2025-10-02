@@ -300,7 +300,7 @@
   {
     "Card Number": "SDR1-013",
     "name": "Light Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -318,6 +318,6 @@
     "Set Code": "SDR1",
     "id": "41c080ab-1a76-44d0-b638-7e2a77236fe4",
     "image": "41c080ab-1a76-44d0-b638-7e2a77236fe4.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

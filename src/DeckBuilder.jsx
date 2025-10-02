@@ -60,11 +60,10 @@ function DeckBuilder({
 }) {
   const [selectedCard, setSelectedCard] = useState(null);
 
-  // ADD THIS LINE HERE:
-  const [octgnSections, octgnDefaultSection] = useOctgnSections(
-    settings?.gameName,
-    groupBy === "OCTGN"
-  );
+ const [octgnSections, octgnDefaultSection] = useOctgnSections(
+   settings?.gameName,
+   true
+ );
 
 const addCard = (cardId, qty = 1, groupName) => {
   setDeck(prev => {

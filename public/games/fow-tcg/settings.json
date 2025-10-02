@@ -5,9 +5,14 @@
   "octgnExport": false,
   
   "groupOptions": [
-    "Type"
+    "OCTGN",
+    "Card Type"
   ],
+  
   "groupOrder": [
+    "Ruler",
+    "Resonator",
+    "Other"
   ],
   
   "filterOptions": [
@@ -26,7 +31,7 @@
 	"wp": "Willpower"
   },
   "cardPreview": {
-    "properties": ["Type", "Race", "Cost" ],
+    "properties": ["Type", "Race", "Cost", "Card Type" ],
     "hideEmpty": true
   }
 }

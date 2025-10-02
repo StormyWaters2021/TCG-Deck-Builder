@@ -3633,7 +3633,7 @@
   {
     "Card Number": "ACN-156",
     "name": "Darkness Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -3651,12 +3651,12 @@
     "Set Code": "ACN",
     "id": "3f2aa921-9e57-4c97-b4e4-fa88ed65e308",
     "image": "3f2aa921-9e57-4c97-b4e4-fa88ed65e308.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "ACN-157",
     "name": "Fire Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -3674,12 +3674,12 @@
     "Set Code": "ACN",
     "id": "f64de42e-6e9b-4906-a8f4-c707fd0b69eb",
     "image": "f64de42e-6e9b-4906-a8f4-c707fd0b69eb.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "ACN-158",
     "name": "Light Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -3697,12 +3697,12 @@
     "Set Code": "ACN",
     "id": "3186eaaa-ef6c-4fac-be75-eb0c8f2c951d",
     "image": "3186eaaa-ef6c-4fac-be75-eb0c8f2c951d.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "ACN-159",
     "name": "Water Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -3720,12 +3720,12 @@
     "Set Code": "ACN",
     "id": "ba8b3af7-3054-4545-a892-3c9d5a36ecc0",
     "image": "ba8b3af7-3054-4545-a892-3c9d5a36ecc0.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "ACN-160",
     "name": "Wind Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -3743,7 +3743,7 @@
     "Set Code": "ACN",
     "id": "de052bf4-ffdc-4f18-9f2c-b250a32cb66a",
     "image": "de052bf4-ffdc-4f18-9f2c-b250a32cb66a.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   },
   {
     "Card Number": "ACN-161|ACN-161J",

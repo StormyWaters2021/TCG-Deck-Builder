@@ -552,7 +552,7 @@
   {
     "Card Number": "SDV1-023",
     "name": "Light Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -570,6 +570,6 @@
     "Set Code": "SDV1",
     "id": "2f859681-9cf9-4e0f-9c9b-13fb644dc593",
     "image": "2f859681-9cf9-4e0f-9c9b-13fb644dc593.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

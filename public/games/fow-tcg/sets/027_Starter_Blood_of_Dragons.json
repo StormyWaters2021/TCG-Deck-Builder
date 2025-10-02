@@ -300,7 +300,7 @@
   {
     "Card Number": "SDR2-013",
     "name": "Fire Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -318,6 +318,6 @@
     "Set Code": "SDR2",
     "id": "e91bcf1d-f670-4fa9-9948-52dad015b254",
     "image": "e91bcf1d-f670-4fa9-9948-52dad015b254.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]

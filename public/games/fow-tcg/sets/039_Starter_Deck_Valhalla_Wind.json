@@ -552,7 +552,7 @@
   {
     "Card Number": "SDV4-023",
     "name": "Wind Magic Stone",
-    "Type": "Magic Stone",
+    "Type": "Basic Magic Stone",
     "Race": "",
     "Cost": "",
     "Colour": "V",
@@ -570,6 +570,6 @@
     "Set Code": "SDV4",
     "id": "0d2c298f-f489-42fb-af02-9728928320d2",
     "image": "0d2c298f-f489-42fb-af02-9728928320d2.jpg",
-    "Card Type": "Magic Stone"
+    "Card Type": "Basic Magic Stone"
   }
 ]
