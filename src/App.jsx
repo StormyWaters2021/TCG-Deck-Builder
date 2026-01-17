@@ -334,7 +334,7 @@ function App() {
     type="button"
     title={isLightMode ? "Switch to dark mode" : "Switch to light mode"}
   >
-    {isLightMode ? "☀️" : "🌙"}
+    {isLightMode ? "🌙" : "☀️"}
   </button>
 </div>
 
