@@ -1,6 +1,8 @@
 import "./styles.css";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import DeckBuilder from "./DeckBuilder";
+import MobileDeckBuilder from "./mobile/MobileDeckBuilder";
+import { useLayoutMode } from "./mobile/layoutMode";
 import { loadCardsForGame } from "./utils/cardsLoader";
 
 function sortCardsByNameThenSubtitle(cards) {
@@ -96,6 +98,9 @@ function getDefaultGroupBy(settings) {
 }
 
 function App() {
+  const headerRef = useRef(null);
+  const { isMobileLayout, toggleLayout, hasUserOverride } = useLayoutMode();
+
   const [games, setGames] = useState([]);
   const [selectedGame, setSelectedGame] = useState("");
   const [gameData, setGameData] = useState({ settings: null, cards: [] });
@@ -122,6 +127,30 @@ function App() {
     }
     localStorage.setItem("lightMode", isLightMode);
   }, [isLightMode]);
+
+  // Expose header height as a CSS variable so mobile sticky elements can offset correctly.
+  useEffect(() => {
+    const el = headerRef.current;
+    if (!el) return;
+
+    const setVar = () => {
+      const h = Math.round(el.getBoundingClientRect().height || 0);
+      document.documentElement.style.setProperty("--app-header-height", `${h}px`);
+    };
+
+    setVar();
+    let ro;
+    if (typeof ResizeObserver !== "undefined") {
+      ro = new ResizeObserver(() => setVar());
+      ro.observe(el);
+    } else {
+      window.addEventListener("resize", setVar);
+    }
+    return () => {
+      if (ro) ro.disconnect();
+      else window.removeEventListener("resize", setVar);
+    };
+  }, []);
 
   // Load games manifest once
   useEffect(() => {
@@ -222,57 +251,95 @@ function App() {
   return (
     <div className="app-container">
       <header
-        className="app-header"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          padding: "1rem",
-          position: "relative",
-        }}
-      >
-        {/* Left side: Back button or empty */}
-        <div style={{ width: 120 }}>
-          {selectedGame && (
-            <button className="back-button" onClick={handleBackToSelect}>
-              Back
-            </button>
-          )}
-        </div>
+  className="app-header"
+  ref={headerRef}
+  style={{
+    position: "relative",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center", // center the title
+    padding: "1rem",
+  }}
+>
+  {/* Left side: Back button (pinned to left) */}
+  <div style={{ position: "absolute", left: "1rem" }}>
+    {selectedGame && (
+      <button className="back-button" onClick={handleBackToSelect}>
+        Back
+      </button>
+    )}
+  </div>
 
-        {/* Center: Title */}
-        <h1
-          style={{
-            margin: 0,
-            position: "absolute",
-            left: "50%",
-            transform: "translateX(-50%)",
-            whiteSpace: "nowrap",
-          }}
-        >
-          TCGBuilder.net
-        </h1>
+  {/* Center: Title (no absolute positioning now) */}
+  <h1
+    style={{
+      margin: 0,
+      whiteSpace: "nowrap",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+      // optional mobile tweak if you want it a bit smaller:
+      fontSize: isMobileLayout ? "1.4rem" : undefined,
+      maxWidth: isMobileLayout ? "60%" : undefined,
+    }}
+  >
+    TCGBuilder.net
+  </h1>
 
-        {/* Right side: Light/dark toggle */}
-        <div style={{ width: 120, textAlign: "right" }}>
-          <button
-            onClick={() => setIsLightMode((prev) => !prev)}
-            aria-label={isLightMode ? "Switch to dark mode" : "Switch to light mode"}
-            style={{
-              cursor: "pointer",
-              background: "transparent",
-              border: "none",
-              fontSize: "1.5rem",
-              color: "inherit",
-              userSelect: "none",
-            }}
-            type="button"
-            title={isLightMode ? "Switch to dark mode" : "Switch to light mode"}
-          >
-            {isLightMode ? "☀️" : "🌙"}
-          </button>
-        </div>
-      </header>
+  {/* Right side: toggles (pinned to right, close together) */}
+  <div
+  style={{
+    position: "absolute",
+    right: "1rem",
+    display: "flex",
+    alignItems: "center",
+    gap: 2, // tighter space between the two icons
+  }}
+>
+  <button
+    onClick={toggleLayout}
+    aria-label={
+      isMobileLayout ? "Switch to desktop layout" : "Switch to mobile layout"
+    }
+    style={{
+      cursor: "pointer",
+      background: "transparent",
+      border: "none",
+      fontSize: "1.35rem",
+      color: "inherit",
+      userSelect: "none",
+      opacity: hasUserOverride ? 1 : 0.85,
+      padding: 0,   // <— remove default padding
+      margin: 0,    // <— remove any margin
+    }}
+    type="button"
+    title={
+      isMobileLayout ? "Switch to desktop layout" : "Switch to mobile layout"
+    }
+  >
+    {isMobileLayout ? "🖥️" : "📱"}
+  </button>
+  <button
+    onClick={() => setIsLightMode((prev) => !prev)}
+    aria-label={isLightMode ? "Switch to dark mode" : "Switch to light mode"}
+    style={{
+      cursor: "pointer",
+      background: "transparent",
+      border: "none",
+      fontSize: "1.5rem",
+      color: "inherit",
+      userSelect: "none",
+      padding: 0,   // <— remove default padding
+      margin: 0,    // <— remove any margin
+    }}
+    type="button"
+    title={isLightMode ? "Switch to dark mode" : "Switch to light mode"}
+  >
+    {isLightMode ? "☀️" : "🌙"}
+  </button>
+</div>
+
+</header>
+
 
       {!selectedGame && (
         <div className="game-grid">
@@ -299,19 +366,34 @@ function App() {
  )}
 
       {selectedGame && gameData.settings && gameData.cards.length > 0 && (
-        <DeckBuilder
-          game={selectedGame}
-          settings={gameData.settings}
-          cards={gameData.cards}
-          deck={deck}
-          setDeck={setDeck}
-          setGame={setSelectedGame}
-          // --- Pass groupBy and octgnOverrides and their setters ---
-          groupBy={groupBy}
-          setGroupBy={setGroupBy}
-          octgnOverrides={octgnOverrides}
-          setOctgnOverrides={setOctgnOverrides}
-        />
+        isMobileLayout ? (
+          <MobileDeckBuilder
+            game={selectedGame}
+            settings={gameData.settings}
+            cards={gameData.cards}
+            deck={deck}
+            setDeck={setDeck}
+            setGame={setSelectedGame}
+            groupBy={groupBy}
+            setGroupBy={setGroupBy}
+            octgnOverrides={octgnOverrides}
+            setOctgnOverrides={setOctgnOverrides}
+          />
+        ) : (
+          <DeckBuilder
+            game={selectedGame}
+            settings={gameData.settings}
+            cards={gameData.cards}
+            deck={deck}
+            setDeck={setDeck}
+            setGame={setSelectedGame}
+            // --- Pass groupBy and octgnOverrides and their setters ---
+            groupBy={groupBy}
+            setGroupBy={setGroupBy}
+            octgnOverrides={octgnOverrides}
+            setOctgnOverrides={setOctgnOverrides}
+          />
+        )
       )}
     </div>
   );

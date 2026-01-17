@@ -1,0 +1,195 @@
+/*
+  Mobile-only layout styles.
+  These are ONLY loaded by the mobile components.
+  Desktop layout remains completely untouched.
+*/
+
+body.mobile-scroll-lock {
+  overflow: hidden;
+}
+
+:root {
+  --mobile-preview-h: 20dvh; /* preview band height */
+  --mobile-nav-h: 56px;      /* bottom bar height (not counting safe-area) */
+}
+
+.mobile-shell {
+  min-height: 100vh;
+}
+
+/* ----- Top preview: FIXED (locked) ----- */
+.mobile-sticky-preview {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: var(--app-header-height, 0px);
+  height: var(--mobile-preview-h);
+  z-index: 200;
+  background: var(--dropdown-bg);
+  border-bottom: 1px solid var(--dropdown-border);
+  overflow: hidden;
+}
+
+/* Center the wrapper in the preview bar */
+.mobile-sticky-preview-inner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* THIS is the single shared anchor:
+   - It is centered in the preview bar by the parent flex.
+   - It shrinks to the image size.
+   - The flip button is positioned relative to THIS box. */
+.mobile-preview-image-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: fit-content; /* shrink-wrap */
+  height: fit-content;
+
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Image tap area doesn't change sizing */
+.mobile-preview-image-button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Card image: capped so it never feels gigantic */
+.mobile-preview-image {
+  display: block;
+  max-height: 18dvh;  /* cap image height */
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Flip overlay: centered against the SAME wrapper as the image */
+.mobile-preview-flip-overlay {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 4px 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 999px;
+
+  background: var(--main-button-bg);
+  color: var(--main-button-color);
+  border: 1px solid var(--main-button-border);
+
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  transition: filter 0.15s;
+}
+
+.mobile-preview-flip-overlay:hover {
+  filter: brightness(1.12);
+}
+
+/* Fullscreen overlay */
+.mobile-preview-fullscreen-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border: none;
+  margin: 0;
+}
+
+.mobile-preview-fullscreen-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.mobile-preview-empty {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: #999;
+  background: var(--dropdown-bg);
+}
+
+/* ----- Middle content: ONLY scrolling region ----- */
+.mobile-content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: calc(var(--app-header-height, 0px) + var(--mobile-preview-h));
+  bottom: calc(var(--mobile-nav-h) + env(safe-area-inset-bottom, 0px));
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.mobile-view {
+}
+
+/* ----- Bottom nav: FIXED ----- */
+.mobile-bottom-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--mobile-nav-h);
+  z-index: 250;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: var(--dropdown-bg);
+  border-top: 1px solid var(--dropdown-border);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  box-sizing: content-box;
+}
+
+.mobile-nav-btn {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  color: inherit;
+  border: none;
+  padding: 12px 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.mobile-nav-btn.active {
+  background: var(--dropdown-hover-bg);
+  color: var(--dropdown-hover-color);
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .deck-controls-grid {
+    gap: 0.5em;
+  }
+}
