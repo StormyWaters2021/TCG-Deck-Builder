@@ -69,6 +69,23 @@
     "tr": "Traits",
     "e": "Endurance"
   },  
+  "print": {
+  "cardWidthMm": 63,
+  "cardHeightMm": 88,
+  "bleedMm": 0,
+
+  "horizontalGapMm": 2,
+  "verticalGapMm": 2,
+
+  "sideMarginMm": 10,
+  "topMarginMm": 5,
+  "bottomMarginMm": 5,
+
+  "cardsPerRow": 3,
+  "cardsPerColumn": 3,
+
+  "paperSize": "Letter"
+	}, 
   "octgnExport": true,
   "showImagePackExport": true,
   "compactExportCols": 5,

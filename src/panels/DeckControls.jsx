@@ -12,6 +12,8 @@ import {
   cardNameWithSubtitle,
   groupDeck,
 } from "../utils/deckExportHelpers";
+import { exportDeckPDF } from "../utils/deckPrintPDF";
+
 
 const WORKER_API = "https://tcgbuilder.net/api";
 
@@ -40,6 +42,7 @@ function DeckControls({
   const [currentGroupBy, setCurrentGroupBy] = useState(groupBy || (settings.groupOptions && settings.groupOptions[0]) || "Type");
   const [imagePackProgress, setImagePackProgress] = useState(null); // null = idle, otherwise {current, total}
   const cancelExport = useRef(false);
+  const [generatingPDF, setGeneratingPDF] = useState(false);
 
   useEffect(() => {
     if (groupBy) setCurrentGroupBy(groupBy);
@@ -274,6 +277,13 @@ function DeckControls({
       await exportDeckImage(flatDeck, cards, settings, deckName, game);
     } else if (format === "ImageCompact") {
       await exportDeckImageCompact(flatDeck, cards, settings, deckName, game);
+	} else if (format === "PDF") {
+      setGeneratingPDF(true);
+      try {
+        await exportDeckPDF(deck, cards, settings, deckName, game);
+      } finally {
+        setGeneratingPDF(false);
+      }
     } else if (format === "OCTGN") {
       await exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, currentGroupBy);
     } else if (format === "LINK") {
@@ -520,13 +530,25 @@ function DeckControls({
               >
                 Image Stack
               </button>
-              <button
+				<button
                 className={
                   dropdownHover === 4
                     ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
                     : dropdownButtonClass
                 }
                 onMouseEnter={() => setDropdownHover(4)}
+                onMouseLeave={() => setDropdownHover(null)}
+                onClick={() => exportDeck("PDF")}
+              >
+                Proxy PDF
+              </button>
+				<button
+                className={
+                  dropdownHover === 5
+                    ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
+                    : dropdownButtonClass
+                }
+                onMouseEnter={() => setDropdownHover(5)}
                 onMouseLeave={() => setDropdownHover(null)}
                 onClick={() => exportDeck("LINK")}
               >
@@ -535,11 +557,11 @@ function DeckControls({
               {settings.octgnExport && (
                 <button
                   className={
-                    dropdownHover === 5
+                    dropdownHover === 6
                       ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
                       : dropdownButtonClass
                   }
-                  onMouseEnter={() => setDropdownHover(5)}
+                  onMouseEnter={() => setDropdownHover(6)}
                   onMouseLeave={() => setDropdownHover(null)}
                   onClick={() => exportDeck("OCTGN")}
                 >
@@ -548,9 +570,15 @@ function DeckControls({
               )}
             </div>
           )}
-          {linkMessage && (
+			{linkMessage && (
             <div className={linkMessageClass}>
               {linkMessage}
+            </div>
+          )}
+
+          {generatingPDF && (
+            <div className={linkMessageClass}>
+              PDF Generating, Please Wait...
             </div>
           )}
         </div>
