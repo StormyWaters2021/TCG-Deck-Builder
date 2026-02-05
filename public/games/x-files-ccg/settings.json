@@ -35,6 +35,23 @@
   "sub": "Subterfuge",
   "t": "Text"
   },
+  "print": {
+	  "cardWidthMm": 63.5,
+	  "cardHeightMm": 89,
+	  "bleedMm": 0,
+
+	  "horizontalGapMm": 2,
+	  "verticalGapMm": 1,
+
+	  "sideMarginMm": 10,
+	  "topMarginMm": 4,
+	  "bottomMarginMm": 4,
+
+	  "cardsPerRow": 3,
+	  "cardsPerColumn": 3,
+
+	  "paperSize": "Letter"
+	},
   "octgnExport": true,
   "showImagePackExport": true
 }
