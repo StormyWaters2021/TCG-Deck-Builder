@@ -210,6 +210,21 @@
     "games/trails-tcg/sets/Set_2.json",
     "games/trails-tcg/sets/Set_3.json"
   ],
+  "warhammer-conquest": [
+    "games/warhammer-conquest/sets/1cd039f9-7db1-495d-b791-d7f5112d5c76.json",
+    "games/warhammer-conquest/sets/2c69a8d3-39e4-4f92-b9fb-61a6fa61ea9a.json",
+    "games/warhammer-conquest/sets/35c6df08-5a89-47bb-b8f3-624bcd8d9d43.json",
+    "games/warhammer-conquest/sets/3c69a8d3-39e4-4f92-b9fb-61a6fa61ea9a.json",
+    "games/warhammer-conquest/sets/44ea9faa-2319-11e9-ab14-d663bd873d93.json",
+    "games/warhammer-conquest/sets/8a92e0bc-0c4d-484d-9177-42cd9ebba406.json",
+    "games/warhammer-conquest/sets/9a38f053-1b57-46f5-8578-39e4d1bb45d9.json",
+    "games/warhammer-conquest/sets/af362a3a-4f60-4050-801e-0a7bb8dd58bf.json",
+    "games/warhammer-conquest/sets/bea5e6ce-520b-47ff-b81a-f2ef98cf26ba.json",
+    "games/warhammer-conquest/sets/c7a2d98e-984b-4340-8071-77a70b316ee1.json",
+    "games/warhammer-conquest/sets/e4eba0a1-6f6e-4d07-bd57-290a160fe6d9.json",
+    "games/warhammer-conquest/sets/ef1c72d6-cef7-11e7-abc4-cec278b6b50a.json",
+    "games/warhammer-conquest/sets/ffc8bea9-c162-43df-a73f-91e29fa519bb.json"
+  ],
   "wwe-raw-deal": [
     "games/wwe-raw-deal/sets/01_Premiere.json",
     "games/wwe-raw-deal/sets/02_Fully_Loaded.json",

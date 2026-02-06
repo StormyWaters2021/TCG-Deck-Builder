@@ -1,0 +1,49 @@
+{
+  "gameName": "warhammer-conquest",
+  "game_id": "af04f855-58c4-4db3-a191-45fe33381679",
+  "addNValue": 3,
+  "groupOptions": [
+	"OCTGN",
+    "Type"
+  ],
+  "filterOptions": [
+    "Set",
+	"Faction",
+	"Type",
+	"Cost",
+	"Attack",
+    "Health",
+	"Command",
+    "Shield",
+    "Loyalty",
+    "Squad",
+    "Unique"
+  ],
+  "filterDelimiter": ".",
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {
+	  "t": "Text",
+	  "k": "Keywords",
+	  "t": "Traits"
+  },
+  "print": {
+	  "cardWidthMm": 63,
+	  "cardHeightMm": 88,
+	  "bleedMm": 0,
+
+	  "horizontalGapMm": 2,
+	  "verticalGapMm": 1,
+
+	  "sideMarginMm": 10,
+	  "topMarginMm": 4,
+	  "bottomMarginMm": 4,
+
+	  "cardsPerRow": 3,
+	  "cardsPerColumn": 3,
+
+	  "paperSize": "Letter"
+	},
+  "showImagePackExport": true,
+  "octgnExport": true
+}

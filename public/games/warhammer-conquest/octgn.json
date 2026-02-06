@@ -1,0 +1,61 @@
+{
+    "gameGuid": "af04f855-58c4-4db3-a191-45fe33381679",
+    "sections": [
+        {
+            "name": "Warlord",
+            "shared": false,
+            "criteria": {
+                "Type": [
+                    "Warlord"
+                ]
+            }
+        },
+        {
+            "name": "Synapse",
+            "shared": false,
+            "criteria": {
+                "Type": [
+                    "Synapse"
+                ]
+            }
+        },
+		{
+            "name": "Armies",
+            "shared": false,
+            "criteria": {
+                "Type": [
+                    "Army"
+                ]
+            }
+        },
+		{
+            "name": "Attachments",
+            "shared": false,
+            "criteria": {
+                "Type": [
+                    "Attachment"
+                ]
+            }
+        },
+		{
+            "name": "Events",
+            "shared": false,
+            "criteria": {
+                "Type": [
+                    "Event"
+                ]
+            }
+        },
+		{
+            "name": "Supports",
+            "shared": false,
+            "criteria": {
+                "Type": [
+                    "Support"
+                ]
+            }
+        }
+    ],
+    "defaultSection": "Army",
+    "panelIgnoreSections": []
+}
