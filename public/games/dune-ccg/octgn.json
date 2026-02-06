@@ -1,0 +1,20 @@
+{
+  "gameGuid": "c196d3b0-bb5e-4d08-b49b-20dbce40443f",
+  "sections": [
+    {
+      "name": "House Deck",
+      "shared": false,
+      "criteria": {
+        "Type": []
+      }
+    },
+	{
+      "name": "Imperial Deck",
+      "shared": false,
+      "criteria": {
+        "Type": []
+      }
+    }
+	],
+  "defaultSection": "Imperial Deck"
+}

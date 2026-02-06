@@ -1,0 +1,47 @@
+{
+  "gameName": "dune-ccg",
+  "game_id": "c196d3b0-bb5e-4d08-b49b-20dbce40443f",
+  "addNValue": 4,
+  "groupOptions": [
+    "Type"
+  ],
+  "filterOptions": [
+    "Set",
+	"Allegiance",
+    "Arbitration",
+    "Battle",
+    "Command",
+    "Deployment Cost",
+    "Dueling",
+    "Intrigue",
+    "Prescience",
+    "Resistance",
+    "Talent Requirement",
+    "Weirding"
+  ],
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {
+	  "o": "Operation",
+	  "s": "Subtype"
+  },
+  "print": {
+	  "cardWidthMm": 63.5,
+	  "cardHeightMm": 88.9,
+	  "bleedMm": 0,
+
+	  "horizontalGapMm": 2,
+	  "verticalGapMm": 1,
+
+	  "sideMarginMm": 10,
+	  "topMarginMm": 4,
+	  "bottomMarginMm": 4,
+
+	  "cardsPerRow": 3,
+	  "cardsPerColumn": 3,
+
+	  "paperSize": "Letter"
+	},  
+  "octgnExport": true,
+  "showImagePackExport": true
+}

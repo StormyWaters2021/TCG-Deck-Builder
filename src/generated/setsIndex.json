@@ -65,6 +65,11 @@
     "games/dbz-score/sets/21_-_NZ7_Tuffest_in_the_World.json",
     "games/dbz-score/sets/22_-_NZ8_Grand_Adventure.json"
   ],
+  "dune-ccg": [
+    "games/dune-ccg/sets/2037f0a1-773d-42a9-a498-d0cf54e7a000.json",
+    "games/dune-ccg/sets/63581dd8-7dc7-4982-b2aa-ac2da7471ef3.json",
+    "games/dune-ccg/sets/d50be1de-b03c-42eb-b72f-bf43b373e8d9.json"
+  ],
   "fow-tcg": [
     "games/fow-tcg/sets/001_Starter.json",
     "games/fow-tcg/sets/002_The_Dawn_of_Valhalla.json",
