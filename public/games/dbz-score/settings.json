@@ -1,6 +1,5 @@
 {
   "gameName": "dbz-score",
-  "game_id": "b5df32b4-59b4-4a67-aa6c-8636ae8daf07",
   "addNValue": 3,
   "groupOptions": [
     "OCTGN", 
@@ -78,5 +77,5 @@
 	"l": "Card Level"
   },
   "octgnExport": true,
-  "showImagePackExport": true
+  "imagePackExport": true
 }

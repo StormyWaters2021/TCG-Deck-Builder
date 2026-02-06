@@ -1,6 +1,5 @@
 {
   "gameName": "warhammer-conquest",
-  "game_id": "af04f855-58c4-4db3-a191-45fe33381679",
   "addNValue": 3,
   "groupOptions": [
 	"OCTGN",
@@ -44,6 +43,6 @@
 
 	  "paperSize": "Letter"
 	},
-  "showImagePackExport": true,
+  "imagePackExport": true,
   "octgnExport": true
 }

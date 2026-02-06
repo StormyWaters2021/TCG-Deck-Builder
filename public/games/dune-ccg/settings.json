@@ -1,6 +1,5 @@
 {
   "gameName": "dune-ccg",
-  "game_id": "c196d3b0-bb5e-4d08-b49b-20dbce40443f",
   "addNValue": 4,
   "groupOptions": [
     "Type"
@@ -43,5 +42,5 @@
 	  "paperSize": "Letter"
 	},  
   "octgnExport": true,
-  "showImagePackExport": true
+  "imagePackExport": true
 }

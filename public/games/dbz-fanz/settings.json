@@ -87,7 +87,7 @@
   "paperSize": "Letter"
 	}, 
   "octgnExport": true,
-  "showImagePackExport": true,
+  "imagePackExport": true,
   "compactExportCols": 5,
   "compactExportHeadingRow": true,
   "compactVerticalOffsetFactor": 0.18,

@@ -1,6 +1,5 @@
 {
   "gameName": "monty-python",
-  "game_id": "20d48baa-8c8f-4c1e-891e-8a206a05407d",
   "addNValue": 3,
   "groupOptions": [
     "Card Type",
@@ -26,5 +25,5 @@
 	"q": "Quote"
 },
   "octgnExport": true,
-  "showImagePackExport": true
+  "imagePackExport": true
 }

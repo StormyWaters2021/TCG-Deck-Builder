@@ -1,6 +1,5 @@
 {
   "gameName": "netrunner-1996",
-  "game_id": "13568561-7a2e-4572-8f31-3d99580ab245",
   "addNValue": 4,
   "groupOptions": [
     "Type"
@@ -26,5 +25,5 @@
 	"mu": "MU Required"
   },
   "octgnExport": true,
-  "showImagePackExport": true
+  "imagePackExport": true
 }

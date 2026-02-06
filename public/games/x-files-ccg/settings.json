@@ -1,6 +1,5 @@
 {
   "gameName": "x-files-ccg",
-  "game_id": "0fdf1868-07b4-4ba3-b82c-e3d68a662b78",
   "addNValue": 2,
   "groupOptions": [
     "Type"
@@ -53,5 +52,5 @@
 	  "paperSize": "Letter"
 	},
   "octgnExport": true,
-  "showImagePackExport": true
+  "imagePackExport": true
 }

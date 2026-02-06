@@ -2,7 +2,7 @@
   "gameName": "stargate-tcg",
   "addNValue": 3,
   "octgnExport": true,
-  "showImagePackExport": true,
+  "imagePackExport": true,
   "includeSubtitleInTextExport": true,
   "groupOptions": [
     "OCTGN",

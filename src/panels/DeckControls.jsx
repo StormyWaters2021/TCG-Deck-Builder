@@ -584,7 +584,7 @@ function DeckControls({
         </div>
         <button className={buttonClass} onClick={clearDeck}>Clear</button>
         <button className={buttonClass} onClick={importDeck}>Import</button>
-{settings.showImagePackExport && (
+{settings.imagePackExport && (
   imagePackProgress === null ? (
     <button
       className={buttonClass}

@@ -1,6 +1,5 @@
 {
   "gameName": "yu-yu-hakusho",
-  "game_id": "5e119462-e2a6-4d86-a93c-c1d84fd9b368",
   "addNValue": 3,
   "groupOptions": [
     "Type"
@@ -20,5 +19,5 @@
 	  "se": "Spirit Energy"
   },
   "octgnExport": false,
-  "showImagePackExport": false
+  "imagePackExport": false
 }

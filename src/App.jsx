@@ -5,6 +5,9 @@ import MobileDeckBuilder from "./mobile/MobileDeckBuilder";
 import { useLayoutMode } from "./mobile/layoutMode";
 import { loadCardsForGame } from "./utils/cardsLoader";
 
+const LAST_GAME_KEY = "tcgbuilder:lastGame";
+
+
 function sortCardsByNameThenSubtitle(cards) {
   return [...cards].sort((a, b) => {
     const an = String(a?.name ?? "");
@@ -159,12 +162,36 @@ function App() {
 
   // Parse URL params on mount for initial selected game only
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const urlGame = params.get("game");
-    if (urlGame) {
-      setSelectedGame(urlGame);
-    }
-  }, []);
+  const params = new URLSearchParams(window.location.search);
+  const urlGame = params.get("game");
+
+  if (urlGame) {
+    // URL always wins (deck links, shared links, bookmarks)
+    setSelectedGame(urlGame);
+    return;
+  }
+
+  // No URL game → restore last remembered game
+  const lastGame = localStorage.getItem(LAST_GAME_KEY);
+  if (lastGame) {
+    setSelectedGame(lastGame);
+  }
+}, []);
+
+
+useEffect(() => {
+  if (!selectedGame) return;
+
+  const params = new URLSearchParams(window.location.search);
+  const urlGame = params.get("game");
+
+  // If this game was set via URL, do NOT remember it
+  if (urlGame === selectedGame) return;
+
+  localStorage.setItem(LAST_GAME_KEY, selectedGame);
+
+}, [selectedGame]);
+
 
   // When selectedGame changes, fetch game data
   useEffect(() => {
@@ -223,12 +250,14 @@ function App() {
   }, [gameData.cards, selectedGame]);
 
   const handleGameClick = (game) => {
-    if (Object.keys(deck).length > 0 && game !== selectedGame) {
-      if (!window.confirm("Switching games will erase your current deck. Continue?")) return;
-      setDeck({});
-    }
-    setSelectedGame(game);
-  };
+  if (Object.keys(deck).length > 0 && game !== selectedGame) {
+    if (!window.confirm("Switching games will erase your current deck. Continue?")) return;
+    setDeck({});
+  }
+
+  setSelectedGame(game);
+};
+
 
   const handleBackToSelect = () => {
     if (Object.keys(deck).length > 0) {
@@ -240,6 +269,8 @@ function App() {
     setGameData({ settings: null, cards: [] });
     setGroupBy("Type");
     setOctgnOverrides({});
+
+	localStorage.removeItem(LAST_GAME_KEY);
 
     // Clear the URL params to avoid reloading game from URL on next render
     const url = new URL(window.location);
