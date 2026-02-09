@@ -43,6 +43,33 @@
   --swap-btn-border: #aaa;
 }
 
+.modal-backdrop {
+  position: fixed;
+  inset: 0;                 /* top:0 right:0 bottom:0 left:0 */
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #2b2b2b;
+  color: #ffd700;
+  border-radius: 8px;
+  padding: 1em;
+
+  width: 420px;
+  max-width: calc(100vw - 2rem);
+  max-height: calc(100vh - 2rem);
+
+  overflow: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+
+
 /* ----- Global Body Styles ----- */
 body {
   font-family: Arial, sans-serif;
