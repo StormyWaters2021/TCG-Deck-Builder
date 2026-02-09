@@ -81,8 +81,8 @@
   "cardHeightMm": 88,
   "bleedMm": 0,
 
-  "horizontalGapMm": 2,
-  "verticalGapMm": 2,
+  "horizontalGapMm": 0,
+  "verticalGapMm": 0,
 
   "sideMarginMm": 10,
   "topMarginMm": 5,
