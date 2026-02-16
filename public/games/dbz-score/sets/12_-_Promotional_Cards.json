@@ -115,7 +115,7 @@
   },
   {
     "id": "c8f2b2ee-d4c0-4b78-be7f-3b56ba0ea676",
-    "name": "Android 17",
+    "name": "Android 17 (CP28)",
     "Card Level": "1",
     "Card Number": "CP28",
     "Style": "Freestyle",
@@ -298,7 +298,7 @@
   },
   {
     "id": "b3fa06c5-5006-4fe8-8b01-82d2827216b6",
-    "name": "Bardock",
+    "name": "Bardock (CP22)",
     "Card Level": "1",
     "Card Number": "CP22",
     "Style": "Freestyle",
@@ -315,7 +315,7 @@
   },
   {
     "id": "821615e8-0f65-4fc8-983c-a5fd53385bb2",
-    "name": "Bardock",
+    "name": "Bardock (CP23)",
     "Card Level": "2",
     "Card Number": "CP23",
     "Style": "Freestyle",
@@ -332,7 +332,7 @@
   },
   {
     "id": "bf609739-358a-427e-9430-713142915cce",
-    "name": "Bardock",
+    "name": "Bardock (CP24)",
     "Card Level": "3",
     "Card Number": "CP24",
     "Style": "Freestyle",
@@ -577,7 +577,7 @@
   },
   {
     "id": "4d8f7136-2fef-4914-a9d4-af57915e467f",
-    "name": "Broly, Super Saiyan",
+    "name": "Broly, Super Saiyan (BR2)",
     "Card Level": "2",
     "Card Number": "BR2",
     "Style": "Freestyle",
@@ -611,7 +611,7 @@
   },
   {
     "id": "f28f3d55-4d02-4012-81cf-71515ffcfb87",
-    "name": "Bubbles",
+    "name": "Bubbles (CP16)",
     "Card Level": "1",
     "Card Number": "CP16",
     "Style": "Freestyle",
@@ -628,7 +628,7 @@
   },
   {
     "id": "639f71bc-0281-4aa8-b55e-9da408c451ad",
-    "name": "Bubbles",
+    "name": "Bubbles (CP17)",
     "Card Level": "2",
     "Card Number": "CP17",
     "Style": "Freestyle",
@@ -645,7 +645,7 @@
   },
   {
     "id": "46ac17b2-777c-4f0a-8db1-411271cfc2e2",
-    "name": "Bubbles",
+    "name": "Bubbles (CP18)",
     "Card Level": "3",
     "Card Number": "CP18",
     "Style": "Freestyle",
@@ -802,7 +802,7 @@
   },
   {
     "id": "ef3947d3-0b71-431f-8b3e-a4055324375c",
-    "name": "Confrontation",
+    "name": "Confrontation (INF2)",
     "Card Number": "INF2",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1079,7 +1079,7 @@
   },
   {
     "id": "8ec7b7d0-1ea7-4b0b-a5c9-dd061ddb339d",
-    "name": "Frieza",
+    "name": "Frieza (CP29)",
     "Card Level": "1",
     "Card Number": "CP29",
     "Style": "Freestyle",
@@ -1141,7 +1141,7 @@
   },
   {
     "id": "c0825339-0069-4c2d-8c4a-a03221020fb8",
-    "name": "Future Gohan",
+    "name": "Future Gohan (CP10)",
     "Card Level": "1",
     "Card Number": "CP10",
     "Style": "Freestyle",
@@ -1158,7 +1158,7 @@
   },
   {
     "id": "b73117d4-d149-4568-8d9b-621f1dbca36a",
-    "name": "Future Gohan",
+    "name": "Future Gohan (CP11)",
     "Card Level": "2",
     "Card Number": "CP11",
     "Style": "Freestyle",
@@ -1175,7 +1175,7 @@
   },
   {
     "id": "3d2db646-d940-47a6-90ba-91d8aab62423",
-    "name": "Future Gohan",
+    "name": "Future Gohan (CP12)",
     "Card Level": "3",
     "Card Number": "CP12",
     "Style": "Freestyle",
@@ -1207,7 +1207,7 @@
   },
   {
     "id": "9a8c9a8a-9ff6-4758-b662-93419c658a51",
-    "name": "Ginyu Force",
+    "name": "Ginyu Force (CP13)",
     "Card Level": "1",
     "Card Number": "CP13",
     "Style": "Freestyle",
@@ -1224,7 +1224,7 @@
   },
   {
     "id": "d7c16015-1e73-4b6b-88fb-25441c876a05",
-    "name": "Ginyu Force",
+    "name": "Ginyu Force (CP14)",
     "Card Level": "2",
     "Card Number": "CP14",
     "Style": "Freestyle",
@@ -1241,7 +1241,7 @@
   },
   {
     "id": "908d7112-e4a2-41b4-8377-781ef41f8b57",
-    "name": "Ginyu Force",
+    "name": "Ginyu Force (CP15)",
     "Card Level": "3",
     "Card Number": "CP15",
     "Style": "Freestyle",
@@ -1669,7 +1669,7 @@
   },
   {
     "id": "a1a10a44-611d-45ea-9e4f-d60488bc07be",
-    "name": "King Kai",
+    "name": "King Kai (K1)",
     "Card Level": "1",
     "Card Number": "K1",
     "Style": "Freestyle",
@@ -1686,7 +1686,7 @@
   },
   {
     "id": "7a42e359-b5a2-40a4-8c4b-c7e1899be56d",
-    "name": "King Kai",
+    "name": "King Kai (K2)",
     "Card Level": "2",
     "Card Number": "K2",
     "Style": "Freestyle",
@@ -1703,7 +1703,7 @@
   },
   {
     "id": "bcc32193-f8d8-42d3-bfc4-87262b0d6d0c",
-    "name": "King Kai",
+    "name": "King Kai (K3)",
     "Card Level": "3",
     "Card Number": "K3",
     "Style": "Freestyle",
@@ -1720,7 +1720,7 @@
   },
   {
     "id": "4a52f9c5-32cb-419b-86ca-693e0aae807d",
-    "name": "King Kai",
+    "name": "King Kai (CP01)",
     "Card Level": "1",
     "Card Number": "CP01",
     "Style": "Freestyle",
@@ -1737,7 +1737,7 @@
   },
   {
     "id": "82e66b61-a06c-4ab9-bc32-fbb9c9807762",
-    "name": "King Kai",
+    "name": "King Kai (CP02)",
     "Card Level": "2",
     "Card Number": "CP02",
     "Style": "Freestyle",
@@ -1754,7 +1754,7 @@
   },
   {
     "id": "adbd1239-1c1e-40b6-a39e-fe5d5ca609bf",
-    "name": "King Kai",
+    "name": "King Kai (CP03)",
     "Card Level": "3",
     "Card Number": "CP03",
     "Style": "Freestyle",
@@ -1803,7 +1803,7 @@
   },
   {
     "id": "ba9ac6b8-4fd6-4974-91f5-1364f583fa8d",
-    "name": "Krillin",
+    "name": "Krillin (CP30)",
     "Card Level": "1",
     "Card Number": "CP30",
     "Style": "Freestyle",
@@ -1897,7 +1897,7 @@
   },
   {
     "id": "51a8dc4e-b502-4dc7-9f44-16058dfd326b",
-    "name": "Lord Slug",
+    "name": "Lord Slug (CP04)",
     "Card Level": "1",
     "Card Number": "CP04",
     "Style": "Freestyle",
@@ -1914,7 +1914,7 @@
   },
   {
     "id": "9ab410e1-bb27-4a25-bd14-d80f2608edac",
-    "name": "Lord Slug",
+    "name": "Lord Slug (CP05)",
     "Card Level": "2",
     "Card Number": "CP05",
     "Style": "Freestyle",
@@ -1931,7 +1931,7 @@
   },
   {
     "id": "ea26c724-8cc4-44cd-8da0-4aa455967a26",
-    "name": "Lord Slug",
+    "name": "Lord Slug (CP06)",
     "Card Level": "3",
     "Card Number": "CP06",
     "Style": "Freestyle",
@@ -2023,7 +2023,7 @@
   },
   {
     "id": "0aa66d2e-3510-4e47-89ec-557d185deb66",
-    "name": "Master Roshi",
+    "name": "Master Roshi (CP07)",
     "Card Level": "1",
     "Card Number": "CP07",
     "Style": "Freestyle",
@@ -2040,7 +2040,7 @@
   },
   {
     "id": "c47012d1-5d6d-4f6b-ae34-7aab3b43b78d",
-    "name": "Master Roshi",
+    "name": "Master Roshi (CP08)",
     "Card Level": "2",
     "Card Number": "CP08",
     "Style": "Freestyle",
@@ -2057,7 +2057,7 @@
   },
   {
     "id": "7b7804e0-5d40-4ce7-928b-0d0517d462d1",
-    "name": "Master Roshi",
+    "name": "Master Roshi (CP09)",
     "Card Level": "3",
     "Card Number": "CP09",
     "Style": "Freestyle",
@@ -2074,7 +2074,7 @@
   },
   {
     "id": "ab4684d7-defc-4e4c-89a1-918c3d3ab7c9",
-    "name": "Meta-Cooler",
+    "name": "Meta-Cooler (CP25)",
     "Card Level": "1",
     "Card Number": "CP25",
     "Style": "Freestyle",
@@ -2091,7 +2091,7 @@
   },
   {
     "id": "08a65a30-acb7-4512-b575-e68a89810faa",
-    "name": "Meta-Cooler",
+    "name": "Meta-Cooler (CP26)",
     "Card Level": "2",
     "Card Number": "CP26",
     "Style": "Freestyle",
@@ -2108,7 +2108,7 @@
   },
   {
     "id": "909e4f66-8664-435c-8731-547251ac0213",
-    "name": "Meta-Cooler",
+    "name": "Meta-Cooler (CP27)",
     "Card Level": "3",
     "Card Number": "CP27",
     "Style": "Freestyle",
@@ -2125,7 +2125,7 @@
   },
   {
     "id": "e398b31a-e93f-477d-a038-ce2588049c17",
-    "name": "Mighty Mask",
+    "name": "Mighty Mask (CP19)",
     "Card Level": "1",
     "Card Number": "CP19",
     "Style": "Freestyle",
@@ -2142,7 +2142,7 @@
   },
   {
     "id": "2ecc4694-307c-4833-b7cb-3c5f993ecccf",
-    "name": "Mighty Mask",
+    "name": "Mighty Mask (CP20)",
     "Card Level": "2",
     "Card Number": "CP20",
     "Style": "Freestyle",
@@ -2159,7 +2159,7 @@
   },
   {
     "id": "fa74c3c6-ad83-43e8-a829-8abaf9f08f40",
-    "name": "Mighty Mask",
+    "name": "Mighty Mask (CP21)",
     "Card Level": "3",
     "Card Number": "CP21",
     "Style": "Freestyle",
@@ -2206,7 +2206,7 @@
   },
   {
     "id": "8b8b49fb-0486-414b-a5a7-cc07abab3d12",
-    "name": "Mr. Popo",
+    "name": "Mr. Popo (CR01)",
     "Card Level": "1",
     "Card Number": "CR01",
     "Style": "Freestyle",
@@ -2223,7 +2223,7 @@
   },
   {
     "id": "e5801107-3ce8-4509-b0e3-4a19d8a1537d",
-    "name": "Mr. Popo",
+    "name": "Mr. Popo (CR02)",
     "Card Level": "2",
     "Card Number": "CR02",
     "Style": "Freestyle",
@@ -2240,7 +2240,7 @@
   },
   {
     "id": "e7d41ef7-6b50-4dda-a486-8f3c54448b53",
-    "name": "Mr. Popo",
+    "name": "Mr. Popo (CR03)",
     "Card Level": "3",
     "Card Number": "CR03",
     "Style": "Freestyle",
@@ -2906,7 +2906,7 @@
   },
   {
     "id": "1589e943-a445-41cf-940f-6b6945f5f62f",
-    "name": "Super Saiyan Goku",
+    "name": "Super Saiyan Goku (IR01)",
     "Card Level": "1",
     "Card Number": "IR01",
     "Style": "Freestyle",

@@ -5,6 +5,8 @@ const path = require("path");
 const PUBLIC_GAMES_DIR = path.resolve("public", "games");
 const OUTPUT_DIR = path.resolve("src", "generated");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "setsIndex.json");
+const PUBLIC_OUT = path.resolve("public", "setsIndex.json");
+
 
 function ensureDir(p) {
   if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true });
@@ -41,6 +43,7 @@ function main() {
   const index = gather();
   ensureDir(OUTPUT_DIR);
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(index, null, 2));
+  fs.writeFileSync(PUBLIC_OUT, JSON.stringify(index, null, 2));
   const gamesCount = Object.keys(index).length;
   console.log(
     `Generated setsIndex.json for ${gamesCount} game(s)${
