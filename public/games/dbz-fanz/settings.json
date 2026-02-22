@@ -84,6 +84,9 @@
   "cardsPerRow": 3,
   "cardsPerColumn": 3,
 
+  "dpi": 300,
+  "jpegQuality": 0.72,
+
   "paperSize": "Letter"
 	}, 
   "octgnExport": true,
