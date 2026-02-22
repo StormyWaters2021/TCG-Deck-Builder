@@ -367,6 +367,26 @@ useEffect(() => {
   >
     {isLightMode ? "🌙" : "☀️"}
   </button>
+    <button
+    onClick={() =>
+      window.open("https://buymeacoffee.com/tcgbuilder", "_blank", "noopener,noreferrer")
+    }
+    aria-label="Support TCG Builder on Buy Me a Coffee"
+    style={{
+      cursor: "pointer",
+      background: "transparent",
+      border: "none",
+      fontSize: "1.5rem",
+      color: "inherit",
+      userSelect: "none",
+      padding: 0,
+      margin: 0,
+    }}
+    type="button"
+    title="Buy me a coffee"
+  >
+    ☕
+  </button>
 </div>
 
 </header>
