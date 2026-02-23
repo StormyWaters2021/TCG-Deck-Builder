@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import CardPreview from "../components/CardPreview";
+import DeckSubmissionFlow, { buildFlattenedDeckRows } from "../components/DeckSubmissionFlow";
 import { exportDeckO8c } from "../utils/deckImagePackExport";
 import { buildCardPreviewProperties } from "../utils/cardPreviewExtra";
 import {
@@ -44,10 +45,11 @@ function DeckControls({
   const [imagePackProgress, setImagePackProgress] = useState(null);
   const [showSetSelector, setShowSetSelector] = useState(false);
   const [selectedSetNames, setSelectedSetNames] = useState(new Set());
-
+  
   const cancelExport = useRef(false);
   const [generatingPDF, setGeneratingPDF] = useState(false);
-
+  const deckSubmissionRef = useRef(null);
+  
   const setsByName = React.useMemo(() => {
     const map = new Map();
     for (const card of cards) {
@@ -125,23 +127,22 @@ function DeckControls({
       return;
     }
     if (!cards || cards.length === 0) return;
-    if (Object.keys(deck).length > 0) return;
-    if (Object.keys(deck).length > 0) {
-      if (
-        !window.confirm(
-          "You are about to load a shared deck. This will overwrite your current progress. Continue?",
-        )
-      ) {
-        params.delete("deck");
-        window.history.replaceState(
-          {},
-          "",
-          window.location.pathname +
-            (params.toString() ? "?" + params.toString() : ""),
-        );
-        return;
-      }
-    }
+	if (Object.keys(deck).length > 0) {
+	  if (
+		!window.confirm(
+		  "You are about to load a shared deck. This will overwrite your current progress. Continue?",
+		)
+	  ) {
+		params.delete("deck");
+		window.history.replaceState(
+		  {},
+		  "",
+		  window.location.pathname +
+			(params.toString() ? "?" + params.toString() : ""),
+		);
+		return;
+	  }
+	}
     fetch(`${WORKER_API}/deck/${code}`)
       .then((r) => {
         if (!r.ok) throw new Error("Deck not found");
@@ -255,6 +256,7 @@ function DeckControls({
     localStorage.setItem(`${game}-decks`, JSON.stringify(newDecks));
   }
 
+
   async function exportDeck(format) {
     setExportMenuOpen(false);
     const flatDeck = {};
@@ -318,27 +320,39 @@ function DeckControls({
       });
 
       downloadFile(txt, `${deckName || "deck"}.txt`, "text/plain");
-    } else if (format === "JSON") {
-      const exportList = getSortedExportListWithDisplayOrder(
-        deck,
-        cards,
-        settings,
-      );
-      const deckObj = {
-        name: deckName,
-        game,
-        deck: exportList
-          .map(({ card, qty }) => {
-            if (!card) return null;
-            return { ...card, qty };
-          })
-          .filter(Boolean),
-      };
-      downloadFile(
-        JSON.stringify(deckObj, null, 2),
-        `${deckName || "deck"}.json`,
-        "application/json",
-      );
+		} else if (format === "JSON") {
+		  const exportList = getSortedExportListWithDisplayOrder(
+			deck,
+			cards,
+			settings,
+		  );
+
+		  const submissionRows = buildFlattenedDeckRows(deck, cards);
+
+		  const deckObj = {
+			name: deckName,
+			game,
+
+			// Legacy/simple export list (kept for compatibility)
+			deck: exportList
+			  .map(({ card, qty }) => {
+				if (!card) return null;
+				return { ...card, qty };
+			  })
+			  .filter(Boolean),
+
+			// Raw deck builder state (preserves multi-group splits)
+			deckRaw: deck,
+
+			// Flattened rows used by deck submission / admin workflows
+			submissionRows,
+		  };
+
+		  downloadFile(
+			JSON.stringify(deckObj, null, 2),
+			`${deckName || "deck"}.json`,
+			"application/json",
+		  );
     } else if (format === "Image") {
       await exportDeckImage(flatDeck, cards, settings, deckName, game);
     } else if (format === "ImageCompact") {
@@ -656,6 +670,20 @@ function DeckControls({
               >
                 Link
               </button>
+			{settings.deckSubmit && (
+			  <button
+				className={
+				  dropdownHover === 7
+					? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
+					: dropdownButtonClass
+				}
+				onMouseEnter={() => setDropdownHover(7)}
+				onMouseLeave={() => setDropdownHover(null)}
+				onClick={() => deckSubmissionRef.current?.open()}
+			  >
+				Submit Deck
+			  </button>
+			)}
               {settings.octgnExport && (
                 <button
                   className={
@@ -920,6 +948,20 @@ function DeckControls({
           ))}
         </ul>
       </div>
+	  <DeckSubmissionFlow
+  ref={deckSubmissionRef}
+  deck={deck}
+  cards={cards}
+  game={game}
+  deckName={deckName}
+  buttonClass={buttonClass}
+  deckNameInputClass={deckNameInputClass}
+  hideTriggerButton={true}
+  onBeforeOpen={() => {
+    setDropdownHover(null);
+    setExportMenuOpen(false);
+  }}
+/>
     </section>
   );
 }

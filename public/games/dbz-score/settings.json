@@ -94,5 +94,6 @@
   "paperSize": "Letter"
 	}, 
   "octgnExport": true,
+  "deckSubmit": true,
   "imagePackExport": true
 }
