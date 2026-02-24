@@ -186,14 +186,13 @@ const DeckSubmissionFlow = forwardRef(function DeckSubmissionFlow(
   const [submitSuccessModal, setSubmitSuccessModal] = useState(null);
   // { mode, version, editCode, shareUrl, warning }
 
-  const [submitForm, setSubmitForm] = useState(() => ({
-    username: localStorage.getItem("deckSubmit:lastUsername") || "",
-    eventCode: (
-      localStorage.getItem("deckSubmit:lastEventCode") || ""
-    ).toUpperCase(),
-    format: "",
-    editCode: "",
-  }));
+	const [submitForm, setSubmitForm] = useState(() => ({
+	  username: localStorage.getItem("deckSubmit:lastUsername") || "",
+	  eventCode: (
+		localStorage.getItem("deckSubmit:lastEventCode") || ""
+	  ).toUpperCase(),
+	  editCode: "",
+	}));
 
   const deckHasCards = useMemo(
     () => !!deck && Object.keys(deck).length > 0,
@@ -211,14 +210,13 @@ const DeckSubmissionFlow = forwardRef(function DeckSubmissionFlow(
     setSubmitError("");
     setSubmitNeedsEditCode(false);
     setSubmitForm((prev) => ({
-      username:
-        prev.username || localStorage.getItem("deckSubmit:lastUsername") || "",
-      eventCode: (
-        prev.eventCode || localStorage.getItem("deckSubmit:lastEventCode") || ""
-      ).toUpperCase(),
-      format: prev.format || "",
-      editCode: "",
-    }));
+	  username:
+		prev.username || localStorage.getItem("deckSubmit:lastUsername") || "",
+	  eventCode: (
+		prev.eventCode || localStorage.getItem("deckSubmit:lastEventCode") || ""
+	  ).toUpperCase(),
+	  editCode: "",
+	}));
     setSubmitModalOpen(true);
   }
 
@@ -246,7 +244,6 @@ const DeckSubmissionFlow = forwardRef(function DeckSubmissionFlow(
 
     const username = String(submitForm.username || "").trim();
     const eventCode = String(submitForm.eventCode || "").trim().toUpperCase();
-    const formatValue = String(submitForm.format || "").trim();
     const editCode = String(submitForm.editCode || "").trim();
 
     if (!username) {
@@ -264,15 +261,14 @@ const DeckSubmissionFlow = forwardRef(function DeckSubmissionFlow(
       return;
     }
 
-    const payload = {
-      eventCode,
-      username,
-      deckName: (deckName || "Untitled Deck").trim(),
-      game,
-      format: formatValue,
-      deck: flatRows,
-      deckObj: deck,
-    };
+	const payload = {
+	  eventCode,
+	  username,
+	  deckName: (deckName || "Untitled Deck").trim(),
+	  game,
+	  deck: flatRows,
+	  deckObj: deck,
+	};
 
     // auto-use saved edit code for same game/user/event
     const credsKey = submitCredsKey(game, eventCode, username);
@@ -371,13 +367,16 @@ const DeckSubmissionFlow = forwardRef(function DeckSubmissionFlow(
       setSubmitNeedsEditCode(false);
       setSubmitForm((prev) => ({ ...prev, editCode: "" }));
 
-      setSubmitSuccessModal({
-        mode: data.mode,
-        version: data.version,
-        editCode: data.editCode || "",
-        shareUrl: data.shareUrl || "",
-        warning: data.warning || "",
-      });
+	setSubmitSuccessModal({
+	  mode: data.mode,
+	  version: data.version,
+	  editCode: data.editCode || "",
+	  shareUrl: data.shareUrl || "",
+	  warning: data.warning || "",
+	  eventName: data.eventName || "",
+	  format: data.format || "",
+	});
+	
     } catch (err) {
       setSubmitError(`Deck submission failed: ${err.message || err}`);
     } finally {
@@ -423,18 +422,6 @@ const DeckSubmissionFlow = forwardRef(function DeckSubmissionFlow(
                   className={deckNameInputClass}
                   style={{ width: "100%" }}
                   placeholder="T123"
-                />
-              </label>
-
-              <label style={{ display: "grid", gap: "0.25em" }}>
-                <span>Format (optional)</span>
-                <input
-                  type="text"
-                  value={submitForm.format}
-                  onChange={(e) => updateSubmitForm("format", e.target.value)}
-                  disabled={submitBusy}
-                  className={deckNameInputClass}
-                  style={{ width: "100%" }}
                 />
               </label>
 
@@ -532,7 +519,21 @@ const DeckSubmissionFlow = forwardRef(function DeckSubmissionFlow(
                   </>
                 )}
               </div>
-
+			{(submitSuccessModal.eventName || submitSuccessModal.format) ? (
+			  <div style={{ fontSize: "0.92em", opacity: 0.9 }}>
+				{submitSuccessModal.eventName ? (
+				  <>
+					<strong>Event:</strong> {submitSuccessModal.eventName}
+				  </>
+				) : null}
+				{submitSuccessModal.format ? (
+				  <>
+					{submitSuccessModal.eventName ? <br /> : null}
+					<strong>Format:</strong> {submitSuccessModal.format}
+				  </>
+				) : null}
+			  </div>
+			) : null}
               {submitSuccessModal.editCode ? (
                 <div
                   style={{
