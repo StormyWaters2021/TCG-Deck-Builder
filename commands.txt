@@ -1,0 +1,8 @@
+git add . # Adds all files to git
+git commit -m "Commit message." # Commits changes with the noted message
+git push origin main # Push changes to main branch
+
+npm run dev	# Launch dev server for localhost testing
+npm run build	# Build site files for deployment
+wrangler pages deploy dist --project-name=tcgbuilder	# Deploy after building
+
