@@ -14,6 +14,7 @@ import {
   groupDeck,
 } from "../utils/deckExportHelpers";
 import { exportDeckPDF } from "../utils/deckPrintPDF";
+import PdfDecklistExportFlow from "../components/PdfDecklistExportFlow";
 
 const WORKER_API = "https://tcgbuilder.net/api";
 
@@ -46,6 +47,7 @@ function DeckControls({
   const [showSetSelector, setShowSetSelector] = useState(false);
   const [selectedSetNames, setSelectedSetNames] = useState(new Set());
   
+  const pdfDecklistRef = useRef(null);
   const cancelExport = useRef(false);
   const [generatingPDF, setGeneratingPDF] = useState(false);
   const deckSubmissionRef = useRef(null);
@@ -698,6 +700,20 @@ function DeckControls({
                   OCTGN
                 </button>
               )}
+			  {settings.pdfDecklistExport && (
+				  <button
+					className={
+					  dropdownHover === 8
+						? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
+						: dropdownButtonClass
+					}
+					onMouseEnter={() => setDropdownHover(8)}
+					onMouseLeave={() => setDropdownHover(null)}
+					onClick={() => pdfDecklistRef.current?.open()}
+				  >
+					Decklist PDF
+				  </button>
+				)}
             </div>
           )}
           {linkMessage && <div className={linkMessageClass}>{linkMessage}</div>}
@@ -949,19 +965,32 @@ function DeckControls({
         </ul>
       </div>
 	  <DeckSubmissionFlow
-  ref={deckSubmissionRef}
-  deck={deck}
-  cards={cards}
-  game={game}
-  deckName={deckName}
-  buttonClass={buttonClass}
-  deckNameInputClass={deckNameInputClass}
-  hideTriggerButton={true}
-  onBeforeOpen={() => {
-    setDropdownHover(null);
-    setExportMenuOpen(false);
-  }}
-/>
+		  ref={deckSubmissionRef}
+		  deck={deck}
+		  cards={cards}
+		  game={game}
+		  deckName={deckName}
+		  buttonClass={buttonClass}
+		  deckNameInputClass={deckNameInputClass}
+		  hideTriggerButton={true}
+		  onBeforeOpen={() => {
+			setDropdownHover(null);
+			setExportMenuOpen(false);
+		  }}
+		/>
+		<PdfDecklistExportFlow
+		  ref={pdfDecklistRef}
+		  deck={deck}
+		  cards={cards}
+		  settings={settings}
+		  game={game}
+		  deckName={deckName}
+		  hideTriggerButton={true}
+		  onBeforeOpen={() => {
+			setDropdownHover(null);
+			setExportMenuOpen(false);
+		  }}
+		/>
     </section>
   );
 }

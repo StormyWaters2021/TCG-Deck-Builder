@@ -90,6 +90,7 @@
   "paperSize": "Letter"
 	}, 
   "octgnExport": true,
+  "pdfDecklistExport": true,
   "imagePackExport": true,
   "compactExportCols": 5,
   "compactExportHeadingRow": true,
