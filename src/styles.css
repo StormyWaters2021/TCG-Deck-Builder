@@ -328,13 +328,21 @@ input[type="text"]:-moz-placeholder {
 
 /* ----- DeckPanel Buttons (alternate printing swap, +1/-1, etc.) ----- */
 .deck-swap-btn {
-  background: var(--swap-btn-bg);
-  border: 1px solid var(--swap-btn-border);
-  border-radius: 50%;
+  height: 1.5em;
+  vertical-align: middle;
+  text-align: center;
+  line-height: .5;
   font-size: 1em;
-  padding: 0 4px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   cursor: pointer;
-  z-index: 5;
+  background: var(--main-button-bg); /* Uses theme variable */
+  color: var(--main-button-color);
+  border: 1px solid var(--main-button-border);
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 500;
   transition: background 0.15s, border-color 0.15s;
 }
 .deck-swap-btn:hover {
@@ -342,14 +350,21 @@ input[type="text"]:-moz-placeholder {
   border-color: var(--main-button-bg);
 }
 .deck-modify-btn {
-  margin-left: 0.25em;
-  background: var(--main-button-bg);
+  height: 1.5em;
+  vertical-align: middle;
+  text-align: center;
+  line-height: .5;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: var(--main-button-bg); /* Uses theme variable */
   color: var(--main-button-color);
   border: 1px solid var(--main-button-border);
-  border-radius: 3px;
-  font-size: 0.95em;
-  cursor: pointer;
-  padding: 0 0.7em;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 500;
   transition: background 0.15s, border-color 0.15s;
 }
 .deck-modify-btn:hover {

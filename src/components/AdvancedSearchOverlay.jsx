@@ -257,109 +257,106 @@ const chipRemove = {
         </div>
 
         {/* Body */}
-        <div style={{ flex: 1, overflow: "auto", paddingTop: 10 }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-            {prefixes.map(([prefix, label], idx) => {
-              const group = draft.groups[prefix];
-              const inputVal = inputs[prefix] ?? "";
+<div style={{ flex: 1, overflow: "auto", paddingTop: 10 }}>
+  <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+    {prefixes.map(([prefix, label], idx) => {
+      const group = draft.groups[prefix];
+      const inputVal = inputs[prefix] ?? "";
 
-              return (
-                <div
-                  key={prefix}
-                  style={{
-                    border: "1px solid var(--input-border)",
-                    borderRadius: 8,
-                    padding: 10,
-                  }}
-                >
-                  {/* Top row: mode + label */}
-                  <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
-                    <button type="button" onClick={() => toggleMode(prefix)} style={btnSmall}>
-                      {group.mode}
-                    </button>
-                    <div style={{ fontWeight: "bold" }}>{label}</div>
-                  </div>
+      return (
+        <div
+          key={prefix}
+          style={{
+            border: "1px solid var(--input-border)",
+            borderRadius: 8,
+            padding: 10,
+          }}
+        >
+          {/* Top row: mode + label */}
+          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
+            <button type="button" onClick={() => toggleMode(prefix)} style={btnSmall}>
+              {group.mode}
+            </button>
+            <div style={{ fontWeight: "bold" }}>{label}</div>
+          </div>
 
-                  {/* Input row: input expands, add button at far right */}
-                  <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
-                    <input
-                      ref={el => (inputRefs.current[idx] = el)}
-                      type="text"
-                      value={inputVal}
-                      onChange={e => setInputs(m => ({ ...m, [prefix]: e.target.value }))}
-                      onKeyDown={e => handleInputKeyDown(e, prefix, idx)}
-                      placeholder={`Add ${label}...`}
-                      style={{
-                        flex: 1,
-                        width: "100%",
-                        boxSizing: "border-box",
-                      }}
-                    />
+          {/* Input row: input expands, add button at far right */}
+          <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+            <input
+              ref={el => (inputRefs.current[idx] = el)}
+              type="text"
+              value={inputVal}
+              onChange={e => setInputs(m => ({ ...m, [prefix]: e.target.value }))}
+              onKeyDown={e => handleInputKeyDown(e, prefix, idx)}
+              placeholder={`Add ${label}...`}
+              style={{
+                flex: 1,
+                width: "100%",
+                boxSizing: "border-box",
+              }}
+            />
+            <button
+              type="button"
+              aria-label={`Add ${label} term`}
+              style={btnSmall}
+              onClick={() => {
+                const didAdd = addTerm(prefix, inputVal);
+                if (!didAdd) return;
+                requestAnimationFrame(() => inputRefs.current[idx]?.focus());
+              }}
+            >
+              +
+            </button>
+          </div>
+
+          {/* Chips BELOW the input */}
+          <div style={{ marginTop: 10 }}>
+            {group.terms.length === 0 ? (
+              <div style={{ opacity: 0.7, fontStyle: "italic" }}>No terms</div>
+            ) : (
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 8, alignItems: "center" }}>
+                {group.terms.map(t => (
+                  <div key={t.id} style={{ display: "inline-flex", gap: 0, alignItems: "center" }}>
                     <button
                       type="button"
-                      aria-label={`Add ${label} term`}
-                      style={btnSmall}
-                      onClick={() => {
-                        const didAdd = addTerm(prefix, inputVal);
-                        if (!didAdd) return;
-                        requestAnimationFrame(() => inputRefs.current[idx]?.focus());
+                      style={{
+                        ...chipBtn,
+                        filter: t.not ? "brightness(0.92)" : undefined,
                       }}
+                      onClick={() => toggleNot(prefix, t.id)}
+                      title="Click to toggle NOT"
                     >
-                      +
+                      {t.not ? `NOT: ${t.text}` : t.text}
+                    </button>
+                    <button
+                      type="button"
+                      aria-label="Remove term"
+                      style={chipRemove}
+                      onClick={() => removeTerm(prefix, t.id)}
+                      title="Remove"
+                    >
+                      ×
                     </button>
                   </div>
-
-                  {/* Chips BELOW the input */}
-                  <div style={{ marginTop: 10 }}>
-                    {group.terms.length === 0 ? (
-                      <div style={{ opacity: 0.7, fontStyle: "italic" }}>No terms</div>
-                    ) : (
-                      <div style={{ display: "flex", flexWrap: "wrap", gap: 8, alignItems: "center" }}>
-                        {group.terms.map(t => (
-                          <div
-                            key={t.id}
-                            style={{ display: "inline-flex", gap: 0, alignItems: "center" }}
-                          >
-                            <button
-                              type="button"
-                              style={{
-                                ...chipBtn,
-                                filter: t.not ? "brightness(0.92)" : undefined,
-                              }}
-                              onClick={() => toggleNot(prefix, t.id)}
-                              title="Click to toggle NOT"
-                            >
-                              {t.not ? `NOT: ${t.text}` : t.text}
-                            </button>
-                            <button
-                              type="button"
-                              aria-label="Remove term"
-                              style={chipRemove}
-                              onClick={() => removeTerm(prefix, t.id)}
-                              title="Remove"
-                            >
-                              ×
-                            </button>
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                </div>
-              );
-            })}
+                ))}
+              </div>
+            )}
           </div>
         </div>
+      );
+    })}
 
-        {/* Footer (no border) */}
-        <div style={{ display: "flex", justifyContent: "flex-end", gap: 8, paddingTop: 10 }}>
-          <button type="button" onClick={onCancel} style={btn}>
-            Cancel
-          </button>
-          <button type="button" onClick={submitFromDraft} style={btn}>
-            Submit
-          </button>
-        </div>
+    {/* Buttons now live BELOW the search boxes (scrolls with content) */}
+    <div style={{ display: "flex", justifyContent: "flex-end", gap: 8, paddingTop: 6 }}>
+      <button type="button" onClick={onCancel} style={btn}>
+        Cancel
+      </button>
+      <button type="button" onClick={submitFromDraft} style={btn}>
+        Submit
+      </button>
+    </div>
+  </div>
+</div>
       </div>
     </div>
   );

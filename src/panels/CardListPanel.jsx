@@ -709,6 +709,7 @@ if (filterVal === "(none)") {
   {selectedCard === card.id && (
     <div style={{ marginTop: 6, display: "flex", gap: 8 }}>
       <button
+	  
         onClick={e => {
           e.stopPropagation();
           onAddCard(card.id, 1);

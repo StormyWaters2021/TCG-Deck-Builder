@@ -848,14 +848,15 @@ function DeckControls({
         {settings.imagePackExport &&
           (imagePackProgress === null ? (
             <button
-              className={buttonClass}
-              onClick={() => {
-                setSelectedSetNames(new Set(setNames)); // default = All selected
-                setShowSetSelector(true);
-              }}
-            >
-              Fetch OCTGN Image Pack
-            </button>
+		  className={buttonClass}
+		  style={{ fontSize: "12px" }}
+		  onClick={() => {
+			setSelectedSetNames(new Set(setNames));
+			setShowSetSelector(true);
+		  }}
+		>
+		  OCTGN Image Pack
+		</button>
           ) : (
             <button
               className={buttonClass}

@@ -1016,7 +1016,9 @@ function DeckPanel({
                           >
                             -1
                           </button>
-                          <button onClick={e => {
+                          <button 
+						  className="deck-modify-btn"
+						  onClick={e => {
   e.stopPropagation();
   if (groupBy === "OCTGN") {
     onAddCard(card.id, 1, group);
