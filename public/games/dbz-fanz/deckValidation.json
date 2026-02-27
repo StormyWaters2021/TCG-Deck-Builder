@@ -1,8 +1,9 @@
 {
-    "minCards": 65,
-    "maxCards": 65,
+    "minCards": 60,
+    "maxCards": 60,
     "maxCopiesPerCard": 3,
     "usePerCardLimit": true,
+	"minMaxExclude": { "group": ["Starting"] },
     "propertyLimits": [
       {
         "property": "Type",

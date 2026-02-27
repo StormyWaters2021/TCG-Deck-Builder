@@ -263,38 +263,66 @@ function DeckStatsBanner({ deck, cards, statsConfig, settings }) {
   }
   const stats = [];
   for (const item of statsConfig) {
-    if (item.type === "totalCount") {
-      const minMaxExclude = settings?.deckValidation?.minMaxExclude;
-      const totalCards = deckList.reduce((sum, { card, qty }) => {
-        // No section context in the banner; property-based rules still apply.
-        const excluded =
-          Array.isArray(minMaxExclude) &&
-          minMaxExclude.some(rule => {
-            if (rule?.property && Object.prototype.hasOwnProperty.call(card || {}, rule.property)) {
-              return card[rule.property] === rule.value;
-            }
-            if (rule?.properties && typeof rule.properties === "object") {
-              return Object.entries(rule.properties).every(([k, v]) => (card && card[k] === v));
-            }
-            return false;
-          });
-        return excluded ? sum : sum + qty;
-      }, 0);
+	if (item.type === "totalCount") {
+	  const minMaxExclude = settings?.deckValidation?.minMaxExclude;
 
-      stats.push(
-        <span key="totalCount" className="deck-stat">
-          {item.label || "Total"}: <b>{totalCards}</b>
-        </span>
-      );
-    } else if (item.type === "sumProperty") {
-      const { total, cardsWithProp } = totalProperty(item.prop);
-      stats.push(
-        <span key={item.prop} className="deck-stat">
-          {item.label || `Total ${item.prop}`}: <b>{total}</b>
-          {` (${cardsWithProp} card${cardsWithProp !== 1 ? "s" : ""})`}
-        </span>
-      );
-    }
+	  // Same exclusion behavior as the bottom counter:
+	  const excludedByDeckRules = (card, section) => {
+		try {
+		  if (typeof matchesExclude === "function" && matchesExclude(card, minMaxExclude, section)) return true;
+		} catch (e) { /* noop */ }
+
+		// Fallback for legacy array form (keeps old behavior working)
+		if (!minMaxExclude || !Array.isArray(minMaxExclude)) return false;
+		return minMaxExclude.some(rule => {
+		  if (!rule) return false;
+		  if (rule.group && section && section === rule.group) return true;
+		  if (rule.property && Object.prototype.hasOwnProperty.call(card || {}, rule.property)) {
+			return card[rule.property] === rule.value;
+		  }
+		  if (rule.properties && typeof rule.properties === "object") {
+			return Object.entries(rule.properties).every(([k, v]) => (card && card[k] === v));
+		  }
+		  return false;
+		});
+	  };
+
+	  const totalCards = Object.entries(deck).reduce((sum, [cardId, entry]) => {
+		const card = cards.find(c => c.id === cardId);
+		if (!card) return sum;
+
+		// If group is a string (normal grouping), treat it as the section/group name.
+		if (typeof entry.group === "string") {
+		  return excludedByDeckRules(card, entry.group) ? sum : sum + (entry.count || 0);
+		}
+
+		// If group is an object (split across sections), apply exclusion per-section.
+		if (entry.group && typeof entry.group === "object") {
+		  let assigned = 0;
+		  let kept = 0;
+
+		  for (const [sectionName, qty] of Object.entries(entry.group)) {
+			assigned += qty || 0;
+			if (!excludedByDeckRules(card, sectionName)) kept += qty || 0;
+		  }
+
+		  const totalCount = entry.count || assigned;
+		  const remainder = totalCount - assigned;
+		  if (remainder > 0 && !excludedByDeckRules(card, undefined)) kept += remainder;
+
+		  return sum + kept;
+		}
+
+		// No group info
+		return excludedByDeckRules(card, undefined) ? sum : sum + (entry.count || 0);
+	  }, 0);
+
+	  stats.push(
+		<span key="totalCount" className="deck-stat">
+		  {item.label || "Cards"}: <b>{totalCards}</b>
+		</span>
+	  );
+	}
     else if (item.type === "sumPropertyOfCardsWhereContains") {
       const { total, cardsWithProp } = sumPropertyOfCardsWhereContains(deckList, item.filterProp, item.contains, item.sumProp);
       stats.push(
@@ -596,20 +624,47 @@ function DeckPanel({
       return false;
     });
   };
-  const errors = [];
-  const totalCards =
-    groupBy === "OCTGN"
-      ? Object.entries(grouped).reduce((sum, [sectionName, arr]) => {
-          const sectionTotal = arr.reduce((s, { card, qty }) => {
-            return excludedByDeckRules(card, sectionName) ? s : s + qty;
-          }, 0);
-          return sum + sectionTotal;
-        }, 0)
-      : Object.entries(deck).reduce((sum, [cardId, e]) => {
-          const card = cards.find(c => c.id === cardId);
-          if (!card) return sum;
-          return excludedByDeckRules(card, undefined) ? sum : sum + (e.count || 0);
+const errors = [];
+
+const totalCards =
+  groupBy === "OCTGN"
+    ? Object.entries(grouped).reduce((sum, [sectionName, arr]) => {
+        const sectionTotal = arr.reduce((s, { card, qty }) => {
+          return excludedByDeckRules(card, sectionName) ? s : s + qty;
         }, 0);
+        return sum + sectionTotal;
+      }, 0)
+    : Object.entries(deck).reduce((sum, [cardId, e]) => {
+        const card = cards.find(c => c.id === cardId);
+        if (!card) return sum;
+
+        const count = e.count || 0;
+
+        // If this deck entry is assigned to a single group, use it.
+        if (typeof e.group === "string") {
+          return excludedByDeckRules(card, e.group) ? sum : sum + count;
+        }
+
+        // If this deck entry is split across multiple groups, apply exclude per group bucket.
+        if (e.group && typeof e.group === "object") {
+          let assigned = 0;
+          let kept = 0;
+
+          for (const [groupName, qty] of Object.entries(e.group)) {
+            assigned += qty || 0;
+            if (!excludedByDeckRules(card, groupName)) kept += qty || 0;
+          }
+
+          // If entry.count is larger than the sum of buckets, treat the remainder as “ungrouped”.
+          const remainder = count - assigned;
+          if (remainder > 0 && !excludedByDeckRules(card, undefined)) kept += remainder;
+
+          return sum + kept;
+        }
+
+        // No group info
+        return excludedByDeckRules(card, undefined) ? sum : sum + count;
+      }, 0);
 
   if (totalCards < settings.deckValidation.minCards)
     errors.push("Not enough cards in deck!");
