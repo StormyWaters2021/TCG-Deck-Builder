@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import AdvancedSearchOverlay from "../components/AdvancedSearchOverlay";
 
 // --- Tooltip helper component with inherited colors ---
 function InfoTooltip({ text }) {
@@ -215,26 +216,42 @@ function parse(tokens) {
     return node;
   }
 
-  function parseTerm() {
-    let token = tokens[pos];
+	function parseTerm() {
+	  let token = tokens[pos];
 
-    if (token === '(') {
-      pos++;
-      let node = parseExpression();
-      if (tokens[pos] !== ')') throw new Error('Mismatched parentheses');
-      pos++;
-      return node;
-    } else if (token && token.startsWith('-') && token.length > 1 && !token.startsWith('"')) {
-      pos++;
-      // Negation: always wrap subtoken as a node (TERM)
-      let subtoken = token.slice(1);
-      return { type: 'NOT', term: { type: 'TERM', term: subtoken } };
-    } else if (token) {
-      pos++;
-      return { type: 'TERM', term: token };
-    }
-    throw new Error('Unexpected end of search');
-  }
+	  // NEW: handle grouped token like "(t:"x" // -t:"y")"
+	  if (token && token.startsWith("(") && token.endsWith(")") && token.length > 2) {
+		pos++;
+		const inner = token.slice(1, -1);
+		const innerTokens = tokenize(inner);
+		return parse(innerTokens);
+	  }
+
+	  // NEW: handle negated grouped token like "-(t:"x" // t:"y")"
+	  if (token && token.startsWith("-(") && token.endsWith(")") && token.length > 3) {
+		pos++;
+		const inner = token.slice(2, -1);
+		const innerTokens = tokenize(inner);
+		const innerNode = parse(innerTokens);
+		return { type: "NOT", term: innerNode };
+	  }
+
+	  if (token === "(") {
+		pos++;
+		let node = parseExpression();
+		if (tokens[pos] !== ")") throw new Error("Mismatched parentheses");
+		pos++;
+		return node;
+	  } else if (token && token.startsWith("-") && token.length > 1 && !token.startsWith('"')) {
+		pos++;
+		let subtoken = token.slice(1);
+		return { type: "NOT", term: { type: "TERM", term: subtoken } };
+	  } else if (token) {
+		pos++;
+		return { type: "TERM", term: token };
+	  }
+	  throw new Error("Unexpected end of search");
+	}
 
   const expr = parseExpression();
   if (pos < tokens.length) throw new Error('Unexpected input at end');
@@ -403,6 +420,25 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
   const listRef = useRef(null);
   const [search, setSearch] = useState("");
   const [filters, setFilters] = useState({});
+  const [advancedOpen, setAdvancedOpen] = useState(false);
+
+	// Remembered across opens (in-memory). If you later want persistence, store/load from localStorage.
+	const [advancedState, setAdvancedState] = useState(null);
+
+	function openAdvanced() {
+	  setAdvancedOpen(true);
+	}
+
+	function closeAdvanced() {
+	  setAdvancedOpen(false);
+	  requestAnimationFrame(() => searchInputRef.current?.focus());
+	}
+
+	function applyAdvancedSearch(query) {
+	  // Replace main search (per your spec)
+	  setSearch(query || "");
+	  closeAdvanced();
+	}
   
   function handleSearchKeyDown(e) {
   // Only add on Enter if the LIST has focus (not the input)
@@ -521,7 +557,7 @@ if (filterVal === "(none)") {
   }
 
   return (
-    <aside className="card-list-panel">
+    <aside className="card-list-panel" style={{ position: "relative" }}>
       <div style={{ marginBottom: "0.5em", fontSize: "0.95em" }}>
         <strong>Card Search</strong>
         <InfoTooltip text={fullHelpText} />
@@ -597,14 +633,14 @@ if (filterVal === "(none)") {
     </button>
   )}
 </div>
-
-      <button
-        type="button"
-        onClick={handleClearFilters}
-        style={{ margin: "0.5em 0", padding: "0.25em 1em" }}
-      >
-        Clear Filters
-      </button>
+	  <div style={{ display: "flex", gap: 8, alignItems: "center", margin: "0.5em 0" }}>
+	  <button type="button" onClick={handleClearFilters} style={{ padding: "0.25em 1em" }}>
+		Clear Filters
+	  </button>
+	  <button type="button" onClick={openAdvanced} style={{ padding: "0.25em 1em" }}>
+		Advanced Search
+	  </button>
+	</div>
       <div>
         {(settings.filterOptions || []).map(prop => (
           <select
@@ -691,6 +727,14 @@ if (filterVal === "(none)") {
           ))}
         </ul>
       </div>
+	  <AdvancedSearchOverlay
+  open={advancedOpen}
+  searchPrefixes={settings.searchPrefixes || {}}
+  rememberedState={advancedState}
+  onRememberedStateChange={setAdvancedState}
+  onCancel={closeAdvanced}
+  onSubmit={applyAdvancedSearch}
+/>
     </aside>
   );
 }
