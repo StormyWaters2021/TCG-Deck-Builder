@@ -258,24 +258,67 @@ function parse(tokens) {
   return expr;
 }
 
+function isBlankValue(v) {
+  if (v === undefined || v === null) return true;
+  if (Array.isArray(v)) return v.length === 0 || v.every(isBlankValue);
+  return String(v).trim() === "";
+}
+
+function getValuesForProperty(card, property, includeAlternates) {
+  const out = [];
+
+  const push = (v) => {
+    if (v === undefined || v === null) return;
+    if (Array.isArray(v)) {
+      for (const x of v) push(x);
+      return;
+    }
+    const s = typeof v === "string" ? v : v.toString?.() ?? "";
+    if (s.trim() !== "") out.push(s);
+  };
+
+  // base value
+  push(card?.[property]);
+
+  // alternates values (same property)
+  if (includeAlternates && Array.isArray(card?.alternates)) {
+    for (const alt of card.alternates) push(alt?.[property]);
+  }
+
+  return out; // array of non-empty strings
+}
+
+function hasAnyValueForProperty(card, property, includeAlternates) {
+  // used for any/none checks
+  const base = card?.[property];
+  if (!isBlankValue(base)) return true;
+
+  if (includeAlternates && Array.isArray(card?.alternates)) {
+    for (const alt of card.alternates) {
+      if (!isBlankValue(alt?.[property])) return true;
+    }
+  }
+  return false;
+}
+
+
 // Evaluate the expression tree for a card
 function evaluate(node, card, searchPrefixes) {
   switch (node.type) {
-    case 'TERM': {
-      let property = 'name';
+    case "TERM": {
+      let property = "name";
       let value = node.term;
 
       // Handle prefix (case-insensitive), including quoted or parenthesized values.
-      let prefixMatch = value.match(/^([^\s:]+):([\s\S]+)$/);
+      const prefixMatch = value.match(/^([^\s:]+):([\s\S]+)$/);
       if (prefixMatch) {
-        // Support trailing colon or not (normalize)
-        const prefix = prefixMatch[1].replace(/:$/, '').toLowerCase();
+        const prefix = prefixMatch[1].replace(/:$/, "").toLowerCase();
         value = prefixMatch[2].trim();
 
         // Remove outer quotes or parentheses if present
         if (
           (value.startsWith('"') && value.endsWith('"')) ||
-          (value.startsWith('(') && value.endsWith(')'))
+          (value.startsWith("(") && value.endsWith(")"))
         ) {
           value = value.slice(1, -1);
         }
@@ -288,7 +331,7 @@ function evaluate(node, card, searchPrefixes) {
 
         // Find the actual property in the card, case-insensitive
         const realProperty = Object.keys(card).find(
-          k => k.toLowerCase() === property.toLowerCase()
+          (k) => k.toLowerCase() === property.toLowerCase()
         );
         if (realProperty) property = realProperty;
       } else {
@@ -299,89 +342,83 @@ function evaluate(node, card, searchPrefixes) {
 
         // Find actual 'name' property in card, case-insensitive
         const realProperty = Object.keys(card).find(
-          k => k.toLowerCase() === property.toLowerCase()
+          (k) => k.toLowerCase() === property.toLowerCase()
         );
         if (realProperty) property = realProperty;
       }
 
-      // Handle (none)
       const valLower = value.trim().toLowerCase();
 
-if (valLower === 'none' || valLower === '(none)') {
-  return (
-    card[property] === undefined ||
-    card[property] === null ||
-    (typeof card[property] === 'string' && card[property].trim() === '')
-  );
-} else if (valLower === 'any') {
-  return (
-    card[property] !== undefined &&
-    card[property] !== null &&
-    (typeof card[property] !== 'string' || card[property].trim() !== '')
-  );
-}
+      // Include alternates ONLY when this is a prefixed search
+      const isPrefixedSearch = !!node.term.match(/^([^\s:]+):/);
+      const includeAlternates = isPrefixedSearch;
 
-
-      // DEFAULT SEARCH: if no prefix, search BOTH name and subtitle fields
-      let valuesToSearch = [];
-
-      // If user did NOT specify a prefix (plain search), search name and subtitle fields
-      if (
-        property.toLowerCase() === "name" &&
-        !node.term.match(/^([^\s:]+):/)
-      ) {
-        const subtitle = card.Subtitle ?? card.subtitle ?? "";
-        valuesToSearch = [
-          card.name ?? "",
-          subtitle
-        ];
-      } else {
-        let cardVal = card[property];
-        if (Array.isArray(cardVal)) {
-          cardVal = cardVal.join(" ");
-        }
-        if (typeof cardVal !== "string") {
-          cardVal = cardVal?.toString() ?? "";
-        }
-        valuesToSearch = [cardVal];
+      if (valLower === "none" || valLower === "(none)") {
+        return !hasAnyValueForProperty(card, property, includeAlternates);
+      }
+      if (valLower === "any") {
+        return hasAnyValueForProperty(card, property, includeAlternates);
       }
 
-      // Number comparison support: only test first value (which is always the name field in plain search)
+      // Build valuesToSearch
+      let valuesToSearch = [];
+      if (property.toLowerCase() === "name" && !isPrefixedSearch) {
+        // Plain search: name + subtitle only
+        const subtitle = card.Subtitle ?? card.subtitle ?? "";
+        valuesToSearch = [card.name ?? "", subtitle];
+      } else {
+        // Prefixed searches: base + alternates
+        const vals = getValuesForProperty(card, property, includeAlternates);
+        valuesToSearch = vals.length ? vals : [""];
+      }
+
+      // Number comparison support: match if ANY candidate value satisfies the comparison
       const comparisonMatch = value.match(/^([<>]=?|=)(\d+(\.\d+)?)$/);
       if (comparisonMatch) {
         const [, operator, numStr] = comparisonMatch;
         const num = parseFloat(numStr);
 
-        const valToTest = valuesToSearch[0] ?? "";
-        const cardNum = parseFloat(valToTest);
-        if (isNaN(cardNum)) return false;
-        switch (operator) {
-          case '=': return cardNum === num;
-          case '<': return cardNum < num;
-          case '>': return cardNum > num;
-          case '<=': return cardNum <= num;
-          case '>=': return cardNum >= num;
-          default: return false;
-        }
+        return valuesToSearch.some((v) => {
+          const cardNum = parseFloat(String(v ?? ""));
+          if (isNaN(cardNum)) return false;
+          switch (operator) {
+            case "=":
+              return cardNum === num;
+            case "<":
+              return cardNum < num;
+            case ">":
+              return cardNum > num;
+            case "<=":
+              return cardNum <= num;
+            case ">=":
+              return cardNum >= num;
+            default:
+              return false;
+          }
+        });
       }
 
       // Regular text search: match if ANY value contains the query
-      return valuesToSearch.some(val =>
-  String(val ?? '').toLowerCase().includes(value.toLowerCase())
-);
+      return valuesToSearch.some((val) =>
+        String(val ?? "").toLowerCase().includes(value.toLowerCase())
+      );
     }
-    case 'NOT':
+
+    case "NOT":
       return !evaluate(node.term, card, searchPrefixes);
-    case 'AND':
+
+    case "AND":
       return (
         evaluate(node.left, card, searchPrefixes) &&
         evaluate(node.right, card, searchPrefixes)
       );
-    case 'OR':
+
+    case "OR":
       return (
         evaluate(node.left, card, searchPrefixes) ||
         evaluate(node.right, card, searchPrefixes)
       );
+
     default:
       return true;
   }

@@ -1,34 +1,59 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, useMemo, useState } from "react";
 
-// Resolve a URL for a given side
-function getCardImageUrlForSide(card, game, side) {
+// Build the ordered list of faces we can show for this card.
+// - front (card.image)
+// - alternates (card.alternates[].image) using alt.type as key if possible
+// - back (card.backimage)
+// - unfold (card.unfoldimage)
+function buildFaces(card) {
+  if (!card) return [];
+
+  const faces = [];
+
+  if (card.image) faces.push({ key: "front", img: card.image });
+
+  if (Array.isArray(card.alternates)) {
+    card.alternates.forEach((alt, idx) => {
+      const img = alt?.image;
+      if (!img) return;
+      const key =
+        (typeof alt?.type === "string" && alt.type.trim()) ? alt.type.trim() : `alt_${idx}`;
+      faces.push({ key, img });
+    });
+  }
+
+  if (card.backimage) faces.push({ key: "back", img: card.backimage });
+  if (card.unfoldimage) faces.push({ key: "unfold", img: card.unfoldimage });
+
+  // De-dupe by key then by image (avoids duplicates if data repeats)
+  const seenKeys = new Set();
+  const seenImgs = new Set();
+  return faces.filter(f => {
+    if (!f?.img) return false;
+    if (seenKeys.has(f.key)) return false;
+    if (seenImgs.has(f.img)) return false;
+    seenKeys.add(f.key);
+    seenImgs.add(f.img);
+    return true;
+  });
+}
+
+// Resolve a URL for a given face key
+function getCardImageUrlForFace(card, game, faceKey) {
   if (!card) return null;
-  let img = null;
-  if (side === "front") img = card.image;
-  else if (side === "back") img = card.backimage;
-  else if (side === "unfold") img = card.unfoldimage;
+  const faces = buildFaces(card);
+  const face = faces.find(f => f.key === faceKey) || faces[0];
+  const img = face?.img || null;
   if (!img) return null;
   return `https://tcgbuilder.net/images/${game}/${img}`;
 }
 
-const ORDER = ["front", "back", "unfold"];
-
-function hasPropForSide(card, side) {
-  if (!card) return false;
-  if (side === "front") return !!card.image;
-  if (side === "back") return !!card.backimage;
-  if (side === "unfold") return !!card.unfoldimage;
-  return false;
-}
-
-// Find the next available side based on the order, skipping absent properties
-function nextAvailableSide(card, current) {
-  const idx = ORDER.indexOf(current);
-  for (let step = 1; step <= ORDER.length; step++) {
-    const candidate = ORDER[(idx + step) % ORDER.length];
-    if (hasPropForSide(card, candidate)) return candidate;
-  }
-  return current; // fallback if nothing else available
+// Find the next available face based on current faces list
+function nextFaceKey(faces, currentKey) {
+  if (!faces || faces.length <= 1) return currentKey;
+  const idx = faces.findIndex(f => f.key === currentKey);
+  const start = idx >= 0 ? idx : 0;
+  return faces[(start + 1) % faces.length].key;
 }
 
 // Canvas helpers for text fallback
@@ -96,17 +121,16 @@ function CardPreview({
   const [imageError, setImageError] = useState(false);
   const [enlarged, setEnlarged] = useState(false);
 
-  // Track fallback-per-side so one failing side doesn't affect others
-  const [usedMissing, setUsedMissing] = useState({
-    front: false,
-    back: false,
-    unfold: false,
-  });
+  // Track fallback-per-face so one failing face doesn't affect others
+  const [usedMissing, setUsedMissing] = useState({});
 
-  // Current side (front/back/unfold)
-  const [side, setSide] = useState("front");
+  // Current face key (front/back/unfold/alt...)
+  const [faceKey, setFaceKey] = useState("front");
 
   const canvasRef = useRef();
+
+  const faces = useMemo(() => buildFaces(card), [card]);
+  const canFlip = faces.length > 1;
 
   // Vite base (handles dev/preview/subpath)
   const BASE =
@@ -119,16 +143,17 @@ function CardPreview({
   useEffect(() => {
     setImageError(false);
     setEnlarged(false);
-    setUsedMissing({ front: false, back: false, unfold: false });
-    // Start at front if available; else move to first available side
-    setSide(hasPropForSide(card, "front") ? "front" : nextAvailableSide(card, "front"));
-  }, [card, game]);
+    setUsedMissing({});
+    // Start at front if present; else first available face
+    const start = faces.find(f => f.key === "front")?.key || faces[0]?.key || "front";
+    setFaceKey(start);
+  }, [card, game]); // intentional: reset only when selection changes
 
   const missingUrl = `${BASE}games/${game}/art/missing_card.jpg`;
-  const currentUsedMissing = usedMissing[side];
+  const currentUsedMissing = !!usedMissing[faceKey];
 
   const imageUrl = !currentUsedMissing
-    ? getCardImageUrlForSide(card, game, side)
+    ? getCardImageUrlForFace(card, game, faceKey)
     : missingUrl;
 
   // Draw canvas fallback if we can't load an image at all
@@ -145,13 +170,11 @@ function CardPreview({
   const width = 200;
   const height = 300;
 
-  const canFlip =
-    hasPropForSide(card, "back") || hasPropForSide(card, "unfold");
-
   const handleFlip = () => {
     if (!card) return;
-    const next = nextAvailableSide(card, side);
-    setSide(next);
+    const next = nextFaceKey(faces, faceKey);
+    setFaceKey(next);
+    setImageError(false);
   };
 
   // No card selected
@@ -215,9 +238,7 @@ function CardPreview({
               margin: 0,
             }}
           />
-          {quantity !== null && (
-            <span className="card-qty-badge">×{quantity}</span>
-          )}
+          {quantity !== null && <span className="card-qty-badge">×{quantity}</span>}
           {showButtons && (
             <div className="card-qty-btns">
               <button className="card-modify-btn" onClick={onRemove}>
@@ -236,7 +257,6 @@ function CardPreview({
           </div>
         )}
 
-        {/* Flip button (only if there is at least one alternative side) */}
         {canFlip && (
           <div style={{ textAlign: "center", marginTop: "4px" }}>
             <button onClick={handleFlip} className="card-modify-btn">
@@ -245,7 +265,6 @@ function CardPreview({
           </div>
         )}
 
-        {/* Extra data */}
         {Array.isArray(extraData) && extraData.length > 0 && (
           <div
             className="card-extra-data"
@@ -301,9 +320,9 @@ function CardPreview({
           }}
           onClick={() => setEnlarged(true)}
           onError={() => {
-            // First failure -> use missing image for this side. If missing also fails -> canvas.
+            // First failure -> use missing image for this face. If missing also fails -> canvas.
             if (!currentUsedMissing) {
-              setUsedMissing((prev) => ({ ...prev, [side]: true }));
+              setUsedMissing((prev) => ({ ...prev, [faceKey]: true }));
               setImageError(false);
             } else {
               setImageError(true);
@@ -312,9 +331,7 @@ function CardPreview({
           title="Click to enlarge"
         />
 
-        {quantity !== null && (
-          <span className="card-qty-badge">×{quantity}</span>
-        )}
+        {quantity !== null && <span className="card-qty-badge">×{quantity}</span>}
 
         {showButtons && (
           <div className="card-qty-btns">
@@ -374,7 +391,6 @@ function CardPreview({
               ×
             </button>
 
-            {/* Flip button inside modal (only if alternatives exist) */}
             {canFlip && (
               <button
                 onClick={handleFlip}
@@ -394,7 +410,6 @@ function CardPreview({
         </div>
       )}
 
-      {/* Flip button below preview (only if alternatives exist) */}
       {canFlip && (
         <div style={{ textAlign: "center", marginTop: "4px" }}>
           <button onClick={handleFlip} className="card-modify-btn">
@@ -403,7 +418,6 @@ function CardPreview({
         </div>
       )}
 
-      {/* Extra data below everything */}
       {Array.isArray(extraData) && extraData.length > 0 && (
         <div
           className="card-extra-data"

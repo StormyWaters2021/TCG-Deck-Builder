@@ -1,0 +1,3182 @@
+[
+  {
+    "id": "015a6c98-4f2a-409f-a10e-8214e3ee5a22",
+    "name": "Dragonmount",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Black (Death)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Cavalry",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "015a6c98-4f2a-409f-a10e-8214e3ee5a22.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "015a6c98-4f2a-409f-a10e-8214e3ee5a22.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "015a6c98-4f2a-409f-a10e-8214e3ee5a22.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "015a6c98-4f2a-409f-a10e-8214e3ee5a22.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "015a6c98-4f2a-409f-a10e-8214e3ee5a22.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "56",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "015a6c98-4f2a-409f-a10e-8214e3ee5a22.png"
+  },
+  {
+    "id": "03742e7a-8f72-4d04-bedb-7f217235557d",
+    "name": "Dragonsteed",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Black (Death)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Cavalry",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "03742e7a-8f72-4d04-bedb-7f217235557d.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "03742e7a-8f72-4d04-bedb-7f217235557d.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "03742e7a-8f72-4d04-bedb-7f217235557d.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "03742e7a-8f72-4d04-bedb-7f217235557d.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "03742e7a-8f72-4d04-bedb-7f217235557d.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "57",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "03742e7a-8f72-4d04-bedb-7f217235557d.png"
+  },
+  {
+    "id": "03e98dfb-cea9-4db0-8a69-a85e4ace8e0c",
+    "name": "Dragonstallion",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Black (Death)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Cavalry",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "03e98dfb-cea9-4db0-8a69-a85e4ace8e0c.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "03e98dfb-cea9-4db0-8a69-a85e4ace8e0c.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "03e98dfb-cea9-4db0-8a69-a85e4ace8e0c.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Trample",
+        "image": "03e98dfb-cea9-4db0-8a69-a85e4ace8e0c.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "03e98dfb-cea9-4db0-8a69-a85e4ace8e0c.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "58",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "03e98dfb-cea9-4db0-8a69-a85e4ace8e0c.png"
+  },
+  {
+    "id": "0e986a14-6d9f-458b-9882-efc0b7119638",
+    "name": "Dragontroop",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Black (Death)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Heavy Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "0e986a14-6d9f-458b-9882-efc0b7119638.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "0e986a14-6d9f-458b-9882-efc0b7119638.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "0e986a14-6d9f-458b-9882-efc0b7119638.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "0e986a14-6d9f-458b-9882-efc0b7119638.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "0e986a14-6d9f-458b-9882-efc0b7119638.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "59",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "0e986a14-6d9f-458b-9882-efc0b7119638.png"
+  },
+  {
+    "id": "0f7b3604-1f41-4a85-8ad1-b9ce5bfafda2",
+    "name": "Dragonhero",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Black (Death)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Heavy Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "0f7b3604-1f41-4a85-8ad1-b9ce5bfafda2.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "0f7b3604-1f41-4a85-8ad1-b9ce5bfafda2.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "0f7b3604-1f41-4a85-8ad1-b9ce5bfafda2.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "1 Maneuver",
+        "image": "0f7b3604-1f41-4a85-8ad1-b9ce5bfafda2.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "0f7b3604-1f41-4a85-8ad1-b9ce5bfafda2.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5A",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "0f7b3604-1f41-4a85-8ad1-b9ce5bfafda2.png"
+  },
+  {
+    "id": "1bda2b3d-2025-405b-8070-ee4a0352798a",
+    "name": "Dragonchamp",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Black (Death)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Heavy Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "1bda2b3d-2025-405b-8070-ee4a0352798a.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "2 Maneuver",
+        "image": "1bda2b3d-2025-405b-8070-ee4a0352798a.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "4 Melee",
+        "image": "1bda2b3d-2025-405b-8070-ee4a0352798a.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "1bda2b3d-2025-405b-8070-ee4a0352798a.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "1bda2b3d-2025-405b-8070-ee4a0352798a.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5B",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "1bda2b3d-2025-405b-8070-ee4a0352798a.png"
+  },
+  {
+    "id": "1e7fa76c-af18-491a-94f3-afd2ca80f179",
+    "name": "Dragonvictor",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Black (Death)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Heavy Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "1e7fa76c-af18-491a-94f3-afd2ca80f179.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Rend",
+        "image": "1e7fa76c-af18-491a-94f3-afd2ca80f179.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "1e7fa76c-af18-491a-94f3-afd2ca80f179.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Counter",
+        "image": "1e7fa76c-af18-491a-94f3-afd2ca80f179.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "1e7fa76c-af18-491a-94f3-afd2ca80f179.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5C",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "1e7fa76c-af18-491a-94f3-afd2ca80f179.png"
+  },
+  {
+    "id": "265d4c13-5a70-4e38-bb89-9a9e61780f3a",
+    "name": "Dragonscout",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Black (Death)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Light Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "265d4c13-5a70-4e38-bb89-9a9e61780f3a.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "265d4c13-5a70-4e38-bb89-9a9e61780f3a.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "265d4c13-5a70-4e38-bb89-9a9e61780f3a.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "265d4c13-5a70-4e38-bb89-9a9e61780f3a.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "265d4c13-5a70-4e38-bb89-9a9e61780f3a.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5D",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "265d4c13-5a70-4e38-bb89-9a9e61780f3a.png"
+  },
+  {
+    "id": "2c97384f-586e-4736-82cb-f83367e119ca",
+    "name": "Dragonsentry",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Black (Death)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Light Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "2c97384f-586e-4736-82cb-f83367e119ca.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "2c97384f-586e-4736-82cb-f83367e119ca.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "2c97384f-586e-4736-82cb-f83367e119ca.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "2c97384f-586e-4736-82cb-f83367e119ca.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "2c97384f-586e-4736-82cb-f83367e119ca.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5E",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "2c97384f-586e-4736-82cb-f83367e119ca.png"
+  },
+  {
+    "id": "33aeb01d-cbcc-4993-89f1-11e5c6a359a8",
+    "name": "Dragonspy",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Black (Death)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Light Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "33aeb01d-cbcc-4993-89f1-11e5c6a359a8.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "33aeb01d-cbcc-4993-89f1-11e5c6a359a8.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "33aeb01d-cbcc-4993-89f1-11e5c6a359a8.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "33aeb01d-cbcc-4993-89f1-11e5c6a359a8.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "33aeb01d-cbcc-4993-89f1-11e5c6a359a8.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5F",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "33aeb01d-cbcc-4993-89f1-11e5c6a359a8.png"
+  },
+  {
+    "id": "36a51f91-8e8c-412f-bd82-28010bf9bcbc",
+    "name": "Dragonvedette",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Black (Death)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Light Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "36a51f91-8e8c-412f-bd82-28010bf9bcbc.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "36a51f91-8e8c-412f-bd82-28010bf9bcbc.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "36a51f91-8e8c-412f-bd82-28010bf9bcbc.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Smite",
+        "image": "36a51f91-8e8c-412f-bd82-28010bf9bcbc.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "36a51f91-8e8c-412f-bd82-28010bf9bcbc.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5G",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "36a51f91-8e8c-412f-bd82-28010bf9bcbc.png"
+  },
+  {
+    "id": "36ec45ce-0598-48a9-99f7-79f000a165c2",
+    "name": "Dragonfoal",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Blue (Air)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Cavalry",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "36ec45ce-0598-48a9-99f7-79f000a165c2.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "36ec45ce-0598-48a9-99f7-79f000a165c2.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "36ec45ce-0598-48a9-99f7-79f000a165c2.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "36ec45ce-0598-48a9-99f7-79f000a165c2.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "36ec45ce-0598-48a9-99f7-79f000a165c2.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5H",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "36ec45ce-0598-48a9-99f7-79f000a165c2.png"
+  },
+  {
+    "id": "3996ca7b-7291-4e2f-9e71-d549974c2c14",
+    "name": "Dragonmount",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Blue (Air)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Cavalry",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "3996ca7b-7291-4e2f-9e71-d549974c2c14.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "3996ca7b-7291-4e2f-9e71-d549974c2c14.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "3996ca7b-7291-4e2f-9e71-d549974c2c14.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "3996ca7b-7291-4e2f-9e71-d549974c2c14.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "3996ca7b-7291-4e2f-9e71-d549974c2c14.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5I",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "3996ca7b-7291-4e2f-9e71-d549974c2c14.png"
+  },
+  {
+    "id": "48f79f49-d0f0-454d-be3a-5474d9ce1900",
+    "name": "Dragonsteed",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Blue (Air)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Cavalry",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "48f79f49-d0f0-454d-be3a-5474d9ce1900.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "48f79f49-d0f0-454d-be3a-5474d9ce1900.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "48f79f49-d0f0-454d-be3a-5474d9ce1900.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "48f79f49-d0f0-454d-be3a-5474d9ce1900.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "48f79f49-d0f0-454d-be3a-5474d9ce1900.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5J",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "48f79f49-d0f0-454d-be3a-5474d9ce1900.png"
+  },
+  {
+    "id": "4ef697e9-72ef-415e-ad56-fb4b8eb0f46d",
+    "name": "Dragonstallion",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Blue (Air)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Cavalry",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "4ef697e9-72ef-415e-ad56-fb4b8eb0f46d.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "4ef697e9-72ef-415e-ad56-fb4b8eb0f46d.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "4ef697e9-72ef-415e-ad56-fb4b8eb0f46d.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Trample",
+        "image": "4ef697e9-72ef-415e-ad56-fb4b8eb0f46d.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "4ef697e9-72ef-415e-ad56-fb4b8eb0f46d.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5K",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "4ef697e9-72ef-415e-ad56-fb4b8eb0f46d.png"
+  },
+  {
+    "id": "557ceb34-3c3e-4846-a6a1-598806168e87",
+    "name": "Dragontroop",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Blue (Air)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Heavy Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "557ceb34-3c3e-4846-a6a1-598806168e87.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "557ceb34-3c3e-4846-a6a1-598806168e87.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "557ceb34-3c3e-4846-a6a1-598806168e87.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "557ceb34-3c3e-4846-a6a1-598806168e87.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "557ceb34-3c3e-4846-a6a1-598806168e87.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5L",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "557ceb34-3c3e-4846-a6a1-598806168e87.png"
+  },
+  {
+    "id": "58099842-230b-4a87-9320-5f18e2e4e827",
+    "name": "Dragonhero",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Blue (Air)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Heavy Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "58099842-230b-4a87-9320-5f18e2e4e827.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "58099842-230b-4a87-9320-5f18e2e4e827.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "58099842-230b-4a87-9320-5f18e2e4e827.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "1 Maneuver",
+        "image": "58099842-230b-4a87-9320-5f18e2e4e827.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "58099842-230b-4a87-9320-5f18e2e4e827.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5M",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "58099842-230b-4a87-9320-5f18e2e4e827.png"
+  },
+  {
+    "id": "5aeff5bb-69ea-4f39-91c1-998c8fa3b252",
+    "name": "Dragonchamp",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Blue (Air)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Heavy Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "5aeff5bb-69ea-4f39-91c1-998c8fa3b252.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "2 Maneuver",
+        "image": "5aeff5bb-69ea-4f39-91c1-998c8fa3b252.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "4 Melee",
+        "image": "5aeff5bb-69ea-4f39-91c1-998c8fa3b252.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "5aeff5bb-69ea-4f39-91c1-998c8fa3b252.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "5aeff5bb-69ea-4f39-91c1-998c8fa3b252.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5N",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "5aeff5bb-69ea-4f39-91c1-998c8fa3b252.png"
+  },
+  {
+    "id": "5d91bcad-bf53-48da-ba40-d25e28bd5106",
+    "name": "Dragonvictor",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Blue (Air)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Heavy Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "5d91bcad-bf53-48da-ba40-d25e28bd5106.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Rend",
+        "image": "5d91bcad-bf53-48da-ba40-d25e28bd5106.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "5d91bcad-bf53-48da-ba40-d25e28bd5106.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Counter",
+        "image": "5d91bcad-bf53-48da-ba40-d25e28bd5106.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "5d91bcad-bf53-48da-ba40-d25e28bd5106.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5O",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "5d91bcad-bf53-48da-ba40-d25e28bd5106.png"
+  },
+  {
+    "id": "61435801-1573-4315-b75a-b6fa6d440603",
+    "name": "Dragonscout",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Blue (Air)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Light Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "61435801-1573-4315-b75a-b6fa6d440603.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "61435801-1573-4315-b75a-b6fa6d440603.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "61435801-1573-4315-b75a-b6fa6d440603.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "61435801-1573-4315-b75a-b6fa6d440603.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "61435801-1573-4315-b75a-b6fa6d440603.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5P",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "61435801-1573-4315-b75a-b6fa6d440603.png"
+  },
+  {
+    "id": "62154e17-fcd7-42fa-a73b-3701220b05b3",
+    "name": "Dragonsentry",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Blue (Air)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Light Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "62154e17-fcd7-42fa-a73b-3701220b05b3.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "62154e17-fcd7-42fa-a73b-3701220b05b3.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "62154e17-fcd7-42fa-a73b-3701220b05b3.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "62154e17-fcd7-42fa-a73b-3701220b05b3.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "62154e17-fcd7-42fa-a73b-3701220b05b3.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5Q",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "62154e17-fcd7-42fa-a73b-3701220b05b3.png"
+  },
+  {
+    "id": "6340c429-3b03-4565-95ae-5ba69af3bbfe",
+    "name": "Dragonspy",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Blue (Air)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Light Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "6340c429-3b03-4565-95ae-5ba69af3bbfe.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "6340c429-3b03-4565-95ae-5ba69af3bbfe.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "6340c429-3b03-4565-95ae-5ba69af3bbfe.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "6340c429-3b03-4565-95ae-5ba69af3bbfe.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "6340c429-3b03-4565-95ae-5ba69af3bbfe.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5R",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "6340c429-3b03-4565-95ae-5ba69af3bbfe.png"
+  },
+  {
+    "id": "63d47733-3df4-4d37-bb71-f7926e02f546",
+    "name": "Dragonvedette",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Blue (Air)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Light Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "63d47733-3df4-4d37-bb71-f7926e02f546.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "63d47733-3df4-4d37-bb71-f7926e02f546.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "63d47733-3df4-4d37-bb71-f7926e02f546.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Smite",
+        "image": "63d47733-3df4-4d37-bb71-f7926e02f546.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "63d47733-3df4-4d37-bb71-f7926e02f546.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5S",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "63d47733-3df4-4d37-bb71-f7926e02f546.png"
+  },
+  {
+    "id": "651126d4-f340-4d5c-be5c-445bb124230f",
+    "name": "Dragonfoal",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Green (Water)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Cavalry",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "651126d4-f340-4d5c-be5c-445bb124230f.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "651126d4-f340-4d5c-be5c-445bb124230f.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "651126d4-f340-4d5c-be5c-445bb124230f.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "651126d4-f340-4d5c-be5c-445bb124230f.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "651126d4-f340-4d5c-be5c-445bb124230f.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5T",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "651126d4-f340-4d5c-be5c-445bb124230f.png"
+  },
+  {
+    "id": "6f5abd8f-b096-46e2-8c01-7bc7d9d63bcf",
+    "name": "Dragonmount",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Green (Water)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Cavalry",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "6f5abd8f-b096-46e2-8c01-7bc7d9d63bcf.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "6f5abd8f-b096-46e2-8c01-7bc7d9d63bcf.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "6f5abd8f-b096-46e2-8c01-7bc7d9d63bcf.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "6f5abd8f-b096-46e2-8c01-7bc7d9d63bcf.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "6f5abd8f-b096-46e2-8c01-7bc7d9d63bcf.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5U",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "6f5abd8f-b096-46e2-8c01-7bc7d9d63bcf.png"
+  },
+  {
+    "id": "711e8b2f-5c74-45b8-9245-b1e8fa47d030",
+    "name": "Dragonsteed",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Green (Water)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Cavalry",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "711e8b2f-5c74-45b8-9245-b1e8fa47d030.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "711e8b2f-5c74-45b8-9245-b1e8fa47d030.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "711e8b2f-5c74-45b8-9245-b1e8fa47d030.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "711e8b2f-5c74-45b8-9245-b1e8fa47d030.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "711e8b2f-5c74-45b8-9245-b1e8fa47d030.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5V",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "711e8b2f-5c74-45b8-9245-b1e8fa47d030.png"
+  },
+  {
+    "id": "72289886-32ec-4b0a-b3c8-6fe1b3f6272f",
+    "name": "Dragonstallion",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Green (Water)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Cavalry",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "72289886-32ec-4b0a-b3c8-6fe1b3f6272f.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "72289886-32ec-4b0a-b3c8-6fe1b3f6272f.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "72289886-32ec-4b0a-b3c8-6fe1b3f6272f.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Trample",
+        "image": "72289886-32ec-4b0a-b3c8-6fe1b3f6272f.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "72289886-32ec-4b0a-b3c8-6fe1b3f6272f.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5W",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "72289886-32ec-4b0a-b3c8-6fe1b3f6272f.png"
+  },
+  {
+    "id": "72d9c054-aef5-4955-b647-32b0afdf3dbf",
+    "name": "Dragontroop",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Green (Water)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Heavy Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "72d9c054-aef5-4955-b647-32b0afdf3dbf.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "72d9c054-aef5-4955-b647-32b0afdf3dbf.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "72d9c054-aef5-4955-b647-32b0afdf3dbf.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "72d9c054-aef5-4955-b647-32b0afdf3dbf.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "72d9c054-aef5-4955-b647-32b0afdf3dbf.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5X",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "72d9c054-aef5-4955-b647-32b0afdf3dbf.png"
+  },
+  {
+    "id": "7379251f-729b-470a-8d99-0d4ca03c97d2",
+    "name": "Dragonhero",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Green (Water)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Heavy Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "7379251f-729b-470a-8d99-0d4ca03c97d2.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "7379251f-729b-470a-8d99-0d4ca03c97d2.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "7379251f-729b-470a-8d99-0d4ca03c97d2.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "1 Maneuver",
+        "image": "7379251f-729b-470a-8d99-0d4ca03c97d2.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "7379251f-729b-470a-8d99-0d4ca03c97d2.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5Y",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "7379251f-729b-470a-8d99-0d4ca03c97d2.png"
+  },
+  {
+    "id": "73d83bfe-90c3-4327-b366-b3dbba2e2105",
+    "name": "Dragonchamp",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Green (Water)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Heavy Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "73d83bfe-90c3-4327-b366-b3dbba2e2105.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "2 Maneuver",
+        "image": "73d83bfe-90c3-4327-b366-b3dbba2e2105.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "4 Melee",
+        "image": "73d83bfe-90c3-4327-b366-b3dbba2e2105.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "73d83bfe-90c3-4327-b366-b3dbba2e2105.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "73d83bfe-90c3-4327-b366-b3dbba2e2105.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5Z",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "73d83bfe-90c3-4327-b366-b3dbba2e2105.png"
+  },
+  {
+    "id": "76c42b0d-5ac8-4370-a911-bab3387cceba",
+    "name": "Dragonvictor",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Green (Water)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Heavy Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "76c42b0d-5ac8-4370-a911-bab3387cceba.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Rend",
+        "image": "76c42b0d-5ac8-4370-a911-bab3387cceba.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "76c42b0d-5ac8-4370-a911-bab3387cceba.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Counter",
+        "image": "76c42b0d-5ac8-4370-a911-bab3387cceba.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "76c42b0d-5ac8-4370-a911-bab3387cceba.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5a",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "76c42b0d-5ac8-4370-a911-bab3387cceba.png"
+  },
+  {
+    "id": "847d978e-0158-4109-97f3-5a553a981e17",
+    "name": "Dragonscout",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Green (Water)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Light Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "847d978e-0158-4109-97f3-5a553a981e17.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "847d978e-0158-4109-97f3-5a553a981e17.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "847d978e-0158-4109-97f3-5a553a981e17.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "847d978e-0158-4109-97f3-5a553a981e17.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "847d978e-0158-4109-97f3-5a553a981e17.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5b",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "847d978e-0158-4109-97f3-5a553a981e17.png"
+  },
+  {
+    "id": "860cf84f-b95c-443f-879a-602b9a916ebb",
+    "name": "Dragonsentry",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Green (Water)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Light Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "860cf84f-b95c-443f-879a-602b9a916ebb.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "860cf84f-b95c-443f-879a-602b9a916ebb.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "860cf84f-b95c-443f-879a-602b9a916ebb.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "860cf84f-b95c-443f-879a-602b9a916ebb.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "860cf84f-b95c-443f-879a-602b9a916ebb.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5c",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "860cf84f-b95c-443f-879a-602b9a916ebb.png"
+  },
+  {
+    "id": "895d36e9-5b36-40b9-a9ea-43ebe0dd5f96",
+    "name": "Dragonspy",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Green (Water)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Light Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "895d36e9-5b36-40b9-a9ea-43ebe0dd5f96.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "895d36e9-5b36-40b9-a9ea-43ebe0dd5f96.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "895d36e9-5b36-40b9-a9ea-43ebe0dd5f96.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "895d36e9-5b36-40b9-a9ea-43ebe0dd5f96.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "895d36e9-5b36-40b9-a9ea-43ebe0dd5f96.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5d",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "895d36e9-5b36-40b9-a9ea-43ebe0dd5f96.png"
+  },
+  {
+    "id": "8c95d63f-8cf3-4fda-9edb-70e9a1a7eebb",
+    "name": "Dragonfoal",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Black (Death)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Cavalry",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "8c95d63f-8cf3-4fda-9edb-70e9a1a7eebb.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "8c95d63f-8cf3-4fda-9edb-70e9a1a7eebb.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "8c95d63f-8cf3-4fda-9edb-70e9a1a7eebb.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "8c95d63f-8cf3-4fda-9edb-70e9a1a7eebb.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "8c95d63f-8cf3-4fda-9edb-70e9a1a7eebb.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5e",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "8c95d63f-8cf3-4fda-9edb-70e9a1a7eebb.png"
+  },
+  {
+    "id": "91d79ead-d22f-4c27-901c-9b1b626524f9",
+    "name": "Dragonvedette",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Green (Water)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Light Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "91d79ead-d22f-4c27-901c-9b1b626524f9.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "91d79ead-d22f-4c27-901c-9b1b626524f9.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "91d79ead-d22f-4c27-901c-9b1b626524f9.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Smite",
+        "image": "91d79ead-d22f-4c27-901c-9b1b626524f9.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "91d79ead-d22f-4c27-901c-9b1b626524f9.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5f",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "91d79ead-d22f-4c27-901c-9b1b626524f9.png"
+  },
+  {
+    "id": "93f280dc-269f-413d-b1b6-bcf640509b99",
+    "name": "Dragonfoal",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Red (Fire)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Cavalry",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "93f280dc-269f-413d-b1b6-bcf640509b99.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "93f280dc-269f-413d-b1b6-bcf640509b99.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "93f280dc-269f-413d-b1b6-bcf640509b99.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "93f280dc-269f-413d-b1b6-bcf640509b99.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "93f280dc-269f-413d-b1b6-bcf640509b99.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5g",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "93f280dc-269f-413d-b1b6-bcf640509b99.png"
+  },
+  {
+    "id": "97d85d24-c677-4bc8-939c-7d92ff222bb6",
+    "name": "Dragonmount",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Red (Fire)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Cavalry",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "97d85d24-c677-4bc8-939c-7d92ff222bb6.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "97d85d24-c677-4bc8-939c-7d92ff222bb6.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "97d85d24-c677-4bc8-939c-7d92ff222bb6.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "97d85d24-c677-4bc8-939c-7d92ff222bb6.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "97d85d24-c677-4bc8-939c-7d92ff222bb6.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5h",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "97d85d24-c677-4bc8-939c-7d92ff222bb6.png"
+  },
+  {
+    "id": "9a81998d-5013-44ad-87af-3909c93e4dc4",
+    "name": "Dragonsteed",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Red (Fire)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Cavalry",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "9a81998d-5013-44ad-87af-3909c93e4dc4.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "9a81998d-5013-44ad-87af-3909c93e4dc4.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "9a81998d-5013-44ad-87af-3909c93e4dc4.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "9a81998d-5013-44ad-87af-3909c93e4dc4.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "9a81998d-5013-44ad-87af-3909c93e4dc4.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5i",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "9a81998d-5013-44ad-87af-3909c93e4dc4.png"
+  },
+  {
+    "id": "9e145a0d-7d91-45e7-93c4-ba972e66bf38",
+    "name": "Dragonstallion",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Red (Fire)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Cavalry",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "9e145a0d-7d91-45e7-93c4-ba972e66bf38.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "9e145a0d-7d91-45e7-93c4-ba972e66bf38.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "9e145a0d-7d91-45e7-93c4-ba972e66bf38.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Trample",
+        "image": "9e145a0d-7d91-45e7-93c4-ba972e66bf38.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "9e145a0d-7d91-45e7-93c4-ba972e66bf38.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5j",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "9e145a0d-7d91-45e7-93c4-ba972e66bf38.png"
+  },
+  {
+    "id": "9fce5b2e-bbc9-4d0f-b473-ed9834218c12",
+    "name": "Dragontroop",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Red (Fire)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Heavy Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "9fce5b2e-bbc9-4d0f-b473-ed9834218c12.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "9fce5b2e-bbc9-4d0f-b473-ed9834218c12.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "9fce5b2e-bbc9-4d0f-b473-ed9834218c12.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "9fce5b2e-bbc9-4d0f-b473-ed9834218c12.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "9fce5b2e-bbc9-4d0f-b473-ed9834218c12.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5k",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "9fce5b2e-bbc9-4d0f-b473-ed9834218c12.png"
+  },
+  {
+    "id": "a18a153f-4fce-4eb6-acae-88ea30fdd58d",
+    "name": "Dragonhero",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Red (Fire)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Heavy Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "a18a153f-4fce-4eb6-acae-88ea30fdd58d.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "a18a153f-4fce-4eb6-acae-88ea30fdd58d.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "a18a153f-4fce-4eb6-acae-88ea30fdd58d.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "1 Maneuver",
+        "image": "a18a153f-4fce-4eb6-acae-88ea30fdd58d.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "a18a153f-4fce-4eb6-acae-88ea30fdd58d.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5l",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "a18a153f-4fce-4eb6-acae-88ea30fdd58d.png"
+  },
+  {
+    "id": "a1ca0d22-a8c4-43fc-b006-3c0548641cc0",
+    "name": "Dragonchamp",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Red (Fire)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Heavy Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "a1ca0d22-a8c4-43fc-b006-3c0548641cc0.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "2 Maneuver",
+        "image": "a1ca0d22-a8c4-43fc-b006-3c0548641cc0.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "4 Melee",
+        "image": "a1ca0d22-a8c4-43fc-b006-3c0548641cc0.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "a1ca0d22-a8c4-43fc-b006-3c0548641cc0.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "a1ca0d22-a8c4-43fc-b006-3c0548641cc0.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5m",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "a1ca0d22-a8c4-43fc-b006-3c0548641cc0.png"
+  },
+  {
+    "id": "a4e9d0b2-307f-451e-9c66-46e8151c32c7",
+    "name": "Dragonvictor",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Red (Fire)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Heavy Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "a4e9d0b2-307f-451e-9c66-46e8151c32c7.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Rend",
+        "image": "a4e9d0b2-307f-451e-9c66-46e8151c32c7.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "a4e9d0b2-307f-451e-9c66-46e8151c32c7.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Counter",
+        "image": "a4e9d0b2-307f-451e-9c66-46e8151c32c7.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "a4e9d0b2-307f-451e-9c66-46e8151c32c7.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5n",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "a4e9d0b2-307f-451e-9c66-46e8151c32c7.png"
+  },
+  {
+    "id": "a58feddf-21df-4bf3-b2d8-47d9310a96df",
+    "name": "Dragonscout",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Red (Fire)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Light Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "a58feddf-21df-4bf3-b2d8-47d9310a96df.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "a58feddf-21df-4bf3-b2d8-47d9310a96df.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "a58feddf-21df-4bf3-b2d8-47d9310a96df.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "a58feddf-21df-4bf3-b2d8-47d9310a96df.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "a58feddf-21df-4bf3-b2d8-47d9310a96df.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5o",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "a58feddf-21df-4bf3-b2d8-47d9310a96df.png"
+  },
+  {
+    "id": "a864a2e9-8cc2-4e78-aa5c-9c43e0b949f4",
+    "name": "Dragonsentry",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Red (Fire)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Light Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "a864a2e9-8cc2-4e78-aa5c-9c43e0b949f4.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "a864a2e9-8cc2-4e78-aa5c-9c43e0b949f4.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "a864a2e9-8cc2-4e78-aa5c-9c43e0b949f4.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "a864a2e9-8cc2-4e78-aa5c-9c43e0b949f4.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "a864a2e9-8cc2-4e78-aa5c-9c43e0b949f4.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5p",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "a864a2e9-8cc2-4e78-aa5c-9c43e0b949f4.png"
+  },
+  {
+    "id": "ae218d24-21a4-4376-bfa3-42ce006f843a",
+    "name": "Dragonspy",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Red (Fire)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Light Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "ae218d24-21a4-4376-bfa3-42ce006f843a.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "ae218d24-21a4-4376-bfa3-42ce006f843a.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "ae218d24-21a4-4376-bfa3-42ce006f843a.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "ae218d24-21a4-4376-bfa3-42ce006f843a.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "ae218d24-21a4-4376-bfa3-42ce006f843a.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5q",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "ae218d24-21a4-4376-bfa3-42ce006f843a.png"
+  },
+  {
+    "id": "b30d7efe-cc85-44ed-a66f-e5184304896e",
+    "name": "Dragonvedette",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Red (Fire)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Light Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "b30d7efe-cc85-44ed-a66f-e5184304896e.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "b30d7efe-cc85-44ed-a66f-e5184304896e.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "b30d7efe-cc85-44ed-a66f-e5184304896e.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Smite",
+        "image": "b30d7efe-cc85-44ed-a66f-e5184304896e.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "b30d7efe-cc85-44ed-a66f-e5184304896e.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5r",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "b30d7efe-cc85-44ed-a66f-e5184304896e.png"
+  },
+  {
+    "id": "b7290694-4ae0-4460-bdee-d186072d74b9",
+    "name": "Dragonfoal",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Yellow (Earth)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Cavalry",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "b7290694-4ae0-4460-bdee-d186072d74b9.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "b7290694-4ae0-4460-bdee-d186072d74b9.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "b7290694-4ae0-4460-bdee-d186072d74b9.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "b7290694-4ae0-4460-bdee-d186072d74b9.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonfoal",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "b7290694-4ae0-4460-bdee-d186072d74b9.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5s",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "b7290694-4ae0-4460-bdee-d186072d74b9.png"
+  },
+  {
+    "id": "ba9f6122-b706-4e54-a47a-38317b55001f",
+    "name": "Dragonmount",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Yellow (Earth)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Cavalry",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "ba9f6122-b706-4e54-a47a-38317b55001f.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "ba9f6122-b706-4e54-a47a-38317b55001f.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "ba9f6122-b706-4e54-a47a-38317b55001f.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "ba9f6122-b706-4e54-a47a-38317b55001f.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonmount",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "ba9f6122-b706-4e54-a47a-38317b55001f.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5t",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "ba9f6122-b706-4e54-a47a-38317b55001f.png"
+  },
+  {
+    "id": "c031f9ab-df70-49c1-a0c7-a75b4f09fa25",
+    "name": "Dragonsteed",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Yellow (Earth)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Cavalry",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "c031f9ab-df70-49c1-a0c7-a75b4f09fa25.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "c031f9ab-df70-49c1-a0c7-a75b4f09fa25.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "c031f9ab-df70-49c1-a0c7-a75b4f09fa25.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "c031f9ab-df70-49c1-a0c7-a75b4f09fa25.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonsteed",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "c031f9ab-df70-49c1-a0c7-a75b4f09fa25.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5u",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "c031f9ab-df70-49c1-a0c7-a75b4f09fa25.png"
+  },
+  {
+    "id": "c33e1880-0f27-4c6c-aedc-7ec36c46a939",
+    "name": "Dragonstallion",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Yellow (Earth)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Cavalry",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "c33e1880-0f27-4c6c-aedc-7ec36c46a939.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "c33e1880-0f27-4c6c-aedc-7ec36c46a939.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "c33e1880-0f27-4c6c-aedc-7ec36c46a939.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Trample",
+        "image": "c33e1880-0f27-4c6c-aedc-7ec36c46a939.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonstallion",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "c33e1880-0f27-4c6c-aedc-7ec36c46a939.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5v",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "c33e1880-0f27-4c6c-aedc-7ec36c46a939.png"
+  },
+  {
+    "id": "ccc9443b-8808-42e1-a0b2-7317ab4f6fd8",
+    "name": "Dragontroop",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Yellow (Earth)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Heavy Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "ccc9443b-8808-42e1-a0b2-7317ab4f6fd8.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "ccc9443b-8808-42e1-a0b2-7317ab4f6fd8.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "ccc9443b-8808-42e1-a0b2-7317ab4f6fd8.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "ccc9443b-8808-42e1-a0b2-7317ab4f6fd8.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragontroop",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "ccc9443b-8808-42e1-a0b2-7317ab4f6fd8.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5w",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "ccc9443b-8808-42e1-a0b2-7317ab4f6fd8.png"
+  },
+  {
+    "id": "d0d757a4-00e5-4374-b267-6d82fa49e78f",
+    "name": "Dragonhero",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Yellow (Earth)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Heavy Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "d0d757a4-00e5-4374-b267-6d82fa49e78f.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "d0d757a4-00e5-4374-b267-6d82fa49e78f.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "d0d757a4-00e5-4374-b267-6d82fa49e78f.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "1 Maneuver",
+        "image": "d0d757a4-00e5-4374-b267-6d82fa49e78f.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonhero",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "d0d757a4-00e5-4374-b267-6d82fa49e78f.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5x",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "d0d757a4-00e5-4374-b267-6d82fa49e78f.png"
+  },
+  {
+    "id": "d9efbd11-742c-4fbb-a527-b48600943bc4",
+    "name": "Dragonchamp",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Yellow (Earth)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Heavy Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "d9efbd11-742c-4fbb-a527-b48600943bc4.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "2 Maneuver",
+        "image": "d9efbd11-742c-4fbb-a527-b48600943bc4.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "4 Melee",
+        "image": "d9efbd11-742c-4fbb-a527-b48600943bc4.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "d9efbd11-742c-4fbb-a527-b48600943bc4.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonchamp",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "d9efbd11-742c-4fbb-a527-b48600943bc4.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5y",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "d9efbd11-742c-4fbb-a527-b48600943bc4.png"
+  },
+  {
+    "id": "dd36fd07-2f8c-4157-a0f2-baa7f3e19430",
+    "name": "Dragonvictor",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Yellow (Earth)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Heavy Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "dd36fd07-2f8c-4157-a0f2-baa7f3e19430.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Rend",
+        "image": "dd36fd07-2f8c-4157-a0f2-baa7f3e19430.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "dd36fd07-2f8c-4157-a0f2-baa7f3e19430.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Counter",
+        "image": "dd36fd07-2f8c-4157-a0f2-baa7f3e19430.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonvictor",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "dd36fd07-2f8c-4157-a0f2-baa7f3e19430.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "5z",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "dd36fd07-2f8c-4157-a0f2-baa7f3e19430.png"
+  },
+  {
+    "id": "e113aa49-6213-4ca7-9f07-01c704225b4d",
+    "name": "Dragonscout",
+    "size": "Small",
+    "Species": "Dragonkin",
+    "Element": "Yellow (Earth)",
+    "Type": "Unit",
+    "Size": "Small",
+    "Autosaves": "1",
+    "Class": "Light Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Belly",
+        "image": "e113aa49-6213-4ca7-9f07-01c704225b4d.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "e113aa49-6213-4ca7-9f07-01c704225b4d.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "e113aa49-6213-4ca7-9f07-01c704225b4d.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "e113aa49-6213-4ca7-9f07-01c704225b4d.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonscout",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "e113aa49-6213-4ca7-9f07-01c704225b4d.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "60",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "e113aa49-6213-4ca7-9f07-01c704225b4d.png"
+  },
+  {
+    "id": "e25a2767-1ace-496d-8e6f-58a6bf8e2528",
+    "name": "Dragonsentry",
+    "size": "Medium",
+    "Species": "Dragonkin",
+    "Element": "Yellow (Earth)",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Autosaves": "2",
+    "Class": "Light Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Belly",
+        "image": "e25a2767-1ace-496d-8e6f-58a6bf8e2528.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "e25a2767-1ace-496d-8e6f-58a6bf8e2528.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "e25a2767-1ace-496d-8e6f-58a6bf8e2528.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "e25a2767-1ace-496d-8e6f-58a6bf8e2528.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonsentry",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "e25a2767-1ace-496d-8e6f-58a6bf8e2528.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "61",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "e25a2767-1ace-496d-8e6f-58a6bf8e2528.png"
+  },
+  {
+    "id": "ec88c92c-ceb8-476a-b71c-34d61fef4171",
+    "name": "Dragonspy",
+    "size": "Large",
+    "Species": "Dragonkin",
+    "Element": "Yellow (Earth)",
+    "Type": "Unit",
+    "Size": "Large",
+    "Autosaves": "3",
+    "Class": "Light Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Belly",
+        "image": "ec88c92c-ceb8-476a-b71c-34d61fef4171.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "ec88c92c-ceb8-476a-b71c-34d61fef4171.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "ec88c92c-ceb8-476a-b71c-34d61fef4171.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Breath",
+        "image": "ec88c92c-ceb8-476a-b71c-34d61fef4171.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonspy",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "ec88c92c-ceb8-476a-b71c-34d61fef4171.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "62",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "ec88c92c-ceb8-476a-b71c-34d61fef4171.png"
+  },
+  {
+    "id": "fe554564-bf1e-4fae-a3a0-46d79d2b11cd",
+    "name": "Dragonvedette",
+    "size": "Champion",
+    "Species": "Dragonkin",
+    "Element": "Yellow (Earth)",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Autosaves": "4",
+    "Class": "Light Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "fe554564-bf1e-4fae-a3a0-46d79d2b11cd.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "fe554564-bf1e-4fae-a3a0-46d79d2b11cd.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "fe554564-bf1e-4fae-a3a0-46d79d2b11cd.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Smite",
+        "image": "fe554564-bf1e-4fae-a3a0-46d79d2b11cd.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Dragonvedette",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "fe554564-bf1e-4fae-a3a0-46d79d2b11cd.Alt5.png"
+      }
+    ],
+    "Set": "Dragonkin",
+    "index": "63",
+    "set_id": "0135cda7-ea5b-4c62-90d9-fbfc38c46ce5",
+    "image": "fe554564-bf1e-4fae-a3a0-46d79d2b11cd.png"
+  }
+]

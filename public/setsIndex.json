@@ -221,6 +221,16 @@
     "games/netrunner-1996/sets/03_Classic.json",
     "games/netrunner-1996/sets/04_Promos.json"
   ],
+  "sfr-dragon-dice": [
+    "games/sfr-dragon-dice/sets/Dracolem.json",
+    "games/sfr-dragon-dice/sets/Dragonkin.json",
+    "games/sfr-dragon-dice/sets/Dragons.json",
+    "games/sfr-dragon-dice/sets/Eldarim.json",
+    "games/sfr-dragon-dice/sets/Items.json",
+    "games/sfr-dragon-dice/sets/Species.json",
+    "games/sfr-dragon-dice/sets/Spell_Cards.json",
+    "games/sfr-dragon-dice/sets/Terrain.json"
+  ],
   "stargate-tcg": [
     "games/stargate-tcg/sets/Set_01_-_Base_Set.json",
     "games/stargate-tcg/sets/Set_02_-_System_Lords.json",

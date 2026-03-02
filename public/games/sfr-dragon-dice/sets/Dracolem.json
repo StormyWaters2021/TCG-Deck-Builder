@@ -1,0 +1,3278 @@
+[
+  {
+    "id": "8b1c9180-b57c-456e-9493-1bf759f2e7f0",
+    "name": "Bronze Beast Dracolem",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Cavalry",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Beast Dracolem",
+        "size": "Small",
+        "Icons": "2 Maneuver",
+        "image": "8b1c9180-b57c-456e-9493-1bf759f2e7f0.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Beast Dracolem",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "8b1c9180-b57c-456e-9493-1bf759f2e7f0.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Beast Dracolem",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "8b1c9180-b57c-456e-9493-1bf759f2e7f0.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Beast Dracolem",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "8b1c9180-b57c-456e-9493-1bf759f2e7f0.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Beast Dracolem",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "8b1c9180-b57c-456e-9493-1bf759f2e7f0.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8T",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "8b1c9180-b57c-456e-9493-1bf759f2e7f0.png"
+  },
+  {
+    "id": "8d5019f6-5834-4377-9751-a79c91554ac1",
+    "name": "Bronze Draco-Brawler",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Heavy Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Brawler",
+        "size": "Small",
+        "Icons": "2 Melee",
+        "image": "8d5019f6-5834-4377-9751-a79c91554ac1.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Brawler",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "8d5019f6-5834-4377-9751-a79c91554ac1.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Brawler",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "8d5019f6-5834-4377-9751-a79c91554ac1.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Brawler",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "8d5019f6-5834-4377-9751-a79c91554ac1.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Brawler",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "8d5019f6-5834-4377-9751-a79c91554ac1.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8U",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "8d5019f6-5834-4377-9751-a79c91554ac1.png"
+  },
+  {
+    "id": "8fb1f81a-400c-4921-918b-cd90505245c7",
+    "name": "Bronze Draco-Shielder",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Light Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Shielder",
+        "size": "Small",
+        "Icons": "2 Melee",
+        "image": "8fb1f81a-400c-4921-918b-cd90505245c7.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Shielder",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "8fb1f81a-400c-4921-918b-cd90505245c7.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Shielder",
+        "size": "Small",
+        "Icons": "1 Missile",
+        "image": "8fb1f81a-400c-4921-918b-cd90505245c7.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Shielder",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "8fb1f81a-400c-4921-918b-cd90505245c7.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Shielder",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "8fb1f81a-400c-4921-918b-cd90505245c7.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8V",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "8fb1f81a-400c-4921-918b-cd90505245c7.png"
+  },
+  {
+    "id": "90ae7935-5269-4250-abc3-a26c757897a7",
+    "name": "Bronze Draco-Mystic",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Magic",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Mystic",
+        "size": "Small",
+        "Icons": "2 Magic",
+        "image": "90ae7935-5269-4250-abc3-a26c757897a7.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Mystic",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "90ae7935-5269-4250-abc3-a26c757897a7.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Mystic",
+        "size": "Small",
+        "Icons": "1 Magic",
+        "image": "90ae7935-5269-4250-abc3-a26c757897a7.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Mystic",
+        "size": "Small",
+        "Icons": "1 Magic",
+        "image": "90ae7935-5269-4250-abc3-a26c757897a7.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Mystic",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "90ae7935-5269-4250-abc3-a26c757897a7.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8W",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "90ae7935-5269-4250-abc3-a26c757897a7.png"
+  },
+  {
+    "id": "91ea4c42-e64f-4405-bc39-74e26a80d016",
+    "name": "Bronze Draco-Hailer",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Missile",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Hailer",
+        "size": "Small",
+        "Icons": "2 Missile",
+        "image": "91ea4c42-e64f-4405-bc39-74e26a80d016.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Hailer",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "91ea4c42-e64f-4405-bc39-74e26a80d016.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Hailer",
+        "size": "Small",
+        "Icons": "1 Missile",
+        "image": "91ea4c42-e64f-4405-bc39-74e26a80d016.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Hailer",
+        "size": "Small",
+        "Icons": "1 Missile",
+        "image": "91ea4c42-e64f-4405-bc39-74e26a80d016.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Hailer",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "91ea4c42-e64f-4405-bc39-74e26a80d016.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8X",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "91ea4c42-e64f-4405-bc39-74e26a80d016.png"
+  },
+  {
+    "id": "8c3dba6f-3c20-4938-97bc-1d0ba29c65f4",
+    "name": "Bronze Saddled Dracolem",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Cavalry",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "3 Maneuver",
+        "image": "8c3dba6f-3c20-4938-97bc-1d0ba29c65f4.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "8c3dba6f-3c20-4938-97bc-1d0ba29c65f4.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "3 Maneuver",
+        "image": "8c3dba6f-3c20-4938-97bc-1d0ba29c65f4.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "8c3dba6f-3c20-4938-97bc-1d0ba29c65f4.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "8c3dba6f-3c20-4938-97bc-1d0ba29c65f4.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8Y",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "8c3dba6f-3c20-4938-97bc-1d0ba29c65f4.png"
+  },
+  {
+    "id": "8e27db5a-7f21-456f-a03c-1e58ebe18d76",
+    "name": "Bronze Draco-Tank",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Heavy Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Tank",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "8e27db5a-7f21-456f-a03c-1e58ebe18d76.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Tank",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "8e27db5a-7f21-456f-a03c-1e58ebe18d76.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Tank",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "8e27db5a-7f21-456f-a03c-1e58ebe18d76.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Tank",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "8e27db5a-7f21-456f-a03c-1e58ebe18d76.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Tank",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "8e27db5a-7f21-456f-a03c-1e58ebe18d76.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8Z",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "8e27db5a-7f21-456f-a03c-1e58ebe18d76.png"
+  },
+  {
+    "id": "8feea79a-7fe3-42c1-92b6-7b85696de3ce",
+    "name": "Bronze Draco-Guard",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Light Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Guard",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "8feea79a-7fe3-42c1-92b6-7b85696de3ce.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Guard",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "8feea79a-7fe3-42c1-92b6-7b85696de3ce.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Guard",
+        "size": "Medium",
+        "Icons": "3 Missile",
+        "image": "8feea79a-7fe3-42c1-92b6-7b85696de3ce.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Guard",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "8feea79a-7fe3-42c1-92b6-7b85696de3ce.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Guard",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "8feea79a-7fe3-42c1-92b6-7b85696de3ce.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8a",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "8feea79a-7fe3-42c1-92b6-7b85696de3ce.png"
+  },
+  {
+    "id": "91100e5b-2a34-4f51-8771-94b3ce3375ed",
+    "name": "Bronze Draco-Adeptus",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Magic",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "3 Magic",
+        "image": "91100e5b-2a34-4f51-8771-94b3ce3375ed.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "91100e5b-2a34-4f51-8771-94b3ce3375ed.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "3 Magic",
+        "image": "91100e5b-2a34-4f51-8771-94b3ce3375ed.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "2 Magic",
+        "image": "91100e5b-2a34-4f51-8771-94b3ce3375ed.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "91100e5b-2a34-4f51-8771-94b3ce3375ed.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8b",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "91100e5b-2a34-4f51-8771-94b3ce3375ed.png"
+  },
+  {
+    "id": "92e6c64f-4bd0-40b8-91ee-9e61cc26f3a8",
+    "name": "Bronze Draco-Hurler",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Missile",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Hurler",
+        "size": "Medium",
+        "Icons": "3 Missile",
+        "image": "92e6c64f-4bd0-40b8-91ee-9e61cc26f3a8.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Hurler",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "92e6c64f-4bd0-40b8-91ee-9e61cc26f3a8.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Hurler",
+        "size": "Medium",
+        "Icons": "3 Missile",
+        "image": "92e6c64f-4bd0-40b8-91ee-9e61cc26f3a8.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Hurler",
+        "size": "Medium",
+        "Icons": "2 Missile",
+        "image": "92e6c64f-4bd0-40b8-91ee-9e61cc26f3a8.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Hurler",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "92e6c64f-4bd0-40b8-91ee-9e61cc26f3a8.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8c",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "92e6c64f-4bd0-40b8-91ee-9e61cc26f3a8.png"
+  },
+  {
+    "id": "8d00f021-d52e-4afd-b35e-c9fc0d5b9b54",
+    "name": "Bronze Barded Dracolem",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Cavalry",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Barded Dracolem",
+        "size": "Large",
+        "Icons": "4 Rend",
+        "image": "8d00f021-d52e-4afd-b35e-c9fc0d5b9b54.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Barded Dracolem",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "8d00f021-d52e-4afd-b35e-c9fc0d5b9b54.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Barded Dracolem",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "8d00f021-d52e-4afd-b35e-c9fc0d5b9b54.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Barded Dracolem",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "8d00f021-d52e-4afd-b35e-c9fc0d5b9b54.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Barded Dracolem",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "8d00f021-d52e-4afd-b35e-c9fc0d5b9b54.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8d",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "8d00f021-d52e-4afd-b35e-c9fc0d5b9b54.png"
+  },
+  {
+    "id": "8e8e065f-0d1e-4a9c-a0e9-8261fbe782e8",
+    "name": "Bronze Draco-Lord",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Heavy Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Lord",
+        "size": "Large",
+        "Icons": "4 Double Strike",
+        "image": "8e8e065f-0d1e-4a9c-a0e9-8261fbe782e8.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Lord",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "8e8e065f-0d1e-4a9c-a0e9-8261fbe782e8.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Lord",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "8e8e065f-0d1e-4a9c-a0e9-8261fbe782e8.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Lord",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "8e8e065f-0d1e-4a9c-a0e9-8261fbe782e8.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Lord",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "8e8e065f-0d1e-4a9c-a0e9-8261fbe782e8.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8e",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "8e8e065f-0d1e-4a9c-a0e9-8261fbe782e8.png"
+  },
+  {
+    "id": "903fabce-2001-461c-aeca-a68432186221",
+    "name": "Bronze Draco-Rogue",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Light Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Rogue",
+        "size": "Large",
+        "Icons": "4 Stun",
+        "image": "903fabce-2001-461c-aeca-a68432186221.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Rogue",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "903fabce-2001-461c-aeca-a68432186221.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Rogue",
+        "size": "Large",
+        "Icons": "3 Missile",
+        "image": "903fabce-2001-461c-aeca-a68432186221.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Rogue",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "903fabce-2001-461c-aeca-a68432186221.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Rogue",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "903fabce-2001-461c-aeca-a68432186221.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8f",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "903fabce-2001-461c-aeca-a68432186221.png"
+  },
+  {
+    "id": "91515031-5fbc-4850-90bc-d377e8a7dccc",
+    "name": "Bronze Draco-Magus",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Magic",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Magus",
+        "size": "Large",
+        "Icons": "4 Magic Suppression",
+        "image": "91515031-5fbc-4850-90bc-d377e8a7dccc.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Magus",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "91515031-5fbc-4850-90bc-d377e8a7dccc.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Magus",
+        "size": "Large",
+        "Icons": "3 Magic",
+        "image": "91515031-5fbc-4850-90bc-d377e8a7dccc.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Magus",
+        "size": "Large",
+        "Icons": "3 Magic",
+        "image": "91515031-5fbc-4850-90bc-d377e8a7dccc.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Magus",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "91515031-5fbc-4850-90bc-d377e8a7dccc.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8g",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "91515031-5fbc-4850-90bc-d377e8a7dccc.png"
+  },
+  {
+    "id": "92f9fa69-3178-4e56-ae8a-19dcf6bf0940",
+    "name": "Bronze Draco-Gunner",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Missile",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Gunner",
+        "size": "Large",
+        "Icons": "4 Impale",
+        "image": "92f9fa69-3178-4e56-ae8a-19dcf6bf0940.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Gunner",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "92f9fa69-3178-4e56-ae8a-19dcf6bf0940.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Gunner",
+        "size": "Large",
+        "Icons": "3 Missile",
+        "image": "92f9fa69-3178-4e56-ae8a-19dcf6bf0940.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Gunner",
+        "size": "Large",
+        "Icons": "3 Missile",
+        "image": "92f9fa69-3178-4e56-ae8a-19dcf6bf0940.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Gunner",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "92f9fa69-3178-4e56-ae8a-19dcf6bf0940.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8h",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "92f9fa69-3178-4e56-ae8a-19dcf6bf0940.png"
+  },
+  {
+    "id": "8d1da572-ecf0-4f22-92bf-45fbcdb11540",
+    "name": "Bronze Armored Dracolem",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Cavalry",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Trample",
+        "image": "8d1da572-ecf0-4f22-92bf-45fbcdb11540.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Rend",
+        "image": "8d1da572-ecf0-4f22-92bf-45fbcdb11540.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Maneuver",
+        "image": "8d1da572-ecf0-4f22-92bf-45fbcdb11540.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "8d1da572-ecf0-4f22-92bf-45fbcdb11540.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "8d1da572-ecf0-4f22-92bf-45fbcdb11540.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8i",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "8d1da572-ecf0-4f22-92bf-45fbcdb11540.png"
+  },
+  {
+    "id": "8ef2bda0-d3a2-4cd4-8986-7a4e7349a492",
+    "name": "Bronze Draco-Champion",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Heavy Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Smite",
+        "image": "8ef2bda0-d3a2-4cd4-8986-7a4e7349a492.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Double Strike",
+        "image": "8ef2bda0-d3a2-4cd4-8986-7a4e7349a492.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Melee",
+        "image": "8ef2bda0-d3a2-4cd4-8986-7a4e7349a492.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "8ef2bda0-d3a2-4cd4-8986-7a4e7349a492.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "8ef2bda0-d3a2-4cd4-8986-7a4e7349a492.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8j",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "8ef2bda0-d3a2-4cd4-8986-7a4e7349a492.png"
+  },
+  {
+    "id": "93895177-be60-4f02-b687-2bf7cbdff33c",
+    "name": "Bronze Promo Champion",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Heavy Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "93895177-be60-4f02-b687-2bf7cbdff33c.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "93895177-be60-4f02-b687-2bf7cbdff33c.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "93895177-be60-4f02-b687-2bf7cbdff33c.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Smite",
+        "image": "93895177-be60-4f02-b687-2bf7cbdff33c.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "93895177-be60-4f02-b687-2bf7cbdff33c.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8k",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "93895177-be60-4f02-b687-2bf7cbdff33c.png"
+  },
+  {
+    "id": "903fada8-c670-41d3-ba59-8b5a8521565e",
+    "name": "Bronze Draco-Zealot",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Light Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Roar",
+        "image": "903fada8-c670-41d3-ba59-8b5a8521565e.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Stun",
+        "image": "903fada8-c670-41d3-ba59-8b5a8521565e.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Missile",
+        "image": "903fada8-c670-41d3-ba59-8b5a8521565e.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "903fada8-c670-41d3-ba59-8b5a8521565e.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "903fada8-c670-41d3-ba59-8b5a8521565e.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8l",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "903fada8-c670-41d3-ba59-8b5a8521565e.png"
+  },
+  {
+    "id": "91dbefc9-4040-4c53-9772-831fdfc9c6ea",
+    "name": "Bronze Draco-Baal",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Magic",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Spell Disruption",
+        "image": "91dbefc9-4040-4c53-9772-831fdfc9c6ea.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Magic Suppression",
+        "image": "91dbefc9-4040-4c53-9772-831fdfc9c6ea.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Magic",
+        "image": "91dbefc9-4040-4c53-9772-831fdfc9c6ea.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "91dbefc9-4040-4c53-9772-831fdfc9c6ea.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "91dbefc9-4040-4c53-9772-831fdfc9c6ea.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8m",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "91dbefc9-4040-4c53-9772-831fdfc9c6ea.png"
+  },
+  {
+    "id": "93007859-b91a-462f-801e-fbef101dec21",
+    "name": "Bronze Draco-Mortus",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Bronze",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Missile",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Bronze Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Flaming Arrow",
+        "image": "93007859-b91a-462f-801e-fbef101dec21.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Bronze Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Impale",
+        "image": "93007859-b91a-462f-801e-fbef101dec21.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Bronze Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Missile",
+        "image": "93007859-b91a-462f-801e-fbef101dec21.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Bronze Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "93007859-b91a-462f-801e-fbef101dec21.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Bronze Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "93007859-b91a-462f-801e-fbef101dec21.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8n",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "93007859-b91a-462f-801e-fbef101dec21.png"
+  },
+  {
+    "id": "9a5594df-68f6-4128-9223-ab09f1d1a6c7",
+    "name": "Silver Draco-Hailer",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Missile",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Hailer",
+        "size": "Small",
+        "Icons": "2 Missile",
+        "image": "9a5594df-68f6-4128-9223-ab09f1d1a6c7.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Hailer",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "9a5594df-68f6-4128-9223-ab09f1d1a6c7.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Hailer",
+        "size": "Small",
+        "Icons": "1 Missile",
+        "image": "9a5594df-68f6-4128-9223-ab09f1d1a6c7.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Hailer",
+        "size": "Small",
+        "Icons": "1 Missile",
+        "image": "9a5594df-68f6-4128-9223-ab09f1d1a6c7.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Hailer",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "9a5594df-68f6-4128-9223-ab09f1d1a6c7.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8o",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9a5594df-68f6-4128-9223-ab09f1d1a6c7.png"
+  },
+  {
+    "id": "995dca11-aa69-4a42-af0a-4fe067feff27",
+    "name": "Silver Draco-Mystic",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Magic",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Mystic",
+        "size": "Small",
+        "Icons": "2 Magic",
+        "image": "995dca11-aa69-4a42-af0a-4fe067feff27.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Mystic",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "995dca11-aa69-4a42-af0a-4fe067feff27.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Mystic",
+        "size": "Small",
+        "Icons": "1 Magic",
+        "image": "995dca11-aa69-4a42-af0a-4fe067feff27.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Mystic",
+        "size": "Small",
+        "Icons": "1 Magic",
+        "image": "995dca11-aa69-4a42-af0a-4fe067feff27.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Mystic",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "995dca11-aa69-4a42-af0a-4fe067feff27.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8p",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "995dca11-aa69-4a42-af0a-4fe067feff27.png"
+  },
+  {
+    "id": "987ca37f-2738-4f6b-bb79-9845ccac6301",
+    "name": "Silver Draco-Shielder",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Light Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Shielder",
+        "size": "Small",
+        "Icons": "2 Melee",
+        "image": "987ca37f-2738-4f6b-bb79-9845ccac6301.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Shielder",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "987ca37f-2738-4f6b-bb79-9845ccac6301.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Shielder",
+        "size": "Small",
+        "Icons": "1 Missile",
+        "image": "987ca37f-2738-4f6b-bb79-9845ccac6301.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Shielder",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "987ca37f-2738-4f6b-bb79-9845ccac6301.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Shielder",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "987ca37f-2738-4f6b-bb79-9845ccac6301.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8q",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "987ca37f-2738-4f6b-bb79-9845ccac6301.png"
+  },
+  {
+    "id": "953bd85f-15ea-494e-9839-0be9cc0bd975",
+    "name": "Silver Draco-Brawler",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Heavy Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Brawler",
+        "size": "Small",
+        "Icons": "2 Melee",
+        "image": "953bd85f-15ea-494e-9839-0be9cc0bd975.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Brawler",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "953bd85f-15ea-494e-9839-0be9cc0bd975.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Brawler",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "953bd85f-15ea-494e-9839-0be9cc0bd975.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Brawler",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "953bd85f-15ea-494e-9839-0be9cc0bd975.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Brawler",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "953bd85f-15ea-494e-9839-0be9cc0bd975.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8r",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "953bd85f-15ea-494e-9839-0be9cc0bd975.png"
+  },
+  {
+    "id": "94860f4f-2a77-4faf-9d22-fa82e890520d",
+    "name": "Silver Beast Dracolem",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Cavalry",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Beast Dracolem",
+        "size": "Small",
+        "Icons": "2 Maneuver",
+        "image": "94860f4f-2a77-4faf-9d22-fa82e890520d.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Beast Dracolem",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "94860f4f-2a77-4faf-9d22-fa82e890520d.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Beast Dracolem",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "94860f4f-2a77-4faf-9d22-fa82e890520d.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Beast Dracolem",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "94860f4f-2a77-4faf-9d22-fa82e890520d.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Beast Dracolem",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "94860f4f-2a77-4faf-9d22-fa82e890520d.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8s",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "94860f4f-2a77-4faf-9d22-fa82e890520d.png"
+  },
+  {
+    "id": "9ad2057e-97c3-4c05-893c-3aefa3700d89",
+    "name": "Silver Draco-Hurler",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Missile",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Hurler",
+        "size": "Medium",
+        "Icons": "3 Missile",
+        "image": "9ad2057e-97c3-4c05-893c-3aefa3700d89.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Hurler",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "9ad2057e-97c3-4c05-893c-3aefa3700d89.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Hurler",
+        "size": "Medium",
+        "Icons": "3 Missile",
+        "image": "9ad2057e-97c3-4c05-893c-3aefa3700d89.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Hurler",
+        "size": "Medium",
+        "Icons": "2 Missile",
+        "image": "9ad2057e-97c3-4c05-893c-3aefa3700d89.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Hurler",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "9ad2057e-97c3-4c05-893c-3aefa3700d89.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8t",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9ad2057e-97c3-4c05-893c-3aefa3700d89.png"
+  },
+  {
+    "id": "99b234f4-5ee2-44a5-8584-012b3501d926",
+    "name": "Silver Draco-Adeptus",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Magic",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "3 Magic",
+        "image": "99b234f4-5ee2-44a5-8584-012b3501d926.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "99b234f4-5ee2-44a5-8584-012b3501d926.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "3 Magic",
+        "image": "99b234f4-5ee2-44a5-8584-012b3501d926.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "2 Magic",
+        "image": "99b234f4-5ee2-44a5-8584-012b3501d926.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "99b234f4-5ee2-44a5-8584-012b3501d926.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8u",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "99b234f4-5ee2-44a5-8584-012b3501d926.png"
+  },
+  {
+    "id": "988b6fd0-abcb-4aa0-88ab-d64097ddb369",
+    "name": "Silver Draco-Guard",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Light Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Guard",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "988b6fd0-abcb-4aa0-88ab-d64097ddb369.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Guard",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "988b6fd0-abcb-4aa0-88ab-d64097ddb369.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Guard",
+        "size": "Medium",
+        "Icons": "3 Missile",
+        "image": "988b6fd0-abcb-4aa0-88ab-d64097ddb369.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Guard",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "988b6fd0-abcb-4aa0-88ab-d64097ddb369.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Guard",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "988b6fd0-abcb-4aa0-88ab-d64097ddb369.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8v",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "988b6fd0-abcb-4aa0-88ab-d64097ddb369.png"
+  },
+  {
+    "id": "955cf087-9496-4e9a-87e7-80bd928ac05d",
+    "name": "Silver Draco-Tank",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Heavy Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Tank",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "955cf087-9496-4e9a-87e7-80bd928ac05d.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Tank",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "955cf087-9496-4e9a-87e7-80bd928ac05d.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Tank",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "955cf087-9496-4e9a-87e7-80bd928ac05d.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Tank",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "955cf087-9496-4e9a-87e7-80bd928ac05d.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Tank",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "955cf087-9496-4e9a-87e7-80bd928ac05d.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8w",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "955cf087-9496-4e9a-87e7-80bd928ac05d.png"
+  },
+  {
+    "id": "949cc7ee-bc03-499d-8f1f-190b1e57cb5b",
+    "name": "Silver Saddled Dracolem",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Cavalry",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "3 Maneuver",
+        "image": "949cc7ee-bc03-499d-8f1f-190b1e57cb5b.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "949cc7ee-bc03-499d-8f1f-190b1e57cb5b.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "3 Maneuver",
+        "image": "949cc7ee-bc03-499d-8f1f-190b1e57cb5b.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "949cc7ee-bc03-499d-8f1f-190b1e57cb5b.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "949cc7ee-bc03-499d-8f1f-190b1e57cb5b.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8x",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "949cc7ee-bc03-499d-8f1f-190b1e57cb5b.png"
+  },
+  {
+    "id": "9af85810-ce2e-43c7-b304-e51f50aaba0c",
+    "name": "Silver Draco-Gunner",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Missile",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Gunner",
+        "size": "Large",
+        "Icons": "4 Impale",
+        "image": "9af85810-ce2e-43c7-b304-e51f50aaba0c.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Gunner",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "9af85810-ce2e-43c7-b304-e51f50aaba0c.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Gunner",
+        "size": "Large",
+        "Icons": "3 Missile",
+        "image": "9af85810-ce2e-43c7-b304-e51f50aaba0c.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Gunner",
+        "size": "Large",
+        "Icons": "3 Missile",
+        "image": "9af85810-ce2e-43c7-b304-e51f50aaba0c.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Gunner",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "9af85810-ce2e-43c7-b304-e51f50aaba0c.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8y",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9af85810-ce2e-43c7-b304-e51f50aaba0c.png"
+  },
+  {
+    "id": "9a081c8a-7636-4d20-800c-62825edb1315",
+    "name": "Silver Draco-Magus",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Magic",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Magus",
+        "size": "Large",
+        "Icons": "4 Magic Suppression",
+        "image": "9a081c8a-7636-4d20-800c-62825edb1315.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Magus",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "9a081c8a-7636-4d20-800c-62825edb1315.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Magus",
+        "size": "Large",
+        "Icons": "3 Magic",
+        "image": "9a081c8a-7636-4d20-800c-62825edb1315.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Magus",
+        "size": "Large",
+        "Icons": "3 Magic",
+        "image": "9a081c8a-7636-4d20-800c-62825edb1315.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Magus",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "9a081c8a-7636-4d20-800c-62825edb1315.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "8z",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9a081c8a-7636-4d20-800c-62825edb1315.png"
+  },
+  {
+    "id": "98a27c59-7619-45dc-b85f-53e0333b37e0",
+    "name": "Silver Draco-Rogue",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Light Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Rogue",
+        "size": "Large",
+        "Icons": "4 Stun",
+        "image": "98a27c59-7619-45dc-b85f-53e0333b37e0.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Rogue",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "98a27c59-7619-45dc-b85f-53e0333b37e0.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Rogue",
+        "size": "Large",
+        "Icons": "3 Missile",
+        "image": "98a27c59-7619-45dc-b85f-53e0333b37e0.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Rogue",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "98a27c59-7619-45dc-b85f-53e0333b37e0.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Rogue",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "98a27c59-7619-45dc-b85f-53e0333b37e0.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "90",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "98a27c59-7619-45dc-b85f-53e0333b37e0.png"
+  },
+  {
+    "id": "96215d6b-07b8-4b3d-83c3-1fc38ba400c5",
+    "name": "Silver Draco-Lord",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Heavy Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Lord",
+        "size": "Large",
+        "Icons": "4 Double Strike",
+        "image": "96215d6b-07b8-4b3d-83c3-1fc38ba400c5.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Lord",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "96215d6b-07b8-4b3d-83c3-1fc38ba400c5.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Lord",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "96215d6b-07b8-4b3d-83c3-1fc38ba400c5.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Lord",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "96215d6b-07b8-4b3d-83c3-1fc38ba400c5.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Lord",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "96215d6b-07b8-4b3d-83c3-1fc38ba400c5.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "91",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "96215d6b-07b8-4b3d-83c3-1fc38ba400c5.png"
+  },
+  {
+    "id": "951c2bc5-fa2e-4f8f-975d-5408e66cad4e",
+    "name": "Silver Barded Dracolem",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Cavalry",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Barded Dracolem",
+        "size": "Large",
+        "Icons": "4 Rend",
+        "image": "951c2bc5-fa2e-4f8f-975d-5408e66cad4e.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Barded Dracolem",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "951c2bc5-fa2e-4f8f-975d-5408e66cad4e.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Barded Dracolem",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "951c2bc5-fa2e-4f8f-975d-5408e66cad4e.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Barded Dracolem",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "951c2bc5-fa2e-4f8f-975d-5408e66cad4e.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Barded Dracolem",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "951c2bc5-fa2e-4f8f-975d-5408e66cad4e.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "92",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "951c2bc5-fa2e-4f8f-975d-5408e66cad4e.png"
+  },
+  {
+    "id": "9b30d13b-1bb0-4329-ba57-6b84305ff98d",
+    "name": "Silver Draco-Mortus",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Missile",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Flaming Arrow",
+        "image": "9b30d13b-1bb0-4329-ba57-6b84305ff98d.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Impale",
+        "image": "9b30d13b-1bb0-4329-ba57-6b84305ff98d.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Missile",
+        "image": "9b30d13b-1bb0-4329-ba57-6b84305ff98d.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "9b30d13b-1bb0-4329-ba57-6b84305ff98d.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "9b30d13b-1bb0-4329-ba57-6b84305ff98d.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "93",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9b30d13b-1bb0-4329-ba57-6b84305ff98d.png"
+  },
+  {
+    "id": "9a4e8aff-3206-451f-be17-3cafe3828e61",
+    "name": "Silver Draco-Baal",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Magic",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Spell Disruption",
+        "image": "9a4e8aff-3206-451f-be17-3cafe3828e61.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Magic Suppression",
+        "image": "9a4e8aff-3206-451f-be17-3cafe3828e61.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Magic",
+        "image": "9a4e8aff-3206-451f-be17-3cafe3828e61.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "9a4e8aff-3206-451f-be17-3cafe3828e61.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "9a4e8aff-3206-451f-be17-3cafe3828e61.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "94",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9a4e8aff-3206-451f-be17-3cafe3828e61.png"
+  },
+  {
+    "id": "991e58a8-cd54-41ff-a5a3-8fb3c763af5d",
+    "name": "Silver Draco-Zealot",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Light Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Roar",
+        "image": "991e58a8-cd54-41ff-a5a3-8fb3c763af5d.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Stun",
+        "image": "991e58a8-cd54-41ff-a5a3-8fb3c763af5d.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Missile",
+        "image": "991e58a8-cd54-41ff-a5a3-8fb3c763af5d.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "991e58a8-cd54-41ff-a5a3-8fb3c763af5d.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "991e58a8-cd54-41ff-a5a3-8fb3c763af5d.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "95",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "991e58a8-cd54-41ff-a5a3-8fb3c763af5d.png"
+  },
+  {
+    "id": "96b35b15-e7b2-44b2-87b2-06ae4bad8379",
+    "name": "Silver Draco-Champion",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Heavy Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Smite",
+        "image": "96b35b15-e7b2-44b2-87b2-06ae4bad8379.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Double Strike",
+        "image": "96b35b15-e7b2-44b2-87b2-06ae4bad8379.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Melee",
+        "image": "96b35b15-e7b2-44b2-87b2-06ae4bad8379.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "96b35b15-e7b2-44b2-87b2-06ae4bad8379.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "96b35b15-e7b2-44b2-87b2-06ae4bad8379.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "96",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "96b35b15-e7b2-44b2-87b2-06ae4bad8379.png"
+  },
+  {
+    "id": "9b866261-a3eb-46be-a3bf-a1e82f6df777",
+    "name": "Silver Promo Champion",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Heavy Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "9b866261-a3eb-46be-a3bf-a1e82f6df777.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "9b866261-a3eb-46be-a3bf-a1e82f6df777.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "9b866261-a3eb-46be-a3bf-a1e82f6df777.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Smite",
+        "image": "9b866261-a3eb-46be-a3bf-a1e82f6df777.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "9b866261-a3eb-46be-a3bf-a1e82f6df777.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "97",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9b866261-a3eb-46be-a3bf-a1e82f6df777.png"
+  },
+  {
+    "id": "9538be59-8431-4130-89ab-606a23de3e97",
+    "name": "Silver Armored Dracolem",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Silver",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Cavalry",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Silver Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Trample",
+        "image": "9538be59-8431-4130-89ab-606a23de3e97.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Silver Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Rend",
+        "image": "9538be59-8431-4130-89ab-606a23de3e97.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Silver Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Maneuver",
+        "image": "9538be59-8431-4130-89ab-606a23de3e97.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Silver Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "9538be59-8431-4130-89ab-606a23de3e97.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Silver Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "9538be59-8431-4130-89ab-606a23de3e97.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "98",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9538be59-8431-4130-89ab-606a23de3e97.png"
+  },
+  {
+    "id": "9baed515-1e10-494b-b17c-40de240ea63f",
+    "name": "Gold Beast Dracolem",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Cavalry",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Beast Dracolem",
+        "size": "Small",
+        "Icons": "2 Maneuver",
+        "image": "9baed515-1e10-494b-b17c-40de240ea63f.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Beast Dracolem",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "9baed515-1e10-494b-b17c-40de240ea63f.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Beast Dracolem",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "9baed515-1e10-494b-b17c-40de240ea63f.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Beast Dracolem",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "9baed515-1e10-494b-b17c-40de240ea63f.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Beast Dracolem",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "9baed515-1e10-494b-b17c-40de240ea63f.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "99",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9baed515-1e10-494b-b17c-40de240ea63f.png"
+  },
+  {
+    "id": "9ead5cd2-b6c3-4db8-9784-0724b24ab295",
+    "name": "Gold Draco-Brawler",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Heavy Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Brawler",
+        "size": "Small",
+        "Icons": "2 Melee",
+        "image": "9ead5cd2-b6c3-4db8-9784-0724b24ab295.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Brawler",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "9ead5cd2-b6c3-4db8-9784-0724b24ab295.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Brawler",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "9ead5cd2-b6c3-4db8-9784-0724b24ab295.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Brawler",
+        "size": "Small",
+        "Icons": "1 Melee",
+        "image": "9ead5cd2-b6c3-4db8-9784-0724b24ab295.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Brawler",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "9ead5cd2-b6c3-4db8-9784-0724b24ab295.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9A",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9ead5cd2-b6c3-4db8-9784-0724b24ab295.png"
+  },
+  {
+    "id": "9faa35b6-5f5e-45a4-91d2-4403126282f0",
+    "name": "Gold Draco-Shielder",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Light Melee",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Shielder",
+        "size": "Small",
+        "Icons": "2 Melee",
+        "image": "9faa35b6-5f5e-45a4-91d2-4403126282f0.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Shielder",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "9faa35b6-5f5e-45a4-91d2-4403126282f0.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Shielder",
+        "size": "Small",
+        "Icons": "1 Missile",
+        "image": "9faa35b6-5f5e-45a4-91d2-4403126282f0.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Shielder",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "9faa35b6-5f5e-45a4-91d2-4403126282f0.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Shielder",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "9faa35b6-5f5e-45a4-91d2-4403126282f0.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9B",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9faa35b6-5f5e-45a4-91d2-4403126282f0.png"
+  },
+  {
+    "id": "a200c34a-cb6b-4e72-bb03-3dd129c7027a",
+    "name": "Gold Draco-Mystic",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Magic",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Mystic",
+        "size": "Small",
+        "Icons": "2 Magic",
+        "image": "a200c34a-cb6b-4e72-bb03-3dd129c7027a.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Mystic",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "a200c34a-cb6b-4e72-bb03-3dd129c7027a.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Mystic",
+        "size": "Small",
+        "Icons": "1 Magic",
+        "image": "a200c34a-cb6b-4e72-bb03-3dd129c7027a.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Mystic",
+        "size": "Small",
+        "Icons": "1 Magic",
+        "image": "a200c34a-cb6b-4e72-bb03-3dd129c7027a.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Mystic",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "a200c34a-cb6b-4e72-bb03-3dd129c7027a.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9C",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "a200c34a-cb6b-4e72-bb03-3dd129c7027a.png"
+  },
+  {
+    "id": "a5227a64-d192-4f05-bbef-8b359142c6b5",
+    "name": "Gold Draco-Hailer",
+    "size": "Small",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Small",
+    "Class": "Missile",
+    "Icons": "1 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Hailer",
+        "size": "Small",
+        "Icons": "2 Missile",
+        "image": "a5227a64-d192-4f05-bbef-8b359142c6b5.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Hailer",
+        "size": "Small",
+        "Icons": "1 Maneuver",
+        "image": "a5227a64-d192-4f05-bbef-8b359142c6b5.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Hailer",
+        "size": "Small",
+        "Icons": "1 Missile",
+        "image": "a5227a64-d192-4f05-bbef-8b359142c6b5.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Hailer",
+        "size": "Small",
+        "Icons": "1 Missile",
+        "image": "a5227a64-d192-4f05-bbef-8b359142c6b5.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Hailer",
+        "size": "Small",
+        "Icons": "1 Fabricate",
+        "image": "a5227a64-d192-4f05-bbef-8b359142c6b5.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9D",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "a5227a64-d192-4f05-bbef-8b359142c6b5.png"
+  },
+  {
+    "id": "9e1917d0-c6a8-4480-8343-77602bfb443a",
+    "name": "Gold Saddled Dracolem",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Cavalry",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "3 Maneuver",
+        "image": "9e1917d0-c6a8-4480-8343-77602bfb443a.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "9e1917d0-c6a8-4480-8343-77602bfb443a.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "3 Maneuver",
+        "image": "9e1917d0-c6a8-4480-8343-77602bfb443a.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "9e1917d0-c6a8-4480-8343-77602bfb443a.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Saddled Dracolem",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "9e1917d0-c6a8-4480-8343-77602bfb443a.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9E",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9e1917d0-c6a8-4480-8343-77602bfb443a.png"
+  },
+  {
+    "id": "9f218066-0321-47ec-8ecc-f846e6b619f2",
+    "name": "Gold Draco-Tank",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Heavy Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Tank",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "9f218066-0321-47ec-8ecc-f846e6b619f2.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Tank",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "9f218066-0321-47ec-8ecc-f846e6b619f2.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Tank",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "9f218066-0321-47ec-8ecc-f846e6b619f2.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Tank",
+        "size": "Medium",
+        "Icons": "2 Melee",
+        "image": "9f218066-0321-47ec-8ecc-f846e6b619f2.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Tank",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "9f218066-0321-47ec-8ecc-f846e6b619f2.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9F",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9f218066-0321-47ec-8ecc-f846e6b619f2.png"
+  },
+  {
+    "id": "9fc5ba0e-4211-4a17-8a07-6be734775734",
+    "name": "Gold Draco-Guard",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Light Melee",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Guard",
+        "size": "Medium",
+        "Icons": "3 Melee",
+        "image": "9fc5ba0e-4211-4a17-8a07-6be734775734.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Guard",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "9fc5ba0e-4211-4a17-8a07-6be734775734.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Guard",
+        "size": "Medium",
+        "Icons": "3 Missile",
+        "image": "9fc5ba0e-4211-4a17-8a07-6be734775734.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Guard",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "9fc5ba0e-4211-4a17-8a07-6be734775734.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Guard",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "9fc5ba0e-4211-4a17-8a07-6be734775734.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9G",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9fc5ba0e-4211-4a17-8a07-6be734775734.png"
+  },
+  {
+    "id": "a23754df-37e5-4ca7-95fc-453c07bd3ea8",
+    "name": "Gold Draco-Adeptus",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Magic",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "3 Magic",
+        "image": "a23754df-37e5-4ca7-95fc-453c07bd3ea8.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "a23754df-37e5-4ca7-95fc-453c07bd3ea8.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "3 Magic",
+        "image": "a23754df-37e5-4ca7-95fc-453c07bd3ea8.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "2 Magic",
+        "image": "a23754df-37e5-4ca7-95fc-453c07bd3ea8.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Adeptus",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "a23754df-37e5-4ca7-95fc-453c07bd3ea8.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9H",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "a23754df-37e5-4ca7-95fc-453c07bd3ea8.png"
+  },
+  {
+    "id": "a60ba896-8b0f-454c-afcd-54fde7ceecdc",
+    "name": "Gold Draco-Hurler",
+    "size": "Medium",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Medium",
+    "Class": "Missile",
+    "Icons": "2 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Hurler",
+        "size": "Medium",
+        "Icons": "3 Missile",
+        "image": "a60ba896-8b0f-454c-afcd-54fde7ceecdc.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Hurler",
+        "size": "Medium",
+        "Icons": "2 Maneuver",
+        "image": "a60ba896-8b0f-454c-afcd-54fde7ceecdc.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Hurler",
+        "size": "Medium",
+        "Icons": "3 Missile",
+        "image": "a60ba896-8b0f-454c-afcd-54fde7ceecdc.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Hurler",
+        "size": "Medium",
+        "Icons": "2 Missile",
+        "image": "a60ba896-8b0f-454c-afcd-54fde7ceecdc.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Hurler",
+        "size": "Medium",
+        "Icons": "2 Fabricate",
+        "image": "a60ba896-8b0f-454c-afcd-54fde7ceecdc.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9I",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "a60ba896-8b0f-454c-afcd-54fde7ceecdc.png"
+  },
+  {
+    "id": "9e6eb239-aed3-4de5-8a44-1d90f35d1b6e",
+    "name": "Gold Barded Dracolem",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Cavalry",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Barded Dracolem",
+        "size": "Large",
+        "Icons": "4 Rend",
+        "image": "9e6eb239-aed3-4de5-8a44-1d90f35d1b6e.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Barded Dracolem",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "9e6eb239-aed3-4de5-8a44-1d90f35d1b6e.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Barded Dracolem",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "9e6eb239-aed3-4de5-8a44-1d90f35d1b6e.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Barded Dracolem",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "9e6eb239-aed3-4de5-8a44-1d90f35d1b6e.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Barded Dracolem",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "9e6eb239-aed3-4de5-8a44-1d90f35d1b6e.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9J",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9e6eb239-aed3-4de5-8a44-1d90f35d1b6e.png"
+  },
+  {
+    "id": "9f8875a8-e06e-42f2-9479-d5f933ceb5da",
+    "name": "Gold Draco-Lord",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Heavy Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Lord",
+        "size": "Large",
+        "Icons": "4 Double Strike",
+        "image": "9f8875a8-e06e-42f2-9479-d5f933ceb5da.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Lord",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "9f8875a8-e06e-42f2-9479-d5f933ceb5da.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Lord",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "9f8875a8-e06e-42f2-9479-d5f933ceb5da.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Lord",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "9f8875a8-e06e-42f2-9479-d5f933ceb5da.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Lord",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "9f8875a8-e06e-42f2-9479-d5f933ceb5da.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9K",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9f8875a8-e06e-42f2-9479-d5f933ceb5da.png"
+  },
+  {
+    "id": "9fd5ad6c-e7eb-46a8-b50b-76fc0da5ae10",
+    "name": "Gold Draco-Rogue",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Light Melee",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Rogue",
+        "size": "Large",
+        "Icons": "4 Stun",
+        "image": "9fd5ad6c-e7eb-46a8-b50b-76fc0da5ae10.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Rogue",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "9fd5ad6c-e7eb-46a8-b50b-76fc0da5ae10.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Rogue",
+        "size": "Large",
+        "Icons": "3 Missile",
+        "image": "9fd5ad6c-e7eb-46a8-b50b-76fc0da5ae10.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Rogue",
+        "size": "Large",
+        "Icons": "3 Melee",
+        "image": "9fd5ad6c-e7eb-46a8-b50b-76fc0da5ae10.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Rogue",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "9fd5ad6c-e7eb-46a8-b50b-76fc0da5ae10.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9L",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9fd5ad6c-e7eb-46a8-b50b-76fc0da5ae10.png"
+  },
+  {
+    "id": "a327ff84-7e22-4fc7-96fe-c8d53610cae8",
+    "name": "Gold Draco-Magus",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Magic",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Magus",
+        "size": "Large",
+        "Icons": "4 Magic Suppression",
+        "image": "a327ff84-7e22-4fc7-96fe-c8d53610cae8.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Magus",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "a327ff84-7e22-4fc7-96fe-c8d53610cae8.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Magus",
+        "size": "Large",
+        "Icons": "3 Magic",
+        "image": "a327ff84-7e22-4fc7-96fe-c8d53610cae8.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Magus",
+        "size": "Large",
+        "Icons": "3 Magic",
+        "image": "a327ff84-7e22-4fc7-96fe-c8d53610cae8.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Magus",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "a327ff84-7e22-4fc7-96fe-c8d53610cae8.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9M",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "a327ff84-7e22-4fc7-96fe-c8d53610cae8.png"
+  },
+  {
+    "id": "a6bf8ae7-b134-48d3-8fde-dd5939c2d8ca",
+    "name": "Gold Draco-Gunner",
+    "size": "Large",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Large",
+    "Class": "Missile",
+    "Icons": "3 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Gunner",
+        "size": "Large",
+        "Icons": "4 Impale",
+        "image": "a6bf8ae7-b134-48d3-8fde-dd5939c2d8ca.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Gunner",
+        "size": "Large",
+        "Icons": "3 Maneuver",
+        "image": "a6bf8ae7-b134-48d3-8fde-dd5939c2d8ca.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Gunner",
+        "size": "Large",
+        "Icons": "3 Missile",
+        "image": "a6bf8ae7-b134-48d3-8fde-dd5939c2d8ca.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Gunner",
+        "size": "Large",
+        "Icons": "3 Missile",
+        "image": "a6bf8ae7-b134-48d3-8fde-dd5939c2d8ca.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Gunner",
+        "size": "Large",
+        "Icons": "3 Fabricate",
+        "image": "a6bf8ae7-b134-48d3-8fde-dd5939c2d8ca.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9N",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "a6bf8ae7-b134-48d3-8fde-dd5939c2d8ca.png"
+  },
+  {
+    "id": "9e920a71-448c-4d29-9308-fa6da1394d4e",
+    "name": "Gold Armored Dracolem",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Cavalry",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Trample",
+        "image": "9e920a71-448c-4d29-9308-fa6da1394d4e.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Rend",
+        "image": "9e920a71-448c-4d29-9308-fa6da1394d4e.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Maneuver",
+        "image": "9e920a71-448c-4d29-9308-fa6da1394d4e.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "9e920a71-448c-4d29-9308-fa6da1394d4e.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Armored Dracolem",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "9e920a71-448c-4d29-9308-fa6da1394d4e.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9O",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9e920a71-448c-4d29-9308-fa6da1394d4e.png"
+  },
+  {
+    "id": "9fa39c2e-1724-495b-8734-91671f6a341f",
+    "name": "Gold Draco-Champion",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Heavy Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Smite",
+        "image": "9fa39c2e-1724-495b-8734-91671f6a341f.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Double Strike",
+        "image": "9fa39c2e-1724-495b-8734-91671f6a341f.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Melee",
+        "image": "9fa39c2e-1724-495b-8734-91671f6a341f.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "9fa39c2e-1724-495b-8734-91671f6a341f.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Champion",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "9fa39c2e-1724-495b-8734-91671f6a341f.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9P",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "9fa39c2e-1724-495b-8734-91671f6a341f.png"
+  },
+  {
+    "id": "a76c9c12-5af2-46c6-aaf5-b374ae1ec90a",
+    "name": "Gold Promo Champion",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Heavy Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Belly",
+        "image": "a76c9c12-5af2-46c6-aaf5-b374ae1ec90a.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Fly",
+        "image": "a76c9c12-5af2-46c6-aaf5-b374ae1ec90a.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Breath",
+        "image": "a76c9c12-5af2-46c6-aaf5-b374ae1ec90a.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Smite",
+        "image": "a76c9c12-5af2-46c6-aaf5-b374ae1ec90a.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Promo Champion",
+        "size": "Champion",
+        "Icons": "4 Logo",
+        "image": "a76c9c12-5af2-46c6-aaf5-b374ae1ec90a.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9Q",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "a76c9c12-5af2-46c6-aaf5-b374ae1ec90a.png"
+  },
+  {
+    "id": "a1c06904-453a-4783-91ba-0d8430b3db59",
+    "name": "Gold Draco-Zealot",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Light Melee",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Roar",
+        "image": "a1c06904-453a-4783-91ba-0d8430b3db59.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Stun",
+        "image": "a1c06904-453a-4783-91ba-0d8430b3db59.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Missile",
+        "image": "a1c06904-453a-4783-91ba-0d8430b3db59.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "a1c06904-453a-4783-91ba-0d8430b3db59.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Zealot",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "a1c06904-453a-4783-91ba-0d8430b3db59.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9R",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "a1c06904-453a-4783-91ba-0d8430b3db59.png"
+  },
+  {
+    "id": "a4958d1f-2fb6-400b-a04c-afaa63ff6f0f",
+    "name": "Gold Draco-Baal",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Magic",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Spell Disruption",
+        "image": "a4958d1f-2fb6-400b-a04c-afaa63ff6f0f.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Magic Suppression",
+        "image": "a4958d1f-2fb6-400b-a04c-afaa63ff6f0f.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Magic",
+        "image": "a4958d1f-2fb6-400b-a04c-afaa63ff6f0f.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "a4958d1f-2fb6-400b-a04c-afaa63ff6f0f.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Baal",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "a4958d1f-2fb6-400b-a04c-afaa63ff6f0f.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9S",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "a4958d1f-2fb6-400b-a04c-afaa63ff6f0f.png"
+  },
+  {
+    "id": "a756b045-7142-400b-b29d-ed36cb0bc301",
+    "name": "Gold Draco-Mortus",
+    "size": "Champion",
+    "Species": "Dracolem",
+    "Element": "Gold",
+    "Type": "Unit",
+    "Size": "Champion",
+    "Class": "Missile",
+    "Icons": "4 ID",
+    "alternates": [
+      {
+        "type": "Alt1",
+        "name": "Gold Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Flaming Arrow",
+        "image": "a756b045-7142-400b-b29d-ed36cb0bc301.Alt1.png"
+      },
+      {
+        "type": "Alt2",
+        "name": "Gold Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Impale",
+        "image": "a756b045-7142-400b-b29d-ed36cb0bc301.Alt2.png"
+      },
+      {
+        "type": "Alt3",
+        "name": "Gold Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Missile",
+        "image": "a756b045-7142-400b-b29d-ed36cb0bc301.Alt3.png"
+      },
+      {
+        "type": "Alt4",
+        "name": "Gold Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Gate",
+        "image": "a756b045-7142-400b-b29d-ed36cb0bc301.Alt4.png"
+      },
+      {
+        "type": "Alt5",
+        "name": "Gold Draco-Mortus",
+        "size": "Champion",
+        "Icons": "4 Fabricate",
+        "image": "a756b045-7142-400b-b29d-ed36cb0bc301.Alt5.png"
+      }
+    ],
+    "Set": "Dracolem",
+    "index": "9T",
+    "set_id": "a9a6ff23-cff7-448c-a552-aa852f0ed5ca",
+    "image": "a756b045-7142-400b-b29d-ed36cb0bc301.png"
+  }
+]

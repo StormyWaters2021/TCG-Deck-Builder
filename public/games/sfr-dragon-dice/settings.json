@@ -1,0 +1,31 @@
+{
+  "gameName": "sfr-dragon-dice",
+  "game_id": "0000ac4a-0bf6-4c10-8f05-e32e53e57518",
+  "addNValue": 4,
+  "groupOptions": [
+    "Type",
+    "Subtype"
+  ],
+  "filterOptions": [
+    "Autosaves",
+    "Cantrip",
+    "Class",
+    "Color",
+    "Cost",
+    "Eighth Face",
+    "Element",
+    "Icons",
+    "Reserve",
+    "Saves",
+    "Search",
+    "Size",
+    "size",
+    "Species",
+    "Weight"
+  ],
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {},
+  "octgnExport": false,
+  "imagePackExport": true
+}
