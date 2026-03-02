@@ -21,6 +21,7 @@ const WORKER_API = "https://tcgbuilder.net/api";
 function DeckControls({
   deck,
   cards,
+  allCards,
   settings,
   game,
   setDeck,
@@ -51,16 +52,16 @@ function DeckControls({
   const cancelExport = useRef(false);
   const [generatingPDF, setGeneratingPDF] = useState(false);
   const deckSubmissionRef = useRef(null);
-  
+  const imagePackCards = (allCards && allCards.length) ? allCards : cards;
   const setsByName = React.useMemo(() => {
-    const map = new Map();
-    for (const card of cards) {
-      if (!card.set_id || !card.Set) continue;
-      if (!map.has(card.Set)) map.set(card.Set, new Set());
-      map.get(card.Set).add(card.set_id);
-    }
-    return map;
-  }, [cards]);
+  const map = new Map();
+  for (const card of imagePackCards) {
+    if (!card.set_id || !card.Set) continue;
+    if (!map.has(card.Set)) map.set(card.Set, new Set());
+    map.get(card.Set).add(card.set_id);
+  }
+  return map;
+}, [imagePackCards]);
 
   const setNames = React.useMemo(
     () => Array.from(setsByName.keys()).sort(),
@@ -793,9 +794,9 @@ function DeckControls({
                     }
 
                     // ---- Filter cards to only selected sets ----
-                    const filteredCards = cards.filter((card) =>
-                      allowedSetIds.has(card.set_id),
-                    );
+                    const filteredCards = imagePackCards.filter((card) =>
+					  allowedSetIds.has(card.set_id),
+					);
 
                     // ---- Safety check ----
                     if (filteredCards.length === 0) {

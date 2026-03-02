@@ -50,6 +50,7 @@ function DeckBuilder({
   game,
   settings,
   cards,
+  allCards,
   deck,
   setDeck,
   setGame,
@@ -274,6 +275,7 @@ const moveCard = (cardId, qty = 1, fromGroup, toGroup) => {
       <DeckControls
         deck={deck}
         cards={cards}
+		allCards={allCards}
         settings={settings}
         game={game}
         setDeck={setDeckFromLoad}

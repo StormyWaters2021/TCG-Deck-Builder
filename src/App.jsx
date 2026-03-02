@@ -7,7 +7,6 @@ import { loadCardsForGame } from "./utils/cardsLoader";
 
 const LAST_GAME_KEY = "tcgbuilder:lastGame";
 
-
 function sortCardsByNameThenSubtitle(cards) {
   return [...cards].sort((a, b) => {
     const an = String(a?.name ?? "");
@@ -106,7 +105,7 @@ function App() {
 
   const [games, setGames] = useState([]);
   const [selectedGame, setSelectedGame] = useState("");
-  const [gameData, setGameData] = useState({ settings: null, cards: [] });
+  const [gameData, setGameData] = useState({ settings: null, cards: [], allCards: [] });
   const [deck, setDeck] = useState({});
   const [loadProgress, setLoadProgress] = useState({ done: 0, total: 0 });
   const [loadError, setLoadError] = useState(null);
@@ -197,7 +196,7 @@ useEffect(() => {
   useEffect(() => {
     if (!selectedGame) return;
 
-    setGameData({ settings: null, cards: [] }); // Reset to show loading
+    setGameData({ settings: null, cards: [], allCards: [] });
 
     (async () => {
       // Load settings + deckValidation
@@ -211,20 +210,29 @@ useEffect(() => {
       ]);
 
             // Reset progress + load cards with progress callback
-      setLoadProgress({ done: 0, total: 0 });
-      setLoadError(null);
-      try {
-        const cards = await loadCardsForGame(
-		  selectedGame,
-		  (done, total) => setLoadProgress({ done, total }),
-		  { hiddenSets: settings.hiddenSets }
-		);
-        setGameData({ settings: { ...settings, deckValidation }, cards: sortCardsByNameThenSubtitle(cards) });
-      } catch (err) {
-        console.error(err);
-        setGameData({ settings: { ...settings, deckValidation }, cards: [] });
-        setLoadError(err?.message || String(err));
-      }
+			setLoadProgress({ done: 0, total: 0 });
+			setLoadError(null);
+
+			try {
+			  // 1) Load EVERYTHING
+			  const allCards = await loadCardsForGame(selectedGame, (done, total) => {
+				setLoadProgress({ done, total });
+			  });
+
+			  // 2) Filter for UI using settings.hiddenSets (by set_id)
+			  const hidden = new Set((settings.hiddenSets || []).map((s) => String(s)));
+			  const visibleCards = allCards.filter((c) => !hidden.has(String(c?.set_id ?? "")));
+
+			  setGameData({
+				settings: { ...settings, deckValidation },
+				cards: sortCardsByNameThenSubtitle(visibleCards),   // UI uses this
+				allCards: sortCardsByNameThenSubtitle(allCards),    // exporter can use this
+			  });
+			} catch (err) {
+			  console.error(err);
+			  setGameData({ settings: { ...settings, deckValidation }, cards: [], allCards: [] });
+			  setLoadError(err?.message || String(err));
+			}
     })();
 
     setDeck({}); // Clear deck on game change to avoid conflicts
@@ -268,7 +276,7 @@ useEffect(() => {
     }
     setDeck({});
     setSelectedGame("");
-    setGameData({ settings: null, cards: [] });
+    setGameData({ settings: null, cards: [], allCards: [] });
     setGroupBy("Type");
     setOctgnOverrides({});
 
@@ -424,6 +432,7 @@ useEffect(() => {
             game={selectedGame}
             settings={gameData.settings}
             cards={gameData.cards}
+			allCards={gameData.allCards}
             deck={deck}
             setDeck={setDeck}
             setGame={setSelectedGame}
@@ -437,6 +446,7 @@ useEffect(() => {
             game={selectedGame}
             settings={gameData.settings}
             cards={gameData.cards}
+			allCards={gameData.allCards}
             deck={deck}
             setDeck={setDeck}
             setGame={setSelectedGame}
