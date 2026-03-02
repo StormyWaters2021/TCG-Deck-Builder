@@ -1,0 +1,47 @@
+[
+  {
+    "id": "3bf5acd6-1849-4972-8f23-85ee4c9a840f",
+    "name": "Communist/Government Propaganda",
+    "size": "Propaganda",
+    "Set": "06 - Brainwash Markers",
+    "index": "3",
+    "set_id": "62aa11c4-4f80-461d-a72f-10b0e9310d25",
+    "image": "3bf5acd6-1849-4972-8f23-85ee4c9a840f.jpg"
+  },
+  {
+    "id": "8dcec762-b6ed-4436-aa72-f32dbc4b2c7e",
+    "name": "Criminal Propaganda",
+    "size": "Propaganda",
+    "Set": "06 - Brainwash Markers",
+    "index": "2",
+    "set_id": "62aa11c4-4f80-461d-a72f-10b0e9310d25",
+    "image": "8dcec762-b6ed-4436-aa72-f32dbc4b2c7e.jpg"
+  },
+  {
+    "id": "4a3d9f31-045e-4d2b-9820-135a002d3f10",
+    "name": "Liberal/Conservative Propaganda",
+    "size": "Propaganda",
+    "Set": "06 - Brainwash Markers",
+    "index": "4",
+    "set_id": "62aa11c4-4f80-461d-a72f-10b0e9310d25",
+    "image": "4a3d9f31-045e-4d2b-9820-135a002d3f10.jpg"
+  },
+  {
+    "id": "63eca2ce-7a9c-454e-81ae-2b02f0738cc7",
+    "name": "Peaceful/Violent Propaganda",
+    "size": "Propaganda",
+    "Set": "06 - Brainwash Markers",
+    "index": "6",
+    "set_id": "62aa11c4-4f80-461d-a72f-10b0e9310d25",
+    "image": "63eca2ce-7a9c-454e-81ae-2b02f0738cc7.jpg"
+  },
+  {
+    "id": "f555ec24-a817-4993-9e68-4b5e2f9ba07b",
+    "name": "Weird/Straight Propaganda",
+    "size": "Propaganda",
+    "Set": "06 - Brainwash Markers",
+    "index": "5",
+    "set_id": "62aa11c4-4f80-461d-a72f-10b0e9310d25",
+    "image": "f555ec24-a817-4993-9e68-4b5e2f9ba07b.jpg"
+  }
+]

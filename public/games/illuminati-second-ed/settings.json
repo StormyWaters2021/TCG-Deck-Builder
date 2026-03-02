@@ -1,0 +1,34 @@
+{
+  "gameName": "illuminati-second-ed",
+  "game_id": "491cf411-1650-405b-a5cc-7a1313b92b5b",
+  "addNValue": 4,
+  "groupOptions": [
+    "Type",
+    "Card Type"
+  ],
+  "filterOptions": [
+    "Ability",
+    "Alignment",
+    "cardName",
+    "Cash",
+    "Control Arrows",
+    "HiddenWinCon",
+    "inArrow",
+    "Income",
+    "Nick",
+    "NWO Color",
+    "outBottom",
+    "outLeft",
+    "outRight",
+    "outTop",
+    "Power",
+    "Resistance",
+    "size",
+    "Transferable Power",
+    "WinCon"
+  ],
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {},
+  "octgnExport": false
+}

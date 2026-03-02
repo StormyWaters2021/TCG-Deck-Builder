@@ -1,0 +1,33 @@
+{
+  "gameName": "illuminati-deluxe",
+  "game_id": "ffd507ab-7cfc-47b8-92c8-1e85b5a26d7f",
+  "addNValue": 4,
+  "groupOptions": [
+    "Type",
+    "Card Type"
+  ],
+  "filterOptions": [
+    "Ability",
+    "Alignment",
+    "Cash",
+    "Control Arrows",
+    "HiddenWinCon",
+    "inArrow",
+    "Income",
+    "Nick",
+    "NWO Color",
+    "outBottom",
+    "outLeft",
+    "outRight",
+    "outTop",
+    "Power",
+    "Resistance",
+    "size",
+    "Transferable Power",
+    "WinCon"
+  ],
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {},
+  "octgnExport": false
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "402339bd-c6cb-4afb-89d0-d231726ce0af",
+    "name": "The Masters of Voodoo",
+    "size": "illuminati",
+    "Ability": "Propaganda attempts are automatically privileged.",
+    "Power": "6",
+    "Transferable Power": "6",
+    "Resistance": "0",
+    "Income": "10",
+    "Control Arrows": "4",
+    "Card Type": "Illuminati",
+    "Cash": "0",
+    "Nick": "Voodoo",
+    "WinCon": "Get 2 alignments to level 3",
+    "Set": "05 - Brainwash",
+    "index": "1",
+    "Type": "Illuminati",
+    "set_id": "3f6246e0-ea35-4934-9953-e1ab1ce7d20a",
+    "image": "402339bd-c6cb-4afb-89d0-d231726ce0af.jpg"
+  },
+  {
+    "id": "3fd148ed-79c7-49d1-aadd-b78cc5edeb0d",
+    "name": "The Telepathists",
+    "size": "illuminati",
+    "Ability": "+6 on any attempt to brainwash.",
+    "Power": "8",
+    "Transferable Power": "8",
+    "Resistance": "0",
+    "Income": "8",
+    "Control Arrows": "4",
+    "Card Type": "Illuminati",
+    "Cash": "0",
+    "WinCon": "Total of 30 Resistance",
+    "Set": "05 - Brainwash",
+    "index": "0",
+    "Type": "Illuminati",
+    "set_id": "3f6246e0-ea35-4934-9953-e1ab1ce7d20a",
+    "image": "3fd148ed-79c7-49d1-aadd-b78cc5edeb0d.jpg"
+  }
+]

@@ -177,6 +177,30 @@
     "games/fow-tcg/sets/099_Memoria_Collection_09.json",
     "games/fow-tcg/sets/100_Antechamber_of_the_Ten_Dimensions.json"
   ],
+  "illuminati-deluxe": [
+    "games/illuminati-deluxe/sets/01_Base_Game.json",
+    "games/illuminati-deluxe/sets/02_Bavarian_Fire_Drill.json",
+    "games/illuminati-deluxe/sets/03_Y2K.json",
+    "games/illuminati-deluxe/sets/04_Mutual_Assured_Distraction.json",
+    "games/illuminati-deluxe/sets/05_Brainwash.json",
+    "games/illuminati-deluxe/sets/06_Brainwash_Markers.json"
+  ],
+  "illuminati-pocketbox": [
+    "games/illuminati-pocketbox/sets/01_Core_Set.json",
+    "games/illuminati-pocketbox/sets/02_Expansion_Set_1.json",
+    "games/illuminati-pocketbox/sets/03_Expansion_Set_2.json",
+    "games/illuminati-pocketbox/sets/04_Expansion_Set_3.json",
+    "games/illuminati-pocketbox/sets/05_Magazine_Extras_Imagine_Magazine_6.json",
+    "games/illuminati-pocketbox/sets/06_Magazine_Extras_Space_Gamer_59.json",
+    "games/illuminati-pocketbox/sets/07_Magazine_Extras_Space_Gamer_72.json"
+  ],
+  "illuminati-second-ed": [
+    "games/illuminati-second-ed/sets/01_Base_Game.json",
+    "games/illuminati-second-ed/sets/02_Alternative_Truths.json",
+    "games/illuminati-second-ed/sets/03_Illuminati_2020.json",
+    "games/illuminati-second-ed/sets/Promos.json",
+    "games/illuminati-second-ed/sets/Reference_Cards.json"
+  ],
   "inwo": [
     "games/inwo/sets/Assassins.json",
     "games/inwo/sets/One_With_Everything.json",

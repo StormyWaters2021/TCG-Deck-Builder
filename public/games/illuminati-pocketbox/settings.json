@@ -1,0 +1,33 @@
+{
+  "gameName": "illuminati-pocketbox",
+  "game_id": "9a8885dc-15f3-415e-980b-348ea1eac666",
+  "addNValue": 4,
+  "groupOptions": [
+    "Type",
+    "Card Type"
+  ],
+  "filterOptions": [
+    "Ability",
+    "Alignments",
+    "cardName",
+    "Cash",
+    "Control Arrows",
+    "HiddenWinCon",
+    "inArrow",
+    "Income",
+    "Nick",
+    "outBottom",
+    "outLeft",
+    "outRight",
+    "outTop",
+    "Power",
+    "Resistance",
+    "size",
+    "Transferable Power",
+    "WinCon"
+  ],
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {},
+  "octgnExport": false
+}

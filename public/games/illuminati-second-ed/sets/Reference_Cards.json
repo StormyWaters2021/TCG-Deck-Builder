@@ -1,0 +1,101 @@
+[
+  {
+    "id": "e763cbe2-fa9b-4f09-ab97-dc899d4c2c76",
+    "name": "Assassins Reference Card",
+    "size": "reference",
+    "Card Type": "Reference",
+    "Set": "Reference Cards",
+    "index": "4A",
+    "Type": "Reference",
+    "set_id": "e6f12e38-c285-4937-98a9-c86d72aa99b0",
+    "image": "e763cbe2-fa9b-4f09-ab97-dc899d4c2c76.jpg"
+  },
+  {
+    "id": "e7646b95-a974-432e-930c-fa92ebff5d48",
+    "name": "Bavaria Reference Card",
+    "size": "reference",
+    "Card Type": "Reference",
+    "Set": "Reference Cards",
+    "index": "4B",
+    "Type": "Reference",
+    "set_id": "e6f12e38-c285-4937-98a9-c86d72aa99b0",
+    "image": "e7646b95-a974-432e-930c-fa92ebff5d48.jpg"
+  },
+  {
+    "id": "e81d785e-ef7d-4652-a7ce-358aa935a387",
+    "name": "Bermuda Reference Card",
+    "size": "reference",
+    "Card Type": "Reference",
+    "Set": "Reference Cards",
+    "index": "4C",
+    "Type": "Reference",
+    "set_id": "e6f12e38-c285-4937-98a9-c86d72aa99b0",
+    "image": "e81d785e-ef7d-4652-a7ce-358aa935a387.jpg"
+  },
+  {
+    "id": "e8432b7c-b3c5-4bb4-88a0-96f6a39d4fa8",
+    "name": "Cthulhu Reference Card",
+    "size": "reference",
+    "Card Type": "Reference",
+    "Set": "Reference Cards",
+    "index": "4D",
+    "Type": "Reference",
+    "set_id": "e6f12e38-c285-4937-98a9-c86d72aa99b0",
+    "image": "e8432b7c-b3c5-4bb4-88a0-96f6a39d4fa8.jpg"
+  },
+  {
+    "id": "e89e47ca-3b6b-417f-9de2-854614018bf4",
+    "name": "Discordia Reference Card",
+    "size": "reference",
+    "Card Type": "Reference",
+    "Set": "Reference Cards",
+    "index": "4E",
+    "Type": "Reference",
+    "set_id": "e6f12e38-c285-4937-98a9-c86d72aa99b0",
+    "image": "e89e47ca-3b6b-417f-9de2-854614018bf4.jpg"
+  },
+  {
+    "id": "e8e26fc3-fb12-4b86-bc0e-06700e15cc81",
+    "name": "Network Reference Card",
+    "size": "reference",
+    "Card Type": "Reference",
+    "Set": "Reference Cards",
+    "index": "4F",
+    "Type": "Reference",
+    "set_id": "e6f12e38-c285-4937-98a9-c86d72aa99b0",
+    "image": "e8e26fc3-fb12-4b86-bc0e-06700e15cc81.jpg"
+  },
+  {
+    "id": "e9810638-293f-4725-8880-9457d00d1b82",
+    "name": "Shangri-La Reference Card",
+    "size": "reference",
+    "Card Type": "Reference",
+    "Set": "Reference Cards",
+    "index": "4I",
+    "Type": "Reference",
+    "set_id": "e6f12e38-c285-4937-98a9-c86d72aa99b0",
+    "image": "e9810638-293f-4725-8880-9457d00d1b82.jpg"
+  },
+  {
+    "id": "e94d2b1b-f6a2-4d4b-b6fb-5239159a377d",
+    "name": "UFO Reference Card",
+    "size": "reference",
+    "Card Type": "Reference",
+    "Set": "Reference Cards",
+    "index": "4G",
+    "Type": "Reference",
+    "set_id": "e6f12e38-c285-4937-98a9-c86d72aa99b0",
+    "image": "e94d2b1b-f6a2-4d4b-b6fb-5239159a377d.jpg"
+  },
+  {
+    "id": "e974e842-52f9-4b97-b3aa-4a39ad4c9909",
+    "name": "Zurich Reference Card",
+    "size": "reference",
+    "Card Type": "Reference",
+    "Set": "Reference Cards",
+    "index": "4H",
+    "Type": "Reference",
+    "set_id": "e6f12e38-c285-4937-98a9-c86d72aa99b0",
+    "image": "e974e842-52f9-4b97-b3aa-4a39ad4c9909.jpg"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "d5d52959-8ec8-45fa-b739-ad2f1d6ca747",
+    "name": "Fake News Sites",
+    "size": "Group",
+    "cardName": "Fake News Sites",
+    "Ability": "+2 on any attempt to neutralize any group.",
+    "Power": "1",
+    "Transferable Power": "1",
+    "Resistance": "3",
+    "Income": "2",
+    "Alignment": "Media",
+    "Control Arrows": "1",
+    "Card Type": "Group",
+    "inArrow": "Left",
+    "outTop": "FALSE",
+    "outRight": "TRUE",
+    "outBottom": "FALSE",
+    "outLeft": "FALSE",
+    "Cash": "0",
+    "Set": "Promos",
+    "index": "0",
+    "Type": "Group",
+    "set_id": "616337b3-1013-477d-8142-1f093d77c611",
+    "image": "d5d52959-8ec8-45fa-b739-ad2f1d6ca747.jpg"
+  }
+]
