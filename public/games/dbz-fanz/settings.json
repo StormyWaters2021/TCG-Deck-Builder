@@ -1,6 +1,6 @@
 {
   "gameName": "dbz-fanz",
-
+  "hiddenSets": ["cosmetics.json", "hidden_set.json"],
   "addNValue": 3,
   
   "fallbackGroup": "Life Deck",

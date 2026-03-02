@@ -214,9 +214,11 @@ useEffect(() => {
       setLoadProgress({ done: 0, total: 0 });
       setLoadError(null);
       try {
-        const cards = await loadCardsForGame(selectedGame, (done, total) => {
-          setLoadProgress({ done, total });
-        });
+        const cards = await loadCardsForGame(
+		  selectedGame,
+		  (done, total) => setLoadProgress({ done, total }),
+		  { hiddenSets: settings.hiddenSets }
+		);
         setGameData({ settings: { ...settings, deckValidation }, cards: sortCardsByNameThenSubtitle(cards) });
       } catch (err) {
         console.error(err);
