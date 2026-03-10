@@ -15,6 +15,19 @@ import {
 } from "../utils/deckExportHelpers";
 import { exportDeckPDF } from "../utils/deckPrintPDF";
 import PdfDecklistExportFlow from "../components/PdfDecklistExportFlow";
+import {
+  addSavedDeckFolder,
+  assignSavedDeckToFolder,
+  buildSavedDeckFolderView,
+  createSavedDeckFolder,
+  deleteSavedDeckFolder,
+  loadSavedDeckFolderState,
+  loadSavedDecks,
+  removeSavedDeckAssignment,
+  saveSavedDeckFolderState,
+  saveSavedDecks,
+  toggleSavedDeckFolder,
+} from "../utils/savedDeckFolders";
 
 const WORKER_API = "https://tcgbuilder.net/api";
 
@@ -33,8 +46,9 @@ function DeckControls({
   setOctgnOverrides: setOctgnOverridesProp,
 }) {
   const [deckName, setDeckName] = useState("");
-  const [savedDecks, setSavedDecks] = useState(() =>
-    JSON.parse(localStorage.getItem(`${game}-decks`) || "[]"),
+  const [savedDecks, setSavedDecks] = useState(() => loadSavedDecks(game));
+  const [savedDeckFolderState, setSavedDeckFolderState] = useState(() =>
+    loadSavedDeckFolderState(game),
   );
   const [exportMenuOpen, setExportMenuOpen] = useState(false);
   const exportMenuRef = useRef(null);
@@ -47,6 +61,8 @@ function DeckControls({
   const [imagePackProgress, setImagePackProgress] = useState(null);
   const [showSetSelector, setShowSetSelector] = useState(false);
   const [selectedSetNames, setSelectedSetNames] = useState(new Set());
+  const [savedDeckDrag, setSavedDeckDrag] = useState(null);
+  const [savedDeckFolderDropIndicator, setSavedDeckFolderDropIndicator] = useState(null);
   
   const pdfDecklistRef = useRef(null);
   const cancelExport = useRef(false);
@@ -167,7 +183,8 @@ function DeckControls({
   }, [game, cards]);
 
   useEffect(() => {
-    setSavedDecks(JSON.parse(localStorage.getItem(`${game}-decks`) || "[]"));
+    setSavedDecks(loadSavedDecks(game));
+    setSavedDeckFolderState(loadSavedDeckFolderState(game));
   }, [game]);
 
   useEffect(() => {
@@ -185,6 +202,27 @@ function DeckControls({
     return () => document.removeEventListener("mousedown", handleClick);
   }, [exportMenuOpen]);
 
+  const savedDeckFolderView = React.useMemo(
+    () => buildSavedDeckFolderView(savedDecks, savedDeckFolderState),
+    [savedDecks, savedDeckFolderState],
+  );
+
+  function persistSavedDecks(nextDecks) {
+    setSavedDecks(nextDecks);
+    saveSavedDecks(game, nextDecks);
+  }
+
+  function persistSavedDeckFolderState(nextState) {
+    setSavedDeckFolderState(nextState);
+    saveSavedDeckFolderState(game, nextState);
+  }
+
+  function updateSavedDeckFolderState(updater) {
+    const nextState = typeof updater === "function" ? updater(savedDeckFolderState) : updater;
+    persistSavedDeckFolderState(nextState);
+  }
+
+
   function saveDeck() {
     if (!deckName) {
       alert("Please enter a deck name.");
@@ -199,8 +237,7 @@ function DeckControls({
         const newDecks = savedDecks.map((d, i) =>
           i === existingIdx ? { name: deckName, deck } : d,
         );
-        setSavedDecks(newDecks);
-        localStorage.setItem(`${game}-decks`, JSON.stringify(newDecks));
+        persistSavedDecks(newDecks);
         alert("Deck overwritten.");
       } else {
         let newName = prompt("Enter a new deck name:", `${deckName} (copy)`);
@@ -213,14 +250,12 @@ function DeckControls({
         }
         const newDecks = [...savedDecks, { name: newName, deck }];
         setDeckName(newName);
-        setSavedDecks(newDecks);
-        localStorage.setItem(`${game}-decks`, JSON.stringify(newDecks));
+        persistSavedDecks(newDecks);
         alert("Deck saved with new name.");
       }
     } else {
       const newDecks = [...savedDecks, { name: deckName, deck }];
-      setSavedDecks(newDecks);
-      localStorage.setItem(`${game}-decks`, JSON.stringify(newDecks));
+      persistSavedDecks(newDecks);
       alert("Deck saved.");
     }
   }
@@ -254,11 +289,239 @@ function DeckControls({
       )
     )
       return;
+	const deckToDelete = savedDecks[idx];
     const newDecks = savedDecks.filter((_, i) => i !== idx);
-    setSavedDecks(newDecks);
-    localStorage.setItem(`${game}-decks`, JSON.stringify(newDecks));
+    persistSavedDecks(newDecks);
+    if (deckToDelete?.name) {
+      updateSavedDeckFolderState((current) =>
+        removeSavedDeckAssignment(current, deckToDelete.name),
+      );
+    }
   }
 
+
+
+  function promptCreateSavedDeckFolder() {
+    const folderName = window.prompt("Enter a folder name:");
+    const folder = createSavedDeckFolder(folderName);
+    if (!folder) return;
+
+    if (savedDeckFolderState.folders.some((item) => item.name === folder.name)) {
+      alert("A saved deck folder with that name already exists.");
+      return;
+    }
+
+    updateSavedDeckFolderState((current) => addSavedDeckFolder(current, folder));
+  }
+
+  function handleToggleSavedDeckFolder(folderId) {
+    updateSavedDeckFolderState((current) =>
+      toggleSavedDeckFolder(current, folderId),
+    );
+  }
+
+  function handleDeleteSavedDeckFolder(folderId, folderName) {
+    if (
+      !window.confirm(
+        `Delete folder "${folderName}"? Decks inside it will become unfoldered.`,
+      )
+    ) {
+      return;
+    }
+
+    updateSavedDeckFolderState((current) =>
+      deleteSavedDeckFolder(current, folderId),
+    );
+  }
+
+  function handleSavedDeckDragStart(e, deckName) {
+  e.stopPropagation();
+  setSavedDeckDrag({ type: "deck", deckName });
+  }
+
+  function handleSavedDeckDragEnd() {
+    setSavedDeckDrag(null);
+	setSavedDeckFolderDropIndicator(null);
+  }
+
+  function moveSavedDeckToFolder(targetFolderId = null) {
+    if (!savedDeckDrag || savedDeckDrag.type !== "deck") return;
+    updateSavedDeckFolderState((current) =>
+      assignSavedDeckToFolder(current, savedDeckDrag.deckName, targetFolderId),
+    );
+    setSavedDeckDrag(null);
+  }
+
+  function handleSavedDeckFolderDrop(targetFolderId) {
+  if (savedDeckDrag?.type === "folder") {
+    if (savedDeckDrag.folderId === targetFolderId) {
+      setSavedDeckDrag(null);
+	  setSavedDeckFolderDropIndicator(null);
+      return;
+    }
+
+      const draggedFolderId = savedDeckDrag.folderId;
+      const indicator = savedDeckFolderDropIndicator;
+
+      if (!draggedFolderId || draggedFolderId === targetFolderId) {
+        setSavedDeckDrag(null);
+        setSavedDeckFolderDropIndicator(null);
+        return;
+      }
+
+      updateSavedDeckFolderState((current) => {
+        const folders = [...(current?.folders || [])];
+        const fromIndex = folders.findIndex(
+          (folder) => folder.id === draggedFolderId,
+        );
+        const targetIndex = folders.findIndex(
+          (folder) => folder.id === targetFolderId,
+        );
+
+        if (fromIndex === -1 || targetIndex === -1) return current;
+
+        const [moved] = folders.splice(fromIndex, 1);
+
+        let insertIndex = folders.findIndex(
+          (folder) => folder.id === targetFolderId,
+        );
+        if (insertIndex === -1) return current;
+
+        if (
+          indicator?.folderId === targetFolderId &&
+          indicator.position === "below"
+        ) {
+          insertIndex += 1;
+        }
+
+        folders.splice(insertIndex, 0, moved);
+        return { ...current, folders };
+      });
+    
+    setSavedDeckDrag(null);
+	setSavedDeckFolderDropIndicator(null);
+    return;
+    }
+
+    if (savedDeckDrag?.type === "deck") {
+      setSavedDeckFolderDropIndicator(null);
+  }
+
+  moveSavedDeckToFolder(targetFolderId);
+}
+
+  function handleSavedDeckRootDrop() {
+    if (!savedDeckDrag || savedDeckDrag.type !== "deck") return;
+	setSavedDeckFolderDropIndicator(null);
+    moveSavedDeckToFolder(null);
+ }
+ 
+  function handleSavedDeckFolderDragOver(e, folderId) {
+    if (savedDeckDrag?.type !== "folder") return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    const rect = e.currentTarget.getBoundingClientRect();
+    const midpoint = rect.top + rect.height / 2;
+    const position = e.clientY < midpoint ? "above" : "below";
+
+    setSavedDeckFolderDropIndicator({ folderId, position });
+  }
+ 
+
+  function handleSavedDeckFolderDragStart(folderId) {
+    setSavedDeckDrag({ type: "folder", folderId });
+  }
+
+function renderSavedDeckItem(d, options = {}) {
+  const { dropTargetFolderId, allowUnfolderDrop = false } = options;
+  const idx = savedDecks.findIndex((saved) => saved.name === d.name);
+  if (idx === -1) return null;
+
+  return (
+    <li
+      key={d.name}
+      draggable
+      className={selectedDeckIdx === idx ? listSelectedClass : ""}
+      onClick={() => setSelectedDeckIdx(idx)}
+      onMouseDown={(e) => e.stopPropagation()}
+      onDragStart={(e) => handleSavedDeckDragStart(e, d.name)}
+      onDragEnd={handleSavedDeckDragEnd}
+      onDragEnter={(e) => e.stopPropagation()}
+      onDragOver={(e) => {
+        if (!savedDeckDrag) return;
+
+        if (savedDeckDrag.type === "folder" && allowUnfolderDrop) {
+          return;
+        }
+
+        e.preventDefault();
+        e.stopPropagation();
+      }}
+      onDrop={(e) => {
+        if (!savedDeckDrag) return;
+
+        if (savedDeckDrag.type === "folder") {
+          if (allowUnfolderDrop) {
+            return;
+          }
+
+          if (dropTargetFolderId) {
+            e.preventDefault();
+            e.stopPropagation();
+            handleSavedDeckFolderDrop(dropTargetFolderId);
+          }
+          return;
+        }
+
+        e.preventDefault();
+        e.stopPropagation();
+
+        if (allowUnfolderDrop) {
+          handleSavedDeckRootDrop();
+        } else if (dropTargetFolderId) {
+          handleSavedDeckFolderDrop(dropTargetFolderId);
+        }
+      }}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        padding: "0.25em 0.5em",
+        borderRadius: "4px",
+        marginBottom: "0.3em",
+        cursor: "pointer",
+      }}
+    >
+      <span style={{ flex: 1 }}>{d.name}</span>
+      <button
+        className={buttonClass}
+        style={{
+          width: "60px",
+          height: "1.8em",
+          fontSize: "0.9em",
+          marginRight: "0.3em",
+        }}
+        onClick={(e) => {
+          e.stopPropagation();
+          loadDeck(idx);
+        }}
+      >
+        Load
+      </button>
+      <button
+        className={buttonClass}
+        style={{ width: "60px", height: "1.8em", fontSize: "0.9em" }}
+        onClick={(e) => {
+          e.stopPropagation();
+          deleteDeck(idx);
+        }}
+      >
+        Delete
+      </button>
+    </li>
+  );
+}
 
   async function exportDeck(format) {
     setExportMenuOpen(false);
@@ -920,51 +1183,160 @@ function DeckControls({
         />
       </div>
       <div style={{ width: "100%", maxWidth: 500 }}>
-        <h3>Saved Decks</h3>
-        <ul style={{ listStyle: "none", padding: 0 }}>
-          {savedDecks.map((d, i) => (
-            <li
-              key={i}
-              className={selectedDeckIdx === i ? listSelectedClass : ""}
-              onClick={() => setSelectedDeckIdx(i)}
-              style={{
-                display: "flex",
-                alignItems: "center",
-                padding: "0.25em 0.5em",
-                borderRadius: "4px",
-                marginBottom: "0.3em",
-                cursor: "pointer",
-              }}
-            >
-              <span style={{ flex: 1 }}>{d.name}</span>
+               <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: "0.5em",
+            marginBottom: "0.5em",
+          }}
+        >
+          <h3 style={{ margin: 0 }}>Saved Decks</h3>
+          <button
+            className={buttonClass}
+            type="button"
+            onClick={promptCreateSavedDeckFolder}
+            title="Create folder"
+            aria-label="Create saved deck folder"
+            style={{
+              width: "32px",
+              height: "32px",
+              padding: 0,
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: "1rem",
+            }}
+          >
+            📁
+          </button>
+        </div>
+
+        {savedDeckFolderView.folders.map((folder) => (
+        <div
+		  key={folder.id}
+		  onDragOver={(e) => e.preventDefault()}
+		  onDrop={(e) => {
+			e.preventDefault();
+			handleSavedDeckFolderDrop(folder.id);
+          }}
+          onDragLeave={(e) => {
+            if (savedDeckDrag?.type !== "folder") return;
+            if (!e.currentTarget.contains(e.relatedTarget)) {
+              setSavedDeckFolderDropIndicator(null);
+            }
+		  }}
+		  style={{
+			border: "1px solid rgba(255, 255, 255, 0.12)",
+			borderRadius: "8px",
+			marginBottom: "0.6em",
+			overflow: "hidden",
+		  }}
+		>
+            <div
+              draggable
+              onDragStart={() => handleSavedDeckFolderDragStart(folder.id)}
+              onDragEnd={handleSavedDeckDragEnd}
+              onDragOver={(e) => handleSavedDeckFolderDragOver(e, folder.id)}
+			  style={{
+				display: "flex",
+				alignItems: "center",
+				gap: "0.4em",
+				padding: "0.45em 0.55em",
+				background: "rgba(255, 255, 255, 0.04)",
+				cursor: "grab",
+                borderTop:
+                  savedDeckFolderDropIndicator?.folderId === folder.id &&
+                  savedDeckFolderDropIndicator?.position === "above"
+                    ? "2px solid rgba(120, 190, 255, 0.95)"
+                    : "2px solid transparent",
+                borderBottom:
+                  savedDeckFolderDropIndicator?.folderId === folder.id &&
+                  savedDeckFolderDropIndicator?.position === "below"
+                    ? "2px solid rgba(120, 190, 255, 0.95)"
+                    : "2px solid transparent",				
+			  }}
+			>
+              
               <button
-                className={buttonClass}
+                type="button"
+                onClick={() => handleToggleSavedDeckFolder(folder.id)}
                 style={{
-                  width: "60px",
-                  height: "1.8em",
-                  fontSize: "0.9em",
-                  marginRight: "0.3em",
+                  background: "none",
+                  border: "none",
+                  color: "inherit",
+                  cursor: "pointer",
+                  padding: 0,
+                  fontSize: "0.95em",
                 }}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  loadDeck(i);
-                }}
+				 title={folder.collapsed ? "Expand folder" : "Collapse folder"}
+                 aria-label={folder.collapsed ? "Expand folder" : "Collapse folder"}
               >
-                Load
+                {folder.collapsed ? "▶" : "▼"}
               </button>
+			   <span style={{ fontSize: "0.95em" }}>📁</span>
+               <strong style={{ flex: 1, minWidth: 0 }}>{folder.name}</strong>
               <button
                 className={buttonClass}
-                style={{ width: "60px", height: "1.8em", fontSize: "0.9em" }}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  deleteDeck(i);
-                }}
+                type="button"
+                onClick={() => handleDeleteSavedDeckFolder(folder.id, folder.name)}
+                style={{ width: "60px", height: "1.8em", fontSize: "0.85em" }}
               >
                 Delete
               </button>
-            </li>
-          ))}
-        </ul>
+                       </div>
+
+            {!folder.collapsed && (
+              <div style={{ padding: "0.45em 0.4em 0.15em" }}>
+                <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+                  {folder.decks.map((d) =>
+				  renderSavedDeckItem(d, { dropTargetFolderId: folder.id })
+				)}
+                </ul>
+                {folder.decks.length === 0 && (
+                  <div
+                    style={{
+                      padding: "0.2em 0.35em 0.45em",
+                      fontSize: "0.9em",
+                      opacity: 0.7,
+                    }}
+                  >
+                    Drag saved decks here
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        ))}
+
+        <div
+          onDragOver={(e) => e.preventDefault()}
+          onDrop={(e) => {
+            e.preventDefault();
+            handleSavedDeckRootDrop();
+          }}
+          style={{
+            borderRadius: "8px",
+            padding: savedDeckFolderView.unfolderedDecks.length ? 0 : "0.55em",
+            border:
+              savedDeckFolderView.folders.length > 0
+                ? "1px dashed rgba(255, 255, 255, 0.18)"
+                : "none",
+          }}
+        >
+          <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+            {savedDeckFolderView.unfolderedDecks.map((d) =>
+			  renderSavedDeckItem(d, { allowUnfolderDrop: true })
+			)}
+          </ul>
+          {savedDeckFolderView.folders.length > 0 &&
+            savedDeckFolderView.unfolderedDecks.length === 0 && (
+              <div style={{ fontSize: "0.9em", opacity: 0.7 }}>
+                Drag a deck here to remove it from its folder
+              </div>
+            )}
+        </div>
       </div>
 	  <DeckSubmissionFlow
 		  ref={deckSubmissionRef}

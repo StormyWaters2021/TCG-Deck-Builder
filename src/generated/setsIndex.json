@@ -20,8 +20,6 @@
     "games/call-of-cthulhu-lcg/sets/18_-_The_Mark_of_Madness.json"
   ],
   "dbz-fanz": [
-    "games/dbz-fanz/sets/Cosmetics.json",
-    "games/dbz-fanz/sets/Hidden_set.json",
     "games/dbz-fanz/sets/OP_Series.json",
     "games/dbz-fanz/sets/PanZ_Personality_Promos.json",
     "games/dbz-fanz/sets/Set_10_Revelation.json",
@@ -41,7 +39,9 @@
     "games/dbz-fanz/sets/Set_6_Vengeance.json",
     "games/dbz-fanz/sets/Set_7_Awakening.json",
     "games/dbz-fanz/sets/Set_8_Celestial_Tournament.json",
-    "games/dbz-fanz/sets/Set_9_Legends.json"
+    "games/dbz-fanz/sets/Set_9_Legends.json",
+    "games/dbz-fanz/sets/cosmetics.json",
+    "games/dbz-fanz/sets/hidden_set.json"
   ],
   "dbz-score": [
     "games/dbz-score/sets/01_-_Saiyan_Saga.json",
