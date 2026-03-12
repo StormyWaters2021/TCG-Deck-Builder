@@ -34,7 +34,22 @@
   ],
   
   "groupSort": {
-    "Hero MP": {
+    "Starting": {
+      "by": [
+        "Level",
+        "name"
+      ],
+      "order": {
+        "Level": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+	
+	"Hero MP": {
       "by": [
         "Level",
         "name"

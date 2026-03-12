@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import CardListPanel from "./panels/CardListPanel";
 import DeckPanel from "./panels/DeckPanel";
 import DeckControls from "./panels/DeckControls";
+import { createDeckLoadNormalizer } from "./utils/deckLoadRepair";
 
 // Helper to get the correct OCTGN section for a card
 function getSectionForCard(card, octgnSections, defaultSection) {
+  if (!card) return defaultSection || "Main";
   for (const section of octgnSections || []) {
     if (!section.criteria) continue;
     if (
@@ -67,63 +69,29 @@ function DeckBuilder({
  );
 
 
-// --- Normalize loaded decks (local storage / share links) ---
-// Goal: ONLY repair entries that have no usable group data.
-// If an entry already has group counts, leave it exactly as-is.
-const pickAutoGroupForCard = (cardId) => {
-  let actualGroup = null;
+const normalizeLoadedDeck = useMemo(
+  () =>
+    createDeckLoadNormalizer({
+      cards: allCards && allCards.length ? allCards : cards,
+      fallbackGroup: settings?.fallbackGroup,
+      octgnSections,
+      octgnDefaultSection,
+      getSectionForCard,
+    }),
+  [allCards, cards, settings?.fallbackGroup, octgnSections, octgnDefaultSection]
+);
 
-  // Mirror the same auto-group selection used by addCard() when groupName is not provided.
-  if (octgnSections && Array.isArray(octgnSections)) {
-    const card = cards.find(c => c.id === cardId);
-    actualGroup = getSectionForCard(card, octgnSections, octgnDefaultSection);
+// Catch any deck loads that bypass DeckControls and hit app state directly
+// (for example: raw URL deck parsing / shared deck link loads).
+useEffect(() => {
+  if (!deck || typeof deck !== "object" || Object.keys(deck).length === 0) return;
+  if (!cards || cards.length === 0) return;
+
+  const repairedDeck = normalizeLoadedDeck(deck);
+  if (repairedDeck !== deck) {
+    setDeck(repairedDeck);
   }
-
-  if (!actualGroup && octgnDefaultSection) actualGroup = octgnDefaultSection;
-  if (!actualGroup && settings?.fallbackGroup) actualGroup = settings.fallbackGroup;
-
-  if (!actualGroup) {
-    console.warn("Loaded card with no group and no fallbackGroup; assigning to 'Other'.", { cardId });
-    actualGroup = "Other";
-  }
-
-  return actualGroup;
-};
-
-const normalizeLoadedDeck = (loadedDeck) => {
-  if (!loadedDeck || typeof loadedDeck !== "object") return loadedDeck;
-
-  let changed = false;
-  const normalized = { ...loadedDeck };
-
-  for (const [cardId, entry] of Object.entries(normalized)) {
-    if (!entry || typeof entry !== "object") continue;
-
-    // If group already has counts, leave it exactly as-is.
-    const groupObj = (entry.group && typeof entry.group === "object") ? entry.group : null;
-    const existingGroupTotal = groupObj
-      ? Object.values(groupObj).reduce((sum, v) => sum + (Number.isFinite(+v) ? +v : 0), 0)
-      : 0;
-
-    if (existingGroupTotal > 0) {
-      continue; // DO NOT TOUCH valid grouped entries
-    }
-
-    // Only repair entries with no usable group data.
-    const count = Number.isFinite(+entry.count) ? Math.max(0, +entry.count) : 0;
-    if (count <= 0) continue;
-
-    const autoGroup = pickAutoGroupForCard(cardId);
-    normalized[cardId] = {
-      ...entry,
-      group: { [autoGroup]: count },
-      count
-    };
-    changed = true;
-  }
-
-  return changed ? normalized : loadedDeck;
-};
+}, [deck, cards, normalizeLoadedDeck, setDeck]);
 
 // Wrap setDeck so any external "load" flows get normalized automatically.
 const setDeckFromLoad = (nextDeckOrUpdater) => {

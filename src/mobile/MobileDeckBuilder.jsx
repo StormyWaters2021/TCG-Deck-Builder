@@ -1,13 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import CardListPanel from "../panels/CardListPanel";
 import DeckPanel from "../panels/DeckPanel";
 import DeckControls from "../panels/DeckControls";
 import MobileStickyPreview from "./MobileStickyPreview";
 import MobileBottomNav from "./MobileBottomNav";
+import { createDeckLoadNormalizer } from "../utils/deckLoadRepair";
 import "./mobile.css";
 
 // Helper to get the correct OCTGN section for a card
 function getSectionForCard(card, octgnSections, defaultSection) {
+  if (!card) return defaultSection || "Main";
   for (const section of octgnSections || []) {
     if (!section.criteria) continue;
     if (
@@ -56,6 +58,7 @@ function useOctgnSections(gameName, enabled) {
 export default function MobileDeckBuilder({
   game,
   cards,
+  allCards,
   settings,
   deck,
   setDeck,
@@ -81,7 +84,38 @@ export default function MobileDeckBuilder({
   const [octgnSections, octgnDefaultSection] = useOctgnSections(
     settings?.gameName,
     true
+	  );
+
+  const normalizeLoadedDeck = useMemo(
+    () =>
+      createDeckLoadNormalizer({
+        cards: allCards && allCards.length ? allCards : cards,
+        fallbackGroup: settings?.fallbackGroup,
+        octgnSections,
+        octgnDefaultSection,
+        getSectionForCard,
+      }),
+    [allCards, cards, settings?.fallbackGroup, octgnSections, octgnDefaultSection]
   );
+
+  // Keep mobile behavior identical to desktop for any externally loaded deck.
+  useEffect(() => {
+    if (!deck || typeof deck !== "object" || Object.keys(deck).length === 0) return;
+    if (!cards || cards.length === 0) return;
+
+    const repairedDeck = normalizeLoadedDeck(deck);
+    if (repairedDeck !== deck) {
+      setDeck(repairedDeck);
+    }
+  }, [deck, cards, normalizeLoadedDeck, setDeck]);
+
+  const setDeckFromLoad = (nextDeckOrUpdater) => {
+    if (typeof nextDeckOrUpdater === "function") {
+      setDeck(nextDeckOrUpdater);
+      return;
+    }
+    setDeck(normalizeLoadedDeck(nextDeckOrUpdater));
+  };
 
   const addCard = (cardId, qty = 1, groupName) => {
     setDeck((prev) => {
@@ -280,9 +314,10 @@ export default function MobileDeckBuilder({
         <DeckControls
           deck={deck}
           cards={cards}
+		  allCards={allCards}
           settings={settings}
           game={game}
-          setDeck={setDeck}
+          setDeck={setDeckFromLoad}
           selectedCard={selectedCard}
           setGame={setGame}
           groupBy={groupBy}
