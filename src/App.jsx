@@ -246,19 +246,6 @@ useEffect(() => {
     setGroupBy(getDefaultGroupBy(gameData.settings));
   }, [gameData.settings]);
 
-  // When cards load, parse deck from URL (only once)
-  useEffect(() => {
-    if (!selectedGame) return;
-    if (!gameData.cards || gameData.cards.length === 0) return;
-
-    const params = new URLSearchParams(window.location.search);
-    const urlDeck = params.get("deck");
-
-    if (urlDeck) {
-      setDeck(parseDeckString(urlDeck));
-    }
-  }, [gameData.cards, selectedGame]);
-
   const handleGameClick = (game) => {
   if (Object.keys(deck).length > 0 && game !== selectedGame) {
     if (!window.confirm("Switching games will erase your current deck. Continue?")) return;

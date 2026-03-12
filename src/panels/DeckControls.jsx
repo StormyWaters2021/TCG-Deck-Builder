@@ -8,7 +8,8 @@ import {
   exportDeckImage,
   exportDeckImageCompact,
   exportDeckOCTGN,
-  shareDeck,
+  createSharedDeck,
+  updateSharedDeck,
   sortGroup,
   cardNameWithSubtitle,
   groupDeck,
@@ -24,6 +25,7 @@ import {
   loadSavedDeckFolderState,
   loadSavedDecks,
   removeSavedDeckAssignment,
+  renameSavedDeckAssignment,
   saveSavedDeckFolderState,
   saveSavedDecks,
   toggleSavedDeckFolder,
@@ -50,6 +52,8 @@ function DeckControls({
   const [savedDeckFolderState, setSavedDeckFolderState] = useState(() =>
     loadSavedDeckFolderState(game),
   );
+  const [activeSavedDeckName, setActiveSavedDeckName] = useState(null);
+  const [sessionShareInfo, setSessionShareInfo] = useState(null);  
   const [exportMenuOpen, setExportMenuOpen] = useState(false);
   const exportMenuRef = useRef(null);
   const [linkMessage, setLinkMessage] = useState("");
@@ -168,8 +172,16 @@ function DeckControls({
         return r.json();
       })
       .then((deckObj) => {
-        setDeck(deckObj);
-        setDeckName("");
+        const nextDeck =
+          deckObj?.versions?.current ||
+          deckObj?.deck ||
+          deckObj;
+        const nextName =
+          typeof deckObj?.name === "string" ? deckObj.name : "";
+        setDeck(nextDeck);
+        setDeckName(nextName);
+        setActiveSavedDeckName(null);
+        setSessionShareInfo(null);
         params.delete("deck");
         window.history.replaceState(
           {},
@@ -185,6 +197,8 @@ function DeckControls({
   useEffect(() => {
     setSavedDecks(loadSavedDecks(game));
     setSavedDeckFolderState(loadSavedDeckFolderState(game));
+    setActiveSavedDeckName(null);
+    setSessionShareInfo(null);
   }, [game]);
 
   useEffect(() => {
@@ -223,11 +237,325 @@ function DeckControls({
   }
 
 
+  function generateEditToken() {
+    if (window.crypto?.randomUUID) {
+      return `${window.crypto.randomUUID()}-${window.crypto.randomUUID()}`;
+    }
+    return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}-${Math.random().toString(36).slice(2)}`;
+  }
+
+  function getSavedDeckIndexByName(name) {
+    return savedDecks.findIndex((d) => d.name === name);
+  }
+
+  function getSavedDeckByName(name) {
+    const idx = getSavedDeckIndexByName(name);
+    return idx >= 0 ? savedDecks[idx] : null;
+  }
+
+  function buildSavedDeckRecord(name, deckValue, extras = {}) {
+    const record = {
+      name,
+      deck: deckValue,
+    };
+    if (extras.shareCode) record.shareCode = extras.shareCode;
+    if (extras.editToken) record.editToken = extras.editToken;
+    return record;
+  }
+
+  function upsertCurrentDeckAsSaved({
+    name,
+    deckValue = deck,
+    shareCode,
+    editToken,
+    sourceName = activeSavedDeckName,
+  }) {
+    const currentIndex =
+      sourceName != null ? savedDecks.findIndex((d) => d.name === sourceName) : -1;
+    const targetIndex = savedDecks.findIndex((d) => d.name === name);
+    const record = buildSavedDeckRecord(name, deckValue, { shareCode, editToken });
+
+	if (currentIndex !== -1) {
+	  if (targetIndex !== -1 && targetIndex !== currentIndex) {
+		alert(`A saved deck named "${name}" already exists. Please choose a different name.`);
+		return false;
+	  }
+
+	  const oldName = savedDecks[currentIndex]?.name;
+	  const nextDecks = savedDecks.map((d, i) => (i === currentIndex ? record : d));
+	  persistSavedDecks(nextDecks);
+
+	  if (oldName && oldName !== name) {
+		updateSavedDeckFolderState((current) =>
+		  renameSavedDeckAssignment(current, oldName, name),
+		);
+	  }
+
+	  setActiveSavedDeckName(name);
+	  return true;
+	}
+
+	if (targetIndex !== -1) {
+	  if (currentIndex === -1 || targetIndex !== currentIndex) {
+		alert(`A saved deck named "${name}" already exists. Please choose a different name.`);
+		return false;
+	  }
+
+	  const nextDecks = savedDecks.map((d, i) => (i === targetIndex ? record : d));
+	  persistSavedDecks(nextDecks);
+	  setActiveSavedDeckName(name);
+	  return true;
+	}
+
+	const nextDecks = [...savedDecks, record];
+	persistSavedDecks(nextDecks);
+	setActiveSavedDeckName(name);
+	return true;
+  }
+
+  function showLinkResult(result, successMessage = "Shareable link copied to clipboard!") {
+    if (result.success) {
+      setLinkMessage(successMessage);
+      setTimeout(() => setLinkMessage(""), 2500);
+    } else if (result.url) {
+      setLinkMessage(
+        <>
+          <div>Couldn't copy to clipboard.</div>
+          <div>
+            <strong>Tap and hold or long-press to copy:</strong>
+          </div>
+          <input
+            type="text"
+            readOnly
+            value={result.url}
+            style={{
+              width: "100%",
+              fontSize: "0.85em",
+              marginTop: "0.5em",
+              padding: "0.25em",
+              border: "1px solid #ccc",
+              borderRadius: "4px",
+            }}
+            onFocus={(e) => e.target.select()}
+          />
+        </>,
+      );
+    } else {
+      setLinkMessage("Error: " + result.error);
+      setTimeout(() => setLinkMessage(""), 4000);
+    }
+  }
+
+  async function createFirstSharedDeck({
+  saveLocallyFirst,
+  nameOverride,
+  sourceNameOverride,
+}) {
+	let name = (nameOverride || deckName || "").trim();
+	if (!name) {
+	  name = window.prompt("Enter a deck name:");
+	  if (!name) return;
+	}
+	setDeckName(name);
+
+    const editToken = generateEditToken();
+    const result = await createSharedDeck({
+      deck,
+      game,
+      name,
+      editToken,
+    });
+
+    if (!result.code) {
+      showLinkResult(result);
+      return;
+    }
+
+	if (saveLocallyFirst) {
+	  const saved = upsertCurrentDeckAsSaved({
+		name,
+		shareCode: result.code,
+		editToken,
+		sourceName: sourceNameOverride,
+	  });
+
+	  if (!saved) {
+		setSessionShareInfo({
+		  shareCode: result.code,
+		  editToken,
+		  name,
+		});
+		showLinkResult(
+		  result,
+		  "Shareable link copied to clipboard! The deck was shared, but it was not saved locally because that name already exists.",
+		);
+		return;
+	  }
+
+	  setSessionShareInfo(null);
+	  showLinkResult(result);
+	  return;
+	}
+
+    setSessionShareInfo({
+      shareCode: result.code,
+      editToken,
+      name,
+    });
+    showLinkResult(
+      result,
+      "Shareable link copied to clipboard! Save this deck before leaving if you want to update this link later.",
+    );
+  }
+
+  async function handleShareLink() {
+    let name = (deckName || "").trim();
+    if (!name) {
+      name = window.prompt("Enter a deck name:");
+      if (!name) return;
+      setDeckName(name);
+    }
+
+    const savedRecord =
+		activeSavedDeckName != null ? getSavedDeckByName(activeSavedDeckName) : null;
+    const ownedShare =
+      (savedRecord?.shareCode && savedRecord?.editToken
+        ? {
+            shareCode: savedRecord.shareCode,
+            editToken: savedRecord.editToken,
+            name: savedRecord.name,
+          }
+        : null) || sessionShareInfo;
+
+    if (ownedShare?.shareCode && ownedShare?.editToken) {
+      const updateExisting = window.confirm(
+        `Update the existing shared deck "${ownedShare.name || name}"?\n\nClick OK to update the existing link.\nClick Cancel to save as a new shared deck.`,
+      );
+
+      if (updateExisting) {
+        const result = await updateSharedDeck({
+          code: ownedShare.shareCode,
+          deck,
+          game,
+          name,
+          editToken: ownedShare.editToken,
+        });
+
+	if (result.code && savedRecord) {
+	  const saved = upsertCurrentDeckAsSaved({
+		name,
+		shareCode: result.code,
+		editToken: ownedShare.editToken,
+	  });
+
+	  if (!saved) {
+		setSessionShareInfo({
+		  shareCode: result.code,
+		  editToken: ownedShare.editToken,
+		  name,
+		});
+		showLinkResult(
+		  result,
+		  "Shared deck updated and link copied to clipboard! The shared deck was updated, but it was not saved locally because that name already exists.",
+		);
+		return;
+	  }
+
+	  setSessionShareInfo(null);
+	} else if (result.code) {
+	  setSessionShareInfo({
+		shareCode: result.code,
+		editToken: ownedShare.editToken,
+		name,
+	  });
+	}
+
+	showLinkResult(result, "Shared deck updated and link copied to clipboard!");
+	return;
+      }
+
+		const newName = window.prompt("Enter a name for the new shared deck:", `${name} (copy)`);
+		if (!newName) return;
+
+		const saveNewLocally = !!savedRecord
+		  ? window.confirm(
+			  `Save "${newName}" locally as a separate deck before sharing?\n\nClick OK to save locally first.\nClick Cancel to share without saving locally.`,
+			)
+		  : false;
+
+		await createFirstSharedDeck({
+		  saveLocallyFirst: saveNewLocally,
+		  nameOverride: newName,
+		  sourceNameOverride: null,
+		});
+		return;
+    }
+
+    if (!savedRecord) {
+      const choice = window.prompt(
+        'This deck has not been saved locally yet.\nType "save" to Save and Share, or type "share" to Share Without Saving.',
+        "save",
+      );
+      if (choice === null) return;
+
+      const normalizedChoice = String(choice).trim().toLowerCase();
+      if (normalizedChoice === "save") {
+        await createFirstSharedDeck({ saveLocallyFirst: true });
+        return;
+      }
+      if (normalizedChoice === "share") {
+        await createFirstSharedDeck({ saveLocallyFirst: false });
+        return;
+      }
+
+      alert('Please type either "save" or "share".');
+      return;
+    }
+
+    const editToken = generateEditToken();
+    const result = await createSharedDeck({
+      deck,
+      game,
+      name,
+      editToken,
+    });
+
+	if (result.code) {
+	  const saved = upsertCurrentDeckAsSaved({
+		name,
+		shareCode: result.code,
+		editToken,
+	  });
+
+	  if (!saved) {
+		setSessionShareInfo({
+		  shareCode: result.code,
+		  editToken,
+		  name,
+		});
+		showLinkResult(
+		  result,
+		  "Shareable link copied to clipboard! The deck was shared, but it was not saved locally because that name already exists.",
+		);
+		return;
+	  }
+
+	  setSessionShareInfo(null);
+	}
+	showLinkResult(result);
+  }
+
+
   function saveDeck() {
     if (!deckName) {
       alert("Please enter a deck name.");
       return;
     }
+	
+    const currentSavedRecord =
+      activeSavedDeckName != null ? getSavedDeckByName(activeSavedDeckName) : null;
+    const sessionCode = sessionShareInfo?.shareCode;
+    const sessionToken = sessionShareInfo?.editToken;
     const existingIdx = savedDecks.findIndex((d) => d.name === deckName);
     if (existingIdx !== -1) {
       const choice = window.confirm(
@@ -235,9 +563,18 @@ function DeckControls({
       );
       if (choice) {
         const newDecks = savedDecks.map((d, i) =>
-          i === existingIdx ? { name: deckName, deck } : d,
+          i === existingIdx
+            ? buildSavedDeckRecord(deckName, deck, {
+                shareCode: d?.shareCode || currentSavedRecord?.shareCode || sessionCode,
+                editToken: d?.editToken || currentSavedRecord?.editToken || sessionToken,
+              })
+            : d,
         );
         persistSavedDecks(newDecks);
+        setActiveSavedDeckName(deckName);
+        if (sessionCode && sessionToken) {
+          setSessionShareInfo(null);
+        }
         alert("Deck overwritten.");
       } else {
         let newName = prompt("Enter a new deck name:", `${deckName} (copy)`);
@@ -248,14 +585,34 @@ function DeckControls({
           );
           return;
         }
-        const newDecks = [...savedDecks, { name: newName, deck }];
+        const newDecks = [
+          ...savedDecks,
+          buildSavedDeckRecord(newName, deck, {
+            shareCode: sessionCode,
+            editToken: sessionToken,
+          }),
+        ];
         setDeckName(newName);
         persistSavedDecks(newDecks);
+        setActiveSavedDeckName(newName);
+        if (sessionCode && sessionToken) {
+          setSessionShareInfo(null);
+        }
         alert("Deck saved with new name.");
       }
     } else {
-      const newDecks = [...savedDecks, { name: deckName, deck }];
+      const newDecks = [
+        ...savedDecks,
+        buildSavedDeckRecord(deckName, deck, {
+          shareCode: currentSavedRecord?.shareCode || sessionCode,
+          editToken: currentSavedRecord?.editToken || sessionToken,
+        }),
+      ];
       persistSavedDecks(newDecks);
+      setActiveSavedDeckName(deckName);
+      if (sessionCode && sessionToken) {
+        setSessionShareInfo(null);
+      }
       alert("Deck saved.");
     }
   }
@@ -280,6 +637,8 @@ function DeckControls({
 
     setDeck(fixed);
     setDeckName(savedDecks[idx].name);
+    setActiveSavedDeckName(savedDecks[idx].name);
+    setSessionShareInfo(null);
   }
 
   function deleteDeck(idx) {
@@ -640,40 +999,9 @@ function renderSavedDeckItem(d, options = {}) {
         currentGroupBy,
       );
     } else if (format === "LINK") {
-      const result = await shareDeck(deck, game);
-
-      if (result.success) {
-        setLinkMessage("Shareable link copied to clipboard!");
-        setTimeout(() => setLinkMessage(""), 2000);
-      } else if (result.url) {
-        setLinkMessage(
-          <>
-            <div>Couldn't copy to clipboard.</div>
-            <div>
-              <strong>Tap and hold or long-press to copy:</strong>
-            </div>
-            <input
-              type="text"
-              readOnly
-              value={result.url}
-              style={{
-                width: "100%",
-                fontSize: "0.85em",
-                marginTop: "0.5em",
-                padding: "0.25em",
-                border: "1px solid #ccc",
-                borderRadius: "4px",
-              }}
-              onFocus={(e) => e.target.select()}
-            />
-          </>,
-        );
-      } else {
-        setLinkMessage("Error: " + result.error);
-        setTimeout(() => setLinkMessage(""), 4000);
-      }
-    }
+		await handleShareLink();
   }
+}
 
   function clearDeck() {
     if (Object.keys(deck).length > 0) {
@@ -684,6 +1012,8 @@ function renderSavedDeckItem(d, options = {}) {
       ) {
         setDeck({});
         setOctgnOverrides({});
+        setActiveSavedDeckName(null);
+        setSessionShareInfo(null);
       }
     }
   }
@@ -729,6 +1059,8 @@ function renderSavedDeckItem(d, options = {}) {
           });
           setDeck(wrappedDeck);
           setOctgnOverrides({});
+          setActiveSavedDeckName(null);
+          setSessionShareInfo(null);
           return;
         }
       } catch (e) {}
@@ -803,6 +1135,8 @@ function renderSavedDeckItem(d, options = {}) {
             });
             setDeck(wrappedDeck);
             setOctgnOverrides(importedOverrides);
+            setActiveSavedDeckName(null);
+            setSessionShareInfo(null);
             if (notFound.length > 0) {
               alert(
                 "Some cards could not be matched and were not imported:\n" +

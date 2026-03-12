@@ -1,5 +1,5 @@
 // deckExportHelpers.js
-
+const WORKER_API = "https://tcgbuilder.net/api";
 // === Grouping and Sorting Helpers ===
 
 // Helper to group cards in the deck by a property
@@ -636,13 +636,68 @@ export async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOver
 }
 
 
-export async function shareDeck(deckObj, game) {
-  const WORKER_API = "https://tcgbuilder.net/api";
+function buildSharedDeckUrl(game, code) {
+  return (
+    window.location.origin +
+    window.location.pathname +
+    `?game=${encodeURIComponent(game)}&deck=${encodeURIComponent(code)}`
+  );
+}
+
+async function copyTextToClipboard(text) {
+  let success = false;
+  try {
+    await navigator.clipboard.writeText(text);
+    success = true;
+  } catch (clipErr) {
+    console.warn("Clipboard API failed, trying fallback:", clipErr);
+    let fallbackSuccess = false;
+    let input;
+    try {
+      input = document.createElement("input");
+      input.value = text;
+      document.body.appendChild(input);
+      input.select();
+      fallbackSuccess = document.execCommand("copy");
+      if (!fallbackSuccess) {
+        console.warn("execCommand('copy') returned false");
+      }
+    } catch (fallbackErr) {
+      console.error("Clipboard fallback threw:", fallbackErr);
+      fallbackSuccess = false;
+    } finally {
+      if (input && input.parentNode) {
+        input.parentNode.removeChild(input);
+      }
+    }
+    success = fallbackSuccess;
+  }
+  return success;
+}
+
+async function parseJsonResponse(resp) {
+  const raw = await resp.text();
+  let data;
+  try {
+    data = JSON.parse(raw);
+  } catch (err) {
+    console.error("Invalid JSON in response:", raw);
+    throw new Error("Invalid server response (not JSON)");
+  }
+  return data;
+}
+
+export async function createSharedDeck({ deck, game, name, editToken }) {
   try {
     const resp = await fetch(`${WORKER_API}/deck`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(deckObj)
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name,
+        game,
+        deck,
+        editToken,
+      }),
     });
 
     if (!resp.ok) {
@@ -651,61 +706,47 @@ export async function shareDeck(deckObj, game) {
       throw new Error(`Server returned ${resp.status}: ${text}`);
     }
 
-    const raw = await resp.text();
-let data;
-try {
-  data = JSON.parse(raw);
-} catch (err) {
-  console.error("Invalid JSON in response:", raw);
-  throw new Error("Invalid server response (not JSON)");
-}
-
-const code = data?.code;
-if (!code || typeof code !== "string") {
-  console.error("Deck code missing from response:", data);
-  throw new Error("Invalid response: missing deck code");
-}
-
-const url = window.location.origin + window.location.pathname +
-  `?game=${encodeURIComponent(game)}&deck=${encodeURIComponent(code)}`;
-
-console.log("Generated deck URL:", url);
-
-
-    let success = false;
-
-    try {
-      await navigator.clipboard.writeText(url);
-      success = true;
-    } catch (clipErr) {
-      console.warn("Clipboard API failed, trying fallback:", clipErr);
-      let fallbackSuccess = false;
-let input;
-try {
-  input = document.createElement("input");
-  input.value = url;
-  document.body.appendChild(input);
-  input.select();
-  // execCommand returns true only if the copy succeeded
-  fallbackSuccess = document.execCommand("copy");
-  if (!fallbackSuccess) {
-    console.warn("execCommand('copy') returned false");
-  }
-} catch (fallbackErr) {
-  console.error("Clipboard fallback threw:", fallbackErr);
-  fallbackSuccess = false;
-} finally {
-  if (input && input.parentNode) {
-    input.parentNode.removeChild(input);
-  }
-}
-success = fallbackSuccess;
+    const data = await parseJsonResponse(resp);
+    const code = data?.code;
+    if (!code || typeof code !== "string") {
+      console.error("Deck code missing from response:", data);
+      throw new Error("Invalid response: missing deck code");
     }
 
-    return { success, url };
-
+    const url = buildSharedDeckUrl(game, code);
+    const success = await copyTextToClipboard(url);
+    return { success, url, code };
   } catch (e) {
     console.error("Deck sharing failed:", e);
+    return { success: false, error: e.message || "Unknown error" };
+  }
+}
+
+export async function updateSharedDeck({ code, deck, game, name, editToken }) {
+  try {
+    const resp = await fetch(`${WORKER_API}/deck/${encodeURIComponent(code)}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name,
+        game,
+        deck,
+        editToken,
+      }),
+    });
+
+    if (!resp.ok) {
+      const text = await resp.text();
+      console.error("API error:", resp.status, text);
+      throw new Error(`Server returned ${resp.status}: ${text}`);
+    }
+
+    await parseJsonResponse(resp);
+    const url = buildSharedDeckUrl(game, code);
+    const success = await copyTextToClipboard(url);
+    return { success, url, code };
+  } catch (e) {
+    console.error("Deck update failed:", e);
     return { success: false, error: e.message || "Unknown error" };
   }
 }
