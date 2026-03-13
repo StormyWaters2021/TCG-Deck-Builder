@@ -6,7 +6,7 @@ import React, {
 } from "react";
 
 const DECK_SUBMIT_API =
-  (import.meta.env.VITE_DECK_SUBMIT_API || "http://localhost:8787").replace(
+  (import.meta.env.VITE_DECK_SUBMIT_API || "https://submit.tcgbuilder.net").replace(
     /\/+$/,
     "",
   );
