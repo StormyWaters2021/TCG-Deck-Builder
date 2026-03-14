@@ -1,7 +1,7 @@
 {
   "gameName": "dbz-score",
   "addNValue": 3,
-  "hiddenSets": [],
+  "hiddenSets": ["2768310b-7a1d-4fef-beb9-1e7267abecc3", "332100d6-fb85-4860-b6c5-15fd6ee3a16d"],
   "groupOptions": [
     "OCTGN", 
 	"Type"
