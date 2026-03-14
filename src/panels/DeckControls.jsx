@@ -1228,6 +1228,12 @@ function DeckControls({
     setSavedDeckDrag(null);
   }
 
+	function handleToggleSavedDeckFolder(folderId) {
+	  updateSavedDeckFolderState((current) =>
+		toggleSavedDeckFolder(current, folderId),
+	  );
+	}
+
   function handleSavedDeckFolderDrop(targetFolderId) {
     if (savedDeckDrag?.type === "folder") {
       if (savedDeckDrag.folderId === targetFolderId) {
@@ -2281,24 +2287,26 @@ function DeckControls({
                       : "2px solid transparent",
                 }}
               >
-                <button
-                  type="button"
-                  onClick={() => handleToggleSavedDeckFolder(folder.id)}
-                  style={{
-                    background: "none",
-                    border: "none",
-                    color: "inherit",
-                    cursor: "pointer",
-                    padding: 0,
-                    fontSize: "0.95em",
-                  }}
-                  title={folder.collapsed ? "Expand folder" : "Collapse folder"}
-                  aria-label={
-                    folder.collapsed ? "Expand folder" : "Collapse folder"
-                  }
-                >
-                  {folder.collapsed ? "▶" : "▼"}
-                </button>
+				<button
+				  type="button"
+				  onClick={(e) => {
+					e.stopPropagation();
+					handleToggleSavedDeckFolder(folder.id);
+				  }}
+				  onMouseDown={(e) => e.stopPropagation()}
+				  style={{
+					background: "none",
+					border: "none",
+					color: "inherit",
+					cursor: "pointer",
+					padding: 0,
+					fontSize: "0.95em",
+				  }}
+				  title={folder.collapsed ? "Expand folder" : "Collapse folder"}
+				  aria-label={folder.collapsed ? "Expand folder" : "Collapse folder"}
+				>
+				  {folder.collapsed ? "▶" : "▼"}
+				</button>
                 <span style={{ fontSize: "0.95em" }}>📁</span>
                 <strong style={{ flex: 1, minWidth: 0 }}>{folder.name}</strong>
                 <button
