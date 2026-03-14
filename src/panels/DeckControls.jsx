@@ -1874,7 +1874,8 @@ function DeckControls({
                 className="dropdown-menu"
                 onMouseLeave={() => setExportMenuOpen(false)}
               >
-                <button
+                {/*
+				<button
                   className={
                     dropdownHover === 0
                       ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
@@ -1886,6 +1887,7 @@ function DeckControls({
                 >
                   TXT
                 </button>
+				*/}
                 <button
                   className={
                     dropdownHover === 2
@@ -1932,7 +1934,7 @@ function DeckControls({
                   onMouseLeave={() => setDropdownHover(null)}
                   onClick={() => exportDeck("LINK")}
                 >
-                  Link
+                  Share Link
                 </button>
                 {settings.deckSubmit && (
                   <button
