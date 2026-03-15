@@ -1,6 +1,46 @@
 const deckStorageKey = (game) => `${game}-decks`;
 const folderStorageKey = (game) => `${game}-deck-folders`;
 
+export function generateEditToken() {
+  if (window.crypto?.randomUUID) {
+    return `${window.crypto.randomUUID()}-${window.crypto.randomUUID()}`;
+  }
+  return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}-${Math.random().toString(36).slice(2)}`;
+}
+
+export function reorderSavedDeckFolders(
+  state,
+  draggedFolderId,
+  targetFolderId,
+  position = "above",
+) {
+  const folders = [...(state?.folders || [])];
+
+  const fromIndex = folders.findIndex((folder) => folder.id === draggedFolderId);
+  const targetIndex = folders.findIndex((folder) => folder.id === targetFolderId);
+
+  if (
+    fromIndex === -1 ||
+    targetIndex === -1 ||
+    !draggedFolderId ||
+    draggedFolderId === targetFolderId
+  ) {
+    return state;
+  }
+
+  const [moved] = folders.splice(fromIndex, 1);
+
+  let insertIndex = folders.findIndex((folder) => folder.id === targetFolderId);
+  if (insertIndex === -1) return state;
+
+  if (position === "below") {
+    insertIndex += 1;
+  }
+
+  folders.splice(insertIndex, 0, moved);
+  return { ...state, folders };
+}
+
 function safeParseArray(raw, fallback = []) {
   try {
     const parsed = JSON.parse(raw || "null");
@@ -130,19 +170,23 @@ export function assignSavedDeckToFolder(state, deckName, folderId) {
   return { ...(state || {}), assignments };
 }
 
-export function reorderSavedDeckFolders(state, draggedFolderId, targetFolderId) {
-  if (!draggedFolderId || !targetFolderId || draggedFolderId === targetFolderId) {
-    return state;
-  }
+export function getSavedDeckIndexByName(savedDecks, name) {
+  return savedDecks.findIndex((d) => d.name === name);
+}
 
-  const folders = [...(state?.folders || [])];
-  const fromIndex = folders.findIndex((folder) => folder.id === draggedFolderId);
-  const toIndex = folders.findIndex((folder) => folder.id === targetFolderId);
-  if (fromIndex === -1 || toIndex === -1) return state;
+export function getSavedDeckByName(savedDecks, name) {
+  const idx = getSavedDeckIndexByName(savedDecks, name);
+  return idx >= 0 ? savedDecks[idx] : null;
+}
 
-  const [moved] = folders.splice(fromIndex, 1);
-  folders.splice(toIndex, 0, moved);
-  return { ...(state || {}), folders };
+export function buildSavedDeckRecord(name, deckValue, extras = {}) {
+  const record = {
+    name,
+    deck: deckValue,
+  };
+  if (extras.shareCode) record.shareCode = extras.shareCode;
+  if (extras.editToken) record.editToken = extras.editToken;
+  return record;
 }
 
 export function removeSavedDeckAssignment(state, deckName) {

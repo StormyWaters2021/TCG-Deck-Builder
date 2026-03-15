@@ -20,6 +20,8 @@
   --body-bg: #1f1f1f;
   --header-bg: #111;
   --header-color: #ffd700;
+  
+  --selected-outline: #ffd700;
 }
 
 body {
@@ -92,7 +94,7 @@ li {
 }
 
 li.selected {
-  outline: 2px solid #ffd700;
+  outline: 2px solid var(--selected-outline);
 }
 
 button,
@@ -227,6 +229,7 @@ body.light-mode {
 
   --stat-banner-text: #333333;
   --stat-banner-bg: #eeeeee;
+  --selected-outline: #4a90e2;
 
   --body-bg: #ffffff;
   --header-bg: #f0f0f0;

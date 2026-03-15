@@ -1,84 +1,264 @@
 :root {
-  /* Main action button background color */
-  --main-button-bg: #2980B9;
-  /* Main action button text color */
+  --main-button-bg: #b7950b;
+  --main-button-color: #181a1b;
+  --main-button-border: #9a7d0a;
+  --dropdown-bg: #23272a;
+  --dropdown-border: #8e8e8e;
+  --dropdown-hover-bg: #333c44;
+  --dropdown-hover-color: #fff;
+  --link-message-bg: #23272a;
+  --link-message-color: #ffd700;
+  --link-message-border: #9a7d0a;
+  --list-selected-bg: #21216a;
+  --list-selected-bg-alt: #21216a;
+  --input-border: #8e8e8e;
+  --input-bg: #23272a;
+  --input-color: #ffd700;
+  --input-focus-border: #ffd700;
+  --search-prefix-color: #ffd700;
+  --selected-outline: #ffd700;
+  --deck-errors-bg: #2b1a1a;
+  --deck-errors-color: #ffbebe;
+  --panel-bg: #2a2a2a;
+  --stat-banner-text: #ffd;
+  --stat-banner-bg: #2a2a2a;
+  --body-bg: #1f1f1f;
+  --header-bg: #111;
+  --header-color: #ffd700;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #181a1b;
+  color: #ebebeb;
+  margin: 0;
+  --selected-outline: #ffd700;
+}
+
+body.light-mode {
+  --main-button-bg: #2980b9;
   --main-button-color: #fff;
-  /* Main action button border color */
   --main-button-border: #265dd8;
-  /* Dropdown menu background color */
   --dropdown-bg: #fff;
-  /* Dropdown menu border color */
   --dropdown-border: #ccc;
-  /* Dropdown menu item background on hover */
   --dropdown-hover-bg: #e6f0ff;
-  /* Dropdown menu item text color on hover */
   --dropdown-hover-color: #111;
-  /* Info message (share link) background color */
   --link-message-bg: #fffbe6;
-  /* Info message (share link) text color */
   --link-message-color: #222;
-  /* Info message (share link) border color */
   --link-message-border: #e6d200;
-  /* Background for a selected item in lists */
   --list-selected-bg: #eef;
-  /* Alternate background for a selected item (e.g. card list) */
   --list-selected-bg-alt: #e0e0ff;
-  /* Text input border color */
   --input-border: #bbb;
-  /* Text input background color */
   --input-bg: #fff;
-  /* Text input text color */
   --input-color: #222;
-  /* Text input border color when focused */
   --input-focus-border: #f7dc6f;
-  /* Search prefix help text color */
   --search-prefix-color: #888;
-  /* Deck error box background */
   --deck-errors-bg: #fff8f0;
-  /* Deck error box text color */
   --deck-errors-color: #b01515;
-  /* Background for swap printing button */
-  --swap-btn-bg: rgba(255,255,255,0.85);
-  /* Border color for swap printing button */
-  --swap-btn-border: #aaa;
+  --panel-bg: #f5f5f5;
+  --stat-banner-text: #333333;
+  --stat-banner-bg: #eeeeee;
+  --body-bg: #ffffff;
+  --header-bg: #f0f0f0;
+  --header-color: #0056b3;
+  --selected-outline: #4a90e2;
+  background: #f8f9fa;
+  color: #222;
+}
+
+header {
+  background: var(--header-bg);
+  color: var(--header-color);
+  padding: 1rem;
+  text-align: center;
+}
+.modal.image-export-modal {
+  width: min(1200px, 94vw);
+  max-width: calc(100vw - 1rem);
+  max-height: calc(100vh - 1rem);
+  box-sizing: border-box;
+}
+
+.image-export-option-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(0.75rem, 2vw, 1.5rem);
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.image-export-option {
+  appearance: none;
+  -webkit-appearance: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.75rem 0.75rem 1rem;
+  margin: 0;
+  background: var(--main-button-bg);
+  color: var(--main-button-color);
+  border: 1px solid var(--main-button-border);
+  border-radius: 14px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  min-width: 0;
+  height: auto;
+  overflow: hidden;
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    background-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.image-export-option:hover,
+.image-export-option:focus-visible {
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.image-export-option-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.image-export-option-preview {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+}
+
+@media (max-width: 700px) {
+  .image-export-option-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .image-export-option-preview {
+    max-width: 320px;
+  }
+}
+
+.deck-builder-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  min-height: 80vh;
+  max-width: 1200px;
+  margin: 2rem auto;
+  background: var(--panel-bg);
+  border-radius: 8px;
+  box-shadow: 0 4px 24px #0008;
+  overflow: hidden;
+}
+
+.card-list-panel,
+.deck-panel,
+.deck-controls {
+  padding: 1rem;
+  border-right: 1px solid #444;
+  background: var(--panel-bg);
+  min-width: 0;
+  overflow: auto;
+}
+
+.card-list-panel {
+  width: 30%;
+}
+
+.deck-panel {
+  width: 40%;
+}
+
+.deck-controls {
+  width: 30%;
+  border: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem 0;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--input-color);
+}
+
+.deck-stats-banner {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  color: var(--input-color);
+  padding: 4px 10px;
+  margin: 8px 0 10px 0;
+  min-height: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.2em;
+}
+
+.deck-stat {
+  font-weight: 600;
+  color: var(--input-color);
+  user-select: none;
+}
+
+@media (max-width: 900px) {
+  .deck-builder-layout {
+    flex-direction: column;
+  }
+
+  .card-list-panel,
+  .deck-panel,
+  .deck-controls {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #444;
+  }
+
+  .deck-controls {
+    border-bottom: none;
+  }
 }
 
 .modal-backdrop {
   position: fixed;
-  inset: 0;                 /* top:0 right:0 bottom:0 left:0 */
+  inset: 0;
   background: rgba(0, 0, 0, 0.6);
   z-index: 9999;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .modal {
-  background: #2b2b2b;
-  color: #ffd700;
+  background: var(--input-bg);
+  color: var(--input-color);
   border-radius: 8px;
-  padding: 1em;
-
+  padding: 1.25em;
   width: 420px;
   max-width: calc(100vw - 2rem);
   max-height: calc(100vh - 2rem);
-
   overflow: auto;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
 }
 
-
-
-/* ----- Global Body Styles ----- */
-body {
-  font-family: Arial, sans-serif;
-  background: #f8f9fa;
-  color: #222;
-  margin: 0;
-}
-
-/* ----- Main Buttons (Save, Export, etc in DeckControls) ----- */
 .main-button {
   width: 120px;
   height: 2.2em;
@@ -87,7 +267,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   cursor: pointer;
-  background: var(--main-button-bg); /* Uses theme variable */
+  background: var(--main-button-bg);
   color: var(--main-button-color);
   border: 1px solid var(--main-button-border);
   border-radius: 4px;
@@ -95,41 +275,52 @@ body {
   font-weight: 500;
   transition: background 0.15s, border-color 0.15s;
 }
+
 .main-button:hover {
   filter: brightness(1.12);
-  /* Slightly lighten on hover */
 }
 
-/* ----- Deck Name Input (DeckControls.jsx) ----- */
 .deck-name-input {
   width: 100%;
-  grid-column: 1/-1; /* Fills grid width */
+  grid-column: 1 / -1;
   margin-bottom: 0.25em;
   height: 2.2em;
-  font-size: 1em;
-  padding: 0;
-  box-sizing: border-box;
-  cursor: pointer;
-  background: var(--main-button-bg);
-  border: 1px solid var(--main-button-border);
-  border-radius: 4px;
-  font-family: inherit;
-  font-weight: 500;
-  color: var(--main-button-color);
-  transition: background 0.15s, border-color 0.15s;
-}
-.deck-name-input:focus {
-  outline: none;
-  border-color: var(--dropdown-hover-bg);
 }
 
-/* ----- Export Dropdown (DeckControls.jsx) ----- */
+input[type="text"],
+.deck-name-input {
+  font-family: inherit;
+  color: var(--input-color) !important;
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  padding: 0.5em;
+  box-sizing: border-box;
+  transition: border-color 0.15s;
+}
+
+input[type="text"]:focus,
+.deck-name-input:focus {
+  border-color: var(--input-focus-border);
+  outline: none;
+}
+
+body.light-mode *::placeholder {
+  color: #666 !important;
+  opacity: 1 !important;
+}
+
+body:not(.light-mode) *::placeholder {
+  color: orange !important;
+  opacity: 1 !important;
+}
+
 .dropdown-button {
   width: 100%;
   height: 2.2em;
   border: none;
   background: none;
-  color: #222;
+  color: var(--input-color);
   text-align: left;
   padding-left: 1em;
   cursor: pointer;
@@ -137,11 +328,13 @@ body {
   font-weight: 500;
   transition: background 0.15s, color 0.15s;
 }
+
 .dropdown-button-hover,
 .dropdown-button:hover {
   background: var(--dropdown-hover-bg);
   color: var(--dropdown-hover-color);
 }
+
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -152,24 +345,25 @@ body {
   border-radius: 4px;
   min-width: 120px;
   width: 120px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
+
 .dropdown-menu button {
   width: 100%;
   background: none;
   border: none;
-  color: #222;
+  color: var(--input-color);
   text-align: left;
   padding: 0.5em 1em;
   cursor: pointer;
   font: inherit;
 }
+
 .dropdown-menu button:hover {
   background: var(--dropdown-hover-bg);
   color: var(--dropdown-hover-color);
 }
 
-/* ----- Info Message (such as "Link copied") ----- */
 .link-message {
   position: absolute;
   left: 0;
@@ -180,12 +374,11 @@ body {
   padding: 0.3em 1em;
   border-radius: 5px;
   border: 1px solid var(--link-message-border);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
   z-index: 12;
   font-size: 1em;
 }
 
-/* ----- Button Grid Layout (DeckControls.jsx) ----- */
 .deck-controls-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -195,77 +388,42 @@ body {
   max-width: 500px;
   justify-items: center;
 }
+
 .flex-col-center {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* ----- Saved Decks and List Items ----- */
 .deck-controls h3 {
   margin: 0.5em 0 0.25em 0;
   font-size: 1em;
 }
+
 .deck-controls ul,
 .card-list-panel ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.selected-list-item,
-.deck-controls li.selected,
-.card-list-panel li.selected {
-  background: var(--list-selected-bg); /* General highlight */
-}
-.deck-controls li.selected {
-  background: var(--list-selected-bg);  /* DeckControls selected */
-}
-.card-list-panel li.selected {
-  background: var(--list-selected-bg-alt); /* CardListPanel selected */
+
+.selected-list-item {
+  background: var(--list-selected-bg);
 }
 
-/* ----- Card Preview (applies to CardPreview and container) ----- */
-.card-preview-wrapper, .card-preview {
+.card-list-panel li.selected {
+  background: var(--list-selected-bg-alt);
+}
+
+.card-preview {
   width: 100%;
   max-width: 100%;
   display: block;
   box-sizing: border-box;
-}
-.card-preview {
   height: auto;
   object-fit: contain;
 }
 
-/* ----- Text Input Styles ----- */
-input[type="text"], .deck-name-input {
-  font-family: inherit;
-  color: var(--input-color);
-  background: var(--input-bg);
-  border: 1px solid var(--input-border);
-  border-radius: 4px;
-  padding: 0.5em;
-  transition: border-color 0.15s;
-}
-input[type="text"]:focus, .deck-name-input:focus {
-  border-color: var(--input-focus-border);
-  outline: none;
-}
-/* Placeholder text for inputs */
-input[type="text"]::placeholder,
-input[type="text"]::-webkit-input-placeholder,
-input[type="text"]::-moz-placeholder,
-input[type="text"]:-ms-input-placeholder,
-input[type="text"]:-moz-placeholder {
-  color: orange;
-  opacity: 1;
-}
-
-/* ----- Search Prefix (CardListPanel search help) ----- */
-.search-prefix-property {
-  color: var(--search-prefix-color);
-}
-
-/* ----- General List Text Color Consistency ----- */
 .card-list-panel li,
 .card-list-panel span,
 .deck-panel li,
@@ -273,44 +431,50 @@ input[type="text"]:-moz-placeholder {
   color: var(--input-color) !important;
 }
 
-/* ----- OCTGN Group Styling (DeckPanel OCTGN group mode) ----- */
 .deck-group {
   border: 1px solid #888;
   padding: 0.5em;
   margin-bottom: 0.75em;
   border-radius: 4px;
-  background: var(--input-bg);;
+  background: var(--input-bg);
 }
+
 .deck-group-header {
   font-weight: bold;
   margin-bottom: 0.25em;
   font-size: 1.1em;
 }
+
 .deck-group-count {
   color: #888;
   font-weight: normal;
   margin-left: 0.4em;
 }
+
 .deck-group-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
 .deck-group-list-item {
   padding: 0.2em 0.2em;
   cursor: pointer;
   transition: background 0.15s;
 }
+
 .deck-group-list-item.selected {
-  background: var(--list-selected-bg-alt, #e0e0ff);
+  background: var(--list-selected-bg-alt);
   border-radius: 3px;
 }
+
 .deck-group-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(86px, 1fr));
   gap: 2px;
   margin-top: 0.1em;
 }
+
 .deck-card-grid-cell {
   background: var(--main-button-color);
   min-width: 0;
@@ -320,46 +484,25 @@ input[type="text"]:-moz-placeholder {
   align-items: center;
   justify-content: center;
 }
+
 .deck-card-grid-preview {
   position: relative;
   width: 86px;
   height: 120px;
 }
 
-/* ----- DeckPanel Buttons (alternate printing swap, +1/-1, etc.) ----- */
-.deck-swap-btn {
-  height: 1.5em;
-  vertical-align: middle;
-  text-align: center;
-  line-height: .5;
-  font-size: 1em;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  cursor: pointer;
-  background: var(--main-button-bg); /* Uses theme variable */
-  color: var(--main-button-color);
-  border: 1px solid var(--main-button-border);
-  border-radius: 4px;
-  font-family: inherit;
-  font-weight: 500;
-  transition: background 0.15s, border-color 0.15s;
-}
-.deck-swap-btn:hover {
-  filter: brightness(1.1);
-  border-color: var(--main-button-bg);
-}
+.deck-swap-btn,
 .deck-modify-btn {
   height: 1.5em;
   vertical-align: middle;
   text-align: center;
-  line-height: .5;
+  line-height: 0.5;
   font-size: 1em;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   cursor: pointer;
-  background: var(--main-button-bg); /* Uses theme variable */
+  background: var(--main-button-bg);
   color: var(--main-button-color);
   border: 1px solid var(--main-button-border);
   border-radius: 4px;
@@ -367,22 +510,16 @@ input[type="text"]:-moz-placeholder {
   font-weight: 500;
   transition: background 0.15s, border-color 0.15s;
 }
+
+.deck-swap-btn:hover,
 .deck-modify-btn:hover {
   filter: brightness(1.12);
 }
 
-/* ----- Card Grid Cell (DeckPanel grid mode) ----- */
-.deck-panel .card-grid-cell {
-  background: var(--main-button-color);
-  min-width: 0;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.deck-swap-btn:hover {
+  border-color: var(--main-button-bg);
 }
 
-/* ----- Deck Errors (validation messages) ----- */
 .deck-errors {
   margin-top: 0.5em;
   padding: 0.5em 1em;
@@ -392,7 +529,6 @@ input[type="text"]:-moz-placeholder {
   font-weight: bold;
 }
 
-/* ----- CardPreview Quantity Badge and +1/-1 Buttons ----- */
 .card-qty-badge {
   position: absolute;
   top: 2px;
@@ -406,7 +542,7 @@ input[type="text"]:-moz-placeholder {
   text-align: center;
   font-weight: bold;
   font-size: 0.9em;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   padding: 0 4px;
   z-index: 2;
 }
@@ -431,17 +567,17 @@ input[type="text"]:-moz-placeholder {
   cursor: pointer;
   transition: background 0.12s, border-color 0.12s;
 }
+
 .card-modify-btn:hover {
   background: var(--dropdown-hover-bg);
   border-color: var(--main-button-bg);
 }
 
-/* ----- Modal Close Button (for enlarged card preview) ----- */
 .card-modal-close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -452,74 +588,27 @@ input[type="text"]:-moz-placeholder {
   z-index: 1001;
   transition: background 0.15s;
 }
+
 .card-modal-close-btn:hover {
   background: #222;
 }
 
-/* ----- Scrollbar Styles (Webkit browsers) ----- */
 ::-webkit-scrollbar {
   width: 8px;
-  background: #e5e5e5;
+  background: var(--input-bg);
 }
+
 ::-webkit-scrollbar-thumb {
-  background: #b2d7cb;
+  background: var(--main-button-bg);
   border-radius: 4px;
 }
 
-/* ----- Dark Mode (auto applies with system preference) ----- */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --main-button-bg: #b7950b;
-    --main-button-color: #181a1b;
-    --main-button-border: #9a7d0a;
-    --dropdown-bg: #23272a;
-    --dropdown-border: #8e8e8e;
-    --dropdown-hover-bg: #333c44;
-    --dropdown-hover-color: #fff;
-    --link-message-bg: #23272a;
-    --link-message-color: #ffd700;
-    --link-message-border: #9a7d0a;
-    --list-selected-bg: #21216a;
-    --list-selected-bg-alt: #21216a;
-    --input-border: #8e8e8e;
-    --input-bg: #23272a;
-    --input-color: #ffd700;
-    --input-focus-border: #ffd700;
-    --search-prefix-color: #ffd700;
-    --deck-errors-bg: #2b1a1a;
-    --deck-errors-color: #ffbebe;
-    --swap-btn-bg: #23272a;
-    --swap-btn-border: #ffd700;
-  }
-  body {
-    background: #181a1b;
-    color: #ebebeb;
-  }
-  ::-webkit-scrollbar {
-    background: var(--input-bg);
-  }
-  ::-webkit-scrollbar-thumb {
-    background: #b7950b;
-  }
-}
-
-/* ----- Legacy/Override Fixes ----- */
-input[type="text"] {
-  color: var(--input-color) !important;
-  background: var(--input-bg);
-}
-*::placeholder {
-  color: orange !important;
-  opacity: 1 !important;
-}
-
-/* ----- Game Selection Grid and Cards (App.jsx) ----- */
 .game-grid {
   display: grid;
   grid-auto-flow: row;
-  grid-template-columns: repeat(auto-fit, 325px); /* fixed width per item */
+  grid-template-columns: repeat(auto-fit, 325px);
   gap: 20px;
-  justify-content: center;   /* ✅ center the grid horizontally */
+  justify-content: center;
   margin-top: 2rem;
 }
 
@@ -543,7 +632,6 @@ input[type="text"] {
   display: block;
 }
 
-/* ----- Back to Game Select Button (App.jsx) ----- */
 .back-button {
   background-color: var(--main-button-bg);
   color: var(--main-button-color);
@@ -562,10 +650,14 @@ input[type="text"] {
 
 .loading-container {
   display: flex;
-  justify-content: center;   /* horizontal centering */
-  align-items: center;       /* vertical centering */
-  height: 60vh;              /* take 60% of viewport height */
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
   font-size: 1.5rem;
-  color: var(--input-color); /* optional: use your theme color */
+  color: var(--input-color);
+}
+
+li.selected {
+  outline: 2px solid var(--selected-outline);
 }
 

@@ -1,20 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
 import CardPreview from "../components/CardPreview";
-import DeckSubmissionFlow, {
-  buildFlattenedDeckRows,
-} from "../components/DeckSubmissionFlow";
+import DeckSubmissionFlow from "../components/DeckSubmissionFlow";
 import { exportDeckO8c } from "../utils/deckImagePackExport";
+import ImageExportFlow from "../components/ImageExportFlow";
 import { buildCardPreviewProperties } from "../utils/cardPreviewExtra";
+import { startDeckImportFlow } from "../utils/deckImportFlow";
+import ImagePackExportControl from "../components/ImagePackExportControl";
 import {
-  getSortedExportListWithDisplayOrder,
-  exportDeckImage,
-  exportDeckImageCompact,
   exportDeckOCTGN,
   createSharedDeck,
   updateSharedDeck,
-  sortGroup,
-  cardNameWithSubtitle,
-  groupDeck,
 } from "../utils/deckExportHelpers";
 import { exportDeckPDF } from "../utils/deckPrintPDF";
 import PdfDecklistExportFlow from "../components/PdfDecklistExportFlow";
@@ -29,10 +24,25 @@ import {
   loadSavedDecks,
   removeSavedDeckAssignment,
   renameSavedDeckAssignment,
+  reorderSavedDeckFolders,
   saveSavedDeckFolderState,
   saveSavedDecks,
   toggleSavedDeckFolder,
+  buildSavedDeckRecord,
+  getSavedDeckByName,
+  generateEditToken,
 } from "../utils/savedDeckFolders";
+import {
+  closeModal,
+  openMessageModal,
+  openInputModal,
+  openChoiceModal,
+} from "../utils/appModalHelpers";
+import SavedDeckLibrary from "../components/SavedDeckLibrary";
+import {
+  finalizeSavedDeckFlow,
+  showLinkResultFlow,
+} from "../utils/deckSharingFlow.jsx";
 
 const WORKER_API = "https://tcgbuilder.net/api";
 
@@ -46,7 +56,6 @@ function DeckControls({
   selectedCard,
   setGame,
   groupBy,
-  setGroupBy,
   octgnOverrides: octgnOverridesProp,
   setOctgnOverrides: setOctgnOverridesProp,
 }) {
@@ -78,33 +87,16 @@ function DeckControls({
   const [currentGroupBy, setCurrentGroupBy] = useState(
     groupBy || (settings.groupOptions && settings.groupOptions[0]) || "Type",
   );
-  const [imagePackProgress, setImagePackProgress] = useState(null);
-  const [showSetSelector, setShowSetSelector] = useState(false);
-  const [selectedSetNames, setSelectedSetNames] = useState(new Set());
-  const [setSelectorError, setSetSelectorError] = useState("");
+
   const [savedDeckDrag, setSavedDeckDrag] = useState(null);
   const [savedDeckFolderDropIndicator, setSavedDeckFolderDropIndicator] =
     useState(null);
 
   const pdfDecklistRef = useRef(null);
-  const cancelExport = useRef(false);
   const [generatingPDF, setGeneratingPDF] = useState(false);
   const deckSubmissionRef = useRef(null);
-  const imagePackCards = allCards && allCards.length ? allCards : cards;
-  const setsByName = React.useMemo(() => {
-    const map = new Map();
-    for (const card of imagePackCards) {
-      if (!card.set_id || !card.Set) continue;
-      if (!map.has(card.Set)) map.set(card.Set, new Set());
-      map.get(card.Set).add(card.set_id);
-    }
-    return map;
-  }, [imagePackCards]);
+  const imageExportRef = useRef(null);
 
-  const setNames = React.useMemo(
-    () => Array.from(setsByName.keys()).sort(),
-    [setsByName],
-  );
   useEffect(() => {
     if (openVersionsMenu == null) return;
 
@@ -179,7 +171,7 @@ function DeckControls({
     }
     if (!cards || cards.length === 0) return;
     if (Object.keys(deck).length > 0) {
-      openChoiceModal({
+      openChoiceModal(setModalState, {
         title: "Load Shared Deck",
         message:
           "You are about to load a shared deck. This will overwrite your current progress.",
@@ -225,6 +217,7 @@ function DeckControls({
                 );
               } catch {
                 openMessageModal(
+                  setModalState,
                   "Shared Deck",
                   "This deck code could not be loaded.",
                 );
@@ -259,7 +252,11 @@ function DeckControls({
             (params.toString() ? "?" + params.toString() : ""),
         );
       } catch {
-        openMessageModal("Shared Deck", "This deck code could not be loaded.");
+        openMessageModal(
+          setModalState,
+          "Shared Deck",
+          "This deck code could not be loaded.",
+        );
       }
     })();
     // eslint-disable-next-line
@@ -309,32 +306,6 @@ function DeckControls({
     persistSavedDeckFolderState(nextState);
   }
 
-  function generateEditToken() {
-    if (window.crypto?.randomUUID) {
-      return `${window.crypto.randomUUID()}-${window.crypto.randomUUID()}`;
-    }
-    return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}-${Math.random().toString(36).slice(2)}`;
-  }
-
-  function getSavedDeckIndexByName(name) {
-    return savedDecks.findIndex((d) => d.name === name);
-  }
-
-  function getSavedDeckByName(name) {
-    const idx = getSavedDeckIndexByName(name);
-    return idx >= 0 ? savedDecks[idx] : null;
-  }
-
-  function buildSavedDeckRecord(name, deckValue, extras = {}) {
-    const record = {
-      name,
-      deck: deckValue,
-    };
-    if (extras.shareCode) record.shareCode = extras.shareCode;
-    if (extras.editToken) record.editToken = extras.editToken;
-    return record;
-  }
-
   function upsertCurrentDeckAsSaved({
     name,
     deckValue = deck,
@@ -355,6 +326,7 @@ function DeckControls({
     if (currentIndex !== -1) {
       if (targetIndex !== -1 && targetIndex !== currentIndex) {
         openMessageModal(
+          setModalState,
           "Name Already Exists",
           `A saved deck named "${name}" already exists. Please choose a different name.`,
         );
@@ -380,6 +352,7 @@ function DeckControls({
     if (targetIndex !== -1) {
       if (currentIndex === -1 || targetIndex !== currentIndex) {
         openMessageModal(
+          setModalState,
           "Name Already Exists",
           `A saved deck named "${name}" already exists. Please choose a different name.`,
         );
@@ -400,91 +373,6 @@ function DeckControls({
     return true;
   }
 
-  async function finalizeSavedDeck({
-    nextDecks,
-    savedName,
-    shareCode,
-    editToken,
-    oldName = null,
-    localOnlyMessage = "Deck saved.",
-  }) {
-    persistSavedDecks(nextDecks);
-
-    if (oldName && oldName !== savedName) {
-      updateSavedDeckFolderState((current) =>
-        renameSavedDeckAssignment(current, oldName, savedName),
-      );
-    }
-
-    setActiveSavedDeckName(savedName);
-
-    if (sessionShareInfo?.shareCode && sessionShareInfo?.editToken) {
-      setSessionShareInfo(null);
-    }
-
-    if (shareCode && editToken) {
-      const result = await updateSharedDeck({
-        code: shareCode,
-        deck,
-        game,
-        name: savedName,
-        editToken,
-      });
-
-      if (result.success) {
-        openMessageModal(
-          "Save Complete",
-          "Deck saved and shared deck updated.",
-        );
-      } else {
-        openMessageModal(
-          "Partial Save",
-          "Deck saved locally, but the shared deck could not be updated.\n\n" +
-            (result.error || "Unknown error"),
-        );
-      }
-      return;
-    }
-
-    openMessageModal("Save Complete", localOnlyMessage);
-  }
-
-  function showLinkResult(
-    result,
-    successMessage = "Shareable link copied to clipboard!",
-  ) {
-    if (result.success) {
-      setLinkMessage(successMessage);
-      setTimeout(() => setLinkMessage(""), 2500);
-    } else if (result.url) {
-      setLinkMessage(
-        <>
-          <div>Couldn't copy to clipboard.</div>
-          <div>
-            <strong>Tap and hold or long-press to copy:</strong>
-          </div>
-          <input
-            type="text"
-            readOnly
-            value={result.url}
-            style={{
-              width: "100%",
-              fontSize: "0.85em",
-              marginTop: "0.5em",
-              padding: "0.25em",
-              border: "1px solid #ccc",
-              borderRadius: "4px",
-            }}
-            onFocus={(e) => e.target.select()}
-          />
-        </>,
-      );
-    } else {
-      setLinkMessage("Error: " + result.error);
-      setTimeout(() => setLinkMessage(""), 4000);
-    }
-  }
-
   async function createFirstSharedDeck({
     saveLocallyFirst,
     nameOverride,
@@ -492,7 +380,7 @@ function DeckControls({
   }) {
     let name = (nameOverride || deckName || "").trim();
     if (!name) {
-      openInputModal({
+      openInputModal(setModalState, {
         title: "Deck Name",
         message: "Enter a name for this deck.",
         inputPlaceholder: "Deck name",
@@ -518,7 +406,10 @@ function DeckControls({
     });
 
     if (!result.code) {
-      showLinkResult(result);
+      showLinkResultFlow({
+        result,
+        setLinkMessage,
+      });
       return;
     }
 
@@ -536,15 +427,20 @@ function DeckControls({
           editToken,
           name,
         });
-        showLinkResult(
+        showLinkResultFlow({
           result,
-          "Shareable link copied to clipboard! The deck was shared, but it was not saved locally because that name already exists.",
-        );
+          successMessage:
+            "Shareable link copied to clipboard! The deck was shared, but it was not saved locally because that name already exists.",
+          setLinkMessage,
+        });
         return;
       }
 
       setSessionShareInfo(null);
-      showLinkResult(result);
+      showLinkResultFlow({
+        result,
+        setLinkMessage,
+      });
       return;
     }
 
@@ -553,91 +449,18 @@ function DeckControls({
       editToken,
       name,
     });
-    showLinkResult(
+    showLinkResultFlow({
       result,
-      "Shareable link copied to clipboard! Save this deck before leaving if you want to update this link later.",
-    );
-  }
-
-  function closeModal() {
-    setModalState((prev) => ({ ...prev, open: false }));
-  }
-
-  function openMessageModal(title, message) {
-    setModalState({
-      open: true,
-      title,
-      message,
-      inputValue: "",
-      inputPlaceholder: "",
-      showInput: false,
-      actions: [
-        {
-          label: "OK",
-          primary: true,
-          onClick: () => closeModal(),
-        },
-      ],
-    });
-  }
-
-  function openInputModal({
-    title,
-    message,
-    initialValue = "",
-    inputPlaceholder = "",
-    confirmLabel = "OK",
-    cancelLabel = "Cancel",
-    onConfirm,
-  }) {
-    setModalState({
-      open: true,
-      title,
-      message,
-      inputValue: initialValue,
-      inputPlaceholder,
-      showInput: true,
-      actions: [
-        {
-          label: cancelLabel,
-          onClick: () => closeModal(),
-        },
-        {
-          label: confirmLabel,
-          primary: true,
-          onClick: (value) => {
-            const trimmed = String(value || "").trim();
-            if (!trimmed) return;
-            closeModal();
-            onConfirm?.(trimmed);
-          },
-        },
-      ],
-    });
-  }
-
-  function openChoiceModal({ title, message, actions }) {
-    setModalState({
-      open: true,
-      title,
-      message,
-      inputValue: "",
-      inputPlaceholder: "",
-      showInput: false,
-      actions: actions.map((action) => ({
-        ...action,
-        onClick: () => {
-          closeModal();
-          action.onClick?.();
-        },
-      })),
+      successMessage:
+        "Shareable link copied to clipboard! Save this deck before leaving if you want to update this link later.",
+      setLinkMessage,
     });
   }
 
   async function handleShareLinkWithName(name) {
     const savedRecord =
       activeSavedDeckName != null
-        ? getSavedDeckByName(activeSavedDeckName)
+        ? getSavedDeckByName(savedDecks, activeSavedDeckName)
         : null;
 
     const ownedShare =
@@ -650,7 +473,7 @@ function DeckControls({
         : null) || sessionShareInfo;
 
     if (ownedShare?.shareCode && ownedShare?.editToken) {
-      openChoiceModal({
+      openChoiceModal(setModalState, {
         title: "Shared Deck",
         message: `This deck has already been shared as "${ownedShare.name || name}".\n\nChoose whether to update the existing shared deck or create a new one.`,
         actions: [
@@ -661,7 +484,7 @@ function DeckControls({
           {
             label: "Save New Deck",
             onClick: async () => {
-              openInputModal({
+              openInputModal(setModalState, {
                 title: "New Deck Name",
                 message: "Enter a name for the new shared deck.",
                 initialValue: `${name} (copy)`,
@@ -669,7 +492,7 @@ function DeckControls({
                 confirmLabel: "Continue",
                 onConfirm: async (newName) => {
                   if (savedRecord) {
-                    openChoiceModal({
+                    openChoiceModal(setModalState, {
                       title: "Save New Deck",
                       message: `Do you want to save "${newName}" locally as a separate deck before sharing?`,
                       actions: [
@@ -737,10 +560,12 @@ function DeckControls({
                     editToken: ownedShare.editToken,
                     name,
                   });
-                  showLinkResult(
+                  showLinkResultFlow({
                     result,
-                    "Shared deck updated and link copied to clipboard! The shared deck was updated, but it was not saved locally because that name already exists.",
-                  );
+                    successMessage:
+                      "Shared deck updated and link copied to clipboard! The shared deck was updated, but it was not saved locally because that name already exists.",
+                    setLinkMessage,
+                  });
                   return;
                 }
 
@@ -753,10 +578,12 @@ function DeckControls({
                 });
               }
 
-              showLinkResult(
+              showLinkResultFlow({
                 result,
-                "Shared deck updated and link copied to clipboard!",
-              );
+                successMessage:
+                  "Shared deck updated and link copied to clipboard!",
+                setLinkMessage,
+              });
             },
           },
         ],
@@ -765,7 +592,7 @@ function DeckControls({
     }
 
     if (!savedRecord) {
-      openChoiceModal({
+      openChoiceModal(setModalState, {
         title: "Share Unsaved Deck",
         message:
           "This deck has not been saved locally yet.\n\nYou can share it now, but saving it will let you update this same link later.",
@@ -819,23 +646,28 @@ function DeckControls({
           editToken,
           name,
         });
-        showLinkResult(
+        showLinkResultFlow({
           result,
-          "Shareable link copied to clipboard! The deck was shared, but it was not saved locally because that name already exists.",
-        );
+          successMessage:
+            "Shareable link copied to clipboard! The deck was shared, but it was not saved locally because that name already exists.",
+          setLinkMessage,
+        });
         return;
       }
 
       setSessionShareInfo(null);
     }
 
-    showLinkResult(result);
+    showLinkResultFlow({
+      result,
+      setLinkMessage,
+    });
   }
 
   async function handleShareLink() {
     let name = (deckName || "").trim();
     if (!name) {
-      openInputModal({
+      openInputModal(setModalState, {
         title: "Deck Name",
         message: "Enter a name for this deck.",
         inputPlaceholder: "Deck name",
@@ -854,7 +686,7 @@ function DeckControls({
   async function saveDeckWithName(name) {
     const currentSavedRecord =
       activeSavedDeckName != null
-        ? getSavedDeckByName(activeSavedDeckName)
+        ? getSavedDeckByName(savedDecks, activeSavedDeckName)
         : null;
 
     const sessionCode = sessionShareInfo?.shareCode;
@@ -870,6 +702,7 @@ function DeckControls({
     if (currentIndex !== -1) {
       if (targetIndex !== -1 && targetIndex !== currentIndex) {
         openMessageModal(
+          setModalState,
           "Name Already Exists",
           `A deck named "${name}" already exists. Please choose a different name.`,
         );
@@ -891,19 +724,30 @@ function DeckControls({
 
       setDeckName(name);
 
-      await finalizeSavedDeck({
+      await finalizeSavedDeckFlow({
         nextDecks,
         savedName: name,
         shareCode,
         editToken,
         oldName,
         localOnlyMessage: "Deck saved.",
+        persistSavedDecks,
+        updateSavedDeckFolderState,
+        renameSavedDeckAssignment,
+        setActiveSavedDeckName,
+        sessionShareInfo,
+        setSessionShareInfo,
+        updateSharedDeck,
+        deck,
+        game,
+        openMessageModal: (title, message) =>
+          openMessageModal(setModalState, title, message),
       });
       return;
     }
 
     if (targetIndex !== -1) {
-      openChoiceModal({
+      openChoiceModal(setModalState, {
         title: "Deck Name Already Exists",
         message: `A deck named "${name}" already exists.\n\nChoose whether to overwrite it or save this deck under a new name.`,
         actions: [
@@ -914,7 +758,7 @@ function DeckControls({
           {
             label: "Save with New Name",
             onClick: () => {
-              openInputModal({
+              openInputModal(setModalState, {
                 title: "New Deck Name",
                 message: "Enter a new deck name.",
                 initialValue: `${name} (copy)`,
@@ -923,6 +767,7 @@ function DeckControls({
                 onConfirm: async (newName) => {
                   if (savedDecks.some((d) => d.name === newName)) {
                     openMessageModal(
+                      setModalState,
                       "Name Already Exists",
                       "A deck with that name already exists. Please choose another name.",
                     );
@@ -942,12 +787,23 @@ function DeckControls({
 
                   setDeckName(newName);
 
-                  await finalizeSavedDeck({
+                  await finalizeSavedDeckFlow({
                     nextDecks,
                     savedName: newName,
                     shareCode,
                     editToken,
                     localOnlyMessage: "Deck saved with new name.",
+                    persistSavedDecks,
+                    updateSavedDeckFolderState,
+                    renameSavedDeckAssignment,
+                    setActiveSavedDeckName,
+                    sessionShareInfo,
+                    setSessionShareInfo,
+                    updateSharedDeck,
+                    deck,
+                    game,
+                    openMessageModal: (title, message) =>
+                      openMessageModal(setModalState, title, message),
                   });
                 },
               });
@@ -972,12 +828,23 @@ function DeckControls({
 
               setDeckName(name);
 
-              await finalizeSavedDeck({
+              await finalizeSavedDeckFlow({
                 nextDecks,
                 savedName: name,
                 shareCode,
                 editToken,
                 localOnlyMessage: "Deck overwritten.",
+                persistSavedDecks,
+                updateSavedDeckFolderState,
+                renameSavedDeckAssignment,
+                setActiveSavedDeckName,
+                sessionShareInfo,
+                setSessionShareInfo,
+                updateSharedDeck,
+                deck,
+                game,
+                openMessageModal: (title, message) =>
+                  openMessageModal(setModalState, title, message),
               });
             },
           },
@@ -998,18 +865,29 @@ function DeckControls({
 
     setDeckName(name);
 
-    await finalizeSavedDeck({
+    await finalizeSavedDeckFlow({
       nextDecks,
       savedName: name,
       shareCode,
       editToken,
       localOnlyMessage: "Deck saved.",
+      persistSavedDecks,
+      updateSavedDeckFolderState,
+      renameSavedDeckAssignment,
+      setActiveSavedDeckName,
+      sessionShareInfo,
+      setSessionShareInfo,
+      updateSharedDeck,
+      deck,
+      game,
+      openMessageModal: (title, message) =>
+        openMessageModal(setModalState, title, message),
     });
   }
 
   async function saveDeck() {
     if (!deckName) {
-      openInputModal({
+      openInputModal(setModalState, {
         title: "Deck Name",
         message: "Enter a name for this deck.",
         inputPlaceholder: "Deck name",
@@ -1028,6 +906,7 @@ function DeckControls({
   async function loadSavedDeckVersion(savedDeck, versionKey) {
     if (!savedDeck?.shareCode) {
       openMessageModal(
+        setModalState,
         "Versions",
         "This deck does not have a shared version history yet.",
       );
@@ -1050,6 +929,7 @@ function DeckControls({
       if (!deckObj?.versions) {
         if (versionKey !== "current") {
           openMessageModal(
+            setModalState,
             "Versions",
             "This shared deck is a legacy deck and does not have Previous or Original versions.",
           );
@@ -1069,6 +949,7 @@ function DeckControls({
 
       if (!selectedVersion) {
         openMessageModal(
+          setModalState,
           "Versions",
           `The ${versionKey} version is not available for this deck.`,
         );
@@ -1082,6 +963,7 @@ function DeckControls({
       setOpenVersionsMenu(null);
     } catch (e) {
       openMessageModal(
+        setModalState,
         "Versions",
         `Could not load deck version.\n\n${e.message || "Unknown error"}`,
       );
@@ -1117,7 +999,7 @@ function DeckControls({
       return;
     }
 
-    openChoiceModal({
+    openChoiceModal(setModalState, {
       title: "Load Saved Deck",
       message: "All current progress will be lost.",
       actions: [
@@ -1135,7 +1017,7 @@ function DeckControls({
   }
 
   function deleteDeck(idx) {
-    openChoiceModal({
+    openChoiceModal(setModalState, {
       title: "Delete Deck",
       message: `Are you sure you want to delete ${savedDecks[idx].name}?`,
       actions: [
@@ -1162,7 +1044,7 @@ function DeckControls({
   }
 
   function promptCreateSavedDeckFolder() {
-    openInputModal({
+    openInputModal(setModalState, {
       title: "Create Folder",
       message: "Enter a folder name.",
       inputPlaceholder: "Folder name",
@@ -1175,6 +1057,7 @@ function DeckControls({
           savedDeckFolderState.folders.some((item) => item.name === folder.name)
         ) {
           openMessageModal(
+            setModalState,
             "Folder Already Exists",
             "A saved deck folder with that name already exists.",
           );
@@ -1189,7 +1072,7 @@ function DeckControls({
   }
 
   function handleDeleteSavedDeckFolder(folderId, folderName) {
-    openChoiceModal({
+    openChoiceModal(setModalState, {
       title: "Delete Folder",
       message: `Delete folder "${folderName}"?\n\nDecks inside it will become unfoldered.`,
       actions: [
@@ -1228,22 +1111,18 @@ function DeckControls({
     setSavedDeckDrag(null);
   }
 
-	function handleToggleSavedDeckFolder(folderId) {
-	  updateSavedDeckFolderState((current) =>
-		toggleSavedDeckFolder(current, folderId),
-	  );
-	}
+  function handleToggleSavedDeckFolder(folderId) {
+    updateSavedDeckFolderState((current) =>
+      toggleSavedDeckFolder(current, folderId),
+    );
+  }
 
   function handleSavedDeckFolderDrop(targetFolderId) {
     if (savedDeckDrag?.type === "folder") {
-      if (savedDeckDrag.folderId === targetFolderId) {
-        setSavedDeckDrag(null);
-        setSavedDeckFolderDropIndicator(null);
-        return;
-      }
-
       const draggedFolderId = savedDeckDrag.folderId;
       const indicator = savedDeckFolderDropIndicator;
+      const position =
+        indicator?.folderId === targetFolderId ? indicator.position : "above";
 
       if (!draggedFolderId || draggedFolderId === targetFolderId) {
         setSavedDeckDrag(null);
@@ -1251,34 +1130,14 @@ function DeckControls({
         return;
       }
 
-      updateSavedDeckFolderState((current) => {
-        const folders = [...(current?.folders || [])];
-        const fromIndex = folders.findIndex(
-          (folder) => folder.id === draggedFolderId,
-        );
-        const targetIndex = folders.findIndex(
-          (folder) => folder.id === targetFolderId,
-        );
-
-        if (fromIndex === -1 || targetIndex === -1) return current;
-
-        const [moved] = folders.splice(fromIndex, 1);
-
-        let insertIndex = folders.findIndex(
-          (folder) => folder.id === targetFolderId,
-        );
-        if (insertIndex === -1) return current;
-
-        if (
-          indicator?.folderId === targetFolderId &&
-          indicator.position === "below"
-        ) {
-          insertIndex += 1;
-        }
-
-        folders.splice(insertIndex, 0, moved);
-        return { ...current, folders };
-      });
+      updateSavedDeckFolderState((current) =>
+        reorderSavedDeckFolders(
+          current,
+          draggedFolderId,
+          targetFolderId,
+          position,
+        ),
+      );
 
       setSavedDeckDrag(null);
       setSavedDeckFolderDropIndicator(null);
@@ -1315,281 +1174,14 @@ function DeckControls({
     setSavedDeckDrag({ type: "folder", folderId });
   }
 
-  function renderSavedDeckItem(d, options = {}) {
-    const { dropTargetFolderId, allowUnfolderDrop = false } = options;
-    const idx = savedDecks.findIndex((saved) => saved.name === d.name);
-    if (idx === -1) return null;
-
-    return (
-      <li
-        key={d.name}
-        draggable
-        className={selectedDeckIdx === idx ? listSelectedClass : ""}
-        onClick={() => setSelectedDeckIdx(idx)}
-        onMouseDown={(e) => e.stopPropagation()}
-        onDragStart={(e) => handleSavedDeckDragStart(e, d.name)}
-        onDragEnd={handleSavedDeckDragEnd}
-        onDragEnter={(e) => e.stopPropagation()}
-        onDragOver={(e) => {
-          if (!savedDeckDrag) return;
-
-          if (savedDeckDrag.type === "folder" && allowUnfolderDrop) {
-            return;
-          }
-
-          e.preventDefault();
-          e.stopPropagation();
-        }}
-        onDrop={(e) => {
-          if (!savedDeckDrag) return;
-
-          if (savedDeckDrag.type === "folder") {
-            if (allowUnfolderDrop) {
-              return;
-            }
-
-            if (dropTargetFolderId) {
-              e.preventDefault();
-              e.stopPropagation();
-              handleSavedDeckFolderDrop(dropTargetFolderId);
-            }
-            return;
-          }
-
-          e.preventDefault();
-          e.stopPropagation();
-
-          if (allowUnfolderDrop) {
-            handleSavedDeckRootDrop();
-          } else if (dropTargetFolderId) {
-            handleSavedDeckFolderDrop(dropTargetFolderId);
-          }
-        }}
-        style={{
-          display: "flex",
-          alignItems: "center",
-          padding: "0.25em 0.5em",
-          borderRadius: "4px",
-          marginBottom: "0.3em",
-          cursor: "pointer",
-        }}
-      >
-        <span style={{ flex: 1 }}>{d.name}</span>
-        <button
-          className={buttonClass}
-          style={{
-            width: "60px",
-            height: "1.8em",
-            fontSize: "0.9em",
-            marginRight: "0.3em",
-          }}
-          onClick={(e) => {
-            e.stopPropagation();
-            loadDeck(idx);
-          }}
-        >
-          Load
-        </button>
-        {d.shareCode ? (
-          <div
-            style={{
-              position: "relative",
-              width: "72px",
-              marginRight: "0.3em",
-            }}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button
-              className={buttonClass}
-              type="button"
-              style={{ width: "72px", height: "1.8em", fontSize: "0.9em" }}
-              onClick={(e) => {
-                e.stopPropagation();
-                setOpenVersionsMenu((prev) =>
-                  prev === d.name ? null : d.name,
-                );
-              }}
-            >
-              Versions
-            </button>
-
-            {openVersionsMenu === d.name && (
-              <div
-                className="dropdown-menu"
-                onMouseLeave={() => {
-                  setOpenVersionsMenu(null);
-                  setVersionsDropdownHover(null);
-                }}
-              >
-                <button
-                  className={
-                    versionsDropdownHover === 0
-                      ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                      : dropdownButtonClass
-                  }
-                  onMouseEnter={() => setVersionsDropdownHover(0)}
-                  onMouseLeave={() => setVersionsDropdownHover(null)}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setOpenVersionsMenu(null);
-                    loadSavedDeckVersion(d, "current");
-                  }}
-                >
-                  Current
-                </button>
-
-                <button
-                  className={
-                    versionsDropdownHover === 1
-                      ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                      : dropdownButtonClass
-                  }
-                  onMouseEnter={() => setVersionsDropdownHover(1)}
-                  onMouseLeave={() => setVersionsDropdownHover(null)}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setOpenVersionsMenu(null);
-                    loadSavedDeckVersion(d, "previous");
-                  }}
-                >
-                  Previous
-                </button>
-
-                <button
-                  className={
-                    versionsDropdownHover === 2
-                      ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                      : dropdownButtonClass
-                  }
-                  onMouseEnter={() => setVersionsDropdownHover(2)}
-                  onMouseLeave={() => setVersionsDropdownHover(null)}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setOpenVersionsMenu(null);
-                    loadSavedDeckVersion(d, "original");
-                  }}
-                >
-                  Original
-                </button>
-              </div>
-            )}
-          </div>
-        ) : null}
-        <button
-          className={buttonClass}
-          style={{ width: "60px", height: "1.8em", fontSize: "0.9em" }}
-          onClick={(e) => {
-            e.stopPropagation();
-            deleteDeck(idx);
-          }}
-        >
-          Delete
-        </button>
-      </li>
-    );
-  }
-
   async function exportDeck(format) {
     setExportMenuOpen(false);
     const flatDeck = {};
     Object.entries(deck).forEach(([cardId, entry]) => {
       flatDeck[cardId] = entry.count || 0;
     });
-    if (format === "TXT") {
-      const includeSubtitle = !!settings.includeSubtitleInTextExport;
-      const groupSorts = settings.groupSort || {};
-      const groupBySetting =
-        currentGroupBy ||
-        (settings.groupOptions && settings.groupOptions[0]) ||
-        "Type";
-      const usingOctgn = groupBySetting === "OCTGN" && settings.octgnExport;
 
-      let grouped, groupOrderArr, filteredSections;
-      if (usingOctgn && octgnSections) {
-        filteredSections =
-          panelIgnoreSections && panelIgnoreSections.length > 0
-            ? octgnSections.filter(
-                (section) => !panelIgnoreSections.includes(section.name),
-              )
-            : octgnSections;
-        grouped = groupDeck(flatDeck, cards, groupBySetting);
-        groupOrderArr = [...filteredSections.map((s) => s.name), "Ungrouped"];
-      } else {
-        grouped = groupDeck(flatDeck, cards, groupBySetting);
-        const FALLBACK_GROUP_ORDER = ["Creatures", "Spells", "Lands", "Other"];
-        const groupOrder = Array.isArray(settings.groupOrder)
-          ? settings.groupOrder
-          : FALLBACK_GROUP_ORDER;
-        const groupNames = Object.keys(grouped);
-        const inOrder = groupOrder.filter((name) => groupNames.includes(name));
-        const remaining = groupNames
-          .filter((name) => !groupOrder.includes(name))
-          .sort();
-        groupOrderArr = [...inOrder, ...remaining];
-      }
-
-      let txt = `Deck: ${deckName}`;
-      groupOrderArr.forEach((group, groupIdx) => {
-        const groupCards = grouped[group] || [];
-        if (
-          usingOctgn &&
-          group === "Ungrouped" &&
-          (!groupCards || groupCards.length === 0)
-        ) {
-          return;
-        }
-        const groupSortConfig = groupSorts[group];
-        const sorted = sortGroup(groupCards, groupSortConfig, includeSubtitle);
-        const groupTotal = sorted.reduce((sum, { qty }) => sum + qty, 0);
-        txt += `\n${group} (${groupTotal})`;
-        sorted.forEach(({ card, qty }) => {
-          let cardLine = cardNameWithSubtitle(card, includeSubtitle);
-          txt += `\n${cardLine} x${qty}`;
-        });
-        if (groupIdx < groupOrderArr.length - 1) {
-          txt += `\n`;
-        }
-      });
-
-      downloadFile(txt, `${deckName || "deck"}.txt`, "text/plain");
-    } else if (format === "JSON") {
-      const exportList = getSortedExportListWithDisplayOrder(
-        deck,
-        cards,
-        settings,
-      );
-
-      const submissionRows = buildFlattenedDeckRows(deck, cards);
-
-      const deckObj = {
-        name: deckName,
-        game,
-
-        // Legacy/simple export list (kept for compatibility)
-        deck: exportList
-          .map(({ card, qty }) => {
-            if (!card) return null;
-            return { ...card, qty };
-          })
-          .filter(Boolean),
-
-        // Raw deck builder state (preserves multi-group splits)
-        deckRaw: deck,
-
-        // Flattened rows used by deck submission / admin workflows
-        submissionRows,
-      };
-
-      downloadFile(
-        JSON.stringify(deckObj, null, 2),
-        `${deckName || "deck"}.json`,
-        "application/json",
-      );
-    } else if (format === "Image") {
-      await exportDeckImage(flatDeck, cards, settings, deckName, game);
-    } else if (format === "ImageCompact") {
-      await exportDeckImageCompact(flatDeck, cards, settings, deckName, game);
-    } else if (format === "PDF") {
+    if (format === "PDF") {
       setGeneratingPDF(true);
       try {
         await exportDeckPDF(deck, cards, settings, deckName, game);
@@ -1613,7 +1205,7 @@ function DeckControls({
   function clearDeck() {
     if (Object.keys(deck).length === 0) return;
 
-    openChoiceModal({
+    openChoiceModal(setModalState, {
       title: "Clear Deck",
       message:
         "Are you sure you want to clear the current deck? This cannot be undone.",
@@ -1638,201 +1230,19 @@ function DeckControls({
   }
 
   function importDeck() {
-    const startImport = () => {
-      const input = document.createElement("input");
-      input.type = "file";
-      input.accept = ".json,application/json,.o8d,application/xml,text/xml";
-
-      input.onchange = async (e) => {
-        const file = e.target.files[0];
-        if (!file) return;
-
-        const text = await file.text();
-        let importedDeck = {};
-        let importedOverrides = {};
-        let groupCounts = {};
-        let notFound = [];
-
-        try {
-          if (file.name.toLowerCase().endsWith(".json")) {
-            const deckObj = JSON.parse(text);
-            if (!deckObj.deck) throw new Error("Invalid deck file.");
-
-            if (deckObj.game && deckObj.game !== game) {
-              openMessageModal(
-                "Wrong Game",
-                `Deck is for game "${deckObj.game}". Switch to that game to import.`,
-              );
-              return;
-            }
-
-            for (const card of deckObj.deck) {
-              importedDeck[card.id] = card.qty;
-            }
-
-            const wrappedDeck = {};
-            Object.entries(importedDeck).forEach(([id, count]) => {
-              wrappedDeck[id] = { count };
-            });
-
-            setDeck(wrappedDeck);
-            setOctgnOverrides({});
-            setActiveSavedDeckName(null);
-            setSessionShareInfo(null);
-            setOpenVersionsMenu(null);
-            return;
-          }
-        } catch (e) {}
-
-        if (
-          file.name.toLowerCase().endsWith(".o8d") ||
-          text.startsWith("<?xml")
-        ) {
-          try {
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(text, "application/xml");
-            importedDeck = {};
-            importedOverrides = {};
-            notFound = [];
-
-            const sectionNodes = Array.from(
-              xmlDoc.getElementsByTagName("section"),
-            );
-
-            for (const sectionNode of sectionNodes) {
-              const sectionName = sectionNode.getAttribute("name");
-              const cardNodes = Array.from(
-                sectionNode.getElementsByTagName("card"),
-              );
-
-              for (const cardNode of cardNodes) {
-                const id = cardNode.getAttribute("id");
-                const qty = parseInt(cardNode.getAttribute("qty"), 10) || 1;
-                const name =
-                  cardNode.getAttribute("name") || cardNode.textContent.trim();
-
-                let foundCard = id ? cards.find((c) => c.id === id) : null;
-                if (!foundCard && name) {
-                  foundCard = cards.find((c) => c.name === name);
-                }
-
-                if (foundCard) {
-                  importedDeck[foundCard.id] =
-                    (importedDeck[foundCard.id] || 0) + qty;
-
-                  if (!groupCounts[foundCard.id])
-                    groupCounts[foundCard.id] = {};
-                  groupCounts[foundCard.id][sectionName || "Ungrouped"] =
-                    (groupCounts[foundCard.id][sectionName || "Ungrouped"] ||
-                      0) + qty;
-                } else if (name) {
-                  notFound.push(name);
-                }
-              }
-            }
-
-            if (sectionNodes.length === 0) {
-              const cardNodes = Array.from(xmlDoc.getElementsByTagName("card"));
-
-              for (const node of cardNodes) {
-                const id = node.getAttribute("id");
-                const qty = parseInt(node.getAttribute("qty"), 10) || 1;
-                const name =
-                  node.getAttribute("name") || node.textContent.trim();
-
-                let foundCard = id ? cards.find((c) => c.id === id) : null;
-                if (!foundCard && name) {
-                  foundCard = cards.find((c) => c.name === name);
-                }
-
-                if (foundCard) {
-                  importedDeck[foundCard.id] =
-                    (importedDeck[foundCard.id] || 0) + qty;
-                } else if (name) {
-                  notFound.push(name);
-                }
-              }
-            }
-
-            if (Object.keys(importedDeck).length > 0) {
-              const wrappedDeck = {};
-              Object.entries(importedDeck).forEach(([id, totalCount]) => {
-                wrappedDeck[id] = {
-                  count: totalCount,
-                  group: groupCounts[id],
-                };
-              });
-
-              setDeck(wrappedDeck);
-              setOctgnOverrides(importedOverrides);
-              setActiveSavedDeckName(null);
-              setSessionShareInfo(null);
-              setOpenVersionsMenu(null);
-
-              if (notFound.length > 0) {
-                openMessageModal(
-                  "Import Warning",
-                  "Some cards could not be matched and were not imported:\n" +
-                    notFound.join("\n"),
-                );
-              }
-            } else {
-              openMessageModal(
-                "Import Failed",
-                "No cards could be loaded from this deck file.",
-              );
-            }
-            return;
-          } catch (e) {
-            openMessageModal(
-              "Import Failed",
-              "Failed to parse OCTGN deck file.",
-            );
-            return;
-          }
-        }
-
-        openMessageModal("Import Failed", "Invalid or unsupported deck file.");
-      };
-
-      input.click();
-    };
-
-    if (Object.keys(deck).length === 0) {
-      startImport();
-      return;
-    }
-
-    openChoiceModal({
-      title: "Import Deck",
-      message:
-        "All current progress will be lost! Importing a deck will overwrite your current deck.",
-      actions: [
-        {
-          label: "Cancel",
-          onClick: () => {},
-        },
-        {
-          label: "Import Deck",
-          primary: true,
-          onClick: startImport,
-        },
-      ],
+    startDeckImportFlow({
+      deck,
+      cards,
+      game,
+      setDeck,
+      setOctgnOverrides,
+      setActiveSavedDeckName,
+      setSessionShareInfo,
+      setOpenVersionsMenu,
+      openMessageModal: (title, message) =>
+        openMessageModal(setModalState, title, message),
+      openChoiceModal: (config) => openChoiceModal(setModalState, config),
     });
-  }
-
-  function downloadFile(data, filename, type) {
-    let blob;
-    if (data instanceof Blob) {
-      blob = data;
-    } else {
-      blob = new Blob([data], { type });
-    }
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = filename;
-    a.click();
-    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
 
   const buttonClass = "main-button";
@@ -1874,44 +1284,18 @@ function DeckControls({
                 className="dropdown-menu"
                 onMouseLeave={() => setExportMenuOpen(false)}
               >
-                {/*
-				<button
-                  className={
-                    dropdownHover === 0
-                      ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                      : dropdownButtonClass
-                  }
-                  onMouseEnter={() => setDropdownHover(0)}
-                  onMouseLeave={() => setDropdownHover(null)}
-                  onClick={() => exportDeck("TXT")}
-                >
-                  TXT
-                </button>
-				*/}
                 <button
-                  className={
-                    dropdownHover === 2
-                      ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                      : dropdownButtonClass
-                  }
-                  onMouseEnter={() => setDropdownHover(2)}
-                  onMouseLeave={() => setDropdownHover(null)}
-                  onClick={() => exportDeck("Image")}
-                >
-                  Card Images
-                </button>
-                <button
-                  className={
-                    dropdownHover === 3
-                      ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                      : dropdownButtonClass
-                  }
-                  onMouseEnter={() => setDropdownHover(3)}
-                  onMouseLeave={() => setDropdownHover(null)}
-                  onClick={() => exportDeck("ImageCompact")}
-                >
-                  Image Stack
-                </button>
+				  className={
+					dropdownHover === 2
+					  ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
+					  : dropdownButtonClass
+				  }
+				  onMouseEnter={() => setDropdownHover(2)}
+				  onMouseLeave={() => setDropdownHover(null)}
+				  onClick={() => imageExportRef.current?.open()}
+				>
+				  As Image
+				</button>
                 <button
                   className={
                     dropdownHover === 4
@@ -1997,215 +1381,16 @@ function DeckControls({
             Import
           </button>
 
-          {showSetSelector && (
-            <div className="modal-backdrop">
-              <div className="modal">
-                <h3>Select Sets for Image Pack</h3>
-
-                <div
-                  style={{
-                    maxHeight: 240,
-                    overflowY: "auto",
-                    marginBottom: "1em",
-                  }}
-                >
-                  {setNames.map((name) => (
-                    <label key={name} style={{ display: "block" }}>
-                      <input
-                        type="checkbox"
-                        checked={selectedSetNames.has(name)}
-                        onChange={() => {
-                          setSelectedSetNames((prev) => {
-                            const next = new Set(prev);
-                            next.has(name) ? next.delete(name) : next.add(name);
-                            return next;
-                          });
-                          setSetSelectorError("");
-                        }}
-                      />{" "}
-                      {name}
-                    </label>
-                  ))}
-                </div>
-
-                {setSelectorError && (
-                  <div
-                    style={{
-                      marginBottom: "0.75em",
-                      padding: "0.6em 0.75em",
-                      borderRadius: "6px",
-                      background: "rgba(180, 40, 40, 0.18)",
-                      border: "1px solid rgba(255, 120, 120, 0.35)",
-                      color: "#ffd7d7",
-                      fontSize: "0.95em",
-                    }}
-                  >
-                    {setSelectorError}
-                  </div>
-                )}
-
-                <div style={{ display: "flex", gap: "0.5em" }}>
-                  <button
-                    className={buttonClass}
-                    onClick={() => {
-                      setSelectedSetNames(new Set(setNames));
-                      setSetSelectorError("");
-                    }}
-                  >
-                    All
-                  </button>
-
-                  <button
-                    className={buttonClass}
-                    onClick={() => {
-                      setSelectedSetNames(new Set());
-                      setSetSelectorError("");
-                    }}
-                  >
-                    None
-                  </button>
-
-                  <button
-                    className={buttonClass}
-                    onClick={async () => {
-                      setShowSetSelector(false);
-
-                      if (selectedSetNames.size === 0) {
-                        setShowSetSelector(true);
-                        setSetSelectorError("Please select at least one set.");
-                        return;
-                      }
-
-                      const allowedSetIds = new Set();
-                      for (const setName of selectedSetNames) {
-                        const ids = setsByName.get(setName);
-                        if (!ids) continue;
-                        for (const id of ids) {
-                          allowedSetIds.add(id);
-                        }
-                      }
-
-                      const filteredCards = imagePackCards.filter((card) =>
-                        allowedSetIds.has(card.set_id),
-                      );
-
-                      if (filteredCards.length === 0) {
-                        setShowSetSelector(true);
-                        setSetSelectorError(
-                          "No cards found for the selected sets.",
-                        );
-                        return;
-                      }
-
-                      cancelExport.current = false;
-                      setImagePackProgress({
-                        current: 0,
-                        total: filteredCards.length,
-                      });
-
-                      try {
-                        await exportDeckO8c(
-                          filteredCards,
-                          settings,
-                          game,
-                          undefined,
-                          (current, total) => {
-                            setImagePackProgress({ current, total });
-                          },
-                          cancelExport,
-                        );
-                      } finally {
-                        setImagePackProgress(null);
-                        cancelExport.current = false;
-                        setSetSelectorError("");
-                      }
-                    }}
-                  >
-                    Export
-                  </button>
-
-                  <button
-                    className={buttonClass}
-                    onClick={() => {
-                      setSelectedSetNames(new Set());
-                      setSetSelectorError("");
-                      setShowSetSelector(false);
-                    }}
-                  >
-                    Cancel
-                  </button>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {settings.imagePackExport &&
-            (imagePackProgress === null ? (
-              <button
-                className={buttonClass}
-                style={{ fontSize: "12px" }}
-                onClick={() => {
-                  setSelectedSetNames(new Set(setNames));
-                  setSetSelectorError("");
-                  setShowSetSelector(true);
-                }}
-              >
-                OCTGN Image Pack
-              </button>
-            ) : (
-              <button
-                className={buttonClass}
-                type="button"
-                style={{
-                  position: "relative",
-                  padding: undefined, // Let your class control padding
-                  minHeight: undefined, // Let your class control height
-                  overflow: "hidden",
-                  cursor: "pointer",
-                }}
-                title="Click to cancel"
-                onClick={() => {
-                  cancelExport.current = true;
-                  setImagePackProgress(null);
-                }}
-              >
-                <span
-                  style={{
-                    zIndex: 2,
-                    position: "relative",
-                    display: "block",
-                    width: "100%",
-                    fontSize: 13,
-                    color: "inherit",
-                    fontFamily: "inherit",
-                    textAlign: "center",
-                    userSelect: "none",
-                  }}
-                >
-                  {imagePackProgress.current} / {imagePackProgress.total}
-                  <br />
-                  <span style={{ color: "#b00", fontWeight: 600 }}>
-                    (Click to Cancel)
-                  </span>
-                </span>
-                <div
-                  style={{
-                    position: "absolute",
-                    left: 0,
-                    top: 0,
-                    width: `${(imagePackProgress.current / Math.max(1, imagePackProgress.total)) * 100}%`,
-                    height: "100%",
-                    background:
-                      "linear-gradient(90deg, #42b0ff 0%, #1357c4 100%)",
-                    opacity: 0.55,
-                    borderRight: "2px solid #3887fa",
-                    boxShadow: "0 0 5px #3182ceaa",
-                    transition: "width 0.2s",
-                  }}
-                />
-              </button>
-            ))}
+          <ImagePackExportControl
+            settings={settings}
+            cards={cards}
+            allCards={allCards}
+            exportDeckO8c={exportDeckO8c}
+            game={game}
+            buttonClass={buttonClass}
+          />
         </div>
+
         <div style={{ width: "220px", marginBottom: "1em" }}>
           <CardPreview
             card={selectedCardObj}
@@ -2213,169 +1398,49 @@ function DeckControls({
             extraData={buildCardPreviewProperties(selectedCardObj, settings)}
           />
         </div>
-        <div style={{ width: "100%", maxWidth: 500 }}>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "space-between",
-              gap: "0.5em",
-              marginBottom: "0.5em",
-            }}
-          >
-            <h3 style={{ margin: 0 }}>Saved Decks</h3>
-            <button
-              className={buttonClass}
-              type="button"
-              onClick={promptCreateSavedDeckFolder}
-              title="Create folder"
-              aria-label="Create saved deck folder"
-              style={{
-                width: "32px",
-                height: "32px",
-                padding: 0,
-                display: "inline-flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: "1rem",
-              }}
-            >
-              📁
-            </button>
-          </div>
-
-          {savedDeckFolderView.folders.map((folder) => (
-            <div
-              key={folder.id}
-              onDragOver={(e) => e.preventDefault()}
-              onDrop={(e) => {
-                e.preventDefault();
-                handleSavedDeckFolderDrop(folder.id);
-              }}
-              onDragLeave={(e) => {
-                if (savedDeckDrag?.type !== "folder") return;
-                if (!e.currentTarget.contains(e.relatedTarget)) {
-                  setSavedDeckFolderDropIndicator(null);
-                }
-              }}
-              style={{
-                border: "1px solid rgba(255, 255, 255, 0.12)",
-                borderRadius: "8px",
-                marginBottom: "0.6em",
-                overflow: "hidden",
-              }}
-            >
-              <div
-                draggable
-                onDragStart={() => handleSavedDeckFolderDragStart(folder.id)}
-                onDragEnd={handleSavedDeckDragEnd}
-                onDragOver={(e) => handleSavedDeckFolderDragOver(e, folder.id)}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "0.4em",
-                  padding: "0.45em 0.55em",
-                  background: "rgba(255, 255, 255, 0.04)",
-                  cursor: "grab",
-                  borderTop:
-                    savedDeckFolderDropIndicator?.folderId === folder.id &&
-                    savedDeckFolderDropIndicator?.position === "above"
-                      ? "2px solid rgba(120, 190, 255, 0.95)"
-                      : "2px solid transparent",
-                  borderBottom:
-                    savedDeckFolderDropIndicator?.folderId === folder.id &&
-                    savedDeckFolderDropIndicator?.position === "below"
-                      ? "2px solid rgba(120, 190, 255, 0.95)"
-                      : "2px solid transparent",
-                }}
-              >
-				<button
-				  type="button"
-				  onClick={(e) => {
-					e.stopPropagation();
-					handleToggleSavedDeckFolder(folder.id);
-				  }}
-				  onMouseDown={(e) => e.stopPropagation()}
-				  style={{
-					background: "none",
-					border: "none",
-					color: "inherit",
-					cursor: "pointer",
-					padding: 0,
-					fontSize: "0.95em",
-				  }}
-				  title={folder.collapsed ? "Expand folder" : "Collapse folder"}
-				  aria-label={folder.collapsed ? "Expand folder" : "Collapse folder"}
-				>
-				  {folder.collapsed ? "▶" : "▼"}
-				</button>
-                <span style={{ fontSize: "0.95em" }}>📁</span>
-                <strong style={{ flex: 1, minWidth: 0 }}>{folder.name}</strong>
-                <button
-                  className={buttonClass}
-                  type="button"
-                  onClick={() =>
-                    handleDeleteSavedDeckFolder(folder.id, folder.name)
-                  }
-                  style={{ width: "60px", height: "1.8em", fontSize: "0.85em" }}
-                >
-                  Delete
-                </button>
-              </div>
-
-              {!folder.collapsed && (
-                <div style={{ padding: "0.45em 0.4em 0.15em" }}>
-                  <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-                    {folder.decks.map((d) =>
-                      renderSavedDeckItem(d, { dropTargetFolderId: folder.id }),
-                    )}
-                  </ul>
-                  {folder.decks.length === 0 && (
-                    <div
-                      style={{
-                        padding: "0.2em 0.35em 0.45em",
-                        fontSize: "0.9em",
-                        opacity: 0.7,
-                      }}
-                    >
-                      Drag saved decks here
-                    </div>
-                  )}
-                </div>
-              )}
-            </div>
-          ))}
-
-          <div
-            onDragOver={(e) => e.preventDefault()}
-            onDrop={(e) => {
-              e.preventDefault();
-              handleSavedDeckRootDrop();
-            }}
-            style={{
-              borderRadius: "8px",
-              padding: savedDeckFolderView.unfolderedDecks.length
-                ? 0
-                : "0.55em",
-              border:
-                savedDeckFolderView.folders.length > 0
-                  ? "1px dashed rgba(255, 255, 255, 0.18)"
-                  : "none",
-            }}
-          >
-            <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-              {savedDeckFolderView.unfolderedDecks.map((d) =>
-                renderSavedDeckItem(d, { allowUnfolderDrop: true }),
-              )}
-            </ul>
-            {savedDeckFolderView.folders.length > 0 &&
-              savedDeckFolderView.unfolderedDecks.length === 0 && (
-                <div style={{ fontSize: "0.9em", opacity: 0.7 }}>
-                  Drag a deck here to remove it from its folder
-                </div>
-              )}
-          </div>
-        </div>
+        <SavedDeckLibrary
+          savedDeckFolderView={{
+            ...savedDeckFolderView,
+            allDecks: savedDecks,
+          }}
+          savedDeckDrag={savedDeckDrag}
+          savedDeckFolderDropIndicator={savedDeckFolderDropIndicator}
+          selectedDeckIdx={selectedDeckIdx}
+          openVersionsMenu={openVersionsMenu}
+          versionsDropdownHover={versionsDropdownHover}
+          setSelectedDeckIdx={setSelectedDeckIdx}
+          setOpenVersionsMenu={setOpenVersionsMenu}
+          setVersionsDropdownHover={setVersionsDropdownHover}
+          setSavedDeckFolderDropIndicator={setSavedDeckFolderDropIndicator}
+          handleSavedDeckFolderDrop={handleSavedDeckFolderDrop}
+          handleSavedDeckRootDrop={handleSavedDeckRootDrop}
+          handleSavedDeckFolderDragStart={handleSavedDeckFolderDragStart}
+          handleSavedDeckFolderDragOver={handleSavedDeckFolderDragOver}
+          handleSavedDeckDragStart={handleSavedDeckDragStart}
+          handleSavedDeckDragEnd={handleSavedDeckDragEnd}
+          handleToggleSavedDeckFolder={handleToggleSavedDeckFolder}
+          handleDeleteSavedDeckFolder={handleDeleteSavedDeckFolder}
+          loadDeck={loadDeck}
+          deleteDeck={deleteDeck}
+          loadSavedDeckVersion={loadSavedDeckVersion}
+          promptCreateSavedDeckFolder={promptCreateSavedDeckFolder}
+          buttonClass={buttonClass}
+          dropdownButtonClass={dropdownButtonClass}
+          dropdownButtonHoverClass={dropdownButtonHoverClass}
+          listSelectedClass={listSelectedClass}
+        />
+		<ImageExportFlow
+		  ref={imageExportRef}
+		  deck={deck}
+		  cards={cards}
+		  settings={settings}
+		  deckName={deckName}
+		  game={game}
+		  onBeforeOpen={() => {
+			setDropdownHover(null);
+			setExportMenuOpen(false);
+		  }}
+		/>
         <DeckSubmissionFlow
           ref={deckSubmissionRef}
           deck={deck}
@@ -2421,7 +1486,7 @@ function DeckControls({
             : undefined
         }
         actions={modalState.actions}
-        onClose={closeModal}
+        onClose={() => closeModal(setModalState)}
       />
     </>
   );
