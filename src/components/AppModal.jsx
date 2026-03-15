@@ -10,16 +10,29 @@ function AppModal({
   onInputChange,
   actions = [],
   onClose,
+  children,
+  modalClassName = "",
 }) {
   const inputRef = useRef(null);
 
   useEffect(() => {
-    if (!open) return;
-    if (autoFocusInput && inputRef.current) {
-      inputRef.current.focus();
-      inputRef.current.select?.();
+  if (!open) return;
+
+  if (autoFocusInput && inputRef.current) {
+    inputRef.current.focus();
+    inputRef.current.select?.();
+  }
+
+  function handleKeyDown(e) {
+    if (e.key === "Escape") {
+      e.preventDefault();
+      onClose?.();
     }
-  }, [open, autoFocusInput]);
+  }
+
+  window.addEventListener("keydown", handleKeyDown);
+  return () => window.removeEventListener("keydown", handleKeyDown);
+}, [open, autoFocusInput, onClose]);
 
   if (!open) return null;
 
@@ -34,7 +47,10 @@ function AppModal({
         }
       }}
     >
-      <div className="modal" onMouseDown={(e) => e.stopPropagation()}>
+      <div
+        className={`modal ${modalClassName}`.trim()}
+        onMouseDown={(e) => e.stopPropagation()}
+      >
         {title ? <h3 style={{ marginTop: 0 }}>{title}</h3> : null}
 
         {message ? (
@@ -76,6 +92,8 @@ function AppModal({
           />
         )}
 
+        {children}
+
         {actions.length > 0 && (
           <div
             style={{
@@ -83,6 +101,7 @@ function AppModal({
               gap: "0.5em",
               justifyContent: "flex-end",
               flexWrap: "wrap",
+              marginTop: "0.5rem",
             }}
           >
             {actions.map((action, idx) => (
