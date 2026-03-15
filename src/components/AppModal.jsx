@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { createPortal } from "react-dom";
 
 function AppModal({
   open,
@@ -16,29 +17,29 @@ function AppModal({
   const inputRef = useRef(null);
 
   useEffect(() => {
-  if (!open) return;
+    if (!open) return;
 
-  if (autoFocusInput && inputRef.current) {
-    inputRef.current.focus();
-    inputRef.current.select?.();
-  }
-
-  function handleKeyDown(e) {
-    if (e.key === "Escape") {
-      e.preventDefault();
-      onClose?.();
+    if (autoFocusInput && inputRef.current) {
+      inputRef.current.focus();
+      inputRef.current.select?.();
     }
-  }
 
-  window.addEventListener("keydown", handleKeyDown);
-  return () => window.removeEventListener("keydown", handleKeyDown);
-}, [open, autoFocusInput, onClose]);
+    function handleKeyDown(e) {
+      if (e.key === "Escape") {
+        e.preventDefault();
+        onClose?.();
+      }
+    }
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [open, autoFocusInput, onClose]);
 
   if (!open) return null;
 
   const hasInput = typeof onInputChange === "function";
 
-  return (
+  const modalNode = (
     <div
       className="modal-backdrop"
       onMouseDown={(e) => {
@@ -119,6 +120,8 @@ function AppModal({
       </div>
     </div>
   );
+
+  return createPortal(modalNode, document.body);
 }
 
 export default AppModal;
