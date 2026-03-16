@@ -230,7 +230,8 @@
     "id": "4f089cbd-6966-4f2e-adb1-20b48239d3b3",
     "index": "2L",
     "Alignment": "Heroes Only",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Black Brace",
@@ -255,7 +256,8 @@
     "Main Personality": "",
     "id": "1a85c1ae-3266-4cd0-b74a-2b5d6baf4b6f",
     "index": "2Q",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Block"
   },
   {
     "name": "Black Chin Kick",
@@ -280,7 +282,8 @@
     "Main Personality": "",
     "id": "f1144adc-22c2-4423-aaf2-ae50c1e4cc72",
     "index": "2X",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Black Conflict Mastery",
@@ -483,7 +486,8 @@
     "Main Personality": "",
     "id": "c6277428-2625-4630-ab20-39e433314349",
     "index": "7F",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Block"
   },
   {
     "name": "Blue Battle Readiness",
@@ -583,7 +587,8 @@
     "Main Personality": "",
     "id": "4d76c476-14c9-45cf-8857-2468ef38ecc0",
     "index": "8M",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Block"
   },
   {
     "name": "Blue Magic",
@@ -735,7 +740,8 @@
     "Main Personality": "",
     "id": "19306232-4c86-4226-9eb3-79ab8466e69d",
     "index": "bG",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Block"
   },
   {
     "name": "Blue Tag Team Mastery",
@@ -1149,7 +1155,8 @@
     "Main Personality": "",
     "id": "34d646b6-8be5-423c-88af-dc286c12122a",
     "index": "fJ",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Gohan - Earth's Defender",
@@ -1383,7 +1390,8 @@
     "id": "59667f3b-4b0f-45d7-916a-41f7fe55880f",
     "index": "l3",
     "Alignment": "Heroes Only",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Block"
   },
   {
     "name": "Krillin - In Training",
@@ -1537,7 +1545,8 @@
     "Main Personality": "",
     "id": "5303a8bb-ce34-4e33-97da-3bbf8001f9a0",
     "index": "nq",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Disturbance",
@@ -1639,7 +1648,8 @@
     "Main Personality": "",
     "id": "72e58bab-9d9d-4da8-b375-2830f6ca2aa0",
     "index": "r0",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Swift Guard",
@@ -1665,7 +1675,8 @@
     "Main Personality": "",
     "id": "3b5ce1bc-d484-4388-aae7-986508187660",
     "index": "r7",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Block"
   },
   {
     "name": "Namekian Versatility",
@@ -1690,7 +1701,8 @@
     "Main Personality": "",
     "id": "cf4090ac-d5b2-4f6b-a01b-e598dbad6bd8",
     "index": "rh",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Block"
   },
   {
     "name": "Orange Adept Mastery",
@@ -1892,7 +1904,8 @@
     "Main Personality": "",
     "id": "eeb36eb3-f396-420a-86dc-9e878e7990c2",
     "index": "ww",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Block"
   },
   {
     "name": "Overwhelming Power",
@@ -1994,7 +2007,8 @@
     "Main Personality": "",
     "id": "6218333a-b1d7-422f-b540-5338aee75924",
     "index": "yZ",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Block"
   },
   {
     "name": "Red Clearing Blast",
@@ -2094,7 +2108,8 @@
     "Main Personality": "",
     "id": "68b7986a-7be6-4ddb-9490-af2da5247a7e",
     "index": "AY",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Red Observation",
@@ -2145,7 +2160,8 @@
     "Main Personality": "",
     "id": "7ed37f32-3c3b-4a7a-923c-fec2ac4f6790",
     "index": "BE",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Block"
   },
   {
     "name": "Red Ruthless Mastery",
@@ -2221,7 +2237,8 @@
     "Main Personality": "",
     "id": "a67e869c-04ce-405b-8e27-56567dc848f8",
     "index": "Dv",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Brace",
@@ -2347,7 +2364,8 @@
     "Main Personality": "",
     "id": "f5d6735b-a706-4513-bfd6-c42276959f9c",
     "index": "Ev",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Hanging Out Drill",
@@ -2449,7 +2467,8 @@
     "Main Personality": "",
     "id": "208d2740-fec7-409b-8461-6906d0cec269",
     "index": "H4",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Showdown Drill",

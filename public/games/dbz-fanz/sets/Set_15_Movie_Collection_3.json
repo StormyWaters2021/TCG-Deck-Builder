@@ -73,7 +73,8 @@
     "Main Personality": "",
     "id": "d74b54f5-9be3-4386-98e2-0d759e80b6bf",
     "index": "34",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Black Dash",
@@ -98,7 +99,8 @@
     "Main Personality": "",
     "id": "b143e838-1897-49da-96ec-38382baed3f6",
     "index": "3m",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Black Diabolic Scheme",
@@ -174,7 +176,8 @@
     "Main Personality": "",
     "id": "3a42098c-5305-44ff-803c-055ab73b24aa",
     "index": "5d",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Black Mischievous Mastery",
@@ -250,7 +253,8 @@
     "Main Personality": "",
     "id": "6df64049-0bf5-43c2-a9b7-0bedf089df7d",
     "index": "6A",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Black Swirl",
@@ -301,7 +305,8 @@
     "Main Personality": "",
     "id": "ec5c4ac4-fee3-4f6e-afb6-198a8a10e9a6",
     "index": "7s",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Absorption",
@@ -326,7 +331,8 @@
     "Main Personality": "",
     "id": "23d2f21a-eb62-4a18-b86d-040300b5f784",
     "index": "7u",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Blue Betrayal",
@@ -351,7 +357,8 @@
     "Main Personality": "",
     "id": "fe56abeb-f9ac-4565-81bd-53b7c016de0d",
     "index": "7W",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Dismisssal",
@@ -376,7 +383,8 @@
     "Main Personality": "",
     "id": "e88363ed-2e07-4602-a2eb-5eadded41565",
     "index": "8B",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Blue Energy Resistance",
@@ -401,7 +409,8 @@
     "Main Personality": "",
     "id": "a2f0d2f4-469e-4c0a-9988-6ddb6d003ee5",
     "index": "8X",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Blue Energy Wave",
@@ -452,7 +461,8 @@
     "id": "bc38345b-0441-4fb9-b30b-eb1fc7341f11",
     "index": "aG",
     "Alignment": "Heroes Only",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Resourceful Mastery",
@@ -503,7 +513,8 @@
     "Main Personality": "",
     "id": "7a9a7a85-2ea1-4562-84bc-d193246b46b0",
     "index": "bP",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Tandem",
@@ -708,7 +719,8 @@
     "id": "f50be8ee-a8d6-449c-8c2c-dc76b7129e31",
     "index": "jP",
     "Alignment": "Heroes Only",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Hirudegarn - Lower Half",
@@ -1173,7 +1185,8 @@
     "id": "f8bd1cf9-3a11-400c-8620-264e83933bd4",
     "index": "lX",
     "Alignment": "Villains Only",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Malicious Intent",
@@ -1274,7 +1287,8 @@
     "Main Personality": "",
     "id": "2e2dfb65-202f-4c69-a7ac-134ef58eaf92",
     "index": "pj",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Namekian Overtime",
@@ -1349,7 +1363,8 @@
     "Main Personality": "",
     "id": "97e6a254-513d-4eff-a363-8dfc548d8112",
     "index": "qe",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Namekian Regroup",
@@ -1400,7 +1415,8 @@
     "id": "7b567fee-ceac-4806-aa08-c0d19e5ed292",
     "index": "qH",
     "Alignment": "Heroes Only",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Scatter Shot",
@@ -1450,7 +1466,8 @@
     "Main Personality": "",
     "id": "1a661c75-12b0-4c3d-8888-bb714a8bdca3",
     "index": "rJ",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Orange Combative Mastery",
@@ -1526,7 +1543,8 @@
     "Main Personality": "",
     "id": "f398fe38-069e-4c4b-ba50-4004abc16f59",
     "index": "t2",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Orange Energy Rush",
@@ -1832,7 +1850,8 @@
     "Main Personality": "",
     "id": "aaae8ea2-df19-48a1-a2c7-e3f5180caced",
     "index": "y3",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Red Amplified Mastery",
@@ -1883,7 +1902,8 @@
     "Main Personality": "",
     "id": "731dd0bd-93e6-455d-827c-c421d76af7a5",
     "index": "yy",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Red Desire",
@@ -1934,7 +1954,8 @@
     "Main Personality": "",
     "id": "fd0c36eb-fff8-4b56-b3e0-39a530b413b9",
     "index": "A7",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Red Gambit",
@@ -1959,7 +1980,8 @@
     "Main Personality": "",
     "id": "273a6d0a-2e28-48e7-8dd6-be31bfcf8091",
     "index": "Aw",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Red Heel Kick",
@@ -1984,7 +2006,8 @@
     "Main Personality": "",
     "id": "075472bf-26eb-4037-b515-f24e12cb9301",
     "index": "AE",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Red Hustle",
@@ -2060,7 +2083,8 @@
     "Main Personality": "",
     "id": "1eb6e38e-fa34-441b-8a79-9619e48968ce",
     "index": "BQ",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Aerial Attack",
@@ -2110,7 +2134,8 @@
     "Main Personality": "",
     "id": "7d16c17e-7154-4ecd-815d-aca691343323",
     "index": "Di",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Elbow Drop",
@@ -2160,7 +2185,8 @@
     "Main Personality": "",
     "id": "dcacc6fc-2888-43b3-90a4-b1cba88a0304",
     "index": "EE",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Focused Blast",
@@ -2261,7 +2287,8 @@
     "Main Personality": "",
     "id": "c1a1d4a0-e3e3-40a3-8bf3-2ecdb40793e4",
     "index": "Gz",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Quest",
@@ -2596,7 +2623,8 @@
     "Main Personality": "",
     "id": "c05f2588-b8d5-4b2f-8611-80fe39186688",
     "index": "LQ",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Warp Blast",

@@ -22,7 +22,8 @@
     "Main Personality": "",
     "id": "31c9dcd1-8189-4eca-97e9-9c132e066122",
     "index": "2z",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Block"
   },
   {
     "name": "Black Combined Blast",
@@ -72,7 +73,8 @@
     "Main Personality": "",
     "id": "c7844ee5-2306-43dd-893a-f62c010c03e2",
     "index": "3w",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Black Dismissal",
@@ -97,7 +99,8 @@
     "Main Personality": "",
     "id": "4cef9e37-1356-4d4d-a83b-45e41ff1d621",
     "index": "3J",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Black Divine Barrier",
@@ -122,7 +125,8 @@
     "Main Personality": "",
     "id": "ff1086fb-9f3b-415d-bcaa-8a2d890b4f3e",
     "index": "3P",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Block"
   },
   {
     "name": "Black Flowing Drill",
@@ -172,7 +176,8 @@
     "Main Personality": "",
     "id": "3981dee7-d155-46b9-89fb-acd20dedc50b",
     "index": "5h",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Block"
   },
   {
     "name": "Black Protection",
@@ -197,7 +202,8 @@
     "Main Personality": "",
     "id": "1db97e11-322c-44ad-9c54-fce85cdded68",
     "index": "62",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Block"
   },
   {
     "name": "Black Spiteful Strike",
@@ -222,7 +228,8 @@
     "Main Personality": "",
     "id": "f1215643-d5df-441e-8b83-5b652f7395dc",
     "index": "6N",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Adaptive Defense",
@@ -247,7 +254,8 @@
     "Main Personality": "",
     "id": "6125032c-b96c-4f87-9c0f-10aa049bf2fd",
     "index": "7v",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Block"
   },
   {
     "name": "Blue Arrest",
@@ -272,7 +280,8 @@
     "Main Personality": "",
     "id": "ccdab99a-0bdb-4891-9612-a0fb2b7c53d0",
     "index": "7C",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Battle Drill",
@@ -322,7 +331,8 @@
     "Main Personality": "",
     "id": "edb13fb5-f1de-42e2-afdd-42fa8cd807d5",
     "index": "84",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Block"
   },
   {
     "name": "Blue Confusion",
@@ -372,7 +382,8 @@
     "Main Personality": "",
     "id": "5b73f27b-740e-4cc8-8d2e-4baa039b64e1",
     "index": "9t",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Intelligence",
@@ -472,7 +483,8 @@
     "Main Personality": "",
     "id": "463b35de-ac75-4d43-9b67-247a0c40ce07",
     "index": "aX",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Block"
   },
   {
     "name": "Blue Squad Drill",
@@ -548,7 +560,8 @@
     "Main Personality": "",
     "id": "d3adf867-671e-41b3-9147-e2462efbccc7",
     "index": "eR",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Dashing Sword Attack",
@@ -598,7 +611,8 @@
     "Main Personality": "",
     "id": "5a8c1f31-ef10-4ce7-8a7b-d335c172eba6",
     "index": "fK",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Dynamic Strike",
@@ -623,7 +637,8 @@
     "Main Personality": "",
     "id": "f27400b5-7245-48a3-94e6-adce3b703b50",
     "index": "g8",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Energy Toss",
@@ -827,7 +842,8 @@
     "Main Personality": "",
     "id": "f5fc2169-67c5-43ce-9328-04b6a3027bd6",
     "index": "mY",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Contained Wave",
@@ -902,7 +918,8 @@
     "Main Personality": "",
     "id": "e55c9a5e-64fb-40a4-834e-932c0c294293",
     "index": "oR",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Mentoring Drill",
@@ -977,7 +994,8 @@
     "Main Personality": "",
     "id": "399d23c4-cdb8-4f8f-8054-9826c525dbce",
     "index": "qb",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Wrist Strike",
@@ -1002,7 +1020,8 @@
     "Main Personality": "",
     "id": "b13cf54c-d615-4cf0-a0b2-9e28517ffd0c",
     "index": "rp",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Collision",
@@ -1027,7 +1046,8 @@
     "Main Personality": "",
     "id": "ac582b08-71c0-4847-b0b2-240984c9de96",
     "index": "sz",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Driving Drill",
@@ -1077,7 +1097,8 @@
     "Main Personality": "",
     "id": "254108d6-f0f2-4d1d-82bd-c005272f6d1f",
     "index": "uG",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Overload",
@@ -1177,7 +1198,8 @@
     "Main Personality": "",
     "id": "f304d921-45e4-400f-9882-f0eaf363b437",
     "index": "vM",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Strikeout",
@@ -1252,7 +1274,8 @@
     "Main Personality": "",
     "id": "1ed6b2a7-ecc4-4f7f-845f-a6bcd23feb3c",
     "index": "yo",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Block"
   },
   {
     "name": "Red Double Strike",
@@ -1277,7 +1300,8 @@
     "Main Personality": "",
     "id": "aa7e2a17-4fe6-418f-b7e1-3bf5a4e29bde",
     "index": "zC",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Red Embarrassing Drill",
@@ -1428,7 +1452,8 @@
     "Main Personality": "",
     "id": "ffcc9d93-1c2a-411d-9f84-43f070d0ba00",
     "index": "BO",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Block"
   },
   {
     "name": "Red Shoulder Grab",
@@ -1453,7 +1478,8 @@
     "Main Personality": "",
     "id": "6e7c810b-2556-46e7-9e92-8dbcb9674c5a",
     "index": "Cl",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Burst",
@@ -1579,7 +1605,8 @@
     "Main Personality": "",
     "id": "dd9ae5ea-141b-41a5-9aa6-94d36f5a7d84",
     "index": "GH",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Rescue",
@@ -1629,7 +1656,8 @@
     "Main Personality": "",
     "id": "f97e095d-07ae-4812-b513-e2bb90767e5b",
     "index": "Hi",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Stratagem",
@@ -1729,7 +1757,8 @@
     "Main Personality": "",
     "id": "eb9756fc-3336-4de1-8ca3-2710785c33ce",
     "index": "HZ",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Trunks - Dashing",
@@ -1884,7 +1913,8 @@
     "Main Personality": "",
     "id": "e865a033-b8a1-4245-b7f0-830793008c2f",
     "index": "K3",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Trunks' Slam",
@@ -1909,7 +1939,8 @@
     "Main Personality": "",
     "id": "498e73de-7324-43fd-9f0f-3b69791032ea",
     "index": "K5",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   },
   {
     "name": "Trunks' Sword Slash",
@@ -2167,7 +2198,8 @@
     "Main Personality": "",
     "id": "050d3722-421f-4931-ac03-41a965a9de41",
     "index": "MF",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Block"
   },
   {
     "name": "Zamasu's Instant Severance",
@@ -2192,6 +2224,7 @@
     "Main Personality": "",
     "id": "b99c68e1-fe81-4630-a586-0b62f97e2dcd",
     "index": "MG",
-    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54"
+    "set_id": "2b473f2e-605f-4638-8005-7f2229077c54",
+    "Tag": "Attack"
   }
 ]

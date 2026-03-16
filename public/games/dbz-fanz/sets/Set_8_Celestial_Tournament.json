@@ -204,7 +204,8 @@
     "Main Personality": "",
     "id": "66befbd5-d5c1-40e1-bb5b-d5fc555ef9f2",
     "index": "1S",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Attack"
   },
   {
     "name": "Black Absorption Drill",
@@ -255,7 +256,8 @@
     "Main Personality": "",
     "id": "6ba00e71-b0b8-4134-b412-8d6df9edd9aa",
     "index": "3d",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Attack"
   },
   {
     "name": "Black Face Off",
@@ -305,7 +307,8 @@
     "Main Personality": "",
     "id": "cfa821ad-6b3b-43e7-a722-1a7ce7da7f9b",
     "index": "4N",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Attack"
   },
   {
     "name": "Black Restoration",
@@ -380,7 +383,8 @@
     "Main Personality": "",
     "id": "a4f63d8f-4cb9-47ae-b66d-392947707e75",
     "index": "8N",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Off-Balanced Punch",
@@ -456,7 +460,8 @@
     "Main Personality": "",
     "id": "b097b31b-5950-40d7-ad4b-b07bf94b7d34",
     "index": "aF",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Attack"
   },
   {
     "name": "Bubbles - Curious",
@@ -560,7 +565,8 @@
     "Main Personality": "",
     "id": "51f66a3e-d4a2-4f9b-b0b7-f39578f79948",
     "index": "gS",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Block"
   },
   {
     "name": "Gohan - A New Hope",
@@ -1153,7 +1159,8 @@
     "Main Personality": "",
     "id": "d7a304d0-384f-4db8-af41-2c8e397d7f8d",
     "index": "oQ",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Greed",
@@ -1206,7 +1213,8 @@
     "Main Personality": "",
     "id": "e4409b52-b325-4259-8b9a-6e7fe8cd0947",
     "index": "qz",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Attack"
   },
   {
     "name": "Olibu - Legendary",
@@ -1282,7 +1290,8 @@
     "Main Personality": "",
     "id": "b62b7584-8804-4057-9f11-5031389f3f76",
     "index": "sb",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Juke",
@@ -1307,7 +1316,8 @@
     "Main Personality": "",
     "id": "021f7c96-01b2-4013-8ac4-c335df582312",
     "index": "ux",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Block"
   },
   {
     "name": "Orange Meditation",
@@ -1358,7 +1368,8 @@
     "Main Personality": "",
     "id": "74e885d1-6954-4ecd-85b7-076fa1f4ec6e",
     "index": "wd",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Attack"
   },
   {
     "name": "Pikkon - Fighting Stance",
@@ -1591,7 +1602,8 @@
     "Main Personality": "",
     "id": "f1471e9f-f787-4d29-9a70-74a0795444e6",
     "index": "xs",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Block"
   },
   {
     "name": "Pikkon's Thunder Flash",
@@ -1616,7 +1628,8 @@
     "Main Personality": "",
     "id": "83c106c2-e8a5-48ff-a418-c4eeeb70d304",
     "index": "xu",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Attack"
   },
   {
     "name": "Puzzler",
@@ -1667,7 +1680,8 @@
     "Main Personality": "",
     "id": "8da838d5-c5fc-4ca6-9e8c-720825be6801",
     "index": "yA",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Block"
   },
   {
     "name": "Red Enhanced Beam",
@@ -1742,7 +1756,8 @@
     "Main Personality": "",
     "id": "d4ae1c3f-3031-4767-a396-604dfd1132ce",
     "index": "BX",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Block"
   },
   {
     "name": "Red Speedy Drill",
@@ -1792,7 +1807,8 @@
     "Main Personality": "",
     "id": "8dc10b44-5683-42b8-af56-ddae22a12861",
     "index": "Dx",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Disruption",
@@ -1843,7 +1859,8 @@
     "Main Personality": "",
     "id": "9d2d05b4-cd58-4d37-9d2a-f0121d13f525",
     "index": "FH",
-    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b"
+    "set_id": "839cfa4d-1d3a-4667-9929-cf6a289fd33b",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Showdown Drill",

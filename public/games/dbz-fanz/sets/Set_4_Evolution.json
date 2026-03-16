@@ -178,7 +178,8 @@
     "Main Personality": "",
     "id": "680711c8-227c-4baa-93e7-f6cbe36a39f6",
     "index": "Q",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Android 17's Van",
@@ -359,7 +360,8 @@
     "Main Personality": "",
     "id": "5e24c7ae-dc56-445c-b40b-dd4a06443791",
     "index": "1e",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Android 18's Toss",
@@ -384,7 +386,8 @@
     "Main Personality": "",
     "id": "8a3c28f8-1793-4a19-b5e6-9fb771388612",
     "index": "1g",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Android 19 - Injured",
@@ -540,7 +543,8 @@
     "Main Personality": "",
     "id": "a3db080e-38bf-453c-8903-e1355500dd68",
     "index": "1r",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Android 19's Energy Absorption",
@@ -565,7 +569,8 @@
     "Main Personality": "",
     "id": "a1634e71-b5cf-49ed-a4a6-b79c22d79c48",
     "index": "1t",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Android 20 - Focused",
@@ -721,7 +726,8 @@
     "Main Personality": "",
     "id": "c2d01812-c62e-4929-b516-c66cdb63b207",
     "index": "1E",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Android 20's Scouting Drill",
@@ -821,7 +827,8 @@
     "Main Personality": "",
     "id": "3f05f1d6-6b3b-4fa0-a241-697e5ac6efe9",
     "index": "1P",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Blinding Burst",
@@ -846,7 +853,8 @@
     "Main Personality": "",
     "id": "ffa71754-da8c-40e6-bff7-a080c8c45fef",
     "index": "2P",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Corruption",
@@ -871,7 +879,8 @@
     "Main Personality": "",
     "id": "99ca67c7-b492-4a69-a16a-e21adcc95023",
     "index": "3g",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Black Defensive Burst",
@@ -896,7 +905,8 @@
     "Main Personality": "",
     "id": "fecbc3cc-1bb1-4df9-840c-1b2e71a8cd6a",
     "index": "3t",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Dismissal",
@@ -921,7 +931,8 @@
     "Main Personality": "",
     "id": "be5576e8-6407-421c-8ea8-1e760a1a30b6",
     "index": "3I",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Empowered Elbow",
@@ -946,7 +957,8 @@
     "Main Personality": "",
     "id": "00e512a8-ae5c-4864-8af6-aa87cafbea28",
     "index": "3X",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Empowered Sword Slash",
@@ -971,7 +983,8 @@
     "Main Personality": "",
     "id": "3c9f841d-2e8d-448c-abe8-c6a5be0fc5c9",
     "index": "3Y",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Energy Discharge",
@@ -996,7 +1009,8 @@
     "Main Personality": "",
     "id": "f9a7b44c-730e-4a86-bd5b-3430df200e40",
     "index": "43",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Energy Toss",
@@ -1021,7 +1035,8 @@
     "Main Personality": "",
     "id": "511c0788-e48f-4323-91c1-84a4ff0e326b",
     "index": "47",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Energy Web",
@@ -1046,7 +1061,8 @@
     "Main Personality": "",
     "id": "205ffab3-3a46-45ee-8a9a-54a990330c4b",
     "index": "49",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Enraged Assault",
@@ -1096,7 +1112,8 @@
     "Main Personality": "",
     "id": "006f3d34-4d7b-40e4-beb6-d75d12b0d1aa",
     "index": "4m",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Finger Block",
@@ -1121,7 +1138,8 @@
     "Main Personality": "",
     "id": "86047da1-4a67-4ec9-8d45-bf4f29b8a40a",
     "index": "4s",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Black Fist Lock",
@@ -1146,7 +1164,8 @@
     "Main Personality": "",
     "id": "33fc7880-fe06-4df3-9f4c-5a30e08248ae",
     "index": "4x",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Flying Kick",
@@ -1221,7 +1240,8 @@
     "Main Personality": "",
     "id": "c054ec2d-9396-4eef-811c-c2e43d93962e",
     "index": "4Q",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Headbutt",
@@ -1246,7 +1266,8 @@
     "Main Personality": "",
     "id": "1d9e923d-e953-4209-b77d-abb1805328b3",
     "index": "4V",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Hug Maneuver",
@@ -1271,7 +1292,8 @@
     "Main Personality": "",
     "id": "2da2998d-6b78-4ebc-a8bd-abd47d6d98da",
     "index": "4Z",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Impediment",
@@ -1296,7 +1318,8 @@
     "Main Personality": "",
     "id": "ad19ac23-4820-447d-a554-7a1edb95d444",
     "index": "53",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Black Inactivity Drill",
@@ -1346,7 +1369,8 @@
     "Main Personality": "",
     "id": "a6d378b5-0491-4b9d-8304-3b1f1f3124e7",
     "index": "57",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Knee Catch",
@@ -1371,7 +1395,8 @@
     "Main Personality": "",
     "id": "54e977af-055b-44bb-bd12-3a4866a1fc10",
     "index": "5f",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Black Learning Drill",
@@ -1421,7 +1446,8 @@
     "Main Personality": "",
     "id": "36258eb2-9b4f-451b-bba1-29e39326b826",
     "index": "5n",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Lunge",
@@ -1446,7 +1472,8 @@
     "Main Personality": "",
     "id": "0a4e25e5-f043-4bcb-ba9f-e7c7129a9892",
     "index": "5p",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Overhead Burst",
@@ -1471,7 +1498,8 @@
     "Main Personality": "",
     "id": "0ed0c4d4-9224-4cf4-ada1-cb170020501e",
     "index": "5J",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Overpowering Attack",
@@ -1496,7 +1524,8 @@
     "Main Personality": "",
     "id": "c2d202ac-030a-47bd-b8e7-92db87f40468",
     "index": "5O",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Perceptive Mastery",
@@ -1597,7 +1626,8 @@
     "Main Personality": "",
     "id": "2124b699-0053-4579-be51-69c4cabc1cc0",
     "index": "61",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Black Punishment",
@@ -1622,7 +1652,8 @@
     "Main Personality": "",
     "id": "03113ba6-5f1a-458a-8613-c8e1d8f9eada",
     "index": "65",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Radiating Drill",
@@ -1722,7 +1753,8 @@
     "Main Personality": "",
     "id": "35a916b8-9458-4835-bbca-44e8ac3bb1a0",
     "index": "6m",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Black Scout Maneuver",
@@ -1772,7 +1804,8 @@
     "Main Personality": "",
     "id": "721aa904-e389-45b0-aa18-354c0983a5ab",
     "index": "6B",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Signal",
@@ -1848,7 +1881,8 @@
     "Main Personality": "",
     "id": "ed04a34b-08cd-4a6e-b34c-8b1276118af1",
     "index": "6L",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Black Stop",
@@ -1873,7 +1907,8 @@
     "Main Personality": "",
     "id": "5ef0bede-8605-4ac7-bb93-85d6ccdbb168",
     "index": "6Q",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Black Strike",
@@ -1898,7 +1933,8 @@
     "Main Personality": "",
     "id": "64e37cc0-725a-4bf7-ad11-4381259be5c7",
     "index": "6T",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Swipe",
@@ -1923,7 +1959,8 @@
     "Main Personality": "",
     "id": "1b25e635-5967-4a38-9d4a-8f4c56412b06",
     "index": "6Y",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Black Traveling Punch",
@@ -1948,7 +1985,8 @@
     "Main Personality": "",
     "id": "d1888f97-28f4-41f0-a45f-2dc7dadcb65c",
     "index": "7b",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Tunneling Ball",
@@ -1973,7 +2011,8 @@
     "Main Personality": "",
     "id": "35ebae2e-2230-4046-b8bd-2dcfe9fe6559",
     "index": "7f",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Black Upward Dodge",
@@ -1998,7 +2037,8 @@
     "Main Personality": "",
     "id": "143b74a2-b221-437c-95d5-de7b9d01cc0a",
     "index": "7k",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Black Wilt",
@@ -2048,7 +2088,8 @@
     "Main Personality": "",
     "id": "c1447914-730a-473c-a801-d198eac6b9ea",
     "index": "7z",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Awakening Drill",
@@ -2098,7 +2139,8 @@
     "Main Personality": "",
     "id": "df4111bb-ffa6-4345-9b1a-1c3ca0b35d6f",
     "index": "7K",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Blue Belly Bash",
@@ -2123,7 +2165,8 @@
     "Main Personality": "",
     "id": "99a89632-441f-45d8-b2af-d24e0f686147",
     "index": "7R",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Betrayal",
@@ -2148,7 +2191,8 @@
     "Main Personality": "",
     "id": "9f4d9280-88a6-42b2-83e8-0c0136c1ee34",
     "index": "7U",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Biting Drill",
@@ -2248,7 +2292,8 @@
     "Main Personality": "",
     "id": "1bed2838-49cb-4682-a85a-42ae58d51fe8",
     "index": "8h",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Blue Crouch",
@@ -2273,7 +2318,8 @@
     "Main Personality": "",
     "id": "2c1c5ec2-f148-4c9c-b432-47498b07ce95",
     "index": "8l",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Blue Defensive Effect",
@@ -2323,7 +2369,8 @@
     "Main Personality": "",
     "id": "ac7598c4-6174-4deb-beaa-83dbd9835b19",
     "index": "8w",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Blue Encircled Strike",
@@ -2348,7 +2395,8 @@
     "Main Personality": "",
     "id": "08130be8-3055-48d6-8a8a-2601e8cf505b",
     "index": "8R",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Energy Focus",
@@ -2373,7 +2421,8 @@
     "Main Personality": "",
     "id": "c6f817d9-7fac-4100-8c6b-e2f301423c63",
     "index": "8S",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Entertaining Drill",
@@ -2423,7 +2472,8 @@
     "Main Personality": "",
     "id": "0b478a70-67a6-4dbb-ad78-8afccc047396",
     "index": "94",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Face Crunch",
@@ -2448,7 +2498,8 @@
     "Main Personality": "",
     "id": "b9e3e368-a494-473d-8c39-3b8cb7bd033f",
     "index": "97",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Face Grab",
@@ -2473,7 +2524,8 @@
     "Main Personality": "",
     "id": "22c5dfdc-e1d1-4e1c-97d8-bb1221dc0b3e",
     "index": "99",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Fist Catch",
@@ -2498,7 +2550,8 @@
     "Main Personality": "",
     "id": "0b6aa491-62b3-43f0-bf0b-cd49a6db57df",
     "index": "9f",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Blue Flight",
@@ -2523,7 +2576,8 @@
     "Main Personality": "",
     "id": "acd40397-d3be-4359-9976-21c2c16845e6",
     "index": "9h",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Blue Guard",
@@ -2548,7 +2602,8 @@
     "Main Personality": "",
     "id": "db806eb7-fc9d-4453-85f6-113c7eca92a9",
     "index": "9p",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Blue Head Knock",
@@ -2674,7 +2729,8 @@
     "Main Personality": "",
     "id": "8ecd29c9-be11-4bdd-9b53-69893a68e043",
     "index": "9P",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Mental Drill",
@@ -2724,7 +2780,8 @@
     "Main Personality": "",
     "id": "b73871f9-c425-4bf8-96f0-f3de5ede92f3",
     "index": "ab",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Blue Palm Shot",
@@ -2750,7 +2807,8 @@
     "id": "46424f63-21a4-4c7f-aa66-652fa13f61fd",
     "index": "ar",
     "Alignment": "Heroes Only",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Reprimand",
@@ -2800,7 +2858,8 @@
     "Main Personality": "",
     "id": "f95c93f9-3ce4-4a1e-8599-b4d204b9d1e6",
     "index": "b7",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Safeguard",
@@ -2825,7 +2884,8 @@
     "Main Personality": "",
     "id": "f116a327-6a40-4992-a5e4-29bd4b706cb0",
     "index": "ba",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Blue Shopping",
@@ -2951,7 +3011,8 @@
     "Main Personality": "",
     "id": "406c5c6f-9aa7-4f28-aa5b-08b09c6958c2",
     "index": "cb",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Wash",
@@ -3001,7 +3062,8 @@
     "Main Personality": "",
     "id": "b0cacb58-ba6d-433c-8923-6a730b28f58f",
     "index": "ch",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Combination Drill",
@@ -3128,7 +3190,8 @@
     "Main Personality": "",
     "id": "bcdc413e-6b69-461f-9a9e-feddb87d9f18",
     "index": "gj",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Enhanced Reflexes",
@@ -3464,7 +3527,8 @@
     "Main Personality": "",
     "id": "fca15277-79d6-4b44-a186-f84e723b23ad",
     "index": "mW",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Assistance Drill",
@@ -3514,7 +3578,8 @@
     "Main Personality": "",
     "id": "60f1860f-f4f5-4c80-9f99-8a1e4267c99d",
     "index": "ne",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Namekian Chin Grab",
@@ -3539,7 +3604,8 @@
     "Main Personality": "",
     "id": "fee82f2f-7290-4134-9a64-28f9e9cefe69",
     "index": "nj",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Chop",
@@ -3564,7 +3630,8 @@
     "Main Personality": "",
     "id": "8ca7c259-005c-454e-960a-413963a47ee5",
     "index": "nm",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Cleansing Drill",
@@ -3639,7 +3706,8 @@
     "Main Personality": "",
     "id": "cb1f2aa6-0450-4051-a53a-dd7d1343e94b",
     "index": "nL",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Deflection",
@@ -3664,7 +3732,8 @@
     "Main Personality": "",
     "id": "2e3c73ea-9879-4a81-84a6-ae9f0d6975cf",
     "index": "nP",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Namekian Door Destruction",
@@ -3689,7 +3758,8 @@
     "Main Personality": "",
     "id": "136885cf-5c90-4d2b-a20f-336d29887eaa",
     "index": "nW",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Downward Blast",
@@ -3714,7 +3784,8 @@
     "Main Personality": "",
     "id": "e0ef57c1-ffb7-48f3-9b5e-8602cf06b9d7",
     "index": "o2",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Elbow Drop",
@@ -3739,7 +3810,8 @@
     "Main Personality": "",
     "id": "d091ee5a-98af-4d3e-81f3-9b00649543b3",
     "index": "o8",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Energy Assault",
@@ -3764,7 +3836,8 @@
     "Main Personality": "",
     "id": "b3628296-7bee-4846-9ab3-4ba86fd439ca",
     "index": "oh",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Energy Guard",
@@ -3789,7 +3862,8 @@
     "Main Personality": "",
     "id": "58be2dcc-5d23-4e27-a56a-b0e1f45e1af3",
     "index": "ok",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Namekian Energy Toss",
@@ -3814,7 +3888,8 @@
     "Main Personality": "",
     "id": "4806523f-1b82-40a0-bf0f-9e57e1e6b8e8",
     "index": "om",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Enhancement",
@@ -3864,7 +3939,8 @@
     "Main Personality": "",
     "id": "5d3be5fd-c719-4eae-8a0c-ca8aecf83738",
     "index": "oF",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Forceful Block",
@@ -3889,7 +3965,8 @@
     "Main Personality": "",
     "id": "fe9299f2-e3e7-4500-aeed-b77242378996",
     "index": "oL",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Namekian Fusion",
@@ -3939,7 +4016,8 @@
     "Main Personality": "",
     "id": "49c270bb-48de-4ae3-875c-d3b493ba16c4",
     "index": "oY",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Intervention",
@@ -3964,7 +4042,8 @@
     "Main Personality": "",
     "id": "15a4a331-e935-499a-8008-c63d768b1e10",
     "index": "pp",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Namekian Knowledge Mastery",
@@ -4015,7 +4094,8 @@
     "Main Personality": "",
     "id": "09c1bbbd-6f5c-4383-aaba-caceb729ce64",
     "index": "pB",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Maximum Will",
@@ -4040,7 +4120,8 @@
     "Main Personality": "",
     "id": "c1c8c020-5e07-49ca-8bca-d8b100dd7925",
     "index": "pI",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Mouth Beam",
@@ -4065,7 +4146,8 @@
     "Main Personality": "",
     "id": "5fbfe424-add1-4e84-9269-48e800283e67",
     "index": "pN",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Narrow Escape",
@@ -4090,7 +4172,8 @@
     "Main Personality": "",
     "id": "3f1da7af-1451-4001-903b-8628b34a2442",
     "index": "pQ",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Namekian Onslaught",
@@ -4115,7 +4198,8 @@
     "Main Personality": "",
     "id": "1cd29225-db7a-45b2-8edd-7ddadc121b36",
     "index": "pT",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Overcharge",
@@ -4140,7 +4224,8 @@
     "Main Personality": "",
     "id": "ffecaa57-4f9f-4e5d-9fdc-dc7fc7013626",
     "index": "pU",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Pound",
@@ -4165,7 +4250,8 @@
     "Main Personality": "",
     "id": "65b7d25e-5c91-4b56-bbad-f7852716b615",
     "index": "q9",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Regeneration",
@@ -4215,7 +4301,8 @@
     "Main Personality": "",
     "id": "9684f742-2ffe-475e-8807-79d1bced6cb3",
     "index": "qp",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Namekian Reinforced Catch",
@@ -4290,7 +4377,8 @@
     "Main Personality": "",
     "id": "f210c37f-ea7a-4cee-9f59-2766da12cecb",
     "index": "qJ",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Side Kick",
@@ -4315,7 +4403,8 @@
     "Main Personality": "",
     "id": "6fe8dda8-3c93-4778-acfa-d62c00eb9c35",
     "index": "qW",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Sudden Blast",
@@ -4340,7 +4429,8 @@
     "Main Personality": "",
     "id": "56a75e8b-bea2-41f0-957b-aa0ea122583a",
     "index": "r4",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Waiting",
@@ -4390,7 +4480,8 @@
     "Main Personality": "",
     "id": "31786a3d-e73c-49ce-b36e-668478094838",
     "index": "ro",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Zone Pressure",
@@ -4415,7 +4506,8 @@
     "Main Personality": "",
     "id": "b89eef93-6ed1-453e-9fdc-12295d4345c8",
     "index": "rr",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Optic Blast",
@@ -4465,7 +4557,8 @@
     "Main Personality": "",
     "id": "7fece905-d5de-4be3-b4ac-f8d11a0ecdbe",
     "index": "rQ",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Adept Mastery",
@@ -4616,7 +4709,8 @@
     "Main Personality": "",
     "id": "21b911ec-7816-4faf-99f3-e3d0b63ab027",
     "index": "sE",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Orange Confidence",
@@ -4641,7 +4735,8 @@
     "Main Personality": "",
     "id": "01c653dd-6731-4104-be9f-693419da0638",
     "index": "sI",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Orange Cover Up",
@@ -4666,7 +4761,8 @@
     "Main Personality": "",
     "id": "13b0f05c-c4c3-4a2c-ac9f-e07cad02043f",
     "index": "sM",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Orange Crashing Drill",
@@ -4716,7 +4812,8 @@
     "Main Personality": "",
     "id": "69921930-5bff-459a-8148-eadec57b125c",
     "index": "t4",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Drain",
@@ -4741,7 +4838,8 @@
     "Main Personality": "",
     "id": "a8069a07-f301-49bf-ad9b-cbb9100a77ae",
     "index": "ta",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Duck",
@@ -4766,7 +4864,8 @@
     "Main Personality": "",
     "id": "2641a662-5aa8-4a49-9ac6-d692651de4a7",
     "index": "te",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Orange Empowered Drill",
@@ -4816,7 +4915,8 @@
     "Main Personality": "",
     "id": "e44ce407-159f-4043-b304-f4170500c80f",
     "index": "tr",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Orange Energy Evasion",
@@ -4841,7 +4941,8 @@
     "Main Personality": "",
     "id": "9d7ac782-7436-432c-9079-ea4eeca8c17d",
     "index": "tB",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Orange Energy Gathering",
@@ -4891,7 +4992,8 @@
     "Main Personality": "",
     "id": "d7b9535a-7b96-4977-b58b-cec5b55e1135",
     "index": "tN",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Excavation",
@@ -4941,7 +5043,8 @@
     "Main Personality": "",
     "id": "38412b9a-6b24-4660-a18b-d1f689e301bd",
     "index": "tX",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Fracture",
@@ -5116,7 +5219,8 @@
     "Main Personality": "",
     "id": "99d25b31-a211-4da6-af1e-dde1266fb67a",
     "index": "uA",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Launcher",
@@ -5141,7 +5245,8 @@
     "Main Personality": "",
     "id": "4c259cca-5b66-446f-9e9b-14349fd920f7",
     "index": "uE",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Left Punch",
@@ -5166,7 +5271,8 @@
     "Main Personality": "",
     "id": "21a0e83b-6002-4d12-a01a-2e9bd00c97b2",
     "index": "uJ",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Offensive Strike",
@@ -5191,7 +5297,8 @@
     "Main Personality": "",
     "id": "984f6251-4c30-4845-b75d-ac31d6135bd3",
     "index": "uW",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Outburst",
@@ -5241,7 +5348,8 @@
     "Main Personality": "",
     "id": "2e485022-0fc1-493b-95f4-ed9e48d6a9bd",
     "index": "v5",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Power Point",
@@ -5266,7 +5374,8 @@
     "Main Personality": "",
     "id": "9ac64ee0-a638-4931-ba42-7daef422cdba",
     "index": "vf",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Precise Shot",
@@ -5291,7 +5400,8 @@
     "Main Personality": "",
     "id": "f1e6d27d-7970-46cf-bef4-57303d568a7e",
     "index": "vj",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Quick Dodge",
@@ -5316,7 +5426,8 @@
     "Main Personality": "",
     "id": "800255fa-de5c-4b13-a199-b7a4e076debd",
     "index": "vr",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Orange Rage",
@@ -5341,7 +5452,8 @@
     "Main Personality": "",
     "id": "88bd6620-5cf6-4e28-959a-1dd70dd19308",
     "index": "vu",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Reading Drill",
@@ -5392,7 +5504,8 @@
     "Main Personality": "",
     "id": "20a6e981-6b05-4916-937f-a7e047a1f737",
     "index": "vB",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Orange Retrieval Drill",
@@ -5442,7 +5555,8 @@
     "Main Personality": "",
     "id": "7e8e7888-2392-4a82-99af-82ac2ff1ac47",
     "index": "vJ",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Saving Kick",
@@ -5467,7 +5581,8 @@
     "Main Personality": "",
     "id": "930964ae-fdda-4437-bb94-8112f4f70200",
     "index": "vO",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Scorn",
@@ -5542,7 +5657,8 @@
     "Main Personality": "",
     "id": "c83e2865-b27e-4efe-95b3-0558bc067cad",
     "index": "w5",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Truck Lift",
@@ -5567,7 +5683,8 @@
     "Main Personality": "",
     "id": "7ff29596-008b-4e72-9a01-83891bdc922d",
     "index": "wm",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Upward Strike",
@@ -5592,7 +5709,8 @@
     "Main Personality": "",
     "id": "c7c91191-ce93-46b7-8abd-7fce808036b1",
     "index": "wr",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Piccolo - Anticipating",
@@ -5797,7 +5915,8 @@
     "Main Personality": "",
     "id": "ebdf9622-77ff-43e9-87fa-92c0294287d8",
     "index": "ym",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Blaze",
@@ -5872,7 +5991,8 @@
     "Main Personality": "",
     "id": "39d4f64c-3fca-4e72-a223-732956289d16",
     "index": "yw",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Red Burning Rage",
@@ -5922,7 +6042,8 @@
     "Main Personality": "",
     "id": "03add904-814e-4a13-aea5-a2d5375c7b35",
     "index": "yI",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Chest Beam",
@@ -5947,7 +6068,8 @@
     "Main Personality": "",
     "id": "457da633-232a-4fec-b3a8-7aee7185a14e",
     "index": "yS",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Chop",
@@ -5972,7 +6094,8 @@
     "Main Personality": "",
     "id": "7fe12f86-0a32-49a3-9316-7982622e4343",
     "index": "yV",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Collision",
@@ -5997,7 +6120,8 @@
     "Main Personality": "",
     "id": "d75d8cee-0be8-4895-ab21-2dbf4c5b6417",
     "index": "z3",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Cross Block",
@@ -6022,7 +6146,8 @@
     "Main Personality": "",
     "id": "ea5d94c8-4014-4f42-a1bd-845b335e9b0c",
     "index": "zi",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Red Double Strike",
@@ -6047,7 +6172,8 @@
     "Main Personality": "",
     "id": "92289ce6-4e5f-44e4-a5ae-cc36d2708215",
     "index": "zz",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Energy Blast",
@@ -6072,7 +6198,8 @@
     "Main Personality": "",
     "id": "3b8ba7c2-be15-4827-a111-4af6e2a84faa",
     "index": "zO",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Energy Outburst",
@@ -6097,7 +6224,8 @@
     "Main Personality": "",
     "id": "30578363-147c-4252-ac87-47f336ca1c4a",
     "index": "zW",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Energy Shield",
@@ -6122,7 +6250,8 @@
     "Main Personality": "",
     "id": "21b77c3d-caf4-4223-9904-c1a5589c6dd4",
     "index": "A0",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Red Examination Drill",
@@ -6172,7 +6301,8 @@
     "Main Personality": "",
     "id": "b7853d96-4070-4ebf-aa44-821516376028",
     "index": "Ab",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Face Break",
@@ -6197,7 +6327,8 @@
     "Main Personality": "",
     "id": "4122be1b-980a-4811-865d-81a50573706a",
     "index": "Ad",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Forceful Strike",
@@ -6222,7 +6353,8 @@
     "Main Personality": "",
     "id": "4a2a0ff5-8327-4c30-b4d1-0ad8db57fdee",
     "index": "Ak",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Freezing Beam",
@@ -6247,7 +6379,8 @@
     "Main Personality": "",
     "id": "9521c8ee-fcbf-4ac5-94ce-7bb1a05b60cb",
     "index": "Ap",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Frenzied Blasts",
@@ -6272,7 +6405,8 @@
     "Main Personality": "",
     "id": "00d65df0-e8fd-411a-95cb-49745661313a",
     "index": "As",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Heating Beams",
@@ -6297,7 +6431,8 @@
     "Main Personality": "",
     "id": "a3b207be-c1e7-474f-a74d-d354ce8c53ce",
     "index": "AB",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Hop",
@@ -6322,7 +6457,8 @@
     "Main Personality": "",
     "id": "ea63cbc1-b9cc-4ea1-a585-8b0c0f4c813d",
     "index": "AH",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Red Hunting Drill",
@@ -6372,7 +6508,8 @@
     "Main Personality": "",
     "id": "e21d6a8a-f07f-492e-9239-a6305687b188",
     "index": "AP",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Jump Kick",
@@ -6397,7 +6534,8 @@
     "Main Personality": "",
     "id": "40a354f0-f85d-49de-93a2-a9721915a813",
     "index": "AV",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Lifting Kick",
@@ -6422,7 +6560,8 @@
     "Main Personality": "",
     "id": "bbc51ca7-0ec1-42db-9b68-4a4af0a9a12d",
     "index": "B4",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Lightning Slash",
@@ -6447,7 +6586,8 @@
     "Main Personality": "",
     "id": "9ce9dc7e-07fa-46db-9a17-96eecd329c89",
     "index": "B7",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Power Lift",
@@ -6472,7 +6612,8 @@
     "Main Personality": "",
     "id": "7cce9056-6079-4131-9c19-fc5790badac7",
     "index": "Bs",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Power Punch",
@@ -6497,7 +6638,8 @@
     "Main Personality": "",
     "id": "a76b38ad-aff3-48c1-af18-b4ca80cb5a9d",
     "index": "Bw",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Premonition",
@@ -6547,7 +6689,8 @@
     "Main Personality": "",
     "id": "c36d5422-6f16-4fbc-b60d-81eb4a3aa48e",
     "index": "BF",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Rage",
@@ -6572,7 +6715,8 @@
     "Main Personality": "",
     "id": "7ee60a1c-fc4f-48b1-aebc-515bc47431cf",
     "index": "BH",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Right Cross",
@@ -6597,7 +6741,8 @@
     "Main Personality": "",
     "id": "7f7c605e-9f2f-418e-9af8-0a4f6ae823e6",
     "index": "C1",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Right Knee",
@@ -6622,7 +6767,8 @@
     "Main Personality": "",
     "id": "707f4c8e-e4c6-456d-8846-f036b6e46ab4",
     "index": "C3",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Robotic Blast",
@@ -6647,7 +6793,8 @@
     "Main Personality": "",
     "id": "02e610de-a895-4672-a433-49ab4a1c0a8a",
     "index": "C7",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Ruthless Mastery",
@@ -6698,7 +6845,8 @@
     "Main Personality": "",
     "id": "59c32047-7120-458a-94a0-cb37bbf06016",
     "index": "Cg",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Slide",
@@ -6723,7 +6871,8 @@
     "Main Personality": "",
     "id": "a990a87a-3465-4318-8b2c-d0965300a7e7",
     "index": "Co",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Smash",
@@ -6748,7 +6897,8 @@
     "Main Personality": "",
     "id": "f2c05a35-d805-4146-99c9-90da38423072",
     "index": "Cp",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Surrounded Beams",
@@ -6773,7 +6923,8 @@
     "Main Personality": "",
     "id": "c30eee58-87df-4bdc-b6d1-20ad884260e0",
     "index": "CD",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Red Tactical Drill",
@@ -6823,7 +6974,8 @@
     "Main Personality": "",
     "id": "05e63f6d-1772-4cec-a75b-5a07df042c18",
     "index": "CY",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Arm Catch",
@@ -6848,7 +7000,8 @@
     "Main Personality": "",
     "id": "e439a08b-fcc4-4221-84e3-37ff0cba3303",
     "index": "Dd",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Blockade",
@@ -6873,7 +7026,8 @@
     "Main Personality": "",
     "id": "8696407e-9c7b-4350-ba2a-a503311dbbb9",
     "index": "Dp",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Blocking Technique",
@@ -6898,7 +7052,8 @@
     "Main Personality": "",
     "id": "773c9b4f-e729-41e6-89fc-ccf1d68ce627",
     "index": "Ds",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Concussive Blast",
@@ -6923,7 +7078,8 @@
     "Main Personality": "",
     "id": "b2d464ec-0d4b-4d86-aa1d-f700f0071d5d",
     "index": "DL",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Dash",
@@ -6948,7 +7104,8 @@
     "Main Personality": "",
     "id": "9ba57fab-7fe8-4e89-9450-3d4766e2138f",
     "index": "DR",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Destructive Blast",
@@ -6973,7 +7130,8 @@
     "Main Personality": "",
     "id": "96118d6c-084d-460c-a041-18ba85850de3",
     "index": "DZ",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Direct Strike",
@@ -6998,7 +7156,8 @@
     "Main Personality": "",
     "id": "7436570c-8bd8-4e50-8227-513668f6b619",
     "index": "E2",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Discovery",
@@ -7048,7 +7207,8 @@
     "Main Personality": "",
     "id": "1e549182-feb4-479b-911a-210bb53fcf89",
     "index": "Eo",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Empowered Smash",
@@ -7073,7 +7233,8 @@
     "Main Personality": "",
     "id": "96254431-76c6-452c-9b1d-ce8a5fd422b6",
     "index": "Ep",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Energy Deflection",
@@ -7098,7 +7259,8 @@
     "Main Personality": "",
     "id": "e7d35f0a-051f-4e37-8ac4-1a28d71c64bc",
     "index": "Et",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Energy Outburst",
@@ -7123,7 +7285,8 @@
     "Main Personality": "",
     "id": "2ab280f1-14da-4e61-8a4d-733a3d2bc5a4",
     "index": "EA",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Enjoyment",
@@ -7173,7 +7336,8 @@
     "Main Personality": "",
     "id": "7e5d29d7-72cf-41ff-9d6f-bfabfc571fcf",
     "index": "EQ",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Fierce Kick",
@@ -7198,7 +7362,8 @@
     "Main Personality": "",
     "id": "af249ad6-400e-42ef-a6c7-4ef82fdb0e04",
     "index": "EY",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Flight",
@@ -7248,7 +7413,8 @@
     "Main Personality": "",
     "id": "312f1646-66b0-4547-bf63-09c373d94140",
     "index": "F7",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Gut Kick",
@@ -7273,7 +7439,8 @@
     "Main Personality": "",
     "id": "a224f1fa-e0a1-4312-83b7-3f81883e2d3d",
     "index": "Fd",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Hand Swipe",
@@ -7298,7 +7465,8 @@
     "Main Personality": "",
     "id": "86e31755-7154-4e29-adcb-4a3d099be567",
     "index": "Fh",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Headbutt",
@@ -7323,7 +7491,8 @@
     "Main Personality": "",
     "id": "180eba9b-2953-40c5-b7af-6dd3a6ae5af4",
     "index": "Fm",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Inspection Drill",
@@ -7398,7 +7567,8 @@
     "Main Personality": "",
     "id": "7d19a918-8869-4239-9e56-735cb10dd327",
     "index": "FE",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Lifting Kick",
@@ -7423,7 +7593,8 @@
     "Main Personality": "",
     "id": "58400092-0942-4121-bc4a-7edb7ba0d13a",
     "index": "FJ",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Light Jab",
@@ -7448,7 +7619,8 @@
     "Main Personality": "",
     "id": "7a5f8ef2-dd92-459b-9ca1-c76570552216",
     "index": "FL",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Multi-Blast",
@@ -7473,7 +7645,8 @@
     "Main Personality": "",
     "id": "6916bf58-da83-46a7-b3de-442e1295dcaa",
     "index": "FW",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Offensive Rush",
@@ -7523,7 +7696,8 @@
     "Main Personality": "",
     "id": "a5111f45-4084-4243-95f8-c6dc75aa5050",
     "index": "G9",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Palm Block",
@@ -7548,7 +7722,8 @@
     "Main Personality": "",
     "id": "4a2caf7f-d883-4fc4-8b15-cfe22c51ed10",
     "index": "Gd",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Peace",
@@ -7599,7 +7774,8 @@
     "Main Personality": "",
     "id": "208b0f8e-fff9-4443-b135-68989df3a9fd",
     "index": "Gj",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Prelude",
@@ -7700,7 +7876,8 @@
     "Main Personality": "",
     "id": "72a31cfa-7010-4ac1-8559-052eb4317c29",
     "index": "GW",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Scouting",
@@ -7750,7 +7927,8 @@
     "Main Personality": "",
     "id": "03acaf7c-e17e-4ca3-a054-180b5afe1648",
     "index": "He",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Spin Kick",
@@ -7775,7 +7953,8 @@
     "Main Personality": "",
     "id": "b548fe06-d3dd-4b1f-9cf2-fff6f781442d",
     "index": "Hg",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Swat",
@@ -7800,7 +7979,8 @@
     "Main Personality": "",
     "id": "adbee048-e611-4b58-99fd-fa38a910a34e",
     "index": "Ht",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Sword Strike",
@@ -7825,7 +8005,8 @@
     "Main Personality": "",
     "id": "07fbd20e-859c-4532-b7e2-8fd1d0721692",
     "index": "Hx",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Tracking Blast",
@@ -7850,7 +8031,8 @@
     "Main Personality": "",
     "id": "187eaaab-1a00-491f-a85c-773d35e387ed",
     "index": "HE",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Shoulder Slam",
@@ -7875,7 +8057,8 @@
     "Main Personality": "",
     "id": "91dcd7f0-4a71-4c15-9a6d-f7b51ee3a18f",
     "index": "HY",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Sinister Choke",
@@ -7900,7 +8083,8 @@
     "Main Personality": "",
     "id": "6c506455-6e45-4b8d-96a3-4fc186c0ae07",
     "index": "I3",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Stare Down",
@@ -8317,6 +8501,7 @@
     "Main Personality": "",
     "id": "deeade48-8966-4be8-a6e5-c872d96cc034",
     "index": "Lm",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   }
 ]

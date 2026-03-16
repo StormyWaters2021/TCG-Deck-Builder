@@ -22,7 +22,8 @@
     "Main Personality": "",
     "id": "c9e0c3dd-3364-403d-bbed-fea2153a0fa9",
     "index": "5",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Babidi - Controlling",
@@ -227,7 +228,8 @@
     "Main Personality": "",
     "id": "dc45912a-7ee6-422b-8648-8adea9ebe1b6",
     "index": "45",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Black Focus",
@@ -303,7 +305,8 @@
     "Main Personality": "",
     "id": "0801f2d8-c951-40b0-810e-0f38a08495d4",
     "index": "4M",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Black Pressure Point",
@@ -328,7 +331,8 @@
     "Main Personality": "",
     "id": "b6f9ede9-35c9-4933-969c-ca0e281f8c04",
     "index": "60",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Black Taunt",
@@ -378,7 +382,8 @@
     "Main Personality": "",
     "id": "18e459db-d17c-4a78-bc95-83bff851efc9",
     "index": "7t",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Block"
   },
   {
     "name": "Blue Combined Effort",
@@ -403,7 +408,8 @@
     "Main Personality": "",
     "id": "d2acf851-b67f-450b-a919-6e607ab5874b",
     "index": "8d",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Energy Ricochet",
@@ -428,7 +434,8 @@
     "Main Personality": "",
     "id": "7af4df51-f451-4e48-8310-ab82b2481d99",
     "index": "8Y",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Block"
   },
   {
     "name": "Blue Leverage",
@@ -453,7 +460,8 @@
     "Main Personality": "",
     "id": "f1c5a318-9c53-49fd-9189-c9794f80b4ed",
     "index": "9U",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Block"
   },
   {
     "name": "Blue Rivalry Drill",
@@ -503,7 +511,8 @@
     "Main Personality": "",
     "id": "86618416-b450-46ea-8d7c-bed27cc38f29",
     "index": "bc",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Block"
   },
   {
     "name": "Blue Shifting Maneuver",
@@ -528,7 +537,8 @@
     "Main Personality": "",
     "id": "ff102817-e4c5-4285-8b99-eb24413014c1",
     "index": "bh",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Block"
   },
   {
     "name": "Buu - Abomination",
@@ -813,7 +823,8 @@
     "Main Personality": "",
     "id": "61d568fa-33a6-4ce3-aee0-ac5550a4f96d",
     "index": "ds",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Buu's Chocolate",
@@ -890,7 +901,8 @@
     "Main Personality": "",
     "id": "32fdf3cd-3d06-4847-a857-3bf96b7b60e9",
     "index": "eQ",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Controlled Energy Burst",
@@ -941,7 +953,8 @@
     "id": "48c5d0d7-7c41-4bd3-a1e6-904495e8cad1",
     "index": "ff",
     "Alignment": "Heroes Only",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Dabura - Devil",
@@ -1174,7 +1187,8 @@
     "Main Personality": "",
     "id": "e4f8aa87-a021-4ecc-8f9d-b835fc90531a",
     "index": "nQ",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Empowering Drill",
@@ -1274,7 +1288,8 @@
     "Main Personality": "",
     "id": "c1692794-3637-4fa1-a891-ec7158a1d3c0",
     "index": "qn",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Resourceful Shot",
@@ -1300,7 +1315,8 @@
     "Main Personality": "",
     "id": "cf13c053-3279-4f4b-8192-80bb1deb5981",
     "index": "qA",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Rush",
@@ -1325,7 +1341,8 @@
     "Main Personality": "",
     "id": "40e3f139-bdb4-4942-b305-bca5588f9834",
     "index": "qO",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "On The Move!",
@@ -1350,7 +1367,8 @@
     "Main Personality": "",
     "id": "8fd86039-24d5-42f4-b38a-97a915de2b16",
     "index": "rI",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Block"
   },
   {
     "name": "Orange Attraction Drill",
@@ -1400,7 +1418,8 @@
     "Main Personality": "",
     "id": "70ff7f79-5cf5-4b86-8eb0-371db78fc647",
     "index": "sa",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Charged Kick",
@@ -1425,7 +1444,8 @@
     "Main Personality": "",
     "id": "2421740e-a4c2-4100-8c65-bf2f214a0aa4",
     "index": "st",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Elbow Rush",
@@ -1450,7 +1470,8 @@
     "Main Personality": "",
     "id": "ae9edb6e-1941-4816-b32e-881d10016ebe",
     "index": "th",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Energy Ball",
@@ -1475,7 +1496,8 @@
     "Main Personality": "",
     "id": "b14e4999-2d4e-4e99-85aa-9c1057fb7f89",
     "index": "tt",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Intensity Drill",
@@ -1552,7 +1574,8 @@
     "Main Personality": "",
     "id": "3a06abb7-6cf8-433a-9f14-a27bd1e88215",
     "index": "wy",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Piccolo's Lethal Chop",
@@ -1578,7 +1601,8 @@
     "Main Personality": "",
     "id": "c5f162e9-a0c3-4991-a128-74d0e033f263",
     "index": "x9",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Pui Pui - Cocky",
@@ -1679,7 +1703,8 @@
     "Main Personality": "",
     "id": "005d5d1d-ea65-4462-9f21-d799dcfe2c9f",
     "index": "zF",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Red Forward Stance Drill",
@@ -1729,7 +1754,8 @@
     "Main Personality": "",
     "id": "b38c763c-0353-42e2-bf31-1eb0e372341c",
     "index": "Bl",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Red Quickness Drill",
@@ -1779,7 +1805,8 @@
     "Main Personality": "",
     "id": "870bb163-a59f-4855-a6ac-c7af3d9978d2",
     "index": "Cm",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Red Stop",
@@ -1804,7 +1831,8 @@
     "Main Personality": "",
     "id": "ad4c819f-640f-4e7b-b30c-f0d380110169",
     "index": "Cy",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Combative Stance",
@@ -1855,7 +1883,8 @@
     "Main Personality": "",
     "id": "e0221ab5-df95-470f-a4ca-13b58088d16b",
     "index": "F1",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Forceful Stop",
@@ -1880,7 +1909,8 @@
     "Main Personality": "",
     "id": "b3c2efeb-4d84-4d68-80c9-3ae59cee6d0b",
     "index": "F8",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Grab",
@@ -1906,7 +1936,8 @@
     "id": "c38f693b-f663-46e5-8c49-9ecc2215414c",
     "index": "Fb",
     "Alignment": "Villains Only",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Legendary Strike",
@@ -1931,7 +1962,8 @@
     "Main Personality": "",
     "id": "3c17d28b-8a8d-4817-826a-90cbf86bb212",
     "index": "FI",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Massacre",
@@ -1956,7 +1988,8 @@
     "Main Personality": "",
     "id": "1eb9e917-16c5-46fe-b80f-9f940c68bb51",
     "index": "FR",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Quick Strike",
@@ -1981,7 +2014,8 @@
     "Main Personality": "",
     "id": "a8c575ed-8ee1-4e88-a403-b2cbc210ecde",
     "index": "GC",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Sinister Choke",
@@ -2006,7 +2040,8 @@
     "Main Personality": "",
     "id": "901cc3c4-c822-4ffa-a978-62c5432ed189",
     "index": "I5",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Spopovich - Enhanced",
@@ -2057,7 +2092,8 @@
     "Main Personality": "",
     "id": "add03b09-b9dc-4080-901f-6696f3d1dd40",
     "index": "IJ",
-    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf"
+    "set_id": "cf028ea5-d40a-42c4-a252-33a4579ac1bf",
+    "Tag": "Attack"
   },
   {
     "name": "Vegeta - Malicious",

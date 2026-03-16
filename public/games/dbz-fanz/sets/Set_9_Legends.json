@@ -308,7 +308,8 @@
     "Main Personality": "",
     "id": "6d804db4-d411-48a3-8794-d70440811b09",
     "index": "2d",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Black Energized Guard",
@@ -333,7 +334,8 @@
     "Main Personality": "",
     "id": "1138ee24-7dfe-41eb-ae7d-f016588b8c8f",
     "index": "3Z",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Block"
   },
   {
     "name": "Black Interrogation",
@@ -384,7 +386,8 @@
     "id": "99452f65-7861-43a9-bbda-7261e295b594",
     "index": "66",
     "Alignment": "Villains Only",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Black Rupture Drill",
@@ -434,7 +437,8 @@
     "Main Personality": "",
     "id": "96f3bc4d-722f-4dc4-b8e2-f6100e0eebad",
     "index": "7d",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Combative Stance",
@@ -484,7 +488,8 @@
     "Main Personality": "",
     "id": "fb57c2e2-449a-4c7a-bcbb-cd5552f25f1e",
     "index": "9m",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Block"
   },
   {
     "name": "Blue Recuperating Drill",
@@ -534,7 +539,8 @@
     "Main Personality": "",
     "id": "2e374bb5-c149-4350-ae61-a1fafedf40f7",
     "index": "bd",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Zinger",
@@ -559,7 +565,8 @@
     "Main Personality": "",
     "id": "a3d54af0-46ab-414f-933f-be0346ff82eb",
     "index": "cj",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Chilled - Cackling Tyrant",
@@ -714,7 +721,8 @@
     "Main Personality": "",
     "id": "8514fa56-ca10-42e2-8088-146b715da4b8",
     "index": "eK",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Chilled's Prescience",
@@ -764,7 +772,8 @@
     "Main Personality": "",
     "id": "42630590-1f87-4d00-be81-50358e420bba",
     "index": "k6",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Kami - Earths Guardian",
@@ -893,7 +902,8 @@
     "Main Personality": "",
     "id": "0ddac8ae-9b3c-4b0b-8be3-ec76bde34d89",
     "index": "kD",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Kami's Guardian Drill",
@@ -969,7 +979,8 @@
     "Main Personality": "",
     "id": "f156d0d5-1339-4eb2-89ee-cf5154248586",
     "index": "lD",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Master Roshi's Kamehameha",
@@ -994,7 +1005,8 @@
     "Main Personality": "",
     "id": "8332c482-58c5-452d-a6da-8a51c4547db5",
     "index": "mf",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Force Push",
@@ -1019,7 +1031,8 @@
     "Main Personality": "",
     "id": "621787b8-2102-465a-886c-741c2a933c76",
     "index": "oJ",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Heroic Drill",
@@ -1069,7 +1082,8 @@
     "Main Personality": "",
     "id": "ebba5a63-0514-449e-9053-c9a8c67b37b3",
     "index": "pr",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Malicious Intent",
@@ -1223,7 +1237,8 @@
     "Main Personality": "",
     "id": "10637245-f4a0-4152-86dc-62a731bd3003",
     "index": "tp",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Grimace",
@@ -1248,7 +1263,8 @@
     "Main Personality": "",
     "id": "a808784d-eaae-4368-a11a-51fa0b39e8c6",
     "index": "ua",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Block"
   },
   {
     "name": "Orange Lasso",
@@ -1323,7 +1339,8 @@
     "Main Personality": "",
     "id": "83e43465-a47a-4e55-befc-ed352213c356",
     "index": "yR",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Red Choke Hold",
@@ -1348,7 +1365,8 @@
     "Main Personality": "",
     "id": "3203f14a-fb1b-4832-978d-6c6dd42d0720",
     "index": "yU",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Red Controlled Blast",
@@ -1373,7 +1391,8 @@
     "Main Personality": "",
     "id": "e6833f6a-15fd-4294-8fab-7818277a74de",
     "index": "zd",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Red Oversized Drill",
@@ -1424,7 +1443,8 @@
     "Main Personality": "",
     "id": "54d29f57-e2d3-471f-ae5c-b912524fde33",
     "index": "CQ",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Saibamen - Little Green Ghouls",
@@ -1601,7 +1621,8 @@
     "Main Personality": "",
     "id": "c2445772-b4a6-43bc-b7f3-69ab918f55d6",
     "index": "Jb",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   },
   {
     "name": "Time is a Warrior's Tool",
@@ -1627,7 +1648,8 @@
     "Main Personality": "",
     "id": "e1aacdc2-b828-457d-9d85-29102ac757b5",
     "index": "Jk",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Block"
   },
   {
     "name": "Tora - Second in Command",
@@ -1704,6 +1726,7 @@
     "Main Personality": "",
     "id": "7ecbffe5-30c0-4fc9-9c81-ad4e5de72ee0",
     "index": "Mz",
-    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf"
+    "set_id": "0c99e3f3-2d55-4356-aade-c010edaf82cf",
+    "Tag": "Attack"
   }
 ]
