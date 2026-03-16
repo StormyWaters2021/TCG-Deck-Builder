@@ -279,7 +279,8 @@
     "Main Personality": "",
     "id": "a4a716d7-ce4c-4186-94a2-607399c1507d",
     "index": "72",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Blinding Energy Move",
@@ -435,7 +436,8 @@
     "Main Personality": "",
     "id": "3e908b74-e315-4d15-b586-6c7d9bcbe8ed",
     "index": "90",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Quick Strike",
@@ -565,7 +567,8 @@
     "id": "faa89306-2f1b-4cb0-b594-2a6fec246206",
     "index": "eP",
     "Alignment": "Heroes Only",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Cooler - Ghastly Apparition",
@@ -849,7 +852,8 @@
     "Main Personality": "",
     "id": "46545498-6f8a-48c0-8fbe-f156912f2246",
     "index": "jW",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Hoi - Wizard",
@@ -1133,7 +1137,8 @@
     "Main Personality": "",
     "id": "43ed64df-0c66-44b7-bf65-964fb3c8f5fc",
     "index": "ks",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Lord Slug - Menacing Presence",
@@ -1441,7 +1446,8 @@
     "Main Personality": "",
     "id": "5539b895-f4cc-4023-9648-3aa2f837563a",
     "index": "qQ",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "On The Move!",
@@ -1569,7 +1575,8 @@
     "Main Personality": "",
     "id": "47cf44bc-4570-4b72-846c-d5e7eecc0697",
     "index": "tI",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Entanglement Drill",
@@ -1620,7 +1627,8 @@
     "Main Personality": "",
     "id": "73faf605-0b4a-490d-bc41-07942982f1db",
     "index": "uf",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Playtime",
@@ -1695,7 +1703,8 @@
     "Main Personality": "",
     "id": "805e14f2-7153-41b1-a6cd-3a5e2d348bfe",
     "index": "w7",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Pikkon - Fighting Stance",
@@ -2058,7 +2067,8 @@
     "Main Personality": "",
     "id": "bd9a9624-d60f-4ac2-8c83-ce6d14c2b8d9",
     "index": "BD",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Red Resourceful Block",
@@ -2109,7 +2119,8 @@
     "Main Personality": "",
     "id": "8a30709f-5a42-483f-a329-288bbf722259",
     "index": "D8",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Avoidance",
@@ -2160,7 +2171,8 @@
     "Main Personality": "",
     "id": "a4045e9b-9f13-4f32-b062-bb2a81dfd63b",
     "index": "Ek",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Energy Repulse",
@@ -2211,7 +2223,8 @@
     "Main Personality": "",
     "id": "96303e04-24bf-4b15-a8d5-8a516ae03896",
     "index": "F4",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Inspection Drill",
@@ -2547,7 +2560,8 @@
     "Main Personality": "",
     "id": "bcb5e3c4-7b4f-4742-8f14-05125ccca241",
     "index": "IT",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   },
   {
     "name": "Tapion's Ocarina",
@@ -2650,6 +2664,7 @@
     "id": "39731ceb-6d8c-4ad2-a98e-896ce5ac6492",
     "index": "M8",
     "Alignment": "Villains Only",
-    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb"
+    "set_id": "6fa202e7-652f-4439-ac36-1eee868a59cb",
+    "Tag": "Attack"
   }
 ]

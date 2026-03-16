@@ -334,7 +334,8 @@
     "Main Personality": "",
     "id": "92966b35-643a-4db7-8286-e089088f7edb",
     "index": "3j",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Black Energy Focus",
@@ -359,7 +360,8 @@
     "Main Personality": "",
     "id": "205292f9-cced-456c-9a15-f76575262964",
     "index": "44",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Black Maximum Shout",
@@ -663,7 +665,8 @@
     "Main Personality": "",
     "id": "185d84f3-feee-4b71-8b5b-7355bf246e1d",
     "index": "aD",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Research Drill",
@@ -1130,7 +1133,8 @@
     "id": "9f2e0772-223b-4f9a-aa78-10d77ff76367",
     "index": "dX",
     "Alignment": "Villains Only",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Devastating Blow",
@@ -1520,7 +1524,8 @@
     "Main Personality": "",
     "id": "3260acba-3a86-49cd-926c-f7f87db7a664",
     "index": "mZ",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Clash",
@@ -1778,7 +1783,8 @@
     "Main Personality": "",
     "id": "3330208f-2034-49ef-9a8b-ed104c74e70e",
     "index": "u4",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Gift",
@@ -2033,7 +2039,8 @@
     "Main Personality": "",
     "id": "735ab970-9033-4b58-ac5e-c4867f9eeba6",
     "index": "z0",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Red Combined Blast",
@@ -2058,7 +2065,8 @@
     "Main Personality": "",
     "id": "d7b429fd-8feb-491c-b8f2-2d1d1388b76b",
     "index": "z5",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Red Healing Drill",
@@ -2288,7 +2296,8 @@
     "Main Personality": "",
     "id": "4f68d76f-f628-45ce-964e-d4cc0622ae70",
     "index": "DX",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Distortion Drill",
@@ -2416,7 +2425,8 @@
     "id": "8c85f2f2-8469-40f5-8550-2cd4ef3235eb",
     "index": "Gw",
     "Alignment": "Heroes Only",
-    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45"
+    "set_id": "8911aa60-de15-4bd1-a804-44057fac2c45",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Rampaging Mastery",
