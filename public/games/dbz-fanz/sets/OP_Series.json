@@ -23,7 +23,8 @@
     "id": "845ea991-f062-4334-9100-5a0fe9bbb62c",
     "index": "z",
     "Alignment": "Villains Only",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Android 16's Precaution",
@@ -126,7 +127,8 @@
     "Main Personality": "",
     "id": "09a0d7d3-e41f-4b15-b610-1b68278fdbae",
     "index": "2A",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Black Face Crush",
@@ -256,7 +258,8 @@
     "id": "5c827f9b-26fb-4a93-bd12-833d7d9b78de",
     "index": "82",
     "Alignment": "Heroes Only",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Guard",
@@ -412,7 +415,8 @@
     "Main Personality": "",
     "id": "6c470037-8d7d-4f9a-815b-31da4df9da39",
     "index": "cs",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Cell Jr's Beatdown",
@@ -799,7 +803,8 @@
     "Main Personality": "",
     "id": "a934bb81-8eeb-4dfe-9c76-a211aa1fe9e4",
     "index": "kr",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "King Kai's Driving Drill",
@@ -926,7 +931,8 @@
     "Main Personality": "",
     "id": "bc36d818-b9e6-4ab2-a0f1-998c10c8c60b",
     "index": "nt",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Cunning Dash",
@@ -1523,7 +1529,8 @@
     "Main Personality": "",
     "id": "1a45c6e6-e04e-4c63-aa68-49983140ddf6",
     "index": "Fy",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Reinforcements",
@@ -1600,7 +1607,8 @@
     "Main Personality": "",
     "id": "f56dd3c9-8f54-4313-8de0-05c5c6dc62b3",
     "index": "GY",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Swift Sword Drill",
