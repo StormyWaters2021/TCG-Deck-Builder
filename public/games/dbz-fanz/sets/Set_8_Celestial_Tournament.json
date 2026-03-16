@@ -1042,7 +1042,7 @@
     "Card Number": "R34",
     "Type": "Event",
     "Endurance": "1",
-    "Text": "(When this card is discarded or destroyed from your Life Deck, your opponent reveals their hand.) \nPOWER: Search your Life Deck or discard pile for an Ally without a [CONSTANT] Power and place it into play. Search your Life Deck for an Ally with Bubbles or Gregory in the title and Rejuvenate it. Your opponent skips their next action this combat.",
+    "Text": "(When this card is discarded or destroyed from your Life Deck, your opponent reveals their hand.) \nPOWER: Search your Life Deck or discard pile for a non-[CONSTANT] Ally and place it into play. Search your Life Deck for an Ally with Bubbles or Gregory in the title and Rejuvenate it. Your opponent skips their next action this combat.",
     "Traits": "",
     "PUR": "",
     "Power Rating": "",

@@ -254,7 +254,8 @@
     "Main Personality": "",
     "id": "af8e6f41-697a-470a-a9be-829b3eeb5b56",
     "index": "1M",
-    "set_id": "f9cfaec6-fdbb-4fdd-a704-21eef72be7e3"
+    "set_id": "f9cfaec6-fdbb-4fdd-a704-21eef72be7e3",
+    "Tag": "Attack"
   },
   {
     "name": "Black Analysis",
@@ -3350,7 +3351,8 @@
     "Main Personality": "",
     "id": "8acce0c4-a186-4d85-9119-f63fc0e24f10",
     "index": "CO",
-    "set_id": "f9cfaec6-fdbb-4fdd-a704-21eef72be7e3"
+    "set_id": "f9cfaec6-fdbb-4fdd-a704-21eef72be7e3",
+    "Tag": "Attack"
   },
   {
     "name": "Red Trailing Blast",

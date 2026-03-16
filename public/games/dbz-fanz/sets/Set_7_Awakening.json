@@ -642,7 +642,8 @@
     "Main Personality": "",
     "id": "5c8c9c4b-b839-4598-9cb7-75de6cbb890d",
     "index": "4W",
-    "set_id": "05dea1dd-ba0f-412b-8560-d829952f8847"
+    "set_id": "05dea1dd-ba0f-412b-8560-d829952f8847",
+    "Tag": "Attack"
   },
   {
     "name": "Black Hug Maneuver",
@@ -6571,7 +6572,8 @@
     "Main Personality": "",
     "id": "b3960793-88b3-43d2-9ffd-962080e61308",
     "index": "AT",
-    "set_id": "05dea1dd-ba0f-412b-8560-d829952f8847"
+    "set_id": "05dea1dd-ba0f-412b-8560-d829952f8847",
+    "Tag": "Attack"
   },
   {
     "name": "Red Mischief",

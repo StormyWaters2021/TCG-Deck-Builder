@@ -3172,7 +3172,8 @@
     "Main Personality": "",
     "id": "7f991e1a-fb2a-4e0c-b060-567740ef77bb",
     "index": "AZ",
-    "set_id": "cd30d223-baaf-4d80-8d79-ed081a48a1e6"
+    "set_id": "cd30d223-baaf-4d80-8d79-ed081a48a1e6",
+    "Tag": "Attack"
   },
   {
     "name": "Red Motivational Kick",
@@ -3738,7 +3739,8 @@
     "Main Personality": "",
     "id": "f8ee8698-c733-470d-a814-e1bc483ba6b2",
     "index": "HD",
-    "set_id": "cd30d223-baaf-4d80-8d79-ed081a48a1e6"
+    "set_id": "cd30d223-baaf-4d80-8d79-ed081a48a1e6",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Trample",
