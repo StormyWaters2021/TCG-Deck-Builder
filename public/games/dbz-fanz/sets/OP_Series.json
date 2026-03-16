@@ -75,7 +75,8 @@
     "Main Personality": "",
     "id": "c8ac4748-1a3d-493c-88e4-3e9d04f8fcc5",
     "index": "1s",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Block"
   },
   {
     "name": "Bardock's Wish",
@@ -150,7 +151,8 @@
     "Main Personality": "",
     "id": "a9b714c9-c26a-476e-87af-957f04f4d56d",
     "index": "4o",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Black Judgment Rush",
@@ -175,7 +177,8 @@
     "Main Personality": "",
     "id": "e8cd22ea-b61e-481a-9878-6cb64e56c2b4",
     "index": "5c",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Black Sacred Defense Drill",
@@ -226,7 +229,8 @@
     "Main Personality": "",
     "id": "88f4c1ec-e77e-42c0-b5d4-821c5a1c2804",
     "index": "6V",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Blurred Blast",
@@ -277,7 +281,8 @@
     "Main Personality": "",
     "id": "32b6e7a5-02c2-406f-86f9-8a48e622d347",
     "index": "9r",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Block"
   },
   {
     "name": "Blue Malicious Blast",
@@ -303,7 +308,8 @@
     "id": "ad5e6f5c-bcff-4d0c-8282-bf77d98c82e4",
     "index": "a2",
     "Alignment": "Villains Only",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Potbelly Attack",
@@ -329,7 +335,8 @@
     "id": "e258f5e5-44b6-4a79-8f88-80ee251fc2a0",
     "index": "aw",
     "Alignment": "Heroes Only",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Stylish Pose",
@@ -430,7 +437,8 @@
     "Main Personality": "",
     "id": "bb85f336-88bb-4e13-a1ff-709d4c432ebb",
     "index": "ek",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Champa - Salty",
@@ -635,7 +643,8 @@
     "Main Personality": "",
     "id": "7d41df22-8953-4ceb-b338-76ec79bb2281",
     "index": "fF",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Block"
   },
   {
     "name": "Dr. Wheelo's Flight",
@@ -661,7 +670,8 @@
     "Main Personality": "",
     "id": "8f2ec286-e92d-4668-8260-a8281080d63a",
     "index": "g1",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Block"
   },
   {
     "name": "Goku - Confident",
@@ -763,7 +773,8 @@
     "Main Personality": "",
     "id": "75836332-78b3-4dc9-a044-83b1d690495e",
     "index": "jV",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Janemba's Hell Gate",
@@ -940,7 +951,8 @@
     "Main Personality": "",
     "id": "361b3708-931b-44d2-8d3b-8deb844efe2c",
     "index": "nM",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Planetary Countdown",
@@ -991,7 +1003,8 @@
     "Main Personality": "",
     "id": "338ec380-e2b4-4b3b-bb18-b12fd03caa3f",
     "index": "qL",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Straining Assault",
@@ -1017,7 +1030,8 @@
     "Main Personality": "",
     "id": "43c07148-c013-41d5-9d25-8fcff031cf25",
     "index": "r2",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Fetch Drill",
@@ -1093,7 +1107,8 @@
     "Main Personality": "",
     "id": "1865dbe6-a293-47b1-9719-5ca2bcaa597c",
     "index": "vo",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Reverent Ki Push",
@@ -1118,7 +1133,8 @@
     "Main Personality": "",
     "id": "903e020f-db5b-45bc-b753-2b9bd7c5b4c0",
     "index": "vK",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Sword Break",
@@ -1143,7 +1159,8 @@
     "Main Personality": "",
     "id": "702d93a2-eaf4-4d04-88e2-49a5cf0c16a7",
     "index": "wf",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Raditz - Brutal",
@@ -1324,7 +1341,8 @@
     "Main Personality": "",
     "id": "262926d4-6960-4f49-a6e5-209daf2b4d23",
     "index": "yd",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Red Demonic Rush",
@@ -1349,7 +1367,8 @@
     "Main Personality": "",
     "id": "0ae426e6-18b1-41f5-9187-e154316eea86",
     "index": "zk",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Red Monstrous Blow",
@@ -1374,7 +1393,8 @@
     "Main Personality": "",
     "id": "3b19f58a-af5d-4c0f-ab33-1e9108c60d67",
     "index": "Ba",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Red Shining Sword Attack",
@@ -1399,7 +1419,8 @@
     "Main Personality": "",
     "id": "8c61e016-b6e3-43df-b04d-eb0dc2ba9a84",
     "index": "Ci",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Red Surgical Assault",
@@ -1424,7 +1445,8 @@
     "Main Personality": "",
     "id": "d60861c1-fed3-48e8-805b-e98fb8cfc99b",
     "index": "CB",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Red Trailing Blast",
@@ -1449,7 +1471,8 @@
     "Main Personality": "",
     "id": "43e72ca6-c280-4564-a5a0-45c2e20ab425",
     "index": "CV",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Demolishing Beam",
@@ -1474,7 +1497,8 @@
     "Main Personality": "",
     "id": "92719565-3b29-4032-a5ab-22d6853dd61f",
     "index": "DU",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Ki Blitz",
@@ -1524,7 +1548,8 @@
     "Main Personality": "",
     "id": "3005f348-ea63-4b27-b935-fd384b9f0980",
     "index": "GL",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Resistance",
@@ -1549,7 +1574,8 @@
     "Main Personality": "",
     "id": "3a12346f-508a-4cc4-b7a1-7c13e674cd85",
     "index": "GP",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Scientific Blitz",
@@ -1676,6 +1702,7 @@
     "Main Personality": "",
     "id": "8873c05c-505c-4de5-8326-b98ad28dadf5",
     "index": "Mk",
-    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f"
+    "set_id": "0fae8ccc-256e-4a5c-8bb2-168b81b24e4f",
+    "Tag": "Block"
   }
 ]

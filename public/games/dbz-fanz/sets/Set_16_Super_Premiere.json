@@ -48,7 +48,8 @@
     "Main Personality": "",
     "id": "84d55693-94c1-488b-a607-bd5a534a9836",
     "index": "1I",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Assisted Kamehameha",
@@ -483,7 +484,8 @@
     "Main Personality": "",
     "id": "b7ac35b8-4282-43dc-ad06-55d47420baf6",
     "index": "6b",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Black Reflection",
@@ -533,7 +535,8 @@
     "Main Personality": "",
     "id": "8242d216-37e7-4a69-826f-6de95084bdd7",
     "index": "6g",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Black Secret",
@@ -710,7 +713,8 @@
     "Main Personality": "",
     "id": "7ac7c244-2a57-4bde-aa11-8f36fe73ea5c",
     "index": "bf",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Blue Teamwork",
@@ -735,7 +739,8 @@
     "Main Personality": "",
     "id": "85d4501f-0ece-4e2a-aade-5e238081c5cf",
     "index": "bT",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Terror",
@@ -941,7 +946,8 @@
     "Main Personality": "",
     "id": "d11de9a4-4391-4866-a471-3a4dfdf44d4d",
     "index": "dW",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Confrontation",
@@ -1303,7 +1309,8 @@
     "Main Personality": "",
     "id": "795cba09-ed88-4e72-be1f-bc074c64397c",
     "index": "i4",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Gohan's Safeguard",
@@ -1328,7 +1335,8 @@
     "Main Personality": "",
     "id": "8cc4c223-56a0-4a66-9206-84e9640d004e",
     "index": "i5",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Goku - Farmer",
@@ -1534,7 +1542,8 @@
     "Main Personality": "",
     "id": "ea441e75-89a7-4abd-9059-5a1c84eefd8b",
     "index": "k7",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Invasion Drill",
@@ -1997,7 +2006,8 @@
     "Main Personality": "",
     "id": "f7f4689f-9d1a-4867-b8b5-be9a6730c47e",
     "index": "pA",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Namekian Leaping Kick",
@@ -2023,7 +2033,8 @@
     "Main Personality": "",
     "id": "3fd22579-3e42-4f06-9396-25fb55fde522",
     "index": "pC",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Reinforced Will",
@@ -2074,7 +2085,8 @@
     "Main Personality": "",
     "id": "869347ef-fb2f-4afd-adda-8796efedcbef",
     "index": "qC",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Namekian Side Kick",
@@ -2099,7 +2111,8 @@
     "Main Personality": "",
     "id": "dbdfa1c9-bd7c-4ded-955d-63414dfeecc3",
     "index": "qX",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Namekian Unburden Drill",
@@ -2225,7 +2238,8 @@
     "Main Personality": "",
     "id": "9894959d-9a93-47a3-bfbe-c44349ff28c4",
     "index": "s9",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Blazing Aura",
@@ -2350,7 +2364,8 @@
     "Main Personality": "",
     "id": "708ad746-8431-4efa-88a5-a5ce254b9fc9",
     "index": "uU",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Orange Power Point",
@@ -2706,7 +2721,8 @@
     "Main Personality": "",
     "id": "e6b7fa13-0de3-4583-9b45-81ff7e3d4c8d",
     "index": "zt",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Red Dismissal",
@@ -2731,7 +2747,8 @@
     "Main Personality": "",
     "id": "5122191a-a619-4d3a-b56b-34fc33d8b4a6",
     "index": "zu",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Red Escape",
@@ -2756,7 +2773,8 @@
     "Main Personality": "",
     "id": "e8c69b47-3739-4a3b-8ad6-b1116deb2ff2",
     "index": "A5",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Red Left Bolt",
@@ -2831,7 +2849,8 @@
     "Main Personality": "",
     "id": "207e65d8-4b2f-4437-9872-4fde4727a4da",
     "index": "BA",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Red Relentless Mastery",
@@ -2882,7 +2901,8 @@
     "Main Personality": "",
     "id": "c5b3eb5e-8265-46de-87dd-17421ca7506e",
     "index": "C6",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Red Tandem Attack",
@@ -2907,7 +2927,8 @@
     "Main Personality": "",
     "id": "02d1b157-f6e1-4e90-94c7-c4d7033ecb5c",
     "index": "CN",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Assault",
@@ -2932,7 +2953,8 @@
     "Main Personality": "",
     "id": "f2e95631-b235-475c-8e3c-8d79162a4b90",
     "index": "Dg",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Defiant Mastery",
@@ -2983,7 +3005,8 @@
     "Main Personality": "",
     "id": "6ab0f2e4-a49f-4c15-a151-644dfd2a5ba7",
     "index": "E9",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Saiyan Energy Flurry",
@@ -3083,7 +3106,8 @@
     "Main Personality": "",
     "id": "d0410d0c-d2be-47bf-826d-bf90c447b378",
     "index": "GK",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Reversal",
@@ -3108,7 +3132,8 @@
     "Main Personality": "",
     "id": "3f7dc306-491a-4691-acf4-381b483badf6",
     "index": "GR",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Saiyan Severing Punch",
@@ -3133,7 +3158,8 @@
     "Main Personality": "",
     "id": "01728714-31f5-4f53-a60b-5c97f9f1621f",
     "index": "H2",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Shisami - Enforcer",
@@ -3210,7 +3236,8 @@
     "Main Personality": "",
     "id": "14c247a9-406b-4236-b62c-833a50087ef9",
     "index": "I6",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Block"
   },
   {
     "name": "Sobering Hammer",
@@ -3235,7 +3262,8 @@
     "Main Personality": "",
     "id": "d6af14a2-304e-4621-9026-964d75df43e9",
     "index": "Ib",
-    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9"
+    "set_id": "5d954ba9-9eaf-4037-9085-e19fc8c835b9",
+    "Tag": "Attack"
   },
   {
     "name": "Sorbet - Commander",
