@@ -47,7 +47,8 @@
     "Main Personality": "",
     "id": "8d9abb5a-fa9a-4bbc-9c00-3d2c6021c067",
     "index": "3o",
-    "set_id": "3bdae538-a506-425d-b274-36b7ff7acc17"
+    "set_id": "3bdae538-a506-425d-b274-36b7ff7acc17",
+    "Tag": "Attack"
   },
   {
     "name": "Black Digestive Drill",
@@ -1801,7 +1802,8 @@
     "Main Personality": "",
     "id": "d087fe3c-8c43-46d3-815d-3ea3fde34c7a",
     "index": "wb",
-    "set_id": "3bdae538-a506-425d-b274-36b7ff7acc17"
+    "set_id": "3bdae538-a506-425d-b274-36b7ff7acc17",
+    "Tag": "Attack"
   },
   {
     "name": "Red Commanding Mastery",

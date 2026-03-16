@@ -2628,7 +2628,8 @@
     "Main Personality": "",
     "id": "8091d88b-eb59-49b6-b015-3dd0ff8b18b3",
     "index": "9B",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Blue Hush",
@@ -5632,7 +5633,8 @@
     "Main Personality": "",
     "id": "3905fe2e-e069-4730-9fa8-b69765ab04f4",
     "index": "vV",
-    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532"
+    "set_id": "0df9557e-1c4b-4891-ad6e-12e291dee532",
+    "Tag": "Attack"
   },
   {
     "name": "Orange Stare Down",
