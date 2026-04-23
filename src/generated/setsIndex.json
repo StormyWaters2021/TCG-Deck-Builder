@@ -33,6 +33,7 @@
     "games/dbz-fanz/sets/Set_16_Super_Premiere.json",
     "games/dbz-fanz/sets/Set_17_Universal_Clash.json",
     "games/dbz-fanz/sets/Set_18_Incursion.json",
+    "games/dbz-fanz/sets/Set_19_Judgement.json",
     "games/dbz-fanz/sets/Set_1_Premiere.json",
     "games/dbz-fanz/sets/Set_2_Heroes_and_Villains.json",
     "games/dbz-fanz/sets/Set_3_The_Movie_Collection.json",
@@ -67,7 +68,6 @@
     "games/dbz-score/sets/21_-_NZ7_Tuffest_in_the_World.json",
     "games/dbz-score/sets/22_-_NZ8_Grand_Adventure.json",
     "games/dbz-score/sets/23_-_NZ9_Home_For_Infinite_Losers.json",
-    "games/dbz-score/sets/Markers_and_Tokens.json",
     "games/dbz-score/sets/Playtest_Cards.json"
   ],
   "dune-ccg": [
