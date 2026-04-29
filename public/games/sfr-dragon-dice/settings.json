@@ -3,29 +3,20 @@
   "game_id": "0000ac4a-0bf6-4c10-8f05-e32e53e57518",
   "addNValue": 4,
   "groupOptions": [
+	"OCTGN",
     "Type",
     "Subtype"
   ],
   "filterOptions": [
-    "Autosaves",
-    "Cantrip",
+	"Type",
     "Class",
-    "Color",
-    "Cost",
     "Eighth Face",
-    "Element",
-    "Icons",
-    "Reserve",
-    "Saves",
-    "Search",
     "Size",
-    "size",
-    "Species",
-    "Weight"
+    "Species"
   ],
   "groupOrder": [],
   "groupSort": {},
   "searchPrefixes": {},
-  "octgnExport": false,
+  "octgnExport": true,
   "imagePackExport": true
 }

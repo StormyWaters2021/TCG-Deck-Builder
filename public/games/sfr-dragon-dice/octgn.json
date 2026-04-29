@@ -1,5 +1,58 @@
 {
   "gameGuid": "0000ac4a-0bf6-4c10-8f05-e32e53e57518",
-  "sections": [
-  ]
+    "sections": [
+    {
+      "name": "Home Terrain",
+      "shared": false,
+      "criteria": {
+        "Type": ["Major Terrain"],
+		"Subtype": ["Standard"]
+      }
+    },
+    {
+      "name": "Home Army",
+      "shared": false,
+      "criteria": {}
+    },
+	{
+      "name": "Frontier Terrain",
+      "shared": false,
+      "criteria": {
+        "Type": ["Major Terrain"],
+		"Subtype": ["Standard", "Special"]
+      }
+    },
+    {
+      "name": "Campaign Army",
+      "shared": false,
+      "criteria": {}
+    },
+    {
+      "name": "Horde Army",
+      "shared": false,
+      "criteria": {}
+    },
+    {
+      "name": "Dragons",
+      "shared": false,
+      "criteria": {
+		  "Search": ["Dragon"]
+	  }
+    },
+    {
+      "name": "Minor Terrain",
+      "shared": false,
+      "criteria": {
+		  "Type": ["Minor Terrain"]
+	  }
+    },
+	{
+      "name": "Dragonkin",
+      "shared": false,
+      "criteria": {
+		  "Species": ["Dragonkin"]
+	  }
+    }
+  ],
+  "defaultSection": "Home Army"
 }
