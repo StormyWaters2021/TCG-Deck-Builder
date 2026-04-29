@@ -238,6 +238,74 @@ function DeckStatsBanner({ deck, cards, statsConfig, settings }) {
     }
     return { total, cardsWithProp };
   }
+  
+function cardMatchesProperties(card, match) {
+  if (!card || !match || typeof match !== "object") return false;
+
+  return Object.entries(match).every(([prop, expected]) => {
+    const actual = card[prop];
+
+    // Allow arrays in config:
+    // "Type": ["Item", "Equipment"]
+    if (Array.isArray(expected)) {
+      return expected.includes(actual);
+    }
+
+    return actual === expected;
+  });
+}
+
+function cardMatchesExclude(card, exclude) {
+  if (!exclude || typeof exclude !== "object") return false;
+
+  return Object.entries(exclude).some(([prop, expected]) => {
+    const actual = card[prop];
+
+    // Allow arrays in config:
+    // "Species": ["Dragonkin", "Undead"]
+    if (Array.isArray(expected)) {
+      return expected.includes(actual);
+    }
+
+    return actual === expected;
+  });
+}
+
+function pointCostByRules(rules) {
+  let grandTotal = 0;
+
+  for (const rule of rules || []) {
+    if (!rule || !rule.match) continue;
+
+    const matchingQty = deckList.reduce((sum, { card, qty }) => {
+      if (!cardMatchesProperties(card, rule.match)) return sum;
+      if (cardMatchesExclude(card, rule.exclude)) return sum;
+
+      return sum + qty;
+    }, 0);
+
+    if (matchingQty <= 0) continue;
+
+    const pointsEach = Number(rule.points || 0);
+
+    if (rule.bundle && Number(rule.bundle.qty) > 0) {
+      const bundleQty = Number(rule.bundle.qty);
+      const bundlePoints = Number(rule.bundle.points || 0);
+
+      const bundles = Math.floor(matchingQty / bundleQty);
+      const remainder = matchingQty % bundleQty;
+
+      grandTotal += bundles * bundlePoints;
+      grandTotal += remainder * pointsEach;
+    } else {
+      grandTotal += matchingQty * pointsEach;
+    }
+  }
+
+  return grandTotal;
+}
+
+  
   function sumPropertyByRegex(prop, regexStr) {
     let total = 0, cardsWithProp = 0;
     let regex;
@@ -323,6 +391,19 @@ function DeckStatsBanner({ deck, cards, statsConfig, settings }) {
 		</span>
 	  );
 	}
+	
+	else if (item.type === "pointCostByRules") {
+  const total = pointCostByRules(item.rules);
+
+  stats.push(
+    <span
+      key={`pointCostByRules:${item.label || "points"}`}
+      className="deck-stat"
+    >
+      {item.label || "Points"}: <b>{total}</b>
+    </span>
+  );
+}
     else if (item.type === "sumPropertyOfCardsWhereContains") {
       const { total, cardsWithProp } = sumPropertyOfCardsWhereContains(deckList, item.filterProp, item.contains, item.sumProp);
       stats.push(
