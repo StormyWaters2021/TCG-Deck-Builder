@@ -8,6 +8,7 @@ import { startDeckImportFlow } from "../utils/deckImportFlow";
 import ImagePackExportControl from "../components/ImagePackExportControl";
 import {
   exportDeckOCTGN,
+  buildDragonDiceTTSString,
   createSharedDeck,
   updateSharedDeck,
 } from "../utils/deckExportHelpers";
@@ -1174,6 +1175,41 @@ function DeckControls({
     setSavedDeckDrag({ type: "folder", folderId });
   }
 
+async function handleDragonDiceTTSExport() {
+  const ttsString = buildDragonDiceTTSString(deck, cards);
+
+  if (!ttsString) {
+    openMessageModal(
+      setModalState,
+      "Tabletop Simulator Export",
+      "No valid cards found to export.",
+    );
+    return;
+  }
+
+  let copied = false;
+
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(ttsString);
+      copied = true;
+    }
+  } catch (e) {
+    console.warn("Could not copy TTS export to clipboard:", e);
+  }
+
+  openMessageModal(
+    setModalState,
+    copied
+      ? "Tabletop Simulator Export Copied"
+      : "Tabletop Simulator Export",
+    copied
+      ? `Copied to clipboard:\n\n${ttsString}`
+      : `Could not automatically copy to clipboard. You can manually copy this:\n\n${ttsString}`,
+  );
+}
+
+
   async function exportDeck(format) {
     setExportMenuOpen(false);
     const flatDeck = {};
@@ -1197,6 +1233,8 @@ function DeckControls({
         octgnOverrides,
         currentGroupBy,
       );
+    } else if (format === "DRAGON_DICE_TTS") {
+      await handleDragonDiceTTSExport();
     } else if (format === "LINK") {
       await handleShareLink();
     }
@@ -1346,6 +1384,20 @@ function DeckControls({
                     onClick={() => exportDeck("OCTGN")}
                   >
                     OCTGN
+                  </button>
+                )}
+				{settings.dragonDiceTTSExport && (
+                  <button
+                    className={
+                      dropdownHover === 9
+                        ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
+                        : dropdownButtonClass
+                    }
+                    onMouseEnter={() => setDropdownHover(9)}
+                    onMouseLeave={() => setDropdownHover(null)}
+                    onClick={() => exportDeck("DRAGON_DICE_TTS")}
+                  >
+                    Tabletop Simulator
                   </button>
                 )}
                 {settings.pdfDecklistExport && (

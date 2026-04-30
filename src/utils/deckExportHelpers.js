@@ -509,6 +509,42 @@ export async function exportDeckImage(deck, cards, settings, deckName, game) {
   }, "image/png");
 }
 
+// Export deck as TTS string for Dragon Dice ONLY
+export function buildDragonDiceTTSString(deck, cards) {
+  if (!deck || Object.keys(deck).length === 0) {
+    return "";
+  }
+
+  const cardById = new Map((cards || []).map((card) => [card.id, card]));
+  const parts = [];
+
+  for (const [cardId, entry] of Object.entries(deck)) {
+    const qty =
+      entry && typeof entry === "object"
+        ? Number(entry.count || 0)
+        : Number(entry || 0);
+
+    if (!qty || qty <= 0) continue;
+
+    const card = cardById.get(cardId);
+
+    if (!card) {
+      console.warn("TTS export skipped missing card:", cardId);
+      continue;
+    }
+
+    const cardName = card.name || "Unnamed Card";
+
+    parts.push(`${cardName}:${qty}`);
+  }
+
+  if (!parts.length) {
+    return "";
+  }
+
+  return `${parts.join(",")},`;
+}
+
 // Export deck as OCTGN XML
 export async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, currentGroupBy) {
   let base = "/";
