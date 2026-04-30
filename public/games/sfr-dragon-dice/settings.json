@@ -9,14 +9,19 @@
   ],
   "filterOptions": [
 	"Type",
+    "Species",
     "Class",
-    "Eighth Face",
-    "Size",
-    "Species"
+	"Size",
+	"Element"
   ],
+  "filterDelimiter": ",",
   "groupOrder": [],
   "groupSort": {},
-  "searchPrefixes": {},
+  "searchPrefixes": {
+	  "i": "Icons"
+  },
   "octgnExport": true,
-  "imagePackExport": true
+  "imagePackExport": true,
+  "disableFlipCardButton": true,
+  "useGridImageForPreview": true
 }

@@ -1392,11 +1392,13 @@ function DeckControls({
         </div>
 
         <div style={{ width: "220px", marginBottom: "1em" }}>
-          <CardPreview
-            card={selectedCardObj}
-            game={game}
-            extraData={buildCardPreviewProperties(selectedCardObj, settings)}
-          />
+		<CardPreview
+		  card={selectedCardObj}
+		  game={game}
+		  extraData={buildCardPreviewProperties(selectedCardObj, settings)}
+		  disableFlipCardButton={!!settings?.disableFlipCardButton}
+		  useGridImageForPreview={!!settings?.useGridImageForPreview}
+		/>
         </div>
         <SavedDeckLibrary
           savedDeckFolderView={{
