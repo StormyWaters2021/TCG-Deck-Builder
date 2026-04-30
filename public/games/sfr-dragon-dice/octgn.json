@@ -5,7 +5,6 @@
       "name": "Home Terrain",
       "shared": false,
       "criteria": {
-        "Type": ["Major Terrain"],
 		"Subtype": ["Standard"]
       }
     },
@@ -18,8 +17,7 @@
       "name": "Frontier Terrain",
       "shared": false,
       "criteria": {
-        "Type": ["Major Terrain"],
-		"Subtype": ["Standard", "Special"]
+		"Subtype": ["Special"]
       }
     },
     {
