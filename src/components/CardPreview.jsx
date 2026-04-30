@@ -5,12 +5,17 @@ import React, { useRef, useEffect, useMemo, useState } from "react";
 // - alternates (card.alternates[].image) using alt.type as key if possible
 // - back (card.backimage)
 // - unfold (card.unfoldimage)
-function buildFaces(card) {
+function buildFaces(card, useGridImageForPreview = false) {
   if (!card) return [];
 
   const faces = [];
 
-  if (card.image) faces.push({ key: "front", img: card.image });
+  const frontImage =
+    useGridImageForPreview && card["Grid Image"]
+      ? card["Grid Image"]
+      : card.image;
+
+  if (frontImage) faces.push({ key: "front", img: frontImage });
 
   if (Array.isArray(card.alternates)) {
     card.alternates.forEach((alt, idx) => {
@@ -39,9 +44,9 @@ function buildFaces(card) {
 }
 
 // Resolve a URL for a given face key
-function getCardImageUrlForFace(card, game, faceKey) {
+function getCardImageUrlForFace(card, game, faceKey, useGridImageForPreview = false) {
   if (!card) return null;
-  const faces = buildFaces(card);
+  const faces = buildFaces(card, useGridImageForPreview);
   const face = faces.find(f => f.key === faceKey) || faces[0];
   const img = face?.img || null;
   if (!img) return null;
@@ -117,6 +122,10 @@ function CardPreview({
   showButtons = false,
   // array of { label, value } to render under the image
   extraData = null,
+
+  // Game settings
+  disableFlipCardButton = false,
+  useGridImageForPreview = false,
 }) {
   const [imageError, setImageError] = useState(false);
   const [enlarged, setEnlarged] = useState(false);
@@ -129,8 +138,12 @@ function CardPreview({
 
   const canvasRef = useRef();
 
-  const faces = useMemo(() => buildFaces(card), [card]);
-  const canFlip = faces.length > 1;
+	const faces = useMemo(
+	  () => buildFaces(card, useGridImageForPreview),
+	  [card, useGridImageForPreview]
+	);
+
+	const canFlip = !disableFlipCardButton && faces.length > 1;
 
   // Vite base (handles dev/preview/subpath)
   const BASE =
@@ -152,9 +165,9 @@ function CardPreview({
   const missingUrl = `${BASE}games/${game}/art/missing_card.jpg`;
   const currentUsedMissing = !!usedMissing[faceKey];
 
-  const imageUrl = !currentUsedMissing
-    ? getCardImageUrlForFace(card, game, faceKey)
-    : missingUrl;
+const imageUrl = !currentUsedMissing
+  ? getCardImageUrlForFace(card, game, faceKey, useGridImageForPreview)
+  : missingUrl;
 
   // Draw canvas fallback if we can't load an image at all
   useEffect(() => {
