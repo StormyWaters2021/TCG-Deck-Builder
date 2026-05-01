@@ -50,7 +50,8 @@
     "index": "AN",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0213fab4-7267-4c26-8ac2-6306aa7e28ec.png",
-    "Grid Image": "0213fab4-7267-4c26-8ac2-6306aa7e28ec.grid.png"
+    "Grid Image": "0213fab4-7267-4c26-8ac2-6306aa7e28ec.grid.png",
+    "sfr-name": "AIR_MOREHL_FOLLOWER"
   },
   {
     "id": "02f573a9-3351-40d8-a8b7-47f03212e39b",
@@ -103,7 +104,8 @@
     "index": "AO",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "02f573a9-3351-40d8-a8b7-47f03212e39b.png",
-    "Grid Image": "02f573a9-3351-40d8-a8b7-47f03212e39b.grid.png"
+    "Grid Image": "02f573a9-3351-40d8-a8b7-47f03212e39b.grid.png",
+    "sfr-name": "AIR_MOREHL_SPELLBINDER"
   },
   {
     "id": "03fd8d5d-c983-4806-b344-4b33b5b82f48",
@@ -156,7 +158,8 @@
     "index": "AP",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "03fd8d5d-c983-4806-b344-4b33b5b82f48.png",
-    "Grid Image": "03fd8d5d-c983-4806-b344-4b33b5b82f48.grid.png"
+    "Grid Image": "03fd8d5d-c983-4806-b344-4b33b5b82f48.grid.png",
+    "sfr-name": "AIR_MOREHL_SPRINTER"
   },
   {
     "id": "04ecc8e9-8789-422a-b9dd-6f53e10591e3",
@@ -209,7 +212,8 @@
     "index": "AQ",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "04ecc8e9-8789-422a-b9dd-6f53e10591e3.png",
-    "Grid Image": "04ecc8e9-8789-422a-b9dd-6f53e10591e3.grid.png"
+    "Grid Image": "04ecc8e9-8789-422a-b9dd-6f53e10591e3.grid.png",
+    "sfr-name": "AIR_MOREHL_TOXOPHILITE"
   },
   {
     "id": "0509cf8d-fd74-4543-adec-dd2e8190c798",
@@ -262,7 +266,8 @@
     "index": "AR",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0509cf8d-fd74-4543-adec-dd2e8190c798.png",
-    "Grid Image": "0509cf8d-fd74-4543-adec-dd2e8190c798.grid.png"
+    "Grid Image": "0509cf8d-fd74-4543-adec-dd2e8190c798.grid.png",
+    "sfr-name": "AIR_MOREHL_WARDER"
   },
   {
     "id": "054bd3b5-9dd6-44de-8a6f-4ffa8a855795",
@@ -315,7 +320,8 @@
     "index": "AS",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "054bd3b5-9dd6-44de-8a6f-4ffa8a855795.png",
-    "Grid Image": "054bd3b5-9dd6-44de-8a6f-4ffa8a855795.grid.png"
+    "Grid Image": "054bd3b5-9dd6-44de-8a6f-4ffa8a855795.grid.png",
+    "sfr-name": "AIR_SELUMARI_FOLLOWER"
   },
   {
     "id": "059299c1-d1a0-4e74-be81-fae6aaf99303",
@@ -368,7 +374,8 @@
     "index": "AT",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "059299c1-d1a0-4e74-be81-fae6aaf99303.png",
-    "Grid Image": "059299c1-d1a0-4e74-be81-fae6aaf99303.grid.png"
+    "Grid Image": "059299c1-d1a0-4e74-be81-fae6aaf99303.grid.png",
+    "sfr-name": "AIR_SELUMARI_SPELLBINDER"
   },
   {
     "id": "05c2a566-e490-44b6-b6e7-bbd8826e1c5f",
@@ -421,7 +428,8 @@
     "index": "AU",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "05c2a566-e490-44b6-b6e7-bbd8826e1c5f.png",
-    "Grid Image": "05c2a566-e490-44b6-b6e7-bbd8826e1c5f.grid.png"
+    "Grid Image": "05c2a566-e490-44b6-b6e7-bbd8826e1c5f.grid.png",
+    "sfr-name": "AIR_SELUMARI_SPRINTER"
   },
   {
     "id": "0672cce0-59b9-4269-ab6a-38b4d23af69d",
@@ -474,7 +482,8 @@
     "index": "AV",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0672cce0-59b9-4269-ab6a-38b4d23af69d.png",
-    "Grid Image": "0672cce0-59b9-4269-ab6a-38b4d23af69d.grid.png"
+    "Grid Image": "0672cce0-59b9-4269-ab6a-38b4d23af69d.grid.png",
+    "sfr-name": "AIR_SELUMARI_TOXOPHILITE"
   },
   {
     "id": "068f66bc-51cf-4629-812b-0508b912bece",
@@ -527,7 +536,8 @@
     "index": "AW",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "068f66bc-51cf-4629-812b-0508b912bece.png",
-    "Grid Image": "068f66bc-51cf-4629-812b-0508b912bece.grid.png"
+    "Grid Image": "068f66bc-51cf-4629-812b-0508b912bece.grid.png",
+    "sfr-name": "AIR_SELUMARI_WARDER"
   },
   {
     "id": "069883de-4dab-4719-9525-a1d8572ce2d4",
@@ -580,7 +590,8 @@
     "index": "AX",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "069883de-4dab-4719-9525-a1d8572ce2d4.png",
-    "Grid Image": "069883de-4dab-4719-9525-a1d8572ce2d4.grid.png"
+    "Grid Image": "069883de-4dab-4719-9525-a1d8572ce2d4.grid.png",
+    "sfr-name": "AIR_TROG_FOLLOWER"
   },
   {
     "id": "06f94a1d-0f7e-44a4-87c8-66d606300b4d",
@@ -633,7 +644,8 @@
     "index": "AY",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "06f94a1d-0f7e-44a4-87c8-66d606300b4d.png",
-    "Grid Image": "06f94a1d-0f7e-44a4-87c8-66d606300b4d.grid.png"
+    "Grid Image": "06f94a1d-0f7e-44a4-87c8-66d606300b4d.grid.png",
+    "sfr-name": "AIR_TROG_SPELLBINDER"
   },
   {
     "id": "0845d0e1-2cdb-4535-9e59-cb446322fb2f",
@@ -686,7 +698,8 @@
     "index": "AZ",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0845d0e1-2cdb-4535-9e59-cb446322fb2f.png",
-    "Grid Image": "0845d0e1-2cdb-4535-9e59-cb446322fb2f.grid.png"
+    "Grid Image": "0845d0e1-2cdb-4535-9e59-cb446322fb2f.grid.png",
+    "sfr-name": "AIR_TROG_SPRINTER"
   },
   {
     "id": "08626cb3-d984-4463-a31c-d1682d813ed1",
@@ -739,7 +752,8 @@
     "index": "Aa",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "08626cb3-d984-4463-a31c-d1682d813ed1.png",
-    "Grid Image": "08626cb3-d984-4463-a31c-d1682d813ed1.grid.png"
+    "Grid Image": "08626cb3-d984-4463-a31c-d1682d813ed1.grid.png",
+    "sfr-name": "AIR_TROG_TOXOPHILITE"
   },
   {
     "id": "09019762-0293-4412-b56b-db996a9c1cc3",
@@ -792,7 +806,8 @@
     "index": "Ab",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "09019762-0293-4412-b56b-db996a9c1cc3.png",
-    "Grid Image": "09019762-0293-4412-b56b-db996a9c1cc3.grid.png"
+    "Grid Image": "09019762-0293-4412-b56b-db996a9c1cc3.grid.png",
+    "sfr-name": "AIR_TROG_WARDER"
   },
   {
     "id": "09809f80-768f-4f23-9bac-ab9d8ee06206",
@@ -845,7 +860,8 @@
     "index": "Ac",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "09809f80-768f-4f23-9bac-ab9d8ee06206.png",
-    "Grid Image": "09809f80-768f-4f23-9bac-ab9d8ee06206.grid.png"
+    "Grid Image": "09809f80-768f-4f23-9bac-ab9d8ee06206.grid.png",
+    "sfr-name": "AIR_VAGHA_FOLLOWER"
   },
   {
     "id": "09d8ff8b-ecc2-4a53-96d0-145de1589898",
@@ -898,7 +914,8 @@
     "index": "Ad",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "09d8ff8b-ecc2-4a53-96d0-145de1589898.png",
-    "Grid Image": "09d8ff8b-ecc2-4a53-96d0-145de1589898.grid.png"
+    "Grid Image": "09d8ff8b-ecc2-4a53-96d0-145de1589898.grid.png",
+    "sfr-name": "AIR_VAGHA_SPELLBINDER"
   },
   {
     "id": "0a10c9b0-7e33-4e36-948f-a2285bcf7b04",
@@ -951,7 +968,8 @@
     "index": "Ae",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0a10c9b0-7e33-4e36-948f-a2285bcf7b04.png",
-    "Grid Image": "0a10c9b0-7e33-4e36-948f-a2285bcf7b04.grid.png"
+    "Grid Image": "0a10c9b0-7e33-4e36-948f-a2285bcf7b04.grid.png",
+    "sfr-name": "AIR_VAGHA_SPRINTER"
   },
   {
     "id": "0a755c68-fd67-42ef-80ab-8fa760f67f5d",
@@ -1004,7 +1022,8 @@
     "index": "Af",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0a755c68-fd67-42ef-80ab-8fa760f67f5d.png",
-    "Grid Image": "0a755c68-fd67-42ef-80ab-8fa760f67f5d.grid.png"
+    "Grid Image": "0a755c68-fd67-42ef-80ab-8fa760f67f5d.grid.png",
+    "sfr-name": "AIR_VAGHA_TOXOPHILITE"
   },
   {
     "id": "0aa61ab4-bb61-4327-8cbe-aa01e9749eea",
@@ -1057,7 +1076,8 @@
     "index": "Ag",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0aa61ab4-bb61-4327-8cbe-aa01e9749eea.png",
-    "Grid Image": "0aa61ab4-bb61-4327-8cbe-aa01e9749eea.grid.png"
+    "Grid Image": "0aa61ab4-bb61-4327-8cbe-aa01e9749eea.grid.png",
+    "sfr-name": "AIR_VAGHA_WARDER"
   },
   {
     "id": "0ab19e57-85a0-43e2-b3f5-8a128951a40f",
@@ -1110,7 +1130,8 @@
     "index": "Ah",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0ab19e57-85a0-43e2-b3f5-8a128951a40f.png",
-    "Grid Image": "0ab19e57-85a0-43e2-b3f5-8a128951a40f.grid.png"
+    "Grid Image": "0ab19e57-85a0-43e2-b3f5-8a128951a40f.grid.png",
+    "sfr-name": "DEATH_MOREHL_FOLLOWER"
   },
   {
     "id": "0b99c550-77fc-47c6-ac70-80c5117f180d",
@@ -1163,7 +1184,8 @@
     "index": "Ai",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0b99c550-77fc-47c6-ac70-80c5117f180d.png",
-    "Grid Image": "0b99c550-77fc-47c6-ac70-80c5117f180d.grid.png"
+    "Grid Image": "0b99c550-77fc-47c6-ac70-80c5117f180d.grid.png",
+    "sfr-name": "DEATH_MOREHL_SPELLBINDER"
   },
   {
     "id": "0bd96813-7c7c-42ea-b466-97e0d274a446",
@@ -1216,7 +1238,8 @@
     "index": "Aj",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0bd96813-7c7c-42ea-b466-97e0d274a446.png",
-    "Grid Image": "0bd96813-7c7c-42ea-b466-97e0d274a446.grid.png"
+    "Grid Image": "0bd96813-7c7c-42ea-b466-97e0d274a446.grid.png",
+    "sfr-name": "DEATH_MOREHL_SPRINTER"
   },
   {
     "id": "0ca82919-0e05-4111-b7b3-7de02b791084",
@@ -1269,7 +1292,8 @@
     "index": "Ak",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0ca82919-0e05-4111-b7b3-7de02b791084.png",
-    "Grid Image": "0ca82919-0e05-4111-b7b3-7de02b791084.grid.png"
+    "Grid Image": "0ca82919-0e05-4111-b7b3-7de02b791084.grid.png",
+    "sfr-name": "DEATH_MOREHL_TOXOPHILITE"
   },
   {
     "id": "0d708247-6edb-4c23-aa62-e2d32f619a29",
@@ -1322,7 +1346,8 @@
     "index": "Al",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0d708247-6edb-4c23-aa62-e2d32f619a29.png",
-    "Grid Image": "0d708247-6edb-4c23-aa62-e2d32f619a29.grid.png"
+    "Grid Image": "0d708247-6edb-4c23-aa62-e2d32f619a29.grid.png",
+    "sfr-name": "DEATH_MOREHL_WARDER"
   },
   {
     "id": "0df23c73-9c9d-4acd-a180-869bd7ceee6e",
@@ -1375,7 +1400,8 @@
     "index": "Am",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0df23c73-9c9d-4acd-a180-869bd7ceee6e.png",
-    "Grid Image": "0df23c73-9c9d-4acd-a180-869bd7ceee6e.grid.png"
+    "Grid Image": "0df23c73-9c9d-4acd-a180-869bd7ceee6e.grid.png",
+    "sfr-name": "DEATH_SELUMARI_FOLLOWER"
   },
   {
     "id": "0eb76641-786e-4283-b11c-a2a8682f924b",
@@ -1428,7 +1454,8 @@
     "index": "An",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0eb76641-786e-4283-b11c-a2a8682f924b.png",
-    "Grid Image": "0eb76641-786e-4283-b11c-a2a8682f924b.grid.png"
+    "Grid Image": "0eb76641-786e-4283-b11c-a2a8682f924b.grid.png",
+    "sfr-name": "DEATH_SELUMARI_SPELLBINDER"
   },
   {
     "id": "0f7f0a99-8557-4445-97a8-68786a386983",
@@ -1481,7 +1508,8 @@
     "index": "Ao",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "0f7f0a99-8557-4445-97a8-68786a386983.png",
-    "Grid Image": "0f7f0a99-8557-4445-97a8-68786a386983.grid.png"
+    "Grid Image": "0f7f0a99-8557-4445-97a8-68786a386983.grid.png",
+    "sfr-name": "DEATH_SELUMARI_SPRINTER"
   },
   {
     "id": "1025804b-e6d5-4f63-bb0c-8ca3bbf50711",
@@ -1534,7 +1562,8 @@
     "index": "Ap",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1025804b-e6d5-4f63-bb0c-8ca3bbf50711.png",
-    "Grid Image": "1025804b-e6d5-4f63-bb0c-8ca3bbf50711.grid.png"
+    "Grid Image": "1025804b-e6d5-4f63-bb0c-8ca3bbf50711.grid.png",
+    "sfr-name": "DEATH_SELUMARI_TOXOPHILITE"
   },
   {
     "id": "106d4f0c-ea6e-484d-99be-a043de08b78f",
@@ -1587,7 +1616,8 @@
     "index": "Aq",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "106d4f0c-ea6e-484d-99be-a043de08b78f.png",
-    "Grid Image": "106d4f0c-ea6e-484d-99be-a043de08b78f.grid.png"
+    "Grid Image": "106d4f0c-ea6e-484d-99be-a043de08b78f.grid.png",
+    "sfr-name": "DEATH_SELUMARI_WARDER"
   },
   {
     "id": "118b5ea2-2276-4216-a05e-24120f142a17",
@@ -1640,7 +1670,8 @@
     "index": "Ar",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "118b5ea2-2276-4216-a05e-24120f142a17.png",
-    "Grid Image": "118b5ea2-2276-4216-a05e-24120f142a17.grid.png"
+    "Grid Image": "118b5ea2-2276-4216-a05e-24120f142a17.grid.png",
+    "sfr-name": "DEATH_TROG_FOLLOWER"
   },
   {
     "id": "11d7548c-9f0f-4225-bc3d-8f81d9c40bd5",
@@ -1693,7 +1724,8 @@
     "index": "As",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "11d7548c-9f0f-4225-bc3d-8f81d9c40bd5.png",
-    "Grid Image": "11d7548c-9f0f-4225-bc3d-8f81d9c40bd5.grid.png"
+    "Grid Image": "11d7548c-9f0f-4225-bc3d-8f81d9c40bd5.grid.png",
+    "sfr-name": "DEATH_TROG_SPELLBINDER"
   },
   {
     "id": "13727c09-ecce-4139-8a50-66d8c35f0fc0",
@@ -1746,7 +1778,8 @@
     "index": "At",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "13727c09-ecce-4139-8a50-66d8c35f0fc0.png",
-    "Grid Image": "13727c09-ecce-4139-8a50-66d8c35f0fc0.grid.png"
+    "Grid Image": "13727c09-ecce-4139-8a50-66d8c35f0fc0.grid.png",
+    "sfr-name": "DEATH_TROG_SPRINTER"
   },
   {
     "id": "1437de7d-956b-4448-9ce7-d923657a5610",
@@ -1799,7 +1832,8 @@
     "index": "Au",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1437de7d-956b-4448-9ce7-d923657a5610.png",
-    "Grid Image": "1437de7d-956b-4448-9ce7-d923657a5610.grid.png"
+    "Grid Image": "1437de7d-956b-4448-9ce7-d923657a5610.grid.png",
+    "sfr-name": "DEATH_TROG_TOXOPHILITE"
   },
   {
     "id": "15dd7f75-41d9-467d-b31a-124b4850a12c",
@@ -1852,7 +1886,8 @@
     "index": "Av",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "15dd7f75-41d9-467d-b31a-124b4850a12c.png",
-    "Grid Image": "15dd7f75-41d9-467d-b31a-124b4850a12c.grid.png"
+    "Grid Image": "15dd7f75-41d9-467d-b31a-124b4850a12c.grid.png",
+    "sfr-name": "DEATH_TROG_WARDER"
   },
   {
     "id": "1614f980-1182-48e8-881d-f8535a865925",
@@ -1905,7 +1940,8 @@
     "index": "Aw",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1614f980-1182-48e8-881d-f8535a865925.png",
-    "Grid Image": "1614f980-1182-48e8-881d-f8535a865925.grid.png"
+    "Grid Image": "1614f980-1182-48e8-881d-f8535a865925.grid.png",
+    "sfr-name": "DEATH_VAGHA_FOLLOWER"
   },
   {
     "id": "164c2e96-80a0-469d-88de-b78ceb2bbe73",
@@ -1958,7 +1994,8 @@
     "index": "Ax",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "164c2e96-80a0-469d-88de-b78ceb2bbe73.png",
-    "Grid Image": "164c2e96-80a0-469d-88de-b78ceb2bbe73.grid.png"
+    "Grid Image": "164c2e96-80a0-469d-88de-b78ceb2bbe73.grid.png",
+    "sfr-name": "DEATH_VAGHA_SPELLBINDER"
   },
   {
     "id": "16dbe862-874d-4e77-b02d-1d1df9ba9c7e",
@@ -2011,7 +2048,8 @@
     "index": "Ay",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "16dbe862-874d-4e77-b02d-1d1df9ba9c7e.png",
-    "Grid Image": "16dbe862-874d-4e77-b02d-1d1df9ba9c7e.grid.png"
+    "Grid Image": "16dbe862-874d-4e77-b02d-1d1df9ba9c7e.grid.png",
+    "sfr-name": "DEATH_VAGHA_SPRINTER"
   },
   {
     "id": "17dab6e3-5606-4e48-aba2-c58231b69e5b",
@@ -2064,7 +2102,8 @@
     "index": "Az",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "17dab6e3-5606-4e48-aba2-c58231b69e5b.png",
-    "Grid Image": "17dab6e3-5606-4e48-aba2-c58231b69e5b.grid.png"
+    "Grid Image": "17dab6e3-5606-4e48-aba2-c58231b69e5b.grid.png",
+    "sfr-name": "DEATH_VAGHA_TOXOPHILITE"
   },
   {
     "id": "1837ad64-33ed-4e93-b7a9-f23babc6741c",
@@ -2117,7 +2156,8 @@
     "index": "B0",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1837ad64-33ed-4e93-b7a9-f23babc6741c.png",
-    "Grid Image": "1837ad64-33ed-4e93-b7a9-f23babc6741c.grid.png"
+    "Grid Image": "1837ad64-33ed-4e93-b7a9-f23babc6741c.grid.png",
+    "sfr-name": "DEATH_VAGHA_WARDER"
   },
   {
     "id": "19a4a4d1-d2a5-44d7-8f2e-ee80864ba42d",
@@ -2170,7 +2210,8 @@
     "index": "B1",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "19a4a4d1-d2a5-44d7-8f2e-ee80864ba42d.png",
-    "Grid Image": "19a4a4d1-d2a5-44d7-8f2e-ee80864ba42d.grid.png"
+    "Grid Image": "19a4a4d1-d2a5-44d7-8f2e-ee80864ba42d.grid.png",
+    "sfr-name": "FIRE_MOREHL_FOLLOWER"
   },
   {
     "id": "19f83288-ae77-4e6f-ad18-59a3cef87790",
@@ -2223,7 +2264,8 @@
     "index": "B2",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "19f83288-ae77-4e6f-ad18-59a3cef87790.png",
-    "Grid Image": "19f83288-ae77-4e6f-ad18-59a3cef87790.grid.png"
+    "Grid Image": "19f83288-ae77-4e6f-ad18-59a3cef87790.grid.png",
+    "sfr-name": "FIRE_MOREHL_SPELLBINDER"
   },
   {
     "id": "1a039e60-4d5b-4f10-aea5-25c5d699097f",
@@ -2276,7 +2318,8 @@
     "index": "B3",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1a039e60-4d5b-4f10-aea5-25c5d699097f.png",
-    "Grid Image": "1a039e60-4d5b-4f10-aea5-25c5d699097f.grid.png"
+    "Grid Image": "1a039e60-4d5b-4f10-aea5-25c5d699097f.grid.png",
+    "sfr-name": "FIRE_MOREHL_SPRINTER"
   },
   {
     "id": "1a4e39aa-deba-4a3e-ba78-93e74ee71f6b",
@@ -2329,7 +2372,8 @@
     "index": "B4",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1a4e39aa-deba-4a3e-ba78-93e74ee71f6b.png",
-    "Grid Image": "1a4e39aa-deba-4a3e-ba78-93e74ee71f6b.grid.png"
+    "Grid Image": "1a4e39aa-deba-4a3e-ba78-93e74ee71f6b.grid.png",
+    "sfr-name": "FIRE_MOREHL_TOXOPHILITE"
   },
   {
     "id": "1a88d36e-b2f3-4fd5-95b9-853185c22e92",
@@ -2382,7 +2426,8 @@
     "index": "B5",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1a88d36e-b2f3-4fd5-95b9-853185c22e92.png",
-    "Grid Image": "1a88d36e-b2f3-4fd5-95b9-853185c22e92.grid.png"
+    "Grid Image": "1a88d36e-b2f3-4fd5-95b9-853185c22e92.grid.png",
+    "sfr-name": "FIRE_MOREHL_WARDER"
   },
   {
     "id": "1aaf75c4-2584-4553-bd27-ea4756bbb253",
@@ -2435,7 +2480,8 @@
     "index": "B6",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1aaf75c4-2584-4553-bd27-ea4756bbb253.png",
-    "Grid Image": "1aaf75c4-2584-4553-bd27-ea4756bbb253.grid.png"
+    "Grid Image": "1aaf75c4-2584-4553-bd27-ea4756bbb253.grid.png",
+    "sfr-name": "FIRE_SELUMARI_FOLLOWER"
   },
   {
     "id": "1ade32df-64be-42b5-bd31-597952416116",
@@ -2488,7 +2534,8 @@
     "index": "B7",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1ade32df-64be-42b5-bd31-597952416116.png",
-    "Grid Image": "1ade32df-64be-42b5-bd31-597952416116.grid.png"
+    "Grid Image": "1ade32df-64be-42b5-bd31-597952416116.grid.png",
+    "sfr-name": "FIRE_SELUMARI_SPELLBINDER"
   },
   {
     "id": "1c902cdb-4e84-4521-bab8-b8106d509495",
@@ -2541,7 +2588,8 @@
     "index": "B8",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1c902cdb-4e84-4521-bab8-b8106d509495.png",
-    "Grid Image": "1c902cdb-4e84-4521-bab8-b8106d509495.grid.png"
+    "Grid Image": "1c902cdb-4e84-4521-bab8-b8106d509495.grid.png",
+    "sfr-name": "FIRE_SELUMARI_SPRINTER"
   },
   {
     "id": "1ea19811-6d74-448b-a26f-57ba3df4c64b",
@@ -2594,7 +2642,8 @@
     "index": "B9",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1ea19811-6d74-448b-a26f-57ba3df4c64b.png",
-    "Grid Image": "1ea19811-6d74-448b-a26f-57ba3df4c64b.grid.png"
+    "Grid Image": "1ea19811-6d74-448b-a26f-57ba3df4c64b.grid.png",
+    "sfr-name": "FIRE_SELUMARI_TOXOPHILITE"
   },
   {
     "id": "1ed274e4-e06e-43e9-8c34-33678bfac2c9",
@@ -2647,7 +2696,8 @@
     "index": "BA",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1ed274e4-e06e-43e9-8c34-33678bfac2c9.png",
-    "Grid Image": "1ed274e4-e06e-43e9-8c34-33678bfac2c9.grid.png"
+    "Grid Image": "1ed274e4-e06e-43e9-8c34-33678bfac2c9.grid.png",
+    "sfr-name": "FIRE_SELUMARI_WARDER"
   },
   {
     "id": "1ef06010-e0c4-4ea6-b199-f90f41d97125",
@@ -2700,7 +2750,8 @@
     "index": "BB",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1ef06010-e0c4-4ea6-b199-f90f41d97125.png",
-    "Grid Image": "1ef06010-e0c4-4ea6-b199-f90f41d97125.grid.png"
+    "Grid Image": "1ef06010-e0c4-4ea6-b199-f90f41d97125.grid.png",
+    "sfr-name": "FIRE_TROG_FOLLOWER"
   },
   {
     "id": "1f54d13d-ea45-4a0c-b841-5c0796074d8e",
@@ -2753,7 +2804,8 @@
     "index": "BC",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1f54d13d-ea45-4a0c-b841-5c0796074d8e.png",
-    "Grid Image": "1f54d13d-ea45-4a0c-b841-5c0796074d8e.grid.png"
+    "Grid Image": "1f54d13d-ea45-4a0c-b841-5c0796074d8e.grid.png",
+    "sfr-name": "FIRE_TROG_SPELLBINDER"
   },
   {
     "id": "1f63f69b-815c-4161-96c1-4a3aa4f00187",
@@ -2806,7 +2858,8 @@
     "index": "BD",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1f63f69b-815c-4161-96c1-4a3aa4f00187.png",
-    "Grid Image": "1f63f69b-815c-4161-96c1-4a3aa4f00187.grid.png"
+    "Grid Image": "1f63f69b-815c-4161-96c1-4a3aa4f00187.grid.png",
+    "sfr-name": "FIRE_TROG_SPRINTER"
   },
   {
     "id": "1f92ba70-2b1e-4611-a509-57b46fa7c519",
@@ -2859,7 +2912,8 @@
     "index": "BE",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1f92ba70-2b1e-4611-a509-57b46fa7c519.png",
-    "Grid Image": "1f92ba70-2b1e-4611-a509-57b46fa7c519.grid.png"
+    "Grid Image": "1f92ba70-2b1e-4611-a509-57b46fa7c519.grid.png",
+    "sfr-name": "FIRE_TROG_TOXOPHILITE"
   },
   {
     "id": "1f9f4d5b-0fe8-4d9b-a31e-f3e2d445500c",
@@ -2912,7 +2966,8 @@
     "index": "BF",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1f9f4d5b-0fe8-4d9b-a31e-f3e2d445500c.png",
-    "Grid Image": "1f9f4d5b-0fe8-4d9b-a31e-f3e2d445500c.grid.png"
+    "Grid Image": "1f9f4d5b-0fe8-4d9b-a31e-f3e2d445500c.grid.png",
+    "sfr-name": "FIRE_TROG_WARDER"
   },
   {
     "id": "1fd758f1-2f6f-4b6a-a7b4-ce3ffbfc3efc",
@@ -2965,7 +3020,8 @@
     "index": "BG",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1fd758f1-2f6f-4b6a-a7b4-ce3ffbfc3efc.png",
-    "Grid Image": "1fd758f1-2f6f-4b6a-a7b4-ce3ffbfc3efc.grid.png"
+    "Grid Image": "1fd758f1-2f6f-4b6a-a7b4-ce3ffbfc3efc.grid.png",
+    "sfr-name": "FIRE_VAGHA_FOLLOWER"
   },
   {
     "id": "1fe0873e-d537-49a2-b8f0-e7920f728237",
@@ -3018,7 +3074,8 @@
     "index": "BH",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "1fe0873e-d537-49a2-b8f0-e7920f728237.png",
-    "Grid Image": "1fe0873e-d537-49a2-b8f0-e7920f728237.grid.png"
+    "Grid Image": "1fe0873e-d537-49a2-b8f0-e7920f728237.grid.png",
+    "sfr-name": "FIRE_VAGHA_SPELLBINDER"
   },
   {
     "id": "21eddc93-a9cf-44c1-a64d-9bfe4028662f",
@@ -3071,7 +3128,8 @@
     "index": "BI",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "21eddc93-a9cf-44c1-a64d-9bfe4028662f.png",
-    "Grid Image": "21eddc93-a9cf-44c1-a64d-9bfe4028662f.grid.png"
+    "Grid Image": "21eddc93-a9cf-44c1-a64d-9bfe4028662f.grid.png",
+    "sfr-name": "FIRE_VAGHA_SPRINTER"
   },
   {
     "id": "22358a98-2665-4a0e-a77a-57c41cb61991",
@@ -3124,7 +3182,8 @@
     "index": "BJ",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "22358a98-2665-4a0e-a77a-57c41cb61991.png",
-    "Grid Image": "22358a98-2665-4a0e-a77a-57c41cb61991.grid.png"
+    "Grid Image": "22358a98-2665-4a0e-a77a-57c41cb61991.grid.png",
+    "sfr-name": "FIRE_VAGHA_TOXOPHILITE"
   },
   {
     "id": "231f2615-c824-43c0-a12e-938cf25a92eb",
@@ -3177,7 +3236,8 @@
     "index": "BK",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "231f2615-c824-43c0-a12e-938cf25a92eb.png",
-    "Grid Image": "231f2615-c824-43c0-a12e-938cf25a92eb.grid.png"
+    "Grid Image": "231f2615-c824-43c0-a12e-938cf25a92eb.grid.png",
+    "sfr-name": "FIRE_VAGHA_WARDER"
   },
   {
     "id": "24ac2b1b-a664-4ffe-ad30-a0c0d291486e",
@@ -3230,7 +3290,8 @@
     "index": "BL",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "24ac2b1b-a664-4ffe-ad30-a0c0d291486e.png",
-    "Grid Image": "24ac2b1b-a664-4ffe-ad30-a0c0d291486e.grid.png"
+    "Grid Image": "24ac2b1b-a664-4ffe-ad30-a0c0d291486e.grid.png",
+    "sfr-name": "WATER_MOREHL_FOLLOWER"
   },
   {
     "id": "250cc694-5446-4703-bacb-5d00503f6f0c",
@@ -3283,7 +3344,8 @@
     "index": "BM",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "250cc694-5446-4703-bacb-5d00503f6f0c.png",
-    "Grid Image": "250cc694-5446-4703-bacb-5d00503f6f0c.grid.png"
+    "Grid Image": "250cc694-5446-4703-bacb-5d00503f6f0c.grid.png",
+    "sfr-name": "WATER_MOREHL_SPELLBINDER"
   },
   {
     "id": "26f66a67-4cdf-4d26-84d4-60eb22ae69b7",
@@ -3336,7 +3398,8 @@
     "index": "BN",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "26f66a67-4cdf-4d26-84d4-60eb22ae69b7.png",
-    "Grid Image": "26f66a67-4cdf-4d26-84d4-60eb22ae69b7.grid.png"
+    "Grid Image": "26f66a67-4cdf-4d26-84d4-60eb22ae69b7.grid.png",
+    "sfr-name": "WATER_MOREHL_SPRINTER"
   },
   {
     "id": "275ca355-acd5-4719-9ce8-5d0f704986be",
@@ -3389,7 +3452,8 @@
     "index": "BO",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "275ca355-acd5-4719-9ce8-5d0f704986be.png",
-    "Grid Image": "275ca355-acd5-4719-9ce8-5d0f704986be.grid.png"
+    "Grid Image": "275ca355-acd5-4719-9ce8-5d0f704986be.grid.png",
+    "sfr-name": "WATER_MOREHL_TOXOPHILITE"
   },
   {
     "id": "282ae39b-a06d-407a-a651-d3c44d5f2f5c",
@@ -3442,7 +3506,8 @@
     "index": "BP",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "282ae39b-a06d-407a-a651-d3c44d5f2f5c.png",
-    "Grid Image": "282ae39b-a06d-407a-a651-d3c44d5f2f5c.grid.png"
+    "Grid Image": "282ae39b-a06d-407a-a651-d3c44d5f2f5c.grid.png",
+    "sfr-name": "WATER_MOREHL_WARDER"
   },
   {
     "id": "28609778-9c70-4440-87ac-6a0cce942238",
@@ -3495,7 +3560,8 @@
     "index": "BQ",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "28609778-9c70-4440-87ac-6a0cce942238.png",
-    "Grid Image": "28609778-9c70-4440-87ac-6a0cce942238.grid.png"
+    "Grid Image": "28609778-9c70-4440-87ac-6a0cce942238.grid.png",
+    "sfr-name": "WATER_SELUMARI_FOLLOWER"
   },
   {
     "id": "28e2b53d-6c7d-429b-928c-3a25603ff558",
@@ -3548,7 +3614,8 @@
     "index": "BR",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "28e2b53d-6c7d-429b-928c-3a25603ff558.png",
-    "Grid Image": "28e2b53d-6c7d-429b-928c-3a25603ff558.grid.png"
+    "Grid Image": "28e2b53d-6c7d-429b-928c-3a25603ff558.grid.png",
+    "sfr-name": "WATER_SELUMARI_SPELLBINDER"
   },
   {
     "id": "293b035d-cacc-4358-8f13-19745912f1bb",
@@ -3601,7 +3668,8 @@
     "index": "BS",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "293b035d-cacc-4358-8f13-19745912f1bb.png",
-    "Grid Image": "293b035d-cacc-4358-8f13-19745912f1bb.grid.png"
+    "Grid Image": "293b035d-cacc-4358-8f13-19745912f1bb.grid.png",
+    "sfr-name": "WATER_SELUMARI_SPRINTER"
   },
   {
     "id": "2963487a-4abf-46cb-bed8-ab7f242c8571",
@@ -3654,7 +3722,8 @@
     "index": "BT",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "2963487a-4abf-46cb-bed8-ab7f242c8571.png",
-    "Grid Image": "2963487a-4abf-46cb-bed8-ab7f242c8571.grid.png"
+    "Grid Image": "2963487a-4abf-46cb-bed8-ab7f242c8571.grid.png",
+    "sfr-name": "WATER_SELUMARI_TOXOPHILITE"
   },
   {
     "id": "2d014609-bd2d-4442-a766-6b11af3d948d",
@@ -3707,7 +3776,8 @@
     "index": "BU",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "2d014609-bd2d-4442-a766-6b11af3d948d.png",
-    "Grid Image": "2d014609-bd2d-4442-a766-6b11af3d948d.grid.png"
+    "Grid Image": "2d014609-bd2d-4442-a766-6b11af3d948d.grid.png",
+    "sfr-name": "WATER_SELUMARI_WARDER"
   },
   {
     "id": "2d17ede1-9c4c-4706-80eb-961be2d38043",
@@ -3760,7 +3830,8 @@
     "index": "BV",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "2d17ede1-9c4c-4706-80eb-961be2d38043.png",
-    "Grid Image": "2d17ede1-9c4c-4706-80eb-961be2d38043.grid.png"
+    "Grid Image": "2d17ede1-9c4c-4706-80eb-961be2d38043.grid.png",
+    "sfr-name": "WATER_TROG_FOLLOWER"
   },
   {
     "id": "2d3049b1-e547-4664-a2e2-f32d0d314675",
@@ -3813,7 +3884,8 @@
     "index": "BW",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "2d3049b1-e547-4664-a2e2-f32d0d314675.png",
-    "Grid Image": "2d3049b1-e547-4664-a2e2-f32d0d314675.grid.png"
+    "Grid Image": "2d3049b1-e547-4664-a2e2-f32d0d314675.grid.png",
+    "sfr-name": "WATER_TROG_SPELLBINDER"
   },
   {
     "id": "2d3c0114-cd5d-449e-b2c8-2e8ed7ef085a",
@@ -3866,7 +3938,8 @@
     "index": "BX",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "2d3c0114-cd5d-449e-b2c8-2e8ed7ef085a.png",
-    "Grid Image": "2d3c0114-cd5d-449e-b2c8-2e8ed7ef085a.grid.png"
+    "Grid Image": "2d3c0114-cd5d-449e-b2c8-2e8ed7ef085a.grid.png",
+    "sfr-name": "WATER_TROG_SPRINTER"
   },
   {
     "id": "2d83f60a-f398-4020-b676-b10fb1e9743d",
@@ -3919,7 +3992,8 @@
     "index": "BY",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "2d83f60a-f398-4020-b676-b10fb1e9743d.png",
-    "Grid Image": "2d83f60a-f398-4020-b676-b10fb1e9743d.grid.png"
+    "Grid Image": "2d83f60a-f398-4020-b676-b10fb1e9743d.grid.png",
+    "sfr-name": "WATER_TROG_TOXOPHILITE"
   },
   {
     "id": "2dec67a8-488a-4af7-bf03-e867d866a500",
@@ -3972,7 +4046,8 @@
     "index": "BZ",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "2dec67a8-488a-4af7-bf03-e867d866a500.png",
-    "Grid Image": "2dec67a8-488a-4af7-bf03-e867d866a500.grid.png"
+    "Grid Image": "2dec67a8-488a-4af7-bf03-e867d866a500.grid.png",
+    "sfr-name": "WATER_TROG_WARDER"
   },
   {
     "id": "2df21772-e521-4198-a95f-e129f2e28c0b",
@@ -4025,7 +4100,8 @@
     "index": "Ba",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "2df21772-e521-4198-a95f-e129f2e28c0b.png",
-    "Grid Image": "2df21772-e521-4198-a95f-e129f2e28c0b.grid.png"
+    "Grid Image": "2df21772-e521-4198-a95f-e129f2e28c0b.grid.png",
+    "sfr-name": "WATER_VAGHA_FOLLOWER"
   },
   {
     "id": "2e13ce93-1330-45fc-bfdd-8663acf0fcb8",
@@ -4078,7 +4154,8 @@
     "index": "Bb",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "2e13ce93-1330-45fc-bfdd-8663acf0fcb8.png",
-    "Grid Image": "2e13ce93-1330-45fc-bfdd-8663acf0fcb8.grid.png"
+    "Grid Image": "2e13ce93-1330-45fc-bfdd-8663acf0fcb8.grid.png",
+    "sfr-name": "WATER_VAGHA_SPELLBINDER"
   },
   {
     "id": "2f0493b8-63f3-4491-97cb-4e42c88c8e42",
@@ -4131,7 +4208,8 @@
     "index": "Bc",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "2f0493b8-63f3-4491-97cb-4e42c88c8e42.png",
-    "Grid Image": "2f0493b8-63f3-4491-97cb-4e42c88c8e42.grid.png"
+    "Grid Image": "2f0493b8-63f3-4491-97cb-4e42c88c8e42.grid.png",
+    "sfr-name": "WATER_VAGHA_SPRINTER"
   },
   {
     "id": "3004b6e2-d501-4981-be93-18dcc5e4b116",
@@ -4184,7 +4262,8 @@
     "index": "Bd",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3004b6e2-d501-4981-be93-18dcc5e4b116.png",
-    "Grid Image": "3004b6e2-d501-4981-be93-18dcc5e4b116.grid.png"
+    "Grid Image": "3004b6e2-d501-4981-be93-18dcc5e4b116.grid.png",
+    "sfr-name": "WATER_VAGHA_TOXOPHILITE"
   },
   {
     "id": "309cb611-f8ae-4ea2-a411-696688c2d6e1",
@@ -4237,7 +4316,8 @@
     "index": "Be",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "309cb611-f8ae-4ea2-a411-696688c2d6e1.png",
-    "Grid Image": "309cb611-f8ae-4ea2-a411-696688c2d6e1.grid.png"
+    "Grid Image": "309cb611-f8ae-4ea2-a411-696688c2d6e1.grid.png",
+    "sfr-name": "WATER_VAGHA_WARDER"
   },
   {
     "id": "30f7102a-751e-4ed8-91e6-b380784e4729",
@@ -4290,7 +4370,8 @@
     "index": "Bf",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "30f7102a-751e-4ed8-91e6-b380784e4729.png",
-    "Grid Image": "30f7102a-751e-4ed8-91e6-b380784e4729.grid.png"
+    "Grid Image": "30f7102a-751e-4ed8-91e6-b380784e4729.grid.png",
+    "sfr-name": "EARTH_MOREHL_FOLLOWER"
   },
   {
     "id": "312d01dc-7f17-4a0d-ab30-03f131b36719",
@@ -4343,7 +4424,8 @@
     "index": "Bg",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "312d01dc-7f17-4a0d-ab30-03f131b36719.png",
-    "Grid Image": "312d01dc-7f17-4a0d-ab30-03f131b36719.grid.png"
+    "Grid Image": "312d01dc-7f17-4a0d-ab30-03f131b36719.grid.png",
+    "sfr-name": "EARTH_MOREHL_SPELLBINDER"
   },
   {
     "id": "328e64b6-850a-45ab-ad0a-ac2b50c92c45",
@@ -4396,7 +4478,8 @@
     "index": "Bh",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "328e64b6-850a-45ab-ad0a-ac2b50c92c45.png",
-    "Grid Image": "328e64b6-850a-45ab-ad0a-ac2b50c92c45.grid.png"
+    "Grid Image": "328e64b6-850a-45ab-ad0a-ac2b50c92c45.grid.png",
+    "sfr-name": "EARTH_MOREHL_SPRINTER"
   },
   {
     "id": "32d295f0-ad83-4164-87e6-1e4a6021e826",
@@ -4449,7 +4532,8 @@
     "index": "Bi",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "32d295f0-ad83-4164-87e6-1e4a6021e826.png",
-    "Grid Image": "32d295f0-ad83-4164-87e6-1e4a6021e826.grid.png"
+    "Grid Image": "32d295f0-ad83-4164-87e6-1e4a6021e826.grid.png",
+    "sfr-name": "EARTH_MOREHL_TOXOPHILITE"
   },
   {
     "id": "3308b2e6-00f5-478d-ab6f-f7be05961e6c",
@@ -4502,7 +4586,8 @@
     "index": "Bj",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3308b2e6-00f5-478d-ab6f-f7be05961e6c.png",
-    "Grid Image": "3308b2e6-00f5-478d-ab6f-f7be05961e6c.grid.png"
+    "Grid Image": "3308b2e6-00f5-478d-ab6f-f7be05961e6c.grid.png",
+    "sfr-name": "EARTH_MOREHL_WARDER"
   },
   {
     "id": "33a14cd4-c261-43f3-b080-220fd0db4bfc",
@@ -4555,7 +4640,8 @@
     "index": "Bk",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "33a14cd4-c261-43f3-b080-220fd0db4bfc.png",
-    "Grid Image": "33a14cd4-c261-43f3-b080-220fd0db4bfc.grid.png"
+    "Grid Image": "33a14cd4-c261-43f3-b080-220fd0db4bfc.grid.png",
+    "sfr-name": "EARTH_SELUMARI_FOLLOWER"
   },
   {
     "id": "3451cf40-edb5-4346-adab-5bb2e0b499e9",
@@ -4608,7 +4694,8 @@
     "index": "Bl",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3451cf40-edb5-4346-adab-5bb2e0b499e9.png",
-    "Grid Image": "3451cf40-edb5-4346-adab-5bb2e0b499e9.grid.png"
+    "Grid Image": "3451cf40-edb5-4346-adab-5bb2e0b499e9.grid.png",
+    "sfr-name": "EARTH_SELUMARI_SPELLBINDER"
   },
   {
     "id": "34cdae70-3ec3-431d-a57d-496a2afcf0b7",
@@ -4661,7 +4748,8 @@
     "index": "Bm",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "34cdae70-3ec3-431d-a57d-496a2afcf0b7.png",
-    "Grid Image": "34cdae70-3ec3-431d-a57d-496a2afcf0b7.grid.png"
+    "Grid Image": "34cdae70-3ec3-431d-a57d-496a2afcf0b7.grid.png",
+    "sfr-name": "EARTH_SELUMARI_SPRINTER"
   },
   {
     "id": "352885b3-1818-4177-b1cd-a95ded5ab68c",
@@ -4714,7 +4802,8 @@
     "index": "Bn",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "352885b3-1818-4177-b1cd-a95ded5ab68c.png",
-    "Grid Image": "352885b3-1818-4177-b1cd-a95ded5ab68c.grid.png"
+    "Grid Image": "352885b3-1818-4177-b1cd-a95ded5ab68c.grid.png",
+    "sfr-name": "EARTH_SELUMARI_TOXOPHILITE"
   },
   {
     "id": "35632e7e-f2b2-4960-b6a3-575c6af03be7",
@@ -4767,7 +4856,8 @@
     "index": "Bo",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "35632e7e-f2b2-4960-b6a3-575c6af03be7.png",
-    "Grid Image": "35632e7e-f2b2-4960-b6a3-575c6af03be7.grid.png"
+    "Grid Image": "35632e7e-f2b2-4960-b6a3-575c6af03be7.grid.png",
+    "sfr-name": "EARTH_SELUMARI_WARDER"
   },
   {
     "id": "35e9d81b-f868-44bc-91d7-05027b236cdc",
@@ -4820,7 +4910,8 @@
     "index": "Bp",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "35e9d81b-f868-44bc-91d7-05027b236cdc.png",
-    "Grid Image": "35e9d81b-f868-44bc-91d7-05027b236cdc.grid.png"
+    "Grid Image": "35e9d81b-f868-44bc-91d7-05027b236cdc.grid.png",
+    "sfr-name": "EARTH_TROG_FOLLOWER"
   },
   {
     "id": "36524bc0-8f8a-4a34-a3d7-f065b7447bac",
@@ -4873,7 +4964,8 @@
     "index": "Bq",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "36524bc0-8f8a-4a34-a3d7-f065b7447bac.png",
-    "Grid Image": "36524bc0-8f8a-4a34-a3d7-f065b7447bac.grid.png"
+    "Grid Image": "36524bc0-8f8a-4a34-a3d7-f065b7447bac.grid.png",
+    "sfr-name": "EARTH_TROG_SPELLBINDER"
   },
   {
     "id": "368ad486-178e-4b68-8054-f05e4adca357",
@@ -4926,7 +5018,8 @@
     "index": "Br",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "368ad486-178e-4b68-8054-f05e4adca357.png",
-    "Grid Image": "368ad486-178e-4b68-8054-f05e4adca357.grid.png"
+    "Grid Image": "368ad486-178e-4b68-8054-f05e4adca357.grid.png",
+    "sfr-name": "EARTH_TROG_SPRINTER"
   },
   {
     "id": "36f1d7d8-a6f0-4dd1-b3e6-5a64c9fda456",
@@ -4979,7 +5072,8 @@
     "index": "Bs",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "36f1d7d8-a6f0-4dd1-b3e6-5a64c9fda456.png",
-    "Grid Image": "36f1d7d8-a6f0-4dd1-b3e6-5a64c9fda456.grid.png"
+    "Grid Image": "36f1d7d8-a6f0-4dd1-b3e6-5a64c9fda456.grid.png",
+    "sfr-name": "EARTH_TROG_TOXOPHILITE"
   },
   {
     "id": "37bd4de4-26cd-4228-af73-21701d2ac786",
@@ -5032,7 +5126,8 @@
     "index": "Bt",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "37bd4de4-26cd-4228-af73-21701d2ac786.png",
-    "Grid Image": "37bd4de4-26cd-4228-af73-21701d2ac786.grid.png"
+    "Grid Image": "37bd4de4-26cd-4228-af73-21701d2ac786.grid.png",
+    "sfr-name": "EARTH_TROG_WARDER"
   },
   {
     "id": "37cca9d3-79a0-4391-9130-630ba54a58bb",
@@ -5085,7 +5180,8 @@
     "index": "Bu",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "37cca9d3-79a0-4391-9130-630ba54a58bb.png",
-    "Grid Image": "37cca9d3-79a0-4391-9130-630ba54a58bb.grid.png"
+    "Grid Image": "37cca9d3-79a0-4391-9130-630ba54a58bb.grid.png",
+    "sfr-name": "EARTH_VAGHA_FOLLOWER"
   },
   {
     "id": "382cdc06-1777-4f98-9aa8-bab33d6351a5",
@@ -5138,7 +5234,8 @@
     "index": "Bv",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "382cdc06-1777-4f98-9aa8-bab33d6351a5.png",
-    "Grid Image": "382cdc06-1777-4f98-9aa8-bab33d6351a5.grid.png"
+    "Grid Image": "382cdc06-1777-4f98-9aa8-bab33d6351a5.grid.png",
+    "sfr-name": "EARTH_VAGHA_SPELLBINDER"
   },
   {
     "id": "386fb773-d4d6-42c6-b695-c9cb810a0695",
@@ -5191,7 +5288,8 @@
     "index": "Bw",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "386fb773-d4d6-42c6-b695-c9cb810a0695.png",
-    "Grid Image": "386fb773-d4d6-42c6-b695-c9cb810a0695.grid.png"
+    "Grid Image": "386fb773-d4d6-42c6-b695-c9cb810a0695.grid.png",
+    "sfr-name": "EARTH_VAGHA_SPRINTER"
   },
   {
     "id": "38cf7824-bc97-46e1-bf3f-142d17c8211b",
@@ -5244,7 +5342,8 @@
     "index": "Bx",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "38cf7824-bc97-46e1-bf3f-142d17c8211b.png",
-    "Grid Image": "38cf7824-bc97-46e1-bf3f-142d17c8211b.grid.png"
+    "Grid Image": "38cf7824-bc97-46e1-bf3f-142d17c8211b.grid.png",
+    "sfr-name": "EARTH_VAGHA_TOXOPHILITE"
   },
   {
     "id": "38de1857-4f50-4bf8-9091-1136712a602b",
@@ -5297,7 +5396,8 @@
     "index": "By",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "38de1857-4f50-4bf8-9091-1136712a602b.png",
-    "Grid Image": "38de1857-4f50-4bf8-9091-1136712a602b.grid.png"
+    "Grid Image": "38de1857-4f50-4bf8-9091-1136712a602b.grid.png",
+    "sfr-name": "EARTH_VAGHA_WARDER"
   },
   {
     "id": "38fafdc5-043a-4953-9d90-7eb03ff8bf2d",
@@ -5350,7 +5450,8 @@
     "index": "Bz",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "38fafdc5-043a-4953-9d90-7eb03ff8bf2d.png",
-    "Grid Image": "38fafdc5-043a-4953-9d90-7eb03ff8bf2d.grid.png"
+    "Grid Image": "38fafdc5-043a-4953-9d90-7eb03ff8bf2d.grid.png",
+    "sfr-name": "AIR_MOREHL_DEVOTEE"
   },
   {
     "id": "3945c26a-a9dd-4a20-8d58-fe3232b9dd11",
@@ -5403,7 +5504,8 @@
     "index": "C0",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3945c26a-a9dd-4a20-8d58-fe3232b9dd11.png",
-    "Grid Image": "3945c26a-a9dd-4a20-8d58-fe3232b9dd11.grid.png"
+    "Grid Image": "3945c26a-a9dd-4a20-8d58-fe3232b9dd11.grid.png",
+    "sfr-name": "AIR_MOREHL_ENTHRALLER"
   },
   {
     "id": "3996fe7e-e1b4-495e-b135-297d5730a535",
@@ -5456,7 +5558,8 @@
     "index": "C1",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3996fe7e-e1b4-495e-b135-297d5730a535.png",
-    "Grid Image": "3996fe7e-e1b4-495e-b135-297d5730a535.grid.png"
+    "Grid Image": "3996fe7e-e1b4-495e-b135-297d5730a535.grid.png",
+    "sfr-name": "AIR_MOREHL_ESCORT"
   },
   {
     "id": "39bcb1dc-767a-4ce1-8254-d87d3e57263c",
@@ -5509,7 +5612,8 @@
     "index": "C2",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "39bcb1dc-767a-4ce1-8254-d87d3e57263c.png",
-    "Grid Image": "39bcb1dc-767a-4ce1-8254-d87d3e57263c.grid.png"
+    "Grid Image": "39bcb1dc-767a-4ce1-8254-d87d3e57263c.grid.png",
+    "sfr-name": "AIR_MOREHL_RACER"
   },
   {
     "id": "3a2edd8a-2839-49cc-935c-9ce96d6eb063",
@@ -5562,7 +5666,8 @@
     "index": "C3",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3a2edd8a-2839-49cc-935c-9ce96d6eb063.png",
-    "Grid Image": "3a2edd8a-2839-49cc-935c-9ce96d6eb063.grid.png"
+    "Grid Image": "3a2edd8a-2839-49cc-935c-9ce96d6eb063.grid.png",
+    "sfr-name": "AIR_SELUMARI_DEVOTEE"
   },
   {
     "id": "3a51c712-90e5-41a2-9753-43a506f5916e",
@@ -5615,7 +5720,8 @@
     "index": "C4",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3a51c712-90e5-41a2-9753-43a506f5916e.png",
-    "Grid Image": "3a51c712-90e5-41a2-9753-43a506f5916e.grid.png"
+    "Grid Image": "3a51c712-90e5-41a2-9753-43a506f5916e.grid.png",
+    "sfr-name": "AIR_SELUMARI_ESCORT"
   },
   {
     "id": "3a538668-ddf6-422b-90c8-fb7ce39f2903",
@@ -5668,7 +5774,8 @@
     "index": "C5",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3a538668-ddf6-422b-90c8-fb7ce39f2903.png",
-    "Grid Image": "3a538668-ddf6-422b-90c8-fb7ce39f2903.grid.png"
+    "Grid Image": "3a538668-ddf6-422b-90c8-fb7ce39f2903.grid.png",
+    "sfr-name": "AIR_TROG_DEVOTEE"
   },
   {
     "id": "3ac2c620-df5b-4fdd-a1db-dde66804b094",
@@ -5721,7 +5828,8 @@
     "index": "C6",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3ac2c620-df5b-4fdd-a1db-dde66804b094.png",
-    "Grid Image": "3ac2c620-df5b-4fdd-a1db-dde66804b094.grid.png"
+    "Grid Image": "3ac2c620-df5b-4fdd-a1db-dde66804b094.grid.png",
+    "sfr-name": "AIR_TROG_ENTHRALLER"
   },
   {
     "id": "3ad45eea-fa71-445e-a94b-efd1d85d99d2",
@@ -5774,7 +5882,8 @@
     "index": "C7",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3ad45eea-fa71-445e-a94b-efd1d85d99d2.png",
-    "Grid Image": "3ad45eea-fa71-445e-a94b-efd1d85d99d2.grid.png"
+    "Grid Image": "3ad45eea-fa71-445e-a94b-efd1d85d99d2.grid.png",
+    "sfr-name": "AIR_TROG_RACER"
   },
   {
     "id": "3b95c947-7ce1-4618-a0ee-782821e81771",
@@ -5827,7 +5936,8 @@
     "index": "C8",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3b95c947-7ce1-4618-a0ee-782821e81771.png",
-    "Grid Image": "3b95c947-7ce1-4618-a0ee-782821e81771.grid.png"
+    "Grid Image": "3b95c947-7ce1-4618-a0ee-782821e81771.grid.png",
+    "sfr-name": "AIR_VAGHA_ENTHRALLER"
   },
   {
     "id": "3c94f5b0-3772-4773-96a3-a447f5b9737c",
@@ -5880,7 +5990,8 @@
     "index": "C9",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3c94f5b0-3772-4773-96a3-a447f5b9737c.png",
-    "Grid Image": "3c94f5b0-3772-4773-96a3-a447f5b9737c.grid.png"
+    "Grid Image": "3c94f5b0-3772-4773-96a3-a447f5b9737c.grid.png",
+    "sfr-name": "AIR_VAGHA_ESCORT"
   },
   {
     "id": "3e7bad17-0bfa-4549-a4a3-5bbd923ea7fb",
@@ -5933,7 +6044,8 @@
     "index": "CA",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3e7bad17-0bfa-4549-a4a3-5bbd923ea7fb.png",
-    "Grid Image": "3e7bad17-0bfa-4549-a4a3-5bbd923ea7fb.grid.png"
+    "Grid Image": "3e7bad17-0bfa-4549-a4a3-5bbd923ea7fb.grid.png",
+    "sfr-name": "AIR_VAGHA_RACER"
   },
   {
     "id": "3e99be56-066f-44a5-b85b-203442adff63",
@@ -5986,7 +6098,8 @@
     "index": "CB",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3e99be56-066f-44a5-b85b-203442adff63.png",
-    "Grid Image": "3e99be56-066f-44a5-b85b-203442adff63.grid.png"
+    "Grid Image": "3e99be56-066f-44a5-b85b-203442adff63.grid.png",
+    "sfr-name": "DEATH_MOREHL_DEVOTEE"
   },
   {
     "id": "3ef98b15-bfa9-495d-9bc8-62d15272adb0",
@@ -6039,7 +6152,8 @@
     "index": "CC",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3ef98b15-bfa9-495d-9bc8-62d15272adb0.png",
-    "Grid Image": "3ef98b15-bfa9-495d-9bc8-62d15272adb0.grid.png"
+    "Grid Image": "3ef98b15-bfa9-495d-9bc8-62d15272adb0.grid.png",
+    "sfr-name": "DEATH_MOREHL_ENTHRALLER"
   },
   {
     "id": "3f7909ff-f7ba-4f6a-bdf9-ed1a9efb26ff",
@@ -6092,7 +6206,8 @@
     "index": "CD",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3f7909ff-f7ba-4f6a-bdf9-ed1a9efb26ff.png",
-    "Grid Image": "3f7909ff-f7ba-4f6a-bdf9-ed1a9efb26ff.grid.png"
+    "Grid Image": "3f7909ff-f7ba-4f6a-bdf9-ed1a9efb26ff.grid.png",
+    "sfr-name": "DEATH_MOREHL_ESCORT"
   },
   {
     "id": "3fd6302f-3b4a-43ea-b97a-b55a5620994f",
@@ -6145,7 +6260,8 @@
     "index": "CE",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3fd6302f-3b4a-43ea-b97a-b55a5620994f.png",
-    "Grid Image": "3fd6302f-3b4a-43ea-b97a-b55a5620994f.grid.png"
+    "Grid Image": "3fd6302f-3b4a-43ea-b97a-b55a5620994f.grid.png",
+    "sfr-name": "DEATH_MOREHL_RACER"
   },
   {
     "id": "3ff1cdc4-cf04-4043-b323-199788e15fcb",
@@ -6198,7 +6314,8 @@
     "index": "CF",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "3ff1cdc4-cf04-4043-b323-199788e15fcb.png",
-    "Grid Image": "3ff1cdc4-cf04-4043-b323-199788e15fcb.grid.png"
+    "Grid Image": "3ff1cdc4-cf04-4043-b323-199788e15fcb.grid.png",
+    "sfr-name": "DEATH_SELUMARI_DEVOTEE"
   },
   {
     "id": "41178a36-27f6-456a-a279-60ad1a7cf084",
@@ -6251,7 +6368,8 @@
     "index": "CG",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "41178a36-27f6-456a-a279-60ad1a7cf084.png",
-    "Grid Image": "41178a36-27f6-456a-a279-60ad1a7cf084.grid.png"
+    "Grid Image": "41178a36-27f6-456a-a279-60ad1a7cf084.grid.png",
+    "sfr-name": "DEATH_SELUMARI_ESCORT"
   },
   {
     "id": "4143e03b-7e6a-4403-bb3a-72d36db474fc",
@@ -6304,7 +6422,8 @@
     "index": "CH",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4143e03b-7e6a-4403-bb3a-72d36db474fc.png",
-    "Grid Image": "4143e03b-7e6a-4403-bb3a-72d36db474fc.grid.png"
+    "Grid Image": "4143e03b-7e6a-4403-bb3a-72d36db474fc.grid.png",
+    "sfr-name": "DEATH_TROG_DEVOTEE"
   },
   {
     "id": "419854ab-9230-4e8c-a791-096364660329",
@@ -6357,7 +6476,8 @@
     "index": "CI",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "419854ab-9230-4e8c-a791-096364660329.png",
-    "Grid Image": "419854ab-9230-4e8c-a791-096364660329.grid.png"
+    "Grid Image": "419854ab-9230-4e8c-a791-096364660329.grid.png",
+    "sfr-name": "DEATH_TROG_ENTHRALLER"
   },
   {
     "id": "41e02205-79e3-4f36-9342-71f5b9179052",
@@ -6410,7 +6530,8 @@
     "index": "CJ",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "41e02205-79e3-4f36-9342-71f5b9179052.png",
-    "Grid Image": "41e02205-79e3-4f36-9342-71f5b9179052.grid.png"
+    "Grid Image": "41e02205-79e3-4f36-9342-71f5b9179052.grid.png",
+    "sfr-name": "DEATH_TROG_RACER"
   },
   {
     "id": "4210695c-a903-4c53-9a72-af021eb9ab0b",
@@ -6463,7 +6584,8 @@
     "index": "CK",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4210695c-a903-4c53-9a72-af021eb9ab0b.png",
-    "Grid Image": "4210695c-a903-4c53-9a72-af021eb9ab0b.grid.png"
+    "Grid Image": "4210695c-a903-4c53-9a72-af021eb9ab0b.grid.png",
+    "sfr-name": "DEATH_VAGHA_ENTHRALLER"
   },
   {
     "id": "42dd7bc1-8436-4cf7-975d-ba343d51a66e",
@@ -6516,7 +6638,8 @@
     "index": "CL",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "42dd7bc1-8436-4cf7-975d-ba343d51a66e.png",
-    "Grid Image": "42dd7bc1-8436-4cf7-975d-ba343d51a66e.grid.png"
+    "Grid Image": "42dd7bc1-8436-4cf7-975d-ba343d51a66e.grid.png",
+    "sfr-name": "DEATH_VAGHA_ESCORT"
   },
   {
     "id": "43b14392-ad02-4c2b-8c9e-a49503281eb1",
@@ -6569,7 +6692,8 @@
     "index": "CM",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "43b14392-ad02-4c2b-8c9e-a49503281eb1.png",
-    "Grid Image": "43b14392-ad02-4c2b-8c9e-a49503281eb1.grid.png"
+    "Grid Image": "43b14392-ad02-4c2b-8c9e-a49503281eb1.grid.png",
+    "sfr-name": "DEATH_VAGHA_RACER"
   },
   {
     "id": "44850e54-b52c-438b-bb9c-4929a8c2fe20",
@@ -6622,7 +6746,8 @@
     "index": "CN",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "44850e54-b52c-438b-bb9c-4929a8c2fe20.png",
-    "Grid Image": "44850e54-b52c-438b-bb9c-4929a8c2fe20.grid.png"
+    "Grid Image": "44850e54-b52c-438b-bb9c-4929a8c2fe20.grid.png",
+    "sfr-name": "FIRE_MOREHL_DEVOTEE"
   },
   {
     "id": "44ef1211-f968-4e09-8692-68e15f8be43c",
@@ -6675,7 +6800,8 @@
     "index": "CO",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "44ef1211-f968-4e09-8692-68e15f8be43c.png",
-    "Grid Image": "44ef1211-f968-4e09-8692-68e15f8be43c.grid.png"
+    "Grid Image": "44ef1211-f968-4e09-8692-68e15f8be43c.grid.png",
+    "sfr-name": "FIRE_MOREHL_ENTHRALLER"
   },
   {
     "id": "4514292c-b199-43d9-a426-c02a590be997",
@@ -6728,7 +6854,8 @@
     "index": "CP",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4514292c-b199-43d9-a426-c02a590be997.png",
-    "Grid Image": "4514292c-b199-43d9-a426-c02a590be997.grid.png"
+    "Grid Image": "4514292c-b199-43d9-a426-c02a590be997.grid.png",
+    "sfr-name": "FIRE_MOREHL_ESCORT"
   },
   {
     "id": "451e9243-9a4d-44b3-a05e-9ba05a504b00",
@@ -6781,7 +6908,8 @@
     "index": "CQ",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "451e9243-9a4d-44b3-a05e-9ba05a504b00.png",
-    "Grid Image": "451e9243-9a4d-44b3-a05e-9ba05a504b00.grid.png"
+    "Grid Image": "451e9243-9a4d-44b3-a05e-9ba05a504b00.grid.png",
+    "sfr-name": "FIRE_MOREHL_RACER"
   },
   {
     "id": "4522fa1d-7923-4d46-b7bb-655dde91010f",
@@ -6834,7 +6962,8 @@
     "index": "CR",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4522fa1d-7923-4d46-b7bb-655dde91010f.png",
-    "Grid Image": "4522fa1d-7923-4d46-b7bb-655dde91010f.grid.png"
+    "Grid Image": "4522fa1d-7923-4d46-b7bb-655dde91010f.grid.png",
+    "sfr-name": "FIRE_SELUMARI_DEVOTEE"
   },
   {
     "id": "45b411db-be95-4f16-bd07-bcc4fab93e60",
@@ -6887,7 +7016,8 @@
     "index": "CS",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "45b411db-be95-4f16-bd07-bcc4fab93e60.png",
-    "Grid Image": "45b411db-be95-4f16-bd07-bcc4fab93e60.grid.png"
+    "Grid Image": "45b411db-be95-4f16-bd07-bcc4fab93e60.grid.png",
+    "sfr-name": "FIRE_SELUMARI_ESCORT"
   },
   {
     "id": "470c3c26-3c99-48dc-81cd-88519954c234",
@@ -6940,7 +7070,8 @@
     "index": "CT",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "470c3c26-3c99-48dc-81cd-88519954c234.png",
-    "Grid Image": "470c3c26-3c99-48dc-81cd-88519954c234.grid.png"
+    "Grid Image": "470c3c26-3c99-48dc-81cd-88519954c234.grid.png",
+    "sfr-name": "FIRE_TROG_DEVOTEE"
   },
   {
     "id": "477f0519-8e5f-4a5b-8886-37547d795b41",
@@ -6993,7 +7124,8 @@
     "index": "CU",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "477f0519-8e5f-4a5b-8886-37547d795b41.png",
-    "Grid Image": "477f0519-8e5f-4a5b-8886-37547d795b41.grid.png"
+    "Grid Image": "477f0519-8e5f-4a5b-8886-37547d795b41.grid.png",
+    "sfr-name": "FIRE_TROG_ENTHRALLER"
   },
   {
     "id": "483ad803-c1fb-4027-91ec-f7d558ae2518",
@@ -7046,7 +7178,8 @@
     "index": "CV",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "483ad803-c1fb-4027-91ec-f7d558ae2518.png",
-    "Grid Image": "483ad803-c1fb-4027-91ec-f7d558ae2518.grid.png"
+    "Grid Image": "483ad803-c1fb-4027-91ec-f7d558ae2518.grid.png",
+    "sfr-name": "FIRE_TROG_RACER"
   },
   {
     "id": "49008340-9e6f-4ebf-b35b-4689ddec6ded",
@@ -7099,7 +7232,8 @@
     "index": "CW",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "49008340-9e6f-4ebf-b35b-4689ddec6ded.png",
-    "Grid Image": "49008340-9e6f-4ebf-b35b-4689ddec6ded.grid.png"
+    "Grid Image": "49008340-9e6f-4ebf-b35b-4689ddec6ded.grid.png",
+    "sfr-name": "FIRE_VAGHA_ENTHRALLER"
   },
   {
     "id": "491f122e-5de0-40b4-92cc-22ad6e10f82d",
@@ -7152,7 +7286,8 @@
     "index": "CX",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "491f122e-5de0-40b4-92cc-22ad6e10f82d.png",
-    "Grid Image": "491f122e-5de0-40b4-92cc-22ad6e10f82d.grid.png"
+    "Grid Image": "491f122e-5de0-40b4-92cc-22ad6e10f82d.grid.png",
+    "sfr-name": "FIRE_VAGHA_ESCORT"
   },
   {
     "id": "499188a1-921a-4173-b1db-74773c39de82",
@@ -7205,7 +7340,8 @@
     "index": "CY",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "499188a1-921a-4173-b1db-74773c39de82.png",
-    "Grid Image": "499188a1-921a-4173-b1db-74773c39de82.grid.png"
+    "Grid Image": "499188a1-921a-4173-b1db-74773c39de82.grid.png",
+    "sfr-name": "FIRE_VAGHA_RACER"
   },
   {
     "id": "4a2444b7-79ec-44ba-ab18-297e25f3c2d4",
@@ -7258,7 +7394,8 @@
     "index": "CZ",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4a2444b7-79ec-44ba-ab18-297e25f3c2d4.png",
-    "Grid Image": "4a2444b7-79ec-44ba-ab18-297e25f3c2d4.grid.png"
+    "Grid Image": "4a2444b7-79ec-44ba-ab18-297e25f3c2d4.grid.png",
+    "sfr-name": "WATER_MOREHL_DEVOTEE"
   },
   {
     "id": "4a6a106c-1f20-4d36-9fca-f4113db9712d",
@@ -7311,7 +7448,8 @@
     "index": "Ca",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4a6a106c-1f20-4d36-9fca-f4113db9712d.png",
-    "Grid Image": "4a6a106c-1f20-4d36-9fca-f4113db9712d.grid.png"
+    "Grid Image": "4a6a106c-1f20-4d36-9fca-f4113db9712d.grid.png",
+    "sfr-name": "WATER_MOREHL_ENTHRALLER"
   },
   {
     "id": "4ab2b499-3089-4a10-95fc-1f02208b5f7f",
@@ -7364,7 +7502,8 @@
     "index": "Cb",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4ab2b499-3089-4a10-95fc-1f02208b5f7f.png",
-    "Grid Image": "4ab2b499-3089-4a10-95fc-1f02208b5f7f.grid.png"
+    "Grid Image": "4ab2b499-3089-4a10-95fc-1f02208b5f7f.grid.png",
+    "sfr-name": "WATER_MOREHL_ESCORT"
   },
   {
     "id": "4b0b37ea-5933-4aab-bd9b-76f86fd496ff",
@@ -7417,7 +7556,8 @@
     "index": "Cc",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4b0b37ea-5933-4aab-bd9b-76f86fd496ff.png",
-    "Grid Image": "4b0b37ea-5933-4aab-bd9b-76f86fd496ff.grid.png"
+    "Grid Image": "4b0b37ea-5933-4aab-bd9b-76f86fd496ff.grid.png",
+    "sfr-name": "WATER_MOREHL_RACER"
   },
   {
     "id": "4b51b020-ab67-44bc-bf13-677ad1a53502",
@@ -7470,7 +7610,8 @@
     "index": "Cd",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4b51b020-ab67-44bc-bf13-677ad1a53502.png",
-    "Grid Image": "4b51b020-ab67-44bc-bf13-677ad1a53502.grid.png"
+    "Grid Image": "4b51b020-ab67-44bc-bf13-677ad1a53502.grid.png",
+    "sfr-name": "WATER_SELUMARI_DEVOTEE"
   },
   {
     "id": "4c0dcfaa-d58f-4382-ae62-cd24681396a2",
@@ -7523,7 +7664,8 @@
     "index": "Ce",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4c0dcfaa-d58f-4382-ae62-cd24681396a2.png",
-    "Grid Image": "4c0dcfaa-d58f-4382-ae62-cd24681396a2.grid.png"
+    "Grid Image": "4c0dcfaa-d58f-4382-ae62-cd24681396a2.grid.png",
+    "sfr-name": "WATER_SELUMARI_ESCORT"
   },
   {
     "id": "4de6d051-df36-4f7a-b309-03dfb78d0e83",
@@ -7576,7 +7718,8 @@
     "index": "Cf",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4de6d051-df36-4f7a-b309-03dfb78d0e83.png",
-    "Grid Image": "4de6d051-df36-4f7a-b309-03dfb78d0e83.grid.png"
+    "Grid Image": "4de6d051-df36-4f7a-b309-03dfb78d0e83.grid.png",
+    "sfr-name": "WATER_TROG_DEVOTEE"
   },
   {
     "id": "4e02c4fa-c1eb-4fc2-a8e1-d95f90a63749",
@@ -7629,7 +7772,8 @@
     "index": "Cg",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4e02c4fa-c1eb-4fc2-a8e1-d95f90a63749.png",
-    "Grid Image": "4e02c4fa-c1eb-4fc2-a8e1-d95f90a63749.grid.png"
+    "Grid Image": "4e02c4fa-c1eb-4fc2-a8e1-d95f90a63749.grid.png",
+    "sfr-name": "WATER_TROG_ENTHRALLER"
   },
   {
     "id": "4e634b89-383e-4894-b85f-379c268ce13c",
@@ -7682,7 +7826,8 @@
     "index": "Ch",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "4e634b89-383e-4894-b85f-379c268ce13c.png",
-    "Grid Image": "4e634b89-383e-4894-b85f-379c268ce13c.grid.png"
+    "Grid Image": "4e634b89-383e-4894-b85f-379c268ce13c.grid.png",
+    "sfr-name": "WATER_TROG_RACER"
   },
   {
     "id": "50894208-d709-49a8-afdf-eea42f1421b4",
@@ -7735,7 +7880,8 @@
     "index": "Ci",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "50894208-d709-49a8-afdf-eea42f1421b4.png",
-    "Grid Image": "50894208-d709-49a8-afdf-eea42f1421b4.grid.png"
+    "Grid Image": "50894208-d709-49a8-afdf-eea42f1421b4.grid.png",
+    "sfr-name": "WATER_VAGHA_ENTHRALLER"
   },
   {
     "id": "50ccb350-8137-4480-bc88-2215136776f1",
@@ -7788,7 +7934,8 @@
     "index": "Cj",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "50ccb350-8137-4480-bc88-2215136776f1.png",
-    "Grid Image": "50ccb350-8137-4480-bc88-2215136776f1.grid.png"
+    "Grid Image": "50ccb350-8137-4480-bc88-2215136776f1.grid.png",
+    "sfr-name": "WATER_VAGHA_ESCORT"
   },
   {
     "id": "5157eca6-5979-400a-8aa4-afa3c39e3b3b",
@@ -7841,7 +7988,8 @@
     "index": "Ck",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5157eca6-5979-400a-8aa4-afa3c39e3b3b.png",
-    "Grid Image": "5157eca6-5979-400a-8aa4-afa3c39e3b3b.grid.png"
+    "Grid Image": "5157eca6-5979-400a-8aa4-afa3c39e3b3b.grid.png",
+    "sfr-name": "WATER_VAGHA_RACER"
   },
   {
     "id": "51efe2a4-50d7-4268-b9a1-cc0e9379ed78",
@@ -7894,7 +8042,8 @@
     "index": "Cl",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "51efe2a4-50d7-4268-b9a1-cc0e9379ed78.png",
-    "Grid Image": "51efe2a4-50d7-4268-b9a1-cc0e9379ed78.grid.png"
+    "Grid Image": "51efe2a4-50d7-4268-b9a1-cc0e9379ed78.grid.png",
+    "sfr-name": "EARTH_MOREHL_DEVOTEE"
   },
   {
     "id": "524f82ee-d055-4782-b859-b496315d39cb",
@@ -7947,7 +8096,8 @@
     "index": "Cm",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "524f82ee-d055-4782-b859-b496315d39cb.png",
-    "Grid Image": "524f82ee-d055-4782-b859-b496315d39cb.grid.png"
+    "Grid Image": "524f82ee-d055-4782-b859-b496315d39cb.grid.png",
+    "sfr-name": "EARTH_MOREHL_ENTHRALLER"
   },
   {
     "id": "531b3a72-4298-4785-881c-5b41ab5a7c6b",
@@ -8000,7 +8150,8 @@
     "index": "Cn",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "531b3a72-4298-4785-881c-5b41ab5a7c6b.png",
-    "Grid Image": "531b3a72-4298-4785-881c-5b41ab5a7c6b.grid.png"
+    "Grid Image": "531b3a72-4298-4785-881c-5b41ab5a7c6b.grid.png",
+    "sfr-name": "EARTH_MOREHL_ESCORT"
   },
   {
     "id": "53b64817-42b5-4d0c-8d4a-572a71de8117",
@@ -8053,7 +8204,8 @@
     "index": "Co",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "53b64817-42b5-4d0c-8d4a-572a71de8117.png",
-    "Grid Image": "53b64817-42b5-4d0c-8d4a-572a71de8117.grid.png"
+    "Grid Image": "53b64817-42b5-4d0c-8d4a-572a71de8117.grid.png",
+    "sfr-name": "EARTH_MOREHL_RACER"
   },
   {
     "id": "55b33eae-d43b-48b4-adda-077b70db776b",
@@ -8106,7 +8258,8 @@
     "index": "Cp",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "55b33eae-d43b-48b4-adda-077b70db776b.png",
-    "Grid Image": "55b33eae-d43b-48b4-adda-077b70db776b.grid.png"
+    "Grid Image": "55b33eae-d43b-48b4-adda-077b70db776b.grid.png",
+    "sfr-name": "EARTH_SELUMARI_DEVOTEE"
   },
   {
     "id": "56a190ba-fba5-4c7e-8012-58bbf11c8c1b",
@@ -8159,7 +8312,8 @@
     "index": "Cq",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "56a190ba-fba5-4c7e-8012-58bbf11c8c1b.png",
-    "Grid Image": "56a190ba-fba5-4c7e-8012-58bbf11c8c1b.grid.png"
+    "Grid Image": "56a190ba-fba5-4c7e-8012-58bbf11c8c1b.grid.png",
+    "sfr-name": "EARTH_SELUMARI_ESCORT"
   },
   {
     "id": "56ff7789-2daa-4180-8747-c92fb39bee9e",
@@ -8212,7 +8366,8 @@
     "index": "Cr",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "56ff7789-2daa-4180-8747-c92fb39bee9e.png",
-    "Grid Image": "56ff7789-2daa-4180-8747-c92fb39bee9e.grid.png"
+    "Grid Image": "56ff7789-2daa-4180-8747-c92fb39bee9e.grid.png",
+    "sfr-name": "EARTH_TROG_DEVOTEE"
   },
   {
     "id": "582edb60-6223-4cd8-9f2f-9db3d4e890ca",
@@ -8265,7 +8420,8 @@
     "index": "Cs",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "582edb60-6223-4cd8-9f2f-9db3d4e890ca.png",
-    "Grid Image": "582edb60-6223-4cd8-9f2f-9db3d4e890ca.grid.png"
+    "Grid Image": "582edb60-6223-4cd8-9f2f-9db3d4e890ca.grid.png",
+    "sfr-name": "EARTH_TROG_ENTHRALLER"
   },
   {
     "id": "5846b423-f2d4-40f6-83df-015ac5c5df1c",
@@ -8318,7 +8474,8 @@
     "index": "Ct",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5846b423-f2d4-40f6-83df-015ac5c5df1c.png",
-    "Grid Image": "5846b423-f2d4-40f6-83df-015ac5c5df1c.grid.png"
+    "Grid Image": "5846b423-f2d4-40f6-83df-015ac5c5df1c.grid.png",
+    "sfr-name": "EARTH_TROG_RACER"
   },
   {
     "id": "587bcc80-b029-4d40-b67e-3b93934f8286",
@@ -8371,7 +8528,8 @@
     "index": "Cu",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "587bcc80-b029-4d40-b67e-3b93934f8286.png",
-    "Grid Image": "587bcc80-b029-4d40-b67e-3b93934f8286.grid.png"
+    "Grid Image": "587bcc80-b029-4d40-b67e-3b93934f8286.grid.png",
+    "sfr-name": "EARTH_VAGHA_ENTHRALLER"
   },
   {
     "id": "58ae3fa5-dae1-45e4-89a1-907e42c9367d",
@@ -8424,7 +8582,8 @@
     "index": "Cv",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "58ae3fa5-dae1-45e4-89a1-907e42c9367d.png",
-    "Grid Image": "58ae3fa5-dae1-45e4-89a1-907e42c9367d.grid.png"
+    "Grid Image": "58ae3fa5-dae1-45e4-89a1-907e42c9367d.grid.png",
+    "sfr-name": "EARTH_VAGHA_ESCORT"
   },
   {
     "id": "58f41946-0f57-444a-b794-01202d2d75fd",
@@ -8477,7 +8636,8 @@
     "index": "Cw",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "58f41946-0f57-444a-b794-01202d2d75fd.png",
-    "Grid Image": "58f41946-0f57-444a-b794-01202d2d75fd.grid.png"
+    "Grid Image": "58f41946-0f57-444a-b794-01202d2d75fd.grid.png",
+    "sfr-name": "EARTH_VAGHA_RACER"
   },
   {
     "id": "593613ce-6854-495c-bed5-a5ddd077d919",
@@ -8530,7 +8690,8 @@
     "index": "Cx",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "593613ce-6854-495c-bed5-a5ddd077d919.png",
-    "Grid Image": "593613ce-6854-495c-bed5-a5ddd077d919.grid.png"
+    "Grid Image": "593613ce-6854-495c-bed5-a5ddd077d919.grid.png",
+    "sfr-name": "AIR_MOREHL_BODYGUARD"
   },
   {
     "id": "59765195-8cb5-4372-af12-bb4fb8b6340c",
@@ -8583,7 +8744,8 @@
     "index": "Cy",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "59765195-8cb5-4372-af12-bb4fb8b6340c.png",
-    "Grid Image": "59765195-8cb5-4372-af12-bb4fb8b6340c.grid.png"
+    "Grid Image": "59765195-8cb5-4372-af12-bb4fb8b6340c.grid.png",
+    "sfr-name": "AIR_MOREHL_SORCERER"
   },
   {
     "id": "598cfc2e-3ae7-4bd5-8082-cc81b9443aaa",
@@ -8636,7 +8798,8 @@
     "index": "Cz",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "598cfc2e-3ae7-4bd5-8082-cc81b9443aaa.png",
-    "Grid Image": "598cfc2e-3ae7-4bd5-8082-cc81b9443aaa.grid.png"
+    "Grid Image": "598cfc2e-3ae7-4bd5-8082-cc81b9443aaa.grid.png",
+    "sfr-name": "AIR_SELUMARI_DISCIPLE"
   },
   {
     "id": "59b3f1ec-b314-4ff8-9054-bcae2add0ef8",
@@ -8689,7 +8852,8 @@
     "index": "D0",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "59b3f1ec-b314-4ff8-9054-bcae2add0ef8.png",
-    "Grid Image": "59b3f1ec-b314-4ff8-9054-bcae2add0ef8.grid.png"
+    "Grid Image": "59b3f1ec-b314-4ff8-9054-bcae2add0ef8.grid.png",
+    "sfr-name": "AIR_TROG_DISCIPLE"
   },
   {
     "id": "59c0b996-fa4c-487a-a003-431f0a212d65",
@@ -8742,7 +8906,8 @@
     "index": "D1",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "59c0b996-fa4c-487a-a003-431f0a212d65.png",
-    "Grid Image": "59c0b996-fa4c-487a-a003-431f0a212d65.grid.png"
+    "Grid Image": "59c0b996-fa4c-487a-a003-431f0a212d65.grid.png",
+    "sfr-name": "AIR_TROG_SORCERER"
   },
   {
     "id": "5a6fd947-38b0-44d1-8c04-a163b6a8b9f1",
@@ -8795,7 +8960,8 @@
     "index": "D2",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5a6fd947-38b0-44d1-8c04-a163b6a8b9f1.png",
-    "Grid Image": "5a6fd947-38b0-44d1-8c04-a163b6a8b9f1.grid.png"
+    "Grid Image": "5a6fd947-38b0-44d1-8c04-a163b6a8b9f1.grid.png",
+    "sfr-name": "AIR_VAGHA_BODYGUARD"
   },
   {
     "id": "5ab99fc5-1402-4805-9bc0-33ed65775c4d",
@@ -8848,7 +9014,8 @@
     "index": "D3",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5ab99fc5-1402-4805-9bc0-33ed65775c4d.png",
-    "Grid Image": "5ab99fc5-1402-4805-9bc0-33ed65775c4d.grid.png"
+    "Grid Image": "5ab99fc5-1402-4805-9bc0-33ed65775c4d.grid.png",
+    "sfr-name": "DEATH_MOREHL_BODYGUARD"
   },
   {
     "id": "5b2506cf-6929-4c1c-8c56-d3fd69e4b01d",
@@ -8901,7 +9068,8 @@
     "index": "D4",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5b2506cf-6929-4c1c-8c56-d3fd69e4b01d.png",
-    "Grid Image": "5b2506cf-6929-4c1c-8c56-d3fd69e4b01d.grid.png"
+    "Grid Image": "5b2506cf-6929-4c1c-8c56-d3fd69e4b01d.grid.png",
+    "sfr-name": "DEATH_MOREHL_SORCERER"
   },
   {
     "id": "5b37986d-4702-4cfe-b0bb-48df8b4fcd58",
@@ -8954,7 +9122,8 @@
     "index": "D5",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5b37986d-4702-4cfe-b0bb-48df8b4fcd58.png",
-    "Grid Image": "5b37986d-4702-4cfe-b0bb-48df8b4fcd58.grid.png"
+    "Grid Image": "5b37986d-4702-4cfe-b0bb-48df8b4fcd58.grid.png",
+    "sfr-name": "DEATH_SELUMARI_DISCIPLE"
   },
   {
     "id": "5b86716e-dccf-4aef-ac7e-489103d2a15d",
@@ -9007,7 +9176,8 @@
     "index": "D6",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5b86716e-dccf-4aef-ac7e-489103d2a15d.png",
-    "Grid Image": "5b86716e-dccf-4aef-ac7e-489103d2a15d.grid.png"
+    "Grid Image": "5b86716e-dccf-4aef-ac7e-489103d2a15d.grid.png",
+    "sfr-name": "DEATH_TROG_DISCIPLE"
   },
   {
     "id": "5bcf7865-2200-4eaf-9f7c-0b8884d8850c",
@@ -9060,7 +9230,8 @@
     "index": "D7",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5bcf7865-2200-4eaf-9f7c-0b8884d8850c.png",
-    "Grid Image": "5bcf7865-2200-4eaf-9f7c-0b8884d8850c.grid.png"
+    "Grid Image": "5bcf7865-2200-4eaf-9f7c-0b8884d8850c.grid.png",
+    "sfr-name": "DEATH_TROG_SORCERER"
   },
   {
     "id": "5c6b7232-c24f-4d5d-92df-e9fab7001288",
@@ -9113,7 +9284,8 @@
     "index": "D8",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5c6b7232-c24f-4d5d-92df-e9fab7001288.png",
-    "Grid Image": "5c6b7232-c24f-4d5d-92df-e9fab7001288.grid.png"
+    "Grid Image": "5c6b7232-c24f-4d5d-92df-e9fab7001288.grid.png",
+    "sfr-name": "DEATH_VAGHA_BODYGUARD"
   },
   {
     "id": "5c7ace46-2009-4fd3-b4b7-3253ec436bc7",
@@ -9166,7 +9338,8 @@
     "index": "D9",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5c7ace46-2009-4fd3-b4b7-3253ec436bc7.png",
-    "Grid Image": "5c7ace46-2009-4fd3-b4b7-3253ec436bc7.grid.png"
+    "Grid Image": "5c7ace46-2009-4fd3-b4b7-3253ec436bc7.grid.png",
+    "sfr-name": "WATER_MOREHL_BODYGUARD"
   },
   {
     "id": "5cf63c35-135a-43c3-9295-3aeb2f797675",
@@ -9219,7 +9392,8 @@
     "index": "DA",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5cf63c35-135a-43c3-9295-3aeb2f797675.png",
-    "Grid Image": "5cf63c35-135a-43c3-9295-3aeb2f797675.grid.png"
+    "Grid Image": "5cf63c35-135a-43c3-9295-3aeb2f797675.grid.png",
+    "sfr-name": "WATER_MOREHL_SORCERER"
   },
   {
     "id": "5e72d743-cf8c-4f47-a9cc-d2a99bbb15cb",
@@ -9272,7 +9446,8 @@
     "index": "DB",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5e72d743-cf8c-4f47-a9cc-d2a99bbb15cb.png",
-    "Grid Image": "5e72d743-cf8c-4f47-a9cc-d2a99bbb15cb.grid.png"
+    "Grid Image": "5e72d743-cf8c-4f47-a9cc-d2a99bbb15cb.grid.png",
+    "sfr-name": "WATER_SELUMARI_DISCIPLE"
   },
   {
     "id": "5f56e35c-3059-4262-b293-3d147418a6e0",
@@ -9325,7 +9500,8 @@
     "index": "DC",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5f56e35c-3059-4262-b293-3d147418a6e0.png",
-    "Grid Image": "5f56e35c-3059-4262-b293-3d147418a6e0.grid.png"
+    "Grid Image": "5f56e35c-3059-4262-b293-3d147418a6e0.grid.png",
+    "sfr-name": "WATER_TROG_DISCIPLE"
   },
   {
     "id": "5fbb4a66-7185-40d4-bb1a-a1736fc71db9",
@@ -9378,7 +9554,8 @@
     "index": "DD",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "5fbb4a66-7185-40d4-bb1a-a1736fc71db9.png",
-    "Grid Image": "5fbb4a66-7185-40d4-bb1a-a1736fc71db9.grid.png"
+    "Grid Image": "5fbb4a66-7185-40d4-bb1a-a1736fc71db9.grid.png",
+    "sfr-name": "WATER_TROG_SORCERER"
   },
   {
     "id": "604e85e3-4e9d-4935-bad0-e33a407a437e",
@@ -9431,7 +9608,8 @@
     "index": "DE",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "604e85e3-4e9d-4935-bad0-e33a407a437e.png",
-    "Grid Image": "604e85e3-4e9d-4935-bad0-e33a407a437e.grid.png"
+    "Grid Image": "604e85e3-4e9d-4935-bad0-e33a407a437e.grid.png",
+    "sfr-name": "WATER_VAGHA_BODYGUARD"
   },
   {
     "id": "614287a6-9937-40c3-bc2f-a550330a75dc",
@@ -9484,7 +9662,8 @@
     "index": "DF",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "614287a6-9937-40c3-bc2f-a550330a75dc.png",
-    "Grid Image": "614287a6-9937-40c3-bc2f-a550330a75dc.grid.png"
+    "Grid Image": "614287a6-9937-40c3-bc2f-a550330a75dc.grid.png",
+    "sfr-name": "FIRE_MOREHL_BODYGUARD"
   },
   {
     "id": "6234f118-8b7e-42b7-8f96-235d5d7d0eaf",
@@ -9537,7 +9716,8 @@
     "index": "DG",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6234f118-8b7e-42b7-8f96-235d5d7d0eaf.png",
-    "Grid Image": "6234f118-8b7e-42b7-8f96-235d5d7d0eaf.grid.png"
+    "Grid Image": "6234f118-8b7e-42b7-8f96-235d5d7d0eaf.grid.png",
+    "sfr-name": "FIRE_MOREHL_SORCERER"
   },
   {
     "id": "627a3a20-277c-461b-a9e8-b233c71d3099",
@@ -9590,7 +9770,8 @@
     "index": "DH",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "627a3a20-277c-461b-a9e8-b233c71d3099.png",
-    "Grid Image": "627a3a20-277c-461b-a9e8-b233c71d3099.grid.png"
+    "Grid Image": "627a3a20-277c-461b-a9e8-b233c71d3099.grid.png",
+    "sfr-name": "FIRE_SELUMARI_DISCIPLE"
   },
   {
     "id": "6286475e-d9ea-4269-8be9-891147484ddc",
@@ -9643,7 +9824,8 @@
     "index": "DI",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6286475e-d9ea-4269-8be9-891147484ddc.png",
-    "Grid Image": "6286475e-d9ea-4269-8be9-891147484ddc.grid.png"
+    "Grid Image": "6286475e-d9ea-4269-8be9-891147484ddc.grid.png",
+    "sfr-name": "FIRE_TROG_DISCIPLE"
   },
   {
     "id": "6325845a-04b0-4a1d-b818-796b996d4119",
@@ -9696,7 +9878,8 @@
     "index": "DJ",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6325845a-04b0-4a1d-b818-796b996d4119.png",
-    "Grid Image": "6325845a-04b0-4a1d-b818-796b996d4119.grid.png"
+    "Grid Image": "6325845a-04b0-4a1d-b818-796b996d4119.grid.png",
+    "sfr-name": "FIRE_TROG_SORCERER"
   },
   {
     "id": "63515560-14ad-4149-99fb-d2c85640f042",
@@ -9749,7 +9932,8 @@
     "index": "DK",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "63515560-14ad-4149-99fb-d2c85640f042.png",
-    "Grid Image": "63515560-14ad-4149-99fb-d2c85640f042.grid.png"
+    "Grid Image": "63515560-14ad-4149-99fb-d2c85640f042.grid.png",
+    "sfr-name": "FIRE_VAGHA_BODYGUARD"
   },
   {
     "id": "640df68b-6064-4538-bbdf-4f899e988d1b",
@@ -9802,7 +9986,8 @@
     "index": "DL",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "640df68b-6064-4538-bbdf-4f899e988d1b.png",
-    "Grid Image": "640df68b-6064-4538-bbdf-4f899e988d1b.grid.png"
+    "Grid Image": "640df68b-6064-4538-bbdf-4f899e988d1b.grid.png",
+    "sfr-name": "EARTH_MOREHL_BODYGUARD"
   },
   {
     "id": "6436fc8e-d1a3-4473-9d9a-fbe5a7ef6c30",
@@ -9855,7 +10040,8 @@
     "index": "DM",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6436fc8e-d1a3-4473-9d9a-fbe5a7ef6c30.png",
-    "Grid Image": "6436fc8e-d1a3-4473-9d9a-fbe5a7ef6c30.grid.png"
+    "Grid Image": "6436fc8e-d1a3-4473-9d9a-fbe5a7ef6c30.grid.png",
+    "sfr-name": "EARTH_MOREHL_SORCERER"
   },
   {
     "id": "657e1df6-3ed3-419e-b98d-eac918457fa3",
@@ -9908,7 +10094,8 @@
     "index": "DN",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "657e1df6-3ed3-419e-b98d-eac918457fa3.png",
-    "Grid Image": "657e1df6-3ed3-419e-b98d-eac918457fa3.grid.png"
+    "Grid Image": "657e1df6-3ed3-419e-b98d-eac918457fa3.grid.png",
+    "sfr-name": "EARTH_SELUMARI_DISCIPLE"
   },
   {
     "id": "666e0cbe-2f68-44ca-96f8-3f671b87691d",
@@ -9961,7 +10148,8 @@
     "index": "DO",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "666e0cbe-2f68-44ca-96f8-3f671b87691d.png",
-    "Grid Image": "666e0cbe-2f68-44ca-96f8-3f671b87691d.grid.png"
+    "Grid Image": "666e0cbe-2f68-44ca-96f8-3f671b87691d.grid.png",
+    "sfr-name": "EARTH_TROG_DISCIPLE"
   },
   {
     "id": "68209130-5f34-4699-8a34-0db1fa7ad2f0",
@@ -10014,7 +10202,8 @@
     "index": "DP",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "68209130-5f34-4699-8a34-0db1fa7ad2f0.png",
-    "Grid Image": "68209130-5f34-4699-8a34-0db1fa7ad2f0.grid.png"
+    "Grid Image": "68209130-5f34-4699-8a34-0db1fa7ad2f0.grid.png",
+    "sfr-name": "EARTH_TROG_SORCERER"
   },
   {
     "id": "68527f30-ae3c-4900-85ca-fbc2efc776f7",
@@ -10067,7 +10256,8 @@
     "index": "DQ",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "68527f30-ae3c-4900-85ca-fbc2efc776f7.png",
-    "Grid Image": "68527f30-ae3c-4900-85ca-fbc2efc776f7.grid.png"
+    "Grid Image": "68527f30-ae3c-4900-85ca-fbc2efc776f7.grid.png",
+    "sfr-name": "EARTH_VAGHA_BODYGUARD"
   },
   {
     "id": "69fea0ae-12cd-4ea0-b732-a039a822f70b",
@@ -10120,7 +10310,8 @@
     "index": "DR",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "69fea0ae-12cd-4ea0-b732-a039a822f70b.png",
-    "Grid Image": "69fea0ae-12cd-4ea0-b732-a039a822f70b.grid.png"
+    "Grid Image": "69fea0ae-12cd-4ea0-b732-a039a822f70b.grid.png",
+    "sfr-name": "DEATHDRAGONHUNTER"
   },
   {
     "id": "6a6f2593-774b-4db2-af02-9c9d0c6f059e",
@@ -10173,7 +10364,8 @@
     "index": "DS",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6a6f2593-774b-4db2-af02-9c9d0c6f059e.png",
-    "Grid Image": "6a6f2593-774b-4db2-af02-9c9d0c6f059e.grid.png"
+    "Grid Image": "6a6f2593-774b-4db2-af02-9c9d0c6f059e.grid.png",
+    "sfr-name": "AIRDRAGONHUNTER"
   },
   {
     "id": "6ada6cc7-f96c-4c7d-953a-fca03ccb6ff3",
@@ -10226,7 +10418,8 @@
     "index": "DT",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6ada6cc7-f96c-4c7d-953a-fca03ccb6ff3.png",
-    "Grid Image": "6ada6cc7-f96c-4c7d-953a-fca03ccb6ff3.grid.png"
+    "Grid Image": "6ada6cc7-f96c-4c7d-953a-fca03ccb6ff3.grid.png",
+    "sfr-name": "WATERDRAGONHUNTER"
   },
   {
     "id": "6ae38462-f757-446f-b217-a1946f67c705",
@@ -10279,7 +10472,8 @@
     "index": "DU",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6ae38462-f757-446f-b217-a1946f67c705.png",
-    "Grid Image": "6ae38462-f757-446f-b217-a1946f67c705.grid.png"
+    "Grid Image": "6ae38462-f757-446f-b217-a1946f67c705.grid.png",
+    "sfr-name": "FIREDRAGONHUNTER"
   },
   {
     "id": "6b35f887-2c47-49be-8aa8-ec6ed8c1f79d",
@@ -10332,7 +10526,8 @@
     "index": "DV",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6b35f887-2c47-49be-8aa8-ec6ed8c1f79d.png",
-    "Grid Image": "6b35f887-2c47-49be-8aa8-ec6ed8c1f79d.grid.png"
+    "Grid Image": "6b35f887-2c47-49be-8aa8-ec6ed8c1f79d.grid.png",
+    "sfr-name": "EARTHDRAGONHUNTER"
   },
   {
     "id": "6b4b423b-aa8f-4309-9655-6a04c5b9bea0",
@@ -10385,7 +10580,8 @@
     "index": "DW",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6b4b423b-aa8f-4309-9655-6a04c5b9bea0.png",
-    "Grid Image": "6b4b423b-aa8f-4309-9655-6a04c5b9bea0.grid.png"
+    "Grid Image": "6b4b423b-aa8f-4309-9655-6a04c5b9bea0.grid.png",
+    "sfr-name": "DRAGONSLAYER"
   },
   {
     "id": "6b757532-a8c5-4359-8855-d13e6bf7bcdc",
@@ -10438,7 +10634,8 @@
     "index": "DX",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6b757532-a8c5-4359-8855-d13e6bf7bcdc.png",
-    "Grid Image": "6b757532-a8c5-4359-8855-d13e6bf7bcdc.grid.png"
+    "Grid Image": "6b757532-a8c5-4359-8855-d13e6bf7bcdc.grid.png",
+    "sfr-name": "DEATHDRAGONZEALOT"
   },
   {
     "id": "6bac2396-02f3-4008-b8d6-5abc41e1a8ba",
@@ -10491,7 +10688,8 @@
     "index": "DY",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6bac2396-02f3-4008-b8d6-5abc41e1a8ba.png",
-    "Grid Image": "6bac2396-02f3-4008-b8d6-5abc41e1a8ba.grid.png"
+    "Grid Image": "6bac2396-02f3-4008-b8d6-5abc41e1a8ba.grid.png",
+    "sfr-name": "AIRDRAGONZEALOT"
   },
   {
     "id": "6bb76fdf-65e1-45aa-954f-45009dca9ee5",
@@ -10544,7 +10742,8 @@
     "index": "DZ",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6bb76fdf-65e1-45aa-954f-45009dca9ee5.png",
-    "Grid Image": "6bb76fdf-65e1-45aa-954f-45009dca9ee5.grid.png"
+    "Grid Image": "6bb76fdf-65e1-45aa-954f-45009dca9ee5.grid.png",
+    "sfr-name": "WATERDRAGONZEALOT"
   },
   {
     "id": "6bd1cf9b-d3fe-4b13-85d0-fdfb8737cae8",
@@ -10597,7 +10796,8 @@
     "index": "Da",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6bd1cf9b-d3fe-4b13-85d0-fdfb8737cae8.png",
-    "Grid Image": "6bd1cf9b-d3fe-4b13-85d0-fdfb8737cae8.grid.png"
+    "Grid Image": "6bd1cf9b-d3fe-4b13-85d0-fdfb8737cae8.grid.png",
+    "sfr-name": "FIREDRAGONZEALOT"
   },
   {
     "id": "6bfee8c2-73a1-4f08-b27e-13e6716fa5b3",
@@ -10650,7 +10850,8 @@
     "index": "Db",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6bfee8c2-73a1-4f08-b27e-13e6716fa5b3.png",
-    "Grid Image": "6bfee8c2-73a1-4f08-b27e-13e6716fa5b3.grid.png"
+    "Grid Image": "6bfee8c2-73a1-4f08-b27e-13e6716fa5b3.grid.png",
+    "sfr-name": "EARTHDRAGONZEALOT"
   },
   {
     "id": "6c6dad43-5cde-4174-8979-76f3130dcbec",
@@ -10703,7 +10904,8 @@
     "index": "Dc",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6c6dad43-5cde-4174-8979-76f3130dcbec.png",
-    "Grid Image": "6c6dad43-5cde-4174-8979-76f3130dcbec.grid.png"
+    "Grid Image": "6c6dad43-5cde-4174-8979-76f3130dcbec.grid.png",
+    "sfr-name": "DRAGONCRUSADER"
   },
   {
     "id": "6c9e08df-272a-44cf-9794-be2cf6b7e4ed",
@@ -10756,7 +10958,8 @@
     "index": "Dd",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6c9e08df-272a-44cf-9794-be2cf6b7e4ed.png",
-    "Grid Image": "6c9e08df-272a-44cf-9794-be2cf6b7e4ed.grid.png"
+    "Grid Image": "6c9e08df-272a-44cf-9794-be2cf6b7e4ed.grid.png",
+    "sfr-name": "DEATHDRAGONMASTER"
   },
   {
     "id": "6cca4e58-8254-4fd9-a92f-60353bbf4caf",
@@ -10809,7 +11012,8 @@
     "index": "De",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6cca4e58-8254-4fd9-a92f-60353bbf4caf.png",
-    "Grid Image": "6cca4e58-8254-4fd9-a92f-60353bbf4caf.grid.png"
+    "Grid Image": "6cca4e58-8254-4fd9-a92f-60353bbf4caf.grid.png",
+    "sfr-name": "AIRDRAGONMASTER"
   },
   {
     "id": "6d7d85a7-e4ac-4a08-b53d-40fa05214143",
@@ -10862,7 +11066,8 @@
     "index": "Df",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6d7d85a7-e4ac-4a08-b53d-40fa05214143.png",
-    "Grid Image": "6d7d85a7-e4ac-4a08-b53d-40fa05214143.grid.png"
+    "Grid Image": "6d7d85a7-e4ac-4a08-b53d-40fa05214143.grid.png",
+    "sfr-name": "WATERDRAGONMASTER"
   },
   {
     "id": "6d90591e-55fb-4b5f-a707-0459f4220035",
@@ -10915,7 +11120,8 @@
     "index": "Dg",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6d90591e-55fb-4b5f-a707-0459f4220035.png",
-    "Grid Image": "6d90591e-55fb-4b5f-a707-0459f4220035.grid.png"
+    "Grid Image": "6d90591e-55fb-4b5f-a707-0459f4220035.grid.png",
+    "sfr-name": "FIREDRAGONMASTER"
   },
   {
     "id": "6dfe3ed1-455b-4eac-99a9-e8a6e7529df2",
@@ -10968,7 +11174,8 @@
     "index": "Dh",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6dfe3ed1-455b-4eac-99a9-e8a6e7529df2.png",
-    "Grid Image": "6dfe3ed1-455b-4eac-99a9-e8a6e7529df2.grid.png"
+    "Grid Image": "6dfe3ed1-455b-4eac-99a9-e8a6e7529df2.grid.png",
+    "sfr-name": "EARTHDRAGONMASTER"
   },
   {
     "id": "6e5edbc6-fc1f-477d-8477-2e190a537002",
@@ -11021,6 +11228,7 @@
     "index": "Di",
     "set_id": "ffc3177a-5fb7-4818-be8e-7dae24c777f5",
     "image": "6e5edbc6-fc1f-477d-8477-2e190a537002.png",
-    "Grid Image": "6e5edbc6-fc1f-477d-8477-2e190a537002.grid.png"
+    "Grid Image": "6e5edbc6-fc1f-477d-8477-2e190a537002.grid.png",
+    "sfr-name": "DRAGONLORD"
   }
 ]
