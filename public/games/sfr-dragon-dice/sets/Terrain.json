@@ -64,7 +64,8 @@
     "index": "3s",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "01458266-4d5e-4103-92c8-d0993e975a18.png",
-    "Grid Image": "01458266-4d5e-4103-92c8-d0993e975a18.grid.png"
+    "Grid Image": "01458266-4d5e-4103-92c8-d0993e975a18.grid.png",
+    "sfr-name": "DEADLAND_BRIDGE"
   },
   {
     "id": "01d222bf-12f2-417e-916a-c30696d05abf",
@@ -131,7 +132,8 @@
     "index": "3t",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "01d222bf-12f2-417e-916a-c30696d05abf.png",
-    "Grid Image": "01d222bf-12f2-417e-916a-c30696d05abf.grid.png"
+    "Grid Image": "01d222bf-12f2-417e-916a-c30696d05abf.grid.png",
+    "sfr-name": "DEADLAND_KNOLL"
   },
   {
     "id": "06d63007-7887-44fa-acde-2077fd69ebb8",
@@ -198,7 +200,8 @@
     "index": "3u",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "06d63007-7887-44fa-acde-2077fd69ebb8.png",
-    "Grid Image": "06d63007-7887-44fa-acde-2077fd69ebb8.grid.png"
+    "Grid Image": "06d63007-7887-44fa-acde-2077fd69ebb8.grid.png",
+    "sfr-name": "DEADLAND_VILLAGE"
   },
   {
     "id": "077751d6-e88a-4d7d-840f-336e05d033b5",
@@ -265,7 +268,8 @@
     "index": "3v",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "077751d6-e88a-4d7d-840f-336e05d033b5.png",
-    "Grid Image": "077751d6-e88a-4d7d-840f-336e05d033b5.grid.png"
+    "Grid Image": "077751d6-e88a-4d7d-840f-336e05d033b5.grid.png",
+    "sfr-name": "DEADLAND_WOODS"
   },
   {
     "id": "08ee6105-c56c-426d-ab86-3135abc7bee3",
@@ -332,7 +336,8 @@
     "index": "3w",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "08ee6105-c56c-426d-ab86-3135abc7bee3.png",
-    "Grid Image": "08ee6105-c56c-426d-ab86-3135abc7bee3.grid.png"
+    "Grid Image": "08ee6105-c56c-426d-ab86-3135abc7bee3.grid.png",
+    "sfr-name": "COASTLAND_CITY"
   },
   {
     "id": "15bedfd6-dbc0-4812-8d9b-9acc618724c8",
@@ -399,7 +404,8 @@
     "index": "3x",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "15bedfd6-dbc0-4812-8d9b-9acc618724c8.png",
-    "Grid Image": "15bedfd6-dbc0-4812-8d9b-9acc618724c8.grid.png"
+    "Grid Image": "15bedfd6-dbc0-4812-8d9b-9acc618724c8.grid.png",
+    "sfr-name": "COASTLAND_STANDING_STONE"
   },
   {
     "id": "1c9d630f-bf45-4849-a0a9-5cffea14ae93",
@@ -466,7 +472,8 @@
     "index": "3y",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "1c9d630f-bf45-4849-a0a9-5cffea14ae93.png",
-    "Grid Image": "1c9d630f-bf45-4849-a0a9-5cffea14ae93.grid.png"
+    "Grid Image": "1c9d630f-bf45-4849-a0a9-5cffea14ae93.grid.png",
+    "sfr-name": "COASTLAND_TEMPLE"
   },
   {
     "id": "231b354a-8a08-40f2-a76a-0fc54e0b4d49",
@@ -533,7 +540,8 @@
     "index": "3z",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "231b354a-8a08-40f2-a76a-0fc54e0b4d49.png",
-    "Grid Image": "231b354a-8a08-40f2-a76a-0fc54e0b4d49.grid.png"
+    "Grid Image": "231b354a-8a08-40f2-a76a-0fc54e0b4d49.grid.png",
+    "sfr-name": "COASTLAND_TOWER"
   },
   {
     "id": "232600aa-62b5-4c86-ade3-eee5fc99425e",
@@ -600,7 +608,8 @@
     "index": "40",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "232600aa-62b5-4c86-ade3-eee5fc99425e.png",
-    "Grid Image": "232600aa-62b5-4c86-ade3-eee5fc99425e.grid.png"
+    "Grid Image": "232600aa-62b5-4c86-ade3-eee5fc99425e.grid.png",
+    "sfr-name": "COASTLAND_CASTLE"
   },
   {
     "id": "2735f7fc-01b7-4cdc-a7f9-46e14b3b287d",
@@ -667,7 +676,8 @@
     "index": "41",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "2735f7fc-01b7-4cdc-a7f9-46e14b3b287d.png",
-    "Grid Image": "2735f7fc-01b7-4cdc-a7f9-46e14b3b287d.grid.png"
+    "Grid Image": "2735f7fc-01b7-4cdc-a7f9-46e14b3b287d.grid.png",
+    "sfr-name": "COASTLAND_DRAGONSLAIR"
   },
   {
     "id": "2bd4712b-cb0e-405e-a279-201dc2b58c01",
@@ -734,7 +744,8 @@
     "index": "42",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "2bd4712b-cb0e-405e-a279-201dc2b58c01.png",
-    "Grid Image": "2bd4712b-cb0e-405e-a279-201dc2b58c01.grid.png"
+    "Grid Image": "2bd4712b-cb0e-405e-a279-201dc2b58c01.grid.png",
+    "sfr-name": "COASTLAND_GROVE"
   },
   {
     "id": "2d48b672-d55e-4a3f-9721-55f8270af6d7",
@@ -801,7 +812,8 @@
     "index": "43",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "2d48b672-d55e-4a3f-9721-55f8270af6d7.png",
-    "Grid Image": "2d48b672-d55e-4a3f-9721-55f8270af6d7.grid.png"
+    "Grid Image": "2d48b672-d55e-4a3f-9721-55f8270af6d7.grid.png",
+    "sfr-name": "COASTLAND_VORTEX"
   },
   {
     "id": "358b51a1-36ec-4a26-8adb-055610008dd0",
@@ -868,7 +880,8 @@
     "index": "44",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "358b51a1-36ec-4a26-8adb-055610008dd0.png",
-    "Grid Image": "358b51a1-36ec-4a26-8adb-055610008dd0.grid.png"
+    "Grid Image": "358b51a1-36ec-4a26-8adb-055610008dd0.grid.png",
+    "sfr-name": "COASTLAND_BRIDGE"
   },
   {
     "id": "366dcfc6-3b38-4c00-bfdd-7d6e4eed3e64",
@@ -935,7 +948,8 @@
     "index": "45",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "366dcfc6-3b38-4c00-bfdd-7d6e4eed3e64.png",
-    "Grid Image": "366dcfc6-3b38-4c00-bfdd-7d6e4eed3e64.grid.png"
+    "Grid Image": "366dcfc6-3b38-4c00-bfdd-7d6e4eed3e64.grid.png",
+    "sfr-name": "COASTLAND_KNOLL"
   },
   {
     "id": "3f66ee7c-1d3d-4456-b2c7-395f8b58ba4b",
@@ -1002,7 +1016,8 @@
     "index": "46",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "3f66ee7c-1d3d-4456-b2c7-395f8b58ba4b.png",
-    "Grid Image": "3f66ee7c-1d3d-4456-b2c7-395f8b58ba4b.grid.png"
+    "Grid Image": "3f66ee7c-1d3d-4456-b2c7-395f8b58ba4b.grid.png",
+    "sfr-name": "COASTLAND_VILLAGE"
   },
   {
     "id": "40cde43f-8895-4a93-9992-78e5295f33dc",
@@ -1069,7 +1084,8 @@
     "index": "47",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "40cde43f-8895-4a93-9992-78e5295f33dc.png",
-    "Grid Image": "40cde43f-8895-4a93-9992-78e5295f33dc.grid.png"
+    "Grid Image": "40cde43f-8895-4a93-9992-78e5295f33dc.grid.png",
+    "sfr-name": "COASTLAND_WOODS"
   },
   {
     "id": "42a21a70-2afc-4e03-95dc-41e37118797d",
@@ -1136,7 +1152,8 @@
     "index": "48",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "42a21a70-2afc-4e03-95dc-41e37118797d.png",
-    "Grid Image": "42a21a70-2afc-4e03-95dc-41e37118797d.grid.png"
+    "Grid Image": "42a21a70-2afc-4e03-95dc-41e37118797d.grid.png",
+    "sfr-name": "WASTELAND_CITY"
   },
   {
     "id": "4596bac4-7e93-4f25-bad5-e01a636f4458",
@@ -1203,7 +1220,8 @@
     "index": "49",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "4596bac4-7e93-4f25-bad5-e01a636f4458.png",
-    "Grid Image": "4596bac4-7e93-4f25-bad5-e01a636f4458.grid.png"
+    "Grid Image": "4596bac4-7e93-4f25-bad5-e01a636f4458.grid.png",
+    "sfr-name": "WASTELAND_STANDING_STONE"
   },
   {
     "id": "46dc6d7c-af96-40b0-9b33-d2f3e1469bed",
@@ -1270,7 +1288,8 @@
     "index": "4A",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "46dc6d7c-af96-40b0-9b33-d2f3e1469bed.png",
-    "Grid Image": "46dc6d7c-af96-40b0-9b33-d2f3e1469bed.grid.png"
+    "Grid Image": "46dc6d7c-af96-40b0-9b33-d2f3e1469bed.grid.png",
+    "sfr-name": "WASTELAND_TEMPLE"
   },
   {
     "id": "52aae2fc-1ea9-4edd-bdfc-87fe4d167558",
@@ -1337,7 +1356,8 @@
     "index": "4B",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "52aae2fc-1ea9-4edd-bdfc-87fe4d167558.png",
-    "Grid Image": "52aae2fc-1ea9-4edd-bdfc-87fe4d167558.grid.png"
+    "Grid Image": "52aae2fc-1ea9-4edd-bdfc-87fe4d167558.grid.png",
+    "sfr-name": "WASTELAND_TOWER"
   },
   {
     "id": "5432db72-c720-4a38-87c8-3856c4f19dee",
@@ -1404,7 +1424,8 @@
     "index": "4C",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "5432db72-c720-4a38-87c8-3856c4f19dee.png",
-    "Grid Image": "5432db72-c720-4a38-87c8-3856c4f19dee.grid.png"
+    "Grid Image": "5432db72-c720-4a38-87c8-3856c4f19dee.grid.png",
+    "sfr-name": "WASTELAND_CASTLE"
   },
   {
     "id": "58902001-ab26-48e6-8855-a3c19fd1f0f6",
@@ -1471,7 +1492,8 @@
     "index": "4D",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "58902001-ab26-48e6-8855-a3c19fd1f0f6.png",
-    "Grid Image": "58902001-ab26-48e6-8855-a3c19fd1f0f6.grid.png"
+    "Grid Image": "58902001-ab26-48e6-8855-a3c19fd1f0f6.grid.png",
+    "sfr-name": "WASTELAND_DRAGONSLAIR"
   },
   {
     "id": "60be0275-3b20-429d-b5b6-ebe56b8a16cd",
@@ -1538,7 +1560,8 @@
     "index": "4E",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "60be0275-3b20-429d-b5b6-ebe56b8a16cd.png",
-    "Grid Image": "60be0275-3b20-429d-b5b6-ebe56b8a16cd.grid.png"
+    "Grid Image": "60be0275-3b20-429d-b5b6-ebe56b8a16cd.grid.png",
+    "sfr-name": "WASTELAND_GROVE"
   },
   {
     "id": "63ea9c4d-b43d-4c45-afe2-9259baef3566",
@@ -1605,7 +1628,8 @@
     "index": "4F",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "63ea9c4d-b43d-4c45-afe2-9259baef3566.png",
-    "Grid Image": "63ea9c4d-b43d-4c45-afe2-9259baef3566.grid.png"
+    "Grid Image": "63ea9c4d-b43d-4c45-afe2-9259baef3566.grid.png",
+    "sfr-name": "WASTELAND_VORTEX"
   },
   {
     "id": "6febf209-3def-4986-8e98-9ace15cfef69",
@@ -1672,7 +1696,8 @@
     "index": "4G",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "6febf209-3def-4986-8e98-9ace15cfef69.png",
-    "Grid Image": "6febf209-3def-4986-8e98-9ace15cfef69.grid.png"
+    "Grid Image": "6febf209-3def-4986-8e98-9ace15cfef69.grid.png",
+    "sfr-name": "WASTELAND_BRIDGE"
   },
   {
     "id": "73f5efa9-82fe-45ef-b664-9baaf0c8b6d6",
@@ -1739,7 +1764,8 @@
     "index": "4H",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "73f5efa9-82fe-45ef-b664-9baaf0c8b6d6.png",
-    "Grid Image": "73f5efa9-82fe-45ef-b664-9baaf0c8b6d6.grid.png"
+    "Grid Image": "73f5efa9-82fe-45ef-b664-9baaf0c8b6d6.grid.png",
+    "sfr-name": "WASTELAND_KNOLL"
   },
   {
     "id": "791d0457-9cfd-4c78-a9e7-29e8b9311c04",
@@ -1806,7 +1832,8 @@
     "index": "4I",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "791d0457-9cfd-4c78-a9e7-29e8b9311c04.png",
-    "Grid Image": "791d0457-9cfd-4c78-a9e7-29e8b9311c04.grid.png"
+    "Grid Image": "791d0457-9cfd-4c78-a9e7-29e8b9311c04.grid.png",
+    "sfr-name": "WASTELAND_VILLAGE"
   },
   {
     "id": "811e35ba-ecca-4728-b9af-d85f1731bea3",
@@ -1873,7 +1900,8 @@
     "index": "4J",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "811e35ba-ecca-4728-b9af-d85f1731bea3.png",
-    "Grid Image": "811e35ba-ecca-4728-b9af-d85f1731bea3.grid.png"
+    "Grid Image": "811e35ba-ecca-4728-b9af-d85f1731bea3.grid.png",
+    "sfr-name": "WASTELAND_WOODS"
   },
   {
     "id": "8139f119-b655-415a-acbe-c93b4a1c829c",
@@ -1940,7 +1968,8 @@
     "index": "4K",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "8139f119-b655-415a-acbe-c93b4a1c829c.png",
-    "Grid Image": "8139f119-b655-415a-acbe-c93b4a1c829c.grid.png"
+    "Grid Image": "8139f119-b655-415a-acbe-c93b4a1c829c.grid.png",
+    "sfr-name": "FLATLAND_CITY"
   },
   {
     "id": "8391f7e1-c2c1-45ea-963e-cb475a2686f3",
@@ -2007,7 +2036,8 @@
     "index": "4L",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "8391f7e1-c2c1-45ea-963e-cb475a2686f3.png",
-    "Grid Image": "8391f7e1-c2c1-45ea-963e-cb475a2686f3.grid.png"
+    "Grid Image": "8391f7e1-c2c1-45ea-963e-cb475a2686f3.grid.png",
+    "sfr-name": "FLATLAND_STANDING_STONE"
   },
   {
     "id": "852d47ac-f95d-4a4d-bd5b-36b7c14f0f71",
@@ -2074,7 +2104,8 @@
     "index": "4M",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "852d47ac-f95d-4a4d-bd5b-36b7c14f0f71.png",
-    "Grid Image": "852d47ac-f95d-4a4d-bd5b-36b7c14f0f71.grid.png"
+    "Grid Image": "852d47ac-f95d-4a4d-bd5b-36b7c14f0f71.grid.png",
+    "sfr-name": "FLATLAND_TEMPLE"
   },
   {
     "id": "85af44d1-6ec1-4e46-a6c7-5338db940bf4",
@@ -2141,7 +2172,8 @@
     "index": "4N",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "85af44d1-6ec1-4e46-a6c7-5338db940bf4.png",
-    "Grid Image": "85af44d1-6ec1-4e46-a6c7-5338db940bf4.grid.png"
+    "Grid Image": "85af44d1-6ec1-4e46-a6c7-5338db940bf4.grid.png",
+    "sfr-name": "FLATLAND_TOWER"
   },
   {
     "id": "8d1beed8-cc3b-45ce-bee0-ad6d48ed0e50",
@@ -2208,7 +2240,8 @@
     "index": "4O",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "8d1beed8-cc3b-45ce-bee0-ad6d48ed0e50.png",
-    "Grid Image": "8d1beed8-cc3b-45ce-bee0-ad6d48ed0e50.grid.png"
+    "Grid Image": "8d1beed8-cc3b-45ce-bee0-ad6d48ed0e50.grid.png",
+    "sfr-name": "FLATLAND_CASTLE"
   },
   {
     "id": "915fdeb2-cd3b-401d-a1e5-e55305822a9f",
@@ -2275,7 +2308,8 @@
     "index": "4P",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "915fdeb2-cd3b-401d-a1e5-e55305822a9f.png",
-    "Grid Image": "915fdeb2-cd3b-401d-a1e5-e55305822a9f.grid.png"
+    "Grid Image": "915fdeb2-cd3b-401d-a1e5-e55305822a9f.grid.png",
+    "sfr-name": "FLATLAND_DRAGONSLAIR"
   },
   {
     "id": "92149556-5e40-4574-ac4c-fc21046ad731",
@@ -2342,7 +2376,8 @@
     "index": "4Q",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "92149556-5e40-4574-ac4c-fc21046ad731.png",
-    "Grid Image": "92149556-5e40-4574-ac4c-fc21046ad731.grid.png"
+    "Grid Image": "92149556-5e40-4574-ac4c-fc21046ad731.grid.png",
+    "sfr-name": "FLATLAND_GROVE"
   },
   {
     "id": "94675dd9-7bce-492b-8980-6ee8341dddeb",
@@ -2409,7 +2444,8 @@
     "index": "4R",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "94675dd9-7bce-492b-8980-6ee8341dddeb.png",
-    "Grid Image": "94675dd9-7bce-492b-8980-6ee8341dddeb.grid.png"
+    "Grid Image": "94675dd9-7bce-492b-8980-6ee8341dddeb.grid.png",
+    "sfr-name": "FLATLAND_VORTEX"
   },
   {
     "id": "9b29bf7e-0907-474f-8bf6-a72c50fda73e",
@@ -2476,7 +2512,8 @@
     "index": "4S",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "9b29bf7e-0907-474f-8bf6-a72c50fda73e.png",
-    "Grid Image": "9b29bf7e-0907-474f-8bf6-a72c50fda73e.grid.png"
+    "Grid Image": "9b29bf7e-0907-474f-8bf6-a72c50fda73e.grid.png",
+    "sfr-name": "FLATLAND_BRIDGE"
   },
   {
     "id": "9cb66712-63f1-4738-8f6e-49e7242f8fac",
@@ -2543,7 +2580,8 @@
     "index": "4T",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "9cb66712-63f1-4738-8f6e-49e7242f8fac.png",
-    "Grid Image": "9cb66712-63f1-4738-8f6e-49e7242f8fac.grid.png"
+    "Grid Image": "9cb66712-63f1-4738-8f6e-49e7242f8fac.grid.png",
+    "sfr-name": "FLATLAND_KNOLL"
   },
   {
     "id": "9f3615a5-80e7-4b34-99d6-0306c1d90d14",
@@ -2610,7 +2648,8 @@
     "index": "4U",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "9f3615a5-80e7-4b34-99d6-0306c1d90d14.png",
-    "Grid Image": "9f3615a5-80e7-4b34-99d6-0306c1d90d14.grid.png"
+    "Grid Image": "9f3615a5-80e7-4b34-99d6-0306c1d90d14.grid.png",
+    "sfr-name": "FLATLAND_VILLAGE"
   },
   {
     "id": "a11bcaa3-209a-429f-9263-12b342961db5",
@@ -2677,7 +2716,8 @@
     "index": "4V",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "a11bcaa3-209a-429f-9263-12b342961db5.png",
-    "Grid Image": "a11bcaa3-209a-429f-9263-12b342961db5.grid.png"
+    "Grid Image": "a11bcaa3-209a-429f-9263-12b342961db5.grid.png",
+    "sfr-name": "FLATLAND_WOODS"
   },
   {
     "id": "a249bdad-2265-4a34-82cb-79a0bdb3f53c",
@@ -2744,7 +2784,8 @@
     "index": "4W",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "a249bdad-2265-4a34-82cb-79a0bdb3f53c.png",
-    "Grid Image": "a249bdad-2265-4a34-82cb-79a0bdb3f53c.grid.png"
+    "Grid Image": "a249bdad-2265-4a34-82cb-79a0bdb3f53c.grid.png",
+    "sfr-name": "FEYLAND_CITY"
   },
   {
     "id": "a403c3ba-ecb8-4cda-95f5-41e4c36a9d68",
@@ -2811,7 +2852,8 @@
     "index": "4X",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "a403c3ba-ecb8-4cda-95f5-41e4c36a9d68.png",
-    "Grid Image": "a403c3ba-ecb8-4cda-95f5-41e4c36a9d68.grid.png"
+    "Grid Image": "a403c3ba-ecb8-4cda-95f5-41e4c36a9d68.grid.png",
+    "sfr-name": "FEYLAND_STANDING_STONE"
   },
   {
     "id": "a4d32e48-ad94-4f90-8fa1-a91103f6b21e",
@@ -2878,7 +2920,8 @@
     "index": "4Y",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "a4d32e48-ad94-4f90-8fa1-a91103f6b21e.png",
-    "Grid Image": "a4d32e48-ad94-4f90-8fa1-a91103f6b21e.grid.png"
+    "Grid Image": "a4d32e48-ad94-4f90-8fa1-a91103f6b21e.grid.png",
+    "sfr-name": "FEYLAND_TEMPLE"
   },
   {
     "id": "a6fd5602-2407-47a6-83c0-d4b9e72f86c3",
@@ -2945,7 +2988,8 @@
     "index": "4Z",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "a6fd5602-2407-47a6-83c0-d4b9e72f86c3.png",
-    "Grid Image": "a6fd5602-2407-47a6-83c0-d4b9e72f86c3.grid.png"
+    "Grid Image": "a6fd5602-2407-47a6-83c0-d4b9e72f86c3.grid.png",
+    "sfr-name": "FEYLAND_TOWER"
   },
   {
     "id": "a7394f17-d572-46bd-9132-229fcaaafca0",
@@ -3012,7 +3056,8 @@
     "index": "4a",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "a7394f17-d572-46bd-9132-229fcaaafca0.png",
-    "Grid Image": "a7394f17-d572-46bd-9132-229fcaaafca0.grid.png"
+    "Grid Image": "a7394f17-d572-46bd-9132-229fcaaafca0.grid.png",
+    "sfr-name": "FEYLAND_CASTLE"
   },
   {
     "id": "a8c6f4d4-2fcb-4e9d-b7c4-579b7515d601",
@@ -3079,7 +3124,8 @@
     "index": "4b",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "a8c6f4d4-2fcb-4e9d-b7c4-579b7515d601.png",
-    "Grid Image": "a8c6f4d4-2fcb-4e9d-b7c4-579b7515d601.grid.png"
+    "Grid Image": "a8c6f4d4-2fcb-4e9d-b7c4-579b7515d601.grid.png",
+    "sfr-name": "FEYLAND_DRAGONSLAIR"
   },
   {
     "id": "b158d8d8-00a8-4781-b506-07fb09a4d138",
@@ -3146,7 +3192,8 @@
     "index": "4c",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "b158d8d8-00a8-4781-b506-07fb09a4d138.png",
-    "Grid Image": "b158d8d8-00a8-4781-b506-07fb09a4d138.grid.png"
+    "Grid Image": "b158d8d8-00a8-4781-b506-07fb09a4d138.grid.png",
+    "sfr-name": "FEYLAND_GROVE"
   },
   {
     "id": "b2672917-5ccb-4929-ab61-2927adc86487",
@@ -3213,7 +3260,8 @@
     "index": "4d",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "b2672917-5ccb-4929-ab61-2927adc86487.png",
-    "Grid Image": "b2672917-5ccb-4929-ab61-2927adc86487.grid.png"
+    "Grid Image": "b2672917-5ccb-4929-ab61-2927adc86487.grid.png",
+    "sfr-name": "FEYLAND_VORTEX"
   },
   {
     "id": "b43058c6-8d36-4a14-86fc-17c51ae47011",
@@ -3280,7 +3328,8 @@
     "index": "4e",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "b43058c6-8d36-4a14-86fc-17c51ae47011.png",
-    "Grid Image": "b43058c6-8d36-4a14-86fc-17c51ae47011.grid.png"
+    "Grid Image": "b43058c6-8d36-4a14-86fc-17c51ae47011.grid.png",
+    "sfr-name": "FEYLAND_BRIDGE"
   },
   {
     "id": "b5384ba7-ef8a-485a-881d-4c09c86c88b6",
@@ -3347,7 +3396,8 @@
     "index": "4f",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "b5384ba7-ef8a-485a-881d-4c09c86c88b6.png",
-    "Grid Image": "b5384ba7-ef8a-485a-881d-4c09c86c88b6.grid.png"
+    "Grid Image": "b5384ba7-ef8a-485a-881d-4c09c86c88b6.grid.png",
+    "sfr-name": "FEYLAND_KNOLL"
   },
   {
     "id": "bc322b2c-52e9-446a-a0f8-fcc4386247f7",
@@ -3414,7 +3464,8 @@
     "index": "4g",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "bc322b2c-52e9-446a-a0f8-fcc4386247f7.png",
-    "Grid Image": "bc322b2c-52e9-446a-a0f8-fcc4386247f7.grid.png"
+    "Grid Image": "bc322b2c-52e9-446a-a0f8-fcc4386247f7.grid.png",
+    "sfr-name": "FEYLAND_VILLAGE"
   },
   {
     "id": "bd42d117-ff40-4317-8ddd-98227e102f99",
@@ -3481,7 +3532,8 @@
     "index": "4h",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "bd42d117-ff40-4317-8ddd-98227e102f99.png",
-    "Grid Image": "bd42d117-ff40-4317-8ddd-98227e102f99.grid.png"
+    "Grid Image": "bd42d117-ff40-4317-8ddd-98227e102f99.grid.png",
+    "sfr-name": "FEYLAND_WOODS"
   },
   {
     "id": "c338dfd2-3609-4a7c-972a-7a8c444a9c2f",
@@ -3548,7 +3600,8 @@
     "index": "4i",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "c338dfd2-3609-4a7c-972a-7a8c444a9c2f.png",
-    "Grid Image": "c338dfd2-3609-4a7c-972a-7a8c444a9c2f.grid.png"
+    "Grid Image": "c338dfd2-3609-4a7c-972a-7a8c444a9c2f.grid.png",
+    "sfr-name": "SWAMPLAND_CITY"
   },
   {
     "id": "c3902a48-1ce3-4166-aef2-0a1b352dd5cf",
@@ -3615,7 +3668,8 @@
     "index": "4j",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "c3902a48-1ce3-4166-aef2-0a1b352dd5cf.png",
-    "Grid Image": "c3902a48-1ce3-4166-aef2-0a1b352dd5cf.grid.png"
+    "Grid Image": "c3902a48-1ce3-4166-aef2-0a1b352dd5cf.grid.png",
+    "sfr-name": "SWAMPLAND_STANDING_STONE"
   },
   {
     "id": "c84b1dfd-1860-42c9-9eee-25ca21264b37",
@@ -3682,7 +3736,8 @@
     "index": "4k",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "c84b1dfd-1860-42c9-9eee-25ca21264b37.png",
-    "Grid Image": "c84b1dfd-1860-42c9-9eee-25ca21264b37.grid.png"
+    "Grid Image": "c84b1dfd-1860-42c9-9eee-25ca21264b37.grid.png",
+    "sfr-name": "SWAMPLAND_TEMPLE"
   },
   {
     "id": "c8861ee3-65b3-4447-88b0-12b17db769e1",
@@ -3749,7 +3804,8 @@
     "index": "4l",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "c8861ee3-65b3-4447-88b0-12b17db769e1.png",
-    "Grid Image": "c8861ee3-65b3-4447-88b0-12b17db769e1.grid.png"
+    "Grid Image": "c8861ee3-65b3-4447-88b0-12b17db769e1.grid.png",
+    "sfr-name": "SWAMPLAND_TOWER"
   },
   {
     "id": "ccc2582e-6a6e-454d-9b16-3011075bc8cb",
@@ -3816,7 +3872,8 @@
     "index": "4m",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "ccc2582e-6a6e-454d-9b16-3011075bc8cb.png",
-    "Grid Image": "ccc2582e-6a6e-454d-9b16-3011075bc8cb.grid.png"
+    "Grid Image": "ccc2582e-6a6e-454d-9b16-3011075bc8cb.grid.png",
+    "sfr-name": "SWAMPLAND_CASTLE"
   },
   {
     "id": "d53b644f-3684-4bbe-a97c-e5e033a7b1d4",
@@ -3883,7 +3940,8 @@
     "index": "4n",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "d53b644f-3684-4bbe-a97c-e5e033a7b1d4.png",
-    "Grid Image": "d53b644f-3684-4bbe-a97c-e5e033a7b1d4.grid.png"
+    "Grid Image": "d53b644f-3684-4bbe-a97c-e5e033a7b1d4.grid.png",
+    "sfr-name": "SWAMPLAND_DRAGONSLAIR"
   },
   {
     "id": "d5fd2d52-008a-42a7-b471-562883a659ee",
@@ -3950,7 +4008,8 @@
     "index": "4o",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "d5fd2d52-008a-42a7-b471-562883a659ee.png",
-    "Grid Image": "d5fd2d52-008a-42a7-b471-562883a659ee.grid.png"
+    "Grid Image": "d5fd2d52-008a-42a7-b471-562883a659ee.grid.png",
+    "sfr-name": "SWAMPLAND_GROVE"
   },
   {
     "id": "d9610696-d4a1-4360-b3c7-c4e11911bd18",
@@ -4017,7 +4076,8 @@
     "index": "4p",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "d9610696-d4a1-4360-b3c7-c4e11911bd18.png",
-    "Grid Image": "d9610696-d4a1-4360-b3c7-c4e11911bd18.grid.png"
+    "Grid Image": "d9610696-d4a1-4360-b3c7-c4e11911bd18.grid.png",
+    "sfr-name": "SWAMPLAND_VORTEX"
   },
   {
     "id": "d9dfdc8a-40cd-4ba7-8e5b-9124cbdf0c8a",
@@ -4084,7 +4144,8 @@
     "index": "4q",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "d9dfdc8a-40cd-4ba7-8e5b-9124cbdf0c8a.png",
-    "Grid Image": "d9dfdc8a-40cd-4ba7-8e5b-9124cbdf0c8a.grid.png"
+    "Grid Image": "d9dfdc8a-40cd-4ba7-8e5b-9124cbdf0c8a.grid.png",
+    "sfr-name": "SWAMPLAND_BRIDGE"
   },
   {
     "id": "daeb674c-b1a6-4146-a73b-0f6504559e9f",
@@ -4151,7 +4212,8 @@
     "index": "4r",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "daeb674c-b1a6-4146-a73b-0f6504559e9f.png",
-    "Grid Image": "daeb674c-b1a6-4146-a73b-0f6504559e9f.grid.png"
+    "Grid Image": "daeb674c-b1a6-4146-a73b-0f6504559e9f.grid.png",
+    "sfr-name": "SWAMPLAND_KNOLL"
   },
   {
     "id": "dd7dda8f-01ef-4d59-b2da-3fa284074732",
@@ -4218,7 +4280,8 @@
     "index": "4s",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "dd7dda8f-01ef-4d59-b2da-3fa284074732.png",
-    "Grid Image": "dd7dda8f-01ef-4d59-b2da-3fa284074732.grid.png"
+    "Grid Image": "dd7dda8f-01ef-4d59-b2da-3fa284074732.grid.png",
+    "sfr-name": "SWAMPLAND_VILLAGE"
   },
   {
     "id": "ddaa2f9d-300a-40a4-91e0-f7b3d3e6641d",
@@ -4285,7 +4348,8 @@
     "index": "4t",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "ddaa2f9d-300a-40a4-91e0-f7b3d3e6641d.png",
-    "Grid Image": "ddaa2f9d-300a-40a4-91e0-f7b3d3e6641d.grid.png"
+    "Grid Image": "ddaa2f9d-300a-40a4-91e0-f7b3d3e6641d.grid.png",
+    "sfr-name": "SWAMPLAND_WOODS"
   },
   {
     "id": "e1fe5fba-78b6-4916-a252-a0b77643c1c4",
@@ -4352,7 +4416,8 @@
     "index": "4u",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "e1fe5fba-78b6-4916-a252-a0b77643c1c4.png",
-    "Grid Image": "e1fe5fba-78b6-4916-a252-a0b77643c1c4.grid.png"
+    "Grid Image": "e1fe5fba-78b6-4916-a252-a0b77643c1c4.grid.png",
+    "sfr-name": "HIGHLAND_CITY"
   },
   {
     "id": "e248483f-3eb3-4e7c-a474-c96a6f2714e7",
@@ -4419,7 +4484,8 @@
     "index": "4v",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "e248483f-3eb3-4e7c-a474-c96a6f2714e7.png",
-    "Grid Image": "e248483f-3eb3-4e7c-a474-c96a6f2714e7.grid.png"
+    "Grid Image": "e248483f-3eb3-4e7c-a474-c96a6f2714e7.grid.png",
+    "sfr-name": "HIGHLAND_STANDING_STONE"
   },
   {
     "id": "e3f5986b-55e9-4c09-b48b-816f8e8648e3",
@@ -4486,7 +4552,8 @@
     "index": "4w",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "e3f5986b-55e9-4c09-b48b-816f8e8648e3.png",
-    "Grid Image": "e3f5986b-55e9-4c09-b48b-816f8e8648e3.grid.png"
+    "Grid Image": "e3f5986b-55e9-4c09-b48b-816f8e8648e3.grid.png",
+    "sfr-name": "HIGHLAND_TEMPLE"
   },
   {
     "id": "e8b6d184-2bc6-4319-9bea-fbbbc754e804",
@@ -4553,7 +4620,8 @@
     "index": "4x",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "e8b6d184-2bc6-4319-9bea-fbbbc754e804.png",
-    "Grid Image": "e8b6d184-2bc6-4319-9bea-fbbbc754e804.grid.png"
+    "Grid Image": "e8b6d184-2bc6-4319-9bea-fbbbc754e804.grid.png",
+    "sfr-name": "HIGHLAND_TOWER"
   },
   {
     "id": "e95351ea-7564-4019-99e5-ea6901f0aac3",
@@ -4620,7 +4688,8 @@
     "index": "4y",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "e95351ea-7564-4019-99e5-ea6901f0aac3.png",
-    "Grid Image": "e95351ea-7564-4019-99e5-ea6901f0aac3.grid.png"
+    "Grid Image": "e95351ea-7564-4019-99e5-ea6901f0aac3.grid.png",
+    "sfr-name": "HIGHLAND_CASTLE"
   },
   {
     "id": "eed4d8a6-bece-4616-a240-c04cbe7b6ee7",
@@ -4687,7 +4756,8 @@
     "index": "4z",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "eed4d8a6-bece-4616-a240-c04cbe7b6ee7.png",
-    "Grid Image": "eed4d8a6-bece-4616-a240-c04cbe7b6ee7.grid.png"
+    "Grid Image": "eed4d8a6-bece-4616-a240-c04cbe7b6ee7.grid.png",
+    "sfr-name": "HIGHLAND_DRAGONSLAIR"
   },
   {
     "id": "f002c32b-3aa5-4c7c-9ca5-0d3931bc15a6",
@@ -4754,7 +4824,8 @@
     "index": "50",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "f002c32b-3aa5-4c7c-9ca5-0d3931bc15a6.png",
-    "Grid Image": "f002c32b-3aa5-4c7c-9ca5-0d3931bc15a6.grid.png"
+    "Grid Image": "f002c32b-3aa5-4c7c-9ca5-0d3931bc15a6.grid.png",
+    "sfr-name": "HIGHLAND_GROVE"
   },
   {
     "id": "f45736f0-a1a1-4b95-bc9b-ab5fa5b9f3d7",
@@ -4821,7 +4892,8 @@
     "index": "51",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "f45736f0-a1a1-4b95-bc9b-ab5fa5b9f3d7.png",
-    "Grid Image": "f45736f0-a1a1-4b95-bc9b-ab5fa5b9f3d7.grid.png"
+    "Grid Image": "f45736f0-a1a1-4b95-bc9b-ab5fa5b9f3d7.grid.png",
+    "sfr-name": "HIGHLAND_VORTEX"
   },
   {
     "id": "f4c267ea-af4e-43ca-94fd-a00194630c52",
@@ -4888,7 +4960,8 @@
     "index": "52",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "f4c267ea-af4e-43ca-94fd-a00194630c52.png",
-    "Grid Image": "f4c267ea-af4e-43ca-94fd-a00194630c52.grid.png"
+    "Grid Image": "f4c267ea-af4e-43ca-94fd-a00194630c52.grid.png",
+    "sfr-name": "HIGHLAND_BRIDGE"
   },
   {
     "id": "f59c0cf8-b4d9-4859-9db0-7e033feb9575",
@@ -4955,7 +5028,8 @@
     "index": "53",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "f59c0cf8-b4d9-4859-9db0-7e033feb9575.png",
-    "Grid Image": "f59c0cf8-b4d9-4859-9db0-7e033feb9575.grid.png"
+    "Grid Image": "f59c0cf8-b4d9-4859-9db0-7e033feb9575.grid.png",
+    "sfr-name": "HIGHLAND_KNOLL"
   },
   {
     "id": "fb56e35b-4a21-49c2-8324-4c709aa8dee2",
@@ -5022,7 +5096,8 @@
     "index": "54",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "fb56e35b-4a21-49c2-8324-4c709aa8dee2.png",
-    "Grid Image": "fb56e35b-4a21-49c2-8324-4c709aa8dee2.grid.png"
+    "Grid Image": "fb56e35b-4a21-49c2-8324-4c709aa8dee2.grid.png",
+    "sfr-name": "HIGHLAND_VILLAGE"
   },
   {
     "id": "fba35d06-46a4-4e32-afec-d5c515036359",
@@ -5089,6 +5164,7 @@
     "index": "55",
     "set_id": "00f923f4-4e8d-4d98-9fe2-5b38c0409674",
     "image": "fba35d06-46a4-4e32-afec-d5c515036359.png",
-    "Grid Image": "fba35d06-46a4-4e32-afec-d5c515036359.grid.png"
+    "Grid Image": "fba35d06-46a4-4e32-afec-d5c515036359.grid.png",
+    "sfr-name": "HIGHLAND_WOODS"
   }
 ]

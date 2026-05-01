@@ -533,7 +533,7 @@ export function buildDragonDiceTTSString(deck, cards) {
       continue;
     }
 
-    const cardName = (card.name || "Unnamed Card").replace(/-/g, "");
+    const cardName = (card["sfr-name"] || "Unnamed Card");
 
     parts.push(`${cardName}:${qty}`);
   }

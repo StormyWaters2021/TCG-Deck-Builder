@@ -78,7 +78,8 @@
     "index": "64",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "71ee20a8-c595-4398-800c-aa2d30be0e45.png",
-    "Grid Image": "71ee20a8-c595-4398-800c-aa2d30be0e45.grid.png"
+    "Grid Image": "71ee20a8-c595-4398-800c-aa2d30be0e45.grid.png",
+    "sfr-name": "AIR_BLADE_GOLEM"
   },
   {
     "id": "527f1260-445b-401b-8dfe-edba383598d4",
@@ -117,7 +118,8 @@
     "index": "65",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "527f1260-445b-401b-8dfe-edba383598d4.png",
-    "Grid Image": "527f1260-445b-401b-8dfe-edba383598d4.grid.png"
+    "Grid Image": "527f1260-445b-401b-8dfe-edba383598d4.grid.png",
+    "sfr-name": "AIR_DAWN_BLADE"
   },
   {
     "id": "6d7025fd-f6f2-4046-af2c-f5745122ba93",
@@ -198,7 +200,8 @@
     "index": "66",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "6d7025fd-f6f2-4046-af2c-f5745122ba93.png",
-    "Grid Image": "6d7025fd-f6f2-4046-af2c-f5745122ba93.grid.png"
+    "Grid Image": "6d7025fd-f6f2-4046-af2c-f5745122ba93.grid.png",
+    "sfr-name": "AIR_DRAGONSTAFF"
   },
   {
     "id": "5a1aef4a-f6e9-4d81-ab24-575e2bd80b75",
@@ -237,7 +240,8 @@
     "index": "67",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "5a1aef4a-f6e9-4d81-ab24-575e2bd80b75.png",
-    "Grid Image": "5a1aef4a-f6e9-4d81-ab24-575e2bd80b75.grid.png"
+    "Grid Image": "5a1aef4a-f6e9-4d81-ab24-575e2bd80b75.grid.png",
+    "sfr-name": "AIR_EYEBITER"
   },
   {
     "id": "3fb24842-dfce-4f5c-ac21-466853daf358",
@@ -276,7 +280,8 @@
     "index": "68",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "3fb24842-dfce-4f5c-ac21-466853daf358.png",
-    "Grid Image": "3fb24842-dfce-4f5c-ac21-466853daf358.grid.png"
+    "Grid Image": "3fb24842-dfce-4f5c-ac21-466853daf358.grid.png",
+    "sfr-name": "AIR_FLICKER_FOIL"
   },
   {
     "id": "6e31b598-9760-4a7d-8ce9-e86988a23606",
@@ -357,7 +362,8 @@
     "index": "69",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "6e31b598-9760-4a7d-8ce9-e86988a23606.png",
-    "Grid Image": "6e31b598-9760-4a7d-8ce9-e86988a23606.grid.png"
+    "Grid Image": "6e31b598-9760-4a7d-8ce9-e86988a23606.grid.png",
+    "sfr-name": "AIR_FLYING_CARPET"
   },
   {
     "id": "6a1e3f8f-7d22-47ae-bb6b-427d365724d0",
@@ -396,7 +402,8 @@
     "index": "6A",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "6a1e3f8f-7d22-47ae-bb6b-427d365724d0.png",
-    "Grid Image": "6a1e3f8f-7d22-47ae-bb6b-427d365724d0.grid.png"
+    "Grid Image": "6a1e3f8f-7d22-47ae-bb6b-427d365724d0.grid.png",
+    "sfr-name": "AIR_HEARTSEEKER"
   },
   {
     "id": "5f6a1396-e032-44c8-8429-e5aed71b632a",
@@ -435,7 +442,8 @@
     "index": "6B",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "5f6a1396-e032-44c8-8429-e5aed71b632a.png",
-    "Grid Image": "5f6a1396-e032-44c8-8429-e5aed71b632a.grid.png"
+    "Grid Image": "5f6a1396-e032-44c8-8429-e5aed71b632a.grid.png",
+    "sfr-name": "AIR_MAGI_CROWN"
   },
   {
     "id": "7457b1df-2596-4b15-b11d-df97554dfdce",
@@ -516,7 +524,8 @@
     "index": "6C",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "7457b1df-2596-4b15-b11d-df97554dfdce.png",
-    "Grid Image": "7457b1df-2596-4b15-b11d-df97554dfdce.grid.png"
+    "Grid Image": "7457b1df-2596-4b15-b11d-df97554dfdce.grid.png",
+    "sfr-name": "AIR_MANTLET"
   },
   {
     "id": "6b566e61-0f2f-4d68-b9cb-a3d409885c5e",
@@ -555,7 +564,8 @@
     "index": "6D",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "6b566e61-0f2f-4d68-b9cb-a3d409885c5e.png",
-    "Grid Image": "6b566e61-0f2f-4d68-b9cb-a3d409885c5e.grid.png"
+    "Grid Image": "6b566e61-0f2f-4d68-b9cb-a3d409885c5e.grid.png",
+    "sfr-name": "AIR_MITHRIL_SHIELD"
   },
   {
     "id": "49064f7c-0da5-44b4-9474-f77788ef806d",
@@ -594,7 +604,8 @@
     "index": "6E",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "49064f7c-0da5-44b4-9474-f77788ef806d.png",
-    "Grid Image": "49064f7c-0da5-44b4-9474-f77788ef806d.grid.png"
+    "Grid Image": "49064f7c-0da5-44b4-9474-f77788ef806d.grid.png",
+    "sfr-name": "AIR_RING_OF_STARS"
   },
   {
     "id": "607c79a3-ad5b-4f1c-85af-9b6dbc14c256",
@@ -633,7 +644,8 @@
     "index": "6F",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "607c79a3-ad5b-4f1c-85af-9b6dbc14c256.png",
-    "Grid Image": "607c79a3-ad5b-4f1c-85af-9b6dbc14c256.grid.png"
+    "Grid Image": "607c79a3-ad5b-4f1c-85af-9b6dbc14c256.grid.png",
+    "sfr-name": "AIR_SEVEN_LEAGUE_BOOTS"
   },
   {
     "id": "3898d27e-80d7-4e93-b8cb-0962507b6528",
@@ -672,7 +684,8 @@
     "index": "6G",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "3898d27e-80d7-4e93-b8cb-0962507b6528.png",
-    "Grid Image": "3898d27e-80d7-4e93-b8cb-0962507b6528.grid.png"
+    "Grid Image": "3898d27e-80d7-4e93-b8cb-0962507b6528.grid.png",
+    "sfr-name": "AIR_SIGHT_STONE"
   },
   {
     "id": "3c8dd5ee-9010-4a9c-a26a-daf0f05fc4bb",
@@ -711,7 +724,8 @@
     "index": "6H",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "3c8dd5ee-9010-4a9c-a26a-daf0f05fc4bb.png",
-    "Grid Image": "3c8dd5ee-9010-4a9c-a26a-daf0f05fc4bb.grid.png"
+    "Grid Image": "3c8dd5ee-9010-4a9c-a26a-daf0f05fc4bb.grid.png",
+    "sfr-name": "AIR_SPEED_SLIPPERS"
   },
   {
     "id": "5bcf3370-1996-4b4f-99ac-27b8857cd82f",
@@ -750,7 +764,8 @@
     "index": "6I",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "5bcf3370-1996-4b4f-99ac-27b8857cd82f.png",
-    "Grid Image": "5bcf3370-1996-4b4f-99ac-27b8857cd82f.grid.png"
+    "Grid Image": "5bcf3370-1996-4b4f-99ac-27b8857cd82f.grid.png",
+    "sfr-name": "AIR_STEEL_BUCKLER"
   },
   {
     "id": "737a4920-0327-43b5-a31d-2ce3a6596b42",
@@ -831,7 +846,8 @@
     "index": "6J",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "737a4920-0327-43b5-a31d-2ce3a6596b42.png",
-    "Grid Image": "737a4920-0327-43b5-a31d-2ce3a6596b42.grid.png"
+    "Grid Image": "737a4920-0327-43b5-a31d-2ce3a6596b42.grid.png",
+    "sfr-name": "AIR_TREBUCHET"
   },
   {
     "id": "40f62f19-caa0-46fd-bebe-e6853eaea519",
@@ -870,7 +886,8 @@
     "index": "6K",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "40f62f19-caa0-46fd-bebe-e6853eaea519.png",
-    "Grid Image": "40f62f19-caa0-46fd-bebe-e6853eaea519.grid.png"
+    "Grid Image": "40f62f19-caa0-46fd-bebe-e6853eaea519.grid.png",
+    "sfr-name": "AIR_TRUEFLYER"
   },
   {
     "id": "632f9caf-2c92-4ba9-a3ed-0d970a5661bd",
@@ -909,7 +926,8 @@
     "index": "6L",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "632f9caf-2c92-4ba9-a3ed-0d970a5661bd.png",
-    "Grid Image": "632f9caf-2c92-4ba9-a3ed-0d970a5661bd.grid.png"
+    "Grid Image": "632f9caf-2c92-4ba9-a3ed-0d970a5661bd.grid.png",
+    "sfr-name": "AIR_VORPAL_SWORD"
   },
   {
     "id": "4c14a320-1ae0-479b-999d-e9e8e5da24c5",
@@ -948,7 +966,8 @@
     "index": "6M",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "4c14a320-1ae0-479b-999d-e9e8e5da24c5.png",
-    "Grid Image": "4c14a320-1ae0-479b-999d-e9e8e5da24c5.grid.png"
+    "Grid Image": "4c14a320-1ae0-479b-999d-e9e8e5da24c5.grid.png",
+    "sfr-name": "AIR_WINGED_SANDALS"
   },
   {
     "id": "43f5ba52-f2c8-45e3-ad51-0ed1cfb5e16f",
@@ -987,7 +1006,8 @@
     "index": "6N",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "43f5ba52-f2c8-45e3-ad51-0ed1cfb5e16f.png",
-    "Grid Image": "43f5ba52-f2c8-45e3-ad51-0ed1cfb5e16f.grid.png"
+    "Grid Image": "43f5ba52-f2c8-45e3-ad51-0ed1cfb5e16f.grid.png",
+    "sfr-name": "AIR_WOODEN_TARGE"
   },
   {
     "id": "ecd5b245-3d88-473c-a09a-468222db4b50",
@@ -1026,7 +1046,8 @@
     "index": "6O",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "ecd5b245-3d88-473c-a09a-468222db4b50.png",
-    "Grid Image": "ecd5b245-3d88-473c-a09a-468222db4b50.grid.png"
+    "Grid Image": "ecd5b245-3d88-473c-a09a-468222db4b50.grid.png",
+    "sfr-name": "BRONZEMEDALLION"
   },
   {
     "id": "300d6d3d-8914-47bf-b202-7a240636c3a2",
@@ -1107,7 +1128,8 @@
     "index": "6P",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "300d6d3d-8914-47bf-b202-7a240636c3a2.png",
-    "Grid Image": "300d6d3d-8914-47bf-b202-7a240636c3a2.grid.png"
+    "Grid Image": "300d6d3d-8914-47bf-b202-7a240636c3a2.grid.png",
+    "sfr-name": "DEATH_BLADE_GOLEM"
   },
   {
     "id": "170f5633-3609-4514-ac22-005c56a94909",
@@ -1146,7 +1168,8 @@
     "index": "6Q",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "170f5633-3609-4514-ac22-005c56a94909.png",
-    "Grid Image": "170f5633-3609-4514-ac22-005c56a94909.grid.png"
+    "Grid Image": "170f5633-3609-4514-ac22-005c56a94909.grid.png",
+    "sfr-name": "DEATH_DAWN_BLADE"
   },
   {
     "id": "2eeed622-466c-4c33-a4e3-3ed6d3f60b28",
@@ -1227,7 +1250,8 @@
     "index": "6R",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "2eeed622-466c-4c33-a4e3-3ed6d3f60b28.png",
-    "Grid Image": "2eeed622-466c-4c33-a4e3-3ed6d3f60b28.grid.png"
+    "Grid Image": "2eeed622-466c-4c33-a4e3-3ed6d3f60b28.grid.png",
+    "sfr-name": "DEATH_DRAGONSTAFF"
   },
   {
     "id": "1b30501d-ddef-4484-8162-3f0af351090f",
@@ -1266,7 +1290,8 @@
     "index": "6S",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "1b30501d-ddef-4484-8162-3f0af351090f.png",
-    "Grid Image": "1b30501d-ddef-4484-8162-3f0af351090f.grid.png"
+    "Grid Image": "1b30501d-ddef-4484-8162-3f0af351090f.grid.png",
+    "sfr-name": "DEATH_EYEBITER"
   },
   {
     "id": "0951a881-651b-47e9-b2a8-3afd7fffcef8",
@@ -1305,7 +1330,8 @@
     "index": "6T",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "0951a881-651b-47e9-b2a8-3afd7fffcef8.png",
-    "Grid Image": "0951a881-651b-47e9-b2a8-3afd7fffcef8.grid.png"
+    "Grid Image": "0951a881-651b-47e9-b2a8-3afd7fffcef8.grid.png",
+    "sfr-name": "DEATH_FLICKER_FOIL"
   },
   {
     "id": "2f08790e-d018-47d4-8c85-d3032a59fb8e",
@@ -1386,7 +1412,8 @@
     "index": "6U",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "2f08790e-d018-47d4-8c85-d3032a59fb8e.png",
-    "Grid Image": "2f08790e-d018-47d4-8c85-d3032a59fb8e.grid.png"
+    "Grid Image": "2f08790e-d018-47d4-8c85-d3032a59fb8e.grid.png",
+    "sfr-name": "DEATH_FLYING_CARPET"
   },
   {
     "id": "2bfad363-97bc-4863-b087-515a830e810e",
@@ -1425,7 +1452,8 @@
     "index": "6V",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "2bfad363-97bc-4863-b087-515a830e810e.png",
-    "Grid Image": "2bfad363-97bc-4863-b087-515a830e810e.grid.png"
+    "Grid Image": "2bfad363-97bc-4863-b087-515a830e810e.grid.png",
+    "sfr-name": "DEATH_HEARTSEEKER"
   },
   {
     "id": "26f196c2-0313-4e31-a618-21ec9a2fd604",
@@ -1464,7 +1492,8 @@
     "index": "6W",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "26f196c2-0313-4e31-a618-21ec9a2fd604.png",
-    "Grid Image": "26f196c2-0313-4e31-a618-21ec9a2fd604.grid.png"
+    "Grid Image": "26f196c2-0313-4e31-a618-21ec9a2fd604.grid.png",
+    "sfr-name": "DEATH_MAGI_CROWN"
   },
   {
     "id": "35f6381e-32c9-41b7-a6df-135a6f6aaba0",
@@ -1545,7 +1574,8 @@
     "index": "6X",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "35f6381e-32c9-41b7-a6df-135a6f6aaba0.png",
-    "Grid Image": "35f6381e-32c9-41b7-a6df-135a6f6aaba0.grid.png"
+    "Grid Image": "35f6381e-32c9-41b7-a6df-135a6f6aaba0.grid.png",
+    "sfr-name": "DEATH_MANTLET"
   },
   {
     "id": "2d0e7d0b-186e-4aad-be7b-701cdd5ea092",
@@ -1584,7 +1614,8 @@
     "index": "6Y",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "2d0e7d0b-186e-4aad-be7b-701cdd5ea092.png",
-    "Grid Image": "2d0e7d0b-186e-4aad-be7b-701cdd5ea092.grid.png"
+    "Grid Image": "2d0e7d0b-186e-4aad-be7b-701cdd5ea092.grid.png",
+    "sfr-name": "DEATH_MITHRIL_SHIELD"
   },
   {
     "id": "0fcb88f5-740a-4710-8f2e-9345e9e0bcc5",
@@ -1623,7 +1654,8 @@
     "index": "6Z",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "0fcb88f5-740a-4710-8f2e-9345e9e0bcc5.png",
-    "Grid Image": "0fcb88f5-740a-4710-8f2e-9345e9e0bcc5.grid.png"
+    "Grid Image": "0fcb88f5-740a-4710-8f2e-9345e9e0bcc5.grid.png",
+    "sfr-name": "DEATH_RING_OF_STARS"
   },
   {
     "id": "28404d9e-e14b-41e1-9eee-a79620a0cbf3",
@@ -1662,7 +1694,8 @@
     "index": "6a",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "28404d9e-e14b-41e1-9eee-a79620a0cbf3.png",
-    "Grid Image": "28404d9e-e14b-41e1-9eee-a79620a0cbf3.grid.png"
+    "Grid Image": "28404d9e-e14b-41e1-9eee-a79620a0cbf3.grid.png",
+    "sfr-name": "DEATH_SEVEN_LEAGUE_BOOTS"
   },
   {
     "id": "06f85903-6f65-421d-8bfc-7fb4efd02bd0",
@@ -1701,7 +1734,8 @@
     "index": "6b",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "06f85903-6f65-421d-8bfc-7fb4efd02bd0.png",
-    "Grid Image": "06f85903-6f65-421d-8bfc-7fb4efd02bd0.grid.png"
+    "Grid Image": "06f85903-6f65-421d-8bfc-7fb4efd02bd0.grid.png",
+    "sfr-name": "DEATH_SIGHT_STONE"
   },
   {
     "id": "0716be89-0850-4f66-bc30-9da6dd0852ed",
@@ -1740,7 +1774,8 @@
     "index": "6c",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "0716be89-0850-4f66-bc30-9da6dd0852ed.png",
-    "Grid Image": "0716be89-0850-4f66-bc30-9da6dd0852ed.grid.png"
+    "Grid Image": "0716be89-0850-4f66-bc30-9da6dd0852ed.grid.png",
+    "sfr-name": "DEATH_SPEED_SLIPPERS"
   },
   {
     "id": "1bbbcc42-70ef-43e7-83d7-fd65194ecec9",
@@ -1779,7 +1814,8 @@
     "index": "6d",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "1bbbcc42-70ef-43e7-83d7-fd65194ecec9.png",
-    "Grid Image": "1bbbcc42-70ef-43e7-83d7-fd65194ecec9.grid.png"
+    "Grid Image": "1bbbcc42-70ef-43e7-83d7-fd65194ecec9.grid.png",
+    "sfr-name": "DEATH_STEEL_BUCKLER"
   },
   {
     "id": "3175afa8-2cdf-4021-bd6f-313856d4f57f",
@@ -1860,7 +1896,8 @@
     "index": "6e",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "3175afa8-2cdf-4021-bd6f-313856d4f57f.png",
-    "Grid Image": "3175afa8-2cdf-4021-bd6f-313856d4f57f.grid.png"
+    "Grid Image": "3175afa8-2cdf-4021-bd6f-313856d4f57f.grid.png",
+    "sfr-name": "DEATH_TREBUCHET"
   },
   {
     "id": "0da6afb3-0bb1-4692-b099-20369acdcd5c",
@@ -1899,7 +1936,8 @@
     "index": "6f",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "0da6afb3-0bb1-4692-b099-20369acdcd5c.png",
-    "Grid Image": "0da6afb3-0bb1-4692-b099-20369acdcd5c.grid.png"
+    "Grid Image": "0da6afb3-0bb1-4692-b099-20369acdcd5c.grid.png",
+    "sfr-name": "DEATH_TRUEFLYER"
   },
   {
     "id": "2aa3e3a7-cbc5-48ba-9555-9ac1c974441f",
@@ -1938,7 +1976,8 @@
     "index": "6g",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "2aa3e3a7-cbc5-48ba-9555-9ac1c974441f.png",
-    "Grid Image": "2aa3e3a7-cbc5-48ba-9555-9ac1c974441f.grid.png"
+    "Grid Image": "2aa3e3a7-cbc5-48ba-9555-9ac1c974441f.grid.png",
+    "sfr-name": "DEATH_VORPAL_SWORD"
   },
   {
     "id": "11aed4f6-f9a6-448d-bca1-230b7534883e",
@@ -1977,7 +2016,8 @@
     "index": "6h",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "11aed4f6-f9a6-448d-bca1-230b7534883e.png",
-    "Grid Image": "11aed4f6-f9a6-448d-bca1-230b7534883e.grid.png"
+    "Grid Image": "11aed4f6-f9a6-448d-bca1-230b7534883e.grid.png",
+    "sfr-name": "DEATH_WINGED_SANDALS"
   },
   {
     "id": "0efe8155-f151-46c0-925f-43d1a8c153aa",
@@ -2016,7 +2056,8 @@
     "index": "6i",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "0efe8155-f151-46c0-925f-43d1a8c153aa.png",
-    "Grid Image": "0efe8155-f151-46c0-925f-43d1a8c153aa.grid.png"
+    "Grid Image": "0efe8155-f151-46c0-925f-43d1a8c153aa.grid.png",
+    "sfr-name": "DEATH_WOODEN_TARGE"
   },
   {
     "id": "dd53e968-8832-42b4-9892-ea58bf006486",
@@ -2097,7 +2138,8 @@
     "index": "6j",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "dd53e968-8832-42b4-9892-ea58bf006486.png",
-    "Grid Image": "dd53e968-8832-42b4-9892-ea58bf006486.grid.png"
+    "Grid Image": "dd53e968-8832-42b4-9892-ea58bf006486.grid.png",
+    "sfr-name": "EARTH_BLADE_GOLEM"
   },
   {
     "id": "c8d61b14-76af-4487-ad22-391af32c4c09",
@@ -2136,7 +2178,8 @@
     "index": "6k",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "c8d61b14-76af-4487-ad22-391af32c4c09.png",
-    "Grid Image": "c8d61b14-76af-4487-ad22-391af32c4c09.grid.png"
+    "Grid Image": "c8d61b14-76af-4487-ad22-391af32c4c09.grid.png",
+    "sfr-name": "EARTH_DAWN_BLADE"
   },
   {
     "id": "da91cd7a-964a-4366-94e2-635bfca1abf4",
@@ -2217,7 +2260,8 @@
     "index": "6l",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "da91cd7a-964a-4366-94e2-635bfca1abf4.png",
-    "Grid Image": "da91cd7a-964a-4366-94e2-635bfca1abf4.grid.png"
+    "Grid Image": "da91cd7a-964a-4366-94e2-635bfca1abf4.grid.png",
+    "sfr-name": "EARTH_DRAGONSTAFF"
   },
   {
     "id": "c931c8b1-3d91-41b2-9020-d30c60d12432",
@@ -2256,7 +2300,8 @@
     "index": "6m",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "c931c8b1-3d91-41b2-9020-d30c60d12432.png",
-    "Grid Image": "c931c8b1-3d91-41b2-9020-d30c60d12432.grid.png"
+    "Grid Image": "c931c8b1-3d91-41b2-9020-d30c60d12432.grid.png",
+    "sfr-name": "EARTH_EYEBITER"
   },
   {
     "id": "c245180f-d36d-40ff-8c9b-8b819ee4a325",
@@ -2295,7 +2340,8 @@
     "index": "6n",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "c245180f-d36d-40ff-8c9b-8b819ee4a325.png",
-    "Grid Image": "c245180f-d36d-40ff-8c9b-8b819ee4a325.grid.png"
+    "Grid Image": "c245180f-d36d-40ff-8c9b-8b819ee4a325.grid.png",
+    "sfr-name": "EARTH_FLICKER_FOIL"
   },
   {
     "id": "dcaf79b4-f88f-4202-ba2d-17442a1c907e",
@@ -2376,7 +2422,8 @@
     "index": "6o",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "dcaf79b4-f88f-4202-ba2d-17442a1c907e.png",
-    "Grid Image": "dcaf79b4-f88f-4202-ba2d-17442a1c907e.grid.png"
+    "Grid Image": "dcaf79b4-f88f-4202-ba2d-17442a1c907e.grid.png",
+    "sfr-name": "EARTH_FLYING_CARPET"
   },
   {
     "id": "d8b4741e-ec8b-42e7-9475-1c57d8e36b00",
@@ -2415,7 +2462,8 @@
     "index": "6p",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "d8b4741e-ec8b-42e7-9475-1c57d8e36b00.png",
-    "Grid Image": "d8b4741e-ec8b-42e7-9475-1c57d8e36b00.grid.png"
+    "Grid Image": "d8b4741e-ec8b-42e7-9475-1c57d8e36b00.grid.png",
+    "sfr-name": "EARTH_HEARTSEEKER"
   },
   {
     "id": "cc836d23-2e84-4eaf-a0ed-b77dad7ef1e5",
@@ -2454,7 +2502,8 @@
     "index": "6q",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "cc836d23-2e84-4eaf-a0ed-b77dad7ef1e5.png",
-    "Grid Image": "cc836d23-2e84-4eaf-a0ed-b77dad7ef1e5.grid.png"
+    "Grid Image": "cc836d23-2e84-4eaf-a0ed-b77dad7ef1e5.grid.png",
+    "sfr-name": "EARTH_MAGI_CROWN"
   },
   {
     "id": "e6bfd805-2353-4872-a2ce-2808dd7b0b65",
@@ -2535,7 +2584,8 @@
     "index": "6r",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "e6bfd805-2353-4872-a2ce-2808dd7b0b65.png",
-    "Grid Image": "e6bfd805-2353-4872-a2ce-2808dd7b0b65.grid.png"
+    "Grid Image": "e6bfd805-2353-4872-a2ce-2808dd7b0b65.grid.png",
+    "sfr-name": "EARTH_MANTLET"
   },
   {
     "id": "da875fe8-04a9-408e-85d3-c612c4fed672",
@@ -2574,7 +2624,8 @@
     "index": "6s",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "da875fe8-04a9-408e-85d3-c612c4fed672.png",
-    "Grid Image": "da875fe8-04a9-408e-85d3-c612c4fed672.grid.png"
+    "Grid Image": "da875fe8-04a9-408e-85d3-c612c4fed672.grid.png",
+    "sfr-name": "EARTH_MITHRIL_SHIELD"
   },
   {
     "id": "c59dbd49-f0e3-4a99-96c8-036af80a325e",
@@ -2613,7 +2664,8 @@
     "index": "6t",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "c59dbd49-f0e3-4a99-96c8-036af80a325e.png",
-    "Grid Image": "c59dbd49-f0e3-4a99-96c8-036af80a325e.grid.png"
+    "Grid Image": "c59dbd49-f0e3-4a99-96c8-036af80a325e.grid.png",
+    "sfr-name": "EARTH_RING_OF_STARS"
   },
   {
     "id": "d3b6ccc8-8bfa-4642-87f0-b2be70f061d3",
@@ -2652,7 +2704,8 @@
     "index": "6u",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "d3b6ccc8-8bfa-4642-87f0-b2be70f061d3.png",
-    "Grid Image": "d3b6ccc8-8bfa-4642-87f0-b2be70f061d3.grid.png"
+    "Grid Image": "d3b6ccc8-8bfa-4642-87f0-b2be70f061d3.grid.png",
+    "sfr-name": "EARTH_SEVEN_LEAGUE_BOOTS"
   },
   {
     "id": "bc4e6b5a-0b18-4984-abbb-126abd5ba992",
@@ -2691,7 +2744,8 @@
     "index": "6v",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "bc4e6b5a-0b18-4984-abbb-126abd5ba992.png",
-    "Grid Image": "bc4e6b5a-0b18-4984-abbb-126abd5ba992.grid.png"
+    "Grid Image": "bc4e6b5a-0b18-4984-abbb-126abd5ba992.grid.png",
+    "sfr-name": "EARTH_SIGHT_STONE"
   },
   {
     "id": "bf71b33d-04d5-4904-8124-f74706322f36",
@@ -2730,7 +2784,8 @@
     "index": "6w",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "bf71b33d-04d5-4904-8124-f74706322f36.png",
-    "Grid Image": "bf71b33d-04d5-4904-8124-f74706322f36.grid.png"
+    "Grid Image": "bf71b33d-04d5-4904-8124-f74706322f36.grid.png",
+    "sfr-name": "EARTH_SPEED_SLIPPERS"
   },
   {
     "id": "cb5d271c-4b1d-432e-9e21-c1c4b8cee765",
@@ -2769,7 +2824,8 @@
     "index": "6x",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "cb5d271c-4b1d-432e-9e21-c1c4b8cee765.png",
-    "Grid Image": "cb5d271c-4b1d-432e-9e21-c1c4b8cee765.grid.png"
+    "Grid Image": "cb5d271c-4b1d-432e-9e21-c1c4b8cee765.grid.png",
+    "sfr-name": "EARTH_STEEL_BUCKLER"
   },
   {
     "id": "e491e842-3f3f-4e7c-9d82-c3605479d2fb",
@@ -2850,7 +2906,8 @@
     "index": "6y",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "e491e842-3f3f-4e7c-9d82-c3605479d2fb.png",
-    "Grid Image": "e491e842-3f3f-4e7c-9d82-c3605479d2fb.grid.png"
+    "Grid Image": "e491e842-3f3f-4e7c-9d82-c3605479d2fb.grid.png",
+    "sfr-name": "EARTH_TREBUCHET"
   },
   {
     "id": "c49d4a41-06d8-4506-b2e8-55a9e420de9e",
@@ -2889,7 +2946,8 @@
     "index": "6z",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "c49d4a41-06d8-4506-b2e8-55a9e420de9e.png",
-    "Grid Image": "c49d4a41-06d8-4506-b2e8-55a9e420de9e.grid.png"
+    "Grid Image": "c49d4a41-06d8-4506-b2e8-55a9e420de9e.grid.png",
+    "sfr-name": "EARTH_TRUEFLYER"
   },
   {
     "id": "d8aa941b-5f56-4cd4-9c67-1a57bb7e009c",
@@ -2928,7 +2986,8 @@
     "index": "70",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "d8aa941b-5f56-4cd4-9c67-1a57bb7e009c.png",
-    "Grid Image": "d8aa941b-5f56-4cd4-9c67-1a57bb7e009c.grid.png"
+    "Grid Image": "d8aa941b-5f56-4cd4-9c67-1a57bb7e009c.grid.png",
+    "sfr-name": "EARTH_VORPAL_SWORD"
   },
   {
     "id": "c67db21f-8548-4ffd-bd7b-bd201061a391",
@@ -2967,7 +3026,8 @@
     "index": "71",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "c67db21f-8548-4ffd-bd7b-bd201061a391.png",
-    "Grid Image": "c67db21f-8548-4ffd-bd7b-bd201061a391.grid.png"
+    "Grid Image": "c67db21f-8548-4ffd-bd7b-bd201061a391.grid.png",
+    "sfr-name": "EARTH_WINGED_SANDALS"
   },
   {
     "id": "c537fc46-91ac-40a6-9ec4-41612b998829",
@@ -3006,7 +3066,8 @@
     "index": "72",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "c537fc46-91ac-40a6-9ec4-41612b998829.png",
-    "Grid Image": "c537fc46-91ac-40a6-9ec4-41612b998829.grid.png"
+    "Grid Image": "c537fc46-91ac-40a6-9ec4-41612b998829.grid.png",
+    "sfr-name": "EARTH_WOODEN_TARGE"
   },
   {
     "id": "f6cd0c90-b08c-4669-95e9-1f00bff87a88",
@@ -3059,7 +3120,8 @@
     "index": "73",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "f6cd0c90-b08c-4669-95e9-1f00bff87a88.png",
-    "Grid Image": "f6cd0c90-b08c-4669-95e9-1f00bff87a88.grid.png"
+    "Grid Image": "f6cd0c90-b08c-4669-95e9-1f00bff87a88.grid.png",
+    "sfr-name": "EARTHFANG_RELIC"
   },
   {
     "id": "efe7e982-60b4-431f-882a-4141f4b4a1a0",
@@ -3112,7 +3174,8 @@
     "index": "74",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "efe7e982-60b4-431f-882a-4141f4b4a1a0.png",
-    "Grid Image": "efe7e982-60b4-431f-882a-4141f4b4a1a0.grid.png"
+    "Grid Image": "efe7e982-60b4-431f-882a-4141f4b4a1a0.grid.png",
+    "sfr-name": "ELEMENTAL_RELIC"
   },
   {
     "id": "b8086c97-2a1b-4015-aa4a-276e8d988ce5",
@@ -3193,7 +3256,8 @@
     "index": "75",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "b8086c97-2a1b-4015-aa4a-276e8d988ce5.png",
-    "Grid Image": "b8086c97-2a1b-4015-aa4a-276e8d988ce5.grid.png"
+    "Grid Image": "b8086c97-2a1b-4015-aa4a-276e8d988ce5.grid.png",
+    "sfr-name": "FIRE_BLADE_GOLEM"
   },
   {
     "id": "a6a9328a-9d43-496f-b6a4-2dc8677b2bd6",
@@ -3232,7 +3296,8 @@
     "index": "76",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "a6a9328a-9d43-496f-b6a4-2dc8677b2bd6.png",
-    "Grid Image": "a6a9328a-9d43-496f-b6a4-2dc8677b2bd6.grid.png"
+    "Grid Image": "a6a9328a-9d43-496f-b6a4-2dc8677b2bd6.grid.png",
+    "sfr-name": "FIRE_DAWN_BLADE"
   },
   {
     "id": "b4768414-895a-4ff0-835b-1cbf1cf1a2fe",
@@ -3313,7 +3378,8 @@
     "index": "77",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "b4768414-895a-4ff0-835b-1cbf1cf1a2fe.png",
-    "Grid Image": "b4768414-895a-4ff0-835b-1cbf1cf1a2fe.grid.png"
+    "Grid Image": "b4768414-895a-4ff0-835b-1cbf1cf1a2fe.grid.png",
+    "sfr-name": "FIRE_DRAGONSTAFF"
   },
   {
     "id": "a75abda4-19e5-4a2a-987a-9a15bfc64b53",
@@ -3352,7 +3418,8 @@
     "index": "78",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "a75abda4-19e5-4a2a-987a-9a15bfc64b53.png",
-    "Grid Image": "a75abda4-19e5-4a2a-987a-9a15bfc64b53.grid.png"
+    "Grid Image": "a75abda4-19e5-4a2a-987a-9a15bfc64b53.grid.png",
+    "sfr-name": "FIRE_EYEBITER"
   },
   {
     "id": "99337afa-855b-46a3-95e3-14965d3bc87b",
@@ -3391,7 +3458,8 @@
     "index": "79",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "99337afa-855b-46a3-95e3-14965d3bc87b.png",
-    "Grid Image": "99337afa-855b-46a3-95e3-14965d3bc87b.grid.png"
+    "Grid Image": "99337afa-855b-46a3-95e3-14965d3bc87b.grid.png",
+    "sfr-name": "FIRE_FLICKER_FOIL"
   },
   {
     "id": "b7bc0a36-5b81-4522-be8d-e4dc9546f44e",
@@ -3472,7 +3540,8 @@
     "index": "7A",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "b7bc0a36-5b81-4522-be8d-e4dc9546f44e.png",
-    "Grid Image": "b7bc0a36-5b81-4522-be8d-e4dc9546f44e.grid.png"
+    "Grid Image": "b7bc0a36-5b81-4522-be8d-e4dc9546f44e.grid.png",
+    "sfr-name": "FIRE_FLYING_CARPET"
   },
   {
     "id": "b02338a6-2e5d-4cbf-82df-58e3b10ae30e",
@@ -3511,7 +3580,8 @@
     "index": "7B",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "b02338a6-2e5d-4cbf-82df-58e3b10ae30e.png",
-    "Grid Image": "b02338a6-2e5d-4cbf-82df-58e3b10ae30e.grid.png"
+    "Grid Image": "b02338a6-2e5d-4cbf-82df-58e3b10ae30e.grid.png",
+    "sfr-name": "FIRE_HEARTSEEKER"
   },
   {
     "id": "ac550520-94db-41cd-9cc2-9b99db85bec0",
@@ -3550,7 +3620,8 @@
     "index": "7C",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "ac550520-94db-41cd-9cc2-9b99db85bec0.png",
-    "Grid Image": "ac550520-94db-41cd-9cc2-9b99db85bec0.grid.png"
+    "Grid Image": "ac550520-94db-41cd-9cc2-9b99db85bec0.grid.png",
+    "sfr-name": "FIRE_MAGI_CROWN"
   },
   {
     "id": "bbfc3ff6-a2d3-4fb1-8fb5-0a7cf12f9cce",
@@ -3631,7 +3702,8 @@
     "index": "7D",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "bbfc3ff6-a2d3-4fb1-8fb5-0a7cf12f9cce.png",
-    "Grid Image": "bbfc3ff6-a2d3-4fb1-8fb5-0a7cf12f9cce.grid.png"
+    "Grid Image": "bbfc3ff6-a2d3-4fb1-8fb5-0a7cf12f9cce.grid.png",
+    "sfr-name": "FIRE_MANTLET"
   },
   {
     "id": "b28c85ef-1b13-43da-bf6a-7381a47c6263",
@@ -3670,7 +3742,8 @@
     "index": "7E",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "b28c85ef-1b13-43da-bf6a-7381a47c6263.png",
-    "Grid Image": "b28c85ef-1b13-43da-bf6a-7381a47c6263.grid.png"
+    "Grid Image": "b28c85ef-1b13-43da-bf6a-7381a47c6263.grid.png",
+    "sfr-name": "FIRE_MITHRIL_SHIELD"
   },
   {
     "id": "9c56a9c4-c16f-4d9b-a40b-580029f7c465",
@@ -3709,7 +3782,8 @@
     "index": "7F",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "9c56a9c4-c16f-4d9b-a40b-580029f7c465.png",
-    "Grid Image": "9c56a9c4-c16f-4d9b-a40b-580029f7c465.grid.png"
+    "Grid Image": "9c56a9c4-c16f-4d9b-a40b-580029f7c465.grid.png",
+    "sfr-name": "FIRE_RING_OF_STARS"
   },
   {
     "id": "ad6ef496-44bc-457f-a362-0ba37325d395",
@@ -3748,7 +3822,8 @@
     "index": "7G",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "ad6ef496-44bc-457f-a362-0ba37325d395.png",
-    "Grid Image": "ad6ef496-44bc-457f-a362-0ba37325d395.grid.png"
+    "Grid Image": "ad6ef496-44bc-457f-a362-0ba37325d395.grid.png",
+    "sfr-name": "FIRE_SEVEN_LEAGUE_BOOTS"
   },
   {
     "id": "95f9ddc9-fe5f-4966-95ff-f4bf74f96de7",
@@ -3787,7 +3862,8 @@
     "index": "7H",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "95f9ddc9-fe5f-4966-95ff-f4bf74f96de7.png",
-    "Grid Image": "95f9ddc9-fe5f-4966-95ff-f4bf74f96de7.grid.png"
+    "Grid Image": "95f9ddc9-fe5f-4966-95ff-f4bf74f96de7.grid.png",
+    "sfr-name": "FIRE_SIGHT_STONE"
   },
   {
     "id": "98c804b5-4888-4540-9b3e-f4de74a1f1d9",
@@ -3826,7 +3902,8 @@
     "index": "7I",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "98c804b5-4888-4540-9b3e-f4de74a1f1d9.png",
-    "Grid Image": "98c804b5-4888-4540-9b3e-f4de74a1f1d9.grid.png"
+    "Grid Image": "98c804b5-4888-4540-9b3e-f4de74a1f1d9.grid.png",
+    "sfr-name": "FIRE_SPEED_SLIPPERS"
   },
   {
     "id": "a965a6eb-3107-4340-b0c6-c0da358f391f",
@@ -3865,7 +3942,8 @@
     "index": "7J",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "a965a6eb-3107-4340-b0c6-c0da358f391f.png",
-    "Grid Image": "a965a6eb-3107-4340-b0c6-c0da358f391f.grid.png"
+    "Grid Image": "a965a6eb-3107-4340-b0c6-c0da358f391f.grid.png",
+    "sfr-name": "FIRE_STEEL_BUCKLER"
   },
   {
     "id": "b86c4184-1752-47f1-ab6a-3a06963543c4",
@@ -3946,7 +4024,8 @@
     "index": "7K",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "b86c4184-1752-47f1-ab6a-3a06963543c4.png",
-    "Grid Image": "b86c4184-1752-47f1-ab6a-3a06963543c4.grid.png"
+    "Grid Image": "b86c4184-1752-47f1-ab6a-3a06963543c4.grid.png",
+    "sfr-name": "FIRE_TREBUCHET"
   },
   {
     "id": "9966fcf8-75a4-402f-893f-7f35381d8689",
@@ -3985,7 +4064,8 @@
     "index": "7L",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "9966fcf8-75a4-402f-893f-7f35381d8689.png",
-    "Grid Image": "9966fcf8-75a4-402f-893f-7f35381d8689.grid.png"
+    "Grid Image": "9966fcf8-75a4-402f-893f-7f35381d8689.grid.png",
+    "sfr-name": "FIRE_TRUEFLYER"
   },
   {
     "id": "ad84000e-678f-4745-9d19-e7a1dd90673a",
@@ -4024,7 +4104,8 @@
     "index": "7M",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "ad84000e-678f-4745-9d19-e7a1dd90673a.png",
-    "Grid Image": "ad84000e-678f-4745-9d19-e7a1dd90673a.grid.png"
+    "Grid Image": "ad84000e-678f-4745-9d19-e7a1dd90673a.grid.png",
+    "sfr-name": "FIRE_VORPAL_SWORD"
   },
   {
     "id": "a137bca5-d73c-4356-a6cc-28651485cbb9",
@@ -4063,7 +4144,8 @@
     "index": "7N",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "a137bca5-d73c-4356-a6cc-28651485cbb9.png",
-    "Grid Image": "a137bca5-d73c-4356-a6cc-28651485cbb9.grid.png"
+    "Grid Image": "a137bca5-d73c-4356-a6cc-28651485cbb9.grid.png",
+    "sfr-name": "FIRE_WINGED_SANDALS"
   },
   {
     "id": "9ab75016-0019-44bd-9d59-fd114752901e",
@@ -4102,7 +4184,8 @@
     "index": "7O",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "9ab75016-0019-44bd-9d59-fd114752901e.png",
-    "Grid Image": "9ab75016-0019-44bd-9d59-fd114752901e.grid.png"
+    "Grid Image": "9ab75016-0019-44bd-9d59-fd114752901e.grid.png",
+    "sfr-name": "FIRE_WOODEN_TARGE"
   },
   {
     "id": "eead5063-771d-4e87-87e3-8a4a86398cee",
@@ -4141,7 +4224,8 @@
     "index": "7P",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "eead5063-771d-4e87-87e3-8a4a86398cee.png",
-    "Grid Image": "eead5063-771d-4e87-87e3-8a4a86398cee.grid.png"
+    "Grid Image": "eead5063-771d-4e87-87e3-8a4a86398cee.grid.png",
+    "sfr-name": "GOLDMEDALLION"
   },
   {
     "id": "ee8f18b3-9f61-4c25-83ce-cc1a27fe648a",
@@ -4180,7 +4264,8 @@
     "index": "7Q",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "ee8f18b3-9f61-4c25-83ce-cc1a27fe648a.png",
-    "Grid Image": "ee8f18b3-9f61-4c25-83ce-cc1a27fe648a.grid.png"
+    "Grid Image": "ee8f18b3-9f61-4c25-83ce-cc1a27fe648a.grid.png",
+    "sfr-name": "SILVERMEDALLION"
   },
   {
     "id": "93ea39dd-0bf8-42a8-9a52-44457e9fb089",
@@ -4261,7 +4346,8 @@
     "index": "7R",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "93ea39dd-0bf8-42a8-9a52-44457e9fb089.png",
-    "Grid Image": "93ea39dd-0bf8-42a8-9a52-44457e9fb089.grid.png"
+    "Grid Image": "93ea39dd-0bf8-42a8-9a52-44457e9fb089.grid.png",
+    "sfr-name": "WATER_BLADE_GOLEM"
   },
   {
     "id": "82054d7c-5c4a-4295-9b6e-4f2a09667fac",
@@ -4300,7 +4386,8 @@
     "index": "7S",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "82054d7c-5c4a-4295-9b6e-4f2a09667fac.png",
-    "Grid Image": "82054d7c-5c4a-4295-9b6e-4f2a09667fac.grid.png"
+    "Grid Image": "82054d7c-5c4a-4295-9b6e-4f2a09667fac.grid.png",
+    "sfr-name": "WATER_DAWN_BLADE"
   },
   {
     "id": "8ee52ccf-7610-409d-b6f4-311c97d922e8",
@@ -4381,7 +4468,8 @@
     "index": "7T",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "8ee52ccf-7610-409d-b6f4-311c97d922e8.png",
-    "Grid Image": "8ee52ccf-7610-409d-b6f4-311c97d922e8.grid.png"
+    "Grid Image": "8ee52ccf-7610-409d-b6f4-311c97d922e8.grid.png",
+    "sfr-name": "WATER_DRAGONSTAFF"
   },
   {
     "id": "82a2a6e3-83f0-4091-b2af-ce2337012f3e",
@@ -4420,7 +4508,8 @@
     "index": "7U",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "82a2a6e3-83f0-4091-b2af-ce2337012f3e.png",
-    "Grid Image": "82a2a6e3-83f0-4091-b2af-ce2337012f3e.grid.png"
+    "Grid Image": "82a2a6e3-83f0-4091-b2af-ce2337012f3e.grid.png",
+    "sfr-name": "WATER_EYEBITER"
   },
   {
     "id": "7cd0038c-01a7-4501-85b4-bee2d654e7d9",
@@ -4459,7 +4548,8 @@
     "index": "7V",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "7cd0038c-01a7-4501-85b4-bee2d654e7d9.png",
-    "Grid Image": "7cd0038c-01a7-4501-85b4-bee2d654e7d9.grid.png"
+    "Grid Image": "7cd0038c-01a7-4501-85b4-bee2d654e7d9.grid.png",
+    "sfr-name": "WATER_FLICKER_FOIL"
   },
   {
     "id": "921cafff-e34e-45d4-a1d0-cd499b7d475e",
@@ -4540,7 +4630,8 @@
     "index": "7W",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "921cafff-e34e-45d4-a1d0-cd499b7d475e.png",
-    "Grid Image": "921cafff-e34e-45d4-a1d0-cd499b7d475e.grid.png"
+    "Grid Image": "921cafff-e34e-45d4-a1d0-cd499b7d475e.grid.png",
+    "sfr-name": "WATER_FLYING_CARPET"
   },
   {
     "id": "8a043f16-bf2c-4e56-85d7-0b6689c1c539",
@@ -4579,7 +4670,8 @@
     "index": "7X",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "8a043f16-bf2c-4e56-85d7-0b6689c1c539.png",
-    "Grid Image": "8a043f16-bf2c-4e56-85d7-0b6689c1c539.grid.png"
+    "Grid Image": "8a043f16-bf2c-4e56-85d7-0b6689c1c539.grid.png",
+    "sfr-name": "WATER_HEARTSEEKER"
   },
   {
     "id": "85747e7b-18f1-4175-9ca3-a8b50165c817",
@@ -4618,7 +4710,8 @@
     "index": "7Y",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "85747e7b-18f1-4175-9ca3-a8b50165c817.png",
-    "Grid Image": "85747e7b-18f1-4175-9ca3-a8b50165c817.grid.png"
+    "Grid Image": "85747e7b-18f1-4175-9ca3-a8b50165c817.grid.png",
+    "sfr-name": "WATER_MAGI_CROWN"
   },
   {
     "id": "95f730e6-f7cc-4a91-bb9a-dffff97f867a",
@@ -4699,7 +4792,8 @@
     "index": "7Z",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "95f730e6-f7cc-4a91-bb9a-dffff97f867a.png",
-    "Grid Image": "95f730e6-f7cc-4a91-bb9a-dffff97f867a.grid.png"
+    "Grid Image": "95f730e6-f7cc-4a91-bb9a-dffff97f867a.grid.png",
+    "sfr-name": "WATER_MANTLET"
   },
   {
     "id": "8e6d7766-f8d8-42cd-b9a6-ce317f381fae",
@@ -4738,7 +4832,8 @@
     "index": "7a",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "8e6d7766-f8d8-42cd-b9a6-ce317f381fae.png",
-    "Grid Image": "8e6d7766-f8d8-42cd-b9a6-ce317f381fae.grid.png"
+    "Grid Image": "8e6d7766-f8d8-42cd-b9a6-ce317f381fae.grid.png",
+    "sfr-name": "WATER_MITHRIL_SHIELD"
   },
   {
     "id": "7ea9d98b-361b-4ac7-ab19-4fbd5cf1b15b",
@@ -4777,7 +4872,8 @@
     "index": "7b",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "7ea9d98b-361b-4ac7-ab19-4fbd5cf1b15b.png",
-    "Grid Image": "7ea9d98b-361b-4ac7-ab19-4fbd5cf1b15b.grid.png"
+    "Grid Image": "7ea9d98b-361b-4ac7-ab19-4fbd5cf1b15b.grid.png",
+    "sfr-name": "WATER_RING_OF_STARS"
   },
   {
     "id": "86d3f958-daf0-4b23-969c-d5964169310a",
@@ -4816,7 +4912,8 @@
     "index": "7c",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "86d3f958-daf0-4b23-969c-d5964169310a.png",
-    "Grid Image": "86d3f958-daf0-4b23-969c-d5964169310a.grid.png"
+    "Grid Image": "86d3f958-daf0-4b23-969c-d5964169310a.grid.png",
+    "sfr-name": "WATER_SEVEN_LEAGUE_BOOTS"
   },
   {
     "id": "75d231ab-e3ba-4023-bb6c-1bf0e6f516ac",
@@ -4855,7 +4952,8 @@
     "index": "7d",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "75d231ab-e3ba-4023-bb6c-1bf0e6f516ac.png",
-    "Grid Image": "75d231ab-e3ba-4023-bb6c-1bf0e6f516ac.grid.png"
+    "Grid Image": "75d231ab-e3ba-4023-bb6c-1bf0e6f516ac.grid.png",
+    "sfr-name": "WATER_SIGHT_STONE"
   },
   {
     "id": "799fbd2a-e0f2-453a-a98e-8803762c64c9",
@@ -4894,7 +4992,8 @@
     "index": "7e",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "799fbd2a-e0f2-453a-a98e-8803762c64c9.png",
-    "Grid Image": "799fbd2a-e0f2-453a-a98e-8803762c64c9.grid.png"
+    "Grid Image": "799fbd2a-e0f2-453a-a98e-8803762c64c9.grid.png",
+    "sfr-name": "WATER_SPEED_SLIPPERS"
   },
   {
     "id": "82c9dc49-3402-4dd2-84f4-c0b526683acc",
@@ -4933,7 +5032,8 @@
     "index": "7f",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "82c9dc49-3402-4dd2-84f4-c0b526683acc.png",
-    "Grid Image": "82c9dc49-3402-4dd2-84f4-c0b526683acc.grid.png"
+    "Grid Image": "82c9dc49-3402-4dd2-84f4-c0b526683acc.grid.png",
+    "sfr-name": "WATER_STEEL_BUCKLER"
   },
   {
     "id": "95c2855f-98d2-4913-abad-f59be8fad005",
@@ -5014,7 +5114,8 @@
     "index": "7g",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "95c2855f-98d2-4913-abad-f59be8fad005.png",
-    "Grid Image": "95c2855f-98d2-4913-abad-f59be8fad005.grid.png"
+    "Grid Image": "95c2855f-98d2-4913-abad-f59be8fad005.grid.png",
+    "sfr-name": "WATER_TREBUCHET"
   },
   {
     "id": "7d08ed3a-3d3c-4ca1-b4b3-c7255477213c",
@@ -5053,7 +5154,8 @@
     "index": "7h",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "7d08ed3a-3d3c-4ca1-b4b3-c7255477213c.png",
-    "Grid Image": "7d08ed3a-3d3c-4ca1-b4b3-c7255477213c.grid.png"
+    "Grid Image": "7d08ed3a-3d3c-4ca1-b4b3-c7255477213c.grid.png",
+    "sfr-name": "WATER_TRUEFLYER"
   },
   {
     "id": "86f9a2cb-74a8-4a6a-b90f-310e7ffaabbf",
@@ -5092,7 +5194,8 @@
     "index": "7i",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "86f9a2cb-74a8-4a6a-b90f-310e7ffaabbf.png",
-    "Grid Image": "86f9a2cb-74a8-4a6a-b90f-310e7ffaabbf.grid.png"
+    "Grid Image": "86f9a2cb-74a8-4a6a-b90f-310e7ffaabbf.grid.png",
+    "sfr-name": "WATER_VORPAL_SWORD"
   },
   {
     "id": "810ca89a-e247-4039-b8d4-5078d9dfc327",
@@ -5131,7 +5234,8 @@
     "index": "7j",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "810ca89a-e247-4039-b8d4-5078d9dfc327.png",
-    "Grid Image": "810ca89a-e247-4039-b8d4-5078d9dfc327.grid.png"
+    "Grid Image": "810ca89a-e247-4039-b8d4-5078d9dfc327.grid.png",
+    "sfr-name": "WATER_WINGED_SANDALS"
   },
   {
     "id": "7d5dffc6-5a7d-46ca-888e-a251066645bc",
@@ -5170,6 +5274,7 @@
     "index": "7k",
     "set_id": "0160fed0-6da3-46a3-80ef-d103cf42570b",
     "image": "7d5dffc6-5a7d-46ca-888e-a251066645bc.png",
-    "Grid Image": "7d5dffc6-5a7d-46ca-888e-a251066645bc.grid.png"
+    "Grid Image": "7d5dffc6-5a7d-46ca-888e-a251066645bc.grid.png",
+    "sfr-name": "WATER_WOODEN_TARGE"
   }
 ]

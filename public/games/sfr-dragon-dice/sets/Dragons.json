@@ -103,7 +103,8 @@
     "index": "7l",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "06a61f8c-7c0e-4174-b05e-96e455e1598a.png",
-    "Grid Image": "06a61f8c-7c0e-4174-b05e-96e455e1598a.grid.png"
+    "Grid Image": "06a61f8c-7c0e-4174-b05e-96e455e1598a.grid.png",
+    "sfr-name": "DEATH_DRAKE"
   },
   {
     "id": "ae524c6c-08da-4a24-8366-ff023fc6f5af",
@@ -209,7 +210,8 @@
     "index": "7m",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "ae524c6c-08da-4a24-8366-ff023fc6f5af.png",
-    "Grid Image": "ae524c6c-08da-4a24-8366-ff023fc6f5af.grid.png"
+    "Grid Image": "ae524c6c-08da-4a24-8366-ff023fc6f5af.grid.png",
+    "sfr-name": "DEATHIVORY_DRAKE"
   },
   {
     "id": "094afa48-a442-49fb-a04f-9d2949d799a6",
@@ -315,7 +317,8 @@
     "index": "7n",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "094afa48-a442-49fb-a04f-9d2949d799a6.png",
-    "Grid Image": "094afa48-a442-49fb-a04f-9d2949d799a6.grid.png"
+    "Grid Image": "094afa48-a442-49fb-a04f-9d2949d799a6.grid.png",
+    "sfr-name": "AIR_DRAKE"
   },
   {
     "id": "b4273d49-3371-499b-8a0c-d30afea4b3be",
@@ -421,7 +424,8 @@
     "index": "7o",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "b4273d49-3371-499b-8a0c-d30afea4b3be.png",
-    "Grid Image": "b4273d49-3371-499b-8a0c-d30afea4b3be.grid.png"
+    "Grid Image": "b4273d49-3371-499b-8a0c-d30afea4b3be.grid.png",
+    "sfr-name": "AIRIVORY_DRAKE"
   },
   {
     "id": "6c242b3d-e31a-446d-aa45-048f1f461792",
@@ -527,7 +531,8 @@
     "index": "7p",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "6c242b3d-e31a-446d-aa45-048f1f461792.png",
-    "Grid Image": "6c242b3d-e31a-446d-aa45-048f1f461792.grid.png"
+    "Grid Image": "6c242b3d-e31a-446d-aa45-048f1f461792.grid.png",
+    "sfr-name": "AIRWATER_DRAKE"
   },
   {
     "id": "7a4a9643-cb37-48b0-b197-d0942bce8ee3",
@@ -633,7 +638,8 @@
     "index": "7q",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "7a4a9643-cb37-48b0-b197-d0942bce8ee3.png",
-    "Grid Image": "7a4a9643-cb37-48b0-b197-d0942bce8ee3.grid.png"
+    "Grid Image": "7a4a9643-cb37-48b0-b197-d0942bce8ee3.grid.png",
+    "sfr-name": "EARTHFIRE_DRAKE"
   },
   {
     "id": "71dd2a4d-b27f-4beb-8f7f-58fe85451e80",
@@ -739,7 +745,8 @@
     "index": "7r",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "71dd2a4d-b27f-4beb-8f7f-58fe85451e80.png",
-    "Grid Image": "71dd2a4d-b27f-4beb-8f7f-58fe85451e80.grid.png"
+    "Grid Image": "71dd2a4d-b27f-4beb-8f7f-58fe85451e80.grid.png",
+    "sfr-name": "AIREARTH_DRAKE"
   },
   {
     "id": "7032aaa7-af68-4c94-a9bb-412306bbd2e0",
@@ -845,7 +852,8 @@
     "index": "7s",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "7032aaa7-af68-4c94-a9bb-412306bbd2e0.png",
-    "Grid Image": "7032aaa7-af68-4c94-a9bb-412306bbd2e0.grid.png"
+    "Grid Image": "7032aaa7-af68-4c94-a9bb-412306bbd2e0.grid.png",
+    "sfr-name": "AIRFIRE_DRAKE"
   },
   {
     "id": "5a19592f-f3ee-4d61-8684-6aacd3c9f6e2",
@@ -951,7 +959,8 @@
     "index": "7t",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "5a19592f-f3ee-4d61-8684-6aacd3c9f6e2.png",
-    "Grid Image": "5a19592f-f3ee-4d61-8684-6aacd3c9f6e2.grid.png"
+    "Grid Image": "5a19592f-f3ee-4d61-8684-6aacd3c9f6e2.grid.png",
+    "sfr-name": "DEATHAIR_DRAKE"
   },
   {
     "id": "6bb07edc-542f-464c-8ece-6ea1fa3e5126",
@@ -1057,7 +1066,8 @@
     "index": "7u",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "6bb07edc-542f-464c-8ece-6ea1fa3e5126.png",
-    "Grid Image": "6bb07edc-542f-464c-8ece-6ea1fa3e5126.grid.png"
+    "Grid Image": "6bb07edc-542f-464c-8ece-6ea1fa3e5126.grid.png",
+    "sfr-name": "DEATHEARTH_DRAKE"
   },
   {
     "id": "09fe24f7-139f-48f3-b544-1c68560cea61",
@@ -1163,7 +1173,8 @@
     "index": "7v",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "09fe24f7-139f-48f3-b544-1c68560cea61.png",
-    "Grid Image": "09fe24f7-139f-48f3-b544-1c68560cea61.grid.png"
+    "Grid Image": "09fe24f7-139f-48f3-b544-1c68560cea61.grid.png",
+    "sfr-name": "WATER_DRAKE"
   },
   {
     "id": "b6a91375-ab45-412d-bb54-a4fb1f1ac7ee",
@@ -1269,7 +1280,8 @@
     "index": "7w",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "b6a91375-ab45-412d-bb54-a4fb1f1ac7ee.png",
-    "Grid Image": "b6a91375-ab45-412d-bb54-a4fb1f1ac7ee.grid.png"
+    "Grid Image": "b6a91375-ab45-412d-bb54-a4fb1f1ac7ee.grid.png",
+    "sfr-name": "WATERIVORY_DRAKE"
   },
   {
     "id": "20dd74b0-9112-422a-92b2-169f76168cec",
@@ -1375,7 +1387,8 @@
     "index": "7x",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "20dd74b0-9112-422a-92b2-169f76168cec.png",
-    "Grid Image": "20dd74b0-9112-422a-92b2-169f76168cec.grid.png"
+    "Grid Image": "20dd74b0-9112-422a-92b2-169f76168cec.grid.png",
+    "sfr-name": "IVORY_DRAKE"
   },
   {
     "id": "63c7ddc9-d1d6-4de2-bcb8-93afce0b86ba",
@@ -1481,7 +1494,8 @@
     "index": "7y",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "63c7ddc9-d1d6-4de2-bcb8-93afce0b86ba.png",
-    "Grid Image": "63c7ddc9-d1d6-4de2-bcb8-93afce0b86ba.grid.png"
+    "Grid Image": "63c7ddc9-d1d6-4de2-bcb8-93afce0b86ba.grid.png",
+    "sfr-name": "DEATHFIRE_DRAKE"
   },
   {
     "id": "233ccfbb-facb-4251-b289-2b5d014c9ec1",
@@ -1587,7 +1601,8 @@
     "index": "7z",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "233ccfbb-facb-4251-b289-2b5d014c9ec1.png",
-    "Grid Image": "233ccfbb-facb-4251-b289-2b5d014c9ec1.grid.png"
+    "Grid Image": "233ccfbb-facb-4251-b289-2b5d014c9ec1.grid.png",
+    "sfr-name": "FIRE_DRAKE"
   },
   {
     "id": "b6bc6485-69ba-4928-92a7-b4f186511529",
@@ -1693,7 +1708,8 @@
     "index": "80",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "b6bc6485-69ba-4928-92a7-b4f186511529.png",
-    "Grid Image": "b6bc6485-69ba-4928-92a7-b4f186511529.grid.png"
+    "Grid Image": "b6bc6485-69ba-4928-92a7-b4f186511529.grid.png",
+    "sfr-name": "FIREIVORY_DRAKE"
   },
   {
     "id": "735fa6a7-5caa-44ef-9319-1151c9667b52",
@@ -1799,7 +1815,8 @@
     "index": "81",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "735fa6a7-5caa-44ef-9319-1151c9667b52.png",
-    "Grid Image": "735fa6a7-5caa-44ef-9319-1151c9667b52.grid.png"
+    "Grid Image": "735fa6a7-5caa-44ef-9319-1151c9667b52.grid.png",
+    "sfr-name": "WATERFIRE_DRAKE"
   },
   {
     "id": "5c774e3c-4584-4605-81e1-5a581f657c60",
@@ -1905,7 +1922,8 @@
     "index": "82",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "5c774e3c-4584-4605-81e1-5a581f657c60.png",
-    "Grid Image": "5c774e3c-4584-4605-81e1-5a581f657c60.grid.png"
+    "Grid Image": "5c774e3c-4584-4605-81e1-5a581f657c60.grid.png",
+    "sfr-name": "DEATHWATER_DRAKE"
   },
   {
     "id": "7570fb62-04be-4f53-a5ab-6d1c04f62d39",
@@ -2011,7 +2029,8 @@
     "index": "83",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "7570fb62-04be-4f53-a5ab-6d1c04f62d39.png",
-    "Grid Image": "7570fb62-04be-4f53-a5ab-6d1c04f62d39.grid.png"
+    "Grid Image": "7570fb62-04be-4f53-a5ab-6d1c04f62d39.grid.png",
+    "sfr-name": "EARTHWATER_DRAKE"
   },
   {
     "id": "e291227a-9388-49fc-adb0-3c9b10dfc344",
@@ -2117,7 +2136,8 @@
     "index": "84",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "e291227a-9388-49fc-adb0-3c9b10dfc344.png",
-    "Grid Image": "e291227a-9388-49fc-adb0-3c9b10dfc344.grid.png"
+    "Grid Image": "e291227a-9388-49fc-adb0-3c9b10dfc344.grid.png",
+    "sfr-name": "WHITE_DRAKE"
   },
   {
     "id": "245f0bf5-c420-4681-8fb7-d9eacf71dd2a",
@@ -2223,7 +2243,8 @@
     "index": "85",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "245f0bf5-c420-4681-8fb7-d9eacf71dd2a.png",
-    "Grid Image": "245f0bf5-c420-4681-8fb7-d9eacf71dd2a.grid.png"
+    "Grid Image": "245f0bf5-c420-4681-8fb7-d9eacf71dd2a.grid.png",
+    "sfr-name": "EARTH_DRAKE"
   },
   {
     "id": "ba829bfd-be7d-4c92-a514-c7f2816ec0d8",
@@ -2329,7 +2350,8 @@
     "index": "86",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "ba829bfd-be7d-4c92-a514-c7f2816ec0d8.png",
-    "Grid Image": "ba829bfd-be7d-4c92-a514-c7f2816ec0d8.grid.png"
+    "Grid Image": "ba829bfd-be7d-4c92-a514-c7f2816ec0d8.grid.png",
+    "sfr-name": "EARTHIVORY_DRAKE"
   },
   {
     "id": "2e6596ff-0656-4e7b-9877-139f3cd7d29a",
@@ -2435,7 +2457,8 @@
     "index": "87",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "2e6596ff-0656-4e7b-9877-139f3cd7d29a.png",
-    "Grid Image": "2e6596ff-0656-4e7b-9877-139f3cd7d29a.grid.png"
+    "Grid Image": "2e6596ff-0656-4e7b-9877-139f3cd7d29a.grid.png",
+    "sfr-name": "DEATH_WYRM"
   },
   {
     "id": "bc89c714-fd72-42fb-a7e5-e6c0460ffb2d",
@@ -2541,7 +2564,8 @@
     "index": "88",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "bc89c714-fd72-42fb-a7e5-e6c0460ffb2d.png",
-    "Grid Image": "bc89c714-fd72-42fb-a7e5-e6c0460ffb2d.grid.png"
+    "Grid Image": "bc89c714-fd72-42fb-a7e5-e6c0460ffb2d.grid.png",
+    "sfr-name": "DEATHIVORY_WYRM"
   },
   {
     "id": "3be3833a-eac7-4fc8-a27d-122646841cfb",
@@ -2647,7 +2671,8 @@
     "index": "89",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "3be3833a-eac7-4fc8-a27d-122646841cfb.png",
-    "Grid Image": "3be3833a-eac7-4fc8-a27d-122646841cfb.grid.png"
+    "Grid Image": "3be3833a-eac7-4fc8-a27d-122646841cfb.grid.png",
+    "sfr-name": "AIR_WYRM"
   },
   {
     "id": "bd512381-4753-44cf-a6ca-68295d1db909",
@@ -2753,7 +2778,8 @@
     "index": "8A",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "bd512381-4753-44cf-a6ca-68295d1db909.png",
-    "Grid Image": "bd512381-4753-44cf-a6ca-68295d1db909.grid.png"
+    "Grid Image": "bd512381-4753-44cf-a6ca-68295d1db909.grid.png",
+    "sfr-name": "AIRIVORY_WYRM"
   },
   {
     "id": "9fa5d671-db72-42ab-8b84-fe01a70b79fe",
@@ -2859,7 +2885,8 @@
     "index": "8B",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "9fa5d671-db72-42ab-8b84-fe01a70b79fe.png",
-    "Grid Image": "9fa5d671-db72-42ab-8b84-fe01a70b79fe.grid.png"
+    "Grid Image": "9fa5d671-db72-42ab-8b84-fe01a70b79fe.grid.png",
+    "sfr-name": "AIRWATER_WYRM"
   },
   {
     "id": "aaa2e641-0d07-427d-a00a-774ee3808aaf",
@@ -2965,7 +2992,8 @@
     "index": "8C",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "aaa2e641-0d07-427d-a00a-774ee3808aaf.png",
-    "Grid Image": "aaa2e641-0d07-427d-a00a-774ee3808aaf.grid.png"
+    "Grid Image": "aaa2e641-0d07-427d-a00a-774ee3808aaf.grid.png",
+    "sfr-name": "EARTHFIRE_WYRM"
   },
   {
     "id": "a622d9bf-0b09-4b1a-9914-873b7f8a6430",
@@ -3071,7 +3099,8 @@
     "index": "8D",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "a622d9bf-0b09-4b1a-9914-873b7f8a6430.png",
-    "Grid Image": "a622d9bf-0b09-4b1a-9914-873b7f8a6430.grid.png"
+    "Grid Image": "a622d9bf-0b09-4b1a-9914-873b7f8a6430.grid.png",
+    "sfr-name": "AIREARTH_WYRM"
   },
   {
     "id": "a6155d2d-2520-4134-8c7b-4d7a7cd83c8e",
@@ -3177,7 +3206,8 @@
     "index": "8E",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "a6155d2d-2520-4134-8c7b-4d7a7cd83c8e.png",
-    "Grid Image": "a6155d2d-2520-4134-8c7b-4d7a7cd83c8e.grid.png"
+    "Grid Image": "a6155d2d-2520-4134-8c7b-4d7a7cd83c8e.grid.png",
+    "sfr-name": "AIRFIRE_WYRM"
   },
   {
     "id": "7a7eaf2c-3be3-406b-8973-6c773fa4d54e",
@@ -3283,7 +3313,8 @@
     "index": "8F",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "7a7eaf2c-3be3-406b-8973-6c773fa4d54e.png",
-    "Grid Image": "7a7eaf2c-3be3-406b-8973-6c773fa4d54e.grid.png"
+    "Grid Image": "7a7eaf2c-3be3-406b-8973-6c773fa4d54e.grid.png",
+    "sfr-name": "DEATHAIR_WYRM"
   },
   {
     "id": "9605f4be-94b0-49a5-9afd-7f856f311316",
@@ -3389,7 +3420,8 @@
     "index": "8G",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "9605f4be-94b0-49a5-9afd-7f856f311316.png",
-    "Grid Image": "9605f4be-94b0-49a5-9afd-7f856f311316.grid.png"
+    "Grid Image": "9605f4be-94b0-49a5-9afd-7f856f311316.grid.png",
+    "sfr-name": "DEATHEARTH_WYRM"
   },
   {
     "id": "4497630c-9e09-4820-a4be-a4038c7a119e",
@@ -3495,7 +3527,8 @@
     "index": "8H",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "4497630c-9e09-4820-a4be-a4038c7a119e.png",
-    "Grid Image": "4497630c-9e09-4820-a4be-a4038c7a119e.grid.png"
+    "Grid Image": "4497630c-9e09-4820-a4be-a4038c7a119e.grid.png",
+    "sfr-name": "WATER_WYRM"
   },
   {
     "id": "c1b4514a-00eb-4d57-85f0-180a2ce98d80",
@@ -3601,7 +3634,8 @@
     "index": "8I",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "c1b4514a-00eb-4d57-85f0-180a2ce98d80.png",
-    "Grid Image": "c1b4514a-00eb-4d57-85f0-180a2ce98d80.grid.png"
+    "Grid Image": "c1b4514a-00eb-4d57-85f0-180a2ce98d80.grid.png",
+    "sfr-name": "WATERIVORY_WYRM"
   },
   {
     "id": "44de4cfb-5eb3-4789-8621-b7d6452c0227",
@@ -3707,7 +3741,8 @@
     "index": "8J",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "44de4cfb-5eb3-4789-8621-b7d6452c0227.png",
-    "Grid Image": "44de4cfb-5eb3-4789-8621-b7d6452c0227.grid.png"
+    "Grid Image": "44de4cfb-5eb3-4789-8621-b7d6452c0227.grid.png",
+    "sfr-name": "IVORY_WYRM"
   },
   {
     "id": "8e7489af-7602-4e09-8e28-1b1c3cd5d536",
@@ -3813,7 +3848,8 @@
     "index": "8K",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "8e7489af-7602-4e09-8e28-1b1c3cd5d536.png",
-    "Grid Image": "8e7489af-7602-4e09-8e28-1b1c3cd5d536.grid.png"
+    "Grid Image": "8e7489af-7602-4e09-8e28-1b1c3cd5d536.grid.png",
+    "sfr-name": "DEATHFIRE_WYRM"
   },
   {
     "id": "51ebbaf2-0b74-40dc-a930-3ba97c384101",
@@ -3919,7 +3955,8 @@
     "index": "8L",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "51ebbaf2-0b74-40dc-a930-3ba97c384101.png",
-    "Grid Image": "51ebbaf2-0b74-40dc-a930-3ba97c384101.grid.png"
+    "Grid Image": "51ebbaf2-0b74-40dc-a930-3ba97c384101.grid.png",
+    "sfr-name": "FIRE_WYRM"
   },
   {
     "id": "c908c612-5f77-4474-b371-6dc8e0a305ee",
@@ -4025,7 +4062,8 @@
     "index": "8M",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "c908c612-5f77-4474-b371-6dc8e0a305ee.png",
-    "Grid Image": "c908c612-5f77-4474-b371-6dc8e0a305ee.grid.png"
+    "Grid Image": "c908c612-5f77-4474-b371-6dc8e0a305ee.grid.png",
+    "sfr-name": "FIREIVORY_WYRM"
   },
   {
     "id": "a99b4996-5100-4f22-b596-6d53d6af514f",
@@ -4131,7 +4169,8 @@
     "index": "8N",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "a99b4996-5100-4f22-b596-6d53d6af514f.png",
-    "Grid Image": "a99b4996-5100-4f22-b596-6d53d6af514f.grid.png"
+    "Grid Image": "a99b4996-5100-4f22-b596-6d53d6af514f.grid.png",
+    "sfr-name": "WATERFIRE_WYRM"
   },
   {
     "id": "8da17778-cdd3-47d4-8a88-f05664c00b00",
@@ -4237,7 +4276,8 @@
     "index": "8O",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "8da17778-cdd3-47d4-8a88-f05664c00b00.png",
-    "Grid Image": "8da17778-cdd3-47d4-8a88-f05664c00b00.grid.png"
+    "Grid Image": "8da17778-cdd3-47d4-8a88-f05664c00b00.grid.png",
+    "sfr-name": "DEATHWATER_WYRM"
   },
   {
     "id": "a9e95057-2214-4752-86bf-052722483ba7",
@@ -4343,7 +4383,8 @@
     "index": "8P",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "a9e95057-2214-4752-86bf-052722483ba7.png",
-    "Grid Image": "a9e95057-2214-4752-86bf-052722483ba7.grid.png"
+    "Grid Image": "a9e95057-2214-4752-86bf-052722483ba7.grid.png",
+    "sfr-name": "EARTHWATER_WYRM"
   },
   {
     "id": "f0cfa2e2-d2f2-4823-a095-f710ca54ee2f",
@@ -4449,7 +4490,8 @@
     "index": "8Q",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "f0cfa2e2-d2f2-4823-a095-f710ca54ee2f.png",
-    "Grid Image": "f0cfa2e2-d2f2-4823-a095-f710ca54ee2f.grid.png"
+    "Grid Image": "f0cfa2e2-d2f2-4823-a095-f710ca54ee2f.grid.png",
+    "sfr-name": "WHITE_WYRM"
   },
   {
     "id": "58f07401-43fc-4982-bedf-75698b924277",
@@ -4555,7 +4597,8 @@
     "index": "8R",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "58f07401-43fc-4982-bedf-75698b924277.png",
-    "Grid Image": "58f07401-43fc-4982-bedf-75698b924277.grid.png"
+    "Grid Image": "58f07401-43fc-4982-bedf-75698b924277.grid.png",
+    "sfr-name": "EARTH_WYRM"
   },
   {
     "id": "ce95dca0-677d-47b8-81aa-3a1772a6b8ab",
@@ -4661,6 +4704,7 @@
     "index": "8S",
     "set_id": "01caedb8-ee14-4ee8-9806-8f5848dd9330",
     "image": "ce95dca0-677d-47b8-81aa-3a1772a6b8ab.png",
-    "Grid Image": "ce95dca0-677d-47b8-81aa-3a1772a6b8ab.grid.png"
+    "Grid Image": "ce95dca0-677d-47b8-81aa-3a1772a6b8ab.grid.png",
+    "sfr-name": "EARTHIVORY_WYRM"
   }
 ]
