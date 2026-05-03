@@ -1016,7 +1016,7 @@
     "Element": "Bronze",
     "Type": "Medallion",
     "Size": "Medallion",
-    "Class": "None",
+    "Class": "",
     "Icons": "4 Logo",
     "Search": "Items",
     "alternates": [
@@ -3073,10 +3073,10 @@
     "id": "f6cd0c90-b08c-4669-95e9-1f00bff87a88",
     "name": "Earthfang Relic",
     "size": "Relic",
-    "Element": "None",
+    "Element": "",
     "Type": "Relic",
     "Size": "Relic",
-    "Class": "None",
+    "Class": "",
     "Icons": "4 Logo",
     "Search": "Items",
     "alternates": [
@@ -3127,10 +3127,10 @@
     "id": "efe7e982-60b4-431f-882a-4141f4b4a1a0",
     "name": "Elemental Relic",
     "size": "Relic",
-    "Element": "None",
+    "Element": "",
     "Type": "Relic",
     "Size": "Relic",
-    "Class": "None",
+    "Class": "",
     "Icons": "4 Logo",
     "Search": "Items",
     "alternates": [
@@ -4194,7 +4194,7 @@
     "Element": "Gold",
     "Type": "Medallion",
     "Size": "Medallion",
-    "Class": "None",
+    "Class": "",
     "Icons": "4 Logo",
     "Search": "Items",
     "alternates": [
@@ -4234,7 +4234,7 @@
     "Element": "Silver",
     "Type": "Medallion",
     "Size": "Medallion",
-    "Class": "None",
+    "Class": "",
     "Icons": "4 Logo",
     "Search": "Items",
     "alternates": [

@@ -15,11 +15,18 @@
 	"Size",
 	"Element"
   ],
+  
+  "filterValueOrder": {
+  "Size": ["Small", "Medium", "Large", "Champion", "Monster", "Artifact", "Medallion", "Relic" ],
+  "Element": ["Black (Death)", "Blue (Air)", "Green (Water)", "Red (Fire)", "Yellow (Earth)", "Ivory", "White", "Gold", "Silver", "Bronze" ]
+  },
+  
   "filterDelimiter": ",",
   "groupOrder": [],
   "groupSort": {},
   "searchPrefixes": {
-	  "i": "Icons"
+	  "i": "Icons",
+	  "e": "Element"
   },
   "octgnExport": true,
   "dragonDiceTTSExport": true,
