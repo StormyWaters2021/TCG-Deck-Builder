@@ -33,6 +33,16 @@
             },
             "points":3
          },
+		{
+            "match":{
+               "Type":"Unit",
+               "Size":"Monster"
+            },
+            "exclude":{
+               "Species":"Dragonkin"
+            },
+            "points":4
+         },
          {
             "match":{
                "Type":"Unit",
