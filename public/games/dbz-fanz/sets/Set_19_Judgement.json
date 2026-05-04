@@ -76,5 +76,31 @@
     "index": "3b",
     "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
     "Tag": ""
+  },
+  {
+    "name": "Saiyan Surging Mastery",
+    "Style": "Saiyan",
+    "Card Number": "DR31",
+    "Type": "Mastery",
+    "Endurance": "",
+    "Text": "(You cannot win by MPPV) [CONSTANT]: Your Styled attacks gain \"Raise your anger 1.\" At the start of the Discard Step, if your MP advanced a level this turn, lower your MP 1 level. [INSTANT] POWER: Use when an effect lowers your MP 1 or more levels. Draw a card. POWER: Your next Styled attack this combat deals +X life cards. X = your MP's level.",
+    "Traits": "",
+    "PUR": "",
+    "Power Rating": "",
+    "Rarity": "Dragon Rare",
+    "Level": "",
+    "Orientation": "Vertical",
+    "Oracle Text": "",
+    "alt1_name": "",
+    "alt1_number": "",
+    "alt1_rarity": "",
+    "alt1_orientation": "",
+    "Set": "Set 19 Judgement",
+    "image": "be50735c-9d36-4f3b-9438-749a3db7e234.png",
+    "Main Personality": "",
+    "id": "be50735c-9d36-4f3b-9438-749a3db7e234",
+    "index": "3c",
+    "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
+    "Tag": ""
   }
 ]
