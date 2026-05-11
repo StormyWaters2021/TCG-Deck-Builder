@@ -1,0 +1,70 @@
+{
+    "minCards": 60,
+    "maxCards": 60,
+    "maxCopiesPerCard": 3,
+    "usePerCardLimit": true,
+	"minMaxExclude": { "group": ["Starting"] },
+    "propertyLimits": [
+      {
+        "property": "Type",
+        "value": "Mastery",
+        "min": 1,
+		"max": 1,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires exactly {min} Mastery, you have {count}."
+      },
+      {
+        "property": "Main Personality",
+        "value": "Level 1",
+        "min": 1,
+		"max": 1,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires exactly {min} MP Level 1, you have {count}."
+      },
+      {
+        "property": "Main Personality",
+        "value": "Level 2",
+        "min": 1,
+		"max": 1,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires exactly {min} MP Level 2, you have {count}."
+      },
+      {
+        "property": "Main Personality",
+        "value": "Level 3",
+        "min": 1,
+		"max": 1,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires exactly {min} MP Level 3, you have {count}."
+      },
+      {
+        "property": "Main Personality",
+        "value": "Level 4",
+        "min": 1,
+		"max": 1,
+		"showPropertyNameInError": false,
+		"errorMessage": "Requires exactly {min} MP Level 4, you have {count}."
+      }
+    ],
+	"factionLimit": {
+    "property": "Style",
+    "ignore": ["Named", "Non-Styled"], 
+    "errorMessage": "Decks may only contain cards of one style!"
+  },
+    "banList": [
+      "Black Devious Mastery",
+	  "Blue Protective Mastery",
+	  "Namekian Knowledge Mastery",
+	  "Namekian Restored Mastery",
+	  "Orange Adaptive Mastery",
+	  "Orange Charge",
+	  "Orange Checkup Drill",
+	  "Orange Focusing Drill",
+	  "Orange Restribution Mastery",
+	  "Ox King - Naming Genius",
+	  "Red Enraged Mastery",
+	  "Saiyan Empowered Mastery",
+	  "Visiting the Past",
+	  "Red Tactical Drill"
+    ]
+  }
