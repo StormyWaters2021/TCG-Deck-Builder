@@ -1,0 +1,21 @@
+{
+  "gameGuid": "8f6af0e6-f1c5-4087-b5a0-b604252cf760",
+  "sections": [
+    {
+      "name": "Starting",
+      "shared": false,
+      "criteria": {
+        "Type": ["Mastery"],
+		"Main Personality": ["Level 1", "Level 2", "Level 3", "Level 4"]
+      }
+    },
+    {
+      "name": "Life Deck",
+      "shared": false,
+      "criteria": {
+        "Type": ["Energy Combat", "Physical Combat", "Drill", "Hero Ally", "Villain Ally", "Hero/Villain Ally", "Event", "Setup", "Dragon Ball"]
+      }
+    }
+  ],
+  "defaultSection": "Life Deck"
+}

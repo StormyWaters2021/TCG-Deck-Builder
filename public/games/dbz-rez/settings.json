@@ -1,0 +1,120 @@
+{
+  "gameName": "dbz-rez",
+  "hiddenSets": ["8f6af0e6-f1c5-4087-b5a5-b604252cf760"],
+  "addNValue": 3,
+  
+  "fallbackGroup": "Life Deck",
+  
+  "groupOptions": [
+    "Type",
+    "Style"
+  ],
+  
+  "filterOptions": [
+    "Type",
+    "Style",
+	"Traits",
+	"Alignment",
+    "Set",
+	"Level"
+  ],
+  
+  "filterValueOrder": {
+	"Style": ["Black", "Blue", "Orange", "Red", "Namekian", "Saiyan", "Non-Styled", "Named" ]
+  },
+  
+  "filterDelimiter": ",",
+  
+  "groupOrder": [
+    "Hero MP",
+    "Villain MP",
+    "Mastery",
+    "Physical Combat",
+    "Energy Combat"
+  ],
+  
+  "groupSort": {
+    "Starting": {
+      "by": [
+        "Level",
+        "name"
+      ],
+      "order": {
+        "Level": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+	
+	"Hero MP": {
+      "by": [
+        "Level",
+        "name"
+      ],
+      "order": {
+        "Level": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    "Villain MP": {
+      "by": [
+        "Level",
+        "name"
+      ],
+      "order": {
+        "Level": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    }
+  },
+  
+  "searchPrefixes": {
+    "t": "Text",
+    "tr": "Traits",
+    "e": "Endurance"
+  },  
+  "print": {
+  "cardWidthMm": 63,
+  "cardHeightMm": 88,
+  "bleedMm": 0,
+
+  "horizontalGapMm": 0,
+  "verticalGapMm": 0,
+
+  "sideMarginMm": 10,
+  "topMarginMm": 5,
+  "bottomMarginMm": 5,
+
+  "cardsPerRow": 3,
+  "cardsPerColumn": 3,
+
+  "dpi": 300,
+  "jpegQuality": 0.72,
+
+  "paperSize": "Letter"
+	}, 
+  "octgnExport": true,
+  "pdfDecklistExport": true,
+  "imagePackExport": true,
+  "compactExportCols": 5,
+  "compactExportHeadingRow": true,
+  "compactVerticalOffsetFactor": 0.18,
+  "compactRowShiftFactor": 0.7,
+  "compactHorizontalStackVerticalOffsetFactor": 0.4,
+  "compactHorizontalStackProperty": "Type",
+  "compactHorizontalStackQuantity": {
+    "Drill": 3,
+    "Setup": 3
+  }
+}

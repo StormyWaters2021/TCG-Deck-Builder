@@ -1,0 +1,90 @@
+{
+  "templatePdf": "pdf/dbz20decklist202t.pdf",
+	"flatten": false,
+	"appearance": {
+	  "modalFontSize": 10,
+	  "specialFontSize": 10,
+	  "rowHeaderFontSize": 12,
+	  "rowTitleFontSize": 9,
+	  "rowCountFontSize": 9
+	},
+
+"computedTotals": {
+  "fontSize": 10,
+  "columns": [
+    { "colIndex": 0, "countField": " IN DECKRow27" },
+    { "colIndex": 1, "countField": " IN DECKRow22_2" }
+  ]
+},
+
+"modal": {
+  "title": "Decklist PDF",
+  "fields": [
+    {
+      "key": "name",
+      "label": "Name",
+      "required": false,
+      "pdfField": "DRAGON BALL Z TRADING CARD GAME DECK REGISTRATION FORM"
+    },
+    { "key": "event",    "label": "Event/Location", "required": false, "pdfField": "Text1" },
+    { "key": "date",     "label": "Date",           "required": false, "pdfField": "Text2" },
+    { "key": "playerId", "label": "Player ID",      "required": false, "pdfField": "Text3" },
+    { "key": "lastInit", "label": "Last initial",   "required": false, "pdfField": "Last name initial Player Name" }
+  ]
+},
+
+  "queries": {
+    "mastery": {
+      "fromGroups": ["Starting"],
+      "where": [{ "prop": "Type", "op": "eq", "value": "Mastery" }],
+      "take": 1
+    },
+
+    "mp": {
+      "fromGroups": ["Starting"],
+      "where": [
+        { "prop": "Type", "op": "contains", "value": "MP" },
+        { "prop": "Level", "op": "exists" }
+      ],
+      "sort": [{ "prop": "Level", "dir": "asc" }],
+      "take": 4
+    },
+
+    "lifeDeck": {
+      "fromGroups": ["Life Deck"]
+    }
+  },
+
+  "mappings": [
+    { "op": "setFieldFromCard", "field": "MASTERY", "query": "mastery", "format": "{name}" },
+
+    { "op": "setFieldFromCardIndex", "field": "MP 1", "query": "mp", "index": 0, "format": "{name}" },
+    { "op": "setFieldFromCardIndex", "field": "MP2",  "query": "mp", "index": 1, "format": "{name}" },
+    { "op": "setFieldFromCardIndex", "field": "MP3",  "query": "mp", "index": 2, "format": "{name}" },
+    { "op": "setFieldFromCardIndex", "field": "MP4",  "query": "mp", "index": 3, "format": "{name}" },
+
+    {
+      "op": "fillRowSlots",
+      "sourceQuery": "lifeDeck",
+      "paging": true,
+
+      "columns": [
+        { "rows": 26, "countField": " IN DECKRow{n}",   "titleField": "Card TitleRow{n}" },
+        { "rows": 21, "countField": " IN DECKRow{n}_2", "titleField": "Card TitleRow{n}_2" }
+      ],
+
+      "render": {
+        "groupBy": "Type",
+        "sortGroups": "alpha",
+        "sortItems": "alpha",
+        "header": "- - # # {group} # # - - ",
+        "headerCont": "- - # # {group} (cont) # # - - ",
+        "blankLineBetweenGroups": true,
+        "avoidHeaderAtColumnLastLine": true,
+
+        "itemCount": "{count}",
+        "itemTitle": "{name}"
+      }
+    }
+  ]
+}

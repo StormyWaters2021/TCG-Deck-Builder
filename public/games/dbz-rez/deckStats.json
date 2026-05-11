@@ -1,0 +1,18 @@
+[
+  { "type": "totalCount", "label": "Cards" },
+  { "type": "sumProperty", "prop": "Endurance", "label": "Tot End." },
+  { "type": "countContains", "prop": "Text", "contains": "[ATTACK] Physical attack", "label": "P Atk" },
+  { "type": "countContains", "prop": "Text", "contains": "[ATTACK] Energy attack", "label": "E Atk" },
+  {
+  "type": "sumPropertyByRegex",
+  "prop": "Text",
+  "regex": "Raise your anger ([0-9]+)",
+  "label": "+Anger"
+  },
+  {
+  "type": "sumPropertyByRegex",
+  "prop": "Text",
+  "regex": "Lower your opponent's anger ([0-9]+)",
+  "label": "-Anger"
+  }
+]
