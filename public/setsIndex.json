@@ -77,9 +77,9 @@
     "games/dbz-score/sets/Playtest_Cards.json"
   ],
   "dune-ccg": [
-    "games/dune-ccg/sets/2037f0a1-773d-42a9-a498-d0cf54e7a000.json",
-    "games/dune-ccg/sets/63581dd8-7dc7-4982-b2aa-ac2da7471ef3.json",
-    "games/dune-ccg/sets/d50be1de-b03c-42eb-b72f-bf43b373e8d9.json"
+    "games/dune-ccg/sets/Eye_of_the_Storm.json",
+    "games/dune-ccg/sets/Judge_of_Change.json",
+    "games/dune-ccg/sets/Thunder_at_Twilight.json"
   ],
   "fow-tcg": [
     "games/fow-tcg/sets/001_Starter.json",
