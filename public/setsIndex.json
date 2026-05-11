@@ -48,10 +48,7 @@
     "games/dbz-rez/sets/01_Arrival.json",
     "games/dbz-rez/sets/02_Showdown.json",
     "games/dbz-rez/sets/03_Transformation.json",
-    "games/dbz-rez/sets/04_Revelation.json",
-    "games/dbz-rez/sets/05_PAT.json",
-    "games/dbz-rez/sets/deckValidation.json",
-    "games/dbz-rez/sets/settings.json"
+    "games/dbz-rez/sets/04_Revelation.json"
   ],
   "dbz-score": [
     "games/dbz-score/sets/01_-_Saiyan_Saga.json",
