@@ -102,5 +102,31 @@
     "index": "3c",
     "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
     "Tag": ""
+  },
+  {
+    "name": "Red Primal Mastery",
+    "Style": "Red",
+    "Card Number": "DR25",
+    "Type": "Mastery",
+    "Endurance": "",
+    "Text": "[CONSTANT]: Your attacks cost -1 stage (this effect cannot lower a cost to 0). [INSTANT] POWER: Use when you would use a critical damage effect during combat. Raise your anger 2 instead. POWER: Rejuvenate X. X = your current anger level.",
+    "Traits": "",
+    "PUR": "",
+    "Power Rating": "",
+    "Rarity": "Dragon Rare",
+    "Level": "",
+    "Orientation": "Vertical",
+    "Oracle Text": "",
+    "alt1_name": "",
+    "alt1_number": "",
+    "alt1_rarity": "",
+    "alt1_orientation": "",
+    "Set": "Set 19 Judgement",
+    "image": "9da15a9c-7730-423a-a0d2-ea39330ca6bc.png",
+    "Main Personality": "",
+    "id": "9da15a9c-7730-423a-a0d2-ea39330ca6bc",
+    "index": "3c",
+    "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
+    "Tag": ""
   }
 ]
