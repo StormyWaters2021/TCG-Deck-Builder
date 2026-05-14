@@ -17,12 +17,16 @@ function AppModal({
   const inputRef = useRef(null);
 
   useEffect(() => {
-    if (!open) return;
+    if (!open || !autoFocusInput) return;
 
-    if (autoFocusInput && inputRef.current) {
-      inputRef.current.focus();
-      inputRef.current.select?.();
-    }
+    requestAnimationFrame(() => {
+      inputRef.current?.focus();
+      inputRef.current?.select?.();
+    });
+  }, [open, autoFocusInput]);
+
+  useEffect(() => {
+    if (!open) return;
 
     function handleKeyDown(e) {
       if (e.key === "Escape") {
@@ -33,7 +37,7 @@ function AppModal({
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [open, autoFocusInput, onClose]);
+  }, [open, onClose]);
 
   if (!open) return null;
 
@@ -82,7 +86,8 @@ function AppModal({
               if (e.key === "Enter") {
                 const primaryAction =
                   actions.find((a) => a.primary) || actions[actions.length - 1];
-                primaryAction?.onClick?.(inputValue);
+
+                primaryAction?.onClick?.(inputRef.current?.value ?? inputValue);
               }
             }}
             style={{
@@ -110,7 +115,9 @@ function AppModal({
                 key={`${action.label}-${idx}`}
                 className="main-button"
                 type="button"
-                onClick={() => action.onClick?.(inputValue)}
+                onClick={() =>
+                  action.onClick?.(inputRef.current?.value ?? inputValue)
+                }
               >
                 {action.label}
               </button>
