@@ -128,5 +128,31 @@
     "index": "3c",
     "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
     "Tag": ""
+  },
+  {
+    "name": "Orange Cunning Mastery",
+    "Style": "Orange",
+    "Card Number": "DR19",
+    "Type": "Mastery",
+    "Endurance": "",
+    "Text": "[CONSTANT]: Your attacks deal +1 life card. Whenever a Drill you own would be discarded due to your MP changing levels, you may Rejuvenate it instead. [INSTANT] POWER: Use when you would use a critical damage effect during combat. Search your Life Deck for a Styled Still and place it into play instead. [POWER]: Rejuvenate a Drill from your discard pile.",
+    "Traits": "",
+    "PUR": "",
+    "Power Rating": "",
+    "Rarity": "Dragon Rare",
+    "Level": "",
+    "Orientation": "Vertical",
+    "Oracle Text": "",
+    "alt1_name": "",
+    "alt1_number": "",
+    "alt1_rarity": "",
+    "alt1_orientation": "",
+    "Set": "Set 19 Judgement",
+    "image": "fbebed2f-6467-4c20-9d1c-61ee7ec7c2e2.png",
+    "Main Personality": "",
+    "id": "fbebed2f-6467-4c20-9d1c-61ee7ec7c2e2",
+    "index": "3d",
+    "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
+    "Tag": ""
   }
 ]
