@@ -154,5 +154,31 @@
     "index": "3d",
     "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
     "Tag": ""
+  },
+  {
+    "name": "Red Spinal Fracture",
+    "Style": "Red",
+    "Card Number": "R28",
+    "Type": "Physical Combat",
+    "Endurance": "1",
+    "Text": "[ATTACK] Physical attack. Lower your opponent's anger 2. If you have banished cards from your Life Deck this turn, Unpreventable. DAMAGE: 6 Stages. HIT: Rejuvenate after use.",
+    "Traits": "",
+    "PUR": "",
+    "Power Rating": "",
+    "Rarity": "Rare",
+    "Level": "",
+    "Orientation": "Vertical",
+    "Oracle Text": "",
+    "alt1_name": "",
+    "alt1_number": "",
+    "alt1_rarity": "",
+    "alt1_orientation": "",
+    "Set": "Set 19 Judgement",
+    "image": "49386453-3c47-43a7-bdc2-315ff6192818.png",
+    "Main Personality": "",
+    "id": "49386453-3c47-43a7-bdc2-315ff6192818",
+    "index": "3e",
+    "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
+    "Tag": ""
   }
 ]
