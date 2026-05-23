@@ -4,6 +4,7 @@ import DeckBuilder from "./DeckBuilder";
 import MobileDeckBuilder from "./mobile/MobileDeckBuilder";
 import { useLayoutMode } from "./mobile/layoutMode";
 import { loadCardsForGame } from "./utils/cardsLoader";
+import { newsArticles } from "./newsArticles";
 
 const LAST_GAME_KEY = "tcgbuilder:lastGame";
 
@@ -99,6 +100,173 @@ function getDefaultGroupBy(settings) {
   return settings.groupOptions[0] || "Type";
 }
 
+function formatArticleDate(dateText) {
+  if (!dateText) return "";
+
+  const date = new Date(`${dateText}T00:00:00`);
+  if (Number.isNaN(date.getTime())) return dateText;
+
+  return date.toLocaleDateString(undefined, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+function getNewsInlineImageUrl(block) {
+  if (!block) return "";
+
+  if (block.url) {
+    return block.url;
+  }
+
+  if (block.game && block.image) {
+    return `https://tcgbuilder.net/images/${block.game}/${block.image}`;
+  }
+
+  return "";
+}
+
+function NewsPage() {
+  const [selectedSlug, setSelectedSlug] = useState(null);
+  const selectedArticle = newsArticles.find((article) => article.slug === selectedSlug);
+  const featuredArticle = newsArticles[0];
+  const remainingArticles = newsArticles.slice(1);
+
+  if (selectedArticle) {
+    return (
+      <main className="news-page">
+        <button
+          className="news-back-link"
+          type="button"
+          onClick={() => setSelectedSlug(null)}
+        >
+          ← Back to News
+        </button>
+
+        <article className="news-article-detail">
+          <div className="news-article-meta">
+            {formatArticleDate(selectedArticle.date)}
+            {selectedArticle.author ? ` • ${selectedArticle.author}` : ""}
+          </div>
+
+          <h2>{selectedArticle.title}</h2>
+
+          {selectedArticle.tags?.length > 0 && (
+            <div className="news-tag-row">
+              {selectedArticle.tags.map((tag) => (
+                <span key={tag} className="news-tag">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+
+          {selectedArticle.body.map((block, index) => {
+		  if (typeof block === "string") {
+			return <p key={index}>{block}</p>;
+		  }
+
+		  if (block.type === "paragraph") {
+			return <p key={index}>{block.text}</p>;
+		  }
+
+		  if (block.type === "image") {
+			const imageUrl = getNewsInlineImageUrl(block);
+
+			if (!imageUrl) return null;
+
+			return (
+			  <figure key={index} className="news-inline-image-wrap">
+				<img
+				  className="news-inline-image"
+				  src={imageUrl}
+				  alt={block.alt || selectedArticle.title}
+				  loading="lazy"
+				/>
+
+				{block.caption && (
+				  <figcaption>{block.caption}</figcaption>
+				)}
+			  </figure>
+			);
+		  }
+
+		  return null;
+		})}
+        </article>
+      </main>
+    );
+  }
+
+  return (
+    <main className="news-page">
+      <section className="news-hero">
+        <div>
+          <div className="news-eyebrow">TCGBuilder.net News</div>
+          <h2>Latest updates, articles, and development notes</h2>
+          <p>
+            Check here for news, updates, etc.
+          </p>
+        </div>
+      </section>
+
+      {featuredArticle && (
+        <section className="news-featured-card">
+          <div className="news-article-meta">
+            {formatArticleDate(featuredArticle.date)}
+            {featuredArticle.author ? ` • ${featuredArticle.author}` : ""}
+          </div>
+
+          <h3>{featuredArticle.title}</h3>
+          <p>{featuredArticle.excerpt}</p>
+
+          <button
+            className="news-read-button"
+            type="button"
+            onClick={() => setSelectedSlug(featuredArticle.slug)}
+          >
+            Read Article
+          </button>
+        </section>
+      )}
+
+      <section className="news-article-grid" aria-label="News articles">
+        {remainingArticles.map((article) => (
+          <article key={article.slug} className="news-card">
+            <div className="news-article-meta">
+              {formatArticleDate(article.date)}
+              {article.author ? ` • ${article.author}` : ""}
+            </div>
+
+            <h3>{article.title}</h3>
+            <p>{article.excerpt}</p>
+
+            {article.tags?.length > 0 && (
+              <div className="news-tag-row">
+                {article.tags.map((tag) => (
+                  <span key={tag} className="news-tag">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
+
+            <button
+              className="news-card-link"
+              type="button"
+              onClick={() => setSelectedSlug(article.slug)}
+            >
+              Read more →
+            </button>
+          </article>
+        ))}
+      </section>
+    </main>
+  );
+}
+
+
 function App() {
   const headerRef = useRef(null);
   const { isMobileLayout, toggleLayout, hasUserOverride } = useLayoutMode();
@@ -120,6 +288,11 @@ function App() {
   const [groupBy, setGroupBy] = useState("Type");
   const [octgnOverrides, setOctgnOverrides] = useState({});
 
+const [activePage, setActivePage] = useState(() => {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("page") === "news" ? "news" : "builder";
+});
+
   // Apply mode class and persist choice
   useEffect(() => {
     if (isLightMode) {
@@ -129,6 +302,30 @@ function App() {
     }
     localStorage.setItem("lightMode", isLightMode);
   }, [isLightMode]);
+
+useEffect(() => {
+  const handlePopState = () => {
+    const params = new URLSearchParams(window.location.search);
+    setActivePage(params.get("page") === "news" ? "news" : "builder");
+  };
+
+  window.addEventListener("popstate", handlePopState);
+  return () => window.removeEventListener("popstate", handlePopState);
+}, []);
+
+const goToNews = () => {
+  const url = new URL(window.location);
+  url.searchParams.set("page", "news");
+  window.history.pushState({}, "", url.toString());
+  setActivePage("news");
+};
+
+const goToBuilder = () => {
+  const url = new URL(window.location);
+  url.searchParams.delete("page");
+  window.history.pushState({}, "", url.toString());
+  setActivePage("builder");
+};
 
   // Expose header height as a CSS variable so mobile sticky elements can offset correctly.
   useEffect(() => {
@@ -273,6 +470,7 @@ useEffect(() => {
     const url = new URL(window.location);
     url.searchParams.delete("game");
     url.searchParams.delete("deck");
+	url.searchParams.delete("page");
     window.history.replaceState({}, "", url.toString());
   };
 
@@ -290,28 +488,43 @@ useEffect(() => {
   }}
 >
   {/* Left side: Back button (pinned to left) */}
-  <div style={{ position: "absolute", left: "1rem" }}>
-    {selectedGame && (
+<div style={{ position: "absolute", left: "1rem" }}>
+  {activePage === "news" ? (
+    <button className="back-button" onClick={goToBuilder}>
+      Builder
+    </button>
+  ) : (
+    selectedGame && (
       <button className="back-button" onClick={handleBackToSelect}>
         Back
       </button>
-    )}
-  </div>
+    )
+  )}
+</div>
 
   {/* Center: Title (no absolute positioning now) */}
+ <div className="app-brand-row">
   <h1
+    className="app-title"
     style={{
-      margin: 0,
-      whiteSpace: "nowrap",
-      overflow: "hidden",
-      textOverflow: "ellipsis",
-      // optional mobile tweak if you want it a bit smaller:
       fontSize: isMobileLayout ? "1.4rem" : undefined,
-      maxWidth: isMobileLayout ? "60%" : undefined,
+      maxWidth: isMobileLayout ? "52vw" : undefined,
     }}
   >
     TCGBuilder.net
   </h1>
+
+  <button
+    className={`news-nav-button${activePage === "news" ? " active" : ""}`}
+    type="button"
+    onClick={goToNews}
+    aria-current={activePage === "news" ? "page" : undefined}
+    title="News"
+  >
+    <span aria-hidden="true" className="news-nav-icon">📰</span>
+    <span>News</span>
+  </button>
+</div>
 
   {/* Right side: toggles (pinned to right, close together) */}
   <div
@@ -389,7 +602,9 @@ useEffect(() => {
 </header>
 
 
-      {!selectedGame && (
+{activePage === "news" && <NewsPage />}
+
+      {activePage !== "news" && !selectedGame && (
         <div className="game-grid">
           {games.map((game) => (
             <div key={game} className="game-card" onClick={() => handleGameClick(game)}>
@@ -403,7 +618,7 @@ useEffect(() => {
         </div>
       )}
 
-      {selectedGame && (!gameData.cards || gameData.cards.length === 0) && (
+      {activePage !== "news" && selectedGame && (!gameData.cards || gameData.cards.length === 0) && (
    <div className="loading-container" style={{ display: "grid", placeItems: "center", minHeight: 200 }}>
      {loadError ? (
        <div style={{ color: "crimson", textAlign: "center" }}>{loadError}</div>
@@ -413,7 +628,7 @@ useEffect(() => {
    </div>
  )}
 
-      {selectedGame && gameData.settings && gameData.cards.length > 0 && (
+      {activePage !== "news" && selectedGame && gameData.settings && gameData.cards.length > 0 && (
         isMobileLayout ? (
           <MobileDeckBuilder
             game={selectedGame}
