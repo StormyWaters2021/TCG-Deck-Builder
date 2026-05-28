@@ -180,5 +180,31 @@
     "index": "3e",
     "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
     "Tag": ""
+  },
+  {
+    "name": "Black Android Visage",
+    "Style": "Black",
+    "Card Number": "C3",
+    "Type": "Event",
+    "Endurance": "",
+    "Text": "(Villains only.) POWER: Banish the top 5 cards of your opponent's discard pile. If there are no cards in your opponent's discard pile, discard a card from your opponent's hand. [ANDROID]: If your opponent has not discarded a card this action, discard a card from your opponent's hand. (Rejuvenate after use.)",
+    "Traits": "",
+    "PUR": "",
+    "Power Rating": "",
+    "Rarity": "Common",
+    "Level": "",
+    "Orientation": "Vertical",
+    "Oracle Text": "",
+    "alt1_name": "",
+    "alt1_number": "",
+    "alt1_rarity": "",
+    "alt1_orientation": "",
+    "Set": "Set 19 Judgement",
+    "image": "c04651fc-7560-4d03-be1e-1eb0132d5c54.png",
+    "Main Personality": "",
+    "id": "c04651fc-7560-4d03-be1e-1eb0132d5c54",
+    "index": "3f",
+    "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
+    "Tag": ""
   }
 ]
