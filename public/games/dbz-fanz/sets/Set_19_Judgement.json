@@ -206,5 +206,31 @@
     "index": "3f",
     "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
     "Tag": ""
+  },  
+  {
+    "name": "Namekian Ward",
+    "Style": "Namekian",
+    "Card Number": "C16",
+    "Type": "Physical Combat",
+    "Endurance": "",
+    "Text": "(If this card is banished by one of your effects, search your discard pile for a Drill and place it into play.) [DEFENSE]: Stops a physical attack. Lower your opponent's anger 1.",
+    "Traits": "",
+    "PUR": "",
+    "Power Rating": "",
+    "Rarity": "Common",
+    "Level": "",
+    "Orientation": "Vertical",
+    "Oracle Text": "",
+    "alt1_name": "",
+    "alt1_number": "",
+    "alt1_rarity": "",
+    "alt1_orientation": "",
+    "Set": "Set 19 Judgement",
+    "image": "172e4da6-479b-47e5-86a0-b888f277a95c.png",
+    "Main Personality": "",
+    "id": "172e4da6-479b-47e5-86a0-b888f277a95c",
+    "index": "3g",
+    "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
+    "Tag": ""
   }
 ]
