@@ -938,7 +938,7 @@
     "Rarity": "Rare",
     "Type": "Sensei",
     "Limit": "1",
-    "Text": "You cannot win by the Most Powerful Personality Victory. Your opponent cannot do the following: use card effects to lower your Main Personality to lower personality levels, keep you from raising your anger, lower your anger, modify an increase of your anger. Your opponent's \"Winter Countryside\" does not effect your anger.",
+    "Text": "You cannot win by the Most Powerful Personality Victory. Your opponent cannot do the following: use card effects to lower your Main Personality to lower personality levels, keep you from raising your anger, lower your anger, modify an increase of your anger. Your opponent's \"Winter Countryside\" does not affect your anger.",
     "Set": "11 - Kid Buu Saga",
     "index": "Kw",
     "Designer": "Official",
@@ -2485,7 +2485,7 @@
   },
   {
     "id": "227efbd4-5ca9-4b5a-ac3e-afc41676f46e",
-    "name": "Trunks, the Weaponmaster",
+    "name": "Trunks, the Weaponsmaster",
     "Card Level": "1",
     "Card Number": "3",
     "Style": "Freestyle",
