@@ -9,8 +9,8 @@
     "Limit per Deck": "3",
     "Text": "Search your discard pile for an Ally and place it in play at 2 power stages above 0.",
     "Set": "05 - Cell Saga",
-    "index": "Cx",
-    "set_id": "Cell Saga",
+    "index": "1j",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "b6e0f246-2916-4e70-aecc-4c2d4500e429.jpg"
   },
   {
@@ -24,8 +24,8 @@
     "Text": "When you enter Combat as the attacker, your opponent draws 1 less card.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "ES",
-    "set_id": "Cell Saga",
+    "index": "3E",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "1f7e0b00-95e0-4ccf-8656-b621eedacb21.jpg"
   },
   {
@@ -38,8 +38,8 @@
     "Limit per Deck": "4",
     "Text": "Physical attack or remove all of the Combat cards in your opponent's discard pile from the game.",
     "Set": "05 - Cell Saga",
-    "index": "DK",
-    "set_id": "Cell Saga",
+    "index": "26",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "3aaef0aa-bb05-4d54-9237-ac87aeeb09c5.jpg"
   },
   {
@@ -52,8 +52,8 @@
     "Limit per Deck": "4",
     "Text": "Physical attack doing +1 power stage of damage for every Ally you have in play.",
     "Set": "05 - Cell Saga",
-    "index": "E2",
-    "set_id": "Cell Saga",
+    "index": "2o",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "ac04bcd9-bad8-4676-ab92-7511d1a6db7a.jpg"
   },
   {
@@ -66,8 +66,8 @@
     "Limit per Deck": "4",
     "Text": "Physical attack doing 7 power stages of damage. Discard 2 life cards from the top of your Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "E4",
-    "set_id": "Cell Saga",
+    "index": "2q",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "326c3f7b-a128-48b9-9093-a478e1c18805.jpg"
   },
   {
@@ -81,8 +81,8 @@
     "Text": "Constant Combat Power: All successful physical attacks performed against you do a maximum of 3 power stages of damage. All successful energy attacks performed against you do a maximum of 3 life cards of damage.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "EU",
-    "set_id": "Cell Saga",
+    "index": "3G",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "be188d6e-53b3-4d16-abb4-4b672163321e.jpg"
   },
   {
@@ -96,8 +96,8 @@
     "Text": "When entering Combat as the attacker, your opponent loses 3 power stages.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "Em",
-    "set_id": "Cell Saga",
+    "index": "3Y",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "bdf9ea0a-2d08-4e93-8ebf-2d5af1f4713b.jpg"
   },
   {
@@ -111,8 +111,8 @@
     "Text": "Constant Combat Power: Defense Shield: Stops the first unstopped energy attack. Gain 3 power stages after every successful attack you perform.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "ET",
-    "set_id": "Cell Saga",
+    "index": "3F",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "5e65025e-506b-45b9-a067-93d9322514a1.jpg"
   },
   {
@@ -126,8 +126,8 @@
     "Text": "Physical attack doing +3 power stages of damage. Search your Life Deck for a copy of \"The Car\" and place it in play.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "EV",
-    "set_id": "Cell Saga",
+    "index": "3H",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "08741c3b-cb9d-45ce-a39c-ca4433ad5ecc.jpg"
   },
   {
@@ -141,8 +141,8 @@
     "Text": "Draw a card. If \"The Car\" is in play, draw another card.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "En",
-    "set_id": "Cell Saga",
+    "index": "3Z",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "b1ef550c-1185-458b-ad64-b0e97efdcd58.jpg"
   },
   {
@@ -156,8 +156,8 @@
     "Text": "Energy attack doing 6 life cards of damage. If \"The Car\" is in play, this attack also does 3 power stages of damage.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "EX",
-    "set_id": "Cell Saga",
+    "index": "3J",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "8f108803-7704-4ee7-bc17-970c12ce1f7e.jpg"
   },
   {
@@ -171,8 +171,8 @@
     "Text": "Physical attack doing +4 power stages of damage. If \"The Car\" is in play, this attack does +6 power stages of damage instead.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "EW",
-    "set_id": "Cell Saga",
+    "index": "3I",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "9b8f0981-8040-49b8-85e0-1d282594f796.jpg"
   },
   {
@@ -186,8 +186,8 @@
     "Text": "Physical attack doing +6 power stages of damage. Lower your opponent's anger 3 levels. If \"The Car\" is in play, this attack also does 5 life cards of damage.",
     "Card Level": "4",
     "Set": "05 - Cell Saga",
-    "index": "Dl",
-    "set_id": "Cell Saga",
+    "index": "2X",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "dc7e7491-d25d-4032-b850-7a04be44948f.jpg"
   },
   {
@@ -201,8 +201,8 @@
     "Text": "When entering Combat as the attacker, Change the Future, then draw a card.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "EY",
-    "set_id": "Cell Saga",
+    "index": "3K",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "0e0825aa-a5e5-4d01-a314-9ea972560124.jpg"
   },
   {
@@ -216,8 +216,8 @@
     "Text": "Energy attack doing 7 life cards of damage. If \"The Car\" is in play, this attack also does 3 power stages of damage.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "Ea",
-    "set_id": "Cell Saga",
+    "index": "3M",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "0cf49b10-958d-4484-8de9-bf3aea09f33f.jpg"
   },
   {
@@ -231,8 +231,8 @@
     "Text": "Constant Combat Power: No modifiers are added to physical attacks performed against Android 18.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "EZ",
-    "set_id": "Cell Saga",
+    "index": "3L",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "3be4d666-3ed5-4541-a206-e60e6aa0c15e.jpg"
   },
   {
@@ -246,8 +246,8 @@
     "Text": "Energy attack doing 6 life cards of damage. If \"The Car\" is in play this attack also does +4 power stages of damage.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "Eo",
-    "set_id": "Cell Saga",
+    "index": "3a",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "eed3f813-df23-4c7c-a639-7fdbae637067.jpg"
   },
   {
@@ -261,8 +261,8 @@
     "Text": "Stops an energy attack. If you declared an Orange Tokui-Waza, gain 3 power stages.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "D4",
-    "set_id": "Cell Saga",
+    "index": "1q",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "cce08ce4-3071-4e37-8915-d4e82caff54c.jpg"
   },
   {
@@ -276,8 +276,8 @@
     "Text": "Constant Combat Power: Defense Shield: Stops the first unstopped physical attack performed against you. When entering combat, if you declared an Orange Tokui-Waza gain 5 power stages.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "D9",
-    "set_id": "Cell Saga",
+    "index": "1v",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "c781f5b6-3833-4d29-8fe7-6c85ad481124.jpg"
   },
   {
@@ -291,8 +291,8 @@
     "Text": "Energy attack. Costs 0 power stages to perform. Draw a card. If you declared an Orange Tokui-Waza, draw another card.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "DC",
-    "set_id": "Cell Saga",
+    "index": "1y",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "5e3e9c61-2568-415f-a9a9-eef768ef97a3.jpg"
   },
   {
@@ -306,8 +306,8 @@
     "Text": "Energy attack doing +1 life card of damage for every Android personality card in play.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "Eb",
-    "set_id": "Cell Saga",
+    "index": "3N",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "44a018d5-e109-452c-8d74-3ccdf123979e.jpg"
   },
   {
@@ -321,8 +321,8 @@
     "Text": "Energy attack doing 8 life cards of damage. Costs 0 power stages to perform.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "Ep",
-    "set_id": "Cell Saga",
+    "index": "3b",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "3b667c64-76bf-47e3-baf9-8cf6f70b49a8.jpg"
   },
   {
@@ -336,8 +336,8 @@
     "Text": "Constant Combat Power: All of your attacks do +1 life card of damage for every personality in play with the word \"Android\" in the card title.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "Ec",
-    "set_id": "Cell Saga",
+    "index": "3O",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "7d7c3076-c0ea-4d7e-aa98-353a53c5c49d.jpg"
   },
   {
@@ -351,8 +351,8 @@
     "Text": "Physical attack doing +3 life cards of damage for every personality in play with the word \"Android\" in the title. This power may be used twice per Combat.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "Ed",
-    "set_id": "Cell Saga",
+    "index": "3P",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "43def1bd-01f1-4403-b125-2dcc02ce5e7c.jpg"
   },
   {
@@ -365,8 +365,8 @@
     "Limit per Deck": "3",
     "Text": "Stops an energy attack. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "CR",
-    "set_id": "Cell Saga",
+    "index": "1D",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "1b2264e1-9f3d-4201-acea-1ea9089d3da4.jpg"
   },
   {
@@ -379,8 +379,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 5 life cards of damage. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Bk",
-    "set_id": "Cell Saga",
+    "index": "W",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "3f99a153-83f6-4660-83c4-bb3430a1d879.jpg"
   },
   {
@@ -393,8 +393,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "C2",
-    "set_id": "Cell Saga",
+    "index": "o",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "916271f7-61d6-427f-a742-f0dc1ad998ee.jpg"
   },
   {
@@ -407,8 +407,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing 3 life cards of damage. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "CE",
-    "set_id": "Cell Saga",
+    "index": "10",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2a7b803b-8588-484d-98cd-7b0892b52de9.jpg"
   },
   {
@@ -421,8 +421,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing 4 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "Bv",
-    "set_id": "Cell Saga",
+    "index": "h",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "c4c00aa1-c03e-42a6-9584-cc198cd2887b.jpg"
   },
   {
@@ -435,8 +435,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Bw",
-    "set_id": "Cell Saga",
+    "index": "i",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2a0f28d2-bc29-491d-aaa3-1b4d6cde3b8e.jpg"
   },
   {
@@ -449,8 +449,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Ce",
-    "set_id": "Cell Saga",
+    "index": "1Q",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "9744bd70-9df7-4237-a8b0-2e42d2767f63.jpg"
   },
   {
@@ -463,8 +463,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 2 life cards and 2 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "C6",
-    "set_id": "Cell Saga",
+    "index": "s",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "675119fe-230f-4d08-a86c-a762ff7fcdac.jpg"
   },
   {
@@ -477,8 +477,8 @@
     "Limit per Deck": "1",
     "Text": "Once per Combat, in place of an attack, you may discard a card from your hand. If that card is a Black Style card, discard a card at random from your opponent's hand. If your discard is not a Black Style card, your opponent chooses and discards a card.",
     "Set": "05 - Cell Saga",
-    "index": "Dh",
-    "set_id": "Cell Saga",
+    "index": "2T",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "1dca96a4-b7d8-41cb-a67a-88fd31ddf5fd.jpg"
   },
   {
@@ -491,8 +491,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack. Lower your opponent's anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Bz",
-    "set_id": "Cell Saga",
+    "index": "l",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "9a598f50-0cf7-456c-b524-5f50f7461d64.jpg"
   },
   {
@@ -505,8 +505,8 @@
     "Limit per Deck": "3",
     "Text": "All attacks performed by your Allies do +2 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "DV",
-    "set_id": "Cell Saga",
+    "index": "2H",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "1eb6e5cb-2847-467b-b28f-7a6f65650d85.jpg"
   },
   {
@@ -519,8 +519,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Lower your opponent's anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Bt",
-    "set_id": "Cell Saga",
+    "index": "f",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "4b416c07-30e7-464a-9ed0-edac57b6799b.jpg"
   },
   {
@@ -533,8 +533,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack. Your opponent cannot take life cards or power stages of damage from this attack. You may use this Drill twice per Combat.",
     "Set": "05 - Cell Saga",
-    "index": "Dw",
-    "set_id": "Cell Saga",
+    "index": "2i",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "8df63f54-7776-4803-8983-d1410cb95812.jpg"
   },
   {
@@ -547,8 +547,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing 1 life card of damage. If successful, and the top card of your opponent's discard pile is not a physical attack, your opponent discards the top 5 cards of his Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "Dv",
-    "set_id": "Cell Saga",
+    "index": "2h",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "00b1098e-d694-42da-bb9d-3bb2181aa770.jpg"
   },
   {
@@ -561,8 +561,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Lower your opponent's anger 1 level. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "CN",
-    "set_id": "Cell Saga",
+    "index": "19",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "5e36ca8f-b8ec-4351-97b9-214ac4825a88.jpg"
   },
   {
@@ -575,8 +575,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 power stages of damage. Lower your opponent's anger 2 levels.",
     "Set": "05 - Cell Saga",
-    "index": "Bf",
-    "set_id": "Cell Saga",
+    "index": "R",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "7ab163f3-c5b2-422b-ae41-c557298a0d52.jpg"
   },
   {
@@ -589,8 +589,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +4 power stages of damage. Lower your opponent's anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Bl",
-    "set_id": "Cell Saga",
+    "index": "X",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "73569389-7ff7-4fd2-8c04-3be35ef80e15.jpg"
   },
   {
@@ -603,8 +603,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Place the bottom card of your discard pile on the bottom of your Life Deck. Lower your opponent's anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Cf",
-    "set_id": "Cell Saga",
+    "index": "1R",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "3d608ad4-f37a-4c05-90f6-1e472cef5dfd.jpg"
   },
   {
@@ -617,8 +617,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +2 power stages of damage. Lower your opponent's anger to 0. Your opponent cannot gain any anger until the beginning of his next turn.",
     "Set": "05 - Cell Saga",
-    "index": "E8",
-    "set_id": "Cell Saga",
+    "index": "2u",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "b902ea2c-da63-4556-a756-db415c4d0780.jpg"
   },
   {
@@ -631,8 +631,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +2 power stages of damage. Costs 2 power stages to perform. If successful, you opponent also discards X life cards. X = 5 minus his anger level.",
     "Set": "05 - Cell Saga",
-    "index": "Dx",
-    "set_id": "Cell Saga",
+    "index": "2j",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "63e24f01-95b3-4ba8-bb26-1c9caddf9452.jpg"
   },
   {
@@ -645,8 +645,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Lower your opponent's anger 2 levels.",
     "Set": "05 - Cell Saga",
-    "index": "CW",
-    "set_id": "Cell Saga",
+    "index": "1I",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "aa7d9c29-425b-4906-a6d6-3048a75efb40.jpg"
   },
   {
@@ -659,8 +659,8 @@
     "Limit per Deck": "3",
     "Text": "Stops an energy attack. Lower your opponent's anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Bd",
-    "set_id": "Cell Saga",
+    "index": "P",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "1a119805-80c1-47ba-b2fe-4941c848a8cc.jpg"
   },
   {
@@ -673,8 +673,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +5 power stages of damage. If successful, lower your opponent's anger 2 levels.",
     "Set": "05 - Cell Saga",
-    "index": "DI",
-    "set_id": "Cell Saga",
+    "index": "24",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "f7faefef-552f-48e1-b89f-e6a1ece29dce.jpg"
   },
   {
@@ -687,8 +687,8 @@
     "Limit per Deck": "1",
     "Text": "Once per Combat, you may discard a card from your hand to stop a physical or energy attack. If that card is a Blue Style card, lower your opponent's anger 2 levels.",
     "Set": "05 - Cell Saga",
-    "index": "De",
-    "set_id": "Cell Saga",
+    "index": "2Q",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "39c4940b-6567-4ac2-8fad-07f360910058.jpg"
   },
   {
@@ -701,8 +701,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Lower your opponent's anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "C1",
-    "set_id": "Cell Saga",
+    "index": "n",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "8c3a9c38-abf1-471d-84e7-37840db8210d.jpg"
   },
   {
@@ -715,8 +715,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Discard one of your opponent's Non-Combat cards.",
     "Set": "05 - Cell Saga",
-    "index": "Cg",
-    "set_id": "Cell Saga",
+    "index": "1S",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "0051b7ba-5297-42a0-872b-7bf44263f4ad.jpg"
   },
   {
@@ -729,8 +729,8 @@
     "Limit per Deck": "3",
     "Text": "Set all personalities with the word \"Android\" in their card title to 0 power stages. They may not gain power stages until the beginning of your next turn.",
     "Set": "05 - Cell Saga",
-    "index": "Dg",
-    "set_id": "Cell Saga",
+    "index": "2S",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "76a2eec5-3955-4d6a-ad90-0fe61258f34e.jpg"
   },
   {
@@ -744,8 +744,8 @@
     "Text": "Energy attack. At the end of Combat, search your Life Deck for an Ally and place it in play at 6 power stages above 0.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "DN",
-    "set_id": "Cell Saga",
+    "index": "29",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "35b34260-b416-4d43-96aa-cc61abe207ce.jpg"
   },
   {
@@ -758,8 +758,8 @@
     "Limit per Deck": "3",
     "Text": "Heroes only. Raise any personality in play to its highest power stage.",
     "Set": "05 - Cell Saga",
-    "index": "Cm",
-    "set_id": "Cell Saga",
+    "index": "1Y",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "e2f29c00-6f0f-43f2-8d89-914def8eec55.jpg"
   },
   {
@@ -772,8 +772,8 @@
     "Limit per Deck": "4",
     "Text": "Cell only. If Android 17 or Android 18 is in play and they are not a Main Personality, remove one of them from the game. Raise Cell to his highest power stage.",
     "Set": "05 - Cell Saga",
-    "index": "Cw",
-    "set_id": "Cell Saga",
+    "index": "1i",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "44fe0a99-f203-4fbb-8c51-834a8832a39a.jpg"
   },
   {
@@ -786,8 +786,8 @@
     "Limit per Deck": "4",
     "Text": "All attacks cost +1 power stage to perform. All successful attacks do +2 life cards of damage.",
     "Set": "05 - Cell Saga",
-    "index": "Es",
-    "set_id": "Cell Saga",
+    "index": "3e",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "a28c1dff-944e-452b-84cc-b5576b014dd3.jpg"
   },
   {
@@ -800,8 +800,8 @@
     "Limit per Deck": "4",
     "Text": "Whenever your opponent places a Battleground in play, he discards the top 3 cards from his Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "Ey",
-    "set_id": "Cell Saga",
+    "index": "3k",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "67311512-481f-47af-b66a-0f000cbf5c43.jpg"
   },
   {
@@ -814,8 +814,8 @@
     "Limit per Deck": "4",
     "Text": "Use when entering Combat, all of your opponent's personalities lose 2 power stages. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "Er",
-    "set_id": "Cell Saga",
+    "index": "3d",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2a9e436e-506d-4bb9-85db-63d66611683d.jpg"
   },
   {
@@ -828,8 +828,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack Doing 5 life cards of damage. If your opponent has 10 or less life cards in his Life Deck, this attack does 10 life cards of damage instead.",
     "Set": "05 - Cell Saga",
-    "index": "Et",
-    "set_id": "Cell Saga",
+    "index": "3f",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "aa48a8ca-fa8a-439a-a617-226130ceb64c.jpg"
   },
   {
@@ -842,8 +842,8 @@
     "Limit per Deck": "4",
     "Text": "Cell only. Raise your Main Personality to its highest power stage. Lower all of your opponent's Allies to 0 power stages.",
     "Set": "05 - Cell Saga",
-    "index": "Db",
-    "set_id": "Cell Saga",
+    "index": "2N",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "992d18d3-c723-4aa6-bec0-47de208ba9d8.jpg"
   },
   {
@@ -856,8 +856,8 @@
     "Limit per Deck": "2",
     "Text": "Remove all Allies in play from the game. Limit 2 per deck. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "EA",
-    "set_id": "Cell Saga",
+    "index": "2w",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "f8cb926c-d94d-4a41-b687-b1fd95aeb56a.jpg"
   },
   {
@@ -870,8 +870,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack doing 12 life cards of damage. If successful and you don't defeat your opponent, you lose the game. Remove from the game after use. Limit 1 per deck, unless your Main Personality is Cell.",
     "Set": "05 - Cell Saga",
-    "index": "Ex",
-    "set_id": "Cell Saga",
+    "index": "3j",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "9d63f20b-2098-4f37-bd36-438677dc732e.jpg"
   },
   {
@@ -884,8 +884,8 @@
     "Limit per Deck": "4",
     "Text": "Cell Only. For the remainder of Combat, all your attacks performed by Cell do +3 life cards of damage.",
     "Set": "05 - Cell Saga",
-    "index": "Ew",
-    "set_id": "Cell Saga",
+    "index": "3i",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "eb979ac0-a8fb-4b98-ab24-28964f197d61.jpg"
   },
   {
@@ -899,8 +899,8 @@
     "Text": "Physical attack doing 7 life cards of damage. If Android 17 or Android 18 is in play this attack also does 3 power stages of damage.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "Eg",
-    "set_id": "Cell Saga",
+    "index": "3S",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "0df24310-3ffd-44f2-ab71-c43fc886c9e2.jpg"
   },
   {
@@ -914,8 +914,8 @@
     "Text": "Physical attack doing +4 power stages of damage.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "Ee",
-    "set_id": "Cell Saga",
+    "index": "3Q",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "8fd6fe3f-ae43-4d64-9943-4d1cfbc34d5f.jpg"
   },
   {
@@ -929,8 +929,8 @@
     "Text": "When entering Combat, search your Life Deck or a Physical Combat, or Energy Combat card, show it to your opponent, and place it in your hand.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "Ef",
-    "set_id": "Cell Saga",
+    "index": "3R",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "faf996b1-354b-4264-9f46-ec64bc496830.jpg"
   },
   {
@@ -944,8 +944,8 @@
     "Text": "Energy attack doing 9 life cards of damage.",
     "Card Level": "4",
     "Set": "05 - Cell Saga",
-    "index": "Dp",
-    "set_id": "Cell Saga",
+    "index": "2b",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "d4e02884-c5e4-47e0-b555-b3995e6f0ff4.jpg"
   },
   {
@@ -959,8 +959,8 @@
     "Text": "Energy attack doing 12 life cards of damage. Costs 0 power stages to perform.",
     "Card Level": "5",
     "Set": "05 - Cell Saga",
-    "index": "Do",
-    "set_id": "Cell Saga",
+    "index": "2a",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "3dde015d-9ca9-47da-9727-ee380c663e95.jpg"
   },
   {
@@ -974,8 +974,8 @@
     "Text": "Physical attack doing +5 power stages of damage. If successful, raise your anger 1 level.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "Eq",
-    "set_id": "Cell Saga",
+    "index": "3c",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "c090a33a-ead8-455b-8c67-ddb494401d37.jpg"
   },
   {
@@ -989,8 +989,8 @@
     "Text": "When entering Combat, remove all of your opponent's Non-Combat cards in play from the game.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "DS",
-    "set_id": "Cell Saga",
+    "index": "2E",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "e40d0dfe-e08d-4a8a-99ac-98a9d0a55456.jpg"
   },
   {
@@ -1003,8 +1003,8 @@
     "Limit per Deck": "1",
     "Text": "Raise your Main Personality to its highest power stage. Lower your opponent's anger 3 levels.",
     "Set": "05 - Cell Saga",
-    "index": "CF",
-    "set_id": "Cell Saga",
+    "index": "11",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "0c5b60f4-97a2-4624-a689-18c50dd3b7b2.jpg"
   },
   {
@@ -1017,8 +1017,8 @@
     "Limit per Deck": "1",
     "Text": "Raise your Main Personality to its highest power stage. You may shuffle a Dragon Ball in play back into the owner's Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "CG",
-    "set_id": "Cell Saga",
+    "index": "12",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2e33a3dc-368e-47c4-83cb-ecfc6ede0bff.jpg"
   },
   {
@@ -1031,8 +1031,8 @@
     "Limit per Deck": "1",
     "Text": "Raise your Main Personality to its highest power stage. Draw the top 3 cards from your discard pile.",
     "Set": "05 - Cell Saga",
-    "index": "Cn",
-    "set_id": "Cell Saga",
+    "index": "1Z",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "7c8bf4f8-0279-4ec5-ac21-d1cc3cca971a.jpg"
   },
   {
@@ -1045,8 +1045,8 @@
     "Limit per Deck": "1",
     "Text": "Raise your Main Personality to its highest power stage. Discard up to 3 Allies in play.",
     "Set": "05 - Cell Saga",
-    "index": "Co",
-    "set_id": "Cell Saga",
+    "index": "1a",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "e0769cff-8230-4293-a829-c67af3f5a3c5.jpg"
   },
   {
@@ -1059,8 +1059,8 @@
     "Limit per Deck": "1",
     "Text": "Raise your Main Personality to its highest power stage. Pick up to 5 cards from your discard pile and shuffle them into your Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "Cp",
-    "set_id": "Cell Saga",
+    "index": "1b",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "9386be89-9524-4f44-aad2-659f42a3797d.jpg"
   },
   {
@@ -1073,8 +1073,8 @@
     "Limit per Deck": "1",
     "Text": "Raise your Main Personality to its highest power stage. Set all of your opponent's personalities to 4 power stages above 0.",
     "Set": "05 - Cell Saga",
-    "index": "DZ",
-    "set_id": "Cell Saga",
+    "index": "2L",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "eb2dbe3e-c952-4c93-8167-67a425561c6b.jpg"
   },
   {
@@ -1087,8 +1087,8 @@
     "Limit per Deck": "1",
     "Text": "Raise your Main Personality to its highest power stage. Choose 3 cards from your discard pile and place them on top of your Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "Da",
-    "set_id": "Cell Saga",
+    "index": "2M",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "89e05969-87d5-462e-9093-ba69ed005686.jpg"
   },
   {
@@ -1101,8 +1101,8 @@
     "Limit per Deck": "3",
     "Text": "Your opponent loses 4 power stags to a minimum of 0.",
     "Set": "05 - Cell Saga",
-    "index": "Cq",
-    "set_id": "Cell Saga",
+    "index": "1c",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "fb80070c-c3b6-4160-ac7d-0c6dcca10106.jpg"
   },
   {
@@ -1115,8 +1115,8 @@
     "Limit per Deck": "3",
     "Text": "Raise any personality in play to its highest power stage. The next energy attack that personality performs this Combat costs 0 power stages to perform.",
     "Set": "05 - Cell Saga",
-    "index": "DT",
-    "set_id": "Cell Saga",
+    "index": "2F",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "43fdac4f-6518-4f30-b8ac-4eebf6c2f9ed.jpg"
   },
   {
@@ -1129,8 +1129,8 @@
     "Limit per Deck": "4",
     "Text": "The next physical attack you perform this Combat does +4 life cards of damage.",
     "Set": "05 - Cell Saga",
-    "index": "Cu",
-    "set_id": "Cell Saga",
+    "index": "1g",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "0b51bf68-af01-442a-8e48-5e11b10547d0.jpg"
   },
   {
@@ -1144,8 +1144,8 @@
     "Text": "Energy attack doing 4 life cards and 4 power stages of damage. Costs 0 power stages to perform.",
     "Card Level": "4",
     "Set": "05 - Cell Saga",
-    "index": "Dq",
-    "set_id": "Cell Saga",
+    "index": "2c",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "96f24596-9824-4412-8261-22fa75d74757.jpg"
   },
   {
@@ -1159,8 +1159,8 @@
     "Text": "Physical attack doing +5 power stages of damage. You may remove a Non-Combat card in play from the game.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "Ei",
-    "set_id": "Cell Saga",
+    "index": "3U",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "95242d12-ea56-4414-a395-5f11df8c1502.jpg"
   },
   {
@@ -1174,8 +1174,8 @@
     "Text": "Power: Draw a Card, Use this ability only if you entered combat as the defender.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "EG",
-    "set_id": "Cell Saga",
+    "index": "32",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "4fb357fc-1661-442f-bc7d-6820cb0d4a4c.jpg"
   },
   {
@@ -1189,8 +1189,8 @@
     "Text": "Physical attack doing +7 power stages of damage.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "EI",
-    "set_id": "Cell Saga",
+    "index": "34",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "aac9673d-b263-4f76-808b-f5bb46d964d1.jpg"
   },
   {
@@ -1204,8 +1204,8 @@
     "Text": "When entering Combat, search your Life Deck or a Physical Combat, or Energy Combat card, show it to your opponent, and place it in your hand.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "EH",
-    "set_id": "Cell Saga",
+    "index": "33",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "d617e3ae-f1b0-469d-bd04-8b8b461d1384.jpg"
   },
   {
@@ -1219,8 +1219,8 @@
     "Text": "Physical attack doing 5 life cards of damage. This power may be used twice per Combat.",
     "Card Level": "5",
     "Set": "05 - Cell Saga",
-    "index": "Dm",
-    "set_id": "Cell Saga",
+    "index": "2Y",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "509b8d39-a004-495d-b338-bac225b6fbff.jpg"
   },
   {
@@ -1234,8 +1234,8 @@
     "Text": "Physical attack doing 5 power stages and 3 life cards of damage.",
     "Card Level": "4",
     "Set": "05 - Cell Saga",
-    "index": "Dn",
-    "set_id": "Cell Saga",
+    "index": "2Z",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "c6136a38-c732-473c-ba26-bdea68f3972a.jpg"
   },
   {
@@ -1249,8 +1249,8 @@
     "Text": "When entering Combat, draw a card and show it to your opponent. If it is a Physical or Energy Combat card, your opponent discards 3 cards from the top of his Life Deck.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "Eh",
-    "set_id": "Cell Saga",
+    "index": "3T",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "9fd7194d-325a-472c-9bff-646f7dc1526e.jpg"
   },
   {
@@ -1264,8 +1264,8 @@
     "Text": "Physical attack doing +5 power stages or damage and 5 life cards of damage.",
     "Card Level": "5",
     "Set": "05 - Cell Saga",
-    "index": "EC",
-    "set_id": "Cell Saga",
+    "index": "2y",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "7e967b38-4f71-4cc5-8cb5-60173f16fc65.jpg"
   },
   {
@@ -1279,8 +1279,8 @@
     "Text": "When entering Combat, draw a card. If that card is a Goku named card, and if Chi-Chi and Gohan are in play, draw another card.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "ED",
-    "set_id": "Cell Saga",
+    "index": "2z",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "9a97084c-ecde-41c6-b30b-7ca1024410de.jpg"
   },
   {
@@ -1294,8 +1294,8 @@
     "Text": "Physical attack doing +3 power stages of damage and 3 life cards of damage. Lower your opponent's anger 1 level.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "EF",
-    "set_id": "Cell Saga",
+    "index": "31",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "03b66f91-2cbe-4796-b12e-7002a9c47988.jpg"
   },
   {
@@ -1309,8 +1309,8 @@
     "Text": "Lower your opponent's anger 1 level. Draw the bottom card from your discard pile.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "EE",
-    "set_id": "Cell Saga",
+    "index": "30",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "f20b9164-75e0-46c3-9901-61b8128b8a7b.jpg"
   },
   {
@@ -1323,8 +1323,8 @@
     "Limit per Deck": "3",
     "Text": "All of your physical attacks do +2 power stages of damage for the remainder of Combat.",
     "Set": "05 - Cell Saga",
-    "index": "Cv",
-    "set_id": "Cell Saga",
+    "index": "1h",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "e87e337f-9869-4b35-ad75-3a4159ffdf97.jpg"
   },
   {
@@ -1337,8 +1337,8 @@
     "Limit per Deck": "3",
     "Text": "Gain 5 power stages. Choose 2 cards from your discard pile and shuffle them into your Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "F0",
-    "set_id": "Cell Saga",
+    "index": "3m",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "12dca61e-b1d5-4726-9b07-93e6a66be61f.jpg"
   },
   {
@@ -1351,8 +1351,8 @@
     "Limit per Deck": "3",
     "Text": "All attacks performed by Allies do +2 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "Ev",
-    "set_id": "Cell Saga",
+    "index": "3h",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "bd94c72f-2aa9-48c4-af6f-c49f2bf2e07a.jpg"
   },
   {
@@ -1365,8 +1365,8 @@
     "Limit per Deck": "3",
     "Text": "Look at your opponent's hand. If your opponent's Main Personality has \"Android\" in the card title, choose and discard a card from his hand.",
     "Set": "05 - Cell Saga",
-    "index": "Ci",
-    "set_id": "Cell Saga",
+    "index": "1U",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "f8513736-10d8-4418-88c1-e265ae1131c9.jpg"
   },
   {
@@ -1379,8 +1379,8 @@
     "Limit per Deck": "1",
     "Text": "Use when needed. When your opponent reaches 5 or more anger, set his anger and power stages to 0. Limit 1 per deck.",
     "Set": "05 - Cell Saga",
-    "index": "F3",
-    "set_id": "Cell Saga",
+    "index": "3p",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "cfcb58b9-4d76-4348-922f-23bd30e9a2dc.jpg"
   },
   {
@@ -1393,8 +1393,8 @@
     "Limit per Deck": "3",
     "Text": "Villains only. Energy attack doing 6 power stages of damage. Costs 1 power stage to perform.",
     "Set": "05 - Cell Saga",
-    "index": "F1",
-    "set_id": "Cell Saga",
+    "index": "3n",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "5da2bc65-f561-4d54-9f0a-b67304a6b3d7.jpg"
   },
   {
@@ -1407,8 +1407,8 @@
     "Limit per Deck": "3",
     "Text": "Heroes only. If your opponent has more power stages than you, raise your Main Personality to his highest power stage and shuffle the bottom card from your discard pile into your Life Deck. Lower your opponent's anger 2 levels.",
     "Set": "05 - Cell Saga",
-    "index": "Ez",
-    "set_id": "Cell Saga",
+    "index": "3l",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "abd96c11-0d94-45d1-9803-5f68b120de37.jpg"
   },
   {
@@ -1421,8 +1421,8 @@
     "Limit per Deck": "4",
     "Text": "Krillin only. Choose up to 2 Allies from your Life Deck and place them in play at their highest power stage. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "DO",
-    "set_id": "Cell Saga",
+    "index": "2A",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2cf816ae-8b89-4548-b462-46ca2eaf73ab.jpg"
   },
   {
@@ -1435,8 +1435,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack. If successful, draw a card.",
     "Set": "05 - Cell Saga",
-    "index": "DY",
-    "set_id": "Cell Saga",
+    "index": "2K",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "6639c3c3-3faf-469c-a3df-586b0e9b17b1.jpg"
   },
   {
@@ -1449,8 +1449,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack. If successful, your opponent may not play Physical Combat cards for the remainder of Combat.",
     "Set": "05 - Cell Saga",
-    "index": "D7",
-    "set_id": "Cell Saga",
+    "index": "1t",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "55357a31-f324-4e53-945a-0fb9e2849bfb.jpg"
   },
   {
@@ -1463,8 +1463,8 @@
     "Limit per Deck": "4",
     "Text": "Look at the top 6 cards of your opponent's Life Deck and put them back on top in any order.",
     "Set": "05 - Cell Saga",
-    "index": "Cl",
-    "set_id": "Cell Saga",
+    "index": "1X",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "e4e14493-d751-4862-aafa-369cdd2a8de2.jpg"
   },
   {
@@ -1478,8 +1478,8 @@
     "Text": "At the end of Combat, you may search your Life Deck for a Non-Combat card and place it in play. If you declared a Blue Tokui-Waza, lower your opponent's anger 2 levels.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "DB",
-    "set_id": "Cell Saga",
+    "index": "1x",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "130547de-484d-4756-935c-2ae31db151ce.jpg"
   },
   {
@@ -1493,8 +1493,8 @@
     "Text": "Energy attack. Costs 0 power stages to perform. If you declared a Blue Tokui-Waza, lower your opponent's anger 2 levels.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "D3",
-    "set_id": "Cell Saga",
+    "index": "1p",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "8f138393-06c2-4db3-8d9a-3428cad8b37a.jpg"
   },
   {
@@ -1508,8 +1508,8 @@
     "Text": "Physical attack doing 3 life cards of damage. If you declared a Blue Tokui-Waza, this attack does +1 power stage of damage for each 1 of your opponent's anger levels below 5.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "DD",
-    "set_id": "Cell Saga",
+    "index": "1z",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "6fd77fce-95a7-4601-81ce-18c14d6147b7.jpg"
   },
   {
@@ -1523,8 +1523,8 @@
     "Text": "Energy attack doing 5 life cards of damage. If successful, power Krillin up to full. If you declared a Blue Tokui-Waza, lower your opponent's anger to 0.",
     "Card Level": "4",
     "Set": "05 - Cell Saga",
-    "index": "Dr",
-    "set_id": "Cell Saga",
+    "index": "2d",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "eaa7f863-7fb6-4512-9fb6-f6efaf66cb83.jpg"
   },
   {
@@ -1537,8 +1537,8 @@
     "Limit per Deck": "3",
     "Text": "Discard any Battleground in play. Search all life decks and discard all Battlegrounds.",
     "Set": "05 - Cell Saga",
-    "index": "F2",
-    "set_id": "Cell Saga",
+    "index": "3o",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "f3914c12-2a0a-478c-a778-9d40ffc0d58b.jpg"
   },
   {
@@ -1551,8 +1551,8 @@
     "Limit per Deck": "3",
     "Text": "Android 18 only. Choose 2 Allies from your Life Deck and put them into play at their highest power stage.",
     "Set": "05 - Cell Saga",
-    "index": "F5",
-    "set_id": "Cell Saga",
+    "index": "3r",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "a777ae49-311c-42d8-a116-c1f73eb27de6.jpg"
   },
   {
@@ -1565,8 +1565,8 @@
     "Limit per Deck": "3",
     "Text": "Allies cannot attack, block, or use their powers for the remainder of Combat. Damage may not be redirected to Allies for the remainder of Combat.",
     "Set": "05 - Cell Saga",
-    "index": "DR",
-    "set_id": "Cell Saga",
+    "index": "2D",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "460892e5-6643-460b-a1ab-1a9bbf43a996.jpg"
   },
   {
@@ -1579,8 +1579,8 @@
     "Limit per Deck": "1",
     "Text": "Use at the end of a turn. If your opponent's Main Personality is at level 4, lower your opponent's Main Personality 1 personality level. Limit 1 per deck.",
     "Set": "05 - Cell Saga",
-    "index": "DW",
-    "set_id": "Cell Saga",
+    "index": "2I",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "d2c68a2e-52f2-41b7-8d5a-279eb2383497.jpg"
   },
   {
@@ -1593,8 +1593,8 @@
     "Limit per Deck": "3",
     "Text": "Namekian Heritage only. Stops a physical attack. You may have up to 8 copies of this card in your Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "Bn",
-    "set_id": "Cell Saga",
+    "index": "Z",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "9e5aae14-a40d-470e-ac56-f29433ed5a25.jpg"
   },
   {
@@ -1607,8 +1607,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +4 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "CK",
-    "set_id": "Cell Saga",
+    "index": "16",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "80cbed6b-08c2-4542-a30e-99c59aa3c563.jpg"
   },
   {
@@ -1621,8 +1621,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing 3 life cards of damage. If Piccolo and Nail are in play, this attack does 8 life cards of damage instead. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "DQ",
-    "set_id": "Cell Saga",
+    "index": "2C",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "b1991246-8346-4c6b-b32d-1bc0597c2066.jpg"
   },
   {
@@ -1635,8 +1635,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 7 life cards of damage. Costs 4 power stages to perform.",
     "Set": "05 - Cell Saga",
-    "index": "Bp",
-    "set_id": "Cell Saga",
+    "index": "b",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "df5c1eda-9832-487a-8c14-4d1f4f42adb8.jpg"
   },
   {
@@ -1649,8 +1649,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 10 life cards of damage. Costs 4 power stages to perform. If successful, remove the top 3 cards of your Life Deck from the game. If this attack is stopped, discard your hand. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "DM",
-    "set_id": "Cell Saga",
+    "index": "28",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "a75a14e2-ccbd-4c93-81ea-c7f8849cba54.jpg"
   },
   {
@@ -1663,8 +1663,8 @@
     "Limit per Deck": "3",
     "Text": "Stops an energy attack. Gain 3 power stages.",
     "Set": "05 - Cell Saga",
-    "index": "CL",
-    "set_id": "Cell Saga",
+    "index": "17",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "670c459a-66f6-4159-8b61-7f2b5b8a8b8e.jpg"
   },
   {
@@ -1677,8 +1677,8 @@
     "Limit per Deck": "3",
     "Text": "Namekian Heritage only. Stops an energy attack. Shuffle the top and bottom cards from your discard pile into your Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "DA",
-    "set_id": "Cell Saga",
+    "index": "1w",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2310e071-468d-4a3a-9904-40d5fe53136b.jpg"
   },
   {
@@ -1691,8 +1691,8 @@
     "Limit per Deck": "1",
     "Text": "Draw the bottom card from your discard pile. If that card is a Namekian Style card, you may search your Life Deck for an Energy Combat card and place it in your hand. Remove from the game after use. Limit 1 per deck.",
     "Set": "05 - Cell Saga",
-    "index": "E5",
-    "set_id": "Cell Saga",
+    "index": "2r",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "e781dbb3-66b8-425e-907c-25881d71bade.jpg"
   },
   {
@@ -1705,8 +1705,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack. Lower your opponent's anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Bj",
-    "set_id": "Cell Saga",
+    "index": "V",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "f36a2efa-f8fb-4766-a5bf-ed414b698d76.jpg"
   },
   {
@@ -1719,8 +1719,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Gain 3 power stages.",
     "Set": "05 - Cell Saga",
-    "index": "CI",
-    "set_id": "Cell Saga",
+    "index": "14",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "d63e2eec-0cae-41bf-9154-09ff87b9e3f8.jpg"
   },
   {
@@ -1733,8 +1733,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 power stages of damage. If you declared a Tokui-Waza, for every life card of damage this attack deals, choose a card from your discard pile and place it on the bottom of your Life Deck. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "E3",
-    "set_id": "Cell Saga",
+    "index": "2p",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "86564054-c5dc-4a76-873e-30b74a7073ed.jpg"
   },
   {
@@ -1747,8 +1747,8 @@
     "Limit per Deck": "3",
     "Text": "Raise your Main Personality to its highest power stage. Draw a card and show it to your opponent. If that card is a Namekian Style card, choose 2 cards from your discard pile and place them on the bottom of your Life Deck. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "E1",
-    "set_id": "Cell Saga",
+    "index": "2n",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "eb13360d-f9ac-41cf-9e85-e6c7a2b4c4d8.jpg"
   },
   {
@@ -1761,8 +1761,8 @@
     "Limit per Deck": "8",
     "Text": "Namekian Heritage only. Physical attack doing 3 life cards of damage. You may have up to 8 copies of this card in your Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "By",
-    "set_id": "Cell Saga",
+    "index": "k",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "f24b703f-0da9-43ac-9df9-1f554bdd508b.jpg"
   },
   {
@@ -1775,8 +1775,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Lower your opponent's anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Bo",
-    "set_id": "Cell Saga",
+    "index": "a",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "e5189b38-4e20-415e-8b35-30943ff6cd48.jpg"
   },
   {
@@ -1789,8 +1789,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "CA",
-    "set_id": "Cell Saga",
+    "index": "w",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "d0c8064f-32f7-453c-8550-a3e0af6f092a.jpg"
   },
   {
@@ -1803,8 +1803,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack. If successful, also raise your Main Personality to its highest power stage. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "DJ",
-    "set_id": "Cell Saga",
+    "index": "25",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "5e957f3e-8187-4d93-b4af-c62b5565c093.jpg"
   },
   {
@@ -1817,8 +1817,8 @@
     "Limit per Deck": "3",
     "Text": "When entering Combat as the defender, look at the top 5 cards from your Life Deck and put them back on top in any order.",
     "Set": "05 - Cell Saga",
-    "index": "DX",
-    "set_id": "Cell Saga",
+    "index": "2J",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "ac93866c-b240-40a3-8ba4-210fe5e4a831.jpg"
   },
   {
@@ -1831,8 +1831,8 @@
     "Limit per Deck": "3",
     "Text": "Namekian Heritage only. Shuffle the top or bottom 3 cards from your discard pile into your Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "DP",
-    "set_id": "Cell Saga",
+    "index": "2B",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "526e2f26-e61d-4920-902a-fd331f23a82c.jpg"
   },
   {
@@ -1845,8 +1845,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing 6 life cards of damage. Costs 3 power stages to perform.",
     "Set": "05 - Cell Saga",
-    "index": "CY",
-    "set_id": "Cell Saga",
+    "index": "1K",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "311effd7-334c-4217-b391-5983c9b4168c.jpg"
   },
   {
@@ -1859,8 +1859,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +2 life cards of damage. If successful, draw the top card from your discard pile. Lower your opponent's anger 2 levels. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "D8",
-    "set_id": "Cell Saga",
+    "index": "1u",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "8380a10d-5e53-4744-8c4f-0f2dc9e6b944.jpg"
   },
   {
@@ -1873,8 +1873,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 3 life cards of damage. If successful, gain 2 power stages.",
     "Set": "05 - Cell Saga",
-    "index": "CJ",
-    "set_id": "Cell Saga",
+    "index": "15",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "5976ae54-a7fe-4c5a-ba43-3b0aa9fe7e22.jpg"
   },
   {
@@ -1887,8 +1887,8 @@
     "Limit per Deck": "1",
     "Text": "When entering Combat, shuffle the top card from your discard pile into your Life Deck. If that card is a Namekian Style card, draw a card.",
     "Set": "05 - Cell Saga",
-    "index": "Dt",
-    "set_id": "Cell Saga",
+    "index": "2f",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "ebd62966-88cd-4b78-b937-22693393ddd9.jpg"
   },
   {
@@ -1901,8 +1901,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack. Place the bottom 2 cards from your discard pile at the bottom of your Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "CP",
-    "set_id": "Cell Saga",
+    "index": "1B",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "be0e0102-0c3c-4804-a237-e039809b8be7.jpg"
   },
   {
@@ -1915,8 +1915,8 @@
     "Limit per Deck": "3",
     "Text": "After you receive damage from a successful energy attack, search your Life Deck for an Ally and place it in play at 4 power stages above 0.",
     "Set": "05 - Cell Saga",
-    "index": "Ch",
-    "set_id": "Cell Saga",
+    "index": "1T",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "356c6421-e591-47c6-9d8e-c6edabed5b9e.jpg"
   },
   {
@@ -1929,8 +1929,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Bh",
-    "set_id": "Cell Saga",
+    "index": "T",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2ae7f24a-4a07-45aa-b41a-8a358e55ef2b.jpg"
   },
   {
@@ -1943,8 +1943,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack. If successful, and you declared a Tokui-Waza, remove up to 2 of your opponent's Non-Combat cards from the game. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "Dy",
-    "set_id": "Cell Saga",
+    "index": "2k",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "3b6e9cd2-35a7-441f-9d94-7a63153def16.jpg"
   },
   {
@@ -1957,8 +1957,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. If you declared Tokui-Waza, stop your opponent's next physical attack in his next \"Attacker Attacks!\" phase.",
     "Set": "05 - Cell Saga",
-    "index": "D6",
-    "set_id": "Cell Saga",
+    "index": "1s",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "04677fbe-62bf-49fd-9c09-db9da2d4a4a7.jpg"
   },
   {
@@ -1971,8 +1971,8 @@
     "Limit per Deck": "3",
     "Text": "Stops an energy attack. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "C7",
-    "set_id": "Cell Saga",
+    "index": "t",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2a94cc43-276e-416b-9825-f8f10e91f8bb.jpg"
   },
   {
@@ -1985,8 +1985,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 6 life cards of damage. Your opponent may not use Energy Combat cards to stop this attack.",
     "Set": "05 - Cell Saga",
-    "index": "CS",
-    "set_id": "Cell Saga",
+    "index": "1E",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2e6477a5-27bc-48f8-8549-9430e3d4f3e1.jpg"
   },
   {
@@ -1999,8 +1999,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 5 power stages of damage. Costs 1 power stage to perform.",
     "Set": "05 - Cell Saga",
-    "index": "CO",
-    "set_id": "Cell Saga",
+    "index": "1A",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "a61dee64-3a9b-4e6c-a8eb-5805c3d00d2b.jpg"
   },
   {
@@ -2013,8 +2013,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 6 life cards of damage.",
     "Set": "05 - Cell Saga",
-    "index": "Bg",
-    "set_id": "Cell Saga",
+    "index": "S",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2b8c6d7f-5501-4aa8-b086-833b829aadb7.jpg"
   },
   {
@@ -2027,8 +2027,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Place this card are the bottom of your Life Deck after use.",
     "Set": "05 - Cell Saga",
-    "index": "DL",
-    "set_id": "Cell Saga",
+    "index": "27",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "e7299a3d-55cc-436b-a25b-0e3d350bef71.jpg"
   },
   {
@@ -2041,8 +2041,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack doing 6 life cards of damage. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "DF",
-    "set_id": "Cell Saga",
+    "index": "21",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "d66f706a-6e6e-405e-b5dc-c37d5a6ed1ac.jpg"
   },
   {
@@ -2055,8 +2055,8 @@
     "Limit per Deck": "1",
     "Text": "All successful physical attacks performed against you do a maximum of 3 power stages of damage. Limit 1 per deck.",
     "Set": "05 - Cell Saga",
-    "index": "Dz",
-    "set_id": "Cell Saga",
+    "index": "2l",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "7aca6f48-80fc-4ef1-a6d8-2f2d43ae26da.jpg"
   },
   {
@@ -2069,8 +2069,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "CB",
-    "set_id": "Cell Saga",
+    "index": "x",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "85d75e3c-acee-43af-ad73-4b1055747eab.jpg"
   },
   {
@@ -2083,8 +2083,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 3 life cards of damage. Costs 0 power stages to perform.",
     "Set": "05 - Cell Saga",
-    "index": "CV",
-    "set_id": "Cell Saga",
+    "index": "1H",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "8ae808c8-cd74-43b8-bae1-2164eb56543b.jpg"
   },
   {
@@ -2097,8 +2097,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing +2 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "Cd",
-    "set_id": "Cell Saga",
+    "index": "1P",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "07ddfeec-37b3-45da-9743-fe2e2f3015fb.jpg"
   },
   {
@@ -2111,8 +2111,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Bx",
-    "set_id": "Cell Saga",
+    "index": "j",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "0202e88b-5df0-4f95-b6b6-e606d4eb70a5.jpg"
   },
   {
@@ -2125,8 +2125,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing +3 power stages of damage. Costs 3 power stages to perform.",
     "Set": "05 - Cell Saga",
-    "index": "Cb",
-    "set_id": "Cell Saga",
+    "index": "1N",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "b71d95c3-911e-4115-82f6-1de8cf22a81a.jpg"
   },
   {
@@ -2139,8 +2139,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 5 life cards of damage. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "C5",
-    "set_id": "Cell Saga",
+    "index": "r",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "899b588c-1ad3-4895-ab4d-37f520782e80.jpg"
   },
   {
@@ -2153,8 +2153,8 @@
     "Limit per Deck": "1",
     "Text": "All of your energy attacks do +1 life card of damage. If you perform a successful energy attack with an Orange Style card, your opponent can't play a Physical Combat card during his next \"Attacker Attacks!\" phase.",
     "Set": "05 - Cell Saga",
-    "index": "Ds",
-    "set_id": "Cell Saga",
+    "index": "2e",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "ebfb59a5-13a3-41a7-8dc0-76f89e922565.jpg"
   },
   {
@@ -2167,8 +2167,8 @@
     "Limit per Deck": "4",
     "Text": "Draw a card. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Cj",
-    "set_id": "Cell Saga",
+    "index": "1V",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "da91d72c-79a3-4aaf-8eaf-ab80ebed888f.jpg"
   },
   {
@@ -2181,8 +2181,8 @@
     "Limit per Deck": "4",
     "Text": "Your opponent may not use Combat cards for the remainder of Combat.",
     "Set": "05 - Cell Saga",
-    "index": "F6",
-    "set_id": "Cell Saga",
+    "index": "3s",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "80e0dc02-5aa1-419d-89d2-4afc36864aa5.jpg"
   },
   {
@@ -2196,8 +2196,8 @@
     "Text": "Place the top card from your discard pile at the bottom of your Life Deck. Draw a card.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "Ek",
-    "set_id": "Cell Saga",
+    "index": "3W",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "640d3362-8639-4f07-9cd1-19f4e6cad607.jpg"
   },
   {
@@ -2211,8 +2211,8 @@
     "Text": "Energy attack. If successful, draw the bottom card from your discard pile. This must be the first attack you perform during Combat.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "EN",
-    "set_id": "Cell Saga",
+    "index": "39",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "88f03d7f-dd29-4b55-801c-ead36375b92d.jpg"
   },
   {
@@ -2226,8 +2226,8 @@
     "Text": "Physical attack doing +6 power stages of damage. If successful, draw the bottom card of your discard pile.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "EO",
-    "set_id": "Cell Saga",
+    "index": "3A",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "d727e463-cbff-4741-82a0-42caf8eba6f9.jpg"
   },
   {
@@ -2241,8 +2241,8 @@
     "Text": "Physical attack. Place the bottom 3 cards of your discard pile on the bottom of your Life Deck.",
     "Card Level": "4",
     "Set": "05 - Cell Saga",
-    "index": "Dk",
-    "set_id": "Cell Saga",
+    "index": "2W",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "98942bae-0115-486f-bf71-1d42b69ab6fd.jpg"
   },
   {
@@ -2256,8 +2256,8 @@
     "Text": "Physical attack. Choose a card from your discard pile and shuffle it into your Life Deck.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "EM",
-    "set_id": "Cell Saga",
+    "index": "38",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "1de23bdc-95a6-41c2-b36a-4e383a963975.jpg"
   },
   {
@@ -2270,8 +2270,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "CD",
-    "set_id": "Cell Saga",
+    "index": "z",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "83cbfe4f-4bf3-43d5-9254-c7e81407c1fd.jpg"
   },
   {
@@ -2284,8 +2284,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "C4",
-    "set_id": "Cell Saga",
+    "index": "q",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "269f1df9-8e05-43f2-9ddd-f686945c4836.jpg"
   },
   {
@@ -2298,8 +2298,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Remove the top 10 cards from your opponent's discard pile from the game. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Cc",
-    "set_id": "Cell Saga",
+    "index": "1O",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "84702c39-b688-417a-9c88-bdabfe413527.jpg"
   },
   {
@@ -2312,8 +2312,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +4 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "CC",
-    "set_id": "Cell Saga",
+    "index": "y",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "5e969a85-6bae-44a0-b32f-8fd7884e1b6f.jpg"
   },
   {
@@ -2326,8 +2326,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +2 power stages of damage. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "C9",
-    "set_id": "Cell Saga",
+    "index": "v",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "cf9626c2-6964-4ddc-a1cb-3ff8e4ffef7b.jpg"
   },
   {
@@ -2340,8 +2340,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack. If successful, and you declared a Tokui-Waza, remove your opponent's discard pile from the game.",
     "Set": "05 - Cell Saga",
-    "index": "Du",
-    "set_id": "Cell Saga",
+    "index": "2g",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "aee5a870-e07b-41af-97b7-00f9dac0231f.jpg"
   },
   {
@@ -2354,8 +2354,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 power stages of damage. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "C3",
-    "set_id": "Cell Saga",
+    "index": "p",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "cfbd9e8e-1206-4666-9e2f-5b9763654f40.jpg"
   },
   {
@@ -2368,8 +2368,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Lower your opponent's anger 1 level. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "CX",
-    "set_id": "Cell Saga",
+    "index": "1J",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "a1952984-392d-43ce-a823-8f007a574797.jpg"
   },
   {
@@ -2382,8 +2382,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Gain 5 power stages. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "CM",
-    "set_id": "Cell Saga",
+    "index": "18",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "0ce72297-67ad-4a24-b79c-baa29daaea13.jpg"
   },
   {
@@ -2396,8 +2396,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 power stages of damage. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "C8",
-    "set_id": "Cell Saga",
+    "index": "u",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "525d08b8-72ca-4a6d-9c06-91ff974299fe.jpg"
   },
   {
@@ -2410,8 +2410,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "Be",
-    "set_id": "Cell Saga",
+    "index": "Q",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "ba9ac22a-285b-4096-a938-8da22da4790f.jpg"
   },
   {
@@ -2424,8 +2424,8 @@
     "Limit per Deck": "1",
     "Text": "When entering Combat, you may remove the top card from your discard pile from the game to have all your physical attacks do +1 power stage of damage for the remainder of Combat. If that card is a Red Style card, all of your physical attacks do +3 instead.",
     "Set": "05 - Cell Saga",
-    "index": "Dj",
-    "set_id": "Cell Saga",
+    "index": "2V",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "c7e01a8f-3950-4940-b7e5-adec296f9cc8.jpg"
   },
   {
@@ -2438,8 +2438,8 @@
     "Limit per Deck": "3",
     "Text": "Remove one Battleground in play from the game. You may search your Life Deck for any Battleground and place it into play to replace it. There must be a Battleground in play to use this card.",
     "Set": "05 - Cell Saga",
-    "index": "Dd",
-    "set_id": "Cell Saga",
+    "index": "2P",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "a148db4c-9b53-4996-bbe0-3d779c9eb283.jpg"
   },
   {
@@ -2452,8 +2452,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack.",
     "Set": "05 - Cell Saga",
-    "index": "Br",
-    "set_id": "Cell Saga",
+    "index": "d",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "7cd607e5-0b28-4337-bd91-40a7acf6d2d1.jpg"
   },
   {
@@ -2466,8 +2466,8 @@
     "Limit per Deck": "3",
     "Text": "Stops an energy attack.",
     "Set": "05 - Cell Saga",
-    "index": "Bm",
-    "set_id": "Cell Saga",
+    "index": "Y",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "048ef618-35ef-428b-a158-92e5fbe7d81b.jpg"
   },
   {
@@ -2480,8 +2480,8 @@
     "Limit per Deck": "3",
     "Text": "Saiyan Heritage only. Energy attack doing 6 life cards of damage.",
     "Set": "05 - Cell Saga",
-    "index": "Bs",
-    "set_id": "Cell Saga",
+    "index": "e",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "130243f8-e1e2-4c43-bc98-2cae7c7c2df7.jpg"
   },
   {
@@ -2494,8 +2494,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 5 life cards of damage.",
     "Set": "05 - Cell Saga",
-    "index": "Bq",
-    "set_id": "Cell Saga",
+    "index": "c",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "860e67fc-26e6-441d-9d65-902f5db9aa58.jpg"
   },
   {
@@ -2508,8 +2508,8 @@
     "Limit per Deck": "3",
     "Text": "Saiyan Heritage only. Physical attack doing +5 power stages of damage. If successful, your opponent discards the top 2 cards from his Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "Ca",
-    "set_id": "Cell Saga",
+    "index": "1M",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "4361ed6f-e1ac-4716-b815-4053764ed8ee.jpg"
   },
   {
@@ -2522,8 +2522,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing 3 life cards of damage.",
     "Set": "05 - Cell Saga",
-    "index": "CZ",
-    "set_id": "Cell Saga",
+    "index": "1L",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "c480438a-6c60-4b63-a0bf-6e56c9ae53bd.jpg"
   },
   {
@@ -2536,8 +2536,8 @@
     "Limit per Deck": "3",
     "Text": "Saiyan Heritage only. Physical attack doing +3 life cards of damage.",
     "Set": "05 - Cell Saga",
-    "index": "Bu",
-    "set_id": "Cell Saga",
+    "index": "g",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "7d85b037-e75e-4202-a5ea-5c10a23c2884.jpg"
   },
   {
@@ -2550,8 +2550,8 @@
     "Limit per Deck": "3",
     "Text": "Saiyan Heritage only. Physical attack doing +4 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "CQ",
-    "set_id": "Cell Saga",
+    "index": "1C",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "b4f261a2-4e1d-45c1-b951-135d75da3175.jpg"
   },
   {
@@ -2564,8 +2564,8 @@
     "Limit per Deck": "3",
     "Text": "Your Main Personality loses 4 power stages. All attacks you perform for the remainder of Combat do +3 life cards of damage.",
     "Set": "05 - Cell Saga",
-    "index": "E0",
-    "set_id": "Cell Saga",
+    "index": "2m",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "80d2f495-6f03-4529-8293-22e735f301e8.jpg"
   },
   {
@@ -2578,8 +2578,8 @@
     "Limit per Deck": "3",
     "Text": "Saiyan Heritage only. Energy attack. If successful, also raise your anger 1 level.",
     "Set": "05 - Cell Saga",
-    "index": "C0",
-    "set_id": "Cell Saga",
+    "index": "m",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "49936be8-2e84-4653-91f3-f3dc860593d6.jpg"
   },
   {
@@ -2592,8 +2592,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 5 life cards of damage. You may choose to have one of your Allies lose 3 power stages to do an additional +5 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "Dc",
-    "set_id": "Cell Saga",
+    "index": "2O",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "0aaef3de-047b-457d-9d4d-f58f8a50cbc2.jpg"
   },
   {
@@ -2606,8 +2606,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +4 power stages of damage. You may discard a card from your hand when performing this attack to do +8 power stages of damage instead.",
     "Set": "05 - Cell Saga",
-    "index": "CT",
-    "set_id": "Cell Saga",
+    "index": "1F",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "0df0711c-5a51-406d-a6d5-21dd98c998c5.jpg"
   },
   {
@@ -2620,8 +2620,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack. If successful, every Ally your opponent has in play loses 4 power stages.",
     "Set": "05 - Cell Saga",
-    "index": "E7",
-    "set_id": "Cell Saga",
+    "index": "2t",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "bd1e293f-5df2-43ed-8df4-40ff43d27f0e.jpg"
   },
   {
@@ -2634,8 +2634,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "Bi",
-    "set_id": "Cell Saga",
+    "index": "U",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "23bf4a93-75ef-4f0b-bc0c-ebac512e14a7.jpg"
   },
   {
@@ -2648,8 +2648,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing 5 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "CU",
-    "set_id": "Cell Saga",
+    "index": "1G",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "f51e89fa-2972-4416-ac9b-a4e1063a4248.jpg"
   },
   {
@@ -2662,8 +2662,8 @@
     "Limit per Deck": "1",
     "Text": "When entering Combat, discard a life card. If that card is a Saiyan Style card, draw 2 cards. If that card is not a Saiyan Style card, draw 1 card.",
     "Set": "05 - Cell Saga",
-    "index": "Di",
-    "set_id": "Cell Saga",
+    "index": "2U",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "fdd0ed6f-1b8e-4727-b8ff-4e66b7b151ee.jpg"
   },
   {
@@ -2676,8 +2676,8 @@
     "Limit per Deck": "3",
     "Text": "Saiyan Heritage only. Physical attack doing +5 power stages of damage.",
     "Set": "05 - Cell Saga",
-    "index": "CH",
-    "set_id": "Cell Saga",
+    "index": "13",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "e719d229-f30f-4a91-8742-72ec40cca20b.jpg"
   },
   {
@@ -2690,8 +2690,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical or energy attack. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "Cs",
-    "set_id": "Cell Saga",
+    "index": "1e",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "1ba42093-0e2e-4669-82d9-0d131c180491.jpg"
   },
   {
@@ -2704,8 +2704,8 @@
     "Limit per Deck": "3",
     "Text": "Once per turn, in place of an attack look at the top 3 cards of your Life Deck, put 1 of them in your hand and remove the other 2 from the game.",
     "Set": "05 - Cell Saga",
-    "index": "DE",
-    "set_id": "Cell Saga",
+    "index": "20",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "cdd0b3cb-ef44-41d0-9ca1-f67f9fec501c.jpg"
   },
   {
@@ -2718,8 +2718,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 7 life cards of damage. Discard a card from your hand. If successful, remove all Non-Combat cards, Battlegrounds, and Allies from the game. Your opponent may draw up to 3 cards.",
     "Set": "05 - Cell Saga",
-    "index": "DG",
-    "set_id": "Cell Saga",
+    "index": "22",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "c9c052ad-049d-4f8c-8227-8c7cb879594f.jpg"
   },
   {
@@ -2732,8 +2732,8 @@
     "Limit per Deck": "3",
     "Text": "Krillin, Piccolo, and Trunks may not perform physical or energy attacks, stop attacks performed against them, or use their powers for the remainder of Combat. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "DU",
-    "set_id": "Cell Saga",
+    "index": "2G",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2697494b-82b2-420d-be69-d59129c4ebf8.jpg"
   },
   {
@@ -2746,8 +2746,8 @@
     "Limit per Deck": "3",
     "Text": "Remove an Ally in play from the game. If your Main Personality is Android 17 or Android 18, remove 2 Allies from the game instead.",
     "Set": "05 - Cell Saga",
-    "index": "Ck",
-    "set_id": "Cell Saga",
+    "index": "1W",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "85ce2f87-fef3-4e0a-96ce-01ea7273355b.jpg"
   },
   {
@@ -2760,8 +2760,8 @@
     "Limit per Deck": "3",
     "Text": "Villains only. If Cell is anywhere in play, choose 3 Allies from your Life Deck and put them into play at 5 power stages above 0.",
     "Set": "05 - Cell Saga",
-    "index": "Eu",
-    "set_id": "Cell Saga",
+    "index": "3g",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "28e47360-d943-4b4b-8937-491efbfe3ca9.jpg"
   },
   {
@@ -2774,8 +2774,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack doing 2 life cards of damage. Stays in play to be used 2 more times this Combat. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "D5",
-    "set_id": "Cell Saga",
+    "index": "1r",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2718472c-58e6-488d-bf24-892b20a74918.jpg"
   },
   {
@@ -2789,8 +2789,8 @@
     "Text": "Physical attack. If successful, raise or lower your opponent's anger 3 levels.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "D1",
-    "set_id": "Cell Saga",
+    "index": "1n",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "fbc552c1-31b3-4ee7-a26e-ffaeff7e26d1.jpg"
   },
   {
@@ -2804,8 +2804,8 @@
     "Text": "Energy attack. If successful, remove an opponent's Drill card in play from the game.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "DH",
-    "set_id": "Cell Saga",
+    "index": "23",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "a9681068-e37a-4d56-9a98-724930237614.jpg"
   },
   {
@@ -2819,8 +2819,8 @@
     "Text": "Energy attack. Costs 1 power stage to perform.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "D0",
-    "set_id": "Cell Saga",
+    "index": "1m",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "d7155160-0808-47da-909f-8c2c9b07ad7e.jpg"
   },
   {
@@ -2833,8 +2833,8 @@
     "Limit per Deck": "3",
     "Text": "Until the end of the game, all of your successful attacks do +1 power stage of damage. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "Ct",
-    "set_id": "Cell Saga",
+    "index": "1f",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "fe73dd10-5d45-4b1e-80b6-dbf786176fb4.jpg"
   },
   {
@@ -2847,8 +2847,8 @@
     "Limit per Deck": "4",
     "Text": "When entering combat as the defender, you may draw the bottom 3 cards from your discard pile instead of drawing 3 cards from your Life Deck.",
     "Set": "05 - Cell Saga",
-    "index": "Cr",
-    "set_id": "Cell Saga",
+    "index": "1d",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "85d3dab7-49c4-4708-b082-7bf53f028fee.jpg"
   },
   {
@@ -2861,8 +2861,8 @@
     "Limit per Deck": "1",
     "Text": "Draw a card. If that card has \"Trunks\" in the card title, draw another card. Limit 1 per deck.",
     "Set": "05 - Cell Saga",
-    "index": "F4",
-    "set_id": "Cell Saga",
+    "index": "3q",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "b29fe7fa-d1d9-4e0f-b4bf-15ce2298f2eb.jpg"
   },
   {
@@ -2876,8 +2876,8 @@
     "Text": "Physical attack doing +5 power stages of damage. If successful, your opponent may not perform energy attacks for the remainder of Combat.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "ER",
-    "set_id": "Cell Saga",
+    "index": "3D",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "c0c907f5-8aac-4f6b-9da1-442ea15e7bb2.jpg"
   },
   {
@@ -2891,8 +2891,8 @@
     "Text": "Constant Combat Power: Your opponents may not perform energy attacks.",
     "Card Level": "4",
     "Set": "05 - Cell Saga",
-    "index": "Df",
-    "set_id": "Cell Saga",
+    "index": "2R",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "084338f1-9f86-417b-bc00-8c5d327941c8.jpg"
   },
   {
@@ -2906,8 +2906,8 @@
     "Text": "Physical attack doing +2 power stages of damage. You may use this power twice per Combat.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "EQ",
-    "set_id": "Cell Saga",
+    "index": "3C",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "e56e5338-81bc-4c62-b302-5d32c04e03bc.jpg"
   },
   {
@@ -2921,8 +2921,8 @@
     "Text": "Constant Combat Power: Stops the first energy attack performed against you during Combat.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "EP",
-    "set_id": "Cell Saga",
+    "index": "3B",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "b07756c4-b75a-446c-b264-89474d5e7d45.jpg"
   },
   {
@@ -2936,8 +2936,8 @@
     "Text": "Stops an energy attack. This power may be used twice per Combat.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "El",
-    "set_id": "Cell Saga",
+    "index": "3X",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "29776f71-768f-4bff-8158-f65b5a113611.jpg"
   },
   {
@@ -2951,8 +2951,8 @@
     "Text": "Defense Shield: When defending in Combat, stop the first unstopped attack performed against you. When entering Combat, draw a card.",
     "Card Level": "4",
     "Set": "05 - Cell Saga",
-    "index": "E6",
-    "set_id": "Cell Saga",
+    "index": "2s",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "9afd6f2b-8572-454a-9285-438a73b56d2a.jpg"
   },
   {
@@ -2966,8 +2966,8 @@
     "Text": "Physical attack doing +5 power stages of damage. If successful, lower your opponent's anger 2 levels.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "EK",
-    "set_id": "Cell Saga",
+    "index": "36",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "7618c683-71ac-4c39-8db9-7abff737285d.jpg"
   },
   {
@@ -2981,8 +2981,8 @@
     "Text": "When entering Combat, look at your opponent's hand, then choose and discard 1 Non-Dragon Ball card.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "Ej",
-    "set_id": "Cell Saga",
+    "index": "3V",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "ace4cec2-303e-4f4f-a72e-1a0a488c4653.jpg"
   },
   {
@@ -2996,8 +2996,8 @@
     "Text": "Energy attack. Costs 1 power stage to perform.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "EJ",
-    "set_id": "Cell Saga",
+    "index": "35",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "3a61ca1f-e604-4180-a75a-aa5e0f18df85.jpg"
   },
   {
@@ -3011,8 +3011,8 @@
     "Text": "Physical attack doing +1 power stage of damage for every Vegeta named card in your discard pile.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "EL",
-    "set_id": "Cell Saga",
+    "index": "37",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "91f7fd16-e7c5-465d-846e-ca86d79aa9df.jpg"
   },
   {
@@ -3026,8 +3026,8 @@
     "Text": "Physical attack doing +9 power stages of damage.",
     "Card Level": "5",
     "Set": "05 - Cell Saga",
-    "index": "EB",
-    "set_id": "Cell Saga",
+    "index": "2x",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "04c6dcd7-ea22-42a8-84f1-aa0bcd3d80e3.jpg"
   },
   {
@@ -3041,8 +3041,8 @@
     "Text": "Constant Combat Power: All energy attacks performed by Yamcha do +2 power stages of damage.",
     "Card Level": "2",
     "Set": "05 - Cell Saga",
-    "index": "Cz",
-    "set_id": "Cell Saga",
+    "index": "1l",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "f4b8062a-9788-4351-a99d-6bcde5f20e64.jpg"
   },
   {
@@ -3056,8 +3056,8 @@
     "Text": "Energy attack. If successful, lower your opponent's anger 1 level.",
     "Card Level": "1",
     "Set": "05 - Cell Saga",
-    "index": "Cy",
-    "set_id": "Cell Saga",
+    "index": "1k",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "97cdbd9e-424a-4f55-8bc8-a795cbb366e0.jpg"
   },
   {
@@ -3071,8 +3071,8 @@
     "Text": "Physical attack. If successful, lower your opponent's anger to 0.",
     "Card Level": "3",
     "Set": "05 - Cell Saga",
-    "index": "D2",
-    "set_id": "Cell Saga",
+    "index": "1o",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "2bc405cd-a296-445d-886e-931e18ad28e9.jpg"
   },
   {
@@ -3085,8 +3085,8 @@
     "Limit per Deck": "3",
     "Text": "Search your Life Deck for up to 7 Allies and put them into play at 3 power stages above 0. Remove from the game after use.",
     "Set": "05 - Cell Saga",
-    "index": "E9",
-    "set_id": "Cell Saga",
+    "index": "2v",
+    "set_id": "0c196c03-ea0a-4287-a973-0d25bd017c0d",
     "image": "ad6ad416-d883-4bf8-bb57-845565c8d6d3.jpg"
   }
 ]

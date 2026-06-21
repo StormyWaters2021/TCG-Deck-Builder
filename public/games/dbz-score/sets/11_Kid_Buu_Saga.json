@@ -9,8 +9,8 @@
     "Limit per Deck": "1",
     "Text": "Draw cards until you have 3 cards in your hand. Raise your anger 2 levels. Lower your opponent's anger 2 levels.",
     "Set": "11 - Kid Buu Saga",
-    "index": "KN",
-    "set_id": "Kid Buu Saga",
+    "index": "Ji",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "ea50af61-fa5f-4d95-8cc3-28d098c35062.jpg"
   },
   {
@@ -23,8 +23,8 @@
     "Limit per Deck": "1",
     "Text": "Shuffle 3 cards in your discard pile into your Life Deck. Draw a card. While you control this Dragon Ball, your Main Personality's PUR is +1 for each Namek Dragon Ball in play.",
     "Set": "11 - Kid Buu Saga",
-    "index": "KO",
-    "set_id": "Kid Buu Saga",
+    "index": "Jj",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "7f8800b0-4e32-4e11-bd20-1bf3ef038d9d.jpg"
   },
   {
@@ -37,8 +37,8 @@
     "Limit per Deck": "1",
     "Text": "Draw the bottom 3 cards of your discard pile. Gain 5 power stages. Remove up to 6 cards in your opponent's discard pile from the game.",
     "Set": "11 - Kid Buu Saga",
-    "index": "KP",
-    "set_id": "Kid Buu Saga",
+    "index": "Jk",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "b5682555-97b6-4e69-a6b2-f88fa122c528.jpg"
   },
   {
@@ -51,8 +51,8 @@
     "Limit per Deck": "1",
     "Text": "Discard all of your opponent's Allies in play. While you control this Dragon Ball, all of your Allies and Non-Combat/Non-Drill cards that would be removed from the game by your opponent's card effects are discarded instead.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ks",
-    "set_id": "Kid Buu Saga",
+    "index": "KD",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "a96b34c8-22c6-4e13-8f06-5de181904f97.jpg"
   },
   {
@@ -65,8 +65,8 @@
     "Limit per Deck": "1",
     "Text": "Discard the top 4 cards of your opponent's Life Deck. At the beginning of every turn that you control this Dragon Ball, look at the top X cards of your Life Deck and place them back in any order. X = the number of Namek Dragon Balls in play.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kt",
-    "set_id": "Kid Buu Saga",
+    "index": "KE",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "a8965b45-b981-4842-a631-68e692847b7b.jpg"
   },
   {
@@ -79,8 +79,8 @@
     "Limit per Deck": "1",
     "Text": "Raise your anger 2 levels. Discard a Non-Combat card in play. While you control this Dragon Ball, your opponent cannot use the power of his Sensei card.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lr",
-    "set_id": "Kid Buu Saga",
+    "index": "LC",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "1bbb5429-cd80-4e57-8732-8fbc5d1ce139.jpg"
   },
   {
@@ -93,8 +93,8 @@
     "Limit per Deck": "1",
     "Text": "While you control this Dragon Ball and you decalred a Tokui-Waza, your opponent cannot use his Mastery card.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ls",
-    "set_id": "Kid Buu Saga",
+    "index": "LD",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "9564a82c-1bb5-4d11-adb7-d861ef3f1e78.jpg"
   },
   {
@@ -108,8 +108,8 @@
     "Text": "Energy attack doing 6 life cards of damage. If you have \"The Car\" in play, this attack cannot be stopped.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ku",
-    "set_id": "Kid Buu Saga",
+    "index": "KF",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "f0038d24-5240-401d-a889-de0c2518dc57.jpg"
   },
   {
@@ -123,8 +123,8 @@
     "Text": "Physical attack doing +5 power stages of damage. If successful, discard one of your opponent's Drills in play.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mk",
-    "set_id": "Kid Buu Saga",
+    "index": "M5",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "77f5de06-d597-4ee3-aec9-fe312fb21640.jpg"
   },
   {
@@ -137,8 +137,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +4 power stages of damage. If used by Bido, discard one of your opponent's Non-Combat cards in play and capture a Dragon Ball. If successful, search your Life Deck for an Ally and place it into play at 4 power stages above 0.",
     "Set": "11 - Kid Buu Saga",
-    "index": "NB",
-    "set_id": "Kid Buu Saga",
+    "index": "MW",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "aa75f285-ac23-4eb7-846c-59ef2133bd93.jpg"
   },
   {
@@ -151,8 +151,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +4 power stages of damage. Empower 2. If successful, look at your opponent's hand and discard any Non-Combat cards in his hand.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kv",
-    "set_id": "Kid Buu Saga",
+    "index": "KG",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "995781fc-9b0b-4b4b-aba6-655d107a4de9.jpg"
   },
   {
@@ -165,8 +165,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical or energy attack. Search your discard pile for a card that discards a card from your opponent's hand and place it into your hand. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kw",
-    "set_id": "Kid Buu Saga",
+    "index": "KH",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "9ffe4492-bbc2-4bfb-8298-4e9958a1bd4b.jpg"
   },
   {
@@ -179,8 +179,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack. Costs 3 power stages to perform. If successful, your opponent discards 2 cards from his hand.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lt",
-    "set_id": "Kid Buu Saga",
+    "index": "LE",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "a4c71367-127a-45db-8384-c4e65d98d046.jpg"
   },
   {
@@ -193,8 +193,8 @@
     "Limit per Deck": "3",
     "Text": "Sensei Deck only. When your opponent would discard any number of card(s) from his hand because of your card effects, the cards are discarded at random instead.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lu",
-    "set_id": "Kid Buu Saga",
+    "index": "LF",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "4587c016-cd53-4ceb-adc5-16787e24259e.jpg"
   },
   {
@@ -207,8 +207,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +3 power stages of damage. If successful, your opponent must discard cards from his hand until he only has 2 or fewer cards in his hand.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lv",
-    "set_id": "Kid Buu Saga",
+    "index": "LG",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "894796f2-772b-4b75-be68-6f59b75d7a28.jpg"
   },
   {
@@ -221,8 +221,8 @@
     "Limit per Deck": "3",
     "Text": "Sensei Deck. Physical attack doing +4 power stages of damage. If successful and you declared a Tokui-Waza and your opponent declared a Freestyle Tokui-Waza, your opponent discards all cards in his hand. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mu",
-    "set_id": "Kid Buu Saga",
+    "index": "MF",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "9edd303b-c384-44a2-ae03-a5d8de36ad2a.jpg"
   },
   {
@@ -236,8 +236,8 @@
     "Text": "Endurance 1. Energy attack. Empower 3. Attach this card to your opponent's Main Personality. While attached and the attached personality is in control of Combat, damage from your attacks cannot be prevented.",
     "Endurance": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "KQ",
-    "set_id": "Kid Buu Saga",
+    "index": "Jl",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "74b9615a-9e01-45e7-887c-f9c5566c70c3.jpg"
   },
   {
@@ -250,8 +250,8 @@
     "Limit per Deck": "3",
     "Text": "(This card does not count toward or against Tokui-Waza requirements. This card cannot be in your deck if you declared Freestyle Tokui-Waza. This Drill can be placed in play even if it conflicts with a Styled Drill already in play. This Drill does not keep a Drill of a different Style from being placed into play.) Your attacks do +2 power stages of damage. Prevent 2 life cards of damage from your opponent's attacks.",
     "Set": "11 - Kid Buu Saga",
-    "index": "KR",
-    "set_id": "Kid Buu Saga",
+    "index": "Jm",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "09f656e9-8079-4fd5-a11a-b580b238a0ff.jpg"
   },
   {
@@ -265,8 +265,8 @@
     "Text": "Endurance 3. Focused physical attack doing +3 power stages of damage. If Namek Dragon Ball 4 is in play, your opponent must discard 2 cards from his hand.",
     "Endurance": "3",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kx",
-    "set_id": "Kid Buu Saga",
+    "index": "KI",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "98dab584-8d9c-497b-af40-9300d4e407a1.jpg"
   },
   {
@@ -279,8 +279,8 @@
     "Limit per Deck": "3",
     "Text": "Your opponent discards the top X cards of his Life Deck. X = your Main Personality's PUR.",
     "Set": "11 - Kid Buu Saga",
-    "index": "KS",
-    "set_id": "Kid Buu Saga",
+    "index": "Jn",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "fb7fd241-fc7a-48f6-8e6e-94f357621534.jpg"
   },
   {
@@ -293,8 +293,8 @@
     "Limit per Deck": "3",
     "Text": "Stops an energy attack. Shuffle 3 Black Style cards in your discard pile into your Life Deck. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "KT",
-    "set_id": "Kid Buu Saga",
+    "index": "Jo",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "ad893663-cf39-42f9-a8ed-1481cb6d5d27.jpg"
   },
   {
@@ -307,8 +307,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 power stages of damage. Empower 3. Choose up to 2 of your opponent's Non-Combat cards in play and search your opponent's Life Deck for all copies of the chosen cards and remove them from the game. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lw",
-    "set_id": "Kid Buu Saga",
+    "index": "LH",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "19858c99-d45a-4f42-8f24-0bb7cf0b6c3e.jpg"
   },
   {
@@ -321,8 +321,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 power stages of damage. Your opponent must remove from the game 1 non-Dragon Ball card in his hand. If your opponent has only Dragon Balls in his hand, he must show you his hand.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ky",
-    "set_id": "Kid Buu Saga",
+    "index": "KJ",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "1f68f9f0-11b2-4067-80e0-bb2da7ffbcff.jpg"
   },
   {
@@ -335,8 +335,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 5 life cards of damage. Empower 3. If you have an Ally in play, discard one of your opponent's Drills in play. If performed by an Ally, this attack is focused.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kz",
-    "set_id": "Kid Buu Saga",
+    "index": "KK",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "d5b4a056-ffae-4406-ab25-b8b2f5dce688.jpg"
   },
   {
@@ -349,8 +349,8 @@
     "Limit per Deck": "3",
     "Text": "(This card does not count toward or against Tokui-Waza requirements. This card cannot be in your deck if you declared Freestyle Tokui-Waza. This Drill can be placed in play even if it conflicts with a Styled Drill already in play. This Drill does not keep a Drill of a different Style from being placed into play.) Your attacks do +2 power stages of damage. When a card effect is lowering your opponent's anger while his anger is at 0, he discards 1 life card for each level of anger that remans to be lowered from the card's effect.",
     "Set": "11 - Kid Buu Saga",
-    "index": "KU",
-    "set_id": "Kid Buu Saga",
+    "index": "Jp",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "9587fee4-1444-4037-a595-7421945c6d09.jpg"
   },
   {
@@ -363,8 +363,8 @@
     "Limit per Deck": "3",
     "Text": "Sensei Deck. Prevent 2 power stages of damage from your opponent's attacks. If your opponent declared a Saiyan Tokui-Waza, prevent 4 power stages of damage instead.",
     "Set": "11 - Kid Buu Saga",
-    "index": "L0",
-    "set_id": "Kid Buu Saga",
+    "index": "KL",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "4ac790d9-51f6-4301-b019-ca7829847c2b.jpg"
   },
   {
@@ -378,8 +378,8 @@
     "Text": "Endurance 1. Energy attack doing 1 life card of damage for each Non-Combat/Non-Drill card you have in play. Stops an energy attack during your opponent's next \"Attacker Attacks\" phase. Raise your anger 1 level.",
     "Endurance": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "L1",
-    "set_id": "Kid Buu Saga",
+    "index": "KM",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "62231a27-3f4a-494e-a18d-018f165457e6.jpg"
   },
   {
@@ -392,8 +392,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 3 life cards of damage. This attack does an additional +X life cards of damage, where X is your Main Personality's PUR. This attack stays on the table to be used one more time this Combat.",
     "Set": "11 - Kid Buu Saga",
-    "index": "KV",
-    "set_id": "Kid Buu Saga",
+    "index": "Jq",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "180f3ce9-5fb6-4de8-866e-f0a0d88f097a.jpg"
   },
   {
@@ -406,8 +406,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +5 power stages of damage. Gain 3 power stages. Look at your opponent's hand.",
     "Set": "11 - Kid Buu Saga",
-    "index": "L2",
-    "set_id": "Kid Buu Saga",
+    "index": "KN",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "e011e8ea-36f4-4bfa-bd62-3a5865c447fc.jpg"
   },
   {
@@ -420,8 +420,8 @@
     "Limit per Deck": "3",
     "Text": "Focused energy attack doing 5 life cards of damage or stops an energy attack. Shuffle X cards from your discard pile into your Life Deck. X = your current anger. If all the cards you shuffled in were Non-Combat cards, gain 3 power stages. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "L3",
-    "set_id": "Kid Buu Saga",
+    "index": "KO",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "8aedc9cd-9030-4ae8-a279-2d02942b224c.jpg"
   },
   {
@@ -434,8 +434,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 7 life cards of damage. Lower your opponent's anger 1 level.",
     "Set": "11 - Kid Buu Saga",
-    "index": "KW",
-    "set_id": "Kid Buu Saga",
+    "index": "Jr",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "af89bb68-92e0-48ab-975f-2ae6a99d01fb.jpg"
   },
   {
@@ -449,8 +449,8 @@
     "Text": "Endurance 3. If your opponent has performed an attack this Combat, copy his last attack and perform it. For the remainder of Combat, any of your attacks that are copied from your opponent's attacks do +2 life cards of damage, including the attack from this card.",
     "Endurance": "3",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lx",
-    "set_id": "Kid Buu Saga",
+    "index": "LI",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "9c32e402-cf0a-4e4a-8819-445709c328a3.jpg"
   },
   {
@@ -463,8 +463,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +6 power stages of damage. Lower your opponent's anger 4 levels.",
     "Set": "11 - Kid Buu Saga",
-    "index": "KX",
-    "set_id": "Kid Buu Saga",
+    "index": "Js",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "337f059d-8107-40ba-9ba0-f9296adae835.jpg"
   },
   {
@@ -477,8 +477,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +5 power stages of damage. Raise your anger 1 level.",
     "Set": "11 - Kid Buu Saga",
-    "index": "KY",
-    "set_id": "Kid Buu Saga",
+    "index": "Jt",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "e94e8f1c-7d8d-494a-8336-e42fea6042e5.jpg"
   },
   {
@@ -491,8 +491,8 @@
     "Limit per Deck": "3",
     "Text": "Villains only. During your \"Attacker Attacks\" phase, you may discard one of your Non-Combat/Non-Drill cards in play to discard the top 3 cards of your opponent's Deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "L4",
-    "set_id": "Kid Buu Saga",
+    "index": "KP",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "f824c7a4-1541-494e-a888-9606548606f6.jpg"
   },
   {
@@ -506,8 +506,8 @@
     "Text": "Constant Combat Power: (If Bojack is your Main Personality your Allies can use this Constant Combat Power.) Personalities with the Bojack Unbound Subset Symbol can take control of Combat, even if this personality is 2 power stages above 0 or higher. All of your attacks do +1 power stages of damage for each Ally in play with the Bojack Unbound Subset Symbol.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ml",
-    "set_id": "Kid Buu Saga",
+    "index": "M6",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "5b6db982-b2fb-4376-a93a-de43ffa7ccc4.jpg"
   },
   {
@@ -520,8 +520,8 @@
     "Limit per Deck": "4",
     "Text": "Bojack only. Stops an energy attack. Stops all of your opponent's energy attacks for the remainder of Combat. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "N6",
-    "set_id": "Kid Buu Saga",
+    "index": "MR",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "8ea17d8a-399e-4f95-a354-356157be03ac.jpg"
   },
   {
@@ -534,8 +534,8 @@
     "Limit per Deck": "4",
     "Text": "Bojack only. Energy attack doing 6 life cards of damage. For the remainder of Combat, damage from your attacks cannot be prevented. If you have at least 2 Allies in play with the Bojack Unbound Subset Symbol, this card stays on the table to be used 1 more time this Combat. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "NC",
-    "set_id": "Kid Buu Saga",
+    "index": "MX",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "23b4ab20-84e3-43c5-b466-b5adfbf8ebb7.jpg"
   },
   {
@@ -548,8 +548,8 @@
     "Limit per Deck": "4",
     "Text": "Focused energy attack doing 5 life cards of damage. Set all player's anger levels to 2. If successful, you may shuffle any of your Allies that are removed from the game that have the Bojack Unbound Subset Symbol into your Life Deck. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "NA",
-    "set_id": "Kid Buu Saga",
+    "index": "MV",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "94617db0-caa5-4c1b-b7a8-34378b824ef1.jpg"
   },
   {
@@ -562,8 +562,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack doing 5 life cards of damage. If successful, attach this card to one of your personalities. While attached, any energy attacks the attached personality performs do +2 life cards of damage.",
     "Set": "11 - Kid Buu Saga",
-    "index": "N5",
-    "set_id": "Kid Buu Saga",
+    "index": "MQ",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "11d97e58-73f7-4554-b546-1c66b22b5b5e.jpg"
   },
   {
@@ -576,8 +576,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack doing 6 life cards of damage. Lower your opponent's anger 3 levels. If used by Bojack and your opponent has 5 or more Non-Combat cards in play, your opponent discards his Non-Combat cards one at a time until he has 4 Non-Combat cards in play.",
     "Set": "11 - Kid Buu Saga",
-    "index": "N4",
-    "set_id": "Kid Buu Saga",
+    "index": "MP",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "b5f070e5-9e77-4815-b885-62c0f551eb35.jpg"
   },
   {
@@ -591,8 +591,8 @@
     "Text": "Constant Combat Power: (If Bojack is your Main Personality your Allies can use this Constant Combat Power.) Personalities with the Bojack Unbound Subset Symbol can take control of Combat, even if this personality is 2 power stages above 0 or higher. Any attacks performed by personalities with the Bojack Unbound Subset Symbol are focused attacks.",
     "Card Level": "3",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mn",
-    "set_id": "Kid Buu Saga",
+    "index": "M8",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "19c07b89-08c1-4ddf-a7ed-7beb69c17c5a.jpg"
   },
   {
@@ -606,8 +606,8 @@
     "Text": "Constant Combat Power: (If Bojack is your Main Personality your Allies can use this Constant Combat Power.) Personalities with the Bojack Unbound Subset Symbol can take control of Combat, even if this personality is 2 power stages above 0 or higher. All of your attacks do +3 power stages of damage, and life cards of damage from the attacks are removed from the game instead of discarded.",
     "Card Level": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mm",
-    "set_id": "Kid Buu Saga",
+    "index": "M7",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "f4ea0fb4-6cb5-4839-8fed-c0fe7ac1fee2.jpg"
   },
   {
@@ -621,8 +621,8 @@
     "Text": "When entering Combat, seearch your Life Deck for a Saiyan Style card and place it into your hand.",
     "Card Level": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "NF",
-    "set_id": "Kid Buu Saga",
+    "index": "Ma",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "7f96c397-a3b0-4ea0-a03c-3d04ea82d067.jpg"
   },
   {
@@ -636,8 +636,8 @@
     "Text": "Physical attack doing +4 power stages of damage. For the remainder of Combat, all of your Saiyan Style attacks do +3 power stages of damage, damage from your Saiyan Style attacks cannot be prevented, and life cards of damage from Saiyan Style attack are removed from the game after use instead of discarded.",
     "Card Level": "3",
     "Set": "11 - Kid Buu Saga",
-    "index": "NG",
-    "set_id": "Kid Buu Saga",
+    "index": "Mb",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "eac55158-8ae7-4aac-9823-d5748c8f1c3c.jpg"
   },
   {
@@ -651,8 +651,8 @@
     "Text": "Constant Combat Power: Whenever your anger level is raised, double the amount of anger you are raising.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "NE",
-    "set_id": "Kid Buu Saga",
+    "index": "MZ",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "23734c61-2828-40cb-808c-27892a95755b.jpg"
   },
   {
@@ -666,8 +666,8 @@
     "Text": "Physical attack doing +5 power stages of damage. This power may be used a second time this Combat. For the remainder of Combat, when your opponent plays a Combat card, he must remove the top 2 cards of his Life Deck from the game.",
     "Card Level": "4",
     "Set": "11 - Kid Buu Saga",
-    "index": "NH",
-    "set_id": "Kid Buu Saga",
+    "index": "Mc",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "498e8539-dd04-4c72-9f1c-852bee8604f1.jpg"
   },
   {
@@ -681,8 +681,8 @@
     "Text": "Energy attack doing 6 life cards of damage. If successful, you may discard a card from your hand to choose either Physical Combat, Energy Combat, or Combat cards. For the remainder of Combat, your opponent cannot use that card type unless his Main Personaliy is 5 power stages above 0 or higher.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mj",
-    "set_id": "Kid Buu Saga",
+    "index": "M4",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "4f8a8b9f-3f00-4ad6-9345-9761c89bc4f0.jpg"
   },
   {
@@ -695,8 +695,8 @@
     "Limit per Deck": "4",
     "Text": "At the end of this Combat Step, the Main Personality that has the most power stages above 0 raises his anger 2 levels (if there is a tie, nobody raises his hand). If used by Chi-Chi or Bulma, you cannot win by the MPP victory for the remainder of the game, and you advance your Main Personality 1 personality level. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mw",
-    "set_id": "Kid Buu Saga",
+    "index": "MH",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "d8ffcd3d-19a4-4268-ad73-2a17329ca7fe.jpg"
   },
   {
@@ -710,8 +710,8 @@
     "Text": "Constant Combat Power: When one of your Bulma Named cards leaves play, your opponent discards the top 4 cards of his Life Deck. Prevent 2 life cards of damage from your opponent's energy attacks.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "L5",
-    "set_id": "Kid Buu Saga",
+    "index": "KQ",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "a787fd35-c544-445a-b07a-6f18e5454ec2.jpg"
   },
   {
@@ -724,8 +724,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack. Empower 5. This attack does +3 power stages of damage. Empower 4. Gain 4 power stages. Empower 3. Raise your anger 1 level. Empower 2. Lower your opponent's anger 3 levels. Empower 1. Shuffle any cards in your discard pile with \"Charge\" in the title into your Life Deck. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "L6",
-    "set_id": "Kid Buu Saga",
+    "index": "KR",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "28a6ad2d-e2e1-4987-8d65-f9eec605a887.jpg"
   },
   {
@@ -739,8 +739,8 @@
     "Text": "Constant Combat Power: Your Allies with Saiyan Heritage cannot be discarded or removed from the game. If you have 5 or more Allies in play at the beginning of your turn, advance Chi-Chi a personality level.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "L7",
-    "set_id": "Kid Buu Saga",
+    "index": "KS",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "2dbc4f56-ef4a-491a-bc1c-b968763d8c88.jpg"
   },
   {
@@ -753,8 +753,8 @@
     "Limit per Deck": "3",
     "Text": "Remove from the game the current Battleground or Location in play. Discard up to 3 Allies in play.",
     "Set": "11 - Kid Buu Saga",
-    "index": "L8",
-    "set_id": "Kid Buu Saga",
+    "index": "KT",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "413aa898-24fd-44c6-acd3-6bbf12c62b9e.jpg"
   },
   {
@@ -767,8 +767,8 @@
     "Limit per Deck": "3",
     "Text": "(You cannot swap this card out of your Sensei Deck at the beginning of the game.) Sensei Deck only. Your opponent removes from the game the top card of his Life Deck for each power stage your Allies are above 0. Remove your Allies in play from the game.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MM",
-    "set_id": "Kid Buu Saga",
+    "index": "Lh",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "7ba3474f-6e8b-4fbc-94d2-191e420c9162.jpg"
   },
   {
@@ -781,8 +781,8 @@
     "Limit per Deck": "3",
     "Text": "Focused energy attack. Lower your opponent's anger 1 level. Empower 3. This attack does +1 life cards of damage for each card in your discard pile with \"Kamehameha\" in the title. If successful, shuffle up to 6 cards in your discard pile with \"Kamehameha\" in the title into your Life Deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "ND",
-    "set_id": "Kid Buu Saga",
+    "index": "MY",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "efcf34a4-33ea-4206-83b1-f3d11f39484d.jpg"
   },
   {
@@ -796,8 +796,8 @@
     "Text": "Endurance 1. Energy attack. Your may discard one of your Non-Combat cards in play to search your Life Deck for a Non-Combat card and place it into play. Remove from the game after use. Limit 1 per deck.",
     "Endurance": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "L9",
-    "set_id": "Kid Buu Saga",
+    "index": "KU",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "07c24f99-c9b1-4f0e-a803-282aef96b2c7.jpg"
   },
   {
@@ -810,8 +810,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +5 power stages of damage or stops a physical attack. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "KZ",
-    "set_id": "Kid Buu Saga",
+    "index": "Ju",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "d15b219e-535e-43ab-82fc-668f1b82ed47.jpg"
   },
   {
@@ -824,8 +824,8 @@
     "Limit per Deck": "1",
     "Text": "Place a Non-Dragon Ball card in your Removed From the Game Pile at the bottom of your Life Deck. Limit 1 per deck. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ly",
-    "set_id": "Kid Buu Saga",
+    "index": "LJ",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "e921a68e-c4e2-463a-83f8-629d7580ba31.jpg"
   },
   {
@@ -838,8 +838,8 @@
     "Limit per Deck": "4",
     "Text": "Physical attack doing +5 power stages of damage. If an Ally takes damage from this attack, remove that Ally from the game after the damage is dealt. If successful, choose up to 3 of your opponent's Drills in play. Your opponent cannot use those Drills until the beginning of your next turn. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "N8",
-    "set_id": "Kid Buu Saga",
+    "index": "MT",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "eae4c932-7c4a-4fa6-940e-1a8a7a118a6d.jpg"
   },
   {
@@ -853,8 +853,8 @@
     "Text": "When entering Combat, search the top 12 cards of your Life Deck for a Gohan Named card and place it into your hand. Shuffle the remaining cards back into your Life Deck. Remove 3 cards in your opponent's discard pile from the game.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lz",
-    "set_id": "Kid Buu Saga",
+    "index": "LK",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "02c9460a-23fc-443e-a78f-8b218bda9451.jpg"
   },
   {
@@ -867,8 +867,8 @@
     "Limit per Deck": "1",
     "Text": "You cannot win by the Most Powerful Personality Victory. Your opponent cannot do the following: use card effects to lower your Main Personality to lower personality levels, keep you from raising your anger, lower your anger, modify an increase of your anger. Your opponent's \"Winter Countryside\" does not affect your anger.",
     "Set": "11 - Kid Buu Saga",
-    "index": "M0",
-    "set_id": "Kid Buu Saga",
+    "index": "LL",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "b06c8cfd-28f0-4747-8203-f64a2e9eca5e.jpg"
   },
   {
@@ -881,8 +881,8 @@
     "Limit per Deck": "4",
     "Text": "Focused energy attack doing 5 life cards of damage. Until the end of your next turn, your Main personality's printed PUR is doubled.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MX",
-    "set_id": "Kid Buu Saga",
+    "index": "Ls",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "39cd0dd1-71fc-4cbb-a6f6-51edc54c9105.jpg"
   },
   {
@@ -895,8 +895,8 @@
     "Limit per Deck": "4",
     "Text": "Saiyan Heritage only. Energy attack. If successful and your opponent can win by the Most Powerful Personality Victory, lower his Main Personality 2 personality levels. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LA",
-    "set_id": "Kid Buu Saga",
+    "index": "KV",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "fb98fe90-25ad-4e0e-8ab8-e0ad2a41c31f.jpg"
   },
   {
@@ -909,8 +909,8 @@
     "Limit per Deck": "4",
     "Text": "(This card must be the first card you play during Combat.) Energy attack doing 1 power stage of damage for each Martial Arts Styled Card in your discard pile. Remove 15 Styled cards in your discard pile from the game. You cannot perform attacks for the remainder of Combat.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LB",
-    "set_id": "Kid Buu Saga",
+    "index": "KW",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "768eda8a-2aa3-4969-890c-662f33983f4f.jpg"
   },
   {
@@ -924,8 +924,8 @@
     "Text": "Constant Combat Power: When entering Combat, search your Life Deck for a Saiyan Heritage only card and place it into your hand.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "MS",
-    "set_id": "Kid Buu Saga",
+    "index": "Ln",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "b4332ebc-b7e3-448e-b90c-9d551e96f810.jpg"
   },
   {
@@ -938,8 +938,8 @@
     "Limit per Deck": "2",
     "Text": "Search your Sensei Deck for a card that performs an attack and play it during this \"Attacker Attacks\" phase. Remove from the game after use. Limit 2 per deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MZ",
-    "set_id": "Kid Buu Saga",
+    "index": "Lu",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "65156a67-082a-43f8-9ca2-051cac96c363.jpg"
   },
   {
@@ -952,8 +952,8 @@
     "Limit per Deck": "2",
     "Text": "Stops a physical or energy attack. For the remainder of Combat during your \"Defender Defends\" phase, if your opponent's Main Personality has a power rating 3 or more times higher than your Main Personality's, stops a physical or energy attack in that phase. Remove from the game after use. Limit 2 per deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "M1",
-    "set_id": "Kid Buu Saga",
+    "index": "LM",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "a2469ba1-f516-412d-acda-84e90bbef974.jpg"
   },
   {
@@ -966,8 +966,8 @@
     "Limit per Deck": "4",
     "Text": "Use when entering Combat. Instead of Drawing 3 cards from your Life Deck during your \"Defende Draws 3 Cards\" phase, you may search your Life Deck and discard pile for up to 3 Allies and place them into play at their highest power stages. The allies you place into play with this power may be one level higher than your Main Personality's current personality level.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ka",
-    "set_id": "Kid Buu Saga",
+    "index": "Jv",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "501b7301-682f-4c70-bb00-0f48fcbf94e9.jpg"
   },
   {
@@ -981,8 +981,8 @@
     "Text": "Constant Combat Power: (If this is your Main Personality's level 1, then at the beginning of the game name a personality. All of that personality's Named Cards are also considered Hercule Named Cards for the remainder of the game) Hercule can play and use \"Villains only\" cards.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "LC",
-    "set_id": "Kid Buu Saga",
+    "index": "KX",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "cc68a6b4-e11f-4320-a78b-a59f746f3bbb.jpg"
   },
   {
@@ -995,8 +995,8 @@
     "Limit per Deck": "3",
     "Text": "Heroes only. Focused energy attack doing 7 life cards of damage. If successful and performed against a Villain, you may either discard 3 of his Non-Combat cards in play or have his Main Personality lose 4 power stages.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kb",
-    "set_id": "Kid Buu Saga",
+    "index": "Jw",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "1fe41601-bcab-44e4-a8ca-c7cfa0d9f281.jpg"
   },
   {
@@ -1009,8 +1009,8 @@
     "Limit per Deck": "3",
     "Text": "Heroes only. Focused energy attack doing +1 life cards of damage for each card in your discard pile with \"Heroic\" in the title. If your opponent's Main Personality is a Villain, you may discard a Non-Combat card in play.",
     "Set": "11 - Kid Buu Saga",
-    "index": "N2",
-    "set_id": "Kid Buu Saga",
+    "index": "MN",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "cf994ef5-64a4-43e1-b4ec-3deba8b33e5f.jpg"
   },
   {
@@ -1023,8 +1023,8 @@
     "Limit per Deck": "3",
     "Text": "All PUR's gain +2. It takes only 1 life card of damage to capture a Dragon Ball instead of 5. This effect overwrites any effect that changes the life cards of damage needed to capture a Dragon Ball. You can only have 1 copy of this Drill in play at a time.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MI",
-    "set_id": "Kid Buu Saga",
+    "index": "Ld",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "392a8e3c-a0de-4f13-a795-46566fcca313.jpg"
   },
   {
@@ -1037,8 +1037,8 @@
     "Limit per Deck": "3",
     "Text": "Play when you perform an energy attack. That attack does an additional +4 life cards of damage and is a focused energy attack. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kc",
-    "set_id": "Kid Buu Saga",
+    "index": "Jx",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "294e92f6-08f1-4cd0-b6b9-412ba4f2d1d4.jpg"
   },
   {
@@ -1051,8 +1051,8 @@
     "Limit per Deck": "4",
     "Text": "(For deck construction and game play, this card's title is \"Majin Buu's Prepped Crash.\") Focused energy attack. Empower 2. If successful, choose a player and remove his discard pile from the game. Raise your anger 1 level.",
     "Set": "11 - Kid Buu Saga",
-    "index": "M5",
-    "set_id": "Kid Buu Saga",
+    "index": "LQ",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "ffda8391-8c3f-47fb-9dcd-b614d141190f.jpg"
   },
   {
@@ -1066,8 +1066,8 @@
     "Text": "(For deck construction and game play, this card's title is \"Majin Buu, Kid Buu\".) Focused physical attack doing +4 power stages of damage. If successful, search your Life Deck for a Drill and place it into play.",
     "Card Level": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "LF",
-    "set_id": "Kid Buu Saga",
+    "index": "Ka",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "8774731d-8c32-42a7-aaf1-35dd14df53ba.jpg"
   },
   {
@@ -1081,8 +1081,8 @@
     "Text": "(For deck construction and game play, this card's title is \"Majin Buu, Kid Buu\".) Focused physical attack doing +5 power stages of damage. If successful, during one of your \"Attacker Attacks\" phases this Combat, you may remove any amount of cards from any one player's discard pile. For each card removed, gain 1 power stage.",
     "Card Level": "3",
     "Set": "11 - Kid Buu Saga",
-    "index": "LG",
-    "set_id": "Kid Buu Saga",
+    "index": "Kb",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "ec0d6c43-0c9d-4f14-b473-38c2e243800e.jpg"
   },
   {
@@ -1096,8 +1096,8 @@
     "Text": "(For deck construction and game play, this card's title is \"Majin Buu, Kidd Buu\".) Focused energy attack doing +X power stages of damage, where X = the Base Damage from the Physical Attack Table. Costs 0 power stages to perform. Lower your opponent's anger 2 levels.",
     "Card Level": "4",
     "Set": "11 - Kid Buu Saga",
-    "index": "M3",
-    "set_id": "Kid Buu Saga",
+    "index": "LO",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "f932658f-471b-4bb7-abd7-f8dff006c890.jpg"
   },
   {
@@ -1111,8 +1111,8 @@
     "Text": "Constant Combat Power: (For deck construction and game play, this card's title is \"Majin Buu, Kidd Buu\".) The first attack you perform each Combat with a Martial Arts Styled card cannot be stopped.",
     "Card Level": "5",
     "Set": "11 - Kid Buu Saga",
-    "index": "M4",
-    "set_id": "Kid Buu Saga",
+    "index": "LP",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "bd991377-b14e-4c70-b3d9-d1792d4a4127.jpg"
   },
   {
@@ -1126,8 +1126,8 @@
     "Text": "(If this is one of your Main Personality levels, you may have Kid Trunks and/or Trunks personality levels for your higher personality levels. Only Kid Trunks cards are Named Card for this personality.) Energy attack doing 6 life cards of damage. Place the bottom 2 cards of your discard pile at the bottom of your Life Deck.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "LD",
-    "set_id": "Kid Buu Saga",
+    "index": "KY",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "048f5f35-72e6-4f69-8cf6-4775204d1181.jpg"
   },
   {
@@ -1141,8 +1141,8 @@
     "Text": "Energy attack doing 5 life cards of damage. Costs 1 power stage to perform. If successful and your opponent has more than 2 cards in his hand, he discards down to 2 cards in his hand.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "M2",
-    "set_id": "Kid Buu Saga",
+    "index": "LN",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "7b1b887c-b585-42c9-86df-59e4a9e3e2b8.jpg"
   },
   {
@@ -1156,8 +1156,8 @@
     "Text": "Physical attack doing +5 power stages of damage. If successful, your opponent discards a card from his hand.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mh",
-    "set_id": "Kid Buu Saga",
+    "index": "M2",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "323f9506-606b-4950-9004-34c61be16086.jpg"
   },
   {
@@ -1170,8 +1170,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +4 power stages of damage. If used by Kogu, this card can stop a physical attack instead. If used by Kogu, your opponent discards a card from his hand. If successful, search your Life Deck for an Ally and place it into play at 4 power stages above 0.",
     "Set": "11 - Kid Buu Saga",
-    "index": "N0",
-    "set_id": "Kid Buu Saga",
+    "index": "ML",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "c5486a03-261e-445c-bac1-625a1169996e.jpg"
   },
   {
@@ -1184,8 +1184,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack. Empower 3. If performed by Krillin, discard one of your opponent's Non-Comat cards in play and this attack does an additional +1 power stages of damage for each power stage your opponent's Main Personality is above 0. Raise your anger 1 level.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LE",
-    "set_id": "Kid Buu Saga",
+    "index": "KZ",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "8eb87023-a5d1-43d1-be6c-a151d4c42ee2.jpg"
   },
   {
@@ -1198,8 +1198,8 @@
     "Limit per Deck": "4",
     "Text": "Your Krillin Named cards that perform attacks do +1 power stages of damage for each other Krillin Named card in play.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mf",
-    "set_id": "Kid Buu Saga",
+    "index": "M0",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "dcd9dabe-ae48-406f-9f61-786aec586aba.jpg"
   },
   {
@@ -1212,8 +1212,8 @@
     "Limit per Deck": "4",
     "Text": "Majin Buu only. Physical attack doing +5 power stages of damage. Lower your opponent's anger 2 levels. If successful, shuffle 4 Majin Buu Named cards in your discard pile into your Life Deck. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LH",
-    "set_id": "Kid Buu Saga",
+    "index": "Kc",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "0eac8649-a14b-4ad3-9cdc-7ddaf75b77cb.jpg"
   },
   {
@@ -1226,8 +1226,8 @@
     "Limit per Deck": "4",
     "Text": "Focused energy attack doing 7 life cards of damage. Lower your opponent's anger 1 level. If successful and your opponent used Endurance against this attack, shuffle this card into your Life Deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Md",
-    "set_id": "Kid Buu Saga",
+    "index": "Ly",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "08d83e0d-5eaf-47a5-a342-bda01665b4ef.jpg"
   },
   {
@@ -1240,8 +1240,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack doing +2 life cards of damage for each card in your hand. Lower your opponent's anger 2 levels.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MU",
-    "set_id": "Kid Buu Saga",
+    "index": "Lp",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "06a7d488-26d5-4e60-8a0a-d99f481dc90f.jpg"
   },
   {
@@ -1255,8 +1255,8 @@
     "Text": "Constant Combat Power: Any power stages of damage your focused attacks would deal are life cards of damage instead. All of your physical attacks cost +2 power stages to perform.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "LI",
-    "set_id": "Kid Buu Saga",
+    "index": "Kd",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "179d89cf-a177-4fbe-833a-62c770112022.jpg"
   },
   {
@@ -1269,8 +1269,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 power stages of damage for each anger level you are above 0.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kd",
-    "set_id": "Kid Buu Saga",
+    "index": "Jy",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "2b46fb75-90dc-4010-aeb8-66b7e4a3dd46.jpg"
   },
   {
@@ -1283,8 +1283,8 @@
     "Limit per Deck": "4",
     "Text": "Discard all cards in your hand. For the remainder of Combat, all attacks performed by your Allies are focused attacks. For the remainder of Combat, if your opponent stops an attack performed by a Majin Personality, he must discard the top card of his Life Deck. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LJ",
-    "set_id": "Kid Buu Saga",
+    "index": "Ke",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "2fbd658a-b784-42ed-b668-467d058e72dc.jpg"
   },
   {
@@ -1297,8 +1297,8 @@
     "Limit per Deck": "4",
     "Text": "All of your attacks do +1 power stages of damage. When you perform an attack, remove a card in your opponent's discard pile from the game.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mv",
-    "set_id": "Kid Buu Saga",
+    "index": "MG",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "fe6bd743-554e-4e92-902a-18e71126b380.jpg"
   },
   {
@@ -1311,8 +1311,8 @@
     "Limit per Deck": "1",
     "Text": "If your Main Personality's current personality level is from the Saiyan Saga, any attacks from your Main Personality's power are unstoppable. Limit 1 per deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mc",
-    "set_id": "Kid Buu Saga",
+    "index": "Lx",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "7cf06a63-bdc8-4e89-b78f-c48bba1b8169.jpg"
   },
   {
@@ -1325,8 +1325,8 @@
     "Limit per Deck": "3",
     "Text": "If your anger level is 4, discard all of your opponent's Non-Combat cards in play.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LK",
-    "set_id": "Kid Buu Saga",
+    "index": "Kf",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "76935c66-afa3-46a8-8c4c-aef5a5b88ea1.jpg"
   },
   {
@@ -1339,8 +1339,8 @@
     "Limit per Deck": "3",
     "Text": "(This card does not count toward or against Tokui-Waza requirements. This card cannot be in your deck if you declared Freestyle Tokui-Waza. This Drill can be placed in play even if it conflicts with a Styled Drill already in play. This Drill does not keep a Drill of a different Style from being placed into play.) Your attacks do +2 power stages of damage. The power stage costs of cards you use are reduced by 1, to a minimum of 1.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ke",
-    "set_id": "Kid Buu Saga",
+    "index": "Jz",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "a33b3492-7867-410a-a47b-50077cf6f748.jpg"
   },
   {
@@ -1354,8 +1354,8 @@
     "Text": "(You may choose to play and use this card during your \"Defender Defends\" phase.) Endurance 2. Your opponent's energy attacks do a maximum of 2 life cards of damage for the remainder of Combat. Reveal the top 3 cards of your Life Deck. Your opponent chooses one of those cards to go into your hand, and the other revealed cards are removed from the game. Remove from the game after use",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "Me",
-    "set_id": "Kid Buu Saga",
+    "index": "Lz",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "391bad43-fc9c-4c6b-b201-9e34d412cf81.jpg"
   },
   {
@@ -1369,8 +1369,8 @@
     "Text": "Endurance 2. Physical attack doing +5 power stages of damage. For the remainder of Combat, your opponent cannot put cards into his Life Deck from card effects. Lower your opponent's anger 1 level.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kf",
-    "set_id": "Kid Buu Saga",
+    "index": "K0",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "9ad555eb-dd54-45ae-bece-0f404542d8f9.jpg"
   },
   {
@@ -1383,8 +1383,8 @@
     "Limit per Deck": "3",
     "Text": "Sensei Deck. Physical attack doing +3 power stages of damage. If you declared a Tokui-Waza and your opponent declared a Saiyan Tokui-Waza, for the remainder of Combat you take a maximum of 3 power stages of damage from your opponent's attacks.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ms",
-    "set_id": "Kid Buu Saga",
+    "index": "MD",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "46f9790c-f6f1-4c25-919f-87fb2c3aef3d.jpg"
   },
   {
@@ -1398,8 +1398,8 @@
     "Text": "Endurance 2. Focused physical attack doing +3 power stages of damage. If successful, discard up to 4 of your opponent's Allies in play. Lower your opponent's anger 2 levels.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "LL",
-    "set_id": "Kid Buu Saga",
+    "index": "Kg",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "21e3e22a-3445-4953-80d0-9a0276f5d3b4.jpg"
   },
   {
@@ -1412,8 +1412,8 @@
     "Limit per Deck": "3",
     "Text": "(This card does not count toward or against Tokui-Waza requirements. This card cannot be in your deck if you declared Freestyle Tokui-Waza. This Drill can be placed in play even if it conflicts with a Styled Drill already in play. This Drill does not keep a Drill of a different Style from being placed into play.) Your attacks do +2 power stages of damage. Your Main Personality's PUR is +2.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kg",
-    "set_id": "Kid Buu Saga",
+    "index": "K1",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "0ea8384d-5359-480c-805f-40e219d31874.jpg"
   },
   {
@@ -1426,8 +1426,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +2 power stages of damage. Empower 4. If you perform a physical attack that uses the Physical Attack Table in your next \"Attacker Attacks\" phase, the Base Damage of that physical attack is 6.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LM",
-    "set_id": "Kid Buu Saga",
+    "index": "Kh",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "8c3b11b3-5201-4f42-9776-d7016c5e00e2.jpg"
   },
   {
@@ -1440,8 +1440,8 @@
     "Limit per Deck": "3",
     "Text": "Your Main Personality's PUR is +1. Your Defense Shields can stop focused attacks.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kh",
-    "set_id": "Kid Buu Saga",
+    "index": "K2",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "700e2511-d440-4828-aef0-80380dce68c1.jpg"
   },
   {
@@ -1454,8 +1454,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 power stages of damage. Empower 4. For the remainder of Combat, when you use Endurance your opponent discards the top card of his Life Deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "M6",
-    "set_id": "Kid Buu Saga",
+    "index": "LR",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "7447fb84-97e7-4422-be19-db97d5d9aa32.jpg"
   },
   {
@@ -1468,8 +1468,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 6 life cards of damage. Costs 4 power stages to perform. You may choose to search your Life Deck for a \"Sensei Deck only\" card, show it to your opponent, and place it into your hand, or you may choose to make this a focused attack. Raise your anger 1 level.",
     "Set": "11 - Kid Buu Saga",
-    "index": "M7",
-    "set_id": "Kid Buu Saga",
+    "index": "LS",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "5f4b563a-7beb-4c5f-abc6-a815962f5af9.jpg"
   },
   {
@@ -1483,8 +1483,8 @@
     "Text": "Endurance 2. Focused energy attack doing 6 life cards of damage. If the defending personality has more power stages above 0 than the attacking personality, lower the defending personality to the same amount of power stages above 0 as the attacking personality.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "M8",
-    "set_id": "Kid Buu Saga",
+    "index": "LT",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "3c82461b-afd8-4da6-a44f-20b3b72857aa.jpg"
   },
   {
@@ -1498,8 +1498,8 @@
     "Text": "Endurance 2. Physical attack doing +4 power stages of damage. For the remainder of Combat, damage from your attacks cannot be prevented. Empower 2. If successful, remove from the game all Freestyle Drills in play.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "M9",
-    "set_id": "Kid Buu Saga",
+    "index": "LU",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "5736b1b6-776f-4feb-927d-8953477cf8e8.jpg"
   },
   {
@@ -1512,8 +1512,8 @@
     "Limit per Deck": "3",
     "Text": "Focused energy attack. For the remainder of Combat, you may discard a card from your hand during your \"Attacker Attacks\" phase to perform an energy attack doing 5 life cards of damage that costs 2 power stages to perform, or a physical attack doing +3 power stages of damage.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LN",
-    "set_id": "Kid Buu Saga",
+    "index": "Ki",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "543e1bd3-9e9e-4ce2-98c0-dc03ad1095dd.jpg"
   },
   {
@@ -1526,8 +1526,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack. Empower 3. Discard up to 3 of your opponent's Drills in play. The next time you use Endurance this Combat, prevent the rest of the damage the attack would have dealt.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LO",
-    "set_id": "Kid Buu Saga",
+    "index": "Kj",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "125751f0-4e30-4ede-ae13-e2bb62ae984a.jpg"
   },
   {
@@ -1541,8 +1541,8 @@
     "Text": "Endurance 3. Physical attack doing +3 power stages of damage. For the remainder of Combat, you may discard one of your Drills during your \"Attacker Attacks\" phase to perform a physical attack doing +3 power stages of damage.",
     "Endurance": "3",
     "Set": "11 - Kid Buu Saga",
-    "index": "LP",
-    "set_id": "Kid Buu Saga",
+    "index": "Kk",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "b0944bec-e35f-43d9-9dc6-63c301e03970.jpg"
   },
   {
@@ -1555,8 +1555,8 @@
     "Limit per Deck": "3",
     "Text": "If your Main Personality's power rating is 3 or more times higher than your opponent's Main Personality's power rating, your opponent discards the top 5 cards of his Life Deck. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ki",
-    "set_id": "Kid Buu Saga",
+    "index": "K3",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "180870c0-c03e-46b4-9d5f-113246bb5c6f.jpg"
   },
   {
@@ -1569,8 +1569,8 @@
     "Limit per Deck": "4",
     "Text": "Focused physical attack doing 5 power stages of damage. If your opponent's Main Personality's power rating is 3 or more times larger than your Main Personality's power rating, prevent 3 life cards of damage from your opponent's attacks for the remainder of Combat.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kj",
-    "set_id": "Kid Buu Saga",
+    "index": "K4",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "e69b2a66-66f3-4945-b9c3-dd21fe04a817.jpg"
   },
   {
@@ -1583,8 +1583,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack doing 5 life cards of damage. Empower 2. Raise your anger 1 level. Lower your opponent's anger 3 levels.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MP",
-    "set_id": "Kid Buu Saga",
+    "index": "Lk",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "4722178e-4cc6-4196-a597-3808e6cc6976.jpg"
   },
   {
@@ -1598,8 +1598,8 @@
     "Text": "Shuffle 1 card in your discard pile into your Life Deck for each Saiyan Heritage personality you have in play.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "LQ",
-    "set_id": "Kid Buu Saga",
+    "index": "Kl",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "59be6535-ff12-4e8a-9df2-6f577d6bbdf8.jpg"
   },
   {
@@ -1612,8 +1612,8 @@
     "Limit per Deck": "1",
     "Text": "When you swap cards from your Sensei Deck before the beginning of the game, search your Life Deck for the cards that will be swapped instead of taking them from the top of your Life Deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MN",
-    "set_id": "Kid Buu Saga",
+    "index": "Li",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "f36cfdf1-d23a-4025-9232-526d0432c340.jpg"
   },
   {
@@ -1626,8 +1626,8 @@
     "Limit per Deck": "3",
     "Text": "Majin only. For the remainder of Combat, your opponent's energy attacks do a maximum of X life cards of damage. X = the number of power stages the attacking personality is above 0. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LR",
-    "set_id": "Kid Buu Saga",
+    "index": "Km",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "f3db9d3f-a99e-4171-aed4-b0c0f4fbe58d.jpg"
   },
   {
@@ -1640,8 +1640,8 @@
     "Limit per Deck": "3",
     "Text": "Shuffle 1 card in your discard pile into your Life Deck for each Namek Dragon Ball you have in play. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ma",
-    "set_id": "Kid Buu Saga",
+    "index": "Lv",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "ae2fc481-f9c5-431b-aa6c-0fbc22399f53.jpg"
   },
   {
@@ -1654,8 +1654,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +4 power stages of damage. Discard the top card of your Life Deck. If the card you discarded has \"Tokui-Waza\" printed in the power box, this attack does an additional +6 power stages of damage. Lower your opponent's anger 2 levels.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LS",
-    "set_id": "Kid Buu Saga",
+    "index": "Kn",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "d083b773-c1e4-43ec-8d2f-8765ed3232b8.jpg"
   },
   {
@@ -1668,8 +1668,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +8 power stages of damage. Gain 3 power stages. Damage from this attack is removed from the game instead of discarded.",
     "Set": "11 - Kid Buu Saga",
-    "index": "N9",
-    "set_id": "Kid Buu Saga",
+    "index": "MU",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "d977c528-bd3e-44bf-9802-4bd9b50eab54.jpg"
   },
   {
@@ -1682,8 +1682,8 @@
     "Limit per Deck": "3",
     "Text": "Your opponent cannot keep you from using your personality powers. When your opponent decides to skip the Combat Step during his Declare Step, he must discard the top card of his Life Deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LT",
-    "set_id": "Kid Buu Saga",
+    "index": "Ko",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "9206316b-3f53-42fb-92fa-4b21e85f3187.jpg"
   },
   {
@@ -1697,8 +1697,8 @@
     "Text": "Endurance 2. Physical attack doing +4 power stages of damage. Place the top 3 Martial Arts Styled cards in your discard pile at the top of your Life Deck. Remove from the game after use.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "MW",
-    "set_id": "Kid Buu Saga",
+    "index": "Lr",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "d949a907-17af-46fb-afc9-62da3b34fe67.jpg"
   },
   {
@@ -1711,8 +1711,8 @@
     "Limit per Deck": "3",
     "Text": "Instead of drawing 3 cards during the \"Defender Draws 3 Cards\" Phase, you may draw an amount of cards equal to your Main Personality's current personality level.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LU",
-    "set_id": "Kid Buu Saga",
+    "index": "Kp",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "7106dbc2-3aab-4750-8732-8710ab54e6a0.jpg"
   },
   {
@@ -1725,8 +1725,8 @@
     "Limit per Deck": "4",
     "Text": "Your opponent's non-damage card effects cannot discard or remove cards from your Life Deck. Your personality powers do not discard cards from your Life Deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LV",
-    "set_id": "Kid Buu Saga",
+    "index": "Kq",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "d4ea03b7-69e1-47b7-9e6c-8e8f20fc6ac4.jpg"
   },
   {
@@ -1739,8 +1739,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +4 power stages of damage. Remove from the game 3 cards in your opponent's Sensei Deck at random. If your opponent has a Sensei but no cards in his Sensei Deck, your opponent discards the top 8 cards of his Life Deck. Raise your anger 1 level.",
     "Set": "11 - Kid Buu Saga",
-    "index": "LW",
-    "set_id": "Kid Buu Saga",
+    "index": "Kr",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "12b79578-ed6f-46e8-b0f6-971359bc3222.jpg"
   },
   {
@@ -1753,8 +1753,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +4 power stages of damage. If you declared a Tokui-Waza and your opponent has a Sensei, you may place your opponent's Non-Combat or Ally cards in play into his Sensei Deck one at a time until he either has no more Non-Combat and Ally cards in play or until his Sensei Deck has reached its maximum size (whichever happens first).",
     "Set": "11 - Kid Buu Saga",
-    "index": "LX",
-    "set_id": "Kid Buu Saga",
+    "index": "Ks",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "1a974b0f-fe50-4b4a-a19d-6f511a12cbf7.jpg"
   },
   {
@@ -1767,8 +1767,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +6 power stages of damage. Raise your anger 1 level. Choose a Red Style attack in your discard pile except \"Red Axe Heel Kick\" and place it into your hand. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MA",
-    "set_id": "Kid Buu Saga",
+    "index": "LV",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "96fc74fe-5fee-4c86-91ed-fba3afc11a91.jpg"
   },
   {
@@ -1781,8 +1781,8 @@
     "Limit per Deck": "3",
     "Text": "All of your attacks do +2 life cards of damage. When you stop an attack, remove from the game 1 card from your opponent's Sensei Deck at random.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kk",
-    "set_id": "Kid Buu Saga",
+    "index": "K5",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "c4688059-984d-49fe-9b1e-09f377dc829e.jpg"
   },
   {
@@ -1796,8 +1796,8 @@
     "Text": "Endurance 2. Stops an energy attack. Remove from the game 3 cards from your opponent's Sensei Deck at random. Lower your opponent's anger 1 level. If this card stopped a focused attack, it stays on the table to be used one more time this Combat. Remove from the game after use.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "LY",
-    "set_id": "Kid Buu Saga",
+    "index": "Kt",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "e2afc5c7-36ef-4d46-8cdb-b7aa6439532a.jpg"
   },
   {
@@ -1810,8 +1810,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +4 power stages of damage. Raise your anger 1 level. Empower 2. Search your opponent's Life Deck for up to 2 \"Sensei Deck only\" cards and discard them,",
     "Set": "11 - Kid Buu Saga",
-    "index": "LZ",
-    "set_id": "Kid Buu Saga",
+    "index": "Ku",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "fcba4307-8394-48c6-9e93-fd6654173ea9.jpg"
   },
   {
@@ -1824,8 +1824,8 @@
     "Limit per Deck": "3",
     "Text": "You do not take damage from attacks with a Base Damage of 0. When you perform an attack, remove a card in your opponent's Sensei Deck at random from the game.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MB",
-    "set_id": "Kid Buu Saga",
+    "index": "LW",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "d6fde1f2-2d15-4937-aaab-7c33962c67c6.jpg"
   },
   {
@@ -1838,8 +1838,8 @@
     "Limit per Deck": "3",
     "Text": "(This card does not count toward or against Tokui-Waza requirements. This card cannot be in your deck if you declared Freestyle Tokui-Waza. This Drill can be placed in play even if it conflicts with a Styled Drill already in play. This Drill does not keep a Drill of a different Style from being placed into play.) Your attacks do +2 power stages of damage. At the beginning of your turn, remove the bottom 3 cards of your opponent's discard pile from the game.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kl",
-    "set_id": "Kid Buu Saga",
+    "index": "K6",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "4ffe0b00-469b-4b10-b9b6-a452627fd11f.jpg"
   },
   {
@@ -1853,8 +1853,8 @@
     "Text": "Endurance 2. Energy attack doing 6 life cards of damage. Damage from this attack is removed from the game instead of discarded. Draw the bottom card of your Life Deck. Remove from the game after use.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "MC",
-    "set_id": "Kid Buu Saga",
+    "index": "LX",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "bddd2155-a83e-4bfd-ac21-afb886b915af.jpg"
   },
   {
@@ -1867,8 +1867,8 @@
     "Limit per Deck": "3",
     "Text": "Sensei Deck. Energy attack doing 6 life cards of damage. Empower 2. If you declared a Tokui-Waza and your opponent declared an Orange Tokui-Waza, remove from the game one of your opponent's Non-Combat cards in play, and remove from the game all cards in your opponent's Sensei Deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mt",
-    "set_id": "Kid Buu Saga",
+    "index": "ME",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "f42552cf-32cf-4e84-9aef-c04e78408e6b.jpg"
   },
   {
@@ -1882,8 +1882,8 @@
     "Text": "Endurance 2. If your opponent has a Sensei Deck, look and choose one Non-Personality card in his Sensei Deck and play it during this \"Attacker Attacks\" phase. If it is a Non-Combat, or Dragon Ball, you may place that card into play. (The card goes back to the owner once it leaves play.)",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "La",
-    "set_id": "Kid Buu Saga",
+    "index": "Kv",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "976ede91-3e32-4bec-9f48-71c9c799b753.jpg"
   },
   {
@@ -1896,8 +1896,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 life cards of damage. Raise your anger 1 level. For the remainder of Combat, all of your other Red Style attacks are focused attacks.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Km",
-    "set_id": "Kid Buu Saga",
+    "index": "K7",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "10d93ee8-1cf1-429d-a7dd-e199463cf773.jpg"
   },
   {
@@ -1911,8 +1911,8 @@
     "Text": "Endurance 2. Physical attack doing +4 power stages of damage. If you declared a Tokui-Waza, for the remainder of Combat, any Red Style attacks you perform with cards from your hand are considered to have \"Sword\" in the title until they leave play. Raise your anger 1 level. Lower your opponent's anger 1 level.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lb",
-    "set_id": "Kid Buu Saga",
+    "index": "Kw",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "71b09c8a-aea1-4a9c-8c28-4cede5c20a79.jpg"
   },
   {
@@ -1925,8 +1925,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +3 power stages of damage. Attach this card to one of your Red Style cards in play that adds damage to your attacks but does not have a copy of \"Red Thunder Clap\" attached already. While attached, double the amount of additional damage the attached card would give you.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lc",
-    "set_id": "Kid Buu Saga",
+    "index": "Kx",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "1e6fcde9-8a48-4745-813b-8ba39c0641b5.jpg"
   },
   {
@@ -1939,8 +1939,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack. Raise your anger 1 level. For the remainder of Combat, all of your other Red Style energy attacks that do not stay on the table to be used again this Combat, stay on the table to be used 1 more time this Combat, and gain \"Remove from the game after use.\" Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MD",
-    "set_id": "Kid Buu Saga",
+    "index": "LY",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "13264dac-361c-4aa6-baec-8a41f4021593.jpg"
   },
   {
@@ -1953,8 +1953,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +5 power stages of damage. For the remainder of Combat, when you use a Saiyan Style card to perform an attack, it is placed on the bottom of your Life Deck after use instead of being discarded or removed.",
     "Set": "11 - Kid Buu Saga",
-    "index": "ME",
-    "set_id": "Kid Buu Saga",
+    "index": "LZ",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "8fd4dfe7-04d4-4621-b925-85e41d954350.jpg"
   },
   {
@@ -1967,8 +1967,8 @@
     "Limit per Deck": "3",
     "Text": "(This card does not count toward or against Tokui-Waza requirements. This card cannot be in your deck if you declared Freestyle Tokui-Waza. This Drill can be placed in play even if it conflicts with a Styled Drill already in play. This Drill does not keep a Drill of a different Style from being placed into play.) All of your attacks do +2 power stages of damage. All of your opponent's personalities gain 1 less power stage to a minimum of 0 when they power up during the Power Up Step.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kn",
-    "set_id": "Kid Buu Saga",
+    "index": "K8",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "0168c8a9-181e-4df3-9d54-60d2f6dd54d4.jpg"
   },
   {
@@ -1981,8 +1981,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 power stages of damage. Empower 2. Your opponent's personalities cannot gain power stages until the end of your next turn. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MF",
-    "set_id": "Kid Buu Saga",
+    "index": "La",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "d6e0afec-dc4e-492d-aee0-ce1a211d5d92.jpg"
   },
   {
@@ -1995,8 +1995,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical or energy attack. Raise your anger 1 level. You may search your Life Deck for \"Saiyan Truce Card\" and place it into your hand. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ld",
-    "set_id": "Kid Buu Saga",
+    "index": "Ky",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "1c7565f6-6c20-46c4-aa1d-6ca7ac17b3b6.jpg"
   },
   {
@@ -2009,8 +2009,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +8 power stages of damage. Raise your anger 1 level.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ko",
-    "set_id": "Kid Buu Saga",
+    "index": "K9",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "3c357acb-6910-4f71-a459-38ad21638686.jpg"
   },
   {
@@ -2024,8 +2024,8 @@
     "Text": "Endurance 4. Energy attack doing 5 life cards of damage. For the remainder of Combat, any fo your Saiyan Style attacks that have Empower are focused attacks. Raise your anger 1 level.",
     "Endurance": "4",
     "Set": "11 - Kid Buu Saga",
-    "index": "Le",
-    "set_id": "Kid Buu Saga",
+    "index": "Kz",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "fe716d0d-fa03-46e7-82fb-43a60001e524.jpg"
   },
   {
@@ -2038,8 +2038,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack. Raise your anger 1 level. Empower 4. For the remainder of Combat, damage from your attacks cannot be prevented and any life cards of damage your attacks deal are removed from the game instead of discarded.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lf",
-    "set_id": "Kid Buu Saga",
+    "index": "L0",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "21436a50-076c-4be9-b617-a064af367aea.jpg"
   },
   {
@@ -2053,8 +2053,8 @@
     "Text": "Endurance 2. Physical attack doing +5 power stages of damage. If successful, raise your anger 1 level for each Dragon Ball you control.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "MG",
-    "set_id": "Kid Buu Saga",
+    "index": "Lb",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "df3cc3b9-b2ac-40d7-8ab0-100b7a930956.jpg"
   },
   {
@@ -2067,8 +2067,8 @@
     "Limit per Deck": "3",
     "Text": "Sensei Deck. Your opponent's attacks cost an additional +1 power stages to perform. If your opponent declared a Namekian Tokui-Waza, his attacks cost +2 power stages instead.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lg",
-    "set_id": "Kid Buu Saga",
+    "index": "L1",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "6fc04bf0-a299-4aa7-b34a-9da2752dd957.jpg"
   },
   {
@@ -2081,8 +2081,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +3 power stages of damage. Search your Life Deck for a Saiyan Style Drill and place it into play. If successful, your opponent's Main Personality's PUR is set to 0 until the end of his next turn and cannot be modified by other effects.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MH",
-    "set_id": "Kid Buu Saga",
+    "index": "Lc",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "1c47e266-5399-4221-b963-1cf5c0133843.jpg"
   },
   {
@@ -2095,8 +2095,8 @@
     "Limit per Deck": "3",
     "Text": "Sensei Deck. Physical attack doing +4 power stages of damage. Empower 2. If you declared a Tokui-Waza and your opponent declared a Black Tokui-Waza, for the remainder of Combat, when your opponent uses non-damage card effects to discard or remove from the game any of your cards, he discards the top 3 cards of his Life Deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mq",
-    "set_id": "Kid Buu Saga",
+    "index": "MB",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "e9e49aad-c350-4e54-9bc3-87a1c5f9bdef.jpg"
   },
   {
@@ -2109,8 +2109,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical or energy attack. Gain 7 power stages.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kp",
-    "set_id": "Kid Buu Saga",
+    "index": "KA",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "b7431d34-7bf6-412a-a10f-fd5c284d1ef3.jpg"
   },
   {
@@ -2124,8 +2124,8 @@
     "Text": "Endurance 2. Physical attack doing +4 power stages of damage. Shuffle 3 Saiyan Style cards in your discard pile into your Life Deck. Remove from the game after use.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lh",
-    "set_id": "Kid Buu Saga",
+    "index": "L2",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "54d5c5c6-0b7f-479f-b029-f3cb90f38f5d.jpg"
   },
   {
@@ -2138,8 +2138,8 @@
     "Limit per Deck": "3",
     "Text": "When a player puts an Ally into play, his opponent discards the top card of his Life Deck. Allies placed into play start at 6 power stages above 0 unless another card affect says otherwise.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mp",
-    "set_id": "Kid Buu Saga",
+    "index": "MA",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "a4730d7f-73ae-4256-9367-5af2e87f3c26.jpg"
   },
   {
@@ -2152,8 +2152,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing 4 times the Base Damage. Costs 5 power stages to perform.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kq",
-    "set_id": "Kid Buu Saga",
+    "index": "KB",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "00f5edfc-714f-4f32-a46c-dc492f86ee44.jpg"
   },
   {
@@ -2166,8 +2166,8 @@
     "Limit per Deck": "3",
     "Text": "Use when you perform a physical attack with a Martial Arts Styled card. This physical attack is now a focused attack. Raise your anger 1 level.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MY",
-    "set_id": "Kid Buu Saga",
+    "index": "Lt",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "2091a3f7-822c-4025-8a8c-573e737798fa.jpg"
   },
   {
@@ -2180,8 +2180,8 @@
     "Limit per Deck": "3",
     "Text": "Draw a card.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MR",
-    "set_id": "Kid Buu Saga",
+    "index": "Lm",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "70984b4f-d286-45b0-b198-de940ae9b5ea.jpg"
   },
   {
@@ -2194,8 +2194,8 @@
     "Limit per Deck": "3",
     "Text": "If you have 2 other copies of \"The Help of Earth\" and/or \"Energy Gathering\" in play, search your Sensei Deck for \"Earth's Spirit Bomb\" and place it into your hand.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Kr",
-    "set_id": "Kid Buu Saga",
+    "index": "KC",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "8e6ea75e-db8e-4b57-bba1-17ee64b5c8f0.jpg"
   },
   {
@@ -2208,8 +2208,8 @@
     "Limit per Deck": "3",
     "Text": "Your opponent discards the top card of his Life Deck for each Earth Dragon Ball you control. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MT",
-    "set_id": "Kid Buu Saga",
+    "index": "Lo",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "e4f1d6bc-5e7d-4f9c-b1e8-9bee977a9312.jpg"
   },
   {
@@ -2222,8 +2222,8 @@
     "Limit per Deck": "4",
     "Text": "Attach to your Main Personality. While attached, any attacks performed by cards with \"Sword\" in the title do +3 life cards of damage, and damage from those attacks are removed from the game instead of discarded. You can only have one \"The Sword of Trunks\" attached at a time.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mo",
-    "set_id": "Kid Buu Saga",
+    "index": "M9",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "2d8b3247-6643-44cd-a0cd-c734432c71ee.jpg"
   },
   {
@@ -2236,8 +2236,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack. Lower your opponent's anger 1 level. If performed by Tien, you may remove from the game 4 Tien Named cards in your discard pile to place this card into your hand after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mx",
-    "set_id": "Kid Buu Saga",
+    "index": "MI",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "3eed18e6-0557-4459-a0d8-9ada85c21f8b.jpg"
   },
   {
@@ -2251,8 +2251,8 @@
     "Text": "Endurance 2. Energy attack doing +2 life cards of damage for each Ally in play with the Bojack Unbound Subset Symbol. Raise your anger 1 level. This card stays on the table to be used 1 more time by an Ally with the Bojack Unbound Subset Symbol. Remove from the game after use.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "N3",
-    "set_id": "Kid Buu Saga",
+    "index": "MO",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "f715c8e3-eb09-42a5-81b9-00499b2b8a91.jpg"
   },
   {
@@ -2265,8 +2265,8 @@
     "Limit per Deck": "4",
     "Text": "Physical attack doing 7 power stages of damage. If used by Trunks, gain 5 power stages and if successful, capture a Dragon Ball.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MO",
-    "set_id": "Kid Buu Saga",
+    "index": "Lj",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "f00b25a2-2a27-425d-827d-94780a81e0a4.jpg"
   },
   {
@@ -2280,8 +2280,8 @@
     "Text": "Endurance 2. Physical attack doing +4 power stages of damage. Raise your anger 1 level. If used by Trunks and you stopped an opponent's attack during his previous \"Attacker Attacks\" phase, your opponent must pass during his next \"Attacker Attacks\" phase.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "My",
-    "set_id": "Kid Buu Saga",
+    "index": "MJ",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "98535fda-740e-454b-803e-b27e384e17c6.jpg"
   },
   {
@@ -2294,8 +2294,8 @@
     "Limit per Deck": "4",
     "Text": "Focused physical attack doing +4 power stages of damage. Raise your anger 1 level. You may discard any cards that perform attacks from your hand to add the damage modifier from those attacks to this attack.",
     "Set": "11 - Kid Buu Saga",
-    "index": "N1",
-    "set_id": "Kid Buu Saga",
+    "index": "MM",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "84e0207f-67e2-4834-8207-1bc1dd747d28.jpg"
   },
   {
@@ -2309,8 +2309,8 @@
     "Text": "When entering Combat, search the top 8 cards of your Life Deck for a card with \"Sword\" and/or \"Swordplay\" in the title and place it into your hand. Shuffle the rest of the cards back into your Life Deck. If you searched for a card with \"Swordplay\" in the title, you may place it into play instead.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mg",
-    "set_id": "Kid Buu Saga",
+    "index": "M1",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "227efbd4-5ca9-4b5a-ac3e-afc41676f46e.jpg"
   },
   {
@@ -2323,8 +2323,8 @@
     "Limit per Deck": "3",
     "Text": "(When your opponent uses a non-damage card effect that discards or removes from the game the top cards of your Life Deck, you may discard this card from your hand to reduce that amount of cards by 10 to a minimum of 0.) Stops a physical or energy attack. You may discard a card from your hand to have this card stop a focused attack instead.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Li",
-    "set_id": "Kid Buu Saga",
+    "index": "L3",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "88af3f1c-d5b2-4af2-a69a-8346335e9337.jpg"
   },
   {
@@ -2337,8 +2337,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +3 power stages of damage and +3 life cards of damage. If successful, end Combat.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lj",
-    "set_id": "Kid Buu Saga",
+    "index": "L4",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "d4b731b4-bfb0-4e3e-b137-a2e7a48a5a3f.jpg"
   },
   {
@@ -2352,8 +2352,8 @@
     "Text": "Constant Combat Power: Your attacks do +1 power stages of damage. All life cards of damage from attacks you perform are removed from the game instead of discarded (your opponent can still use the Endurance on those cards).",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lk",
-    "set_id": "Kid Buu Saga",
+    "index": "L5",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "a408accb-dc05-43ab-b937-8156e39a0e87.jpg"
   },
   {
@@ -2367,8 +2367,8 @@
     "Text": "Endurance 2. Focused physical attack doing +3 power stages of damage. Empower 3. Raise your anger 1 level. Lower your opponent's anger 1 level. Discard an Ally in play. Gain 3 power stages. Place at the bottom of your Life Deck after use.",
     "Endurance": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mb",
-    "set_id": "Kid Buu Saga",
+    "index": "Lw",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "0ac9f838-4a85-4e61-a510-6c472448f73a.jpg"
   },
   {
@@ -2381,8 +2381,8 @@
     "Limit per Deck": "1",
     "Text": "Your energy attacks do an additional +X life cards of damage, where X is the PUR of the personality performing the attack. Limit 1 per deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MQ",
-    "set_id": "Kid Buu Saga",
+    "index": "Ll",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "0e790abe-f11c-472e-9b30-3f0e5734efd9.jpg"
   },
   {
@@ -2396,8 +2396,8 @@
     "Text": "Constant Combat Power: All life cards of damage from attacks you perform are removed from the game instead of discarded. Your opponent cannot use Endurance. All of your attacks do +3 life cards of damage. All costs for your cards that are power stages are reduced by 1 to a minimum of 0. All of your Styled attacks are focused attacks.",
     "Card Level": "3",
     "Set": "11 - Kid Buu Saga",
-    "index": "MJ",
-    "set_id": "Kid Buu Saga",
+    "index": "Le",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "b18e7604-0c6b-4642-b852-8cce1c1139ce.jpg"
   },
   {
@@ -2411,8 +2411,8 @@
     "Text": "Constant Combat Power: All life cards of damage from attacks you perform are removed from the game instead of discarded. Your opponent cannot use Endurance. All power stage costs for your cards are reduced by 1, to a minimum of 0.",
     "Card Level": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ll",
-    "set_id": "Kid Buu Saga",
+    "index": "L6",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "fc20a266-8d31-4649-8b17-fc9cbe2fe741.jpg"
   },
   {
@@ -2426,8 +2426,8 @@
     "Text": "Sensei Deck. Endurance 3. Physical attack. If you declared a Freestyle Tokui-Waza and your opponent declared a Red Tokui-Waza, lower your opponent's Main Personality 1 personality level, and he cannot raise his anger for the remainder of the turn.",
     "Endurance": "3",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mr",
-    "set_id": "Kid Buu Saga",
+    "index": "MC",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "113340c6-5ce4-4cbf-8f70-d56e597ea2de.jpg"
   },
   {
@@ -2440,8 +2440,8 @@
     "Limit per Deck": "4",
     "Text": "Place a Non-Combat card from your hand into play.",
     "Set": "11 - Kid Buu Saga",
-    "index": "MV",
-    "set_id": "Kid Buu Saga",
+    "index": "Lq",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "bb2022af-c03f-42c1-9e9c-2325e9b8ff90.jpg"
   },
   {
@@ -2454,8 +2454,8 @@
     "Limit per Deck": "4",
     "Text": "Vegeta only. Choose 3 Vegeta Named cards that are removed from the game and shuffle them into your Life Deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lm",
-    "set_id": "Kid Buu Saga",
+    "index": "L7",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "37bc5cf7-d51e-4968-b3c1-c04c3e49e9ce.jpg"
   },
   {
@@ -2469,8 +2469,8 @@
     "Text": "Constant Combat Power: Your opponent cannot play and use Combat cards. All of your attacks do +2 life cards of damage.",
     "Card Level": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "MK",
-    "set_id": "Kid Buu Saga",
+    "index": "Lf",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "fe402734-aa7d-4154-8db3-8dafb1efdb8c.jpg"
   },
   {
@@ -2484,8 +2484,8 @@
     "Text": "Constant Combat Power: If you declared a Tokui-Waza, any attacks you perform against Majins are focused attacks. Your Gohan may take control of Combat for Videl, even if Videl is higher than 1 power stage above 0.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "Ln",
-    "set_id": "Kid Buu Saga",
+    "index": "L8",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "aa5046cd-e956-44b6-80df-484efa6f4bc4.jpg"
   },
   {
@@ -2498,8 +2498,8 @@
     "Limit per Deck": "1",
     "Text": "Energy attack. If your opponent has more Drills in play than you, you may search your Life Deck for a Drill and place it into play until you have the same number of Drills in play as your opponent, or until you have no more Drills in your Life Deck that are playable (whichever happens first). Limit 1 per deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "ML",
-    "set_id": "Kid Buu Saga",
+    "index": "Lg",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "bdc0e2cc-31ad-4868-993a-26fa12b99199.jpg"
   },
   {
@@ -2512,8 +2512,8 @@
     "Limit per Deck": "3",
     "Text": "When you place an Ally into play, your opponent discards the top card of his Life Deck.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lo",
-    "set_id": "Kid Buu Saga",
+    "index": "L9",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "544fc8d6-defa-4b0a-9607-7f5089b8fe15.jpg"
   },
   {
@@ -2527,8 +2527,8 @@
     "Text": "Choose a Non-Combat/Non-Drill card in your discard pile that is not limit 1 per deck or restricted and place it into play.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lp",
-    "set_id": "Kid Buu Saga",
+    "index": "LA",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "1378686e-02db-445b-8bd5-88f5ddf50584.jpg"
   },
   {
@@ -2542,8 +2542,8 @@
     "Text": "Focused energy attack doing 5 life cards of damage. If successful, discard one of your opponent's Allies or Drills in play.",
     "Card Level": "2",
     "Set": "11 - Kid Buu Saga",
-    "index": "Lq",
-    "set_id": "Kid Buu Saga",
+    "index": "LB",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "f53fd960-6d52-47bb-9c2c-d072b9bc4051.jpg"
   },
   {
@@ -2557,8 +2557,8 @@
     "Text": "Energy attack doing 6 life cards of damage. If successful, discard one of your opponent's Allies in play.",
     "Card Level": "1",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mi",
-    "set_id": "Kid Buu Saga",
+    "index": "M3",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "fe1da5dc-f7a2-4beb-9da7-12903256811d.jpg"
   },
   {
@@ -2571,8 +2571,8 @@
     "Limit per Deck": "3",
     "Text": "(You may use this card when entering Combat.) If your Main Personality and at least 2 of your Allies have the Bojack Unbound Subset Symbol, your opponent cannot use powers and Constant Combat Powers for the remainder of this turn. Shuffle 2 cards in your discard pile into your Life Deck. Remove from the game after use.",
     "Set": "11 - Kid Buu Saga",
-    "index": "N7",
-    "set_id": "Kid Buu Saga",
+    "index": "MS",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "d3962777-f14f-44a3-9dcb-d8eb0da0e0ce.jpg"
   },
   {
@@ -2585,8 +2585,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +4 power stages of damage. If used by Zangya, for the remainder of Combat your opponent's Allies cannot have damage redirected to them. If successful, search your Life Deck for an Ally and place it into play at 4 power stages above 0.",
     "Set": "11 - Kid Buu Saga",
-    "index": "Mz",
-    "set_id": "Kid Buu Saga",
+    "index": "MK",
+    "set_id": "4cfe18bb-9de6-4e31-89c6-0ec76650429d",
     "image": "d9f9f50a-c09d-4d1f-8580-79affc9b254b.jpg"
   }
 ]
