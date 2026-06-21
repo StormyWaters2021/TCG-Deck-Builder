@@ -7,17 +7,17 @@
     "propertyLimits": [
 
       {
-        "properties": { "supertype": "personality", "Card Level": "1" },
+        "properties": { "Supertype": "Personality", "Card Level": "1" },
         "min": 1,
         "errorMessage": "You need a Level 1 Personality"
       },
 	  {
-        "properties": { "supertype": "personality", "Card Level": "2" },
+        "properties": { "Supertype": "Personality", "Card Level": "2" },
         "min": 1,
         "errorMessage": "You need a Level 2 Personality"
       },
 	  {
-        "properties": { "supertype": "personality", "Card Level": "3" },
+        "properties": { "Supertype": "personality", "Card Level": "3" },
         "min": 1,
         "errorMessage": "You need a Level 3 Personality"
       }
