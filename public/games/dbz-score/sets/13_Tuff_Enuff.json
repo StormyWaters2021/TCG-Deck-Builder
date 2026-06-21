@@ -10,8 +10,8 @@
     "Text": "Endurance 100. All players gain 100 anger.",
     "Endurance": "100",
     "Set": "13 - Tuff Enuff",
-    "index": "h1",
-    "set_id": "Tuff Enuff",
+    "index": "7J",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "ba6e0a71-b77f-4f7c-b0fc-332b7e1f207a.jpg"
   },
   {
@@ -24,8 +24,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical or energy attack. If your opponent has 3 or more anger he must discard a card from his hand.",
     "Set": "13 - Tuff Enuff",
-    "index": "h9",
-    "set_id": "Tuff Enuff",
+    "index": "7R",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "777d0a40-427d-46d8-9df2-720cacfde33d.jpg"
   },
   {
@@ -38,8 +38,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +3 power stages of damage. If you declared a Tokui-Waza, and your opponent has a Battleground or Location in play, this attack cannot be stopped.",
     "Set": "13 - Tuff Enuff",
-    "index": "gs",
-    "set_id": "Tuff Enuff",
+    "index": "7A",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "136cad51-e66a-4067-acae-24fa860c5151.jpg"
   },
   {
@@ -52,8 +52,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical or energy attack. If you declared a Tokui-Waza gain 1 anger. Remove from the game after use.",
     "Set": "13 - Tuff Enuff",
-    "index": "hC",
-    "set_id": "Tuff Enuff",
+    "index": "7U",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "3363ed7f-4666-49d1-a607-03a6921518f2.jpg"
   },
   {
@@ -66,8 +66,8 @@
     "Limit per Deck": "3",
     "Text": "Whenever your opponent stops 1 of your attacks you lose 2 power stages. All of your attacks deal +2 power stages of damage.",
     "Set": "13 - Tuff Enuff",
-    "index": "hB",
-    "set_id": "Tuff Enuff",
+    "index": "7T",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "5c2369ec-f8fc-4e37-ac1f-5d9d5263995c.jpg"
   },
   {
@@ -80,8 +80,8 @@
     "Limit per Deck": "4",
     "Text": "Physical attack doing +3 power stages of damage. If used by Goku, and if your declared a Tokui-Waza, this card stays on the table to be used 1 more time this Combat. Remove from the game after use.",
     "Set": "13 - Tuff Enuff",
-    "index": "hA",
-    "set_id": "Tuff Enuff",
+    "index": "7S",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "5d98e706-b45c-4593-b168-e42f2817a350.jpg"
   },
   {
@@ -94,8 +94,8 @@
     "Limit per Deck": "3",
     "Text": "Villains only. Physical attack doing +2 power stages of damage. If Goku is in play, it stays on the table to be used 2 more times this Combat. Remove from the game after use.",
     "Set": "13 - Tuff Enuff",
-    "index": "h6",
-    "set_id": "Tuff Enuff",
+    "index": "7O",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "a7a5457b-5455-42e2-9aad-4a6aebd831dd.jpg"
   },
   {
@@ -108,8 +108,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +5 power stages of damage. If you declared a Tokui-Waza, and you have more than 3 anger, this attack cannot be stopped.",
     "Set": "13 - Tuff Enuff",
-    "index": "gt",
-    "set_id": "Tuff Enuff",
+    "index": "7B",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "0c58a092-b062-49c3-93c0-639faaf821ba.jpg"
   },
   {
@@ -122,8 +122,8 @@
     "Limit per Deck": "1",
     "Text": "When entering Combat, name a card. That card cannot be played for the remainder of Combat. Discard 1 life card when you name the card. Limit 1 per deck.",
     "Set": "13 - Tuff Enuff",
-    "index": "h2",
-    "set_id": "Tuff Enuff",
+    "index": "7K",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "92bd5f26-f675-4d2d-8c2a-82b9c9f1aea8.jpg"
   },
   {
@@ -136,8 +136,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack doing +1 life card for every card in your hand. If you declared a Saiyan Tokui-Waza this must be the first attack that you play during Combat. Discard a card.",
     "Set": "13 - Tuff Enuff",
-    "index": "gy",
-    "set_id": "Tuff Enuff",
+    "index": "7G",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "4f2b0286-7de1-4794-9ee3-94ccb8bde375.jpg"
   },
   {
@@ -150,8 +150,8 @@
     "Limit per Deck": "4",
     "Text": "If you declared a non-Saiyan, non-Black Tokui-Waza all of your attacks do +2 power stages of damage.",
     "Set": "13 - Tuff Enuff",
-    "index": "h0",
-    "set_id": "Tuff Enuff",
+    "index": "7I",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "b7a76d91-013b-43df-b936-e759328e3b06.jpg"
   },
   {
@@ -164,8 +164,8 @@
     "Limit per Deck": "3",
     "Text": "Once per Combat, in place of an attack, you may draw 2 cards after you have taken 10 or more life cards of damage during this Combat. You can only have 1 copy of this Drill in play at a time.",
     "Set": "13 - Tuff Enuff",
-    "index": "gz",
-    "set_id": "Tuff Enuff",
+    "index": "7H",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "f4acc2d9-b0fa-42f5-a98e-3ca709df09d9.jpg"
   },
   {
@@ -178,8 +178,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. If you declared a Tokui-Waza power up to full. Lower your opponent's anger 1 level.",
     "Set": "13 - Tuff Enuff",
-    "index": "h5",
-    "set_id": "Tuff Enuff",
+    "index": "7N",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "c2392d41-89eb-49a1-a758-483b34f31c03.jpg"
   },
   {
@@ -192,8 +192,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +5 power stages of damage. If you declared a Tokui-Waza shuffle the top or bottom card of your discard pile into your Life Deck.",
     "Set": "13 - Tuff Enuff",
-    "index": "h3",
-    "set_id": "Tuff Enuff",
+    "index": "7L",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "624ba8c5-522a-4ff2-8c56-6e2cfbc2eb7b.jpg"
   },
   {
@@ -206,8 +206,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing 6 power stages of damage. If you declared a Tokui-Waza, and your opponent is at 5 stages above 0 or higher, this attack cannot be stopped.",
     "Set": "13 - Tuff Enuff",
-    "index": "gu",
-    "set_id": "Tuff Enuff",
+    "index": "7C",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "97e99461-b7dd-46ee-8dce-5a9fe0e93200.jpg"
   },
   {
@@ -220,8 +220,8 @@
     "Limit per Deck": "3",
     "Text": "Stops an energy attack. If you declared a Tokui-Waza, gain 4 power stages. Lower your opponent's anger 1 level.",
     "Set": "13 - Tuff Enuff",
-    "index": "h4",
-    "set_id": "Tuff Enuff",
+    "index": "7M",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "68bed72b-b174-421c-9437-b24c2dd49fb6.jpg"
   },
   {
@@ -234,8 +234,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing 6 life cards of damage. If you declared a Tokui-Waza, and if your opponent has a Drill in play, this attack cannot be stopped.",
     "Set": "13 - Tuff Enuff",
-    "index": "gv",
-    "set_id": "Tuff Enuff",
+    "index": "7D",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "1ea47d31-9926-4eaf-93b5-e70ba6abf8ec.jpg"
   },
   {
@@ -248,8 +248,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +4 power stages of damage. If you declared a Tokui-Waza, and if you have no Non-Combat cards in play, this attack cannot be stopped.",
     "Set": "13 - Tuff Enuff",
-    "index": "gw",
-    "set_id": "Tuff Enuff",
+    "index": "7E",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "4b4a6b57-8ffe-4bd6-97bf-e567c56f8c19.jpg"
   },
   {
@@ -262,8 +262,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +2 power stages of damage for every anger level you are above 0.",
     "Set": "13 - Tuff Enuff",
-    "index": "h8",
-    "set_id": "Tuff Enuff",
+    "index": "7Q",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "40bc4d59-ebcc-422e-a420-bf72f3299bb6.jpg"
   },
   {
@@ -276,8 +276,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing 6 power stages of damage. If you declared a Tokui-Waza, and if your Main Personality is at 0, this attack cannot be stopped.",
     "Set": "13 - Tuff Enuff",
-    "index": "gx",
-    "set_id": "Tuff Enuff",
+    "index": "7F",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "20f47079-3313-4c8c-a245-ff30ef5d7f6e.jpg"
   },
   {
@@ -290,8 +290,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing 5 power stages of damage. Your opponent gains 1 anger. This card stays on the table to be used 1 more time this Combat. Remove from the game after use.",
     "Set": "13 - Tuff Enuff",
-    "index": "h7",
-    "set_id": "Tuff Enuff",
+    "index": "7P",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "5f664298-b3d2-4914-9a45-385f5575b5f1.jpg"
   },
   {
@@ -304,8 +304,8 @@
     "Limit per Deck": "4",
     "Text": "Physical attack doing +2 power stages of damage. If used by Tien or Yamcha do +4 power stages instead. This card stays on the table to be used 1 more time this Combat.",
     "Set": "13 - Tuff Enuff",
-    "index": "hD",
-    "set_id": "Tuff Enuff",
+    "index": "7V",
+    "set_id": "2040f5dc-dac5-463c-b2fe-afdeb38ef52a",
     "image": "b20b09c9-e188-4d1f-aad3-0fdc42f0fe20.jpg"
   }
 ]

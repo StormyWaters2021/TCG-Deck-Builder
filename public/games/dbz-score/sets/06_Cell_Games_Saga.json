@@ -9,8 +9,8 @@
     "Limit per Deck": "3",
     "Text": "Non-Combat cards cannot be used for the remainder of Combat. Search your Life Deck for a Freestyle Drill and place it in play.",
     "Set": "06 - Cell Games Saga",
-    "index": "BU",
-    "set_id": "Cell Games Saga",
+    "index": "ko",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "c9b907ad-d5d2-4b76-8027-5a241a8d1b34.jpg"
   },
   {
@@ -23,8 +23,8 @@
     "Limit per Deck": "1",
     "Text": "No player may gain anger for the remainder of Combat. Shuffle this card back into your Life Deck after use. Limit 1 per deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "Bb",
-    "set_id": "Cell Games Saga",
+    "index": "kv",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "1ed5b5f5-544b-4619-917e-f88d6440d0f4.jpg"
   },
   {
@@ -37,8 +37,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack. If successful, capture a Dragon Ball from your opponent.",
     "Set": "06 - Cell Games Saga",
-    "index": "B3",
-    "set_id": "Cell Games Saga",
+    "index": "kN",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "8d6550c6-8cd3-4421-927a-5714555d1e47.jpg"
   },
   {
@@ -51,8 +51,8 @@
     "Limit per Deck": "3",
     "Text": "You cannot win by the Most Powerful Personality Victory for the remainder of the game. Raise your anger 6 levels. Raise your opponent’s anger 6 levels.",
     "Set": "06 - Cell Games Saga",
-    "index": "B4",
-    "set_id": "Cell Games Saga",
+    "index": "kO",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "ece1b4e0-a425-4ded-8ddc-794a0584b710.jpg"
   },
   {
@@ -65,8 +65,8 @@
     "Limit per Deck": "3",
     "Text": "Defense Shield: Stops the first unstopped energy attack performed against you during Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "9q",
-    "set_id": "Cell Games Saga",
+    "index": "jA",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "f4c6a971-b99e-4886-ac29-6fae2acd29a5.jpg"
   },
   {
@@ -80,8 +80,8 @@
     "Text": "Endurance 3. Energy attack. If you declared a Tokui-Waza, and the personality that performed this attack is at 0 power stages, this attack does +2 life cards and +2 power stages of damage.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "9r",
-    "set_id": "Cell Games Saga",
+    "index": "jB",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "fcf63831-941f-471e-87d1-16c059b3a4cd.jpg"
   },
   {
@@ -95,8 +95,8 @@
     "Text": "Endurance 2. All of your physical attacks do +2 power stages of damage and cannot be redirected to Allies.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "9s",
-    "set_id": "Cell Games Saga",
+    "index": "jC",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "4c3eb0f5-69fd-4846-b9e4-c6b9007c1cc3.jpg"
   },
   {
@@ -110,8 +110,8 @@
     "Text": "Endurance 2. Energy attack. If successful, discard one of your opponent's Allies in play.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "9L",
-    "set_id": "Cell Games Saga",
+    "index": "if",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "5a6a95cf-c5d0-4f72-aaf1-00a8003edac1.jpg"
   },
   {
@@ -124,8 +124,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +2 power stages of damage. If successful, choose 1 card at random from your opponent's hand and have him discard it.",
     "Set": "06 - Cell Games Saga",
-    "index": "9u",
-    "set_id": "Cell Games Saga",
+    "index": "jE",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "2c643b07-8089-4b9b-a64b-823d819d2c12.jpg"
   },
   {
@@ -139,8 +139,8 @@
     "Text": "Endurance 3. Physical attack doing +4 power stages of damage.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "9M",
-    "set_id": "Cell Games Saga",
+    "index": "ig",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "f0f37b2f-ad61-415c-a2a3-5156021bb099.jpg"
   },
   {
@@ -154,8 +154,8 @@
     "Text": "Endurance 1. Energy attack doing 3 life cards of damage. If you declared a Tokui-Waza, the attack also does +2 power stages of damage.",
     "Endurance": "1",
     "Set": "06 - Cell Games Saga",
-    "index": "9t",
-    "set_id": "Cell Games Saga",
+    "index": "jD",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "a251ad31-4b5e-4cd2-b458-375607d9c266.jpg"
   },
   {
@@ -168,8 +168,8 @@
     "Limit per Deck": "3",
     "Text": "Focused energy attack. If successful, raise your anger 1 level.",
     "Set": "06 - Cell Games Saga",
-    "index": "9N",
-    "set_id": "Cell Games Saga",
+    "index": "ih",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "302dfdc3-2bdc-46da-8790-5e479a564783.jpg"
   },
   {
@@ -182,8 +182,8 @@
     "Limit per Deck": "3",
     "Text": "Stops an energy attack. If you declared a Tokui-Waza, you may discard a card from your hand. If you do, choose 1 card at random from your opponent's hand and have him discard it.",
     "Set": "06 - Cell Games Saga",
-    "index": "9v",
-    "set_id": "Cell Games Saga",
+    "index": "jF",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "d6211210-698e-421f-9821-39f9dab25a49.jpg"
   },
   {
@@ -197,8 +197,8 @@
     "Text": "Endurance 2. Stops the first physical or energy attack your opponent performs in Combat if your anger level is 3 or higher.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "9w",
-    "set_id": "Cell Games Saga",
+    "index": "jG",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "ed6b527f-4615-4cb9-8a91-8a2bd5c1787e.jpg"
   },
   {
@@ -211,8 +211,8 @@
     "Limit per Deck": "3",
     "Text": "Defense Shield: Stops the first unstopped physical attack performed against you during Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "9x",
-    "set_id": "Cell Games Saga",
+    "index": "jH",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "44564661-38e0-4afb-a824-ed20b7ccec77.jpg"
   },
   {
@@ -225,8 +225,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. If you declared a Tokui-Waza, this card stops a physical or energy attack instead.",
     "Set": "06 - Cell Games Saga",
-    "index": "9y",
-    "set_id": "Cell Games Saga",
+    "index": "jI",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "ceca1c82-7ad0-4994-a7a4-28daec930f44.jpg"
   },
   {
@@ -239,8 +239,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 5 life cards of damage, or stops a physical attack.",
     "Set": "06 - Cell Games Saga",
-    "index": "9z",
-    "set_id": "Cell Games Saga",
+    "index": "jJ",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "7084f845-5a33-4448-bd92-08d5fb88e985.jpg"
   },
   {
@@ -254,8 +254,8 @@
     "Text": "Endurance 2. Lower an opponent's anger 1 level. All effects that raise a player's anger are ignored for the remainder of Combat. Remove from the game after use.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "A0",
-    "set_id": "Cell Games Saga",
+    "index": "jK",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "aeb0beaf-1c2c-4e87-b6fb-4eea5a77a4bf.jpg"
   },
   {
@@ -268,8 +268,8 @@
     "Limit per Deck": "3",
     "Text": "Focused energy attack doing 3 life cards of damage. If successful, remove the top 10 cards of your opponent's discard pile from the game.",
     "Set": "06 - Cell Games Saga",
-    "index": "A1",
-    "set_id": "Cell Games Saga",
+    "index": "jL",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "14b1036a-ea02-4bbc-a50b-dd268be8e7ea.jpg"
   },
   {
@@ -282,8 +282,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 6 life cards of damage. If successful, discard any cards attached to your Main Personality. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "A2",
-    "set_id": "Cell Games Saga",
+    "index": "jM",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "10687655-2d54-4e95-bd8f-c9295ac1d829.jpg"
   },
   {
@@ -296,8 +296,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +2 power stages of damage. If successful, prevent X power stages or life cards of damage from the next attack performed against this personality this Combat. X = power stages of damage dealt by this attack.",
     "Set": "06 - Cell Games Saga",
-    "index": "B0",
-    "set_id": "Cell Games Saga",
+    "index": "kK",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "268ae3b1-0d67-4159-8eb6-e5a428f33556.jpg"
   },
   {
@@ -311,8 +311,8 @@
     "Text": "Endurance 3. Physical attack doing +3 power stages of damage. If successful, lower your opponent's anger 2 levels.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "9O",
-    "set_id": "Cell Games Saga",
+    "index": "ii",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "999c4269-8a04-426d-b469-94a2b081993a.jpg"
   },
   {
@@ -325,8 +325,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack. If successful, capture an opponent's Dragon Ball.",
     "Set": "06 - Cell Games Saga",
-    "index": "A5",
-    "set_id": "Cell Games Saga",
+    "index": "jP",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "c5250c14-8235-4bff-a775-d75a06e38336.jpg"
   },
   {
@@ -339,8 +339,8 @@
     "Limit per Deck": "3",
     "Text": "Defense Shield: Stops the first unstopped energy attack performed against you during Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "A3",
-    "set_id": "Cell Games Saga",
+    "index": "jN",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "d06a4ec3-5032-43ee-96aa-5db18f5fba95.jpg"
   },
   {
@@ -354,8 +354,8 @@
     "Text": "Endurance 2. Once per Combat, after dealing 5 or more life cards of damage, discard 1 card from your hand to raise your Main Personality to his highest power rating.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "A4",
-    "set_id": "Cell Games Saga",
+    "index": "jO",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "4f0e6f3a-5889-4e7d-88e9-448c8af0bb12.jpg"
   },
   {
@@ -368,8 +368,8 @@
     "Limit per Deck": "3",
     "Text": "Defense Shield: Stops the first unstopped physical attack performed against you during Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "A6",
-    "set_id": "Cell Games Saga",
+    "index": "jQ",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "93f46ec6-d920-4a3b-a290-8ddae4a7bfe1.jpg"
   },
   {
@@ -383,8 +383,8 @@
     "Text": "Endurance 3. Energy attack doing 5 life cards of damage. If successful, your Main Personality's PUR is considered to be +2 until the end of your next turn.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "9P",
-    "set_id": "Cell Games Saga",
+    "index": "ij",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "f43236fd-2fdc-4e1b-8d3b-dbd51e207532.jpg"
   },
   {
@@ -398,8 +398,8 @@
     "Text": "Endurance 1. Choose a Drill in play, and remove it from the game. Your Main Personality and your Allies gain 2 power stages. Raise your anger 1 level. Remove from the game after use.",
     "Endurance": "1",
     "Set": "06 - Cell Games Saga",
-    "index": "A7",
-    "set_id": "Cell Games Saga",
+    "index": "jR",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "ee3e81a7-29d4-4740-8514-9d0cf5df64ed.jpg"
   },
   {
@@ -412,8 +412,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 1 life card of damage for each Uncommon card in your discard pile, to a maximum of 10 life cards.",
     "Set": "06 - Cell Games Saga",
-    "index": "Ap",
-    "set_id": "Cell Games Saga",
+    "index": "k9",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "844fe5f6-0903-41b6-850d-b364b0130c93.jpg"
   },
   {
@@ -427,8 +427,8 @@
     "Text": "Endurance 3. Energy attacks do a maximum of 2 life cards and 0 power stages of damage for the remainder of Combat.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "A8",
-    "set_id": "Cell Games Saga",
+    "index": "jS",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "23a5d8e3-53fe-4bac-bb57-89627366612a.jpg"
   },
   {
@@ -442,8 +442,8 @@
     "Text": "Endurance 3. Search your Life Deck for a Drill and place it in play.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "BQ",
-    "set_id": "Cell Games Saga",
+    "index": "kk",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "122c79b9-7342-4c69-848b-57f997b257d5.jpg"
   },
   {
@@ -456,8 +456,8 @@
     "Limit per Deck": "3",
     "Text": "Choose a personality or Non-Combat card in play. The chosen card's power cannot be used for the remainder. If an Ally was chosen, the personality cannot take control of Combat for the remainder of Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "BZ",
-    "set_id": "Cell Games Saga",
+    "index": "kt",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "ddb32723-f55d-4d20-848d-33012a58171e.jpg"
   },
   {
@@ -470,8 +470,8 @@
     "Limit per Deck": "3",
     "Text": "Use when an Ally performs an attack or uses a power. The attack or power is stopped and the Ally is discarded.",
     "Set": "06 - Cell Games Saga",
-    "index": "A9",
-    "set_id": "Cell Games Saga",
+    "index": "jT",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "c6806a47-b13c-4b63-ad37-1a4799b1c305.jpg"
   },
   {
@@ -484,8 +484,8 @@
     "Limit per Deck": "2",
     "Text": "Heroes only. When this Drill is placed in play, name a non-Dragon Ball card. That card cannot be played or used by either player while this Drill is in play. Limit 2 per deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "B7",
-    "set_id": "Cell Games Saga",
+    "index": "kR",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "34a12d3f-296b-434b-9925-3366b20b423e.jpg"
   },
   {
@@ -498,8 +498,8 @@
     "Limit per Deck": "3",
     "Text": "For the remainder of Combat, any successful attack performed by any player allows that player to capture a Dragon Ball.",
     "Set": "06 - Cell Games Saga",
-    "index": "BM",
-    "set_id": "Cell Games Saga",
+    "index": "kg",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "53a117f3-e270-4997-a452-e0f10f57317e.jpg"
   },
   {
@@ -513,8 +513,8 @@
     "Text": "Search your Life Deck or discard pile for a Cell Jr. and place it in play at 3 power stages above 0.",
     "Card Level": "1",
     "Set": "06 - Cell Games Saga",
-    "index": "Aq",
-    "set_id": "Cell Games Saga",
+    "index": "kA",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "24a63734-769e-44a8-a9b6-74cee6507bbb.jpg"
   },
   {
@@ -528,8 +528,8 @@
     "Text": "Energy attack doing +1 life cards of damage for every Cell Jr. you control.",
     "Card Level": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "BB",
-    "set_id": "Cell Games Saga",
+    "index": "kV",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "2323d870-eb3b-4bd5-ab46-ca5788efbd9b.jpg"
   },
   {
@@ -543,8 +543,8 @@
     "Text": "Physical attack doing +1 power stages of damage for each Cell Jr. you control.",
     "Card Level": "1",
     "Set": "06 - Cell Games Saga",
-    "index": "Au",
-    "set_id": "Cell Games Saga",
+    "index": "kE",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "88560bf5-a5b3-45e9-92bb-b2347aac55d4.jpg"
   },
   {
@@ -557,8 +557,8 @@
     "Limit per Deck": "1",
     "Text": "Physical attack doing +2 power stages of damage and +1 life card of damage for each Cell Jr. you have in play. Limit 1 per deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "BT",
-    "set_id": "Cell Games Saga",
+    "index": "kn",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "77a94935-7b0f-4c31-be38-d8581840197c.jpg"
   },
   {
@@ -571,8 +571,8 @@
     "Limit per Deck": "1",
     "Text": "Physical attack. Draw  the bottom card of your discard pile and place it in your hand. Remove from the game after use. Limit 1 per deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "AG",
-    "set_id": "Cell Games Saga",
+    "index": "ja",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "2bc071ca-f252-4410-ad64-26617bc4e8f1.jpg"
   },
   {
@@ -585,8 +585,8 @@
     "Limit per Deck": "4",
     "Text": "Cell only. You can use this card during your Non-Combat Step. Search your Life Deck for a Battleground or Location and place it in play. You do not have to skip Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "AB",
-    "set_id": "Cell Games Saga",
+    "index": "jV",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "b811e73a-80fe-4a79-8e1b-371e290815d0.jpg"
   },
   {
@@ -599,8 +599,8 @@
     "Limit per Deck": "4",
     "Text": "Physical attack. If successful, discard 2 of your opponent's Allies in play.",
     "Set": "06 - Cell Games Saga",
-    "index": "AA",
-    "set_id": "Cell Games Saga",
+    "index": "jU",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "20fdcc3d-f51d-4259-9802-8021f254e142.jpg"
   },
   {
@@ -614,8 +614,8 @@
     "Text": "Endurance 2. Physical attack. Lower your opponent's anger 2 levels. Take the top 2 cards of your discard pile and place them at the bottom of your Life Deck.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "AC",
-    "set_id": "Cell Games Saga",
+    "index": "jW",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "ddc22f3b-a4a7-4e14-ba68-6583552f6d94.jpg"
   },
   {
@@ -628,8 +628,8 @@
     "Limit per Deck": "3",
     "Text": "When entering Combat, the attacker may search his Life Deck for an Ally and place it in play at 3 power stages above 0.",
     "Set": "06 - Cell Games Saga",
-    "index": "BD",
-    "set_id": "Cell Games Saga",
+    "index": "kX",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "c0d8db2f-de43-45f2-bdc9-d65be7799b74.jpg"
   },
   {
@@ -642,8 +642,8 @@
     "Limit per Deck": "4",
     "Text": "Chi-Chi only. Your opponent discards the top 3 cards of his Life Deck. Your opponent's Main Personality loses 4 power stages. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "BR",
-    "set_id": "Cell Games Saga",
+    "index": "kl",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "443267b2-182a-4e43-88d9-2faeefb0bec2.jpg"
   },
   {
@@ -657,8 +657,8 @@
     "Text": "Focused energy attack.",
     "Card Level": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "BI",
-    "set_id": "Cell Games Saga",
+    "index": "kc",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "93c5e157-e175-4c46-85c1-f5edabbf9bfd.jpg"
   },
   {
@@ -671,8 +671,8 @@
     "Limit per Deck": "0",
     "Text": "Physical attack. Your opponent draws 5 cards. If successful, and you did not declare a Tokui-Waza, you win the game.",
     "Set": "06 - Cell Games Saga",
-    "index": "BH",
-    "set_id": "Cell Games Saga",
+    "index": "kb",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "4755f53f-d002-40b6-badd-47f00672e982.jpg"
   },
   {
@@ -686,8 +686,8 @@
     "Text": "Endurance 2. Stops a physical attack. For the remainder of Combat, your opponent cannot use Ally card powers, redirect damage to Allies, or have Allies take over Combat.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "9Q",
-    "set_id": "Cell Games Saga",
+    "index": "ik",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "d3c08fdc-5ee5-46d3-954f-70d4f2eed35d.jpg"
   },
   {
@@ -701,8 +701,8 @@
     "Text": "Constant Combat Power: Whenever you redirect damage to one of your other Allies, prevent 3 power stages from that attack. Dende does not have to take over Combat to use this Constant Combat Power.",
     "Card Level": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "BA",
-    "set_id": "Cell Games Saga",
+    "index": "kU",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "d196a70f-9570-4434-b5ed-2f84ed89e143.jpg"
   },
   {
@@ -716,8 +716,8 @@
     "Text": "Endurance 2. This card must be used by your Main Personality. All attacks performed by this personality for the remainder of Combat do +1 power stages of damage for each Ally in play.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "B1",
-    "set_id": "Cell Games Saga",
+    "index": "kL",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "1ee19ecb-3f14-4b61-bb94-49995680eead.jpg"
   },
   {
@@ -730,8 +730,8 @@
     "Limit per Deck": "3",
     "Text": "Your Warrior Sword must read 4 anger to use this card. When you play this card you may raise your opponent's anger 1 level. If your opponent's Warrior Sword reads 4 anger you win the game.",
     "Set": "06 - Cell Games Saga",
-    "index": "BJ",
-    "set_id": "Cell Games Saga",
+    "index": "kd",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "ec4d9dc1-b7a5-4776-9a06-232ce8f32019.jpg"
   },
   {
@@ -744,8 +744,8 @@
     "Limit per Deck": "3",
     "Text": "Focused energy attack. If successful, you may discard up to 4 cards from the top of your Life Deck. Your opponent must discard the same number from the top of his Life Deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "AD",
-    "set_id": "Cell Games Saga",
+    "index": "jX",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "b962e4f6-5317-4c50-9600-cf7abc228ab7.jpg"
   },
   {
@@ -759,8 +759,8 @@
     "Text": "Endurance 1. Villains only. Every hero loses 3 power stages. Remove from the game after use.",
     "Endurance": "1",
     "Set": "06 - Cell Games Saga",
-    "index": "AE",
-    "set_id": "Cell Games Saga",
+    "index": "jY",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "72b00110-60fd-43d9-b270-c0d5bf293a16.jpg"
   },
   {
@@ -774,8 +774,8 @@
     "Text": "Endurance 2. Choose a personality in play. For the remainder of Combat, damage from each physical attack performed by that personality is reduced by 2 power stages, and damage from each energy attack performed by that personality is reduced by 2 life cards.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "AF",
-    "set_id": "Cell Games Saga",
+    "index": "jZ",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "6e7ee9d8-84c1-48f4-842a-c513e91f2a48.jpg"
   },
   {
@@ -789,8 +789,8 @@
     "Text": "Endurance 3. Choose 4 cards in your opponent's discard pile and shuffle them into his Life Deck. Your opponent chooses 4 cards in your discard pile and shuffles them back into your Life Deck.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "9R",
-    "set_id": "Cell Games Saga",
+    "index": "il",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "1db589b9-5add-4969-bbc4-14d51878d1e2.jpg"
   },
   {
@@ -803,8 +803,8 @@
     "Limit per Deck": "1",
     "Text": "Use only during any Non-Combat Step. All players may search their Life Decks for up to 2 Allies. After that, everyone reveals their Allies and puts them in their hands. Limit 1 per deck. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "BP",
-    "set_id": "Cell Games Saga",
+    "index": "kj",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "f4a0c57b-d96b-4d5f-a9d3-811134675db6.jpg"
   },
   {
@@ -817,8 +817,8 @@
     "Limit per Deck": "4",
     "Text": "Reduce your opponent's anger 2 levels, or discard a Non-Combat card in play.",
     "Set": "06 - Cell Games Saga",
-    "index": "BO",
-    "set_id": "Cell Games Saga",
+    "index": "ki",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "25ebaa9e-fa94-42e1-81d3-31b197605d69.jpg"
   },
   {
@@ -831,8 +831,8 @@
     "Limit per Deck": "4",
     "Text": "Stops a physical attack. Search your discard pile for a Gohan named card and place it in your hand. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "BF",
-    "set_id": "Cell Games Saga",
+    "index": "kZ",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "980dc798-8d31-426f-8509-fc6cc715f46c.jpg"
   },
   {
@@ -845,8 +845,8 @@
     "Limit per Deck": "4",
     "Text": "Physical attack doing +3 power stages of damage. Cards that end Combat, or cards that stop all physical attacks or all energy attacks, cannot be used for the remainder of Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "9S",
-    "set_id": "Cell Games Saga",
+    "index": "im",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "b310f269-fd54-428a-a851-633daf49274f.jpg"
   },
   {
@@ -860,8 +860,8 @@
     "Text": "Endurance 2. Focused physical attack doing +2 power stages of damage. Raise your anger 1 level.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "9T",
-    "set_id": "Cell Games Saga",
+    "index": "in",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "251a1146-123a-43ef-98af-6595b380255e.jpg"
   },
   {
@@ -874,8 +874,8 @@
     "Limit per Deck": "4",
     "Text": "Physical attack doing +4 power stages of damage. Raise your anger 1 level. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "BX",
-    "set_id": "Cell Games Saga",
+    "index": "kr",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "32887624-a48e-43ca-a333-fca50905a88d.jpg"
   },
   {
@@ -888,8 +888,8 @@
     "Limit per Deck": "4",
     "Text": "In place of an attack, you may place an Ally from your hand into play at 3 power stages above 0.",
     "Set": "06 - Cell Games Saga",
-    "index": "BN",
-    "set_id": "Cell Games Saga",
+    "index": "kh",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "89f17184-f4f2-45dc-a39b-44505138c6c4.jpg"
   },
   {
@@ -902,8 +902,8 @@
     "Limit per Deck": "1",
     "Text": "Search your Life Deck for a Dende Dragon Ball that is not currently in play and place it in play. Limit 1 per deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "BC",
-    "set_id": "Cell Games Saga",
+    "index": "kW",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "fff3d3a5-ccde-4275-8561-348747fc9148.jpg"
   },
   {
@@ -916,8 +916,8 @@
     "Limit per Deck": "4",
     "Text": "You cannot win by the Most Powerful Personality victory for the remainder of the game. For the remainder of the game, nothing can keep you from gaining anger. Your anger cannot be lowered or set. Advance to your highest Main Personality level and power stage. You cannot win by the Most Powerful Personality Victory. At the beginning of each of your turns gain 1 anger. When you reach 5 anger you lose the game.",
     "Set": "06 - Cell Games Saga",
-    "index": "Av",
-    "set_id": "Cell Games Saga",
+    "index": "kF",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "e20e6b09-3df3-4c58-8dd2-2047309b19e4.jpg"
   },
   {
@@ -930,8 +930,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 5 life cards of damage. Must be performed by an Ally that has not performed this attack this Combat. This card stays on the table to be used 2 more times this Combat. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "B5",
-    "set_id": "Cell Games Saga",
+    "index": "kP",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "951823c5-7de4-40ca-a992-24c385ee9115.jpg"
   },
   {
@@ -944,8 +944,8 @@
     "Limit per Deck": "3",
     "Text": "Attach this card to a personality after you perform a successful physical attack. All attacks performed by this personality do -2 power stags and -2 life cards of damage. Discard this card when this personality is at its highest power stage.",
     "Set": "06 - Cell Games Saga",
-    "index": "Ar",
-    "set_id": "Cell Games Saga",
+    "index": "kB",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "7bc80d62-13cc-49e5-8b45-987bfc8b790a.jpg"
   },
   {
@@ -958,8 +958,8 @@
     "Limit per Deck": "3",
     "Text": "In place of an attack, you may place an Ally from your hand into play at 3 power stages above 0.",
     "Set": "06 - Cell Games Saga",
-    "index": "Aw",
-    "set_id": "Cell Games Saga",
+    "index": "kG",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "042040f2-18e3-429b-9901-c1d5ed2d419d.jpg"
   },
   {
@@ -972,8 +972,8 @@
     "Limit per Deck": "4",
     "Text": "If your Main Personality is Krilling and he is currently at level 1, gain 5 anger. You cannot win by the Most Powerful Personality Victory for the remainder of the game.",
     "Set": "06 - Cell Games Saga",
-    "index": "Bc",
-    "set_id": "Cell Games Saga",
+    "index": "kw",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "627958fb-5b09-460e-8c0e-4bec1600012d.jpg"
   },
   {
@@ -986,8 +986,8 @@
     "Limit per Deck": "3",
     "Text": "For the remainder of the game, whenever your opponent performs a physical or energy attack by playing a card from his hand, you may stop that attack by discarding a copy of that card from your hand. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "BS",
-    "set_id": "Cell Games Saga",
+    "index": "km",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "1c6f004e-d302-4100-a9b5-a10e7bff0752.jpg"
   },
   {
@@ -1001,8 +1001,8 @@
     "Text": "Endurance 2. For the remainder of Combat, all of your physical attacks do +2 power stages of damage. If used by a personality with \"Android\" in the card title, all of your attacks deal +2 life cards of damage instead.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "Ba",
-    "set_id": "Cell Games Saga",
+    "index": "ku",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "68f1cd08-8524-453e-a3d8-4ecc6d21fe82.jpg"
   },
   {
@@ -1015,8 +1015,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +1 power stages of damage for each Common card in your discard pile to a maximum of +10 power stages.",
     "Set": "06 - Cell Games Saga",
-    "index": "Ay",
-    "set_id": "Cell Games Saga",
+    "index": "kI",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "5b986e98-54ab-41dc-814b-8131edc0f6ed.jpg"
   },
   {
@@ -1030,8 +1030,8 @@
     "Text": "Endurance 2. Physical attack doing +3 power stages of damage. If you declared a Tokui-Waza, shuffle the top 2 cards of your discard pile into your Life Deck. Remove from the game after use.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "9U",
-    "set_id": "Cell Games Saga",
+    "index": "io",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "0b8f354b-c28a-46bd-8f66-d0185a0fe497.jpg"
   },
   {
@@ -1044,8 +1044,8 @@
     "Limit per Deck": "3",
     "Text": "Namekian Heritage only. Energy attack doing +X life cards of damage. Choose X cards from your discard pile and place them on the bottom of your Life Deck. X = the number of Namek Dragon Balls in play.",
     "Set": "06 - Cell Games Saga",
-    "index": "AI",
-    "set_id": "Cell Games Saga",
+    "index": "jc",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "bbf520c9-a9c9-4d06-8332-45f8da085f57.jpg"
   },
   {
@@ -1058,8 +1058,8 @@
     "Limit per Deck": "8",
     "Text": "Namekian Heritage only. You may have up to 8 copies of this card in your deck. Energy attack doing +2 power stages of damage. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "AJ",
-    "set_id": "Cell Games Saga",
+    "index": "jd",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "b17a0831-5e59-436e-abb0-1a657ac0ba4a.jpg"
   },
   {
@@ -1072,8 +1072,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +4 power stages of damage. If you declared a Tokui-Waza, you may rearrange the top 10 or bottom 10 cards of your discard pile in any order.",
     "Set": "06 - Cell Games Saga",
-    "index": "AK",
-    "set_id": "Cell Games Saga",
+    "index": "je",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "239f38b1-afb9-4530-89c6-423372e94b58.jpg"
   },
   {
@@ -1087,8 +1087,8 @@
     "Text": "Endurance 3. Namekian Heritage only. Physical attack, or stops a physical attack.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "9V",
-    "set_id": "Cell Games Saga",
+    "index": "ip",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "87ec034d-ce1c-48c3-a058-2185559f5226.jpg"
   },
   {
@@ -1101,8 +1101,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +3 power stages of damage. If successful, choose any cards in your discard pile and remove them from the game.",
     "Set": "06 - Cell Games Saga",
-    "index": "9W",
-    "set_id": "Cell Games Saga",
+    "index": "iq",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "fd64e0ab-c1c2-42cd-8a7e-5dbbfebb01ef.jpg"
   },
   {
@@ -1116,8 +1116,8 @@
     "Text": "Endurance 4. Physical attack doing +2 power stages of damage. If successful, choose a card in your discard pile and shuffle it back into your Life Deck.",
     "Endurance": "4",
     "Set": "06 - Cell Games Saga",
-    "index": "9X",
-    "set_id": "Cell Games Saga",
+    "index": "ir",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "bdd299eb-2d02-4f53-a5db-6a73a6a37692.jpg"
   },
   {
@@ -1131,8 +1131,8 @@
     "Text": "Endurance 2. Energy attack. If successful, discard one of your opponent's Allies in play. Lower your opponent's anger 1 level.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "AL",
-    "set_id": "Cell Games Saga",
+    "index": "jf",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "372123c3-b6a3-4b4b-a148-3d1a00c6adfe.jpg"
   },
   {
@@ -1145,8 +1145,8 @@
     "Limit per Deck": "3",
     "Text": "Defense Shield: Stops the first unstopped physical attack performed against you during Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "AM",
-    "set_id": "Cell Games Saga",
+    "index": "jg",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "a0e2c878-3e20-4955-bbec-6de08b2beee0.jpg"
   },
   {
@@ -1159,8 +1159,8 @@
     "Limit per Deck": "3",
     "Text": "Focused energy attack doing 5 life cards of damage. If successful, choose up to 4 cards in your discard pile. Remove 2 of them from the game. Shuffle the remaining cards back into your Life Deck. If successful, remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "AN",
-    "set_id": "Cell Games Saga",
+    "index": "jh",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "e134a2a8-82c9-4826-b8d3-d6d4355e0e0a.jpg"
   },
   {
@@ -1173,8 +1173,8 @@
     "Limit per Deck": "3",
     "Text": "Defense Shield: Stops the first unstopped energy attack performed against you during Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "AO",
-    "set_id": "Cell Games Saga",
+    "index": "ji",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "c5f6b1ca-879d-4e75-a8b6-604ae6e15ae2.jpg"
   },
   {
@@ -1188,8 +1188,8 @@
     "Text": "Endurance 10. Shuffle the top card of your discard pile back into your Life Deck. Remove from the game after use.",
     "Endurance": "10",
     "Set": "06 - Cell Games Saga",
-    "index": "AH",
-    "set_id": "Cell Games Saga",
+    "index": "jb",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "8536940b-8e3a-4861-a8ec-baf8cbdb8dd5.jpg"
   },
   {
@@ -1202,8 +1202,8 @@
     "Limit per Deck": "8",
     "Text": "Namekian Heritage only. You can have up to 8 copies of this card in your deck. Physical attack doing +2 power stages of damage. If you declared a Tokui-Waza, you may discard any cards attached to your Main Personality.",
     "Set": "06 - Cell Games Saga",
-    "index": "AP",
-    "set_id": "Cell Games Saga",
+    "index": "jj",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "84bb9b6f-1213-4e68-8804-70aeececb212.jpg"
   },
   {
@@ -1217,8 +1217,8 @@
     "Text": "Endurance 4. Look at the top 4 cards of your opponent's Life Deck. Remove 1 non-Dragon Ball card from the game and put the rest back in any order on top of the Life Deck.",
     "Endurance": "4",
     "Set": "06 - Cell Games Saga",
-    "index": "AQ",
-    "set_id": "Cell Games Saga",
+    "index": "jk",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "b8a2519f-1be6-4da4-a2ab-2273b31cecb7.jpg"
   },
   {
@@ -1231,8 +1231,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +2 power stages of damage. If successful, all energy attacks this personality performs for the remainder of Combat do +2 life cards of damage.",
     "Set": "06 - Cell Games Saga",
-    "index": "AX",
-    "set_id": "Cell Games Saga",
+    "index": "jr",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "8baf1c4d-4267-4e3e-9c97-444005a1e1e2.jpg"
   },
   {
@@ -1246,8 +1246,8 @@
     "Text": "Endurance 3. Physical attack. If successful, look at your opponent's hand and choose a Physical Combat card. Your opponent discards the chosen card, if any.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "AR",
-    "set_id": "Cell Games Saga",
+    "index": "jl",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "59db54c6-71f2-43e4-8c79-0a2b6e2f0baf.jpg"
   },
   {
@@ -1260,8 +1260,8 @@
     "Limit per Deck": "3",
     "Text": "Defense Shield: Stops the first unstopped physical attack performed against you during Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "AS",
-    "set_id": "Cell Games Saga",
+    "index": "jm",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "d3356cbf-31f2-4dd5-a4fc-5e9f993b41ef.jpg"
   },
   {
@@ -1275,8 +1275,8 @@
     "Text": "Endurance 3. Take 1 or 2 of your opponent's Dragon Balls and place them at the bottom of his Life Deck.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "9Y",
-    "set_id": "Cell Games Saga",
+    "index": "is",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "713fa759-8d60-472d-bf97-cbdee9f918e8.jpg"
   },
   {
@@ -1290,8 +1290,8 @@
     "Text": "Endurance 2. Energy attack. Costs 3 power stages to perform. If successful, and you declared a Tokui-Waza, your opponent discards a card from his hand.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "AT",
-    "set_id": "Cell Games Saga",
+    "index": "jn",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "6aa8caa9-705a-4c51-9a05-0cf27e4fdb24.jpg"
   },
   {
@@ -1304,8 +1304,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack. If you declared a Tokui-Waza, you may use this card to stop a physical attack instead. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "AU",
-    "set_id": "Cell Games Saga",
+    "index": "jo",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "42d76283-3ca4-455e-9587-ced386bd3f27.jpg"
   },
   {
@@ -1318,8 +1318,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack doing 6 life cards of damage. If stopped, your opponent must discard the top 2 cards of his Life Deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "AV",
-    "set_id": "Cell Games Saga",
+    "index": "jp",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "e7ca1389-4f6b-47b0-a442-f687ef211c5b.jpg"
   },
   {
@@ -1332,8 +1332,8 @@
     "Limit per Deck": "3",
     "Text": "Energy attack. If you declared a Tokui-Waza, your opponent cannot perform an energy attack during is next \"Attacker Attacks\" phase.",
     "Set": "06 - Cell Games Saga",
-    "index": "Az",
-    "set_id": "Cell Games Saga",
+    "index": "kJ",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "2b8515d6-3ead-41ad-a456-8aced6e12f48.jpg"
   },
   {
@@ -1347,8 +1347,8 @@
     "Text": "Endurance 2. Energy attack. If successful, find a Dende Dragon Ball in your Life Deck and place it in play without using its power.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "AW",
-    "set_id": "Cell Games Saga",
+    "index": "jq",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "0d97309a-8f57-44c0-9e60-3f04596302f8.jpg"
   },
   {
@@ -1361,8 +1361,8 @@
     "Limit per Deck": "3",
     "Text": "Focused energy attack doing 5 life cards of damage. If successful, prevent all damage from any physical attack during your opponent's next \"Attacker Attacks\" phase.",
     "Set": "06 - Cell Games Saga",
-    "index": "B6",
-    "set_id": "Cell Games Saga",
+    "index": "kQ",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "67268652-a067-4136-8d45-04c3800bbcb6.jpg"
   },
   {
@@ -1375,8 +1375,8 @@
     "Limit per Deck": "3",
     "Text": "Defense Shield: Stops the first unstopped energy attack performed against you during Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "AY",
-    "set_id": "Cell Games Saga",
+    "index": "js",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "5e0257ca-9d8f-47d5-aa8a-a9d197ff5fa8.jpg"
   },
   {
@@ -1390,8 +1390,8 @@
     "Text": "Endurance 3. Energy attack. If Goku and Gohan are in play, this attack does 8 life cards of damage instead.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "9Z",
-    "set_id": "Cell Games Saga",
+    "index": "it",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "8e6211ff-2720-4e5c-8e7c-8ceb71135f5c.jpg"
   },
   {
@@ -1404,8 +1404,8 @@
     "Limit per Deck": "4",
     "Text": "Energy attack. If successful, skip the next \"Fight Back\" phase and go to your \"Attacker Attacks\" phase instead. You must play an energy attack during that \"Atteker Attacks\" phase or pass.",
     "Set": "06 - Cell Games Saga",
-    "index": "AZ",
-    "set_id": "Cell Games Saga",
+    "index": "jt",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "a9169df4-378c-4c38-8b66-3622cdabf880.jpg"
   },
   {
@@ -1419,8 +1419,8 @@
     "Text": "Constant Combat Power: All of your physical attacks do +5 power stages of damage.",
     "Card Level": "5",
     "Set": "06 - Cell Games Saga",
-    "index": "BL",
-    "set_id": "Cell Games Saga",
+    "index": "kf",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "262328db-a836-4ed0-83a6-876e0ea41368.jpg"
   },
   {
@@ -1434,8 +1434,8 @@
     "Text": "Endurance 3. Use immediately before you perform an energy attack. You do not pay any costs for the energy attack and it does +2 life cards of damage.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "9a",
-    "set_id": "Cell Games Saga",
+    "index": "iu",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "1020e194-015a-4569-9b3c-194d579fc7dc.jpg"
   },
   {
@@ -1448,8 +1448,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical or energy attack. Lower your opponent's anger 1 level. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "Aa",
-    "set_id": "Cell Games Saga",
+    "index": "ju",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "85b6e7bb-b05d-4565-b454-b113a2b7c963.jpg"
   },
   {
@@ -1462,8 +1462,8 @@
     "Limit per Deck": "3",
     "Text": "When entering Combat draw the bottom card of your discard pile.",
     "Set": "06 - Cell Games Saga",
-    "index": "Ab",
-    "set_id": "Cell Games Saga",
+    "index": "jv",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "36444a3f-2285-4679-a93c-86b2d2ff8d6b.jpg"
   },
   {
@@ -1476,8 +1476,8 @@
     "Limit per Deck": "3",
     "Text": "Whenever entering Combat as the defender, you may draw the bottom card of your discard pile into your hand. If you do this you draw 1 less card during your \"Defender Draws 3 Cards\" phase.",
     "Set": "06 - Cell Games Saga",
-    "index": "Ac",
-    "set_id": "Cell Games Saga",
+    "index": "jw",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "473a5134-b157-48d5-a944-eba4718fb3a1.jpg"
   },
   {
@@ -1490,8 +1490,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack. For the remainder of Combat, all physical attacks do +1 power stages of damage for each Dragon Ball in play. Raise your anger 1 level.",
     "Set": "06 - Cell Games Saga",
-    "index": "9b",
-    "set_id": "Cell Games Saga",
+    "index": "iv",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "8fee7f4e-9270-4fad-a267-b38c8cbf1b62.jpg"
   },
   {
@@ -1505,8 +1505,8 @@
     "Text": "Endurance 3. Physical attack doing +3 power stages of damage. You may choose up to 5 cards in your discard pile and remove them from the game.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "9c",
-    "set_id": "Cell Games Saga",
+    "index": "iw",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "45679518-abfc-44c2-90dd-3c276ec9265e.jpg"
   },
   {
@@ -1519,8 +1519,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. Shuffle the top X cards in your discard pile back into your Life Deck. X = your current anger level.",
     "Set": "06 - Cell Games Saga",
-    "index": "9d",
-    "set_id": "Cell Games Saga",
+    "index": "ix",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "4afc6554-1a34-47aa-a125-b03c4f1b614e.jpg"
   },
   {
@@ -1533,8 +1533,8 @@
     "Limit per Deck": "3",
     "Text": "Defense Shield: Stops the first unstopped energy attack performed against you during Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "Ad",
-    "set_id": "Cell Games Saga",
+    "index": "jx",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "93843ff8-6a65-4a23-bdfa-e1145c5567ff.jpg"
   },
   {
@@ -1547,8 +1547,8 @@
     "Limit per Deck": "3",
     "Text": "Focused energy attack doing 3 life cards of damage. If successful, gain 2 anger.",
     "Set": "06 - Cell Games Saga",
-    "index": "Ae",
-    "set_id": "Cell Games Saga",
+    "index": "jy",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "f539b3b4-e37f-4175-98c1-39e557c17dc9.jpg"
   },
   {
@@ -1562,8 +1562,8 @@
     "Text": "Endurance 2. Physical attack. If successful, raise your anger 1 level and lower your opponent's anger 2 levels.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "9e",
-    "set_id": "Cell Games Saga",
+    "index": "iy",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "3eb44c4e-1999-4bb8-92c4-7e7655c53eca.jpg"
   },
   {
@@ -1576,8 +1576,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack. If you declared a Tokui-Waza, this attack does +5 power stages of damage.",
     "Set": "06 - Cell Games Saga",
-    "index": "9f",
-    "set_id": "Cell Games Saga",
+    "index": "iz",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "46905019-9cb4-4ae2-ba54-f8a540bb046a.jpg"
   },
   {
@@ -1590,8 +1590,8 @@
     "Limit per Deck": "3",
     "Text": "Defense Shield: Stops the first unstopped physical attack performed against you during Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "Af",
-    "set_id": "Cell Games Saga",
+    "index": "jz",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "52ba3202-4cb5-4709-b6a6-aad8d75fc06c.jpg"
   },
   {
@@ -1604,8 +1604,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +1 power stages of damage. If successful, raise your anger 2 levels.",
     "Set": "06 - Cell Games Saga",
-    "index": "Ag",
-    "set_id": "Cell Games Saga",
+    "index": "k0",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "0747a84a-3ae1-4ef2-ab31-aadf940c6e7c.jpg"
   },
   {
@@ -1619,8 +1619,8 @@
     "Text": "Endurance 2. Physical attack doing +3 power stages of damage. If successful, search your Life Deck for a Red Drill and place it into play.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "Ah",
-    "set_id": "Cell Games Saga",
+    "index": "k1",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "47bfb7ec-e5bb-464e-89a7-0b7e96ea79e3.jpg"
   },
   {
@@ -1634,8 +1634,8 @@
     "Text": "Endurance 2. Physical attack. If successful, your opponent may not play Energy Combat cards for the remainder of Combat. Remove from the game after use.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "Ai",
-    "set_id": "Cell Games Saga",
+    "index": "k2",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "97d1e734-420a-45af-9988-febed7f02d4b.jpg"
   },
   {
@@ -1648,8 +1648,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. If you declared a Tokui-Waza, raise your anger 1 level and discard a Drill in play.",
     "Set": "06 - Cell Games Saga",
-    "index": "9g",
-    "set_id": "Cell Games Saga",
+    "index": "j0",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "2b8f8825-af3e-470d-8ccc-1a7969c94ce7.jpg"
   },
   {
@@ -1663,8 +1663,8 @@
     "Text": "Endurance 3. Physical attack. If successful, search your Life Deck for an Ally whose personality level is the same as your Main Personality's, and place it in play at its highest power stage.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "9h",
-    "set_id": "Cell Games Saga",
+    "index": "j1",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "18247aa0-b89b-45b4-bac5-ff5a5c2876a5.jpg"
   },
   {
@@ -1677,8 +1677,8 @@
     "Limit per Deck": "3",
     "Text": "Stops a physical attack. All physical attacks you perform for the remainder of Combat do +2 power stages of damage.",
     "Set": "06 - Cell Games Saga",
-    "index": "9i",
-    "set_id": "Cell Games Saga",
+    "index": "j2",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "60f8c773-9dca-4142-b014-502822d35507.jpg"
   },
   {
@@ -1691,8 +1691,8 @@
     "Limit per Deck": "3",
     "Text": "Defense Shield: Stops the first unstopped energy attack performed against you during Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "Aj",
-    "set_id": "Cell Games Saga",
+    "index": "k3",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "21990548-5d2d-4f69-b2c9-44151ff9670d.jpg"
   },
   {
@@ -1706,8 +1706,8 @@
     "Text": "Endurance 1. Energy attack. If you declared a Tokui-Waza, this attack does 7 life cards of damage. Remove from the game after use.",
     "Endurance": "1",
     "Set": "06 - Cell Games Saga",
-    "index": "9j",
-    "set_id": "Cell Games Saga",
+    "index": "j3",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "0ce2193e-1560-4b6a-ad21-343f06c0f369.jpg"
   },
   {
@@ -1720,8 +1720,8 @@
     "Limit per Deck": "3",
     "Text": "Saiyan Heritage only. Physical attack doing +3 power stages of damage. For the remainder of Combat, whenever your opponent uses a Physical Combat card he has to discard the top card of his Life Deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "As",
-    "set_id": "Cell Games Saga",
+    "index": "kC",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "29b44a8e-1883-4d33-9cef-c0f54f825742.jpg"
   },
   {
@@ -1735,8 +1735,8 @@
     "Text": "Endurance 3. Physical attack doing +4 power stages of damage.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "9k",
-    "set_id": "Cell Games Saga",
+    "index": "j4",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "3651dd70-cc0e-4733-bb97-e84342b3fb77.jpg"
   },
   {
@@ -1750,8 +1750,8 @@
     "Text": "Endurance 2. Prevent 4 power stages of damage from a physical attack. Your opponent discards the top 2 life cards from his Life Deck.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "9l",
-    "set_id": "Cell Games Saga",
+    "index": "j5",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "1cef2090-9a63-4b55-a23a-bcb409e9ac0a.jpg"
   },
   {
@@ -1764,8 +1764,8 @@
     "Limit per Deck": "3",
     "Text": "Focused physical attack doing +2 power stages of damage. If successful, discard one of your opponent's Drills in play.",
     "Set": "06 - Cell Games Saga",
-    "index": "9m",
-    "set_id": "Cell Games Saga",
+    "index": "j6",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "09e8a8f4-50a4-4e4b-b2eb-282b08f4a8be.jpg"
   },
   {
@@ -1779,8 +1779,8 @@
     "Text": "Endurance 2. Physical attack. If stopped, select a Drill in play and remove it from the game. Remove from the game after use.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "Al",
-    "set_id": "Cell Games Saga",
+    "index": "k5",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "8811297b-da54-4610-a656-e905f3c1d3a2.jpg"
   },
   {
@@ -1793,8 +1793,8 @@
     "Limit per Deck": "3",
     "Text": "Defense Shield: Stops the first unstopped physical attack performed against you during Combat.",
     "Set": "06 - Cell Games Saga",
-    "index": "Ak",
-    "set_id": "Cell Games Saga",
+    "index": "k4",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "ea4908af-0e5f-4d37-8ff2-9119d99ce5b5.jpg"
   },
   {
@@ -1807,8 +1807,8 @@
     "Limit per Deck": "3",
     "Text": "Focused energy attack doing 3 life cards of damage. If successful, draw a card.",
     "Set": "06 - Cell Games Saga",
-    "index": "9n",
-    "set_id": "Cell Games Saga",
+    "index": "j7",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "19746f92-868b-407a-baf4-0e66fa1b96d9.jpg"
   },
   {
@@ -1822,8 +1822,8 @@
     "Text": "Endurance 3. Heroes only. Once per turn, in place of an attack or during your Non-Combat Step, you may search your Life Deck for 1 card with \"Senzu\" in the title and place it into your hand.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "Am",
-    "set_id": "Cell Games Saga",
+    "index": "k6",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "c88c39c4-d5f3-4eb6-8dd5-10ebe311f3f3.jpg"
   },
   {
@@ -1836,8 +1836,8 @@
     "Limit per Deck": "3",
     "Text": "Discard one of your opponent's Allies in play. Search your Life Deck for an Ally and place it in play at 3 power stags above 0.",
     "Set": "06 - Cell Games Saga",
-    "index": "An",
-    "set_id": "Cell Games Saga",
+    "index": "k7",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "f9f63f7a-724f-4189-9fd0-dc7a7f2ef593.jpg"
   },
   {
@@ -1850,8 +1850,8 @@
     "Limit per Deck": "1",
     "Text": "Set your Main Personality to 0 power stages and remove your discard pile from the game. Your opponent discards the top 5 cards of his Life Deck. Remove from the game after use. Limit 1 per deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "BG",
-    "set_id": "Cell Games Saga",
+    "index": "ka",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "a615267e-1ee8-457a-bcdb-11035f144b0e.jpg"
   },
   {
@@ -1864,8 +1864,8 @@
     "Limit per Deck": "1",
     "Text": "Choose 5, 9, or 1 card from your discard pile and shuffle them into your Life Deck. Your opponent shuffles twice as many cards into his Life Deck. Remove from the game after use. Limit 1 per deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "B2",
-    "set_id": "Cell Games Saga",
+    "index": "kM",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "12dab624-0e81-4729-b75c-53c798599574.jpg"
   },
   {
@@ -1878,8 +1878,8 @@
     "Limit per Deck": "3",
     "Text": "If your Main Personality's power rating is greater than your opponent's, your opponent discards the top 3 cards of his Life Deck. Otherwise, raise your Main Personality to its highest power stage. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "9o",
-    "set_id": "Cell Games Saga",
+    "index": "j8",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "c81c4e14-c2e5-4e30-8f6a-be2ef996265b.jpg"
   },
   {
@@ -1892,8 +1892,8 @@
     "Limit per Deck": "3",
     "Text": "Physical attack doing +1 power stages of damage for each Non-Combat card in your discard pile.",
     "Set": "06 - Cell Games Saga",
-    "index": "At",
-    "set_id": "Cell Games Saga",
+    "index": "kD",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "7c1ac2fa-8262-4340-8a26-d931b01c4a27.jpg"
   },
   {
@@ -1906,8 +1906,8 @@
     "Limit per Deck": "1",
     "Text": "Select an Ally from your Life Deck or discard pile and place it in play at 3 power stages above 0. Shuffle all of your opponent's Dragon Balls back into his Life Deck. Limit 1 per deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "Ax",
-    "set_id": "Cell Games Saga",
+    "index": "kH",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "0860cdd4-4442-4309-9ba8-a7978393fa13.jpg"
   },
   {
@@ -1920,8 +1920,8 @@
     "Limit per Deck": "4",
     "Text": "Stops a physical attack. Raise your anger 1 level. Search your discard pile for a Drill and place it in play.",
     "Set": "06 - Cell Games Saga",
-    "index": "Ao",
-    "set_id": "Cell Games Saga",
+    "index": "k8",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "638b2f47-c5c3-407b-a8dc-41c046bd14c8.jpg"
   },
   {
@@ -1935,8 +1935,8 @@
     "Text": "Endurance 2. All Main Personalities are raised to their highest power stage. Every player raises his anger 1 level. Every player may search his Life Deck for a Freestyle Drill and place it in play.",
     "Endurance": "2",
     "Set": "06 - Cell Games Saga",
-    "index": "9p",
-    "set_id": "Cell Games Saga",
+    "index": "j9",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "8a6d26c8-cc5e-4198-a6b5-96e0d5459ae4.jpg"
   },
   {
@@ -1950,8 +1950,8 @@
     "Text": "You may draw up to 3 cards when entering Combat at the attacker.",
     "Card Level": "5",
     "Set": "06 - Cell Games Saga",
-    "index": "BK",
-    "set_id": "Cell Games Saga",
+    "index": "ke",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "5705df0c-9c59-4625-9489-941a32fb7cdf.jpg"
   },
   {
@@ -1964,8 +1964,8 @@
     "Limit per Deck": "4",
     "Text": "Vegeta only. Raise Vegeta to his highest power stage. Raise your anger 1 level. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "BY",
-    "set_id": "Cell Games Saga",
+    "index": "ks",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "54c50619-b894-4458-95df-f393faae4471.jpg"
   },
   {
@@ -1978,8 +1978,8 @@
     "Limit per Deck": "1",
     "Text": "Vegeta only. Search your Life Deck for 3 Vegeta named cards and place them in your hand. Limit 1 per deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "BV",
-    "set_id": "Cell Games Saga",
+    "index": "kp",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "f712bdfb-93d0-44cb-be28-0b49bf3da4bb.jpg"
   },
   {
@@ -1992,8 +1992,8 @@
     "Limit per Deck": "4",
     "Text": "All Non-Combat cards in your Life Deck that do not have Endurance on them are considered to have Endurance 1 while this Drill is in play.",
     "Set": "06 - Cell Games Saga",
-    "index": "B8",
-    "set_id": "Cell Games Saga",
+    "index": "kS",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "b4fbd721-d583-4cac-8eb6-e1f4d6e2f6f3.jpg"
   },
   {
@@ -2006,8 +2006,8 @@
     "Limit per Deck": "1",
     "Text": "Attach this card to Main Personality. Remove it from the game when that personality performs an energy attack. This personality does a maximum of 5 power sates of damage with each physical attack. Limit 1 per deck.",
     "Set": "06 - Cell Games Saga",
-    "index": "BE",
-    "set_id": "Cell Games Saga",
+    "index": "kY",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "ede73333-bb05-4272-867e-9fc8a955cc30.jpg"
   },
   {
@@ -2021,8 +2021,8 @@
     "Text": "Endurance 3. For the remainder of Combat, play with your hand face up on the table. All of your physical attacks do +4 power stages of damage.",
     "Endurance": "3",
     "Set": "06 - Cell Games Saga",
-    "index": "B9",
-    "set_id": "Cell Games Saga",
+    "index": "kT",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "b480644d-10a7-44b3-9c2a-095d43ccedb1.jpg"
   },
   {
@@ -2035,8 +2035,8 @@
     "Limit per Deck": "4",
     "Text": "Physical attack. If successful, shuffle all Drills in play back into their owner's Life Deck. Remove from the game after use.",
     "Set": "06 - Cell Games Saga",
-    "index": "BW",
-    "set_id": "Cell Games Saga",
+    "index": "kq",
+    "set_id": "fe54a6f1-360b-436c-8dec-7fb3049d58dd",
     "image": "b44e86e6-59b6-445a-84a8-b6efa248c5cc.jpg"
   }
 ]
