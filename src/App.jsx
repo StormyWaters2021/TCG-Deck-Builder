@@ -521,7 +521,7 @@ useEffect(() => {
     aria-current={activePage === "news" ? "page" : undefined}
     title="News"
   >
-    <span aria-hidden="true" className="news-nav-icon">📰</span>
+    <span aria-hidden="true" className="news-nav-icon">⚠️📰⚠️</span>
     <span>News</span>
   </button>
 </div>
