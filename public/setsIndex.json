@@ -228,6 +228,9 @@
     "games/netrunner-1996/sets/03_Classic.json",
     "games/netrunner-1996/sets/04_Promos.json"
   ],
+  "neuroscape-tcg": [
+    "games/neuroscape-tcg/sets/Genesis.json"
+  ],
   "sfr-dragon-dice": [
     "games/sfr-dragon-dice/sets/Dracolem.json",
     "games/sfr-dragon-dice/sets/Dragonkin.json",
