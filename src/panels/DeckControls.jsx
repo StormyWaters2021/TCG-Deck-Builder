@@ -12,7 +12,7 @@ import {
   createSharedDeck,
   updateSharedDeck,
 } from "../utils/deckExportHelpers";
-import { exportDeckPDF } from "../utils/deckPrintPDF";
+import ProxyPdfExportFlow from "../components/ProxyPdfExportFlow";
 import PdfDecklistExportFlow from "../components/PdfDecklistExportFlow";
 import AppModal from "../components/AppModal";
 import {
@@ -93,10 +93,11 @@ function DeckControls({
   const [savedDeckFolderDropIndicator, setSavedDeckFolderDropIndicator] =
     useState(null);
 
-  const pdfDecklistRef = useRef(null);
-  const [generatingPDF, setGeneratingPDF] = useState(false);
-  const deckSubmissionRef = useRef(null);
-  const imageExportRef = useRef(null);
+const pdfDecklistRef = useRef(null);
+const proxyPdfRef = useRef(null);
+const [generatingPDF, setGeneratingPDF] = useState(false);
+const deckSubmissionRef = useRef(null);
+const imageExportRef = useRef(null);
 
   useEffect(() => {
     if (openVersionsMenu == null) return;
@@ -1217,14 +1218,7 @@ async function handleDragonDiceTTSExport() {
       flatDeck[cardId] = entry.count || 0;
     });
 
-    if (format === "PDF") {
-      setGeneratingPDF(true);
-      try {
-        await exportDeckPDF(deck, cards, settings, deckName, game);
-      } finally {
-        setGeneratingPDF(false);
-      }
-    } else if (format === "OCTGN") {
+    if (format === "OCTGN") {
       await exportDeckOCTGN(
         deck,
         cards,
@@ -1342,7 +1336,7 @@ async function handleDragonDiceTTSExport() {
                   }
                   onMouseEnter={() => setDropdownHover(4)}
                   onMouseLeave={() => setDropdownHover(null)}
-                  onClick={() => exportDeck("PDF")}
+                  onClick={() => proxyPdfRef.current?.open()}
                 >
                   Proxy PDF
                 </button>
@@ -1490,6 +1484,19 @@ async function handleDragonDiceTTSExport() {
 		  settings={settings}
 		  deckName={deckName}
 		  game={game}
+		  onBeforeOpen={() => {
+			setDropdownHover(null);
+			setExportMenuOpen(false);
+		  }}
+		/>
+		<ProxyPdfExportFlow
+		  ref={proxyPdfRef}
+		  deck={deck}
+		  cards={cards}
+		  settings={settings}
+		  deckName={deckName}
+		  game={game}
+		  onGeneratingChange={setGeneratingPDF}
 		  onBeforeOpen={() => {
 			setDropdownHover(null);
 			setExportMenuOpen(false);
