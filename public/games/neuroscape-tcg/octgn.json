@@ -1,0 +1,34 @@
+{
+  "gameGuid": "8a39cc51-d6f9-4e25-a3b4-6166b053d9c2",
+  "sections": [
+    {
+      "name": "Mainframe",
+      "shared": false,
+      "criteria": {
+        "Type": ["MAINFRAME"]
+      }
+    },
+    {
+      "name": "Cyberdeck",
+      "shared": false,
+      "criteria": {
+        "Type": ["Program"]
+      }
+    },
+	{
+      "name": "RAM Deck",
+      "shared": false,
+      "criteria": {
+        "name": ["Basic RAM"]
+      }
+    },
+	{
+      "name": "Sideboard",
+      "shared": false,
+      "criteria": {
+        "name": [""]
+      }
+    }
+  ],
+  "defaultSection": "Cyberdeck"
+}

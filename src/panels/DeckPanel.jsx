@@ -784,10 +784,50 @@ const totalCards =
     } else {
       continue;
     }
-    const count = Object.values(processedDeckByName).reduce((sum, { qty, card }) => {
-      if (matchesExclude(card, rule.exclude, card.group)) return sum;
-      return matchesCard(card) ? sum + qty : sum;
-    }, 0);
+    const count = Object.entries(deck).reduce((sum, [cardId, entry]) => {
+  const card = cards.find((c) => c.id === cardId);
+
+  if (!card || !matchesCard(card)) {
+    return sum;
+  }
+
+  const totalCount = Number(entry.count) || 0;
+
+  if (typeof entry.group === "string") {
+    return matchesExclude(card, rule.exclude, entry.group)
+      ? sum
+      : sum + totalCount;
+  }
+
+  if (entry.group && typeof entry.group === "object") {
+    let includedCount = 0;
+    let groupedCount = 0;
+
+    for (const [groupName, groupQuantity] of Object.entries(entry.group)) {
+      const quantity = Number(groupQuantity) || 0;
+      groupedCount += quantity;
+
+      if (!matchesExclude(card, rule.exclude, groupName)) {
+        includedCount += quantity;
+      }
+    }
+
+    const ungroupedCount = Math.max(0, totalCount - groupedCount);
+
+    if (
+      ungroupedCount > 0 &&
+      !matchesExclude(card, rule.exclude, null)
+    ) {
+      includedCount += ungroupedCount;
+    }
+
+    return sum + includedCount;
+  }
+
+  return matchesExclude(card, rule.exclude, null)
+    ? sum
+    : sum + totalCount;
+}, 0);
 
     let propDesc = "";
     if (rule.property && "value" in rule) {
@@ -867,7 +907,190 @@ const totalCards =
         }
       }
     }
-    if (ruleViolated && errorStr) errors.push(errorStr);
+	if (ruleViolated && errorStr) errors.push(errorStr);
+  }
+  
+  // --- Group limits ---
+  // Supports:
+  // 1. Min/max total cards assigned to a group.
+  // 2. Min/max cards matching a property within a group.
+  // Multiple rules may target the same group.
+  for (const rule of settings.deckValidation.groupLimits || []) {
+    const configuredGroups = Array.isArray(rule.group)
+      ? rule.group
+      : [rule.group];
+
+    const targetGroups = configuredGroups.filter(
+      (groupName) =>
+        typeof groupName === "string" && groupName.trim() !== ""
+    );
+
+    if (targetGroups.length === 0) {
+      continue;
+    }
+
+    const matchesGroupLimitCard = (card) => {
+      // No property filter means count every card in the target group.
+      if (
+        !rule.property &&
+        (!rule.properties ||
+          typeof rule.properties !== "object" ||
+          Array.isArray(rule.properties))
+      ) {
+        return true;
+      }
+
+      // Match multiple required properties.
+      if (
+        rule.properties &&
+        typeof rule.properties === "object" &&
+        !Array.isArray(rule.properties)
+      ) {
+        return Object.entries(rule.properties).every(
+          ([propertyName, expectedValue]) => {
+            const actualValue = card?.[propertyName];
+
+            return Array.isArray(expectedValue)
+              ? expectedValue.includes(actualValue)
+              : actualValue === expectedValue;
+          }
+        );
+      }
+
+      // Match one property and value.
+      if (rule.property) {
+        const actualValue = card?.[rule.property];
+        const expectedValue = rule.value;
+
+        return Array.isArray(expectedValue)
+          ? expectedValue.includes(actualValue)
+          : actualValue === expectedValue;
+      }
+
+      return true;
+    };
+
+    const count = Object.entries(deck).reduce(
+      (total, [cardId, entry]) => {
+        const card = cards.find((candidate) => candidate.id === cardId);
+
+        if (!card || !matchesGroupLimitCard(card)) {
+          return total;
+        }
+
+        const entryCount = Number(entry.count) || 0;
+
+        // Legacy/simple format: the whole entry belongs to one group.
+        if (typeof entry.group === "string") {
+          return targetGroups.includes(entry.group)
+            ? total + entryCount
+            : total;
+        }
+
+        // Current split-group format:
+        // {
+        //   count: 3,
+        //   group: {
+        //     Main: 2,
+        //     Sideboard: 1
+        //   }
+        // }
+        if (entry.group && typeof entry.group === "object") {
+          const matchingQuantity = Object.entries(entry.group).reduce(
+            (groupTotal, [groupName, quantityValue]) => {
+              if (!targetGroups.includes(groupName)) {
+                return groupTotal;
+              }
+
+              return groupTotal + (Number(quantityValue) || 0);
+            },
+            0
+          );
+
+          return total + matchingQuantity;
+        }
+
+        return total;
+      },
+      0
+    );
+
+    let description = targetGroups.join(" or ");
+
+    if (rule.property && Object.prototype.hasOwnProperty.call(rule, "value")) {
+      const displayedValue = Array.isArray(rule.value)
+        ? rule.value.join(" or ")
+        : rule.value;
+
+      description +=
+        rule.showPropertyNameInError === false
+          ? ` ${displayedValue}`
+          : ` ${rule.property} ${displayedValue}`;
+    } else if (
+      rule.properties &&
+      typeof rule.properties === "object" &&
+      !Array.isArray(rule.properties)
+    ) {
+      const propertyDescription = Object.entries(rule.properties)
+        .map(([propertyName, expectedValue]) => {
+          const displayedValue = Array.isArray(expectedValue)
+            ? expectedValue.join(" or ")
+            : expectedValue;
+
+          return rule.showPropertyNameInError === false
+            ? displayedValue
+            : `${propertyName} ${displayedValue}`;
+        })
+        .join(" and ");
+
+      if (propertyDescription) {
+        description += ` ${propertyDescription}`;
+      }
+    }
+
+    const formatGroupLimitMessage = (defaultMessage) => {
+      const template = rule.errorMessage || defaultMessage;
+
+      return template
+        .replace(/\{count\}/g, String(count))
+        .replace(/\{min\}/g, String(rule.min ?? ""))
+        .replace(/\{max\}/g, String(rule.max ?? ""))
+        .replace(/\{group\}/g, targetGroups.join(" or "))
+        .replace(/\{desc\}/g, description);
+    };
+
+    const hasMin = typeof rule.min === "number";
+    const hasMax = typeof rule.max === "number";
+
+    if (hasMin && hasMax && rule.min === rule.max) {
+      if (count !== rule.min) {
+        errors.push(
+          formatGroupLimitMessage(
+            `${description} must contain exactly {min} cards: currently {count}`
+          )
+        );
+      }
+    } else if (hasMin && hasMax) {
+      if (count < rule.min || count > rule.max) {
+        errors.push(
+          formatGroupLimitMessage(
+            `${description} must contain between {min} and {max} cards: currently {count}`
+          )
+        );
+      }
+    } else if (hasMin && count < rule.min) {
+      errors.push(
+        formatGroupLimitMessage(
+          `${description} must contain at least {min} cards: currently {count}`
+        )
+      );
+    } else if (hasMax && count > rule.max) {
+      errors.push(
+        formatGroupLimitMessage(
+          `${description} may contain no more than {max} cards: currently {count}`
+        )
+      );
+    }
   }
 
   const normalize = (name) => name.toLowerCase().replace(/[\W_]+/g, "").trim();

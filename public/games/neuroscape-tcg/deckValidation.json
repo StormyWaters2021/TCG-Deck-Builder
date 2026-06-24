@@ -1,0 +1,56 @@
+{
+  "minCards": 0,
+  "maxCards": 9999,
+
+  "minMaxExclude": {
+    "group": ["Sideboard"]
+  },
+
+  "maxCopiesPerCard": 9999,
+  "usePerCardLimit": true,
+
+  "banList": [],
+
+  "propertyLimits": [
+    {
+      "property": "Type",
+      "value": "MAINFRAME",
+      "min": 1,
+      "max": 1,
+      "exclude": {
+        "group": ["Sideboard"]
+      },
+      "showPropertyNameInError": true,
+      "errorMessage": "Must have exactly 1 MAINFRAME. Currently: {count}."
+    }
+  ],
+
+  "groupLimits": [
+    {
+      "group": "Cyberdeck",
+	  "min": 50,
+      "max": 255,
+      "errorMessage": "Cyberdeck must contain between 50 and 255 cards. Currently: {count}."
+    },       
+	{
+      "group": "RAM Deck",
+	  "min": 25,
+      "max": 25,
+      "errorMessage": "RAM Deck must contain exactly 25 cards. Currently: {count}."
+    },    
+	{
+      "group": "Sideboard",
+      "max": 12,
+      "errorMessage": "Sideboard may contain no more than 12 cards: currently {count}"
+    },
+    {
+      "group": "Sideboard",
+      "property": "Type",
+      "value": "MAINFRAME",
+      "max": 1,
+      "errorMessage": "Sideboard may contain no more than 1 MAINFRAME: currently {count}"
+    }
+  ],
+
+  "factionLimit": {}
+}
