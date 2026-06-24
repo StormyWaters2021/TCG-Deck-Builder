@@ -5011,7 +5011,7 @@
     "Artist": "Henry Peters",
     "Text": "A cyberdeck can have any number of cards named [Nanobot Swarm].\nNanobot Swarm gets +1/+0 for each other *NANOBOT character you control.",
     "Flavor Text": "\"They flow like water, a devastating force of nature.\"",
-    "Limit": 0,
+    "Limit": 9999,
     "RAM Cost": "2",
     "Attack": 0,
     "Defence": 1,
