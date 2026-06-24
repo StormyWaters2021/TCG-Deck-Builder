@@ -433,7 +433,7 @@
     "index": "C5",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "3e8a7726-d359-42fb-b495-f4af6f593c1f.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "c45da9e2-c701-4f74-8293-d77294b5a7a6",
@@ -449,7 +449,7 @@
     "index": "C7",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "c45da9e2-c701-4f74-8293-d77294b5a7a6.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "7a7c5d05-97c9-4758-8f59-a7c62943123f",
@@ -493,7 +493,7 @@
     "index": "C6",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "aa8bbb28-e515-4666-85c3-3faf4b6f446e.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "9b990cdd-fa69-4c43-b0a9-3ac1ec15d243",
@@ -579,7 +579,7 @@
     "index": "C8",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "b7cc4ed3-57fc-4689-875d-169ce43b48a4.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "28fdabc9-c881-4bf3-bd69-b147ecce8f3c",
@@ -595,7 +595,7 @@
     "index": "C9",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "28fdabc9-c881-4bf3-bd69-b147ecce8f3c.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "eeb988a9-1dd9-406d-b096-00d6d7b2dca9",
@@ -611,7 +611,7 @@
     "index": "CA",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "eeb988a9-1dd9-406d-b096-00d6d7b2dca9.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "55fe53f9-7fbd-4aef-bb5a-d5b747004896",
@@ -711,7 +711,7 @@
     "index": "Cz",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "a9ababdf-4d80-47d7-b4a6-c31d31dcda8e.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "30e80944-98a1-4a48-8d9c-fe24de4affc8",
@@ -727,7 +727,7 @@
     "index": "D0",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "30e80944-98a1-4a48-8d9c-fe24de4affc8.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "db75a086-d6cc-43d0-88ae-73c168dde8e7",
@@ -743,7 +743,7 @@
     "index": "Cy",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "db75a086-d6cc-43d0-88ae-73c168dde8e7.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "925f4784-af47-42ce-b313-ecf094e1deb5",
@@ -843,7 +843,7 @@
     "index": "DS",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "359db163-5e66-4d44-a545-6b7d4b86ad21.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "28b01e0d-960b-4a76-9e58-98f09ad48e1d",
@@ -859,7 +859,7 @@
     "index": "Bz",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "28b01e0d-960b-4a76-9e58-98f09ad48e1d.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "7eb8642d-8f8d-4be8-ab62-df4bf2b5601a",
@@ -917,7 +917,7 @@
     "index": "DD",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "346ca255-2e0c-406f-9139-e64282921651.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "4b9b81c6-7fff-40ee-840b-13cc4753dc31",
@@ -933,7 +933,7 @@
     "index": "C0",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "4b9b81c6-7fff-40ee-840b-13cc4753dc31.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "7a12f770-9a6f-4291-9b9f-adc169744ba0",
@@ -963,7 +963,7 @@
     "index": "DE",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "783c1cac-3fda-470b-82c3-9cc8c44b7209.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "8520b695-6372-4bf0-90fe-5524859c4c15",
@@ -979,7 +979,7 @@
     "index": "DX",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "8520b695-6372-4bf0-90fe-5524859c4c15.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "ac8c5078-e249-4b49-a156-5bc42c2262b5",
@@ -995,7 +995,7 @@
     "index": "DF",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "ac8c5078-e249-4b49-a156-5bc42c2262b5.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "9e9577f4-967a-4dd2-807a-92b9e61a89e4",
@@ -1011,7 +1011,7 @@
     "index": "Cp",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "9e9577f4-967a-4dd2-807a-92b9e61a89e4.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "8a5a8642-de42-4978-8674-0978d225f009",
@@ -1027,7 +1027,7 @@
     "index": "DV",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "8a5a8642-de42-4978-8674-0978d225f009.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "79f95879-5143-42c7-a99e-3b8ebfd91386",
@@ -1071,7 +1071,7 @@
     "index": "D8",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "b2e82648-848d-4c78-b15c-6ef4089034c2.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "64fd7fc0-d073-4784-b687-b70ef41578f4",
@@ -1087,7 +1087,7 @@
     "index": "D7",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "64fd7fc0-d073-4784-b687-b70ef41578f4.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "2c0a9468-a30a-48b2-a424-766216e41308",
@@ -1103,7 +1103,7 @@
     "index": "D9",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "2c0a9468-a30a-48b2-a424-766216e41308.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "d3762134-3655-425b-8950-58c13dfae892",
@@ -1119,7 +1119,7 @@
     "index": "DT",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "d3762134-3655-425b-8950-58c13dfae892.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "f62ab430-e666-405c-b648-7527087f53bf",
@@ -1163,7 +1163,7 @@
     "index": "D2",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "69a667d7-d532-4af3-a560-d61f6b20d90a.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "ed79a369-3362-4258-a7fa-118f6e5b7d33",
@@ -1179,7 +1179,7 @@
     "index": "D1",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "ed79a369-3362-4258-a7fa-118f6e5b7d33.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "7fc3d2f4-458f-4643-9aa4-3e22a9215dac",
@@ -1195,7 +1195,7 @@
     "index": "D3",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "7fc3d2f4-458f-4643-9aa4-3e22a9215dac.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "7ec5ad00-827a-4825-a4fc-08b243b0da96",
@@ -1211,7 +1211,7 @@
     "index": "Cw",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "7ec5ad00-827a-4825-a4fc-08b243b0da96.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "25ae34cb-3dd9-4f2f-8ba4-edc4ccbe5201",
@@ -1283,7 +1283,7 @@
     "index": "C4",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "4a4cf304-ba6c-4afc-836b-8cde25c4d068.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "b5ec4c53-ef42-4f49-a8c3-d212dc8f0417",
@@ -1299,7 +1299,7 @@
     "index": "C3",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "b5ec4c53-ef42-4f49-a8c3-d212dc8f0417.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "b165cfc2-4740-4f43-84ee-eff378c7966c",
@@ -1315,7 +1315,7 @@
     "index": "DP",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "b165cfc2-4740-4f43-84ee-eff378c7966c.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "0a2601f6-46db-4894-91cc-d1ccbec52bc2",
@@ -1373,7 +1373,7 @@
     "index": "Db",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "b024acd0-f664-45bd-a2a8-919ed63b25c0.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "c6456aed-511c-4e19-9f72-1c77b05eca20",
@@ -1389,7 +1389,7 @@
     "index": "Cx",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "c6456aed-511c-4e19-9f72-1c77b05eca20.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "5a2dfb6e-b512-442c-9ea7-44eacca41398",
@@ -1405,7 +1405,7 @@
     "index": "DQ",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "5a2dfb6e-b512-442c-9ea7-44eacca41398.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "b339233e-6022-4c53-b52d-68266e287534",
@@ -1421,7 +1421,7 @@
     "index": "DR",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "b339233e-6022-4c53-b52d-68266e287534.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "77487cce-b098-41ce-a0e5-9da70ff9e9e8",
@@ -1451,7 +1451,7 @@
     "index": "Cr",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "9aa1da8e-55d6-47af-be0e-8e24400bca96.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "3f5977f5-ce36-4ef6-a85b-34d34365113c",
@@ -1467,7 +1467,7 @@
     "index": "Cs",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "3f5977f5-ce36-4ef6-a85b-34d34365113c.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "cbd86bf6-937a-4d23-912d-bd67ce25c420",
@@ -1553,7 +1553,7 @@
     "index": "Ct",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "a31b1f8a-fe3f-4c03-99db-0dbeb860a664.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "5c0288f8-0906-46f8-bc61-9055e256168c",
@@ -2031,7 +2031,7 @@
     "index": "Cq",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "0a009382-6349-4cd6-a182-f917e3867000.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "1ce75f65-94ce-4631-9a64-387f79108554",
@@ -2047,7 +2047,7 @@
     "index": "DU",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "1ce75f65-94ce-4631-9a64-387f79108554.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "7eb41c74-b6d3-441c-8e40-a63c6b65d3e0",
@@ -2063,7 +2063,7 @@
     "index": "D5",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "7eb41c74-b6d3-441c-8e40-a63c6b65d3e0.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "4a9e35d7-dd16-41d7-836f-d5a53a708d79",
@@ -2079,7 +2079,7 @@
     "index": "D4",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "4a9e35d7-dd16-41d7-836f-d5a53a708d79.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "4fd86932-c4ce-4a1e-9de3-3de3f6667119",
@@ -2095,7 +2095,7 @@
     "index": "D6",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "4fd86932-c4ce-4a1e-9de3-3de3f6667119.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "df4fc054-a882-49d1-9e3d-dff2eb2959ec",
@@ -2391,7 +2391,7 @@
     "index": "DG",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "a4e45bdf-3bfb-4fb3-b098-741c1601ec79.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "d6ca3877-7f24-4353-88d2-ad613f7a157a",
@@ -2435,7 +2435,7 @@
     "index": "DY",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "f2fa96ca-6069-443a-b4d7-a69fdb138cb6.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "1898f7d0-44ac-4c1e-a63f-f0c7e1548232",
@@ -2451,7 +2451,7 @@
     "index": "DH",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "1898f7d0-44ac-4c1e-a63f-f0c7e1548232.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "82b97a81-4702-4ee2-9fa5-9c667b16aa34",
@@ -2467,7 +2467,7 @@
     "index": "C1",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "82b97a81-4702-4ee2-9fa5-9c667b16aa34.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "59af6f81-3b24-4ff4-b63f-371bd680bf57",
@@ -2483,7 +2483,7 @@
     "index": "DI",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "59af6f81-3b24-4ff4-b63f-371bd680bf57.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "9adc1713-32ca-4b74-8f64-6397cd340d0c",
@@ -2527,7 +2527,7 @@
     "index": "DO",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "1d4662df-8e33-4241-af9e-09c7ee0755d2.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "32b7fd2a-9ea7-4e34-a63a-f4e0d39f6d78",
@@ -2613,7 +2613,7 @@
     "index": "DM",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "b5248896-3ebf-4dd0-982b-2e103f13e6f5.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "6db2c917-7a78-4d30-8139-109b1d5120d3",
@@ -2867,7 +2867,7 @@
     "index": "Cn",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "463983f5-799b-4932-983e-331ccc78a761.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "fb3ee444-e005-4eb5-b27c-ce49817ac756",
@@ -2883,7 +2883,7 @@
     "index": "Da",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "fb3ee444-e005-4eb5-b27c-ce49817ac756.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "7508620b-3551-477b-bc1b-14455aea2a58",
@@ -2899,7 +2899,7 @@
     "index": "DN",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "7508620b-3551-477b-bc1b-14455aea2a58.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "7ba0038f-1447-47b5-9d3b-ccf24f6e656c",
@@ -2915,7 +2915,7 @@
     "index": "DW",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "7ba0038f-1447-47b5-9d3b-ccf24f6e656c.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "1baad144-f964-4b7a-967a-456da613209b",
@@ -2945,7 +2945,7 @@
     "index": "DC",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "52219ac6-65ea-467a-80bc-64531f948bb7.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "b769f3db-a066-4ee7-bd11-873df3415575",
@@ -2961,7 +2961,7 @@
     "index": "Co",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "b769f3db-a066-4ee7-bd11-873df3415575.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "edbab8f2-6174-4f36-a746-92436c71035e",
@@ -2977,7 +2977,7 @@
     "index": "DA",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "edbab8f2-6174-4f36-a746-92436c71035e.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "bbaf4523-40b4-444c-a809-380a16a81109",
@@ -2993,7 +2993,7 @@
     "index": "DB",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "bbaf4523-40b4-444c-a809-380a16a81109.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "dac19917-03aa-40f0-9a6c-4fcbe2715670",
@@ -3023,7 +3023,7 @@
     "index": "DJ",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "abaa899b-f94b-4f7e-89b6-2153bc1fc540.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "aa6e0c10-2ab5-4155-b24b-bd06ec14fedc",
@@ -3067,7 +3067,7 @@
     "index": "C2",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "743e0533-de9f-4a90-8e9f-2a769baf068e.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "d5c94ef3-7bf1-402f-ba6d-355502bafd34",
@@ -3083,7 +3083,7 @@
     "index": "DZ",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "d5c94ef3-7bf1-402f-ba6d-355502bafd34.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "8ccd3474-0ae0-412b-a910-6fe134a4d2b3",
@@ -3099,7 +3099,7 @@
     "index": "DK",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "8ccd3474-0ae0-412b-a910-6fe134a4d2b3.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "f992a178-f0ac-4ff3-b424-9dc0bd89ac2e",
@@ -3115,7 +3115,7 @@
     "index": "DL",
     "set_id": "254870e2-6e2d-48bb-bb35-ceb086fcb2d1",
     "image": "f992a178-f0ac-4ff3-b424-9dc0bd89ac2e.jpg",
-    "Supertype": "Personality"
+    "True Type": "Personality"
   },
   {
     "id": "62c7f1b0-1f8f-4d8f-984d-93b3122d2d3f",
