@@ -1,5 +1,38 @@
 export const newsArticles = [
   {
+	  slug: "fanz-judgement-preview-2",
+	  title: "FanZ Judgement Preview #2",
+	  date: "2026-06-24",
+	  author: "TCGBuilder.net",
+	  tags: ["Preview", "FanZ"],
+	  excerpt: "Yet another preview card for the newest FanZ set: Judgement!",
+	  body: [
+		{
+		  type: "paragraph",
+		  text: "Welcome back. Last time on Dragon Ball Z, I very incorrectly assessed a preview card from the upcoming Judgement set. Let's see if I can do it again! "
+		},		
+		{
+		  type: "paragraph",
+		  text: "Without further ado here is the card:"
+		},		
+		{
+		  type: "image",
+		  game: "dbz-fanz",
+		  image: "2e8506ce-c03f-4e36-9b5d-f2b6847a5502.png",
+		  alt: "Red Spinal Fracture",
+		  caption: "Looks kinda like Unleashed, right?"
+		},
+		{
+		  type: "paragraph",
+		  text: "What the hell do I know about this game? This seems pretty cool, for a damage buff and a Drill that doesn't leave when you change levels, and it gives you a bonus when you change levels. Maybe Vegeta wants it, since several of his cards have you advance or lower MP levels."
+		},
+		{
+		  type: "paragraph",
+		  text: "Well that's it, is this card good? Is it bad? Am I stupid? Be sure to let me know. That's it for this episode of Dragon Ball Z!"
+		}
+	  ]
+	},
+	{
 	  slug: "fanz-judgement-preview",
 	  title: "FanZ Judgement Preview",
 	  date: "2026-05-22",

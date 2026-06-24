@@ -362,6 +362,32 @@
     "index": "3g",
     "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
     "Tag": ""
+  },   
+  {
+    "name": "Saiyan Pacing Drill",
+    "Style": "Saiyan",
+    "Card Number": "U33",
+    "Type": "Drill",
+    "Endurance": "",
+    "Text": "(This Drill is not discarded when changing levels.) [CONSTANT] Your Styled attacks deal +1 life card and +1 stage. [INSTANT] POWER: Use after your MP changes levels. If your MP advanced a level this turn, Rejuvenate 3. If your MP lowered a level this turn, gain 5 stages.",
+    "Traits": "",
+    "PUR": "",
+    "Power Rating": "",
+    "Rarity": "Uncommon",
+    "Level": "",
+    "Orientation": "Horizontal",
+    "Oracle Text": "",
+    "alt1_name": "",
+    "alt1_number": "",
+    "alt1_rarity": "",
+    "alt1_orientation": "",
+    "Set": "Set 19 Judgement",
+    "image": "blank.png",
+    "Main Personality": "",
+    "id": "2e8506ce-c03f-4e36-9b5d-f2b6847a5502",
+    "index": "3g",
+    "set_id": "dbd76dc0-0eda-4835-8ce0-1688a8de73d8",
+    "Tag": ""
   }
   
 ]
