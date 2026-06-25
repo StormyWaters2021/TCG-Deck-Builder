@@ -2,6 +2,7 @@
   {
     "id": "dd348431-01e3-475e-9f24-1aa116e05375",
     "name": "Black Ball Absorption",
+    "size": "Vertical",
     "Card Number": "NZ204",
     "Style": "Black",
     "Rarity": "Promo",
@@ -16,6 +17,7 @@
   {
     "id": "6e710804-721e-494a-9fc5-335b5582bae4",
     "name": "Black Bulma's Reprogramming",
+    "size": "Vertical",
     "Card Number": "NZ201",
     "Style": "Black",
     "Rarity": "Promo",
@@ -30,6 +32,7 @@
   {
     "id": "ae6c291f-c536-4cd1-80f0-45bbcc039465",
     "name": "Black Guldo's Time Freeze",
+    "size": "Vertical",
     "Card Number": "NZ202",
     "Style": "Black",
     "Rarity": "Promo",
@@ -44,6 +47,7 @@
   {
     "id": "837100fe-42f4-4b35-a00a-0ba188989235",
     "name": "Black Risky Maneuver",
+    "size": "Vertical",
     "Card Number": "NZ203",
     "Style": "Black",
     "Rarity": "Promo",
@@ -59,6 +63,7 @@
   {
     "id": "8813056a-c986-4f3f-986f-ebffde69f2a7",
     "name": "Blue Copycat Drill",
+    "size": "Vertical",
     "Card Number": "NZ208",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -73,6 +78,7 @@
   {
     "id": "2c236c4d-fd9e-46eb-adaa-a97fc879a9c3",
     "name": "Blue Intense Ki Drill",
+    "size": "Vertical",
     "Card Number": "NZ206",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -87,6 +93,7 @@
   {
     "id": "0c8e7ba7-51b6-4343-9d47-549a3b03c9fd",
     "name": "Blue Trickster Drill",
+    "size": "Vertical",
     "Card Number": "NZ205",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -101,6 +108,7 @@
   {
     "id": "bfa9f31e-6250-48ae-8de1-52956a1c5c34",
     "name": "Blue Yamcha's Spirit Shot",
+    "size": "Vertical",
     "Card Number": "NZ207",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -115,6 +123,7 @@
   {
     "id": "ae890678-7020-4401-9a7c-c3ed7d4e8c7d",
     "name": "Elder Kai's Help Drill",
+    "size": "Vertical",
     "Card Number": "NZ227",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -129,6 +138,7 @@
   {
     "id": "7e145202-f8fc-40a3-93ac-1b33c8b93dc5",
     "name": "Hatchiyack's Android Assault",
+    "size": "Vertical",
     "Card Number": "NZ225",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -143,6 +153,7 @@
   {
     "id": "1678dc08-3d3d-488c-a748-7c8f39ea6070",
     "name": "Hatchiyack, Android Activated",
+    "size": "Vertical",
     "Card Number": "NZ238",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -159,6 +170,7 @@
   {
     "id": "3b197c6d-dc0d-4a27-8236-3f5bd428dd25",
     "name": "Hatchiyack, Android Anger",
+    "size": "Vertical",
     "Card Number": "NZ239",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -175,6 +187,7 @@
   {
     "id": "cbe3f801-18df-4afc-bcf6-b5e05b671dc3",
     "name": "Hatchiyack, Android Archive",
+    "size": "Vertical",
     "Card Number": "NZ237",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -191,6 +204,7 @@
   {
     "id": "408921ec-e260-4974-97cb-30df8aaaff31",
     "name": "Hatchiyack, Android Assault",
+    "size": "Vertical",
     "Card Number": "NZ240",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -207,6 +221,7 @@
   {
     "id": "1a98de64-03c1-4f32-ab4f-1557c5b2829b",
     "name": "Hercule's Megaton Punch",
+    "size": "Vertical",
     "Card Number": "NZ229",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -221,6 +236,7 @@
   {
     "id": "905a36a4-fd37-475e-8696-54286be6ad27",
     "name": "Hercule's Smackdown",
+    "size": "Vertical",
     "Card Number": "NZ230",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -235,6 +251,7 @@
   {
     "id": "0d5c617c-8f60-4e6a-be68-145143511b34",
     "name": "Hercule, Unstoppable?",
+    "size": "Vertical",
     "Card Number": "NZ232",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -251,6 +268,7 @@
   {
     "id": "06e1771d-8fda-48e1-a1cc-453baf15f77e",
     "name": "Launch, Having a Blast",
+    "size": "Vertical",
     "Card Number": "NZ233",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -267,6 +285,7 @@
   {
     "id": "fcfdfc6f-33ec-4ada-92a5-b79b62f3b2d9",
     "name": "Launch, Loose Cannon",
+    "size": "Vertical",
     "Card Number": "NZ236",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -283,6 +302,7 @@
   {
     "id": "6094a089-e8ff-421f-8ff5-10668fce1a93",
     "name": "Launch, Mystery Missile",
+    "size": "Vertical",
     "Card Number": "NZ235",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -299,6 +319,7 @@
   {
     "id": "33580238-2ebc-4353-b0ca-1a60eb5514bf",
     "name": "Launch, Taking a Shot",
+    "size": "Vertical",
     "Card Number": "NZ234",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -315,6 +336,7 @@
   {
     "id": "b336fa83-927f-4c71-9463-9cf4a505a5f9",
     "name": "Majin Babidi's Dark Magic",
+    "size": "Vertical",
     "Card Number": "NZ226",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -329,6 +351,7 @@
   {
     "id": "027ff45e-3f52-442d-877d-53660ec8419b",
     "name": "Namekian Crushing Blow",
+    "size": "Vertical",
     "Card Number": "NZ209",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -343,6 +366,7 @@
   {
     "id": "122e0b14-6f40-400e-96e2-545569ed7e33",
     "name": "Namekian Foresight",
+    "size": "Vertical",
     "Card Number": "NZ210",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -357,6 +381,7 @@
   {
     "id": "8418cb50-066f-4420-bb98-c5e4a36aa25c",
     "name": "Namekian Ki Volley",
+    "size": "Vertical",
     "Card Number": "NZ212",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -371,6 +396,7 @@
   {
     "id": "130b198e-3b24-4dc0-8718-308281f8635a",
     "name": "Namekian Mouth Wave",
+    "size": "Vertical",
     "Card Number": "NZ211",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -386,6 +412,7 @@
   {
     "id": "c0da9bf8-e063-41e4-8be8-fa00ff34538b",
     "name": "Orange Cocky Deflection",
+    "size": "Vertical",
     "Card Number": "NZ214",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -400,6 +427,7 @@
   {
     "id": "36043535-018e-4414-9f78-58c956610db5",
     "name": "Orange Explosive Wave",
+    "size": "Vertical",
     "Card Number": "NZ216",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -414,6 +442,7 @@
   {
     "id": "50552900-3cfc-4854-890a-4236ccdefb7b",
     "name": "Orange Speed Shot",
+    "size": "Vertical",
     "Card Number": "NZ213",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -429,6 +458,7 @@
   {
     "id": "15be4a10-b1be-4942-9f6e-3f51f9c16401",
     "name": "Orange Wild Sword Slice",
+    "size": "Vertical",
     "Card Number": "NZ215",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -444,6 +474,7 @@
   {
     "id": "7aa8375c-b085-4173-a611-911dfd50deb6",
     "name": "Power Down",
+    "size": "Vertical",
     "Card Number": "NZ228",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -458,6 +489,7 @@
   {
     "id": "f8cdf903-5f0c-4f8b-84a5-01974d50f58d",
     "name": "Red Brawl",
+    "size": "Vertical",
     "Card Number": "NZ217",
     "Style": "Red",
     "Rarity": "Promo",
@@ -472,6 +504,7 @@
   {
     "id": "77cc4d14-1e04-4602-95e0-263807683878",
     "name": "Red Energy Pressure",
+    "size": "Vertical",
     "Card Number": "NZ218",
     "Style": "Red",
     "Rarity": "Promo",
@@ -486,6 +519,7 @@
   {
     "id": "10eaeaed-8fc8-4ba1-aadc-1d0b022fbd0a",
     "name": "Red Grounding Chop",
+    "size": "Vertical",
     "Card Number": "NZ219",
     "Style": "Red",
     "Rarity": "Promo",
@@ -500,6 +534,7 @@
   {
     "id": "f111dc2f-f2e1-49fb-b30d-d14d2395597b",
     "name": "Red Overwhelming Energy",
+    "size": "Vertical",
     "Card Number": "NZ220",
     "Style": "Red",
     "Rarity": "Promo",
@@ -514,6 +549,7 @@
   {
     "id": "3290be22-970d-48c5-8a7e-422c2ed7df52",
     "name": "Saiyan Blood",
+    "size": "Vertical",
     "Card Number": "NZ224",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -528,6 +564,7 @@
   {
     "id": "f648dcef-b6dc-48ed-8cc5-42304257e3ae",
     "name": "Saiyan Broken Bones",
+    "size": "Vertical",
     "Card Number": "NZ222",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -542,6 +579,7 @@
   {
     "id": "5d8e03ad-6d92-4334-a823-b225db9ad79f",
     "name": "Saiyan Imperious Defense",
+    "size": "Vertical",
     "Card Number": "NZ223",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -556,6 +594,7 @@
   {
     "id": "4e99541b-a999-4e1d-ad75-46d703923a01",
     "name": "Saiyan Instinct",
+    "size": "Vertical",
     "Card Number": "NZ221",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -570,6 +609,7 @@
   {
     "id": "e827fb32-91c7-44fa-adaf-02a602cecda2",
     "name": "Vegeta's Big Bang Attack",
+    "size": "Vertical",
     "Card Number": "WC02",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -584,6 +624,7 @@
   {
     "id": "fa8c4bf2-bb82-4e91-97fd-b25f53287099",
     "name": "Vegeta, Bad Man",
+    "size": "Vertical",
     "Card Number": "NZ231",
     "Style": "Freestyle",
     "Rarity": "Promo",

@@ -2,6 +2,7 @@
   {
     "id": "825d5a6a-27fc-4ebf-aa75-f40ebaa173f4",
     "name": "A Hero's Heart Is Strong",
+    "size": "Vertical",
     "Card Number": "CA35",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -16,6 +17,7 @@
   {
     "id": "e3878deb-c308-4f90-81f0-4a47b5bcedf9",
     "name": "Advanced Basics",
+    "size": "Vertical",
     "Card Number": "32",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -30,6 +32,7 @@
   {
     "id": "a97ca415-339c-4bb6-9f98-74b77d1ca7e7",
     "name": "Alt. Earth Dragon Ball 3",
+    "size": "Vertical",
     "Card Number": "CA27",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -44,6 +47,7 @@
   {
     "id": "db3997a3-742e-490b-bf63-548f419b1482",
     "name": "Apocalyptic Battle",
+    "size": "Vertical",
     "Card Number": "33",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -58,6 +62,7 @@
   {
     "id": "31de4e18-3d17-489f-828f-232aa45aff15",
     "name": "Black Big Bang",
+    "size": "Vertical",
     "Card Number": "34",
     "Style": "Black",
     "Rarity": "Uncommon",
@@ -72,6 +77,7 @@
   {
     "id": "75e7faf4-6572-46d5-8bcb-5eccf390f565",
     "name": "Black Dark Energy",
+    "size": "Vertical",
     "Card Number": "35",
     "Style": "Black",
     "Rarity": "Uncommon",
@@ -87,6 +93,7 @@
   {
     "id": "be6c2f13-8f3b-4797-a98d-9644ee1855c6",
     "name": "Black Energy Swirl",
+    "size": "Vertical",
     "Card Number": "93",
     "Style": "Black",
     "Rarity": "Rare",
@@ -101,6 +108,7 @@
   {
     "id": "26db9b08-382b-4bbd-928e-396513beb9db",
     "name": "Black High Kick",
+    "size": "Vertical",
     "Card Number": "1",
     "Style": "Black",
     "Rarity": "Common",
@@ -116,6 +124,7 @@
   {
     "id": "d7a13a0a-860d-4970-a814-31e8f433949c",
     "name": "Black Jaw Hammer",
+    "size": "Vertical",
     "Card Number": "2",
     "Style": "Black",
     "Rarity": "Common",
@@ -131,6 +140,7 @@
   {
     "id": "a90feacf-58e8-4709-99cc-7cac86dd6526",
     "name": "Black Jawbreaker",
+    "size": "Vertical",
     "Card Number": "36",
     "Style": "Black",
     "Rarity": "Uncommon",
@@ -145,6 +155,7 @@
   {
     "id": "32b514d5-68ee-4305-b36a-385cf5e151b9",
     "name": "Black Karmic Strike",
+    "size": "Vertical",
     "Card Number": "37",
     "Style": "Black",
     "Rarity": "Uncommon",
@@ -159,6 +170,7 @@
   {
     "id": "6e36d8f1-b4ee-4a51-a6fa-64c57a6fb524",
     "name": "Black Protection Orb",
+    "size": "Vertical",
     "Card Number": "38",
     "Style": "Black",
     "Rarity": "Uncommon",
@@ -173,6 +185,7 @@
   {
     "id": "6dd33458-34a2-43ba-b057-9d58ba0fbdfd",
     "name": "Black Restraint",
+    "size": "Vertical",
     "Card Number": "39",
     "Style": "Black",
     "Rarity": "Uncommon",
@@ -187,6 +200,7 @@
   {
     "id": "24c7bfdf-621c-449e-b73b-c5b3c1417265",
     "name": "Black Scout Maneuver",
+    "size": "Vertical",
     "Card Number": "CA36",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -201,6 +215,7 @@
   {
     "id": "942d02af-fe30-4291-8ef8-a6ae132def97",
     "name": "Black Shift Kick",
+    "size": "Vertical",
     "Card Number": "3",
     "Style": "Black",
     "Rarity": "Common",
@@ -215,6 +230,7 @@
   {
     "id": "5e4bea22-af77-4017-a714-02f8dec0ab98",
     "name": "Black Spin Kick",
+    "size": "Vertical",
     "Card Number": "40",
     "Style": "Black",
     "Rarity": "Uncommon",
@@ -229,6 +245,7 @@
   {
     "id": "76051ac7-0474-4048-9a05-d957efeecc73",
     "name": "Black Uppercut",
+    "size": "Vertical",
     "Card Number": "94",
     "Style": "Black",
     "Rarity": "Rare",
@@ -244,6 +261,7 @@
   {
     "id": "5173fe21-f4d4-4bdc-b765-edc46510241c",
     "name": "Blue Backhand",
+    "size": "Vertical",
     "Card Number": "95",
     "Style": "Blue",
     "Rarity": "Rare",
@@ -258,6 +276,7 @@
   {
     "id": "307d6de2-3f1e-4983-8178-9c56d2ec76a1",
     "name": "Blue Beatdown",
+    "size": "Vertical",
     "Card Number": "41",
     "Style": "Blue",
     "Rarity": "Uncommon",
@@ -273,6 +292,7 @@
   {
     "id": "16a3415c-044c-4010-a0e1-c641427feea1",
     "name": "Blue Energy Guard",
+    "size": "Vertical",
     "Card Number": "42",
     "Style": "Blue",
     "Rarity": "Uncommon",
@@ -287,6 +307,7 @@
   {
     "id": "98755e2b-ae72-4615-b587-09ca3134680e",
     "name": "Blue Forceful Explosion",
+    "size": "Vertical",
     "Card Number": "43",
     "Style": "Blue",
     "Rarity": "Uncommon",
@@ -301,6 +322,7 @@
   {
     "id": "6a0d7aef-f537-4fd6-8ef7-5ef54ce72b1f",
     "name": "Blue Gut Implosion",
+    "size": "Vertical",
     "Card Number": "44",
     "Style": "Blue",
     "Rarity": "Uncommon",
@@ -315,6 +337,7 @@
   {
     "id": "65815170-ccf2-4b07-8d0f-536ff8b10bf3",
     "name": "Blue Knockdown",
+    "size": "Vertical",
     "Card Number": "4",
     "Style": "Blue",
     "Rarity": "Common",
@@ -329,6 +352,7 @@
   {
     "id": "69df3d54-e12d-4d21-a6a0-03c380cfdd87",
     "name": "Blue Leapfrog Drill",
+    "size": "Vertical",
     "Card Number": "96",
     "Style": "Blue",
     "Rarity": "Rare",
@@ -343,6 +367,7 @@
   {
     "id": "69324ff0-6bb5-4372-aa3a-787e4d81d38e",
     "name": "Blue Longshot",
+    "size": "Vertical",
     "Card Number": "45",
     "Style": "Blue",
     "Rarity": "Uncommon",
@@ -358,6 +383,7 @@
   {
     "id": "311056ab-9ff8-47af-89a0-2e4ab7475dfb",
     "name": "Blue Lunge",
+    "size": "Vertical",
     "Card Number": "97",
     "Style": "Blue",
     "Rarity": "Rare",
@@ -373,6 +399,7 @@
   {
     "id": "518b92c3-226d-4c3c-ab00-fd2ebd4cfa27",
     "name": "Blue Multi-Jab",
+    "size": "Vertical",
     "Card Number": "46",
     "Style": "Blue",
     "Rarity": "Uncommon",
@@ -387,6 +414,7 @@
   {
     "id": "f4186426-e267-47cf-9e5a-3263bf439086",
     "name": "Blue Stopping Technique",
+    "size": "Vertical",
     "Card Number": "47",
     "Style": "Blue",
     "Rarity": "Uncommon",
@@ -402,6 +430,7 @@
   {
     "id": "e4747214-7d02-4fff-b98a-c6d9f9688284",
     "name": "Blue Style Mastery (FuS)",
+    "size": "Vertical",
     "Card Number": "CA34",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -416,6 +445,7 @@
   {
     "id": "aa71e522-2395-468d-a2dc-a29c3c108a49",
     "name": "Blue Weaving",
+    "size": "Vertical",
     "Card Number": "48",
     "Style": "Blue",
     "Rarity": "Uncommon",
@@ -430,6 +460,7 @@
   {
     "id": "c17d204f-e3e2-47ba-b885-87e38441ab25",
     "name": "Boomstick",
+    "size": "Vertical",
     "Card Number": "49",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -444,6 +475,7 @@
   {
     "id": "f4f8935a-a567-4889-983f-1cdadb3f5906",
     "name": "Caterpy",
+    "size": "Vertical",
     "Card Number": "CA13",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -460,6 +492,7 @@
   {
     "id": "eb21612f-f809-4f2b-8c6d-6cdcdc7c47eb",
     "name": "Caterpy, the Grappler",
+    "size": "Vertical",
     "Card Number": "CA14",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -476,6 +509,7 @@
   {
     "id": "3a826bb0-1800-4dc2-bd6d-7738b407b2c6",
     "name": "Caterpy, the Tenacious",
+    "size": "Vertical",
     "Card Number": "CA15",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -492,6 +526,7 @@
   {
     "id": "c6d8221d-ab22-4fd5-a246-afbb7c74050a",
     "name": "Cooler's Surprise Attack",
+    "size": "Vertical",
     "Card Number": "CA24",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -507,6 +542,7 @@
   {
     "id": "5ba441d8-0810-4414-b877-3dfd39d6cf76",
     "name": "Dazed",
+    "size": "Vertical",
     "Card Number": "98",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -521,6 +557,7 @@
   {
     "id": "a864cfe7-3024-4bc1-9249-68ac5ae26aec",
     "name": "Den-Goku",
+    "size": "Vertical",
     "Card Number": "99",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -537,6 +574,7 @@
   {
     "id": "e6321219-aa4a-415e-b2ed-286a02c69400",
     "name": "Determination Drill",
+    "size": "Vertical",
     "Card Number": "5",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -551,6 +589,7 @@
   {
     "id": "34351879-8880-4e68-b02a-dd7a8b1442ee",
     "name": "Devastation Drill",
+    "size": "Vertical",
     "Card Number": "Preview6",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -565,6 +604,7 @@
   {
     "id": "254ca501-9977-4114-aec1-e18b001305d0",
     "name": "Devious Moves",
+    "size": "Vertical",
     "Card Number": "50",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -580,6 +620,7 @@
   {
     "id": "1842eb3c-39b0-455c-805f-d58c7d48c958",
     "name": "Dimension Scream",
+    "size": "Vertical",
     "Card Number": "6",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -594,6 +635,7 @@
   {
     "id": "cdd20c3c-2965-46d3-bfe7-1f2926d2dad9",
     "name": "Dr. Willow (FuS Lv1)",
+    "size": "Vertical",
     "Card Number": "CA04",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -610,6 +652,7 @@
   {
     "id": "cbcbf5da-867f-44f0-89f6-c4fd61f8274b",
     "name": "Dr. Willow (FuS Lv2)",
+    "size": "Vertical",
     "Card Number": "CA05",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -626,6 +669,7 @@
   {
     "id": "3bd98df6-a43a-4ace-859c-6501dfd01750",
     "name": "Dr. Willow (FuS Lv3)",
+    "size": "Vertical",
     "Card Number": "CA06",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -642,6 +686,7 @@
   {
     "id": "e04ed8e1-8621-42c5-97a9-95e8ddd78492",
     "name": "Elder Kai's Sacrifice",
+    "size": "Vertical",
     "Card Number": "51",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -656,6 +701,7 @@
   {
     "id": "38c77e21-1095-4e01-8d63-fb7c2f86844e",
     "name": "Energetic Fruit",
+    "size": "Vertical",
     "Card Number": "CA18",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -670,6 +716,7 @@
   {
     "id": "2cc56e46-d4a0-45e1-96c4-5539b34b00d3",
     "name": "Energy Pouch",
+    "size": "Vertical",
     "Card Number": "CA29",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -684,6 +731,7 @@
   {
     "id": "95f9e2ae-7f64-49d9-92df-a8a12b1b7a1a",
     "name": "Fusion Saga PAT (FuS)",
+    "size": "Vertical",
     "Card Number": "PAT",
     "Rarity": "PAT",
     "Type": "Physical Attack Table",
@@ -697,6 +745,7 @@
   {
     "id": "35d9686f-2b7f-43b7-a88f-bb4c1187565d",
     "name": "Gohan's Energy Deflection",
+    "size": "Vertical",
     "Card Number": "CA31",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -712,6 +761,7 @@
   {
     "id": "97cd5869-5295-43ee-a051-030a565a3b64",
     "name": "Gohan's Forearm Block",
+    "size": "Vertical",
     "Card Number": "52",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -727,6 +777,7 @@
   {
     "id": "d1c028d6-8cca-4268-be8f-dd1153f82905",
     "name": "Gohan's Immense Power",
+    "size": "Vertical",
     "Card Number": "CA16",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -741,6 +792,7 @@
   {
     "id": "d4b7f1e9-184f-4653-9207-e796e3959d8b",
     "name": "Gohan's Left Energy Release",
+    "size": "Vertical",
     "Card Number": "53",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -756,6 +808,7 @@
   {
     "id": "dd6eaa2a-f358-4a5f-8877-262a1d597983",
     "name": "Gohan, Earth's Protector",
+    "size": "Vertical",
     "Card Number": "100",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -772,6 +825,7 @@
   {
     "id": "35d86916-fe4a-4e22-a928-d20adac89809",
     "name": "Gohan, Mystic Empowered",
+    "size": "Vertical",
     "Card Number": "101",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -788,6 +842,7 @@
   {
     "id": "9256434a-88a2-4ae8-aab6-1192df7a02cd",
     "name": "Goku's Flight",
+    "size": "Vertical",
     "Card Number": "Preview1",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -802,6 +857,7 @@
   {
     "id": "c66d7511-58e3-4ee1-8430-3c3bf1525fad",
     "name": "Goku's Power Pole",
+    "size": "Vertical",
     "Card Number": "CA17",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -816,6 +872,7 @@
   {
     "id": "9078b858-fc8d-46f2-b0a1-44a1418f3fbd",
     "name": "Goku's Quick Dodge",
+    "size": "Vertical",
     "Card Number": "CA28",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -830,6 +887,7 @@
   {
     "id": "56971ddd-17ea-492f-b750-bc6ce8ed7d7c",
     "name": "Goku's Super Saiyan Catch",
+    "size": "Vertical",
     "Card Number": "CA21",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -845,6 +903,7 @@
   {
     "id": "c0774700-666c-477c-b336-139645cb3067",
     "name": "Gotenks' Fast Action",
+    "size": "Vertical",
     "Card Number": "P01",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -859,6 +918,7 @@
   {
     "id": "28c217ca-84a5-4c84-8e7e-7d21e6b2ee79",
     "name": "Gotenks' Kamikaze Ghost",
+    "size": "Vertical",
     "Card Number": "102",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -873,6 +933,7 @@
   {
     "id": "4f6bc336-2dce-4544-b78e-bceab70ba210",
     "name": "Gotenks, Super Saiyan 3",
+    "size": "Vertical",
     "Card Number": "124",
     "Style": "Freestyle",
     "Rarity": "Ultra Rare",
@@ -889,6 +950,7 @@
   {
     "id": "f009a01b-92c0-404a-946a-4ec6961c1545",
     "name": "Hercule Draws Steel",
+    "size": "Vertical",
     "Card Number": "P02",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -904,6 +966,7 @@
   {
     "id": "b4329b16-7046-410b-92b1-7c4a7a48009c",
     "name": "Hercule's Assault Drill",
+    "size": "Vertical",
     "Card Number": "7",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -918,6 +981,7 @@
   {
     "id": "9eded363-7d43-4453-a2ae-0dc4aa323c28",
     "name": "Hercule's Immunity",
+    "size": "Vertical",
     "Card Number": "8",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -932,6 +996,7 @@
   {
     "id": "5f73da2b-804f-4ad3-94b5-79d47182b9bc",
     "name": "Hercule-Goku",
+    "size": "Vertical",
     "Card Number": "103",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -948,6 +1013,7 @@
   {
     "id": "1a378bd3-3750-4483-9c19-fb1d5d9f3443",
     "name": "Heroic Charge",
+    "size": "Vertical",
     "Card Number": "54",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -962,6 +1028,7 @@
   {
     "id": "e170b523-164c-47fe-b097-ad2605719a72",
     "name": "Heroic Effort",
+    "size": "Vertical",
     "Card Number": "9",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -976,6 +1043,7 @@
   {
     "id": "6651688a-249d-4762-8000-b03c422b56ff",
     "name": "Heroic Head Throw",
+    "size": "Vertical",
     "Card Number": "P03",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -990,6 +1058,7 @@
   {
     "id": "0ca758fc-a337-48cf-9eb2-a994e0f07a01",
     "name": "Human Extinction Attack",
+    "size": "Vertical",
     "Card Number": "P04",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1005,6 +1074,7 @@
   {
     "id": "ed1a5bde-b73c-4250-8e27-6b12583f5395",
     "name": "Icarus",
+    "size": "Vertical",
     "Card Number": "CA19",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1021,6 +1091,7 @@
   {
     "id": "29df0679-8870-469b-bf6f-c19648876794",
     "name": "Ingrain in the Membrane",
+    "size": "Vertical",
     "Card Number": "CA26",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1035,6 +1106,7 @@
   {
     "id": "7b940df0-4ddd-4cd7-a75e-4e067a417f7c",
     "name": "Intensity Drill",
+    "size": "Vertical",
     "Card Number": "55",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1049,6 +1121,7 @@
   {
     "id": "340b1138-65ff-49a1-95b5-4a145e93b059",
     "name": "Knowledge Transfer",
+    "size": "Vertical",
     "Card Number": "CA22",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1064,6 +1137,7 @@
   {
     "id": "4093be41-389d-421a-9d3e-706a499bd6da",
     "name": "Krillin's Sacrifice",
+    "size": "Vertical",
     "Card Number": "56",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1078,6 +1152,7 @@
   {
     "id": "7e42c863-019d-4eb4-b0a3-d596897c6d81",
     "name": "Last Ditch Effort",
+    "size": "Vertical",
     "Card Number": "104",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -1093,6 +1168,7 @@
   {
     "id": "99a8f8ce-4276-419d-9cb2-3dc023f80509",
     "name": "Locked On",
+    "size": "Vertical",
     "Card Number": "P05",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1107,6 +1183,7 @@
   {
     "id": "537e2183-4948-410c-8cd6-1c062c040865",
     "name": "Majin Bibidi, the Mastermind",
+    "size": "Vertical",
     "Card Number": "Preview3",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1123,6 +1200,7 @@
   {
     "id": "c0d64970-5389-4cb4-afc0-76b0a4238729",
     "name": "Majin Buu's Bicycle Kick",
+    "size": "Vertical",
     "Card Number": "59",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1137,6 +1215,7 @@
   {
     "id": "616fabf9-223f-484e-847e-e82deb4a1d8d",
     "name": "Majin Buu's Choke Hold",
+    "size": "Vertical",
     "Card Number": "Preview2",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -1151,6 +1230,7 @@
   {
     "id": "1406304f-5cc0-4df5-adde-344fc169fab5",
     "name": "Majin Buu's Energy Spray",
+    "size": "Vertical",
     "Card Number": "107",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -1165,6 +1245,7 @@
   {
     "id": "b90cfd11-d37e-4b57-8063-931bd00b54db",
     "name": "Majin Buu's Goo",
+    "size": "Vertical",
     "Card Number": "60",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1180,6 +1261,7 @@
   {
     "id": "4f0760d4-76de-41e7-9340-73ee1620de8e",
     "name": "Majin Buu's Heel Kick",
+    "size": "Vertical",
     "Card Number": "11",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -1195,6 +1277,7 @@
   {
     "id": "2b5e76af-e114-4faa-9fb0-448e674add4e",
     "name": "Majin Buu's Kamikaze Ghost",
+    "size": "Vertical",
     "Card Number": "108",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -1211,12 +1294,21 @@
   {
     "id": "8a651b18-cd36-4fd7-a612-13865c4d67db",
     "name": "Majin Buu's New House",
+    "size": "Vertical",
     "Card Number": "109",
     "Style": "Freestyle",
     "Rarity": "Rare",
     "Type": "Location",
     "Text": "All players play with their hands faceup on the table. All Named cards in all players' Life Decks without Endurance gain Endurance 1.",
     "Limit": "4",
+    "alternates": [
+      {
+        "name": "Majin Buu's New House",
+        "type": "Horizontal",
+        "size": "Horizontal",
+        "image": "8a651b18-cd36-4fd7-a612-13865c4d67db.Horizontal.jpg"
+      }
+    ],
     "Set": "10 - Fusion Saga",
     "index": "9H",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
@@ -1225,12 +1317,21 @@
   {
     "id": "3487ba74-62bf-438e-a6f1-5be1fa3639da",
     "name": "Majin Buu's Stomach",
+    "size": "Vertical",
     "Card Number": "61",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
     "Type": "Location",
     "Text": "Sensei Deck. All attacks do +2 power stages of damage. All Fused Personalities in play defuse, and cannot fuse while this Location is in play.",
     "Limit": "4",
+    "alternates": [
+      {
+        "name": "Majin Buu's Stomach",
+        "type": "Horizontal",
+        "size": "Horizontal",
+        "image": "3487ba74-62bf-438e-a6f1-5be1fa3639da.Horizontal.jpg"
+      }
+    ],
     "Set": "10 - Fusion Saga",
     "index": "8V",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
@@ -1239,6 +1340,7 @@
   {
     "id": "d936dd14-6efb-4c24-85a1-713983c89f99",
     "name": "Majin Buu's Taunt",
+    "size": "Vertical",
     "Card Number": "12",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -1253,6 +1355,7 @@
   {
     "id": "dc4b4580-4909-43fb-890b-4aebdf668756",
     "name": "Majin Buu, Evil Buu",
+    "size": "Vertical",
     "Card Number": "10",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -1269,6 +1372,7 @@
   {
     "id": "f43f149f-f6cc-4942-b8f0-f5515fb2d484",
     "name": "Majin Buu, Gohan Absorbed",
+    "size": "Vertical",
     "Card Number": "105",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -1285,6 +1389,7 @@
   {
     "id": "aa302723-943f-4332-a0c4-b387978db6a5",
     "name": "Majin Buu, Gotenks Absorbed",
+    "size": "Vertical",
     "Card Number": "106",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -1301,6 +1406,7 @@
   {
     "id": "20274728-9ab9-4dd9-8e4f-d785d469b857",
     "name": "Majin Buu, Piccolo Absorbed",
+    "size": "Vertical",
     "Card Number": "57",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1317,6 +1423,7 @@
   {
     "id": "919302dc-fafe-47a2-9b58-9a021bff242a",
     "name": "Majin Buu, Super Buu",
+    "size": "Vertical",
     "Card Number": "58",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1333,6 +1440,7 @@
   {
     "id": "87ff1bcb-f79e-4858-a1fb-846310271a72",
     "name": "Majin Planet Destruction Blast",
+    "size": "Vertical",
     "Card Number": "110",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -1347,6 +1455,7 @@
   {
     "id": "563afc8f-1093-4c52-b850-532a7eb998ca",
     "name": "Majin Static Orb",
+    "size": "Vertical",
     "Card Number": "62",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1361,6 +1470,7 @@
   {
     "id": "8b04d5bc-772a-454f-b738-ecc8b4fbca2f",
     "name": "Majin Thrust",
+    "size": "Vertical",
     "Card Number": "111",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -1375,6 +1485,7 @@
   {
     "id": "15de8334-4e69-45a2-849b-2280848c8b32",
     "name": "Makyo Star",
+    "size": "Vertical",
     "Card Number": "CA32",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1389,6 +1500,7 @@
   {
     "id": "3db568d9-3530-4f25-a51d-43ffd32f1c5a",
     "name": "Master Roshi's Back Kick",
+    "size": "Vertical",
     "Card Number": "CA30",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1403,6 +1515,7 @@
   {
     "id": "4ad719de-c8bc-46f1-b1e7-1d38c89722bf",
     "name": "Namekian Door Explosion",
+    "size": "Vertical",
     "Card Number": "112",
     "Style": "Namekian",
     "Rarity": "Rare",
@@ -1418,6 +1531,7 @@
   {
     "id": "872d9908-e3cc-45d8-a299-0a6a5ad39b76",
     "name": "Namekian Finger Blast",
+    "size": "Vertical",
     "Card Number": "63",
     "Style": "Namekian",
     "Rarity": "Uncommon",
@@ -1432,6 +1546,7 @@
   {
     "id": "e697d59b-27c9-4c51-8801-31b578eb00ec",
     "name": "Narrow Escape",
+    "size": "Vertical",
     "Card Number": "64",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1446,6 +1561,7 @@
   {
     "id": "6caac11e-b626-49e0-a273-fdc0aba432a0",
     "name": "Nooooooooooooooo!",
+    "size": "Vertical",
     "Card Number": "13",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -1460,6 +1576,7 @@
   {
     "id": "f675374a-74b0-4b86-bb20-e204386b4ec8",
     "name": "Orange Blitzkrieg",
+    "size": "Vertical",
     "Card Number": "P06",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -1475,6 +1592,7 @@
   {
     "id": "e40fff83-e8a2-4c37-897a-2571508cad79",
     "name": "Orange Charge Kick",
+    "size": "Vertical",
     "Card Number": "90",
     "Style": "Orange",
     "Rarity": "Uncommon",
@@ -1490,6 +1608,7 @@
   {
     "id": "f7d459d1-1976-49b9-88b6-b7bbe8a9c3d3",
     "name": "Orange Energy Break",
+    "size": "Vertical",
     "Card Number": "65",
     "Style": "Orange",
     "Rarity": "Uncommon",
@@ -1505,6 +1624,7 @@
   {
     "id": "4285e573-fabf-47fd-8aa0-32ff5e6dae79",
     "name": "Orange Headshot",
+    "size": "Vertical",
     "Card Number": "66",
     "Style": "Orange",
     "Rarity": "Uncommon",
@@ -1519,6 +1639,7 @@
   {
     "id": "1a43118d-8666-4b9d-b280-f88efdd6a2e3",
     "name": "Orange Laser Drill",
+    "size": "Vertical",
     "Card Number": "67",
     "Style": "Orange",
     "Rarity": "Uncommon",
@@ -1533,6 +1654,7 @@
   {
     "id": "91337a7a-b01f-411f-ae64-08dcfcb56b52",
     "name": "Orange Palm Technique",
+    "size": "Vertical",
     "Card Number": "P08",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -1547,6 +1669,7 @@
   {
     "id": "0727ad87-a6dd-4eb8-9b59-0b408885a737",
     "name": "Orange Power Point",
+    "size": "Vertical",
     "Card Number": "P09",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -1562,6 +1685,7 @@
   {
     "id": "e9e04c84-d7e4-4724-a992-2f1e3a747712",
     "name": "Orange Protection Drill",
+    "size": "Vertical",
     "Card Number": "68",
     "Style": "Orange",
     "Rarity": "Uncommon",
@@ -1576,6 +1700,7 @@
   {
     "id": "56572701-f63b-46ca-a3df-f0f3c30691cc",
     "name": "Orange Reflex",
+    "size": "Vertical",
     "Card Number": "113",
     "Style": "Orange",
     "Rarity": "Rare",
@@ -1590,6 +1715,7 @@
   {
     "id": "dd32d9dc-091b-4ba4-b35c-c91101bba22d",
     "name": "Orange Rush",
+    "size": "Vertical",
     "Card Number": "69",
     "Style": "Orange",
     "Rarity": "Uncommon",
@@ -1604,6 +1730,7 @@
   {
     "id": "e035bdfb-e946-4312-b15a-7035dd1041cb",
     "name": "Orange Splitting Headache",
+    "size": "Vertical",
     "Card Number": "14",
     "Style": "Orange",
     "Rarity": "Common",
@@ -1619,6 +1746,7 @@
   {
     "id": "3b1d718a-391f-4be1-8dbd-eda2088e2921",
     "name": "Orange Strength",
+    "size": "Vertical",
     "Card Number": "15",
     "Style": "Orange",
     "Rarity": "Common",
@@ -1634,6 +1762,7 @@
   {
     "id": "ccf3df8b-83d0-46f8-b77e-6dd1d1a6ee60",
     "name": "Overcharge",
+    "size": "Vertical",
     "Card Number": "70",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1649,6 +1778,7 @@
   {
     "id": "3eb39b00-ab22-484c-8eae-c036ddf1f79a",
     "name": "Paused Pose",
+    "size": "Vertical",
     "Card Number": "16",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -1663,6 +1793,7 @@
   {
     "id": "dd8552ac-8f26-482f-bcf7-f7b482231080",
     "name": "Peaceful Times",
+    "size": "Vertical",
     "Card Number": "Preview4",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1677,6 +1808,7 @@
   {
     "id": "73b27607-a156-43fb-89ab-f396313c9afc",
     "name": "Piccolo's Destruction Attack",
+    "size": "Vertical",
     "Card Number": "CA33",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1692,6 +1824,7 @@
   {
     "id": "4a67669b-58af-4cd7-ba21-e212eb74b92b",
     "name": "Piccolo's Power Blast",
+    "size": "Vertical",
     "Card Number": "CA23",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1707,6 +1840,7 @@
   {
     "id": "2a3aa565-81e6-4b6d-bc3e-cd5937edf698",
     "name": "Potara Earrings",
+    "size": "Vertical",
     "Card Number": "114",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -1721,6 +1855,7 @@
   {
     "id": "dcf0b4c1-a4a2-41fa-9851-361b0dc7a262",
     "name": "Ready for Action",
+    "size": "Vertical",
     "Card Number": "71",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1735,6 +1870,7 @@
   {
     "id": "e872ac25-4248-470c-a027-b3940909af70",
     "name": "Red Cross Slash",
+    "size": "Vertical",
     "Card Number": "72",
     "Style": "Red",
     "Rarity": "Uncommon",
@@ -1749,6 +1885,7 @@
   {
     "id": "ac72aabc-cb45-4b53-aeb6-87a024f588bc",
     "name": "Red Drop",
+    "size": "Vertical",
     "Card Number": "115",
     "Style": "Red",
     "Rarity": "Rare",
@@ -1763,6 +1900,7 @@
   {
     "id": "f3d17c59-db11-4e05-9dbb-0da24515196d",
     "name": "Red Energy Slap",
+    "size": "Vertical",
     "Card Number": "73",
     "Style": "Red",
     "Rarity": "Uncommon",
@@ -1777,6 +1915,7 @@
   {
     "id": "da73c341-8b4f-4dd6-8b23-bd5a21c7a3d4",
     "name": "Red Holding Drill",
+    "size": "Vertical",
     "Card Number": "17",
     "Style": "Red",
     "Rarity": "Common",
@@ -1791,6 +1930,7 @@
   {
     "id": "38de6ea9-afd5-44ff-af8c-dde3bbe5612d",
     "name": "Red Leverage Blast",
+    "size": "Vertical",
     "Card Number": "116",
     "Style": "Red",
     "Rarity": "Rare",
@@ -1805,6 +1945,7 @@
   {
     "id": "50d5904e-6ef3-4abf-b480-27a6df964dba",
     "name": "Red Mouth Cannon",
+    "size": "Vertical",
     "Card Number": "117",
     "Style": "Red",
     "Rarity": "Rare",
@@ -1819,6 +1960,7 @@
   {
     "id": "2d2684b4-5343-4975-9d39-6552437b80db",
     "name": "Red Physical Fortification",
+    "size": "Vertical",
     "Card Number": "74",
     "Style": "Red",
     "Rarity": "Uncommon",
@@ -1833,6 +1975,7 @@
   {
     "id": "3e2c16ed-8992-4956-a645-408e8edfe77b",
     "name": "Red Rapid Deflection",
+    "size": "Vertical",
     "Card Number": "75",
     "Style": "Red",
     "Rarity": "Uncommon",
@@ -1847,6 +1990,7 @@
   {
     "id": "c466f397-7579-4a8e-bea4-d9f667d43ee8",
     "name": "Red Rapid Energy",
+    "size": "Vertical",
     "Card Number": "76",
     "Style": "Red",
     "Rarity": "Uncommon",
@@ -1861,6 +2005,7 @@
   {
     "id": "03d27907-5fbb-4a21-94e2-354e22f3cd4b",
     "name": "Red Repeating Flares",
+    "size": "Vertical",
     "Card Number": "77",
     "Style": "Red",
     "Rarity": "Uncommon",
@@ -1876,6 +2021,7 @@
   {
     "id": "cfda7f9b-60fe-426b-8a6a-b17468d9de6e",
     "name": "Red Static Shot",
+    "size": "Vertical",
     "Card Number": "78",
     "Style": "Red",
     "Rarity": "Uncommon",
@@ -1890,6 +2036,7 @@
   {
     "id": "d77af159-8415-477c-87e5-9384a788292c",
     "name": "Red Striking Drill",
+    "size": "Vertical",
     "Card Number": "18",
     "Style": "Red",
     "Rarity": "Common",
@@ -1905,6 +2052,7 @@
   {
     "id": "a7fb4d32-79fe-4517-84ae-a2aee4d9e3bd",
     "name": "Red Whiplash",
+    "size": "Vertical",
     "Card Number": "118",
     "Style": "Red",
     "Rarity": "Rare",
@@ -1920,6 +2068,7 @@
   {
     "id": "ac6cc479-a6da-4e7e-81fa-1d0b06d9d598",
     "name": "Redeemed",
+    "size": "Vertical",
     "Card Number": "79",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -1934,6 +2083,7 @@
   {
     "id": "5328f67d-7604-4518-99ea-a4bfcd49dbb2",
     "name": "Release",
+    "size": "Vertical",
     "Card Number": "19",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -1949,6 +2099,7 @@
   {
     "id": "cc6d90bf-ec11-4af4-a877-2892e891113c",
     "name": "Returning the Favor",
+    "size": "Vertical",
     "Card Number": "CA25",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1963,6 +2114,7 @@
   {
     "id": "70d212e0-8e9a-421d-850c-e7dbbe95b5d5",
     "name": "Saiyan Blitz",
+    "size": "Vertical",
     "Card Number": "80",
     "Style": "Saiyan",
     "Rarity": "Uncommon",
@@ -1977,6 +2129,7 @@
   {
     "id": "4f481640-072d-4abc-a59f-81e9b0d0023e",
     "name": "Saiyan Elusion",
+    "size": "Vertical",
     "Card Number": "81",
     "Style": "Saiyan",
     "Rarity": "Uncommon",
@@ -1991,6 +2144,7 @@
   {
     "id": "24b0dc8e-5336-4610-afe0-5eadf50a91b1",
     "name": "Saiyan Explosion",
+    "size": "Vertical",
     "Card Number": "82",
     "Style": "Saiyan",
     "Rarity": "Uncommon",
@@ -2005,6 +2159,7 @@
   {
     "id": "ab423550-ec24-42eb-8cf9-89fefea3ba96",
     "name": "Saiyan Gut Kick",
+    "size": "Vertical",
     "Card Number": "83",
     "Style": "Saiyan",
     "Rarity": "Uncommon",
@@ -2020,6 +2175,7 @@
   {
     "id": "a232456b-582d-4351-8388-dc3975192db8",
     "name": "Saiyan Neckbreaker",
+    "size": "Vertical",
     "Card Number": "84",
     "Style": "Saiyan",
     "Rarity": "Uncommon",
@@ -2035,6 +2191,7 @@
   {
     "id": "5c3a45bd-83d6-4c0e-933b-5b9b6877759b",
     "name": "Saiyan Neutralization",
+    "size": "Vertical",
     "Card Number": "20",
     "Style": "Saiyan",
     "Rarity": "Common",
@@ -2049,6 +2206,7 @@
   {
     "id": "7255d82a-5ee6-460f-8bf2-7ed8061e694c",
     "name": "Saiyan Overcharged Blast",
+    "size": "Vertical",
     "Card Number": "119",
     "Style": "Saiyan",
     "Rarity": "Rare",
@@ -2063,6 +2221,7 @@
   {
     "id": "80462166-2f85-48bf-b208-27d85616fd62",
     "name": "Saiyan Perfect Defense",
+    "size": "Vertical",
     "Card Number": "85",
     "Style": "Saiyan",
     "Rarity": "Uncommon",
@@ -2077,6 +2236,7 @@
   {
     "id": "2594a106-81c3-4513-a833-551b87361917",
     "name": "Saiyan Power",
+    "size": "Vertical",
     "Card Number": "21",
     "Style": "Saiyan",
     "Rarity": "Common",
@@ -2091,6 +2251,7 @@
   {
     "id": "8d2c971f-131b-4f5e-843c-2e0e6dbf0ffd",
     "name": "Saiyan Push",
+    "size": "Vertical",
     "Card Number": "86",
     "Style": "Saiyan",
     "Rarity": "Uncommon",
@@ -2106,6 +2267,7 @@
   {
     "id": "a91d563d-312d-4580-8f3c-e4a0010c7855",
     "name": "Saiyan Spindletop Punch",
+    "size": "Vertical",
     "Card Number": "22",
     "Style": "Saiyan",
     "Rarity": "Common",
@@ -2121,6 +2283,7 @@
   {
     "id": "b63ae995-28ed-4eda-8373-bad9f23460bf",
     "name": "Saiyan Two Gun Woo",
+    "size": "Vertical",
     "Card Number": "87",
     "Style": "Saiyan",
     "Rarity": "Uncommon",
@@ -2135,6 +2298,7 @@
   {
     "id": "997e9765-692c-4b53-9df1-319ccf410edf",
     "name": "Sneaky Tricks",
+    "size": "Vertical",
     "Card Number": "88",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -2149,6 +2313,7 @@
   {
     "id": "46872ba2-c5c3-4dd4-9ba5-8d58081e558f",
     "name": "Straining Power Move",
+    "size": "Vertical",
     "Card Number": "120",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -2164,6 +2329,7 @@
   {
     "id": "82ab62cf-32e4-4632-8d0f-f8fd2205bb5e",
     "name": "Supreme West Kai (FuS Lv1)",
+    "size": "Vertical",
     "Card Number": "CA01",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2180,6 +2346,7 @@
   {
     "id": "ce38354a-c72b-4046-91e2-f9865b91499b",
     "name": "Supreme West Kai (FuS Lv2)",
+    "size": "Vertical",
     "Card Number": "CA02",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2196,6 +2363,7 @@
   {
     "id": "19ae6342-6ce9-4c26-976b-5d04b2fdb303",
     "name": "Supreme West Kai (FuS Lv3)",
+    "size": "Vertical",
     "Card Number": "CA03",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2212,6 +2380,7 @@
   {
     "id": "2bcdc13b-71fd-4276-8a01-20f146eab141",
     "name": "Taking a Break",
+    "size": "Vertical",
     "Card Number": "P10",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2226,6 +2395,7 @@
   {
     "id": "f8736691-f202-4309-b330-1d02a76ec907",
     "name": "Taking Cover",
+    "size": "Vertical",
     "Card Number": "23",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -2240,6 +2410,7 @@
   {
     "id": "6c5337ab-25ef-42b6-b20d-7b895b262044",
     "name": "The Power of Porunga",
+    "size": "Vertical",
     "Card Number": "Preview5",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -2254,6 +2425,7 @@
   {
     "id": "d4a32529-e25b-4cd8-aa1b-142e9f14e389",
     "name": "Tien's Surprise Technique",
+    "size": "Vertical",
     "Card Number": "24",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -2269,6 +2441,7 @@
   {
     "id": "208da0b0-2373-4e7e-8fd7-6ab66812d581",
     "name": "Transformation",
+    "size": "Vertical",
     "Card Number": "121",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -2283,12 +2456,21 @@
   {
     "id": "c1b714ec-50a5-4c3a-9410-2fbdaa7211d3",
     "name": "Tree of Might",
+    "size": "Vertical",
     "Card Number": "CA20",
     "Style": "Freestyle",
     "Rarity": "Promo",
     "Type": "Battleground",
     "Text": "All attacks do +2 power stages of damage. When entering Combat, each player may search his Life Deck for a Freestyle Drill and place it into play.",
     "Limit": "3",
+    "alternates": [
+      {
+        "name": "Tree of Might",
+        "type": "Horizontal",
+        "size": "Horizontal",
+        "image": "c1b714ec-50a5-4c3a-9410-2fbdaa7211d3.Horizontal.jpg"
+      }
+    ],
     "Set": "10 - Fusion Saga",
     "index": "A7",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
@@ -2297,6 +2479,7 @@
   {
     "id": "96709977-7a50-4463-a762-3efe88c94df1",
     "name": "Turles, the Mysterious",
+    "size": "Vertical",
     "Card Number": "CA10",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2313,6 +2496,7 @@
   {
     "id": "0f3a5752-d4ac-43dd-8b5e-973d5f580a1f",
     "name": "Turles, the Proud",
+    "size": "Vertical",
     "Card Number": "CA11",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2329,6 +2513,7 @@
   {
     "id": "12d82ecb-3b8b-4822-a3ff-89d5c5aee4ca",
     "name": "Turles, the Saiyan Warrior",
+    "size": "Vertical",
     "Card Number": "CA12",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2345,6 +2530,7 @@
   {
     "id": "141c5f0d-2a24-4aae-ada0-260a4992a971",
     "name": "Underdog Drill",
+    "size": "Vertical",
     "Card Number": "25",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -2359,6 +2545,7 @@
   {
     "id": "a2197811-a63d-46a1-88ec-94a1846fb9c9",
     "name": "Underdog Drop Kick",
+    "size": "Vertical",
     "Card Number": "26",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -2374,6 +2561,7 @@
   {
     "id": "ce52017c-9db6-4843-87b2-b61ea5421787",
     "name": "Unlocked Potential",
+    "size": "Vertical",
     "Card Number": "89",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -2388,6 +2576,7 @@
   {
     "id": "9b45298b-efd3-4333-a29d-985ab7e2b7f8",
     "name": "Up Close and Personal",
+    "size": "Vertical",
     "Card Number": "27",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -2403,6 +2592,7 @@
   {
     "id": "47ab3b5e-0056-4a5a-8437-aec2c8e476bd",
     "name": "Vegeta's Blurred Kick",
+    "size": "Vertical",
     "Card Number": "91",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -2418,6 +2608,7 @@
   {
     "id": "2b8cd893-ae5d-4276-8432-856b88db019f",
     "name": "Vegeta's Fury",
+    "size": "Vertical",
     "Card Number": "122",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -2432,6 +2623,7 @@
   {
     "id": "e8892c35-7913-4b35-b00b-7ca136c45bc5",
     "name": "Vegeta, the Celestial",
+    "size": "Vertical",
     "Card Number": "P07",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2448,6 +2640,7 @@
   {
     "id": "f35916a7-fde8-46d2-80fd-38b0a6714a27",
     "name": "Vegito",
+    "size": "Vertical",
     "Card Number": "123",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -2464,6 +2657,7 @@
   {
     "id": "f3e8ff5d-26d8-4967-b32d-b605c459b7b1",
     "name": "Vegito's Charged Blast",
+    "size": "Vertical",
     "Card Number": "28",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -2478,6 +2672,7 @@
   {
     "id": "a9bdcd5d-f2e8-4f28-9257-7d574b0cad9a",
     "name": "Vegito's Drop Kick",
+    "size": "Vertical",
     "Card Number": "29",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -2492,6 +2687,7 @@
   {
     "id": "15077fb3-95ab-4b64-9c07-904a931a93e8",
     "name": "Vegito's Leg Catch",
+    "size": "Vertical",
     "Card Number": "30",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -2506,6 +2702,7 @@
   {
     "id": "19be5e7c-964e-4b01-8777-786af6417146",
     "name": "Vegito's Uppercut",
+    "size": "Vertical",
     "Card Number": "31",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -2520,6 +2717,7 @@
   {
     "id": "6c5a2423-4636-4461-b304-d84ba5095c97",
     "name": "Vegito, Super Saiyan",
+    "size": "Vertical",
     "Card Number": "125",
     "Style": "Freestyle",
     "Rarity": "Ultra Rare",
@@ -2536,6 +2734,7 @@
   {
     "id": "8c1943b1-6e92-4a95-8cb4-09e4c1689189",
     "name": "Yamcha, the Amazing",
+    "size": "Vertical",
     "Card Number": "92",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -2552,6 +2751,7 @@
   {
     "id": "29ded85f-41af-4657-a87f-40fc68569bc0",
     "name": "Zarbon",
+    "size": "Vertical",
     "Card Number": "CA07",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2568,6 +2768,7 @@
   {
     "id": "3cbd40b0-e929-44a3-a5df-9c9e2aeea397",
     "name": "Zarbon, Fanatical",
+    "size": "Vertical",
     "Card Number": "CA09",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2584,6 +2785,7 @@
   {
     "id": "756cf635-92bf-408b-b5d1-33b80f9c1af2",
     "name": "Zarbon, Transformed",
+    "size": "Vertical",
     "Card Number": "CA08",
     "Style": "Freestyle",
     "Rarity": "Promo",

@@ -2,6 +2,7 @@
   {
     "id": "73ec3393-ef81-4481-aaa6-5326619aa4c8",
     "name": "Begin The Invasion",
+    "size": "Vertical",
     "Card Number": "NZ080",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -16,6 +17,7 @@
   {
     "id": "6d2383b2-f57f-404d-a857-9cbe8edc73ee",
     "name": "Black Aura Eruption",
+    "size": "Vertical",
     "Card Number": "NZ054",
     "Style": "Black",
     "Rarity": "Promo",
@@ -30,6 +32,7 @@
   {
     "id": "cba7e037-c805-4cc3-8e0d-8e52bbe70c6e",
     "name": "Black Imposing Drill",
+    "size": "Vertical",
     "Card Number": "NZ055",
     "Style": "Black",
     "Rarity": "Promo",
@@ -44,6 +47,7 @@
   {
     "id": "9acd3741-76c5-460f-b3b3-f0193c28fa15",
     "name": "Black Mutilation",
+    "size": "Vertical",
     "Card Number": "NZ053",
     "Style": "Black",
     "Rarity": "Promo",
@@ -58,6 +62,7 @@
   {
     "id": "1ce9230c-a78d-4de9-8b6e-9e73d21f919f",
     "name": "Black Negation",
+    "size": "Vertical",
     "Card Number": "NZ051",
     "Style": "Black",
     "Rarity": "Promo",
@@ -72,6 +77,7 @@
   {
     "id": "aeb539ba-7949-4870-a347-a5272f823af4",
     "name": "Black Vegeta's Galick Gun",
+    "size": "Vertical",
     "Card Number": "NZ052",
     "Style": "Black",
     "Rarity": "Promo",
@@ -86,6 +92,7 @@
   {
     "id": "eb8f53df-ca62-49b4-a816-59c2599f712a",
     "name": "Blue Arrogant Grab",
+    "size": "Vertical",
     "Card Number": "NZ059",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -100,6 +107,7 @@
   {
     "id": "0b37ba62-56f9-4aab-b2f7-a232b4466752",
     "name": "Blue Energy Throw",
+    "size": "Vertical",
     "Card Number": "NZ058",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -114,6 +122,7 @@
   {
     "id": "bfdf03fe-0ab7-431b-bf0f-0aa56ed65a4c",
     "name": "Blue Negation",
+    "size": "Vertical",
     "Card Number": "NZ056",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -128,6 +137,7 @@
   {
     "id": "8c28dfc3-2221-43a8-aa79-d710500852a7",
     "name": "Blue Pressure Point",
+    "size": "Vertical",
     "Card Number": "NZ057",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -142,6 +152,7 @@
   {
     "id": "da072e7d-2b99-4313-a065-672a2e40f10d",
     "name": "Blue Serenity Drill",
+    "size": "Vertical",
     "Card Number": "NZ060",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -156,6 +167,7 @@
   {
     "id": "98ca4941-8dc1-456c-b405-33bc2c4d6f28",
     "name": "Forbidden Fusion",
+    "size": "Vertical",
     "Card Number": "NZ078",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -170,6 +182,7 @@
   {
     "id": "df1e7419-22a9-4fdf-89ca-153b65f526b3",
     "name": "Frieza, Divided",
+    "size": "Vertical",
     "Card Number": "NZ098",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -186,6 +199,7 @@
   {
     "id": "bf3015c4-ca9d-4828-b60a-a7acee08dff4",
     "name": "Frieza, Golden",
+    "size": "Vertical",
     "Card Number": "NZ100",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -202,6 +216,7 @@
   {
     "id": "96339bf5-acc0-46c6-81af-904d6bbcb258",
     "name": "Frieza, On the Ball",
+    "size": "Vertical",
     "Card Number": "NZ097",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -218,6 +233,7 @@
   {
     "id": "29322e17-3a3b-4abd-8f14-08e537cf1b8a",
     "name": "Frieza, Resurrected",
+    "size": "Vertical",
     "Card Number": "NZ099",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -234,6 +250,7 @@
   {
     "id": "f99d97f2-63ed-41e9-b3b4-e1c6f6e5657f",
     "name": "God Ki Ritual",
+    "size": "Vertical",
     "Card Number": "NZ079",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -248,6 +265,7 @@
   {
     "id": "03314bfd-7626-44e3-9552-0d39a92acab7",
     "name": "Goku, Super Saiyan God",
+    "size": "Vertical",
     "Card Number": "NZ091",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -264,6 +282,7 @@
   {
     "id": "62698b97-65ea-4484-8a13-61c9683474ed",
     "name": "Great Ape, Oozaru #1",
+    "size": "Vertical",
     "Card Number": "NZ085",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -280,6 +299,7 @@
   {
     "id": "d2a092bf-b3a1-4348-8067-2a00e917ad5b",
     "name": "Great Ape, Oozaru #2",
+    "size": "Vertical",
     "Card Number": "NZ086",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -296,6 +316,7 @@
   {
     "id": "661ad63c-c38a-47a2-b8e2-ba0d253ded2a",
     "name": "Kami",
+    "size": "Vertical",
     "Card Number": "NZ087",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -312,6 +333,7 @@
   {
     "id": "17faca6e-b63b-45f5-ae4a-409427b414ff",
     "name": "Kami, Guardian of Earth",
+    "size": "Vertical",
     "Card Number": "NZ090",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -328,6 +350,7 @@
   {
     "id": "02c5f6cb-8259-4703-9383-2f1ef1b318e2",
     "name": "Kami, the Overseer",
+    "size": "Vertical",
     "Card Number": "NZ088",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -344,6 +367,7 @@
   {
     "id": "cac4d564-7510-4f4a-9245-1afd417a0f50",
     "name": "Kami, the Prepared",
+    "size": "Vertical",
     "Card Number": "NZ089",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -360,6 +384,7 @@
   {
     "id": "7702bf74-0a32-4e5f-a3f3-3c48de0a0585",
     "name": "King Vegeta",
+    "size": "Vertical",
     "Card Number": "NZ094",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -376,6 +401,7 @@
   {
     "id": "548e755b-87bc-47c3-871d-492df105c305",
     "name": "King Vegeta, the Leader",
+    "size": "Vertical",
     "Card Number": "NZ095",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -392,6 +418,7 @@
   {
     "id": "c102fe37-609a-424f-acfe-24da4c2508e0",
     "name": "King Vegeta, Transformed",
+    "size": "Vertical",
     "Card Number": "NZ096",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -408,6 +435,7 @@
   {
     "id": "433b690e-e003-41f1-8047-9011b36b69aa",
     "name": "March of the Great Apes",
+    "size": "Vertical",
     "Card Number": "NZ082",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -422,6 +450,7 @@
   {
     "id": "96be352f-771f-4e53-8c08-95063d82ebbd",
     "name": "Namekian Crash",
+    "size": "Vertical",
     "Card Number": "NZ063",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -437,6 +466,7 @@
   {
     "id": "f0b0cea6-7116-4d6d-97f5-10598af5164c",
     "name": "Namekian Frustration Drill",
+    "size": "Vertical",
     "Card Number": "NZ065",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -451,6 +481,7 @@
   {
     "id": "9a80216e-39b7-4c4c-8e39-8dc860048b1f",
     "name": "Namekian Negation",
+    "size": "Vertical",
     "Card Number": "NZ061",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -465,6 +496,7 @@
   {
     "id": "63355e25-7f63-4c5e-bb83-1c4a2451f2b9",
     "name": "Namekian Pointed Blast",
+    "size": "Vertical",
     "Card Number": "NZ062",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -480,6 +512,7 @@
   {
     "id": "215fe16e-7850-4d6c-8fe8-444fda40adba",
     "name": "Namekian Tribal Honor",
+    "size": "Vertical",
     "Card Number": "NZ064",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -494,6 +527,7 @@
   {
     "id": "c06357b4-ae8e-477a-a0cc-bbbb92fc40a3",
     "name": "Orange Awakening Drill",
+    "size": "Vertical",
     "Card Number": "NZ069",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -508,6 +542,7 @@
   {
     "id": "1d1c5a0d-061a-476a-b451-ce862a458b73",
     "name": "Orange Ginyu Force Flash",
+    "size": "Vertical",
     "Card Number": "NZ068",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -522,6 +557,7 @@
   {
     "id": "7f097228-4ff3-4001-ac6c-b022bd070c8e",
     "name": "Orange Negation",
+    "size": "Vertical",
     "Card Number": "NZ066",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -536,6 +572,7 @@
   {
     "id": "74a62775-bfc1-465f-8451-cdc622ea5ceb",
     "name": "Orange Right Blast",
+    "size": "Vertical",
     "Card Number": "NZ067",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -550,6 +587,7 @@
   {
     "id": "713d2257-c798-4405-bef3-d7499bce5e39",
     "name": "Piccolo, Fused",
+    "size": "Vertical",
     "Card Number": "NZ093",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -566,6 +604,7 @@
   {
     "id": "4ee402c2-70df-491b-a54e-990c3404d205",
     "name": "Power Ball",
+    "size": "Vertical",
     "Card Number": "NZ081",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -580,6 +619,7 @@
   {
     "id": "2902fedb-30bd-498a-8b00-a83534bbc551",
     "name": "Red Destruction Blast",
+    "size": "Vertical",
     "Card Number": "NZ073",
     "Style": "Red",
     "Rarity": "Promo",
@@ -594,6 +634,7 @@
   {
     "id": "65cf49b3-c077-4d87-9379-da9cdcc9a3a8",
     "name": "Red Enraged Flurry",
+    "size": "Vertical",
     "Card Number": "NZ071",
     "Style": "Red",
     "Rarity": "Promo",
@@ -608,6 +649,7 @@
   {
     "id": "7263ca11-9346-414d-a15d-8e4750681be9",
     "name": "Red Frustration",
+    "size": "Vertical",
     "Card Number": "NZ072",
     "Style": "Red",
     "Rarity": "Promo",
@@ -622,6 +664,7 @@
   {
     "id": "4ced85c6-96a5-4753-967d-5227f4fd7621",
     "name": "Red Negation",
+    "size": "Vertical",
     "Card Number": "NZ070",
     "Style": "Red",
     "Rarity": "Promo",
@@ -636,6 +679,7 @@
   {
     "id": "cbb2404e-bd55-4af2-a970-a8434aa77edf",
     "name": "Saiyan Dual Rushdown",
+    "size": "Vertical",
     "Card Number": "NZ075",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -650,6 +694,7 @@
   {
     "id": "294e08d9-0583-43f4-b2cd-bba30125b42c",
     "name": "Saiyan Invaders",
+    "size": "Vertical",
     "Card Number": "NZ084",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -666,6 +711,7 @@
   {
     "id": "0c8f52d9-3da0-4ef1-b7ff-b3ccb9953ab7",
     "name": "Saiyan Negation",
+    "size": "Vertical",
     "Card Number": "NZ074",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -680,6 +726,7 @@
   {
     "id": "8c322e28-61ee-42e3-86a0-01cc7063f6f2",
     "name": "Saiyan Surprise Support",
+    "size": "Vertical",
     "Card Number": "NZ077",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -694,6 +741,7 @@
   {
     "id": "ea02276b-6671-4c25-b011-83f7008fc5f4",
     "name": "Saiyan Teamwork Blast",
+    "size": "Vertical",
     "Card Number": "NZ076",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -708,6 +756,7 @@
   {
     "id": "61296ed3-f45c-4d94-90a0-d8388de25db9",
     "name": "The Invasion Continues",
+    "size": "Vertical",
     "Card Number": "NZ083",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -722,6 +771,7 @@
   {
     "id": "61c68ee7-5b9d-43cc-9719-772b49e48d74",
     "name": "Vegeta, Super Saiyan God",
+    "size": "Vertical",
     "Card Number": "NZ092",
     "Style": "Freestyle",
     "Rarity": "Promo",

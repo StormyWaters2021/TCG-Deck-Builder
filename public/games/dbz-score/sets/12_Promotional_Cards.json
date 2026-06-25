@@ -2,6 +2,7 @@
   {
     "id": "6438fd47-3cc3-47f8-a126-6ad67cb403a9",
     "name": "__________'s Guard Crush",
+    "size": "Vertical",
     "Card Number": "CCPP08",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -16,6 +17,7 @@
   {
     "id": "335cd1ae-0b90-47ce-a663-a58b49924dc7",
     "name": "A Helping Hand",
+    "size": "Vertical",
     "Card Number": "CCPP12",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -30,6 +32,7 @@
   {
     "id": "b7aeb134-82c8-4aeb-9138-ae37ecf0074c",
     "name": "A New Addition",
+    "size": "Vertical",
     "Card Number": "2",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -44,6 +47,7 @@
   {
     "id": "ef9b44e7-0fb6-489e-8294-644a196a3d7a",
     "name": "Active Player",
+    "size": "Vertical",
     "Set": "12 - Promotional Cards",
     "index": "eH",
     "set_id": "eec8cad5-82c7-4254-936a-836ef945db77",
@@ -52,6 +56,7 @@
   {
     "id": "d42c380b-b3fa-4f03-ae03-bee24b9ecec5",
     "name": "Active Player",
+    "size": "Vertical",
     "Set": "12 - Promotional Cards",
     "index": "eI",
     "set_id": "eec8cad5-82c7-4254-936a-836ef945db77",
@@ -60,6 +65,7 @@
   {
     "id": "dd902b50-d5f5-4458-be76-0bb1216f7070",
     "name": "Android 16 HT",
+    "size": "Vertical",
     "Card Number": "R03",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -76,6 +82,7 @@
   {
     "id": "9f4225e9-e849-4cca-89fe-bb8dab8d503b",
     "name": "Android 16, the Machine HT",
+    "size": "Vertical",
     "Card Number": "R04",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -92,6 +99,7 @@
   {
     "id": "042856ae-905a-49aa-8df8-702628307bdb",
     "name": "Android 16, the Warrior",
+    "size": "Vertical",
     "Card Number": "R14",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -108,6 +116,7 @@
   {
     "id": "c8f2b2ee-d4c0-4b78-be7f-3b56ba0ea676",
     "name": "Android 17 (Promo)",
+    "size": "Vertical",
     "Card Number": "CP28",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -124,6 +133,7 @@
   {
     "id": "6e5fc074-a7e9-47ed-b8a1-fd65372f7e98",
     "name": "Android 17 HT",
+    "size": "Vertical",
     "Card Number": "R05",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -140,6 +150,7 @@
   {
     "id": "37890b60-106e-4979-9231-984b392b2afb",
     "name": "Android 17, the Energized",
+    "size": "Vertical",
     "Card Number": "R15",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -156,6 +167,7 @@
   {
     "id": "d9f74693-1329-4a7d-bd54-44798594eae0",
     "name": "Android 17, the Leader HT",
+    "size": "Vertical",
     "Card Number": "R06",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -172,6 +184,7 @@
   {
     "id": "76ed51df-956a-4108-9099-ba26d60f9ea5",
     "name": "Android 18 HT",
+    "size": "Vertical",
     "Card Number": "R07",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -188,6 +201,7 @@
   {
     "id": "b7b58854-abcc-4c69-8907-61135a5286a6",
     "name": "Android 18, the Model HT",
+    "size": "Vertical",
     "Card Number": "R08",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -204,6 +218,7 @@
   {
     "id": "3da95cfb-71ee-4c1c-bd5f-217eed74a0eb",
     "name": "Android 18, the Survivor",
+    "size": "Vertical",
     "Card Number": "R16",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -220,6 +235,7 @@
   {
     "id": "2f3a14cc-d9c9-4665-95d5-e091a067872d",
     "name": "Android 19, Refreshed",
+    "size": "Vertical",
     "Card Number": "R17",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -236,6 +252,7 @@
   {
     "id": "c52abb16-4c94-4d23-a29c-65417142448e",
     "name": "Android 20, the Mastermind",
+    "size": "Vertical",
     "Card Number": "R18",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -252,6 +269,7 @@
   {
     "id": "bf18c737-9ffe-4edc-8821-a507800acbf1",
     "name": "Anger Management",
+    "size": "Vertical",
     "Card Number": "CCPP03",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -266,6 +284,7 @@
   {
     "id": "e0ce545a-9447-4732-835c-64fe0acaf71e",
     "name": "Babidi's Evil Plans",
+    "size": "Vertical",
     "Card Number": "IR11",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -280,6 +299,7 @@
   {
     "id": "b3fa06c5-5006-4fe8-8b01-82d2827216b6",
     "name": "Bardock (Promo Lv1)",
+    "size": "Vertical",
     "Card Number": "CP22",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -296,6 +316,7 @@
   {
     "id": "821615e8-0f65-4fc8-983c-a5fd53385bb2",
     "name": "Bardock (Promo Lv2)",
+    "size": "Vertical",
     "Card Number": "CP23",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -312,6 +333,7 @@
   {
     "id": "bf609739-358a-427e-9430-713142915cce",
     "name": "Bardock (Promo Lv3)",
+    "size": "Vertical",
     "Card Number": "CP24",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -328,6 +350,7 @@
   {
     "id": "2bd8218b-ccdd-4630-965b-984b43c9c9d9",
     "name": "Big Man on Campus",
+    "size": "Vertical",
     "Card Number": "CGR3",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -342,6 +365,7 @@
   {
     "id": "8fbf855e-4616-4225-8790-49a82e2cba25",
     "name": "Black Body Destruction",
+    "size": "Vertical",
     "Card Number": "GB6",
     "Style": "Black",
     "Rarity": "Promo",
@@ -356,6 +380,7 @@
   {
     "id": "9e1dcd62-2ece-4b6a-9740-d407871422e8",
     "name": "Black Lunge",
+    "size": "Vertical",
     "Card Number": "SZ1",
     "Style": "Black",
     "Rarity": "Promo",
@@ -370,6 +395,7 @@
   {
     "id": "223f563e-398c-442f-84f4-3596aed2b65a",
     "name": "Black Stomach Breaker",
+    "size": "Vertical",
     "Card Number": "F4",
     "Style": "Black",
     "Rarity": "Promo",
@@ -385,6 +411,7 @@
   {
     "id": "bda1bdb9-2b20-42a6-8386-bd5c7a9767db",
     "name": "Black Sweeping Strike",
+    "size": "Vertical",
     "Card Number": "IR37",
     "Style": "Black",
     "Rarity": "Promo",
@@ -399,6 +426,7 @@
   {
     "id": "5c9e05c9-f30e-48fd-89fd-57ab75437105",
     "name": "Black Thought Focus",
+    "size": "Vertical",
     "Card Number": "CCPP06",
     "Style": "Black",
     "Rarity": "Promo",
@@ -413,6 +441,7 @@
   {
     "id": "91ec8b35-26e2-4600-b788-764e9b560594",
     "name": "Black Upward Dodge",
+    "size": "Vertical",
     "Card Number": "IR22",
     "Style": "Black",
     "Rarity": "Promo",
@@ -427,6 +456,7 @@
   {
     "id": "37bd8ada-4cd2-429c-b2fe-66c8040f0fda",
     "name": "Blitz!",
+    "size": "Vertical",
     "Card Number": "CCPP10",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -441,6 +471,7 @@
   {
     "id": "cb72dbda-1eaf-4414-8599-d18a2ef127b5",
     "name": "Blue Backbreaker",
+    "size": "Vertical",
     "Card Number": "J2",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -455,6 +486,7 @@
   {
     "id": "4f6aee16-4b12-48c2-b14a-3d10ce1b260d",
     "name": "Blue Energy Eruption Drill",
+    "size": "Vertical",
     "Card Number": "F5",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -469,6 +501,7 @@
   {
     "id": "78be7458-b685-4c35-9be7-440417b1ed07",
     "name": "Blue Happiness",
+    "size": "Vertical",
     "Card Number": "GB2",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -483,6 +516,7 @@
   {
     "id": "2c7546bf-8946-4196-a4f2-2b7425c34c81",
     "name": "Blue Saving Catch Drill",
+    "size": "Vertical",
     "Card Number": "IR08",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -497,6 +531,7 @@
   {
     "id": "b4e13ff8-0bb8-4c27-95a1-0330d3bd0548",
     "name": "Body Slam",
+    "size": "Vertical",
     "Card Number": "X4",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -511,6 +546,7 @@
   {
     "id": "67189a98-ad7d-4c9b-abbb-8030c6bb742d",
     "name": "Breakthrough Drill",
+    "size": "Vertical",
     "Card Number": "42",
     "Style": "Freestyle",
     "Rarity": "Uncommon",
@@ -525,6 +561,7 @@
   {
     "id": "179e9342-ab3a-4b63-be2f-12b330f910a9",
     "name": "Broly, Empowered",
+    "size": "Vertical",
     "Card Number": "BR3",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -541,6 +578,7 @@
   {
     "id": "4d8f7136-2fef-4914-a9d4-af57915e467f",
     "name": "Broly, Super Saiyan (Promo)",
+    "size": "Vertical",
     "Card Number": "BR2",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -557,6 +595,7 @@
   {
     "id": "760f9db7-32a8-4741-bc24-eda8cb4aff32",
     "name": "Broly, the Calm",
+    "size": "Vertical",
     "Card Number": "BR1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -573,6 +612,7 @@
   {
     "id": "f28f3d55-4d02-4012-81cf-71515ffcfb87",
     "name": "Bubbles (Promo Lv1)",
+    "size": "Vertical",
     "Card Number": "CP16",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -589,6 +629,7 @@
   {
     "id": "639f71bc-0281-4aa8-b55e-9da408c451ad",
     "name": "Bubbles (Promo Lv2)",
+    "size": "Vertical",
     "Card Number": "CP17",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -605,6 +646,7 @@
   {
     "id": "46ac17b2-777c-4f0a-8db1-411271cfc2e2",
     "name": "Bubbles (Promo Lv3)",
+    "size": "Vertical",
     "Card Number": "CP18",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -621,6 +663,7 @@
   {
     "id": "c48fd03f-2982-49f0-8b42-5c8b003efe5e",
     "name": "Catch Drill",
+    "size": "Vertical",
     "Card Number": "IR28",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -635,6 +678,7 @@
   {
     "id": "0f95515d-184f-4bea-a273-bf66ed87d013",
     "name": "Cell HT",
+    "size": "Vertical",
     "Card Number": "R10",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -651,6 +695,7 @@
   {
     "id": "f221869b-97aa-4938-9b90-a97c30ff5b3e",
     "name": "Cell's Aerial Maneuvers",
+    "size": "Vertical",
     "Card Number": "CC2",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -665,6 +710,7 @@
   {
     "id": "8f0408b2-89e3-4274-ba92-6a52e66de179",
     "name": "Cell's Charge",
+    "size": "Vertical",
     "Card Number": "CGR1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -679,6 +725,7 @@
   {
     "id": "d43cca23-995c-411e-941c-4c90b410fc1a",
     "name": "Cell's Choke Hold",
+    "size": "Vertical",
     "Card Number": "CR3",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -693,6 +740,7 @@
   {
     "id": "e48c830a-902f-41b3-8e13-4ab551691b8e",
     "name": "Cell, Stage One HT",
+    "size": "Vertical",
     "Card Number": "R09",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -709,6 +757,7 @@
   {
     "id": "756f3744-d06a-480e-8178-d88d7e7a8cd4",
     "name": "Champion Belt",
+    "size": "Vertical",
     "Card Number": "SZ4",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -723,6 +772,7 @@
   {
     "id": "74f5daa4-2572-4e08-a0fe-290fe0bea7f8",
     "name": "Champion Drill",
+    "size": "Vertical",
     "Card Number": "SZ3",
     "Style": "Freestyle",
     "Rarity": "Uber Rare",
@@ -737,6 +787,7 @@
   {
     "id": "4fba665b-a9e9-4dfc-a795-442af5e7acc4",
     "name": "Champion's Aura",
+    "size": "Vertical",
     "Card Number": "SZ6",
     "Style": "Freestyle",
     "Rarity": "Uber Rare",
@@ -752,6 +803,7 @@
   {
     "id": "ef3947d3-0b71-431f-8b3e-a4055324375c",
     "name": "Confrontation",
+    "size": "Vertical",
     "Card Number": "INF2",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -766,6 +818,7 @@
   {
     "id": "34faf2df-3bf1-4780-afbf-587f185244a7",
     "name": "Cooler",
+    "size": "Vertical",
     "Card Number": "M01",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -782,6 +835,7 @@
   {
     "id": "2e5c0969-e575-4f57-aa6b-5c7e4c73c46e",
     "name": "Cooler, the Mighty",
+    "size": "Vertical",
     "Card Number": "M02",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -798,6 +852,7 @@
   {
     "id": "0e22f5a9-aaa6-4d0a-9ef0-e0dd4c2ecf35",
     "name": "Cooler, the Shredder",
+    "size": "Vertical",
     "Card Number": "M03",
     "Style": "Freestyle",
     "Rarity": "Rare",
@@ -814,6 +869,7 @@
   {
     "id": "9d1b64b9-a2c9-4825-ad5a-bd76e89ca24a",
     "name": "DELETED!",
+    "size": "Vertical",
     "Card Number": "CR08",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -828,6 +884,7 @@
   {
     "id": "bec714bb-7814-487e-bc4a-92404073aab4",
     "name": "Earth Dragon Ball 1",
+    "size": "Vertical",
     "Card Number": "15",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -842,6 +899,7 @@
   {
     "id": "b213e9b9-7dd1-40cd-ad22-eeddcad768fd",
     "name": "Earth Dragon Ball 2",
+    "size": "Vertical",
     "Card Number": "16",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -856,6 +914,7 @@
   {
     "id": "36a68d80-4e60-4a7d-9234-cea8f4bd4a0a",
     "name": "Earth Dragon Ball 3",
+    "size": "Vertical",
     "Card Number": "75",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -870,6 +929,7 @@
   {
     "id": "fd52a36a-8cc9-446f-b711-bec4ca0e45e1",
     "name": "Earth Dragon Ball 4",
+    "size": "Vertical",
     "Card Number": "76",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -884,6 +944,7 @@
   {
     "id": "aa83b4e4-196b-4437-8d39-5c8b88c74c93",
     "name": "Earth Dragon Ball 5",
+    "size": "Vertical",
     "Card Number": "77",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -898,6 +959,7 @@
   {
     "id": "738d6917-31f1-4437-93ae-28452cac5128",
     "name": "Earth Dragon Ball 6",
+    "size": "Vertical",
     "Card Number": "186",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -912,6 +974,7 @@
   {
     "id": "4979f0da-3d38-4f48-87e9-5774ccfec3bd",
     "name": "Earth Dragon Ball 7",
+    "size": "Vertical",
     "Card Number": "187",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -926,6 +989,7 @@
   {
     "id": "63245a1a-7cab-4985-8053-db4968f0133b",
     "name": "Emotional Baggage",
+    "size": "Vertical",
     "Card Number": "IR34",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -940,6 +1004,7 @@
   {
     "id": "9fcb0c02-add8-4b35-ba00-bba41166b697",
     "name": "Excessive Aggression",
+    "size": "Vertical",
     "Card Number": "J3",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -955,6 +1020,7 @@
   {
     "id": "4261ae39-b37e-497c-bc9e-7a82b468641c",
     "name": "Excitement",
+    "size": "Vertical",
     "Card Number": "IR09",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -969,6 +1035,7 @@
   {
     "id": "aa1487f3-4352-403a-b7fa-716e8011d9c9",
     "name": "Fatherly Advice",
+    "size": "Vertical",
     "Card Number": "J1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -983,6 +1050,7 @@
   {
     "id": "4381cf9e-d972-4a74-b3d2-febd5e386e44",
     "name": "Feverish",
+    "size": "Vertical",
     "Card Number": "CR05",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -997,6 +1065,7 @@
   {
     "id": "2d11fc62-0dfb-42d4-8284-3fb394122eda",
     "name": "Flashy Move",
+    "size": "Vertical",
     "Card Number": "CGR2",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1011,6 +1080,7 @@
   {
     "id": "8ec7b7d0-1ea7-4b0b-a5c9-dd061ddb339d",
     "name": "Frieza (Promo)",
+    "size": "Vertical",
     "Card Number": "CP29",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1027,6 +1097,7 @@
   {
     "id": "37744fc4-3760-4089-bd94-94ab0776e586",
     "name": "Frieza's Anger Blast",
+    "size": "Vertical",
     "Card Number": "X1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1041,6 +1112,7 @@
   {
     "id": "fafb36fe-3d52-4680-8e39-804dcca3aa7f",
     "name": "Frieza's Daunting Bombardment",
+    "size": "Vertical",
     "Card Number": "CR06",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1055,6 +1127,7 @@
   {
     "id": "353b751c-3345-4631-976d-f84c31c19555",
     "name": "Frieza's Spirit",
+    "size": "Vertical",
     "Card Number": "BK5",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1069,6 +1142,7 @@
   {
     "id": "c0825339-0069-4c2d-8c4a-a03221020fb8",
     "name": "Future Gohan (Promo Lv1)",
+    "size": "Vertical",
     "Card Number": "CP10",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1085,6 +1159,7 @@
   {
     "id": "b73117d4-d149-4568-8d9b-621f1dbca36a",
     "name": "Future Gohan (Promo Lv2)",
+    "size": "Vertical",
     "Card Number": "CP11",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1101,6 +1176,7 @@
   {
     "id": "3d2db646-d940-47a6-90ba-91d8aab62423",
     "name": "Future Gohan (Promo Lv3)",
+    "size": "Vertical",
     "Card Number": "CP12",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1117,6 +1193,7 @@
   {
     "id": "2fe13c25-1eae-45df-a230-68aeaf8f4987",
     "name": "Gathering of Heroes",
+    "size": "Vertical",
     "Card Number": "GB7",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1131,6 +1208,7 @@
   {
     "id": "9a8c9a8a-9ff6-4758-b662-93419c658a51",
     "name": "Ginyu Force (Promo Lv1)",
+    "size": "Vertical",
     "Card Number": "CP13",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1147,6 +1225,7 @@
   {
     "id": "d7c16015-1e73-4b6b-88fb-25441c876a05",
     "name": "Ginyu Force (Promo Lv2)",
+    "size": "Vertical",
     "Card Number": "CP14",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1163,6 +1242,7 @@
   {
     "id": "908d7112-e4a2-41b4-8377-781ef41f8b57",
     "name": "Ginyu Force (Promo Lv3)",
+    "size": "Vertical",
     "Card Number": "CP15",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1179,6 +1259,7 @@
   {
     "id": "b43868bd-a2c6-4511-9b7e-1b8c812b5200",
     "name": "Gohan's Anger",
+    "size": "Vertical",
     "Card Number": "BK2",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1193,6 +1274,7 @@
   {
     "id": "04ff1141-4485-449b-ae07-ba97651bbb9c",
     "name": "Gohan's Heroic Uppercut",
+    "size": "Vertical",
     "Card Number": "CGR4",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1207,6 +1289,7 @@
   {
     "id": "2b0291f7-cc82-4fd6-87b3-f8da7e851de8",
     "name": "Gohan's Jump Kick",
+    "size": "Vertical",
     "Card Number": "IR35",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1221,6 +1304,7 @@
   {
     "id": "b2c049fc-9c18-4f3d-bd73-4e7cbf1fcc34",
     "name": "Gohan's Kamehameha",
+    "size": "Vertical",
     "Card Number": "K01",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1235,6 +1319,7 @@
   {
     "id": "080b1071-0631-45c5-b644-e433bde2a361",
     "name": "Gohan's Nimbus Cloud",
+    "size": "Vertical",
     "Card Number": "IR33",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1249,6 +1334,7 @@
   {
     "id": "b70d345c-91d8-4b12-9905-09fd17d609dc",
     "name": "Gohan's Power Hit",
+    "size": "Vertical",
     "Card Number": "K4",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1263,6 +1349,7 @@
   {
     "id": "7f52bbff-0dfd-4c00-b441-abaa15f0245e",
     "name": "Gohan, Released",
+    "size": "Vertical",
     "Card Number": "K10",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1279,6 +1366,7 @@
   {
     "id": "7da6c47b-cc06-442c-aef7-628777650753",
     "name": "Goku's Attack",
+    "size": "Vertical",
     "Card Number": "BK1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1293,6 +1381,7 @@
   {
     "id": "75caf97d-ea29-4e9e-875d-d665f5523350",
     "name": "Goku's Head Pull",
+    "size": "Vertical",
     "Card Number": "IR18",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1307,6 +1396,7 @@
   {
     "id": "62576810-5b72-4881-89a0-dd82cd5965b8",
     "name": "Goku's High Kick",
+    "size": "Vertical",
     "Card Number": "CR11",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1321,12 +1411,21 @@
   {
     "id": "bab32a5d-15c4-47db-b54a-9e408adc971c",
     "name": "Goku's House",
+    "size": "Vertical",
     "Card Number": "R13",
     "Style": "Freestyle",
     "Rarity": "Promo",
     "Type": "Location",
     "Text": "Once per Combat, a player may shuffle the top 2 Combat cards in his discard pile back into his Life Deck.",
     "Limit": "4",
+    "alternates": [
+      {
+        "name": "Goku's House",
+        "type": "Horizontal",
+        "size": "Horizontal",
+        "image": "bab32a5d-15c4-47db-b54a-9e408adc971c.Horizontal.jpg"
+      }
+    ],
     "Set": "12 - Promotional Cards",
     "index": "fh",
     "set_id": "eec8cad5-82c7-4254-936a-836ef945db77",
@@ -1335,6 +1434,7 @@
   {
     "id": "591ca319-033f-4446-8f3a-a875626ea03b",
     "name": "Goku's Reunion",
+    "size": "Vertical",
     "Card Number": "IR07",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1349,6 +1449,7 @@
   {
     "id": "75b6e7e9-d6f4-42d3-8967-256f5fc88171",
     "name": "Goku, the Mighty",
+    "size": "Vertical",
     "Card Number": "SJ1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1365,6 +1466,7 @@
   {
     "id": "fa02aff7-d37b-4674-9cac-6d6e3da2768e",
     "name": "Gotenk's Head Butt",
+    "size": "Vertical",
     "Card Number": "IR24",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1379,6 +1481,7 @@
   {
     "id": "e2d93495-7118-4815-9368-8c28ee1404b8",
     "name": "Gotenks' Potential",
+    "size": "Vertical",
     "Card Number": "CR09",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1393,12 +1496,21 @@
   {
     "id": "ea294af1-e99a-4fa5-9935-ecb936da3465",
     "name": "Grand Kai's Palace",
+    "size": "Vertical",
     "Card Number": "F2",
     "Style": "Freestyle",
     "Rarity": "Promo",
     "Type": "Location",
     "Text": "When one of your Celestial Fighters stops an attack with a card that removes itself from the game after use, you may place that card at the bottom of your Life Deck instead of removing it from the game.",
     "Limit": "3",
+    "alternates": [
+      {
+        "name": "Grand Kai's Palace",
+        "type": "Horizontal",
+        "size": "Horizontal",
+        "image": "ea294af1-e99a-4fa5-9935-ecb936da3465.Horizontal.jpg"
+      }
+    ],
     "Set": "12 - Promotional Cards",
     "index": "fl",
     "set_id": "eec8cad5-82c7-4254-936a-836ef945db77",
@@ -1407,6 +1519,7 @@
   {
     "id": "22a1f32e-0b98-4644-8306-aa7f4647c526",
     "name": "Half-Nelson",
+    "size": "Vertical",
     "Card Number": "F1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1421,6 +1534,7 @@
   {
     "id": "ca955ba0-1500-458c-b8ce-ae632eea26cb",
     "name": "Homework Time ...",
+    "size": "Vertical",
     "Card Number": "CC3",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1435,6 +1549,7 @@
   {
     "id": "00631734-498e-4352-91eb-39a765284ff1",
     "name": "Huge Drill",
+    "size": "Vertical",
     "Card Number": "IR05",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1449,6 +1564,7 @@
   {
     "id": "ed4ed854-9c40-4be3-8d4b-f3b84373cc05",
     "name": "I Didn't Want This",
+    "size": "Vertical",
     "Card Number": "IR30",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1463,6 +1579,7 @@
   {
     "id": "fc0653c6-53de-4908-b88b-65e28909d494",
     "name": "Impressive Power",
+    "size": "Vertical",
     "Card Number": "CC4",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1477,6 +1594,7 @@
   {
     "id": "8199d385-b29c-4c05-8a70-5603a157ce36",
     "name": "Interesting Information",
+    "size": "Vertical",
     "Card Number": "CR1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1491,6 +1609,7 @@
   {
     "id": "7cc960d4-109e-4d17-aab5-c336566a0a46",
     "name": "Interview with the Green Guy",
+    "size": "Vertical",
     "Card Number": "CR07",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1505,6 +1624,7 @@
   {
     "id": "fea053f4-8544-437e-abf5-03b116a25481",
     "name": "It's Empty?",
+    "size": "Vertical",
     "Card Number": "K02",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1519,6 +1639,7 @@
   {
     "id": "da2bd9f3-8a80-40af-8889-9bc95669916c",
     "name": "Jawbreaker Hail Storm",
+    "size": "Vertical",
     "Card Number": "4",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1533,6 +1654,7 @@
   {
     "id": "1afbfd1d-3303-469c-81c7-2931fa0fc279",
     "name": "Ki-Charged Palm Block",
+    "size": "Vertical",
     "Card Number": "CC9",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1547,6 +1669,7 @@
   {
     "id": "5d669022-f071-4a5c-befc-7e0cd61175ce",
     "name": "King Cold, the Mighty",
+    "size": "Vertical",
     "Card Number": "K01",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1563,6 +1686,7 @@
   {
     "id": "4a52f9c5-32cb-419b-86ca-693e0aae807d",
     "name": "King Kai (CCPP Lv1)",
+    "size": "Vertical",
     "Card Number": "CP01",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1579,6 +1703,7 @@
   {
     "id": "82e66b61-a06c-4ab9-bc32-fbb9c9807762",
     "name": "King Kai (CCPP Lv2)",
+    "size": "Vertical",
     "Card Number": "CP02",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1595,6 +1720,7 @@
   {
     "id": "adbd1239-1c1e-40b6-a39e-fe5d5ca609bf",
     "name": "King Kai (CCPP Lv3)",
+    "size": "Vertical",
     "Card Number": "CP03",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1611,6 +1737,7 @@
   {
     "id": "a1a10a44-611d-45ea-9e4f-d60488bc07be",
     "name": "King Kai (K1 Lv1)",
+    "size": "Vertical",
     "Card Number": "K1",
     "Style": "Freestyle",
     "Rarity": "Uber Rare",
@@ -1627,6 +1754,7 @@
   {
     "id": "7a42e359-b5a2-40a4-8c4b-c7e1899be56d",
     "name": "King Kai (K2 Lv2)",
+    "size": "Vertical",
     "Card Number": "K2",
     "Style": "Freestyle",
     "Rarity": "Uber Rare",
@@ -1643,6 +1771,7 @@
   {
     "id": "bcc32193-f8d8-42d3-bfc4-87262b0d6d0c",
     "name": "King Kai (K3 Lv3)",
+    "size": "Vertical",
     "Card Number": "K3",
     "Style": "Freestyle",
     "Rarity": "Uber Rare",
@@ -1659,12 +1788,21 @@
   {
     "id": "1b84f40b-fc81-4460-9be0-60247d58f1cd",
     "name": "King Kai's New Home",
+    "size": "Vertical",
     "Card Number": "R12",
     "Style": "Freestyle",
     "Rarity": "Promo",
     "Type": "Location",
     "Text": "Whenever any player has 4 or more cards in his hand, or 5 or more if he declared a Saiyan Tokui-Waza, he may not draw anymore cards into his hand.",
     "Limit": "4",
+    "alternates": [
+      {
+        "name": "King Kai's New Home",
+        "type": "Horizontal",
+        "size": "Horizontal",
+        "image": "1b84f40b-fc81-4460-9be0-60247d58f1cd.Horizontal.jpg"
+      }
+    ],
     "Set": "12 - Promotional Cards",
     "index": "g4",
     "set_id": "eec8cad5-82c7-4254-936a-836ef945db77",
@@ -1673,6 +1811,7 @@
   {
     "id": "28cedbcf-1551-4685-8d0a-5e8ea51a6236",
     "name": "King Kai, the Mentor",
+    "size": "Vertical",
     "Card Number": "CP31",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1689,6 +1828,7 @@
   {
     "id": "ba9ac6b8-4fd6-4974-91f5-1364f583fa8d",
     "name": "Krillin (Promo)",
+    "size": "Vertical",
     "Card Number": "CP30",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1705,6 +1845,7 @@
   {
     "id": "1289b856-6fb9-4a41-9608-040fc55a72fe",
     "name": "Krillin's Overhead Smack",
+    "size": "Vertical",
     "Card Number": "TR1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1719,6 +1860,7 @@
   {
     "id": "187f67bf-f9b2-4b27-a6a4-f6b9307a1553",
     "name": "Krillin's Trick",
+    "size": "Vertical",
     "Card Number": "BK3",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1733,6 +1875,7 @@
   {
     "id": "e2dbab3e-3d47-4a2e-9699-a9453f329b56",
     "name": "Krillin, the Hero HT",
+    "size": "Vertical",
     "Card Number": "R02",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1749,6 +1892,7 @@
   {
     "id": "93952816-347a-418a-89f4-2c3ceda54e16",
     "name": "Let the Games Begin!",
+    "size": "Vertical",
     "Card Number": "SZ7",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1763,6 +1907,7 @@
   {
     "id": "5d4d091c-27e6-4b67-9ab6-57321976d90b",
     "name": "Long Journey",
+    "size": "Vertical",
     "Card Number": "IR21",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1777,6 +1922,7 @@
   {
     "id": "51a8dc4e-b502-4dc7-9f44-16058dfd326b",
     "name": "Lord Slug (Promo Lv1)",
+    "size": "Vertical",
     "Card Number": "CP04",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1793,6 +1939,7 @@
   {
     "id": "9ab410e1-bb27-4a25-bd14-d80f2608edac",
     "name": "Lord Slug (Promo Lv2)",
+    "size": "Vertical",
     "Card Number": "CP05",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1809,6 +1956,7 @@
   {
     "id": "ea26c724-8cc4-44cd-8da0-4aa455967a26",
     "name": "Lord Slug (Promo Lv3)",
+    "size": "Vertical",
     "Card Number": "CP06",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1825,6 +1973,7 @@
   {
     "id": "660bdb9c-9d8d-48c3-a0eb-e7677625287f",
     "name": "Majin Buu's Childish Taunt",
+    "size": "Vertical",
     "Card Number": "K06",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1839,6 +1988,7 @@
   {
     "id": "a10d3e33-a949-467b-b562-3142c12d3d6f",
     "name": "Majin Buu's Loogie",
+    "size": "Vertical",
     "Card Number": "1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1853,6 +2003,7 @@
   {
     "id": "beee535e-e8af-4ae9-8d51-ac1cce8e34ca",
     "name": "Majin Funny Face",
+    "size": "Vertical",
     "Card Number": "CC6",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1867,6 +2018,7 @@
   {
     "id": "ad91a50d-4336-4d83-89c1-2f1dc83c53fa",
     "name": "Majin Rapid Fire",
+    "size": "Vertical",
     "Card Number": "K04",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1881,6 +2033,7 @@
   {
     "id": "20236e5d-15cd-4497-82f6-95f780ceee22",
     "name": "Make a Wish",
+    "size": "Vertical",
     "Card Number": "IR17",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1895,6 +2048,7 @@
   {
     "id": "0aa66d2e-3510-4e47-89ec-557d185deb66",
     "name": "Master Roshi (Promo Lv1)",
+    "size": "Vertical",
     "Card Number": "CP07",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1911,6 +2065,7 @@
   {
     "id": "c47012d1-5d6d-4f6b-ae34-7aab3b43b78d",
     "name": "Master Roshi (Promo Lv2)",
+    "size": "Vertical",
     "Card Number": "CP08",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1927,6 +2082,7 @@
   {
     "id": "7b7804e0-5d40-4ce7-928b-0d0517d462d1",
     "name": "Master Roshi (Promo Lv3)",
+    "size": "Vertical",
     "Card Number": "CP09",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1943,6 +2099,7 @@
   {
     "id": "ab4684d7-defc-4e4c-89a1-918c3d3ab7c9",
     "name": "Meta-Cooler (Promo Lv1)",
+    "size": "Vertical",
     "Card Number": "CP25",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1959,6 +2116,7 @@
   {
     "id": "08a65a30-acb7-4512-b575-e68a89810faa",
     "name": "Meta-Cooler (Promo Lv2)",
+    "size": "Vertical",
     "Card Number": "CP26",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1975,6 +2133,7 @@
   {
     "id": "909e4f66-8664-435c-8731-547251ac0213",
     "name": "Meta-Cooler (Promo Lv3)",
+    "size": "Vertical",
     "Card Number": "CP27",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -1991,6 +2150,7 @@
   {
     "id": "e398b31a-e93f-477d-a038-ce2588049c17",
     "name": "Mighty Mask (Promo Lv1)",
+    "size": "Vertical",
     "Card Number": "CP19",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2007,6 +2167,7 @@
   {
     "id": "2ecc4694-307c-4833-b7cb-3c5f993ecccf",
     "name": "Mighty Mask (Promo Lv2)",
+    "size": "Vertical",
     "Card Number": "CP20",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2023,6 +2184,7 @@
   {
     "id": "fa74c3c6-ad83-43e8-a829-8abaf9f08f40",
     "name": "Mighty Mask (Promo Lv3)",
+    "size": "Vertical",
     "Card Number": "CP21",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2039,6 +2201,7 @@
   {
     "id": "83719bae-467d-4628-b39c-0af23272dacb",
     "name": "Momentum",
+    "size": "Vertical",
     "Card Number": "CCPP09",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2053,6 +2216,7 @@
   {
     "id": "ac0283db-2a89-4392-9ac0-98da930c6121",
     "name": "Motherly Rage",
+    "size": "Vertical",
     "Card Number": "X3",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2067,6 +2231,7 @@
   {
     "id": "8b8b49fb-0486-414b-a5a7-cc07abab3d12",
     "name": "Mr. Popo (Promo Lv1)",
+    "size": "Vertical",
     "Card Number": "CR01",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2083,6 +2248,7 @@
   {
     "id": "e5801107-3ce8-4509-b0e3-4a19d8a1537d",
     "name": "Mr. Popo (Promo Lv2)",
+    "size": "Vertical",
     "Card Number": "CR02",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2099,6 +2265,7 @@
   {
     "id": "e7d41ef7-6b50-4dda-a486-8f3c54448b53",
     "name": "Mr. Popo (Promo Lv3)",
+    "size": "Vertical",
     "Card Number": "CR03",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2115,6 +2282,7 @@
   {
     "id": "fee8611f-c7f1-4524-8b3f-d872f5865221",
     "name": "Multi-Purpose Strike",
+    "size": "Vertical",
     "Card Number": "K07",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2129,6 +2297,7 @@
   {
     "id": "1c2aea28-062f-436f-b6a6-79a36b231ae0",
     "name": "Nagging Drill",
+    "size": "Vertical",
     "Card Number": "CR10",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2143,6 +2312,7 @@
   {
     "id": "704e54f7-a9d6-4a7a-b4d5-dc37aece3991",
     "name": "Namekian Dash",
+    "size": "Vertical",
     "Card Number": "GB4",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -2157,6 +2327,7 @@
   {
     "id": "f848c27b-a999-44e0-ae7f-9ff6f1927a0c",
     "name": "Namekian Healing",
+    "size": "Vertical",
     "Card Number": "CCPP01",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -2171,6 +2342,7 @@
   {
     "id": "d443f31b-b93c-4283-96c5-4cff24b18af3",
     "name": "Namekian Sky Beam",
+    "size": "Vertical",
     "Card Number": "CC8",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -2185,6 +2357,7 @@
   {
     "id": "39b825fb-237f-4adf-832a-e178b0cc9901",
     "name": "Namekian Strike",
+    "size": "Vertical",
     "Card Number": "CC1",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -2199,6 +2372,7 @@
   {
     "id": "bd965af8-678b-4d15-9493-746d7ccd377f",
     "name": "Orange Conversion Drill",
+    "size": "Vertical",
     "Card Number": "F3",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -2213,6 +2387,7 @@
   {
     "id": "9803e19d-8692-4580-864e-c6c23ff2f6ce",
     "name": "Orange Prepared Stance",
+    "size": "Vertical",
     "Card Number": "IR29",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -2227,6 +2402,7 @@
   {
     "id": "77b3e86a-6be2-4aa3-8dae-994dc09a8141",
     "name": "Orange Scatter Shot",
+    "size": "Vertical",
     "Card Number": "GB3",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -2241,6 +2417,7 @@
   {
     "id": "98beaa25-b6d2-4375-bbd8-6a6dfbf082a3",
     "name": "Overhead Squeal",
+    "size": "Vertical",
     "Card Number": "K09",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2255,6 +2432,7 @@
   {
     "id": "32e944e6-0a6d-4112-8a47-0bf3ef352105",
     "name": "Pan's Victory",
+    "size": "Vertical",
     "Card Number": "3",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2269,6 +2447,7 @@
   {
     "id": "3d520fc8-8cdd-46ca-b0dc-428d9f99de7a",
     "name": "Peekaboo!",
+    "size": "Vertical",
     "Card Number": "CR4",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2284,6 +2463,7 @@
   {
     "id": "a1f9143d-86a1-41fb-b725-dbc54c52c159",
     "name": "Piccolo's Multiform",
+    "size": "Vertical",
     "Card Number": "CC5",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2298,6 +2478,7 @@
   {
     "id": "83183118-e8db-49ec-a034-b6c50cc906a6",
     "name": "Piccolo's Power Ball",
+    "size": "Vertical",
     "Card Number": "X5",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2312,6 +2493,7 @@
   {
     "id": "01d959e3-b702-498f-80bd-95a4033248bb",
     "name": "Piccolo's Revenge",
+    "size": "Vertical",
     "Card Number": "BK4",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2326,6 +2508,7 @@
   {
     "id": "becf15d3-0420-44da-b899-7425bda1d1f7",
     "name": "Pikkon's Leg Catch",
+    "size": "Vertical",
     "Card Number": "IR31",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2340,6 +2523,7 @@
   {
     "id": "b9cca185-b287-4ebf-a037-783bca726895",
     "name": "Play Fighting",
+    "size": "Vertical",
     "Card Number": "IR03",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2354,6 +2538,7 @@
   {
     "id": "1f6fc24e-d9ad-4c8d-9314-c750d8eddb71",
     "name": "Pose with Style",
+    "size": "Vertical",
     "Card Number": "IR19",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2368,6 +2553,7 @@
   {
     "id": "142b5638-c0b1-4e3b-883e-208b28eb108c",
     "name": "Power of Cookies!!!",
+    "size": "Vertical",
     "Card Number": "CB1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2382,6 +2568,7 @@
   {
     "id": "0a3ce1ea-7be7-4c1b-980d-bcada1d81ad7",
     "name": "Racing Drill",
+    "size": "Vertical",
     "Card Number": "K08",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2396,6 +2583,7 @@
   {
     "id": "4c5da31d-dbef-4cf8-ac9b-bd6b5efee643",
     "name": "Red Arm Cannon",
+    "size": "Vertical",
     "Card Number": "CCPP07",
     "Style": "Red",
     "Rarity": "Promo",
@@ -2411,6 +2599,7 @@
   {
     "id": "d2f1d725-04b0-4c58-9220-72717f211cbe",
     "name": "Red Blowing Steam Drill",
+    "size": "Vertical",
     "Card Number": "IR12",
     "Style": "Red",
     "Rarity": "Promo",
@@ -2425,6 +2614,7 @@
   {
     "id": "7a909337-d49c-48e4-bff4-c45623a973c4",
     "name": "Red Overbearing Attack",
+    "size": "Vertical",
     "Card Number": "INF1",
     "Style": "Red",
     "Rarity": "Promo",
@@ -2439,6 +2629,7 @@
   {
     "id": "f740630a-2035-433a-8971-c272ab0e7c2b",
     "name": "Regeneration Drill",
+    "size": "Vertical",
     "Card Number": "F6",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2453,6 +2644,7 @@
   {
     "id": "7ca28899-a4d1-4a18-b16f-a3e1d6a9d1b8",
     "name": "Releasing the Sword",
+    "size": "Vertical",
     "Card Number": "IR20",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2467,6 +2659,7 @@
   {
     "id": "10ab25fd-5243-43c3-a67d-ee6b5084f3bc",
     "name": "Remote Control",
+    "size": "Vertical",
     "Card Number": "CR2",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2481,6 +2674,7 @@
   {
     "id": "d53066c9-605c-4538-923f-3e5d927beba4",
     "name": "Rescuing Drill",
+    "size": "Vertical",
     "Card Number": "CR04",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2495,6 +2689,7 @@
   {
     "id": "90f83e01-9d1f-46fe-b861-d90b576b3135",
     "name": "Reserves",
+    "size": "Vertical",
     "Card Number": "CCPP04",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2509,6 +2704,7 @@
   {
     "id": "94341a71-c19f-4ed2-8c5d-8ee6e16b8891",
     "name": "Ring Out",
+    "size": "Vertical",
     "Card Number": "IR36",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2523,6 +2719,7 @@
   {
     "id": "ce0f2bba-8ffd-4261-8633-f534acc42348",
     "name": "Saiyan Clash",
+    "size": "Vertical",
     "Card Number": "IR16",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -2537,6 +2734,7 @@
   {
     "id": "8e9f982c-9c9f-4d11-9925-05fc2322570b",
     "name": "Saiyan Conservation",
+    "size": "Vertical",
     "Card Number": "CCPP02",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -2551,6 +2749,7 @@
   {
     "id": "ea5d1397-7f89-4490-829e-cda98a3dd7c9",
     "name": "Saiyan Cross Punch",
+    "size": "Vertical",
     "Card Number": "GB5",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -2565,6 +2764,7 @@
   {
     "id": "ae529c5d-d124-4712-a9a1-b41a7034b9a8",
     "name": "Saiyan Face Jab",
+    "size": "Vertical",
     "Card Number": "IR23",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -2579,6 +2779,7 @@
   {
     "id": "2dfce078-1893-4518-8696-b7b14f575103",
     "name": "Saiyan Gravity Training",
+    "size": "Vertical",
     "Card Number": "IR06",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -2593,6 +2794,7 @@
   {
     "id": "90a571f8-af65-49bc-b83a-9ddf61293dc5",
     "name": "Saiyan Straight Shot",
+    "size": "Vertical",
     "Card Number": "IR13",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -2607,6 +2809,7 @@
   {
     "id": "de142f01-cdae-42ec-94a8-d26bdab67cfd",
     "name": "Save!",
+    "size": "Vertical",
     "Card Number": "Xtreme1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2621,6 +2824,7 @@
   {
     "id": "64b55278-b664-4f3f-b0f3-a31fb66de6c4",
     "name": "Startled",
+    "size": "Vertical",
     "Card Number": "GS1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2635,6 +2839,7 @@
   {
     "id": "af3f9b4a-f239-476c-a490-e7ffc10180bf",
     "name": "Stop Fighting",
+    "size": "Vertical",
     "Card Number": "IR14",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2649,6 +2854,7 @@
   {
     "id": "68c5b487-1e51-440c-81fb-011e28db48dc",
     "name": "Stop!",
+    "size": "Vertical",
     "Card Number": "K05",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2663,6 +2869,7 @@
   {
     "id": "25f541a5-2765-402a-ac55-a2eec97f8bb4",
     "name": "Strike a Pose",
+    "size": "Vertical",
     "Card Number": "IR10",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2677,6 +2884,7 @@
   {
     "id": "d142ac4e-2f1b-469a-9277-b04eaac65316",
     "name": "Super Buu's Absorption",
+    "size": "Vertical",
     "Card Number": "IR27",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2691,6 +2899,7 @@
   {
     "id": "bab97924-914f-4fd2-8517-ad5811dbfb12",
     "name": "Super Buu's Choke Hold",
+    "size": "Vertical",
     "Card Number": "IR32",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2705,6 +2914,7 @@
   {
     "id": "51cdc890-177c-4359-9fe2-2034f64c2a5f",
     "name": "Super Saiyan Gohan",
+    "size": "Vertical",
     "Card Number": "IR02",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2721,6 +2931,7 @@
   {
     "id": "1589e943-a445-41cf-940f-6b6945f5f62f",
     "name": "Super Saiyan Goku (Promo)",
+    "size": "Vertical",
     "Card Number": "IR01",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2737,6 +2948,7 @@
   {
     "id": "72d5769b-b758-42e5-a3dd-e0ab5ca179df",
     "name": "Super Saiyan Goku's Power",
+    "size": "Vertical",
     "Card Number": "BK6",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2751,6 +2963,7 @@
   {
     "id": "f3b497a3-651e-4443-8002-5b52fc4b9641",
     "name": "Super Saiyan Vegeta",
+    "size": "Vertical",
     "Card Number": "R11",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2767,6 +2980,7 @@
   {
     "id": "f753e1ca-58a5-44ae-ba84-5222a312cea8",
     "name": "Supreme Kai Sensei",
+    "size": "Vertical",
     "Card Number": "K03",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2781,6 +2995,7 @@
   {
     "id": "8659b4cf-d2c6-4303-83ad-d917c9bb9901",
     "name": "Taunting Drill",
+    "size": "Vertical",
     "Card Number": "GB9",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2795,6 +3010,7 @@
   {
     "id": "f4aaeadf-21f9-4efe-9a03-8b91e692669e",
     "name": "The Pairings",
+    "size": "Vertical",
     "Card Number": "IR38",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2809,6 +3025,7 @@
   {
     "id": "d2598294-5d9d-4fe4-90d9-270259532d7d",
     "name": "Tien's Power Stance",
+    "size": "Vertical",
     "Card Number": "IR25",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2823,6 +3040,7 @@
   {
     "id": "ba3d5ab7-fe02-4394-b806-30726f1ddc16",
     "name": "Tien, the Swift HT",
+    "size": "Vertical",
     "Card Number": "R01",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2839,6 +3057,7 @@
   {
     "id": "a976d6e9-eec0-4c69-8053-3ea635a7cc59",
     "name": "Time Is A Warrior's Tool",
+    "size": "Vertical",
     "Card Number": "30",
     "Style": "Freestyle",
     "Rarity": "Common",
@@ -2853,6 +3072,7 @@
   {
     "id": "7f7e5845-d869-481a-a589-9b1a13ad6734",
     "name": "True Grit",
+    "size": "Vertical",
     "Card Number": "A1",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2867,6 +3087,7 @@
   {
     "id": "240db6a5-fb53-469c-9aa0-b65d1c1c96d1",
     "name": "Trunks' Speedy Flight",
+    "size": "Vertical",
     "Card Number": "K5",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2881,6 +3102,7 @@
   {
     "id": "07febf21-926c-4e81-9fbc-2e7e0699c9e7",
     "name": "Trunks' Sword Slice",
+    "size": "Vertical",
     "Card Number": "TR3",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2895,6 +3117,7 @@
   {
     "id": "c1570635-b4b1-4916-93fd-b33dae98744b",
     "name": "Tuff Enuff Crush",
+    "size": "Vertical",
     "Card Number": "CCPP11",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2909,6 +3132,7 @@
   {
     "id": "a237c2f5-5818-4480-800a-04e791a039e5",
     "name": "Ultimate Champion",
+    "size": "Vertical",
     "Card Number": "SZ9",
     "Style": "Freestyle",
     "Rarity": "Uber Rare",
@@ -2923,6 +3147,7 @@
   {
     "id": "31fadccc-f655-4235-88c5-307d8ff0bb7b",
     "name": "Unbelievable Strength",
+    "size": "Vertical",
     "Card Number": "CC7",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2937,6 +3162,7 @@
   {
     "id": "61b82766-5d37-41c4-afb3-612fa3aeac43",
     "name": "Unpredictable",
+    "size": "Vertical",
     "Card Number": "CCPP05",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2951,6 +3177,7 @@
   {
     "id": "124250fa-e346-46a3-a008-32d038b0ca41",
     "name": "Vegeta's Energy Focus",
+    "size": "Vertical",
     "Card Number": "X2",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2965,6 +3192,7 @@
   {
     "id": "a3400589-6175-47e8-9780-3b03f5b01613",
     "name": "Vegeta's Energy Thrust",
+    "size": "Vertical",
     "Card Number": "TR2",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2979,6 +3207,7 @@
   {
     "id": "15e47aaf-3fe2-4637-b9e6-fb7038dcda4d",
     "name": "Vegeta's Smirk",
+    "size": "Vertical",
     "Card Number": "BK7",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -2993,6 +3222,7 @@
   {
     "id": "ebdeac8d-bd6e-4bba-be63-40770618fd60",
     "name": "Vegito's Gut Punch",
+    "size": "Vertical",
     "Card Number": "IR26",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -3007,6 +3237,7 @@
   {
     "id": "f358b4e5-66ec-4010-bc98-1ceb65d8253c",
     "name": "Victorious",
+    "size": "Vertical",
     "Card Number": "SZ2",
     "Style": "Freestyle",
     "Rarity": "Uber Rare",
@@ -3021,6 +3252,7 @@
   {
     "id": "d8bd529a-6877-4eb9-b040-ec126cd78c1d",
     "name": "Victorious Drill",
+    "size": "Vertical",
     "Card Number": "SZ5",
     "Style": "Freestyle",
     "Rarity": "Uber Rare",
@@ -3035,6 +3267,7 @@
   {
     "id": "4ba87dc4-8c2f-42d6-bb17-7892678d895a",
     "name": "Videl's Head Kick",
+    "size": "Vertical",
     "Card Number": "IR04",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -3049,6 +3282,7 @@
   {
     "id": "c9fe1cea-687b-4171-b8bf-6b43523a43f2",
     "name": "Warriors Clash",
+    "size": "Vertical",
     "Card Number": "GB8",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -3063,6 +3297,7 @@
   {
     "id": "9a8b4641-df0f-46f6-8bc1-1c43d69dadd4",
     "name": "World Champion Punch",
+    "size": "Vertical",
     "Card Number": "SZ8",
     "Style": "Freestyle",
     "Rarity": "Uber Rare",
@@ -3077,6 +3312,7 @@
   {
     "id": "fed2ab80-14d1-45a5-a8ad-73da753f0a6c",
     "name": "You're Invited",
+    "size": "Vertical",
     "Card Number": "GKI1",
     "Style": "Freestyle",
     "Rarity": "Uber Rare",
@@ -3091,6 +3327,7 @@
   {
     "id": "0beebbab-5947-461b-8ee5-f84e44b4c4e8",
     "name": "Z Warriors Band Together",
+    "size": "Vertical",
     "Card Number": "IR15",
     "Style": "Freestyle",
     "Rarity": "Promo",

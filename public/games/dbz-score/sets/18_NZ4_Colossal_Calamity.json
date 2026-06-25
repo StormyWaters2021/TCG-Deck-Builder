@@ -2,6 +2,7 @@
   {
     "id": "38542a89-107c-4677-8d09-7a57f78932b5",
     "name": "Begrudging Allies Drill",
+    "size": "Vertical",
     "Card Number": "NZ121",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -16,6 +17,7 @@
   {
     "id": "fbe968db-3a78-4c84-a6fb-a0d07df54bb4",
     "name": "Black Calamity Mastery",
+    "size": "Vertical",
     "Card Number": "NZ101",
     "Style": "Black",
     "Rarity": "Promo",
@@ -30,6 +32,7 @@
   {
     "id": "0adf0321-0760-4757-925d-344ad1380d51",
     "name": "Black Foreboding Weather",
+    "size": "Vertical",
     "Card Number": "NZ102",
     "Style": "Black",
     "Rarity": "Promo",
@@ -44,6 +47,7 @@
   {
     "id": "ca60b4da-59b9-4b3f-85d5-6eb4156f878f",
     "name": "Black Nightmare Drill",
+    "size": "Vertical",
     "Card Number": "NZ103",
     "Style": "Black",
     "Rarity": "Promo",
@@ -58,6 +62,7 @@
   {
     "id": "fbdfd2c6-f2a0-4632-9a0d-77c3d663f5e2",
     "name": "Blue Colossal Throw",
+    "size": "Vertical",
     "Card Number": "NZ105",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -72,6 +77,7 @@
   {
     "id": "10fa7406-11b0-46d8-b220-3f0555c93327",
     "name": "Blue Enlightened Mastery",
+    "size": "Vertical",
     "Card Number": "NZ104",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -86,6 +92,7 @@
   {
     "id": "7a74e7d1-054d-47a1-88ca-da25c2d6c252",
     "name": "Blue Kamehameha Blast",
+    "size": "Vertical",
     "Card Number": "NZ106",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -101,6 +108,7 @@
   {
     "id": "e3ecce5a-186c-48e8-8f75-02bc85e1619b",
     "name": "Bulma's Ingenuity Drill",
+    "size": "Vertical",
     "Card Number": "NZ123",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -115,6 +123,7 @@
   {
     "id": "6cda8e69-321d-4ee4-9da3-1c5cd7f22a03",
     "name": "Celestial Halo",
+    "size": "Vertical",
     "Card Number": "NZ120",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -129,6 +138,7 @@
   {
     "id": "c83c79c2-7bd5-4cdf-9852-10a56d3af631",
     "name": "Dragon Fist",
+    "size": "Vertical",
     "Card Number": "NZ119",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -143,6 +153,7 @@
   {
     "id": "e54ea388-db21-4f7d-bfb8-d05e96cead02",
     "name": "Gohan's Super Kamehameha",
+    "size": "Vertical",
     "Card Number": "NZ122",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -157,6 +168,7 @@
   {
     "id": "3da94b34-e8d9-4c03-bebd-d1f082d9050a",
     "name": "Gotenks' Double Lethal Missile",
+    "size": "Vertical",
     "Card Number": "NZ124",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -171,6 +183,7 @@
   {
     "id": "66878c66-7688-47cd-b00b-0917ad8474d4",
     "name": "Hirudegarn's Teleportation",
+    "size": "Vertical",
     "Card Number": "NZ125",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -185,6 +198,7 @@
   {
     "id": "5f92abc5-fd57-4254-a927-cc7376f1a1e8",
     "name": "Hirudegarn, Divided",
+    "size": "Vertical",
     "Card Number": "NZ127",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -201,6 +215,7 @@
   {
     "id": "7e2ee768-b7ce-43e0-b962-2cfa68b70ced",
     "name": "Hirudegarn, Dormant",
+    "size": "Vertical",
     "Card Number": "NZ126",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -217,6 +232,7 @@
   {
     "id": "7a26a977-89e8-478c-8598-a5f20cfeb706",
     "name": "Hirudegarn, Fulfilled",
+    "size": "Vertical",
     "Card Number": "NZ128",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -233,6 +249,7 @@
   {
     "id": "ab7adcd1-ed1e-4523-a13c-b2d2a1a4744c",
     "name": "Hirudegarn, Transformed",
+    "size": "Vertical",
     "Card Number": "NZ129",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -249,6 +266,7 @@
   {
     "id": "e5a56f9b-aec9-4e36-8e11-446bb31fca04",
     "name": "Hirudegarn, Unleashed",
+    "size": "Vertical",
     "Card Number": "NZ130",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -265,6 +283,7 @@
   {
     "id": "3ed5effa-b2c1-4d49-9b40-ace9cb1040d2",
     "name": "Namekian Colossal Grasp",
+    "size": "Vertical",
     "Card Number": "NZ109",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -279,6 +298,7 @@
   {
     "id": "70a71621-73e3-4412-8b60-1ebac84123d5",
     "name": "Namekian Dragon Mastery",
+    "size": "Vertical",
     "Card Number": "NZ107",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -293,6 +313,7 @@
   {
     "id": "b1b4fa53-54e3-47de-857e-f24330516765",
     "name": "Namekian Dual Orb",
+    "size": "Vertical",
     "Card Number": "NZ108",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -307,6 +328,7 @@
   {
     "id": "0997a7f8-c65f-49c1-b14b-a6a13fa9312d",
     "name": "Orange Defiance",
+    "size": "Vertical",
     "Card Number": "NZ111",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -321,6 +343,7 @@
   {
     "id": "3f52a6a7-b0c1-4c3b-a2d8-64b5ff7a6cdb",
     "name": "Orange Evolution Mastery",
+    "size": "Vertical",
     "Card Number": "NZ110",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -335,6 +358,7 @@
   {
     "id": "d31e0f4e-387c-4378-bea5-1318a8a01533",
     "name": "Orange Powered Strike",
+    "size": "Vertical",
     "Card Number": "NZ112",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -349,6 +373,7 @@
   {
     "id": "cbdf46fb-e7f5-4cf3-b799-a3d4b2158cb1",
     "name": "Red Colossal Flame",
+    "size": "Vertical",
     "Card Number": "NZ115",
     "Style": "Red",
     "Rarity": "Promo",
@@ -363,6 +388,7 @@
   {
     "id": "55155b9d-d873-46b7-92fd-aee742cc8394",
     "name": "Red Explosion Mastery",
+    "size": "Vertical",
     "Card Number": "NZ113",
     "Style": "Red",
     "Rarity": "Promo",
@@ -377,6 +403,7 @@
   {
     "id": "63e441d3-f982-48a1-b5e9-638e868e3d94",
     "name": "Red Mighty Mask's Secret",
+    "size": "Vertical",
     "Card Number": "NZ114",
     "Style": "Red",
     "Rarity": "Promo",
@@ -391,6 +418,7 @@
   {
     "id": "81c34496-8493-4ccd-b72d-30e14fb69fec",
     "name": "Saiyan Power Burst",
+    "size": "Vertical",
     "Card Number": "NZ117",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -405,6 +433,7 @@
   {
     "id": "1d00d8f3-63d0-429d-a0a2-5d2c6677ca0d",
     "name": "Saiyan Teamwork Mastery",
+    "size": "Vertical",
     "Card Number": "NZ116",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -419,6 +448,7 @@
   {
     "id": "ac0e287d-727a-4638-8191-0a1f7fcea22b",
     "name": "Saiyan Turles' Kill Driver",
+    "size": "Vertical",
     "Card Number": "NZ118",
     "Style": "Saiyan",
     "Rarity": "Promo",
