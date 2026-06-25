@@ -2,6 +2,7 @@
   {
     "id": "5ce5b706-a9d6-46df-ac5a-d856d1a22495",
     "name": "Android 13's Paralyzer",
+    "size": "Vertical",
     "Card Number": "NZ299",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -16,6 +17,7 @@
   {
     "id": "74b11434-5ccb-40cc-8a9d-8446ac8ee7e2",
     "name": "Android 16, Fighting For Life",
+    "size": "Vertical",
     "Card Number": "NZ301",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -32,6 +34,7 @@
   {
     "id": "9f7dd74a-0ac8-40ba-b185-13012b96b97e",
     "name": "Android Asphyxiation",
+    "size": "Vertical",
     "Card Number": "WC03",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -46,6 +49,7 @@
   {
     "id": "65c9057d-b7fd-4bed-a064-54afda70dbc6",
     "name": "Black Reprieve Drill",
+    "size": "Vertical",
     "Card Number": "NZ286",
     "Style": "Black",
     "Rarity": "Promo",
@@ -60,6 +64,7 @@
   {
     "id": "f0c737c9-3eb9-46bf-bbd8-2970b10ab7dc",
     "name": "Blue Saiyaman Beam",
+    "size": "Vertical",
     "Card Number": "NZ287",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -74,6 +79,7 @@
   {
     "id": "7ce01536-d7ee-41eb-a982-8237c13f65a2",
     "name": "Burter, Bustin' A Move",
+    "size": "Vertical",
     "Card Number": "NZ307",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -90,6 +96,7 @@
   {
     "id": "0e23cc0c-ed5a-40a9-96f9-42bff725624d",
     "name": "Burter, Calculating",
+    "size": "Vertical",
     "Card Number": "NZ306",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -106,6 +113,7 @@
   {
     "id": "93f69729-b567-4e58-ad82-16bc4f8dad73",
     "name": "Burter, Speedster",
+    "size": "Vertical",
     "Card Number": "NZ305",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -122,6 +130,7 @@
   {
     "id": "5f9a5c9c-3329-4339-9611-0fc49a910d8e",
     "name": "Chi-Chi, Unleashed",
+    "size": "Vertical",
     "Card Number": "NZ303",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -138,6 +147,7 @@
   {
     "id": "a293b635-495f-4d5e-a5a6-4cb742565997",
     "name": "Dabura's Sword Slash",
+    "size": "Vertical",
     "Card Number": "BTT01",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -152,6 +162,7 @@
   {
     "id": "c7105dc3-01cb-4b85-bffd-31f9e0faeda1",
     "name": "Dark Deeds",
+    "size": "Vertical",
     "Card Number": "NZ296",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -166,6 +177,7 @@
   {
     "id": "1b402027-f3e0-4c45-9e91-5124c255dfe9",
     "name": "Devilmite Beam",
+    "size": "Vertical",
     "Card Number": "HW01",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -180,12 +192,21 @@
   {
     "id": "07ca415b-9971-4eee-a821-5d6fbfbf856f",
     "name": "Home For Infinite Losers",
+    "size": "Vertical",
     "Card Number": "NZ300",
     "Style": "Freestyle",
     "Rarity": "Promo",
     "Type": "Location",
     "Text": "Players must attack or pass during their attacker attacks phase each combat. Players cannot end combat.",
     "Limit": "3",
+    "alternates": [
+      {
+        "name": "Home For Infinite Losers",
+        "type": "Horizontal",
+        "size": "Horizontal",
+        "image": "07ca415b-9971-4eee-a821-5d6fbfbf856f.Horizontal.jpg"
+      }
+    ],
     "Set": "23 - NZ9 Home For Infinite Losers",
     "index": "6x",
     "set_id": "1ec43e52-ad8d-4fbf-9fb2-fdb20b41f7d9",
@@ -194,6 +215,7 @@
   {
     "id": "9e991364-1ffd-472e-a65e-fa74fde45b76",
     "name": "Majin Vegeta's Atonement",
+    "size": "Vertical",
     "Card Number": "NZ294",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -208,6 +230,7 @@
   {
     "id": "76c192a6-c191-4632-b360-3fd3e944ea26",
     "name": "Minotia",
+    "size": "Vertical",
     "Card Number": "NZ302",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -224,6 +247,7 @@
   {
     "id": "7a3a492f-0cc6-4657-a69e-ff779a7fde3d",
     "name": "Namekian Point Blank Blast",
+    "size": "Vertical",
     "Card Number": "NZ288",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -239,6 +263,7 @@
   {
     "id": "cd707d40-0678-4c57-8ad0-c6ee4f57a772",
     "name": "Nappa, the Enforcer",
+    "size": "Vertical",
     "Card Number": "NZ304",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -255,6 +280,7 @@
   {
     "id": "2901691d-6991-4a52-9bb3-fbdf7f8113e6",
     "name": "Orange Beam Clash",
+    "size": "Vertical",
     "Card Number": "NZ289",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -269,6 +295,7 @@
   {
     "id": "0d18eb27-9121-4483-a4ce-2ed2c9ed795e",
     "name": "Pikkon's Got This!",
+    "size": "Vertical",
     "Card Number": "NZ297",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -283,6 +310,7 @@
   {
     "id": "4460fba3-c38a-4535-884a-f8f7aaeca5d1",
     "name": "Recoome, the Muscle",
+    "size": "Vertical",
     "Card Number": "NZ308",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -299,6 +327,7 @@
   {
     "id": "a58fb9f7-390f-4e1a-944f-c546f08699ee",
     "name": "Recoome, the Poser",
+    "size": "Vertical",
     "Card Number": "NZ309",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -315,6 +344,7 @@
   {
     "id": "3761219c-c001-4d59-89c4-2be229266637",
     "name": "Recoome, Unhinged",
+    "size": "Vertical",
     "Card Number": "NZ310",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -331,6 +361,7 @@
   {
     "id": "ffd37b0a-7434-4bd7-9ad1-761fc11807ec",
     "name": "Red Stunning Strike",
+    "size": "Vertical",
     "Card Number": "NZ290",
     "Style": "Red",
     "Rarity": "Promo",
@@ -345,6 +376,7 @@
   {
     "id": "def3ec03-e8e6-47b7-bb12-accbed030014",
     "name": "Saiyan Surprise Defense",
+    "size": "Vertical",
     "Card Number": "NZ291",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -359,6 +391,7 @@
   {
     "id": "da83e06b-6dbc-4d0c-bdf5-5ec8d66c3d3b",
     "name": "Tapkar's Acceleration Drill",
+    "size": "Vertical",
     "Card Number": "NZ293",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -373,6 +406,7 @@
   {
     "id": "1b18e7ea-f519-488c-969a-7cdd2db88802",
     "name": "Terrible Trio",
+    "size": "Vertical",
     "Card Number": "NZ298",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -387,6 +421,7 @@
   {
     "id": "9ca423c1-7ed3-40a0-9116-960749285271",
     "name": "Torbie's Haymaker",
+    "size": "Vertical",
     "Card Number": "NZ292",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -401,6 +436,7 @@
   {
     "id": "692306ec-7c4a-438c-ac4c-3a1e7f0864d3",
     "name": "Videl's Heroic Stance",
+    "size": "Vertical",
     "Card Number": "NZ295",
     "Style": "Freestyle",
     "Rarity": "Promo",

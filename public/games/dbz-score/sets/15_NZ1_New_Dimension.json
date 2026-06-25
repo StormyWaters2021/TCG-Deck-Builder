@@ -2,6 +2,7 @@
   {
     "id": "c6768904-3f25-4b81-87a9-de99e24c8351",
     "name": "Big - Gete Star",
+    "size": "Vertical",
     "Card Number": "NZ022",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -16,6 +17,7 @@
   {
     "id": "0dd15cce-984c-4e44-a402-06f9d872f152",
     "name": "Black Eradication Mastery",
+    "size": "Vertical",
     "Card Number": "NZ001",
     "Style": "Black",
     "Rarity": "Promo",
@@ -30,6 +32,7 @@
   {
     "id": "cef1fc6f-f475-4218-92c9-96eb3b2c3a9b",
     "name": "Black Planet Destruction",
+    "size": "Vertical",
     "Card Number": "NZ002",
     "Style": "Black",
     "Rarity": "Promo",
@@ -44,6 +47,7 @@
   {
     "id": "6234ad9b-3fa8-4782-9a33-120da8de6070",
     "name": "Black Realization",
+    "size": "Vertical",
     "Card Number": "NZ003",
     "Style": "Black",
     "Rarity": "Promo",
@@ -58,6 +62,7 @@
   {
     "id": "02c68671-20be-439c-b4b4-7c82f7c7141d",
     "name": "Blue Crushing Blow",
+    "size": "Vertical",
     "Card Number": "NZ018",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -72,6 +77,7 @@
   {
     "id": "c541582d-6d69-4fb4-b7d4-b61106338b9a",
     "name": "Blue Divinity Mastery",
+    "size": "Vertical",
     "Card Number": "NZ016",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -86,6 +92,7 @@
   {
     "id": "cd10dced-6cba-4eb0-8e1a-9185934dab77",
     "name": "Blue Overpowering Aura",
+    "size": "Vertical",
     "Card Number": "NZ017",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -101,6 +108,7 @@
   {
     "id": "6844f74c-1823-472c-8f25-8668c63f476f",
     "name": "Bountiful Harvest",
+    "size": "Vertical",
     "Card Number": "NZ023",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -115,6 +123,7 @@
   {
     "id": "8c35dd0f-fa6e-4b2f-a653-33b1aa3de9f1",
     "name": "Double Elbow Slam",
+    "size": "Vertical",
     "Card Number": "NZ021",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -130,6 +139,7 @@
   {
     "id": "5387131d-18af-4214-9b8f-608da47c6a87",
     "name": "Meta-Cooler Clone",
+    "size": "Vertical",
     "Card Number": "NZ024",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -146,6 +156,7 @@
   {
     "id": "0027d1cc-3602-4c8d-86a0-fba76ba08953",
     "name": "Namekian Dominance",
+    "size": "Vertical",
     "Card Number": "NZ011",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -160,6 +171,7 @@
   {
     "id": "0c991992-c15c-4a56-bce7-64f77d2eda7a",
     "name": "Namekian Gut Shot",
+    "size": "Vertical",
     "Card Number": "NZ012",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -174,6 +186,7 @@
   {
     "id": "0a4f135e-f862-4d26-b6d6-107ab39b2096",
     "name": "Namekian Tactical Mastery",
+    "size": "Vertical",
     "Card Number": "NZ010",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -188,6 +201,7 @@
   {
     "id": "c68e466e-c60b-40b9-96e7-887204e75d21",
     "name": "Orange Burst Mastery",
+    "size": "Vertical",
     "Card Number": "NZ007",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -202,6 +216,7 @@
   {
     "id": "286da168-09f1-4aca-a156-77c1fc01f796",
     "name": "Orange Physical Resistance",
+    "size": "Vertical",
     "Card Number": "NZ008",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -216,6 +231,7 @@
   {
     "id": "c5266d05-101a-4159-a65b-95ee35ce5749",
     "name": "Orange Roundhouse",
+    "size": "Vertical",
     "Card Number": "NZ009",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -231,6 +247,7 @@
   {
     "id": "add17cb3-47d4-44cb-9474-a6809e334887",
     "name": "Red Critical Blow",
+    "size": "Vertical",
     "Card Number": "NZ014",
     "Style": "Red",
     "Rarity": "Promo",
@@ -245,6 +262,7 @@
   {
     "id": "52579ec6-ce6d-4ed6-b26a-f0521d9c0773",
     "name": "Red Masenko",
+    "size": "Vertical",
     "Card Number": "NZ015",
     "Style": "Red",
     "Rarity": "Promo",
@@ -259,6 +277,7 @@
   {
     "id": "536a46f5-7acb-48a3-b79a-b1e1721c5b2a",
     "name": "Red Unstable Mastery",
+    "size": "Vertical",
     "Card Number": "NZ013",
     "Style": "Red",
     "Rarity": "Promo",
@@ -273,6 +292,7 @@
   {
     "id": "11c519f8-f482-4cd1-a761-d5490217e2d3",
     "name": "Saiyan Body Crush",
+    "size": "Vertical",
     "Card Number": "NZ006",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -287,6 +307,7 @@
   {
     "id": "5101051d-aaf8-4801-a058-376e5ff2843a",
     "name": "Saiyan Execution",
+    "size": "Vertical",
     "Card Number": "NZ005",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -301,6 +322,7 @@
   {
     "id": "ed780acc-6b1b-4c9c-9172-0fa55853cb7c",
     "name": "Saiyan Lineage Mastery",
+    "size": "Vertical",
     "Card Number": "NZ004",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -315,6 +337,7 @@
   {
     "id": "9c43dde9-821a-490d-8bfb-7ec8b54497d1",
     "name": "Straining Ki Build-Up Move",
+    "size": "Vertical",
     "Card Number": "NZ020",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -330,6 +353,7 @@
   {
     "id": "47d9b7ac-530b-4ee3-ae5a-a655cee38468",
     "name": "Super Saiyan Retaliation",
+    "size": "Vertical",
     "Card Number": "NZ019",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -344,6 +368,7 @@
   {
     "id": "ea9cf553-97c9-4479-8a86-e198e026d903",
     "name": "The Crusher Corps",
+    "size": "Vertical",
     "Card Number": "NZ025",
     "Style": "Freestyle",
     "Rarity": "Promo",

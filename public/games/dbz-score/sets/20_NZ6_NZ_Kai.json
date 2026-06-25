@@ -2,6 +2,7 @@
   {
     "id": "0162a75b-3e7c-4de4-bc43-edcd22f9dd9a",
     "name": "____'s Left Leg Check",
+    "size": "Vertical",
     "Card Number": "NZ195",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -16,6 +17,7 @@
   {
     "id": "9e3e1bad-62cb-49cc-957b-6e7f609be381",
     "name": "Black Anticipation",
+    "size": "Vertical",
     "Card Number": "NZ181",
     "Style": "Black",
     "Rarity": "Promo",
@@ -31,6 +33,7 @@
   {
     "id": "f21af646-9990-4969-b2ea-9ae86f2dcb18",
     "name": "Black Futile Effort",
+    "size": "Vertical",
     "Card Number": "NZ182",
     "Style": "Black",
     "Rarity": "Promo",
@@ -45,6 +48,7 @@
   {
     "id": "a2ed56b1-832f-49ea-b870-0ded21bf6a84",
     "name": "Blue One-Inch Punch",
+    "size": "Vertical",
     "Card Number": "NZ183",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -59,6 +63,7 @@
   {
     "id": "96ed13c7-d69c-488c-a382-486b15413cc6",
     "name": "Blue Prepared Blast",
+    "size": "Vertical",
     "Card Number": "NZ184",
     "Style": "Blue",
     "Rarity": "Promo",
@@ -73,6 +78,7 @@
   {
     "id": "725364f8-ea95-4732-b5cf-ea1f73caf582",
     "name": "Dende, the Friend",
+    "size": "Vertical",
     "Card Number": "NZ197",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -89,6 +95,7 @@
   {
     "id": "962ab3bb-86a2-4008-9a18-6891d6ac6a1b",
     "name": "Gregory",
+    "size": "Vertical",
     "Card Number": "NZ196",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -105,6 +112,7 @@
   {
     "id": "38344005-7aa4-4c68-9718-9c3e2df8d42b",
     "name": "Jeice, the Brash",
+    "size": "Vertical",
     "Card Number": "NZ198",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -121,12 +129,21 @@
   {
     "id": "620c5d0f-d4c0-42ac-820b-7cb259ee253f",
     "name": "Lonely Canyon",
+    "size": "Vertical",
     "Card Number": "NZ193",
     "Style": "Freestyle",
     "Rarity": "Promo",
     "Type": "Location",
     "Text": "Energy attacks cost -2 power stages to perform.",
     "Limit": "3",
+    "alternates": [
+      {
+        "name": "Lonely Canyon",
+        "type": "Horizontal",
+        "size": "Horizontal",
+        "image": "620c5d0f-d4c0-42ac-820b-7cb259ee253f.Horizontal.jpg"
+      }
+    ],
     "Set": "20 - NZ6 NZ Kai",
     "index": "Ow",
     "set_id": "671d7cae-2ea6-43b3-9471-43f37b566bf4",
@@ -135,6 +152,7 @@
   {
     "id": "565bb124-905f-4330-aada-968e26a8f3ff",
     "name": "Namekian Piccolo's Hellzone Grenade",
+    "size": "Vertical",
     "Card Number": "NZ185",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -149,6 +167,7 @@
   {
     "id": "a10ab750-f74f-4f9a-a8f4-e70d6e107dd3",
     "name": "Namekian Rage Drill",
+    "size": "Vertical",
     "Card Number": "NZ186",
     "Style": "Namekian",
     "Rarity": "Promo",
@@ -163,6 +182,7 @@
   {
     "id": "54ee43dc-231a-4d43-871a-7915aebd72a5",
     "name": "Orange Furious Barrage",
+    "size": "Vertical",
     "Card Number": "NZ188",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -177,6 +197,7 @@
   {
     "id": "4023513d-8a4d-4afe-affb-9c1c2077a4d8",
     "name": "Orange Respite",
+    "size": "Vertical",
     "Card Number": "NZ187",
     "Style": "Orange",
     "Rarity": "Promo",
@@ -191,6 +212,7 @@
   {
     "id": "5adcd43f-a96c-4345-9b0f-6d8715bc1a20",
     "name": "Raditz, Bad Company",
+    "size": "Vertical",
     "Card Number": "NZ199",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -207,6 +229,7 @@
   {
     "id": "dc2aa881-fee6-4a08-813c-141bacace004",
     "name": "Red Channeling Drill",
+    "size": "Vertical",
     "Card Number": "NZ190",
     "Style": "Red",
     "Rarity": "Promo",
@@ -221,6 +244,7 @@
   {
     "id": "99b4d634-1d25-4312-a63c-bbaadfd17a40",
     "name": "Red Quiet Fury",
+    "size": "Vertical",
     "Card Number": "NZ189",
     "Style": "Red",
     "Rarity": "Promo",
@@ -235,6 +259,7 @@
   {
     "id": "9d4b0dc6-ba5c-4fa3-b186-50692dfe8908",
     "name": "Saiyan Battle Armor",
+    "size": "Vertical",
     "Card Number": "NZ191",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -249,6 +274,7 @@
   {
     "id": "01005a18-4bd1-4e24-9304-85dbc47e2d9d",
     "name": "Saiyan Flexibility Drill",
+    "size": "Vertical",
     "Card Number": "NZ192",
     "Style": "Saiyan",
     "Rarity": "Promo",
@@ -263,6 +289,7 @@
   {
     "id": "21063b65-3a72-43ba-897f-5fcd091376dc",
     "name": "Tech Support",
+    "size": "Vertical",
     "Card Number": "NZ194",
     "Style": "Freestyle",
     "Rarity": "Promo",
@@ -277,6 +304,7 @@
   {
     "id": "8b6730b1-1e60-47c3-8e88-57f47e9eff42",
     "name": "Tori-Bot",
+    "size": "Vertical",
     "Card Number": "NZ200",
     "Style": "Freestyle",
     "Rarity": "Promo",
