@@ -10,7 +10,8 @@
 	"Alignments",
     "Power",
     "Global Power",
-    "Resistance"
+    "Resistance",
+	"Set"
   ],
   
   "filterDelimiter": ",",
