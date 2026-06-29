@@ -209,11 +209,12 @@
     "games/illuminati-second-ed/sets/Reference_Cards.json"
   ],
   "inwo": [
-    "games/inwo/sets/Assassins.json",
-    "games/inwo/sets/One_With_Everything.json",
-    "games/inwo/sets/Spricht_Deutsch_Exclusives.json",
-    "games/inwo/sets/SubGenius.json",
-    "games/inwo/sets/Unlimited_Edition.json"
+    "games/inwo/sets/01_Limited_Edition.json",
+    "games/inwo/sets/02_Unlimited_Edition.json",
+    "games/inwo/sets/03_One_With_Everything.json",
+    "games/inwo/sets/04_Assassins.json",
+    "games/inwo/sets/05_SubGenius.json",
+    "games/inwo/sets/06_Spricht_Deutsch_Exclusives.json"
   ],
   "mage-wars": [
     "games/mage-wars/sets/Mage_Wars_Academy.json",
