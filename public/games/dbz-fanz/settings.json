@@ -1,120 +1,253 @@
 {
-  "gameName": "dbz-fanz",
-  "hiddenSets": ["3ea98314-44af-4992-aadd-8b95de063324", "0000557e-1c4b-4891-ad6e-12e291dee532"],
-  "addNValue": 3,
-  
-  "fallbackGroup": "Life Deck",
-  
-  "groupOptions": [
-    "Type",
-    "Style"
-  ],
-  
-  "filterOptions": [
-    "Type",
-    "Style",
-	"Traits",
-	"Alignment",
-    "Set",
-	"Level"
-  ],
-  
-  "filterValueOrder": {
-	"Style": ["Black", "Blue", "Orange", "Red", "Namekian", "Saiyan", "Non-Styled", "Named" ]
-  },
-  
-  "filterDelimiter": ",",
-  
-  "groupOrder": [
-    "Hero MP",
-    "Villain MP",
-    "Mastery",
-    "Physical Combat",
-    "Energy Combat"
-  ],
-  
-  "groupSort": {
-    "Starting": {
-      "by": [
-        "Level",
-        "name"
-      ],
-      "order": {
-        "Level": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ]
+   "gameName":"dbz-fanz",
+   "hiddenSets":[
+      "3ea98314-44af-4992-aadd-8b95de063324",
+      "0000557e-1c4b-4891-ad6e-12e291dee532"
+   ],
+   "addNValue":3,
+   "fallbackGroup":"Life Deck",
+   "groupOptions":[
+      "Type",
+      "Style"
+   ],
+   "filterOptions":[
+      "Type",
+      "Style",
+      "Traits",
+      "Alignment",
+      "Set",
+      "Level"
+   ],
+   "filterValueOrder":{
+      "Style":[
+         "Black",
+         "Blue",
+         "Orange",
+         "Red",
+         "Namekian",
+         "Saiyan",
+         "Non-Styled",
+         "Named"
+      ]
+   },
+   "filterDelimiter":",",
+   "groupOrder":[
+      "Hero MP",
+      "Villain MP",
+      "Mastery",
+      "Physical Combat",
+      "Energy Combat"
+   ],
+   "groupSort":{
+      "Starting":{
+         "by":[
+            "Level",
+            "name"
+         ],
+         "order":{
+            "Level":[
+               "1",
+               "2",
+               "3",
+               "4"
+            ]
+         }
+      },
+      "Hero MP":{
+         "by":[
+            "Level",
+            "name"
+         ],
+         "order":{
+            "Level":[
+               "1",
+               "2",
+               "3",
+               "4"
+            ]
+         }
+      },
+      "Villain MP":{
+         "by":[
+            "Level",
+            "name"
+         ],
+         "order":{
+            "Level":[
+               "1",
+               "2",
+               "3",
+               "4"
+            ]
+         }
       }
-    },
-	
-	"Hero MP": {
-      "by": [
-        "Level",
-        "name"
+   },
+   "searchPrefixes":{
+      "t":"Text",
+      "tr":"Traits",
+      "e":"Endurance"
+   },
+   "print":{
+      "cardWidthMm":63,
+      "cardHeightMm":88,
+      "bleedMm":0,
+      "horizontalGapMm":0,
+      "verticalGapMm":0,
+      "sideMarginMm":10,
+      "topMarginMm":5,
+      "bottomMarginMm":5,
+      "cardsPerRow":3,
+      "cardsPerColumn":3,
+      "dpi":300,
+      "jpegQuality":0.72,
+      "paperSize":"Letter"
+   },
+   "octgnExport":true,
+   "pdfDecklistExport":true,
+   "imagePackExport":true,
+   "compactExportCols":5,
+   "compactExportHeadingRow":true,
+   "compactVerticalOffsetFactor":0.18,
+   "compactRowShiftFactor":0.7,
+   "compactHorizontalStackVerticalOffsetFactor":0.4,
+   "compactHorizontalStackProperty":"Type",
+   "compactHorizontalStackQuantity":{
+      "Drill":3,
+      "Setup":3
+   },
+   "deckExports":{
+      "menu":[
+         "decklistImage",
+         "proxyPdf",
+         "shareLink",
+         "octgn",
+         "decklistPdf",
+         "deckText",
+         "deckSubmit",
+         "tabletopSimulator"
       ],
-      "order": {
-        "Level": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ]
+      "modules":{
+         "decklistImage":{
+            "enabled":true,
+            "label":"As Image"
+         },
+         "proxyPdf":{
+            "enabled":true,
+            "label":"Proxy PDF"
+         },
+         "shareLink":{
+            "enabled":true,
+            "label":"Share Link"
+         },
+         "octgn":{
+            "enabled":true,
+            "label":"OCTGN"
+         },
+         "deckText":{
+            "enabled":false,
+            "label":"Text"
+         },
+         "decklistPdf":{
+            "enabled":true,
+            "label":"Decklist PDF"
+         },
+         "deckSubmit":{
+            "enabled":false,
+            "label":"Submit Deck"
+         },
+         "tabletopSimulator":{
+            "enabled":false,
+            "label":"Tabletop Simulator"
+         }
       }
-    },
-    "Villain MP": {
-      "by": [
-        "Level",
-        "name"
+   },
+   "deckTextExport":{
+      "grouping":"OCTGN",
+      "headerStyle":"boldAsterisks",
+      "layout":[
+         {
+            "name":"Header",
+            "showHeader":false,
+            "sections":[
+               {
+                  "section":"Starting",
+                  "typeOrder":[
+                     {
+                        "type":"Personality",
+                        "matchTypes":[
+                           "Hero MP",
+                           "Villain MP"
+                        ],
+                        "sortBy":[
+                           {
+                              "property":"Level",
+                              "direction":"asc",
+                              "numeric":true
+                           },
+                           {
+                              "property":"Card Name",
+                              "direction":"asc"
+                           }
+                        ]
+                     },
+                     {
+                        "type":"Mastery"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "name":"Body",
+            "showHeader":false,
+            "sections":[
+               {
+                  "section":"Life Deck",
+                  "typeOrder":[
+                     {
+                        "type":"Physical Combat"
+                     },
+                     {
+                        "type":"Energy Combat"
+                     },
+                     {
+                        "type":"Event"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "name":"Footer",
+            "showHeader":false,
+            "sections":[
+               {
+                  "section":"Sideboard",
+                  "typeOrder":[
+                     {
+                        "type":"Physical Combat"
+                     },
+                     {
+                        "type":"Energy Combat"
+                     },
+                     {
+                        "type":"Event"
+                     }
+                  ]
+               }
+            ]
+         }
       ],
-      "order": {
-        "Level": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ]
+      "defaults":{
+         "typeProperty":"Type",
+         "nameProperty":"Card Name",
+         "unknownTypes":"alphabeticalAtEnd",
+         "defaultTypeSort":[
+            {
+               "property":"Card Name",
+               "direction":"asc"
+            }
+         ]
       }
-    }
-  },
-  
-  "searchPrefixes": {
-    "t": "Text",
-    "tr": "Traits",
-    "e": "Endurance"
-  },  
-  "print": {
-  "cardWidthMm": 63,
-  "cardHeightMm": 88,
-  "bleedMm": 0,
-
-  "horizontalGapMm": 0,
-  "verticalGapMm": 0,
-
-  "sideMarginMm": 10,
-  "topMarginMm": 5,
-  "bottomMarginMm": 5,
-
-  "cardsPerRow": 3,
-  "cardsPerColumn": 3,
-
-  "dpi": 300,
-  "jpegQuality": 0.72,
-
-  "paperSize": "Letter"
-	}, 
-  "octgnExport": true,
-  "pdfDecklistExport": true,
-  "imagePackExport": true,
-  "compactExportCols": 5,
-  "compactExportHeadingRow": true,
-  "compactVerticalOffsetFactor": 0.18,
-  "compactRowShiftFactor": 0.7,
-  "compactHorizontalStackVerticalOffsetFactor": 0.4,
-  "compactHorizontalStackProperty": "Type",
-  "compactHorizontalStackQuantity": {
-    "Drill": 3,
-    "Setup": 3
-  }
+   }
 }

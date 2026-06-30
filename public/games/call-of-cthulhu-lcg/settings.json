@@ -24,5 +24,52 @@
 	  "s": "Subtypes"
   },
   "octgnExport": true,
-  "imagePackExport": true
+  "imagePackExport": true,
+  
+  "deckExports": {
+	  "menu": [
+		"decklistImage",
+		"proxyPdf",
+		"shareLink",
+		"octgn",
+		"decklistPdf",
+		"deckSubmit",
+		"tabletopSimulator"
+	  ],
+	  "modules": {
+		"decklistImage": {
+		  "enabled": true,
+		  "label": "As Image"
+		},
+		"proxyPdf": {
+		  "enabled": true,
+		  "label": "Proxy PDF"
+		},
+		"shareLink": {
+		  "enabled": true,
+		  "label": "Share Link"
+		},
+		"octgn": {
+		  "enabled": true,
+		  "label": "OCTGN"
+		},
+		"deckText": {
+		  "enabled": false,
+		  "label": "Text"
+		},
+		"decklistPdf": {
+		  "enabled": false,
+		  "label": "Decklist PDF"
+		},
+		"deckSubmit": {
+		  "enabled": false,
+		  "label": "Submit Deck"
+		},
+		"tabletopSimulator": {
+		  "enabled": false,
+		  "label": "Tabletop Simulator"
+		}
+	  }
+	}
+  
 }
