@@ -25,5 +25,65 @@
 	"q": "Quote"
 },
   "octgnExport": true,
-  "imagePackExport": true
+  "imagePackExport": true,
+  "deckExports":{
+      "menu":[
+         "decklistImage",
+         "proxyPdf",
+         "shareLink",
+         "octgn",
+         "decklistPdf",
+         "deckText",
+         "deckSubmit",
+         "tabletopSimulator"
+      ],
+      "modules":{
+         "decklistImage":{
+            "enabled":true,
+            "label":"As Image"
+         },
+         "proxyPdf":{
+            "enabled":true,
+            "label":"Proxy PDF"
+         },
+         "shareLink":{
+            "enabled":true,
+            "label":"Share Link"
+         },
+         "octgn":{
+            "enabled":true,
+            "label":"OCTGN"
+         },
+         "deckText":{
+            "enabled":true,
+            "label":"Text"
+         },
+         "decklistPdf":{
+            "enabled":false,
+            "label":"Decklist PDF"
+         },
+         "deckSubmit":{
+            "enabled":false,
+            "label":"Submit Deck"
+         },
+         "tabletopSimulator":{
+            "enabled":false,
+            "label":"Tabletop Simulator"
+         }
+      }
+   },
+	"deckTextExport": {
+	  "grouping": "Type",
+	  "headerStyle": "boldAsterisks",
+	  "defaults": {
+		"typeProperty": "Card Type",
+		"nameProperty": "Card Name",
+		"defaultTypeSort": [
+		  {
+			"property": "Card Name",
+			"direction": "asc"
+		  }
+		]
+	  }
+	}
 }

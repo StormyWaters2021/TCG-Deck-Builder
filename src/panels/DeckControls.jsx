@@ -6,6 +6,8 @@ import ImageExportFlow from "../components/ImageExportFlow";
 import { buildCardPreviewProperties } from "../utils/cardPreviewExtra";
 import { startDeckImportFlow } from "../utils/deckImportFlow";
 import ImagePackExportControl from "../components/ImagePackExportControl";
+import { getDeckExportModules } from "../utils/exportModules";
+import { buildDeckTextExport } from "../utils/deckTextExport";
 import {
   exportDeckOCTGN,
   buildDragonDiceTTSString,
@@ -93,11 +95,11 @@ function DeckControls({
   const [savedDeckFolderDropIndicator, setSavedDeckFolderDropIndicator] =
     useState(null);
 
-const pdfDecklistRef = useRef(null);
-const proxyPdfRef = useRef(null);
-const [generatingPDF, setGeneratingPDF] = useState(false);
-const deckSubmissionRef = useRef(null);
-const imageExportRef = useRef(null);
+  const pdfDecklistRef = useRef(null);
+  const proxyPdfRef = useRef(null);
+  const [generatingPDF, setGeneratingPDF] = useState(false);
+  const deckSubmissionRef = useRef(null);
+  const imageExportRef = useRef(null);
 
   useEffect(() => {
     if (openVersionsMenu == null) return;
@@ -1176,40 +1178,85 @@ const imageExportRef = useRef(null);
     setSavedDeckDrag({ type: "folder", folderId });
   }
 
-async function handleDragonDiceTTSExport() {
-  const ttsString = buildDragonDiceTTSString(deck, cards);
+  async function handleDragonDiceTTSExport() {
+    const ttsString = buildDragonDiceTTSString(deck, cards);
 
-  if (!ttsString) {
+    if (!ttsString) {
+      openMessageModal(
+        setModalState,
+        "Tabletop Simulator Export",
+        "No valid cards found to export.",
+      );
+      return;
+    }
+
+    let copied = false;
+
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(ttsString);
+        copied = true;
+      }
+    } catch (e) {
+      console.warn("Could not copy TTS export to clipboard:", e);
+    }
+
     openMessageModal(
       setModalState,
-      "Tabletop Simulator Export",
+      copied ? "Tabletop Simulator Export Copied" : "Tabletop Simulator Export",
+      copied
+        ? `Copied to clipboard:\n\n${ttsString}`
+        : `Could not automatically copy to clipboard. You can manually copy this:\n\n${ttsString}`,
+    );
+  }
+  
+  function sanitizeFileName(value, fallback = "deck") {
+  const cleaned = String(value || "")
+    .trim()
+    .replace(/[\\/:*?"<>|]+/g, "")
+    .replace(/\s+/g, " ");
+
+  return cleaned || fallback;
+}
+
+function downloadTextFile(filename, text) {
+  const blob = new Blob([text], {
+    type: "text/plain;charset=utf-8",
+  });
+
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+
+  URL.revokeObjectURL(url);
+}
+
+function handleDeckTextExport() {
+  const text = buildDeckTextExport({
+    deck,
+    cards,
+    settings,
+    octgnOverrides,
+  });
+
+  if (!text.trim()) {
+    openMessageModal(
+      setModalState,
+      "Text Export",
       "No valid cards found to export.",
     );
     return;
   }
 
-  let copied = false;
-
-  try {
-    if (navigator.clipboard && window.isSecureContext) {
-      await navigator.clipboard.writeText(ttsString);
-      copied = true;
-    }
-  } catch (e) {
-    console.warn("Could not copy TTS export to clipboard:", e);
-  }
-
-  openMessageModal(
-    setModalState,
-    copied
-      ? "Tabletop Simulator Export Copied"
-      : "Tabletop Simulator Export",
-    copied
-      ? `Copied to clipboard:\n\n${ttsString}`
-      : `Could not automatically copy to clipboard. You can manually copy this:\n\n${ttsString}`,
-  );
+  const filename = `${sanitizeFileName(deckName, "deck")}.txt`;
+  downloadTextFile(filename, text);
 }
-
+  
 
   async function exportDeck(format) {
     setExportMenuOpen(false);
@@ -1285,7 +1332,23 @@ async function handleDragonDiceTTSExport() {
   const linkMessageClass = "link-message";
   const listSelectedClass = "selected-list-item";
 
+  const deckExportModules = React.useMemo(
+    () => getDeckExportModules(settings),
+    [settings],
+  );
+
   const selectedCardObj = cards.find((c) => c.id === selectedCard);
+
+const deckExportActions = {
+  decklistImage: () => imageExportRef.current?.open(),
+  proxyPdf: () => proxyPdfRef.current?.open(),
+  deckText: () => handleDeckTextExport(),
+  shareLink: () => exportDeck("LINK"),
+  deckSubmit: () => deckSubmissionRef.current?.open(),
+  octgn: () => exportDeck("OCTGN"),
+  tabletopSimulator: () => exportDeck("DRAGON_DICE_TTS"),
+  decklistPdf: () => pdfDecklistRef.current?.open(),
+};
 
   return (
     <>
@@ -1316,98 +1379,31 @@ async function handleDragonDiceTTSExport() {
                 className="dropdown-menu"
                 onMouseLeave={() => setExportMenuOpen(false)}
               >
-                <button
-				  className={
-					dropdownHover === 2
-					  ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-					  : dropdownButtonClass
-				  }
-				  onMouseEnter={() => setDropdownHover(2)}
-				  onMouseLeave={() => setDropdownHover(null)}
-				  onClick={() => imageExportRef.current?.open()}
-				>
-				  As Image
-				</button>
-                <button
-                  className={
-                    dropdownHover === 4
-                      ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                      : dropdownButtonClass
-                  }
-                  onMouseEnter={() => setDropdownHover(4)}
-                  onMouseLeave={() => setDropdownHover(null)}
-                  onClick={() => proxyPdfRef.current?.open()}
-                >
-                  Proxy PDF
-                </button>
-                <button
-                  className={
-                    dropdownHover === 5
-                      ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                      : dropdownButtonClass
-                  }
-                  onMouseEnter={() => setDropdownHover(5)}
-                  onMouseLeave={() => setDropdownHover(null)}
-                  onClick={() => exportDeck("LINK")}
-                >
-                  Share Link
-                </button>
-                {settings.deckSubmit && (
-                  <button
-                    className={
-                      dropdownHover === 7
-                        ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                        : dropdownButtonClass
-                    }
-                    onMouseEnter={() => setDropdownHover(7)}
-                    onMouseLeave={() => setDropdownHover(null)}
-                    onClick={() => deckSubmissionRef.current?.open()}
-                  >
-                    Submit Deck
-                  </button>
-                )}
-                {settings.octgnExport && (
-                  <button
-                    className={
-                      dropdownHover === 6
-                        ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                        : dropdownButtonClass
-                    }
-                    onMouseEnter={() => setDropdownHover(6)}
-                    onMouseLeave={() => setDropdownHover(null)}
-                    onClick={() => exportDeck("OCTGN")}
-                  >
-                    OCTGN
-                  </button>
-                )}
-				{settings.dragonDiceTTSExport && (
-                  <button
-                    className={
-                      dropdownHover === 9
-                        ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                        : dropdownButtonClass
-                    }
-                    onMouseEnter={() => setDropdownHover(9)}
-                    onMouseLeave={() => setDropdownHover(null)}
-                    onClick={() => exportDeck("DRAGON_DICE_TTS")}
-                  >
-                    Tabletop Simulator
-                  </button>
-                )}
-                {settings.pdfDecklistExport && (
-                  <button
-                    className={
-                      dropdownHover === 8
-                        ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                        : dropdownButtonClass
-                    }
-                    onMouseEnter={() => setDropdownHover(8)}
-                    onMouseLeave={() => setDropdownHover(null)}
-                    onClick={() => pdfDecklistRef.current?.open()}
-                  >
-                    Decklist PDF
-                  </button>
-                )}
+                {deckExportModules.map((module) => {
+                  const action = deckExportActions[module.id];
+
+                  if (!action) return null;
+
+                  return (
+                    <button
+                      key={module.id}
+                      className={
+                        dropdownHover === module.id
+                          ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
+                          : dropdownButtonClass
+                      }
+                      onMouseEnter={() => setDropdownHover(module.id)}
+                      onMouseLeave={() => setDropdownHover(null)}
+                      onClick={() => {
+                        setDropdownHover(null);
+                        setExportMenuOpen(false);
+                        action();
+                      }}
+                    >
+                      {module.label}
+                    </button>
+                  );
+                })}
               </div>
             )}
             {linkMessage && (
@@ -1438,13 +1434,13 @@ async function handleDragonDiceTTSExport() {
         </div>
 
         <div style={{ width: "220px", marginBottom: "1em" }}>
-		<CardPreview
-		  card={selectedCardObj}
-		  game={game}
-		  extraData={buildCardPreviewProperties(selectedCardObj, settings)}
-		  disableFlipCardButton={!!settings?.disableFlipCardButton}
-		  useGridImageForPreview={!!settings?.useGridImageForPreview}
-		/>
+          <CardPreview
+            card={selectedCardObj}
+            game={game}
+            extraData={buildCardPreviewProperties(selectedCardObj, settings)}
+            disableFlipCardButton={!!settings?.disableFlipCardButton}
+            useGridImageForPreview={!!settings?.useGridImageForPreview}
+          />
         </div>
         <SavedDeckLibrary
           savedDeckFolderView={{
@@ -1477,31 +1473,31 @@ async function handleDragonDiceTTSExport() {
           dropdownButtonHoverClass={dropdownButtonHoverClass}
           listSelectedClass={listSelectedClass}
         />
-		<ImageExportFlow
-		  ref={imageExportRef}
-		  deck={deck}
-		  cards={cards}
-		  settings={settings}
-		  deckName={deckName}
-		  game={game}
-		  onBeforeOpen={() => {
-			setDropdownHover(null);
-			setExportMenuOpen(false);
-		  }}
-		/>
-		<ProxyPdfExportFlow
-		  ref={proxyPdfRef}
-		  deck={deck}
-		  cards={cards}
-		  settings={settings}
-		  deckName={deckName}
-		  game={game}
-		  onGeneratingChange={setGeneratingPDF}
-		  onBeforeOpen={() => {
-			setDropdownHover(null);
-			setExportMenuOpen(false);
-		  }}
-		/>
+        <ImageExportFlow
+          ref={imageExportRef}
+          deck={deck}
+          cards={cards}
+          settings={settings}
+          deckName={deckName}
+          game={game}
+          onBeforeOpen={() => {
+            setDropdownHover(null);
+            setExportMenuOpen(false);
+          }}
+        />
+        <ProxyPdfExportFlow
+          ref={proxyPdfRef}
+          deck={deck}
+          cards={cards}
+          settings={settings}
+          deckName={deckName}
+          game={game}
+          onGeneratingChange={setGeneratingPDF}
+          onBeforeOpen={() => {
+            setDropdownHover(null);
+            setExportMenuOpen(false);
+          }}
+        />
         <DeckSubmissionFlow
           ref={deckSubmissionRef}
           deck={deck}
