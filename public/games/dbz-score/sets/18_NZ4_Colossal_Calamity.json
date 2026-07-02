@@ -10,7 +10,7 @@
     "Text": "If your MP is a Hero, the first time each turn an ally enters or leaves play, draw a card. If your MP is a Villain, discard up to 1 drill or ally in play instead. You may only have 1 Begrudging Allies Drill in play at a time.",
     "Limit": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "WB",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "38542a89-107c-4677-8d09-7a57f78932b5.jpg"
   },
@@ -25,7 +25,7 @@
     "Text": "Your Black style physical and energy combat cards that can stop attacks gain \"Raise your anger 1 level.\" When you play a card or use a non-Drill card effect during combat that can discard one or more cards from your opponent's hand or remove cards in their discard pile from the game, you may instead discard the top 3 cards of their life deck instead.",
     "Limit": "1",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "Vr",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "fbe968db-3a78-4c84-a6fb-a0d07df54bb4.jpg"
   },
@@ -40,7 +40,7 @@
     "Text": "(If you declared a tokui-waza, when entering combat you may reveal this card in your hand. If you do, your opponent removes the top 3 cards in their discard pile from the game.) Stops a physical or energy attack. Gain 4 power stages.",
     "Limit": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "Vs",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "0adf0321-0760-4757-925d-344ad1380d51.jpg"
   },
@@ -55,7 +55,7 @@
     "Text": "(You may reveal this card in your hand when entering combat. If you do, discard it and discard a card at random from your opponent's hand.) Your opponent's attacks deal -2 power stages of damage. Cards in your opponent's deck with printed endurance lose their endurance.",
     "Limit": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "Vt",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "ca60b4da-59b9-4b3f-85d5-6eb4156f878f.jpg"
   },
@@ -70,7 +70,7 @@
     "Text": "Transform. Physical attack doing +3 power stages of damage. Lower your opponent's anger 1 level. If successful, search your discard pile for a Blue style card that is not Blue Colossal Throw and place it into your hand. You may only play Blue Colossal Throw via Transform once per combat. Remove from game after use.",
     "Limit": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "Vv",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "fbdfd2c6-f2a0-4632-9a0d-77c3d663f5e2.jpg"
   },
@@ -85,7 +85,7 @@
     "Text": "When you play a Blue style card that can lower your opponent's anger, you may raise your anger 1 level instead or if your opponent's anger is at 0, once per combat, you may raise your MP to its highest power stage and draw a card.",
     "Limit": "1",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "Vu",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "10fa7406-11b0-46d8-b220-3f0555c93327.jpg"
   },
@@ -101,7 +101,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "Vw",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "7a74e7d1-054d-47a1-88ca-da25c2d6c252.jpg"
   },
@@ -116,7 +116,7 @@
     "Text": "Cards that remain in play to be used an additional time this combat are considered Bulma named cards for card effects. Card effects that say \"When the Bulma ally is in play...\" are considered to say \"If Bulma is your Main Personality...\"",
     "Limit": "4",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "WD",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "e3ecce5a-186c-48e8-8f75-02bc85e1619b.jpg"
   },
@@ -131,7 +131,7 @@
     "Text": "Limit 1 per deck. Before the first turn begins, if your MP is a Celestial Fighter, you may search your life deck for this card and attack it to your MP to place Grand Kai from your deck into play at 3 stages above 0. While attached, your main personality is considered to have four levels for your opponent's MPPV conditions, and your attacks deal +1 life card of damage.",
     "Limit": "1",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "WA",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "6cda8e69-321d-4ee4-9da3-1c5cd7f22a03.jpg"
   },
@@ -146,7 +146,7 @@
     "Text": "Physical attack doing 7 life cards of damage. You may remove a styled or Goku named card in your discard pile from the game to add its base damage to this attack. Damage from this attack cannot be prevented. If used by Goku, you may discard the top 7 cards of your life deck to make this attack unstoppable. Limit 1 per deck. Remove from the game after use.",
     "Limit": "1",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "W9",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "c83c79c2-7bd5-4cdf-9852-10a56d3af631.jpg"
   },
@@ -161,7 +161,7 @@
     "Text": "Energy attack doing 6 life cards of damage and costs 4 power stages to perform. Empower 4. If successful, during your next Attacker Attacks phase, you may perform an attack with a card in your discard pile with \"Kamehameha\" in its title as though it had Transform. Remove from the game after use.",
     "Limit": "4",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "WC",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "e54ea388-db21-4f7d-bfb8-d05e96cead02.jpg"
   },
@@ -176,7 +176,7 @@
     "Text": "Energy attack doing 4 life cards of damage. If Gotenks is in play, you may discard all cards under your Warrior Sword. If used by Gotenks, this attack stays on the table to be used one more time this combat. Remove from game after use.",
     "Limit": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "WE",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "3da94b34-e8d9-4c03-bebd-d1f082d9050a.jpg"
   },
@@ -191,7 +191,7 @@
     "Text": "Transform. Hirudegarn Only. Stops a physical or energy attack. Raise your Main Personality to its highest power stage. Remove from game after use.",
     "Limit": "4",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "WF",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "66878c66-7688-47cd-b00b-0917ad8474d4.jpg"
   },
@@ -208,7 +208,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "WH",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "5f92abc5-fd57-4254-a927-cc7376f1a1e8.jpg"
   },
@@ -225,7 +225,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "WG",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "7e2ee768-b7ce-43e0-b962-2cfa68b70ced.jpg"
   },
@@ -242,7 +242,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "WI",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "7a26a977-89e8-478c-8598-a5f20cfeb706.jpg"
   },
@@ -259,7 +259,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "WJ",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "ab7adcd1-ed1e-4523-a13c-b2d2a1a4744c.jpg"
   },
@@ -276,7 +276,7 @@
     "Limit": "1",
     "Card Level": "5",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "WK",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "e5a56f9b-aec9-4e36-8e11-446bb31fca04.jpg"
   },
@@ -291,7 +291,7 @@
     "Text": "Physical attack doing 4 life cards of damage. If you declared a tokui-waza, raise your MP to its highest power stage. If successful, you may shuffle a dragonball in play back into its owner's life deck. If you chose a dragonball you control, search your life deck for a different dragonball and place it into play. Remove from the game after use.",
     "Limit": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "Vz",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "3ed5effa-b2c1-4d49-9b40-ace9cb1040d2.jpg"
   },
@@ -306,7 +306,7 @@
     "Text": "Once per combat after making a successful attack with a Namekian style card, if you have no Dragonballs in play, search your life deck for a Dragonball and place it into play. The chosen Dragonball loses its power until the end of the turn. If you have 1 or more Dragonballs in play, instead you may shuffle a Dragonball you control back into its owner's life deck and search for a different Dragonball and place it into play. As long as you control 1 or more Dragonballs, you cannot end combat.",
     "Limit": "1",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "Vx",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "70a71621-73e3-4412-8b60-1ebac84123d5.jpg"
   },
@@ -321,7 +321,7 @@
     "Text": "Energy attack doing 4 power stages of damage. Costs 1 power stage to perform. If you control 2 or more Dragonballs, this attack stays on the table to be used one more time this combat. If successful and you declared a tokui-waza, gain 2 power stages and shuffle the top card of your discard pile back into your life deck. You may have up to 8 copies of this card in your deck.",
     "Limit": "8",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "Vy",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "b1b4fa53-54e3-47de-857e-f24330516765.jpg"
   },
@@ -336,7 +336,7 @@
     "Text": "(When entering combat, if you control 3 or more Drills, you may discard this card from your hand to advance a personality level. If you do, you cannot win by MPPV for the remainder of the game.) Stops an energy attack. If your MP is level 2 or higher, this stops the next energy attack performed against you this combat as well.",
     "Limit": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "W1",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "0997a7f8-c65f-49c1-b14b-a6a13fa9312d.jpg"
   },
@@ -351,7 +351,7 @@
     "Text": "(When your MP changes personality level, your Drills are shuffled into your life deck instead of discarded. If you change personality levels via this card's Power, you may keep 1 Drill in play.) You cannot win by MPPV. When entering combat, you may remove 6 Orange style cards in your discard pile from the game to advance a personality level. During your Defender Defends phase, you may discard an Orange style non-combat card from your hand to stop a physical or energy attack.",
     "Limit": "1",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "W0",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "3f52a6a7-b0c1-4c3b-a2d8-64b5ff7a6cdb.jpg"
   },
@@ -366,7 +366,7 @@
     "Text": "Physical attack doing +4 power stages of damage. Raise your anger 1 level. If you have no Orange style drills in play, search your life deck for an Orange style drill and place it into play. If you have 3 or more Orange style drills in play the first time you use this card this combat, this attack stays on the table to be used one more time this combat.",
     "Limit": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "W2",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "d31e0f4e-387c-4378-bea5-1318a8a01533.jpg"
   },
@@ -381,7 +381,7 @@
     "Text": "Energy attack doing 3 life cards of damage. Raise your anger 1 level. Empower 3. Attach this card to your opponent's MP. While attached, your MP gains \"When entering combat, raise your anger 1 level and gain 3 power stages.\" Discard this card when you advance a personality level. You may only have 1 Red Colossal Flame attached at a time.",
     "Limit": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "W5",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "cbdf46fb-e7f5-4cf3-b799-a3d4b2158cb1.jpg"
   },
@@ -396,7 +396,7 @@
     "Text": "Your energy attacks cost -1 power stage to perform, to a minimum of 1. Your energy attacks deal +1 life card of damage for each successful Red style energy attack performed that combat. Once per combat, during your Attacker Attacks phase, if you have 3 or more anger, you may set your anger to 0 to raise your MP to its highest power stage.",
     "Limit": "1",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "W3",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "55155b9d-d873-46b7-92fd-aee742cc8394.jpg"
   },
@@ -411,7 +411,7 @@
     "Text": "If Mighty Mask is your Main Personality, and you declared a tokui-waza you may remove Mighty Mask from play, and play a Gotenks Fusion card of the same personality level from your Sensei Deck. (This is still considered fusing via Fusion Dance.)",
     "Limit": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "W4",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "63e441d3-f982-48a1-b5e9-638e868e3d94.jpg"
   },
@@ -426,7 +426,7 @@
     "Text": "Saiyan Heritage only. Energy attack doing 3 life cards of damage. Empower 3. If you declared a tokui-waza and you have no allies in play, you may play a level 1 ally from your discard pile at 3 power stages above 0.",
     "Limit": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "W7",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "81c34496-8493-4ccd-b72d-30e14fb69fec.jpg"
   },
@@ -441,7 +441,7 @@
     "Text": "Once per combat, during your Defender Defends phase, you may discard an ally you have in play to stop a physical or energy attack. Your Saiyan style attacks deal +1 power stage of damage for each ally in your discard pile (to a maximum of +5). At the end of your Rejuvenation Step, you may place an ally from your removed from game pile on top of your discard pile.",
     "Limit": "1",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "W6",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "1d00d8f3-63d0-429d-a0a2-5d2c6677ca0d.jpg"
   },
@@ -456,7 +456,7 @@
     "Text": "Energy attack. Empower 3. If successful, for the remainder of combat, if a card effect would require you to discard an ally you control from play, you may remove an ally in your discard pile from the game instead.",
     "Limit": "3",
     "Set": "18 - NZ4 Colossal Calamity",
-    "index": "W8",
+    "Designer": "Fanmade",
     "set_id": "dd654fc2-eb89-442c-96b5-4ef3396b7fda",
     "image": "ac0e287d-727a-4638-8191-0a1f7fcea22b.jpg"
   }

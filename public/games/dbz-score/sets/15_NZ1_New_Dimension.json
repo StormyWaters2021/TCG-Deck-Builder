@@ -10,7 +10,7 @@
     "Text": "Meta-Cooler Only. When this card enters play, attach it to your MP. Once per turn, you may discard the top card of your life deck to search your deck for a Meta-Cooler Clone and put it into play at 3 stages above 0. While this card is in play your drills do not leave play when you advance a personality level.",
     "Limit": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "L",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "c6768904-3f25-4b81-87a9-de99e24c8351.jpg"
   },
@@ -25,7 +25,7 @@
     "Text": "Your Black style attacks deal +1 life card of damage. The first successful Black style attack you perform each combat gains \"Discard a card from your opponent's hand or discard an opponent's non-combat card in play.\"",
     "Limit": "1",
     "Set": "15 - NZ1 New Dimension",
-    "index": "0",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "0dd15cce-984c-4e44-a402-06f9d872f152.jpg"
   },
@@ -40,7 +40,7 @@
     "Text": "Focused energy attack doing 6 life cards of damage. Discard a Battleground or Location in play. If you have discarded a card from your opponent's hand this combat, this card can be used to stop an energy attack instead.",
     "Limit": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "1",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "cef1fc6f-f475-4218-92c9-96eb3b2c3a9b.jpg"
   },
@@ -55,7 +55,7 @@
     "Text": "All of your opponent's floating effects now end. If you declared a Tokui-waza, you may discard a card from your hand to force your opponent to discard a card from their hand. Remove from game after use.",
     "Limit": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "2",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "6234ad9b-3fa8-4782-9a33-120da8de6070.jpg"
   },
@@ -70,7 +70,7 @@
     "Text": "Focused Physical attack doing +3 stages of damage. Lower your opponent's anger 1. If your opponent's anger is at 0, damage from this attack cannot be prevented. If successful your opponent cannot gain anger for the remainder of combat. This card is unaffected by your opponent's Goku Sensei.",
     "Limit": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "H",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "02c68671-20be-439c-b4b4-7c82f7c7141d.jpg"
   },
@@ -85,7 +85,7 @@
     "Text": "Once per combat, when you make a successful attack with a Blue style card, stop the next physical or energy attack your opponent performs. This effect can stop focused attacks. While your opponent's anger level is 0 or 1, your attacks deal +2 power stages and +1 life card of damage.",
     "Limit": "1",
     "Set": "15 - NZ1 New Dimension",
-    "index": "F",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "c541582d-6d69-4fb4-b7d4-b61106338b9a.jpg"
   },
@@ -101,7 +101,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "G",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "cd10dced-6cba-4eb0-8e1a-9185934dab77.jpg"
   },
@@ -116,7 +116,7 @@
     "Text": "When you play this card, chose one: - Search your life deck or discard pile for a Tree of Might and place it into play. - Remove an Energetic Fruit attached to your MP to advance a personality level. You cannot win by MPPV fo the remainder of the game.",
     "Limit": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "M",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "6844f74c-1823-472c-8f25-8668c63f476f.jpg"
   },
@@ -132,7 +132,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "15 - NZ1 New Dimension",
-    "index": "K",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "8c35dd0f-fa6e-4b2f-a653-33b1aa3de9f1.jpg"
   },
@@ -149,7 +149,7 @@
     "Limit": "6",
     "Card Level": "1",
     "Set": "15 - NZ1 New Dimension",
-    "index": "N",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "5387131d-18af-4214-9b8f-608da47c6a87.jpg"
   },
@@ -164,7 +164,7 @@
     "Text": "Raise your main personality to its highest power stage. Place the bottom 3 cards of your discard pile at the bottom of your life deck. If you declared tokui-waza, for the remainder of combat, the base damage of all of your Namekian Style physical attacks is considered to be 4 when you use the PAT.",
     "Limit": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "A",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "0027d1cc-3602-4c8d-86a0-fba76ba08953.jpg"
   },
@@ -179,7 +179,7 @@
     "Text": "Focused physical attack doing +4 stages of damage. Discard an opponent's ally in play. Empower 3. If successful, for the remainder of combat your opponent cannot use Endurance against your Namekian style attacks.",
     "Limit": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "B",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "0c991992-c15c-4a56-bce7-64f77d2eda7a.jpg"
   },
@@ -194,7 +194,7 @@
     "Text": "Your Namekian style attacks deal +1 life card of damage. During combat, after the defending player has drawn their cards, play with the top card of your life deck revealed. Once per combat, you may play the top card of your life deck as though it were in your hand. At the start of your Rejuvenation step, place the top card of your discard pile at the top or bottom of your life deck.",
     "Limit": "1",
     "Set": "15 - NZ1 New Dimension",
-    "index": "9",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "0a4f135e-f862-4d26-b6d6-107ab39b2096.jpg"
   },
@@ -209,7 +209,7 @@
     "Text": "The first energy attack you perform each combat costs 0 power stages to perform. The first successful Orange style attack you perform deals +3 life cards of damage. Once per combat, after you perform a successful Orange style attack, you may search your life deck for a drill and place it into play.",
     "Limit": "1",
     "Set": "15 - NZ1 New Dimension",
-    "index": "6",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "c68e466e-c60b-40b9-96e7-887204e75d21.jpg"
   },
@@ -224,7 +224,7 @@
     "Text": "Stops a physical attack. Gain 3 power stages. If you have 2 or more Orange style drills in play, or have performed a successful Orange style attack this combat, stops all of your opponent's physical attacks for the remainder of combat. Limit 1 per deck. Remove from the game after use.",
     "Limit": "1",
     "Set": "15 - NZ1 New Dimension",
-    "index": "7",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "286da168-09f1-4aca-a156-77c1fc01f796.jpg"
   },
@@ -240,7 +240,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "8",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "c5266d05-101a-4159-a65b-95ee35ce5749.jpg"
   },
@@ -255,7 +255,7 @@
     "Text": "Physical attack doing +4 power stages of damage. Raise your anger 1 level. If successful, and you declared a tokui-waza, you may discard the top card of your life deck. If you do, draw a card. Remove from the game after use.",
     "Limit": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "D",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "add17cb3-47d4-44cb-9474-a6809e334887.jpg"
   },
@@ -270,7 +270,7 @@
     "Text": "Energy attack doing 6 life cards of damage. Raise your anger 1 level. If your anger level is 3 or higher, gain 2 power stages and damage from this attack is removed from the game instead of discarded.",
     "Limit": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "E",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "52579ec6-ce6d-4ed6-b26a-f0521d9c0773.jpg"
   },
@@ -285,7 +285,7 @@
     "Text": "You cannot win by Most Powerful Personality Victory. The first time you gain anger each combat, you gain twice the amount. When you reach 5 anger, you may advance or lower your main personality 1 level. Your Red style attacks deal +1 life card of damage.",
     "Limit": "1",
     "Set": "15 - NZ1 New Dimension",
-    "index": "C",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "536a46f5-7acb-48a3-b79a-b1e1721c5b2a.jpg"
   },
@@ -300,7 +300,7 @@
     "Text": "Saiyan Heritage Only. Physical attack doing +3 power stages of damage. If successful, and the personality performing this attack has a higher power rating than the defending personality, then for the remainder of combat, your opponent's attacks cost +2 power stages to peform. Remove from the game after use.",
     "Limit": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "5",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "11c519f8-f482-4cd1-a761-d5490217e2d3.jpg"
   },
@@ -315,7 +315,7 @@
     "Text": "Saiyan Heritage Only. Energy attack doing 5 life cards of damage. Raise your anger 1 level. Empower 2. Remove an opponent's ally in play from the game. You may pay an additional X power stages for this attack. For every 2 stages paid, discard an additional ally. Remove from the game after use.",
     "Limit": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "4",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "5101051d-aaf8-4801-a058-376e5ff2843a.jpg"
   },
@@ -330,7 +330,7 @@
     "Text": "When entering combat, you may reveal a card with Saiyan Heritage Only in your hand. If you do, and you are the Attacking player, your opponent draws 1 less card; If you reveal a card with Saiyan Heritage Only and you are the Defending player, stop the first unstopped attack your opponent performs this combat. Your Saiyan style attacks deal +1 power stage and +1 life card of damage.",
     "Limit": "1",
     "Set": "15 - NZ1 New Dimension",
-    "index": "3",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "ed780acc-6b1b-4c9c-9172-0fa55853cb7c.jpg"
   },
@@ -346,7 +346,7 @@
     "Limit": "3",
     "Endurance": "4",
     "Set": "15 - NZ1 New Dimension",
-    "index": "J",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "9c43dde9-821a-490d-8bfb-7ec8b54497d1.jpg"
   },
@@ -361,7 +361,7 @@
     "Text": "Stops a physical or energy attack. The next attack you perform this combat gains any secondary and/or if successful effects of the attack you stopped with this card. Remove from the game after use.",
     "Limit": "3",
     "Set": "15 - NZ1 New Dimension",
-    "index": "I",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "47d9b7ac-530b-4ee3-ae5a-a655cee38468.jpg"
   },
@@ -378,7 +378,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "15 - NZ1 New Dimension",
-    "index": "O",
+    "Designer": "Fanmade",
     "set_id": "00976a18-a391-4e62-886f-ac77fff0600c",
     "image": "ea9cf553-97c9-4479-8a86-e198e026d903.jpg"
   }

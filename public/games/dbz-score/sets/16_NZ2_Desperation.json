@@ -10,7 +10,7 @@
     "Text": "Limit 1 per deck. Use only if you have Goku in play as an ally. Remove your Goku ally in play from the game, then shuffle up to 9 cards in your discard pile back into your life deck. You cannot lose the game due to Survival Victory until the end of your next turn. Check for victory conditions at that time. At the beginning of your next turn, place your removed Goku ally into play at 5 power stages above 0. Remove from the game after use.",
     "Limit": "1",
     "Set": "16 - NZ2 Desperation",
-    "index": "OW",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "383947c8-cfa6-4057-9dfa-e8e5d09989a3.jpg"
   },
@@ -25,7 +25,7 @@
     "Text": "Stops an energy attack. Shuffle up to 2 Black style cards in your discard pile into your Life Deck. If used by a Fused Personality, discard a card from your opponent's hand and remove the top 5 cards in their discard pile from the game. Remove from the game after use.",
     "Limit": "3",
     "Set": "16 - NZ2 Desperation",
-    "index": "OL",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "8b943378-274f-40ac-84d9-da1a878a0dd1.jpg"
   },
@@ -40,7 +40,7 @@
     "Text": "This must be the first attack you perform in combat. Physical attack doing +6 power stages of damage. If stopped, your Black style attacks deal +2 life cards of damage for the remainder of combat.",
     "Limit": "3",
     "Set": "16 - NZ2 Desperation",
-    "index": "OK",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "4418351d-4b0c-4712-b956-6cb499a97c95.jpg"
   },
@@ -56,7 +56,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "16 - NZ2 Desperation",
-    "index": "ON",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "2075a2ce-8485-4c6a-9078-8a00d6a28b2b.jpg"
   },
@@ -71,7 +71,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Lower your opponent's anger 2. If used by a Fused personality, this attack stays on the table to be used an additional time this combat and gains If successful, you may discard a non-combat card in play.",
     "Limit": "3",
     "Set": "16 - NZ2 Desperation",
-    "index": "OM",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "6e64eade-841d-4564-a563-1c7380cc64dd.jpg"
   },
@@ -86,7 +86,7 @@
     "Text": "Energy attack doing 8 life cards of damage. Costs 3 power stages to perform. Damage from this attack cannot be prevented. If successful, and you have 3 or more anger, you may advance a personality level. If you do, set your anger to 0. You cannot win by Most Power Personality Victory.",
     "Limit": "4",
     "Set": "16 - NZ2 Desperation",
-    "index": "OY",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "bac51f10-3184-46a4-af45-17e3aa68a5da.jpg"
   },
@@ -101,7 +101,7 @@
     "Text": "Physical attack doing 3 life cards of damage. If successful, your opponent's MP loses 2 power stages. If used by Broly, and your anger level is 2 or more, this card stays in play to be used 2 more times this combat.",
     "Limit": "4",
     "Set": "16 - NZ2 Desperation",
-    "index": "OX",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "bdab6c3e-49dc-48ab-bd0b-706e1452fd72.jpg"
   },
@@ -118,7 +118,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "16 - NZ2 Desperation",
-    "index": "Of",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "3ba71c93-8264-4dfb-a624-efda344bd87a.jpg"
   },
@@ -135,7 +135,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "16 - NZ2 Desperation",
-    "index": "Oe",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "5b72071c-1832-4beb-a46d-a83f183a8ff4.jpg"
   },
@@ -152,7 +152,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "16 - NZ2 Desperation",
-    "index": "Oc",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "f4009bb9-d3a0-4a97-9bd2-29836fef6822.jpg"
   },
@@ -169,7 +169,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "16 - NZ2 Desperation",
-    "index": "Od",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "2c6bb934-698c-4b07-9885-517c45421174.jpg"
   },
@@ -184,7 +184,7 @@
     "Text": "Once per combat if any of your allies would leave play, you may remove a Dragonball you control from the game instead. If you do, prevent all damage from the next attack your opponent performs. At the end of each turn if you have 2 or more Dragonballs in your removed from game pile, place the bottom 2 cards of your discard pile at the top or bottom of your life deck.",
     "Limit": "3",
     "Set": "16 - NZ2 Desperation",
-    "index": "Oa",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "e1ca420a-805d-4d0c-b015-899933041de6.jpg"
   },
@@ -199,7 +199,7 @@
     "Text": "(This card is unaffected by Constant Combat Powers.) Discard the top 3 cards of your life deck. Advance your opponent's Main Personality 1 level. This card counts as 1 copy of Frieza's Irritation Grows while in your discard pile.",
     "Limit": "4",
     "Set": "16 - NZ2 Desperation",
-    "index": "OZ",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "a36a955b-4fac-483b-bfed-508ada90c9f6.jpg"
   },
@@ -216,7 +216,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "16 - NZ2 Desperation",
-    "index": "Oj",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "cf1e43c6-2cd7-416a-9929-3cfa8af82b6a.jpg"
   },
@@ -233,7 +233,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "16 - NZ2 Desperation",
-    "index": "Ob",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "ad710b63-d1eb-4ea3-8d8e-fa63d4098812.jpg"
   },
@@ -250,7 +250,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "16 - NZ2 Desperation",
-    "index": "Oi",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "5cb67147-cd8d-489e-8d7e-8ed6f8ccbaf4.jpg"
   },
@@ -267,7 +267,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "16 - NZ2 Desperation",
-    "index": "Og",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "11b5c026-dd6c-4d39-9553-b808ef90193e.jpg"
   },
@@ -282,7 +282,7 @@
     "Text": "Search your life deck for an ally and a card with \"Fuse\" or \"Fused\" in the text box and place each of them into either your hand or into play. For the remainder of combat, your fused allies can take control of combat regardless of your MP's stages above 0.",
     "Limit": "4",
     "Set": "16 - NZ2 Desperation",
-    "index": "OO",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "ecf9588e-29ca-464e-b886-d4184ba31cdd.jpg"
   },
@@ -297,7 +297,7 @@
     "Text": "Search your life deck for a level 1 ally and place it into play at 5 power stages above 0. If you have no allies in play when you use this card, you may search for an additional level 1 ally and place it into play at 5 power stages above 0. If you declared a tokui-waza, you may end combat. Remove from the game after use.",
     "Limit": "4",
     "Set": "16 - NZ2 Desperation",
-    "index": "OP",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "f68851ca-558f-40a9-b5e3-2ddbce354fd8.jpg"
   },
@@ -312,7 +312,7 @@
     "Text": "Stops a physical attack. Gain 3 power stages. If used by a Fused personality, you may discard any number of non-combats you control. For each non-combat discarded this way, your Orange style attacks deal +1 power stages of damage for the remainder of combat.",
     "Limit": "3",
     "Set": "16 - NZ2 Desperation",
-    "index": "OR",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "4cb04db9-f000-4bee-9944-af2571be2ef4.jpg"
   },
@@ -327,7 +327,7 @@
     "Text": "Focused physical attack doing +3 power stages of damage. Empower 4. If you have performed 2 other Orange Style attacks this combat, search your life deck for up to 2 drills and set them aside. At the end of this turn place the chosen drills into play.",
     "Limit": "3",
     "Set": "16 - NZ2 Desperation",
-    "index": "OQ",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "551684f9-6d08-4b02-be96-7e11294306ec.jpg"
   },
@@ -342,7 +342,7 @@
     "Text": "Stops a physical attack. Raise your anger 1 level. If you declared tokui-waza, attach this card to your opponent's MP. While attached, your opponent's attacks deal -X stages of damage, where X= your anger level. You may only have 1 Red Energy Hold attached at a time. Discard this card when your opponent's MP advances a personality level.",
     "Limit": "3",
     "Set": "16 - NZ2 Desperation",
-    "index": "OT",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "0ab76e82-de53-4ff3-81bc-a690fed24671.jpg"
   },
@@ -357,7 +357,7 @@
     "Text": "Physical attack doing +4 power stages of damage. Raise your anger 1. If successful, raise your MP to its highest power stage and if used by a Fused personality, search your life deck for a Red style attack that is not Red Axe Heel Kick or Red Gogeta's Roundhouse and place it into your hand. Remove from the game after use.",
     "Limit": "3",
     "Set": "16 - NZ2 Desperation",
-    "index": "OS",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "732d86d1-b310-4dc3-9e88-946423cbc470.jpg"
   },
@@ -373,7 +373,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "16 - NZ2 Desperation",
-    "index": "OV",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "8bb334b2-86bb-4056-a4ac-e6e44f2e24b8.jpg"
   },
@@ -388,7 +388,7 @@
     "Text": "Saiyan Heritage Only. Focused energy attack. If successful, draw a card. If used by a Fused personality, this attack deals an additional +4 life cards of damage and your opponent's personalities in play lose X power stages (to a minimum of 0), where X= the number of cards in your hand when you performed this attack for the first time.",
     "Limit": "3",
     "Set": "16 - NZ2 Desperation",
-    "index": "OU",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "a28f224c-2697-4bc0-a8ec-e2293f101677.jpg"
   },
@@ -405,7 +405,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "16 - NZ2 Desperation",
-    "index": "Oh",
+    "Designer": "Fanmade",
     "set_id": "64b87225-a773-4809-a9f7-b5b186f48aee",
     "image": "8caebec9-7ef0-49d1-a269-8b1e31533149.jpg"
   }

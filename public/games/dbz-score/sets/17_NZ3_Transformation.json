@@ -10,7 +10,7 @@
     "Text": "Search your life deck or discard pile for a Saiyan Heritage personality (other than Cell or Cell Jr.) and put it into play at 3 stages above 0. Then, if King Vegeta is your main personality, raise all of your Saiyan Heritage allies (other than Cell or Cell Jr.) to their highest power stage. Raise your anger 1 level.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "i8",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "73ec3393-ef81-4481-aaa6-5326619aa4c8.jpg"
   },
@@ -25,7 +25,7 @@
     "Text": "Transform. Stops a physical or energy attack. If you declared a tokui-waza, remove the bottom 5 cards of your opponent's discard pile from the game and your Main Personality gains 5 power stages. Remove from game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hi",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "6d2383b2-f57f-404d-a857-9cbe8edc73ee.jpg"
   },
@@ -40,7 +40,7 @@
     "Text": "Transform. If you declared a tokui-waza, your opponent plays with their hand revealed. When you use an effect to discard cards from your opponent's hand during combat, they are removed from the game instead of discarded.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hj",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "cba7e037-c805-4cc3-8e0d-8e52bbe70c6e.jpg"
   },
@@ -55,7 +55,7 @@
     "Text": "Focused Physical attack doing 3 life cards of damage. If successful, discard 2 cards from your opponent's hand. If stopped, discard a card from your hand.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hh",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "9acd3741-76c5-460f-b3b3-f0193c28fa15.jpg"
   },
@@ -70,7 +70,7 @@
     "Text": "Stop the effects of a Combat card. Use when needed. If you declared a tokui-waza, your opponent shuffles their hand into their life deck and draws the same number of cards minus 1. Limit 1 per deck. Remove from game after use.",
     "Limit": "1",
     "Set": "17 - NZ3 Transformation",
-    "index": "hf",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "1ce9230c-a78d-4de9-8b6e-9e73d21f919f.jpg"
   },
@@ -85,7 +85,7 @@
     "Text": "Transform. Energy attack doing 5 life cards of damage. You may discard the top 4 cards of your life deck to discard up to 2 Non-Combat or allies in play. Remove from the game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hg",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "aeb539ba-7949-4870-a347-a5272f823af4.jpg"
   },
@@ -100,7 +100,7 @@
     "Text": "Transform. Focused physical attack doing +3 power satges of damage. If successful, shuffle a dragonball in play back into its owner's life deck. If your opponent's anger is at 0 or 1, this card can stop a physical attack instead. Remove from the game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hn",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "eb8f53df-ca62-49b4-a816-59c2599f712a.jpg"
   },
@@ -115,7 +115,7 @@
     "Text": "Transform. Energy attack doing 3 life cards of damage. If successful and you declared a tokui-waza, raise or lower your opponent's Main Personality 1 level. Remove from game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hm",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "0b37ba62-56f9-4aab-b2f7-a232b4466752.jpg"
   },
@@ -130,7 +130,7 @@
     "Text": "Stops the effects of any combat card. Use when needed. If you declared a tokui-waza, lower your opponent's anger 2 levels and search your discard pile for a Non-Combat card and place it into play. Limit 1 per deck. Remove from game after use.",
     "Limit": "1",
     "Set": "17 - NZ3 Transformation",
-    "index": "hk",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "bfdf03fe-0ab7-431b-bf0f-0aa56ed65a4c.jpg"
   },
@@ -145,7 +145,7 @@
     "Text": "Transform. Focused Physical attack doing +2 power stages of damage. If you have lowered your opponent's anger this combat, gain 3 power stages and discard an opponent's Non-Combat card in play. Remove from game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hl",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "8c28dfc3-2221-43a8-aa79-d710500852a7.jpg"
   },
@@ -160,7 +160,7 @@
     "Text": "Transform. Your Blue style attacks gain \"If successful, lower your opponent's anger 1.\" Prevent X life cards of damage from your opponent's attacks, where X=4 minus your opponent's anger. Limit 1 per deck.",
     "Limit": "1",
     "Set": "17 - NZ3 Transformation",
-    "index": "ho",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "da072e7d-2b99-4313-a065-672a2e40f10d.jpg"
   },
@@ -175,7 +175,7 @@
     "Text": "Piccolo and Kami Only. You cannot win by MPPV. You may remove a Namekian heritage ally you control and the bottom 5 cards of your discard pile from the game. If you do, then advance your main personality to \"Piccolo, Fused\". Remove from game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "i6",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "98ca4941-8dc1-456c-b405-33bc2c4d6f28.jpg"
   },
@@ -192,7 +192,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "iQ",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "df1e7419-22a9-4fdf-89ca-153b65f526b3.jpg"
   },
@@ -209,7 +209,7 @@
     "Limit": "1",
     "Card Level": "5",
     "Set": "17 - NZ3 Transformation",
-    "index": "iS",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "bf3015c4-ca9d-4828-b60a-a7acee08dff4.jpg"
   },
@@ -226,7 +226,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "17 - NZ3 Transformation",
-    "index": "iP",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "96339bf5-acc0-46c6-81af-904d6bbcb258.jpg"
   },
@@ -243,7 +243,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "17 - NZ3 Transformation",
-    "index": "iR",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "29322e17-3a3b-4abd-8f14-08e537cf1b8a.jpg"
   },
@@ -258,7 +258,7 @@
     "Text": "You cannot win by MPPV for the remainder of the game. Discard the top 5 cards of your life deck. You may advance your main personality to any level with \"Super Saiyan God\" in the title.  Remove from game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "i7",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "f99d97f2-63ed-41e9-b3b4-e1c6f6e5657f.jpg"
   },
@@ -275,7 +275,7 @@
     "Limit": "1",
     "Card Level": "5",
     "Set": "17 - NZ3 Transformation",
-    "index": "iJ",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "03314bfd-7626-44e3-9552-0d39a92acab7.jpg"
   },
@@ -292,7 +292,7 @@
     "Limit": "3",
     "Card Level": "1",
     "Set": "17 - NZ3 Transformation",
-    "index": "iD",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "62698b97-65ea-4484-8a13-61c9683474ed.jpg"
   },
@@ -309,7 +309,7 @@
     "Limit": "3",
     "Card Level": "1",
     "Set": "17 - NZ3 Transformation",
-    "index": "iE",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "d2a092bf-b3a1-4348-8067-2a00e917ad5b.jpg"
   },
@@ -326,7 +326,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "17 - NZ3 Transformation",
-    "index": "iF",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "661ad63c-c38a-47a2-b8e2-ba0d253ded2a.jpg"
   },
@@ -343,7 +343,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "17 - NZ3 Transformation",
-    "index": "iI",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "17faca6e-b63b-45f5-ae4a-409427b414ff.jpg"
   },
@@ -360,7 +360,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "17 - NZ3 Transformation",
-    "index": "iG",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "02c5f6cb-8259-4703-9383-2f1ef1b318e2.jpg"
   },
@@ -377,7 +377,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "iH",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "cac4d564-7510-4f4a-9245-1afd417a0f50.jpg"
   },
@@ -394,7 +394,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "17 - NZ3 Transformation",
-    "index": "iM",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "7702bf74-0a32-4e5f-a3f3-3c48de0a0585.jpg"
   },
@@ -411,7 +411,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "17 - NZ3 Transformation",
-    "index": "iN",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "548e755b-87bc-47c3-871d-492df105c305.jpg"
   },
@@ -428,7 +428,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "iO",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "c102fe37-609a-424f-acfe-24da4c2508e0.jpg"
   },
@@ -443,7 +443,7 @@
     "Text": "Attach a \"Great Ape, Oozaru\" you control to your opponent's main personality. While attached, it's text box is considered to say \"When entering combat, discard one of your non-combat cards, battlegrounds or locations. If you cannot, discard the top 2 cards of your life deck. Discard this card when your MP's power level reaches 0.\"",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "iA",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "433b690e-e003-41f1-8047-9011b36b69aa.jpg"
   },
@@ -459,7 +459,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hr",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "96be352f-771f-4e53-8c08-95063d82ebbd.jpg"
   },
@@ -474,7 +474,7 @@
     "Text": "Resist. Once per combat, after taking damage from an attack, shuffle the top 2 cards of your discard pile into your life deck and gain 3 power stages. You do not have to remove your Namekian style cards from the game when you use their endurance.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "ht",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "f0b0cea6-7116-4d6d-97f5-10598af5164c.jpg"
   },
@@ -489,7 +489,7 @@
     "Text": "Stops the effects of any combat card. Use when needed. If you declared a tokui-waza, shuffle up to 5 cards in your discard pile back into your life deck, then Change the Future. Limit 1 per deck. Remove from the game after use.",
     "Limit": "1",
     "Set": "17 - NZ3 Transformation",
-    "index": "hp",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "9a80216e-39b7-4c4c-8e39-8dc860048b1f.jpg"
   },
@@ -505,7 +505,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hq",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "63355e25-7f63-4c5e-bb83-1c4a2451f2b9.jpg"
   },
@@ -520,7 +520,7 @@
     "Text": "Namekian Heritage Only. If there are only Namekian stlye cards in your discard pile, then for the remainder of combat, your Namekian style attacks deal +2 life cards of damage, and your energy attacks cost 1 less stage to perform, to a minimum of 0.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hs",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "215fe16e-7850-4d6c-8fe8-444fda40adba.jpg"
   },
@@ -535,7 +535,7 @@
     "Text": "(If this drill is in your discard pile when your MP advances or loses a personality level, you may place it into play.) Once per combat, after making a successful attack, place the bottom card of your discard pile under this drill. At the beginning of your turn, you may remove this card from the game to add the cards under it to your hand. You can have a maximum of 3 cards under this drill.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hx",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "c06357b4-ae8e-477a-a0cc-bbbb92fc40a3.jpg"
   },
@@ -550,7 +550,7 @@
     "Text": "Transform. Focused energy attack doing X life cards of damage, where X equals 2 times the number of allies you have in play. If the Ginyu Force is your main personality, this attack costs 0 stages to perform. If successful, search your deck or discard pile for an ally and place it into play at 3 power stages above 0. Remove from game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hw",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "1d1c5a0d-061a-476a-b451-ce862a458b73.jpg"
   },
@@ -565,7 +565,7 @@
     "Text": "Stops the effects of any combat card. Use when needed. If you declared a tokui-waza, raise your main personality to its highest power stage and search your life deck for an Orange style drill and place it into play. Limit 1 per deck. Remove from game after use.",
     "Limit": "1",
     "Set": "17 - NZ3 Transformation",
-    "index": "hu",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "7f097228-4ff3-4001-ac6c-b022bd070c8e.jpg"
   },
@@ -580,7 +580,7 @@
     "Text": "Transform. Focused energy attack doing 5 life cards of damage. Discard an opponent's ally in play. If successful, search your life deck for a drill and set it aside. Place the chosen drill into play at the end of combat. Remove from game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hv",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "74a62775-bfc1-465f-8451-cdc622ea5ceb.jpg"
   },
@@ -597,7 +597,7 @@
     "Limit": "1",
     "Card Level": "5",
     "Set": "17 - NZ3 Transformation",
-    "index": "iL",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "713d2257-c798-4405-bef3-d7499bce5e39.jpg"
   },
@@ -612,7 +612,7 @@
     "Text": "Remove a Saiyan Heritage personality you control (except Cell or Cell Jr.) from play and replace it with a \"Great Ape, Oozaru\" from your Sensei Deck at its highest power stage. Attach this card to it. Discard this card when the personality it is attached to has its power level reduced to 0. When this card is discarded, return \"Great Ape, Oozaru\" to your Sensei Deck and replace the original personality at 5 stages above 0.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "i9",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "4ee402c2-70df-491b-a54e-990c3404d205.jpg"
   },
@@ -627,7 +627,7 @@
     "Text": "Focused energy attack. Raise your anger 1 level. Shuffle the top 2 Red style cards in your discard pile into your life deck. If your anger is 3 or higher, you may place an energy combat from among those cards into your hand. Remove from the game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "i1",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "2902fedb-30bd-498a-8b00-a83534bbc551.jpg"
   },
@@ -642,7 +642,7 @@
     "Text": "Transform. Physical attack doing +3 power satges of damage. Raise your anger 1. For the remainder of combat you cannot gain anger and during your Attacker Attack phase, you may lower your anger 2 to perform a physical attack doing +3 power stages of damage. Remove from the game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "hz",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "65cf49b3-c077-4d87-9379-da9cdcc9a3a8.jpg"
   },
@@ -657,7 +657,7 @@
     "Text": "For the remainder of combat, your opponent's attacks deal +2 life cards of damage and gain \"If successful, raise your opponent's anger 1.\" You may only play 1 Red Frustration per turn.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "i0",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "7263ca11-9346-414d-a15d-8e4750681be9.jpg"
   },
@@ -672,7 +672,7 @@
     "Text": "Stops the effects of any combat card. Use when needed. If you declared a tokui-waza, raise your anger 2 levels or draw a card. Limit 1 per deck. Remove from game after use.",
     "Limit": "1",
     "Set": "17 - NZ3 Transformation",
-    "index": "hy",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "4ced85c6-96a5-4753-967d-5227f4fd7621.jpg"
   },
@@ -687,7 +687,7 @@
     "Text": "Physical attack doing +2 power stages of damage. If successful, draw a card. If you have at least one ally in play, this card performs another physical attack doing +3 power stages of damage immediately after the first one using one of your allies' power rating instead. Remove from the game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "i3",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "cbb2404e-bd55-4af2-a970-a8434aa77edf.jpg"
   },
@@ -704,7 +704,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "17 - NZ3 Transformation",
-    "index": "iC",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "294e08d9-0583-43f4-b2cd-bba30125b42c.jpg"
   },
@@ -719,7 +719,7 @@
     "Text": "Stops the effects of any combat card. Use when needed. If you declared a tokui-waza, your Saiyan style attacks deal +2 power stages of damage for the remainder of combat and your opponent's personalities lose 2 power stages. Limit 1 per deck. Remove from game after use.",
     "Limit": "1",
     "Set": "17 - NZ3 Transformation",
-    "index": "i2",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "0c8f52d9-3da0-4ef1-b7ff-b3ccb9953ab7.jpg"
   },
@@ -734,7 +734,7 @@
     "Text": "Use immediately after taking damage from an attack. You may place an ally from your hand or discard pile into play at 4 power stages above 0. Choose an ally you control, that ally can gain control of combat this turn regardless of your MP's power stage. Draw a card. Remove from the game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "i5",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "8c322e28-61ee-42e3-86a0-01cc7063f6f2.jpg"
   },
@@ -749,7 +749,7 @@
     "Text": "Transform. Saiyan Heritage Only. Energy attack doing 3 life cards of damage. If you have at least one ally in play, this attack stays in play to be used one more time this combat. If this attack is performed by an ally, it does an additional +4 life cards of damage. Remove from game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "i4",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "ea02276b-6671-4c25-b011-83f7008fc5f4.jpg"
   },
@@ -764,7 +764,7 @@
     "Text": "Search your discard pile for up to one Saiyan Heritage personality (except Cell or Cell Jr.) and add it to your Sensei Deck. If you did not, you may place a \"Power Ball\" from your discard pile into play. Remove from game after use.",
     "Limit": "3",
     "Set": "17 - NZ3 Transformation",
-    "index": "iB",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "61296ed3-f45c-4d94-90a0-d8388de25db9.jpg"
   },
@@ -781,7 +781,7 @@
     "Limit": "1",
     "Card Level": "5",
     "Set": "17 - NZ3 Transformation",
-    "index": "iK",
+    "Designer": "Fanmade",
     "set_id": "f203995b-2c48-4a37-9cf7-4d43fe6b7485",
     "image": "61c68ee7-5b9d-43cc-9719-772b49e48d74.jpg"
   }

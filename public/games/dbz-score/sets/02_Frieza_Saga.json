@@ -10,7 +10,7 @@
     "Text": "Power up your main personality to its highest stage. Raise your anger 1 level. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "QL",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "25c83d18-5c94-4c13-a8ab-6b3b0717c384.jpg"
   },
@@ -25,7 +25,7 @@
     "Text": "Villains only. Raise your anger 1 level. Power up 3 stages. Remove from the game after use.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "QM",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "87715f3f-9fbe-43e2-bc45-569646c524d0.jpg"
   },
@@ -40,7 +40,7 @@
     "Text": "Physical attack doing 4 power stages of damage. (Do not consult the Physical Attack Table.)",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "RJ",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "f499d61b-6a90-4b76-b486-151133dcf7a4.jpg"
   },
@@ -55,7 +55,7 @@
     "Text": "All of your energy attacks cost 1 power stage for you to perform (after all modifiers from other cards/effects).",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Q5",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "61e62c54-f5df-4cc5-a9c3-e38b2d19775a.jpg"
   },
@@ -70,7 +70,7 @@
     "Text": "After making a successful energy attack, remove from the game an opponent's non-combat/non-dragon ball card in play. Limit one per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "QD",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "278c3a85-a03c-4d8e-9efb-4a7739697bb1.jpg"
   },
@@ -85,7 +85,7 @@
     "Text": "Physical attack doing 3 power stages of damage. (Do not consult the Physical Attack Table.)",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "RI",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "2f7b9454-8075-4f1c-ae04-86488bd189a3.jpg"
   },
@@ -100,7 +100,7 @@
     "Text": "Physical attack. Also, if successful, no other physical combat cards can be played for the rest of this combat.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "RH",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "7f508119-788c-47a3-843e-a472e64f7011.jpg"
   },
@@ -115,7 +115,7 @@
     "Text": "Physical attack. If successful, this card also stops all energy attacks for the rest of this combat.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "RM",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "d9c2c819-df49-4059-a50e-6fb051b26098.jpg"
   },
@@ -130,7 +130,7 @@
     "Text": "Increases your power up rating by 1.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Q1",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "301db7c7-5549-4f40-a23d-a36db2d8c7a8.jpg"
   },
@@ -145,7 +145,7 @@
     "Text": "Once per turn, search your life deck for 1 level-one ally and place it in your hand after every successful physical attack against an opponent you make.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Q3",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "7d2a1052-f086-4c6c-be3f-e22c39af0f52.jpg"
   },
@@ -160,7 +160,7 @@
     "Text": "Energy attack doing 6 life cards of damage. Raise your anger 1 level.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "PA",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "7aa5f20e-9928-4b4a-832a-7e226efdbb8d.jpg"
   },
@@ -175,7 +175,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Raise your anger 1 level. Lower your opponent's anger 2 levels.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Ph",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "0107924c-0a56-42d1-9fd5-6de20c2f06af.jpg"
   },
@@ -190,7 +190,7 @@
     "Text": "Forces opponent's to constantly show the cards in their hands face up on the table.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Pz",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "2649ae63-90b6-4157-bb0e-9679ed207468.jpg"
   },
@@ -205,7 +205,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Raise your anger 2 levels. Lower your opponent's anger 1 level.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Pg",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "41ce1d5d-2625-4c08-b3fb-ffbe5750d5e8.jpg"
   },
@@ -222,7 +222,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "02 - Frieza Saga",
-    "index": "Qo",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "16a972e6-bb37-43c2-8f15-49c6e6cbdd5b.jpg"
   },
@@ -237,7 +237,7 @@
     "Text": "Heroes only. Pick a dragon ball from your life deck and play it. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Qc",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "d17984d4-998c-41d5-95a0-3cb6dc3f88d2.jpg"
   },
@@ -252,7 +252,7 @@
     "Text": "For every anger you reduce on your Warrior Sword, reduce all opponents' anger that many as well.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Qh",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "e0a91ef0-f0de-4ac2-968c-96177dd48077.jpg"
   },
@@ -269,7 +269,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "02 - Frieza Saga",
-    "index": "RC",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "22d329a4-1c6b-44c3-a164-3223f84313a0.jpg"
   },
@@ -284,7 +284,7 @@
     "Text": "All opponent's and their allies lose 3 power stages. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "QN",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "4e31d032-0842-4d14-9dc2-cab68d952f28.jpg"
   },
@@ -299,7 +299,7 @@
     "Text": "Physical attack. It costs 1 life card to use. Reduce opponent's anger to 0. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "RO",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "ed24ab02-91a6-41cf-8224-5b370eb8290e.jpg"
   },
@@ -314,7 +314,7 @@
     "Text": "Villains only. For every 3 power stages of damage you receive, per attack, your opponent loses 1 power stage of damage. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Q7",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "a73a0a05-d77d-47e7-9f4b-658047be71ca.jpg"
   },
@@ -329,7 +329,7 @@
     "Text": "Villains only. To end the combat, remove an ally from the game. If \"Saiyan Power Drill\" is in play, this card instead can be used as an energy attack.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Pu",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "3eb67058-91fa-417c-bfb8-63d1a17bc2ff.jpg"
   },
@@ -344,7 +344,7 @@
     "Text": "Energy attack costing 1 power stage to use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Pd",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "26de02d3-2d43-4f71-b4b6-bcb3a9110f66.jpg"
   },
@@ -361,7 +361,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "02 - Frieza Saga",
-    "index": "Qn",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "f782814e-6649-44b6-904c-d020485b447c.jpg"
   },
@@ -378,7 +378,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Qp",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "bb8c7b70-e133-47ba-a74e-0467b6ed32b4.jpg"
   },
@@ -393,7 +393,7 @@
     "Text": "Energy attack doing 6 life cards of damage. Remove from the game after use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Pe",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "093bbf23-c963-467b-9ebc-79f69c01301c.jpg"
   },
@@ -408,7 +408,7 @@
     "Text": "Increases your power up rating (PUR) by 3 when Dende is anywhere in play.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "QA",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "04d5eafc-2547-455c-b12b-272ea0c09a2f.jpg"
   },
@@ -425,7 +425,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Qr",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "d8aee202-066b-49ac-a57d-eccc72a8d509.jpg"
   },
@@ -440,7 +440,7 @@
     "Text": "Heroes only. Select any 3 discarded cards and place them at the bottom of your life deck. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "QU",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "70983881-a0a6-401b-85aa-548dfd47c60d.jpg"
   },
@@ -457,7 +457,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "02 - Frieza Saga",
-    "index": "R3",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "eb55b4a1-d779-4dbd-afbd-c9b741e2c2d9.jpg"
   },
@@ -472,7 +472,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Costs 3 power stages to use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PV",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "73045a72-53df-4f7b-875c-ef542ff8e67e.jpg"
   },
@@ -487,7 +487,7 @@
     "Text": "Energy attack doing 5 life cards of damage.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PQ",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "653d5560-aa8f-4cdf-b3c5-9607bfc82f8d.jpg"
   },
@@ -502,7 +502,7 @@
     "Text": "Energy attack. If successful, it also does 3 power stages of damage.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PR",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "6fafc068-0073-4bbb-8afe-a1b5b247337f.jpg"
   },
@@ -517,7 +517,7 @@
     "Text": "All players' anger is set to 3.",
     "Limit": "0",
     "Set": "02 - Frieza Saga",
-    "index": "Qi",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "1806a39b-d8f8-4f58-910e-2de8db7b8982.jpg"
   },
@@ -532,7 +532,7 @@
     "Text": "Heroes only. Raise your anger 1 level. If your Main Personality is Piccolo or Nail, raise your anger 2 levels instead. Remove from the game after use.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "QI",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "ede9599d-8fa4-4095-9173-592bf2d2afef.jpg"
   },
@@ -547,7 +547,7 @@
     "Text": "Heroes only. Remove an opponent's Non-Combat/non-Dragon Ball card in play from the game. Remove from the game after use.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Qe",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "09ac89c1-0a64-470d-a901-ea09cd04a805.jpg"
   },
@@ -562,7 +562,7 @@
     "Text": "Take the top 3 cards from your discard pile and place them at the bottom of your life deck. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Qk",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "b57226f3-babb-4b9e-9f07-d534e6ba04af.jpg"
   },
@@ -579,7 +579,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "02 - Frieza Saga",
-    "index": "RA",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "a8f1f1b9-2b26-483e-96ad-e6ae03d00ae8.jpg"
   },
@@ -594,7 +594,7 @@
     "Text": "Play this card as your first card from your hand during Combat. Stops a physical or energy attack. For the remainder of Combat, stops all attacks of the same type this card stopped.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Pt",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "c98c5201-eb51-41fd-87f2-186174a08625.jpg"
   },
@@ -611,7 +611,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "02 - Frieza Saga",
-    "index": "R9",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "60bc2b67-158c-4319-8c63-6b132422e81e.jpg"
   },
@@ -626,7 +626,7 @@
     "Text": "Stops an energy attack. Stop all energy attacks for the remainder of Combat. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Pp",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "d6ccce1f-9fe4-451c-a76d-8ff52bd1a8d5.jpg"
   },
@@ -641,7 +641,7 @@
     "Text": "Lower your opponent's anger 1 level after every successful energy attack against your opponent.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "QC",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "fb09610c-cfb5-462c-8d75-46d915e2db0f.jpg"
   },
@@ -658,7 +658,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "02 - Frieza Saga",
-    "index": "RB",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "737efe72-fdeb-48f2-a74c-58a8c0d7f21e.jpg"
   },
@@ -675,7 +675,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Qu",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "f953b647-c43a-4947-b8a4-f17dc3ac60fd.jpg"
   },
@@ -690,7 +690,7 @@
     "Text": "Raise your anger 1 level when you successfully do a physical and energy attack in the same combat. Once per combat.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "QB",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "87eb4eb3-197b-436f-bd10-e551622374c7.jpg"
   },
@@ -705,7 +705,7 @@
     "Text": "Energy attack doing 6 life cards of damage. Costs 4 power stages to use. Remove from the game after use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PX",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "9395e01f-73cc-4a7a-8dc7-d9c97cf232a0.jpg"
   },
@@ -720,7 +720,7 @@
     "Text": "Heroes only. Energy attack doing 5 life cards of damage. This attack cannot be stopped, prevented or reduced by Main Personality powers.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Pj",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "f37604c8-7248-488b-8619-baf5b38991aa.jpg"
   },
@@ -735,7 +735,7 @@
     "Text": "Energy attack. If your Main Personality is a Hero, raise your anger 1 level. If \"Dragon Ball 6\" is in play, raise your anger 2 levels instead.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PG",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "8842a76c-5816-4858-bf43-ebc24db811e1.jpg"
   },
@@ -752,7 +752,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Qt",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "2621ba70-1f29-4829-9bd2-3bdd3d4cdb30.jpg"
   },
@@ -767,7 +767,7 @@
     "Text": "Stops an energy attack. Take two cards from your discard pile and put them at the bottom of your life deck. Limit 1 per deck. Remove from the game after use.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "PW",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "92a61144-f8df-4170-b755-0e134465b119.jpg"
   },
@@ -782,7 +782,7 @@
     "Text": "Physical attack doing 5 power stages of damage (do not consult the Physical Attack Table.)",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "RP",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "6f30212d-a98f-4585-a606-efe26eda495f.jpg"
   },
@@ -797,7 +797,7 @@
     "Text": "Heroes only. Stops the first physical attack in the next combat. Remove from the game after use. If \"Chiaotzu's Drill\" is in play this card can be used as an energy attack instead.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "QZ",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "97380e18-99de-48ec-81b5-591f7a47306c.jpg"
   },
@@ -812,7 +812,7 @@
     "Text": "Energy attack. If successful, also draw the top 3 cards from an opponent's discard pile and remove them from the game. Remove from the game after use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PF",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "1fc6af70-8330-429a-a70d-a476a4fd08db.jpg"
   },
@@ -827,7 +827,7 @@
     "Text": "Energy attack doing 5 life cards of damage.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PP",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "6ff48b34-da44-4331-91bb-93ae029227e0.jpg"
   },
@@ -842,7 +842,7 @@
     "Text": "Stops an opponent's physical or energy attack. Remove from the game after use. If \"Goku's Mixing Drill\" is in play, this card can be used as an energy attack instead.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Pi",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "d7a4cef0-df83-4f57-8aa0-256508e88484.jpg"
   },
@@ -857,7 +857,7 @@
     "Text": "Energy attack doing 8 life cards of damage. Lower opponent's anger 3 levels. Limit 1 per deck. Remove from the game after use.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Pm",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "71c936dc-ef95-4394-8312-8077dbb8029a.jpg"
   },
@@ -874,7 +874,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "02 - Frieza Saga",
-    "index": "R4",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "64ad5fce-9fd1-4194-aa02-fb5bef64eed0.jpg"
   },
@@ -891,7 +891,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "02 - Frieza Saga",
-    "index": "R5",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "c3dd3bb6-4f05-4b48-b5be-9fde4af47f14.jpg"
   },
@@ -908,7 +908,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "02 - Frieza Saga",
-    "index": "R6",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "95a850d5-7213-4c1f-b91d-22761e317955.jpg"
   },
@@ -923,7 +923,7 @@
     "Text": "Villains only. Reduce the damage from all attacks performed against you by 1 power stage or 1 life card of damage.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Pw",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "cf542f1d-a6d9-49d0-9cbd-e8699ad5dc9d.jpg"
   },
@@ -938,7 +938,7 @@
     "Text": "Heroes only. Raise your anger 2 levels. Take any 2 cards from your discard pile and place them at the bottom of your life deck. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "QQ",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "e0ae9d63-979b-44d6-baa2-6b7a690a6ab0.jpg"
   },
@@ -953,7 +953,7 @@
     "Text": "Heroes only. Opponent's can play only 1 dragon ball on their turn.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "QE",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "e1920b2c-c1f2-4483-bbee-98897f6bdbdb.jpg"
   },
@@ -968,7 +968,7 @@
     "Text": "Heroes only. This card stops the combat. Remove from the game after use.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "QS",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "6fc50608-f048-4e81-805b-da403b6fa128.jpg"
   },
@@ -983,7 +983,7 @@
     "Text": "Your opponent may not win a Most Powerful Personality Victory or a Dragon Ball Victory until the end of his second turn, starting now. Limit 1 per deck. Remove from the game after use.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Qg",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "29c3507b-e19c-44f9-896f-5bb9122414e8.jpg"
   },
@@ -1000,7 +1000,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "02 - Frieza Saga",
-    "index": "R2",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "6bd62b49-42c0-4a44-b61f-593ad0e73c7c.jpg"
   },
@@ -1015,7 +1015,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Costs 3 power stages to use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PU",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "e4af6a7e-37a4-45bf-a779-cd3b201366b9.jpg"
   },
@@ -1030,7 +1030,7 @@
     "Text": "Energy attack. If successful, it also stops opponent's from making energy attacks for the rest of this combat.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PS",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "f6b3bbed-31ff-4cb8-8e0a-e076e63d1291.jpg"
   },
@@ -1045,7 +1045,7 @@
     "Text": "All opponent's and allies lose 2 power stages. Remove from the game after use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "QO",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "9ced4657-ba80-4a8f-ac16-15b4e43328ef.jpg"
   },
@@ -1060,7 +1060,7 @@
     "Text": "Stops the first energy attack made against you in a combat. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Q8",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "b25078a0-6442-4121-8000-c3f0eb52c87f.jpg"
   },
@@ -1075,7 +1075,7 @@
     "Text": "Energy attack. If successful, also remove an opponent's drill of your choice from the game. Remove from the game after use.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Pl",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "fb721dc9-a5c5-4b0d-aec5-930a68053275.jpg"
   },
@@ -1090,7 +1090,7 @@
     "Text": "All of your opponents search their discard piles and Life Decks for \"Kami Fades\" and remove them from the game. Remove from the game after use.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "QR",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "f2a080cd-95f1-41ea-a7da-3ad821ce1ee7.jpg"
   },
@@ -1105,7 +1105,7 @@
     "Text": "Remove all Earth Dragon Balls in play and in all Life Decks from the game.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "QY",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "d52faf9d-9464-4fd5-a19d-55a517f6a64f.jpg"
   },
@@ -1122,7 +1122,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Qs",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "fed351ab-8424-4394-b856-9b7ccebae2fc.jpg"
   },
@@ -1137,7 +1137,7 @@
     "Text": "Energy attack doing 5 life cards of damage.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PY",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "f28bded9-a7a1-4c62-90db-409f6d616900.jpg"
   },
@@ -1152,7 +1152,7 @@
     "Text": "Search your life deck for 1 combat card and put it into your hand. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "QP",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "fc319891-e150-4838-b679-267a43b87ff2.jpg"
   },
@@ -1167,7 +1167,7 @@
     "Text": "Physical attack. If successful, it also stops your opponent from making any more physical attacks in this combat. Remove from the game after use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "RG",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "3ba41da6-391b-43c0-a333-fa69977a45db.jpg"
   },
@@ -1182,7 +1182,7 @@
     "Text": "Use when needed. Choose a Drill in play. Krillin's Power Tap creates a floating effect that is a copy of that Drill. This floating effect only works during Attack Phases in the Combat Step of the current turn and lasts until the end of Combat. If \"Black Shadow Drill\" is in play, place all of your opponent's Allies at the bottom of their owners' Life Decks. Remove from the game after use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "QX",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "1f22d7df-4ac6-4b69-a6a2-9ae5c9c40b85.jpg"
   },
@@ -1197,7 +1197,7 @@
     "Text": "Heroes only. Stops a physical or energy attack and stops all attacks for the remainder of Combat. Remove from the game after use. Limit 1 per deck. If a \"Dragon Ball 7\" from any Dragon Ball set is in play, discard this card instead of removing it from the game.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Qb",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "a06ab770-0779-49a3-9e29-d376608813ad.jpg"
   },
@@ -1214,7 +1214,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "02 - Frieza Saga",
-    "index": "Qx",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "ab25c7b1-1bdc-45e8-ad4d-8f4801313456.jpg"
   },
@@ -1231,7 +1231,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Qv",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "a1c9e1f9-76b1-492e-8e0a-6dc911d12eb0.jpg"
   },
@@ -1248,7 +1248,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Qw",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "058b35e3-30c2-4ff6-97ec-d51b6282b290.jpg"
   },
@@ -1265,7 +1265,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "02 - Frieza Saga",
-    "index": "R7",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "5e7bdd8a-1b2e-4d81-b756-ad833f5440c3.jpg"
   },
@@ -1280,7 +1280,7 @@
     "Text": "As long as this card is in play, all dragon balls in play or brought into play lose their powers for the rest of the game, even if this card is discarded.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "QG",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "4af078a1-64be-4085-a5c1-69838e7a51dd.jpg"
   },
@@ -1295,7 +1295,7 @@
     "Text": "At the beginning of every turn, discard 1 opponent's non-combat/non-dragon ball card in play. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Q0",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "a80ff55e-15d3-41ad-89a2-e6b30fd70819.jpg"
   },
@@ -1310,7 +1310,7 @@
     "Text": "Stops an opponent's physical attack. Lower opponent's anger 1 level.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "RF",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "c0e94b77-7364-4b71-b078-a1d8b19af43b.jpg"
   },
@@ -1325,7 +1325,7 @@
     "Text": "Physical attack. If successful, it also does 3 life cards of damage.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "RR",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "cf9f5a2f-6a64-4444-964f-6c2f9bf1fa9a.jpg"
   },
@@ -1340,7 +1340,7 @@
     "Text": "Energy attack doing 6 life cards of damage. Lower opponent's anger 1 level.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "P5",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "7aa5d8ac-3b04-4966-af59-bf2696f2044d.jpg"
   },
@@ -1355,7 +1355,7 @@
     "Text": "All physical attacks performed against you do 2 less power stages of damage, to a minimum of 0. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Q4",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "21a0442c-a8a5-47c7-aa31-6f004d2482b8.jpg"
   },
@@ -1370,7 +1370,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Lower opponent's anger 1 level.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "P4",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "a4ca81df-185e-4fa6-a4ef-487f348efd61.jpg"
   },
@@ -1385,7 +1385,7 @@
     "Text": "Energy attack. Lower opponent's anger 2 levels.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "P6",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "c9b90556-c95c-4dc0-b4a4-f41e3c2e02d3.jpg"
   },
@@ -1400,7 +1400,7 @@
     "Text": "Stops an opponent's energy attack. Lower opponent's anger 1 level. If \"Blue Life Defense Drill\" is in play lower opponent's anger 2 levels.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "PO",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "e2da83d8-774a-4de6-802e-0b82d9195d21.jpg"
   },
@@ -1417,7 +1417,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "02 - Frieza Saga",
-    "index": "R1",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "4b823dda-89a2-4e26-9bff-9016fc909336.jpg"
   },
@@ -1432,7 +1432,7 @@
     "Text": "Heroes only. Energy attack doing 5 life cards of damage. This attack cannot be stopped, prevented or reduced by Main Personality powers. If \"Piccolo's Flight\" is in play, this attack does 7 life cards of damage, instead.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Pk",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "6e6628cf-33ae-45f7-bd10-855efc8dcaa6.jpg"
   },
@@ -1447,7 +1447,7 @@
     "Text": "Piccolo only. Select a dragon ball card from your life deck matching Piccolo's current personality level and play it. Remove from the game after use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "QV",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "d6b47999-b54b-4f44-b9f6-9f3002093cf1.jpg"
   },
@@ -1462,7 +1462,7 @@
     "Text": "Villains only. If your opponent's Main Personality is a hero, he discards 4 life cards. Limit 1 per deck. Remove from the game after use.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "QT",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "ce192b1b-388f-4574-a240-d79fce20422b.jpg"
   },
@@ -1477,7 +1477,7 @@
     "Text": "Choose one, End Combat or Your opponent skips their next combat step on their next turn. Remove from the game after use.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "QK",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "2ef0d611-1e45-42a7-88a0-d2b6ff8639c7.jpg"
   },
@@ -1494,7 +1494,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "02 - Frieza Saga",
-    "index": "R8",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "e72e2bbe-b4b7-43be-ac76-ce60ef7467e6.jpg"
   },
@@ -1509,7 +1509,7 @@
     "Text": "Saiyan Heritage only. Energy attack. Playing this card stops a single named opponent from making an energy attack on his next combat phase. Lower opponent's anger 2 levels.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PB",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "35f6465d-ce97-4e6a-b835-9ba18eb955e1.jpg"
   },
@@ -1524,7 +1524,7 @@
     "Text": "Stops a physical attack. Raise your anger and power stages by 2.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "RQ",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "ab9dc76c-329b-49dd-ad27-586f7322bf53.jpg"
   },
@@ -1539,7 +1539,7 @@
     "Text": "All energy attacks performed against you, do 1 less life card of damage, to a minimum of 0.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Py",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "05976691-4cb3-4fe0-824d-af7e7dab483e.jpg"
   },
@@ -1554,7 +1554,7 @@
     "Text": "Energy attack doing 6 life cards of damage. Costs 3 stages to use. Lower opponent's anger 1 level.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "P8",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "668346ad-485d-491e-96fb-b56299a7ca73.jpg"
   },
@@ -1569,7 +1569,7 @@
     "Text": "Energy attack doing 5 life cards of damage.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "P9",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "dbe843e1-aac3-4396-a684-d135f7d7fe93.jpg"
   },
@@ -1584,7 +1584,7 @@
     "Text": "Energy attack doing 5 life cards of damage.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "P7",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "d8701f3e-41c4-4030-ad10-7779780a1897.jpg"
   },
@@ -1599,7 +1599,7 @@
     "Text": "Physical attack. If successful it does no damage, but forces the defender to discard all drill cards in play. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "RN",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "ff9afc89-7aea-4779-b6bc-67e72448c284.jpg"
   },
@@ -1614,7 +1614,7 @@
     "Text": "Do +2 life cards of damage with each successful energy attack.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Q6",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "93219ee9-d676-4df0-a363-7fca8cfe4230.jpg"
   },
@@ -1629,7 +1629,7 @@
     "Text": "All of your energy attacks performed against a villain do +3 life cards of damage.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Q2",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "c195b939-0ef9-4659-9a7a-0d9a9d562139.jpg"
   },
@@ -1644,7 +1644,7 @@
     "Text": "Saiyan Heritage only. Remove an opponent's drill card from the game. Lower opponent's anger 2 levels.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "QJ",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "8cf187a4-05c0-4a0a-a940-41d86670f298.jpg"
   },
@@ -1659,7 +1659,7 @@
     "Text": "Saiyan Heritage only. Energy attack doing 5 life cards of damage. Lower your opponent's anger 2 levels.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "PD",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "6cbda907-e705-4d28-9f22-3ac124be7933.jpg"
   },
@@ -1674,7 +1674,7 @@
     "Text": "Any one of your personalities gains 5 power stages.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "QH",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "a571fc84-d4e3-488e-ae5e-d9c5db6b7ee8.jpg"
   },
@@ -1689,7 +1689,7 @@
     "Text": "Saiyan Heritage only. Power up your main personality 5 power stages. Remove from the game after use.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Ps",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "c8b8c00b-0bbe-472a-9823-487307e84e25.jpg"
   },
@@ -1704,7 +1704,7 @@
     "Text": "Saiyan Heritage only. Stops an energy attack and stops all energy attacks for the rest of this combat.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "PT",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "c39dd4a0-b45d-4da0-984d-bbb73c5e8514.jpg"
   },
@@ -1719,7 +1719,7 @@
     "Text": "Saiyan Heritage only. Energy attack doing 6 life cards of damage.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "PE",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "a0fbb3ad-3c7e-40b8-8642-bde4484ead0a.jpg"
   },
@@ -1734,7 +1734,7 @@
     "Text": "Saiyan Heritage only. Energy attack.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "PC",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "1f8e030c-f1da-48a1-b89e-5cec970e2f68.jpg"
   },
@@ -1751,7 +1751,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "02 - Frieza Saga",
-    "index": "RD",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "4c34bb66-c2ee-428b-aa58-72be60ba7333.jpg"
   },
@@ -1766,7 +1766,7 @@
     "Text": "Energy attack. Costs 2 power stage and, if successful, remove the top card from your life deck from the game.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "PK",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "e386be7c-9b41-42cd-8eaa-b6c255db7881.jpg"
   },
@@ -1781,7 +1781,7 @@
     "Text": "Energy attack costing X life cards. X must be between 1 – 7. This attack does X life cards of damage.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "PM",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "a872142d-05b0-41c5-87b6-68a42cb27b1a.jpg"
   },
@@ -1796,7 +1796,7 @@
     "Text": "For every 2 of your life cards that you now remove from the game, you may remove from the game 1 opponent drill of your choice.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Pq",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "75c2166c-27ad-48cd-8798-1c8aad9e7cb2.jpg"
   },
@@ -1811,7 +1811,7 @@
     "Text": "Energy attack that costs 1 life card to perform. If successful, end Combat. Remove from the game after use.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "PL",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "9e0bb3be-cacd-477c-b1d2-a683a18c48df.jpg"
   },
@@ -1826,7 +1826,7 @@
     "Text": "Stops all energy attacks for the rest of this combat. Costs 2 life cards to use.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "PN",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "2d5eb2ad-ab43-46a8-8344-1b04a81295ed.jpg"
   },
@@ -1841,7 +1841,7 @@
     "Text": "Energy attack, if successful, this card also causes all allies to lose 2 power stages, but no additional life card damage is taken. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Pf",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "12a45352-a318-422e-a872-defa2ed5ea1a.jpg"
   },
@@ -1856,7 +1856,7 @@
     "Text": "Physical attack costing 1 life card to use. If successful, also discard all of the opponent's drill cards on the tabe.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "RL",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "2a3352d4-c750-4b61-bf4b-8535b83b5fb6.jpg"
   },
@@ -1871,7 +1871,7 @@
     "Text": "Physical attack doing 5 life cards of damage. Costs 3 power stages to use.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "RK",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "1a2f165c-2a91-47e7-8fb2-419d67bc9d1a.jpg"
   },
@@ -1886,7 +1886,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Lower your anger 1 level.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "PJ",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "930a4a37-7ed6-457e-995c-59645137f89c.jpg"
   },
@@ -1903,7 +1903,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Qy",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "16988310-3352-427a-92d4-bd38d8b0eeb3.jpg"
   },
@@ -1918,7 +1918,7 @@
     "Text": "Search your discard pile and if an ally is there put it into play.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Qj",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "ace5ba8a-75be-41ea-8d56-aeb3e9ed06b6.jpg"
   },
@@ -1933,7 +1933,7 @@
     "Text": "Energy attack doing 6 life cards of damage. Lower opponent's anger 2 levels. Limit 1 per deck. Remove from the game after use.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Pn",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "da12c583-f68a-454d-a8d5-43a1bf52280f.jpg"
   },
@@ -1948,7 +1948,7 @@
     "Text": "All opponent's must discard their allies in play. Remove from the game after use.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Qa",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "046ff715-0191-4d49-b913-1b4848e0cef2.jpg"
   },
@@ -1963,7 +1963,7 @@
     "Text": "This card stops an opponent from winning until the end of your next turn. Use when needed. Remove from the game after use.",
     "Limit": "0",
     "Set": "02 - Frieza Saga",
-    "index": "Qf",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "642473fa-a26b-4d3c-822f-9da5a75e6e9b.jpg"
   },
@@ -1978,7 +1978,7 @@
     "Text": "Stops the effect of any non-dragon ball card and remove the card from the game. You may use this at any time.",
     "Limit": "0",
     "Set": "02 - Frieza Saga",
-    "index": "Qd",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "020245ca-7c32-4c41-b08b-012b9433d906.jpg"
   },
@@ -1995,7 +1995,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Ql",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "cd330457-9bc7-4a99-902c-2bf8eff6bf4c.jpg"
   },
@@ -2010,7 +2010,7 @@
     "Text": "Heroes only. Energy attack. If performed by Tien, draw a card.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PH",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "9b2de1f8-41e5-4ff1-a04d-c566a73e28f6.jpg"
   },
@@ -2025,7 +2025,7 @@
     "Text": "Energy attack. If successful, it also stops the opponent from playing any other energy attack cards in this combat.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PZ",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "dc4c261f-3799-4e21-b87e-d3146f0964cb.jpg"
   },
@@ -2040,7 +2040,7 @@
     "Text": "Stops all attacks from an opponent in this combat. Limit 1 per deck.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Pr",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "a700455d-1b25-4851-8e82-9ae94a6bf2e5.jpg"
   },
@@ -2057,7 +2057,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Qz",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "9567257c-2b90-439f-8855-7e1aeec9e983.jpg"
   },
@@ -2072,7 +2072,7 @@
     "Text": "Energy attack. Raise your anger 2 levels. Lower opponent's anger 2 levels. Limit 1 per deck. Remove from the game after use.",
     "Limit": "1",
     "Set": "02 - Frieza Saga",
-    "index": "Po",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "2e12adcb-e1bc-4b83-9445-652e4699f681.jpg"
   },
@@ -2089,7 +2089,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "02 - Frieza Saga",
-    "index": "R0",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "628e773d-1cba-47ad-a31b-662175a66f2b.jpg"
   },
@@ -2104,7 +2104,7 @@
     "Text": "Energy Attack. If successful, also lower all opponents' anger 1 level. Remove from the game after use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Pb",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "5e3527fb-65c0-46b5-98d4-5afecf61680a.jpg"
   },
@@ -2119,7 +2119,7 @@
     "Text": "Vegeta, Goku, Gohan, Nappa, and Raditz only. Do +1 life card of damage with each successful energy attack.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Q9",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "65a479c7-217b-4137-9d88-cd6a4563bfcb.jpg"
   },
@@ -2134,7 +2134,7 @@
     "Text": "Energy attack. Stop all physical attacks performed against villains for the remainder of Combat. Lower your opponent's anger 2 levels. Remove from the game after use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "PI",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "f6ea52ee-a965-4c24-a44b-1371adf9a38b.jpg"
   },
@@ -2149,7 +2149,7 @@
     "Text": "Select, unseen, a card from your opponent's hand and discard it.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Pv",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "f64efe44-6ed7-4cb9-9a94-52fef85629e7.jpg"
   },
@@ -2164,7 +2164,7 @@
     "Text": "Energy attack costing 1 power stage to use. Remove from the game after use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Pc",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "e61beb5c-5d5b-4cd7-a14e-6037c0f9a76a.jpg"
   },
@@ -2179,7 +2179,7 @@
     "Text": "Villains only. Opponent's can play only 1 dragon ball on their turn. Also, if Saibaimen are in play anywhere, heroes must play with their cards face up during combat.",
     "Limit": "3",
     "Set": "02 - Frieza Saga",
-    "index": "QF",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "eb9b6f08-2f12-4134-99fe-421d847021f7.jpg"
   },
@@ -2196,7 +2196,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "02 - Frieza Saga",
-    "index": "RE",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "1c7c064d-73af-4238-b5fe-2c029cfb9155.jpg"
   },
@@ -2213,7 +2213,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Qq",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "225138f5-19b4-40d1-be3e-985168ec23c5.jpg"
   },
@@ -2228,7 +2228,7 @@
     "Text": "Reduce the damage from all attacks performed against you by 1 power stage or 1 life card of damage.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Px",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "383895c0-8b88-40de-9a7b-91012c1f5cb2.jpg"
   },
@@ -2245,7 +2245,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "02 - Frieza Saga",
-    "index": "Qm",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "3cf1198e-74d4-497a-ac73-18929895a06e.jpg"
   },
@@ -2260,7 +2260,7 @@
     "Text": "Stops a physical attack and stops all physical attacks for the remainder of Combat. Remove from the game after use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "QW",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "cb66ccb5-21d0-4540-a9c6-c4352b038b7e.jpg"
   },
@@ -2275,7 +2275,7 @@
     "Text": "Stops a physical or energy attack. Remove from the game after use.",
     "Limit": "4",
     "Set": "02 - Frieza Saga",
-    "index": "Pa",
+    "Designer": "Official",
     "set_id": "829904ed-425f-417f-8574-5001483d34ad",
     "image": "d0a5564f-0296-4e21-8216-491f13e4e309.jpg"
   }
