@@ -10,7 +10,7 @@
     "Text": "Sensei Deck. Remove all cards in all discard piles from the game. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "AM",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "825d5a6a-27fc-4ebf-aa75-f40ebaa173f4.jpg"
   },
@@ -25,7 +25,7 @@
     "Text": "Main Personalities only. If your Main Personality is at level 2 or higher, you may use one of your Main Personality's lower personality level's powers (excluding Constant Combat Powers and powers that can be used multiple times per Combat.) If it is an attack, it does +3 power stages of damage. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "82",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "e3878deb-c308-4f90-81f0-4a47b5bcedf9.jpg"
   },
@@ -40,7 +40,7 @@
     "Text": "Draw 2 cards. While you control this Dragon Ball, all Styled cards in your Life Deck without Endurance gain Endurance 1, and your opponent's attacks need to deal 7 or more life cards of damage to capture a Dragon Ball instead of 5.",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "AE",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "a97ca415-339c-4bb6-9f98-74b77d1ca7e7.jpg"
   },
@@ -55,7 +55,7 @@
     "Text": "You and your opponent discard the top card of your Life Decks. The player who discarded the card with the lowest card number may choose to give up winning by the Most Powerful Personality Victory this game to choose a personality level that both players' MPs can reach. All MPs are advanced or lowered to the chosen level, if there is a tie, nothing happens.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "83",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "db3997a3-742e-490b-bf63-548f419b1482.jpg"
   },
@@ -70,7 +70,7 @@
     "Text": "Sensei Deck. Energy attack. Empower 2. If you declared a Tokui-Waza and your opponent declared a Namekian Tokui-Waza, this attack does +10 life cards of damage and if shuffled into your Life Deck after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "84",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "31de4e18-3d17-489f-828f-232aa45aff15.jpg"
   },
@@ -86,7 +86,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "85",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "75e7faf4-6572-46d5-8bcb-5eccf390f565.jpg"
   },
@@ -101,7 +101,7 @@
     "Text": "Sensei Deck only. Energy attack doing 5 life cards of damage. If you declared a Tokui-Waza, name a word that is not a Martial Arts Style and raise your anger 2 levels. For the remainder of Combat, your opponent cannot play any cards with the named word in the title. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "91",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "be6c2f13-8f3b-4797-a98d-9644ee1855c6.jpg"
   },
@@ -117,7 +117,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7X",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "26db9b08-382b-4bbd-928e-396513beb9db.jpg"
   },
@@ -133,7 +133,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "7Y",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "d7a13a0a-860d-4970-a814-31e8f433949c.jpg"
   },
@@ -148,7 +148,7 @@
     "Text": "Physical attack doing +3 power stages of damage. Attach to your opponent's Main Personality. While attached, all attacks performed by that personality do +2 power stages of damage. Discard this card when the attached personality reaches his highest power stage.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "86",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "a90feacf-58e8-4709-99cc-7cac86dd6526.jpg"
   },
@@ -163,7 +163,7 @@
     "Text": "Physical attack doing +3 power stages of damage. If your opponent performed a successful physical attack in his previous \"Attacker Attacks\" phase, any power stages of damage this attack deals are life cards of damage instead. If successful and you declared a Tokui-Waza, look at the top 6 cards of your opponent's Life Deck and place them back in any order.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "87",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "32b514d5-68ee-4305-b36a-385cf5e151b9.jpg"
   },
@@ -178,7 +178,7 @@
     "Text": "Stops an energy attack. If you declared a Tokui-Waza, then for the remainder of Combat during your \"Defender Defends\" phase, you may remove from the game 2 cards in your Sensei Deck to stop an energy attack. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "88",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "6e36d8f1-b4ee-4a51-a6fa-64c57a6fb524.jpg"
   },
@@ -193,7 +193,7 @@
     "Text": "Use only if you performed a successful physical attack in your last \"Attacker Attacks\" phase this Combat. Stops a physical attack. If you declared a Tokui-Waza, then for the remainder of Combat, stops all physical attacks performed by your opponent. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "89",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "6dd33458-34a2-43ba-b057-9d58ba0fbdfd.jpg"
   },
@@ -208,7 +208,7 @@
     "Text": "(This is not a Black Style card.) Sensei Deck only. Name any Combat, Physical Combat, or Energy Combat card. All of your opponents must search their Life Decks for all copies of that card and remove them from the game. Unless you declared a Black Tokui-Waza, limit 2 per deck. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "AN",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "24c7bfdf-621c-449e-b73b-c5b3c1417265.jpg"
   },
@@ -223,7 +223,7 @@
     "Text": "Physical attack doing +4 power stages of damage. Stops an energy attack during your opponent's next \"Attacker Attacks\" phase. Place the bottom 2 cards of your discard pile at the bottom of your Life Deck.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7Z",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "942d02af-fe30-4291-8ef8-a6ae132def97.jpg"
   },
@@ -238,7 +238,7 @@
     "Text": "Physical attack doing +4 power stages of damage. Lower your opponent's anger 1 level. If successful, place 3 cards from your discard pile with the word \"Kick\" in the title on top of your Life Deck and remove this card from the game.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8A",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "5e4bea22-af77-4017-a714-02f8dec0ab98.jpg"
   },
@@ -254,7 +254,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "92",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "76051ac7-0474-4048-9a05-d957efeecc73.jpg"
   },
@@ -269,7 +269,7 @@
     "Text": "Physical attack doing 5 power stages of damage. For the remainder of Combat, all of your Non-Combat/Non-Drill cards that do not remove themselves from the game after use are placed at the bottom of your Life Deck after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "93",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "5173fe21-f4d4-4bdc-b765-edc46510241c.jpg"
   },
@@ -285,7 +285,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8B",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "307d6de2-3f1e-4983-8178-9c56d2ec76a1.jpg"
   },
@@ -300,7 +300,7 @@
     "Text": "Stops an energy attack. If you declared a Tokui-Waza, prevents all life cards of damage from energy attacks your opponent performs for the remainder of Combat. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "8C",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "16a3415c-044c-4010-a0e1-c641427feea1.jpg"
   },
@@ -315,7 +315,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Raise your anger 1 level. For the remainder of Combat, prevent 1 power stage of damage from your opponent's physical attacks for each Ally you have in play. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8D",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "98755e2b-ae72-4615-b587-09ca3134680e.jpg"
   },
@@ -330,7 +330,7 @@
     "Text": "Sensei Deck. Physical attack doing +4 power stages of damage. If you declared a Tokui-Waza, shuffle 7 cards in your discard pile into your Life Deck and lower your opponent's Main Personality 1 personality level. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8E",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "6a0d7aef-f537-4fd6-8ef7-5ef54ce72b1f.jpg"
   },
@@ -345,7 +345,7 @@
     "Text": "Physical attack doing +5 power stages of damage. Raise your Main Personality to his highest power stage. Place at the bottom of your Life Deck after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7a",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "65815170-ccf2-4b07-8d0f-536ff8b10bf3.jpg"
   },
@@ -360,7 +360,7 @@
     "Text": "Sensei Deck only. At the end of every turn, you may place a Non-Combat card in your discard pile at the bottom of your Life Deck. During your \"Defender Defends\" phase you may discard one of your Non-Combat cards in play to stop an energy attack.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "94",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "69df3d54-e12d-4d21-a6a0-03c380cfdd87.jpg"
   },
@@ -376,7 +376,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "8F",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "69324ff0-6bb5-4372-aa3a-787e4d81d38e.jpg"
   },
@@ -392,7 +392,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "95",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "311056ab-9ff8-47af-89a0-2e4ab7475dfb.jpg"
   },
@@ -407,7 +407,7 @@
     "Text": "Physical attack doing +1 power stages of damage. This attack stays on the table to be used 1 more time this Combat. Cards that can lower your Main Personality any amount of personality levels cannot be played or used for the remainder of Combat.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8G",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "518b92c3-226d-4c3c-ab00-fd2ebd4cfa27.jpg"
   },
@@ -423,7 +423,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8H",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "f4186426-e267-47cf-9e5a-3263bf439086.jpg"
   },
@@ -438,7 +438,7 @@
     "Text": "(This is an MRP of the Trunks Saga Blue Style Mastery.) Your opponent must reach 6 anger to advance a personality level. All of your Blue Style attacks again \"If successful, raise or lower your opponent's anger 1 level.\"",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "AL",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "e4747214-7d02-4fff-b98a-c6d9f9688284.jpg"
   },
@@ -453,7 +453,7 @@
     "Text": "Stops a physical attack. If you declared a Tokui-Waza, for the remainder of Combat, when taking life cards of damage from a physical attack, all cards in your Life Deck with no Endurance gain Endurance 3. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "8I",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "aa71e522-2395-468d-a2dc-a29c3c108a49.jpg"
   },
@@ -468,7 +468,7 @@
     "Text": "Physical attack doing 5 life cards of damage. Raise your or your opponent's anger 1 level. If \"Locked On\" is attached to your opponent's Main Personality, this attack cannot be stopped. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8J",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "c17d204f-e3e2-47ba-b885-87e38441ab25.jpg"
   },
@@ -485,7 +485,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "A0",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "f4f8935a-a567-4889-983f-1cdadb3f5906.jpg"
   },
@@ -502,7 +502,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "10 - Fusion Saga",
-    "index": "A1",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "eb21612f-f809-4f2b-8c6d-6cdcdc7c47eb.jpg"
   },
@@ -519,7 +519,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "10 - Fusion Saga",
-    "index": "A2",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "3a826bb0-1800-4dc2-bd6d-7738b407b2c6.jpg"
   },
@@ -535,7 +535,7 @@
     "Limit": "4",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "AB",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "c6d8221d-ab22-4fd5-a246-afbb7c74050a.jpg"
   },
@@ -550,7 +550,7 @@
     "Text": "Your opponent must pass in his next 2 \"Attacker Attacks\" phases this Combat. This card has no effect on your opponent if he has the card \"Breakfall\" in his discard pile and/or his removed from the game pile. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "96",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "5ba441d8-0810-4414-b877-3dfd39d6cf76.jpg"
   },
@@ -567,7 +567,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "97",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "a864cfe7-3024-4bc1-9249-68ac5ae26aec.jpg"
   },
@@ -582,7 +582,7 @@
     "Text": "At the end of your turn, if you skipped Combat, you may place the bottom card of your discard pile under this Drill. All of your attacks do +1 power stages of damage for each card under this Drill. You can only have 1 \"Determination Drill\" in play at a time.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7b",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "e6321219-aa4a-415e-b2ed-286a02c69400.jpg"
   },
@@ -597,7 +597,7 @@
     "Text": "All of your physical attacks do +5 power stages of damage. Discard this Drill if you have any other Non-Combat cards in play.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9d",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "34351879-8880-4e68-b02a-dd7a8b1442ee.jpg"
   },
@@ -613,7 +613,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "8K",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "254ca501-9977-4114-aec1-e18b001305d0.jpg"
   },
@@ -628,7 +628,7 @@
     "Text": "Discard a Battleground or Location in play. If used by Majin Buu, raise your anger 1 level.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7c",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "1842eb3c-39b0-455c-805f-d58c7d48c958.jpg"
   },
@@ -645,7 +645,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "9r",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "cdd20c3c-2965-46d3-bfe7-1f2926d2dad9.jpg"
   },
@@ -662,7 +662,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "10 - Fusion Saga",
-    "index": "9s",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "cbcbf5da-867f-44f0-89f6-c4fd61f8274b.jpg"
   },
@@ -679,7 +679,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9t",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "3bd98df6-a43a-4ace-859c-6501dfd01750.jpg"
   },
@@ -694,7 +694,7 @@
     "Text": "Discard one of your Allies in play to search your discard pile for another Ally of any level and place it into play at 5 power stages above 0.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8L",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "e04ed8e1-8621-42c5-97a9-95e8ddd78492.jpg"
   },
@@ -709,7 +709,7 @@
     "Text": "Raise your Main Personality to his highest power stage. Attach this card to your Main Personality. While attached, your Main Personality's PUR is increased by +2, and if \"Tree of Might\" is in play, you need 1 less anger to advance a personality level. You can only have 1 \"Energetic Fruit\" attached at a time.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "A5",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "38c77e21-1095-4e01-8d63-fb7c2f86844e.jpg"
   },
@@ -724,7 +724,7 @@
     "Text": "Stops an energy attack. Raise your anger 1 level. Place the top card of your discard pile at the bottom of your Life Deck. This card can stop attacks that cannot be stopped. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "AG",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "2cc56e46-d4a0-45e1-96c4-5539b34b00d3.jpg"
   },
@@ -738,7 +738,7 @@
     "Text": "Fusion Saga Physical Attack Table.",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "7W",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "95f9e2ae-7f64-49d9-92df-a8a12b1b7a1a.jpg"
   },
@@ -754,7 +754,7 @@
     "Limit": "4",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "AI",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "35d9686f-2b7f-43b7-a88f-bb4c1187565d.jpg"
   },
@@ -770,7 +770,7 @@
     "Limit": "4",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "8M",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "97cd5869-5295-43ee-a051-030a565a3b64.jpg"
   },
@@ -785,7 +785,7 @@
     "Text": "Gohan only. If Gohan is your Main Personality, you may give up winning by the Most Powerful Personality Victory this turn to advance your Main Personality 2 personality levels, if possible. If you do, lower your Main Personality 2 personality levels at the end of the turn.",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "A3",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "d1c028d6-8cca-4268-be8f-dd1153f82905.jpg"
   },
@@ -801,7 +801,7 @@
     "Limit": "4",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "8N",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "d4b7f1e9-184f-4653-9207-e796e3959d8b.jpg"
   },
@@ -818,7 +818,7 @@
     "Limit": "1",
     "Card Level": "5",
     "Set": "10 - Fusion Saga",
-    "index": "98",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "dd6eaa2a-f358-4a5f-8877-262a1d597983.jpg"
   },
@@ -835,7 +835,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "10 - Fusion Saga",
-    "index": "99",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "35d86916-fe4a-4e22-a928-d20adac89809.jpg"
   },
@@ -850,7 +850,7 @@
     "Text": "Stops a physical or energy attack. Raise your or your opponent's anger 1 level. If you declared a Freestyle Tokui-Waza, stops the next physical or energy attack performed against you this Combat. If used by Goku, place this card at the bottom of your Life Deck after use.",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "9Y",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "9256434a-88a2-4ae8-aab6-1192df7a02cd.jpg"
   },
@@ -865,7 +865,7 @@
     "Text": "Goku only. Attach to your Goku in play. While attached, all of your attacks do +2 power stages of damage and gain \"if successful, discard one of your opponent's Allies in play.\" You can only have 1 \"Goku's Power Pole\" attached at a time.",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "A4",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "c66d7511-58e3-4ee1-8430-3c3bf1525fad.jpg"
   },
@@ -880,7 +880,7 @@
     "Text": "Stops a physical attack. Raise your Main Personality to his highest power stage, and for the remainder of Combat, prevent 1 power stage of damag from all of your opponent's attacks.",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "AF",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "9078b858-fc8d-46f2-b0a1-44a1418f3fbd.jpg"
   },
@@ -896,7 +896,7 @@
     "Limit": "4",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "A8",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "56971ddd-17ea-492f-b750-bc6ce8ed7d7c.jpg"
   },
@@ -911,7 +911,7 @@
     "Text": "Fused characters only. Physical attack doing +3 power stages of damage. Lower your opponent's anger 1 level. Gain 2 power stages. This attack stays on the table to be used 1 more time this Combat.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9e",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "c0774700-666c-477c-b336-139645cb3067.jpg"
   },
@@ -926,7 +926,7 @@
     "Text": "(You can have up to 6 copies of this card in your Life Deck.) Gotenks only. Place this card in play. While this card is in play, you may remove it from the game during your \"Attacker Attacks\" phase to discard the top 6 cards of your opponent's Life Deck.",
     "Limit": "6",
     "Set": "10 - Fusion Saga",
-    "index": "9A",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "28c217ca-84a5-4c84-8e7e-7d21e6b2ee79.jpg"
   },
@@ -943,7 +943,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9W",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "4f6bc336-2dce-4544-b78e-bceab70ba210.jpg"
   },
@@ -959,7 +959,7 @@
     "Limit": "4",
     "Endurance": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9f",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "f009a01b-92c0-404a-946a-4ec6961c1545.jpg"
   },
@@ -974,7 +974,7 @@
     "Text": "All of your attacks do +1 life cards of damage and gain \"If successful, the personality that performed this attack gains 1 power stage.\"",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "7d",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "b4329b16-7046-410b-92b1-7c4a7a48009c.jpg"
   },
@@ -989,7 +989,7 @@
     "Text": "Sensei Deck. Hercule only. For the remainder of Combat, Majin Buu cannot perform attacks while your Hercule is in control of Combat as your Ally or Main Personality. Remove from the game after use.",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "7e",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "9eded363-7d43-4453-a2ae-0dc4aa323c28.jpg"
   },
@@ -1006,7 +1006,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "9B",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "5f73da2b-804f-4ad3-94b5-79d47182b9bc.jpg"
   },
@@ -1021,7 +1021,7 @@
     "Text": "Sensei Deck. Physical attack doing +4 power stages of damage. If performed against a Majin, choose a card in your hand that can perform an attack or stop an attack and place it into play. That card is now a Non-Combat card instead of its normal type until it leaves play.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8O",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "1a378bd3-3750-4483-9c19-fb1d5d9f3443.jpg"
   },
@@ -1036,7 +1036,7 @@
     "Text": "Heroes only. Energy attack doing 6 life cards of damage. If performed against a villain, this attack is focused, gain 2 power stages, and for the remainder of Combat, your opponent cannot have Allies take control of Combat.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7f",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "e170b523-164c-47fe-b097-ad2605719a72.jpg"
   },
@@ -1051,7 +1051,7 @@
     "Text": "Sensei Deck. Heroes only. Physical attack doing +3 power stages of damage. If performed against a Majin, this attack doing +6 power stages of damage instead and stops the next focused attack your opponent performs this Combat. Raise your anger 1 level.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9g",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "6651688a-249d-4762-8000-b03c422b56ff.jpg"
   },
@@ -1067,7 +1067,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "9h",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "0ca758fc-a337-48cf-9eb2-a994e0f07a01.jpg"
   },
@@ -1084,7 +1084,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "A6",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "ed1a5bde-b73c-4250-8e27-6b12583f5395.jpg"
   },
@@ -1099,7 +1099,7 @@
     "Text": "Attach to one of your Non-Combat cards in play that is not \"Orange Focusing Drill.\" While attached, when another card effect would discard or remove from the game the attached Non-Combat card, this card is discarded or removed instead.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "AD",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "29df0679-8870-469b-bf6f-c19648876794.jpg"
   },
@@ -1114,7 +1114,7 @@
     "Text": "When one of your attacks deals 5 or more life cards of damage, place the bottom card of your discard pile under this Drill. If there are 3 or more cards under this Drill, during your \"Attacker Attacks\" phase you may discard this Drill. If you do, you cannot win by the Most Powerful Personality Victory, and you may advance or lower your MP to any level.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8P",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "7b940df0-4ddd-4cd7-a75e-4e067a417f7c.jpg"
   },
@@ -1130,7 +1130,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "10 - Fusion Saga",
-    "index": "A9",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "340b1138-65ff-49a1-95b5-4a145e93b059.jpg"
   },
@@ -1145,7 +1145,7 @@
     "Text": "Krillin only. Physical attack doing +4 power stages of damage. For the remainder of Combat, all of your other attacks do +3 life cards of damage, and damage from your opponent's attacks are doubled after modifiers are applied. Remove from the game after use.",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "8Q",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "4093be41-389d-421a-9d3e-706a499bd6da.jpg"
   },
@@ -1161,7 +1161,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "9C",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "7e42c863-019d-4eb4-b0a3-d596897c6d81.jpg"
   },
@@ -1176,7 +1176,7 @@
     "Text": "Attach to your opponent's Main Personality. While the attached personality is in control of Combat, damage from your attacks cannot be redirected to Allies.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9i",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "99a8f8ce-4276-419d-9cb2-3dc023f80509.jpg"
   },
@@ -1193,7 +1193,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "9a",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "537e2183-4948-410c-8cd6-1c062c040865.jpg"
   },
@@ -1208,7 +1208,7 @@
     "Text": "Physical attack doing +5 power stages of damage. If successful, lower your opponent's anger 2 levels, and if he has 0 anger, lower his Main Personality 1 personality level.",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "8T",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "c0d64970-5389-4cb4-afc0-76b0a4238729.jpg"
   },
@@ -1223,7 +1223,7 @@
     "Text": "Physical attack doing +4 power stages of damage. Empower 2. For the remainder of Combat, your opponent's Main Personality loses 1 power stage at the beginning of each of his \"Attacker Attacks\" phases. If successful, search your Life Deck for a card with \"Throw\" in the title and place it into your hand.",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "9Z",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "616fabf9-223f-484e-847e-e82deb4a1d8d.jpg"
   },
@@ -1238,7 +1238,7 @@
     "Text": "Majin only. Energy attack doing 5 life cards of damage. Raise your anger 2 levels. If successful, choose a \"Majin only\" Energy Combat card in your discard pile and place it into your hand. Remove from the game after use.",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "9F",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "1406304f-5cc0-4df5-adde-344fc169fab5.jpg"
   },
@@ -1254,7 +1254,7 @@
     "Limit": "4",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "8U",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "b90cfd11-d37e-4b57-8063-931bd00b54db.jpg"
   },
@@ -1270,7 +1270,7 @@
     "Limit": "4",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "7h",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "4f0760d4-76de-41e7-9340-73ee1620de8e.jpg"
   },
@@ -1287,7 +1287,7 @@
     "Limit": "6",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "9G",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "2b5e76af-e114-4faa-9fb0-448e674add4e.jpg"
   },
@@ -1310,7 +1310,7 @@
       }
     ],
     "Set": "10 - Fusion Saga",
-    "index": "9H",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "8a651b18-cd36-4fd7-a612-13865c4d67db.jpg"
   },
@@ -1333,7 +1333,7 @@
       }
     ],
     "Set": "10 - Fusion Saga",
-    "index": "8V",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "3487ba74-62bf-438e-a6f1-5be1fa3639da.jpg"
   },
@@ -1348,7 +1348,7 @@
     "Text": "You may raise your opponent's anger by up to 2 levels if one of your attacks has been successful this Combat. Prevent 3 life cards of damage from the next attack your opponent performs against you this Combat.",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "7i",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "d936dd14-6efb-4c24-85a1-713983c89f99.jpg"
   },
@@ -1365,7 +1365,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "7g",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "dc4b4580-4909-43fb-890b-4aebdf668756.jpg"
   },
@@ -1382,7 +1382,7 @@
     "Limit": "1",
     "Card Level": "5",
     "Set": "10 - Fusion Saga",
-    "index": "9D",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "f43f149f-f6cc-4942-b8f0-f5515fb2d484.jpg"
   },
@@ -1399,7 +1399,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "10 - Fusion Saga",
-    "index": "9E",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "aa302723-943f-4332-a0c4-b387978db6a5.jpg"
   },
@@ -1416,7 +1416,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8R",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "20274728-9ab9-4dd9-8e4f-d785d469b857.jpg"
   },
@@ -1433,7 +1433,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "10 - Fusion Saga",
-    "index": "8S",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "919302dc-fafe-47a2-9b58-9a021bff242a.jpg"
   },
@@ -1448,7 +1448,7 @@
     "Text": "Majin only. Energy attack. This attack does an additional +1 life cards of damage for each \"Majin only\" card in your discard pile. If successful, shuffle 5 \"Majin only\" cards in your discard pile into your Life Deck. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9I",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "87ff1bcb-f79e-4858-a1fb-846310271a72.jpg"
   },
@@ -1463,7 +1463,7 @@
     "Text": "Majin only. Energy attack. Costs 3 power stages to perform. This attack does an additional +X life cards of damage. X = All of your Allies' PUR's added together. Raise your anger 1 level.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8W",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "563afc8f-1093-4c52-b850-532a7eb998ca.jpg"
   },
@@ -1478,7 +1478,7 @@
     "Text": "Majin only. Energy attack doing 7 life cards of damage. For the remainder of Combat, all \"Majin only\" cards in your Life Deck without Endurance gain Endurance 1. If your opponent's MP is at a higher personality level than your MP, for the remainder of Combat, all of your other attacks do +2 life cards of damage.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9J",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "8b04d5bc-772a-454f-b738-ecc8b4fbca2f.jpg"
   },
@@ -1493,7 +1493,7 @@
     "Text": "Attach to a Battleground or Location in play. While attached, your Main Personality's PUR is increased by +2 and all of your attacks do +1 power stages of damage.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "AJ",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "15de8334-4e69-45a2-849b-2280848c8b32.jpg"
   },
@@ -1508,7 +1508,7 @@
     "Text": "Physical attack doing +3 power stages of damage. Discard one of your opponent's Allies in play. For each Ally in your opponent's discard pile, your opponent discards the top card of his Life Deck. Remove from the game after use.",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "AH",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "3db568d9-3530-4f25-a51d-43ffd32f1c5a.jpg"
   },
@@ -1524,7 +1524,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "9K",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "4ad719de-c8bc-46f1-b1e7-1d38c89722bf.jpg"
   },
@@ -1539,7 +1539,7 @@
     "Text": "Energy attack doing 5 life cards of damage. For the remainder of Combat, all Namekian Style cards in your Life Deck without Endurance gain Endurance 1. For the remainder of Combat, when you use Endurance your Main Personality gains an amount of power stages equal to the damage actually prevented after damage is dealt. Limit 2 per deck. Remove from the game after use.",
     "Limit": "2",
     "Set": "10 - Fusion Saga",
-    "index": "8X",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "872d9908-e3cc-45d8-a299-0a6a5ad39b76.jpg"
   },
@@ -1554,7 +1554,7 @@
     "Text": "Stops a physical or energy attack. If your Main Personality is at level 2 or above and you have a \"Freestyle Mastery\" in play, stops all physical attacks and all energy attacks your opponent performs for the remainder of Combat. Remove from the game after use. Limit 2 per deck.",
     "Limit": "2",
     "Set": "10 - Fusion Saga",
-    "index": "8Y",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "e697d59b-27c9-4c51-8801-31b578eb00ec.jpg"
   },
@@ -1569,7 +1569,7 @@
     "Text": "(If you declared a Namekian Tokui-Waza, this is a Namekian Styled Card.) Use when your opponent uses a card effect to discard or remove from the game one of your Battleground or Locations in play. Your Battleground or Location stays in play. Your opponent discards the top 3 cards of his Life Deck.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7j",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "6caac11e-b626-49e0-a273-fdc0aba432a0.jpg"
   },
@@ -1585,7 +1585,7 @@
     "Limit": "3",
     "Endurance": "4",
     "Set": "10 - Fusion Saga",
-    "index": "9j",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "f675374a-74b0-4b86-bb20-e204386b4ec8.jpg"
   },
@@ -1601,7 +1601,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "8y",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "e40fff83-e8a2-4c37-897a-2571508cad79.jpg"
   },
@@ -1617,7 +1617,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "8Z",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "f7d459d1-1976-49b9-88b6-b7bbe8a9c3d3.jpg"
   },
@@ -1632,7 +1632,7 @@
     "Text": "Sensei Deck. Physical attack doing +5 power stages of damage. Lower your opponent's anger 2 levels. If you declared a Tokui-Waza and your opponent declared a Blue Tokui-Waza, discard any 2 of your opponent's Non-Combat, Allies, Location, Battleground, and/or attached cards in play.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8a",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "4285e573-fabf-47fd-8aa0-32ff5e6dae79.jpg"
   },
@@ -1647,7 +1647,7 @@
     "Text": "When you perform an Orange Style attack, you may add an additional +2 power stages to the cost to have the attack do +2 power stages of damage and +1 life cards of damage. You may only use this Drill once per attack.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8b",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "1a43118d-8666-4b9d-b280-f88efdd6a2e3.jpg"
   },
@@ -1662,7 +1662,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Lower your opponent's anger 2 levels. For the remainder of Combat, as a defense you may remove from the game any amount of cards in your discard pile with Endurance to prevent X life cards of damage. X = the total amount of Endurance on those cards.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9l",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "91337a7a-b01f-411f-ae64-08dcfcb56b52.jpg"
   },
@@ -1678,7 +1678,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9m",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "0727ad87-a6dd-4eb8-9b59-0b408885a737.jpg"
   },
@@ -1693,7 +1693,7 @@
     "Text": "If you declared a Tokui-Waza, you may remove this Drill from the game when you stop a physical or energy attack to stop all of your opponent's attacks of the same type for the remainder of Combat. Limit 2 per deck.",
     "Limit": "2",
     "Set": "10 - Fusion Saga",
-    "index": "8c",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "e9e04c84-d7e4-4724-a992-2f1e3a747712.jpg"
   },
@@ -1708,7 +1708,7 @@
     "Text": "Sensei Deck only. Energy attack. You may pay +4 power stages to search your Life Deck for an Energy Combat card that performs an energy attack and use that card (including its secondary effects) for no cost, instead of this one. Limit 1 per deck.",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "9L",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "56572701-f63b-46ca-a3df-f0f3c30691cc.jpg"
   },
@@ -1723,7 +1723,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Costs 1 life card to perform. The next Orange Style attack you perform this Combat does an additional +1 life cards of damage for each Drill you have in play when you perform that attack.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8d",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "dd32d9dc-091b-4ba4-b35c-c91101bba22d.jpg"
   },
@@ -1739,7 +1739,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "7k",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "e035bdfb-e946-4312-b15a-7035dd1041cb.jpg"
   },
@@ -1755,7 +1755,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "7l",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "3b1d718a-391f-4be1-8dbd-eda2088e2921.jpg"
   },
@@ -1771,7 +1771,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "8e",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "ccf3df8b-83d0-46f8-b77e-6dd1d1a6ee60.jpg"
   },
@@ -1786,7 +1786,7 @@
     "Text": "Sensei Deck. Use when your opponent fuses. Your opponent fuses at the beginning of his next turn instead.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7m",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "3eb39b00-ab22-484c-8eae-c036ddf1f79a.jpg"
   },
@@ -1801,7 +1801,7 @@
     "Text": "Use during your Non-Combat Step if you did not put this card into play this turn. If you and your opponent did not declare Combat on your previous turns, raise your Main Personality to his highest power stage and place 6 cards in your discard pile at the bottom of your Life Deck.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9b",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "dd8552ac-8f26-482f-bcf7-f7b482231080.jpg"
   },
@@ -1817,7 +1817,7 @@
     "Limit": "4",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "AK",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "73b27607-a156-43fb-89ab-f396313c9afc.jpg"
   },
@@ -1833,7 +1833,7 @@
     "Limit": "4",
     "Endurance": "3",
     "Set": "10 - Fusion Saga",
-    "index": "AA",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "4a67669b-58af-4cd7-ba21-e212eb74b92b.jpg"
   },
@@ -1848,7 +1848,7 @@
     "Text": "If you have Goku in play choose one of your Vegeta, Hercule, or Dende personality cards in play. If your Goku and the chosen personality are at the same personality level, they may fuse. Attach this card to the Fused personality. They only defuse when this card is no longer attached.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9M",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "2a3aa565-81e6-4b6d-bc3e-cd5937edf698.jpg"
   },
@@ -1863,7 +1863,7 @@
     "Text": "Use when your Main Personality advances a personality level or when you fuse. Your opponent skips his next \"Attacker Attacks\" phase. For the remainder of Combat, all of your attacks do +3 life cards of damage. Place the bottom 3 cards of your discard pile at the bottom of your Life Deck. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8f",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "dcf0b4c1-a4a2-41fa-9851-361b0dc7a262.jpg"
   },
@@ -1878,7 +1878,7 @@
     "Text": "Energy attack doing 5 life cards of damage. If successful, shuffle 5 Red Style cards in your discard pile into your Life Deck. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8g",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "e872ac25-4248-470c-a027-b3940909af70.jpg"
   },
@@ -1893,7 +1893,7 @@
     "Text": "Sensei Deck only. Physical attack doing +3 power stages of damage. For the remainder of Combat, all of your other attacks do +X power stages of damage. X = your MP's current personality level. Raise your anger 1 level. Shuffle into your Life Deck after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9N",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "ac72aabc-cb45-4b53-aeb6-87a024f588bc.jpg"
   },
@@ -1908,7 +1908,7 @@
     "Text": "Sensei Deck. Stops an energy attack. If you declared a Tokui-Waza and your opponent declared an Orange Tokui-Waza and your opponent has not performed a successful attack this Combat, stops the next 2 non-focused energy attacks your opponent performs this Combat.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8h",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "f3d17c59-db11-4e05-9dbb-0da24515196d.jpg"
   },
@@ -1923,7 +1923,7 @@
     "Text": "All of your attacks do +1 power stages of damage. When an opponent would shuffle one or more cards into his Life Deck, he must place them at the bottom of his Life Deck instead.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7n",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "da73c341-8b4f-4dd6-8b23-bd5a21c7a3d4.jpg"
   },
@@ -1938,7 +1938,7 @@
     "Text": "Energy attack doing +X power stages of damage. X = the Base Damage on the Physical Attack Table. Costs 3 power stages to perform. Raise your anger 1 level. If successful, place 3 Energy Combat cards in your discard pile on top of your Life Deck. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9O",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "38de6ea9-afd5-44ff-af8c-dde3bbe5612d.jpg"
   },
@@ -1953,7 +1953,7 @@
     "Text": "Energy attack doing 6 life cards of damage or lower your opponent's Main Personality 1 personality level. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9P",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "50d5904e-6ef3-4abf-b480-27a6df964dba.jpg"
   },
@@ -1968,7 +1968,7 @@
     "Text": "Stops a physical attack. If you declared a Tokui-Waza and your opponent's current anger level is 0, stops all physical attacks performed against you for the remainder of Combat. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "8i",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "2d2684b4-5343-4975-9d39-6552437b80db.jpg"
   },
@@ -1983,7 +1983,7 @@
     "Text": "Stops an energy attack. If you declared a Tokui-Waza and your anger level is 1 or higher, stops all energy attacks performed against you for the remainder of Combat. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "8j",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "3e2c16ed-8992-4956-a645-408e8edfe77b.jpg"
   },
@@ -1998,7 +1998,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Lower your opponent's anger 2 levels. Empower 3. Place all cards in your discard pile with \"Energy\" in the title at the bottom of your Life Deck. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8k",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "c466f397-7579-4a8e-bea4-d9f667d43ee8.jpg"
   },
@@ -2014,7 +2014,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "8l",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "03d27907-5fbb-4a21-94e2-354e22f3cd4b.jpg"
   },
@@ -2029,7 +2029,7 @@
     "Text": "Energy attack doing 5 life cards of damage. For the remainder of Combat, your opponent cannot use Endurance again your Red Style attacks. If successful, raise your anger 2 levels.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8m",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "cfda7f9b-60fe-426b-8a6a-b17468d9de6e.jpg"
   },
@@ -2045,7 +2045,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "7o",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "d77af159-8415-477c-87e5-9384a788292c.jpg"
   },
@@ -2061,7 +2061,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "9Q",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "a7fb4d32-79fe-4517-84ae-a2aee4d9e3bd.jpg"
   },
@@ -2076,7 +2076,7 @@
     "Text": "(This card does not cause you to have an illegal deck because of the hero/villain alignment.) If your Main Personality is a villain, he is a hero until the end of the turn. If your Main Personality is a hero, he is a villain until the end of the turn.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8n",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "ac6cc479-a6da-4e7e-81fa-1d0b06d9d598.jpg"
   },
@@ -2092,7 +2092,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "7p",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "5328f67d-7604-4518-99ea-a4bfcd49dbb2.jpg"
   },
@@ -2107,7 +2107,7 @@
     "Text": "Energy attack. Costs 1 power stage to perform. If your opponent preformed a successful energy attack in his previous \"Attacker Attacks\" phase, this attack does the same amount of damage that his attack dealt. Damage from this attack cannot be modified by your other effects.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "AC",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "cc6d90bf-ec11-4af4-a877-2892e891113c.jpg"
   },
@@ -2122,7 +2122,7 @@
     "Text": "(When you perform a physical attack, you may discard this card from your hand to have that attack do an additional +4 power stages of damage and raise your anger 1 level.) Physical attack doing +3 power stages of damage. Empower 2. For the remainder of Combat, when you use Empower, you still use all of the effects after the Empower.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8o",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "70d212e0-8e9a-421d-850c-e7dbbe95b5d5.jpg"
   },
@@ -2137,7 +2137,7 @@
     "Text": "Stops an energy attack. If you declared a Tokui-Waza, for the remainder of Combat, during your \"Defender Defends\" phase you may discard a card from your hand to stop an energy attack. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "8p",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "4f481640-072d-4abc-a59f-81e9b0d0023e.jpg"
   },
@@ -2152,7 +2152,7 @@
     "Text": "Sensei Deck. Energy attack doing 5 life cards of damage. Raise your anger 1 level. Empower 2. If you declared a Tokui-Waza and your opponent declared a Black Tokui-Waza, for the remainder of Combat, your opponent's Combat, Physical Combat, and Energy Combat cards cost +1 power stage to use. Shuffle into your Life Deck after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8q",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "24b0dc8e-5336-4610-afe0-5eadf50a91b1.jpg"
   },
@@ -2168,7 +2168,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "8r",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "ab423550-ec24-42eb-8cf9-89fefea3ba96.jpg"
   },
@@ -2184,7 +2184,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "8s",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "a232456b-582d-4351-8388-dc3975192db8.jpg"
   },
@@ -2199,7 +2199,7 @@
     "Text": "Stops an energy attack. Lower your opponent's anger 1 level. Your opponent must skip his next \"Attacker Attacks\" phase. Shuffle into your Life Deck after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7q",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "5c3a45bd-83d6-4c0e-933b-5b9b6877759b.jpg"
   },
@@ -2214,7 +2214,7 @@
     "Text": "Sensei Deck only. Energy attack doing +2 power stages of damage. If the personality performing this attack has a higher power rating than your opponent's MP's power rating, this attack costs 0 power stages to perform. Lower your opponent's anger 1 level. This attack stays on the table to be used 1 more time this Combat. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9R",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "7255d82a-5ee6-460f-8bf2-7ed8061e694c.jpg"
   },
@@ -2229,7 +2229,7 @@
     "Text": "Use only if your Main Personality has a higher power rating than your opponent's Main Personality. Stops a physical attack. If you declared a Tokui-Waza, this card stays on the table to be used multiple times this Combat. Remove from the game at the end of Combat. Limit 1 per deck.",
     "Limit": "1",
     "Set": "10 - Fusion Saga",
-    "index": "8t",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "80462166-2f85-48bf-b208-27d85616fd62.jpg"
   },
@@ -2244,7 +2244,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Empower 2. Search your Life Deck for 1 copy of a Saiyan Style Drill that adds damage to your attacks and place it into play. Lower your opponent's anger 2 levels.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7r",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "2594a106-81c3-4513-a833-551b87361917.jpg"
   },
@@ -2260,7 +2260,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "8u",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "8d2c971f-131b-4f5e-843c-2e0e6dbf0ffd.jpg"
   },
@@ -2276,7 +2276,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "7s",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "a91d563d-312d-4580-8f3c-e4a0010c7855.jpg"
   },
@@ -2291,7 +2291,7 @@
     "Text": "Energy attack doing 6 life cards of damage. If your Main Personality has a higher power rating than your opponent's Main Personality, this is a focused attack. For the remainder of Combat, when you use Endurance, your Main Personality gains 1 power stage.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8v",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "b63ae995-28ed-4eda-8373-bad9f23460bf.jpg"
   },
@@ -2306,7 +2306,7 @@
     "Text": "The cost of this card is discarding a card from your hand. Search the bottom 7 cards of your Life Deck for a Combat, Physical Combat, or Energy Combat card that can perform an attack. Immediately use that card and remove it from the game after use. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8w",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "997e9765-692c-4b53-9df1-319ccf410edf.jpg"
   },
@@ -2322,7 +2322,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "9S",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "46872ba2-c5c3-4dd4-9ba5-8d58081e558f.jpg"
   },
@@ -2339,7 +2339,7 @@
     "Limit": "0",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "9o",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "82ab62cf-32e4-4632-8d0f-f8fd2205bb5e.jpg"
   },
@@ -2356,7 +2356,7 @@
     "Limit": "0",
     "Card Level": "2",
     "Set": "10 - Fusion Saga",
-    "index": "9p",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "ce38354a-c72b-4046-91e2-f9865b91499b.jpg"
   },
@@ -2373,7 +2373,7 @@
     "Limit": "0",
     "Card Level": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9q",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "19ae6342-6ce9-4c26-976b-5d04b2fdb303.jpg"
   },
@@ -2388,7 +2388,7 @@
     "Text": "You cannot use this card during your first \"Attacker Attacks\" phase in Combat. If you have passed in all of your \"Attacker Attacks\" phases so far this Combat, place 5 cards in your discard pile at the bottom of your Life Deck and raise your Main Personality to his highest power stage. Remove from the game after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9n",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "2bcdc13b-71fd-4276-8a01-20f146eab141.jpg"
   },
@@ -2403,7 +2403,7 @@
     "Text": "For the remainder of Combat, when you prevent damage from an attack you may prevent twice as much damage from the attack.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7t",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "f8736691-f202-4309-b330-1d02a76ec907.jpg"
   },
@@ -2418,7 +2418,7 @@
     "Text": "You may search your Life Deck for a Namek Dragon Ball and place it into play, or you may use this card to win the game when you have 7 Namek Dragon Balls in play and your opponent uses a card to delay your Dragon Ball Victory. Remove from the game after use. Limit 2 per deck.",
     "Limit": "2",
     "Set": "10 - Fusion Saga",
-    "index": "9c",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "6c5337ab-25ef-42b6-b20d-7b895b262044.jpg"
   },
@@ -2434,7 +2434,7 @@
     "Limit": "4",
     "Endurance": "0",
     "Set": "10 - Fusion Saga",
-    "index": "7u",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "d4a32529-e25b-4cd8-aa1b-142e9f14e389.jpg"
   },
@@ -2449,7 +2449,7 @@
     "Text": "Use at the end of Combat. You cannot win by the Most Powerful Personality Victory for the remainder of the game. Advance or lower your Main Personality's personality level to X. X = your current anger. If X is higher than your MP's highest level, your MP advances to his highest level. If X = 0, then lower your MP to his lowest level.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9T",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "208da0b0-2373-4e7e-8fd7-6ab66812d581.jpg"
   },
@@ -2472,7 +2472,7 @@
       }
     ],
     "Set": "10 - Fusion Saga",
-    "index": "A7",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "c1b714ec-50a5-4c3a-9410-2fbdaa7211d3.jpg"
   },
@@ -2489,7 +2489,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "9x",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "96709977-7a50-4463-a762-3efe88c94df1.jpg"
   },
@@ -2506,7 +2506,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "10 - Fusion Saga",
-    "index": "9y",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "0f3a5752-d4ac-43dd-8b5e-973d5f580a1f.jpg"
   },
@@ -2523,7 +2523,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9z",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "12d82ecb-3b8b-4822-a3ff-89d5c5aee4ca.jpg"
   },
@@ -2538,7 +2538,7 @@
     "Text": "If your Main Personality's highest power rating is below 500,000, then prevent 2 life cards of damage from all attacks your opponent performs, and all attacks do +1 power stages of damage.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7v",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "141c5f0d-2a24-4aae-ada0-260a4992a971.jpg"
   },
@@ -2554,7 +2554,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "7w",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "a2197811-a63d-46a1-88ec-94a1846fb9c9.jpg"
   },
@@ -2569,7 +2569,7 @@
     "Text": "Main Personalities only. If one of your MP's higher personality levels has a Constant Combat Power, you may use that Constant Combat Power for the remainder of the turn. You may only choose 1 Constant Combat Power for each copy of \"Unlocked Potential\" used.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "8x",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "ce52017c-9db6-4843-87b2-b61ea5421787.jpg"
   },
@@ -2585,7 +2585,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "10 - Fusion Saga",
-    "index": "7x",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "9b45298b-efd3-4333-a29d-985ab7e2b7f8.jpg"
   },
@@ -2601,7 +2601,7 @@
     "Limit": "4",
     "Endurance": "2",
     "Set": "10 - Fusion Saga",
-    "index": "8z",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "47ab3b5e-0056-4a5a-8437-aec2c8e476bd.jpg"
   },
@@ -2616,7 +2616,7 @@
     "Text": "Vegeta and Majin Vegeta only. Attach to your \"Majin Vegeta's Rage\" that is attached to a \"Vegeta's Quickness Drill.\" While attached, all your Freestyle cards (excluding Non-Combat cards) gain \"Remove from the game after use\" and when you draw cards with \"Majin Vegeta's Rage\" and \"Vegeta's Quickness Drill\" you may choose the cards in your discard pile instead.",
     "Limit": "4",
     "Set": "10 - Fusion Saga",
-    "index": "9U",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "2b8cd893-ae5d-4276-8432-856b88db019f.jpg"
   },
@@ -2633,7 +2633,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "9k",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "e8892c35-7913-4b35-b00b-7ca136c45bc5.jpg"
   },
@@ -2650,7 +2650,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "9V",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "f35916a7-fde8-46d2-80fd-38b0a6714a27.jpg"
   },
@@ -2665,7 +2665,7 @@
     "Text": "Energy attack doing 5 life cards of damage. If used by a Fused Personality, this attack does an additional +X life cards of damage. X the Base Damage on the Physical Attack Table. Place this card and the bottom 2 cards of your discard pile at the bottom of your Life Deck after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7y",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "f3e8ff5d-26d8-4967-b32d-b605c459b7b1.jpg"
   },
@@ -2680,7 +2680,7 @@
     "Text": "Focused physical attack doing +X power stages of damage. X = the attacking personality's PUR and personality level added together. Raise your anger 1 level. If used by a Fused Personality, place this card amd the bottom card of your discard pile at the bottom of your Life Deck after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "7z",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "a9bdcd5d-f2e8-4f28-9257-7d574b0cad9a.jpg"
   },
@@ -2695,7 +2695,7 @@
     "Text": "Stops a physical attack. Lower your opponent's anger 1 level. If used by a Fused Personality, raise your Main Personality to his highest power stage, remove your opponent's discard pile from the game, and place this card at the bottom of your Life Deck after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "80",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "15077fb3-95ab-4b64-9c07-904a931a93e8.jpg"
   },
@@ -2710,7 +2710,7 @@
     "Text": "Physical attack doing +4 power stages of damage. Lower your opponent's anger 1 level. If used by a Fused Personality, damage from this attack cannot be prevented, gain 3 power stages, and place this card at the bottom of your Life Deck after use.",
     "Limit": "3",
     "Set": "10 - Fusion Saga",
-    "index": "81",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "19be5e7c-964e-4b01-8777-786af6417146.jpg"
   },
@@ -2727,7 +2727,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "10 - Fusion Saga",
-    "index": "9X",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "6c5a2423-4636-4461-b304-d84ba5095c97.jpg"
   },
@@ -2744,7 +2744,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "90",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "8c1943b1-6e92-4a95-8cb4-09e4c1689189.jpg"
   },
@@ -2761,7 +2761,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "10 - Fusion Saga",
-    "index": "9u",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "29ded85f-41af-4657-a87f-40fc68569bc0.jpg"
   },
@@ -2778,7 +2778,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "10 - Fusion Saga",
-    "index": "9w",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "3cbd40b0-e929-44a3-a5df-9c9e2aeea397.jpg"
   },
@@ -2795,7 +2795,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "10 - Fusion Saga",
-    "index": "9v",
+    "Designer": "Official",
     "set_id": "22ac7b37-6694-4237-8ca4-e7e64877214b",
     "image": "756cf635-92bf-408b-b5d1-33b80f9c1af2.jpg"
   }

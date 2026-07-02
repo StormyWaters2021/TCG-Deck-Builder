@@ -10,7 +10,7 @@
     "Text": "Increase the anger of a level 1 or 2 personality by 1 and discard this card from the game.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "d9",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "11a82a97-5c69-4b67-8612-f567d17efdd5.jpg"
   },
@@ -25,7 +25,7 @@
     "Text": "Your opponent discards one life card for every Ally you have in play. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dl",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "a5a0523c-d33d-47d1-bf40-9edd352e7951.jpg"
   },
@@ -40,7 +40,7 @@
     "Text": "Stops all of your opponent's physical and energy attacks for the remainder of Combat. Remove one of your Allies in play from the game to use this card.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ca",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "59e28d01-c602-49bb-806e-e271bb50e4a9.jpg"
   },
@@ -55,7 +55,7 @@
     "Text": "Forces every Villain opponent to constantly show his hand of cards face up at all times.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dg",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "0f50a509-a5e3-4790-8dc2-d204a9695d35.jpg"
   },
@@ -70,7 +70,7 @@
     "Text": "Use when needed. Your opponent discards 3 cards from his Life Deck. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dh",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "2e849798-54b6-4067-9976-383007252fac.jpg"
   },
@@ -85,7 +85,7 @@
     "Text": "Draw the top 2 cards from your discard pile. Your opponent's Main Personality gains 5 power stages. Remove from game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "dM",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "89484f4d-27c2-4bd2-a0a5-a155a0b0a58a.jpg"
   },
@@ -100,7 +100,7 @@
     "Text": "Stops the first energy attack made on you in a combat. Can't be used with any other Orange drills in play anywhere on the table.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cF",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "038f136f-80fd-420a-85c2-65de0b855193.jpg"
   },
@@ -115,7 +115,7 @@
     "Text": "Stops a foe's energy attack. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bE",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "660cee29-3a9d-4437-be41-74109e317a74.jpg"
   },
@@ -130,7 +130,7 @@
     "Text": "Energy Attack doing 6 life card draws of damage and costing 5 power stages to perform. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bD",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "6ef5eb14-24d7-40fe-8ce4-28dc45d89ca6.jpg"
   },
@@ -145,7 +145,7 @@
     "Text": "All of your physical attacks do +2 power stages of damage.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cB",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "51c28f24-3976-4add-89ab-6491cfe3f917.jpg"
   },
@@ -160,7 +160,7 @@
     "Text": "All energy attacks performed against you, do 1 less life card of damage, to a minimum of 0.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cW",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "ba383a3f-c27c-4ff3-b847-c777517a31af.jpg"
   },
@@ -175,7 +175,7 @@
     "Text": "Stops a foe's physical attack. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "b9",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "0cf47fe8-443e-48b9-a9e9-faf541bc0ac9.jpg"
   },
@@ -190,7 +190,7 @@
     "Text": "Energy attack doing 6 life cards of damage. If successful, your opponent loses 3 power stages, to a minimum of 0.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "b7",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "201b1f74-165e-47f5-885f-7f0d9783657f.jpg"
   },
@@ -205,7 +205,7 @@
     "Text": "After receiving damage from an energy attack, you may draw the bottom card of your discard pile. Cannot be used with any other Black Drills in play.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cG",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "5fc2d51f-13bb-403e-a2c5-7d67c578a290.jpg"
   },
@@ -220,7 +220,7 @@
     "Text": "Energy Attack doing 5 life card draws in damage and costing 4 stages to perform. Raise card user's anger level 2.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bA",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "8b07ce22-8bce-4021-af79-c4144adf8fbe.jpg"
   },
@@ -235,7 +235,7 @@
     "Text": "Energy Attack. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bG",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "b8fe1773-a947-49b0-b71e-99a5684c4378.jpg"
   },
@@ -250,7 +250,7 @@
     "Text": "Energy Attack doing 4 life card draws of damage or stopping any energy attack.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "b8",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "e877d457-2aaa-4b88-b878-1c017d26e4a5.jpg"
   },
@@ -265,7 +265,7 @@
     "Text": "All physical attacks performed against you, do 1 less power stage of damage, to a minimum of 0. Cannot be used with other Black Drills in play.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cN",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "a0a01c10-3b89-48d3-9984-4b8479d21ef8.jpg"
   },
@@ -280,7 +280,7 @@
     "Text": "Stops a foe's energy attack. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bF",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "8d7eef4f-580c-4fcc-9a89-f0592b383987.jpg"
   },
@@ -295,7 +295,7 @@
     "Text": "Allows the card owner to take 2 less stages of power drain from a successful physical attack.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dr",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "5cd7c134-6eff-427d-b354-ed1e5909d42c.jpg"
   },
@@ -310,7 +310,7 @@
     "Text": "Stops a foe's physical attack. Raise card user's anger level 2.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bB",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "595b3068-a726-4ef9-a8a7-d23b81db7aac.jpg"
   },
@@ -325,7 +325,7 @@
     "Text": "All of your physical attacks do +2 power stages of damage.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cR",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "e36e0db2-7b14-404f-abef-2292cc403fa9.jpg"
   },
@@ -340,7 +340,7 @@
     "Text": "Once per Combat, you may draw a card after performing a successful attack.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "c7",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "506c0547-c936-4a51-bd19-de071acab2f0.jpg"
   },
@@ -355,7 +355,7 @@
     "Text": "Energy Attack doing 5 life card draws of damage or stops a physical attack. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bC",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "f6e5fc61-b55a-4f63-a6b0-a1d578699a87.jpg"
   },
@@ -370,7 +370,7 @@
     "Text": "Increase your anger level by 2. Take the top 2 cards from your discard pile and place them at the bottom of your life deck.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bf",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "5f348a1f-51bd-469a-a9ab-f9bf1f7294d7.jpg"
   },
@@ -385,7 +385,7 @@
     "Text": "Stops a physical attack. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "b1",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "56ab9909-801e-4843-9add-81ed0d08dab5.jpg"
   },
@@ -400,7 +400,7 @@
     "Text": "Stops an energy attack. Lower foe's anger level by 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "b5",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "2b25e9e3-6e11-482a-a2f5-773ff13dbb91.jpg"
   },
@@ -415,7 +415,7 @@
     "Text": "Stops a physical attack. Lower foe's anger level by 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "b3",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "11991a94-5982-47ba-91a6-dd7502fbaad9.jpg"
   },
@@ -430,7 +430,7 @@
     "Text": "All physical attacks performed against you do 2 less power stages of damage, to a minimum of 0.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cP",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "bff2e5dc-3bc3-4e57-b328-f3b4ae8be431.jpg"
   },
@@ -445,7 +445,7 @@
     "Text": "For every life card you lose in combat, your foe loses 1 power stage, down to 0.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cI",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "00127950-9893-4ea2-b656-f1975d09d72a.jpg"
   },
@@ -460,7 +460,7 @@
     "Text": "When entering Combat as the defender, you may gain up to 3 power stages.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "c9",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "ae0295eb-e9cc-4b33-89f8-bff0e08c4e64.jpg"
   },
@@ -475,7 +475,7 @@
     "Text": "Once per Combat, if your opponent has an Ally in play, you may take 1 less life card of damage from any physical attack.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cL",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "d1ad2f4f-8f60-462a-8b30-dd8d79493575.jpg"
   },
@@ -490,7 +490,7 @@
     "Text": "Physical Attack doing +4 stages of damage. If successful, this attack stops any energy attack from an opponent in his next phase. Lower foe's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aF",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "f72ce77a-d8d5-48bb-ae04-fc796ee9b1f5.jpg"
   },
@@ -505,7 +505,7 @@
     "Text": "Stops a physical attack. Lowers foe's anger level by 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "b6",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "99c38d81-1f00-4060-84be-52b1ad8a1e6e.jpg"
   },
@@ -520,7 +520,7 @@
     "Text": "Physical Attack doing +2 stages of damage if successful. Stops a foe's physical attack on their next round. Lower foe's anger level by 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aG",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "cc4472d0-d7bb-4abb-a5d6-f6354f1cb1e0.jpg"
   },
@@ -535,7 +535,7 @@
     "Text": "Stops a physical attack. Lower foe's anger level by 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "b4",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "21d22a77-c2eb-4700-8453-5d2ee862edb0.jpg"
   },
@@ -550,7 +550,7 @@
     "Text": "Drill prevents 1 life card of damage from being taken whenever a successful attack happens on the card owner.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dp",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "30862426-67f6-40a1-8057-e7abdcdfc3ef.jpg"
   },
@@ -565,7 +565,7 @@
     "Text": "All of your physical attacks do +3 power stages of damage. Cannot be used with any other Blue Drills in play.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cU",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "49bf0208-1a4d-4b94-a8ec-f66bcb8fc984.jpg"
   },
@@ -580,7 +580,7 @@
     "Text": "All of your physical attacks do +1 power stages of damage.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "c5",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "9746102d-b92b-48a7-9ea7-683dc9e81e60.jpg"
   },
@@ -595,7 +595,7 @@
     "Text": "Stops the foe's physical attack. Lower foe's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "b2",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "ff4d65be-72ca-4eae-b335-0aa2865fbe78.jpg"
   },
@@ -610,7 +610,7 @@
     "Text": "Do the exact same physical attack you defended against during your defending round of combat once per combat.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cD",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "269f8f32-3b54-4492-ba2c-f627ff9724c9.jpg"
   },
@@ -625,7 +625,7 @@
     "Text": "Physical Attack doing +5 stages of damage if successful or stops an energy attack. Lower foe's anger level by 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aH",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "07ecd589-5baa-411c-9b76-991ec6566b78.jpg"
   },
@@ -640,7 +640,7 @@
     "Text": "Physical Attack doing +1 stage of damage if successful. Raises your anger level by 1 and lowers foe's anger level by 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aI",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "50102a55-2fd5-43f6-914c-e2124c2dbca8.jpg"
   },
@@ -655,7 +655,7 @@
     "Text": "Your power level was miscounted. Raise it to full power. Discard this from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dR",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "b6bd714e-5642-4a8e-9583-63fb19c540b1.jpg"
   },
@@ -672,7 +672,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "bT",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "b322919a-f7b7-4ffc-a5c6-db09b1c47ba1.jpg"
   },
@@ -687,7 +687,7 @@
     "Text": "When the Bulma ally is in play, use this card to capture a Dragon Ball. Discard from the game after use. This card is not treated as a Dragon Ball.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "de",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "480254ce-caf5-4270-a63c-8b0720ab7c02.jpg"
   },
@@ -702,7 +702,7 @@
     "Text": "When the Bulma ally is in play, pick a drill from the life deck or the discards and put it into play. This card is not treated as a Drill.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "df",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "ab10439b-2bfd-40b7-aa40-49cf9a1971d9.jpg"
   },
@@ -717,7 +717,7 @@
     "Text": "Increase your anger level by 2. Take the bottom 2 cards from your discard pile and place them at the bottom of your life deck. Discard this card from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aR",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "3e1b2c92-ddad-4729-9700-7aa309bbc7f9.jpg"
   },
@@ -734,7 +734,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "bS",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "df6925b0-cb8c-4fd7-be6d-b3be1940a9a9.jpg"
   },
@@ -751,7 +751,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "bk",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "9a3872b0-93e7-41a7-9703-17e47cb36d6e.jpg"
   },
@@ -768,7 +768,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "bl",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "03a7510a-d901-4c9a-86c6-cfffec863d27.jpg"
   },
@@ -783,7 +783,7 @@
     "Text": "All physical attacks performed against you, do 1 less power stage of damage, to a minimum of 0.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "dm",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "94d2cb1c-19ee-498e-b3bc-82a2921bf3f1.jpg"
   },
@@ -798,7 +798,7 @@
     "Text": "Energy attack forcing 3 draws from the life deck. Remove from the game after use. Card limited to 1 per deck.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "c3",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "151e1373-4f3b-4622-81da-d92302e23362.jpg"
   },
@@ -813,7 +813,7 @@
     "Text": "Stops all heroes from losing 1 life card of damage from every attack for the remainder of Combat. Remove from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "e6",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "f2b17bc7-2b50-4f0d-8164-5b519e7725a6.jpg"
   },
@@ -828,7 +828,7 @@
     "Text": "Set your opponent’s anger at 0. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dI",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "c62e98ef-c3f1-4673-a4bd-ea511694cb18.jpg"
   },
@@ -843,7 +843,7 @@
     "Text": "Heroes only. 2 discards of the user's choice are placed at the bottom of your life deck. Discard from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bV",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "dc053982-72fa-40fc-a418-9668d0af106a.jpg"
   },
@@ -858,7 +858,7 @@
     "Text": "End Combat. Place the bottom card of your discard pile at the bottom of your Life Deck. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dH",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "734cdfa7-927d-4ccd-933b-320c4af7963a.jpg"
   },
@@ -873,7 +873,7 @@
     "Text": "This battle never happened. Start all over with new cards and reset all damage to beginning levels. Limit 1 per deck.",
     "Limit": "0",
     "Set": "01 - Saiyan Saga",
-    "index": "dy",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "67497353-2d47-4586-a28f-7769ff21a076.jpg"
   },
@@ -888,7 +888,7 @@
     "Text": "Instantly power up to full and draw a card.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "aJ",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "4a846889-8f37-4efe-8f6d-682af4d8b333.jpg"
   },
@@ -903,7 +903,7 @@
     "Text": "All foes have their power rating changed to 2 stages higher than 0.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "aK",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "eb79a593-49b5-4226-b03c-d0197b7b9ecf.jpg"
   },
@@ -918,7 +918,7 @@
     "Text": "Draw three cards if you wish, and place the top discarded card at the bottom of your life deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "bH",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "bb8ba7ee-64dc-43e0-8fb9-c4f48d27feda.jpg"
   },
@@ -933,7 +933,7 @@
     "Text": "Raise your anger 2 levels. The first combat your opponent declares while you control Earth Dragon Ball 4 is skipped. (They do not rejuvenate).",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "bI",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "6da7b8ba-78b8-4722-99c7-17b6d562e4ad.jpg"
   },
@@ -948,7 +948,7 @@
     "Text": "Raise any one of your personalities to his highest power stage. Raise your anger 2 levels. Draw 2 cards. Place the top 2 cards of your discard pile at the bottom of your Life Deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "bJ",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "3203cd4a-f226-4708-b307-4b1c8ac8c87a.jpg"
   },
@@ -963,7 +963,7 @@
     "Text": "Lower your opponent's anger 2 levels. Once while you control Earth Dragon Ball 6, during your Attack Phase, you may end combat and raise your main personality to its highest power stage. (This power remains active until used.)",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "d4",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "abef6dd4-c9b2-4ddd-9b75-94c6bbaf192f.jpg"
   },
@@ -978,7 +978,7 @@
     "Text": "During your Attackers Attack phase, you may play this card from your hand to end combat. Choose 3 cards in your discard pile and place them on top of your life deck. Lower your opponent's anger 2 levels.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "d5",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "bdbbd7d9-60c9-491a-b15a-0d972f7d5a9b.jpg"
   },
@@ -993,7 +993,7 @@
     "Text": "Capture an opponent's Dragon Ball.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "d6",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "dcf8825e-74b2-40c7-bf84-baeab30a3aa7.jpg"
   },
@@ -1008,7 +1008,7 @@
     "Text": "Energy attack. If successful, capture a Dragon Ball.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "d7",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "1ce9577f-0c70-449c-abaf-f4c549868891.jpg"
   },
@@ -1023,7 +1023,7 @@
     "Text": "Increase your anger level by 2. Select 2 cards from your discard pile and place them at the bottom of your Life Deck. Discard this card from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "d8",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "35a4dd14-07b1-4ed2-bed4-8cf2fd140c90.jpg"
   },
@@ -1038,7 +1038,7 @@
     "Text": "Use when needed. After you perform a successful energy attack, search your Life Deck for a Dragon Ball then place it in play and capture a Dragon Ball from your opponent. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "cb",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "797edd19-90b4-4992-ab1a-f63c3a2245a6.jpg"
   },
@@ -1053,7 +1053,7 @@
     "Text": "Defense Shield: Stops the first unstopped physical attack performed against you this Combat. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aY",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "93d7051a-3fef-46df-a909-5d559def5585.jpg"
   },
@@ -1068,7 +1068,7 @@
     "Text": "Defense Shield: Stops the first unstopped energy attack performed against you this Combat. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aZ",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "324e080e-1ce1-47db-8771-7662ac3e8922.jpg"
   },
@@ -1082,7 +1082,7 @@
     "Text": "Fusion Saga Physical Attack Table.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "a4",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "61e0cede-dcc3-4e11-ae89-139c2ea8ed64.jpg"
   },
@@ -1099,7 +1099,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "ci",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "52677fcc-cde6-4cf3-81a8-76487d56b090.jpg"
   },
@@ -1116,7 +1116,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "cj",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "e3b360c0-9d9a-4a47-bfe5-f8d1420fc972.jpg"
   },
@@ -1133,7 +1133,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ck",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "dbcb1dca-ed0f-4e57-8cf3-8ee4a19f534e.jpg"
   },
@@ -1150,7 +1150,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "eB",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "82b842c1-76da-449d-8eae-c0239fe31422.jpg"
   },
@@ -1167,7 +1167,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "cz",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "32d1e312-131f-42ad-9574-34af740c0121.jpg"
   },
@@ -1182,7 +1182,7 @@
     "Text": "Stops an energy attack. Raise your anger 1 level.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "br",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "94707836-8ffe-46e8-b54d-e0cdc01df6ec.jpg"
   },
@@ -1197,7 +1197,7 @@
     "Text": "If Gohan is Goku's ally, he stops the foe's combat turn. Discard after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "dW",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "0add620c-a9b4-4c0a-bfee-66aeb8e5d2b6.jpg"
   },
@@ -1212,7 +1212,7 @@
     "Text": "Physical attack, Raise your anger 1. Gain 5 power stages.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "aU",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "0986baa7-79a6-4f2f-9b85-39220ef5f933.jpg"
   },
@@ -1229,7 +1229,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "cc",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "24e13af9-e043-4219-8ee3-d8530a6eeb5c.jpg"
   },
@@ -1246,7 +1246,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "cd",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "b13a70d0-6a62-480e-a7aa-95435a19eba5.jpg"
   },
@@ -1263,7 +1263,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ce",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "11684adf-f295-4c81-b183-4966ff21aef0.jpg"
   },
@@ -1280,7 +1280,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "e7",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "ed2ba9b5-5a6f-4513-baf2-86d1d3e19378.jpg"
   },
@@ -1295,7 +1295,7 @@
     "Text": "Physical attack doing double the base damage.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "ao",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "d7cd6d2d-2cf8-49f6-94a2-d2d1eb066e74.jpg"
   },
@@ -1310,7 +1310,7 @@
     "Text": "Physical attack doing 1 life card of damage.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "am",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "c181103f-6e9f-497c-9bec-15ed6fbf52c1.jpg"
   },
@@ -1325,7 +1325,7 @@
     "Text": "Energy defense stopping a foe's physical attack. Discard from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "cX",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "691366c7-2d9a-4cd7-aa0b-cf15e114165a.jpg"
   },
@@ -1340,7 +1340,7 @@
     "Text": "Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bh",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "344ba062-0a88-4392-8876-ce7fa08678f1.jpg"
   },
@@ -1357,7 +1357,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "cx",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "a73f85be-5e32-4395-81d8-1dc6259c2d65.jpg"
   },
@@ -1372,7 +1372,7 @@
     "Text": "Dragon Balls you control may not be captured while this Drill is in play",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dt",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "a1614215-836c-4407-a399-81e123ae72f6.jpg"
   },
@@ -1387,7 +1387,7 @@
     "Text": "Prevents 3 life cards from being discarded from a successful energy attack. If used by Goku, it stays on the table to be used one more time this combat.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bo",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "fe7d34b7-bcd3-4589-a258-0e5128c6eaf6.jpg"
   },
@@ -1402,7 +1402,7 @@
     "Text": "Search your Life Deck for a Dragon Ball and place it into play. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "dK",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "a4e36f28-ca91-408b-9721-dc101371629d.jpg"
   },
@@ -1417,7 +1417,7 @@
     "Text": "Allows multiple colors of drills to be used at the same time.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "dn",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "911b8f74-8a1c-4421-a363-c869c92013d6.jpg"
   },
@@ -1432,7 +1432,7 @@
     "Text": "Physical attack. If successful, draw the bottom card from your discard pile. If used by Goku, it stays in play to be used one more time this Combat. Remove from the game after use. Limit 2 per deck.",
     "Limit": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "aT",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "bc0b5d8e-9ba6-4ba9-9b97-6355e05863b3.jpg"
   },
@@ -1447,7 +1447,7 @@
     "Text": "Energy attack doing 5 life cards of damage for no power cost.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "e4",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "2fec40a2-d04f-463b-acc0-1e98b1b945f1.jpg"
   },
@@ -1462,7 +1462,7 @@
     "Text": "Physical attack doing 5 power stages of damage.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "aS",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "9499e5fc-00ca-4f70-8a38-a8722f97881d.jpg"
   },
@@ -1477,7 +1477,7 @@
     "Text": "Use after you perform a successful physical attack to capture an opponent's Dragon Ball. Remove from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "aq",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "9796fe49-242f-4061-aa08-716347e7bb54.jpg"
   },
@@ -1492,7 +1492,7 @@
     "Text": "Stops a successful energy or physical attack.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "e3",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "96aebb29-8a67-4ca7-94c9-fa85b43e122e.jpg"
   },
@@ -1507,7 +1507,7 @@
     "Text": "Reduce the foe's power level by 4 stages, or to 0, whichever happens first. Discard this card from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dN",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "5fb0799b-eebb-4c95-be1c-dea2582c360c.jpg"
   },
@@ -1522,7 +1522,7 @@
     "Text": "Heroes only. Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the top 3 cards from your discard pile. If there are not enough cards in the discard pile, this card cannot be used. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dD",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "c1b93487-ed1d-4cd9-90f1-19efc58483a7.jpg"
   },
@@ -1537,7 +1537,7 @@
     "Text": "Physical attack. Raise your Main Personality to his highest power stage.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aL",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "69c171af-b6dc-4e43-b39d-eb8d0d8ade66.jpg"
   },
@@ -1552,7 +1552,7 @@
     "Text": "Defense Shield: Stops the first unstopped energy or physical attack performed against you this Combat. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ab",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "185dd11b-ac87-43ad-a65c-0e2b5b3a890c.jpg"
   },
@@ -1567,7 +1567,7 @@
     "Text": "Heroes only. Choose 2 cards from your discard pile and place them on the bottom of your Life Deck.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bL",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "c2c12ce8-44ad-410f-9c42-40fe51d2485a.jpg"
   },
@@ -1582,7 +1582,7 @@
     "Text": "The uniform prevents 1 life card discard from any successful physical attack that would have normally forced 1 or more discards. Limit one per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "bU",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "595d9390-9529-470f-9909-cd7ec53d4734.jpg"
   },
@@ -1597,7 +1597,7 @@
     "Text": "Use at the end of any turn. If your opponent's Main Personality is at Level 3, lower his Main Personality one personality level. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "du",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "064e6341-e277-45cc-bdee-14b656f7e0eb.jpg"
   },
@@ -1614,7 +1614,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "cl",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "09b7a94e-3fb4-4498-a10a-85891306eed6.jpg"
   },
@@ -1631,7 +1631,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "cm",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "dbcdafa8-81d2-4755-9186-c36ec450eec2.jpg"
   },
@@ -1648,7 +1648,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cn",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "0a3c17c6-4fac-44a7-a679-d2036c3ce785.jpg"
   },
@@ -1665,7 +1665,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "eC",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "cf11319b-6224-44ba-9102-eb054bf7b3b4.jpg"
   },
@@ -1682,7 +1682,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "d0",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "60423df4-2c80-4102-ba96-9d12b6619897.jpg"
   },
@@ -1697,7 +1697,7 @@
     "Text": "Does an extra life card of damage with each successful attack.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "dX",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "ec305571-faad-4d3d-b926-771162de8df3.jpg"
   },
@@ -1712,7 +1712,7 @@
     "Text": "Energy attack doing 2 draws from the life card deck if not stopped. If used by Krilling, this card stays on the table to be used one more time in this combat.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bt",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "5a059bf6-8969-4960-aec5-4420dc123242.jpg"
   },
@@ -1727,7 +1727,7 @@
     "Text": "Energy attack doing 4 life cards of damage at a cost of 1 stage.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "dY",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "6b8adac8-9c74-4bf1-8e87-e5ada2ff005c.jpg"
   },
@@ -1742,7 +1742,7 @@
     "Text": "Play this card as a defense. If your opponent's attack does life cards of damage to you, you may take the first life card of damage from that attack and place it in your hand instead of discarding it. If used by Krillin, this card stays in play to be used on more time this Combat.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bs",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "3bff999c-3855-491d-a594-fdd8cdff2718.jpg"
   },
@@ -1757,7 +1757,7 @@
     "Text": "Place the top 3 discard cards at the bottom of the life card deck. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "e5",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "27e72df7-11a9-4bfa-9f5b-ef1490f0fec3.jpg"
   },
@@ -1772,7 +1772,7 @@
     "Text": "When entering Combat, you may shuffle your Life Deck or discard pile.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cT",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "bea6a9b1-d979-4b3f-ae96-c35332684778.jpg"
   },
@@ -1787,7 +1787,7 @@
     "Text": "Stops a physical or energy attack. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bW",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "2d60b755-dc9a-48ed-9a16-fb0c58286344.jpg"
   },
@@ -1804,7 +1804,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "cu",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "79b2508b-2a45-4d9b-8e3f-a471ff625457.jpg"
   },
@@ -1821,7 +1821,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "cv",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "8d702c11-ef4a-46c3-b0f8-e2b9ce9e64f0.jpg"
   },
@@ -1838,7 +1838,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cw",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "45615f32-d120-44e4-a74f-35fc68e355bb.jpg"
   },
@@ -1855,7 +1855,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "eD",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "9b000020-5c9d-41f3-95cf-5f88e03b62f6.jpg"
   },
@@ -1872,7 +1872,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "d3",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "f62c13d5-7097-4b0f-91e7-bfe193e4384c.jpg"
   },
@@ -1887,7 +1887,7 @@
     "Text": "End Combat. Remove from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "dO",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "6ae6f958-fdc8-41d0-94d2-03e6d84ee892.jpg"
   },
@@ -1902,7 +1902,7 @@
     "Text": "Stops an energy attack. Stops all energy attacks performed against you for the remainder of Combat. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "c0",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "3c0d9c52-bc29-4144-9927-9421e3631606.jpg"
   },
@@ -1917,7 +1917,7 @@
     "Text": "Stops a physical attack. Stop all physical attacks performed against you for the remainder of Combat. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "c1",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "75dff5d8-73c6-43ee-9054-438af2290d0c.jpg"
   },
@@ -1932,7 +1932,7 @@
     "Text": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "a9",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "9232dfa1-8b14-4a27-acd7-3ba735582ec2.jpg"
   },
@@ -1947,7 +1947,7 @@
     "Text": "All of your energy attacks that cost 2 power stages to perform, now only cost 1 power stage to perform.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cQ",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "af9899da-ef04-4351-85bf-8bda52673a1d.jpg"
   },
@@ -1962,7 +1962,7 @@
     "Text": "All energy attacks performed against you, do 1 less life card of damage, to a minimum of 0. Cannot be used with other Orange Drills in play.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cM",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "c6e8e568-502d-455e-8ba0-2cf4169affda.jpg"
   },
@@ -1977,7 +1977,7 @@
     "Text": "Your Drills in play except for \"Orange Focusing Drill\" cannot be discarded or removed from the game unless you advance or lose a Personality level.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dq",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "9369a645-bf8e-4835-b71a-2ce1ce2958b2.jpg"
   },
@@ -1992,7 +1992,7 @@
     "Text": "Physical Attack doing +2 stages of damage if successful. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "at",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "69474909-3fbf-4c2e-9b31-b41e9480991b.jpg"
   },
@@ -2007,7 +2007,7 @@
     "Text": "Stops opponent's physical attack this round. Foe's anger level decreases by 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "av",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "7655c4f6-fb65-4f1e-8290-2b5c0bd147cd.jpg"
   },
@@ -2022,7 +2022,7 @@
     "Text": "All of your physical attacks do +4 power stages of damage.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cV",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "a67f70f4-e31c-455e-836b-38d2aff3a977.jpg"
   },
@@ -2037,7 +2037,7 @@
     "Text": "Physical Attack. Raise card user's anger 1 level.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "a8",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "d1067c66-5134-46bd-a7c6-9682217b4bf1.jpg"
   },
@@ -2052,7 +2052,7 @@
     "Text": "Once per Combat, in place of an attack, during your turn, discard all of your opponent's Drills. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "c6",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "72795d1e-fd92-4852-8eac-de41d75d425a.jpg"
   },
@@ -2067,7 +2067,7 @@
     "Text": "Stops an opponent's energy attack. Foe's anger level decreases by 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "au",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "83c12644-08c2-4c2a-815f-e9a88127d817.jpg"
   },
@@ -2082,7 +2082,7 @@
     "Text": "Stops the first physical attack made on you in a combat.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cE",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "3f376b18-a0a4-4982-a178-528ee600f42e.jpg"
   },
@@ -2097,7 +2097,7 @@
     "Text": "Physical Attack doing +1 stage of damage if successful. Raise card users anger 1 level.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "a6",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "22e94f66-59c0-475a-9cce-cd8eac4973a1.jpg"
   },
@@ -2112,7 +2112,7 @@
     "Text": "Stops an opponent's physical attack this round. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "as",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "8a835f9b-3980-4edb-8616-26e91f7740f0.jpg"
   },
@@ -2127,7 +2127,7 @@
     "Text": "After taking damage from a physical attack, you may draw the bottom card of your discard pile.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cH",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "815be3be-0873-4ba6-9ca9-5c9f870efec6.jpg"
   },
@@ -2142,7 +2142,7 @@
     "Text": "Physical Attack. Raise card user's anger 1 level.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "a5",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "beb349ea-f132-4712-9108-194519ea5ba5.jpg"
   },
@@ -2157,7 +2157,7 @@
     "Text": "All energy attacks performed against you, do 1 less life card of damage, to a minimum of 0.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cA",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "843896bb-dee2-40d6-a922-59a0feb87055.jpg"
   },
@@ -2172,7 +2172,7 @@
     "Text": "Physical Attack doing +1 stage of damage if successful. Raise card users anger 1 level.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "a7",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "3c312084-d472-41d6-bdfb-87d1cd5be555.jpg"
   },
@@ -2187,7 +2187,7 @@
     "Text": "Stops the foes' physical attack played this round. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ar",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "311dfc8d-68fd-44d6-88ba-81d2beb90bab.jpg"
   },
@@ -2204,7 +2204,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "cf",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "4742d5cc-d05a-411b-bbfb-eb89d430ae54.jpg"
   },
@@ -2221,7 +2221,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "cg",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "8ef0c3d2-a627-49b2-b1fe-11b01d06c9bf.jpg"
   },
@@ -2238,7 +2238,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ch",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "914bfd81-7b43-4d93-a518-60f6b96239b8.jpg"
   },
@@ -2255,7 +2255,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "e8",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "a56cc196-34da-4ba2-bc55-a859c4ab5aad.jpg"
   },
@@ -2270,7 +2270,7 @@
     "Text": "All energy attacks performed against you, do 1 less life card of damage, to a minimum of 0.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "cZ",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "d00e9a0f-9fdd-4ebe-95fe-e603e277fe94.jpg"
   },
@@ -2285,7 +2285,7 @@
     "Text": "Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bj",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "ed08d7d2-0608-4484-8206-81d1f30324e4.jpg"
   },
@@ -2302,7 +2302,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "cy",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "b14c841f-4675-46dc-9206-c869dc386939.jpg"
   },
@@ -2317,7 +2317,7 @@
     "Text": "Stop this energy attack. Discard from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "cY",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "9f6e6337-c539-4b48-9265-c67387a6a4d6.jpg"
   },
@@ -2332,7 +2332,7 @@
     "Text": "Does 6 life card draws of damage and costs 5 stages of power drain to perform.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bp",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "b14cd5d1-d48a-4be5-95a2-f0dd78130007.jpg"
   },
@@ -2347,7 +2347,7 @@
     "Text": "Stops a successful physical or energy attack.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "dU",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "af8a7780-0cf3-46e0-95c7-77df287279c7.jpg"
   },
@@ -2362,7 +2362,7 @@
     "Text": "Stops a physical attack. Gain 4 power stages.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bq",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "e16f0cfd-18a1-4e20-be72-1ab7079d1a38.jpg"
   },
@@ -2377,7 +2377,7 @@
     "Text": "Use this card at the end of your Power Up step. Skip Combat this turn. At the beginning of your next turn, search your Life Deck and/or discard pile for your highest level Saibaimen card and place it into play. Remove from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "dV",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "c8ccd95d-6248-40cf-9b08-8739a856d581.jpg"
   },
@@ -2392,7 +2392,7 @@
     "Text": "One ally gives your main personality power on a stage for stage basis, reducing their total and boosting your main personality's. Discard from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dP",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "6c1cc41e-05ce-4a18-b65c-987f095be7d4.jpg"
   },
@@ -2407,7 +2407,7 @@
     "Text": "Powers up 6 stages for a personality, going no higher than maximum stage.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bd",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "974f81d7-42d0-42cc-b85f-565eac0ea55d.jpg"
   },
@@ -2422,7 +2422,7 @@
     "Text": "Powers up to the personality's highest stage. Select 2 discarded cards and place them at the bottom of your life deck.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "be",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "28845c4c-72f5-4cab-8a47-3e727fae2a30.jpg"
   },
@@ -2437,7 +2437,7 @@
     "Text": "Powers up 5 stages for a personality, going no higher than their maximum stage. Take the top discarded card and place it at the bottom of your life deck.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aQ",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "e1bd64e9-4da8-4a7f-9c1e-bfc3c9dec783.jpg"
   },
@@ -2454,7 +2454,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "co",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "5a83d1fb-ccd1-4d75-8f45-f81f62b2b797.jpg"
   },
@@ -2471,7 +2471,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "cp",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "9e197516-9d04-4ecc-be5e-9f7dd832344f.jpg"
   },
@@ -2488,7 +2488,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cq",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "5751eac3-a437-4d2f-91a4-9198704462ca.jpg"
   },
@@ -2505,7 +2505,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "eA",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "8b1fa6ad-faa5-412c-85bc-522a8fc85c0b.jpg"
   },
@@ -2520,7 +2520,7 @@
     "Text": "Energy attack doing 2 draws from the life deck if not stopped and costing no power stages to perform.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "db",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "d75f66eb-6527-4df8-bc97-85669bd55a11.jpg"
   },
@@ -2535,7 +2535,7 @@
     "Text": "Forces a Hero opponent in this combat to discard 1 life card from his deck. Discard this card from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bx",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "6a415d9b-53cb-490a-82ab-72dcf27a9f44.jpg"
   },
@@ -2550,7 +2550,7 @@
     "Text": "Physical attack doing 3 times the base damage.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "dS",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "6b2142f6-7c63-46d2-9609-e1950690e27e.jpg"
   },
@@ -2565,7 +2565,7 @@
     "Text": "Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bi",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "7f052df6-3c44-4dc4-8d76-aceb6ed1aed8.jpg"
   },
@@ -2582,7 +2582,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "d1",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "622a1392-5775-481f-ba61-893e099ec86c.jpg"
   },
@@ -2597,7 +2597,7 @@
     "Text": "Forces a Hero opponent in this combat to take his anger level down 2. Discard this card from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "by",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "c2f79bdd-bf80-4f9a-8f9c-45e0c1ad962b.jpg"
   },
@@ -2612,7 +2612,7 @@
     "Text": "Stops any physical attack but costs 1 power stage to perform.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "ap",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "0d6ff1d0-f39c-45be-bf98-38ef6a673089.jpg"
   },
@@ -2627,7 +2627,7 @@
     "Text": "Physical Attack doing +3 stages of damage if successful. Stops all energy attacks for the rest of this combat. Foe's anger level decreases by 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "b0",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "4839b815-6f96-4933-8c3d-7c362c6a59c1.jpg"
   },
@@ -2642,7 +2642,7 @@
     "Text": "When entering Combat as the defender, you may draw a card.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cO",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "f58e574e-94ac-40f6-925a-b147502151c5.jpg"
   },
@@ -2657,7 +2657,7 @@
     "Text": "Physical Attack. Raise card user's anger 1 level.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aE",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "eb2efaa8-2460-46bb-bcb7-90b9e13d3afe.jpg"
   },
@@ -2672,7 +2672,7 @@
     "Text": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ax",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "b5a78e9e-0ba7-4df8-b059-48359c392b40.jpg"
   },
@@ -2687,7 +2687,7 @@
     "Text": "When entering Combat as the attacker, you may draw a card.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "c8",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "d0f99b21-6985-4b60-9db1-dfba47e960db.jpg"
   },
@@ -2702,7 +2702,7 @@
     "Text": "Stops the foe's physical attack. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aw",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "4096bb31-d4f5-40b1-8c6d-f757eb333227.jpg"
   },
@@ -2717,7 +2717,7 @@
     "Text": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aC",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "8ebb5aec-8633-46e6-b824-e9c26e72d03c.jpg"
   },
@@ -2732,7 +2732,7 @@
     "Text": "Drill does an extra life card of damage whenever successful damage is done.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "do",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "c03f554d-5e36-403b-94e8-a45310bec7a6.jpg"
   },
@@ -2747,7 +2747,7 @@
     "Text": "Physical Attack. Raise card user's anger 1 level.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aA",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "9eca98fb-5177-4441-a9c9-42b5681528a0.jpg"
   },
@@ -2762,7 +2762,7 @@
     "Text": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aD",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "3179b396-93fb-43f2-8078-9d6d013493e8.jpg"
   },
@@ -2777,7 +2777,7 @@
     "Text": "All physical attacks performed against you, do 2 less power stages of damage, to a minimum of 0.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "c4",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "dd02e525-62b1-41fc-b387-789d04157b29.jpg"
   },
@@ -2792,7 +2792,7 @@
     "Text": "All of your energy attacks do +1 life cards of damage. Cannot be used with other Red Drills in play.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cS",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "a1a3c8d3-b440-4f85-bc7b-4454ed5d077e.jpg"
   },
@@ -2807,7 +2807,7 @@
     "Text": "Once per Combat, you may take 1 less life card of damage from any attack.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cK",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "3c0e52e6-2fc4-455d-8204-2d9966e015a0.jpg"
   },
@@ -2822,7 +2822,7 @@
     "Text": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aB",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "4375ff6a-8b55-47d4-ba87-f766f4527957.jpg"
   },
@@ -2837,7 +2837,7 @@
     "Text": "All energy attacks performed against you, do 1 less life card of damage, to a minimum of 0.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cC",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "57464988-2032-4c17-9265-1d30648e6bdc.jpg"
   },
@@ -2852,7 +2852,7 @@
     "Text": "Physical Attack doing +3 stages of damage if successful. Foe's Anger level decreases by 1.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "az",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "ea2b7aea-4fa3-467a-8b6f-564625d97e75.jpg"
   },
@@ -2867,7 +2867,7 @@
     "Text": "Stop foe's energy attack this round.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ay",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "7c93ef1a-6330-4703-848c-c88e106b435a.jpg"
   },
@@ -2882,7 +2882,7 @@
     "Text": "For every 3 power stages you lose your opponent loses 1 power stage, down to 0.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "cJ",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "8622cb46-02a0-4834-85f2-cc4c92271e31.jpg"
   },
@@ -2897,7 +2897,7 @@
     "Text": "The spirit of the Earth heals you. Place 2 discarded cards at the bottom of your life deck. Discard from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dB",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "01cce036-5667-4ffc-82b0-fd353e6431c8.jpg"
   },
@@ -2912,7 +2912,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Costs 0 power stages to perform. You must remove an Ally in play from the game in order to perform this attack. This does not have to be an Ally you control.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dZ",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "1a6b47a6-6ec2-43f4-becc-d168e8d773cb.jpg"
   },
@@ -2927,7 +2927,7 @@
     "Text": "Heroes only. The top 3 discarded cards are placed at the bottom of your life deck.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bK",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "535347f4-23cc-44fb-8ed4-ab2aa84e58f3.jpg"
   },
@@ -2942,7 +2942,7 @@
     "Text": "Use at the end of any turn. If your opponent's Main Personality is at Level 2, lower his Main Personality one personality level. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "dv",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "6c252f4f-fbe6-49bf-a5f9-d7afce215cc1.jpg"
   },
@@ -2959,7 +2959,7 @@
     "Limit": "3",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "dz",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "0c146017-397f-49dd-975f-9d60f3327abc.jpg"
   },
@@ -2976,7 +2976,7 @@
     "Limit": "3",
     "Card Level": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "e0",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "1aefd4a5-c426-4852-a86f-53ebbb760d86.jpg"
   },
@@ -2993,7 +2993,7 @@
     "Limit": "3",
     "Card Level": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "e1",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "986c84d0-1aee-48cc-8d06-a3628cc1047f.jpg"
   },
@@ -3010,7 +3010,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "e2",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "4e62f8d1-28eb-409c-bf9c-00b0f36f11bf.jpg"
   },
@@ -3025,7 +3025,7 @@
     "Text": "Name a Non-Combat card and foes with any in their decks must discard them from the game. Discard this card from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dG",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "9a59d519-bcd7-4f9e-9007-7639cc87ff43.jpg"
   },
@@ -3040,7 +3040,7 @@
     "Text": "Saiyan Heritage only. Physical attack, plus it stops a single named foe from making a physical attack on his next phase.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aM",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "262398d4-2f14-4fe8-afb6-1703973e7e99.jpg"
   },
@@ -3055,7 +3055,7 @@
     "Text": "Armor prevents 1 life card discarded from any successful energy attack that would have normally forced 1 or more discards. Limit one per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "bN",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "665b5c8a-a7af-45f5-8152-ee45719ebf4f.jpg"
   },
@@ -3070,7 +3070,7 @@
     "Text": "Remove a Non-Combat Card or ally from in front of another player from the game. Discard this card from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dF",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "ba298650-ce07-495c-8a89-5621b9738421.jpg"
   },
@@ -3085,7 +3085,7 @@
     "Text": "Villains only. Skip your next Combat step. Place the top 2 cards from your discard pile on the bottom of your Life Deck. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "an",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "1509c91d-ffdb-4dbf-af4d-8731d880c31a.jpg"
   },
@@ -3100,7 +3100,7 @@
     "Text": "Saiyan Heritage only. Stops an energy attack and stops an energy attack during your opponent's next Attacker Attacks phase.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bb",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "16ac911b-9a1e-48e8-aeea-6faca505c705.jpg"
   },
@@ -3115,7 +3115,7 @@
     "Text": "Saiyan Heritage only. Energy attack. Costs 3 power stages to perform. If successful, your opponent cannot perform a physical attack during his next Attacker Attacks phase.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ba",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "4dad2be4-f71b-49e8-8fa2-b12183c63071.jpg"
   },
@@ -3130,7 +3130,7 @@
     "Text": "Saiyan Heritage only. Stops an energy attack.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bY",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "bf7c5926-14f4-4faf-811c-5d861c620533.jpg"
   },
@@ -3145,7 +3145,7 @@
     "Text": "Saiyan Heritage only. Creates an energy attack doing 7 life card draws at a cost of 4 stages of power drain. Discard from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bX",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "72fbae73-30ea-44ec-871a-a637f31f5bda.jpg"
   },
@@ -3160,7 +3160,7 @@
     "Text": "Saiyan Heritage only. Physical attack, plus it stops a single named foe from making an energy attack on his next phase.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aN",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "5c7b2efd-ee77-4c70-b664-967b0323c89e.jpg"
   },
@@ -3175,7 +3175,7 @@
     "Text": "Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dE",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "57902a6b-fb9a-4525-b0bc-222edb741e7f.jpg"
   },
@@ -3190,7 +3190,7 @@
     "Text": "Saiyan Heritage only. Creates an energy attack inflicting 6 life card draws.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bZ",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "41b45408-8d26-4060-a9b0-04bf7b1873ba.jpg"
   },
@@ -3205,7 +3205,7 @@
     "Text": "Saiyan Heritage only. Physical attack, plus it stops a single named foe from making a physical attack on his next phase. It costs 2 power stages to perform.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aP",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "3a67f7ad-8570-4e72-9499-cc4576b2e722.jpg"
   },
@@ -3220,7 +3220,7 @@
     "Text": "All of your physical attacks do +2 power stages of damage.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ds",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "f6a1238b-ef6f-4d1c-a99b-9fa88a77e49d.jpg"
   },
@@ -3235,7 +3235,7 @@
     "Text": "Saiyan Heritage only. Physical attack doing +3 stages of physical damage if successful.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aO",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "24380982-3c26-4275-9624-768f1e3d0c1a.jpg"
   },
@@ -3250,7 +3250,7 @@
     "Text": "Saiyan Heritage only. Stops a physical attack and stops a physical attack during your opponent's next Attacker Attacks phase.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bc",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "42e394f2-3a3a-46ca-bb04-aab63c377217.jpg"
   },
@@ -3265,7 +3265,7 @@
     "Text": "Villains and Goku only. Choose 2 cards from your discard pile and place them on the bottom of your Life Deck.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "bM",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "05136d7a-d10a-4070-8bf8-780d3eccac19.jpg"
   },
@@ -3280,7 +3280,7 @@
     "Text": "Stops this combat. The turn ends, and the player may hold all his extra cards until his next turn. Discard from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "dL",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "131fb73b-1c32-4cca-913a-79869e9da536.jpg"
   },
@@ -3295,7 +3295,7 @@
     "Text": "When you place this card in play, immediately raise your Main Personality to its highest power stage. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "al",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "3996def4-9fb7-4fcf-8a42-7d42fa5bab5a.jpg"
   },
@@ -3310,7 +3310,7 @@
     "Text": "Use immediately after your opponent attacks you (this can be a physical or energy attack) and pays any costs for that attack. Lower your opponent's Main Personality 4 power stages immediately when played.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ah",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "a474ec7f-3e41-41f8-a06a-7db525a2bc64.jpg"
   },
@@ -3325,7 +3325,7 @@
     "Text": "Physical attack doing 1 life card of damage. You must pass in all remaining phases of Combat.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ag",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "91b26dbe-ff25-4362-971c-9b9644039564.jpg"
   },
@@ -3340,7 +3340,7 @@
     "Text": "Stops an energy attack, but you have to discard another card to use this one.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ai",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "311545d2-add8-44fa-a1ad-8e6a5cfdbf1f.jpg"
   },
@@ -3355,7 +3355,7 @@
     "Text": "Defensive move preventing up to 3 energy life cards from being discarded and draining the user 4 stages.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ae",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "426791e6-7626-4a54-ac12-cc51cd96b3de.jpg"
   },
@@ -3370,7 +3370,7 @@
     "Text": "Stops a physical attack but you have to discard another card to use this one.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aj",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "bc0fe1aa-de64-4096-96bc-c7dda0cc82c7.jpg"
   },
@@ -3385,7 +3385,7 @@
     "Text": "Physical attack forcing the defender to lose 1 life card and the attacker 3 stages of power. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "ac",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "236ffebe-b018-4835-9dfc-52ad3a4ace73.jpg"
   },
@@ -3400,7 +3400,7 @@
     "Text": "Physical attack forcing the defender to lose 3 life cards and the attacker 3 stages of power. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "ad",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "149266d9-9b9e-4546-8146-ea80aca4e411.jpg"
   },
@@ -3415,7 +3415,7 @@
     "Text": "Stops an energy attack, but the user cannot make any attacks for the rest of this combat.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ak",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "3cd75dfe-36f6-4361-933f-acd1f33b4908.jpg"
   },
@@ -3430,7 +3430,7 @@
     "Text": "Physical attack forcing the defender to lose 2 life cards and the attacker 4 stages of power. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "af",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "2a3a86fc-e697-4535-b357-5322f977adc9.jpg"
   },
@@ -3445,7 +3445,7 @@
     "Text": "Defense Shield: When defending in Combat, stop the first unstopped attack performed on you. Remove from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "di",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "1e5a1096-f69b-45ee-891a-6bf6bcbfeec5.jpg"
   },
@@ -3460,7 +3460,7 @@
     "Text": "Use when you perform an energy attack to have that energy attack do an additional +1 life cards of damage. (If a successful energy attack is performed against you while this card in play, this card is discarded.)",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dj",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "74748e82-4701-4f9f-bf65-134fb8789f28.jpg"
   },
@@ -3475,7 +3475,7 @@
     "Text": "Force another player to skip their combat step. Discard this from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "dA",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "6e30f93e-fb95-4760-8911-4ba66b8de5b5.jpg"
   },
@@ -3490,7 +3490,7 @@
     "Text": "Place this on a foe's personality card. Reset the personality's anger to 0. It cannot go up until after he forces another player to discard a life card. Discard this from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "dQ",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "e07c894e-6952-4380-b3fc-9e6c84298fd6.jpg"
   },
@@ -3505,7 +3505,7 @@
     "Text": "Increase the personality's power stage to its maximum level. Discard this card from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dJ",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "efb5c883-771b-466d-95c2-687865faac44.jpg"
   },
@@ -3520,7 +3520,7 @@
     "Text": "Remove someone else's drill card or ally from the game. Discard this card from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "aa",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "5a0ec980-3f68-47f4-ac1f-e4cdf675076f.jpg"
   },
@@ -3537,7 +3537,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "bO",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "05fdac1e-eecd-43b1-9107-f731c7a5815e.jpg"
   },
@@ -3554,7 +3554,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "bP",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "276138e6-1ce7-437a-9678-05d971a81bee.jpg"
   },
@@ -3569,7 +3569,7 @@
     "Text": "Attach this to your opponent's Main Personality. If Tien is in play, all villain opponents must play with their hands face up on the table.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "dT",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "3c6ef860-c75e-46c0-b71b-d08e0ae34d36.jpg"
   },
@@ -3584,7 +3584,7 @@
     "Text": "Prevents a foe's energy attack.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bu",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "7a3244ed-b1cb-4f5d-8a63-98c490853801.jpg"
   },
@@ -3599,7 +3599,7 @@
     "Text": "Physical attack doing 5 life cards draws if successful.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "aV",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "ab6ea8c2-9431-4a36-ac2e-ac346185a13a.jpg"
   },
@@ -3614,7 +3614,7 @@
     "Text": "Search your Life Deck or discard pile for an Ally and put him into play at his highest power stage.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "da",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "a6504beb-17a7-4296-ac71-5c6fbc4eefb6.jpg"
   },
@@ -3629,7 +3629,7 @@
     "Text": "The efforts of your allies stop this combat. You must have an ally out on the table to use this card. Discard from the game after use.",
     "Limit": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "dC",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "588bc620-d569-4cb1-94e5-b8bbc2155a19.jpg"
   },
@@ -3646,7 +3646,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "cr",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "d8296f62-c546-4b41-9097-43fe34b6121d.jpg"
   },
@@ -3663,7 +3663,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "cs",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "63723d9e-1a6a-4dbb-816f-1a9920bf4918.jpg"
   },
@@ -3680,7 +3680,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "01 - Saiyan Saga",
-    "index": "ct",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "f632d037-aecb-40b0-bc8f-aa2d4d194514.jpg"
   },
@@ -3697,7 +3697,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "e9",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "cfabcc82-5cd3-4070-86b8-ea0eedeb3a12.jpg"
   },
@@ -3714,7 +3714,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "d2",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "d09ff773-a701-4c41-96f5-ac6fdd24dc50.jpg"
   },
@@ -3729,7 +3729,7 @@
     "Text": "Capture 2 of a foe's Dragon Balls and place them at the bottom of his life deck. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "dx",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "581286fe-5efc-423e-b3c8-a2cbabb7ca55.jpg"
   },
@@ -3744,7 +3744,7 @@
     "Text": "Saiyan Heritage only. Use when needed. This must be your first card played during Combat. Raise your Main Personality to its highest power stage. Remove from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bz",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "07cd4760-9c3e-411f-8294-d2ff01aaa55c.jpg"
   },
@@ -3759,7 +3759,7 @@
     "Text": "Stops a physical attack. Stops all physical attacks performed against you for the remainder of Combat. Remove from the game after use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "aW",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "35ec73f3-c864-4087-8f07-6d486f1550ac.jpg"
   },
@@ -3774,7 +3774,7 @@
     "Text": "Get a Dragon Ball card from the life deck and put it into play. Remove from the game after one use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "dk",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "d6f688c3-9e1d-48cd-a0ea-2faa1f64a20b.jpg"
   },
@@ -3789,7 +3789,7 @@
     "Text": "At the beginning of each combat, draw 1 card from the bottom of the discard pile to use. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "dd",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "c9d483e9-3705-4d1a-8799-9a992fa2688f.jpg"
   },
@@ -3804,7 +3804,7 @@
     "Text": "Prevents all but 1 life card draw from a successful energy attack. Discard from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "dc",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "9c984eee-1306-40ed-b016-474253e2d612.jpg"
   },
@@ -3819,7 +3819,7 @@
     "Text": "Stop one physical or energy attack from doing damage. Discard this card from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bg",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "28475fba-9b8e-4479-8307-52ed0177bc89.jpg"
   },
@@ -3834,7 +3834,7 @@
     "Text": "Reveal cards from your opponents life deck until they reveal a Dragon Ball and set it aside. Shuffle your opponent's life deck. Then, if you revealed a Dragon Ball this way, place it on the bottom of its owners life deck. Limit 1 per deck.",
     "Limit": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "dw",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "166273b9-2382-4d7c-a051-565400cfe8e2.jpg"
   },
@@ -3851,7 +3851,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "bm",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "ba432441-f5db-455d-a615-1ee8fb8886e3.jpg"
   },
@@ -3868,7 +3868,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "bn",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "569d642f-5a63-4c55-9e2e-cabdeb7ef072.jpg"
   },
@@ -3883,7 +3883,7 @@
     "Text": "Energy attack forcing 1 draw from the life deck if not stopped. Remove from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "c2",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "6bbb61df-8cbe-4462-a018-94e510b9d2f9.jpg"
   },
@@ -3898,7 +3898,7 @@
     "Text": "Physical attack doing 2 draws from the life deck if not stopped. Remove from the game after use.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "aX",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "69e8972f-25a0-47cf-af14-131a0ee2e65f.jpg"
   },
@@ -3915,7 +3915,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "01 - Saiyan Saga",
-    "index": "bQ",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "0c1034fc-5539-468e-881a-aba4c9759e80.jpg"
   },
@@ -3932,7 +3932,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "01 - Saiyan Saga",
-    "index": "bR",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "1834193b-6c28-42fd-b942-a962fe82f748.jpg"
   },
@@ -3947,7 +3947,7 @@
     "Text": "Energy attack doing 2 life card draws of damage, costs 3 power stages to perform.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bv",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "7706957c-76a8-4711-be2f-1a35c937b968.jpg"
   },
@@ -3962,7 +3962,7 @@
     "Text": "Prevents 3 life cards from being taken in a successful physical attack.",
     "Limit": "4",
     "Set": "01 - Saiyan Saga",
-    "index": "bw",
+    "Designer": "Official",
     "set_id": "ea0de271-df95-4c40-9000-45ea0107975d",
     "image": "323ce8b6-2628-450c-899b-ad6dfe82a673.jpg"
   }

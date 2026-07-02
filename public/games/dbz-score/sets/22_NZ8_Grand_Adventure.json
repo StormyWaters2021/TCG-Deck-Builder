@@ -10,7 +10,7 @@
     "Text": "Heroes Only. When this card enters play, its power box becomes a copy of a drill you control's power box until this card leaves play.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "RS",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "2d7f1b9c-a500-41dd-ac57-9f0cf41ad35b.jpg"
   },
@@ -25,7 +25,7 @@
     "Text": "Energy attack doing 3 life cards of damage. Costs 1 power stage to perform. If successful, attach this card to your opponent's MP. While attached, your opponent discards the top card of their life deck at the beginning of each of their Attackers Attacks phases. Discard Black Poisoning when your opponent's MP is at their highest power stage during either player's Declare Step.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "RT",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "c072c74a-6f04-48f4-a906-1d785383f92f.jpg"
   },
@@ -40,7 +40,7 @@
     "Text": "Energy attack doing 5 life cards of damage. You may pay the cost of this attack with either or both player's anger instead of power stages. Empower 2. For the remainder of combat, you may pay the cost of energy attacks you perform with either or both player's anger instead of power stages.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "RU",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "161fa110-47c4-47c7-8242-f62ab24f0512.jpg"
   },
@@ -55,7 +55,7 @@
     "Text": "Physical attack. look at your opponent's hand and you may choose a card. Your opponent must play that card in their next Defender Defends phase if able.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "RV",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "65b0b3f2-3a59-4c6a-8441-3777f56f6f6e.jpg"
   },
@@ -70,7 +70,7 @@
     "Text": "(You cannot choose a Main Personality, Dragon Ball, Sensei, or Mastery with this card.) Choose up to 5 cards your opponent has in play or under a card in play. Your opponent divides them into 2 piles. Choose 1 pile and shuffle it into their life deck. If Vegeta is in play, and is not your MP, end combat.",
     "Limit": "4",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rg",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "6d80637b-f694-4fb6-8c79-9f38528eccd6.jpg"
   },
@@ -85,7 +85,7 @@
     "Text": "Your opponent must reach level 5 to win by MPPV, and cannot win by Dragon Ball Victory until the start of their next turn.",
     "Limit": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rl",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "6c32e876-c762-4b12-baf1-4a484cf8c36d.jpg"
   },
@@ -108,7 +108,7 @@
       }
     ],
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rq",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "cd6a5de8-054e-40e8-ad89-9cea2cf7c029.jpg"
   },
@@ -123,7 +123,7 @@
     "Text": "Discard up to 1 attached card in play. Reveal up to X cards from your Sensei deck and then shuffle them into your life deck. Choose up to X card in your discard pile and place them in your Sensei deck. X= the number of Demon Realm Dragon Balls you control.",
     "Limit": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rn",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "f9257f9f-0255-46a1-9c1b-44fed12d329d.jpg"
   },
@@ -138,7 +138,7 @@
     "Text": "(This card's title is considered to be the title of every Dragon Ball for card effects.) You may raise any personality in play to its highest power stage. Choose 2 cards in your discard pile for every Demon Realm Dragon Ball you control, and shuffle them into your life deck.",
     "Limit": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Ro",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "c2dc6ada-4cd6-4713-9b39-df69db9692ca.jpg"
   },
@@ -153,7 +153,7 @@
     "Text": "Draw X cards. Remove X cards in your opponent's discard pile from the game. X= the amount of Demon Realm Dragon Balls you control. At the beginning of your turn, if X= 3, you may shuffle in all the Demon Realm Dragon Balls into their owners' life deck to advance or lower your MP 1 level and you do not discard your drills in play.",
     "Limit": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rp",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "fb208dff-6d55-4b3d-a3c0-cc9c4cd181e8.jpg"
   },
@@ -170,7 +170,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rx",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "09dad62c-1e59-467a-840e-f271a1e68dd4.jpg"
   },
@@ -187,7 +187,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Ry",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "734d6982-e2d0-4eb2-883c-4483968f16ad.jpg"
   },
@@ -204,7 +204,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "S0",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "2656ba06-509f-4a67-a03e-5fce6d7cb41b.jpg"
   },
@@ -221,7 +221,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rz",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "75f9a335-7b6b-44c9-8594-7a3c79c677d2.jpg"
   },
@@ -236,7 +236,7 @@
     "Text": "(If you declared a tokui-waza, this card is a styled card matching your tokui-waza) Energy attack. Costs 0 power stages to perform. Choose up to 3 cards with different titles in your opponent's discard pile. Search their discard pile for all copies of those cards and remove them from the game. If you remove less than 5 cards with this effect, this attack does +2 life cards of damage.",
     "Limit": "4",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Ri",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "02077d69-3689-4c3d-938f-09df5c4af411.jpg"
   },
@@ -253,7 +253,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "S7",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "9a1272c7-b8d6-4ef7-9446-8d10624cd9af.jpg"
   },
@@ -270,7 +270,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "S9",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "75b51e8d-a13d-41f3-b559-14e828c4e875.jpg"
   },
@@ -285,7 +285,7 @@
     "Text": "(You cannot gain anger, nor modify the amount of anger gained, via the effects of your Mastery card, or win by MPPV.) Once per combat, during your Attacker Attacks phase, raise your anger 2 levels.",
     "Limit": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rk",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "c2454b9a-1ba7-46b0-89b1-eaa0b04440b4.jpg"
   },
@@ -300,7 +300,7 @@
     "Text": "(Cannot be used if your MP is Majin Buu.) Majin only. Remove the top X cards of your opponent's discard pile from the game, where X= the number of Majin personalities in play. For the remainder of combat, attack you perform are considered to have Majin in the title, and are either Focused, or deal +2 power stages or life cards of damage.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rh",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "29871d1c-9305-4bd8-8cef-27980d457530.jpg"
   },
@@ -317,7 +317,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rw",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "f2e7a2e6-61cd-4b5a-9059-a768c1585a6a.jpg"
   },
@@ -334,7 +334,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "S1",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "513eb19a-e0a6-4e2b-a03d-1afadbee64ea.jpg"
   },
@@ -357,7 +357,7 @@
       }
     ],
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rr",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "21c05521-95d5-48ee-a040-2429c7c5b167.jpg"
   },
@@ -374,7 +374,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "S4",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "93ba5925-af94-4af2-a4cf-e312b363966a.jpg"
   },
@@ -391,7 +391,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "S3",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "16d56fb7-af45-40d0-a41e-6f5106be8457.jpg"
   },
@@ -408,7 +408,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "S2",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "fcff0fb6-63e9-4ef5-893c-724a12c1ed4a.jpg"
   },
@@ -425,7 +425,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rv",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "a440e023-0349-4df9-819f-3b39e6ebcf1b.jpg"
   },
@@ -440,7 +440,7 @@
     "Text": "Twice per game, during your Attacker Attacks phase, you may remove up to 5 cards from any player's discard pile, divided as you choose, from the game.",
     "Limit": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rm",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "adb1a977-1007-4c04-a517-d7f8077fcaaa.jpg"
   },
@@ -455,7 +455,7 @@
     "Text": "Transform. Stops an energy attack. If you declared a tokui-waza, remove up to 1 non-combat card in play or a card attached to your MP, from the game. Remove from the game after use.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "RW",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "c9745061-8341-4184-8aa1-1caafbb6c6df.jpg"
   },
@@ -470,7 +470,7 @@
     "Text": "Energy attack doing 8 life cards of damage. Costs 3 power stages to perform. Damage from this attack is removed from the game instead of discarded.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "RX",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "761fc5d9-40ac-40f3-9b42-e94580ceed8c.jpg"
   },
@@ -487,7 +487,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "S5",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "e6e3b49a-e98b-46a4-8531-f2857136c1ef.jpg"
   },
@@ -502,7 +502,7 @@
     "Text": "(If your MP has \"Sword\" in any of its power boxes, this card is considered to be a named card matching your MP.) Physical attack doing +4 power stages of damage. For the remainder of combat, all of your Orange style attacks are considered to have Sword in the title. If successful, search your discard pile for a card that adds damage to your attacks and place it into your hand, or into play.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "RY",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "c1c93a9c-03d8-4964-a17f-c154fe617986.jpg"
   },
@@ -517,7 +517,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Discard up to 3 life cards from your life deck. If successful, energy attacks you perform for the remainder of combat do +X life cards of damage, where X= the amount of cards you discarded from your life deck.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "RZ",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "287fb2f5-c81a-4acb-88f3-09f9fe232d3e.jpg"
   },
@@ -532,7 +532,7 @@
     "Text": "Twice per game, stops a physical or energy attack.",
     "Limit": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rj",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "ec0ed0f7-a503-4a7c-ae2f-913b1671af87.jpg"
   },
@@ -549,7 +549,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "S8",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "650d8bda-334c-4842-8a5a-2f2ae34fe561.jpg"
   },
@@ -564,7 +564,7 @@
     "Text": "(This card's title is considered \"Gohan's Kick\" for deck construction purposes.) Energy attack. Cards that can end combat, or stop all physical attacks or energy attacks cannot be used for the remainder of combat.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rf",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "3191b84f-1111-4491-a2dd-8b7d2fcee775.jpg"
   },
@@ -579,7 +579,7 @@
     "Text": "Use when entering combat. Raise your anger 1 level. Look at the top X cards of your life deck, where X= your anger level. You may put any amount of those cards at the bottom of your life deck. Put the remaining cards on top of your life deck in any order. If your anger is 3 or higher, draw a card.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rb",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "f72a37b8-02a8-4aa3-9ae8-741b2dc05800.jpg"
   },
@@ -594,7 +594,7 @@
     "Text": "Transform. Stops a physical or energy attack. You may raise your anger 1 level. If you declared a tokui-waza, you may Transform this card as though it was a physical combat card. Remove from the game after use.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Ra",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "c5b9aabb-09a0-4d9c-8b27-30435322d963.jpg"
   },
@@ -609,7 +609,7 @@
     "Text": "Energy attack doing 2 life cards of damage. Empower 3. If your opponent performed a successful physical attack in their last attacker attacks phase, this attack costs 0 power stages to perform. This attack does +X life cards of damage, where X= the amount of life cards of damage you took in your last defender defends phase.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Re",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "03d3f8c0-316c-4822-b293-a28e8e67eecf.jpg"
   },
@@ -624,7 +624,7 @@
     "Text": "Physical attack doing +4 power stages of damage. For the remainder of combat, you may play with your hand revealed. If you do, and you declared a tokui-waza, raise your anger 2 levels, and this attack does an additional +X life cards of damage, where X= the number of cards in your hand.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rc",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "94a05cc2-879a-42b6-ad0d-6756a9c83c43.jpg"
   },
@@ -639,7 +639,7 @@
     "Text": "(You may use a Saiyan style Non-Combat to Transform this card.) Transform. Energy attack doing 5 life cards of damage. You may lower your anger to 0 to have this attack do +X life cards of damage, where X= the amount of anger you lowered this way. Prevent X power stages of damage from your opponent's next physical attack this combat.",
     "Limit": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rd",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "733916d1-41c3-4f4a-bcc1-19f1c5697d85.jpg"
   },
@@ -656,7 +656,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Ru",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "8724943e-ff23-45c9-9896-646aea9afd23.jpg"
   },
@@ -673,7 +673,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rt",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "1762b039-7879-429a-b301-3815c7aa67be.jpg"
   },
@@ -690,7 +690,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "Rs",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "924e6ec3-a145-49e5-928a-f5861350d846.jpg"
   },
@@ -707,7 +707,7 @@
     "Limit": "3",
     "Card Level": "1",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "S6",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "511bab0c-536b-4cc4-a867-0c5aede83aa2.jpg"
   },
@@ -724,7 +724,7 @@
     "Limit": "1",
     "Card Level": "5",
     "Set": "22 - NZ8 Grand Adventure",
-    "index": "SA",
+    "Designer": "Fanmade",
     "set_id": "9808fb08-e988-4105-ab47-5644c1bda134",
     "image": "999504ea-2241-47c9-ade4-307d0656c000.jpg"
   }

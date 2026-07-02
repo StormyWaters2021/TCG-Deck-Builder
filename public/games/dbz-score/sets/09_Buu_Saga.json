@@ -10,7 +10,7 @@
     "Text": "Raise your Main Personality to his highest power stage. Raise your anger 2 levels.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "Ds",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "08a4a9e4-7b4a-4e1d-97c1-f2377fc64180.jpg"
   },
@@ -25,7 +25,7 @@
     "Text": "Raise your Main Personality to his highest power stage. While you control this Dragon Ball, all of your physical attacks do +3 power stages of damage.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "Fy",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "51991a42-aec5-4462-b2b9-7ca9904b5fa9.jpg"
   },
@@ -40,7 +40,7 @@
     "Text": "Raise your Main Personality to his highest power stage. At the beginning of every turn that you control this Dragon Ball and there is a Battleground or Location in play, you may choose for that Battleground or Location to have a blank power box until the end of the turn.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "Ge",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "9e874ffd-4afc-4ed2-a9ef-7052373cae96.jpg"
   },
@@ -55,7 +55,7 @@
     "Text": "Raise your Main Personality to his highest power stage. All players with 3 or more Non-Combat cards in play must discard all but 2 of their Non-Combat cards.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "Gf",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c602e211-021d-4a9d-8c7e-ce9cf67b5a40.jpg"
   },
@@ -70,7 +70,7 @@
     "Text": "Raise your Main Personality to his highest power stage. For the remainder of the game, your Main Personality gains +3 to his PUR while you control this Dragon Ball.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "Gi",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "1cedc7c6-fbca-4f71-a312-db59e40ff5e9.jpg"
   },
@@ -85,7 +85,7 @@
     "Text": "Raise your Main Personality to his highest power stage. While you control this Dragon Ball, your Allies may take control of Combat when your Main Personality is at 4 power stages above 0 or lower.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "EL",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "10e9e1a9-65ca-4516-94c6-8cae99e5726d.jpg"
   },
@@ -100,7 +100,7 @@
     "Text": "Raise your Main Personality to his highest power stage. Place the top or bottom 7 cards of your discard pile on the bottom of your Life Deck.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "EM",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f8e67c5e-7af2-4c1d-8328-cac8f7d18f02.jpg"
   },
@@ -115,7 +115,7 @@
     "Text": "Saiyan Heritage only. Use when you perform an attack. That attack does an additional +2 life cards of damage for each Saiyan Heritage personality card you have in play. Draw a card. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "FY",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e1be7f7f-196d-49da-bd07-faff8883644f.jpg"
   },
@@ -132,7 +132,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "Gj",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "0c5e5bd8-d2be-40c8-ab70-a819f5715203.jpg"
   },
@@ -147,7 +147,7 @@
     "Text": "Physical attack doing +3 power stages of damage. If successful, gain 3 power stages.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GO",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "6473c91b-fffc-4596-970a-7cf631eb7e44.jpg"
   },
@@ -162,7 +162,7 @@
     "Text": "Villains only. Energy attack doing 5 life cards of damage. Empower 2. All Allies lose 3 power stages, to a minimum of 0.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "H4",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "fe484fd1-6aad-44a5-8d15-53283e5e9c4d.jpg"
   },
@@ -177,7 +177,7 @@
     "Text": "Sensei Deck. Physical attack doing +3 power stages of damage. Empower 2. If you declared a Tokui-Waza and your opponent declared a Namekian Tokui-Waza, remove the bottom 8 cards of his Life Deck from the game.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gk",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "500ee271-2077-41fd-95fe-b5ac8848acf4.jpg"
   },
@@ -192,7 +192,7 @@
     "Text": "Heroes only. Stops a physical attack. If used by a personality with \"Kai\" or \"Popo\" in the title, this card can also stop an energy attack. Shuffle into your Life Deck after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gt",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "829739da-4093-4d0d-bb3c-e8bce6a68a6a.jpg"
   },
@@ -207,7 +207,7 @@
     "Text": "Sensei Deck only. Physical attack doing +3 power stages of damage. For the remainder of Combat, you may remove from the game any 2 cards in your Sensei Deck during your \"Attacker Attacks\" phase to remove one of your opponent's Drills in play. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "EN",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "2a018f38-c21b-482b-8ae2-69a0294627cc.jpg"
   },
@@ -222,7 +222,7 @@
     "Text": "Use when entering Combat. Reveal your hand to your opponent. If at least 3 cards in your hand are Black Style cards attach this card to your Main Personality. While attached, you may discard a card from your hand during your \"Attacker Attacks\" phase to discard one of your opponent's Non-Combat, Ally, or Battleground cards in play.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gl",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "9e7ecc14-3a8b-4384-a7de-bd6ecc05da9c.jpg"
   },
@@ -238,7 +238,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gm",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "5dc160bc-288c-41fd-875f-e9663b1602bc.jpg"
   },
@@ -253,7 +253,7 @@
     "Text": "Majin only. Physical attack doing +5 power stages of damage. You may discard one of your Non-Combat cards in play to discard 2 of your opponent's Non-Combat cards in play.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gh",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e6124d8e-f26a-4def-82b0-bc2f463c35f0.jpg"
   },
@@ -268,7 +268,7 @@
     "Text": "Sensei Deck. Physical attack doing +4 power stages of damage. If your opponent's Main Personality is a Majin, this card stays on the table to be used one more time this Combat. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gn",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c6633c99-af87-42a8-a0ed-615f8d3806ab.jpg"
   },
@@ -283,7 +283,7 @@
     "Text": "Physical attack doing +3 power stages of damage. For the remainder of Combat, or until your opponent plays \"Black Misguiding Punch\" (whichever happens first), when your opponent searches a Life Deck or discard pile for a card, you may search and choose the cards instead of your opponent.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hw",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "fc7601c3-8038-41b0-ba75-b4cccb63670d.jpg"
   },
@@ -298,7 +298,7 @@
     "Text": "Physical attack doing +2 power stages of damage. Empower 3. If successful, your opponent shuffles his hand into his Life Deck and then draws the same number of cards that were in his hand when this attack was performed.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Go",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "70e74687-e8e3-45fe-9153-16eca0c9f5ac.jpg"
   },
@@ -314,7 +314,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "09 - Buu Saga",
-    "index": "EO",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "34ea8de2-baea-45b7-b29b-07e351bbcc98.jpg"
   },
@@ -329,7 +329,7 @@
     "Text": "You may have multiple copies of this Drill in play. At the beginning of your turn if you have 3 copies of this Drill in play, you may remove them all from the game to search your Life Deck and discard pile for any 3 Black Style cards and place them into your hand.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "EP",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "2a2545ab-4710-4523-8e3f-c32e0a402e65.jpg"
   },
@@ -345,7 +345,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "09 - Buu Saga",
-    "index": "Gp",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a8199d36-bba9-42ed-9576-27c0aa052a37.jpg"
   },
@@ -360,7 +360,7 @@
     "Text": "Physical attack doing +3 power stages of damage. If successful, attach to one of your opponent's Non-Combat cards in play. While attached, this Non-Combat card cannot be used.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gq",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "612ec699-9a04-4c98-8b25-7e7fbdb2c03c.jpg"
   },
@@ -375,7 +375,7 @@
     "Text": "Your Black Style Non-Drill cards that can stop attacks can also stop focused attacks. You may discard a Black Style card from your hand during your \"Attacker Attacks\" phase to raise your anger 1 level and have a Main Personality gain 6 power stages.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "EQ",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "02b36799-f3cc-41f0-a6f7-31fc3084d1f4.jpg"
   },
@@ -390,7 +390,7 @@
     "Text": "At the beginning of each Discard Step, your Main Personality may pay 1 power stage to make your opponent discard all cards from his hand.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gr",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "55a292cb-a5e2-4508-98ce-bb35f8213451.jpg"
   },
@@ -405,7 +405,7 @@
     "Text": "Heroes only. Physical attack doing +4 power stages of damage. If your opponent's Main Personality does not have a Constant Combat Power, his personality power cannot be used for the remainder of Combat.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gv",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "5c56be96-0af1-4c45-a05d-f3cd674c8691.jpg"
   },
@@ -420,7 +420,7 @@
     "Text": "Sensei Deck. Physical attack doing +3 power stages of damage. Empower 2. If you declared a Tokui-Waza and your opponent declared a Saiyan Tokui-Waza, you may discard a Non-Combat card in play and stops the next physical or energy attack your opponent performs this Combat.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gu",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "b506ee4e-e7e3-48a9-9cba-7c1030fa456b.jpg"
   },
@@ -435,7 +435,7 @@
     "Text": "Energy attack. Costs 0 power stages to perform. The personality performing this attack may pay any amount of power stages. For every 2 power stages paid, this attack does an additional +1 life cards of damage.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gw",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "5aa3f5b4-2842-4b12-b153-fe468706a6ba.jpg"
   },
@@ -450,7 +450,7 @@
     "Text": "Energy attack. If successful, attach this card to your opponent's Main Personality. While attached, your opponent discards the top 2 cards of his Life Deck at the beginning of his turn. Discard this card when your opponent's Main Personality is at his highest power stage.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "ER",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ed4daf14-df8a-4945-b98a-7d849256774a.jpg"
   },
@@ -466,7 +466,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "09 - Buu Saga",
-    "index": "Gx",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "030adbcb-dd16-491d-b5ba-1f71af0f45aa.jpg"
   },
@@ -481,7 +481,7 @@
     "Text": "Focused physical attack doing +3 power stages of damage. If successful, attach this card to your Main Personality until your opponent successfully deals at least 1 life card of damage to you. While attached, your opponent cannot play or use cards that allow him to look at your hand or Life Deck.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gy",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "82246f41-89a8-4bbc-b4a2-9542705fef2a.jpg"
   },
@@ -496,7 +496,7 @@
     "Text": "Use when your opponent is about to discard or remove from the game any of your Allies in play. Choose up to 3 of those Allies. The chosen Allies are not discarded or removed from the game.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gz",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a70d799d-9113-42f3-afed-8e93e7f1d533.jpg"
   },
@@ -511,7 +511,7 @@
     "Text": "Use when entering Combat. Reveal your hand to your opponent. If at least 3 cards in your hand are Blue Style cards, attach this card to your Main Personality. While attached, you may place Allies into play that are up to 2 personality levels higher than your Main Personality.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "H0",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "874791d0-f744-4024-b5cc-a1d1d95b699f.jpg"
   },
@@ -526,7 +526,7 @@
     "Text": "Sensei Deck. Physical attack doing +4 power stages of damage. If your opponent's Main Personality is a Majin, prevent 3 life cards of damage from all attacks performed against you for the remainder of Combat.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "H1",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "fa6af51e-5eca-484f-9ad5-0a0f95cb6438.jpg"
   },
@@ -541,7 +541,7 @@
     "Text": "Energy attack. You may search your discard pile for any level 1 Ally and place it into play at 3 power stages above 0. If successful, raise that Ally to his highest power stage. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "HG",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e0fb1d37-ae79-47d6-8939-cf0d813658d6.jpg"
   },
@@ -556,7 +556,7 @@
     "Text": "Stops a physical attack. Discard one of your opponent's Allies in play. Lower your opponent's anger 1 level.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "HS",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "0823077c-36d6-4c7f-9501-b0e3bcdccf5a.jpg"
   },
@@ -571,7 +571,7 @@
     "Text": "Sensei Deck only. Stops a physical or energy attack. For the remainder of Combat, you may remove any amount of cards in your Sensei deck from the game during your \"Defender Defends\" phase instead of using a Non-Drill card. Prevent 2 life cards of damage from the attack for each card removed. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "H2",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "3f626444-3e64-4666-ae64-76066991ab2a.jpg"
   },
@@ -587,7 +587,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hf",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "2ed2ffe1-598a-4810-a161-c4d3ec941ef3.jpg"
   },
@@ -602,7 +602,7 @@
     "Text": "Focused physical attack doing +3 power stages of damage. If successful and you declared a Tokui-Waza, search your opponent's Life Deck for up to 3 Drills with different titles and discard them.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "H3",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "1e4df662-9c23-4bf1-8ae7-63cc96b7b96e.jpg"
   },
@@ -617,7 +617,7 @@
     "Text": "All of your Blue Style physical attacks do +2 life cards of damage. During your \"Defender Defends\" phase you may remove any amount of Blue Style cards in your discard pile from the game instead of using a Defense. Prevent 2 life cards of damage from the attack for each Blue Style card removed.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "ES",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "48237e84-ba5a-4568-8296-adde57a67fff.jpg"
   },
@@ -632,7 +632,7 @@
     "Text": "Sensei Deck. Stops a physical attack. If you declared a Tokui-Waza and your opponent declared a Saiyan Tokui-Waza, look at your opponent's hand and choose a Physical Combat card. The chosen card is discarded.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "H6",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "1a9f4d3f-7611-4da1-bbf8-8ded4e37dcc1.jpg"
   },
@@ -649,7 +649,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "Dt",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c3c29789-8333-46ce-8aa7-e36e9ec33e81.jpg"
   },
@@ -664,7 +664,7 @@
     "Text": "Energy attack doing 6 life cards of damage. Lower your opponent's anger 2 levels.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "H5",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e4f9e1e0-2657-44f7-b459-b3cea4951f9d.jpg"
   },
@@ -679,7 +679,7 @@
     "Text": "Villains only. When entering Combat as the active player, you may search your Life Deck for a \"Villains only\" card and place it into your hand. If Broly is your Main Personality, you may also use this Drill when entering Combat as the opposing player. You can only have 1 \"Broly's Evil Drill\" in play at a time.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "HH",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "432cd706-335a-43d3-ac87-94f57df5a0af.jpg"
   },
@@ -694,7 +694,7 @@
     "Text": "Energy attack doing 6 life cards of damage. If used by Broly, your opponent cannot use Combat cards for the remainder of Combat. Remove from the game after use.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "HT",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "7087cd95-b352-433f-b9a2-422bf49b23ef.jpg"
   },
@@ -709,7 +709,7 @@
     "Text": "Broly only. Physical attack doing +4 power stages of damage. If the top 2 cards of your discard pile are Saiyan Style cards, this is a focused attack and for the remainder of Combat damage from your attacks cannot be prevented.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "He",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "edd309ab-f082-48c1-b6bb-4eed9542ea4e.jpg"
   },
@@ -724,7 +724,7 @@
     "Text": "Broly only. Stops a physical attack or energy attack. This card stays on the table to be used 1 more time this Combat. If used a second time this Combat, remove it from the game. At the end of Combat, if this card is used only once this Combat, shuffle it back into your Life Deck. Limit 2 per deck.",
     "Limit": "2",
     "Set": "09 - Buu Saga",
-    "index": "Dv",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "298ca329-038b-4f89-ab59-9a3724d2ce9e.jpg"
   },
@@ -741,7 +741,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "09 - Buu Saga",
-    "index": "GN",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "333f9874-a49d-4347-9255-5ac2a1f14213.jpg"
   },
@@ -758,7 +758,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "Fz",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "99b09cc7-5208-4207-92ce-2cb5c6ad91d6.jpg"
   },
@@ -775,7 +775,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "09 - Buu Saga",
-    "index": "Gg",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "9a71e418-8dfa-45bb-8ae6-323ac725f433.jpg"
   },
@@ -792,7 +792,7 @@
     "Limit": "1",
     "Card Level": "5",
     "Set": "09 - Buu Saga",
-    "index": "Gs",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "54a51b3b-5f9b-4222-b18a-0ad207128c7d.jpg"
   },
@@ -807,7 +807,7 @@
     "Text": "Physical attack doing 3 power stages of damage. You may discard any of your Non-Combat cards in play. For each Non-Combat card discarded, this attack does an additional +3 life cards of damage. If used by Hercule, you can wait to discard Non-Combat cards until after you know if the attack is successful or not. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Du",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c5216267-9a56-4964-b1e9-03fc02990987.jpg"
   },
@@ -822,7 +822,7 @@
     "Text": "Discard a Location in play. Remove from the game after use. Limit 2 per deck.",
     "Limit": "2",
     "Set": "09 - Buu Saga",
-    "index": "H7",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "d2915f51-ca19-4788-8938-65c73b383bf4.jpg"
   },
@@ -837,7 +837,7 @@
     "Text": "Place this card into play and place the bottom 3 cards of your Life Deck under it. At the beginning of each of your turns, remove from the game one of those cards. When you remove the last card, discard any Battlegrounds and Locations in play and none may be played for the remainder of the game.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GJ",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "57b41fde-1984-459f-9258-b871cc4ebdc6.jpg"
   },
@@ -852,7 +852,7 @@
     "Text": "Physical attack. Choose a rarity. For the remainder of Combat, all cards in your discard pile are now of the chosen rarity while in your discard pile.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Fl",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e595232c-a002-4514-a0ff-c7184ebe28fb.jpg"
   },
@@ -867,7 +867,7 @@
     "Text": "Majin Buu only. Raise Majin Buu to his highest power stage. Shuffle 5 cards from your discard pile into your Life Deck. Raise your anger 1 level. You may remove a \"Majin Buu's Magical Ray\" from your discard pile from the game to shuffle this card into your Life Deck after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "H8",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f307cfc5-7f32-4955-a395-6b3f237a171c.jpg"
   },
@@ -882,7 +882,7 @@
     "Text": "Your opponent's Main Personality may pay 1 power stage to stop this effect. Both players may search their Life Deck for any card (including a Dragon Ball) and place it into their hand without revealing it. Limit 1 per deck.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "ET",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "6b84612e-4b65-4f0f-95eb-508809d8c818.jpg"
   },
@@ -897,7 +897,7 @@
     "Text": "Physical attack doing +3 power stages of damage. If you declared a non-Red Tokui-Waza, for the remainder of Combat, shuffler any Non-Drill Styled card into your Life Deck after use unless the card removes itself from the game.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Ht",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "42f864b5-e9b3-478e-b959-bd957d1f41e1.jpg"
   },
@@ -914,7 +914,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "09 - Buu Saga",
-    "index": "EW",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "578fe21e-6fa1-4843-9688-901fd5581999.jpg"
   },
@@ -929,7 +929,7 @@
     "Text": "Draw 3 cards. Place the top card from your discard pile at the bottom of your life deck.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "G4",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e86627f8-11f6-4d6d-8c5d-83ae002b3928.jpg"
   },
@@ -944,7 +944,7 @@
     "Text": "Physical attack doing +3 power stages of damage. You may discard one of your Non-Combat cards in play. If successful and you discard a Non-Combat card for this effect, your opponent cannot use Non-Combat cards for the remainder of Combat.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GG",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "2238393c-a2f4-463e-92c0-d29e725940de.jpg"
   },
@@ -958,7 +958,7 @@
     "Type": "Sensei",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "Ee",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e85b8aac-44f1-496f-b0c6-e48d7da4033c.jpg"
   },
@@ -973,7 +973,7 @@
     "Text": "Raise your Main Personality to his highest power stage. Choose 2 cards in your discard pile and shuffle them into your Life Deck.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "E6",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "0c53a70e-f1d6-489f-8a22-66a76f105690.jpg"
   },
@@ -989,7 +989,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "09 - Buu Saga",
-    "index": "H9",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "0504278c-9eee-4e2a-9eee-0994be1afbd9.jpg"
   },
@@ -1004,7 +1004,7 @@
     "Text": "Attach to your \"Goten's Flying Drill\". While attached, this Drill gains \"When entering Combat, you may search your Life Deck for a card with \"Flight\" in the title and place it into your hand.\" You can only have 1 \"Flight Training\" attached at a time.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "HA",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "2021ffe7-e362-4418-96cb-9549a55e87aa.jpg"
   },
@@ -1019,7 +1019,7 @@
     "Text": "Focused physical attack doing +3 power stages of damage. If successful, lower your opponent's anger 3 levels. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "EI",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "2d9f218d-0b3a-44d3-a4fa-f987b2a16ec2.jpg"
   },
@@ -1034,7 +1034,7 @@
     "Text": "Your Drills cannot be discarded for any reason while they are in play. When entering Combat, you may discard a Named card that matches your Main Personality to search your Life Deck for a Named card that matches your Main Personality and place it into your hand.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "EX",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "dec6b39b-6bb8-4696-9feb-61c476ee1722.jpg"
   },
@@ -1051,7 +1051,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "F8",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "af0061f7-9a1c-4910-baad-60916e58c6d1.jpg"
   },
@@ -1068,7 +1068,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "F9",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e11affe7-b604-4475-9847-15f7294779ce.jpg"
   },
@@ -1085,7 +1085,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "FB",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "092d57f1-f8be-4b63-a03d-ae30340d375a.jpg"
   },
@@ -1109,7 +1109,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "FC",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "976dbb1d-1cd3-4865-a0e1-910678774966.jpg"
   },
@@ -1134,7 +1134,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "FD",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f9036160-c148-4c8a-bd52-8c8fa82b7b2e.jpg"
   },
@@ -1149,7 +1149,7 @@
     "Text": "Focused physical attack. If successful, search your Life Deck for any card with \"Swordplay\" in the title and place it into play. Remove from the game after use.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "EU",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "0d2ebe9a-04b8-4d56-8c92-e41277a79afc.jpg"
   },
@@ -1164,7 +1164,7 @@
     "Text": "Physical attack doing +2 power stages of damage. If successful, discard up to 4 of your opponent's Allies in play.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "Eg",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "67316318-c04d-4e64-9554-de016783a791.jpg"
   },
@@ -1179,7 +1179,7 @@
     "Text": "Physical attack doing +2 power stages of damage. If successful, discard 2 of your opponent's Non-Combat cards in play.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "Et",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "7b33552d-4dc9-42bf-9fc5-304fff6214d7.jpg"
   },
@@ -1194,7 +1194,7 @@
     "Text": "All of your attacks with \"Sword\" in the title do +2 power stages of damage. You may use any \"If successful\" effects on cards with \"Sword\" in the title as if they were secondary effects.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "HB",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ba5b6763-1e47-43df-bc26-beb51313b4d4.jpg"
   },
@@ -1211,7 +1211,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "09 - Buu Saga",
-    "index": "I5",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "4db5af22-81bf-4eba-a496-dfe1233f17d3.jpg"
   },
@@ -1228,7 +1228,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "09 - Buu Saga",
-    "index": "FA",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "8afbc720-e038-439a-89bf-72dbb793e8dd.jpg"
   },
@@ -1245,7 +1245,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "F0",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "fa4501f2-a4b3-4ee7-8efe-4034926f66f1.jpg"
   },
@@ -1262,7 +1262,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "F3",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "645970d4-4d03-40c7-9c1b-59947df956e4.jpg"
   },
@@ -1286,7 +1286,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "F6",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "cffb33cd-536a-4a9f-af5c-e08ef768c4b1.jpg"
   },
@@ -1311,7 +1311,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "F7",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a4ee1885-9ec0-40e7-8b3c-05b375791293.jpg"
   },
@@ -1326,7 +1326,7 @@
     "Text": "Stops an energy attack. In your next \"Attacker Attacks\" phase, perform the exact same attack that this card stopped, if you have the power stages to pay for your attack.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "HC",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "d7cf592c-344b-4987-836f-236b5cae5dc8.jpg"
   },
@@ -1341,7 +1341,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Raise your anger 1 level. Lower your opponent's anger 1 level.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "HD",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f269548f-744a-4cdf-882c-a63b8b0752e5.jpg"
   },
@@ -1356,7 +1356,7 @@
     "Text": "Physical attack doing +3 power stages of damage. If you have 6 or more Drills in play, this is a focused attack that does an additional +7 life cards of damage. If successful, shuffle all Drills in your discard pile back into your Life Deck. Remove from the game after use.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "Hx",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "984512ad-e887-4d31-86e5-eac27d8eb5f4.jpg"
   },
@@ -1371,7 +1371,7 @@
     "Text": "Goku only. Search your Life Deck for a Battleground or Location and place it into play. For the remainder of the turn, no other Battlegrounds and Locations can be placed in play and the new Battleground or Location cannot be discarded or removed from the game.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "G1",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "2ba0b8b3-73cc-4524-b230-a54287cb1a3e.jpg"
   },
@@ -1386,7 +1386,7 @@
     "Text": "Energy attack. If the personality performing this attack has \"Saiyan\" in the title, this attack does an additional +4 life cards of damage and is a focused attack.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "F4",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ac7054f7-fb5d-4cfc-82e7-52e61538c9a0.jpg"
   },
@@ -1402,7 +1402,7 @@
     "Limit": "4",
     "Endurance": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hr",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "5e31d1a7-9235-42cd-93b4-5915cade1009.jpg"
   },
@@ -1417,7 +1417,7 @@
     "Text": "Heroes only. Stops a non-focused energy attack. Stops all non-focused energy attacks performed against you for the remainder of Combat. Limit 1 per deck. Remove from the game after use.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "G6",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "10915673-052d-429f-a5b5-c2c17b0bcd53.jpg"
   },
@@ -1434,7 +1434,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "F1",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ed01b5eb-7788-40ae-aed2-630ce03a4388.jpg"
   },
@@ -1451,7 +1451,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "09 - Buu Saga",
-    "index": "F2",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "67fb09ad-e5bf-4c54-8252-4c35226c83d0.jpg"
   },
@@ -1468,7 +1468,7 @@
     "Limit": "1",
     "Card Level": "5",
     "Set": "09 - Buu Saga",
-    "index": "Ew",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "21c9795a-b261-4857-ab8e-8ff2da25edf6.jpg"
   },
@@ -1485,7 +1485,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "09 - Buu Saga",
-    "index": "EE",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "10b21454-9267-4e74-a536-7b30a4ec1720.jpg"
   },
@@ -1502,7 +1502,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "FN",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "d99b3329-2d50-4874-acd1-59c31961fdd7.jpg"
   },
@@ -1519,7 +1519,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "FO",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "4dfc8f03-d5fa-4616-a277-782f63b5bba1.jpg"
   },
@@ -1536,7 +1536,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "09 - Buu Saga",
-    "index": "FP",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "fd4d8f88-0c56-4958-affb-4b86cbab6bd6.jpg"
   },
@@ -1553,7 +1553,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "09 - Buu Saga",
-    "index": "EG",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "9b0c5cca-cfc4-4123-ae51-c19b8ea1ba97.jpg"
   },
@@ -1570,7 +1570,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "FQ",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a29cdb89-2619-46f0-93da-ac55c86ef3a6.jpg"
   },
@@ -1594,7 +1594,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "FR",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ebdb70ee-c0f0-48cc-a739-dc9626cd570c.jpg"
   },
@@ -1619,7 +1619,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "FS",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "014dfef8-7bcf-4027-a681-fd68c6dc21d5.jpg"
   },
@@ -1636,7 +1636,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "Ey",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ce43bf1c-be85-44db-94b3-a1af750d246d.jpg"
   },
@@ -1651,7 +1651,7 @@
     "Text": "Physical attack doing 6 power stages of damage. If used by a Fused Personality, this is a focused attack doing an additional +4 power stages of damage and lowers your opponent's anger to 0.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "EY",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a9b141cd-4318-4dbd-afac-ad37b948da74.jpg"
   },
@@ -1668,7 +1668,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "Ez",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "5e72a183-ad0c-41da-9fd6-a516b95d53ac.jpg"
   },
@@ -1683,7 +1683,7 @@
     "Text": "Use during your Non-Combat Step. Place one of your level 1 Allies in your discard pile into play at his highest power stage to place the bottom 3 cards of your discard pile at the bottom of your Life Deck.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "HE",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "59d64e76-05b6-4318-b669-1a242273c36a.jpg"
   },
@@ -1700,7 +1700,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "09 - Buu Saga",
-    "index": "EZ",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "199b765b-ff6c-43ff-9642-d2c95610e9b8.jpg"
   },
@@ -1723,7 +1723,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "HF",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "03f89709-0a31-4077-bce9-5807c88c3720.jpg"
   },
@@ -1738,7 +1738,7 @@
     "Text": "Heroes only. Choose one of your Allies in play. If you chose an Ally draw a card. For the remainder of Combat, the chosen Ally may take control of Combat even if your Main Personality is 2 power stages above 0 or higher.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GU",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "d0766485-3e6c-4abf-87be-a02bed6279d5.jpg"
   },
@@ -1753,7 +1753,7 @@
     "Text": "Heroes only. When entering Combat, as the active player, you may search your Life Deck for a \"Heroes only\" card and place it into your hand. You can only have 1 \"Heroic Drill\" in play at a time.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "G7",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f7cee0e9-112a-4ac3-a5f7-b167da4857f2.jpg"
   },
@@ -1768,7 +1768,7 @@
     "Text": "Sensei Deck. Heroes only. Physical attack doing +3 life cards of damage. If your opponent's Main Personality is a Majin, stops the next physical or energy attack performed against you this Combat.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "HI",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f5fd603b-5966-4081-9570-393ec3688348.jpg"
   },
@@ -1783,7 +1783,7 @@
     "Text": "Heroes only. Energy attack. Empower 3. If your opponent's Main Personality is a Majin and he is at level 2 or above, lower your opponent's Main Personality 1 level.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "HJ",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "8b41c051-b446-4cc0-bddd-756f36824d3d.jpg"
   },
@@ -1798,7 +1798,7 @@
     "Text": "Sensei Deck. Heroes only. Physical attack doing +4 power stages of damage. If your opponent's Main Personality is a Majin, damage from this attack cannot be prevented and discard one of your opponent's Non-Combat, Ally, or Battleground cards in play.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "FJ",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a2c43682-1148-4a4f-84e7-070d46315814.jpg"
   },
@@ -1813,7 +1813,7 @@
     "Text": "Sensei Deck. Set all Allies in play to 0. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "FX",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a5842585-1db2-4c98-a2e5-0579d937b92b.jpg"
   },
@@ -1830,7 +1830,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "FE",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "88e1f055-4d80-4548-b006-c35b66ab20ff.jpg"
   },
@@ -1847,7 +1847,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "FF",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "4d6bb1eb-b31c-4fb4-a217-1e91af31edcd.jpg"
   },
@@ -1864,7 +1864,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "FG",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "00f33026-dc13-442a-8e8f-42cf4f658b3b.jpg"
   },
@@ -1881,7 +1881,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "09 - Buu Saga",
-    "index": "FH",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "d2304972-e158-4013-bd7a-d1543b51e7e1.jpg"
   },
@@ -1898,7 +1898,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "09 - Buu Saga",
-    "index": "EF",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f15553eb-1158-415e-8fef-b97877f477f1.jpg"
   },
@@ -1915,7 +1915,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "FI",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "766b9adf-b1e5-495d-b11c-9c1ea0391c72.jpg"
   },
@@ -1939,7 +1939,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "FL",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "4db67f42-2663-4135-a9dc-dce2501be1ab.jpg"
   },
@@ -1964,7 +1964,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "FM",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "b65a25a3-848e-4fc3-899f-f4fdfd5188ab.jpg"
   },
@@ -1981,7 +1981,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "Hu",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "1ca0567e-e7c3-42ba-aa55-989b574f7052.jpg"
   },
@@ -1998,7 +1998,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "ED",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "3a11ab18-d4e1-4025-b9f9-8202f09e2508.jpg"
   },
@@ -2013,7 +2013,7 @@
     "Text": "Choose 2 level 1 Allies in your discard pile and place them into play at their highest power stage.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "Fk",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "fdf79639-68a0-46f3-b332-99b3465fcadd.jpg"
   },
@@ -2028,7 +2028,7 @@
     "Text": "Krillin only. Physical attack doing +1 power stages of damage. Raise your anger 1 level. This card stays on the table to be used 2 more times this Combat. Remove from the game after use.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "GE",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "4927b9e5-478b-4b2e-ad77-e995a8098b16.jpg"
   },
@@ -2045,7 +2045,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "HK",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c1a9f828-dfa3-43b1-bd77-2f487406b3f2.jpg"
   },
@@ -2060,7 +2060,7 @@
     "Text": "(\"Trunks Energy Sphere\" cannot be used to stop this card.) Sensei Deck. Any of your opponent's Non Personality/Non-Mastery cards with \"win\" and/or \"wins\" in the power box cannot be played or used for the remainder of the turn.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Ea",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ea64c03b-42dc-4276-9566-52d96de21fe7.jpg"
   },
@@ -2077,7 +2077,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "Fd",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "6794a5cf-9632-4a27-b780-39365daf45c9.jpg"
   },
@@ -2094,7 +2094,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "Fe",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "497ea0f3-cbe7-44cd-a4ce-9b4f896920bc.jpg"
   },
@@ -2111,7 +2111,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "09 - Buu Saga",
-    "index": "Ff",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "3ae1a827-50b8-43bb-96f9-f362e4259744.jpg"
   },
@@ -2128,7 +2128,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "09 - Buu Saga",
-    "index": "EK",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "5c0be828-ade2-4ab2-bcb3-f19ae15e68b5.jpg"
   },
@@ -2145,7 +2145,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "Fg",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "33c33e72-2c55-4db8-ab1c-71cb1b84f7cb.jpg"
   },
@@ -2169,7 +2169,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "Fh",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "133de6ff-0283-4d47-9404-4694a17ade1c.jpg"
   },
@@ -2194,7 +2194,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "Fi",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "b7737fdc-0950-48bd-b0ff-1232b010ba9a.jpg"
   },
@@ -2211,7 +2211,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "Fr",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "dbab02ce-5070-4b66-9e0d-3c27065b5743.jpg"
   },
@@ -2228,7 +2228,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "09 - Buu Saga",
-    "index": "EC",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e18086de-d146-4d5d-b2fa-9e66102b69cc.jpg"
   },
@@ -2245,7 +2245,7 @@
     "Limit": "1",
     "Card Level": "5",
     "Set": "09 - Buu Saga",
-    "index": "Ev",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a72b8b7f-8950-4ef7-9fbd-21d8e8fcf9d1.jpg"
   },
@@ -2270,7 +2270,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "Fu",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f5be4e31-e65f-4edb-9033-fab23c36105c.jpg"
   },
@@ -2294,7 +2294,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "Fv",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "953ed237-46ba-4b58-8022-51d003886dad.jpg"
   },
@@ -2319,7 +2319,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "Fw",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "6fa5d422-4052-401c-95c8-4fa17fdc2d4e.jpg"
   },
@@ -2344,7 +2344,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "Fx",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "26d09de7-6d7d-456f-a0ca-1f1331206529.jpg"
   },
@@ -2368,7 +2368,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "G2",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "10481f62-58c9-415d-85ec-149eac5e80b4.jpg"
   },
@@ -2393,7 +2393,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "G3",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "44fa0875-e71c-44f8-a091-fc721ee86844.jpg"
   },
@@ -2408,7 +2408,7 @@
     "Text": "Physical attack doing +3 power stages of damage. Empower 3. For the remainder of Combat, all Non-Combat/Non-Drill cards cost +2 life cards to use.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "Eb",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "0592511b-7f6e-4346-928e-c6aa884072ce.jpg"
   },
@@ -2423,7 +2423,7 @@
     "Text": "Villains only. Energy attack doing 3 life cards of damage. This attack does an additional +1 life cards of damage for every \"Villains only\" card in your discard pile. Lower your opponent's anger 2 levels.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "Ec",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "26764317-edf2-419b-a62c-9799540ae88e.jpg"
   },
@@ -2438,7 +2438,7 @@
     "Text": "Physical attack doing 1 life card of damage. Empower 2. This attack does an additional +1 life cards of damage for each card with \"Flight\" in the title in your discard pile. Lower your opponent's anger 2 levels.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "Ed",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "cf5cd83b-ae25-4d24-8025-774e7f8aef2f.jpg"
   },
@@ -2453,7 +2453,7 @@
     "Text": "Physical attack doing +4 power stages of damage. Empower 2. For the remainder of Combat, during each player's \"Attacker Attacks\" phase, that player must perform an attack or pass. Raise your anger 1 level.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "Hs",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "6a9f8584-4d7a-4947-a6e7-90919e1beb80.jpg"
   },
@@ -2476,7 +2476,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "HL",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "6e7ba5df-134f-401c-90aa-0183e26c8542.jpg"
   },
@@ -2491,7 +2491,7 @@
     "Text": "Majin Buu only. You may use this card during either your \"Attacker Attacks\" phase or \"Defender Defends\" phase. Prevent all damage from all attacks performed against you this Combat. Limit 1 per deck.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "HM",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f5821603-a6e5-4420-8d84-670955299005.jpg"
   },
@@ -2506,7 +2506,7 @@
     "Text": "Majin Buu only. Energy attack doing 5 life cards of damage. If successful, remove one of your opponent's Allies in play from the game to search your Life Deck for \"Cookie!\" and place it into play. Remove from the game after use.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "HN",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "daed8e26-56ce-40bf-836d-ec76b060773e.jpg"
   },
@@ -2521,7 +2521,7 @@
     "Text": "Discard all Drills in play. Each player may then search hs discard pile and Life Deck for Drills different than those he just discarded and place them into play (up to the same number discarded).",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "Hz",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "938d5cf4-6885-4c2d-ae7b-fb6c2a4560c9.jpg"
   },
@@ -2537,7 +2537,7 @@
     "Limit": "4",
     "Endurance": "3",
     "Set": "09 - Buu Saga",
-    "index": "HO",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ac93ab8f-6cbb-4d00-9e7d-3669025fb285.jpg"
   },
@@ -2554,7 +2554,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "09 - Buu Saga",
-    "index": "Ft",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a646d89b-889c-492e-9c49-b3f0c8c4979d.jpg"
   },
@@ -2571,7 +2571,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "Fs",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "0acc0dd4-736f-4d2c-aa5c-8f225da64eeb.jpg"
   },
@@ -2588,7 +2588,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "FZ",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c1d94dad-2b52-4c5e-8837-c179bcb203ed.jpg"
   },
@@ -2605,7 +2605,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "Fa",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "1579298c-416e-4765-9700-cc289b9740d4.jpg"
   },
@@ -2622,7 +2622,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "09 - Buu Saga",
-    "index": "Fb",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f320f40b-353e-460a-9d80-e154f0507f0b.jpg"
   },
@@ -2647,7 +2647,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "Fc",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "fc7b2c2f-be1f-436b-9ed5-90680de22f2b.jpg"
   },
@@ -2664,7 +2664,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "09 - Buu Saga",
-    "index": "EH",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f22f3e52-a25e-4829-acb8-9300a5080afa.jpg"
   },
@@ -2679,7 +2679,7 @@
     "Text": "Majin only. Energy attack. Empower 2. You may reduce the damage this attack deals by any amount to a minimum of 0. For every life card of damage reduced this way, discard one of your opponent's Drills in play.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "G0",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "eab72795-f65d-44bd-98eb-c05914b0a946.jpg"
   },
@@ -2694,7 +2694,7 @@
     "Text": "Majin only. Physical attack doing +3 power stages of damage. Raise your anger 1 level. If successful, capture a Dragon Ball.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "G5",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "07b9caf0-22f3-4197-b497-18a08957875c.jpg"
   },
@@ -2709,7 +2709,7 @@
     "Text": "Majin only. Physical attack doing +3 power stages of damage. For the remainder of Combat, all of your cards with Empower have their Empower increased by +3. Lower your opponent's anger 2 levels.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "HP",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a34b8ee7-ff74-4006-bc48-26782b9383eb.jpg"
   },
@@ -2726,7 +2726,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "Fj",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "460906ea-fff2-443a-99df-e3ed8707d3a3.jpg"
   },
@@ -2743,7 +2743,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "Fm",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "eb48f726-012e-4979-bd7a-2dc46a510f02.jpg"
   },
@@ -2760,7 +2760,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "09 - Buu Saga",
-    "index": "Fn",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "40a55d59-ce98-4863-a64c-13bcf6e8beef.jpg"
   },
@@ -2777,7 +2777,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "Fo",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "8f4232c0-3938-4f77-b788-a5f4e689bfd1.jpg"
   },
@@ -2801,7 +2801,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "Fp",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c449e1d7-5a26-4bea-9f14-1a359d2c6d87.jpg"
   },
@@ -2826,7 +2826,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "Fq",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "6e920684-5c5c-482d-85bc-297d5bca0dcd.jpg"
   },
@@ -2843,7 +2843,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "GI",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "0ccf198e-d105-466e-adbc-bf9ae5683ee3.jpg"
   },
@@ -2858,7 +2858,7 @@
     "Text": "All of your attacks do +1 life cards of damage. All of your opponent's attacks do -1 life cards of damage.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "Ex",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "3647ed0d-41ed-4ed9-9592-ea964c55c4ec.jpg"
   },
@@ -2873,7 +2873,7 @@
     "Text": "Attach this card to a Main Personality. While attached, when a card effect would raise his anger, that amount is reduced by 1 before modifiers unless he has used \"Goku's Farewell.\" Only 1 \"Mind Control Device\" may be attached to this Personality at a time.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GL",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "589b35f4-5e4d-4ad3-9828-d9eac2d9478d.jpg"
   },
@@ -2888,7 +2888,7 @@
     "Text": "Use when entering Combat. Reveal your hand to your opponent. If at least 3 cards in your hand are Namekian Style cards, attach this card to your Main Personality. While attached, you may place the top 3 cards of your discard pile at the bottom of your Life Deck instead of 1 during the Rejuvenation Step.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "HQ",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "d0234769-5259-4a87-b31e-04015a86ddb0.jpg"
   },
@@ -2903,7 +2903,7 @@
     "Text": "You may discard a card in your hand that can perform an energy attack to stop an energy attack. Raise your Main Personality's PUR by +2 while this Drill is in play.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GV",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "8c25d2c5-0331-446d-808c-ca0454e1c386.jpg"
   },
@@ -2919,7 +2919,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "09 - Buu Saga",
-    "index": "HR",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "446ac895-3def-4700-a5f5-fe04bb0895ef.jpg"
   },
@@ -2935,7 +2935,7 @@
     "Limit": "3",
     "Endurance": "4",
     "Set": "09 - Buu Saga",
-    "index": "HU",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "31d1dd07-e029-4608-9589-9236d65f8719.jpg"
   },
@@ -2950,7 +2950,7 @@
     "Text": "When one of your Non-Namekian Style cards goes to the discard pile, remove it from the game instead. All of your Namekian Style attacks gain \"If successful, place the bottom 2 cards of your discard pile on the bottom of your life deck and gain 3 power stages.\"",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "Ef",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a75b923a-99f1-4237-be5b-7bdf0a36c497.jpg"
   },
@@ -2973,7 +2973,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "GP",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "09bad676-196f-4e6d-bbdc-7ea6c99def89.jpg"
   },
@@ -2990,7 +2990,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "Ei",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "3526be87-325d-4578-8188-8e59bff6bb9e.jpg"
   },
@@ -3005,7 +3005,7 @@
     "Text": "Focused energy attack doing 2 life cards of damage. Costs 1 power stage to perform. Remove from the game after use. Empower 4. This attack is no longer focused. This attack stays on the table to be used 2 more times this Combat without using its Empower.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "I2",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "65c5ee1d-9029-4ae5-b4d1-c6d37a68c67b.jpg"
   },
@@ -3020,7 +3020,7 @@
     "Text": "Physical attack doing +3 power stages of damage. Empower 2. Search the top 4 cards of your Life Deck for a Drill and place it into play if possible. Place the remaining cards on top of your Life Deck in any order.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "HV",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "7ec24fc6-2f47-4d5e-992c-a9361b7d8043.jpg"
   },
@@ -3036,7 +3036,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "09 - Buu Saga",
-    "index": "G8",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "1bcbd351-c6d0-4893-9c4b-175935fcd70a.jpg"
   },
@@ -3051,7 +3051,7 @@
     "Text": "Sensei Deck only. Energy attack. For the remainder of Combat, when your opponent tries to discard or remove from the game one of your cards in play, you may remove from the game 2 cards in your Sensei Deck to keep it in play. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Ej",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "fbdf2eb4-f3e9-4d81-b3e0-a5db3b6b642d.jpg"
   },
@@ -3067,7 +3067,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "09 - Buu Saga",
-    "index": "G9",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e017a137-2788-48dd-8c0e-976d69096170.jpg"
   },
@@ -3083,7 +3083,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "09 - Buu Saga",
-    "index": "GB",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a647b05e-404c-46cf-9766-1fe0d4d0d525.jpg"
   },
@@ -3098,7 +3098,7 @@
     "Text": "Sensei Deck. Physical attack doing +2 power stages of damage. Empower 3. If you declared a Tokui-Waza and your opponent declared a Blue Tokui-Waza, then for the remainder of Combat you may capture a Dragon Ball after each successful attack that deals less than 5 life cards of damage.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "HW",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "fef0d09e-cc93-4a21-9e53-608ee9b6d4ec.jpg"
   },
@@ -3113,7 +3113,7 @@
     "Text": "Physical attack doing 5 power stages of damage. Raise your anger 1 level. If successful, look at your opponent's hand and choose a card. The chosen card is set aside and cannot be used this Comabt. At the end of Combat, place the card that was set aside into your opponent's hand.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "HX",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c4fdfa24-53aa-4b5d-91c1-1a8fb8dcdc5b.jpg"
   },
@@ -3129,7 +3129,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "09 - Buu Saga",
-    "index": "HY",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ffd3677b-75c1-43ef-b183-604153b730f3.jpg"
   },
@@ -3144,7 +3144,7 @@
     "Text": "Use when entering Combat. Reveal your hand to your opponent. If at least 3 cards in your hand are Orange Style cards, attach this card to your Main Personality. While attached, your Main Personality does not have to pay additional costs for any of your card effects besides their original costs.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "HZ",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "fccea43b-7ab5-48a6-b4f7-9fbe446ff0b6.jpg"
   },
@@ -3159,7 +3159,7 @@
     "Text": "Prevent 2 life cards of damage from all attacks performed against you.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Ha",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a73f710a-0fc7-43c3-8294-faa42bfccb95.jpg"
   },
@@ -3174,7 +3174,7 @@
     "Text": "Energy attack. Empower 3. All of your other energy attacks do +1 life cards of damage for the remainder of Combat. Lower your opponent's anger 2 levels.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hb",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "175db5b8-a731-4817-a325-75fc92aadf5d.jpg"
   },
@@ -3189,7 +3189,7 @@
     "Text": "Sensei Deck. Physical attack doing +3 power stages of damage. Empower 2. If you declared a Tokui-Waza and your opponent declared a Blue Tokui-Waza, for the remainder of Combat your Drills cannot be discarded or removed from the game, and cards that end Combat cannot be used.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hc",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ee32b74a-cefb-4110-8125-efc6d63e1280.jpg"
   },
@@ -3204,7 +3204,7 @@
     "Text": "Energy attack doing 5 life cards of damage. Name a card that can perform a physical attack. Search your opponent's Life Deck for all copies of that card and discard them.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hd",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c2184ab7-f0e1-4035-9699-44736c7e5061.jpg"
   },
@@ -3219,7 +3219,7 @@
     "Text": "When entering Combat, you may look at the top 5 cards of your opponent's Life Deck and place them back in the same order.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GD",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "8f3e66f5-2c71-4505-8a29-f7b256fcd3b6.jpg"
   },
@@ -3234,7 +3234,7 @@
     "Text": "Once per Combat during your \"Attacker Attacks\" phase, you may discard one of your Orange Style Drills in play to search your Life Deck for 2 different Drills and place them into play. During your Rejuvenation Step, you may place the top Drill in your discard pile on the bottom of your Life Deck.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "Ek",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e040433b-239f-42e2-8781-665d0fcf77ed.jpg"
   },
@@ -3250,7 +3250,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hg",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "3aa6c09f-7dfb-401e-8868-fba24493d9cb.jpg"
   },
@@ -3265,7 +3265,7 @@
     "Text": "Your Non-Drill cards that have headshots that match your Main Personality are considered Named cards for your Main Personality.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hq",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "fcc0e00e-5824-4768-887b-76ae54ed6059.jpg"
   },
@@ -3282,7 +3282,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "GS",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ebb9acd7-e07b-40c5-827f-7db736bffe71.jpg"
   },
@@ -3297,7 +3297,7 @@
     "Text": "During your \"Defender Defends\" phase, you may discard one of your Non-Combat cards in play to stop a physical attack.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hh",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "d6d672da-ce10-405b-b431-c0688de70cec.jpg"
   },
@@ -3314,7 +3314,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "09 - Buu Saga",
-    "index": "FT",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "1e3a3453-a0d0-42f8-98f4-a8197d77b47c.jpg"
   },
@@ -3331,7 +3331,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "09 - Buu Saga",
-    "index": "FU",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "58148df5-c432-4dd1-a0bd-9ad742ba30b9.jpg"
   },
@@ -3348,7 +3348,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "09 - Buu Saga",
-    "index": "FV",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ddb7a213-f372-410c-ba05-32b32a62278e.jpg"
   },
@@ -3373,7 +3373,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "FW",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "39592f05-96f8-46d3-b134-a5448e9e2270.jpg"
   },
@@ -3388,7 +3388,7 @@
     "Text": "Physical attack doing +3 power stages of damage. This attack does an additional +X life cards of damage, where X is this personality's PUR. Lower your opponent's anger 2 levels.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GA",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a7ee3c6b-531e-4194-8953-6f99941469ee.jpg"
   },
@@ -3403,7 +3403,7 @@
     "Text": "For the remainder of Combat at the beginning of each of your \"Attacker Attacks\" phases, you may have one of your Allies in play pay any amount of power stages to have your Main Personality gain an equal amount of power stages.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GX",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "98cd5ae7-798b-4a54-9f1e-6b2a7e40617d.jpg"
   },
@@ -3418,7 +3418,7 @@
     "Text": "Use in your opponents \"Attacker Attacks\" phase when he performs an attack. All secondary effects of that attack are now \"if successful\" effects. Draw a card. You may still defend against the attack. Limit 1 per deck.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "GC",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "2859f378-6458-4fd9-aa78-bdabb372bf93.jpg"
   },
@@ -3433,7 +3433,7 @@
     "Text": "Majin only. Physical attack doing 6 power stages of damage. Any life cards of damage this attack deals are removed from the game instead of discarded. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hi",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "fd3bac4e-88e4-4efa-be74-77803374fc57.jpg"
   },
@@ -3448,7 +3448,7 @@
     "Text": "Villains only. Energy attack doing 6 life cards of damage. If stopped, your opponent skips his next \"Attacker Attacks\" phase.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GF",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "b023d785-aba4-488a-adfc-03b74c37819c.jpg"
   },
@@ -3463,7 +3463,7 @@
     "Text": "Sensei Deck only. Physical attack doing +4 power stages of damage. For the remainder of Combat when you perform a focused attack, you may remove from the game 2 cards in your Sensei Deck to have that attack do an additional +3 power stages of damage.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "El",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e01f8847-9fa4-4e15-8613-8ca4bbc2c85f.jpg"
   },
@@ -3479,7 +3479,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "09 - Buu Saga",
-    "index": "GH",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "97b1b300-43f7-456f-846c-81fa10cebcd7.jpg"
   },
@@ -3495,7 +3495,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "09 - Buu Saga",
-    "index": "GK",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "073384d0-327f-41a5-8c16-5dc0458ce40c.jpg"
   },
@@ -3510,7 +3510,7 @@
     "Text": "Physical attack doing +3 power stages of damage. For the remainder of Combat, all of your focused attacks do an additional +2 power stages of damage. Raise your anger 1 level.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hj",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "5ccbeb3e-1618-4a79-80c3-8f3853d7591a.jpg"
   },
@@ -3525,7 +3525,7 @@
     "Text": "Sensei Deck. Physical attack doing +2 life cards of damage. Empower 3. If you declared a Tokui-Waza and your opponent declared an Orange Tokui-Waza, your opponent cannot use Non-Combat cards and Allies for the remainder of Combat.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hk",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "7ee8a4c6-ec5d-4ff1-bac1-e13e3774e8da.jpg"
   },
@@ -3540,7 +3540,7 @@
     "Text": "Use when entering Combat. Reveal your hand to your opponent. If at least 3 cards in your hand are Red Style cards, attach this card to your Main Personality. While attached, all of your attacks do +3 power stages of damage.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hl",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "b888c790-c5cf-4fb9-8e3b-1b3aa9e71e71.jpg"
   },
@@ -3555,7 +3555,7 @@
     "Text": "At the beginning of every Discard Step, your Main Personality may pay 1 power stage. If he does, you may discard down to 2 cards instead of 1 for that Discard Step.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hm",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "3cb0c41c-9750-49ab-bd67-7e34bf3d245b.jpg"
   },
@@ -3570,7 +3570,7 @@
     "Text": "Focused energy attack doing 3 life cards of damage. Empower 3. If successful, search your Life Deck for a Drill and place it into play.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hv",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c61ab870-6780-4a40-88b5-9ce78c2bbddb.jpg"
   },
@@ -3585,7 +3585,7 @@
     "Text": "Sensei Deck. Physical attack doing +3 power stages of damage. If you declared a Tokui-Waza, search your opponent's Life Deck for 3 Allies and discard them.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hn",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c79303b8-c5e0-4941-8954-b556a3aefe65.jpg"
   },
@@ -3601,7 +3601,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "09 - Buu Saga",
-    "index": "GM",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "52edc69e-c5c0-4366-b049-5b6c12462337.jpg"
   },
@@ -3617,7 +3617,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "09 - Buu Saga",
-    "index": "GQ",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "49abe25a-c99c-4f0f-8fa3-1fb20813a067.jpg"
   },
@@ -3632,7 +3632,7 @@
     "Text": "Physical attack doing +4 power stages of damage. For the remainder of Combat discard the top card of your opponent's Life Deck when your Main Personality performs a physical attack.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Ho",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ff40001b-3477-49c6-871e-104c8ed5d8cb.jpg"
   },
@@ -3647,7 +3647,7 @@
     "Text": "Physical attack. Empower 4. Search your Life Deck for up to 5 Red Style Drills and place them into play. Raise your anger 1 level. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "I0",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "9584bfa7-010f-488e-b7f4-2a3da3a2a597.jpg"
   },
@@ -3662,7 +3662,7 @@
     "Text": "Sensei Deck. Energy attack doing 3 life cards of damage. Empower 3. If you declared a Tokui-Waza and your opponent declared an Orange Tokui-Waza, you may look at the top 10 cards of your opponent's Life Deck and remove any Drills you find from the game. The remaining cards are shuffled back into his Life Deck.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hp",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "d8bb5155-761e-4fe0-9273-8f8715e6e95a.jpg"
   },
@@ -3677,7 +3677,7 @@
     "Text": "When you perform a Red Style attack, you may discard the top card of your Life Deck to make it a focused attack. After you stop an attack with a Red Style card that does not remove itself from the game, place it on the bottom of your Life Deck.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "Em",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "5fc06208-abe0-4e3a-a246-cfb473d58373.jpg"
   },
@@ -3692,7 +3692,7 @@
     "Text": "Energy attack doing 3 life cards of damage. Empower 3. Remove one of your opponent's Allies or Drills in play from the game. Lower your opponent's anger 2 levels.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GR",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "4df708b9-8343-4ea6-9b7d-123197cabd00.jpg"
   },
@@ -3707,7 +3707,7 @@
     "Text": "You may put any cards in your discard pile into your Sensei Deck. This power cannot raise your Sensei Deck about its maximum deck size. Your Main Personality gains 5 power stages.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Hy",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "7439e44b-2b9b-4d18-b672-915d4b90c538.jpg"
   },
@@ -3722,7 +3722,7 @@
     "Text": "Sensei Deck. Physical attack doing +2 power stages of damage. Empower 3. If you declared a Tokui-Waza and your opponent declared a Black Tokui-Waza, for the remainder of Combat, all of your opponent's cards except for cards that stop attacks cost +2 power stages to use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Dw",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e1eb6426-1805-407d-aa77-ba5df2402589.jpg"
   },
@@ -3738,7 +3738,7 @@
     "Limit": "4",
     "Endurance": "X",
     "Set": "09 - Buu Saga",
-    "index": "E7",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "549002d8-bf96-483e-9657-f6ccfc57e0df.jpg"
   },
@@ -3753,7 +3753,7 @@
     "Text": "Physical attack doing 7 power stages of damage. If the personality performing this attack has a higher power rating than the personality defending against this attack, your opponent cannot use Mastery and Sensei cards for the remainder of the turn.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "EJ",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "61e67a48-a105-48de-ac66-42e708e4723e.jpg"
   },
@@ -3768,7 +3768,7 @@
     "Text": "Physical attack doing +3 power stages of damage. If the personality performing this attack has a higher power rating than the personality defending against this attack, discard one of your opponent's Non-Combat cards in play.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "EV",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f4a9c163-c766-4b8e-85ce-12f3547e29ce.jpg"
   },
@@ -3783,7 +3783,7 @@
     "Text": "Physical attack doing +3 power stages of damage. If the personality performing this attack has a higher power rating than the personality defending against this attack, double the Base Damage from the Physical Attack Table for this attack.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Eh",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "5c49d8f5-b730-4800-bf1b-5d06d6c2947b.jpg"
   },
@@ -3798,7 +3798,7 @@
     "Text": "Saiyan Heritage only. Energy attack doing 3 life cards of damage. Empower 3. For the remainder of Combat, all other attacks cost +1 power stages to perform. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Dy",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "6c6098e3-64e0-4355-b289-f6c5efb4d302.jpg"
   },
@@ -3814,7 +3814,7 @@
     "Limit": "3",
     "Endurance": "4",
     "Set": "09 - Buu Saga",
-    "index": "Ga",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "88ef319f-bf30-4941-88c8-2010886b4819.jpg"
   },
@@ -3829,7 +3829,7 @@
     "Text": "Saiyan Heritage only. Energy attack doing 3 life cards of damage. Empower 4. Choose any 2 Saiyan Style cards in your discard pile that are not \"Saiyan Energy Bomb\" and place them on top of your Life Deck. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Dx",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "d217353b-ee46-4117-8763-f4d76346bb29.jpg"
   },
@@ -3844,7 +3844,7 @@
     "Text": "Stops an energy attack. Raise your anger 1 level.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GT",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "65e94f22-eaa2-4f2e-aea9-88c788490aa2.jpg"
   },
@@ -3859,7 +3859,7 @@
     "Text": "Energy attack. If the personality performing this attack has a higher power rating than the personality defending against this attack, raise your anger 1 level and for the remainder of Combat, all of your other attacks do +2 life cards of damage.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GZ",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c0b1d106-a23f-423a-a7e7-80509bf75533.jpg"
   },
@@ -3874,7 +3874,7 @@
     "Text": "Raise your anger 2 levels. Place the bottom 2 cards in your discard pile at the bottom of your Life Deck. If your Main Personality's power rating is higher than your opponent's Main Personality's, draw a card. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Es",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "d8aab968-2a60-46bf-bb34-89ac90bccf2e.jpg"
   },
@@ -3889,7 +3889,7 @@
     "Text": "Use when entering Combat. Reveal your hand to your opponent. If at least 3 cards in your hand are Saiyan Style cards, attach this card to your Main Personality. While attached, and your Main Personality is not at 0, increase your Main Personality's power rating by +1,000,000.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Dz",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "415bbc29-2068-467c-9b43-91184ec4cd49.jpg"
   },
@@ -3905,7 +3905,7 @@
     "Limit": "3",
     "Endurance": "3",
     "Set": "09 - Buu Saga",
-    "index": "GW",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a9231f63-093d-4383-acf9-a9569bdb357b.jpg"
   },
@@ -3920,7 +3920,7 @@
     "Text": "Physical attack doing +3 power stages of damage. You may discard a card from your hand to have this attack stay on the table to be used one more time this Combat. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "E0",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "de8b7c66-901c-4b71-9d51-e41f40661e63.jpg"
   },
@@ -3935,7 +3935,7 @@
     "Text": "Saiyan Heritage only. Energy attack. Empower 3. Discard up to 3 of your opponent's Allies in play. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "E1",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "de80cc20-d69c-4dfb-8654-03a284db3e38.jpg"
   },
@@ -3950,7 +3950,7 @@
     "Text": "Sensei Deck. Physical attack. If you declared a Tokui-Waza and your opponent declared a Black Tokui-Waza, this attack does an additional +6 life cards of damage, is a focused attack, and is shuffled back into your Life Deck after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "E2",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "4d722c94-90be-4660-a48d-2f1a1a2d7d7f.jpg"
   },
@@ -3965,7 +3965,7 @@
     "Text": "When one of your attacks deals life cards of damage, the first 3 life cards of damage from that attack are remove from the game.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "E3",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a157f2a2-7089-41e3-b0bd-04a147d1d452.jpg"
   },
@@ -3980,7 +3980,7 @@
     "Text": "Saiyan Heritage only. Energy attack. Empower 3. If you declared a Tokui-Waza, then for the remainder of Combat, your opponent cannot use his Mastery card and Drills. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "E4",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "a3fc216f-5403-4aae-86dd-4f53c94c2c6c.jpg"
   },
@@ -3995,7 +3995,7 @@
     "Text": "Sensei Deck only. Physical attack doing +3 power stages of damage. For the remainder of Combat, when you perform a Saiyan Style physical attack, you may remove 2 cards in your Sensei Deck from the game to double the Base Damage of the attack. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "En",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "88b1b3d9-551d-4a9f-9d88-af72510f6525.jpg"
   },
@@ -4010,7 +4010,7 @@
     "Text": "Energy attack. If the personality performing this attack has a higher power rating than the personality defending against this attack, the next Styled attack you perform this Combat becomes a focused attack.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "F5",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f70ca7dc-6c5f-4600-a22d-26bf3379dd99.jpg"
   },
@@ -4025,7 +4025,7 @@
     "Text": "Physical attack doing +3 power stages of damage. This attack can only be stopped as if it were an energy attack.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "GY",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "dedf2726-5611-41ea-bdbd-b8ea0c24bcc0.jpg"
   },
@@ -4040,7 +4040,7 @@
     "Text": "Saiyan Heritage only. Energy attack doing 3 life cards of damage. Empower 4. Discard up to 3 of your opponent's Drills in play. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "E5",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "45deb979-d35f-4e1c-8d0a-5668c6a11c40.jpg"
   },
@@ -4055,7 +4055,7 @@
     "Text": "You cannot win by the Most Powerful Personality Victory. All of your Saiyan Style attacks gain \"Raise your anger 1 level. Gain 3 power stages.\" During the Rejuvenation Step, if you put any Saiyan Style cards back into your Life Deck, raise your anger 2 levels and your Main Personality gains 4 power stages.",
     "Limit": "1",
     "Set": "09 - Buu Saga",
-    "index": "Eo",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "09c83e73-1b24-4dfd-b11b-a6c52a2badf0.jpg"
   },
@@ -4070,7 +4070,7 @@
     "Text": "Physical attack doing +4 power stages of damage. If the personality performing this attack has a higher power rating than the personality defending against this attack, discard up to 2 of your opponent's Allies in play.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "FK",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "2eca9180-da7e-4eaf-9b56-581d9f6e2213.jpg"
   },
@@ -4085,7 +4085,7 @@
     "Text": "Use when entering Combat. You may search your Life Deck for any level of Supreme Kai and place him into play at his highest power stage. For the remainder of the turn, Supreme Kai may use his Personality Power without taking control. If your Supreme Kai is in play at the end of Combat, you may shuffle him into your Life Deck.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Ep",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "47175692-7330-44df-b817-bd57cf409cb7.jpg"
   },
@@ -4100,7 +4100,7 @@
     "Text": "Focused energy attack. If you declared a Tokui-Waza and your Main Personality is above level 1, you may have him lose a personality level to have this attack do an additional +7 life cards of damage. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Eq",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "8e816417-e7ac-40f5-8aae-aa41edd99566.jpg"
   },
@@ -4115,7 +4115,7 @@
     "Text": "For the remainder of Combat, when one fo your Allies uses a personality power to perform an attack it does an additional +2 life cards of damage. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "I1",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "39689650-e000-482f-8f38-184eddbcd439.jpg"
   },
@@ -4130,7 +4130,7 @@
     "Text": "Search your Life Deck and any cards in play for all Dragon Balls you own and set them aside into a new stack. At the beginning of each of your turns, choose a Dragon Ball that is not in play from that stack and place it into play. Your card powers cannot end Combat for the remainder of the game.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Eu",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "ae6ab34b-81f5-4650-9948-215ee358174f.jpg"
   },
@@ -4145,7 +4145,7 @@
     "Text": "If you have Goten and Kid Trunks in play at the same personality level, you may fuse them with the Gotenks Fusion card of the same personality level.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Er",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "b161e1ca-6a34-445d-8dc1-288cbf6677b6.jpg"
   },
@@ -4168,7 +4168,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "E8",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "98c3e1b9-b9e1-4c34-b860-a85719e0eba4.jpg"
   },
@@ -4183,7 +4183,7 @@
     "Text": "Physical attack doing +3 power stages of damage. If \"Arqua's Arena\" is in play, this is a focused attack. If performed by Videl and she is your Main Personality, raise your anger 2 levels.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "Gb",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "c0e144b8-fada-4272-a7da-c392676975d6.jpg"
   },
@@ -4198,7 +4198,7 @@
     "Text": "Energy attack doing 6 life cards of damage. If used by Vegeta, then for the remainder of Combat the bottom 15 cards of your discard pile are Vegeta Named cards while in your discard pile.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "Gc",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "f6243b98-9b81-4f0a-ba08-199810a014af.jpg"
   },
@@ -4213,7 +4213,7 @@
     "Text": "All attacks you perform with Named cards that match your Main Personality do +2 power stages of damage. If your Main Personality is Vegeta, his PUR is increased by +1.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "I4",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "b86aea22-31b0-461a-b0f6-e8f721165589.jpg"
   },
@@ -4228,7 +4228,7 @@
     "Text": "Vegeta and Majin Vegeta only. Energy attack doing 15 life cards of damage. If performed against a Majin, this is a focused attack. You lose the game in your opponent's next \"Attacker Attacks\" phase.",
     "Limit": "4",
     "Set": "09 - Buu Saga",
-    "index": "E9",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "700a237c-e071-4597-a85a-c40b20618138.jpg"
   },
@@ -4243,7 +4243,7 @@
     "Text": "Use only at the beginning of your Discard Step in a turn that you skipped Combat. Shuffle 4 cards in your discard pile into your Life Deck. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "I3",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "e5aa92cb-cdcb-46ed-85a8-9ffafe963996.jpg"
   },
@@ -4266,7 +4266,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "Gd",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "135e8e95-2e83-4af4-8093-f99d3c29e418.jpg"
   },
@@ -4281,7 +4281,7 @@
     "Text": "Use when one of your physical attacks becomes successful. Your opponent cannot have Allies take control of Combat for the remainder of Combat. Lower your opponent's anger 1 level. Draw a card. Remove from the game after use.",
     "Limit": "3",
     "Set": "09 - Buu Saga",
-    "index": "EA",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "2c0bbf83-8fa3-4099-a347-caf806a85926.jpg"
   },
@@ -4304,7 +4304,7 @@
       }
     ],
     "Set": "09 - Buu Saga",
-    "index": "EB",
+    "Designer": "Official",
     "set_id": "25e6dccb-c41c-409b-b5ab-1f797ed94414",
     "image": "bef625f6-07c3-4c0f-9a42-39047fed97cc.jpg"
   }

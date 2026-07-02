@@ -10,7 +10,7 @@
     "Text": "Stops an energy attack. At the end of combat, if you have performed a physical attack and an energy attack this combat, raise your anger 2 levels.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "V8",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "a0469cfa-4958-4383-b1f9-3b42bcb40514.jpg"
   },
@@ -25,7 +25,7 @@
     "Text": "Energy attack doing 5 life cards of damage or stops a physical attack. Change the Future.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "V9",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "eac8b1dc-5aac-4303-a106-f260a5df6779.jpg"
   },
@@ -40,7 +40,7 @@
     "Text": "(You may only include this card in your deck if there are no cards in your deck that discard cards from your opponent's hand.) Physical attack doing 4 life cards of damage or stops an energy attack. For the remainder of combat, your other cards that can both perform an attack and stop an attack stay on the table to be used an additional time this combat.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VA",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "88b6517f-2c59-40f5-a3c5-886e18fba706.jpg"
   },
@@ -55,7 +55,7 @@
     "Text": "At the beginning of your Power-Up Step, your allies gain X power stages, where X= your MP's PUR. When entering combat choose an ally you have in play. The chosen ally may take control of combat regardless of your MP's stages above 0 for the remainder of combat.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VB",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "a438fbd9-3482-48a5-a79c-f5da80035345.jpg"
   },
@@ -70,7 +70,7 @@
     "Text": "Transform. Energy attack. Lower your opponent's anger 1 level. If you have stopped an attack using your Mastery this combat, search your Life Deck for a Drill and place it into play. Remove from the game after use.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VC",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "4830c15a-8c2f-441d-91fe-c21aae32cfda.jpg"
   },
@@ -85,7 +85,7 @@
     "Text": "Focused energy attack. Change the Future. You may reveal the top card of your Life Deck, then if it is an ally, place it into play at 3 power stages above 0, and for the remainder of combat, that ally make take control of combat regardless of your MP's power stages above 0.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VD",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "33c6d66c-d081-4334-8def-d859ce944295.jpg"
   },
@@ -100,7 +100,7 @@
     "Text": "Focused energy attack doing 6 life cards of damage. You may reduce the damage this attack deals by any amount of life cards (to a minimum of 0) to shuffle that many Trunks or Vegeta named cards in your discard pile into your Life Deck. If this attack's damage was reduced to 0 this way, your opponent skips their next Attacker Attacks phase this combat.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VQ",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "bb07dba1-f870-49e3-bacc-3c6e14a2c6c5.jpg"
   },
@@ -115,7 +115,7 @@
     "Text": "Energy attack doing 7 life cards of damage. If successful, and used by a Fused Personality, you may return it to your Sensei Deck to choose a Fused Personality with the same name that is 1 level higher from your Sensei Deck and place it into play at its highest power stage. Remove from game after use.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VR",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "5b102f9d-b1e7-4279-a988-19799484cc26.jpg"
   },
@@ -132,7 +132,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vp",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "44ffb07e-3aae-4008-8e32-44aa5833e12a.jpg"
   },
@@ -149,7 +149,7 @@
     "Limit": "1",
     "Card Level": "5",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vq",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "3428d861-3574-4cde-8d38-e93511669cc6.jpg"
   },
@@ -166,7 +166,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vd",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "6d0ae02f-5e6b-4987-8444-dc2dfcd1bbfa.jpg"
   },
@@ -181,7 +181,7 @@
     "Text": "(If you place this card into play during combat, you may raise your MP to its highest power stage.) When you perform an attack, you may choose to have it do +2 power stages of damage, and gain \"If successful, gain 3 power stages.\" If Gohan is your MP, this card is not discarded when you advance a personality level.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VS",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "9b217f8d-c577-4501-a5b5-c1984c6a2b37.jpg"
   },
@@ -196,7 +196,7 @@
     "Text": "(If this card is in your discard pile, and you declared a Freestyle Tokui-waza, you may remove it from the game during your Attacker Attacks phase to raise your anger 1 level.) Energy attack. If you declared a Freestyle Tokui-Waza, raise your anger 2 levels. Remove from the game after use.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VT",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "8630fafe-cf90-4d2d-b34f-4eb1e6092b15.jpg"
   },
@@ -213,7 +213,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vl",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "1905324d-0012-43b5-90fe-19b3f89ae330.jpg"
   },
@@ -230,7 +230,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vj",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "f0635969-e798-4712-9cc3-d7b778846867.jpg"
   },
@@ -247,7 +247,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vk",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "4a64123c-4fa8-4110-96e7-db4298890b35.jpg"
   },
@@ -262,7 +262,7 @@
     "Text": "Cards in your Sensei Deck cannot be removed from the game. When you defuse, return the Fusion Personality to your Sensei Deck. Once per game, during your Non-Combat step, you may choose to have your opponent play with their hand revealed until the end of this turn.",
     "Limit": "1",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vc",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "62228c19-26a9-4ff0-90c7-7161f609b27a.jpg"
   },
@@ -277,7 +277,7 @@
     "Text": "Search your Life Deck or discard pile for an ally and place it into play at 3 power stages above 0. Then, if you have an ally in play that can fuse with your MP (they do not have to be the same personality level), they may fuse into a Fusion Personality that is the same level as your MP. At the end of your opponent's next turn, or whenever they would defuse (whichever happens first), they defuse.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VU",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "b322ad3c-aba6-482f-8d06-6efc371dd768.jpg"
   },
@@ -293,7 +293,7 @@
     "Limit": "3",
     "Endurance": "1",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VE",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "6f3113d6-2e3a-4f5a-8d95-8d053a9cdb79.jpg"
   },
@@ -308,7 +308,7 @@
     "Text": "Once per combat, Change the Future. You may use the once per combat effect of your Mastery to play the top card of your Life Deck an additional time each combat.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VG",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "ccfc580f-7f7a-4c46-8521-b8b8844e4763.jpg"
   },
@@ -323,7 +323,7 @@
     "Text": "(Whenever this card is placed back into your Life Deck from your discard pile, raise your anger 1 level.) Energy attack doing 6 life cards of damage. If your declared a tokui-waza and you've put 1 or more cards back into your Life Deck this turn, raise your anger 2 levels.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VF",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "268f6001-51f7-4b80-ae03-dc773ae88038.jpg"
   },
@@ -338,7 +338,7 @@
     "Text": "(If this card is discarded from your hand, and your opponent ended combat this turn, advance a personality level.) Raise your anger 1 level. For the remainder of combat, your opponent cannot end combat and during your Attacker Attacks phases you may discard a card to raise your anger 1 level.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VV",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "087431e7-a02e-4613-8583-13fc37bbc5f4.jpg"
   },
@@ -354,7 +354,7 @@
     "Limit": "3",
     "Endurance": "2",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VH",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "b20aad94-6efc-4e0c-89eb-d54ad3aab907.jpg"
   },
@@ -369,7 +369,7 @@
     "Text": "Physical attack doing +4 power stages of damage. You may raise your anger 1 level. Change the Future. You may discard the top card of your Life Deck. For the remainder of combat, your attacks do +X power stages of damage where X= the Endurance of any styled card discarded this way.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VI",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "fc8bf1eb-7225-4e3d-98fc-88004df72188.jpg"
   },
@@ -385,7 +385,7 @@
     "Limit": "3",
     "Endurance": "4",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VJ",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "c4592750-b6c4-497d-9368-b28e3f3dc008.jpg"
   },
@@ -400,7 +400,7 @@
     "Text": "Physical attack doing +4 power stages or 4 life cards of damage. If you declared a tokui-waza, you may give up winning by MPPV for the remainder of the game to raise your anger 3 levels.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VK",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "111f6026-2883-47a1-b645-bd4ed841d625.jpg"
   },
@@ -415,7 +415,7 @@
     "Text": "Energy attack doing 6 life cards of damage. For the remainder of combat, whenever you advance a personality level, you do not discard your drills. If you control 3 or more red styled drills, raise your anger 2 levels.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VL",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "b707eb8b-6d23-466b-b907-663fd96c30b9.jpg"
   },
@@ -430,7 +430,7 @@
     "Text": "Once per combat, during your Attacker Attacks phase, you may perform a physical attack doing +3 power stages of damage, or Change the Future.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VM",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "3fa1946a-2b22-4ac0-bdee-e57322872772.jpg"
   },
@@ -445,7 +445,7 @@
     "Text": "Physical attack doing +5 power stages of damage. You may set your anger to 0 to lower your opponent's anger 2 levels. If you have prevented damage this combat with a non-endurance effect, then for the remainder of combat, your Styled attacks are focused and do +2 life cards of damage.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VN",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "243cf2f0-12f7-4160-b602-9e8c50c49b5a.jpg"
   },
@@ -460,7 +460,7 @@
     "Text": "Stops an energy attack. Raise your anger 1 level. Choose up to 1 non-personality card in play. Your opponent cannot use the chosen card for the remainder of combat.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VO",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "25a1cbcb-3b8c-4a1b-833e-9f73aaf7d291.jpg"
   },
@@ -475,7 +475,7 @@
     "Text": "Physical attack doing +4 power stages of damage. Change the Future. If successful, reveal the top card of your Life Deck. For the remainder of combat, during your opponent's Attacker Attacks phase, their cards of the same type as the revealed card cost +2 power stages of damage.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VP",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "44afb55e-b2d5-416d-9604-66ad84e6078a.jpg"
   },
@@ -490,7 +490,7 @@
     "Text": "(When one of your effects would require you to remove cards in your discard pile from the game, this card counts as 1 or 2 cards, regardless of requirement.) Energy attack. For the remainder of combat, you are considered to have no cards in your hand for your non-Dragon Ball card effects.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VW",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "52478cd0-1843-41ad-8c0f-3133af543c8e.jpg"
   },
@@ -507,7 +507,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vf",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "9f1b6f2a-27c7-447c-b667-da9f05063f15.jpg"
   },
@@ -524,7 +524,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vh",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "72a0251a-d1ac-462c-b54c-e1ed34fb2c42.jpg"
   },
@@ -541,7 +541,7 @@
     "Limit": "1",
     "Card Level": "4",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vi",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "c65ec096-a4ce-4d7f-aba7-86875a259c9a.jpg"
   },
@@ -558,7 +558,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vg",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "93858142-40a3-4479-9ef3-d8b6bd40fe73.jpg"
   },
@@ -575,7 +575,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Ve",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "78f6bbb0-8c3c-4fec-b8a8-14c4e918d9be.jpg"
   },
@@ -590,7 +590,7 @@
     "Text": "Villains only. Physical attack doing +3 power stages of damage. You may discard an attached card in play. You may raise your anger.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VX",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "5a155c3b-267d-450e-8ddf-ffb6ce6691e0.jpg"
   },
@@ -605,7 +605,7 @@
     "Text": "(You may only include this card in your deck if your deck is at maximum deck size. If it is the first combat of the game, this card may be used as a \"use when needed\" effect.) Raise your main personality to its highest power stage. For the remainder of combat, your opponent must deal 2 additional life cards of damage to capture a Dragon Ball. For the remainder of the game, your Dragon Balls cannot be removed from the game.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VY",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "cdc680d4-0411-4466-b1cb-23b6c8d5417d.jpg"
   },
@@ -620,7 +620,7 @@
     "Text": "Resist. Zamasu only. Your Drills are not discarded when advancing or lowering personality levels via your card effects or by anger gained via your card effects. When your opponent uses a card effect to remove cards from your discard pile, among them they may only remove 1 Drill.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "VZ",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "4ba8137b-5642-45ee-84c3-8b16664ab278.jpg"
   },
@@ -637,7 +637,7 @@
     "Limit": "1",
     "Card Level": "2",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vn",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "d1b70d8d-c011-449f-8f50-560673d7d961.jpg"
   },
@@ -654,7 +654,7 @@
     "Limit": "1",
     "Card Level": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vo",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "057d90fe-f96a-4f62-bb19-7cdf26bbc6bd.jpg"
   },
@@ -671,7 +671,7 @@
     "Limit": "1",
     "Card Level": "1",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vm",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "dfc477cb-d103-4ca4-abe3-c9f3625aba75.jpg"
   },
@@ -686,7 +686,7 @@
     "Text": "(You cannot name or affect a Main Personality card, Dragon Ball, Sensei, or Mastery with this card.) Remove a card in play from the game. Remove from the game after use.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Va",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "82ccc3e4-c9c9-47cb-b9fd-ecf8a2296b1a.jpg"
   },
@@ -701,7 +701,7 @@
     "Text": "(If your MP is Goku Black or Zamasu, before the first turn of the game begins, you may search your Life Deck for a copy of this card and place it into play attached to your MP.) Attach this card to your MP. While attached, ignore any \"___ only\" effects on copied attacks you perform, and any styled words are considered to match your tokui-waza.",
     "Limit": "3",
     "Set": "24 - NZ10 Mortal Combat",
-    "index": "Vb",
+    "Designer": "Fanmade",
     "set_id": "d505b332-16ac-4915-b23a-85aacb3536fb",
     "image": "6ef143af-da62-4c8c-945b-172cbb315190.jpg"
   }
