@@ -669,6 +669,29 @@ li.selected {
   min-width: 0;
 }
 
+.app-logo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  min-width: 0;
+}
+
+.app-logo {
+  display: block;
+  width: auto;
+  height: 84px;
+  max-width: min(320px, 48vw);
+  object-fit: contain;
+}
+
+@media (max-width: 700px) {
+  .app-logo {
+    height: 36px;
+    max-width: 42vw;
+  }
+}
+
 .app-title {
   margin: 0;
   white-space: nowrap;
@@ -872,4 +895,24 @@ li.selected {
 
 .proxy-pdf-modal {
   width: 700px;
+}
+
+.site-footer {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 2.5rem;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  color: var(--header-color);
+}
+
+.site-footer a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  text-decoration: underline;
 }

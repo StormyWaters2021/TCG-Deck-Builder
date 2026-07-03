@@ -503,16 +503,18 @@ useEffect(() => {
 </div>
 
   {/* Center: Title (no absolute positioning now) */}
- <div className="app-brand-row">
-  <h1
-    className="app-title"
-    style={{
-      fontSize: isMobileLayout ? "1.4rem" : undefined,
-      maxWidth: isMobileLayout ? "52vw" : undefined,
-    }}
+<div className="app-brand-row">
+  <a
+    href={`${import.meta.env.BASE_URL || "/"}`}
+    className="app-logo-link"
+    aria-label="TCGBuilder.net home"
   >
-    TCGBuilder.net
-  </h1>
+    <img
+      src={`${import.meta.env.BASE_URL}images/tcgbuilder-logo.png`}
+      alt="TCGBuilder.net"
+      className="app-logo"
+    />
+  </a>
 
   <button
     className={`news-nav-button${activePage === "news" ? " active" : ""}`}
@@ -521,7 +523,7 @@ useEffect(() => {
     aria-current={activePage === "news" ? "page" : undefined}
     title="News"
   >
-    <span aria-hidden="true" className="news-nav-icon">⚠️📰⚠️</span>
+    <span aria-hidden="true" className="news-nav-icon">📰</span>
     <span>News</span>
   </button>
 </div>
@@ -660,6 +662,13 @@ useEffect(() => {
           />
         )
       )}
+	  {activePage !== "news" && (
+  <footer className="site-footer">
+    <a href="mailto:info@tcgbuilder.net">
+      info@tcgbuilder.net
+    </a>
+  </footer>
+)}
     </div>
   );
 }
