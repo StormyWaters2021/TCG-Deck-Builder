@@ -505,15 +505,15 @@ useEffect(() => {
   {/* Center: Title (no absolute positioning now) */}
 <div className="app-brand-row">
   <a
-    href={`${import.meta.env.BASE_URL || "/"}`}
+    href={(import.meta.env.BASE_URL || "/")}
     className="app-logo-link"
     aria-label="TCGBuilder.net home"
   >
     <img
-      src={`${import.meta.env.BASE_URL}images/tcgbuilder-logo.png`}
-      alt="TCGBuilder.net"
-      className="app-logo"
-    />
+  src={`${(import.meta.env.BASE_URL || "").replace(/\/$/, "")}/images/tcgbuilder-logo.png`}
+  alt="TCGBuilder.net"
+  className="app-logo"
+/>
   </a>
 
   <button
