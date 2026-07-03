@@ -509,8 +509,10 @@ useEffect(() => {
     className="app-logo-link"
     aria-label="TCGBuilder.net home"
   >
-    <img
-  src={`${(import.meta.env.BASE_URL || "").replace(/\/$/, "")}/images/tcgbuilder-logo.png`}
+const LOGO_VERSION = "2026-07-03";
+
+<img
+  src={`${(import.meta.env.BASE_URL || "").replace(/\/$/, "")}/images/tcgbuilder-logo.png?v=${LOGO_VERSION}`}
   alt="TCGBuilder.net"
   className="app-logo"
 />
