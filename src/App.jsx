@@ -602,6 +602,26 @@ useEffect(() => {
   >
     ☕
   </button>
+  <button
+  onClick={() => {
+    window.location.href = "mailto:info@tcgbuilder.net";
+  }}
+  aria-label="Email TCGBuilder.net"
+  style={{
+    cursor: "pointer",
+    background: "transparent",
+    border: "none",
+    fontSize: "1.5rem",
+    color: "inherit",
+    userSelect: "none",
+    padding: 0,
+    margin: 0,
+  }}
+  type="button"
+  title="Email us"
+>
+  ✉️
+</button>
 </div>
 
 </header>
