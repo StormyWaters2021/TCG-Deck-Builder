@@ -7,6 +7,7 @@ import { loadCardsForGame } from "./utils/cardsLoader";
 import { newsArticles } from "./newsArticles";
 
 const LAST_GAME_KEY = "tcgbuilder:lastGame";
+const LOGO_VERSION = "2026-07-03";
 
 function sortCardsByNameThenSubtitle(cards) {
   return [...cards].sort((a, b) => {
@@ -509,7 +510,7 @@ useEffect(() => {
     className="app-logo-link"
     aria-label="TCGBuilder.net home"
   >
-const LOGO_VERSION = "2026-07-03";
+
 
 <img
   src={`${(import.meta.env.BASE_URL || "").replace(/\/$/, "")}/images/tcgbuilder-logo.png?v=${LOGO_VERSION}`}
