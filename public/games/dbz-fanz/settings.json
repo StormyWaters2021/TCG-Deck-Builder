@@ -161,6 +161,24 @@
          }
       }
    },
+   "documents": {
+	  "enabled": true,
+	  "label": "Documents",
+	  "items": [
+		{
+		  "name": "Rulebook v3.0",
+		  "file": "panini-rule-book-3-0.pdf"
+		},
+		{
+		  "name": "CRD v1.15 6.4.25",
+		  "file": "CRD v1.15 6-4-25.pdf"
+		},
+		{
+		  "name": "Tournament Guide (1/2017)",
+		  "file": "tournamentguidejan2017.pdf"
+		}
+	  ]
+	},
    "deckTextExport":{
       "grouping":"OCTGN",
       "headerStyle":"boldAsterisks",

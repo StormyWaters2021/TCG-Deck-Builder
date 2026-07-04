@@ -7,6 +7,7 @@ import { buildCardPreviewProperties } from "../utils/cardPreviewExtra";
 import { startDeckImportFlow } from "../utils/deckImportFlow";
 import ImagePackExportControl from "../components/ImagePackExportControl";
 import { getDeckExportModules } from "../utils/exportModules";
+import DocumentsControl from "../components/DocumentsControl";
 import { buildDeckTextExport } from "../utils/deckTextExport";
 import {
   exportDeckOCTGN,
@@ -1431,6 +1432,13 @@ const deckExportActions = {
             game={game}
             buttonClass={buttonClass}
           />
+		  <DocumentsControl
+			  settings={settings}
+			  game={game}
+			  buttonClass={buttonClass}
+			  dropdownButtonClass={dropdownButtonClass}
+			  dropdownButtonHoverClass={dropdownButtonHoverClass}
+			/>
         </div>
 
         <div style={{ width: "220px", marginBottom: "1em" }}>

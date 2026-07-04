@@ -165,19 +165,19 @@ function ImagePackExportControl({
       </AppModal>
 
       {imagePackProgress === null ? (
-        <button
-          className={buttonClass}
-          style={{ fontSize: "12px" }}
-          onClick={() => {
-            if (selectedSetNames.size === 0) {
-              setSelectedSetNames(new Set(setNames));
-            }
-            setSetSelectorError("");
-            setShowSetSelector(true);
-          }}
-        >
-          OCTGN Image Pack
-        </button>
+		<button
+		  className={buttonClass}
+		  type="button"
+		  onClick={() => {
+			if (selectedSetNames.size === 0) {
+			  setSelectedSetNames(new Set(setNames));
+			}
+			setSetSelectorError("");
+			setShowSetSelector(true);
+		  }}
+		>
+		  Image Pack
+		</button>
       ) : (
         <button
           className={buttonClass}
