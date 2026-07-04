@@ -26,6 +26,55 @@
   "octgnExport": true,
   "imagePackExport": true,
   
+  "documents": {
+	  "enabled": true,
+	  "label": "Documents",
+	  "items": [
+		{
+		  "name": "Core Rules",
+		  "file": "call-of-cthulhu-core-rules.pdf"
+		},
+		{
+		  "name": "FAQ v4.2",
+		  "file": "coc-faq_ver_42_worlds_2015_update.pdf"
+		},
+		{
+		  "name": "Dreamlands Expansion Rules",
+		  "file": "dreamlands-rules.pdf"
+		},
+		{
+		  "name": "Seekers of Knowledge Expansion Rules",
+		  "file": "seekers-of-knowledge-rulesheet.pdf"
+		},
+		{
+		  "name": "The Key and the Gate Expansion Rules",
+		  "file": "the-key-and-the-gate-rulesheet.pdf"
+		},
+		{
+		  "name": "Call of Cthulhu CCG Multi-Player",
+		  "file": "cocmultiplayer.pdf"
+		},
+		{
+		  "name": "Tournament Rules v4.1.1",
+		  "file": "ct_tournament_rules_v411.pdf"
+		}
+	  ]
+	},
+  "print":{
+      "cardWidthMm":63,
+      "cardHeightMm":88,
+      "bleedMm":0,
+      "horizontalGapMm":0,
+      "verticalGapMm":0,
+      "sideMarginMm":10,
+      "topMarginMm":5,
+      "bottomMarginMm":5,
+      "cardsPerRow":3,
+      "cardsPerColumn":3,
+      "dpi":300,
+      "jpegQuality":0.72,
+      "paperSize":"Letter"
+   },
   "deckExports": {
 	  "menu": [
 		"decklistImage",
