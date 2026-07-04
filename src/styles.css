@@ -916,3 +916,21 @@ li.selected {
 .site-footer a:focus-visible {
   text-decoration: underline;
 }
+
+.documents-dropdown-menu {
+  position: fixed;
+
+  width: max-content;
+  min-width: 240px;
+  max-width: min(420px, calc(100vw - 1rem));
+
+  z-index: 10000;
+}
+
+.documents-dropdown-menu .dropdown-button {
+  width: 100%;
+  min-width: 240px;
+
+  text-align: left;
+  white-space: nowrap;
+}
