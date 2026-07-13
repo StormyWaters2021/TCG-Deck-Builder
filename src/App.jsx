@@ -5,6 +5,17 @@ import MobileDeckBuilder from "./mobile/MobileDeckBuilder";
 import { useLayoutMode } from "./mobile/layoutMode";
 import { loadCardsForGame } from "./utils/cardsLoader";
 import { newsArticles } from "./newsArticles";
+import {
+  fetchCurrentUser,
+  getGoogleLoginUrl,
+  logoutCurrentUser,
+  updateCurrentUserDisplayName,
+  getDiscordLinkUrl,
+  getDiscordLoginUrl,
+  fetchPendingAccountMerge,
+  confirmAccountMerge,
+} from "./utils/accountApi";
+
 
 const LAST_GAME_KEY = "tcgbuilder:lastGame";
 const LOGO_VERSION = "2026-07-03";
@@ -278,6 +289,20 @@ function App() {
   const [deck, setDeck] = useState({});
   const [loadProgress, setLoadProgress] = useState({ done: 0, total: 0 });
   const [loadError, setLoadError] = useState(null);
+  const [currentUser, setCurrentUser] = useState(null);
+  const [accountLoading, setAccountLoading] = useState(true);
+  const [accountError, setAccountError] = useState("");
+  const [accountModalOpen, setAccountModalOpen] = useState(false);
+  const [loginModalOpen, setLoginModalOpen] = useState(false);
+  const [displayNameDraft, setDisplayNameDraft] = useState("");
+  const [displayNameSaving, setDisplayNameSaving] = useState(false);
+  const [displayNameError, setDisplayNameError] = useState("");
+  const [mergeModalOpen, setMergeModalOpen] = useState(false);
+  const [mergeToken, setMergeToken] = useState("");
+  const [mergePreview, setMergePreview] = useState(null);
+  const [mergeLoading, setMergeLoading] = useState(false);
+  const [mergeError, setMergeError] = useState("");
+  const [mergeSuccessMessage, setMergeSuccessMessage] = useState("");
 
   // For light/dark mode toggle, initialize from localStorage or default false (dark)
   const [isLightMode, setIsLightMode] = useState(() => {
@@ -303,6 +328,137 @@ const [activePage, setActivePage] = useState(() => {
     }
     localStorage.setItem("lightMode", isLightMode);
   }, [isLightMode]);
+
+useEffect(() => {
+  let cancelled = false;
+
+  async function loadCurrentUser() {
+    setAccountLoading(true);
+    setAccountError("");
+
+    try {
+      const user = await fetchCurrentUser();
+
+      if (!cancelled) {
+        setCurrentUser(user);
+      }
+    } catch (error) {
+      console.error("Unable to load account", error);
+
+      if (!cancelled) {
+        setCurrentUser(null);
+        setAccountError(
+          error?.message || "Unable to load account",
+        );
+      }
+    } finally {
+      if (!cancelled) {
+        setAccountLoading(false);
+      }
+    }
+  }
+
+  loadCurrentUser();
+
+  return () => {
+    cancelled = true;
+  };
+}, []);
+
+useEffect(() => {
+  let cancelled = false;
+
+  const url = new URL(window.location.href);
+  const authResult = url.searchParams.get("auth");
+  const authError = url.searchParams.get("auth_error");
+  const pendingMergeToken = url.searchParams.get("merge_token");
+
+if (
+  authResult === "merge_required" &&
+  pendingMergeToken
+) {
+  setMergeLoading(true);
+  setMergeError("");
+  setMergeToken(pendingMergeToken);
+
+  fetchPendingAccountMerge(pendingMergeToken)
+    .then((preview) => {
+      if (cancelled) {
+        return;
+      }
+
+      setMergePreview(preview);
+      setMergeModalOpen(true);
+
+      url.searchParams.delete("auth");
+      url.searchParams.delete("auth_error");
+      url.searchParams.delete("merge_token");
+
+      window.history.replaceState(
+        {},
+        "",
+        `${url.pathname}${url.search}${url.hash}`,
+      );
+    })
+    .catch((error) => {
+      console.error(
+        "Unable to load pending account merge",
+        error,
+      );
+
+      if (cancelled) {
+        return;
+      }
+
+      setAccountError(
+        error?.message ||
+          "Unable to load account merge details",
+      );
+
+      setMergeToken("");
+      setMergePreview(null);
+
+      url.searchParams.delete("auth");
+      url.searchParams.delete("auth_error");
+      url.searchParams.delete("merge_token");
+
+      window.history.replaceState(
+        {},
+        "",
+        `${url.pathname}${url.search}${url.hash}`,
+      );
+    })
+    .finally(() => {
+      if (!cancelled) {
+        setMergeLoading(false);
+      }
+    });
+
+  return () => {
+    cancelled = true;
+  };
+}
+
+  if (authError) {
+    setAccountError(`Login failed: ${authError}`);
+  }
+
+  if (authResult || authError || pendingMergeToken) {
+    url.searchParams.delete("auth");
+    url.searchParams.delete("auth_error");
+    url.searchParams.delete("merge_token");
+
+    window.history.replaceState(
+      {},
+      "",
+      `${url.pathname}${url.search}${url.hash}`,
+    );
+  }
+
+  return () => {
+    cancelled = true;
+  };
+}, []);
 
 useEffect(() => {
   const handlePopState = () => {
@@ -475,6 +631,127 @@ useEffect(() => {
     window.history.replaceState({}, "", url.toString());
   };
 
+const handleSaveDisplayName = async (event) => {
+  event.preventDefault();
+
+  const normalizedName = displayNameDraft
+    .trim()
+    .replace(/\s+/g, " ");
+
+  if (!normalizedName) {
+    setDisplayNameError("Display name cannot be blank.");
+    return;
+  }
+
+  if (Array.from(normalizedName).length > 50) {
+    setDisplayNameError(
+      "Display name cannot exceed 50 characters.",
+    );
+    return;
+  }
+
+  setDisplayNameSaving(true);
+  setDisplayNameError("");
+
+  try {
+    const updatedUser =
+      await updateCurrentUserDisplayName(normalizedName);
+
+    setCurrentUser(updatedUser);
+    setDisplayNameDraft(updatedUser.displayName);
+  } catch (error) {
+    console.error("Unable to update display name", error);
+
+    setDisplayNameError(
+      error?.message || "Unable to update display name",
+    );
+  } finally {
+    setDisplayNameSaving(false);
+  }
+};
+
+const clearMergeParamsFromUrl = () => {
+  const url = new URL(window.location.href);
+
+  url.searchParams.delete("auth");
+  url.searchParams.delete("auth_error");
+  url.searchParams.delete("merge_token");
+
+  window.history.replaceState(
+    {},
+    "",
+    `${url.pathname}${url.search}${url.hash}`,
+  );
+};
+
+const handleCancelMerge = () => {
+  if (mergeLoading) {
+    return;
+  }
+
+  setMergeModalOpen(false);
+  setMergeToken("");
+  setMergePreview(null);
+  setMergeError("");
+
+  clearMergeParamsFromUrl();
+};
+
+const handleConfirmMerge = async () => {
+  if (!mergeToken || mergeLoading) {
+    return;
+  }
+
+  setMergeLoading(true);
+  setMergeError("");
+
+  try {
+    await confirmAccountMerge(mergeToken);
+
+    // The API revoked all sessions for both accounts,
+    // including this browser's current session.
+    setCurrentUser(null);
+    setAccountModalOpen(false);
+    setMergeModalOpen(false);
+    setMergeToken("");
+    setMergePreview(null);
+
+    clearMergeParamsFromUrl();
+
+    setMergeSuccessMessage(
+      "Accounts merged successfully. Please log in again.",
+    );
+
+    setLoginModalOpen(true);
+  } catch (error) {
+    console.error("Unable to merge accounts", error);
+
+    setMergeError(
+      error?.message || "Unable to merge accounts",
+    );
+  } finally {
+    setMergeLoading(false);
+  }
+};
+
+  const handleLogin = () => {
+  window.location.href = getGoogleLoginUrl();
+};
+
+const handleLogout = async () => {
+  setAccountError("");
+
+  try {
+    await logoutCurrentUser();
+    setCurrentUser(null);
+  } catch (error) {
+    console.error("Unable to log out", error);
+    setAccountError(
+      error?.message || "Unable to log out",
+    );
+  }
+};
+
   return (
     <div className="app-container">
       <header
@@ -541,6 +818,64 @@ useEffect(() => {
     gap: 2, // tighter space between the two icons
   }}
 >
+
+<div className="account-control">
+  {accountLoading ? (
+    <span className="account-loading">
+      Checking account…
+    </span>
+  ) : currentUser ? (
+    <>
+  <button
+    className="account-profile-button"
+    type="button"
+    onClick={() => {
+	  setDisplayNameDraft(currentUser.displayName);
+	  setDisplayNameError("");
+	  setAccountModalOpen(true);
+	}}
+    title="View account"
+  >
+    {currentUser.avatarUrl && (
+      <img
+        className="account-avatar"
+        src={currentUser.avatarUrl}
+        alt=""
+        referrerPolicy="no-referrer"
+      />
+    )}
+
+    <span className="account-display-name">
+      {currentUser.displayName}
+    </span>
+  </button>
+
+  <button
+    className="account-button"
+    type="button"
+    onClick={handleLogout}
+  >
+    Log out
+  </button>
+</>
+  ) : (
+<button
+  className="account-button"
+  type="button"
+  onClick={() => {
+    setMergeSuccessMessage("");
+    setLoginModalOpen(true);
+  }}
+>
+  Log in
+</button>
+  )}
+</div>{accountError && (
+  <div className="account-error" role="alert">
+    {accountError}
+  </div>
+)}
+
   <button
     onClick={toggleLayout}
     aria-label={
@@ -625,7 +960,352 @@ useEffect(() => {
 </div>
 
 </header>
+{accountModalOpen && currentUser && (
+  <div
+    className="account-modal-backdrop"
+    onMouseDown={() => setAccountModalOpen(false)}
+  >
+    <div
+      className="account-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="account-modal-title"
+      onMouseDown={(event) => event.stopPropagation()}
+    >
+      <div className="account-modal-header">
+        <h2 id="account-modal-title">Account</h2>
 
+        <button
+          className="account-modal-close"
+          type="button"
+          onClick={() => setAccountModalOpen(false)}
+          aria-label="Close account window"
+        >
+          ×
+        </button>
+      </div>
+
+      <div className="account-modal-profile">
+        {currentUser.avatarUrl && (
+          <img
+            className="account-modal-avatar"
+            src={currentUser.avatarUrl}
+            alt=""
+            referrerPolicy="no-referrer"
+          />
+        )}
+
+        <div className="account-modal-profile-details">
+  <form
+    className="display-name-form"
+    onSubmit={handleSaveDisplayName}
+  >
+    <label
+      className="display-name-label"
+      htmlFor="account-display-name"
+    >
+      Display name
+    </label>
+
+    <div className="display-name-input-row">
+      <input
+        id="account-display-name"
+        className="display-name-input"
+        type="text"
+        value={displayNameDraft}
+        onChange={(event) => {
+          setDisplayNameDraft(event.target.value);
+          setDisplayNameError("");
+        }}
+        maxLength={50}
+        disabled={displayNameSaving}
+        autoComplete="name"
+      />
+
+      <button
+        className="account-button"
+        type="submit"
+        disabled={
+          displayNameSaving ||
+          !displayNameDraft.trim() ||
+          displayNameDraft.trim() === currentUser.displayName
+        }
+      >
+        {displayNameSaving ? "Saving…" : "Save"}
+      </button>
+    </div>
+
+    <div className="display-name-character-count">
+      {Array.from(displayNameDraft).length}/50
+    </div>
+
+    {displayNameError && (
+      <div
+        className="display-name-error"
+        role="alert"
+      >
+        {displayNameError}
+      </div>
+    )}
+  </form>
+
+  <div className="account-modal-username">
+    @{currentUser.username}
+  </div>
+</div>
+      </div>
+
+      <div className="account-modal-section">
+        <h3>Linked accounts</h3>
+
+        <div className="linked-provider-list">
+          <div className="linked-provider-row">
+            <div>
+              <strong>Google</strong>
+
+              <div className="linked-provider-status">
+                {currentUser.providers?.includes("google")
+                  ? "Connected"
+                  : "Not connected"}
+              </div>
+            </div>
+
+            {currentUser.providers?.includes("google") && (
+              <span className="linked-provider-badge">
+                Connected
+              </span>
+            )}
+          </div>
+
+          <div className="linked-provider-row">
+            <div>
+              <strong>Discord</strong>
+
+              <div className="linked-provider-status">
+                {currentUser.providers?.includes("discord")
+				  ? "Connected"
+				  : "Not connected"}
+              </div>
+            </div>
+
+            {currentUser.providers?.includes("discord") ? (
+			  <span className="linked-provider-badge">
+				Connected
+			  </span>
+			) : (
+			  <button
+				className="account-button"
+				type="button"
+				onClick={() => {
+				  window.location.href = getDiscordLinkUrl();
+				}}
+			  >
+				Connect
+			  </button>
+			)}
+          </div>
+        </div>
+      </div>
+
+      <div className="account-modal-actions">
+        <button
+          className="account-button"
+          type="button"
+          onClick={async () => {
+            setAccountModalOpen(false);
+            await handleLogout();
+          }}
+        >
+          Log out
+        </button>
+      </div>
+    </div>
+  </div>
+)}
+
+{mergeModalOpen && mergePreview && (
+  <div
+    className="account-modal-backdrop"
+    onMouseDown={() => {
+      if (!mergeLoading) {
+        handleCancelMerge();
+      }
+    }}
+  >
+    <div
+      className="merge-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="merge-modal-title"
+      onMouseDown={(event) => event.stopPropagation()}
+    >
+      <div className="account-modal-header">
+        <h2 id="merge-modal-title">
+          Merge accounts?
+        </h2>
+
+        <button
+          className="account-modal-close"
+          type="button"
+          onClick={handleCancelMerge}
+          disabled={mergeLoading}
+          aria-label="Cancel account merge"
+        >
+          ×
+        </button>
+      </div>
+
+      <p className="merge-modal-lead">
+        A TCG Builder account already exists for this{" "}
+        {mergePreview.provider === "discord"
+          ? "Discord"
+          : mergePreview.provider}{" "}
+        login.
+      </p>
+
+      <div className="merge-account-summary">
+        <div className="merge-account-row">
+          <span className="merge-account-label">
+            Current account
+          </span>
+
+          <strong>
+            {mergePreview.targetDisplayName}
+          </strong>
+        </div>
+
+        <div className="merge-account-row">
+          <span className="merge-account-label">
+            Other account
+          </span>
+
+          <strong>
+            {mergePreview.sourceDisplayName}
+          </strong>
+        </div>
+      </div>
+
+      <div className="merge-warning">
+        <strong>Warning:</strong> Merging will combine both
+        TCG Builder accounts and their linked login providers.
+        All active sessions for both accounts will be signed
+        out, including this device, and you will need to log
+        in again.
+      </div>
+
+      <p className="merge-modal-note">
+        When account deck and folder storage is enabled,
+        server-stored decks and folders belonging to both
+        accounts will also be combined. Local-only decks
+        remain on the device where they are stored.
+      </p>
+
+      {mergeError && (
+        <div className="merge-error" role="alert">
+          {mergeError}
+        </div>
+      )}
+
+      <div className="merge-modal-actions">
+        <button
+          className="account-button"
+          type="button"
+          onClick={handleCancelMerge}
+          disabled={mergeLoading}
+        >
+          Cancel
+        </button>
+
+        <button
+          className="merge-confirm-button"
+          type="button"
+          onClick={handleConfirmMerge}
+          disabled={mergeLoading}
+        >
+          {mergeLoading
+            ? "Merging…"
+            : "Merge accounts"}
+        </button>
+      </div>
+    </div>
+  </div>
+)}
+
+{loginModalOpen && !currentUser && (
+  <div
+    className="account-modal-backdrop"
+    onMouseDown={() => {
+	  setLoginModalOpen(false);
+	  setMergeSuccessMessage("");
+	}}
+  >
+    <div
+      className="login-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="login-modal-title"
+      onMouseDown={(event) => event.stopPropagation()}
+    >
+      <div className="account-modal-header">
+        <h2 id="login-modal-title">Log in or sign up</h2>
+
+        <button
+          className="account-modal-close"
+          type="button"
+          onClick={() => {
+		  setLoginModalOpen(false);
+		  setMergeSuccessMessage("");
+		}}
+          aria-label="Close login window"
+        >
+          ×
+        </button>
+      </div>
+
+		{mergeSuccessMessage && (
+		  <div className="merge-success-message" role="status">
+			{mergeSuccessMessage}
+		  </div>
+		)}
+
+		<p className="login-modal-description">
+		  Choose an account provider to continue.
+		</p>
+
+      <div className="login-provider-list">
+        <button
+          className="login-provider-button"
+          type="button"
+          onClick={() => {
+            window.location.href = getGoogleLoginUrl();
+          }}
+        >
+          Continue with Google
+        </button>
+
+        <button
+          className="login-provider-button"
+          type="button"
+          onClick={() => {
+            window.location.href = getDiscordLoginUrl();
+          }}
+        >
+          Continue with Discord
+        </button>
+      </div>
+
+      <p className="login-modal-note">
+        New users will have an account created automatically.
+      </p>
+    </div>
+  </div>
+)}
+
+{accountError && (
+  <div className="account-error" role="alert">
+    {accountError}
+  </div>
+)}
 
 {activePage === "news" && <NewsPage />}
 
@@ -694,6 +1374,8 @@ useEffect(() => {
 )}
     </div>
   );
+  
+  
 }
 
 export default App;
