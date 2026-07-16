@@ -6,6 +6,10 @@ export function getGoogleLoginUrl() {
   return `${ACCOUNT_API}/api/auth/login/google`;
 }
 
+export function getGoogleLinkUrl() {
+  return `${ACCOUNT_API}/api/auth/link/google`;
+}
+
 export async function fetchCurrentUser() {
   const response = await fetch(`${ACCOUNT_API}/api/auth/me`, {
     method: "GET",

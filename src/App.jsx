@@ -8,6 +8,7 @@ import { newsArticles } from "./newsArticles";
 import {
   fetchCurrentUser,
   getGoogleLoginUrl,
+  getGoogleLinkUrl,
   logoutCurrentUser,
   updateCurrentUserDisplayName,
   getDiscordLinkUrl,
@@ -1048,10 +1049,6 @@ const handleLogout = async () => {
       </div>
     )}
   </form>
-
-  <div className="account-modal-username">
-    @{currentUser.username}
-  </div>
 </div>
       </div>
 
@@ -1070,11 +1067,21 @@ const handleLogout = async () => {
               </div>
             </div>
 
-            {currentUser.providers?.includes("google") && (
-              <span className="linked-provider-badge">
-                Connected
-              </span>
-            )}
+			{currentUser.providers?.includes("google") ? (
+			  <span className="linked-provider-badge">
+				Connected
+			  </span>
+			) : (
+			  <button
+				className="account-button"
+				type="button"
+				onClick={() => {
+				  window.location.href = getGoogleLinkUrl();
+				}}
+			  >
+				Connect
+			  </button>
+			)}
           </div>
 
           <div className="linked-provider-row">
