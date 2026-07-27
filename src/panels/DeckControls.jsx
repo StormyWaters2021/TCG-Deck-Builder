@@ -137,38 +137,50 @@ function DeckControls({
 
   // --- OCTGN sections for grouping if needed ---
   const [octgnSections, setOctgnSections] = useState(null);
+  const [octgnDefaultSection, setOctgnDefaultSection] = useState(null);
   const [panelIgnoreSections, setPanelIgnoreSections] = useState([]);
   useEffect(() => {
-    if (currentGroupBy !== "OCTGN" || !settings.octgnExport) {
+    if (!settings.octgnExport) {
       setOctgnSections(null);
+      setOctgnDefaultSection(null);
       setPanelIgnoreSections([]);
       return;
     }
+
     let cancelled = false;
+
     async function fetchSections() {
       try {
         let baseUrl = import.meta.env.BASE_URL || "";
         if (baseUrl.endsWith("/")) baseUrl = baseUrl.slice(0, -1);
+
         const url = `${baseUrl}/games/${settings.gameName}/octgn.json`;
         const resp = await fetch(url);
+
         if (!resp.ok) throw new Error("OCTGN config not found");
+
         const json = await resp.json();
+
         if (!cancelled) {
           setOctgnSections(json.sections || []);
+          setOctgnDefaultSection(json.defaultSection || null);
           setPanelIgnoreSections(json.panelIgnoreSections || []);
         }
       } catch {
         if (!cancelled) {
           setOctgnSections([]);
+          setOctgnDefaultSection(null);
           setPanelIgnoreSections([]);
         }
       }
     }
+
     fetchSections();
+
     return () => {
       cancelled = true;
     };
-  }, [settings.gameName, settings.octgnExport, currentGroupBy]);
+  }, [settings.gameName, settings.octgnExport]);
 
   // --- OCTGN overrides state ---
   const [internalOctgnOverrides, setInternalOctgnOverrides] = useState({});
@@ -1728,6 +1740,9 @@ const deckExportActions = {
           settings={settings}
           deckName={deckName}
           game={game}
+          octgnSections={octgnSections}
+          octgnDefaultSection={octgnDefaultSection}
+          panelIgnoreSections={panelIgnoreSections}
           onBeforeOpen={() => {
             setDropdownHover(null);
             setExportMenuOpen(false);
@@ -1740,6 +1755,9 @@ const deckExportActions = {
           settings={settings}
           deckName={deckName}
           game={game}
+          octgnSections={octgnSections}
+          octgnDefaultSection={octgnDefaultSection}
+          panelIgnoreSections={panelIgnoreSections}
           onGeneratingChange={setGeneratingPDF}
           onBeforeOpen={() => {
             setDropdownHover(null);

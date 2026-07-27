@@ -6,6 +6,7 @@ import React, {
 } from "react";
 import AppModal from "./AppModal";
 import { exportDeckPDF } from "../utils/deckPrintPDF";
+import { getGroupedExportSections } from "../utils/deckExportHelpers";
 
 function getCardDisplayName(card) {
   if (!card) return "Unknown card";
@@ -24,6 +25,9 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
     settings,
     deckName,
     game,
+    octgnSections,
+    octgnDefaultSection,
+    panelIgnoreSections,
     onBeforeOpen,
     onGeneratingChange,
   },
@@ -32,40 +36,45 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
   const [open, setOpen] = useState(false);
   const [selections, setSelections] = useState({});
 
-  const cardMap = useMemo(() => {
-    return new Map(
-      (cards || [])
-        .filter((card) => card?.id)
-        .map((card) => [card.id, card]),
-    );
-  }, [cards]);
+  const groupedRows = useMemo(() => {
+    return getGroupedExportSections(
+      deck,
+      cards,
+      settings,
+      {
+        octgnSections,
+        octgnDefaultSection,
+        panelIgnoreSections,
+      },
+    ).map((group) => ({
+      name: group.name,
+      rows: group.entries.map((entry) => ({
+        rowId: `${group.name}\u0000${entry.cardId}`,
+        groupName: group.name,
+        cardId: entry.cardId,
+        card: entry.card,
+        deckQuantity: entry.qty,
+      })),
+    }));
+  }, [
+    deck,
+    cards,
+    settings,
+    octgnSections,
+    octgnDefaultSection,
+    panelIgnoreSections,
+  ]);
 
-  const rows = useMemo(() => {
-    return Object.entries(deck || {})
-      .map(([cardId, entry]) => {
-        const card = cardMap.get(cardId);
-
-        if (!card) return null;
-
-        return {
-          cardId,
-          card,
-          deckQuantity: Number(entry?.count) || 0,
-        };
-      })
-      .filter(Boolean)
-      .sort((a, b) =>
-        getCardDisplayName(a.card).localeCompare(
-          getCardDisplayName(b.card),
-        ),
-      );
-  }, [deck, cardMap]);
+  const rows = useMemo(
+    () => groupedRows.flatMap((group) => group.rows),
+    [groupedRows],
+  );
 
   function buildInitialSelections() {
     const next = {};
 
-    for (const { cardId, deckQuantity } of rows) {
-      next[cardId] = {
+    for (const { rowId, deckQuantity } of rows) {
+      next[rowId] = {
         checked: deckQuantity > 0,
         quantity: deckQuantity,
       };
@@ -92,8 +101,8 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
   function setAll() {
     const next = {};
 
-    for (const { cardId, deckQuantity } of rows) {
-      next[cardId] = {
+    for (const { rowId, deckQuantity } of rows) {
+      next[rowId] = {
         checked: true,
         quantity: deckQuantity,
       };
@@ -106,10 +115,10 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
     setSelections((current) => {
       const next = {};
 
-      for (const { cardId } of rows) {
-        next[cardId] = {
+      for (const { rowId } of rows) {
+        next[rowId] = {
           checked: false,
-          quantity: current[cardId]?.quantity ?? 0,
+          quantity: current[rowId]?.quantity ?? 0,
         };
       }
 
@@ -117,17 +126,17 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
     });
   }
 
-  function setChecked(cardId, checked) {
+  function setChecked(rowId, checked) {
     setSelections((current) => ({
       ...current,
-      [cardId]: {
+      [rowId]: {
         checked,
-        quantity: current[cardId]?.quantity ?? 0,
+        quantity: current[rowId]?.quantity ?? 0,
       },
     }));
   }
 
-  function setQuantity(cardId, rawValue) {
+  function setQuantity(rowId, rawValue) {
     const parsed = Number.parseInt(rawValue, 10);
     const quantity = Number.isFinite(parsed)
       ? Math.max(0, parsed)
@@ -135,7 +144,7 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
 
     setSelections((current) => ({
       ...current,
-      [cardId]: {
+      [rowId]: {
         checked: quantity > 0,
         quantity,
       },
@@ -144,8 +153,11 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
 
   async function handleExport() {
     const temporaryDeck = {};
+    const orderedEntries = [];
 
-    for (const [cardId, selection] of Object.entries(selections)) {
+    for (const row of rows) {
+      const selection = selections[row.rowId];
+
       if (!selection?.checked) continue;
 
       const quantity = Math.max(
@@ -155,17 +167,29 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
 
       if (quantity === 0) continue;
 
-      const originalEntry = deck[cardId];
+      const originalEntry = deck[row.cardId];
 
       if (!originalEntry) continue;
 
-      temporaryDeck[cardId] = {
-        ...originalEntry,
-        count: quantity,
-      };
+      if (!temporaryDeck[row.cardId]) {
+        temporaryDeck[row.cardId] = {
+          ...originalEntry,
+          count: 0,
+          group: {},
+        };
+      }
+
+      temporaryDeck[row.cardId].count += quantity;
+      temporaryDeck[row.cardId].group[row.groupName] = quantity;
+
+      orderedEntries.push({
+        cardId: row.cardId,
+        groupName: row.groupName,
+        quantity,
+      });
     }
 
-    if (Object.keys(temporaryDeck).length === 0) {
+    if (orderedEntries.length === 0) {
       window.alert("Select at least one card before exporting.");
       return;
     }
@@ -180,6 +204,7 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
         settings,
         deckName,
         game,
+        orderedEntries,
       );
     } finally {
       onGeneratingChange?.(false);
@@ -237,74 +262,94 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
           borderRadius: "4px",
         }}
       >
-        {rows.map(({ cardId, card, deckQuantity }) => {
-          const selection = selections[cardId] || {
-            checked: false,
-            quantity: deckQuantity,
-          };
-
-          return (
+        {groupedRows.map((group) => (
+          <React.Fragment key={group.name}>
             <div
-              key={cardId}
               style={{
-                display: "grid",
-                gridTemplateColumns: "auto minmax(0, 1fr) 90px",
-                alignItems: "center",
-                gap: "0.75rem",
-                padding: "0.6rem",
+                padding: "0.65rem",
+                fontWeight: "bold",
+                background:
+                  "var(--panel-header-background, rgba(0,0,0,0.08))",
                 borderBottom:
                   "1px solid var(--main-button-border)",
               }}
             >
-              <input
-                type="checkbox"
-                checked={selection.checked}
-                onChange={(event) =>
-                  setChecked(cardId, event.target.checked)
-                }
-                aria-label={`Include ${getCardDisplayName(card)}`}
-              />
-
-              <div style={{ minWidth: 0 }}>
-                <div
-                  style={{
-                    fontWeight: "bold",
-                    overflow: "hidden",
-                    textOverflow: "ellipsis",
-                    whiteSpace: "nowrap",
-                  }}
-                  title={getCardDisplayName(card)}
-                >
-                  {getCardDisplayName(card)}
-                </div>
-
-                <div
-                  style={{
-                    fontSize: "0.8em",
-                    opacity: 0.75,
-                  }}
-                >
-                  Deck quantity: {deckQuantity}
-                </div>
-              </div>
-
-              <input
-                type="number"
-                min="0"
-                step="1"
-                value={selection.quantity}
-                onChange={(event) =>
-                  setQuantity(cardId, event.target.value)
-                }
-                style={{
-                  width: "100%",
-                  boxSizing: "border-box",
-                }}
-                aria-label={`Proxy quantity for ${getCardDisplayName(card)}`}
-              />
+              {group.name}
             </div>
-          );
-        })}
+
+            {group.rows.map(
+              ({ rowId, card, deckQuantity }) => {
+                const selection = selections[rowId] || {
+                  checked: false,
+                  quantity: deckQuantity,
+                };
+
+                return (
+                  <div
+                    key={rowId}
+                    style={{
+                      display: "grid",
+                      gridTemplateColumns:
+                        "auto minmax(0, 1fr) 90px",
+                      alignItems: "center",
+                      gap: "0.75rem",
+                      padding: "0.6rem",
+                      borderBottom:
+                        "1px solid var(--main-button-border)",
+                    }}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={selection.checked}
+                      onChange={(event) =>
+                        setChecked(rowId, event.target.checked)
+                      }
+                      aria-label={`Include ${getCardDisplayName(card)}`}
+                    />
+
+                    <div style={{ minWidth: 0 }}>
+                      <div
+                        style={{
+                          fontWeight: "bold",
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                          whiteSpace: "nowrap",
+                        }}
+                        title={getCardDisplayName(card)}
+                      >
+                        {getCardDisplayName(card)}
+                      </div>
+
+                      <div
+                        style={{
+                          fontSize: "0.8em",
+                          opacity: 0.75,
+                        }}
+                      >
+                        Deck quantity: {deckQuantity}
+                      </div>
+                    </div>
+
+                    <input
+                      type="number"
+                      min="0"
+                      step="1"
+                      value={selection.quantity}
+                      onChange={(event) =>
+                        setQuantity(rowId, event.target.value)
+                      }
+                      style={{
+                        width: "100%",
+                        boxSizing: "border-box",
+                      }}
+                      aria-label={`Proxy quantity for ${getCardDisplayName(card)}`}
+                    />
+                  </div>
+                );
+              },
+            )}
+          </React.Fragment>
+        ))}
       </div>
     </AppModal>
   );
