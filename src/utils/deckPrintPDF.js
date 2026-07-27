@@ -34,7 +34,8 @@ export async function exportDeckPDF(
   cards,
   settings,
   deckName = "deck",
-  game = ""
+  game = "",
+  orderedEntries = null,
 ) {
   if (!settings || !settings.print) {
     alert("Print settings are not configured for this game.");
@@ -152,17 +153,52 @@ export async function exportDeckPDF(
   }
 
   const copies = [];
-  for (const [cardId, entry] of Object.entries(deck || {})) {
-    const card = cardMap.get(cardId);
-    if (!card) {
-      console.warn(
-        `Card id "${cardId}" not found in card database; skipping in PDF export.`
-      );
-      continue;
+
+  if (Array.isArray(orderedEntries) && orderedEntries.length > 0) {
+    for (const orderedEntry of orderedEntries) {
+      const card = cardMap.get(orderedEntry.cardId);
+
+      if (!card) {
+        console.warn(
+          `Card id "${orderedEntry.cardId}" not found in card database; skipping in PDF export.`,
+        );
+        continue;
+      }
+
+      const quantity =
+        Number(
+          orderedEntry.quantity ??
+            orderedEntry.qty ??
+            orderedEntry.count ??
+            0,
+        ) || 0;
+
+      for (let index = 0; index < quantity; index += 1) {
+        copies.push(card);
+      }
     }
-    const count = entry && (entry.count ?? entry.qty ?? entry.quantity ?? 1);
-    for (let i = 0; i < count; i++) {
-      copies.push(card);
+  } else {
+    for (const [cardId, entry] of Object.entries(deck || {})) {
+      const card = cardMap.get(cardId);
+
+      if (!card) {
+        console.warn(
+          `Card id "${cardId}" not found in card database; skipping in PDF export.`,
+        );
+        continue;
+      }
+
+      const count =
+        Number(
+          entry?.count ??
+            entry?.qty ??
+            entry?.quantity ??
+            1,
+        ) || 0;
+
+      for (let index = 0; index < count; index += 1) {
+        copies.push(card);
+      }
     }
   }
 

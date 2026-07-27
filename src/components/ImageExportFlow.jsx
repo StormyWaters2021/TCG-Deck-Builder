@@ -17,7 +17,17 @@ function getImageExportPreviewSrc(settings, filename) {
 }
 
 const ImageExportFlow = forwardRef(function ImageExportFlow(
-  { deck, cards, settings, deckName, game, onBeforeOpen },
+  {
+    deck,
+    cards,
+    settings,
+    deckName,
+    game,
+    octgnSections,
+    octgnDefaultSection,
+    panelIgnoreSections,
+    onBeforeOpen,
+  },
   ref,
 ) {
   const [open, setOpen] = useState(false);
@@ -37,15 +47,30 @@ const ImageExportFlow = forwardRef(function ImageExportFlow(
   async function handleExport(format) {
     closeModal();
 
-    const flatDeck = {};
-    Object.entries(deck || {}).forEach(([cardId, entry]) => {
-      flatDeck[cardId] = entry?.count || 0;
-    });
+    const octgnOptions = {
+      octgnSections,
+      octgnDefaultSection,
+      panelIgnoreSections,
+    };
 
     if (format === "Image") {
-      await exportDeckImage(flatDeck, cards, settings, deckName, game);
+      await exportDeckImage(
+        deck,
+        cards,
+        settings,
+        deckName,
+        game,
+        octgnOptions,
+      );
     } else if (format === "ImageCompact") {
-      await exportDeckImageCompact(flatDeck, cards, settings, deckName, game);
+      await exportDeckImageCompact(
+        deck,
+        cards,
+        settings,
+        deckName,
+        game,
+        octgnOptions,
+      );
     }
   }
 
