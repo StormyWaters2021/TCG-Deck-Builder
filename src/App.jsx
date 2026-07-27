@@ -15,6 +15,7 @@ import {
   getDiscordLoginUrl,
   fetchPendingAccountMerge,
   confirmAccountMerge,
+  updateCurrentUserAvatarProvider,
 } from "./utils/accountApi";
 
 
@@ -298,6 +299,8 @@ function App() {
   const [displayNameDraft, setDisplayNameDraft] = useState("");
   const [displayNameSaving, setDisplayNameSaving] = useState(false);
   const [displayNameError, setDisplayNameError] = useState("");
+  const [editingDisplayName, setEditingDisplayName] =
+  useState(false);
   const [mergeModalOpen, setMergeModalOpen] = useState(false);
   const [mergeToken, setMergeToken] = useState("");
   const [mergePreview, setMergePreview] = useState(null);
@@ -660,6 +663,7 @@ const handleSaveDisplayName = async (event) => {
 
     setCurrentUser(updatedUser);
     setDisplayNameDraft(updatedUser.displayName);
+	setEditingDisplayName(false);
   } catch (error) {
     console.error("Unable to update display name", error);
 
@@ -670,6 +674,38 @@ const handleSaveDisplayName = async (event) => {
     setDisplayNameSaving(false);
   }
 };
+
+const handleAvatarProviderChange = async (provider) => {
+  if (
+    provider !== "google" &&
+    provider !== "discord"
+  ) {
+    return;
+  }
+
+  if (currentUser?.avatarProvider === provider) {
+    return;
+  }
+
+  setAccountError("");
+
+  try {
+    const updatedUser =
+      await updateCurrentUserAvatarProvider(provider);
+
+    setCurrentUser(updatedUser);
+  } catch (error) {
+    console.error(
+      "Unable to update avatar provider",
+      error,
+    );
+
+    setAccountError(
+      error?.message || "Unable to update avatar",
+    );
+  }
+};
+
 
 const clearMergeParamsFromUrl = () => {
   const url = new URL(window.location.href);
@@ -830,9 +866,10 @@ const handleLogout = async () => {
   <button
     className="account-profile-button"
     type="button"
-    onClick={() => {
+	onClick={() => {
 	  setDisplayNameDraft(currentUser.displayName);
 	  setDisplayNameError("");
+	  setEditingDisplayName(false);
 	  setAccountModalOpen(true);
 	}}
     title="View account"
@@ -997,42 +1034,53 @@ const handleLogout = async () => {
         )}
 
         <div className="account-modal-profile-details">
+  {editingDisplayName ? (
   <form
     className="display-name-form"
     onSubmit={handleSaveDisplayName}
   >
     <label
       className="display-name-label"
-      htmlFor="account-display-name"
+      htmlFor="display-name-input"
     >
       Display name
     </label>
 
     <div className="display-name-input-row">
       <input
-        id="account-display-name"
+        id="display-name-input"
         className="display-name-input"
         type="text"
         value={displayNameDraft}
+        maxLength={50}
+        autoComplete="nickname"
         onChange={(event) => {
           setDisplayNameDraft(event.target.value);
-          setDisplayNameError("");
+          if (displayNameError) {
+            setDisplayNameError("");
+          }
         }}
-        maxLength={50}
-        disabled={displayNameSaving}
-        autoComplete="name"
       />
 
       <button
-        className="account-button"
+        className="main-button"
         type="submit"
-        disabled={
-          displayNameSaving ||
-          !displayNameDraft.trim() ||
-          displayNameDraft.trim() === currentUser.displayName
-        }
+        disabled={displayNameSaving}
       >
-        {displayNameSaving ? "Saving…" : "Save"}
+        {displayNameSaving ? "Saving..." : "Save"}
+      </button>
+
+      <button
+        className="account-button"
+        type="button"
+        disabled={displayNameSaving}
+        onClick={() => {
+          setDisplayNameDraft(currentUser.displayName);
+          setDisplayNameError("");
+          setEditingDisplayName(false);
+        }}
+      >
+        Cancel
       </button>
     </div>
 
@@ -1041,79 +1089,158 @@ const handleLogout = async () => {
     </div>
 
     {displayNameError && (
-      <div
-        className="display-name-error"
-        role="alert"
-      >
+      <div className="display-name-error">
         {displayNameError}
       </div>
     )}
   </form>
+) : (
+  <div className="display-name-display">
+    <div className="display-name-label">
+      Display name
+    </div>
+
+    <div className="display-name-display-row">
+      <span className="display-name-value">
+        {currentUser.displayName}
+      </span>
+
+      <button
+        type="button"
+        className="display-name-edit-button"
+        aria-label="Edit display name"
+        title="Edit display name"
+        onClick={() => {
+          setDisplayNameDraft(currentUser.displayName);
+          setDisplayNameError("");
+          setEditingDisplayName(true);
+        }}
+      >
+        ✏️
+      </button>
+    </div>
+  </div>
+)}
 </div>
       </div>
 
-      <div className="account-modal-section">
-        <h3>Linked accounts</h3>
+<div className="account-modal-section">
+  <h3>Linked accounts</h3>
 
-        <div className="linked-provider-list">
-          <div className="linked-provider-row">
-            <div>
-              <strong>Google</strong>
+  <div className="linked-provider-list">
+    <div className="linked-provider-row">
+      <div className="linked-provider-info">
+        {currentUser.providers?.includes("google") &&
+          currentUser.providerAvatars?.google && (
+            <button
+              type="button"
+              className={`provider-avatar-choice ${
+                currentUser.avatarProvider === "google"
+                  ? "selected"
+                  : ""
+              }`}
+              disabled={
+                currentUser.avatarProvider === "google"
+              }
+              onClick={() =>
+                handleAvatarProviderChange("google")
+              }
+              aria-label="Use Google avatar"
+              title={
+                currentUser.avatarProvider === "google"
+                  ? "Google avatar selected"
+                  : "Use Google avatar"
+              }
+            >
+              <img
+                src={currentUser.providerAvatars.google}
+                alt=""
+                referrerPolicy="no-referrer"
+              />
+            </button>
+          )}
 
-              <div className="linked-provider-status">
-                {currentUser.providers?.includes("google")
-                  ? "Connected"
-                  : "Not connected"}
-              </div>
-            </div>
+        <div className="linked-provider-text">
+          <strong>Google</strong>
 
-			{currentUser.providers?.includes("google") ? (
-			  <span className="linked-provider-badge">
-				Connected
-			  </span>
-			) : (
-			  <button
-				className="account-button"
-				type="button"
-				onClick={() => {
-				  window.location.href = getGoogleLinkUrl();
-				}}
-			  >
-				Connect
-			  </button>
-			)}
-          </div>
-
-          <div className="linked-provider-row">
-            <div>
-              <strong>Discord</strong>
-
-              <div className="linked-provider-status">
-                {currentUser.providers?.includes("discord")
-				  ? "Connected"
-				  : "Not connected"}
-              </div>
-            </div>
-
-            {currentUser.providers?.includes("discord") ? (
-			  <span className="linked-provider-badge">
-				Connected
-			  </span>
-			) : (
-			  <button
-				className="account-button"
-				type="button"
-				onClick={() => {
-				  window.location.href = getDiscordLinkUrl();
-				}}
-			  >
-				Connect
-			  </button>
-			)}
+          <div className="linked-provider-status">
+            {currentUser.providers?.includes("google")
+              ? "Connected"
+              : "Not connected"}
           </div>
         </div>
       </div>
 
+      {!currentUser.providers?.includes("google") && (
+        <button
+          className="main-button"
+          type="button"
+          onClick={() => {
+            window.location.href = getGoogleLinkUrl();
+          }}
+        >
+          Connect
+        </button>
+      )}
+    </div>
+
+    <div className="linked-provider-row">
+      <div className="linked-provider-info">
+        {currentUser.providers?.includes("discord") &&
+          currentUser.providerAvatars?.discord && (
+            <button
+              type="button"
+              className={`provider-avatar-choice ${
+                currentUser.avatarProvider === "discord"
+                  ? "selected"
+                  : ""
+              }`}
+              disabled={
+                currentUser.avatarProvider === "discord"
+              }
+              onClick={() =>
+                handleAvatarProviderChange("discord")
+              }
+              aria-label="Use Discord avatar"
+              title={
+                currentUser.avatarProvider === "discord"
+                  ? "Discord avatar selected"
+                  : "Use Discord avatar"
+              }
+            >
+              <img
+                src={currentUser.providerAvatars.discord}
+                alt=""
+                referrerPolicy="no-referrer"
+              />
+            </button>
+          )}
+
+        <div className="linked-provider-text">
+          <strong>Discord</strong>
+
+          <div className="linked-provider-status">
+            {currentUser.providers?.includes("discord")
+              ? "Connected"
+              : "Not connected"}
+          </div>
+        </div>
+      </div>
+
+      {!currentUser.providers?.includes("discord") && (
+        <button
+          className="main-button"
+          type="button"
+          onClick={() => {
+            window.location.href = getDiscordLinkUrl();
+          }}
+        >
+          Connect
+        </button>
+      )}
+    </div>
+  </div>
+</div>
       <div className="account-modal-actions">
         <button
           className="account-button"
@@ -1354,6 +1481,8 @@ const handleLogout = async () => {
             setGroupBy={setGroupBy}
             octgnOverrides={octgnOverrides}
             setOctgnOverrides={setOctgnOverrides}
+            currentUser={currentUser}
+            accountLoading={accountLoading}
           />
         ) : (
           <DeckBuilder
@@ -1369,6 +1498,8 @@ const handleLogout = async () => {
             setGroupBy={setGroupBy}
             octgnOverrides={octgnOverrides}
             setOctgnOverrides={setOctgnOverrides}
+            currentUser={currentUser}
+            accountLoading={accountLoading}
           />
         )
       )}

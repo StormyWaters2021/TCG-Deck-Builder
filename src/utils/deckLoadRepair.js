@@ -30,21 +30,36 @@ export function createDeckLoadNormalizer({
   };
 
   return function normalizeLoadedDeck(loadedDeck) {
-    if (!loadedDeck || typeof loadedDeck !== "object") return loadedDeck;
+    if (!loadedDeck || typeof loadedDeck !== "object" || Array.isArray(loadedDeck)) {
+      return loadedDeck;
+    }
 
     let changed = false;
     const normalized = { ...loadedDeck };
 
-    for (const [cardId, entry] of Object.entries(loadedDeck)) {
-      if (!entry || typeof entry !== "object") continue;
+    for (const [cardId, originalEntry] of Object.entries(loadedDeck)) {
+      let entry = originalEntry;
 
-      const count = Number.isFinite(+entry.count) ? Math.max(0, +entry.count) : 0;
-      if (count <= 0) continue;
+      // Legacy deck format: { cardId: quantity }
+      if (typeof entry === "number" || typeof entry === "string") {
+        entry = {
+          count: Number(entry) || 0,
+          group: {},
+          tags: [],
+        };
+        changed = true;
+      }
 
-      // Case 1: string group -> convert directly to object form
+      if (!entry || typeof entry !== "object" || Array.isArray(entry)) {
+        continue;
+      }
+
+      let count = Number.isFinite(+entry.count) ? Math.max(0, +entry.count) : 0;
+
+      // A legacy string group represents every copy of the card.
       if (typeof entry.group === "string") {
         const groupName = entry.group.trim();
-        if (groupName) {
+        if (groupName && count > 0) {
           normalized[cardId] = {
             ...entry,
             count,
@@ -55,33 +70,75 @@ export function createDeckLoadNormalizer({
         }
       }
 
-      // Case 2: valid object group data -> preserve exactly as-is
-      if (entry.group && typeof entry.group === "object" && !Array.isArray(entry.group)) {
-        const cleanedGroup = {};
-        let total = 0;
-        let hasInvalidValue = false;
+      const cleanedGroup = {};
+      let groupTotal = 0;
+      let groupIsStructurallyValid = true;
 
-        for (const [groupName, groupCount] of Object.entries(entry.group)) {
-          const n = Number(groupCount);
-          if (!Number.isFinite(n) || n <= 0) {
-            hasInvalidValue = true;
+      if (entry.group && typeof entry.group === "object" && !Array.isArray(entry.group)) {
+        for (const [rawGroupName, rawGroupCount] of Object.entries(entry.group)) {
+          const groupName = String(rawGroupName).trim();
+          const groupCount = Number(rawGroupCount);
+
+          if (!groupName || !Number.isFinite(groupCount) || groupCount <= 0) {
+            groupIsStructurallyValid = false;
             break;
           }
-          cleanedGroup[groupName] = n;
-          total += n;
-        }
 
-        if (!hasInvalidValue && Object.keys(cleanedGroup).length > 0 && total === count) {
-          continue;
+          cleanedGroup[groupName] = groupCount;
+          groupTotal += groupCount;
         }
+      } else {
+        groupIsStructurallyValid = false;
       }
 
-      // Case 3: missing / empty / malformed / partial group data -> repair this card only
+      const hasGroups = Object.keys(cleanedGroup).length > 0;
+
+      // If count is missing but the saved group allocation is complete, preserve
+      // the allocation and rebuild count from it instead of discarding the groups.
+      if (count <= 0 && groupIsStructurallyValid && hasGroups && groupTotal > 0) {
+        normalized[cardId] = {
+          ...entry,
+          count: groupTotal,
+          group: cleanedGroup,
+        };
+        changed = true;
+        continue;
+      }
+
+      if (count <= 0) continue;
+
+      // Preserve all structurally valid group names, including names that are no
+      // longer present in the current OCTGN configuration. Normalize quantities
+      // to numbers when necessary.
+      if (groupIsStructurallyValid && hasGroups && groupTotal === count) {
+        const groupNeedsCleaning = Object.entries(entry.group).some(
+          ([groupName, groupCount]) =>
+            groupName !== groupName.trim() ||
+            typeof groupCount !== "number" ||
+            Number(groupCount) !== cleanedGroup[groupName.trim()]
+        );
+        const countNeedsCleaning = typeof entry.count !== "number" || entry.count !== count;
+
+        if (groupNeedsCleaning || countNeedsCleaning || entry !== originalEntry) {
+          normalized[cardId] = {
+            ...entry,
+            count,
+            group: cleanedGroup,
+          };
+          changed = true;
+        }
+        continue;
+      }
+
+      // Missing, empty, malformed, partial, or desynchronized group data must be
+      // repaired before the deck becomes editable. Assign every copy together so
+      // the group quantities always account for the full count.
       const autoGroup = pickAutoGroupForCard(cardId);
       normalized[cardId] = {
         ...entry,
         count,
         group: { [autoGroup]: count },
+        tags: Array.isArray(entry.tags) ? entry.tags : [],
       };
       changed = true;
     }

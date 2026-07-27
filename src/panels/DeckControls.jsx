@@ -24,16 +24,12 @@ import {
   buildSavedDeckFolderView,
   createSavedDeckFolder,
   deleteSavedDeckFolder,
-  loadSavedDeckFolderState,
-  loadSavedDecks,
   removeSavedDeckAssignment,
-  renameSavedDeckAssignment,
   reorderSavedDeckFolders,
-  saveSavedDeckFolderState,
-  saveSavedDecks,
   toggleSavedDeckFolder,
   buildSavedDeckRecord,
-  getSavedDeckByName,
+  getSavedDeckById,
+  getSavedDeckIndexById,
   generateEditToken,
 } from "../utils/savedDeckFolders";
 import {
@@ -43,6 +39,13 @@ import {
   openChoiceModal,
 } from "../utils/appModalHelpers";
 import SavedDeckLibrary from "../components/SavedDeckLibrary";
+import { getDeckRepository, localDeckRepository } from "../decks/repository";
+import {
+  getUnconsideredLocalDecks,
+  mergeLocalDeckImports,
+  rememberConsideredLocalDeckIds,
+  removeImportedDecksFromLocalLibrary,
+} from "../utils/localDeckCloudImport";
 import {
   finalizeSavedDeckFlow,
   showLinkResultFlow,
@@ -62,12 +65,26 @@ function DeckControls({
   groupBy,
   octgnOverrides: octgnOverridesProp,
   setOctgnOverrides: setOctgnOverridesProp,
+  currentUser,
+  accountLoading = false,
 }) {
   const [deckName, setDeckName] = useState("");
-  const [savedDecks, setSavedDecks] = useState(() => loadSavedDecks(game));
-  const [savedDeckFolderState, setSavedDeckFolderState] = useState(() =>
-    loadSavedDeckFolderState(game),
+  const deckRepository = React.useMemo(
+    () => getDeckRepository({ authenticated: !!currentUser }),
+    [currentUser],
   );
+  const [savedDecks, setSavedDecks] = useState([]);
+  const [savedDeckFolderState, setSavedDeckFolderState] = useState({
+    schemaVersion: 1,
+    folders: [],
+    collapsed: {},
+    assignments: {},
+    unresolvedAssignments: {},
+  });
+  const [savedLibraryLoading, setSavedLibraryLoading] = useState(true);
+  const [savedLibraryError, setSavedLibraryError] = useState("");
+  const savedDecksRef = useRef(savedDecks);
+  const savedDeckFolderStateRef = useRef(savedDeckFolderState);
   const [modalState, setModalState] = useState({
     open: false,
     title: "",
@@ -78,8 +95,9 @@ function DeckControls({
     actions: [],
   });
   const [openVersionsMenu, setOpenVersionsMenu] = useState(null);
+  const localImportPromptedRef = useRef("");
 
-  const [activeSavedDeckName, setActiveSavedDeckName] = useState(null);
+  const [activeSavedDeckId, setActiveSavedDeckId] = useState(null);
   const [sessionShareInfo, setSessionShareInfo] = useState(null);
   const [exportMenuOpen, setExportMenuOpen] = useState(false);
   const exportMenuRef = useRef(null);
@@ -209,7 +227,7 @@ function DeckControls({
 
                 setDeck(nextDeck);
                 setDeckName(nextName);
-                setActiveSavedDeckName(null);
+                setActiveSavedDeckId(null);
                 setSessionShareInfo(null);
                 setOpenVersionsMenu(null);
 
@@ -245,7 +263,7 @@ function DeckControls({
 
         setDeck(nextDeck);
         setDeckName(nextName);
-        setActiveSavedDeckName(null);
+        setActiveSavedDeckId(null);
         setSessionShareInfo(null);
         setOpenVersionsMenu(null);
 
@@ -267,13 +285,230 @@ function DeckControls({
     // eslint-disable-next-line
   }, [game, cards]);
 
+
+  function askLocalDeckConflict(localDeck, cloudDeck) {
+    return new Promise((resolve) => {
+      openChoiceModal(setModalState, {
+        title: "Deck ID Conflict",
+        message:
+          `The local deck “${localDeck.name}” has the same ID as the cloud deck “${cloudDeck.name}.”\n\n` +
+          "How would you like to handle this deck?",
+        actions: [
+          {
+            label: "Yes, overwrite cloud deck",
+            primary: true,
+            onClick: () => resolve("overwrite"),
+          },
+          {
+            label: "No, create a new copy",
+            onClick: () => resolve("copy"),
+          },
+          {
+            label: "Do not import",
+            onClick: () => resolve("skip"),
+          },
+        ],
+      });
+    });
+  }
+
+  async function removeImportedLocalCopies(imported) {
+    try {
+      const latestLocalLibrary = await localDeckRepository.loadLibrary(game);
+      const nextLocalLibrary = removeImportedDecksFromLocalLibrary(
+        latestLocalLibrary,
+        imported.map((entry) => entry.localId),
+      );
+      await localDeckRepository.saveLibrary(game, nextLocalLibrary);
+      openMessageModal(
+        setModalState,
+        "Local Copies Removed",
+        "The imported decks are now stored only in your account.",
+      );
+    } catch (error) {
+      console.error("Unable to remove imported local decks", error);
+      openMessageModal(
+        setModalState,
+        "Unable to Remove Local Copies",
+        "The decks were imported successfully, but their local copies could not be removed.",
+      );
+    }
+  }
+
+  async function runLocalDeckImport(localLibrary, cloudLibrary, candidateDecks) {
+    const candidateIds = new Set(candidateDecks.map((deck) => deck.id));
+    const decisions = new Map();
+
+    for (const localDeck of candidateDecks) {
+      const cloudDeck = (cloudLibrary?.decks || []).find(
+        (deck) => deck.id === localDeck.id,
+      );
+      if (cloudDeck) {
+        decisions.set(
+          localDeck.id,
+          await askLocalDeckConflict(localDeck, cloudDeck),
+        );
+      } else {
+        decisions.set(localDeck.id, "import");
+      }
+    }
+
+    const candidateLibrary = {
+      ...localLibrary,
+      decks: (localLibrary?.decks || []).filter((deck) => candidateIds.has(deck.id)),
+    };
+    const result = mergeLocalDeckImports({
+      cloudLibrary,
+      localLibrary: candidateLibrary,
+      decisions,
+    });
+
+    if (!result.imported.length) {
+      rememberConsideredLocalDeckIds(game, currentUser, result.consideredIds);
+      openMessageModal(
+        setModalState,
+        "No Decks Imported",
+        "No local decks were imported.",
+      );
+      return;
+    }
+
+    try {
+      const savedLibrary = await deckRepository.saveLibrary(game, result.library);
+      const nextDecks = Array.isArray(savedLibrary?.decks)
+        ? savedLibrary.decks
+        : result.library.decks;
+      const nextFolderState =
+        savedLibrary?.folderState || result.library.folderState;
+
+      savedDecksRef.current = nextDecks;
+      savedDeckFolderStateRef.current = nextFolderState;
+      setSavedDecks(nextDecks);
+      setSavedDeckFolderState(nextFolderState);
+      setSavedLibraryError("");
+      rememberConsideredLocalDeckIds(game, currentUser, result.consideredIds);
+
+      const importedList = result.imported
+        .map((entry) => `• ${entry.cloudName}`)
+        .join("\n");
+      openChoiceModal(setModalState, {
+        title: "Import Complete",
+        message:
+          `The following decks were imported:\n\n${importedList}\n\n` +
+          "Would you like to remove them from local storage and leave them stored only in your account?",
+        actions: [
+          {
+            label: "Remove Local Copies",
+            primary: true,
+            onClick: () => removeImportedLocalCopies(result.imported),
+          },
+          {
+            label: "Keep Local Copies",
+          },
+        ],
+      });
+    } catch (error) {
+      console.error("Unable to import local decks", error);
+      openMessageModal(
+        setModalState,
+        "Import Failed",
+        "The local decks could not be saved to your account. No local decks were removed.",
+      );
+    }
+  }
+
+  async function maybePromptForLocalDeckImport(cloudLibrary) {
+    if (!currentUser) return;
+
+    const promptKey = `${game}:${currentUser?.displayName || "account"}`;
+    if (localImportPromptedRef.current === promptKey) return;
+    localImportPromptedRef.current = promptKey;
+
+    try {
+      const localLibrary = await localDeckRepository.loadLibrary(game);
+      const candidates = getUnconsideredLocalDecks(
+        localLibrary?.decks,
+        game,
+        currentUser,
+      );
+      if (!candidates.length) return;
+
+      const deckList = candidates.map((deck) => `• ${deck.name}`).join("\n");
+      openChoiceModal(setModalState, {
+        title: "Import Local Decks",
+        message:
+          `We found ${candidates.length} deck${candidates.length === 1 ? "" : "s"} saved locally on this device:\n\n${deckList}\n\n` +
+          "Would you like to import them into your account?",
+        actions: [
+          {
+            label: "Import",
+            primary: true,
+            onClick: () => runLocalDeckImport(localLibrary, cloudLibrary, candidates),
+          },
+          {
+            label: "Not Now",
+          },
+        ],
+      });
+    } catch (error) {
+      console.error("Unable to inspect local decks for import", error);
+    }
+  }
+
   useEffect(() => {
-    setSavedDecks(loadSavedDecks(game));
-    setSavedDeckFolderState(loadSavedDeckFolderState(game));
-    setActiveSavedDeckName(null);
-    setSessionShareInfo(null);
-    setOpenVersionsMenu(null);
-  }, [game]);
+    if (accountLoading) return undefined;
+
+    let cancelled = false;
+    setSavedLibraryLoading(true);
+    setSavedLibraryError("");
+
+    (async () => {
+      try {
+        const nextLibrary = await deckRepository.loadLibrary(game);
+        if (cancelled) return;
+
+        const nextDecks = Array.isArray(nextLibrary?.decks)
+          ? nextLibrary.decks
+          : [];
+        const nextFolderState = nextLibrary?.folderState || {
+          schemaVersion: 1,
+          folders: [],
+          collapsed: {},
+          assignments: {},
+          unresolvedAssignments: {},
+        };
+
+        savedDecksRef.current = nextDecks;
+        savedDeckFolderStateRef.current = nextFolderState;
+        setSavedDecks(nextDecks);
+        setSavedDeckFolderState(nextFolderState);
+        setActiveSavedDeckId(null);
+        setSessionShareInfo(null);
+        setOpenVersionsMenu(null);
+
+        if (currentUser) {
+          void maybePromptForLocalDeckImport({
+            decks: nextDecks,
+            folderState: nextFolderState,
+          });
+        }
+      } catch (error) {
+        if (cancelled) return;
+        console.error("Unable to load saved deck library", error);
+        setSavedLibraryError(
+          error?.status === 401
+            ? "Your account session expired. Please sign in again."
+            : "Unable to load your saved deck library.",
+        );
+      } finally {
+        if (!cancelled) setSavedLibraryLoading(false);
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [accountLoading, deckRepository, game]);
 
   useEffect(() => {
     function handleClick(event) {
@@ -295,14 +530,34 @@ function DeckControls({
     [savedDecks, savedDeckFolderState],
   );
 
-  function persistSavedDecks(nextDecks) {
+  function saveCompleteLibrary(nextDecks, nextFolderState) {
+    savedDecksRef.current = nextDecks;
+    savedDeckFolderStateRef.current = nextFolderState;
     setSavedDecks(nextDecks);
-    saveSavedDecks(game, nextDecks);
+    setSavedDeckFolderState(nextFolderState);
+    setSavedLibraryError("");
+
+    deckRepository
+      .saveLibrary(game, {
+        decks: nextDecks,
+        folderState: nextFolderState,
+      })
+      .catch((error) => {
+        console.error("Unable to save deck library", error);
+        setSavedLibraryError(
+          error?.status === 401
+            ? "Your account session expired. Please sign in again."
+            : "Your deck library could not be saved.",
+        );
+      });
+  }
+
+  function persistSavedDecks(nextDecks) {
+    saveCompleteLibrary(nextDecks, savedDeckFolderStateRef.current);
   }
 
   function persistSavedDeckFolderState(nextState) {
-    setSavedDeckFolderState(nextState);
-    saveSavedDeckFolderState(game, nextState);
+    saveCompleteLibrary(savedDecksRef.current, nextState);
   }
 
   function updateSavedDeckFolderState(updater) {
@@ -316,14 +571,13 @@ function DeckControls({
     deckValue = deck,
     shareCode,
     editToken,
-    sourceName = activeSavedDeckName,
+    sourceId = activeSavedDeckId,
   }) {
     const currentIndex =
-      sourceName != null
-        ? savedDecks.findIndex((d) => d.name === sourceName)
-        : -1;
+      sourceId != null ? getSavedDeckIndexById(savedDecks, sourceId) : -1;
     const targetIndex = savedDecks.findIndex((d) => d.name === name);
     const record = buildSavedDeckRecord(name, deckValue, {
+      id: currentIndex !== -1 ? savedDecks[currentIndex]?.id : undefined,
       shareCode,
       editToken,
     });
@@ -338,19 +592,11 @@ function DeckControls({
         return false;
       }
 
-      const oldName = savedDecks[currentIndex]?.name;
       const nextDecks = savedDecks.map((d, i) =>
         i === currentIndex ? record : d,
       );
       persistSavedDecks(nextDecks);
-
-      if (oldName && oldName !== name) {
-        updateSavedDeckFolderState((current) =>
-          renameSavedDeckAssignment(current, oldName, name),
-        );
-      }
-
-      setActiveSavedDeckName(name);
+      setActiveSavedDeckId(record.id);
       return true;
     }
 
@@ -368,13 +614,13 @@ function DeckControls({
         i === targetIndex ? record : d,
       );
       persistSavedDecks(nextDecks);
-      setActiveSavedDeckName(name);
+      setActiveSavedDeckId(record.id);
       return true;
     }
 
     const nextDecks = [...savedDecks, record];
     persistSavedDecks(nextDecks);
-    setActiveSavedDeckName(name);
+    setActiveSavedDeckId(record.id);
     return true;
   }
 
@@ -464,8 +710,8 @@ function DeckControls({
 
   async function handleShareLinkWithName(name) {
     const savedRecord =
-      activeSavedDeckName != null
-        ? getSavedDeckByName(savedDecks, activeSavedDeckName)
+      activeSavedDeckId != null
+        ? getSavedDeckById(savedDecks, activeSavedDeckId)
         : null;
 
     const ownedShare =
@@ -690,16 +936,16 @@ function DeckControls({
 
   async function saveDeckWithName(name) {
     const currentSavedRecord =
-      activeSavedDeckName != null
-        ? getSavedDeckByName(savedDecks, activeSavedDeckName)
+      activeSavedDeckId != null
+        ? getSavedDeckById(savedDecks, activeSavedDeckId)
         : null;
 
     const sessionCode = sessionShareInfo?.shareCode;
     const sessionToken = sessionShareInfo?.editToken;
 
     const currentIndex =
-      activeSavedDeckName != null
-        ? savedDecks.findIndex((d) => d.name === activeSavedDeckName)
+      activeSavedDeckId != null
+        ? getSavedDeckIndexById(savedDecks, activeSavedDeckId)
         : -1;
 
     const targetIndex = savedDecks.findIndex((d) => d.name === name);
@@ -719,6 +965,7 @@ function DeckControls({
       const editToken = currentSavedRecord?.editToken || sessionToken;
 
       const updatedRecord = buildSavedDeckRecord(name, deck, {
+        id: currentSavedRecord?.id,
         shareCode,
         editToken,
       });
@@ -734,12 +981,10 @@ function DeckControls({
         savedName: name,
         shareCode,
         editToken,
-        oldName,
         localOnlyMessage: "Deck saved.",
         persistSavedDecks,
-        updateSavedDeckFolderState,
-        renameSavedDeckAssignment,
-        setActiveSavedDeckName,
+        activeDeckId: updatedRecord.id,
+        setActiveSavedDeckId,
         sessionShareInfo,
         setSessionShareInfo,
         updateSharedDeck,
@@ -799,9 +1044,8 @@ function DeckControls({
                     editToken,
                     localOnlyMessage: "Deck saved with new name.",
                     persistSavedDecks,
-                    updateSavedDeckFolderState,
-                    renameSavedDeckAssignment,
-                    setActiveSavedDeckName,
+                    activeDeckId: nextDecks[nextDecks.length - 1].id,
+                    setActiveSavedDeckId,
                     sessionShareInfo,
                     setSessionShareInfo,
                     updateSharedDeck,
@@ -823,6 +1067,7 @@ function DeckControls({
               const editToken = existingRecord?.editToken || sessionToken;
 
               const updatedRecord = buildSavedDeckRecord(name, deck, {
+                id: existingRecord?.id,
                 shareCode,
                 editToken,
               });
@@ -840,9 +1085,8 @@ function DeckControls({
                 editToken,
                 localOnlyMessage: "Deck overwritten.",
                 persistSavedDecks,
-                updateSavedDeckFolderState,
-                renameSavedDeckAssignment,
-                setActiveSavedDeckName,
+                activeDeckId: updatedRecord.id,
+                setActiveSavedDeckId,
                 sessionShareInfo,
                 setSessionShareInfo,
                 updateSharedDeck,
@@ -877,9 +1121,8 @@ function DeckControls({
       editToken,
       localOnlyMessage: "Deck saved.",
       persistSavedDecks,
-      updateSavedDeckFolderState,
-      renameSavedDeckAssignment,
-      setActiveSavedDeckName,
+      activeDeckId: nextDecks[nextDecks.length - 1].id,
+      setActiveSavedDeckId,
       sessionShareInfo,
       setSessionShareInfo,
       updateSharedDeck,
@@ -944,7 +1187,7 @@ function DeckControls({
         const nextDeck = deckObj?.deck || deckObj;
         setDeck(nextDeck);
         setDeckName(savedDeck.name || deckObj?.name || "");
-        setActiveSavedDeckName(savedDeck.name);
+        setActiveSavedDeckId(savedDeck.id);
         setSessionShareInfo(null);
         setOpenVersionsMenu(null);
         return;
@@ -963,7 +1206,7 @@ function DeckControls({
 
       setDeck(selectedVersion);
       setDeckName(savedDeck.name || deckObj?.name || "");
-      setActiveSavedDeckName(savedDeck.name);
+      setActiveSavedDeckId(savedDeck.id);
       setSessionShareInfo(null);
       setOpenVersionsMenu(null);
     } catch (e) {
@@ -977,24 +1220,9 @@ function DeckControls({
 
   function loadDeck(idx) {
     const doLoad = () => {
-      const raw = savedDecks[idx].deck;
-      const fixed = {};
-
-      Object.entries(raw).forEach(([cardId, value]) => {
-        if (value && typeof value === "object" && "count" in value) {
-          fixed[cardId] = value;
-        } else {
-          fixed[cardId] = {
-            count: Number(value) || 0,
-            group: {},
-            tags: [],
-          };
-        }
-      });
-
-      setDeck(fixed);
+      setDeck(savedDecks[idx].deck);
       setDeckName(savedDecks[idx].name);
-      setActiveSavedDeckName(savedDecks[idx].name);
+      setActiveSavedDeckId(savedDecks[idx].id);
       setSessionShareInfo(null);
       setOpenVersionsMenu(null);
     };
@@ -1036,12 +1264,13 @@ function DeckControls({
           onClick: () => {
             const deckToDelete = savedDecks[idx];
             const newDecks = savedDecks.filter((_, i) => i !== idx);
-            persistSavedDecks(newDecks);
-            if (deckToDelete?.name) {
-              updateSavedDeckFolderState((current) =>
-                removeSavedDeckAssignment(current, deckToDelete.name),
-              );
-            }
+            const nextFolderState = deckToDelete?.id
+              ? removeSavedDeckAssignment(
+                  savedDeckFolderStateRef.current,
+                  deckToDelete.id,
+                )
+              : savedDeckFolderStateRef.current;
+            saveCompleteLibrary(newDecks, nextFolderState);
           },
         },
       ],
@@ -1098,9 +1327,9 @@ function DeckControls({
     });
   }
 
-  function handleSavedDeckDragStart(e, deckName) {
+  function handleSavedDeckDragStart(e, deckId) {
     e.stopPropagation();
-    setSavedDeckDrag({ type: "deck", deckName });
+    setSavedDeckDrag({ type: "deck", deckId });
   }
 
   function handleSavedDeckDragEnd() {
@@ -1111,7 +1340,7 @@ function DeckControls({
   function moveSavedDeckToFolder(targetFolderId = null) {
     if (!savedDeckDrag || savedDeckDrag.type !== "deck") return;
     updateSavedDeckFolderState((current) =>
-      assignSavedDeckToFolder(current, savedDeckDrag.deckName, targetFolderId),
+      assignSavedDeckToFolder(current, savedDeckDrag.deckId, targetFolderId),
     );
     setSavedDeckDrag(null);
   }
@@ -1274,6 +1503,7 @@ function handleDeckTextExport() {
         deckName,
         octgnOverrides,
         currentGroupBy,
+        (title, message) => openMessageModal(setModalState, title, message),
       );
     } else if (format === "DRAGON_DICE_TTS") {
       await handleDragonDiceTTSExport();
@@ -1300,7 +1530,7 @@ function handleDeckTextExport() {
           onClick: () => {
             setDeck({});
             setOctgnOverrides({});
-            setActiveSavedDeckName(null);
+            setActiveSavedDeckId(null);
             setSessionShareInfo(null);
             setOpenVersionsMenu(null);
           },
@@ -1316,7 +1546,7 @@ function handleDeckTextExport() {
       game,
       setDeck,
       setOctgnOverrides,
-      setActiveSavedDeckName,
+      setActiveSavedDeckName: setActiveSavedDeckId,
       setSessionShareInfo,
       setOpenVersionsMenu,
       openMessageModal: (title, message) =>
@@ -1450,6 +1680,16 @@ const deckExportActions = {
             useGridImageForPreview={!!settings?.useGridImageForPreview}
           />
         </div>
+        {savedLibraryLoading && (
+          <div style={{ marginBottom: "0.75em", opacity: 0.8 }}>
+            Loading {currentUser ? "cloud" : "local"} saved decks...
+          </div>
+        )}
+        {savedLibraryError && (
+          <div style={{ marginBottom: "0.75em", color: "crimson" }}>
+            {savedLibraryError}
+          </div>
+        )}
         <SavedDeckLibrary
           savedDeckFolderView={{
             ...savedDeckFolderView,

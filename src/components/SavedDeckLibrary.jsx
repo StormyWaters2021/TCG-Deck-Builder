@@ -31,18 +31,18 @@ function SavedDeckLibrary({
   function renderSavedDeckItem(d, options = {}) {
     const { dropTargetFolderId, allowUnfolderDrop = false } = options;
     const idx = savedDeckFolderView.allDecks.findIndex(
-      (saved) => saved.name === d.name,
+      (saved) => saved.id === d.id,
     );
     if (idx === -1) return null;
 
     return (
       <li
-        key={d.name}
+        key={d.id}
         draggable
         className={selectedDeckIdx === idx ? listSelectedClass : ""}
         onClick={() => setSelectedDeckIdx(idx)}
         onMouseDown={(e) => e.stopPropagation()}
-        onDragStart={(e) => handleSavedDeckDragStart(e, d.name)}
+        onDragStart={(e) => handleSavedDeckDragStart(e, d.id)}
         onDragEnd={handleSavedDeckDragEnd}
         onDragEnter={(e) => e.stopPropagation()}
         onDragOver={(e) => {
@@ -120,13 +120,13 @@ function SavedDeckLibrary({
               style={{ width: "72px", height: "1.8em", fontSize: "0.9em" }}
               onClick={(e) => {
                 e.stopPropagation();
-                setOpenVersionsMenu((prev) => (prev === d.name ? null : d.name));
+                setOpenVersionsMenu((prev) => (prev === d.id ? null : d.id));
               }}
             >
               Versions
             </button>
 
-            {openVersionsMenu === d.name && (
+            {openVersionsMenu === d.id && (
               <div
                 className="dropdown-menu"
                 onMouseLeave={() => {

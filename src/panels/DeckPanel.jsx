@@ -126,16 +126,18 @@ function groupDeckByOctgn(
     const card = cards.find((c) => c.id === cardId);
     if (!card) return;
 
-    // If group is object with section keys, use those
-    const manualKeys = entry.group && typeof entry.group === "object"
-      ? Object.keys(entry.group)
-      : [];
-    if (
-      manualKeys.length > 0 &&
-      manualKeys.every(k => sections.some(s => s.name === k))
-    ) {
+    // If the saved entry has group allocations, preserve every allocation
+    // exactly, including group names that no longer exist in the current OCTGN
+    // configuration. Those groups are rendered as visible missing groups below.
+    const manualEntries =
+      entry.group && typeof entry.group === "object" && !Array.isArray(entry.group)
+        ? Object.entries(entry.group).filter(([, qty]) => Number(qty) > 0)
+        : [];
+
+    if (manualEntries.length > 0) {
       let assigned = 0;
-      Object.entries(entry.group).forEach(([sectName, qty]) => {
+      manualEntries.forEach(([sectName, rawQty]) => {
+        const qty = Number(rawQty);
         groups[sectName] = groups[sectName] || {};
         if (!groups[sectName][cardId]) {
           groups[sectName][cardId] = { card, qty: 0, tags: entry.tags };
@@ -143,9 +145,13 @@ function groupDeckByOctgn(
         groups[sectName][cardId].qty += qty;
         assigned += qty;
       });
-      const totalCount = entry.count || assigned;
+
+      // This is only a final display safety net. The load normalizer should have
+      // already guaranteed that assigned === entry.count before editable state.
+      const totalCount = Number(entry.count) || assigned;
       const remainder = totalCount - assigned;
       if (remainder > 0) {
+        groups[defaultSection] = groups[defaultSection] || {};
         if (!groups[defaultSection][cardId]) {
           groups[defaultSection][cardId] = { card, qty: 0, tags: entry.tags };
         }
@@ -533,12 +539,17 @@ function DeckPanel({
   octgnSections,
   octgnDefaultSection,
   panelIgnoreSections = [],
+  enableTouchDrag = false,
 }) {
   const [internalGroupBy, setInternalGroupBy] = useState(settings.groupOptions[0]);
   const groupBy = groupByProp !== undefined ? groupByProp : internalGroupBy;
   const setGroupBy = setGroupByProp !== undefined ? setGroupByProp : setInternalGroupBy;
   const [displayMode, setDisplayMode] = useState("list");
-  const [moveMode, setMoveMode] = useState("one");  // “one” or “all”
+  const [moveMode, setMoveMode] = useState("one");  // “one” or “all"
+  const [touchDrag, setTouchDrag] = useState(null);
+  const touchDragRef = useRef(null);
+  const touchHoldTimerRef = useRef(null);
+  const touchStartRef = useRef(null);
 
   const [internalOctgnOverrides, setInternalOctgnOverrides] = useState({});
   const octgnOverrides = octgnOverridesProp !== undefined ? octgnOverridesProp : internalOctgnOverrides;
@@ -623,11 +634,16 @@ function DeckPanel({
 
   function getSortedGroupNames(groupedObj) {
     if (groupBy === "OCTGN") {
-      const names = (filteredSections || []).map(s => s.name);
-      if (octgnDefaultSection && !names.includes(octgnDefaultSection)) {
-        names.push(octgnDefaultSection);
+      const configuredNames = (filteredSections || []).map(s => s.name);
+      if (octgnDefaultSection && !configuredNames.includes(octgnDefaultSection)) {
+        configuredNames.push(octgnDefaultSection);
       }
-      return names;
+
+      const additionalNames = Object.keys(groupedObj)
+        .filter(name => !configuredNames.includes(name))
+        .sort((a, b) => a.localeCompare(b));
+
+      return [...configuredNames, ...additionalNames];
     }
     const groupNames = Object.keys(groupedObj);
     const inOrder = groupOrder.filter(name => groupNames.includes(name));
@@ -637,35 +653,164 @@ function DeckPanel({
     return [...inOrder, ...remaining];
   }
 
-  // --- Drag and Drop Logic: Call moveCard for atomic moves ---
+  function isKnownOctgnGroup(groupName) {
+    return (
+      groupName === octgnDefaultSection ||
+      (octgnSections || []).some(section => section.name === groupName)
+    );
+  }
+
+  function getGroupDisplayName(groupName) {
+    if (groupBy !== "OCTGN" || isKnownOctgnGroup(groupName)) return groupName;
+    return `⚠ Missing Group: ${groupName}`;
+  }
+
+  // --- Shared group-moving action used by desktop drag/drop and mobile touch drag. ---
+  function moveBetweenGroups(cardId, fromSection, toSection) {
+    if (
+      groupBy !== "OCTGN" ||
+      !cardId ||
+      !fromSection ||
+      !toSection ||
+      fromSection === toSection
+    ) {
+      return;
+    }
+
+    if (moveMode === "one") {
+      moveCard(cardId, 1, fromSection, toSection);
+      return;
+    }
+
+    const entry = deck[cardId] || {};
+    const bucketCount = entry.group?.[fromSection] ?? entry.count ?? 0;
+    if (bucketCount > 0) {
+      moveCard(cardId, bucketCount, fromSection, toSection);
+    }
+  }
+
   function handleDragStart(e, cardId, fromSection) {
     e.dataTransfer.setData("cardId", cardId);
     e.dataTransfer.setData("fromSection", fromSection);
   }
-  function handleDrop(e, toSection) {
-   e.preventDefault();
-   const cardId   = e.dataTransfer.getData("cardId");
-   const fromSection = e.dataTransfer.getData("fromSection");
-   if (!cardId || !fromSection) return;
 
-  // only allow drop/move when we're in OCTGN view:
-  if (groupBy !== "OCTGN") {
-    return;
+  function handleDrop(e, toSection) {
+    e.preventDefault();
+    moveBetweenGroups(
+      e.dataTransfer.getData("cardId"),
+      e.dataTransfer.getData("fromSection"),
+      toSection
+    );
   }
 
-   if (moveMode === "one") {
-     moveCard(cardId, 1, fromSection, toSection);
-   } else {
-     const entry      = deck[cardId] || {};
-     const bucketCount = entry.group?.[fromSection] ?? entry.count ?? 0;
-     if (bucketCount > 0) {
-       moveCard(cardId, bucketCount, fromSection, toSection);
-     }
-   }
- }
   function handleDragOver(e) {
     e.preventDefault();
   }
+
+  function clearTouchHoldTimer() {
+    if (touchHoldTimerRef.current) {
+      window.clearTimeout(touchHoldTimerRef.current);
+      touchHoldTimerRef.current = null;
+    }
+  }
+
+  function resetTouchDrag() {
+    clearTouchHoldTimer();
+    touchStartRef.current = null;
+    touchDragRef.current = null;
+    setTouchDrag(null);
+  }
+
+  function findTouchDropSection(clientX, clientY) {
+    const element = document.elementFromPoint(clientX, clientY);
+    return element?.closest?.("[data-deck-drop-section]")?.dataset
+      ?.deckDropSection || null;
+  }
+
+  function handleTouchDragPointerDown(e, card, fromSection) {
+    if (!enableTouchDrag || groupBy !== "OCTGN") return;
+
+    e.stopPropagation();
+    e.currentTarget.setPointerCapture?.(e.pointerId);
+    touchStartRef.current = {
+      pointerId: e.pointerId,
+      cardId: card.id,
+      fromSection,
+      label: cardNameWithSubtitle(card),
+      startX: e.clientX,
+      startY: e.clientY,
+    };
+
+    clearTouchHoldTimer();
+    touchHoldTimerRef.current = window.setTimeout(() => {
+      const start = touchStartRef.current;
+      if (!start || start.pointerId !== e.pointerId) return;
+
+      const nextDrag = {
+        active: true,
+        cardId: start.cardId,
+        fromSection: start.fromSection,
+        label: start.label,
+        x: start.startX,
+        y: start.startY,
+        targetSection: start.fromSection,
+      };
+      touchDragRef.current = nextDrag;
+      setTouchDrag(nextDrag);
+      navigator.vibrate?.(20);
+    }, 225);
+  }
+
+  function handleTouchDragPointerMove(e) {
+    const start = touchStartRef.current;
+    if (!start || start.pointerId !== e.pointerId) return;
+
+    const activeDrag = touchDragRef.current;
+    if (!activeDrag) {
+      const distance = Math.hypot(
+        e.clientX - start.startX,
+        e.clientY - start.startY
+      );
+      if (distance > 10) resetTouchDrag();
+      return;
+    }
+
+    e.preventDefault();
+    const targetSection = findTouchDropSection(e.clientX, e.clientY);
+    const nextDrag = {
+      ...activeDrag,
+      x: e.clientX,
+      y: e.clientY,
+      targetSection,
+    };
+    touchDragRef.current = nextDrag;
+    setTouchDrag(nextDrag);
+
+    const scrollRegion = document.querySelector(".mobile-content");
+    if (scrollRegion) {
+      const bounds = scrollRegion.getBoundingClientRect();
+      const edgeSize = 54;
+      if (e.clientY < bounds.top + edgeSize) scrollRegion.scrollBy(0, -12);
+      if (e.clientY > bounds.bottom - edgeSize) scrollRegion.scrollBy(0, 12);
+    }
+  }
+
+  function handleTouchDragPointerUp(e) {
+    const start = touchStartRef.current;
+    if (!start || start.pointerId !== e.pointerId) return;
+
+    const activeDrag = touchDragRef.current;
+    if (activeDrag?.active) {
+      e.preventDefault();
+      const toSection =
+        findTouchDropSection(e.clientX, e.clientY) ||
+        activeDrag.targetSection;
+      moveBetweenGroups(start.cardId, start.fromSection, toSection);
+    }
+    resetTouchDrag();
+  }
+
+  useEffect(() => () => clearTouchHoldTimer(), []);
 
   // Validation, etc (unchanged)
   const processedDeckByName = {};
@@ -1198,12 +1343,13 @@ const totalCards =
           return (
             <div
               key={sectionName}
-              className="deck-group"
+              className={`deck-group${touchDrag?.targetSection === sectionName ? " touch-drop-target" : ""}`}
+              data-deck-drop-section={sectionName}
               onDrop={e => handleDrop(e, sectionName)}
               onDragOver={handleDragOver}
             >
               <div className="deck-group-header">
-                {sectionName} <span className="deck-group-count">({sectionCards.reduce((a, b) => a + b.qty, 0)})</span>
+                {getGroupDisplayName(sectionName)} <span className="deck-group-count">({sectionCards.reduce((a, b) => a + b.qty, 0)})</span>
               </div>
               {displayMode === "grid" ? (
                 <div className="deck-group-grid">
@@ -1216,6 +1362,22 @@ const totalCards =
                         draggable
                         onDragStart={e => handleDragStart(e, card.id, sectionName)}
                       >
+                        {enableTouchDrag && groupBy === "OCTGN" && (
+                          <button
+                            type="button"
+                            className="mobile-card-drag-handle mobile-card-drag-handle-grid"
+                            aria-label={`Move ${cardNameWithSubtitle(card)} from ${sectionName}`}
+                            title="Press and hold, then drag to another group"
+                            onClick={e => e.stopPropagation()}
+                            onContextMenu={e => e.preventDefault()}
+                            onPointerDown={e => handleTouchDragPointerDown(e, card, sectionName)}
+                            onPointerMove={handleTouchDragPointerMove}
+                            onPointerUp={handleTouchDragPointerUp}
+                            onPointerCancel={resetTouchDrag}
+                          >
+                            <span aria-hidden="true">⠿</span>
+                          </button>
+                        )}
                         <div
                           className="deck-card-grid-preview"
                           onClick={() => setSelectedCard(card.id)}
@@ -1280,12 +1442,28 @@ const totalCards =
                     return (
                       <li
                         key={card.id}
-                        className={`deck-group-list-item${selectedCard === card.id ? " selected" : ""}`}
+                        className={`deck-group-list-item${selectedCard === card.id ? " selected" : ""}${touchDrag?.cardId === card.id && touchDrag?.fromSection === sectionName ? " touch-drag-source" : ""}`}
                         onClick={() => setSelectedCard(card.id)}
                         draggable
                         onDragStart={e => handleDragStart(e, card.id, sectionName)}
                       >
-                        {cardNameWithSubtitle(card)} x{qty}
+                        {enableTouchDrag && groupBy === "OCTGN" && (
+                          <button
+                            type="button"
+                            className="mobile-card-drag-handle"
+                            aria-label={`Move ${cardNameWithSubtitle(card)} from ${sectionName}`}
+                            title="Press and hold, then drag to another group"
+                            onClick={e => e.stopPropagation()}
+                            onContextMenu={e => e.preventDefault()}
+                            onPointerDown={e => handleTouchDragPointerDown(e, card, sectionName)}
+                            onPointerMove={handleTouchDragPointerMove}
+                            onPointerUp={handleTouchDragPointerUp}
+                            onPointerCancel={resetTouchDrag}
+                          >
+                            <span aria-hidden="true">⠿</span>
+                          </button>
+                        )}
+                        <span className="deck-card-list-label">{cardNameWithSubtitle(card)} x{qty}</span>
                         {altCount > 0 && (
                           <button
                             title="Swap to other printing"
@@ -1340,7 +1518,7 @@ const totalCards =
           return (
             <div key={group}>
               <strong>
-                {group} ({sortedCards.reduce((a, b) => a + b.qty, 0)})
+                {getGroupDisplayName(group)} ({sortedCards.reduce((a, b) => a + b.qty, 0)})
               </strong>
               <ul>
                 {sortedCards.map(({ card, qty }) => {
@@ -1403,7 +1581,7 @@ const totalCards =
           return (
             <div key={group} style={{ marginBottom: "0.25em" }}>
               <strong>
-                {group} ({sortedCards.reduce((a, b) => a + b.qty, 0)})
+                {getGroupDisplayName(group)} ({sortedCards.reduce((a, b) => a + b.qty, 0)})
               </strong>
               <div
                 style={{
@@ -1507,6 +1685,17 @@ const totalCards =
           {errors.map(e => (
             <div key={e}>{e}</div>
           ))}
+        </div>
+      )}
+
+      {touchDrag?.active && (
+        <div
+          className="mobile-card-drag-ghost"
+          style={{ left: touchDrag.x, top: touchDrag.y }}
+          aria-hidden="true"
+        >
+          <span className="mobile-card-drag-ghost-icon">⠿</span>
+          <span>{touchDrag.label}</span>
         </div>
       )}
     </aside>

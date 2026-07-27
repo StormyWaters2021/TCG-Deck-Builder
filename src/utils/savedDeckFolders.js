@@ -1,5 +1,4 @@
-const deckStorageKey = (game) => `${game}-decks`;
-const folderStorageKey = (game) => `${game}-deck-folders`;
+import { serializeSavedDeckRecord } from "../decks/deckSerializer";
 
 export function generateEditToken() {
   if (window.crypto?.randomUUID) {
@@ -15,7 +14,6 @@ export function reorderSavedDeckFolders(
   position = "above",
 ) {
   const folders = [...(state?.folders || [])];
-
   const fromIndex = folders.findIndex((folder) => folder.id === draggedFolderId);
   const targetIndex = folders.findIndex((folder) => folder.id === targetFolderId);
 
@@ -29,94 +27,11 @@ export function reorderSavedDeckFolders(
   }
 
   const [moved] = folders.splice(fromIndex, 1);
-
   let insertIndex = folders.findIndex((folder) => folder.id === targetFolderId);
   if (insertIndex === -1) return state;
-
-  if (position === "below") {
-    insertIndex += 1;
-  }
-
+  if (position === "below") insertIndex += 1;
   folders.splice(insertIndex, 0, moved);
   return { ...state, folders };
-}
-
-function safeParseArray(raw, fallback = []) {
-  try {
-    const parsed = JSON.parse(raw || "null");
-    return Array.isArray(parsed) ? parsed : fallback;
-  } catch {
-    return fallback;
-  }
-}
-
-function safeParseObject(raw, fallback = {}) {
-  try {
-    const parsed = JSON.parse(raw || "null");
-    return parsed && typeof parsed === "object" && !Array.isArray(parsed)
-      ? parsed
-      : fallback;
-  } catch {
-    return fallback;
-  }
-}
-
-function normalizeFolderState(state) {
-  const folders = Array.isArray(state?.folders)
-    ? state.folders
-        .filter((folder) => folder && typeof folder === "object")
-        .map((folder, index) => ({
-          id:
-            typeof folder.id === "string" && folder.id.trim()
-              ? folder.id
-              : `folder-${index}`,
-          name:
-            typeof folder.name === "string" && folder.name.trim()
-              ? folder.name.trim()
-              : `Folder ${index + 1}`,
-        }))
-    : [];
-
-  const validFolderIds = new Set(folders.map((folder) => folder.id));
-  const collapsed = {};
-  const assignments = {};
-
-  const rawCollapsed = state?.collapsed || {};
-  Object.keys(rawCollapsed).forEach((folderId) => {
-    if (validFolderIds.has(folderId)) {
-      collapsed[folderId] = !!rawCollapsed[folderId];
-    }
-  });
-
-  const rawAssignments = state?.assignments || {};
-  Object.keys(rawAssignments).forEach((deckName) => {
-    const folderId = rawAssignments[deckName];
-    if (validFolderIds.has(folderId)) {
-      assignments[deckName] = folderId;
-    }
-  });
-
-  return { folders, collapsed, assignments };
-}
-
-export function loadSavedDecks(game) {
-  return safeParseArray(localStorage.getItem(deckStorageKey(game)), []);
-}
-
-export function saveSavedDecks(game, decks) {
-  localStorage.setItem(deckStorageKey(game), JSON.stringify(decks));
-}
-
-export function loadSavedDeckFolderState(game) {
-  const raw = safeParseObject(localStorage.getItem(folderStorageKey(game)), {});
-  return normalizeFolderState(raw);
-}
-
-export function saveSavedDeckFolderState(game, state) {
-  localStorage.setItem(
-    folderStorageKey(game),
-    JSON.stringify(normalizeFolderState(state)),
-  );
 }
 
 export function createSavedDeckFolder(name) {
@@ -131,9 +46,11 @@ export function createSavedDeckFolder(name) {
 export function addSavedDeckFolder(state, folder) {
   if (!folder) return state;
   return {
+    ...state,
     folders: [folder, ...(state?.folders || [])],
     collapsed: { ...(state?.collapsed || {}), [folder.id]: false },
     assignments: { ...(state?.assignments || {}) },
+    unresolvedAssignments: { ...(state?.unresolvedAssignments || {}) },
   };
 }
 
@@ -148,60 +65,65 @@ export function toggleSavedDeckFolder(state, folderId) {
 }
 
 export function deleteSavedDeckFolder(state, folderId) {
-  const folders = (state?.folders || []).filter((folder) => folder.id !== folderId);
+  const folders = (state?.folders || []).filter(
+    (folder) => folder.id !== folderId,
+  );
   const collapsed = { ...(state?.collapsed || {}) };
   delete collapsed[folderId];
 
   const assignments = {};
-  Object.entries(state?.assignments || {}).forEach(([deckName, assignedFolderId]) => {
-    if (assignedFolderId !== folderId) assignments[deckName] = assignedFolderId;
+  Object.entries(state?.assignments || {}).forEach(([deckId, assignedFolderId]) => {
+    if (assignedFolderId !== folderId) assignments[deckId] = assignedFolderId;
   });
 
-  return { folders, collapsed, assignments };
+  const unresolvedAssignments = {};
+  Object.entries(state?.unresolvedAssignments || {}).forEach(
+    ([deckName, assignedFolderId]) => {
+      if (assignedFolderId !== folderId) {
+        unresolvedAssignments[deckName] = assignedFolderId;
+      }
+    },
+  );
+
+  return { ...state, folders, collapsed, assignments, unresolvedAssignments };
 }
 
-export function assignSavedDeckToFolder(state, deckName, folderId) {
+export function assignSavedDeckToFolder(state, deckId, folderId) {
   const assignments = { ...(state?.assignments || {}) };
-  if (!folderId) {
-    delete assignments[deckName];
-  } else {
-    assignments[deckName] = folderId;
-  }
+  if (!folderId) delete assignments[deckId];
+  else assignments[deckId] = folderId;
   return { ...(state || {}), assignments };
+}
+
+export function getSavedDeckIndexById(savedDecks, id) {
+  return savedDecks.findIndex((deck) => deck.id === id);
+}
+
+export function getSavedDeckById(savedDecks, id) {
+  const index = getSavedDeckIndexById(savedDecks, id);
+  return index >= 0 ? savedDecks[index] : null;
 }
 
 export function getSavedDeckIndexByName(savedDecks, name) {
-  return savedDecks.findIndex((d) => d.name === name);
+  return savedDecks.findIndex((deck) => deck.name === name);
 }
 
 export function getSavedDeckByName(savedDecks, name) {
-  const idx = getSavedDeckIndexByName(savedDecks, name);
-  return idx >= 0 ? savedDecks[idx] : null;
+  const index = getSavedDeckIndexByName(savedDecks, name);
+  return index >= 0 ? savedDecks[index] : null;
 }
 
 export function buildSavedDeckRecord(name, deckValue, extras = {}) {
-  const record = {
-    name,
-    deck: deckValue,
-  };
+  const record = { name, deck: deckValue };
+  if (extras.id) record.id = extras.id;
   if (extras.shareCode) record.shareCode = extras.shareCode;
   if (extras.editToken) record.editToken = extras.editToken;
-  return record;
+  return serializeSavedDeckRecord(record);
 }
 
-export function removeSavedDeckAssignment(state, deckName) {
+export function removeSavedDeckAssignment(state, deckId) {
   const assignments = { ...(state?.assignments || {}) };
-  delete assignments[deckName];
-  return { ...(state || {}), assignments };
-}
-
-export function renameSavedDeckAssignment(state, oldDeckName, newDeckName) {
-  if (!oldDeckName || !newDeckName || oldDeckName === newDeckName) return state;
-  const assignments = { ...(state?.assignments || {}) };
-  if (assignments[oldDeckName]) {
-    assignments[newDeckName] = assignments[oldDeckName];
-    delete assignments[oldDeckName];
-  }
+  delete assignments[deckId];
   return { ...(state || {}), assignments };
 }
 
@@ -209,11 +131,13 @@ export function buildSavedDeckFolderView(savedDecks, folderState) {
   const folders = (folderState?.folders || []).map((folder) => ({
     ...folder,
     collapsed: !!folderState?.collapsed?.[folder.id],
-    decks: savedDecks.filter((deck) => folderState?.assignments?.[deck.name] === folder.id),
+    decks: savedDecks.filter(
+      (deck) => folderState?.assignments?.[deck.id] === folder.id,
+    ),
   }));
 
   const unfolderedDecks = savedDecks.filter(
-    (deck) => !folderState?.assignments?.[deck.name],
+    (deck) => !folderState?.assignments?.[deck.id],
   );
 
   return { folders, unfolderedDecks };

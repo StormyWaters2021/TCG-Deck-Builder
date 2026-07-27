@@ -3,14 +3,12 @@ import React from "react";
 export async function finalizeSavedDeckFlow({
   nextDecks,
   savedName,
+  activeDeckId,
   shareCode,
   editToken,
-  oldName = null,
   localOnlyMessage = "Deck saved.",
   persistSavedDecks,
-  updateSavedDeckFolderState,
-  renameSavedDeckAssignment,
-  setActiveSavedDeckName,
+  setActiveSavedDeckId,
   sessionShareInfo,
   setSessionShareInfo,
   updateSharedDeck,
@@ -19,14 +17,7 @@ export async function finalizeSavedDeckFlow({
   openMessageModal,
 }) {
   persistSavedDecks(nextDecks);
-
-  if (oldName && oldName !== savedName) {
-    updateSavedDeckFolderState((current) =>
-      renameSavedDeckAssignment(current, oldName, savedName),
-    );
-  }
-
-  setActiveSavedDeckName(savedName);
+  setActiveSavedDeckId(activeDeckId);
 
   if (sessionShareInfo?.shareCode && sessionShareInfo?.editToken) {
     setSessionShareInfo(null);
