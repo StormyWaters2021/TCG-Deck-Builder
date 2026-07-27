@@ -193,3 +193,93 @@ body.mobile-scroll-lock {
     gap: 0.5em;
   }
 }
+
+/* ----- Touch drag handles for moving cards between OCTGN groups ----- */
+.mobile-card-drag-handle {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  margin: -6px 8px -6px -4px;
+  padding: 0;
+  border: 0;
+  border-right: 1px solid var(--dropdown-border);
+  border-radius: 4px 0 0 4px;
+  background: transparent;
+  color: var(--input-color);
+  font-size: 1.45rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.mobile-card-drag-handle:active {
+  cursor: grabbing;
+  background: var(--dropdown-hover-bg);
+}
+
+.deck-card-list-label {
+  vertical-align: middle;
+}
+
+.deck-group-list-item.touch-drag-source {
+  opacity: 0.55;
+}
+
+.deck-group.touch-drop-target {
+  outline: 3px solid var(--main-button-bg);
+  outline-offset: 2px;
+  background: var(--list-selected-bg-alt);
+}
+
+.mobile-card-drag-ghost {
+  position: fixed;
+  z-index: 1200;
+  transform: translate(-20px, -50%);
+  max-width: min(78vw, 360px);
+  padding: 8px 12px 8px 8px;
+  border: 1px solid var(--main-button-border);
+  border-radius: 7px;
+  background: var(--input-bg);
+  color: var(--input-color);
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.38);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  pointer-events: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mobile-card-drag-ghost-icon {
+  flex: 0 0 auto;
+  font-size: 1.35rem;
+}
+
+.mobile-card-drag-handle-grid {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  z-index: 8;
+  width: 34px;
+  height: 34px;
+  min-width: 34px;
+  margin: 0;
+  border: 1px solid var(--main-button-border);
+  border-radius: 6px;
+  background: var(--input-bg);
+}
+
+.deck-card-grid-cell {
+  position: relative;
+}

@@ -546,7 +546,15 @@ export function buildDragonDiceTTSString(deck, cards) {
 }
 
 // Export deck as OCTGN XML
-export async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOverrides, currentGroupBy) {
+export async function exportDeckOCTGN(
+  deck,
+  cards,
+  settings,
+  deckName,
+  octgnOverrides,
+  currentGroupBy,
+  onExportError,
+) {
   let base = "/";
   if (typeof import.meta !== "undefined" && import.meta.env && import.meta.env.BASE_URL) {
     base = import.meta.env.BASE_URL;
@@ -564,7 +572,15 @@ export async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOver
     }
     octgnSettings = await resp.json();
   } catch (e) {
-    alert("OCTGN export settings not found or invalid.\nTried: " + octgnJsonUrl);
+    const message =
+      "OCTGN export settings were not found or are invalid.\n\n" +
+      "Tried: " + octgnJsonUrl;
+
+    if (typeof onExportError === "function") {
+      onExportError("OCTGN Export", message);
+    } else {
+      alert(message);
+    }
     return;
   }
 
@@ -590,6 +606,58 @@ export async function exportDeckOCTGN(deck, cards, settings, deckName, octgnOver
   }
   if (octgnSettings.defaultSection && !(octgnSettings.defaultSection in sectionMap)) {
     sectionMap[octgnSettings.defaultSection] = [];
+  }
+
+  // A stored group name must map to a real OCTGN section. Unknown groups are
+  // intentionally preserved by the editor, but OCTGN cannot represent them
+  // safely, so stop the export and tell the user exactly what must be fixed.
+  const missingGroups = new Map();
+
+  for (const [cardId, entry] of Object.entries(deck)) {
+    if (!entry || typeof entry !== "object" || Array.isArray(entry)) continue;
+    if (!entry.group || typeof entry.group !== "object" || Array.isArray(entry.group)) continue;
+
+    const card = cards.find(candidate => candidate.id === cardId);
+    const cardName = card?.name || cardId;
+
+    for (const [groupName, rawQty] of Object.entries(entry.group)) {
+      const qty = Number(rawQty);
+      if (!Number.isFinite(qty) || qty <= 0 || groupName in sectionMap) continue;
+
+      if (!missingGroups.has(groupName)) {
+        missingGroups.set(groupName, { total: 0, cards: [] });
+      }
+
+      const missingGroup = missingGroups.get(groupName);
+      missingGroup.total += qty;
+      missingGroup.cards.push({ name: cardName, qty });
+    }
+  }
+
+  if (missingGroups.size > 0) {
+    const details = Array.from(missingGroups.entries())
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([groupName, groupInfo]) => {
+        const cardLines = groupInfo.cards
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map(({ name, qty }) => `    • ${name} ×${qty}`)
+          .join("\n");
+
+        return `${groupName} (${groupInfo.total} ${groupInfo.total === 1 ? "card" : "cards"})\n${cardLines}`;
+      })
+      .join("\n\n");
+
+    const message =
+      "This deck contains groups that are not defined in the current OCTGN configuration.\n\n" +
+      details +
+      "\n\nMove these cards into valid OCTGN groups, then export again.";
+
+    if (typeof onExportError === "function") {
+      onExportError("OCTGN Export Cannot Continue", message);
+    } else {
+      alert(message);
+    }
+    return;
   }
 
   // Walk every deck entry

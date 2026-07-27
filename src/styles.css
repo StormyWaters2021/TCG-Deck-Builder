@@ -1158,6 +1158,53 @@ li.selected {
   width: 100%;
 }
 
+.display-name-display {
+  width: 100%;
+}
+
+.display-name-display-row {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.2rem;
+}
+
+.display-name-value {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.display-name-edit-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.display-name-edit-button:hover,
+.display-name-edit-button:focus-visible {
+  border-color: var(--input-border);
+  background: color-mix(
+    in srgb,
+    currentColor 10%,
+    transparent
+  );
+  outline: none;
+}
+
 .display-name-label {
   display: block;
   margin-bottom: 0.3rem;
@@ -1379,4 +1426,73 @@ li.selected {
   border-radius: 7px;
   background: rgba(80, 190, 110, 0.14);
   line-height: 1.4;
+}
+
+.linked-provider-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.linked-provider-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+
+.linked-provider-text strong {
+  line-height: 1.2;
+}
+
+.provider-avatar-choice {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 46px;
+  height: 46px;
+  padding: 3px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  transition:
+    transform 140ms ease,
+    border-color 140ms ease,
+    box-shadow 140ms ease;
+}
+
+.provider-avatar-choice img {
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.provider-avatar-choice:hover:not(:disabled),
+.provider-avatar-choice:focus-visible:not(:disabled) {
+  transform: scale(1.12);
+  border-color: var(--main-button-border);
+  outline: none;
+}
+
+.provider-avatar-choice.selected {
+  border-color: var(--selected-outline);
+  box-shadow:
+    0 0 0 2px var(--panel-bg),
+    0 0 8px color-mix(
+      in srgb,
+      var(--selected-outline) 65%,
+      transparent
+    );
+}
+
+.provider-avatar-choice:disabled {
+  opacity: 1;
+  cursor: default;
 }

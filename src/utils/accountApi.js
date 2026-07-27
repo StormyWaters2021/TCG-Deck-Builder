@@ -140,6 +140,60 @@ export async function updateCurrentUserDisplayName(
   return result.user;
 }
 
+export async function updateCurrentUserAvatarProvider(
+  avatarProvider,
+) {
+  const response = await fetch(
+    `${ACCOUNT_API}/api/auth/profile`,
+    {
+      method: "PATCH",
+      credentials: "include",
+      cache: "no-store",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        avatarProvider,
+      }),
+    },
+  );
+
+  const result = await response.json().catch(() => null);
+
+  if (!response.ok) {
+    const errorCode = result?.error;
+
+    if (errorCode === "invalid_avatar_provider") {
+      throw new Error(
+        "That avatar provider is not valid.",
+      );
+    }
+
+    if (errorCode === "provider_not_linked") {
+      throw new Error(
+        "That account is not linked or does not have an available avatar.",
+      );
+    }
+
+    if (
+      errorCode === "invalid_session" ||
+      errorCode === "not_authenticated"
+    ) {
+      throw new Error(
+        "Your session has expired. Please sign in again.",
+      );
+    }
+
+    throw new Error(
+      `Unable to update avatar (${response.status})`,
+    );
+  }
+
+  return result.user;
+}
+
+
 export function getDiscordLoginUrl() {
   return `${ACCOUNT_API}/api/auth/login/discord`;
 }
