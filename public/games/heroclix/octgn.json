@@ -1,0 +1,13 @@
+{
+  "gameGuid": "dabf7f85-249a-48ee-9d42-8f59adf60185",
+    "sections": [
+    {
+      "name": "Team",
+      "shared": false,
+      "criteria": {
+		"Subtype": ["Standard"]
+      }
+    }
+  ],
+  "defaultSection": "Team"
+}
