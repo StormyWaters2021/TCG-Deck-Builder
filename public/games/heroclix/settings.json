@@ -1,0 +1,32 @@
+{
+  "gameName": "heroclix",
+  "game_id": "dabf7f85-249a-48ee-9d42-8f59adf60185",
+  "hiddenSets": [],
+  "addNValue": 4,
+  "groupOptions": [
+	"OCTGN",
+    "Type",
+    "Subtype"
+  ],
+  "filterOptions": [
+	"Unit Type"
+  ],
+  
+  "filterValueOrder": {
+  "Size": ["Small", "Medium", "Large", "Champion", "Monster", "Artifact", "Medallion", "Relic" ],
+  "Element": ["Black (Death)", "Blue (Air)", "Green (Water)", "Red (Fire)", "Yellow (Earth)", "Ivory", "White", "Gold", "Silver", "Bronze" ]
+  },
+  
+  "filterDelimiter": ",",
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {
+	  "i": "Icons",
+	  "e": "Element"
+  },
+  "octgnExport": true,
+  "dragonDiceTTSExport": true,
+  "imagePackExport": true,
+  "disableFlipCardButton": true,
+  "useGridImageForPreview": true
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "7db159f2-1eb2-425f-aaac-5492e36d755b",
+    "name": "Powers and Abilities Card",
+    "size": "PAC",
+    "Unit Type": "PAC",
+    "Set": "Game Tools",
+    "Designer": "Official",
+    "Type": "PAC",
+    "set_id": "fa942363-479c-4cc0-97ff-fdff9fbf3e96",
+    "image": "7db159f2-1eb2-425f-aaac-5492e36d755b.jpg"
+  },
+  {
+    "id": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39",
+    "name": "6",
+    "size": "Dice",
+    "Unit Type": "Dice",
+    "alternates": [
+      {
+        "name": "1",
+        "type": "Face1",
+        "size": "Dice",
+        "image": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39.Face1.jpg"
+      },
+      {
+        "name": "2",
+        "type": "Face2",
+        "size": "Dice",
+        "image": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39.Face2.jpg"
+      },
+      {
+        "name": "3",
+        "type": "Face3",
+        "size": "Dice",
+        "image": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39.Face3.jpg"
+      },
+      {
+        "name": "4",
+        "type": "Face4",
+        "size": "Dice",
+        "image": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39.Face4.jpg"
+      },
+      {
+        "name": "5",
+        "type": "Face5",
+        "size": "Dice",
+        "image": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39.Face5.jpg"
+      }
+    ],
+    "Set": "Game Tools",
+    "Designer": "Official",
+    "Type": "Dice",
+    "set_id": "fa942363-479c-4cc0-97ff-fdff9fbf3e96",
+    "image": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39.jpg"
+  }
+]
