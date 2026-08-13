@@ -28,7 +28,7 @@
         "Defense": "19",
         "Defense Ability": "Special - CYBERNETICALLY ENHANCED",
         "Damage": "3",
-        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click1.jpg"
+        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click1.png"
       },
       {
         "name": "Gamora",
@@ -42,7 +42,7 @@
         "Defense": "19",
         "Defense Ability": "Special - CYBERNETICALLY ENHANCED",
         "Damage": "3",
-        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click2.jpg"
+        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click2.png"
       },
       {
         "name": "Gamora",
@@ -57,7 +57,7 @@
         "Defense Ability": "Special - CYBERNETICALLY ENHANCED",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click3.jpg"
+        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click3.png"
       },
       {
         "name": "Gamora",
@@ -72,7 +72,7 @@
         "Defense Ability": "Special - CYBERNETICALLY ENHANCED",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click4.jpg"
+        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click4.png"
       },
       {
         "name": "Gamora",
@@ -87,7 +87,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click5.jpg"
+        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click5.png"
       },
       {
         "name": "Gamora",
@@ -102,7 +102,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click6.jpg"
+        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click6.png"
       },
       {
         "name": "Gamora",
@@ -117,7 +117,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click7.jpg"
+        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.Click7.png"
       },
       {
         "name": "Gamora",
@@ -127,14 +127,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.KO.jpg"
+        "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.jpg"
+    "image": "8f684f27-f57a-49c2-85e0-a514b7b56b63.png"
   },
   {
     "id": "192f93a8-bbb2-4219-bdf7-cb372ad31b63",
@@ -166,7 +166,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click1.jpg"
+        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click1.png"
       },
       {
         "name": "Monica Rambeau",
@@ -181,7 +181,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click2.jpg"
+        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click2.png"
       },
       {
         "name": "Monica Rambeau",
@@ -196,7 +196,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click3.jpg"
+        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click3.png"
       },
       {
         "name": "Monica Rambeau",
@@ -210,7 +210,7 @@
         "Defense": "18",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
-        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click4.jpg"
+        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click4.png"
       },
       {
         "name": "Monica Rambeau",
@@ -224,7 +224,7 @@
         "Defense": "18",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click5.jpg"
+        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click5.png"
       },
       {
         "name": "Monica Rambeau",
@@ -238,7 +238,7 @@
         "Defense": "18",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click6.jpg"
+        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click6.png"
       },
       {
         "name": "Monica Rambeau",
@@ -253,7 +253,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click7.jpg"
+        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click7.png"
       },
       {
         "name": "Monica Rambeau",
@@ -268,7 +268,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click8.jpg"
+        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.Click8.png"
       },
       {
         "name": "Monica Rambeau",
@@ -278,14 +278,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.KO.jpg"
+        "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.jpg"
+    "image": "192f93a8-bbb2-4219-bdf7-cb372ad31b63.png"
   },
   {
     "id": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba",
@@ -318,7 +318,7 @@
         "Defense Ability": "Special - THE SHIELD IS A RESPONSIBILITY",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click1.jpg"
+        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click1.png"
       },
       {
         "name": "Major Victory",
@@ -333,7 +333,7 @@
         "Defense Ability": "Special - THE SHIELD IS A RESPONSIBILITY",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click2.jpg"
+        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click2.png"
       },
       {
         "name": "Major Victory",
@@ -348,7 +348,7 @@
         "Defense Ability": "Special - THE SHIELD IS A RESPONSIBILITY",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click3.jpg"
+        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click3.png"
       },
       {
         "name": "Major Victory",
@@ -362,7 +362,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
-        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click4.jpg"
+        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click4.png"
       },
       {
         "name": "Major Victory",
@@ -376,7 +376,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
-        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click5.jpg"
+        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click5.png"
       },
       {
         "name": "Major Victory",
@@ -390,7 +390,7 @@
         "Defense": "17",
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
-        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click6.jpg"
+        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click6.png"
       },
       {
         "name": "Major Victory",
@@ -405,7 +405,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click7.jpg"
+        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click7.png"
       },
       {
         "name": "Major Victory",
@@ -420,7 +420,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click8.jpg"
+        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.Click8.png"
       },
       {
         "name": "Major Victory",
@@ -430,14 +430,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.KO.jpg"
+        "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.jpg"
+    "image": "dc1b926b-9c44-4f03-a7e9-97bfbf8b87ba.png"
   },
   {
     "id": "36e3da9a-5464-4419-b0f3-41ed26542b66",
@@ -470,7 +470,7 @@
         "Defense Ability": "Defend",
         "Damage": "3",
         "Damage Ability": "Special - TRUST ME, I'M A DOCTOR",
-        "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.Click1.jpg"
+        "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.Click1.png"
       },
       {
         "name": "Doctor Strange",
@@ -485,7 +485,7 @@
         "Defense Ability": "Special - SHIELD OF SERAPHIM",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.Click2.jpg"
+        "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.Click2.png"
       },
       {
         "name": "Doctor Strange",
@@ -500,7 +500,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.Click3.jpg"
+        "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.Click3.png"
       },
       {
         "name": "Doctor Strange",
@@ -515,7 +515,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.Click4.jpg"
+        "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.Click4.png"
       },
       {
         "name": "Doctor Strange",
@@ -530,7 +530,7 @@
         "Defense Ability": "Special - SHIELD OF SERAPHIM",
         "Damage": "3",
         "Damage Ability": "Special - TRUST ME, I'M A DOCTOR",
-        "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.Click5.jpg"
+        "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.Click5.png"
       },
       {
         "name": "Doctor Strange",
@@ -540,14 +540,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.KO.jpg"
+        "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.jpg"
+    "image": "36e3da9a-5464-4419-b0f3-41ed26542b66.png"
   },
   {
     "id": "4824d1af-d35d-4773-96e1-193a1127de6f",
@@ -579,7 +579,7 @@
         "Defense": "18",
         "Defense Ability": "Invincible",
         "Damage": "3",
-        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click1.jpg"
+        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click1.png"
       },
       {
         "name": "Mindless One",
@@ -593,7 +593,7 @@
         "Defense": "18",
         "Defense Ability": "Invincible",
         "Damage": "3",
-        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click2.jpg"
+        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click2.png"
       },
       {
         "name": "Mindless One",
@@ -607,7 +607,7 @@
         "Defense": "18",
         "Defense Ability": "Invincible",
         "Damage": "3",
-        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click3.jpg"
+        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click3.png"
       },
       {
         "name": "Mindless One",
@@ -621,7 +621,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click4.jpg"
+        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click4.png"
       },
       {
         "name": "Mindless One",
@@ -635,7 +635,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click5.jpg"
+        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click5.png"
       },
       {
         "name": "Mindless One",
@@ -649,7 +649,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click6.jpg"
+        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click6.png"
       },
       {
         "name": "Mindless One",
@@ -663,7 +663,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click7.jpg"
+        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click7.png"
       },
       {
         "name": "Mindless One",
@@ -677,7 +677,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click8.jpg"
+        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.Click8.png"
       },
       {
         "name": "Mindless One",
@@ -687,14 +687,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.KO.jpg"
+        "image": "4824d1af-d35d-4773-96e1-193a1127de6f.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "4824d1af-d35d-4773-96e1-193a1127de6f.jpg"
+    "image": "4824d1af-d35d-4773-96e1-193a1127de6f.png"
   },
   {
     "id": "704bf5fb-df25-47d6-beba-62ee60d53d29",
@@ -723,14 +723,14 @@
         "Defense": "16",
         "Defense Ability": "Toughness",
         "Damage": "2",
-        "image": "704bf5fb-df25-47d6-beba-62ee60d53d29.Click1.jpg"
+        "image": "704bf5fb-df25-47d6-beba-62ee60d53d29.Click1.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "704bf5fb-df25-47d6-beba-62ee60d53d29.jpg"
+    "image": "704bf5fb-df25-47d6-beba-62ee60d53d29.png"
   },
   {
     "id": "3d1421f2-b235-478a-abec-030bc13f4211",
@@ -762,7 +762,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Shape Change",
-        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click1.jpg"
+        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click1.png"
       },
       {
         "name": "Rintrah",
@@ -777,7 +777,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "4",
         "Damage Ability": "Shape Change",
-        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click2.jpg"
+        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click2.png"
       },
       {
         "name": "Rintrah",
@@ -791,7 +791,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "4",
-        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click3.jpg"
+        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click3.png"
       },
       {
         "name": "Rintrah",
@@ -805,7 +805,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click4.jpg"
+        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click4.png"
       },
       {
         "name": "Rintrah",
@@ -820,7 +820,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click5.jpg"
+        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click5.png"
       },
       {
         "name": "Rintrah",
@@ -835,7 +835,7 @@
         "Defense Ability": "Special - THE HORNS ARE OUT",
         "Damage": "4",
         "Damage Ability": "Battle Fury",
-        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click6.jpg"
+        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click6.png"
       },
       {
         "name": "Rintrah",
@@ -850,7 +850,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "4",
         "Damage Ability": "Battle Fury",
-        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click7.jpg"
+        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click7.png"
       },
       {
         "name": "Rintrah",
@@ -865,7 +865,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "4",
         "Damage Ability": "Battle Fury",
-        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click8.jpg"
+        "image": "3d1421f2-b235-478a-abec-030bc13f4211.Click8.png"
       },
       {
         "name": "Rintrah",
@@ -875,14 +875,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "3d1421f2-b235-478a-abec-030bc13f4211.KO.jpg"
+        "image": "3d1421f2-b235-478a-abec-030bc13f4211.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "3d1421f2-b235-478a-abec-030bc13f4211.jpg"
+    "image": "3d1421f2-b235-478a-abec-030bc13f4211.png"
   },
   {
     "id": "6817954d-a8d1-45ec-a90f-e779fef0722b",
@@ -915,7 +915,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.Click1.jpg"
+        "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.Click1.png"
       },
       {
         "name": "Black Panther",
@@ -930,7 +930,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.Click2.jpg"
+        "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.Click2.png"
       },
       {
         "name": "Black Panther",
@@ -945,7 +945,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.Click3.jpg"
+        "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.Click3.png"
       },
       {
         "name": "Black Panther",
@@ -960,7 +960,7 @@
         "Defense Ability": "Special - WELCOME TO WAKANDA",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.Click4.jpg"
+        "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.Click4.png"
       },
       {
         "name": "Black Panther",
@@ -975,7 +975,7 @@
         "Defense Ability": "Special - WELCOME TO WAKANDA",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.Click5.jpg"
+        "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.Click5.png"
       },
       {
         "name": "Black Panther",
@@ -985,14 +985,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.KO.jpg"
+        "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.jpg"
+    "image": "6817954d-a8d1-45ec-a90f-e779fef0722b.png"
   },
   {
     "id": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323",
@@ -1024,7 +1024,7 @@
         "Defense Ability": "Special - IRON.GPT",
         "Damage": "4",
         "Damage Ability": "Outwit",
-        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click1.jpg"
+        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click1.png"
       },
       {
         "name": "Iron Man",
@@ -1039,7 +1039,7 @@
         "Defense Ability": "Special - IRON.GPT",
         "Damage": "4",
         "Damage Ability": "Outwit",
-        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click2.jpg"
+        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click2.png"
       },
       {
         "name": "Iron Man",
@@ -1054,7 +1054,7 @@
         "Defense Ability": "Special - IRON.GPT",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click3.jpg"
+        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click3.png"
       },
       {
         "name": "Iron Man",
@@ -1070,7 +1070,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click4.jpg"
+        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click4.png"
       },
       {
         "name": "Iron Man",
@@ -1085,7 +1085,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click5.jpg"
+        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click5.png"
       },
       {
         "name": "Iron Man",
@@ -1100,7 +1100,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click6.jpg"
+        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click6.png"
       },
       {
         "name": "Iron Man",
@@ -1116,7 +1116,7 @@
         "Defense Ability": "Special - IRON.GPT",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click7.jpg"
+        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click7.png"
       },
       {
         "name": "Iron Man",
@@ -1131,7 +1131,7 @@
         "Defense Ability": "Special - IRON.GPT",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click8.jpg"
+        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click8.png"
       },
       {
         "name": "Iron Man",
@@ -1146,7 +1146,7 @@
         "Defense Ability": "Special - IRON.GPT",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click9.jpg"
+        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.Click9.png"
       },
       {
         "name": "Iron Man",
@@ -1156,14 +1156,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.KO.jpg"
+        "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.jpg"
+    "image": "212fdc19-2bdd-4da2-b5f2-cd5d827c7323.png"
   },
   {
     "id": "35c6774d-54c2-439c-baf9-e0693b0cc6be",
@@ -1196,7 +1196,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Close Combat Expert",
-        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click1.jpg"
+        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click1.png"
       },
       {
         "name": "Captain Marvel",
@@ -1211,7 +1211,7 @@
         "Defense Ability": "Special - KREE-ENHANCED DURABILITY",
         "Damage": "4",
         "Damage Ability": "Close Combat Expert",
-        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click2.jpg"
+        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click2.png"
       },
       {
         "name": "Captain Marvel",
@@ -1226,7 +1226,7 @@
         "Defense Ability": "Special - KREE-ENHANCED DURABILITY",
         "Damage": "4",
         "Damage Ability": "Close Combat Expert",
-        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click3.jpg"
+        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click3.png"
       },
       {
         "name": "Captain Marvel",
@@ -1241,7 +1241,7 @@
         "Defense Ability": "Special - KREE-ENHANCED DURABILITY",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click4.jpg"
+        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click4.png"
       },
       {
         "name": "Captain Marvel",
@@ -1256,7 +1256,7 @@
         "Defense Ability": "Special - KREE-ENHANCED DURABILITY",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click5.jpg"
+        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click5.png"
       },
       {
         "name": "Captain Marvel",
@@ -1271,7 +1271,7 @@
         "Defense Ability": "Special - KREE-ENHANCED DURABILITY",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click6.jpg"
+        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click6.png"
       },
       {
         "name": "Captain Marvel",
@@ -1286,7 +1286,7 @@
         "Defense Ability": "Special - KREE-ENHANCED DURABILITY",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click7.jpg"
+        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.Click7.png"
       },
       {
         "name": "Captain Marvel",
@@ -1296,14 +1296,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.KO.jpg"
+        "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.jpg"
+    "image": "35c6774d-54c2-439c-baf9-e0693b0cc6be.png"
   },
   {
     "id": "4cfd0bf9-c607-45c8-9330-57a636deb920",
@@ -1337,7 +1337,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.Click1.jpg"
+        "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.Click1.png"
       },
       {
         "name": "Nova",
@@ -1352,7 +1352,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.Click2.jpg"
+        "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.Click2.png"
       },
       {
         "name": "Nova",
@@ -1367,7 +1367,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.Click3.jpg"
+        "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.Click3.png"
       },
       {
         "name": "Nova",
@@ -1382,7 +1382,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.Click4.jpg"
+        "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.Click4.png"
       },
       {
         "name": "Nova",
@@ -1396,7 +1396,7 @@
         "Defense": "18",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.Click5.jpg"
+        "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.Click5.png"
       },
       {
         "name": "Nova",
@@ -1410,14 +1410,14 @@
         "Defense": "18",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.Click6.jpg"
+        "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.Click6.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Legacy Card",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.jpg"
+    "image": "4cfd0bf9-c607-45c8-9330-57a636deb920.png"
   },
   {
     "id": "1fd8cde0-9309-4737-934e-f969d86468b0",
@@ -1432,7 +1432,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "1fd8cde0-9309-4737-934e-f969d86468b0.jpg"
+    "image": "1fd8cde0-9309-4737-934e-f969d86468b0.png"
   },
   {
     "id": "ab618b35-8697-43f0-baf3-31fb766f9f68",
@@ -1450,14 +1450,14 @@
         "name": "Orb of Agamotto",
         "type": "Tile",
         "size": "1x1",
-        "image": "ab618b35-8697-43f0-baf3-31fb766f9f68.Tile.jpg"
+        "image": "ab618b35-8697-43f0-baf3-31fb766f9f68.Tile.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Terrain Marker",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "ab618b35-8697-43f0-baf3-31fb766f9f68.jpg"
+    "image": "ab618b35-8697-43f0-baf3-31fb766f9f68.png"
   },
   {
     "id": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1",
@@ -1488,7 +1488,7 @@
         "Defense": "19",
         "Defense Ability": "Invulnerability",
         "Damage": "4",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click1.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click1.png"
       },
       {
         "name": "Iceman",
@@ -1502,7 +1502,7 @@
         "Defense": "19",
         "Defense Ability": "Invulnerability",
         "Damage": "4",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click2.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click2.png"
       },
       {
         "name": "Iceman",
@@ -1516,7 +1516,7 @@
         "Defense": "19",
         "Defense Ability": "Invulnerability",
         "Damage": "4",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click3.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click3.png"
       },
       {
         "name": "Iceman",
@@ -1530,7 +1530,7 @@
         "Defense": "19",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click4.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click4.png"
       },
       {
         "name": "Iceman",
@@ -1544,7 +1544,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click5.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click5.png"
       },
       {
         "name": "Iceman",
@@ -1558,7 +1558,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click6.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click6.png"
       },
       {
         "name": "Iceman",
@@ -1572,7 +1572,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click7.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click7.png"
       },
       {
         "name": "Iceman",
@@ -1587,7 +1587,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click8.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click8.png"
       },
       {
         "name": "Iceman",
@@ -1601,7 +1601,7 @@
         "Defense": "18",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click9.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click9.png"
       },
       {
         "name": "Iceman",
@@ -1615,7 +1615,7 @@
         "Defense": "18",
         "Defense Ability": "Barrier",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click10.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click10.png"
       },
       {
         "name": "Iceman",
@@ -1629,7 +1629,7 @@
         "Defense": "18",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click11.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click11.png"
       },
       {
         "name": "Iceman",
@@ -1643,7 +1643,7 @@
         "Defense": "18",
         "Defense Ability": "Barrier",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click12.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click12.png"
       },
       {
         "name": "Iceman",
@@ -1658,7 +1658,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click13.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click13.png"
       },
       {
         "name": "Iceman",
@@ -1672,7 +1672,7 @@
         "Defense": "17",
         "Defense Ability": "Barrier",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click14.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click14.png"
       },
       {
         "name": "Iceman",
@@ -1686,7 +1686,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click15.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click15.png"
       },
       {
         "name": "Iceman",
@@ -1700,7 +1700,7 @@
         "Defense": "17",
         "Defense Ability": "Barrier",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click16.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click16.png"
       },
       {
         "name": "Iceman",
@@ -1714,7 +1714,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click17.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click17.png"
       },
       {
         "name": "Iceman",
@@ -1728,7 +1728,7 @@
         "Defense": "17",
         "Defense Ability": "Barrier",
         "Damage": "3",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click18.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.Click18.png"
       },
       {
         "name": "Iceman",
@@ -1738,14 +1738,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.KO.jpg"
+        "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.jpg"
+    "image": "cafc3bdd-c6e7-47bb-9526-b87fac7ad1e1.png"
   },
   {
     "id": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb",
@@ -1778,7 +1778,7 @@
         "Defense Ability": "Invincible",
         "Damage": "5",
         "Damage Ability": "Perplex",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click1.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click1.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1792,7 +1792,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Perplex",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click2.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click2.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1806,7 +1806,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Perplex",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click3.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click3.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1820,7 +1820,7 @@
         "Defense": "19",
         "Defense Ability": "Invincible",
         "Damage": "3",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click4.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click4.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1834,7 +1834,7 @@
         "Defense": "19",
         "Defense Ability": "Invincible",
         "Damage": "3",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click5.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click5.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1848,7 +1848,7 @@
         "Defense": "19",
         "Defense Ability": "Invincible",
         "Damage": "3",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click6.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click6.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1864,7 +1864,7 @@
         "Defense Ability": "Special - SYMBIOTIC DOME",
         "Damage": "5",
         "Damage Ability": "Empower",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click7.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click7.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1879,7 +1879,7 @@
         "Defense Ability": "Special - SYMBIOTIC DOME",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click8.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click8.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1894,7 +1894,7 @@
         "Defense Ability": "Special - SYMBIOTIC DOME",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click9.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click9.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1909,7 +1909,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click10.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click10.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1924,7 +1924,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click11.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click11.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1939,7 +1939,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click12.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click12.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1953,7 +1953,7 @@
         "Defense": "18",
         "Defense Ability": "Special - SYMBIOTIC DOME",
         "Damage": "4",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click13.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click13.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1966,7 +1966,7 @@
         "Defense": "18",
         "Defense Ability": "Special - SYMBIOTIC DOME",
         "Damage": "4",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click14.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click14.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1980,7 +1980,7 @@
         "Defense": "18",
         "Defense Ability": "Special - SYMBIOTIC DOME",
         "Damage": "4",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click15.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click15.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -1995,7 +1995,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Enhancement",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click16.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click16.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -2010,7 +2010,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Enhancement",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click17.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click17.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -2025,7 +2025,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Enhancement",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click18.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.Click18.png"
       },
       {
         "name": "Symbiote Dragon",
@@ -2035,14 +2035,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.KO.jpg"
+        "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.jpg"
+    "image": "ad2d30b7-f9ab-4b33-b363-46e93c972ffb.png"
   },
   {
     "id": "d6be664a-0b01-4fd1-ba2c-93ae32524231",
@@ -2075,7 +2075,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click1.jpg"
+        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click1.png"
       },
       {
         "name": "Guardsman",
@@ -2089,7 +2089,7 @@
         "Defense": "19",
         "Defense Ability": "Impervious",
         "Damage": "3",
-        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click2.jpg"
+        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click2.png"
       },
       {
         "name": "Guardsman",
@@ -2103,7 +2103,7 @@
         "Defense": "18",
         "Defense Ability": "Impervious",
         "Damage": "3",
-        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click3.jpg"
+        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click3.png"
       },
       {
         "name": "Guardsman",
@@ -2117,7 +2117,7 @@
         "Defense": "18",
         "Defense Ability": "Impervious",
         "Damage": "3",
-        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click4.jpg"
+        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click4.png"
       },
       {
         "name": "Guardsman",
@@ -2131,7 +2131,7 @@
         "Defense Ability": "Toughness",
         "Damage": "0",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click6.jpg"
+        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click6.png"
       },
       {
         "name": "Guardsman",
@@ -2145,7 +2145,7 @@
         "Defense": "2",
         "Defense Ability": "Toughness",
         "Damage": "0",
-        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click7.jpg"
+        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click7.png"
       },
       {
         "name": "Guardsman",
@@ -2159,7 +2159,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "0",
         "Damage Ability": "Battle Fury",
-        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click8.jpg"
+        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.Click8.png"
       },
       {
         "name": "Guardsman",
@@ -2169,14 +2169,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.KO.jpg"
+        "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.jpg"
+    "image": "d6be664a-0b01-4fd1-ba2c-93ae32524231.png"
   },
   {
     "id": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2",
@@ -2207,7 +2207,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - EBOM SIEGE",
-        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click1.jpg"
+        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click1.png"
       },
       {
         "name": "Black Knight",
@@ -2221,7 +2221,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Special - EBOM SIEGE",
-        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click2.jpg"
+        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click2.png"
       },
       {
         "name": "Black Knight",
@@ -2235,7 +2235,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Special - EBOM SIEGE",
-        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click3.jpg"
+        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click3.png"
       },
       {
         "name": "Black Knight",
@@ -2251,7 +2251,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click4.jpg"
+        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click4.png"
       },
       {
         "name": "Black Knight",
@@ -2266,7 +2266,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click5.jpg"
+        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click5.png"
       },
       {
         "name": "Black Knight",
@@ -2281,7 +2281,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click6.jpg"
+        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click6.png"
       },
       {
         "name": "Black Knight",
@@ -2296,7 +2296,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click7.jpg"
+        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click7.png"
       },
       {
         "name": "Black Knight",
@@ -2311,7 +2311,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Special - EBOM SIEGE",
-        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click8.jpg"
+        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click8.png"
       },
       {
         "name": "Black Knight",
@@ -2326,7 +2326,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Special - EBOM SIEGE",
-        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click9.jpg"
+        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.Click9.png"
       },
       {
         "name": "Black Knight",
@@ -2336,14 +2336,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.KO.jpg"
+        "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.jpg"
+    "image": "17e33ca3-38ae-4ffd-ba32-35b399eae9e2.png"
   },
   {
     "id": "d8914c3e-0aae-4d7d-94a7-55d662f67373",
@@ -2375,7 +2375,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click1.jpg"
+        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click1.png"
       },
       {
         "name": "Attuma",
@@ -2390,7 +2390,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click2.jpg"
+        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click2.png"
       },
       {
         "name": "Attuma",
@@ -2405,7 +2405,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - ATLANTIS OR DEATH!",
-        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click3.jpg"
+        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click3.png"
       },
       {
         "name": "Attuma",
@@ -2420,7 +2420,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - ATLANTIS OR DEATH!",
-        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click4.jpg"
+        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click4.png"
       },
       {
         "name": "Attuma",
@@ -2436,7 +2436,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - ATLANTIS OR DEATH!",
-        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click5.jpg"
+        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click5.png"
       },
       {
         "name": "Attuma",
@@ -2451,7 +2451,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Special - ATLANTIS OR DEATH!",
-        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click6.jpg"
+        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click6.png"
       },
       {
         "name": "Attuma",
@@ -2466,7 +2466,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Special - ATLANTIS OR DEATH!",
-        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click7.jpg"
+        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click7.png"
       },
       {
         "name": "Attuma",
@@ -2481,7 +2481,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click8.jpg"
+        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click8.png"
       },
       {
         "name": "Attuma",
@@ -2496,7 +2496,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click9.jpg"
+        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click9.png"
       },
       {
         "name": "Attuma",
@@ -2511,7 +2511,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click10.jpg"
+        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.Click10.png"
       },
       {
         "name": "Attuma",
@@ -2521,14 +2521,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.KO.jpg"
+        "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.jpg"
+    "image": "d8914c3e-0aae-4d7d-94a7-55d662f67373.png"
   },
   {
     "id": "a41a3d27-3806-43da-968c-ad0e0d5e27d2",
@@ -2560,7 +2560,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.Click1.jpg"
+        "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.Click1.png"
       },
       {
         "name": "Atlantean Warrior",
@@ -2575,7 +2575,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.Click2.jpg"
+        "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.Click2.png"
       },
       {
         "name": "Atlantean Warrior",
@@ -2591,7 +2591,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.Click3.jpg"
+        "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.Click3.png"
       },
       {
         "name": "Atlantean Warrior",
@@ -2606,7 +2606,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.Click4.jpg"
+        "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.Click4.png"
       },
       {
         "name": "Atlantean Warrior",
@@ -2621,7 +2621,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.Click5.jpg"
+        "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.Click5.png"
       },
       {
         "name": "Atlantean Warrior",
@@ -2631,14 +2631,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.KO.jpg"
+        "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.jpg"
+    "image": "a41a3d27-3806-43da-968c-ad0e0d5e27d2.png"
   },
   {
     "id": "a3cf9471-fe92-47fa-904f-ff16ffecec17",
@@ -2672,7 +2672,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - ASTRAL ILLUSIONS",
-        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click1.jpg"
+        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click1.png"
       },
       {
         "name": "Dr. Strange",
@@ -2687,7 +2687,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - ASTRAL ILLUSIONS",
-        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click2.jpg"
+        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click2.png"
       },
       {
         "name": "Dr. Strange",
@@ -2702,7 +2702,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - ASTRAL ILLUSIONS",
-        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click3.jpg"
+        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click3.png"
       },
       {
         "name": "Dr. Strange",
@@ -2718,7 +2718,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click4.jpg"
+        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click4.png"
       },
       {
         "name": "Dr. Strange",
@@ -2733,7 +2733,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click5.jpg"
+        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click5.png"
       },
       {
         "name": "Dr. Strange",
@@ -2748,7 +2748,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click6.jpg"
+        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click6.png"
       },
       {
         "name": "Dr. Strange",
@@ -2763,7 +2763,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click7.jpg"
+        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.Click7.png"
       },
       {
         "name": "Dr. Strange",
@@ -2773,14 +2773,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.KO.jpg"
+        "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.KO.png"
       }
     ],
     "Set": "WizKids Marvel 2026",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.jpg"
+    "image": "a3cf9471-fe92-47fa-904f-ff16ffecec17.png"
   },
   {
     "id": "16b6cf4b-061b-45e9-8f47-b4266d2d80fa",
@@ -2796,7 +2796,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "16b6cf4b-061b-45e9-8f47-b4266d2d80fa.jpg"
+    "image": "16b6cf4b-061b-45e9-8f47-b4266d2d80fa.png"
   },
   {
     "id": "b42e25fe-913f-4f6f-b0a1-14ea7e62c301",
@@ -2812,6 +2812,6 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "eee43c95-a192-449f-8b20-3b4fb1808a6c",
-    "image": "b42e25fe-913f-4f6f-b0a1-14ea7e62c301.jpg"
+    "image": "b42e25fe-913f-4f6f-b0a1-14ea7e62c301.png"
   }
 ]

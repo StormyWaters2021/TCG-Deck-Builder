@@ -30,7 +30,7 @@
         "Defense Ability": "Invincible",
         "Damage": "5",
         "Damage Ability": "Special - ANTI-MAGIC CONE",
-        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click1.jpg"
+        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click1.png"
       },
       {
         "name": "Beholder",
@@ -45,7 +45,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click2.jpg"
+        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click2.png"
       },
       {
         "name": "Beholder",
@@ -60,7 +60,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - ANTI-MAGIC CONE",
-        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click3.jpg"
+        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click3.png"
       },
       {
         "name": "Beholder",
@@ -75,7 +75,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click4.jpg"
+        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click4.png"
       },
       {
         "name": "Beholder",
@@ -90,7 +90,7 @@
         "Defense Ability": "Special - LEGENDARY ACTION: EYE RAY",
         "Damage": "4",
         "Damage Ability": "Special - ANTI-MAGIC CONE",
-        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click5.jpg"
+        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click5.png"
       },
       {
         "name": "Beholder",
@@ -106,7 +106,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click6.jpg"
+        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click6.png"
       },
       {
         "name": "Beholder",
@@ -121,7 +121,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Special - ANTI-MAGIC CONE",
-        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click7.jpg"
+        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click7.png"
       },
       {
         "name": "Beholder",
@@ -136,7 +136,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click8.jpg"
+        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click8.png"
       },
       {
         "name": "Beholder",
@@ -151,7 +151,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Special - ANTI-MAGIC CONE",
-        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click9.jpg"
+        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click9.png"
       },
       {
         "name": "Beholder",
@@ -166,7 +166,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click10.jpg"
+        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click10.png"
       },
       {
         "name": "Beholder",
@@ -181,7 +181,7 @@
         "Defense Ability": "Special - LEGENDARY ACTION: EYE RAY",
         "Damage": "3",
         "Damage Ability": "Special - ANTI-MAGIC CONE",
-        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click11.jpg"
+        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.Click11.png"
       },
       {
         "name": "Beholder",
@@ -191,14 +191,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.KO.jpg"
+        "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.KO.png"
       }
     ],
     "Set": "Dungeons & Dragons Iconix",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "87b7e45e-2d9f-4bae-914d-dcff7770400f",
-    "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.jpg"
+    "image": "bc12e696-77cd-4d2b-93f3-11c5f7426469.png"
   },
   {
     "id": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce",
@@ -230,7 +230,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click1.jpg"
+        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click1.png"
       },
       {
         "name": "Displacer Beast",
@@ -245,7 +245,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click2.jpg"
+        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click2.png"
       },
       {
         "name": "Displacer Beast",
@@ -260,7 +260,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click3.jpg"
+        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click3.png"
       },
       {
         "name": "Displacer Beast",
@@ -275,7 +275,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click4.jpg"
+        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click4.png"
       },
       {
         "name": "Displacer Beast",
@@ -290,7 +290,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click5.jpg"
+        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click5.png"
       },
       {
         "name": "Displacer Beast",
@@ -306,7 +306,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click6.jpg"
+        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click6.png"
       },
       {
         "name": "Displacer Beast",
@@ -321,7 +321,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click7.jpg"
+        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click7.png"
       },
       {
         "name": "Displacer Beast",
@@ -336,7 +336,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click8.jpg"
+        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click8.png"
       },
       {
         "name": "Displacer Beast",
@@ -351,7 +351,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click9.jpg"
+        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click9.png"
       },
       {
         "name": "Displacer Beast",
@@ -366,7 +366,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Battle Fury",
-        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click10.jpg"
+        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.Click10.png"
       },
       {
         "name": "Displacer Beast",
@@ -376,14 +376,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.KO.jpg"
+        "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.KO.png"
       }
     ],
     "Set": "Dungeons & Dragons Iconix",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "87b7e45e-2d9f-4bae-914d-dcff7770400f",
-    "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.jpg"
+    "image": "8d7e72f0-ae8e-43b5-b78d-ed70cba394ce.png"
   },
   {
     "id": "14649138-47bc-4043-8f32-34189a84f226",
@@ -415,7 +415,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "14649138-47bc-4043-8f32-34189a84f226.Click1.jpg"
+        "image": "14649138-47bc-4043-8f32-34189a84f226.Click1.png"
       },
       {
         "name": "Mimic",
@@ -430,7 +430,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "14649138-47bc-4043-8f32-34189a84f226.Click2.jpg"
+        "image": "14649138-47bc-4043-8f32-34189a84f226.Click2.png"
       },
       {
         "name": "Mimic",
@@ -445,7 +445,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "14649138-47bc-4043-8f32-34189a84f226.Click3.jpg"
+        "image": "14649138-47bc-4043-8f32-34189a84f226.Click3.png"
       },
       {
         "name": "Mimic",
@@ -455,14 +455,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "14649138-47bc-4043-8f32-34189a84f226.KO.jpg"
+        "image": "14649138-47bc-4043-8f32-34189a84f226.KO.png"
       }
     ],
     "Set": "Dungeons & Dragons Iconix",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "87b7e45e-2d9f-4bae-914d-dcff7770400f",
-    "image": "14649138-47bc-4043-8f32-34189a84f226.jpg"
+    "image": "14649138-47bc-4043-8f32-34189a84f226.png"
   },
   {
     "id": "5817b2c6-d0a2-401f-add8-5a700f694cb3",
@@ -493,7 +493,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click1.jpg"
+        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click1.png"
       },
       {
         "name": "Owlbear",
@@ -507,7 +507,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click2.jpg"
+        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click2.png"
       },
       {
         "name": "Owlbear",
@@ -521,7 +521,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click3.jpg"
+        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click3.png"
       },
       {
         "name": "Owlbear",
@@ -535,7 +535,7 @@
         "Defense": "18",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click4.jpg"
+        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click4.png"
       },
       {
         "name": "Owlbear",
@@ -550,7 +550,7 @@
         "Defense": "18",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click5.jpg"
+        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click5.png"
       },
       {
         "name": "Owlbear",
@@ -565,7 +565,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click6.jpg"
+        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click6.png"
       },
       {
         "name": "Owlbear",
@@ -580,7 +580,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click7.jpg"
+        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click7.png"
       },
       {
         "name": "Owlbear",
@@ -595,7 +595,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click8.jpg"
+        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click8.png"
       },
       {
         "name": "Owlbear",
@@ -610,7 +610,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click9.jpg"
+        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.Click9.png"
       },
       {
         "name": "Owlbear",
@@ -620,14 +620,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.KO.jpg"
+        "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.KO.png"
       }
     ],
     "Set": "Dungeons & Dragons Iconix",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "87b7e45e-2d9f-4bae-914d-dcff7770400f",
-    "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.jpg"
+    "image": "5817b2c6-d0a2-401f-add8-5a700f694cb3.png"
   },
   {
     "id": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6",
@@ -659,7 +659,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6.Click1.jpg"
+        "image": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6.Click1.png"
       },
       {
         "name": "Baby Owlbear",
@@ -674,7 +674,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6.Click2.jpg"
+        "image": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6.Click2.png"
       },
       {
         "name": "Baby Owlbear",
@@ -689,7 +689,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Battle Fury",
-        "image": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6.Click3.jpg"
+        "image": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6.Click3.png"
       },
       {
         "name": "Baby Owlbear",
@@ -704,7 +704,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Battle Fury",
-        "image": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6.Click4.jpg"
+        "image": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6.Click4.png"
       },
       {
         "name": "Baby Owlbear",
@@ -714,14 +714,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6.KO.jpg"
+        "image": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6.KO.png"
       }
     ],
     "Set": "Dungeons & Dragons Iconix",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "87b7e45e-2d9f-4bae-914d-dcff7770400f",
-    "image": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6.jpg"
+    "image": "fb2d9c81-828f-4cba-a456-83c05fc4ccb6.png"
   },
   {
     "id": "23365a2b-0c45-4ebc-96af-d5f23c0e9847",
@@ -739,14 +739,14 @@
         "name": "Treasure Chest",
         "type": "Tile",
         "size": "1x1",
-        "image": "23365a2b-0c45-4ebc-96af-d5f23c0e9847.Tile.jpg"
+        "image": "23365a2b-0c45-4ebc-96af-d5f23c0e9847.Tile.png"
       }
     ],
     "Set": "Dungeons & Dragons Iconix",
     "Designer": "Official",
     "Type": "Terrain Marker",
     "set_id": "87b7e45e-2d9f-4bae-914d-dcff7770400f",
-    "image": "23365a2b-0c45-4ebc-96af-d5f23c0e9847.jpg"
+    "image": "23365a2b-0c45-4ebc-96af-d5f23c0e9847.png"
   },
   {
     "id": "d5df87ce-5cd5-42e3-9fca-bf7379cf4714",
@@ -762,7 +762,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "87b7e45e-2d9f-4bae-914d-dcff7770400f",
-    "image": "d5df87ce-5cd5-42e3-9fca-bf7379cf4714.jpg"
+    "image": "d5df87ce-5cd5-42e3-9fca-bf7379cf4714.png"
   },
   {
     "id": "9ea8f320-996b-4220-a258-117b958bca0c",
@@ -778,7 +778,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "87b7e45e-2d9f-4bae-914d-dcff7770400f",
-    "image": "9ea8f320-996b-4220-a258-117b958bca0c.jpg"
+    "image": "9ea8f320-996b-4220-a258-117b958bca0c.png"
   },
   {
     "id": "83650560-2bda-4e44-aef4-ece0c1f2333b",
@@ -794,6 +794,6 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "87b7e45e-2d9f-4bae-914d-dcff7770400f",
-    "image": "83650560-2bda-4e44-aef4-ece0c1f2333b.jpg"
+    "image": "83650560-2bda-4e44-aef4-ece0c1f2333b.png"
   }
 ]
