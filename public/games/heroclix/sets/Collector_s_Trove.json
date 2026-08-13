@@ -29,7 +29,7 @@
         "Defense Ability": "Toughness",
         "Damage": "1",
         "Damage Ability": "Probability Control",
-        "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.Click1.jpg"
+        "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.Click1.png"
       },
       {
         "name": "The Collector",
@@ -44,7 +44,7 @@
         "Defense Ability": "Toughness",
         "Damage": "1",
         "Damage Ability": "Outwit",
-        "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.Click2.jpg"
+        "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.Click2.png"
       },
       {
         "name": "The Collector",
@@ -59,7 +59,7 @@
         "Defense Ability": "Toughness",
         "Damage": "1",
         "Damage Ability": "Probability Control",
-        "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.Click3.jpg"
+        "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.Click3.png"
       },
       {
         "name": "The Collector",
@@ -74,7 +74,7 @@
         "Defense Ability": "Toughness",
         "Damage": "1",
         "Damage Ability": "Outwit",
-        "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.Click4.jpg"
+        "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.Click4.png"
       },
       {
         "name": "The Collector",
@@ -89,7 +89,7 @@
         "Defense Ability": "Toughness",
         "Damage": "1",
         "Damage Ability": "Probability Control",
-        "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.Click5.jpg"
+        "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.Click5.png"
       },
       {
         "name": "The Collector",
@@ -99,14 +99,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.KO.jpg"
+        "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.jpg"
+    "image": "d9f81305-fc62-4623-8c3c-6b1bf876a659.png"
   },
   {
     "id": "ed24a419-929c-4bad-b15e-29d6f6911bef",
@@ -136,7 +136,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.Click1.jpg"
+        "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.Click1.png"
       },
       {
         "name": "Iron Man Sentry",
@@ -150,7 +150,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.Click2.jpg"
+        "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.Click2.png"
       },
       {
         "name": "Iron Man Sentry",
@@ -164,7 +164,7 @@
         "Defense Ability": "Toughness",
         "Damage": "1",
         "Damage Ability": "Enhancement",
-        "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.Click3.jpg"
+        "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.Click3.png"
       },
       {
         "name": "Iron Man Sentry",
@@ -178,7 +178,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "1",
         "Damage Ability": "Enhancement",
-        "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.Click4.jpg"
+        "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.Click4.png"
       },
       {
         "name": "Iron Man Sentry",
@@ -192,7 +192,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "1",
         "Damage Ability": "Enhancement",
-        "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.Click5.jpg"
+        "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.Click5.png"
       },
       {
         "name": "Iron Man Sentry",
@@ -202,14 +202,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.KO.jpg"
+        "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.jpg"
+    "image": "ed24a419-929c-4bad-b15e-29d6f6911bef.png"
   },
   {
     "id": "d7e8a123-eb78-4f54-8776-7122934066c7",
@@ -242,7 +242,7 @@
         "Defense Ability": "Special - KREE TECH",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "d7e8a123-eb78-4f54-8776-7122934066c7.Click1.jpg"
+        "image": "d7e8a123-eb78-4f54-8776-7122934066c7.Click1.png"
       },
       {
         "name": "Kree Accuser",
@@ -257,7 +257,7 @@
         "Defense Ability": "Special - KREE TECH",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "d7e8a123-eb78-4f54-8776-7122934066c7.Click2.jpg"
+        "image": "d7e8a123-eb78-4f54-8776-7122934066c7.Click2.png"
       },
       {
         "name": "Kree Accuser",
@@ -271,7 +271,7 @@
         "Defense Ability": "Special - KREE TECH",
         "Damage": "3",
         "Damage Ability": "Enhancement",
-        "image": "d7e8a123-eb78-4f54-8776-7122934066c7.Click3.jpg"
+        "image": "d7e8a123-eb78-4f54-8776-7122934066c7.Click3.png"
       },
       {
         "name": "Kree Accuser",
@@ -285,7 +285,7 @@
         "Defense Ability": "Special - KREE TECH",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "d7e8a123-eb78-4f54-8776-7122934066c7.Click4.jpg"
+        "image": "d7e8a123-eb78-4f54-8776-7122934066c7.Click4.png"
       },
       {
         "name": "Kree Accuser",
@@ -295,14 +295,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "d7e8a123-eb78-4f54-8776-7122934066c7.KO.jpg"
+        "image": "d7e8a123-eb78-4f54-8776-7122934066c7.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "d7e8a123-eb78-4f54-8776-7122934066c7.jpg"
+    "image": "d7e8a123-eb78-4f54-8776-7122934066c7.png"
   },
   {
     "id": "563e550f-d199-403f-a9c5-1c653159537a",
@@ -334,7 +334,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "563e550f-d199-403f-a9c5-1c653159537a.Click1.jpg"
+        "image": "563e550f-d199-403f-a9c5-1c653159537a.Click1.png"
       },
       {
         "name": "Baby Groot",
@@ -349,7 +349,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Support",
-        "image": "563e550f-d199-403f-a9c5-1c653159537a.Click2.jpg"
+        "image": "563e550f-d199-403f-a9c5-1c653159537a.Click2.png"
       },
       {
         "name": "Baby Groot",
@@ -364,7 +364,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Support",
-        "image": "563e550f-d199-403f-a9c5-1c653159537a.Click3.jpg"
+        "image": "563e550f-d199-403f-a9c5-1c653159537a.Click3.png"
       },
       {
         "name": "Baby Groot",
@@ -379,7 +379,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Support",
-        "image": "563e550f-d199-403f-a9c5-1c653159537a.Click4.jpg"
+        "image": "563e550f-d199-403f-a9c5-1c653159537a.Click4.png"
       },
       {
         "name": "Baby Groot",
@@ -394,7 +394,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "563e550f-d199-403f-a9c5-1c653159537a.Click5.jpg"
+        "image": "563e550f-d199-403f-a9c5-1c653159537a.Click5.png"
       },
       {
         "name": "Baby Groot",
@@ -404,14 +404,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "563e550f-d199-403f-a9c5-1c653159537a.KO.jpg"
+        "image": "563e550f-d199-403f-a9c5-1c653159537a.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "563e550f-d199-403f-a9c5-1c653159537a.jpg"
+    "image": "563e550f-d199-403f-a9c5-1c653159537a.png"
   },
   {
     "id": "44cbb9aa-739f-4771-ab82-14d2e727d500",
@@ -443,7 +443,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.Click1.jpg"
+        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.Click1.png"
       },
       {
         "name": "Rocket",
@@ -458,7 +458,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Leadership",
-        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.Click2.jpg"
+        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.Click2.png"
       },
       {
         "name": "Rocket",
@@ -474,7 +474,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.Click3.jpg"
+        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.Click3.png"
       },
       {
         "name": "Rocket",
@@ -489,7 +489,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Leadership",
-        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.Click4.jpg"
+        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.Click4.png"
       },
       {
         "name": "Rocket",
@@ -504,7 +504,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.Click5.jpg"
+        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.Click5.png"
       },
       {
         "name": "Rocket",
@@ -519,7 +519,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.Click6.jpg"
+        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.Click6.png"
       },
       {
         "name": "Rocket",
@@ -529,14 +529,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.KO.jpg"
+        "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.jpg"
+    "image": "44cbb9aa-739f-4771-ab82-14d2e727d500.png"
   },
   {
     "id": "cabd56db-3167-45be-8b7b-3466f48e10d4",
@@ -568,7 +568,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "cabd56db-3167-45be-8b7b-3466f48e10d4.Click1.jpg"
+        "image": "cabd56db-3167-45be-8b7b-3466f48e10d4.Click1.png"
       },
       {
         "name": "Cosmo",
@@ -583,7 +583,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "cabd56db-3167-45be-8b7b-3466f48e10d4.Click2.jpg"
+        "image": "cabd56db-3167-45be-8b7b-3466f48e10d4.Click2.png"
       },
       {
         "name": "Cosmo",
@@ -598,7 +598,7 @@
         "Defense Ability": "Willpower",
         "Damage": "1",
         "Damage Ability": "Outwit",
-        "image": "cabd56db-3167-45be-8b7b-3466f48e10d4.Click3.jpg"
+        "image": "cabd56db-3167-45be-8b7b-3466f48e10d4.Click3.png"
       },
       {
         "name": "Cosmo",
@@ -613,7 +613,7 @@
         "Defense Ability": "Willpower",
         "Damage": "1",
         "Damage Ability": "Outwit",
-        "image": "cabd56db-3167-45be-8b7b-3466f48e10d4.Click4.jpg"
+        "image": "cabd56db-3167-45be-8b7b-3466f48e10d4.Click4.png"
       },
       {
         "name": "Cosmo",
@@ -623,14 +623,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "cabd56db-3167-45be-8b7b-3466f48e10d4.KO.jpg"
+        "image": "cabd56db-3167-45be-8b7b-3466f48e10d4.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "cabd56db-3167-45be-8b7b-3466f48e10d4.jpg"
+    "image": "cabd56db-3167-45be-8b7b-3466f48e10d4.png"
   },
   {
     "id": "88dc213f-2941-4343-88f7-fe99d5c7cdf4",
@@ -663,7 +663,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "1",
         "Damage Ability": "Enhancement",
-        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click1.jpg"
+        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click1.png"
       },
       {
         "name": "S.H.I.E.L.D. Agent",
@@ -678,7 +678,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "1",
         "Damage Ability": "Enhancement",
-        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click2.jpg"
+        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click2.png"
       },
       {
         "name": "S.H.I.E.L.D. Agent",
@@ -692,7 +692,7 @@
         "Defense": "16",
         "Damage": "1",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click3.jpg"
+        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click3.png"
       },
       {
         "name": "S.H.I.E.L.D. Agent",
@@ -706,7 +706,7 @@
         "Defense": "16",
         "Damage": "1",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click4.jpg"
+        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click4.png"
       },
       {
         "name": "S.H.I.E.L.D. Agent",
@@ -721,7 +721,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click6.jpg"
+        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click6.png"
       },
       {
         "name": "S.H.I.E.L.D. Agent",
@@ -736,7 +736,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click7.jpg"
+        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click7.png"
       },
       {
         "name": "S.H.I.E.L.D. Agent",
@@ -750,7 +750,7 @@
         "Defense": "16",
         "Defense Ability": "Combat Reflexes",
         "Damage": "1",
-        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click8.jpg"
+        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click8.png"
       },
       {
         "name": "S.H.I.E.L.D. Agent",
@@ -764,7 +764,7 @@
         "Defense": "16",
         "Defense Ability": "Combat Reflexes",
         "Damage": "1",
-        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click9.jpg"
+        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.Click9.png"
       },
       {
         "name": "S.H.I.E.L.D. Agent",
@@ -774,14 +774,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.KO.jpg"
+        "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.jpg"
+    "image": "88dc213f-2941-4343-88f7-fe99d5c7cdf4.png"
   },
   {
     "id": "1ace9a5e-5257-4502-ba3b-bf6f3c866af8",
@@ -813,7 +813,7 @@
         "Defense": "17",
         "Damage": "1",
         "Damage Ability": "Empower",
-        "image": "1ace9a5e-5257-4502-ba3b-bf6f3c866af8.Click1.jpg"
+        "image": "1ace9a5e-5257-4502-ba3b-bf6f3c866af8.Click1.png"
       },
       {
         "name": "Swarm of Ants",
@@ -827,7 +827,7 @@
         "Defense": "17",
         "Damage": "1",
         "Damage Ability": "Empower",
-        "image": "1ace9a5e-5257-4502-ba3b-bf6f3c866af8.Click2.jpg"
+        "image": "1ace9a5e-5257-4502-ba3b-bf6f3c866af8.Click2.png"
       },
       {
         "name": "Swarm of Ants",
@@ -841,7 +841,7 @@
         "Defense": "17",
         "Damage": "1",
         "Damage Ability": "Empower",
-        "image": "1ace9a5e-5257-4502-ba3b-bf6f3c866af8.Click3.jpg"
+        "image": "1ace9a5e-5257-4502-ba3b-bf6f3c866af8.Click3.png"
       },
       {
         "name": "Swarm of Ants",
@@ -851,14 +851,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "1ace9a5e-5257-4502-ba3b-bf6f3c866af8.KO.jpg"
+        "image": "1ace9a5e-5257-4502-ba3b-bf6f3c866af8.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "1ace9a5e-5257-4502-ba3b-bf6f3c866af8.jpg"
+    "image": "1ace9a5e-5257-4502-ba3b-bf6f3c866af8.png"
   },
   {
     "id": "46773bda-009b-4eb5-839a-3d7617a634f8",
@@ -890,7 +890,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "46773bda-009b-4eb5-839a-3d7617a634f8.Click1.jpg"
+        "image": "46773bda-009b-4eb5-839a-3d7617a634f8.Click1.png"
       },
       {
         "name": "Thieves Guild Member",
@@ -905,7 +905,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "46773bda-009b-4eb5-839a-3d7617a634f8.Click2.jpg"
+        "image": "46773bda-009b-4eb5-839a-3d7617a634f8.Click2.png"
       },
       {
         "name": "Thieves Guild Member",
@@ -920,7 +920,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "46773bda-009b-4eb5-839a-3d7617a634f8.Click3.jpg"
+        "image": "46773bda-009b-4eb5-839a-3d7617a634f8.Click3.png"
       },
       {
         "name": "Thieves Guild Member",
@@ -936,7 +936,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "46773bda-009b-4eb5-839a-3d7617a634f8.Click4.jpg"
+        "image": "46773bda-009b-4eb5-839a-3d7617a634f8.Click4.png"
       },
       {
         "name": "Thieves Guild Member",
@@ -950,7 +950,7 @@
         "Defense": "16",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "46773bda-009b-4eb5-839a-3d7617a634f8.Click5.jpg"
+        "image": "46773bda-009b-4eb5-839a-3d7617a634f8.Click5.png"
       },
       {
         "name": "Thieves Guild Member",
@@ -960,14 +960,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "46773bda-009b-4eb5-839a-3d7617a634f8.KO.jpg"
+        "image": "46773bda-009b-4eb5-839a-3d7617a634f8.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "46773bda-009b-4eb5-839a-3d7617a634f8.jpg"
+    "image": "46773bda-009b-4eb5-839a-3d7617a634f8.png"
   },
   {
     "id": "a9c26b8e-cbdc-40e7-8547-e278d5e26395",
@@ -998,7 +998,7 @@
         "Defense Ability": "Defend",
         "Damage": "1",
         "Damage Ability": "Outwit",
-        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click1.jpg"
+        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click1.png"
       },
       {
         "name": "White Widow",
@@ -1013,7 +1013,7 @@
         "Defense Ability": "Defend",
         "Damage": "1",
         "Damage Ability": "Outwit",
-        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click2.jpg"
+        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click2.png"
       },
       {
         "name": "White Widow",
@@ -1028,7 +1028,7 @@
         "Defense Ability": "Defend",
         "Damage": "1",
         "Damage Ability": "Perplex",
-        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click3.jpg"
+        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click3.png"
       },
       {
         "name": "White Widow",
@@ -1043,7 +1043,7 @@
         "Defense Ability": "Defend",
         "Damage": "1",
         "Damage Ability": "Perplex",
-        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click4.jpg"
+        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click4.png"
       },
       {
         "name": "White Widow",
@@ -1058,7 +1058,7 @@
         "Defense Ability": "Defend",
         "Damage": "1",
         "Damage Ability": "Perplex",
-        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click5.jpg"
+        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click5.png"
       },
       {
         "name": "White Widow",
@@ -1073,7 +1073,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click7.jpg"
+        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click7.png"
       },
       {
         "name": "White Widow",
@@ -1088,7 +1088,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click8.jpg"
+        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click8.png"
       },
       {
         "name": "White Widow",
@@ -1103,7 +1103,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click9.jpg"
+        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click9.png"
       },
       {
         "name": "White Widow",
@@ -1118,7 +1118,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click10.jpg"
+        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click10.png"
       },
       {
         "name": "White Widow",
@@ -1133,7 +1133,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click11.jpg"
+        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.Click11.png"
       },
       {
         "name": "White Widow",
@@ -1143,14 +1143,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.KO.jpg"
+        "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.jpg"
+    "image": "a9c26b8e-cbdc-40e7-8547-e278d5e26395.png"
   },
   {
     "id": "d46047cf-7dec-4503-9887-9e0a169aa374",
@@ -1183,7 +1183,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.Click1.jpg"
+        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.Click1.png"
       },
       {
         "name": "Kree Soldier",
@@ -1197,7 +1197,7 @@
         "Defense": "17",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.Click2.jpg"
+        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.Click2.png"
       },
       {
         "name": "Kree Soldier",
@@ -1210,7 +1210,7 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.Click3.jpg"
+        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.Click3.png"
       },
       {
         "name": "Kree Soldier",
@@ -1225,7 +1225,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.Click5.jpg"
+        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.Click5.png"
       },
       {
         "name": "Kree Soldier",
@@ -1239,7 +1239,7 @@
         "Defense": "17",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.Click6.jpg"
+        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.Click6.png"
       },
       {
         "name": "Kree Soldier",
@@ -1252,7 +1252,7 @@
         "Defense": "16",
         "Damage": "1",
         "Damage Ability": "Outwit",
-        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.Click7.jpg"
+        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.Click7.png"
       },
       {
         "name": "Kree Soldier",
@@ -1262,14 +1262,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.KO.jpg"
+        "image": "d46047cf-7dec-4503-9887-9e0a169aa374.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "d46047cf-7dec-4503-9887-9e0a169aa374.jpg"
+    "image": "d46047cf-7dec-4503-9887-9e0a169aa374.png"
   },
   {
     "id": "363b038e-4489-4e37-bfd6-39f0f5007916",
@@ -1301,7 +1301,7 @@
         "Defense Ability": "Invincible",
         "Damage": "5",
         "Damage Ability": "Outwit",
-        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click1.jpg"
+        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click1.png"
       },
       {
         "name": "Thanos",
@@ -1316,7 +1316,7 @@
         "Defense Ability": "Invincible",
         "Damage": "5",
         "Damage Ability": "Outwit",
-        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click2.jpg"
+        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click2.png"
       },
       {
         "name": "Thanos",
@@ -1331,7 +1331,7 @@
         "Defense Ability": "Invincible",
         "Damage": "5",
         "Damage Ability": "Probability Control",
-        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click3.jpg"
+        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click3.png"
       },
       {
         "name": "Thanos",
@@ -1346,7 +1346,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click4.jpg"
+        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click4.png"
       },
       {
         "name": "Thanos",
@@ -1361,7 +1361,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Shape Change",
-        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click5.jpg"
+        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click5.png"
       },
       {
         "name": "Thanos",
@@ -1377,7 +1377,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Shape Change",
-        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click6.jpg"
+        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click6.png"
       },
       {
         "name": "Thanos",
@@ -1392,7 +1392,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Outwit",
-        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click7.jpg"
+        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click7.png"
       },
       {
         "name": "Thanos",
@@ -1407,7 +1407,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Close Combat Expert",
-        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click8.jpg"
+        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click8.png"
       },
       {
         "name": "Thanos",
@@ -1422,7 +1422,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click9.jpg"
+        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click9.png"
       },
       {
         "name": "Thanos",
@@ -1437,7 +1437,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click10.jpg"
+        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click10.png"
       },
       {
         "name": "Thanos",
@@ -1452,7 +1452,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click11.jpg"
+        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.Click11.png"
       },
       {
         "name": "Thanos",
@@ -1462,14 +1462,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.KO.jpg"
+        "image": "363b038e-4489-4e37-bfd6-39f0f5007916.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "363b038e-4489-4e37-bfd6-39f0f5007916.jpg"
+    "image": "363b038e-4489-4e37-bfd6-39f0f5007916.png"
   },
   {
     "id": "78105c2e-6cf8-47f1-9abe-421a75d3cf67",
@@ -1501,7 +1501,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.Click1.jpg"
+        "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.Click1.png"
       },
       {
         "name": "Adaptoid",
@@ -1514,7 +1514,7 @@
         "Defense": "17",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.Click2.jpg"
+        "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.Click2.png"
       },
       {
         "name": "Adaptoid",
@@ -1526,7 +1526,7 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.Click3.jpg"
+        "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.Click3.png"
       },
       {
         "name": "Adaptoid",
@@ -1538,7 +1538,7 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.Click4.jpg"
+        "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.Click4.png"
       },
       {
         "name": "Adaptoid",
@@ -1550,7 +1550,7 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.Click5.jpg"
+        "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.Click5.png"
       },
       {
         "name": "Adaptoid",
@@ -1560,14 +1560,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.KO.jpg"
+        "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.jpg"
+    "image": "78105c2e-6cf8-47f1-9abe-421a75d3cf67.png"
   },
   {
     "id": "3750623a-1229-4a54-9899-1075eaa1b821",
@@ -1599,7 +1599,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "2",
         "Damage Ability": "Leadership",
-        "image": "3750623a-1229-4a54-9899-1075eaa1b821.Click1.jpg"
+        "image": "3750623a-1229-4a54-9899-1075eaa1b821.Click1.png"
       },
       {
         "name": "Monica Rappaccini",
@@ -1614,7 +1614,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "3750623a-1229-4a54-9899-1075eaa1b821.Click2.jpg"
+        "image": "3750623a-1229-4a54-9899-1075eaa1b821.Click2.png"
       },
       {
         "name": "Monica Rappaccini",
@@ -1629,7 +1629,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "1",
         "Damage Ability": "Outwit",
-        "image": "3750623a-1229-4a54-9899-1075eaa1b821.Click3.jpg"
+        "image": "3750623a-1229-4a54-9899-1075eaa1b821.Click3.png"
       },
       {
         "name": "Monica Rappaccini",
@@ -1644,7 +1644,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "1",
         "Damage Ability": "Perplex",
-        "image": "3750623a-1229-4a54-9899-1075eaa1b821.Click4.jpg"
+        "image": "3750623a-1229-4a54-9899-1075eaa1b821.Click4.png"
       },
       {
         "name": "Monica Rappaccini",
@@ -1658,7 +1658,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "3750623a-1229-4a54-9899-1075eaa1b821.Click5.jpg"
+        "image": "3750623a-1229-4a54-9899-1075eaa1b821.Click5.png"
       },
       {
         "name": "Monica Rappaccini",
@@ -1668,14 +1668,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "3750623a-1229-4a54-9899-1075eaa1b821.KO.jpg"
+        "image": "3750623a-1229-4a54-9899-1075eaa1b821.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "3750623a-1229-4a54-9899-1075eaa1b821.jpg"
+    "image": "3750623a-1229-4a54-9899-1075eaa1b821.png"
   },
   {
     "id": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a",
@@ -1706,7 +1706,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.Click1.jpg"
+        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.Click1.png"
       },
       {
         "name": "Iron Man",
@@ -1721,7 +1721,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.Click2.jpg"
+        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.Click2.png"
       },
       {
         "name": "Iron Man",
@@ -1736,7 +1736,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.Click3.jpg"
+        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.Click3.png"
       },
       {
         "name": "Iron Man",
@@ -1750,7 +1750,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.Click4.jpg"
+        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.Click4.png"
       },
       {
         "name": "Iron Man",
@@ -1763,7 +1763,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.Click5.jpg"
+        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.Click5.png"
       },
       {
         "name": "Iron Man",
@@ -1776,7 +1776,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.Click6.jpg"
+        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.Click6.png"
       },
       {
         "name": "Iron Man",
@@ -1786,14 +1786,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.KO.jpg"
+        "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.jpg"
+    "image": "7bc7efac-2752-4fe2-ac31-91bb36f92d7a.png"
   },
   {
     "id": "d050da5a-9bb9-4fca-961f-32bdce7971da",
@@ -1825,7 +1825,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click1.jpg"
+        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click1.png"
       },
       {
         "name": "Hala the Accuser",
@@ -1840,7 +1840,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click2.jpg"
+        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click2.png"
       },
       {
         "name": "Hala the Accuser",
@@ -1856,7 +1856,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click3.jpg"
+        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click3.png"
       },
       {
         "name": "Hala the Accuser",
@@ -1871,7 +1871,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click4.jpg"
+        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click4.png"
       },
       {
         "name": "Hala the Accuser",
@@ -1886,7 +1886,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click5.jpg"
+        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click5.png"
       },
       {
         "name": "Hala the Accuser",
@@ -1900,7 +1900,7 @@
         "Defense": "18",
         "Defense Ability": "Regeneration",
         "Damage": "3",
-        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click6.jpg"
+        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click6.png"
       },
       {
         "name": "Hala the Accuser",
@@ -1914,7 +1914,7 @@
         "Defense": "18",
         "Defense Ability": "Regeneration",
         "Damage": "3",
-        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click7.jpg"
+        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.Click7.png"
       },
       {
         "name": "Hala the Accuser",
@@ -1924,14 +1924,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.KO.jpg"
+        "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.jpg"
+    "image": "d050da5a-9bb9-4fca-961f-32bdce7971da.png"
   },
   {
     "id": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf",
@@ -1962,7 +1962,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Leadership",
-        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click1.jpg"
+        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click1.png"
       },
       {
         "name": "Star-Lord",
@@ -1976,7 +1976,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Leadership",
-        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click2.jpg"
+        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click2.png"
       },
       {
         "name": "Star-Lord",
@@ -1990,7 +1990,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click3.jpg"
+        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click3.png"
       },
       {
         "name": "Star-Lord",
@@ -2005,7 +2005,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click4.jpg"
+        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click4.png"
       },
       {
         "name": "Star-Lord",
@@ -2020,7 +2020,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click5.jpg"
+        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click5.png"
       },
       {
         "name": "Star-Lord",
@@ -2035,7 +2035,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click6.jpg"
+        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click6.png"
       },
       {
         "name": "Star-Lord",
@@ -2050,7 +2050,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click7.jpg"
+        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.Click7.png"
       },
       {
         "name": "Star-Lord",
@@ -2060,14 +2060,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.KO.jpg"
+        "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.jpg"
+    "image": "39615ef1-8722-46d2-a09c-d6c06f0ea5cf.png"
   },
   {
     "id": "1364b577-7d6b-4080-9c1b-b6b9424e756c",
@@ -2100,7 +2100,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Battle Fury",
-        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.Click1.jpg"
+        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.Click1.png"
       },
       {
         "name": "Gamora",
@@ -2115,7 +2115,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Battle Fury",
-        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.Click2.jpg"
+        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.Click2.png"
       },
       {
         "name": "Gamora",
@@ -2130,7 +2130,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.Click3.jpg"
+        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.Click3.png"
       },
       {
         "name": "Gamora",
@@ -2146,7 +2146,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.Click4.jpg"
+        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.Click4.png"
       },
       {
         "name": "Gamora",
@@ -2161,7 +2161,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Battle Fury",
-        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.Click5.jpg"
+        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.Click5.png"
       },
       {
         "name": "Gamora",
@@ -2176,7 +2176,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Battle Fury",
-        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.Click6.jpg"
+        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.Click6.png"
       },
       {
         "name": "Gamora",
@@ -2186,14 +2186,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.KO.jpg"
+        "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.jpg"
+    "image": "1364b577-7d6b-4080-9c1b-b6b9424e756c.png"
   },
   {
     "id": "f83ce599-8954-405f-963c-9184411b2f29",
@@ -2225,7 +2225,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "f83ce599-8954-405f-963c-9184411b2f29.Click1.jpg"
+        "image": "f83ce599-8954-405f-963c-9184411b2f29.Click1.png"
       },
       {
         "name": "Mantis",
@@ -2240,7 +2240,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "f83ce599-8954-405f-963c-9184411b2f29.Click2.jpg"
+        "image": "f83ce599-8954-405f-963c-9184411b2f29.Click2.png"
       },
       {
         "name": "Mantis",
@@ -2255,7 +2255,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "f83ce599-8954-405f-963c-9184411b2f29.Click3.jpg"
+        "image": "f83ce599-8954-405f-963c-9184411b2f29.Click3.png"
       },
       {
         "name": "Mantis",
@@ -2271,7 +2271,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "1",
         "Damage Ability": "Probability Control",
-        "image": "f83ce599-8954-405f-963c-9184411b2f29.Click4.jpg"
+        "image": "f83ce599-8954-405f-963c-9184411b2f29.Click4.png"
       },
       {
         "name": "Mantis",
@@ -2286,7 +2286,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "1",
         "Damage Ability": "Probability Control",
-        "image": "f83ce599-8954-405f-963c-9184411b2f29.Click5.jpg"
+        "image": "f83ce599-8954-405f-963c-9184411b2f29.Click5.png"
       },
       {
         "name": "Mantis",
@@ -2301,7 +2301,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "1",
         "Damage Ability": "Probability Control",
-        "image": "f83ce599-8954-405f-963c-9184411b2f29.Click6.jpg"
+        "image": "f83ce599-8954-405f-963c-9184411b2f29.Click6.png"
       },
       {
         "name": "Mantis",
@@ -2311,14 +2311,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "f83ce599-8954-405f-963c-9184411b2f29.KO.jpg"
+        "image": "f83ce599-8954-405f-963c-9184411b2f29.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "f83ce599-8954-405f-963c-9184411b2f29.jpg"
+    "image": "f83ce599-8954-405f-963c-9184411b2f29.png"
   },
   {
     "id": "f269e803-85e2-4828-8606-41709b83c7da",
@@ -2349,7 +2349,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click1.jpg"
+        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click1.png"
       },
       {
         "name": "Nebula",
@@ -2364,7 +2364,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click2.jpg"
+        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click2.png"
       },
       {
         "name": "Nebula",
@@ -2379,7 +2379,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click3.jpg"
+        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click3.png"
       },
       {
         "name": "Nebula",
@@ -2394,7 +2394,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click4.jpg"
+        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click4.png"
       },
       {
         "name": "Nebula",
@@ -2409,7 +2409,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click5.jpg"
+        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click5.png"
       },
       {
         "name": "Nebula",
@@ -2423,7 +2423,7 @@
         "Defense Ability": "Defend",
         "Damage": "3",
         "Damage Ability": "Special - FINDING MY FAMILY",
-        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click7.jpg"
+        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click7.png"
       },
       {
         "name": "Nebula",
@@ -2437,7 +2437,7 @@
         "Defense Ability": "Defend",
         "Damage": "3",
         "Damage Ability": "Special - FINDING MY FAMILY",
-        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click8.jpg"
+        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click8.png"
       },
       {
         "name": "Nebula",
@@ -2451,7 +2451,7 @@
         "Defense Ability": "Defend",
         "Damage": "3",
         "Damage Ability": "Special - FINDING MY FAMILY",
-        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click9.jpg"
+        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click9.png"
       },
       {
         "name": "Nebula",
@@ -2466,7 +2466,7 @@
         "Defense Ability": "Defend",
         "Damage": "2",
         "Damage Ability": "Special - FINDING MY FAMILY",
-        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click10.jpg"
+        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click10.png"
       },
       {
         "name": "Nebula",
@@ -2481,7 +2481,7 @@
         "Defense Ability": "Defend",
         "Damage": "2",
         "Damage Ability": "Special - FINDING MY FAMILY",
-        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click11.jpg"
+        "image": "f269e803-85e2-4828-8606-41709b83c7da.Click11.png"
       },
       {
         "name": "Nebula",
@@ -2491,14 +2491,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "f269e803-85e2-4828-8606-41709b83c7da.KO.jpg"
+        "image": "f269e803-85e2-4828-8606-41709b83c7da.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "f269e803-85e2-4828-8606-41709b83c7da.jpg"
+    "image": "f269e803-85e2-4828-8606-41709b83c7da.png"
   },
   {
     "id": "34616310-00e0-4e7d-897b-5d9d7bc3785b",
@@ -2530,7 +2530,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.Click1.jpg"
+        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.Click1.png"
       },
       {
         "name": "Wasp",
@@ -2545,7 +2545,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.Click2.jpg"
+        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.Click2.png"
       },
       {
         "name": "Wasp",
@@ -2560,7 +2560,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.Click3.jpg"
+        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.Click3.png"
       },
       {
         "name": "Wasp",
@@ -2576,7 +2576,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.Click4.jpg"
+        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.Click4.png"
       },
       {
         "name": "Wasp",
@@ -2591,7 +2591,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.Click5.jpg"
+        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.Click5.png"
       },
       {
         "name": "Wasp",
@@ -2606,7 +2606,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.Click6.jpg"
+        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.Click6.png"
       },
       {
         "name": "Wasp",
@@ -2616,14 +2616,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.KO.jpg"
+        "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.jpg"
+    "image": "34616310-00e0-4e7d-897b-5d9d7bc3785b.png"
   },
   {
     "id": "a554f0d7-7271-4bae-86f8-e2e7bfcef249",
@@ -2656,7 +2656,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.Click1.jpg"
+        "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.Click1.png"
       },
       {
         "name": "Gambit",
@@ -2671,7 +2671,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.Click2.jpg"
+        "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.Click2.png"
       },
       {
         "name": "Gambit",
@@ -2686,7 +2686,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.Click3.jpg"
+        "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.Click3.png"
       },
       {
         "name": "Gambit",
@@ -2701,7 +2701,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.Click4.jpg"
+        "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.Click4.png"
       },
       {
         "name": "Gambit",
@@ -2715,7 +2715,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.Click5.jpg"
+        "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.Click5.png"
       },
       {
         "name": "Gambit",
@@ -2725,14 +2725,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.KO.jpg"
+        "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.jpg"
+    "image": "a554f0d7-7271-4bae-86f8-e2e7bfcef249.png"
   },
   {
     "id": "7f319150-7988-4341-b269-93b6087557a3",
@@ -2764,7 +2764,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "7f319150-7988-4341-b269-93b6087557a3.Click1.jpg"
+        "image": "7f319150-7988-4341-b269-93b6087557a3.Click1.png"
       },
       {
         "name": "Iron Man",
@@ -2779,7 +2779,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "7f319150-7988-4341-b269-93b6087557a3.Click2.jpg"
+        "image": "7f319150-7988-4341-b269-93b6087557a3.Click2.png"
       },
       {
         "name": "Iron Man",
@@ -2794,7 +2794,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "7f319150-7988-4341-b269-93b6087557a3.Click3.jpg"
+        "image": "7f319150-7988-4341-b269-93b6087557a3.Click3.png"
       },
       {
         "name": "Iron Man",
@@ -2808,7 +2808,7 @@
         "Defense Ability": "Special - ENERGY ABSORPTION",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "7f319150-7988-4341-b269-93b6087557a3.Click4.jpg"
+        "image": "7f319150-7988-4341-b269-93b6087557a3.Click4.png"
       },
       {
         "name": "Iron Man",
@@ -2822,7 +2822,7 @@
         "Defense Ability": "Special - ENERGY ABSORPTION",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "7f319150-7988-4341-b269-93b6087557a3.Click5.jpg"
+        "image": "7f319150-7988-4341-b269-93b6087557a3.Click5.png"
       },
       {
         "name": "Iron Man",
@@ -2836,7 +2836,7 @@
         "Defense Ability": "Special - ENERGY ABSORPTION",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "7f319150-7988-4341-b269-93b6087557a3.Click6.jpg"
+        "image": "7f319150-7988-4341-b269-93b6087557a3.Click6.png"
       },
       {
         "name": "Iron Man",
@@ -2850,7 +2850,7 @@
         "Defense Ability": "Special - ENERGY ABSORPTION",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "7f319150-7988-4341-b269-93b6087557a3.Click7.jpg"
+        "image": "7f319150-7988-4341-b269-93b6087557a3.Click7.png"
       },
       {
         "name": "Iron Man",
@@ -2860,14 +2860,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "7f319150-7988-4341-b269-93b6087557a3.KO.jpg"
+        "image": "7f319150-7988-4341-b269-93b6087557a3.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "7f319150-7988-4341-b269-93b6087557a3.jpg"
+    "image": "7f319150-7988-4341-b269-93b6087557a3.png"
   },
   {
     "id": "6dd1ceaa-b28a-482d-8638-45f2062bfecf",
@@ -2900,7 +2900,7 @@
         "Defense Ability": "Invincible",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click1.jpg"
+        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click1.png"
       },
       {
         "name": "Iron Man",
@@ -2915,7 +2915,7 @@
         "Defense Ability": "Invincible",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click2.jpg"
+        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click2.png"
       },
       {
         "name": "Iron Man",
@@ -2930,7 +2930,7 @@
         "Defense Ability": "Invincible",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click3.jpg"
+        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click3.png"
       },
       {
         "name": "Iron Man",
@@ -2946,7 +2946,7 @@
         "Defense Ability": "Invincible",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click4.jpg"
+        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click4.png"
       },
       {
         "name": "Iron Man",
@@ -2961,7 +2961,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click5.jpg"
+        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click5.png"
       },
       {
         "name": "Iron Man",
@@ -2975,7 +2975,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click6.jpg"
+        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click6.png"
       },
       {
         "name": "Iron Man",
@@ -2989,7 +2989,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click7.jpg"
+        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.Click7.png"
       },
       {
         "name": "Iron Man",
@@ -2999,14 +2999,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.KO.jpg"
+        "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.jpg"
+    "image": "6dd1ceaa-b28a-482d-8638-45f2062bfecf.png"
   },
   {
     "id": "791053fd-d91e-4474-bd52-00cb953ceb3c",
@@ -3038,7 +3038,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.Click1.jpg"
+        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.Click1.png"
       },
       {
         "name": "Cosmic Rider",
@@ -3053,7 +3053,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.Click2.jpg"
+        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.Click2.png"
       },
       {
         "name": "Cosmic Rider",
@@ -3068,7 +3068,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.Click3.jpg"
+        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.Click3.png"
       },
       {
         "name": "Cosmic Rider",
@@ -3083,7 +3083,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.Click4.jpg"
+        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.Click4.png"
       },
       {
         "name": "Cosmic Rider",
@@ -3098,7 +3098,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.Click5.jpg"
+        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.Click5.png"
       },
       {
         "name": "Cosmic Rider",
@@ -3113,7 +3113,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.Click6.jpg"
+        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.Click6.png"
       },
       {
         "name": "Cosmic Rider",
@@ -3123,14 +3123,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.KO.jpg"
+        "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.jpg"
+    "image": "791053fd-d91e-4474-bd52-00cb953ceb3c.png"
   },
   {
     "id": "733c3456-cd8f-446d-9b4e-793e16eb5bda",
@@ -3164,7 +3164,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "4",
         "Damage Ability": "Battle Fury",
-        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click1.jpg"
+        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click1.png"
       },
       {
         "name": "Groot",
@@ -3179,7 +3179,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click2.jpg"
+        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click2.png"
       },
       {
         "name": "Groot",
@@ -3194,7 +3194,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click3.jpg"
+        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click3.png"
       },
       {
         "name": "Groot",
@@ -3209,7 +3209,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click4.jpg"
+        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click4.png"
       },
       {
         "name": "Groot",
@@ -3224,7 +3224,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click5.jpg"
+        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click5.png"
       },
       {
         "name": "Groot",
@@ -3239,7 +3239,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click6.jpg"
+        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click6.png"
       },
       {
         "name": "Groot",
@@ -3254,7 +3254,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click7.jpg"
+        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click7.png"
       },
       {
         "name": "Groot",
@@ -3269,7 +3269,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click8.jpg"
+        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.Click8.png"
       },
       {
         "name": "Groot",
@@ -3279,14 +3279,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.KO.jpg"
+        "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.jpg"
+    "image": "733c3456-cd8f-446d-9b4e-793e16eb5bda.png"
   },
   {
     "id": "d99d6390-8636-498d-9397-780e02b1f1dc",
@@ -3317,7 +3317,7 @@
         "Defense Ability": "Special - PROMISE ME IT'LL BE WORTHWHILE, QUILL",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click1.jpg"
+        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click1.png"
       },
       {
         "name": "Drax",
@@ -3331,7 +3331,7 @@
         "Defense Ability": "Special - PROMISE ME IT'LL BE WORTHWHILE, QUILL",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click2.jpg"
+        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click2.png"
       },
       {
         "name": "Drax",
@@ -3347,7 +3347,7 @@
         "Defense Ability": "Special - PROMISE ME IT'LL BE WORTHWHILE, QUILL",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click3.jpg"
+        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click3.png"
       },
       {
         "name": "Drax",
@@ -3362,7 +3362,7 @@
         "Defense Ability": "Special - PROMISE ME IT'LL BE WORTHWHILE, QUILL",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click4.jpg"
+        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click4.png"
       },
       {
         "name": "Drax",
@@ -3377,7 +3377,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click5.jpg"
+        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click5.png"
       },
       {
         "name": "Drax",
@@ -3392,7 +3392,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click6.jpg"
+        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click6.png"
       },
       {
         "name": "Drax",
@@ -3407,7 +3407,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click7.jpg"
+        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.Click7.png"
       },
       {
         "name": "Drax",
@@ -3417,14 +3417,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.KO.jpg"
+        "image": "d99d6390-8636-498d-9397-780e02b1f1dc.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "d99d6390-8636-498d-9397-780e02b1f1dc.jpg"
+    "image": "d99d6390-8636-498d-9397-780e02b1f1dc.png"
   },
   {
     "id": "2e0550d1-2e36-4eee-83dc-0c2027acdd71",
@@ -3457,7 +3457,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click1.jpg"
+        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click1.png"
       },
       {
         "name": "Winter Soldier",
@@ -3472,7 +3472,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click2.jpg"
+        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click2.png"
       },
       {
         "name": "Winter Soldier",
@@ -3487,7 +3487,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click3.jpg"
+        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click3.png"
       },
       {
         "name": "Winter Soldier",
@@ -3501,7 +3501,7 @@
         "Defense": "16",
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
-        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click4.jpg"
+        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click4.png"
       },
       {
         "name": "Winter Soldier",
@@ -3515,7 +3515,7 @@
         "Defense": "16",
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
-        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click5.jpg"
+        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click5.png"
       },
       {
         "name": "Winter Soldier",
@@ -3530,7 +3530,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click7.jpg"
+        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click7.png"
       },
       {
         "name": "Winter Soldier",
@@ -3545,7 +3545,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click8.jpg"
+        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click8.png"
       },
       {
         "name": "Winter Soldier",
@@ -3560,7 +3560,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click9.jpg"
+        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click9.png"
       },
       {
         "name": "Winter Soldier",
@@ -3574,7 +3574,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click10.jpg"
+        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click10.png"
       },
       {
         "name": "Winter Soldier",
@@ -3588,7 +3588,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click11.jpg"
+        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.Click11.png"
       },
       {
         "name": "Winter Soldier",
@@ -3598,14 +3598,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.KO.jpg"
+        "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.jpg"
+    "image": "2e0550d1-2e36-4eee-83dc-0c2027acdd71.png"
   },
   {
     "id": "cd69f887-c982-4852-ac8a-eebef79bda75",
@@ -3636,7 +3636,7 @@
         "Defense": "19",
         "Defense Ability": "Special - SWAT MY ENEMIES",
         "Damage": "4",
-        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click1.jpg"
+        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click1.png"
       },
       {
         "name": "Giant-Man",
@@ -3650,7 +3650,7 @@
         "Defense": "18",
         "Defense Ability": "Special - SWAT MY ENEMIES",
         "Damage": "4",
-        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click2.jpg"
+        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click2.png"
       },
       {
         "name": "Giant-Man",
@@ -3664,7 +3664,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click3.jpg"
+        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click3.png"
       },
       {
         "name": "Giant-Man",
@@ -3679,7 +3679,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click4.jpg"
+        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click4.png"
       },
       {
         "name": "Giant-Man",
@@ -3693,7 +3693,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click5.jpg"
+        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click5.png"
       },
       {
         "name": "Giant-Man",
@@ -3707,7 +3707,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click6.jpg"
+        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click6.png"
       },
       {
         "name": "Giant-Man",
@@ -3721,7 +3721,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click7.jpg"
+        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click7.png"
       },
       {
         "name": "Giant-Man",
@@ -3735,7 +3735,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click8.jpg"
+        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.Click8.png"
       },
       {
         "name": "Giant-Man",
@@ -3745,14 +3745,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.KO.jpg"
+        "image": "cd69f887-c982-4852-ac8a-eebef79bda75.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "cd69f887-c982-4852-ac8a-eebef79bda75.jpg"
+    "image": "cd69f887-c982-4852-ac8a-eebef79bda75.png"
   },
   {
     "id": "f8cf9151-9d60-4fa4-8fea-12916619de01",
@@ -3784,7 +3784,7 @@
         "Defense Ability": "Special - EXOSKELETON BEAR SUIT",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click1.jpg"
+        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click1.png"
       },
       {
         "name": "Grizzly",
@@ -3799,7 +3799,7 @@
         "Defense Ability": "Special - EXOSKELETON BEAR SUIT",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click2.jpg"
+        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click2.png"
       },
       {
         "name": "Grizzly",
@@ -3815,7 +3815,7 @@
         "Defense Ability": "Special - EXOSKELETON BEAR SUIT",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click3.jpg"
+        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click3.png"
       },
       {
         "name": "Grizzly",
@@ -3830,7 +3830,7 @@
         "Defense Ability": "Special - EXOSKELETON BEAR SUIT",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click4.jpg"
+        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click4.png"
       },
       {
         "name": "Grizzly",
@@ -3844,7 +3844,7 @@
         "Defense": "18",
         "Defense Ability": "Special - EXOSKELETON BEAR SUIT",
         "Damage": "3",
-        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click5.jpg"
+        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click5.png"
       },
       {
         "name": "Grizzly",
@@ -3858,7 +3858,7 @@
         "Defense": "17",
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
-        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click6.jpg"
+        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click6.png"
       },
       {
         "name": "Grizzly",
@@ -3872,7 +3872,7 @@
         "Defense": "17",
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
-        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click7.jpg"
+        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.Click7.png"
       },
       {
         "name": "Grizzly",
@@ -3882,14 +3882,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.KO.jpg"
+        "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.jpg"
+    "image": "f8cf9151-9d60-4fa4-8fea-12916619de01.png"
   },
   {
     "id": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4",
@@ -3921,7 +3921,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click1.jpg"
+        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click1.png"
       },
       {
         "name": "Thor",
@@ -3936,7 +3936,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click2.jpg"
+        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click2.png"
       },
       {
         "name": "Thor",
@@ -3950,7 +3950,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click3.jpg"
+        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click3.png"
       },
       {
         "name": "Thor",
@@ -3963,7 +3963,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click4.jpg"
+        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click4.png"
       },
       {
         "name": "Thor",
@@ -3977,7 +3977,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "4",
-        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click5.jpg"
+        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click5.png"
       },
       {
         "name": "Thor",
@@ -3992,7 +3992,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click6.jpg"
+        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click6.png"
       },
       {
         "name": "Thor",
@@ -4006,7 +4006,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click7.jpg"
+        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click7.png"
       },
       {
         "name": "Thor",
@@ -4019,7 +4019,7 @@
         "Defense": "16",
         "Defense Ability": "Toughness",
         "Damage": "4",
-        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click8.jpg"
+        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click8.png"
       },
       {
         "name": "Thor",
@@ -4032,7 +4032,7 @@
         "Defense": "16",
         "Defense Ability": "Toughness",
         "Damage": "4",
-        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click9.jpg"
+        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.Click9.png"
       },
       {
         "name": "Thor",
@@ -4042,14 +4042,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.KO.jpg"
+        "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.jpg"
+    "image": "0ef8bf2e-3fac-4b0b-a51e-4ded73eda4a4.png"
   },
   {
     "id": "4c9aaba4-6896-4011-8988-8da20885a4b7",
@@ -4081,7 +4081,7 @@
         "Defense": "19",
         "Defense Ability": "Impervious",
         "Damage": "4",
-        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click1.jpg"
+        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click1.png"
       },
       {
         "name": "Juggernaut",
@@ -4095,7 +4095,7 @@
         "Defense": "19",
         "Defense Ability": "Impervious",
         "Damage": "3",
-        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click2.jpg"
+        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click2.png"
       },
       {
         "name": "Juggernaut",
@@ -4109,7 +4109,7 @@
         "Defense": "18",
         "Defense Ability": "Impervious",
         "Damage": "3",
-        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click3.jpg"
+        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click3.png"
       },
       {
         "name": "Juggernaut",
@@ -4123,7 +4123,7 @@
         "Defense": "18",
         "Defense Ability": "Impervious",
         "Damage": "3",
-        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click4.jpg"
+        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click4.png"
       },
       {
         "name": "Juggernaut",
@@ -4137,7 +4137,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click5.jpg"
+        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click5.png"
       },
       {
         "name": "Juggernaut",
@@ -4152,7 +4152,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click6.jpg"
+        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click6.png"
       },
       {
         "name": "Juggernaut",
@@ -4167,7 +4167,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click7.jpg"
+        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click7.png"
       },
       {
         "name": "Juggernaut",
@@ -4182,7 +4182,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click8.jpg"
+        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.Click8.png"
       },
       {
         "name": "Juggernaut",
@@ -4192,14 +4192,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.KO.jpg"
+        "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.jpg"
+    "image": "4c9aaba4-6896-4011-8988-8da20885a4b7.png"
   },
   {
     "id": "12e0ba38-b4b8-4268-a59f-67575c45ff15",
@@ -4233,7 +4233,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Perplex",
-        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click1.jpg"
+        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click1.png"
       },
       {
         "name": "Juggerduck",
@@ -4248,7 +4248,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Perplex",
-        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click2.jpg"
+        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click2.png"
       },
       {
         "name": "Juggerduck",
@@ -4263,7 +4263,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Perplex",
-        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click3.jpg"
+        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click3.png"
       },
       {
         "name": "Juggerduck",
@@ -4278,7 +4278,7 @@
         "Defense Ability": "Special - OUT OF MY--WAUGH!",
         "Damage": "4",
         "Damage Ability": "Perplex",
-        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click4.jpg"
+        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click4.png"
       },
       {
         "name": "Juggerduck",
@@ -4294,7 +4294,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Perplex",
-        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click5.jpg"
+        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click5.png"
       },
       {
         "name": "Juggerduck",
@@ -4309,7 +4309,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click6.jpg"
+        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click6.png"
       },
       {
         "name": "Juggerduck",
@@ -4324,7 +4324,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click7.jpg"
+        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click7.png"
       },
       {
         "name": "Juggerduck",
@@ -4340,7 +4340,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click8.jpg"
+        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click8.png"
       },
       {
         "name": "Juggerduck",
@@ -4355,7 +4355,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click9.jpg"
+        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click9.png"
       },
       {
         "name": "Juggerduck",
@@ -4370,7 +4370,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click10.jpg"
+        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click10.png"
       },
       {
         "name": "Juggerduck",
@@ -4385,7 +4385,7 @@
         "Defense Ability": "Special - OUT OF MY--WAUGH!",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click11.jpg"
+        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.Click11.png"
       },
       {
         "name": "Juggerduck",
@@ -4395,14 +4395,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.KO.jpg"
+        "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.jpg"
+    "image": "12e0ba38-b4b8-4268-a59f-67575c45ff15.png"
   },
   {
     "id": "79ffaf1f-a626-4988-bf60-3c9df4d495bd",
@@ -4434,7 +4434,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - I LOOK AT THE HEAVENS AND THINK THEM EMPTY",
-        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click1.jpg"
+        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click1.png"
       },
       {
         "name": "Beta Ray Bill",
@@ -4449,7 +4449,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - I LOOK AT THE HEAVENS AND THINK THEM EMPTY",
-        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click2.jpg"
+        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click2.png"
       },
       {
         "name": "Beta Ray Bill",
@@ -4464,7 +4464,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Special - I LOOK AT THE HEAVENS AND THINK THEM EMPTY",
-        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click3.jpg"
+        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click3.png"
       },
       {
         "name": "Beta Ray Bill",
@@ -4480,7 +4480,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Special - I LOOK AT THE HEAVENS AND THINK THEM EMPTY",
-        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click4.jpg"
+        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click4.png"
       },
       {
         "name": "Beta Ray Bill",
@@ -4495,7 +4495,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click5.jpg"
+        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click5.png"
       },
       {
         "name": "Beta Ray Bill",
@@ -4510,7 +4510,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click6.jpg"
+        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click6.png"
       },
       {
         "name": "Beta Ray Bill",
@@ -4525,7 +4525,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click7.jpg"
+        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click7.png"
       },
       {
         "name": "Beta Ray Bill",
@@ -4540,7 +4540,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click8.jpg"
+        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.Click8.png"
       },
       {
         "name": "Beta Ray Bill",
@@ -4550,14 +4550,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.KO.jpg"
+        "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.jpg"
+    "image": "79ffaf1f-a626-4988-bf60-3c9df4d495bd.png"
   },
   {
     "id": "a671e5ec-d980-4a00-97db-9d5d01bd7195",
@@ -4589,7 +4589,7 @@
         "Defense Ability": "Special - RESOLUTE AND DETERMINED",
         "Damage": "4",
         "Damage Ability": "Special - BRUTAL LEADER",
-        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click1.jpg"
+        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click1.png"
       },
       {
         "name": "Ronan the Accuser",
@@ -4604,7 +4604,7 @@
         "Defense Ability": "Special - RESOLUTE AND DETERMINED",
         "Damage": "4",
         "Damage Ability": "Special - BRUTAL LEADER",
-        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click2.jpg"
+        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click2.png"
       },
       {
         "name": "Ronan the Accuser",
@@ -4619,7 +4619,7 @@
         "Defense Ability": "Special - RESOLUTE AND DETERMINED",
         "Damage": "3",
         "Damage Ability": "Special - BRUTAL LEADER",
-        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click3.jpg"
+        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click3.png"
       },
       {
         "name": "Ronan the Accuser",
@@ -4633,7 +4633,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click4.jpg"
+        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click4.png"
       },
       {
         "name": "Ronan the Accuser",
@@ -4647,7 +4647,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click5.jpg"
+        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click5.png"
       },
       {
         "name": "Ronan the Accuser",
@@ -4661,7 +4661,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click6.jpg"
+        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click6.png"
       },
       {
         "name": "Ronan the Accuser",
@@ -4675,7 +4675,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Special - BRUTAL LEADER",
-        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click7.jpg"
+        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.Click7.png"
       },
       {
         "name": "Ronan the Accuser",
@@ -4685,14 +4685,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.KO.jpg"
+        "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.jpg"
+    "image": "a671e5ec-d980-4a00-97db-9d5d01bd7195.png"
   },
   {
     "id": "8400512b-44db-401d-961a-86293732331f",
@@ -4724,7 +4724,7 @@
         "Defense Ability": "Special - YA CAUGHT ME",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "8400512b-44db-401d-961a-86293732331f.Click1.jpg"
+        "image": "8400512b-44db-401d-961a-86293732331f.Click1.png"
       },
       {
         "name": "Yondu",
@@ -4739,7 +4739,7 @@
         "Defense Ability": "Special - YA CAUGHT ME",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "8400512b-44db-401d-961a-86293732331f.Click2.jpg"
+        "image": "8400512b-44db-401d-961a-86293732331f.Click2.png"
       },
       {
         "name": "Yondu",
@@ -4754,7 +4754,7 @@
         "Defense Ability": "Special - YA CAUGHT ME",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "8400512b-44db-401d-961a-86293732331f.Click3.jpg"
+        "image": "8400512b-44db-401d-961a-86293732331f.Click3.png"
       },
       {
         "name": "Yondu",
@@ -4769,7 +4769,7 @@
         "Defense Ability": "Special - YA CAUGHT ME",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "8400512b-44db-401d-961a-86293732331f.Click4.jpg"
+        "image": "8400512b-44db-401d-961a-86293732331f.Click4.png"
       },
       {
         "name": "Yondu",
@@ -4784,7 +4784,7 @@
         "Defense Ability": "Special - YA CAUGHT ME",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "8400512b-44db-401d-961a-86293732331f.Click5.jpg"
+        "image": "8400512b-44db-401d-961a-86293732331f.Click5.png"
       },
       {
         "name": "Yondu",
@@ -4799,7 +4799,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "3",
         "Damage Ability": "Special - THE HERALD'S URN",
-        "image": "8400512b-44db-401d-961a-86293732331f.Click6.jpg"
+        "image": "8400512b-44db-401d-961a-86293732331f.Click6.png"
       },
       {
         "name": "Yondu",
@@ -4809,14 +4809,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "8400512b-44db-401d-961a-86293732331f.KO.jpg"
+        "image": "8400512b-44db-401d-961a-86293732331f.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "8400512b-44db-401d-961a-86293732331f.jpg"
+    "image": "8400512b-44db-401d-961a-86293732331f.png"
   },
   {
     "id": "780b0798-b62e-45f6-a5bd-fb743a706c95",
@@ -4849,7 +4849,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Special - I'M GONNA CALL HIM ANTHONY",
-        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.Click1.jpg"
+        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.Click1.png"
       },
       {
         "name": "Ant-Man",
@@ -4864,7 +4864,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Special - I'M GONNA CALL HIM ANTHONY",
-        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.Click2.jpg"
+        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.Click2.png"
       },
       {
         "name": "Ant-Man",
@@ -4879,7 +4879,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Special - I'M GONNA CALL HIM ANTHONY",
-        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.Click3.jpg"
+        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.Click3.png"
       },
       {
         "name": "Ant-Man",
@@ -4894,7 +4894,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.Click4.jpg"
+        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.Click4.png"
       },
       {
         "name": "Ant-Man",
@@ -4908,7 +4908,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.Click5.jpg"
+        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.Click5.png"
       },
       {
         "name": "Ant-Man",
@@ -4922,7 +4922,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.Click6.jpg"
+        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.Click6.png"
       },
       {
         "name": "Ant-Man",
@@ -4932,14 +4932,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.KO.jpg"
+        "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.jpg"
+    "image": "780b0798-b62e-45f6-a5bd-fb743a706c95.png"
   },
   {
     "id": "e98839de-ecc6-47d9-85ce-ae47711fef92",
@@ -4972,7 +4972,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.Click1.jpg"
+        "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.Click1.png"
       },
       {
         "name": "Ulysses Bloodstone",
@@ -4987,7 +4987,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.Click2.jpg"
+        "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.Click2.png"
       },
       {
         "name": "Ulysses Bloodstone",
@@ -5002,7 +5002,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.Click3.jpg"
+        "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.Click3.png"
       },
       {
         "name": "Ulysses Bloodstone",
@@ -5017,7 +5017,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.Click4.jpg"
+        "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.Click4.png"
       },
       {
         "name": "Ulysses Bloodstone",
@@ -5032,7 +5032,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.Click5.jpg"
+        "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.Click5.png"
       },
       {
         "name": "Ulysses Bloodstone",
@@ -5042,14 +5042,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.KO.jpg"
+        "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.jpg"
+    "image": "e98839de-ecc6-47d9-85ce-ae47711fef92.png"
   },
   {
     "id": "3ba8c662-389f-4115-9295-38efdc50168b",
@@ -5082,7 +5082,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click1.jpg"
+        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click1.png"
       },
       {
         "name": "Namor",
@@ -5097,7 +5097,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click2.jpg"
+        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click2.png"
       },
       {
         "name": "Namor",
@@ -5111,7 +5111,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click3.jpg"
+        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click3.png"
       },
       {
         "name": "Namor",
@@ -5126,7 +5126,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click4.jpg"
+        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click4.png"
       },
       {
         "name": "Namor",
@@ -5140,7 +5140,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Battle Fury",
-        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click5.jpg"
+        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click5.png"
       },
       {
         "name": "Namor",
@@ -5154,7 +5154,7 @@
         "Defense": "19",
         "Defense Ability": "Impervious",
         "Damage": "5",
-        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click7.jpg"
+        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click7.png"
       },
       {
         "name": "Namor",
@@ -5168,7 +5168,7 @@
         "Defense": "19",
         "Defense Ability": "Impervious",
         "Damage": "4",
-        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click8.jpg"
+        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click8.png"
       },
       {
         "name": "Namor",
@@ -5182,7 +5182,7 @@
         "Defense": "18",
         "Defense Ability": "Impervious",
         "Damage": "4",
-        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click9.jpg"
+        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click9.png"
       },
       {
         "name": "Namor",
@@ -5196,7 +5196,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click10.jpg"
+        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click10.png"
       },
       {
         "name": "Namor",
@@ -5210,7 +5210,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click11.jpg"
+        "image": "3ba8c662-389f-4115-9295-38efdc50168b.Click11.png"
       },
       {
         "name": "Namor",
@@ -5220,14 +5220,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "3ba8c662-389f-4115-9295-38efdc50168b.KO.jpg"
+        "image": "3ba8c662-389f-4115-9295-38efdc50168b.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "3ba8c662-389f-4115-9295-38efdc50168b.jpg"
+    "image": "3ba8c662-389f-4115-9295-38efdc50168b.png"
   },
   {
     "id": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78",
@@ -5261,7 +5261,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click1.jpg"
+        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click1.png"
       },
       {
         "name": "Namor",
@@ -5276,7 +5276,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click2.jpg"
+        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click2.png"
       },
       {
         "name": "Namor",
@@ -5291,7 +5291,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click3.jpg"
+        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click3.png"
       },
       {
         "name": "Namor",
@@ -5306,7 +5306,7 @@
         "Defense Ability": "Special - FOR ATLANTIS",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click4.jpg"
+        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click4.png"
       },
       {
         "name": "Namor",
@@ -5321,7 +5321,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click5.jpg"
+        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click5.png"
       },
       {
         "name": "Namor",
@@ -5336,7 +5336,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click6.jpg"
+        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click6.png"
       },
       {
         "name": "Namor",
@@ -5351,7 +5351,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click7.jpg"
+        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click7.png"
       },
       {
         "name": "Namor",
@@ -5366,7 +5366,7 @@
         "Defense Ability": "Special - FOR ATLANTIS",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click8.jpg"
+        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click8.png"
       },
       {
         "name": "Namor",
@@ -5381,7 +5381,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click9.jpg"
+        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click9.png"
       },
       {
         "name": "Namor",
@@ -5396,7 +5396,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click10.jpg"
+        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click10.png"
       },
       {
         "name": "Namor",
@@ -5411,7 +5411,7 @@
         "Defense Ability": "Special - FOR ATLANTIS",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click11.jpg"
+        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.Click11.png"
       },
       {
         "name": "Namor",
@@ -5421,14 +5421,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.KO.jpg"
+        "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.jpg"
+    "image": "b950e42e-31ec-4f0f-9fa8-d8cd2f6c4f78.png"
   },
   {
     "id": "acfceef3-5f95-402b-9dcb-065b424954ab",
@@ -5456,14 +5456,14 @@
         "Defense": "18",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "acfceef3-5f95-402b-9dcb-065b424954ab.Click1.jpg"
+        "image": "acfceef3-5f95-402b-9dcb-065b424954ab.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "acfceef3-5f95-402b-9dcb-065b424954ab.jpg"
+    "image": "acfceef3-5f95-402b-9dcb-065b424954ab.png"
   },
   {
     "id": "da482144-f44c-487b-9128-24655ed06a29",
@@ -5496,7 +5496,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.Click1.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.Click1.png"
       },
       {
         "name": "Loki",
@@ -5511,7 +5511,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.Click2.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.Click2.png"
       },
       {
         "name": "Loki",
@@ -5526,7 +5526,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.Click3.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.Click3.png"
       },
       {
         "name": "Loki",
@@ -5541,7 +5541,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.Click4.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.Click4.png"
       },
       {
         "name": "Loki",
@@ -5556,7 +5556,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.Click5.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.Click5.png"
       },
       {
         "name": "Loki",
@@ -5571,7 +5571,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.Click6.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.Click6.png"
       },
       {
         "name": "Loki",
@@ -5586,7 +5586,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.Click7.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.Click7.png"
       },
       {
         "name": "Loki",
@@ -5601,7 +5601,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.Click8.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.Click8.png"
       },
       {
         "name": "Loki",
@@ -5616,7 +5616,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.Click9.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.Click9.png"
       },
       {
         "name": "Loki",
@@ -5631,7 +5631,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.Click10.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.Click10.png"
       },
       {
         "name": "Loki",
@@ -5646,7 +5646,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.Click11.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.Click11.png"
       },
       {
         "name": "Loki",
@@ -5661,7 +5661,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.Click12.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.Click12.png"
       },
       {
         "name": "Loki",
@@ -5671,14 +5671,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "da482144-f44c-487b-9128-24655ed06a29.KO.jpg"
+        "image": "da482144-f44c-487b-9128-24655ed06a29.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "da482144-f44c-487b-9128-24655ed06a29.jpg"
+    "image": "da482144-f44c-487b-9128-24655ed06a29.png"
   },
   {
     "id": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3",
@@ -5710,7 +5710,7 @@
         "Defense Ability": "Toughness",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click1.jpg"
+        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click1.png"
       },
       {
         "name": "Deadpool",
@@ -5725,7 +5725,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click2.jpg"
+        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click2.png"
       },
       {
         "name": "Deadpool",
@@ -5740,7 +5740,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click3.jpg"
+        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click3.png"
       },
       {
         "name": "Deadpool",
@@ -5755,7 +5755,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click4.jpg"
+        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click4.png"
       },
       {
         "name": "Deadpool",
@@ -5770,7 +5770,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click5.jpg"
+        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click5.png"
       },
       {
         "name": "Deadpool",
@@ -5785,7 +5785,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click6.jpg"
+        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click6.png"
       },
       {
         "name": "Deadpool",
@@ -5800,7 +5800,7 @@
         "Defense Ability": "Special - SACRIFICE A STONE TO SAVE MYSELF",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click7.jpg"
+        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.Click7.png"
       },
       {
         "name": "Deadpool",
@@ -5810,14 +5810,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.KO.jpg"
+        "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.jpg"
+    "image": "d9b85921-fb5a-4601-a1cc-100d52e3f0d3.png"
   },
   {
     "id": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a",
@@ -5850,7 +5850,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click1.jpg"
+        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click1.png"
       },
       {
         "name": "Thanos",
@@ -5865,7 +5865,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click2.jpg"
+        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click2.png"
       },
       {
         "name": "Thanos",
@@ -5880,7 +5880,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click3.jpg"
+        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click3.png"
       },
       {
         "name": "Thanos",
@@ -5895,7 +5895,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click4.jpg"
+        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click4.png"
       },
       {
         "name": "Thanos",
@@ -5910,7 +5910,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "4",
         "Damage Ability": "Outwit",
-        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click5.jpg"
+        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click5.png"
       },
       {
         "name": "Thanos",
@@ -5925,7 +5925,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "6",
         "Damage Ability": "Outwit",
-        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click6.jpg"
+        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click6.png"
       },
       {
         "name": "Thanos",
@@ -5940,7 +5940,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "5",
         "Damage Ability": "Outwit",
-        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click7.jpg"
+        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click7.png"
       },
       {
         "name": "Thanos",
@@ -5955,7 +5955,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "5",
         "Damage Ability": "Outwit",
-        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click8.jpg"
+        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click8.png"
       },
       {
         "name": "Thanos",
@@ -5970,7 +5970,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "5",
         "Damage Ability": "Shape Change",
-        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click9.jpg"
+        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click9.png"
       },
       {
         "name": "Thanos",
@@ -5985,7 +5985,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "6",
         "Damage Ability": "Shape Change",
-        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click10.jpg"
+        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click10.png"
       },
       {
         "name": "Thanos",
@@ -6000,7 +6000,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "6",
         "Damage Ability": "Shape Change",
-        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click11.jpg"
+        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.Click11.png"
       },
       {
         "name": "Thanos",
@@ -6010,14 +6010,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.KO.jpg"
+        "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.jpg"
+    "image": "9e552d7c-a89d-40b5-bb84-ae7f97341d0a.png"
   },
   {
     "id": "c8a4f483-668b-482c-82ca-959c2ad1f862",
@@ -6050,7 +6050,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click1.jpg"
+        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click1.png"
       },
       {
         "name": "Black Panther",
@@ -6065,7 +6065,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click2.jpg"
+        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click2.png"
       },
       {
         "name": "Black Panther",
@@ -6080,7 +6080,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click3.jpg"
+        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click3.png"
       },
       {
         "name": "Black Panther",
@@ -6095,7 +6095,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click4.jpg"
+        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click4.png"
       },
       {
         "name": "Black Panther",
@@ -6110,7 +6110,7 @@
         "Defense Ability": "Special - ... AND IT ENDS WITH US.",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click5.jpg"
+        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click5.png"
       },
       {
         "name": "Black Panther",
@@ -6126,7 +6126,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click6.jpg"
+        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click6.png"
       },
       {
         "name": "Black Panther",
@@ -6141,7 +6141,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click7.jpg"
+        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click7.png"
       },
       {
         "name": "Black Panther",
@@ -6156,7 +6156,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click8.jpg"
+        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click8.png"
       },
       {
         "name": "Black Panther",
@@ -6171,7 +6171,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click9.jpg"
+        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.Click9.png"
       },
       {
         "name": "Black Panther",
@@ -6181,14 +6181,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.KO.jpg"
+        "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.jpg"
+    "image": "c8a4f483-668b-482c-82ca-959c2ad1f862.png"
   },
   {
     "id": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf",
@@ -6220,7 +6220,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.Click1.jpg"
+        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.Click1.png"
       },
       {
         "name": "Scarlet Witch",
@@ -6235,7 +6235,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.Click2.jpg"
+        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.Click2.png"
       },
       {
         "name": "Scarlet Witch",
@@ -6250,7 +6250,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.Click3.jpg"
+        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.Click3.png"
       },
       {
         "name": "Scarlet Witch",
@@ -6265,7 +6265,7 @@
         "Defense Ability": "Invincible",
         "Damage": "5",
         "Damage Ability": "Shape Change",
-        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.Click5.jpg"
+        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.Click5.png"
       },
       {
         "name": "Scarlet Witch",
@@ -6280,7 +6280,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Shape Change",
-        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.Click6.jpg"
+        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.Click6.png"
       },
       {
         "name": "Scarlet Witch",
@@ -6295,7 +6295,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Shape Change",
-        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.Click7.jpg"
+        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.Click7.png"
       },
       {
         "name": "Scarlet Witch",
@@ -6305,14 +6305,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.KO.jpg"
+        "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.jpg"
+    "image": "b4337f8e-fc4c-4ab7-83dc-f8008ad886bf.png"
   },
   {
     "id": "0055e479-669d-43b7-93d2-510321e3f0a6",
@@ -6345,7 +6345,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - READING THE DARKHOLD THROUGH A DOOMBOT",
-        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click1.jpg"
+        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click1.png"
       },
       {
         "name": "Dr. Doom",
@@ -6360,7 +6360,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - READING THE DARKHOLD THROUGH A DOOMBOT",
-        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click2.jpg"
+        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click2.png"
       },
       {
         "name": "Dr. Doom",
@@ -6375,7 +6375,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Special - READING THE DARKHOLD THROUGH A DOOMBOT",
-        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click3.jpg"
+        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click3.png"
       },
       {
         "name": "Dr. Doom",
@@ -6390,7 +6390,7 @@
         "Defense Ability": "Special - FIGHTING CHTHON'S HORDES",
         "Damage": "3",
         "Damage Ability": "Special - READING THE DARKHOLD THROUGH A DOOMBOT",
-        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click4.jpg"
+        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click4.png"
       },
       {
         "name": "Dr. Doom",
@@ -6406,7 +6406,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - READING THE DARKHOLD THROUGH A DOOMBOT",
-        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click5.jpg"
+        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click5.png"
       },
       {
         "name": "Dr. Doom",
@@ -6421,7 +6421,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click6.jpg"
+        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click6.png"
       },
       {
         "name": "Dr. Doom",
@@ -6436,7 +6436,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click7.jpg"
+        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click7.png"
       },
       {
         "name": "Dr. Doom",
@@ -6451,7 +6451,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click8.jpg"
+        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click8.png"
       },
       {
         "name": "Dr. Doom",
@@ -6466,7 +6466,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click9.jpg"
+        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click9.png"
       },
       {
         "name": "Dr. Doom",
@@ -6481,7 +6481,7 @@
         "Defense Ability": "Special - FIGHTING CHTHON'S HORDES",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click10.jpg"
+        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.Click10.png"
       },
       {
         "name": "Dr. Doom",
@@ -6491,14 +6491,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.KO.jpg"
+        "image": "0055e479-669d-43b7-93d2-510321e3f0a6.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "0055e479-669d-43b7-93d2-510321e3f0a6.jpg"
+    "image": "0055e479-669d-43b7-93d2-510321e3f0a6.png"
   },
   {
     "id": "f97f6bf9-ca55-4f2b-9337-ef6e8580fc7c",
@@ -6528,14 +6528,14 @@
         "Defense Ability": "Invulnerability",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "f97f6bf9-ca55-4f2b-9337-ef6e8580fc7c.Click1.jpg"
+        "image": "f97f6bf9-ca55-4f2b-9337-ef6e8580fc7c.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "f97f6bf9-ca55-4f2b-9337-ef6e8580fc7c.jpg"
+    "image": "f97f6bf9-ca55-4f2b-9337-ef6e8580fc7c.png"
   },
   {
     "id": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44",
@@ -6567,7 +6567,7 @@
         "Defense Ability": "Special - SHIELD OF THE SERAPHIM!",
         "Damage": "4",
         "Damage Ability": "Special - COMMUNING WITH THE DARKHOLD",
-        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click1.jpg"
+        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click1.png"
       },
       {
         "name": "Dr. Strange",
@@ -6582,7 +6582,7 @@
         "Defense Ability": "Special - SHIELD OF THE SERAPHIM!",
         "Damage": "4",
         "Damage Ability": "Special - COMMUNING WITH THE DARKHOLD",
-        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click2.jpg"
+        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click2.png"
       },
       {
         "name": "Dr. Strange",
@@ -6597,7 +6597,7 @@
         "Defense Ability": "Special - SHIELD OF THE SERAPHIM!",
         "Damage": "4",
         "Damage Ability": "Special - COMMUNING WITH THE DARKHOLD",
-        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click3.jpg"
+        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click3.png"
       },
       {
         "name": "Dr. Strange",
@@ -6613,7 +6613,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Special - COMMUNING WITH THE DARKHOLD",
-        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click4.jpg"
+        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click4.png"
       },
       {
         "name": "Dr. Strange",
@@ -6628,7 +6628,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click5.jpg"
+        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click5.png"
       },
       {
         "name": "Dr. Strange",
@@ -6643,7 +6643,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click6.jpg"
+        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click6.png"
       },
       {
         "name": "Dr. Strange",
@@ -6658,7 +6658,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click7.jpg"
+        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.Click7.png"
       },
       {
         "name": "Dr. Strange",
@@ -6668,14 +6668,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.KO.jpg"
+        "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.jpg"
+    "image": "e8120c5c-57e1-4caf-9aec-ff7bcd79ba44.png"
   },
   {
     "id": "7bf774ac-3d04-4987-8d95-1a26db75552d",
@@ -6708,7 +6708,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - CENTURIES OLD MAGIC",
-        "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.Click1.jpg"
+        "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.Click1.png"
       },
       {
         "name": "Agatha",
@@ -6723,7 +6723,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - CENTURIES OLD MAGIC",
-        "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.Click2.jpg"
+        "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.Click2.png"
       },
       {
         "name": "Agatha",
@@ -6738,7 +6738,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.Click3.jpg"
+        "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.Click3.png"
       },
       {
         "name": "Agatha",
@@ -6753,7 +6753,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.Click4.jpg"
+        "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.Click4.png"
       },
       {
         "name": "Agatha",
@@ -6768,7 +6768,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.Click5.jpg"
+        "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.Click5.png"
       },
       {
         "name": "Agatha",
@@ -6778,14 +6778,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.KO.jpg"
+        "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.jpg"
+    "image": "7bf774ac-3d04-4987-8d95-1a26db75552d.png"
   },
   {
     "id": "832cf298-b711-4054-9631-ea3120e4dfb8",
@@ -6818,7 +6818,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - A MORE PRESENTABLE FORM",
-        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click1.jpg"
+        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click1.png"
       },
       {
         "name": "The Collector",
@@ -6832,7 +6832,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - A MORE PRESENTABLE FORM",
-        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click2.jpg"
+        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click2.png"
       },
       {
         "name": "The Collector",
@@ -6846,7 +6846,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click3.jpg"
+        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click3.png"
       },
       {
         "name": "The Collector",
@@ -6861,7 +6861,7 @@
         "Defense Ability": "Special - AT THE COST OF MY LIFE'S WORK",
         "Damage": "3",
         "Damage Ability": "Special - A MORE PRESENTABLE FORM",
-        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click4.jpg"
+        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click4.png"
       },
       {
         "name": "The Collector",
@@ -6875,7 +6875,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click5.jpg"
+        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click5.png"
       },
       {
         "name": "The Collector",
@@ -6889,7 +6889,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click6.jpg"
+        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click6.png"
       },
       {
         "name": "The Collector",
@@ -6904,7 +6904,7 @@
         "Defense Ability": "Special - AT THE COST OF MY LIFE'S WORK",
         "Damage": "3",
         "Damage Ability": "Special - A MORE PRESENTABLE FORM",
-        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click7.jpg"
+        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click7.png"
       },
       {
         "name": "The Collector",
@@ -6918,7 +6918,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click8.jpg"
+        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click8.png"
       },
       {
         "name": "The Collector",
@@ -6932,7 +6932,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click9.jpg"
+        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click9.png"
       },
       {
         "name": "The Collector",
@@ -6946,7 +6946,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click10.jpg"
+        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click10.png"
       },
       {
         "name": "The Collector",
@@ -6961,7 +6961,7 @@
         "Defense Ability": "Special - AT THE COST OF MY LIFE'S WORK",
         "Damage": "4",
         "Damage Ability": "Special - A MORE PRESENTABLE FORM",
-        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click11.jpg"
+        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.Click11.png"
       },
       {
         "name": "The Collector",
@@ -6971,14 +6971,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.KO.jpg"
+        "image": "832cf298-b711-4054-9631-ea3120e4dfb8.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "832cf298-b711-4054-9631-ea3120e4dfb8.jpg"
+    "image": "832cf298-b711-4054-9631-ea3120e4dfb8.png"
   },
   {
     "id": "3f252633-15e8-4437-b666-4b14f0c796dc",
@@ -7013,7 +7013,7 @@
         "Defense Ability": "Invincible",
         "Damage": "0",
         "Damage Ability": "Probability Control",
-        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.Click1.jpg"
+        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.Click1.png"
       },
       {
         "name": "Collector",
@@ -7028,7 +7028,7 @@
         "Defense Ability": "Invincible",
         "Damage": "0",
         "Damage Ability": "Probability Control",
-        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.Click2.jpg"
+        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.Click2.png"
       },
       {
         "name": "Collector",
@@ -7043,7 +7043,7 @@
         "Defense Ability": "Invincible",
         "Damage": "0",
         "Damage Ability": "Probability Control",
-        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.Click3.jpg"
+        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.Click3.png"
       },
       {
         "name": "Collector",
@@ -7058,7 +7058,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.Click4.jpg"
+        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.Click4.png"
       },
       {
         "name": "Collector",
@@ -7073,7 +7073,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.Click5.jpg"
+        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.Click5.png"
       },
       {
         "name": "Collector",
@@ -7088,7 +7088,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.Click6.jpg"
+        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.Click6.png"
       },
       {
         "name": "Collector",
@@ -7098,14 +7098,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.KO.jpg"
+        "image": "3f252633-15e8-4437-b666-4b14f0c796dc.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "3f252633-15e8-4437-b666-4b14f0c796dc.jpg"
+    "image": "3f252633-15e8-4437-b666-4b14f0c796dc.png"
   },
   {
     "id": "4a4706c4-a219-4192-929d-db5e7b10326f",
@@ -7138,7 +7138,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Enhancement",
-        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click1.jpg"
+        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click1.png"
       },
       {
         "name": "Nebula",
@@ -7153,7 +7153,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Enhancement",
-        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click2.jpg"
+        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click2.png"
       },
       {
         "name": "Nebula",
@@ -7168,7 +7168,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Enhancement",
-        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click3.jpg"
+        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click3.png"
       },
       {
         "name": "Nebula",
@@ -7184,7 +7184,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click4.jpg"
+        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click4.png"
       },
       {
         "name": "Nebula",
@@ -7199,7 +7199,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click5.jpg"
+        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click5.png"
       },
       {
         "name": "Nebula",
@@ -7214,7 +7214,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click6.jpg"
+        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click6.png"
       },
       {
         "name": "Nebula",
@@ -7229,7 +7229,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click7.jpg"
+        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.Click7.png"
       },
       {
         "name": "Nebula",
@@ -7239,14 +7239,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.KO.jpg"
+        "image": "4a4706c4-a219-4192-929d-db5e7b10326f.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "4a4706c4-a219-4192-929d-db5e7b10326f.jpg"
+    "image": "4a4706c4-a219-4192-929d-db5e7b10326f.png"
   },
   {
     "id": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a",
@@ -7279,7 +7279,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click1.jpg"
+        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click1.png"
       },
       {
         "name": "Gamora",
@@ -7294,7 +7294,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click2.jpg"
+        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click2.png"
       },
       {
         "name": "Gamora",
@@ -7309,7 +7309,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click3.jpg"
+        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click3.png"
       },
       {
         "name": "Gamora",
@@ -7325,7 +7325,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click4.jpg"
+        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click4.png"
       },
       {
         "name": "Gamora",
@@ -7340,7 +7340,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click5.jpg"
+        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click5.png"
       },
       {
         "name": "Gamora",
@@ -7355,7 +7355,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click6.jpg"
+        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click6.png"
       },
       {
         "name": "Gamora",
@@ -7370,7 +7370,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click7.jpg"
+        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.Click7.png"
       },
       {
         "name": "Gamora",
@@ -7380,14 +7380,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.KO.jpg"
+        "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.jpg"
+    "image": "6248c7e4-8e53-42d7-ad46-a9858ada4b1a.png"
   },
   {
     "id": "9a8e937e-87f8-4914-a554-8bf3e247ea14",
@@ -7419,7 +7419,7 @@
         "Defense": "18",
         "Defense Ability": "Toughness",
         "Damage": "4",
-        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click1.jpg"
+        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click1.png"
       },
       {
         "name": "Ultimate Hulk",
@@ -7433,7 +7433,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "4",
-        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click2.jpg"
+        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click2.png"
       },
       {
         "name": "Ultimate Hulk",
@@ -7447,7 +7447,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click3.jpg"
+        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click3.png"
       },
       {
         "name": "Ultimate Hulk",
@@ -7462,7 +7462,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - DEFEATING WOLVERINE",
-        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click4.jpg"
+        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click4.png"
       },
       {
         "name": "Ultimate Hulk",
@@ -7477,7 +7477,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - DEFEATING WOLVERINE",
-        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click5.jpg"
+        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click5.png"
       },
       {
         "name": "Ultimate Hulk",
@@ -7492,7 +7492,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "4",
         "Damage Ability": "Special - DEFEATING WOLVERINE",
-        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click6.jpg"
+        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click6.png"
       },
       {
         "name": "Ultimate Hulk",
@@ -7507,7 +7507,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Special - DEFEATING WOLVERINE",
-        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click7.jpg"
+        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click7.png"
       },
       {
         "name": "Ultimate Hulk",
@@ -7522,7 +7522,7 @@
         "Defense Ability": "Impervious",
         "Damage": "5",
         "Damage Ability": "Special - DEFEATING WOLVERINE",
-        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click8.jpg"
+        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.Click8.png"
       },
       {
         "name": "Ultimate Hulk",
@@ -7532,14 +7532,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.KO.jpg"
+        "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.KO.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.jpg"
+    "image": "9a8e937e-87f8-4914-a554-8bf3e247ea14.png"
   },
   {
     "id": "f6fd16a4-c0b7-415d-bded-294e9d55f717",
@@ -7570,14 +7570,14 @@
         "Defense Ability": "Special - PSIONIC DRAGON",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "f6fd16a4-c0b7-415d-bded-294e9d55f717.Click1.jpg"
+        "image": "f6fd16a4-c0b7-415d-bded-294e9d55f717.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "f6fd16a4-c0b7-415d-bded-294e9d55f717.jpg"
+    "image": "f6fd16a4-c0b7-415d-bded-294e9d55f717.png"
   },
   {
     "id": "b8fd3103-2bbb-43fc-8adb-9cda3c57b465",
@@ -7607,14 +7607,14 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "b8fd3103-2bbb-43fc-8adb-9cda3c57b465.Click1.jpg"
+        "image": "b8fd3103-2bbb-43fc-8adb-9cda3c57b465.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "b8fd3103-2bbb-43fc-8adb-9cda3c57b465.jpg"
+    "image": "b8fd3103-2bbb-43fc-8adb-9cda3c57b465.png"
   },
   {
     "id": "de949b6b-dc7b-426b-b77b-0d45fdeb69a1",
@@ -7645,14 +7645,14 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - PLEX",
-        "image": "de949b6b-dc7b-426b-b77b-0d45fdeb69a1.Click1.jpg"
+        "image": "de949b6b-dc7b-426b-b77b-0d45fdeb69a1.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "de949b6b-dc7b-426b-b77b-0d45fdeb69a1.jpg"
+    "image": "de949b6b-dc7b-426b-b77b-0d45fdeb69a1.png"
   },
   {
     "id": "80b05dfe-38c8-47b2-8b6e-439c729ef8fc",
@@ -7683,14 +7683,14 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "80b05dfe-38c8-47b2-8b6e-439c729ef8fc.Click1.jpg"
+        "image": "80b05dfe-38c8-47b2-8b6e-439c729ef8fc.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "80b05dfe-38c8-47b2-8b6e-439c729ef8fc.jpg"
+    "image": "80b05dfe-38c8-47b2-8b6e-439c729ef8fc.png"
   },
   {
     "id": "f02317a6-3108-4ff6-b959-b3097b63f87d",
@@ -7720,14 +7720,14 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "f02317a6-3108-4ff6-b959-b3097b63f87d.Click1.jpg"
+        "image": "f02317a6-3108-4ff6-b959-b3097b63f87d.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "f02317a6-3108-4ff6-b959-b3097b63f87d.jpg"
+    "image": "f02317a6-3108-4ff6-b959-b3097b63f87d.png"
   },
   {
     "id": "b379392b-6fbe-4620-8bd4-99183fbff46e",
@@ -7757,14 +7757,14 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "b379392b-6fbe-4620-8bd4-99183fbff46e.Click1.jpg"
+        "image": "b379392b-6fbe-4620-8bd4-99183fbff46e.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "b379392b-6fbe-4620-8bd4-99183fbff46e.jpg"
+    "image": "b379392b-6fbe-4620-8bd4-99183fbff46e.png"
   },
   {
     "id": "0fd24655-d391-44ac-8f2d-3a3e1d8dda3c",
@@ -7794,14 +7794,14 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "0fd24655-d391-44ac-8f2d-3a3e1d8dda3c.Click1.jpg"
+        "image": "0fd24655-d391-44ac-8f2d-3a3e1d8dda3c.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "0fd24655-d391-44ac-8f2d-3a3e1d8dda3c.jpg"
+    "image": "0fd24655-d391-44ac-8f2d-3a3e1d8dda3c.png"
   },
   {
     "id": "0de39ca6-9ef1-4e4f-a12d-a15898a81a38",
@@ -7831,14 +7831,14 @@
         "Defense": "16",
         "Defense Ability": "Willpower",
         "Damage": "1",
-        "image": "0de39ca6-9ef1-4e4f-a12d-a15898a81a38.Click1.jpg"
+        "image": "0de39ca6-9ef1-4e4f-a12d-a15898a81a38.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "0de39ca6-9ef1-4e4f-a12d-a15898a81a38.jpg"
+    "image": "0de39ca6-9ef1-4e4f-a12d-a15898a81a38.png"
   },
   {
     "id": "366da0b3-06f1-4d20-8e94-c401e7be573b",
@@ -7866,14 +7866,14 @@
         "Defense Ability": "Super Senses",
         "Damage": "0",
         "Damage Ability": "Special - RETIRED CLAIRVOYANT",
-        "image": "366da0b3-06f1-4d20-8e94-c401e7be573b.Click1.jpg"
+        "image": "366da0b3-06f1-4d20-8e94-c401e7be573b.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "366da0b3-06f1-4d20-8e94-c401e7be573b.jpg"
+    "image": "366da0b3-06f1-4d20-8e94-c401e7be573b.png"
   },
   {
     "id": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe",
@@ -7905,7 +7905,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Special - MARIA STARK FOUNDATION",
-        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click1.jpg"
+        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click1.png"
       },
       {
         "name": "Iron Man",
@@ -7920,7 +7920,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Special - MARIA STARK FOUNDATION",
-        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click2.jpg"
+        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click2.png"
       },
       {
         "name": "Iron Man",
@@ -7934,7 +7934,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click3.jpg"
+        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click3.png"
       },
       {
         "name": "Iron Man",
@@ -7950,7 +7950,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Perplex",
-        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click4.jpg"
+        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click4.png"
       },
       {
         "name": "Iron Man",
@@ -7965,7 +7965,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click5.jpg"
+        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click5.png"
       },
       {
         "name": "Iron Man",
@@ -7979,7 +7979,7 @@
         "Defense": "16",
         "Defense Ability": "Invulnerability",
         "Damage": "4",
-        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click6.jpg"
+        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click6.png"
       },
       {
         "name": "Iron Man",
@@ -7993,7 +7993,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click7.jpg"
+        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click7.png"
       },
       {
         "name": "Iron Man",
@@ -8007,14 +8007,14 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "2",
-        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click8.jpg"
+        "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.Click8.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Legacy Card",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.jpg"
+    "image": "73bd2a0d-85ae-4e67-ae82-ae4a414df2fe.png"
   },
   {
     "id": "b0a81490-0510-4b0d-8767-d1cb5c7537da",
@@ -8046,7 +8046,7 @@
         "Defense Ability": "Toughness",
         "Damage": "4",
         "Damage Ability": "Special - AVENGERS! ASSEMBLE.",
-        "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.Click1.jpg"
+        "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.Click1.png"
       },
       {
         "name": "Captain America",
@@ -8060,7 +8060,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Special - AVENGERS! ASSEMBLE.",
-        "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.Click2.jpg"
+        "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.Click2.png"
       },
       {
         "name": "Captain America",
@@ -8074,7 +8074,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.Click3.jpg"
+        "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.Click3.png"
       },
       {
         "name": "Captain America",
@@ -8089,7 +8089,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.Click4.jpg"
+        "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.Click4.png"
       },
       {
         "name": "Captain America",
@@ -8104,7 +8104,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.Click5.jpg"
+        "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.Click5.png"
       },
       {
         "name": "Captain America",
@@ -8119,14 +8119,14 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.Click6.jpg"
+        "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.Click6.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Legacy Card",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.jpg"
+    "image": "b0a81490-0510-4b0d-8767-d1cb5c7537da.png"
   },
   {
     "id": "472c1b8e-4834-4641-8a09-28c9739fd37f",
@@ -8156,14 +8156,14 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "472c1b8e-4834-4641-8a09-28c9739fd37f.Click1.jpg"
+        "image": "472c1b8e-4834-4641-8a09-28c9739fd37f.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "472c1b8e-4834-4641-8a09-28c9739fd37f.jpg"
+    "image": "472c1b8e-4834-4641-8a09-28c9739fd37f.png"
   },
   {
     "id": "c20064d0-e7b4-47c5-ba53-e49785b504be",
@@ -8193,14 +8193,14 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "c20064d0-e7b4-47c5-ba53-e49785b504be.Click1.jpg"
+        "image": "c20064d0-e7b4-47c5-ba53-e49785b504be.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "c20064d0-e7b4-47c5-ba53-e49785b504be.jpg"
+    "image": "c20064d0-e7b4-47c5-ba53-e49785b504be.png"
   },
   {
     "id": "b150902b-fc48-4e0d-802b-fc1c5d705786",
@@ -8230,14 +8230,14 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "b150902b-fc48-4e0d-802b-fc1c5d705786.Click1.jpg"
+        "image": "b150902b-fc48-4e0d-802b-fc1c5d705786.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "b150902b-fc48-4e0d-802b-fc1c5d705786.jpg"
+    "image": "b150902b-fc48-4e0d-802b-fc1c5d705786.png"
   },
   {
     "id": "9eca65bd-d252-4573-9a27-23bf421e3343",
@@ -8267,14 +8267,14 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "9eca65bd-d252-4573-9a27-23bf421e3343.Click1.jpg"
+        "image": "9eca65bd-d252-4573-9a27-23bf421e3343.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "9eca65bd-d252-4573-9a27-23bf421e3343.jpg"
+    "image": "9eca65bd-d252-4573-9a27-23bf421e3343.png"
   },
   {
     "id": "88158718-4e48-4a47-8421-fc7aa0af8410",
@@ -8307,7 +8307,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click1.jpg"
+        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click1.png"
       },
       {
         "name": "Molecule Man",
@@ -8322,7 +8322,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click2.jpg"
+        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click2.png"
       },
       {
         "name": "Molecule Man",
@@ -8337,7 +8337,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click3.jpg"
+        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click3.png"
       },
       {
         "name": "Molecule Man",
@@ -8352,7 +8352,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click4.jpg"
+        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click4.png"
       },
       {
         "name": "Molecule Man",
@@ -8368,7 +8368,7 @@
         "Defense Ability": "Barrier",
         "Damage": "1",
         "Damage Ability": "Outwit",
-        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click5.jpg"
+        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click5.png"
       },
       {
         "name": "Molecule Man",
@@ -8383,7 +8383,7 @@
         "Defense Ability": "Barrier",
         "Damage": "1",
         "Damage Ability": "Perplex",
-        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click6.jpg"
+        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click6.png"
       },
       {
         "name": "Molecule Man",
@@ -8398,14 +8398,14 @@
         "Defense Ability": "Barrier",
         "Damage": "1",
         "Damage Ability": "Perplex",
-        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click7.jpg"
+        "image": "88158718-4e48-4a47-8421-fc7aa0af8410.Click7.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Legacy Card",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "88158718-4e48-4a47-8421-fc7aa0af8410.jpg"
+    "image": "88158718-4e48-4a47-8421-fc7aa0af8410.png"
   },
   {
     "id": "9f926c70-ca3d-4d9e-8398-450895d25fcd",
@@ -8437,7 +8437,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click1.jpg"
+        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click1.png"
       },
       {
         "name": "Captain Marvel",
@@ -8450,7 +8450,7 @@
         "Defense": "18",
         "Defense Ability": "Impervious",
         "Damage": "3",
-        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click2.jpg"
+        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click2.png"
       },
       {
         "name": "Captain Marvel",
@@ -8465,7 +8465,7 @@
         "Defense Ability": "Special - THAT ALL YOU GOT?",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click3.jpg"
+        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click3.png"
       },
       {
         "name": "Captain Marvel",
@@ -8480,7 +8480,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click4.jpg"
+        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click4.png"
       },
       {
         "name": "Captain Marvel",
@@ -8494,7 +8494,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click5.jpg"
+        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click5.png"
       },
       {
         "name": "Captain Marvel",
@@ -8509,7 +8509,7 @@
         "Defense Ability": "Special - THAT ALL YOU GOT?",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click6.jpg"
+        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click6.png"
       },
       {
         "name": "Captain Marvel",
@@ -8524,7 +8524,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click7.jpg"
+        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click7.png"
       },
       {
         "name": "Captain Marvel",
@@ -8538,7 +8538,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click8.jpg"
+        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click8.png"
       },
       {
         "name": "Captain Marvel",
@@ -8552,14 +8552,14 @@
         "Defense Ability": "Special - THAT ALL YOU GOT?",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click9.jpg"
+        "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.Click9.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Legacy Card",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.jpg"
+    "image": "9f926c70-ca3d-4d9e-8398-450895d25fcd.png"
   },
   {
     "id": "b094fd41-cad1-4c4f-adf3-47d2f525db5c",
@@ -8590,7 +8590,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Special - GORR WAS RIGHT",
-        "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.Click1.jpg"
+        "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.Click1.png"
       },
       {
         "name": "Nick Fury",
@@ -8605,7 +8605,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.Click2.jpg"
+        "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.Click2.png"
       },
       {
         "name": "Nick Fury",
@@ -8619,7 +8619,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Special - GORR WAS RIGHT",
-        "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.Click3.jpg"
+        "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.Click3.png"
       },
       {
         "name": "Nick Fury",
@@ -8634,7 +8634,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Special - GORR WAS RIGHT",
-        "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.Click4.jpg"
+        "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.Click4.png"
       },
       {
         "name": "Nick Fury",
@@ -8649,7 +8649,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.Click5.jpg"
+        "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.Click5.png"
       },
       {
         "name": "Nick Fury",
@@ -8663,14 +8663,14 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Special - GORR WAS RIGHT",
-        "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.Click6.jpg"
+        "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.Click6.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Legacy Card",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.jpg"
+    "image": "b094fd41-cad1-4c4f-adf3-47d2f525db5c.png"
   },
   {
     "id": "4b73fd9a-8186-4407-beb2-573bf7e736bf",
@@ -8699,14 +8699,14 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "4b73fd9a-8186-4407-beb2-573bf7e736bf.Click1.jpg"
+        "image": "4b73fd9a-8186-4407-beb2-573bf7e736bf.Click1.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "4b73fd9a-8186-4407-beb2-573bf7e736bf.jpg"
+    "image": "4b73fd9a-8186-4407-beb2-573bf7e736bf.png"
   },
   {
     "id": "e62c3df5-d62f-4399-9298-479b9fd2810e",
@@ -8737,7 +8737,7 @@
         "Defense": "18",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.Click1.jpg"
+        "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.Click1.png"
       },
       {
         "name": "Collector",
@@ -8751,7 +8751,7 @@
         "Defense": "18",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.Click2.jpg"
+        "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.Click2.png"
       },
       {
         "name": "Collector",
@@ -8765,7 +8765,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.Click3.jpg"
+        "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.Click3.png"
       },
       {
         "name": "Collector",
@@ -8779,7 +8779,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.Click4.jpg"
+        "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.Click4.png"
       },
       {
         "name": "Collector",
@@ -8792,7 +8792,7 @@
         "Defense": "16",
         "Defense Ability": "Regeneration",
         "Damage": "3",
-        "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.Click5.jpg"
+        "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.Click5.png"
       },
       {
         "name": "Collector",
@@ -8806,14 +8806,14 @@
         "Defense": "18",
         "Defense Ability": "Impervious",
         "Damage": "3",
-        "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.Click12.jpg"
+        "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.Click12.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Legacy Card",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.jpg"
+    "image": "e62c3df5-d62f-4399-9298-479b9fd2810e.png"
   },
   {
     "id": "9b66bcee-6c32-4d2c-a330-bac559cab2ac",
@@ -8846,7 +8846,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.Click1.jpg"
+        "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.Click1.png"
       },
       {
         "name": "Machinesmith",
@@ -8861,7 +8861,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.Click2.jpg"
+        "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.Click2.png"
       },
       {
         "name": "Machinesmith",
@@ -8876,7 +8876,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.Click3.jpg"
+        "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.Click3.png"
       },
       {
         "name": "Machinesmith",
@@ -8891,7 +8891,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.Click4.jpg"
+        "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.Click4.png"
       },
       {
         "name": "Machinesmith",
@@ -8906,7 +8906,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.Click5.jpg"
+        "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.Click5.png"
       },
       {
         "name": "Machinesmith",
@@ -8921,14 +8921,14 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.Click6.jpg"
+        "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.Click6.png"
       }
     ],
     "Set": "Collector's Trove",
     "Designer": "Official",
     "Type": "Legacy Card",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.jpg"
+    "image": "9b66bcee-6c32-4d2c-a330-bac559cab2ac.png"
   },
   {
     "id": "94e77de8-c203-4cba-8450-c6b4d3e809b9",
@@ -8941,7 +8941,7 @@
     "Designer": "Official",
     "Type": "Map",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "94e77de8-c203-4cba-8450-c6b4d3e809b9.jpg"
+    "image": "94e77de8-c203-4cba-8450-c6b4d3e809b9.png"
   },
   {
     "id": "29d64526-4ab7-4ca5-96df-74fe7d47b8ad",
@@ -8955,7 +8955,7 @@
     "Designer": "Official",
     "Type": "Map",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "29d64526-4ab7-4ca5-96df-74fe7d47b8ad.jpg"
+    "image": "29d64526-4ab7-4ca5-96df-74fe7d47b8ad.png"
   },
   {
     "id": "a05e306c-c096-491e-83f5-54f072471657",
@@ -8968,7 +8968,7 @@
     "Designer": "Official",
     "Type": "Map",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "a05e306c-c096-491e-83f5-54f072471657.jpg"
+    "image": "a05e306c-c096-491e-83f5-54f072471657.png"
   },
   {
     "id": "de48d083-2625-4365-83d5-2726708260ec",
@@ -8983,7 +8983,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "de48d083-2625-4365-83d5-2726708260ec.jpg"
+    "image": "de48d083-2625-4365-83d5-2726708260ec.png"
   },
   {
     "id": "74a333fd-bcd1-409f-a491-d853b5573646",
@@ -8998,7 +8998,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "74a333fd-bcd1-409f-a491-d853b5573646.jpg"
+    "image": "74a333fd-bcd1-409f-a491-d853b5573646.png"
   },
   {
     "id": "bcd9d1fb-f4fb-41f8-af4d-60115a0d5061",
@@ -9013,7 +9013,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "bcd9d1fb-f4fb-41f8-af4d-60115a0d5061.jpg"
+    "image": "bcd9d1fb-f4fb-41f8-af4d-60115a0d5061.png"
   },
   {
     "id": "fbcdfed3-250a-4b6c-83f4-725da3ed737a",
@@ -9028,7 +9028,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "fbcdfed3-250a-4b6c-83f4-725da3ed737a.jpg"
+    "image": "fbcdfed3-250a-4b6c-83f4-725da3ed737a.png"
   },
   {
     "id": "e2be04ba-5239-401e-9573-d2700fbca087",
@@ -9043,7 +9043,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "e2be04ba-5239-401e-9573-d2700fbca087.jpg"
+    "image": "e2be04ba-5239-401e-9573-d2700fbca087.png"
   },
   {
     "id": "fdcf407a-313e-4eba-9ba7-4a46e10ea76b",
@@ -9058,7 +9058,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "fdcf407a-313e-4eba-9ba7-4a46e10ea76b.jpg"
+    "image": "fdcf407a-313e-4eba-9ba7-4a46e10ea76b.png"
   },
   {
     "id": "8a956c3e-7547-471f-89d2-586091fb6db9",
@@ -9073,7 +9073,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "8a956c3e-7547-471f-89d2-586091fb6db9.jpg"
+    "image": "8a956c3e-7547-471f-89d2-586091fb6db9.png"
   },
   {
     "id": "b36382d9-b56a-44dd-a356-975e89c5200a",
@@ -9088,7 +9088,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "b36382d9-b56a-44dd-a356-975e89c5200a.jpg"
+    "image": "b36382d9-b56a-44dd-a356-975e89c5200a.png"
   },
   {
     "id": "5ce0957f-a588-402f-a816-6c0c6618c263",
@@ -9103,7 +9103,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "5ce0957f-a588-402f-a816-6c0c6618c263.jpg"
+    "image": "5ce0957f-a588-402f-a816-6c0c6618c263.png"
   },
   {
     "id": "fa37eb14-89af-48f9-8d19-3b7ab27bc236",
@@ -9118,7 +9118,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "fa37eb14-89af-48f9-8d19-3b7ab27bc236.jpg"
+    "image": "fa37eb14-89af-48f9-8d19-3b7ab27bc236.png"
   },
   {
     "id": "4e4d27f6-16b8-4d46-a65b-76ec56a3acc3",
@@ -9133,7 +9133,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "4e4d27f6-16b8-4d46-a65b-76ec56a3acc3.jpg"
+    "image": "4e4d27f6-16b8-4d46-a65b-76ec56a3acc3.png"
   },
   {
     "id": "d3c25424-3803-44b7-a7a4-cc881d1a2717",
@@ -9148,7 +9148,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "d3c25424-3803-44b7-a7a4-cc881d1a2717.jpg"
+    "image": "d3c25424-3803-44b7-a7a4-cc881d1a2717.png"
   },
   {
     "id": "d79064c7-00e9-4739-bd7d-7087b3c6ed76",
@@ -9163,7 +9163,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "d79064c7-00e9-4739-bd7d-7087b3c6ed76.jpg"
+    "image": "d79064c7-00e9-4739-bd7d-7087b3c6ed76.png"
   },
   {
     "id": "dae244a8-ec76-4e17-b5e4-c6a17bbf2a7f",
@@ -9178,7 +9178,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "dae244a8-ec76-4e17-b5e4-c6a17bbf2a7f.jpg"
+    "image": "dae244a8-ec76-4e17-b5e4-c6a17bbf2a7f.png"
   },
   {
     "id": "c0a80712-4290-4bda-b4f5-22c5592666ad",
@@ -9193,7 +9193,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "c0a80712-4290-4bda-b4f5-22c5592666ad.jpg"
+    "image": "c0a80712-4290-4bda-b4f5-22c5592666ad.png"
   },
   {
     "id": "9fac7707-e28d-48e6-9924-1e27534b0776",
@@ -9208,7 +9208,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "9fac7707-e28d-48e6-9924-1e27534b0776.jpg"
+    "image": "9fac7707-e28d-48e6-9924-1e27534b0776.png"
   },
   {
     "id": "9211d9e4-80f9-4ce3-a1ab-769966acefc0",
@@ -9224,7 +9224,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "9211d9e4-80f9-4ce3-a1ab-769966acefc0.jpg"
+    "image": "9211d9e4-80f9-4ce3-a1ab-769966acefc0.png"
   },
   {
     "id": "dbef4b65-f52f-48a7-8bf9-edc289fed217",
@@ -9240,7 +9240,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "dbef4b65-f52f-48a7-8bf9-edc289fed217.jpg"
+    "image": "dbef4b65-f52f-48a7-8bf9-edc289fed217.png"
   },
   {
     "id": "6fdf1e4d-ef80-4347-a819-6a3fe6b02fed",
@@ -9256,7 +9256,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "6fdf1e4d-ef80-4347-a819-6a3fe6b02fed.jpg"
+    "image": "6fdf1e4d-ef80-4347-a819-6a3fe6b02fed.png"
   },
   {
     "id": "338cbff4-3435-4fd9-9d23-63b25fc243c4",
@@ -9272,7 +9272,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "338cbff4-3435-4fd9-9d23-63b25fc243c4.jpg"
+    "image": "338cbff4-3435-4fd9-9d23-63b25fc243c4.png"
   },
   {
     "id": "2e6b5c14-1f69-436b-a753-f0c6ff18ba42",
@@ -9288,7 +9288,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "2e6b5c14-1f69-436b-a753-f0c6ff18ba42.jpg"
+    "image": "2e6b5c14-1f69-436b-a753-f0c6ff18ba42.png"
   },
   {
     "id": "30cfeae7-a962-48c3-bd75-cb46841d4c00",
@@ -9304,7 +9304,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "30cfeae7-a962-48c3-bd75-cb46841d4c00.jpg"
+    "image": "30cfeae7-a962-48c3-bd75-cb46841d4c00.png"
   },
   {
     "id": "6809039c-abcd-46c6-b2fb-d4afa6a06106",
@@ -9320,7 +9320,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "6809039c-abcd-46c6-b2fb-d4afa6a06106.jpg"
+    "image": "6809039c-abcd-46c6-b2fb-d4afa6a06106.png"
   },
   {
     "id": "291a4136-b451-40c2-9798-ec12e28b3d5a",
@@ -9336,7 +9336,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "291a4136-b451-40c2-9798-ec12e28b3d5a.jpg"
+    "image": "291a4136-b451-40c2-9798-ec12e28b3d5a.png"
   },
   {
     "id": "6f59c625-bdc8-47e1-bf1d-1349669de90e",
@@ -9353,7 +9353,7 @@
     "Designer": "Official",
     "Type": "Terrain Marker",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "6f59c625-bdc8-47e1-bf1d-1349669de90e.jpg"
+    "image": "6f59c625-bdc8-47e1-bf1d-1349669de90e.png"
   },
   {
     "id": "c3fb9471-4dc7-4827-977d-f6dbf719082f",
@@ -9369,7 +9369,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "c3fb9471-4dc7-4827-977d-f6dbf719082f.jpg"
+    "image": "c3fb9471-4dc7-4827-977d-f6dbf719082f.png"
   },
   {
     "id": "5a082bed-edef-43ab-bd4a-9d3d421ab8fc",
@@ -9385,7 +9385,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "5a082bed-edef-43ab-bd4a-9d3d421ab8fc.jpg"
+    "image": "5a082bed-edef-43ab-bd4a-9d3d421ab8fc.png"
   },
   {
     "id": "f9fd1741-91b9-4197-8ef1-3a50dc2673e8",
@@ -9401,7 +9401,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "f9fd1741-91b9-4197-8ef1-3a50dc2673e8.jpg"
+    "image": "f9fd1741-91b9-4197-8ef1-3a50dc2673e8.png"
   },
   {
     "id": "ecccccaa-78ca-455b-8409-9df1c51c6a4f",
@@ -9417,7 +9417,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "ecccccaa-78ca-455b-8409-9df1c51c6a4f.jpg"
+    "image": "ecccccaa-78ca-455b-8409-9df1c51c6a4f.png"
   },
   {
     "id": "a6816ce1-db29-4aed-a82a-3d7b123c8dc2",
@@ -9433,7 +9433,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "a6816ce1-db29-4aed-a82a-3d7b123c8dc2.jpg"
+    "image": "a6816ce1-db29-4aed-a82a-3d7b123c8dc2.png"
   },
   {
     "id": "3e00a0be-d902-4f54-959f-db8da6f86dd1",
@@ -9449,7 +9449,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "3e00a0be-d902-4f54-959f-db8da6f86dd1.jpg"
+    "image": "3e00a0be-d902-4f54-959f-db8da6f86dd1.png"
   },
   {
     "id": "17349369-32ac-4f93-a4ce-6353a5f6bb4e",
@@ -9465,7 +9465,7 @@
     "Designer": "Official",
     "Type": "Equipment",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "17349369-32ac-4f93-a4ce-6353a5f6bb4e.jpg"
+    "image": "17349369-32ac-4f93-a4ce-6353a5f6bb4e.png"
   },
   {
     "id": "5f5f3bb3-c9c9-4a5e-8490-e266a577a943",
@@ -9480,7 +9480,7 @@
     "Designer": "Official",
     "Type": "Terrain Marker",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "5f5f3bb3-c9c9-4a5e-8490-e266a577a943.jpg"
+    "image": "5f5f3bb3-c9c9-4a5e-8490-e266a577a943.png"
   },
   {
     "id": "2b005013-06b2-4434-9eaa-b23737eb27fa",
@@ -9495,7 +9495,7 @@
     "Designer": "Official",
     "Type": "Terrain Marker",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "2b005013-06b2-4434-9eaa-b23737eb27fa.jpg"
+    "image": "2b005013-06b2-4434-9eaa-b23737eb27fa.png"
   },
   {
     "id": "0526ad08-d698-4e05-bd54-352863094524",
@@ -9510,7 +9510,7 @@
     "Designer": "Official",
     "Type": "Terrain Marker",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "0526ad08-d698-4e05-bd54-352863094524.jpg"
+    "image": "0526ad08-d698-4e05-bd54-352863094524.png"
   },
   {
     "id": "6158e61d-5337-42f8-839d-4c0ec458da4a",
@@ -9525,6 +9525,6 @@
     "Designer": "Official",
     "Type": "Terrain Marker",
     "set_id": "12098b6e-e758-471f-87ad-fd7add02e645",
-    "image": "6158e61d-5337-42f8-839d-4c0ec458da4a.jpg"
+    "image": "6158e61d-5337-42f8-839d-4c0ec458da4a.png"
   }
 ]

@@ -30,7 +30,7 @@
         "Defense Ability": "Barrier",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click1.jpg"
+        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click1.png"
       },
       {
         "name": "Magneto",
@@ -45,7 +45,7 @@
         "Defense Ability": "Barrier",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click2.jpg"
+        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click2.png"
       },
       {
         "name": "Magneto",
@@ -60,7 +60,7 @@
         "Defense Ability": "Barrier",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click3.jpg"
+        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click3.png"
       },
       {
         "name": "Magneto",
@@ -75,7 +75,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click4.jpg"
+        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click4.png"
       },
       {
         "name": "Magneto",
@@ -89,7 +89,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click5.jpg"
+        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click5.png"
       },
       {
         "name": "Magneto",
@@ -103,7 +103,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click6.jpg"
+        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click6.png"
       },
       {
         "name": "Magneto",
@@ -117,7 +117,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
-        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click7.jpg"
+        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click7.png"
       },
       {
         "name": "Magneto",
@@ -131,7 +131,7 @@
         "Defense": "16",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
-        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click8.jpg"
+        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.Click8.png"
       },
       {
         "name": "Magneto",
@@ -141,14 +141,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.KO.jpg"
+        "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.jpg"
+    "image": "76bd2908-57f7-45cb-aab0-313c9ff80df1.png"
   },
   {
     "id": "490ba3d4-aa69-469f-80dc-0d1f49e41666",
@@ -180,7 +180,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.Click1.jpg"
+        "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.Click1.png"
       },
       {
         "name": "Jean Grey",
@@ -195,7 +195,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.Click2.jpg"
+        "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.Click2.png"
       },
       {
         "name": "Jean Grey",
@@ -210,7 +210,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.Click3.jpg"
+        "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.Click3.png"
       },
       {
         "name": "Jean Grey",
@@ -225,7 +225,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.Click4.jpg"
+        "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.Click4.png"
       },
       {
         "name": "Jean Grey",
@@ -240,7 +240,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.Click5.jpg"
+        "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.Click5.png"
       },
       {
         "name": "Jean Grey",
@@ -250,14 +250,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.KO.jpg"
+        "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.jpg"
+    "image": "490ba3d4-aa69-469f-80dc-0d1f49e41666.png"
   },
   {
     "id": "4ab5749f-36c0-4bd9-8af6-ae8c86208d7b",
@@ -286,14 +286,14 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "4ab5749f-36c0-4bd9-8af6-ae8c86208d7b.Click1.jpg"
+        "image": "4ab5749f-36c0-4bd9-8af6-ae8c86208d7b.Click1.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "4ab5749f-36c0-4bd9-8af6-ae8c86208d7b.jpg"
+    "image": "4ab5749f-36c0-4bd9-8af6-ae8c86208d7b.png"
   },
   {
     "id": "b6e9d463-6036-44c8-a014-6bba79529bc0",
@@ -326,7 +326,7 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.Click1.jpg"
+        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.Click1.png"
       },
       {
         "name": "Cyclops",
@@ -341,7 +341,7 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.Click2.jpg"
+        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.Click2.png"
       },
       {
         "name": "Cyclops",
@@ -356,7 +356,7 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.Click3.jpg"
+        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.Click3.png"
       },
       {
         "name": "Cyclops",
@@ -371,7 +371,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.Click4.jpg"
+        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.Click4.png"
       },
       {
         "name": "Cyclops",
@@ -386,7 +386,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.Click5.jpg"
+        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.Click5.png"
       },
       {
         "name": "Cyclops",
@@ -401,7 +401,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.Click6.jpg"
+        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.Click6.png"
       },
       {
         "name": "Cyclops",
@@ -411,14 +411,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.KO.jpg"
+        "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.jpg"
+    "image": "b6e9d463-6036-44c8-a014-6bba79529bc0.png"
   },
   {
     "id": "f0aa0e48-aec4-4d75-9531-53ba9c182571",
@@ -448,7 +448,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "1",
         "Damage Ability": "Special - LEECH CAN HELP",
-        "image": "f0aa0e48-aec4-4d75-9531-53ba9c182571.Click1.jpg"
+        "image": "f0aa0e48-aec4-4d75-9531-53ba9c182571.Click1.png"
       },
       {
         "name": "Leech",
@@ -462,7 +462,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "1",
         "Damage Ability": "Special - LEECH CAN HELP",
-        "image": "f0aa0e48-aec4-4d75-9531-53ba9c182571.Click2.jpg"
+        "image": "f0aa0e48-aec4-4d75-9531-53ba9c182571.Click2.png"
       },
       {
         "name": "Leech",
@@ -476,7 +476,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "1",
         "Damage Ability": "Special - LEECH CAN HELP",
-        "image": "f0aa0e48-aec4-4d75-9531-53ba9c182571.Click3.jpg"
+        "image": "f0aa0e48-aec4-4d75-9531-53ba9c182571.Click3.png"
       },
       {
         "name": "Leech",
@@ -486,14 +486,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "f0aa0e48-aec4-4d75-9531-53ba9c182571.KO.jpg"
+        "image": "f0aa0e48-aec4-4d75-9531-53ba9c182571.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "f0aa0e48-aec4-4d75-9531-53ba9c182571.jpg"
+    "image": "f0aa0e48-aec4-4d75-9531-53ba9c182571.png"
   },
   {
     "id": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6",
@@ -525,7 +525,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.Click1.jpg"
+        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.Click1.png"
       },
       {
         "name": "Gambit",
@@ -540,7 +540,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.Click2.jpg"
+        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.Click2.png"
       },
       {
         "name": "Gambit",
@@ -555,7 +555,7 @@
         "Defense": "17",
         "Defense Ability": "Willpower",
         "Damage": "2",
-        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.Click3.jpg"
+        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.Click3.png"
       },
       {
         "name": "Gambit",
@@ -569,7 +569,7 @@
         "Defense": "17",
         "Defense Ability": "Willpower",
         "Damage": "3",
-        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.Click4.jpg"
+        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.Click4.png"
       },
       {
         "name": "Gambit",
@@ -584,7 +584,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.Click5.jpg"
+        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.Click5.png"
       },
       {
         "name": "Gambit",
@@ -599,7 +599,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.Click6.jpg"
+        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.Click6.png"
       },
       {
         "name": "Gambit",
@@ -609,14 +609,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.KO.jpg"
+        "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.jpg"
+    "image": "41b1f8b4-ccbe-47b4-a90d-2562f7a107e6.png"
   },
   {
     "id": "3340bf50-cdde-480b-af5f-66ef5ecf9272",
@@ -648,7 +648,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
-        "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.Click1.jpg"
+        "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.Click1.png"
       },
       {
         "name": "Jubilee",
@@ -662,7 +662,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
-        "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.Click2.jpg"
+        "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.Click2.png"
       },
       {
         "name": "Jubilee",
@@ -677,7 +677,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.Click3.jpg"
+        "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.Click3.png"
       },
       {
         "name": "Jubilee",
@@ -692,7 +692,7 @@
         "Defense Ability": "Defend",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.Click4.jpg"
+        "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.Click4.png"
       },
       {
         "name": "Jubilee",
@@ -707,7 +707,7 @@
         "Defense Ability": "Defend",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.Click5.jpg"
+        "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.Click5.png"
       },
       {
         "name": "Jubilee",
@@ -717,14 +717,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.KO.jpg"
+        "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.jpg"
+    "image": "3340bf50-cdde-480b-af5f-66ef5ecf9272.png"
   },
   {
     "id": "e5092c02-cd5d-4e7e-9da8-def9aeda7436",
@@ -756,7 +756,7 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.Click1.jpg"
+        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.Click1.png"
       },
       {
         "name": "Jubilee",
@@ -770,7 +770,7 @@
         "Defense": "17",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.Click2.jpg"
+        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.Click2.png"
       },
       {
         "name": "Jubilee",
@@ -784,7 +784,7 @@
         "Defense": "17",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.Click3.jpg"
+        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.Click3.png"
       },
       {
         "name": "Jubilee",
@@ -798,7 +798,7 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Enhancement",
-        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.Click4.jpg"
+        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.Click4.png"
       },
       {
         "name": "Jubilee",
@@ -812,7 +812,7 @@
         "Defense": "16",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.Click5.jpg"
+        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.Click5.png"
       },
       {
         "name": "Jubilee",
@@ -826,7 +826,7 @@
         "Defense": "16",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.Click6.jpg"
+        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.Click6.png"
       },
       {
         "name": "Jubilee",
@@ -836,14 +836,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.KO.jpg"
+        "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.jpg"
+    "image": "e5092c02-cd5d-4e7e-9da8-def9aeda7436.png"
   },
   {
     "id": "2df67de5-9c15-4065-871e-d6fcd0ad50fa",
@@ -876,7 +876,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - SALUTATIONS AND WELCOME",
-        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.Click1.jpg"
+        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.Click1.png"
       },
       {
         "name": "Beast",
@@ -891,7 +891,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.Click2.jpg"
+        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.Click2.png"
       },
       {
         "name": "Beast",
@@ -906,7 +906,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.Click3.jpg"
+        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.Click3.png"
       },
       {
         "name": "Beast",
@@ -922,7 +922,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Special - SALUTATIONS AND WELCOME",
-        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.Click4.jpg"
+        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.Click4.png"
       },
       {
         "name": "Beast",
@@ -936,7 +936,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.Click5.jpg"
+        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.Click5.png"
       },
       {
         "name": "Beast",
@@ -950,7 +950,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.Click6.jpg"
+        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.Click6.png"
       },
       {
         "name": "Beast",
@@ -960,14 +960,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.KO.jpg"
+        "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.jpg"
+    "image": "2df67de5-9c15-4065-871e-d6fcd0ad50fa.png"
   },
   {
     "id": "1bce4edc-edc1-49d8-a76c-9f3dee167888",
@@ -1000,7 +1000,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.Click1.jpg"
+        "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.Click1.png"
       },
       {
         "name": "Prime Sentinel",
@@ -1015,7 +1015,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.Click2.jpg"
+        "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.Click2.png"
       },
       {
         "name": "Prime Sentinel",
@@ -1030,7 +1030,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "2",
         "Damage Ability": "Close Combat Expert",
-        "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.Click3.jpg"
+        "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.Click3.png"
       },
       {
         "name": "Prime Sentinel",
@@ -1046,7 +1046,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.Click4.jpg"
+        "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.Click4.png"
       },
       {
         "name": "Prime Sentinel",
@@ -1061,7 +1061,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.Click5.jpg"
+        "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.Click5.png"
       },
       {
         "name": "Prime Sentinel",
@@ -1071,14 +1071,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.KO.jpg"
+        "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.jpg"
+    "image": "1bce4edc-edc1-49d8-a76c-9f3dee167888.png"
   },
   {
     "id": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef",
@@ -1111,7 +1111,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "1",
         "Damage Ability": "Support",
-        "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.Click1.jpg"
+        "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.Click1.png"
       },
       {
         "name": "Sentinel Technician",
@@ -1126,7 +1126,7 @@
         "Defense Ability": "Toughness",
         "Damage": "1",
         "Damage Ability": "Outwit",
-        "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.Click2.jpg"
+        "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.Click2.png"
       },
       {
         "name": "Sentinel Technician",
@@ -1141,7 +1141,7 @@
         "Defense Ability": "Toughness",
         "Damage": "1",
         "Damage Ability": "Outwit",
-        "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.Click3.jpg"
+        "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.Click3.png"
       },
       {
         "name": "Sentinel Technician",
@@ -1157,7 +1157,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "1",
         "Damage Ability": "Support",
-        "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.Click4.jpg"
+        "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.Click4.png"
       },
       {
         "name": "Sentinel Technician",
@@ -1172,7 +1172,7 @@
         "Defense Ability": "Toughness",
         "Damage": "1",
         "Damage Ability": "Outwit",
-        "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.Click5.jpg"
+        "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.Click5.png"
       },
       {
         "name": "Sentinel Technician",
@@ -1182,14 +1182,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.KO.jpg"
+        "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.jpg"
+    "image": "d85df1ea-5c88-43b9-aa5a-2ef18fcb99ef.png"
   },
   {
     "id": "cc8bfdf9-f92e-4819-8840-e2a5bf385171",
@@ -1222,7 +1222,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.Click1.jpg"
+        "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.Click1.png"
       },
       {
         "name": "Friend of Humanity",
@@ -1237,7 +1237,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.Click2.jpg"
+        "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.Click2.png"
       },
       {
         "name": "Friend of Humanity",
@@ -1252,7 +1252,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.Click3.jpg"
+        "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.Click3.png"
       },
       {
         "name": "Friend of Humanity",
@@ -1268,7 +1268,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "0",
         "Damage Ability": "Empower",
-        "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.Click4.jpg"
+        "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.Click4.png"
       },
       {
         "name": "Friend of Humanity",
@@ -1283,7 +1283,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "0",
         "Damage Ability": "Empower",
-        "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.Click5.jpg"
+        "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.Click5.png"
       },
       {
         "name": "Friend of Humanity",
@@ -1293,14 +1293,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.KO.jpg"
+        "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.jpg"
+    "image": "cc8bfdf9-f92e-4819-8840-e2a5bf385171.png"
   },
   {
     "id": "8dcc8abb-7e52-42d1-a061-e507bac692b8",
@@ -1331,7 +1331,7 @@
         "Defense": "18",
         "Defense Ability": "Special - TAKING HITS FOR THE TEAM",
         "Damage": "3",
-        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click1.jpg"
+        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click1.png"
       },
       {
         "name": "Wolverine",
@@ -1345,7 +1345,7 @@
         "Defense": "18",
         "Defense Ability": "Special - TAKING HITS FOR THE TEAM",
         "Damage": "3",
-        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click2.jpg"
+        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click2.png"
       },
       {
         "name": "Wolverine",
@@ -1359,7 +1359,7 @@
         "Defense": "18",
         "Defense Ability": "Special - TAKING HITS FOR THE TEAM",
         "Damage": "3",
-        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click3.jpg"
+        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click3.png"
       },
       {
         "name": "Wolverine",
@@ -1373,7 +1373,7 @@
         "Defense": "17",
         "Defense Ability": "Special - TAKING HITS FOR THE TEAM",
         "Damage": "3",
-        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click4.jpg"
+        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click4.png"
       },
       {
         "name": "Wolverine",
@@ -1388,7 +1388,7 @@
         "Defense": "17",
         "Defense Ability": "Special - TAKING HITS FOR THE TEAM",
         "Damage": "3",
-        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click5.jpg"
+        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click5.png"
       },
       {
         "name": "Wolverine",
@@ -1402,7 +1402,7 @@
         "Defense": "17",
         "Defense Ability": "Regeneration",
         "Damage": "2",
-        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click6.jpg"
+        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click6.png"
       },
       {
         "name": "Wolverine",
@@ -1416,7 +1416,7 @@
         "Defense": "17",
         "Defense Ability": "Regeneration",
         "Damage": "2",
-        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click7.jpg"
+        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click7.png"
       },
       {
         "name": "Wolverine",
@@ -1430,7 +1430,7 @@
         "Defense": "17",
         "Defense Ability": "Regeneration",
         "Damage": "2",
-        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click8.jpg"
+        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click8.png"
       },
       {
         "name": "Wolverine",
@@ -1444,7 +1444,7 @@
         "Defense": "17",
         "Defense Ability": "Regeneration",
         "Damage": "2",
-        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click9.jpg"
+        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.Click9.png"
       },
       {
         "name": "Wolverine",
@@ -1454,14 +1454,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.KO.jpg"
+        "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.jpg"
+    "image": "8dcc8abb-7e52-42d1-a061-e507bac692b8.png"
   },
   {
     "id": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47",
@@ -1494,7 +1494,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click1.jpg"
+        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click1.png"
       },
       {
         "name": "Wolverine",
@@ -1509,7 +1509,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click2.jpg"
+        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click2.png"
       },
       {
         "name": "Wolverine",
@@ -1524,7 +1524,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click3.jpg"
+        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click3.png"
       },
       {
         "name": "Wolverine",
@@ -1539,7 +1539,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click4.jpg"
+        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click4.png"
       },
       {
         "name": "Wolverine",
@@ -1554,7 +1554,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click5.jpg"
+        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click5.png"
       },
       {
         "name": "Wolverine",
@@ -1569,7 +1569,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click6.jpg"
+        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click6.png"
       },
       {
         "name": "Wolverine",
@@ -1584,7 +1584,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click7.jpg"
+        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click7.png"
       },
       {
         "name": "Wolverine",
@@ -1599,7 +1599,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click8.jpg"
+        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click8.png"
       },
       {
         "name": "Wolverine",
@@ -1614,7 +1614,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click9.jpg"
+        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.Click9.png"
       },
       {
         "name": "Wolverine",
@@ -1624,14 +1624,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.KO.jpg"
+        "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.jpg"
+    "image": "1100c76a-edc6-4dd1-a6d0-852bcc68ce47.png"
   },
   {
     "id": "c846356b-fb3f-4d64-bc7d-c710a8d898eb",
@@ -1662,7 +1662,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click1.jpg"
+        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click1.png"
       },
       {
         "name": "Rogue",
@@ -1676,7 +1676,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click2.jpg"
+        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click2.png"
       },
       {
         "name": "Rogue",
@@ -1691,7 +1691,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click3.jpg"
+        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click3.png"
       },
       {
         "name": "Rogue",
@@ -1706,7 +1706,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click4.jpg"
+        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click4.png"
       },
       {
         "name": "Rogue",
@@ -1721,7 +1721,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click5.jpg"
+        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click5.png"
       },
       {
         "name": "Rogue",
@@ -1736,7 +1736,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click6.jpg"
+        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click6.png"
       },
       {
         "name": "Rogue",
@@ -1751,7 +1751,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click7.jpg"
+        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.Click7.png"
       },
       {
         "name": "Rogue",
@@ -1761,14 +1761,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.KO.jpg"
+        "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.jpg"
+    "image": "c846356b-fb3f-4d64-bc7d-c710a8d898eb.png"
   },
   {
     "id": "d4740d96-941a-42e1-b5e1-c652710288d4",
@@ -1801,7 +1801,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - BEIGNETS AND BASKETBALL",
-        "image": "d4740d96-941a-42e1-b5e1-c652710288d4.Click1.jpg"
+        "image": "d4740d96-941a-42e1-b5e1-c652710288d4.Click1.png"
       },
       {
         "name": "Gambit",
@@ -1816,7 +1816,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - BEIGNETS AND BASKETBALL",
-        "image": "d4740d96-941a-42e1-b5e1-c652710288d4.Click2.jpg"
+        "image": "d4740d96-941a-42e1-b5e1-c652710288d4.Click2.png"
       },
       {
         "name": "Gambit",
@@ -1831,7 +1831,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - BEIGNETS AND BASKETBALL",
-        "image": "d4740d96-941a-42e1-b5e1-c652710288d4.Click3.jpg"
+        "image": "d4740d96-941a-42e1-b5e1-c652710288d4.Click3.png"
       },
       {
         "name": "Gambit",
@@ -1846,7 +1846,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "d4740d96-941a-42e1-b5e1-c652710288d4.Click4.jpg"
+        "image": "d4740d96-941a-42e1-b5e1-c652710288d4.Click4.png"
       },
       {
         "name": "Gambit",
@@ -1861,7 +1861,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "d4740d96-941a-42e1-b5e1-c652710288d4.Click5.jpg"
+        "image": "d4740d96-941a-42e1-b5e1-c652710288d4.Click5.png"
       },
       {
         "name": "Gambit",
@@ -1871,14 +1871,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "d4740d96-941a-42e1-b5e1-c652710288d4.KO.jpg"
+        "image": "d4740d96-941a-42e1-b5e1-c652710288d4.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "d4740d96-941a-42e1-b5e1-c652710288d4.jpg"
+    "image": "d4740d96-941a-42e1-b5e1-c652710288d4.png"
   },
   {
     "id": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd",
@@ -1909,7 +1909,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "1",
         "Damage Ability": "Special - COMMISSION ON SUPERHUMAN ACTIVITIES",
-        "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.Click1.jpg"
+        "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.Click1.png"
       },
       {
         "name": "Dr. Valerie Cooper",
@@ -1923,7 +1923,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "1",
         "Damage Ability": "Special - COMMISSION ON SUPERHUMAN ACTIVITIES",
-        "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.Click2.jpg"
+        "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.Click2.png"
       },
       {
         "name": "Dr. Valerie Cooper",
@@ -1938,7 +1938,7 @@
         "Defense Ability": "Willpower",
         "Damage": "1",
         "Damage Ability": "Leadership",
-        "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.Click3.jpg"
+        "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.Click3.png"
       },
       {
         "name": "Dr. Valerie Cooper",
@@ -1953,7 +1953,7 @@
         "Defense Ability": "Willpower",
         "Damage": "1",
         "Damage Ability": "Leadership",
-        "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.Click4.jpg"
+        "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.Click4.png"
       },
       {
         "name": "Dr. Valerie Cooper",
@@ -1968,7 +1968,7 @@
         "Defense Ability": "Willpower",
         "Damage": "1",
         "Damage Ability": "Leadership",
-        "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.Click5.jpg"
+        "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.Click5.png"
       },
       {
         "name": "Dr. Valerie Cooper",
@@ -1978,14 +1978,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.KO.jpg"
+        "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.jpg"
+    "image": "562c2cd5-fb94-4d07-8f2d-c9cb3b6afedd.png"
   },
   {
     "id": "29a72742-a8e0-444b-b208-0a5d06d48bc8",
@@ -2014,14 +2014,14 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "1",
-        "image": "29a72742-a8e0-444b-b208-0a5d06d48bc8.Click1.jpg"
+        "image": "29a72742-a8e0-444b-b208-0a5d06d48bc8.Click1.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "29a72742-a8e0-444b-b208-0a5d06d48bc8.jpg"
+    "image": "29a72742-a8e0-444b-b208-0a5d06d48bc8.png"
   },
   {
     "id": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0",
@@ -2054,7 +2054,7 @@
         "Defense Ability": "Toughness",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click1.jpg"
+        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click1.png"
       },
       {
         "name": "Magneto",
@@ -2069,7 +2069,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click2.jpg"
+        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click2.png"
       },
       {
         "name": "Magneto",
@@ -2084,7 +2084,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click3.jpg"
+        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click3.png"
       },
       {
         "name": "Magneto",
@@ -2099,7 +2099,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click4.jpg"
+        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click4.png"
       },
       {
         "name": "Magneto",
@@ -2114,7 +2114,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click5.jpg"
+        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click5.png"
       },
       {
         "name": "Magneto",
@@ -2128,7 +2128,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click6.jpg"
+        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click6.png"
       },
       {
         "name": "Magneto",
@@ -2142,7 +2142,7 @@
         "Defense": "17",
         "Defense Ability": "Invulnerability",
         "Damage": "3",
-        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click7.jpg"
+        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click7.png"
       },
       {
         "name": "Magneto",
@@ -2156,7 +2156,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
-        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click8.jpg"
+        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click8.png"
       },
       {
         "name": "Magneto",
@@ -2170,7 +2170,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
-        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click9.jpg"
+        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click9.png"
       },
       {
         "name": "Magneto",
@@ -2184,7 +2184,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
-        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click10.jpg"
+        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.Click10.png"
       },
       {
         "name": "Magneto",
@@ -2194,14 +2194,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.KO.jpg"
+        "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.jpg"
+    "image": "e32cb9b1-cde5-4b65-bee3-e4bb7b3a94c0.png"
   },
   {
     "id": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe",
@@ -2233,7 +2233,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.Click1.jpg"
+        "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.Click1.png"
       },
       {
         "name": "Madelyne Pryor",
@@ -2248,7 +2248,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.Click2.jpg"
+        "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.Click2.png"
       },
       {
         "name": "Madelyne Pryor",
@@ -2263,7 +2263,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.Click3.jpg"
+        "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.Click3.png"
       },
       {
         "name": "Madelyne Pryor",
@@ -2278,7 +2278,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.Click4.jpg"
+        "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.Click4.png"
       },
       {
         "name": "Madelyne Pryor",
@@ -2293,7 +2293,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.Click5.jpg"
+        "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.Click5.png"
       },
       {
         "name": "Madelyne Pryor",
@@ -2303,14 +2303,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.KO.jpg"
+        "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.jpg"
+    "image": "b5fed9f5-cd9f-44f7-b912-183fe4785bfe.png"
   },
   {
     "id": "434839c6-797d-4730-9105-641bb690d559",
@@ -2339,14 +2339,14 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "434839c6-797d-4730-9105-641bb690d559.Click1.jpg"
+        "image": "434839c6-797d-4730-9105-641bb690d559.Click1.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "434839c6-797d-4730-9105-641bb690d559.jpg"
+    "image": "434839c6-797d-4730-9105-641bb690d559.png"
   },
   {
     "id": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7",
@@ -2377,7 +2377,7 @@
         "Defense": "18",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.Click1.jpg"
+        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.Click1.png"
       },
       {
         "name": "Wolverine",
@@ -2391,7 +2391,7 @@
         "Defense": "18",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.Click2.jpg"
+        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.Click2.png"
       },
       {
         "name": "Wolverine",
@@ -2405,7 +2405,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "3",
-        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.Click3.jpg"
+        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.Click3.png"
       },
       {
         "name": "Wolverine",
@@ -2420,7 +2420,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.Click4.jpg"
+        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.Click4.png"
       },
       {
         "name": "Wolverine",
@@ -2435,7 +2435,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.Click5.jpg"
+        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.Click5.png"
       },
       {
         "name": "Wolverine",
@@ -2450,7 +2450,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.Click6.jpg"
+        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.Click6.png"
       },
       {
         "name": "Wolverine",
@@ -2460,14 +2460,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.KO.jpg"
+        "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.jpg"
+    "image": "a6c5c246-1ac3-4818-9ef5-6574eda3cee7.png"
   },
   {
     "id": "578407f4-ac66-433c-94eb-425b435ad17e",
@@ -2499,7 +2499,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Enhancement",
-        "image": "578407f4-ac66-433c-94eb-425b435ad17e.Click1.jpg"
+        "image": "578407f4-ac66-433c-94eb-425b435ad17e.Click1.png"
       },
       {
         "name": "Dino Man",
@@ -2514,7 +2514,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "578407f4-ac66-433c-94eb-425b435ad17e.Click2.jpg"
+        "image": "578407f4-ac66-433c-94eb-425b435ad17e.Click2.png"
       },
       {
         "name": "Dino Man",
@@ -2529,7 +2529,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "578407f4-ac66-433c-94eb-425b435ad17e.Click3.jpg"
+        "image": "578407f4-ac66-433c-94eb-425b435ad17e.Click3.png"
       },
       {
         "name": "Dino Man",
@@ -2545,7 +2545,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "578407f4-ac66-433c-94eb-425b435ad17e.Click4.jpg"
+        "image": "578407f4-ac66-433c-94eb-425b435ad17e.Click4.png"
       },
       {
         "name": "Dino Man",
@@ -2560,7 +2560,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "578407f4-ac66-433c-94eb-425b435ad17e.Click5.jpg"
+        "image": "578407f4-ac66-433c-94eb-425b435ad17e.Click5.png"
       },
       {
         "name": "Dino Man",
@@ -2570,14 +2570,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "578407f4-ac66-433c-94eb-425b435ad17e.KO.jpg"
+        "image": "578407f4-ac66-433c-94eb-425b435ad17e.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "578407f4-ac66-433c-94eb-425b435ad17e.jpg"
+    "image": "578407f4-ac66-433c-94eb-425b435ad17e.png"
   },
   {
     "id": "e0007f70-1e86-4b56-847c-1c960858e24c",
@@ -2609,7 +2609,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "e0007f70-1e86-4b56-847c-1c960858e24c.Click1.jpg"
+        "image": "e0007f70-1e86-4b56-847c-1c960858e24c.Click1.png"
       },
       {
         "name": "Dino Man",
@@ -2624,7 +2624,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "e0007f70-1e86-4b56-847c-1c960858e24c.Click2.jpg"
+        "image": "e0007f70-1e86-4b56-847c-1c960858e24c.Click2.png"
       },
       {
         "name": "Dino Man",
@@ -2639,7 +2639,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "e0007f70-1e86-4b56-847c-1c960858e24c.Click3.jpg"
+        "image": "e0007f70-1e86-4b56-847c-1c960858e24c.Click3.png"
       },
       {
         "name": "Dino Man",
@@ -2655,7 +2655,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "e0007f70-1e86-4b56-847c-1c960858e24c.Click4.jpg"
+        "image": "e0007f70-1e86-4b56-847c-1c960858e24c.Click4.png"
       },
       {
         "name": "Dino Man",
@@ -2670,7 +2670,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "e0007f70-1e86-4b56-847c-1c960858e24c.Click5.jpg"
+        "image": "e0007f70-1e86-4b56-847c-1c960858e24c.Click5.png"
       },
       {
         "name": "Dino Man",
@@ -2680,14 +2680,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "e0007f70-1e86-4b56-847c-1c960858e24c.KO.jpg"
+        "image": "e0007f70-1e86-4b56-847c-1c960858e24c.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "e0007f70-1e86-4b56-847c-1c960858e24c.jpg"
+    "image": "e0007f70-1e86-4b56-847c-1c960858e24c.png"
   },
   {
     "id": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3",
@@ -2719,7 +2719,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.Click1.jpg"
+        "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.Click1.png"
       },
       {
         "name": "Dino Man",
@@ -2734,7 +2734,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.Click2.jpg"
+        "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.Click2.png"
       },
       {
         "name": "Dino Man",
@@ -2749,7 +2749,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.Click3.jpg"
+        "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.Click3.png"
       },
       {
         "name": "Dino Man",
@@ -2765,7 +2765,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.Click4.jpg"
+        "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.Click4.png"
       },
       {
         "name": "Dino Man",
@@ -2780,7 +2780,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.Click5.jpg"
+        "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.Click5.png"
       },
       {
         "name": "Dino Man",
@@ -2790,14 +2790,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.KO.jpg"
+        "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.jpg"
+    "image": "4fd83094-bd22-4f21-bdf1-c0bf1f0a35f3.png"
   },
   {
     "id": "8c11f05a-b8a5-4b83-b654-bf758d6119ac",
@@ -2828,7 +2828,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click1.jpg"
+        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click1.png"
       },
       {
         "name": "Morph",
@@ -2842,7 +2842,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click2.jpg"
+        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click2.png"
       },
       {
         "name": "Morph",
@@ -2856,7 +2856,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click3.jpg"
+        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click3.png"
       },
       {
         "name": "Morph",
@@ -2870,7 +2870,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click4.jpg"
+        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click4.png"
       },
       {
         "name": "Morph",
@@ -2883,7 +2883,7 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click5.jpg"
+        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click5.png"
       },
       {
         "name": "Morph",
@@ -2896,7 +2896,7 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click6.jpg"
+        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click6.png"
       },
       {
         "name": "Morph",
@@ -2909,7 +2909,7 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click7.jpg"
+        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click7.png"
       },
       {
         "name": "Morph",
@@ -2922,7 +2922,7 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click8.jpg"
+        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.Click8.png"
       },
       {
         "name": "Morph",
@@ -2932,14 +2932,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.KO.jpg"
+        "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.jpg"
+    "image": "8c11f05a-b8a5-4b83-b654-bf758d6119ac.png"
   },
   {
     "id": "e2021aa1-b3fc-4371-9251-ee76f6975508",
@@ -2971,7 +2971,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.Click1.jpg"
+        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.Click1.png"
       },
       {
         "name": "Storm",
@@ -2986,7 +2986,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.Click2.jpg"
+        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.Click2.png"
       },
       {
         "name": "Storm",
@@ -3002,7 +3002,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.Click3.jpg"
+        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.Click3.png"
       },
       {
         "name": "Storm",
@@ -3017,7 +3017,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.Click4.jpg"
+        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.Click4.png"
       },
       {
         "name": "Storm",
@@ -3032,7 +3032,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.Click5.jpg"
+        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.Click5.png"
       },
       {
         "name": "Storm",
@@ -3047,7 +3047,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.Click6.jpg"
+        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.Click6.png"
       },
       {
         "name": "Storm",
@@ -3057,14 +3057,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.KO.jpg"
+        "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.jpg"
+    "image": "e2021aa1-b3fc-4371-9251-ee76f6975508.png"
   },
   {
     "id": "db1b4799-230c-47c5-a53a-609030424957",
@@ -3098,7 +3098,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "db1b4799-230c-47c5-a53a-609030424957.Click1.jpg"
+        "image": "db1b4799-230c-47c5-a53a-609030424957.Click1.png"
       },
       {
         "name": "Prime Sentinel",
@@ -3113,7 +3113,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "db1b4799-230c-47c5-a53a-609030424957.Click2.jpg"
+        "image": "db1b4799-230c-47c5-a53a-609030424957.Click2.png"
       },
       {
         "name": "Prime Sentinel",
@@ -3128,7 +3128,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "db1b4799-230c-47c5-a53a-609030424957.Click3.jpg"
+        "image": "db1b4799-230c-47c5-a53a-609030424957.Click3.png"
       },
       {
         "name": "Prime Sentinel",
@@ -3144,7 +3144,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "db1b4799-230c-47c5-a53a-609030424957.Click4.jpg"
+        "image": "db1b4799-230c-47c5-a53a-609030424957.Click4.png"
       },
       {
         "name": "Prime Sentinel",
@@ -3159,7 +3159,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "db1b4799-230c-47c5-a53a-609030424957.Click5.jpg"
+        "image": "db1b4799-230c-47c5-a53a-609030424957.Click5.png"
       },
       {
         "name": "Prime Sentinel",
@@ -3169,14 +3169,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "db1b4799-230c-47c5-a53a-609030424957.KO.jpg"
+        "image": "db1b4799-230c-47c5-a53a-609030424957.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "db1b4799-230c-47c5-a53a-609030424957.jpg"
+    "image": "db1b4799-230c-47c5-a53a-609030424957.png"
   },
   {
     "id": "0b17aa60-46bf-412d-a4f9-5dd93c7d67dd",
@@ -3207,7 +3207,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "0b17aa60-46bf-412d-a4f9-5dd93c7d67dd.Click1.jpg"
+        "image": "0b17aa60-46bf-412d-a4f9-5dd93c7d67dd.Click1.png"
       },
       {
         "name": "Bolivar Trask",
@@ -3221,7 +3221,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "0b17aa60-46bf-412d-a4f9-5dd93c7d67dd.Click2.jpg"
+        "image": "0b17aa60-46bf-412d-a4f9-5dd93c7d67dd.Click2.png"
       },
       {
         "name": "Bolivar Trask",
@@ -3235,7 +3235,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "0b17aa60-46bf-412d-a4f9-5dd93c7d67dd.Click3.jpg"
+        "image": "0b17aa60-46bf-412d-a4f9-5dd93c7d67dd.Click3.png"
       },
       {
         "name": "Bolivar Trask",
@@ -3245,14 +3245,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "0b17aa60-46bf-412d-a4f9-5dd93c7d67dd.KO.jpg"
+        "image": "0b17aa60-46bf-412d-a4f9-5dd93c7d67dd.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "0b17aa60-46bf-412d-a4f9-5dd93c7d67dd.jpg"
+    "image": "0b17aa60-46bf-412d-a4f9-5dd93c7d67dd.png"
   },
   {
     "id": "eb027ed4-8ad7-4573-a751-362bf66b1a74",
@@ -3283,7 +3283,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Enhancement",
-        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click1.jpg"
+        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click1.png"
       },
       {
         "name": "Bolivar Trask",
@@ -3298,7 +3298,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Enhancement",
-        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click2.jpg"
+        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click2.png"
       },
       {
         "name": "Bolivar Trask",
@@ -3313,7 +3313,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Enhancement",
-        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click3.jpg"
+        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click3.png"
       },
       {
         "name": "Bolivar Trask",
@@ -3328,7 +3328,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click4.jpg"
+        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click4.png"
       },
       {
         "name": "Bolivar Trask",
@@ -3343,7 +3343,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click5.jpg"
+        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click5.png"
       },
       {
         "name": "Bolivar Trask",
@@ -3358,7 +3358,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click6.jpg"
+        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click6.png"
       },
       {
         "name": "Bolivar Trask",
@@ -3373,7 +3373,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click7.jpg"
+        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.Click7.png"
       },
       {
         "name": "Bolivar Trask",
@@ -3383,14 +3383,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.KO.jpg"
+        "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.jpg"
+    "image": "eb027ed4-8ad7-4573-a751-362bf66b1a74.png"
   },
   {
     "id": "82df7ecc-2b19-4178-8608-34cbca68c163",
@@ -3423,7 +3423,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "82df7ecc-2b19-4178-8608-34cbca68c163.Click1.jpg"
+        "image": "82df7ecc-2b19-4178-8608-34cbca68c163.Click1.png"
       },
       {
         "name": "Friend of Humanity",
@@ -3438,7 +3438,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "82df7ecc-2b19-4178-8608-34cbca68c163.Click2.jpg"
+        "image": "82df7ecc-2b19-4178-8608-34cbca68c163.Click2.png"
       },
       {
         "name": "Friend of Humanity",
@@ -3453,7 +3453,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "82df7ecc-2b19-4178-8608-34cbca68c163.Click3.jpg"
+        "image": "82df7ecc-2b19-4178-8608-34cbca68c163.Click3.png"
       },
       {
         "name": "Friend of Humanity",
@@ -3469,7 +3469,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "82df7ecc-2b19-4178-8608-34cbca68c163.Click4.jpg"
+        "image": "82df7ecc-2b19-4178-8608-34cbca68c163.Click4.png"
       },
       {
         "name": "Friend of Humanity",
@@ -3484,7 +3484,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Enhancement",
-        "image": "82df7ecc-2b19-4178-8608-34cbca68c163.Click5.jpg"
+        "image": "82df7ecc-2b19-4178-8608-34cbca68c163.Click5.png"
       },
       {
         "name": "Friend of Humanity",
@@ -3494,14 +3494,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "82df7ecc-2b19-4178-8608-34cbca68c163.KO.jpg"
+        "image": "82df7ecc-2b19-4178-8608-34cbca68c163.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "82df7ecc-2b19-4178-8608-34cbca68c163.jpg"
+    "image": "82df7ecc-2b19-4178-8608-34cbca68c163.png"
   },
   {
     "id": "61b4dfdc-76a4-469b-8207-3e33846f4124",
@@ -3533,7 +3533,7 @@
         "Defense": "19",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.Click1.jpg"
+        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.Click1.png"
       },
       {
         "name": "Nightcrawler",
@@ -3547,7 +3547,7 @@
         "Defense": "19",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.Click2.jpg"
+        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.Click2.png"
       },
       {
         "name": "Nightcrawler",
@@ -3561,7 +3561,7 @@
         "Defense": "18",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.Click3.jpg"
+        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.Click3.png"
       },
       {
         "name": "Nightcrawler",
@@ -3575,7 +3575,7 @@
         "Defense": "18",
         "Defense Ability": "Super Senses",
         "Damage": "2",
-        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.Click4.jpg"
+        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.Click4.png"
       },
       {
         "name": "Nightcrawler",
@@ -3589,7 +3589,7 @@
         "Defense": "18",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
-        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.Click5.jpg"
+        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.Click5.png"
       },
       {
         "name": "Nightcrawler",
@@ -3603,7 +3603,7 @@
         "Defense": "18",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
-        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.Click6.jpg"
+        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.Click6.png"
       },
       {
         "name": "Nightcrawler",
@@ -3613,14 +3613,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.KO.jpg"
+        "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.jpg"
+    "image": "61b4dfdc-76a4-469b-8207-3e33846f4124.png"
   },
   {
     "id": "87bea668-9794-488d-81da-7b8deb59509e",
@@ -3652,7 +3652,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "87bea668-9794-488d-81da-7b8deb59509e.Click1.jpg"
+        "image": "87bea668-9794-488d-81da-7b8deb59509e.Click1.png"
       },
       {
         "name": "Bastion",
@@ -3667,7 +3667,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "87bea668-9794-488d-81da-7b8deb59509e.Click2.jpg"
+        "image": "87bea668-9794-488d-81da-7b8deb59509e.Click2.png"
       },
       {
         "name": "Bastion",
@@ -3682,7 +3682,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "87bea668-9794-488d-81da-7b8deb59509e.Click3.jpg"
+        "image": "87bea668-9794-488d-81da-7b8deb59509e.Click3.png"
       },
       {
         "name": "Bastion",
@@ -3697,7 +3697,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "87bea668-9794-488d-81da-7b8deb59509e.Click4.jpg"
+        "image": "87bea668-9794-488d-81da-7b8deb59509e.Click4.png"
       },
       {
         "name": "Bastion",
@@ -3712,7 +3712,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "87bea668-9794-488d-81da-7b8deb59509e.Click5.jpg"
+        "image": "87bea668-9794-488d-81da-7b8deb59509e.Click5.png"
       },
       {
         "name": "Bastion",
@@ -3727,7 +3727,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "87bea668-9794-488d-81da-7b8deb59509e.Click6.jpg"
+        "image": "87bea668-9794-488d-81da-7b8deb59509e.Click6.png"
       },
       {
         "name": "Bastion",
@@ -3737,14 +3737,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "87bea668-9794-488d-81da-7b8deb59509e.KO.jpg"
+        "image": "87bea668-9794-488d-81da-7b8deb59509e.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "87bea668-9794-488d-81da-7b8deb59509e.jpg"
+    "image": "87bea668-9794-488d-81da-7b8deb59509e.png"
   },
   {
     "id": "292d0557-ee73-4e10-b0ac-8a3090a41a5c",
@@ -3775,7 +3775,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "2",
         "Damage Ability": "Special - THE DA COSTA FORTUNE",
-        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click1.jpg"
+        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click1.png"
       },
       {
         "name": "Sunspot",
@@ -3789,7 +3789,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "1",
         "Damage Ability": "Special - THE DA COSTA FORTUNE",
-        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click2.jpg"
+        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click2.png"
       },
       {
         "name": "Sunspot",
@@ -3803,7 +3803,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "1",
         "Damage Ability": "Special - THE DA COSTA FORTUNE",
-        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click3.jpg"
+        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click3.png"
       },
       {
         "name": "Sunspot",
@@ -3818,7 +3818,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click5.jpg"
+        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click5.png"
       },
       {
         "name": "Sunspot",
@@ -3833,7 +3833,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click6.jpg"
+        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click6.png"
       },
       {
         "name": "Sunspot",
@@ -3848,7 +3848,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click7.jpg"
+        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click7.png"
       },
       {
         "name": "Sunspot",
@@ -3863,7 +3863,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click8.jpg"
+        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click8.png"
       },
       {
         "name": "Sunspot",
@@ -3878,7 +3878,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click9.jpg"
+        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.Click9.png"
       },
       {
         "name": "Sunspot",
@@ -3888,14 +3888,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.KO.jpg"
+        "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.jpg"
+    "image": "292d0557-ee73-4e10-b0ac-8a3090a41a5c.png"
   },
   {
     "id": "b52d2116-deee-49c5-9140-ce4eba12d5f6",
@@ -3927,7 +3927,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.Click1.jpg"
+        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.Click1.png"
       },
       {
         "name": "Callisto",
@@ -3942,7 +3942,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.Click2.jpg"
+        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.Click2.png"
       },
       {
         "name": "Callisto",
@@ -3957,7 +3957,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.Click3.jpg"
+        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.Click3.png"
       },
       {
         "name": "Callisto",
@@ -3972,7 +3972,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "1",
         "Damage Ability": "Exploit Weakness",
-        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.Click4.jpg"
+        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.Click4.png"
       },
       {
         "name": "Callisto",
@@ -3987,7 +3987,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "1",
         "Damage Ability": "Exploit Weakness",
-        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.Click5.jpg"
+        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.Click5.png"
       },
       {
         "name": "Callisto",
@@ -4002,7 +4002,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "1",
         "Damage Ability": "Exploit Weakness",
-        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.Click6.jpg"
+        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.Click6.png"
       },
       {
         "name": "Callisto",
@@ -4012,14 +4012,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.KO.jpg"
+        "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.jpg"
+    "image": "b52d2116-deee-49c5-9140-ce4eba12d5f6.png"
   },
   {
     "id": "e69bfa29-e54d-4a75-9b27-7aa14f4e17a2",
@@ -4048,14 +4048,14 @@
         "Defense": "16",
         "Defense Ability": "Super Senses",
         "Damage": "2",
-        "image": "e69bfa29-e54d-4a75-9b27-7aa14f4e17a2.Click1.jpg"
+        "image": "e69bfa29-e54d-4a75-9b27-7aa14f4e17a2.Click1.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "e69bfa29-e54d-4a75-9b27-7aa14f4e17a2.jpg"
+    "image": "e69bfa29-e54d-4a75-9b27-7aa14f4e17a2.png"
   },
   {
     "id": "7845c711-e110-42b4-b219-cae2955ccc3a",
@@ -4088,7 +4088,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "7845c711-e110-42b4-b219-cae2955ccc3a.Click1.jpg"
+        "image": "7845c711-e110-42b4-b219-cae2955ccc3a.Click1.png"
       },
       {
         "name": "Phoenix",
@@ -4103,7 +4103,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "7845c711-e110-42b4-b219-cae2955ccc3a.Click2.jpg"
+        "image": "7845c711-e110-42b4-b219-cae2955ccc3a.Click2.png"
       },
       {
         "name": "Phoenix",
@@ -4118,7 +4118,7 @@
         "Defense Ability": "Invincible",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "7845c711-e110-42b4-b219-cae2955ccc3a.Click3.jpg"
+        "image": "7845c711-e110-42b4-b219-cae2955ccc3a.Click3.png"
       },
       {
         "name": "Phoenix",
@@ -4133,7 +4133,7 @@
         "Defense Ability": "Special - EMBERS OF THE PHOENIX FORCE",
         "Damage": "1",
         "Damage Ability": "Probability Control",
-        "image": "7845c711-e110-42b4-b219-cae2955ccc3a.Click4.jpg"
+        "image": "7845c711-e110-42b4-b219-cae2955ccc3a.Click4.png"
       },
       {
         "name": "Phoenix",
@@ -4143,14 +4143,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "7845c711-e110-42b4-b219-cae2955ccc3a.KO.jpg"
+        "image": "7845c711-e110-42b4-b219-cae2955ccc3a.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "7845c711-e110-42b4-b219-cae2955ccc3a.jpg"
+    "image": "7845c711-e110-42b4-b219-cae2955ccc3a.png"
   },
   {
     "id": "175d7560-c038-4008-97c3-c952d8998250",
@@ -4183,7 +4183,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "175d7560-c038-4008-97c3-c952d8998250.Click1.jpg"
+        "image": "175d7560-c038-4008-97c3-c952d8998250.Click1.png"
       },
       {
         "name": "Forge",
@@ -4198,7 +4198,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "175d7560-c038-4008-97c3-c952d8998250.Click2.jpg"
+        "image": "175d7560-c038-4008-97c3-c952d8998250.Click2.png"
       },
       {
         "name": "Forge",
@@ -4213,7 +4213,7 @@
         "Defense Ability": "Barrier",
         "Damage": "2",
         "Damage Ability": "Support",
-        "image": "175d7560-c038-4008-97c3-c952d8998250.Click3.jpg"
+        "image": "175d7560-c038-4008-97c3-c952d8998250.Click3.png"
       },
       {
         "name": "Forge",
@@ -4228,7 +4228,7 @@
         "Defense Ability": "Barrier",
         "Damage": "2",
         "Damage Ability": "Support",
-        "image": "175d7560-c038-4008-97c3-c952d8998250.Click4.jpg"
+        "image": "175d7560-c038-4008-97c3-c952d8998250.Click4.png"
       },
       {
         "name": "Forge",
@@ -4238,14 +4238,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "175d7560-c038-4008-97c3-c952d8998250.KO.jpg"
+        "image": "175d7560-c038-4008-97c3-c952d8998250.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "175d7560-c038-4008-97c3-c952d8998250.jpg"
+    "image": "175d7560-c038-4008-97c3-c952d8998250.png"
   },
   {
     "id": "9d2535ba-2d2e-4bb4-a9ea-584784647d6c",
@@ -4274,14 +4274,14 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "9d2535ba-2d2e-4bb4-a9ea-584784647d6c.Click1.jpg"
+        "image": "9d2535ba-2d2e-4bb4-a9ea-584784647d6c.Click1.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "9d2535ba-2d2e-4bb4-a9ea-584784647d6c.jpg"
+    "image": "9d2535ba-2d2e-4bb4-a9ea-584784647d6c.png"
   },
   {
     "id": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a",
@@ -4314,7 +4314,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.Click1.jpg"
+        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.Click1.png"
       },
       {
         "name": "Captain America",
@@ -4329,7 +4329,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.Click2.jpg"
+        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.Click2.png"
       },
       {
         "name": "Captain America",
@@ -4344,7 +4344,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.Click3.jpg"
+        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.Click3.png"
       },
       {
         "name": "Captain America",
@@ -4359,7 +4359,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.Click4.jpg"
+        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.Click4.png"
       },
       {
         "name": "Captain America",
@@ -4374,7 +4374,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.Click5.jpg"
+        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.Click5.png"
       },
       {
         "name": "Captain America",
@@ -4389,7 +4389,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.Click6.jpg"
+        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.Click6.png"
       },
       {
         "name": "Captain America",
@@ -4399,14 +4399,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.KO.jpg"
+        "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.jpg"
+    "image": "a4a68924-f3a4-4c10-b775-53cd3b4f2e1a.png"
   },
   {
     "id": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27",
@@ -4438,7 +4438,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.Click1.jpg"
+        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.Click1.png"
       },
       {
         "name": "Bishop",
@@ -4453,7 +4453,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.Click2.jpg"
+        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.Click2.png"
       },
       {
         "name": "Bishop",
@@ -4469,7 +4469,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.Click3.jpg"
+        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.Click3.png"
       },
       {
         "name": "Bishop",
@@ -4484,7 +4484,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.Click4.jpg"
+        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.Click4.png"
       },
       {
         "name": "Bishop",
@@ -4499,7 +4499,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.Click5.jpg"
+        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.Click5.png"
       },
       {
         "name": "Bishop",
@@ -4514,7 +4514,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.Click6.jpg"
+        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.Click6.png"
       },
       {
         "name": "Bishop",
@@ -4524,14 +4524,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.KO.jpg"
+        "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.jpg"
+    "image": "fa2b5d62-bbc4-476e-abc4-ce196ed7ff27.png"
   },
   {
     "id": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4",
@@ -4564,7 +4564,7 @@
         "Defense Ability": "Willpower",
         "Damage": "4",
         "Damage Ability": "Special - FORGE'S HAND-ME-DOWN HAND",
-        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click1.jpg"
+        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click1.png"
       },
       {
         "name": "Bishop",
@@ -4579,7 +4579,7 @@
         "Defense Ability": "Willpower",
         "Damage": "4",
         "Damage Ability": "Special - FORGE'S HAND-ME-DOWN HAND",
-        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click2.jpg"
+        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click2.png"
       },
       {
         "name": "Bishop",
@@ -4594,7 +4594,7 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click3.jpg"
+        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click3.png"
       },
       {
         "name": "Bishop",
@@ -4609,7 +4609,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click4.jpg"
+        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click4.png"
       },
       {
         "name": "Bishop",
@@ -4624,7 +4624,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click5.jpg"
+        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click5.png"
       },
       {
         "name": "Bishop",
@@ -4639,7 +4639,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click6.jpg"
+        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click6.png"
       },
       {
         "name": "Bishop",
@@ -4654,7 +4654,7 @@
         "Defense Ability": "Toughness",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click7.jpg"
+        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.Click7.png"
       },
       {
         "name": "Bishop",
@@ -4664,14 +4664,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.KO.jpg"
+        "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.jpg"
+    "image": "5829b0f6-8cf7-4e74-b1f2-21bcc94afda4.png"
   },
   {
     "id": "11447cb6-b89b-45e1-aef1-d4a2319ce17a",
@@ -4704,7 +4704,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - HUMANITY ANSWERS TO NO ONE!",
-        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.Click1.jpg"
+        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.Click1.png"
       },
       {
         "name": "X-Cutioner",
@@ -4719,7 +4719,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - HUMANITY ANSWERS TO NO ONE!",
-        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.Click2.jpg"
+        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.Click2.png"
       },
       {
         "name": "X-Cutioner",
@@ -4734,7 +4734,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Special - HUMANITY ANSWERS TO NO ONE!",
-        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.Click3.jpg"
+        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.Click3.png"
       },
       {
         "name": "X-Cutioner",
@@ -4749,7 +4749,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.Click4.jpg"
+        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.Click4.png"
       },
       {
         "name": "X-Cutioner",
@@ -4764,7 +4764,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.Click5.jpg"
+        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.Click5.png"
       },
       {
         "name": "X-Cutioner",
@@ -4779,7 +4779,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.Click6.jpg"
+        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.Click6.png"
       },
       {
         "name": "X-Cutioner",
@@ -4789,14 +4789,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.KO.jpg"
+        "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.jpg"
+    "image": "11447cb6-b89b-45e1-aef1-d4a2319ce17a.png"
   },
   {
     "id": "c979a37b-7910-43d6-8aea-56cdd3bfa764",
@@ -4828,7 +4828,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click1.jpg"
+        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click1.png"
       },
       {
         "name": "Wolverine",
@@ -4843,7 +4843,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click2.jpg"
+        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click2.png"
       },
       {
         "name": "Wolverine",
@@ -4858,7 +4858,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click3.jpg"
+        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click3.png"
       },
       {
         "name": "Wolverine",
@@ -4874,7 +4874,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click4.jpg"
+        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click4.png"
       },
       {
         "name": "Wolverine",
@@ -4889,7 +4889,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click5.jpg"
+        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click5.png"
       },
       {
         "name": "Wolverine",
@@ -4904,7 +4904,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click6.jpg"
+        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click6.png"
       },
       {
         "name": "Wolverine",
@@ -4919,7 +4919,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click7.jpg"
+        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.Click7.png"
       },
       {
         "name": "Wolverine",
@@ -4929,14 +4929,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.KO.jpg"
+        "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.jpg"
+    "image": "c979a37b-7910-43d6-8aea-56cdd3bfa764.png"
   },
   {
     "id": "65baf249-aded-4e17-afd7-2aedaf9ed41b",
@@ -4969,7 +4969,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.Click1.jpg"
+        "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.Click1.png"
       },
       {
         "name": "Magneto",
@@ -4984,7 +4984,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.Click2.jpg"
+        "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.Click2.png"
       },
       {
         "name": "Magneto",
@@ -4999,7 +4999,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.Click3.jpg"
+        "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.Click3.png"
       },
       {
         "name": "Magneto",
@@ -5014,7 +5014,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.Click4.jpg"
+        "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.Click4.png"
       },
       {
         "name": "Magneto",
@@ -5029,7 +5029,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.Click5.jpg"
+        "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.Click5.png"
       },
       {
         "name": "Magneto",
@@ -5039,14 +5039,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.KO.jpg"
+        "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.jpg"
+    "image": "65baf249-aded-4e17-afd7-2aedaf9ed41b.png"
   },
   {
     "id": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c",
@@ -5080,7 +5080,7 @@
         "Defense Ability": "Defend",
         "Damage": "0",
         "Damage Ability": "Outwit",
-        "image": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c.Click1.jpg"
+        "image": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c.Click1.png"
       },
       {
         "name": "Professor X",
@@ -5095,7 +5095,7 @@
         "Defense Ability": "Defend",
         "Damage": "0",
         "Damage Ability": "Outwit",
-        "image": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c.Click2.jpg"
+        "image": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c.Click2.png"
       },
       {
         "name": "Professor X",
@@ -5110,7 +5110,7 @@
         "Defense Ability": "Willpower",
         "Damage": "0",
         "Damage Ability": "Shape Change",
-        "image": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c.Click3.jpg"
+        "image": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c.Click3.png"
       },
       {
         "name": "Professor X",
@@ -5125,7 +5125,7 @@
         "Defense Ability": "Willpower",
         "Damage": "0",
         "Damage Ability": "Shape Change",
-        "image": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c.Click4.jpg"
+        "image": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c.Click4.png"
       },
       {
         "name": "Professor X",
@@ -5135,14 +5135,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c.KO.jpg"
+        "image": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c.jpg"
+    "image": "66ab7bbf-2393-44b6-ae0b-bb2891afd74c.png"
   },
   {
     "id": "70de70d0-35dd-4997-b17e-08c7592d63ea",
@@ -5175,7 +5175,7 @@
         "Defense": "18",
         "Defense Ability": "Special - IT WILL BE DONE",
         "Damage": "4",
-        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click1.jpg"
+        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click1.png"
       },
       {
         "name": "Cyclops",
@@ -5188,7 +5188,7 @@
         "Defense": "18",
         "Defense Ability": "Special - IT WILL BE DONE",
         "Damage": "3",
-        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click2.jpg"
+        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click2.png"
       },
       {
         "name": "Cyclops",
@@ -5201,7 +5201,7 @@
         "Defense": "18",
         "Defense Ability": "Special - IT WILL BE DONE",
         "Damage": "3",
-        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click3.jpg"
+        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click3.png"
       },
       {
         "name": "Cyclops",
@@ -5215,7 +5215,7 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click4.jpg"
+        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click4.png"
       },
       {
         "name": "Cyclops",
@@ -5229,7 +5229,7 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click5.jpg"
+        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click5.png"
       },
       {
         "name": "Cyclops",
@@ -5243,7 +5243,7 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click6.jpg"
+        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click6.png"
       },
       {
         "name": "Cyclops",
@@ -5257,7 +5257,7 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click7.jpg"
+        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click7.png"
       },
       {
         "name": "Cyclops",
@@ -5269,7 +5269,7 @@
         "Defense": "17",
         "Defense Ability": "Willpower",
         "Damage": "3",
-        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click8.jpg"
+        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.Click8.png"
       },
       {
         "name": "Cyclops",
@@ -5279,14 +5279,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.KO.jpg"
+        "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.jpg"
+    "image": "70de70d0-35dd-4997-b17e-08c7592d63ea.png"
   },
   {
     "id": "e35fad70-cc01-4108-8e5e-2aeac4677309",
@@ -5319,7 +5319,7 @@
         "Defense Ability": "Special - TECHNO-ORGANIC VIRUS",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.Click1.jpg"
+        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.Click1.png"
       },
       {
         "name": "Cable",
@@ -5334,7 +5334,7 @@
         "Defense Ability": "Special - TECHNO-ORGANIC VIRUS",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.Click2.jpg"
+        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.Click2.png"
       },
       {
         "name": "Cable",
@@ -5349,7 +5349,7 @@
         "Defense Ability": "Special - TECHNO-ORGANIC VIRUS",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.Click3.jpg"
+        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.Click3.png"
       },
       {
         "name": "Cable",
@@ -5364,7 +5364,7 @@
         "Defense Ability": "Special - TECHNO-ORGANIC VIRUS",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.Click4.jpg"
+        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.Click4.png"
       },
       {
         "name": "Cable",
@@ -5379,7 +5379,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.Click5.jpg"
+        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.Click5.png"
       },
       {
         "name": "Cable",
@@ -5394,7 +5394,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.Click6.jpg"
+        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.Click6.png"
       },
       {
         "name": "Cable",
@@ -5404,14 +5404,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.KO.jpg"
+        "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.jpg"
+    "image": "e35fad70-cc01-4108-8e5e-2aeac4677309.png"
   },
   {
     "id": "9b2f3675-f547-4c87-a898-1469e18882c5",
@@ -5444,7 +5444,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - FORCED BETRAYAL",
-        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click1.jpg"
+        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click1.png"
       },
       {
         "name": "Cable",
@@ -5459,7 +5459,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - FORCED BETRAYAL",
-        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click2.jpg"
+        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click2.png"
       },
       {
         "name": "Cable",
@@ -5474,7 +5474,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - FORCED BETRAYAL",
-        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click3.jpg"
+        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click3.png"
       },
       {
         "name": "Cable",
@@ -5489,7 +5489,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click4.jpg"
+        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click4.png"
       },
       {
         "name": "Cable",
@@ -5504,7 +5504,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click5.jpg"
+        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click5.png"
       },
       {
         "name": "Cable",
@@ -5519,7 +5519,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click6.jpg"
+        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click6.png"
       },
       {
         "name": "Cable",
@@ -5534,7 +5534,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click7.jpg"
+        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.Click7.png"
       },
       {
         "name": "Cable",
@@ -5544,14 +5544,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.KO.jpg"
+        "image": "9b2f3675-f547-4c87-a898-1469e18882c5.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "9b2f3675-f547-4c87-a898-1469e18882c5.jpg"
+    "image": "9b2f3675-f547-4c87-a898-1469e18882c5.png"
   },
   {
     "id": "e2c5090a-f20b-4750-9876-2bf43a50ea2f",
@@ -5583,7 +5583,7 @@
         "Defense Ability": "Special - MENTAL MANIPULATIONS",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.Click1.jpg"
+        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.Click1.png"
       },
       {
         "name": "Marvel Girl",
@@ -5598,7 +5598,7 @@
         "Defense Ability": "Special - MENTAL MANIPULATIONS",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.Click2.jpg"
+        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.Click2.png"
       },
       {
         "name": "Marvel Girl",
@@ -5613,7 +5613,7 @@
         "Defense Ability": "Special - MENTAL MANIPULATIONS",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.Click3.jpg"
+        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.Click3.png"
       },
       {
         "name": "Marvel Girl",
@@ -5628,7 +5628,7 @@
         "Defense Ability": "Special - MENTAL MANIPULATIONS",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.Click4.jpg"
+        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.Click4.png"
       },
       {
         "name": "Marvel Girl",
@@ -5643,7 +5643,7 @@
         "Defense Ability": "Special - MENTAL MANIPULATIONS",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.Click5.jpg"
+        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.Click5.png"
       },
       {
         "name": "Marvel Girl",
@@ -5658,7 +5658,7 @@
         "Defense Ability": "Special - MENTAL MANIPULATIONS",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.Click6.jpg"
+        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.Click6.png"
       },
       {
         "name": "Marvel Girl",
@@ -5668,14 +5668,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.KO.jpg"
+        "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.jpg"
+    "image": "e2c5090a-f20b-4750-9876-2bf43a50ea2f.png"
   },
   {
     "id": "373462f7-7da5-42a6-a26e-18c23ab365f4",
@@ -5709,7 +5709,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.Click1.jpg"
+        "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.Click1.png"
       },
       {
         "name": "Abscissa",
@@ -5724,7 +5724,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.Click2.jpg"
+        "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.Click2.png"
       },
       {
         "name": "Abscissa",
@@ -5738,7 +5738,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "2",
-        "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.Click3.jpg"
+        "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.Click3.png"
       },
       {
         "name": "Abscissa",
@@ -5752,7 +5752,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "2",
-        "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.Click4.jpg"
+        "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.Click4.png"
       },
       {
         "name": "Abscissa",
@@ -5767,7 +5767,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.Click5.jpg"
+        "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.Click5.png"
       },
       {
         "name": "Abscissa",
@@ -5777,14 +5777,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.KO.jpg"
+        "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.jpg"
+    "image": "373462f7-7da5-42a6-a26e-18c23ab365f4.png"
   },
   {
     "id": "f1d7d260-7fae-406e-abd0-8589be09d1b8",
@@ -5816,7 +5816,7 @@
         "Defense Ability": "Special - BUFFETING WINDS",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click1.jpg"
+        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click1.png"
       },
       {
         "name": "Storm",
@@ -5831,7 +5831,7 @@
         "Defense Ability": "Special - BUFFETING WINDS",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click2.jpg"
+        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click2.png"
       },
       {
         "name": "Storm",
@@ -5846,7 +5846,7 @@
         "Defense Ability": "Special - BUFFETING WINDS",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click3.jpg"
+        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click3.png"
       },
       {
         "name": "Storm",
@@ -5861,7 +5861,7 @@
         "Defense Ability": "Special - BUFFETING WINDS",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click4.jpg"
+        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click4.png"
       },
       {
         "name": "Storm",
@@ -5876,7 +5876,7 @@
         "Defense Ability": "Special - BUFFETING WINDS",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click5.jpg"
+        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click5.png"
       },
       {
         "name": "Storm",
@@ -5891,7 +5891,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click6.jpg"
+        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click6.png"
       },
       {
         "name": "Storm",
@@ -5905,7 +5905,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click7.jpg"
+        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click7.png"
       },
       {
         "name": "Storm",
@@ -5918,7 +5918,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click8.jpg"
+        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click8.png"
       },
       {
         "name": "Storm",
@@ -5931,7 +5931,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click9.jpg"
+        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.Click9.png"
       },
       {
         "name": "Storm",
@@ -5941,14 +5941,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.KO.jpg"
+        "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.jpg"
+    "image": "f1d7d260-7fae-406e-abd0-8589be09d1b8.png"
   },
   {
     "id": "37aed296-a2d8-44a7-b08b-658334cc1c1c",
@@ -5981,7 +5981,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Close Combat Expert",
-        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click1.jpg"
+        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click1.png"
       },
       {
         "name": "Rogue",
@@ -5996,7 +5996,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click2.jpg"
+        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click2.png"
       },
       {
         "name": "Rogue",
@@ -6011,7 +6011,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click3.jpg"
+        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click3.png"
       },
       {
         "name": "Rogue",
@@ -6027,7 +6027,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click4.jpg"
+        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click4.png"
       },
       {
         "name": "Rogue",
@@ -6042,7 +6042,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click5.jpg"
+        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click5.png"
       },
       {
         "name": "Rogue",
@@ -6057,7 +6057,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click6.jpg"
+        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click6.png"
       },
       {
         "name": "Rogue",
@@ -6072,7 +6072,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click7.jpg"
+        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click7.png"
       },
       {
         "name": "Rogue",
@@ -6087,7 +6087,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click8.jpg"
+        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click8.png"
       },
       {
         "name": "Rogue",
@@ -6102,7 +6102,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click9.jpg"
+        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.Click9.png"
       },
       {
         "name": "Rogue",
@@ -6112,14 +6112,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.KO.jpg"
+        "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.jpg"
+    "image": "37aed296-a2d8-44a7-b08b-658334cc1c1c.png"
   },
   {
     "id": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87",
@@ -6153,7 +6153,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - HONEY, THIS AIN'T THAT SORT OF PROBE",
-        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click1.jpg"
+        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click1.png"
       },
       {
         "name": "Rogue",
@@ -6168,7 +6168,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Special - HONEY, THIS AIN'T THAT SORT OF PROBE",
-        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click2.jpg"
+        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click2.png"
       },
       {
         "name": "Rogue",
@@ -6183,7 +6183,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Special - HONEY, THIS AIN'T THAT SORT OF PROBE",
-        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click3.jpg"
+        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click3.png"
       },
       {
         "name": "Rogue",
@@ -6198,7 +6198,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Close Combat Expert",
-        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click4.jpg"
+        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click4.png"
       },
       {
         "name": "Rogue",
@@ -6213,7 +6213,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click5.jpg"
+        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click5.png"
       },
       {
         "name": "Rogue",
@@ -6228,7 +6228,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click6.jpg"
+        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click6.png"
       },
       {
         "name": "Rogue",
@@ -6243,7 +6243,7 @@
         "Defense Ability": "Impervious",
         "Damage": "4",
         "Damage Ability": "Battle Fury",
-        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click7.jpg"
+        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.Click7.png"
       },
       {
         "name": "Rogue",
@@ -6253,14 +6253,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.KO.jpg"
+        "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.jpg"
+    "image": "fe6fad72-06c2-4a1b-81c8-6e4b4ef47a87.png"
   },
   {
     "id": "9d28041f-4def-48f1-b23e-de2a7424827d",
@@ -6293,7 +6293,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.Click1.jpg"
+        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.Click1.png"
       },
       {
         "name": "Emma Frost",
@@ -6308,7 +6308,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.Click2.jpg"
+        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.Click2.png"
       },
       {
         "name": "Emma Frost",
@@ -6323,7 +6323,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.Click3.jpg"
+        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.Click3.png"
       },
       {
         "name": "Emma Frost",
@@ -6338,7 +6338,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.Click4.jpg"
+        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.Click4.png"
       },
       {
         "name": "Emma Frost",
@@ -6353,7 +6353,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.Click5.jpg"
+        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.Click5.png"
       },
       {
         "name": "Emma Frost",
@@ -6368,7 +6368,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.Click6.jpg"
+        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.Click6.png"
       },
       {
         "name": "Emma Frost",
@@ -6378,14 +6378,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.KO.jpg"
+        "image": "9d28041f-4def-48f1-b23e-de2a7424827d.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "9d28041f-4def-48f1-b23e-de2a7424827d.jpg"
+    "image": "9d28041f-4def-48f1-b23e-de2a7424827d.png"
   },
   {
     "id": "a86c47be-a9fc-4b53-a43b-b157b19337a4",
@@ -6419,7 +6419,7 @@
         "Defense Ability": "Special - PROTECTING GENOSHA",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.Click1.jpg"
+        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.Click1.png"
       },
       {
         "name": "Emma Frost",
@@ -6434,7 +6434,7 @@
         "Defense Ability": "Special - PROTECTING GENOSHA",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.Click2.jpg"
+        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.Click2.png"
       },
       {
         "name": "Emma Frost",
@@ -6449,7 +6449,7 @@
         "Defense Ability": "Special - PROTECTING GENOSHA",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.Click3.jpg"
+        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.Click3.png"
       },
       {
         "name": "Emma Frost",
@@ -6464,7 +6464,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.Click4.jpg"
+        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.Click4.png"
       },
       {
         "name": "Emma Frost",
@@ -6479,7 +6479,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.Click5.jpg"
+        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.Click5.png"
       },
       {
         "name": "Emma Frost",
@@ -6494,7 +6494,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.Click6.jpg"
+        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.Click6.png"
       },
       {
         "name": "Emma Frost",
@@ -6504,14 +6504,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.KO.jpg"
+        "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.jpg"
+    "image": "a86c47be-a9fc-4b53-a43b-b157b19337a4.png"
   },
   {
     "id": "5e7ba442-7be3-4613-9a82-6c5456df0f37",
@@ -6545,7 +6545,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click1.jpg"
+        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click1.png"
       },
       {
         "name": "Magneto",
@@ -6560,7 +6560,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click2.jpg"
+        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click2.png"
       },
       {
         "name": "Magneto",
@@ -6575,7 +6575,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click3.jpg"
+        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click3.png"
       },
       {
         "name": "Magneto",
@@ -6590,7 +6590,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click4.jpg"
+        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click4.png"
       },
       {
         "name": "Magneto",
@@ -6605,7 +6605,7 @@
         "Defense Ability": "Special - THIS FEUD IS OVER",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click5.jpg"
+        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click5.png"
       },
       {
         "name": "Magneto",
@@ -6620,7 +6620,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click6.jpg"
+        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click6.png"
       },
       {
         "name": "Magneto",
@@ -6635,7 +6635,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click7.jpg"
+        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click7.png"
       },
       {
         "name": "Magneto",
@@ -6650,7 +6650,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click8.jpg"
+        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click8.png"
       },
       {
         "name": "Magneto",
@@ -6665,7 +6665,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click9.jpg"
+        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click9.png"
       },
       {
         "name": "Magneto",
@@ -6680,7 +6680,7 @@
         "Defense Ability": "Special - THIS FEUD IS OVER",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click10.jpg"
+        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.Click10.png"
       },
       {
         "name": "Magneto",
@@ -6690,14 +6690,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.KO.jpg"
+        "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.jpg"
+    "image": "5e7ba442-7be3-4613-9a82-6c5456df0f37.png"
   },
   {
     "id": "a28f3945-e708-4c77-8aa2-a938dc522048",
@@ -6730,7 +6730,7 @@
         "Defense": "18",
         "Defense Ability": "Willpower",
         "Damage": "3",
-        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click1.jpg"
+        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click1.png"
       },
       {
         "name": "Nightcrawler",
@@ -6744,7 +6744,7 @@
         "Defense": "18",
         "Defense Ability": "Willpower",
         "Damage": "3",
-        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click2.jpg"
+        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click2.png"
       },
       {
         "name": "Nightcrawler",
@@ -6758,7 +6758,7 @@
         "Defense": "17",
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
-        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click3.jpg"
+        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click3.png"
       },
       {
         "name": "Nightcrawler",
@@ -6774,7 +6774,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click4.jpg"
+        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click4.png"
       },
       {
         "name": "Nightcrawler",
@@ -6789,7 +6789,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click5.jpg"
+        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click5.png"
       },
       {
         "name": "Nightcrawler",
@@ -6804,7 +6804,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click6.jpg"
+        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click6.png"
       },
       {
         "name": "Nightcrawler",
@@ -6819,7 +6819,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Exploit Weakness",
-        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click7.jpg"
+        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.Click7.png"
       },
       {
         "name": "Nightcrawler",
@@ -6829,14 +6829,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.KO.jpg"
+        "image": "a28f3945-e708-4c77-8aa2-a938dc522048.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "a28f3945-e708-4c77-8aa2-a938dc522048.jpg"
+    "image": "a28f3945-e708-4c77-8aa2-a938dc522048.png"
   },
   {
     "id": "19f1df7c-4ab8-4443-acc3-56fd63f57503",
@@ -6869,7 +6869,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click1.jpg"
+        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click1.png"
       },
       {
         "name": "Cyclops",
@@ -6884,7 +6884,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click2.jpg"
+        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click2.png"
       },
       {
         "name": "Cyclops",
@@ -6899,7 +6899,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click3.jpg"
+        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click3.png"
       },
       {
         "name": "Cyclops",
@@ -6914,7 +6914,7 @@
         "Defense Ability": "Special - I SURRENDER... NOT!",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click4.jpg"
+        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click4.png"
       },
       {
         "name": "Cyclops",
@@ -6929,7 +6929,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click5.jpg"
+        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click5.png"
       },
       {
         "name": "Cyclops",
@@ -6944,7 +6944,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click6.jpg"
+        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click6.png"
       },
       {
         "name": "Cyclops",
@@ -6959,7 +6959,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click7.jpg"
+        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.Click7.png"
       },
       {
         "name": "Cyclops",
@@ -6969,14 +6969,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.KO.jpg"
+        "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.jpg"
+    "image": "19f1df7c-4ab8-4443-acc3-56fd63f57503.png"
   },
   {
     "id": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43",
@@ -7010,7 +7010,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.Click1.jpg"
+        "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.Click1.png"
       },
       {
         "name": "Jubilee",
@@ -7025,7 +7025,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.Click2.jpg"
+        "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.Click2.png"
       },
       {
         "name": "Jubilee",
@@ -7039,7 +7039,7 @@
         "Defense": "17",
         "Defense Ability": "Special - FLASHBANG",
         "Damage": "2",
-        "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.Click3.jpg"
+        "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.Click3.png"
       },
       {
         "name": "Jubilee",
@@ -7053,7 +7053,7 @@
         "Defense": "17",
         "Defense Ability": "Super Senses",
         "Damage": "2",
-        "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.Click4.jpg"
+        "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.Click4.png"
       },
       {
         "name": "Jubilee",
@@ -7068,7 +7068,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.Click5.jpg"
+        "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.Click5.png"
       },
       {
         "name": "Jubilee",
@@ -7078,14 +7078,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.KO.jpg"
+        "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.jpg"
+    "image": "78f29f7a-d7eb-4331-b7e8-a3b8317ddb43.png"
   },
   {
     "id": "af9e40a6-20e0-4482-9650-f62df658f949",
@@ -7118,7 +7118,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click1.jpg"
+        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click1.png"
       },
       {
         "name": "Madelyne Pryor",
@@ -7133,7 +7133,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click2.jpg"
+        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click2.png"
       },
       {
         "name": "Madelyne Pryor",
@@ -7148,7 +7148,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "3",
         "Damage Ability": "Probability Control",
-        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click3.jpg"
+        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click3.png"
       },
       {
         "name": "Madelyne Pryor",
@@ -7163,7 +7163,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click4.jpg"
+        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click4.png"
       },
       {
         "name": "Madelyne Pryor",
@@ -7178,7 +7178,7 @@
         "Defense Ability": "Barrier",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click5.jpg"
+        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click5.png"
       },
       {
         "name": "Madelyne Pryor",
@@ -7193,7 +7193,7 @@
         "Defense Ability": "Barrier",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click6.jpg"
+        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click6.png"
       },
       {
         "name": "Madelyne Pryor",
@@ -7208,7 +7208,7 @@
         "Defense Ability": "Barrier",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click7.jpg"
+        "image": "af9e40a6-20e0-4482-9650-f62df658f949.Click7.png"
       },
       {
         "name": "Madelyne Pryor",
@@ -7218,14 +7218,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "af9e40a6-20e0-4482-9650-f62df658f949.KO.jpg"
+        "image": "af9e40a6-20e0-4482-9650-f62df658f949.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "af9e40a6-20e0-4482-9650-f62df658f949.jpg"
+    "image": "af9e40a6-20e0-4482-9650-f62df658f949.png"
   },
   {
     "id": "568a81cf-ddfe-4242-9436-0866dac846de",
@@ -7253,14 +7253,14 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "568a81cf-ddfe-4242-9436-0866dac846de.Click1.jpg"
+        "image": "568a81cf-ddfe-4242-9436-0866dac846de.Click1.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "568a81cf-ddfe-4242-9436-0866dac846de.jpg"
+    "image": "568a81cf-ddfe-4242-9436-0866dac846de.png"
   },
   {
     "id": "fba5340b-22fa-4611-94a1-b447bd4e7f35",
@@ -7293,7 +7293,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Special - I KNOW YOUR GENES, JEAN",
-        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click1.jpg"
+        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click1.png"
       },
       {
         "name": "Mister Sinister",
@@ -7308,7 +7308,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Special - I KNOW YOUR GENES, JEAN",
-        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click2.jpg"
+        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click2.png"
       },
       {
         "name": "Mister Sinister",
@@ -7323,7 +7323,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Special - I KNOW YOUR GENES, JEAN",
-        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click3.jpg"
+        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click3.png"
       },
       {
         "name": "Mister Sinister",
@@ -7338,7 +7338,7 @@
         "Defense Ability": "Impervious",
         "Damage": "3",
         "Damage Ability": "Special - I KNOW YOUR GENES, JEAN",
-        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click4.jpg"
+        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click4.png"
       },
       {
         "name": "Mister Sinister",
@@ -7354,7 +7354,7 @@
         "Defense Ability": "Mastermind",
         "Damage": "2",
         "Damage Ability": "Special - I KNOW YOUR GENES, JEAN",
-        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click5.jpg"
+        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click5.png"
       },
       {
         "name": "Mister Sinister",
@@ -7369,7 +7369,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click6.jpg"
+        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click6.png"
       },
       {
         "name": "Mister Sinister",
@@ -7384,7 +7384,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click7.jpg"
+        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click7.png"
       },
       {
         "name": "Mister Sinister",
@@ -7399,7 +7399,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Shape Change",
-        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click8.jpg"
+        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.Click8.png"
       },
       {
         "name": "Mister Sinister",
@@ -7409,14 +7409,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.KO.jpg"
+        "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.jpg"
+    "image": "fba5340b-22fa-4611-94a1-b447bd4e7f35.png"
   },
   {
     "id": "0b5df659-7eae-488f-80d4-3bb3f6e8bf09",
@@ -7441,14 +7441,14 @@
         "Attack": "9",
         "Defense": "16",
         "Damage": "2",
-        "image": "0b5df659-7eae-488f-80d4-3bb3f6e8bf09.Click1.jpg"
+        "image": "0b5df659-7eae-488f-80d4-3bb3f6e8bf09.Click1.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Bystander",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "0b5df659-7eae-488f-80d4-3bb3f6e8bf09.jpg"
+    "image": "0b5df659-7eae-488f-80d4-3bb3f6e8bf09.png"
   },
   {
     "id": "92fec41e-2458-49a6-a21a-8fddc3abf738",
@@ -7481,7 +7481,7 @@
         "Defense Ability": "Invincible",
         "Damage": "5",
         "Damage Ability": "Perplex",
-        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click1.jpg"
+        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click1.png"
       },
       {
         "name": "Bastion",
@@ -7496,7 +7496,7 @@
         "Defense Ability": "Invincible",
         "Damage": "4",
         "Damage Ability": "Perplex",
-        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click2.jpg"
+        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click2.png"
       },
       {
         "name": "Bastion",
@@ -7511,7 +7511,7 @@
         "Defense Ability": "Special - HOW MANY TIMES DID YOU FAIL TO STOP ME?",
         "Damage": "4",
         "Damage Ability": "Perplex",
-        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click3.jpg"
+        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click3.png"
       },
       {
         "name": "Bastion",
@@ -7526,7 +7526,7 @@
         "Defense Ability": "Invincible",
         "Damage": "5",
         "Damage Ability": "Probability Control",
-        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click4.jpg"
+        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click4.png"
       },
       {
         "name": "Bastion",
@@ -7542,7 +7542,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "4",
         "Damage Ability": "Probability Control",
-        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click5.jpg"
+        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click5.png"
       },
       {
         "name": "Bastion",
@@ -7557,7 +7557,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "4",
         "Damage Ability": "Outwit",
-        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click6.jpg"
+        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click6.png"
       },
       {
         "name": "Bastion",
@@ -7572,7 +7572,7 @@
         "Defense Ability": "Special - HOW MANY TIMES DID YOU FAIL TO STOP ME?",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click7.jpg"
+        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click7.png"
       },
       {
         "name": "Bastion",
@@ -7587,7 +7587,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click8.jpg"
+        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click8.png"
       },
       {
         "name": "Bastion",
@@ -7602,7 +7602,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click9.jpg"
+        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click9.png"
       },
       {
         "name": "Bastion",
@@ -7617,7 +7617,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "4",
         "Damage Ability": "Perplex",
-        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click10.jpg"
+        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click10.png"
       },
       {
         "name": "Bastion",
@@ -7632,7 +7632,7 @@
         "Defense Ability": "Special - HOW MANY TIMES DID YOU FAIL TO STOP ME?",
         "Damage": "5",
         "Damage Ability": "Probability Control",
-        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click11.jpg"
+        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.Click11.png"
       },
       {
         "name": "Bastion",
@@ -7642,14 +7642,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.KO.jpg"
+        "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.jpg"
+    "image": "92fec41e-2458-49a6-a21a-8fddc3abf738.png"
   },
   {
     "id": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb",
@@ -7682,7 +7682,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.Click1.jpg"
+        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.Click1.png"
       },
       {
         "name": "Beast",
@@ -7697,7 +7697,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.Click2.jpg"
+        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.Click2.png"
       },
       {
         "name": "Beast",
@@ -7712,7 +7712,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.Click3.jpg"
+        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.Click3.png"
       },
       {
         "name": "Beast",
@@ -7727,7 +7727,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.Click4.jpg"
+        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.Click4.png"
       },
       {
         "name": "Beast",
@@ -7742,7 +7742,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.Click5.jpg"
+        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.Click5.png"
       },
       {
         "name": "Beast",
@@ -7757,7 +7757,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.Click6.jpg"
+        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.Click6.png"
       },
       {
         "name": "Beast",
@@ -7767,14 +7767,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.KO.jpg"
+        "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.jpg"
+    "image": "fe10ce6a-ee92-4ba3-82d0-c4e7cc0f52eb.png"
   },
   {
     "id": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b",
@@ -7806,7 +7806,7 @@
         "Defense": "18",
         "Defense Ability": "Impervious",
         "Damage": "4",
-        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click1.jpg"
+        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click1.png"
       },
       {
         "name": "Rogue",
@@ -7820,7 +7820,7 @@
         "Defense": "18",
         "Defense Ability": "Impervious",
         "Damage": "4",
-        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click2.jpg"
+        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click2.png"
       },
       {
         "name": "Rogue",
@@ -7834,7 +7834,7 @@
         "Defense": "18",
         "Defense Ability": "Impervious",
         "Damage": "3",
-        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click3.jpg"
+        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click3.png"
       },
       {
         "name": "Rogue",
@@ -7848,7 +7848,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - DON'T YOU DARE, ERIK!",
-        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click4.jpg"
+        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click4.png"
       },
       {
         "name": "Rogue",
@@ -7862,7 +7862,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - DON'T YOU DARE, ERIK!",
-        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click5.jpg"
+        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click5.png"
       },
       {
         "name": "Rogue",
@@ -7876,7 +7876,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - DON'T YOU DARE, ERIK!",
-        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click6.jpg"
+        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click6.png"
       },
       {
         "name": "Rogue",
@@ -7890,7 +7890,7 @@
         "Defense Ability": "Invulnerability",
         "Damage": "3",
         "Damage Ability": "Special - DON'T YOU DARE, ERIK!",
-        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click7.jpg"
+        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.Click7.png"
       },
       {
         "name": "Rogue",
@@ -7900,14 +7900,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.KO.jpg"
+        "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.jpg"
+    "image": "4cea37f5-6ad6-4881-bf74-4726cf2a3a6b.png"
   },
   {
     "id": "6423018e-954d-4ebb-8fdf-9740b8758fd7",
@@ -7938,7 +7938,7 @@
         "Defense": "17",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.Click1.jpg"
+        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.Click1.png"
       },
       {
         "name": "Gambit",
@@ -7952,7 +7952,7 @@
         "Defense": "17",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.Click2.jpg"
+        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.Click2.png"
       },
       {
         "name": "Gambit",
@@ -7966,7 +7966,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.Click3.jpg"
+        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.Click3.png"
       },
       {
         "name": "Gambit",
@@ -7980,7 +7980,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.Click4.jpg"
+        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.Click4.png"
       },
       {
         "name": "Gambit",
@@ -7994,7 +7994,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.Click5.jpg"
+        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.Click5.png"
       },
       {
         "name": "Gambit",
@@ -8008,7 +8008,7 @@
         "Defense Ability": "Willpower",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.Click6.jpg"
+        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.Click6.png"
       },
       {
         "name": "Gambit",
@@ -8018,14 +8018,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.KO.jpg"
+        "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.KO.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.jpg"
+    "image": "6423018e-954d-4ebb-8fdf-9740b8758fd7.png"
   },
   {
     "id": "ab70a371-ebbf-4601-9a37-a3c4eb810929",
@@ -8057,7 +8057,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "ab70a371-ebbf-4601-9a37-a3c4eb810929.Click1.jpg"
+        "image": "ab70a371-ebbf-4601-9a37-a3c4eb810929.Click1.png"
       },
       {
         "name": "Jean Grey",
@@ -8072,7 +8072,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Probability Control",
-        "image": "ab70a371-ebbf-4601-9a37-a3c4eb810929.Click2.jpg"
+        "image": "ab70a371-ebbf-4601-9a37-a3c4eb810929.Click2.png"
       },
       {
         "name": "Jean Grey",
@@ -8087,7 +8087,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "ab70a371-ebbf-4601-9a37-a3c4eb810929.Click3.jpg"
+        "image": "ab70a371-ebbf-4601-9a37-a3c4eb810929.Click3.png"
       },
       {
         "name": "Jean Grey",
@@ -8102,7 +8102,7 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "ab70a371-ebbf-4601-9a37-a3c4eb810929.Click4.jpg"
+        "image": "ab70a371-ebbf-4601-9a37-a3c4eb810929.Click4.png"
       },
       {
         "name": "Jean Grey",
@@ -8117,14 +8117,14 @@
         "Defense Ability": "Toughness",
         "Damage": "2",
         "Damage Ability": "Empower",
-        "image": "ab70a371-ebbf-4601-9a37-a3c4eb810929.Click5.jpg"
+        "image": "ab70a371-ebbf-4601-9a37-a3c4eb810929.Click5.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Alternate Card",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "ab70a371-ebbf-4601-9a37-a3c4eb810929.jpg"
+    "image": "ab70a371-ebbf-4601-9a37-a3c4eb810929.png"
   },
   {
     "id": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9",
@@ -8157,7 +8157,7 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.Click1.jpg"
+        "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.Click1.png"
       },
       {
         "name": "Cyclops",
@@ -8172,7 +8172,7 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.Click2.jpg"
+        "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.Click2.png"
       },
       {
         "name": "Cyclops",
@@ -8187,7 +8187,7 @@
         "Defense Ability": "Willpower",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.Click3.jpg"
+        "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.Click3.png"
       },
       {
         "name": "Cyclops",
@@ -8202,7 +8202,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.Click4.jpg"
+        "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.Click4.png"
       },
       {
         "name": "Cyclops",
@@ -8217,7 +8217,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.Click5.jpg"
+        "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.Click5.png"
       },
       {
         "name": "Cyclops",
@@ -8232,14 +8232,14 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "4",
         "Damage Ability": "Leadership",
-        "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.Click6.jpg"
+        "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.Click6.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Alternate Card",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.jpg"
+    "image": "fab12c1a-cb68-4b75-bf6b-07ace4a357f9.png"
   },
   {
     "id": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a",
@@ -8271,7 +8271,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
-        "image": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a.Click1.jpg"
+        "image": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a.Click1.png"
       },
       {
         "name": "Jubilee",
@@ -8285,7 +8285,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
-        "image": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a.Click2.jpg"
+        "image": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a.Click2.png"
       },
       {
         "name": "Jubilee",
@@ -8300,7 +8300,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a.Click3.jpg"
+        "image": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a.Click3.png"
       },
       {
         "name": "Jubilee",
@@ -8315,7 +8315,7 @@
         "Defense Ability": "Defend",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a.Click4.jpg"
+        "image": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a.Click4.png"
       },
       {
         "name": "Jubilee",
@@ -8330,14 +8330,14 @@
         "Defense Ability": "Defend",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a.Click5.jpg"
+        "image": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a.Click5.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Alternate Card",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a.jpg"
+    "image": "4a9bc573-a56a-46aa-88f1-8e1ec40e6f9a.png"
   },
   {
     "id": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a",
@@ -8370,7 +8370,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - OH, MY STARS AND GARTERS",
-        "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.Click1.jpg"
+        "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.Click1.png"
       },
       {
         "name": "Beast",
@@ -8385,7 +8385,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.Click2.jpg"
+        "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.Click2.png"
       },
       {
         "name": "Beast",
@@ -8400,7 +8400,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.Click3.jpg"
+        "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.Click3.png"
       },
       {
         "name": "Beast",
@@ -8416,7 +8416,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Special - OH, MY STARS AND GARTERS",
-        "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.Click4.jpg"
+        "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.Click4.png"
       },
       {
         "name": "Beast",
@@ -8430,7 +8430,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.Click5.jpg"
+        "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.Click5.png"
       },
       {
         "name": "Beast",
@@ -8444,14 +8444,14 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.Click6.jpg"
+        "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.Click6.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Alternate Card",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.jpg"
+    "image": "c2b7d8e7-58b7-45b0-9bdf-78c93b80be9a.png"
   },
   {
     "id": "b6a3fe41-692e-44e3-878d-ff924d157556",
@@ -8482,7 +8482,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click1.jpg"
+        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click1.png"
       },
       {
         "name": "Rogue",
@@ -8496,7 +8496,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Close Combat Expert",
-        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click2.jpg"
+        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click2.png"
       },
       {
         "name": "Rogue",
@@ -8511,7 +8511,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click3.jpg"
+        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click3.png"
       },
       {
         "name": "Rogue",
@@ -8526,7 +8526,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click4.jpg"
+        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click4.png"
       },
       {
         "name": "Rogue",
@@ -8541,7 +8541,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click5.jpg"
+        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click5.png"
       },
       {
         "name": "Rogue",
@@ -8556,7 +8556,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click6.jpg"
+        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click6.png"
       },
       {
         "name": "Rogue",
@@ -8571,14 +8571,14 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click7.jpg"
+        "image": "b6a3fe41-692e-44e3-878d-ff924d157556.Click7.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Alternate Card",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "b6a3fe41-692e-44e3-878d-ff924d157556.jpg"
+    "image": "b6a3fe41-692e-44e3-878d-ff924d157556.png"
   },
   {
     "id": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5",
@@ -8611,7 +8611,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - ALWAYS KNOW THE ODDS",
-        "image": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5.Click1.jpg"
+        "image": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5.Click1.png"
       },
       {
         "name": "Gambit",
@@ -8626,7 +8626,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - ALWAYS KNOW THE ODDS",
-        "image": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5.Click2.jpg"
+        "image": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5.Click2.png"
       },
       {
         "name": "Gambit",
@@ -8641,7 +8641,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - ALWAYS KNOW THE ODDS",
-        "image": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5.Click3.jpg"
+        "image": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5.Click3.png"
       },
       {
         "name": "Gambit",
@@ -8656,7 +8656,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5.Click4.jpg"
+        "image": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5.Click4.png"
       },
       {
         "name": "Gambit",
@@ -8671,14 +8671,14 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Perplex",
-        "image": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5.Click5.jpg"
+        "image": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5.Click5.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Alternate Card",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5.jpg"
+    "image": "5d4c528c-a82b-4cb7-8eee-a4489fea93c5.png"
   },
   {
     "id": "e4bf0c35-60b5-4ffa-9f91-24de5744e723",
@@ -8709,7 +8709,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click1.jpg"
+        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click1.png"
       },
       {
         "name": "Morph",
@@ -8723,7 +8723,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click2.jpg"
+        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click2.png"
       },
       {
         "name": "Morph",
@@ -8737,7 +8737,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click3.jpg"
+        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click3.png"
       },
       {
         "name": "Morph",
@@ -8751,7 +8751,7 @@
         "Defense Ability": "Toughness",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click4.jpg"
+        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click4.png"
       },
       {
         "name": "Morph",
@@ -8764,7 +8764,7 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click5.jpg"
+        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click5.png"
       },
       {
         "name": "Morph",
@@ -8777,7 +8777,7 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click6.jpg"
+        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click6.png"
       },
       {
         "name": "Morph",
@@ -8790,7 +8790,7 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click7.jpg"
+        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click7.png"
       },
       {
         "name": "Morph",
@@ -8803,14 +8803,14 @@
         "Defense": "16",
         "Damage": "3",
         "Damage Ability": "Shape Change",
-        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click8.jpg"
+        "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.Click8.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Alternate Card",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.jpg"
+    "image": "e4bf0c35-60b5-4ffa-9f91-24de5744e723.png"
   },
   {
     "id": "4d18238e-c45a-430d-870a-39f9fef3de64",
@@ -8842,7 +8842,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "4d18238e-c45a-430d-870a-39f9fef3de64.Click1.jpg"
+        "image": "4d18238e-c45a-430d-870a-39f9fef3de64.Click1.png"
       },
       {
         "name": "Storm",
@@ -8857,7 +8857,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "4d18238e-c45a-430d-870a-39f9fef3de64.Click2.jpg"
+        "image": "4d18238e-c45a-430d-870a-39f9fef3de64.Click2.png"
       },
       {
         "name": "Storm",
@@ -8873,7 +8873,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "4d18238e-c45a-430d-870a-39f9fef3de64.Click3.jpg"
+        "image": "4d18238e-c45a-430d-870a-39f9fef3de64.Click3.png"
       },
       {
         "name": "Storm",
@@ -8888,7 +8888,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "4d18238e-c45a-430d-870a-39f9fef3de64.Click4.jpg"
+        "image": "4d18238e-c45a-430d-870a-39f9fef3de64.Click4.png"
       },
       {
         "name": "Storm",
@@ -8903,7 +8903,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "4d18238e-c45a-430d-870a-39f9fef3de64.Click5.jpg"
+        "image": "4d18238e-c45a-430d-870a-39f9fef3de64.Click5.png"
       },
       {
         "name": "Storm",
@@ -8918,14 +8918,14 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Leadership",
-        "image": "4d18238e-c45a-430d-870a-39f9fef3de64.Click6.jpg"
+        "image": "4d18238e-c45a-430d-870a-39f9fef3de64.Click6.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Alternate Card",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "4d18238e-c45a-430d-870a-39f9fef3de64.jpg"
+    "image": "4d18238e-c45a-430d-870a-39f9fef3de64.png"
   },
   {
     "id": "d178cafb-7e69-4ec8-94a9-e17bb13bc194",
@@ -8957,7 +8957,7 @@
         "Defense": "19",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.Click1.jpg"
+        "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.Click1.png"
       },
       {
         "name": "Nightcrawler",
@@ -8971,7 +8971,7 @@
         "Defense": "19",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.Click2.jpg"
+        "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.Click2.png"
       },
       {
         "name": "Nightcrawler",
@@ -8985,7 +8985,7 @@
         "Defense": "18",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.Click3.jpg"
+        "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.Click3.png"
       },
       {
         "name": "Nightcrawler",
@@ -8999,7 +8999,7 @@
         "Defense": "18",
         "Defense Ability": "Super Senses",
         "Damage": "2",
-        "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.Click4.jpg"
+        "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.Click4.png"
       },
       {
         "name": "Nightcrawler",
@@ -9013,7 +9013,7 @@
         "Defense": "18",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
-        "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.Click5.jpg"
+        "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.Click5.png"
       },
       {
         "name": "Nightcrawler",
@@ -9027,14 +9027,14 @@
         "Defense": "18",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
-        "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.Click6.jpg"
+        "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.Click6.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Alternate Card",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.jpg"
+    "image": "d178cafb-7e69-4ec8-94a9-e17bb13bc194.png"
   },
   {
     "id": "8736ec45-4ca7-4f12-be10-66f24aa875f2",
@@ -9066,7 +9066,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.Click1.jpg"
+        "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.Click1.png"
       },
       {
         "name": "Bishop",
@@ -9081,7 +9081,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.Click2.jpg"
+        "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.Click2.png"
       },
       {
         "name": "Bishop",
@@ -9097,7 +9097,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.Click3.jpg"
+        "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.Click3.png"
       },
       {
         "name": "Bishop",
@@ -9112,7 +9112,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.Click4.jpg"
+        "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.Click4.png"
       },
       {
         "name": "Bishop",
@@ -9127,7 +9127,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.Click5.jpg"
+        "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.Click5.png"
       },
       {
         "name": "Bishop",
@@ -9142,14 +9142,14 @@
         "Defense Ability": "Regeneration",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.Click6.jpg"
+        "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.Click6.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Alternate Card",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.jpg"
+    "image": "8736ec45-4ca7-4f12-be10-66f24aa875f2.png"
   },
   {
     "id": "85c060ab-6033-40e4-9780-20ca874ba4de",
@@ -9181,7 +9181,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click1.jpg"
+        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click1.png"
       },
       {
         "name": "Wolverine",
@@ -9196,7 +9196,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click2.jpg"
+        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click2.png"
       },
       {
         "name": "Wolverine",
@@ -9211,7 +9211,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click3.jpg"
+        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click3.png"
       },
       {
         "name": "Wolverine",
@@ -9227,7 +9227,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Battle Fury",
-        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click4.jpg"
+        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click4.png"
       },
       {
         "name": "Wolverine",
@@ -9242,7 +9242,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click5.jpg"
+        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click5.png"
       },
       {
         "name": "Wolverine",
@@ -9257,7 +9257,7 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click6.jpg"
+        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click6.png"
       },
       {
         "name": "Wolverine",
@@ -9272,14 +9272,14 @@
         "Defense Ability": "Regeneration",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click7.jpg"
+        "image": "85c060ab-6033-40e4-9780-20ca874ba4de.Click7.png"
       }
     ],
     "Set": "X-Men '97",
     "Designer": "Official",
     "Type": "Alternate Card",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "85c060ab-6033-40e4-9780-20ca874ba4de.jpg"
+    "image": "85c060ab-6033-40e4-9780-20ca874ba4de.png"
   },
   {
     "id": "eac3111f-4fbd-4ee3-8c46-54f28cdc1812",
@@ -9292,7 +9292,7 @@
     "Designer": "Official",
     "Type": "Map",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "eac3111f-4fbd-4ee3-8c46-54f28cdc1812.jpg"
+    "image": "eac3111f-4fbd-4ee3-8c46-54f28cdc1812.png"
   },
   {
     "id": "6fedde22-960d-4e83-9d6d-a86a25520f44",
@@ -9305,7 +9305,7 @@
     "Designer": "Official",
     "Type": "Map",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "6fedde22-960d-4e83-9d6d-a86a25520f44.jpg"
+    "image": "6fedde22-960d-4e83-9d6d-a86a25520f44.png"
   },
   {
     "id": "1cd91991-6624-4e0b-add0-d39821be7ac2",
@@ -9318,7 +9318,7 @@
     "Designer": "Official",
     "Type": "Map",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "1cd91991-6624-4e0b-add0-d39821be7ac2.jpg"
+    "image": "1cd91991-6624-4e0b-add0-d39821be7ac2.png"
   },
   {
     "id": "c816f47a-76ae-4d7f-8b2d-7a53756e051f",
@@ -9331,7 +9331,7 @@
     "Designer": "Official",
     "Type": "Map",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "c816f47a-76ae-4d7f-8b2d-7a53756e051f.jpg"
+    "image": "c816f47a-76ae-4d7f-8b2d-7a53756e051f.png"
   },
   {
     "id": "c25c3285-a4b6-462d-b7ff-50b412316067",
@@ -9346,7 +9346,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "c25c3285-a4b6-462d-b7ff-50b412316067.jpg"
+    "image": "c25c3285-a4b6-462d-b7ff-50b412316067.png"
   },
   {
     "id": "f2bb7499-8858-4e2f-84a5-b6780e94a439",
@@ -9361,7 +9361,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "f2bb7499-8858-4e2f-84a5-b6780e94a439.jpg"
+    "image": "f2bb7499-8858-4e2f-84a5-b6780e94a439.png"
   },
   {
     "id": "f1c21af6-62f2-4e3b-8dd9-e3d327cf2409",
@@ -9376,7 +9376,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "f1c21af6-62f2-4e3b-8dd9-e3d327cf2409.jpg"
+    "image": "f1c21af6-62f2-4e3b-8dd9-e3d327cf2409.png"
   },
   {
     "id": "eabcc628-72bc-4af6-ad4c-4c7db1e23917",
@@ -9391,7 +9391,7 @@
     "Designer": "Official",
     "Type": "One Shot",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "eabcc628-72bc-4af6-ad4c-4c7db1e23917.jpg"
+    "image": "eabcc628-72bc-4af6-ad4c-4c7db1e23917.png"
   },
   {
     "id": "712ba2cd-1376-4420-b1fd-976758fee4dc",
@@ -9407,7 +9407,7 @@
     "Designer": "Official",
     "Type": "Terrain Marker",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "712ba2cd-1376-4420-b1fd-976758fee4dc.jpg"
+    "image": "712ba2cd-1376-4420-b1fd-976758fee4dc.png"
   },
   {
     "id": "12707289-d44a-44d9-92ee-f071fd811473",
@@ -9423,7 +9423,7 @@
     "Designer": "Official",
     "Type": "Terrain Marker",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "12707289-d44a-44d9-92ee-f071fd811473.jpg"
+    "image": "12707289-d44a-44d9-92ee-f071fd811473.png"
   },
   {
     "id": "1a93dc0d-2464-434c-9014-5553939e6782",
@@ -9439,7 +9439,7 @@
     "Designer": "Official",
     "Type": "Terrain Marker",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "1a93dc0d-2464-434c-9014-5553939e6782.jpg"
+    "image": "1a93dc0d-2464-434c-9014-5553939e6782.png"
   },
   {
     "id": "c07fe65f-ee40-4b71-a06e-f17506964be2",
@@ -9455,6 +9455,6 @@
     "Designer": "Official",
     "Type": "Terrain Marker",
     "set_id": "4538f4c7-45e9-4051-857e-56c960f2cd09",
-    "image": "c07fe65f-ee40-4b71-a06e-f17506964be2.jpg"
+    "image": "c07fe65f-ee40-4b71-a06e-f17506964be2.png"
   }
 ]
