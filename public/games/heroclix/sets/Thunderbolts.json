@@ -28,7 +28,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Outwit",
-        "image": "72d91464-46e5-4cd1-b720-0d9c80db4505.Click1.jpg"
+        "image": "72d91464-46e5-4cd1-b720-0d9c80db4505.Click1.png"
       },
       {
         "name": "Contessa Valentina Allegra de Fontaine",
@@ -42,7 +42,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "72d91464-46e5-4cd1-b720-0d9c80db4505.Click2.jpg"
+        "image": "72d91464-46e5-4cd1-b720-0d9c80db4505.Click2.png"
       },
       {
         "name": "Contessa Valentina Allegra de Fontaine",
@@ -56,7 +56,7 @@
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "2",
         "Damage Ability": "Perplex",
-        "image": "72d91464-46e5-4cd1-b720-0d9c80db4505.Click3.jpg"
+        "image": "72d91464-46e5-4cd1-b720-0d9c80db4505.Click3.png"
       },
       {
         "name": "Contessa Valentina Allegra de Fontaine",
@@ -70,7 +70,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "2",
         "Damage Ability": "Outwit",
-        "image": "72d91464-46e5-4cd1-b720-0d9c80db4505.Click4.jpg"
+        "image": "72d91464-46e5-4cd1-b720-0d9c80db4505.Click4.png"
       },
       {
         "name": "Contessa Valentina Allegra de Fontaine",
@@ -80,14 +80,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "72d91464-46e5-4cd1-b720-0d9c80db4505.KO.jpg"
+        "image": "72d91464-46e5-4cd1-b720-0d9c80db4505.KO.png"
       }
     ],
     "Set": "Thunderbolts",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "70b70c0d-7f12-43a6-899f-eeebdb496a9f",
-    "image": "72d91464-46e5-4cd1-b720-0d9c80db4505.jpg"
+    "image": "72d91464-46e5-4cd1-b720-0d9c80db4505.png"
   },
   {
     "id": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8",
@@ -118,7 +118,7 @@
         "Defense Ability": "Barrier",
         "Damage": "1",
         "Damage Ability": "Perplex",
-        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.Click1.jpg"
+        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.Click1.png"
       },
       {
         "name": "Trapster",
@@ -133,7 +133,7 @@
         "Defense Ability": "Barrier",
         "Damage": "1",
         "Damage Ability": "Perplex",
-        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.Click2.jpg"
+        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.Click2.png"
       },
       {
         "name": "Trapster",
@@ -148,7 +148,7 @@
         "Defense Ability": "Barrier",
         "Damage": "1",
         "Damage Ability": "Perplex",
-        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.Click3.jpg"
+        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.Click3.png"
       },
       {
         "name": "Trapster",
@@ -163,7 +163,7 @@
         "Defense Ability": "Willpower",
         "Damage": "1",
         "Damage Ability": "Shape Change",
-        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.Click4.jpg"
+        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.Click4.png"
       },
       {
         "name": "Trapster",
@@ -178,7 +178,7 @@
         "Defense Ability": "Willpower",
         "Damage": "1",
         "Damage Ability": "Shape Change",
-        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.Click5.jpg"
+        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.Click5.png"
       },
       {
         "name": "Trapster",
@@ -193,7 +193,7 @@
         "Defense Ability": "Willpower",
         "Damage": "1",
         "Damage Ability": "Shape Change",
-        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.Click6.jpg"
+        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.Click6.png"
       },
       {
         "name": "Trapster",
@@ -203,14 +203,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.KO.jpg"
+        "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.KO.png"
       }
     ],
     "Set": "Thunderbolts",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "70b70c0d-7f12-43a6-899f-eeebdb496a9f",
-    "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.jpg"
+    "image": "a70b2fcd-18bd-4287-a8ab-aab633cc72e8.png"
   },
   {
     "id": "b8c96671-643f-4c54-8dff-4bc24da062d4",
@@ -244,7 +244,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Special - I ACT IN THE ABSENCE OF HEROES",
-        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click1.jpg"
+        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click1.png"
       },
       {
         "name": "Citizen V",
@@ -259,7 +259,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Special - I ACT IN THE ABSENCE OF HEROES",
-        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click2.jpg"
+        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click2.png"
       },
       {
         "name": "Citizen V",
@@ -274,7 +274,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - I ACT IN THE ABSENCE OF HEROES",
-        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click3.jpg"
+        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click3.png"
       },
       {
         "name": "Citizen V",
@@ -290,7 +290,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click4.jpg"
+        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click4.png"
       },
       {
         "name": "Citizen V",
@@ -305,7 +305,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Empower",
-        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click5.jpg"
+        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click5.png"
       },
       {
         "name": "Citizen V",
@@ -320,7 +320,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click6.jpg"
+        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click6.png"
       },
       {
         "name": "Citizen V",
@@ -335,7 +335,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Exploit Weakness",
-        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click7.jpg"
+        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click7.png"
       },
       {
         "name": "Citizen V",
@@ -350,7 +350,7 @@
         "Defense Ability": "Combat Reflexes",
         "Damage": "3",
         "Damage Ability": "Special - I ACT IN THE ABSENCE OF HEROES",
-        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click8.jpg"
+        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.Click8.png"
       },
       {
         "name": "Citizen V",
@@ -360,13 +360,13 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.KO.jpg"
+        "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.KO.png"
       }
     ],
     "Set": "Thunderbolts",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "70b70c0d-7f12-43a6-899f-eeebdb496a9f",
-    "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.jpg"
+    "image": "b8c96671-643f-4c54-8dff-4bc24da062d4.png"
   }
 ]
