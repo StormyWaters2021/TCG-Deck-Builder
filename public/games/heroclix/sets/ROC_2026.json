@@ -1,0 +1,55 @@
+[
+  {
+    "id": "c914a49b-63d9-4120-a73b-5be7e487295e",
+    "name": "Shaded Realm Light",
+    "size": "16x16",
+    "Unit ID": "roc26M001",
+    "Collector Number": "M001",
+    "Unit Type": "Map",
+    "Set": "ROC 2026",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "96015990-af1f-4512-82cc-4940907fa83b",
+    "image": "c914a49b-63d9-4120-a73b-5be7e487295e.jpg"
+  },
+  {
+    "id": "699731a0-6ea3-4464-996e-3e214c6aa4c0",
+    "name": "Bluebell Town Square",
+    "size": "16x16",
+    "Unit ID": "roc26M002",
+    "Collector Number": "M002",
+    "Unit Type": "Map",
+    "Traits and Special Powers": "Unnamed AbilityAt the beginning of each players turn roll 2D6.Cold Snap - If the result is [d:1][d:1] this turn if an effect would reduce damage it reduces that damage by 1 more.Heat Wave - if the result is [d:6][d:6] this turn if an effect would reduce damage it reduces that damage by 1 less.Not for official tournament use.",
+    "Set": "ROC 2026",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "96015990-af1f-4512-82cc-4940907fa83b",
+    "image": "699731a0-6ea3-4464-996e-3e214c6aa4c0.jpg"
+  },
+  {
+    "id": "71b34672-887b-4d33-b0ad-b18bfd9bdf3e",
+    "name": "Syndicate's Ascent",
+    "size": "16x16",
+    "Unit ID": "roc26M003",
+    "Collector Number": "M003",
+    "Unit Type": "Map",
+    "Set": "ROC 2026",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "96015990-af1f-4512-82cc-4940907fa83b",
+    "image": "71b34672-887b-4d33-b0ad-b18bfd9bdf3e.jpg"
+  },
+  {
+    "id": "688c967e-0888-4e60-97fd-e06f27b98a79",
+    "name": "Thousand Ocean Voyager",
+    "size": "16x16",
+    "Unit ID": "roc26M004",
+    "Collector Number": "M004",
+    "Unit Type": "Map",
+    "Set": "ROC 2026",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "96015990-af1f-4512-82cc-4940907fa83b",
+    "image": "688c967e-0888-4e60-97fd-e06f27b98a79.jpg"
+  }
+]

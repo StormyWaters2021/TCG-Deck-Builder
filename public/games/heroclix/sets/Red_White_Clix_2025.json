@@ -1,0 +1,28 @@
+[
+  {
+    "id": "226e4957-b1db-4e11-8ca0-beb53d5a140d",
+    "name": "RWC Event",
+    "size": "16x16",
+    "Unit ID": "rwc25M001",
+    "Collector Number": "M001",
+    "Unit Type": "Map",
+    "Set": "Red, White, & Clix 2025",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "01044f9d-a560-45b6-a5c1-09e1b7e04a00",
+    "image": "226e4957-b1db-4e11-8ca0-beb53d5a140d.jpg"
+  },
+  {
+    "id": "662df70d-17fe-4060-b047-fe40dcf19223",
+    "name": "RWC Army Base",
+    "size": "16x16",
+    "Unit ID": "rwc25M002",
+    "Collector Number": "M002",
+    "Unit Type": "Map",
+    "Set": "Red, White, & Clix 2025",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "01044f9d-a560-45b6-a5c1-09e1b7e04a00",
+    "image": "662df70d-17fe-4060-b047-fe40dcf19223.jpg"
+  }
+]

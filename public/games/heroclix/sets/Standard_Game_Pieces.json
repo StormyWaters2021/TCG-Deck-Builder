@@ -1,0 +1,111 @@
+[
+  {
+    "id": "7db159f2-1eb2-425f-aaac-5492e36d755b",
+    "name": "Powers and Abilities Card",
+    "size": "PAC",
+    "Unit Type": "PAC",
+    "Set": "Standard Game Pieces",
+    "Designer": "Official",
+    "Type": "PAC",
+    "set_id": "fa942363-479c-4cc0-97ff-fdff9fbf3e96",
+    "image": "7db159f2-1eb2-425f-aaac-5492e36d755b.jpg"
+  },
+  {
+    "id": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39",
+    "name": "6",
+    "size": "Dice",
+    "Unit Type": "Dice",
+    "alternates": [
+      {
+        "name": "1",
+        "type": "Face1",
+        "size": "Dice",
+        "image": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39.Face1.jpg"
+      },
+      {
+        "name": "2",
+        "type": "Face2",
+        "size": "Dice",
+        "image": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39.Face2.jpg"
+      },
+      {
+        "name": "3",
+        "type": "Face3",
+        "size": "Dice",
+        "image": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39.Face3.jpg"
+      },
+      {
+        "name": "4",
+        "type": "Face4",
+        "size": "Dice",
+        "image": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39.Face4.jpg"
+      },
+      {
+        "name": "5",
+        "type": "Face5",
+        "size": "Dice",
+        "image": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39.Face5.jpg"
+      }
+    ],
+    "Set": "Standard Game Pieces",
+    "Designer": "Official",
+    "Type": "Dice",
+    "set_id": "fa942363-479c-4cc0-97ff-fdff9fbf3e96",
+    "image": "fdbd1ec7-702f-4c29-bd6f-3f628af80a39.jpg"
+  },
+  {
+    "id": "c9f48353-e39f-4066-9063-7807df3cb154",
+    "name": "Smoke",
+    "size": "1x1",
+    "Unit Type": "Terrain",
+    "Set": "Standard Game Pieces",
+    "Designer": "Official",
+    "Type": "Terrain",
+    "set_id": "fa942363-479c-4cc0-97ff-fdff9fbf3e96",
+    "image": "c9f48353-e39f-4066-9063-7807df3cb154.jpg"
+  },
+  {
+    "id": "ff83db33-9871-446c-9013-28f1f36d9326",
+    "name": "Debris",
+    "size": "1x1",
+    "Unit Type": "Terrain",
+    "Set": "Standard Game Pieces",
+    "Designer": "Official",
+    "Type": "Terrain",
+    "set_id": "fa942363-479c-4cc0-97ff-fdff9fbf3e96",
+    "image": "ff83db33-9871-446c-9013-28f1f36d9326.jpg"
+  },
+  {
+    "id": "a43d1c01-68f6-4492-b928-8e5149333c5b",
+    "name": "Water",
+    "size": "1x1",
+    "Unit Type": "Terrain",
+    "Set": "Standard Game Pieces",
+    "Designer": "Official",
+    "Type": "Terrain",
+    "set_id": "fa942363-479c-4cc0-97ff-fdff9fbf3e96",
+    "image": "a43d1c01-68f6-4492-b928-8e5149333c5b.jpg"
+  },
+  {
+    "id": "ad0e3ad3-101e-4674-93f5-5b82b9ffa2e4",
+    "name": "Blocking",
+    "size": "1x1",
+    "Unit Type": "Terrain",
+    "Set": "Standard Game Pieces",
+    "Designer": "Official",
+    "Type": "Terrain",
+    "set_id": "fa942363-479c-4cc0-97ff-fdff9fbf3e96",
+    "image": "ad0e3ad3-101e-4674-93f5-5b82b9ffa2e4.jpg"
+  },
+  {
+    "id": "1bf5e637-bd54-4011-9655-8e0ab7e2327a",
+    "name": "Elevated",
+    "size": "1x1",
+    "Unit Type": "Terrain",
+    "Set": "Standard Game Pieces",
+    "Designer": "Official",
+    "Type": "Terrain",
+    "set_id": "fa942363-479c-4cc0-97ff-fdff9fbf3e96",
+    "image": "1bf5e637-bd54-4011-9655-8e0ab7e2327a.jpg"
+  }
+]
