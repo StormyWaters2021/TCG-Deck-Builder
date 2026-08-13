@@ -29,7 +29,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "1",
         "Damage Ability": "Special - A NATURAL LEADER",
-        "image": "96211d1b-6546-4b73-bd25-f54c3009aa6c.Click1.jpg"
+        "image": "96211d1b-6546-4b73-bd25-f54c3009aa6c.Click1.png"
       },
       {
         "name": "Wasp",
@@ -44,7 +44,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "1",
         "Damage Ability": "Special - A NATURAL LEADER",
-        "image": "96211d1b-6546-4b73-bd25-f54c3009aa6c.Click2.jpg"
+        "image": "96211d1b-6546-4b73-bd25-f54c3009aa6c.Click2.png"
       },
       {
         "name": "Wasp",
@@ -59,7 +59,7 @@
         "Defense Ability": "Super Senses",
         "Damage": "3",
         "Damage Ability": "Special - A NATURAL LEADER",
-        "image": "96211d1b-6546-4b73-bd25-f54c3009aa6c.Click3.jpg"
+        "image": "96211d1b-6546-4b73-bd25-f54c3009aa6c.Click3.png"
       },
       {
         "name": "Wasp",
@@ -73,7 +73,7 @@
         "Defense": "17",
         "Defense Ability": "Super Senses",
         "Damage": "3",
-        "image": "96211d1b-6546-4b73-bd25-f54c3009aa6c.Click4.jpg"
+        "image": "96211d1b-6546-4b73-bd25-f54c3009aa6c.Click4.png"
       },
       {
         "name": "Wasp",
@@ -83,14 +83,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "96211d1b-6546-4b73-bd25-f54c3009aa6c.KO.jpg"
+        "image": "96211d1b-6546-4b73-bd25-f54c3009aa6c.KO.png"
       }
     ],
     "Set": "Marvel 25th Anniversary",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "c52c48f3-9a76-49e8-a085-958191b37fc0",
-    "image": "96211d1b-6546-4b73-bd25-f54c3009aa6c.jpg"
+    "image": "96211d1b-6546-4b73-bd25-f54c3009aa6c.png"
   },
   {
     "id": "321ac6ee-cbd8-46a2-87ca-783863370d94",
@@ -122,7 +122,7 @@
         "Defense Ability": "Defend",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.Click1.jpg"
+        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.Click1.png"
       },
       {
         "name": "Sue Storm",
@@ -137,7 +137,7 @@
         "Defense Ability": "Defend",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.Click2.jpg"
+        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.Click2.png"
       },
       {
         "name": "Sue Storm",
@@ -152,7 +152,7 @@
         "Defense Ability": "Defend",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.Click3.jpg"
+        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.Click3.png"
       },
       {
         "name": "Sue Storm",
@@ -166,7 +166,7 @@
         "Defense": "18",
         "Defense Ability": "Toughness",
         "Damage": "4",
-        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.Click4.jpg"
+        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.Click4.png"
       },
       {
         "name": "Sue Storm",
@@ -180,7 +180,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "2",
-        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.Click5.jpg"
+        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.Click5.png"
       },
       {
         "name": "Sue Storm",
@@ -194,7 +194,7 @@
         "Defense": "17",
         "Defense Ability": "Toughness",
         "Damage": "2",
-        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.Click6.jpg"
+        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.Click6.png"
       },
       {
         "name": "Sue Storm",
@@ -204,14 +204,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.KO.jpg"
+        "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.KO.png"
       }
     ],
     "Set": "Marvel 25th Anniversary",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "c52c48f3-9a76-49e8-a085-958191b37fc0",
-    "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.jpg"
+    "image": "321ac6ee-cbd8-46a2-87ca-783863370d94.png"
   },
   {
     "id": "c0b97bf7-405f-4a82-a362-1fbd704f5653",
@@ -242,7 +242,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
-        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.Click1.jpg"
+        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.Click1.png"
       },
       {
         "name": "Pyro",
@@ -256,7 +256,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
-        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.Click2.jpg"
+        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.Click2.png"
       },
       {
         "name": "Pyro",
@@ -270,7 +270,7 @@
         "Defense": "17",
         "Defense Ability": "Energy Shield Deflection",
         "Damage": "3",
-        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.Click3.jpg"
+        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.Click3.png"
       },
       {
         "name": "Pyro",
@@ -286,7 +286,7 @@
         "Defense Ability": "Barrier",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.Click4.jpg"
+        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.Click4.png"
       },
       {
         "name": "Pyro",
@@ -301,7 +301,7 @@
         "Defense Ability": "Barrier",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.Click5.jpg"
+        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.Click5.png"
       },
       {
         "name": "Pyro",
@@ -316,7 +316,7 @@
         "Defense Ability": "Barrier",
         "Damage": "2",
         "Damage Ability": "Ranged Combat Expert",
-        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.Click6.jpg"
+        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.Click6.png"
       },
       {
         "name": "Pyro",
@@ -326,14 +326,14 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.KO.jpg"
+        "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.KO.png"
       }
     ],
     "Set": "Marvel 25th Anniversary",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "c52c48f3-9a76-49e8-a085-958191b37fc0",
-    "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.jpg"
+    "image": "c0b97bf7-405f-4a82-a362-1fbd704f5653.png"
   },
   {
     "id": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd",
@@ -366,7 +366,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Special - COSMIC AWARENESS",
-        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.Click1.jpg"
+        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.Click1.png"
       },
       {
         "name": "Silver Surfer",
@@ -381,7 +381,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Special - COSMIC AWARENESS",
-        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.Click2.jpg"
+        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.Click2.png"
       },
       {
         "name": "Silver Surfer",
@@ -396,7 +396,7 @@
         "Defense Ability": "Invincible",
         "Damage": "3",
         "Damage Ability": "Special - COSMIC AWARENESS",
-        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.Click3.jpg"
+        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.Click3.png"
       },
       {
         "name": "Silver Surfer",
@@ -410,7 +410,7 @@
         "Defense": "19",
         "Defense Ability": "Special - YOU MISTAKE RESTRAINT FOR WEAKNESS",
         "Damage": "5",
-        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.Click4.jpg"
+        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.Click4.png"
       },
       {
         "name": "Silver Surfer",
@@ -424,7 +424,7 @@
         "Defense": "19",
         "Defense Ability": "Special - YOU MISTAKE RESTRAINT FOR WEAKNESS",
         "Damage": "4",
-        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.Click5.jpg"
+        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.Click5.png"
       },
       {
         "name": "Silver Surfer",
@@ -438,7 +438,7 @@
         "Defense": "19",
         "Defense Ability": "Special - YOU MISTAKE RESTRAINT FOR WEAKNESS",
         "Damage": "4",
-        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.Click6.jpg"
+        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.Click6.png"
       },
       {
         "name": "Silver Surfer",
@@ -448,13 +448,13 @@
         "Attack": "KO",
         "Defense": "KO",
         "Damage": "KO",
-        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.KO.jpg"
+        "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.KO.png"
       }
     ],
     "Set": "Marvel 25th Anniversary",
     "Designer": "Official",
     "Type": "Character",
     "set_id": "c52c48f3-9a76-49e8-a085-958191b37fc0",
-    "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.jpg"
+    "image": "c9ba7ff2-2d27-47d0-99a1-34618905fcbd.png"
   }
 ]
