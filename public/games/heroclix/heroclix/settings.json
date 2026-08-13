@@ -1,0 +1,32 @@
+{
+  "gameName": "heroclix",
+  "game_id": "dabf7f85-249a-48ee-9d42-8f59adf60185",
+  "addNValue": 4,
+  "groupOptions": [
+    "Type",
+    "Unit Type"
+  ],
+  "filterOptions": [
+    "alternates",
+    "Collector Number",
+    "Combat Symbols",
+    "Designer",
+    "Improved Movement",
+    "Improved Targeting",
+    "Keywords",
+    "Point Values",
+    "Properties",
+    "Range",
+    "Rarity",
+    "Set Code",
+    "size",
+    "Targets",
+    "Team Abilities",
+    "Traits and Special Powers",
+    "Unit ID"
+  ],
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {},
+  "octgnExport": false
+}
