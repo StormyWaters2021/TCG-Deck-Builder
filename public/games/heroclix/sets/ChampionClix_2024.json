@@ -1,0 +1,39 @@
+[
+  {
+    "id": "2c52b097-722a-4b6b-b209-78ee0c38aa9b",
+    "name": "Anthony Barnstable",
+    "size": "1x1",
+    "Unit ID": "cco24CCO-001",
+    "Collector Number": "CCO-001",
+    "Unit Type": "Bystander",
+    "Rarity": "Chase",
+    "Point Values": "15",
+    "Range": "3",
+    "Targets": "1",
+    "Combat Symbols": "Boot | Fist | Indomitable | Starburst",
+    "Traits and Special Powers": "[Speed] JUDGE!Powers: Hypersonic SpeedHypersonic Speed. When Anthony Barnstable uses it, if no other character has moved this turn, modify speed +3.",
+    "alternates": [
+      {
+        "name": "Anthony Barnstable",
+        "type": "Click1",
+        "size": "1x1",
+        "Click Number": "1",
+        "Starting Line": "Auto",
+        "Speed": "7",
+        "Speed Ability": "Special - JUDGE!",
+        "Attack": "10",
+        "Attack Ability": "Precision Strike",
+        "Defense": "17",
+        "Defense Ability": "Willpower",
+        "Damage": "1",
+        "Damage Ability": "Outwit",
+        "image": "2c52b097-722a-4b6b-b209-78ee0c38aa9b.Click1.png"
+      }
+    ],
+    "Set": "ChampionClix 2024",
+    "Designer": "Official",
+    "Type": "Bystander",
+    "set_id": "c682ecc9-e056-47c9-abd9-ea85bfb0b5c4",
+    "image": "2c52b097-722a-4b6b-b209-78ee0c38aa9b.png"
+  }
+]

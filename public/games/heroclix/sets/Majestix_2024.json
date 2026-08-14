@@ -1,0 +1,28 @@
+[
+  {
+    "id": "eb6dbe3f-edb2-43b4-abc1-6f09f0f7da9f",
+    "name": "Kaiju Mountain",
+    "size": "16x24",
+    "Unit ID": "mjx24M001",
+    "Collector Number": "M001",
+    "Unit Type": "Map",
+    "Set": "Majestix 2024",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "e9780ead-66d7-4303-b4e7-c9af1f830de2",
+    "image": "eb6dbe3f-edb2-43b4-abc1-6f09f0f7da9f.png"
+  },
+  {
+    "id": "19afe85e-4694-4f4b-a5e9-31c57b5b7dff",
+    "name": "Kaiju Mountain V2",
+    "size": "16x16",
+    "Unit ID": "mjx24M002",
+    "Collector Number": "M002",
+    "Unit Type": "Map",
+    "Set": "Majestix 2024",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "e9780ead-66d7-4303-b4e7-c9af1f830de2",
+    "image": "19afe85e-4694-4f4b-a5e9-31c57b5b7dff.png"
+  }
+]

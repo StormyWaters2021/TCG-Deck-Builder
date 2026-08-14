@@ -1,0 +1,67 @@
+[
+  {
+    "id": "cc2fd917-86f5-4728-8e5d-680b31b8e1fd",
+    "name": "Haddon Street",
+    "size": "16x24",
+    "Unit ID": "mjx23M001",
+    "Collector Number": "M001",
+    "Unit Type": "Map",
+    "Set": "Majestix 2023",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "f1045a22-4ff8-41a3-9c1b-0a80b57421bb",
+    "image": "cc2fd917-86f5-4728-8e5d-680b31b8e1fd.png"
+  },
+  {
+    "id": "c498be00-5173-45b5-aef0-d1cd42227155",
+    "name": "Temple of Gloom",
+    "size": "16x24",
+    "Unit ID": "mjx23M002",
+    "Collector Number": "M002",
+    "Unit Type": "Map",
+    "Set": "Majestix 2023",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "f1045a22-4ff8-41a3-9c1b-0a80b57421bb",
+    "image": "c498be00-5173-45b5-aef0-d1cd42227155.png"
+  },
+  {
+    "id": "f38844f8-31ca-4ab5-80b6-e1c6719fd4b7",
+    "name": "Temple of Gloom B (2v2)",
+    "size": "16x16",
+    "Unit ID": "mjx23M003",
+    "Collector Number": "M003",
+    "Unit Type": "Map",
+    "Set": "Majestix 2023",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "f1045a22-4ff8-41a3-9c1b-0a80b57421bb",
+    "image": "f38844f8-31ca-4ab5-80b6-e1c6719fd4b7.png"
+  },
+  {
+    "id": "9f4d4b70-0132-4bdc-9657-180739e6c88c",
+    "name": "The Boiler Room",
+    "size": "16x24",
+    "Unit ID": "mjx23M004",
+    "Collector Number": "M004",
+    "Unit Type": "Map",
+    "Set": "Majestix 2023",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "f1045a22-4ff8-41a3-9c1b-0a80b57421bb",
+    "image": "9f4d4b70-0132-4bdc-9657-180739e6c88c.png"
+  },
+  {
+    "id": "63611f8b-e7e3-444c-be80-983934a575d3",
+    "name": "The Boiler Room V2",
+    "size": "16x16",
+    "Unit ID": "mjx23M005",
+    "Collector Number": "M005",
+    "Unit Type": "Map",
+    "Set": "Majestix 2023",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "f1045a22-4ff8-41a3-9c1b-0a80b57421bb",
+    "image": "63611f8b-e7e3-444c-be80-983934a575d3.png"
+  }
+]

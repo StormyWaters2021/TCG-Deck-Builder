@@ -1,0 +1,55 @@
+[
+  {
+    "id": "698e3d39-02b9-449d-a909-5595f0eacba5",
+    "name": "Icy Lake",
+    "size": "16x16",
+    "Unit ID": "roc24M001",
+    "Collector Number": "M001",
+    "Unit Type": "Map",
+    "Traits and Special Powers": "FROZEN LAKESquares within the orange border are the Frozen Lake. At the end of each player's turn, that player rolls a d6. If a character in the Frozen Lake attacked this turn, increase the result by +2. [6]: Generate a water marker in the square of a character in the Frozen Lake that either attacked or was hit this turn. If possible, the water marker must be generated in a square that isn't water. Characters occupying water terrain in the Frozen Lake modify their combat values -1.",
+    "Set": "ROC 2024",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "706c29cb-83da-4c5a-8467-3ac9fda2de8a",
+    "image": "698e3d39-02b9-449d-a909-5595f0eacba5.png"
+  },
+  {
+    "id": "f1f27908-e992-41a9-9e47-c7ce5416300a",
+    "name": "Major Brock's Bunker",
+    "size": "16x16",
+    "Unit ID": "roc24M002",
+    "Collector Number": "M002",
+    "Unit Type": "Map",
+    "Set": "ROC 2024",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "706c29cb-83da-4c5a-8467-3ac9fda2de8a",
+    "image": "f1f27908-e992-41a9-9e47-c7ce5416300a.png"
+  },
+  {
+    "id": "5728ac8a-a278-42f2-9072-e69778900ab2",
+    "name": "Brock 'n' Roll Concert",
+    "size": "16x16",
+    "Unit ID": "roc24M003",
+    "Collector Number": "M003",
+    "Unit Type": "Map",
+    "Set": "ROC 2024",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "706c29cb-83da-4c5a-8467-3ac9fda2de8a",
+    "image": "5728ac8a-a278-42f2-9072-e69778900ab2.png"
+  },
+  {
+    "id": "4867f7a9-a113-4dd9-8ce3-221b66875360",
+    "name": "The Mansion",
+    "size": "16x16",
+    "Unit ID": "roc24M004",
+    "Collector Number": "M004",
+    "Unit Type": "Map",
+    "Set": "ROC 2024",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "706c29cb-83da-4c5a-8467-3ac9fda2de8a",
+    "image": "4867f7a9-a113-4dd9-8ce3-221b66875360.png"
+  }
+]

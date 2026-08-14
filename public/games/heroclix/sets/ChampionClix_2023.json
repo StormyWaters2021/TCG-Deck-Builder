@@ -1,0 +1,52 @@
+[
+  {
+    "id": "8761f7f4-f7c4-4490-91ea-6e34da5c79d9",
+    "name": "Florida Man",
+    "size": "1x1",
+    "Unit ID": "cco23001",
+    "Collector Number": "001",
+    "Unit Type": "Bystander",
+    "Rarity": "Chase",
+    "Point Values": "15",
+    "Range": "4",
+    "Targets": "1",
+    "Combat Symbols": "Boot | Fist | Indomitable | Starburst",
+    "Traits and Special Powers": "[Attack] Unnamed AbilityPowers: Blades Claws FangsBlades/Claws/Fangs. Once per game, when this character makes a range attack, instead of normal damage you may roll a D6.",
+    "alternates": [
+      {
+        "name": "Florida Man",
+        "type": "Click1",
+        "size": "1x1",
+        "Click Number": "1",
+        "Starting Line": "Auto",
+        "Speed": "10",
+        "Speed Ability": "Sidestep",
+        "Attack": "11",
+        "Attack Ability": "Special",
+        "Defense": "17",
+        "Defense Ability": "Combat Reflexes",
+        "Damage": "1",
+        "Damage Ability": "Perplex",
+        "image": "8761f7f4-f7c4-4490-91ea-6e34da5c79d9.Click1.png"
+      }
+    ],
+    "Set": "ChampionClix 2023",
+    "Designer": "Official",
+    "Type": "Bystander",
+    "set_id": "ca07120b-8bcc-4c07-998e-ffb6002664ad",
+    "image": "8761f7f4-f7c4-4490-91ea-6e34da5c79d9.png"
+  },
+  {
+    "id": "3463505d-8eea-445a-b6b7-37b08b48c065",
+    "name": "Fountain of Youth",
+    "size": "16x16",
+    "Unit ID": "cco23M001",
+    "Collector Number": "M001",
+    "Unit Type": "Map",
+    "Set": "ChampionClix 2023",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "ca07120b-8bcc-4c07-998e-ffb6002664ad",
+    "image": "3463505d-8eea-445a-b6b7-37b08b48c065.png"
+  }
+]

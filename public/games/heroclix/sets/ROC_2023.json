@@ -1,0 +1,67 @@
+[
+  {
+    "id": "498676af-e5d1-4bdf-b450-8fc7f9cb0028",
+    "name": "Racer Motors",
+    "size": "16x24",
+    "Unit ID": "roc23M001",
+    "Collector Number": "M001",
+    "Unit Type": "Map",
+    "Set": "ROC 2023",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "a1ffe1e4-dbbe-48b8-a68d-94fecfaf164d",
+    "image": "498676af-e5d1-4bdf-b450-8fc7f9cb0028.png"
+  },
+  {
+    "id": "1e860dee-f6b0-4d3f-be26-2ddcf934806e",
+    "name": "Randy's Marsh",
+    "size": "16x24",
+    "Unit ID": "roc23M002",
+    "Collector Number": "M002",
+    "Unit Type": "Map",
+    "Set": "ROC 2023",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "a1ffe1e4-dbbe-48b8-a68d-94fecfaf164d",
+    "image": "1e860dee-f6b0-4d3f-be26-2ddcf934806e.png"
+  },
+  {
+    "id": "9fe692d6-c75a-41c1-9723-edc47c238896",
+    "name": "Critical Clix Headquarters",
+    "size": "16x24",
+    "Unit ID": "roc23M003",
+    "Collector Number": "M003",
+    "Unit Type": "Map",
+    "Set": "ROC 2023",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "a1ffe1e4-dbbe-48b8-a68d-94fecfaf164d",
+    "image": "9fe692d6-c75a-41c1-9723-edc47c238896.png"
+  },
+  {
+    "id": "7fb1fb5e-dd16-4903-8ca7-f4d7f3c7e85e",
+    "name": "Antiquities Warehouse",
+    "size": "16x16",
+    "Unit ID": "roc23M004",
+    "Collector Number": "M004",
+    "Unit Type": "Map",
+    "Set": "ROC 2023",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "a1ffe1e4-dbbe-48b8-a68d-94fecfaf164d",
+    "image": "7fb1fb5e-dd16-4903-8ca7-f4d7f3c7e85e.png"
+  },
+  {
+    "id": "8c83e5fe-f9c5-48e1-a923-2f461711fd58",
+    "name": "Temple Entrance",
+    "size": "16x16",
+    "Unit ID": "roc23M005",
+    "Collector Number": "M005",
+    "Unit Type": "Map",
+    "Set": "ROC 2023",
+    "Designer": "Official",
+    "Type": "Map",
+    "set_id": "a1ffe1e4-dbbe-48b8-a68d-94fecfaf164d",
+    "image": "8c83e5fe-f9c5-48e1-a923-2f461711fd58.png"
+  }
+]
