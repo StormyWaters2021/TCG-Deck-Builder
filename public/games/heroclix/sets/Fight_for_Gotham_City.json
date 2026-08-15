@@ -14631,7 +14631,7 @@
     "Set": "Fight for Gotham City",
     "Designer": "Official",
     "Type": "Terrain Marker",
-    "set_id": "Fight for Gotham City",
+    "set_id": "fcb921a1-285b-4ce4-99c5-fcac8feddf81",
     "image": "7c655acb-f617-480a-aff3-65a3ab15092d.png"
   },
   {
@@ -14657,7 +14657,7 @@
     "Set": "Fight for Gotham City",
     "Designer": "Official",
     "Type": "Terrain Marker",
-    "set_id": "Fight for Gotham City",
+    "set_id": "fcb921a1-285b-4ce4-99c5-fcac8feddf81",
     "image": "42b0f63a-37ec-4d9b-9402-a2fafe41a46b.png"
   },
   {
@@ -14674,7 +14674,7 @@
     "Traits and Special Powers": "",
     "alternates": [
       {
-        "name": "Chronotron Bomb",
+        "name": "Shipping Containers",
         "type": "Tile",
         "size": "2x2",
         "image": "b74f5ca9-4b12-41f2-b36b-85eadf2087ed.Tile.png"
@@ -14683,7 +14683,7 @@
     "Set": "Fight for Gotham City",
     "Designer": "Official",
     "Type": "Terrain Marker",
-    "set_id": "Fight for Gotham City",
+    "set_id": "fcb921a1-285b-4ce4-99c5-fcac8feddf81",
     "image": "b74f5ca9-4b12-41f2-b36b-85eadf2087ed.png"
   },
   {
