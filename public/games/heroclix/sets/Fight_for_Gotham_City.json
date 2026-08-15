@@ -14609,6 +14609,84 @@
     "image": "2ae339bb-b252-433a-9553-e4234cd12e00.png"
   },
   {
+    "id": "7c655acb-f617-480a-aff3-65a3ab15092d",
+    "name": "Joker Sign",
+    "size": "Card",
+    "Collector Number": "DC30-t014",
+    "Set Code": "ffgc",
+    "Unit ID": "ffgcDC30-t014",
+    "Unit Type": "Terrain Marker",
+    "Rarity": "",
+    "Point Values": "0",
+    "Range": "5",
+    "Traits and Special Powers": "",
+    "alternates": [
+      {
+        "name": "Joker Sign",
+        "type": "Tile",
+        "size": "1x2",
+        "image": "7c655acb-f617-480a-aff3-65a3ab15092d.Tile.png"
+      }
+    ],
+    "Set": "Fight for Gotham City",
+    "Designer": "Official",
+    "Type": "Terrain Marker",
+    "set_id": "Fight for Gotham City",
+    "image": "7c655acb-f617-480a-aff3-65a3ab15092d.png"
+  },
+  {
+    "id": "42b0f63a-37ec-4d9b-9402-a2fafe41a46b",
+    "name": "Batmobile",
+    "size": "Card",
+    "Collector Number": "DC30-t015",
+    "Set Code": "ffgc",
+    "Unit ID": "ffgcDC30-t015",
+    "Unit Type": "Terrain Marker",
+    "Rarity": "",
+    "Point Values": "0",
+    "Range": "4",
+    "Traits and Special Powers": "",
+    "alternates": [
+      {
+        "name": "Batmobile",
+        "type": "Tile",
+        "size": "2x3",
+        "image": "42b0f63a-37ec-4d9b-9402-a2fafe41a46b.Tile.png"
+      }
+    ],
+    "Set": "Fight for Gotham City",
+    "Designer": "Official",
+    "Type": "Terrain Marker",
+    "set_id": "Fight for Gotham City",
+    "image": "42b0f63a-37ec-4d9b-9402-a2fafe41a46b.png"
+  },
+  {
+    "id": "b74f5ca9-4b12-41f2-b36b-85eadf2087ed",
+    "name": "Shipping Containers",
+    "size": "Card",
+    "Collector Number": "DC30-t016",
+    "Set Code": "ffgc",
+    "Unit ID": "ffgcDC30-t016",
+    "Unit Type": "Terrain Marker",
+    "Rarity": "",
+    "Point Values": "0",
+    "Range": "4",
+    "Traits and Special Powers": "",
+    "alternates": [
+      {
+        "name": "Chronotron Bomb",
+        "type": "Tile",
+        "size": "2x2",
+        "image": "b74f5ca9-4b12-41f2-b36b-85eadf2087ed.Tile.png"
+      }
+    ],
+    "Set": "Fight for Gotham City",
+    "Designer": "Official",
+    "Type": "Terrain Marker",
+    "set_id": "Fight for Gotham City",
+    "image": "b74f5ca9-4b12-41f2-b36b-85eadf2087ed.png"
+  },
+  {
     "id": "c75e1b81-ca18-430d-b137-b1c224a0443e",
     "name": "Maxie Zeus",
     "size": "Card",
