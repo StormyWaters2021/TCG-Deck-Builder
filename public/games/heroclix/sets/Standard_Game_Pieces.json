@@ -55,17 +55,9 @@
   },
   {
     "id": "c9f48353-e39f-4066-9063-7807df3cb154",
-    "name": "Smoke",
-    "size": "Card",
+    "name": "Smoke (Hindering)",
+    "size": "1x1",
     "Unit Type": "Terrain Marker",
-    "alternates": [
-      {
-        "name": "Smoke",
-        "type": "Tile",
-        "size": "1x1",
-        "image": "c9f48353-e39f-4066-9063-7807df3cb154.Tile.png"
-      }
-    ],
     "Set": "Standard Game Pieces",
     "Designer": "Official",
     "Type": "Terrain Marker",
@@ -74,17 +66,9 @@
   },
   {
     "id": "ff83db33-9871-446c-9013-28f1f36d9326",
-    "name": "Debris",
-    "size": "Card",
+    "name": "Debris (Hindering)",
+    "size": "1x1",
     "Unit Type": "Terrain Marker",
-    "alternates": [
-      {
-        "name": "Debris",
-        "type": "Tile",
-        "size": "1x1",
-        "image": "ff83db33-9871-446c-9013-28f1f36d9326.Tile.png"
-      }
-    ],
     "Set": "Standard Game Pieces",
     "Designer": "Official",
     "Type": "Terrain Marker",
@@ -94,16 +78,8 @@
   {
     "id": "a43d1c01-68f6-4492-b928-8e5149333c5b",
     "name": "Water",
-    "size": "Card",
+    "size": "1x1",
     "Unit Type": "Terrain Marker",
-    "alternates": [
-      {
-        "name": "Water",
-        "type": "Tile",
-        "size": "1x1",
-        "image": "a43d1c01-68f6-4492-b928-8e5149333c5b.Tile.png"
-      }
-    ],
     "Set": "Standard Game Pieces",
     "Designer": "Official",
     "Type": "Terrain Marker",
@@ -113,16 +89,8 @@
   {
     "id": "ad0e3ad3-101e-4674-93f5-5b82b9ffa2e4",
     "name": "Blocking",
-    "size": "Card",
+    "size": "1x1",
     "Unit Type": "Terrain Marker",
-    "alternates": [
-      {
-        "name": "Blocking",
-        "type": "Tile",
-        "size": "1x1",
-        "image": "ad0e3ad3-101e-4674-93f5-5b82b9ffa2e4.Tile.png"
-      }
-    ],
     "Set": "Standard Game Pieces",
     "Designer": "Official",
     "Type": "Terrain Marker",
@@ -132,20 +100,409 @@
   {
     "id": "1bf5e637-bd54-4011-9655-8e0ab7e2327a",
     "name": "Elevated",
-    "size": "Card",
+    "size": "1x1",
     "Unit Type": "Terrain Marker",
-    "alternates": [
-      {
-        "name": "Elevated",
-        "type": "Tile",
-        "size": "1x1",
-        "image": "1bf5e637-bd54-4011-9655-8e0ab7e2327a.Tile.png"
-      }
-    ],
     "Set": "Standard Game Pieces",
     "Designer": "Official",
     "Type": "Terrain Marker",
     "set_id": "fa942363-479c-4cc0-97ff-fdff9fbf3e96",
     "image": "1bf5e637-bd54-4011-9655-8e0ab7e2327a.png"
+  },
+  {
+    "id": "0eccc91f-84e5-4426-9860-a5a0f7bf3517",
+    "name": "Line of Sight",
+    "size": "LOSBase",
+    "Unit Type": "Line of Sight",
+    "alternates": [
+      {
+        "name": "Line of Sight",
+        "type": "LOS0x1",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS0x1.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x10A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x10A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x10B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x10B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x9A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x9A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x9B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x9B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x8A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x8A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x8B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x8B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x7A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x7A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x7B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x7B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x6A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x6A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x6B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x6B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x5A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x5A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x5B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x5B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS2x9A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS2x9A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS2x9B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS2x9B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x4A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x4A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x4B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x4B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS2x7A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS2x7A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS2x7B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS2x7B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS3x10A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS3x10A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS3x10B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS3x10B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x3A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x3A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x3B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x3B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS3x8A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS3x8A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS3x8B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS3x8B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS2x5A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS2x5A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS2x5B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS2x5B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS3x7A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS3x7A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS3x7B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS3x7B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS4x9A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS4x9A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS4x9B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS4x9B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x2A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x2A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x2B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x2B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS5x9A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS5x9A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS5x9B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS5x9B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS4x7A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS4x7A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS4x7B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS4x7B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS3x5A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS3x5A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS3x5B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS3x5B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS5x8A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS5x8A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS5x8B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS5x8B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS2x3A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS2x3A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS2x3B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS2x3B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS7x10A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS7x10A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS7x10B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS7x10B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS5x7A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS5x7A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS5x7B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS5x7B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS3x4A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS3x4A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS3x4B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS3x4B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS7x9A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS7x9A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS7x9B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS7x9B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS4x5A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS4x5A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS4x5B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS4x5B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS5x6A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS5x6A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS5x6B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS5x6B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS6x7A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS6x7A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS6x7B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS6x7B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS7x8A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS7x8A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS7x8B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS7x8B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS8x9A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS8x9A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS8x9B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS8x9B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS9x10A",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS9x10A.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS9x10B",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS9x10B.png"
+      },
+      {
+        "name": "Line of Sight",
+        "type": "LOS1x1",
+        "size": "LOSLine",
+        "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.LOS1x1.png"
+      }
+    ],
+    "Set": "Standard Game Pieces",
+    "Designer": "Official",
+    "Type": "Line of Sight",
+    "set_id": "fa942363-479c-4cc0-97ff-fdff9fbf3e96",
+    "image": "0eccc91f-84e5-4426-9860-a5a0f7bf3517.png"
   }
 ]
