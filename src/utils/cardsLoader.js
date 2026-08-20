@@ -9,9 +9,27 @@ function normalizeSetKey(s) {
 }
 
 export async function loadCardsForGame(game, onProgress, options = {}) {
-  const setsIndex = (await import("../generated/setsIndex.json")).default ?? {};
-  const base = import.meta.env.BASE_URL ?? "/";
-  const allFiles = setsIndex[game] || [];
+  const DATA_BASE =
+	  "https://raw.githubusercontent.com/StormyWaters2021/TCG-Builder-Data/main";
+
+	let allFiles;
+
+	if (game === "heroclix") {
+	  const indexRes = await fetch(`${DATA_BASE}/games/heroclix/setsIndex.json`, {
+		cache: "no-store",
+	  });
+
+	  if (!indexRes.ok) {
+		throw new Error(
+		  `[${game}] Failed to load remote sets index: ${indexRes.status}`
+		);
+	  }
+
+	  allFiles = await indexRes.json();
+	} else {
+	  const setsIndex = (await import("../generated/setsIndex.json")).default ?? {};
+	  allFiles = setsIndex[game] || [];
+	}
 
   if (!allFiles.length) {
     throw new Error(
@@ -32,7 +50,13 @@ export async function loadCardsForGame(game, onProgress, options = {}) {
   }
 
   const isDev = !!(import.meta?.env?.DEV);
-  const reqInit = isDev ? { cache: "no-store" } : {};
+
+	const reqInit =
+	  game === "heroclix"
+		? { cache: "no-store" }
+		: isDev
+		  ? { cache: "no-store" }
+		  : {};
   const total = files.length;
   let done = 0;
 
@@ -41,7 +65,10 @@ export async function loadCardsForGame(game, onProgress, options = {}) {
   };
 
   const tasks = files.map(async (relPath) => {
-    const url = `${base}${relPath}`;
+    const url =
+	  game === "heroclix"
+		? `${DATA_BASE}/games/heroclix/sets/${relPath}`
+		: `${import.meta.env.BASE_URL ?? "/"}${relPath}`;
     try {
       const res = await fetch(url, reqInit);
       if (!res.ok) {
