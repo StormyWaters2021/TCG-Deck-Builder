@@ -9,6 +9,11 @@
     "Set": "ROC 2026",
     "Designer": "Official",
     "Type": "Map",
+	"alternates": [
+      {
+        "name": "Shaded Realm Light",
+        "image": "c914a49b-63d9-4120-a73b-5be7e487295e.Image.png"
+      }],
     "set_id": "96015990-af1f-4512-82cc-4940907fa83b",
     "image": "c914a49b-63d9-4120-a73b-5be7e487295e.png"
   },
@@ -36,6 +41,11 @@
     "Set": "ROC 2026",
     "Designer": "Official",
     "Type": "Map",
+	"alternates": [
+      {
+        "name": "Syndicate's Ascent",
+        "image": "71b34672-887b-4d33-b0ad-b18bfd9bdf3e.Image.png"
+      }],
     "set_id": "96015990-af1f-4512-82cc-4940907fa83b",
     "image": "71b34672-887b-4d33-b0ad-b18bfd9bdf3e.png"
   },
@@ -49,6 +59,11 @@
     "Set": "ROC 2026",
     "Designer": "Official",
     "Type": "Map",
+	"alternates": [
+      {
+        "name": "Thousand Ocean Voyager",
+        "image": "688c967e-0888-4e60-97fd-e06f27b98a79.Image.png"
+      }],
     "set_id": "96015990-af1f-4512-82cc-4940907fa83b",
     "image": "688c967e-0888-4e60-97fd-e06f27b98a79.png"
   }
