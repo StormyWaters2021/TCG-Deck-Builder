@@ -90,7 +90,7 @@
    "print":{
       "cardWidthMm":63,
       "cardHeightMm":88,
-      "bleedMm":0,
+      "bleedMm":3,
       "horizontalGapMm":0,
       "verticalGapMm":0,
       "sideMarginMm":10,

@@ -36,6 +36,7 @@ export async function exportDeckPDF(
   deckName = "deck",
   game = "",
   orderedEntries = null,
+  options = {},
 ) {
   if (!settings || !settings.print) {
     alert("Print settings are not configured for this game.");
@@ -43,6 +44,11 @@ export async function exportDeckPDF(
   }
 
   const print = settings.print;
+  const {
+	  addBlackBorderBleed = false,
+	  addCutLines = false,
+	} = options;
+
 
   const {
     cardWidthMm,
@@ -83,8 +89,17 @@ export async function exportDeckPDF(
   // ---- TILE + PAGE LAYOUT ----
 
   // Printed tile size (includes bleed)
-  const tileWidthMm = cardWidthMm + 2 * bleedMm;
-  const tileHeightMm = cardHeightMm + 2 * bleedMm;
+	const activeBleedMm = addBlackBorderBleed ? bleedMm : 0;
+
+	const effectiveHorizontalGapMm = Math.max(
+	  horizontalGapMm,
+	  activeBleedMm
+	);
+
+	const effectiveVerticalGapMm = Math.max(
+	  verticalGapMm,
+	  activeBleedMm
+	);
 
   let pdfFormat = "letter";
   let paperWidthMm;
@@ -113,19 +128,34 @@ export async function exportDeckPDF(
       break;
   }
 
-  const gridWidthMm =
-    sideMarginMm +
-    cardsPerRow * tileWidthMm +
-    (cardsPerRow - 1) * horizontalGapMm +
-    sideMarginMm;
+const layoutLeftMm =
+  sideMarginMm - activeBleedMm;
 
-  const gridHeightMm =
-    topMarginMm +
-    cardsPerColumn * tileHeightMm +
-    (cardsPerColumn - 1) * verticalGapMm +
-    bottomMarginMm;
+const layoutRightMm =
+  sideMarginMm +
+  cardsPerRow * cardWidthMm +
+  (cardsPerRow - 1) * effectiveHorizontalGapMm +
+  activeBleedMm;
 
-  if (gridWidthMm > paperWidthMm || gridHeightMm > paperHeightMm) {
+const layoutTopMm =
+  topMarginMm - activeBleedMm;
+
+const layoutBottomMm =
+  topMarginMm +
+  cardsPerColumn * cardHeightMm +
+  (cardsPerColumn - 1) * effectiveVerticalGapMm +
+  activeBleedMm;
+
+const gridWidthMm = layoutRightMm - layoutLeftMm;
+const gridHeightMm = layoutBottomMm - layoutTopMm;
+
+if (
+  layoutLeftMm < 0 ||
+  layoutRightMm > paperWidthMm ||
+  layoutTopMm < 0 ||
+  layoutBottomMm > paperHeightMm
+) {
+
     const msgLines = [
       "Print layout does not fit on the selected paper size.",
       "",
@@ -216,14 +246,14 @@ export async function exportDeckPDF(
   const JPEG_QUALITY = printJpegQuality != null ? printJpegQuality : 0.72;
 
   // Pixel size for the printed tile at TARGET_DPI
-  const targetPxWidth = Math.max(
-    1,
-    Math.round((tileWidthMm / MM_PER_INCH) * TARGET_DPI)
-  );
-  const targetPxHeight = Math.max(
-    1,
-    Math.round((tileHeightMm / MM_PER_INCH) * TARGET_DPI)
-  );
+	const targetPxWidth = Math.max(
+	  1,
+	  Math.round((cardWidthMm / MM_PER_INCH) * TARGET_DPI)
+	);
+	const targetPxHeight = Math.max(
+	  1,
+	  Math.round((cardHeightMm / MM_PER_INCH) * TARGET_DPI)
+	);
 
   // Cache processed (compressed+scaled) JPEG dataURLs by card id
   const processedImageCache = new Map();
@@ -332,44 +362,196 @@ export async function exportDeckPDF(
       continue;
     }
 
-    const xMm =
-      sideMarginMm + colIndex * (tileWidthMm + horizontalGapMm);
-    const yMm =
-      topMarginMm + rowIndex * (tileHeightMm + verticalGapMm);
+const cardX =
+  sideMarginMm +
+  colIndex * (cardWidthMm + effectiveHorizontalGapMm);
 
-    try {
-      // imageSource is always a JPEG dataURL now
-      doc.addImage(
-        imageSource,
-        "JPEG",
-        xMm,
-        yMm,
-        tileWidthMm,
-        tileHeightMm
-      );
-    } catch (e) {
-      console.warn(
-        "addImage failed for card, trying PNG fallback",
-        card,
-        e
-      );
-      try {
-        doc.addImage(
-          imageSource,
-          "PNG",
-          xMm,
-          yMm,
-          tileWidthMm,
-          tileHeightMm
-        );
-      } catch (e2) {
-        console.error(
-          "Failed to add image for card to PDF, leaving slot blank",
-          card,
-          e2
-        );
-      }
-    }
+const cardY =
+  topMarginMm +
+  rowIndex * (cardHeightMm + effectiveVerticalGapMm);
+
+try {
+	if (activeBleedMm > 0) {
+	  doc.setFillColor(0, 0, 0);
+	  doc.rect(
+		cardX - activeBleedMm,
+		cardY - activeBleedMm,
+		cardWidthMm + 2 * activeBleedMm,
+		cardHeightMm + 2 * activeBleedMm,
+		"F"
+	  );
+	}
+
+  doc.addImage(
+    imageSource,
+    "JPEG",
+    cardX,
+    cardY,
+    cardWidthMm,
+    cardHeightMm
+  );
+
+  if (addCutLines) {
+  const markLengthMm = 3;
+  const markOffsetMm = 1;
+
+  const left = cardX;
+  const right = cardX + cardWidthMm;
+  const top = cardY;
+  const bottom = cardY + cardHeightMm;
+
+  doc.setDrawColor(0, 0, 0);
+  doc.setLineWidth(0.1);
+
+  // Top-left
+  doc.line(
+    left - markOffsetMm - markLengthMm,
+    top,
+    left - markOffsetMm,
+    top
+  );
+  doc.line(
+    left,
+    top - markOffsetMm - markLengthMm,
+    left,
+    top - markOffsetMm
+  );
+
+  // Top-right
+  doc.line(
+    right + markOffsetMm,
+    top,
+    right + markOffsetMm + markLengthMm,
+    top
+  );
+  doc.line(
+    right,
+    top - markOffsetMm - markLengthMm,
+    right,
+    top - markOffsetMm
+  );
+
+  // Bottom-left
+  doc.line(
+    left - markOffsetMm - markLengthMm,
+    bottom,
+    left - markOffsetMm,
+    bottom
+  );
+  doc.line(
+    left,
+    bottom + markOffsetMm,
+    left,
+    bottom + markOffsetMm + markLengthMm
+  );
+
+  // Bottom-right
+  doc.line(
+    right + markOffsetMm,
+    bottom,
+    right + markOffsetMm + markLengthMm,
+    bottom
+  );
+  doc.line(
+    right,
+    bottom + markOffsetMm,
+    right,
+    bottom + markOffsetMm + markLengthMm
+  );
+}
+} catch (e) {
+  console.warn(
+    "addImage failed for card, trying PNG fallback",
+    card,
+    e
+  );
+
+  try {
+    doc.addImage(
+      imageSource,
+      "PNG",
+      cardX,
+      cardY,
+      cardWidthMm,
+      cardHeightMm
+    );
+
+    if (addCutLines) {
+  const markLengthMm = 3;
+  const markOffsetMm = 1;
+
+  const left = cardX;
+  const right = cardX + cardWidthMm;
+  const top = cardY;
+  const bottom = cardY + cardHeightMm;
+
+  doc.setDrawColor(0, 0, 0);
+  doc.setLineWidth(0.1);
+
+  // Top-left
+  doc.line(
+    left - markOffsetMm - markLengthMm,
+    top,
+    left - markOffsetMm,
+    top
+  );
+  doc.line(
+    left,
+    top - markOffsetMm - markLengthMm,
+    left,
+    top - markOffsetMm
+  );
+
+  // Top-right
+  doc.line(
+    right + markOffsetMm,
+    top,
+    right + markOffsetMm + markLengthMm,
+    top
+  );
+  doc.line(
+    right,
+    top - markOffsetMm - markLengthMm,
+    right,
+    top - markOffsetMm
+  );
+
+  // Bottom-left
+  doc.line(
+    left - markOffsetMm - markLengthMm,
+    bottom,
+    left - markOffsetMm,
+    bottom
+  );
+  doc.line(
+    left,
+    bottom + markOffsetMm,
+    left,
+    bottom + markOffsetMm + markLengthMm
+  );
+
+  // Bottom-right
+  doc.line(
+    right + markOffsetMm,
+    bottom,
+    right + markOffsetMm + markLengthMm,
+    bottom
+  );
+  doc.line(
+    right,
+    bottom + markOffsetMm,
+    right,
+    bottom + markOffsetMm + markLengthMm
+  );
+}
+  } catch (e2) {
+    console.error(
+      "Failed to add image for card to PDF, leaving slot blank",
+      card,
+      e2
+    );
+  }
+}
   }
 
   const safeDeckName =

@@ -35,6 +35,8 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
 ) {
   const [open, setOpen] = useState(false);
   const [selections, setSelections] = useState({});
+  const [addBlackBorderBleed, setAddBlackBorderBleed] = useState(false);
+  const [addCutLines, setAddCutLines] = useState(false);
 
   const groupedRows = useMemo(() => {
     return getGroupedExportSections(
@@ -84,10 +86,12 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
   }
 
   function openModal() {
-    onBeforeOpen?.();
-    setSelections(buildInitialSelections());
-    setOpen(true);
-  }
+	  onBeforeOpen?.();
+	  setSelections(buildInitialSelections());
+	  setAddBlackBorderBleed(false);
+	  setAddCutLines(false);
+	  setOpen(true);
+	}
 
   function closeModal() {
     setOpen(false);
@@ -198,14 +202,18 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
     onGeneratingChange?.(true);
 
     try {
-      await exportDeckPDF(
-        temporaryDeck,
-        cards,
-        settings,
-        deckName,
-        game,
-        orderedEntries,
-      );
+	await exportDeckPDF(
+	  temporaryDeck,
+	  cards,
+	  settings,
+	  deckName,
+	  game,
+	  orderedEntries,
+	  {
+		addBlackBorderBleed,
+		addCutLines,
+	  },
+	);
     } finally {
       onGeneratingChange?.(false);
     }
@@ -230,6 +238,49 @@ const ProxyPdfExportFlow = forwardRef(function ProxyPdfExportFlow(
         },
       ]}
     >
+	<div
+  style={{
+    display: "flex",
+    gap: "1.25rem",
+    marginBottom: "0.75rem",
+    flexWrap: "wrap",
+  }}
+>
+  <label
+    style={{
+      display: "flex",
+      alignItems: "center",
+      gap: "0.4rem",
+    }}
+  >
+    <input
+      type="checkbox"
+      checked={addBlackBorderBleed}
+      onChange={(event) =>
+        setAddBlackBorderBleed(event.target.checked)
+      }
+    />
+    Black-border bleed
+  </label>
+
+  <label
+    style={{
+      display: "flex",
+      alignItems: "center",
+      gap: "0.4rem",
+    }}
+  >
+    <input
+      type="checkbox"
+      checked={addCutLines}
+      onChange={(event) =>
+        setAddCutLines(event.target.checked)
+      }
+    />
+    Cut lines
+  </label>
+</div>
+	
       <div
         style={{
           display: "flex",
