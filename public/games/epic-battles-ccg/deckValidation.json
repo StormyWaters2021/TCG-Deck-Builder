@@ -1,0 +1,13 @@
+{
+  "minCards": 60,
+  "maxCards": 60,
+  "maxCopiesPerCard": 4,
+  "minMaxExclude": { "group": ["Side Deck"] },
+  "usePerCardLimit": true,
+  "propertyLimits": [
+    {}
+  ],
+  "banList": [
+    "Banned Card Name"
+  ]
+}

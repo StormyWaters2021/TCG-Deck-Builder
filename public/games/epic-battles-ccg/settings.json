@@ -1,0 +1,64 @@
+{
+  "gameName": "epic-battles-ccg",
+  "game_id": "4dbb84b8-f28d-4669-a547-5c8af2f691d6",
+  "addNValue": 4,
+  "fallbackGroup":"Deck",
+  "groupOptions": [
+	"OCTGN",
+    "Type"
+	],
+  "filterOptions": [
+    "Type",
+	"Attack Height",
+    "Damage",
+    "Energy Cost",
+    "Rarity",
+	"Set",
+	"Franchise"
+  ],
+  "groupOrder": [],
+  "groupSort": {},
+  "searchPrefixes": {
+	  "t": "Text"
+  },
+  "octgnExport": true,
+  "imagePackExport":true,
+  "deckExports":{
+      "menu":[
+         "decklistImage",
+         "shareLink",
+         "octgn",
+         "deckText"
+      ],
+      "modules":{
+         "decklistImage":{
+            "enabled":true,
+            "label":"As Image"
+         },
+         "shareLink":{
+            "enabled":true,
+            "label":"Share Link"
+         },
+         "octgn":{
+            "enabled":true,
+            "label":"OCTGN"
+         },
+         "deckText":{
+            "enabled":false,
+            "label":"Text"
+         },
+         "decklistPdf":{
+            "enabled":true,
+            "label":"Decklist PDF"
+         },
+         "deckSubmit":{
+            "enabled":false,
+            "label":"Submit Deck"
+         },
+         "tabletopSimulator":{
+            "enabled":false,
+            "label":"Tabletop Simulator"
+         }
+      }
+   }
+}
