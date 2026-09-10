@@ -1,0 +1,23 @@
+{
+  "gameGuid": "4dbb84b8-f28d-4669-a547-5c8af2f691d6",
+  "sections": [
+    {
+      "name": "Starting",
+      "shared": false,
+      "criteria": {
+        "Type": ["Character"]
+      }
+    },
+    {
+      "name": "Deck",
+      "shared": false,
+      "criteria": {}
+    },
+	{
+      "name": "Side Deck",
+      "shared": false,
+      "criteria": {}
+    }
+  ],
+  "defaultSection": "Deck"
+}
