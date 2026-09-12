@@ -9,6 +9,8 @@
 	],
   "filterOptions": [
     "Type",
+	"Attack Type",
+	"Link Type",
 	"Attack Height",
     "Damage",
     "Energy Cost",
@@ -23,10 +25,26 @@
   },
   "octgnExport": true,
   "imagePackExport":true,
+  "print":{
+      "cardWidthMm":63,
+      "cardHeightMm":88,
+      "bleedMm":3,
+      "horizontalGapMm":0,
+      "verticalGapMm":0,
+      "sideMarginMm":10,
+      "topMarginMm":5,
+      "bottomMarginMm":5,
+      "cardsPerRow":3,
+      "cardsPerColumn":3,
+      "dpi":300,
+      "jpegQuality":0.72,
+      "paperSize":"Letter"
+   },
   "deckExports":{
       "menu":[
          "decklistImage",
          "shareLink",
+		 "proxyPdf",
          "octgn",
          "deckText"
       ],
@@ -38,6 +56,10 @@
          "shareLink":{
             "enabled":true,
             "label":"Share Link"
+         },
+	    "proxyPdf":{
+		    "enabled":true,
+            "label":"Proxy PDF"
          },
          "octgn":{
             "enabled":true,
