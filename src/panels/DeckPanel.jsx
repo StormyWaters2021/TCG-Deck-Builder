@@ -424,6 +424,18 @@ function pointCostByRules(rules) {
         </span>
       );
     }
+	else if (item.type === "sumProperty") {
+	  const { total } = totalProperty(item.prop);
+
+	  stats.push(
+		<span
+		  key={`sumProperty:${item.prop}`}
+		  className="deck-stat"
+		>
+		  {item.label || `Total ${item.prop}`}: <b>{total}</b>
+		</span>
+	  );
+	}
     else if (item.type === "countType") {
       const count = countType(item.prop, item.value);
       stats.push(
