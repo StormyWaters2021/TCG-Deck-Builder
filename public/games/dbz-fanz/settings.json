@@ -1,5 +1,11 @@
 {
    "gameName":"dbz-fanz",
+     "cardPreview": {
+  "properties": [
+		"Set"
+	  ],
+	  "hideEmpty": true
+	},
    "hiddenSets":[
       "3ea98314-44af-4992-aadd-8b95de063324",
       "0000557e-1c4b-4891-ad6e-12e291dee532"
