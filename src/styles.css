@@ -1496,3 +1496,80 @@ li.selected {
   opacity: 1;
   cursor: default;
 }
+
+/* Mobile header: switch from overlapping absolute-positioned groups to natural flow. */
+@media (max-width: 900px) {
+  .app-header {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+    gap: 0.55rem;
+    padding: 0.65rem 0.75rem !important;
+    min-width: 0;
+  }
+
+  .app-header-back {
+    position: static !important;
+    align-self: flex-start;
+    min-height: 0;
+  }
+
+  .app-header-back:empty { display: none; }
+
+  .app-brand-row {
+    display: flex;
+    width: 100%;
+    min-width: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 0.55rem;
+    row-gap: 0.5rem;
+  }
+
+  .app-logo-link {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .app-logo {
+    max-width: min(260px, 70vw);
+    height: 45px;
+  }
+
+  .news-nav-button {
+    flex: 0 1 auto;
+    min-width: 0;
+    white-space: nowrap;
+  }
+
+  .app-header-actions {
+    position: static !important;
+    width: 100%;
+    max-width: 100%;
+    align-self: center;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.65rem !important;
+  }
+
+  .app-header-actions .account-control {
+    min-width: 0;
+    margin-right: 0.25rem;
+  }
+
+  .app-header-actions > button {
+    flex: 0 0 auto;
+    min-width: 30px;
+    min-height: 32px;
+  }
+
+  .app-header-actions .account-error {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
