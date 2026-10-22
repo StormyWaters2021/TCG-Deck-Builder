@@ -1,0 +1,12 @@
+{
+  "filters": [],
+  "layout": {
+    "columns": {
+      "maxColumns": 3,
+      "singleColumnGroups": []
+    }
+  },
+  "features": {
+    "seasons": false
+  }
+}

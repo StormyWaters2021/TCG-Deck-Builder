@@ -830,7 +830,7 @@ const handleLogout = async () => {
   }}
 >
   {/* Left side: Back button (pinned to left) */}
-<div style={{ position: "absolute", left: "1rem" }}>
+<div className="app-header-back" style={{ position: "absolute", left: "1rem" }}>
   {activePage !== "builder" ? (
     <button className="back-button" onClick={goToBuilder}>
       Builder
@@ -877,6 +877,7 @@ const handleLogout = async () => {
 
   {/* Right side: toggles (pinned to right, close together) */}
   <div
+  className="app-header-actions"
   style={{
     position: "absolute",
     right: "1rem",
