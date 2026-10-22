@@ -1,0 +1,48 @@
+{
+  "filters": [
+    {
+      "id": "style",
+      "label": "Deck Style",
+      "type": "select",
+      "options": [
+        "Black",
+        "Blue",
+        "Orange",
+        "Red",
+        "Namekian",
+        "Saiyan",
+        "Freestyle"
+      ]
+    }
+  ],
+  "layout": {
+    "columns": {
+      "maxColumns": 3,
+      "singleColumnGroups": [
+        "Starting"
+      ]
+    }
+  },
+  "features": {
+    "seasons": true
+  },
+  "styleDetection": {
+    "method": "cardMatch",
+    "matchProperty": "Type",
+    "matchContains": "Mastery",
+    "valueProperties": [
+      "Style",
+      "style",
+      "name"
+    ],
+    "values": [
+      "Black",
+      "Blue",
+      "Orange",
+      "Red",
+      "Namekian",
+      "Saiyan"
+    ],
+    "default": "Freestyle"
+  }
+}

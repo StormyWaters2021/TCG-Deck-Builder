@@ -1,3 +1,4 @@
+import DeckExportMenu from "../components/DeckExportMenu";
 import React, { useState, useEffect, useRef } from "react";
 import CardPreview from "../components/CardPreview";
 import DeckSubmissionFlow from "../components/DeckSubmissionFlow";
@@ -1607,58 +1608,10 @@ const deckExportActions = {
           <button className={buttonClass} onClick={saveDeck}>
             Save
           </button>
-          <div
-            style={{ position: "relative", width: "120px" }}
-            ref={exportMenuRef}
-          >
-            <button
-              className={buttonClass}
-              onClick={() => setExportMenuOpen((open) => !open)}
-            >
-              Export ▼
-            </button>
-            {exportMenuOpen && (
-              <div
-                className="dropdown-menu"
-                onMouseLeave={() => setExportMenuOpen(false)}
-              >
-                {deckExportModules.map((module) => {
-                  const action = deckExportActions[module.id];
-
-                  if (!action) return null;
-
-                  return (
-                    <button
-                      key={module.id}
-                      className={
-                        dropdownHover === module.id
-                          ? `${dropdownButtonClass} ${dropdownButtonHoverClass}`
-                          : dropdownButtonClass
-                      }
-                      onMouseEnter={() => setDropdownHover(module.id)}
-                      onMouseLeave={() => setDropdownHover(null)}
-                      onClick={() => {
-                        setDropdownHover(null);
-                        setExportMenuOpen(false);
-                        action();
-                      }}
-                    >
-                      {module.label}
-                    </button>
-                  );
-                })}
-              </div>
-            )}
-            {linkMessage && (
-              <div className={linkMessageClass}>{linkMessage}</div>
-            )}
-
-            {generatingPDF && (
-              <div className={linkMessageClass}>
-                PDF Generating, Please Wait...
-              </div>
-            )}
-          </div>
+          <DeckExportMenu settings={settings} actions={deckExportActions} buttonClass={buttonClass}>
+            {linkMessage && <div className={linkMessageClass}>{linkMessage}</div>}
+            {generatingPDF && <div className={linkMessageClass}>PDF Generating, Please Wait...</div>}
+          </DeckExportMenu>
           <button className={buttonClass} onClick={clearDeck}>
             Clear
           </button>
