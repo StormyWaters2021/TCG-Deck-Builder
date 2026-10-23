@@ -1,0 +1,19 @@
+{
+  "filters": [],
+  "layout": {
+    "columns": {
+      "maxColumns": 3,
+      "singleColumnGroups": []
+    }
+  },
+  "layout": {
+    "columns": { "maxColumns": 3 },
+    "groupPositions": {
+      "Type": { "Team Character": 1, "Mission": -1 },
+      "OCTGN": { "Team": 1, "Mission Pile": -1 }
+    }
+  },
+  "features": {
+    "seasons": false
+  }
+}
