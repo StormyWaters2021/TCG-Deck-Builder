@@ -1497,79 +1497,194 @@ li.selected {
   cursor: default;
 }
 
-/* Mobile header: switch from overlapping absolute-positioned groups to natural flow. */
+/* Compact two-row header. Mobile selection also activates on wide screens.
+   Rows: Back | small logo | account + tools ; News | Deck DB. */
+.app-header.header-mobile-mode {
+  display: grid !important;
+  grid-template-columns: auto minmax(24px, 1fr) auto;
+  grid-template-rows: 34px 30px;
+  align-items: center !important;
+  justify-content: stretch !important;
+  gap: 3px 5px !important;
+  padding: 4px 6px !important;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
 @media (max-width: 900px) {
   .app-header {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: stretch !important;
-    justify-content: flex-start !important;
-    gap: 0.55rem;
-    padding: 0.65rem 0.75rem !important;
+    display: grid !important;
+    grid-template-columns: auto minmax(24px, 1fr) auto;
+    grid-template-rows: 34px 30px;
+    align-items: center !important;
+    justify-content: stretch !important;
+    gap: 3px 5px !important;
+    padding: 4px 6px !important;
     min-width: 0;
+    box-sizing: border-box;
   }
+}
 
-  .app-header-back {
+
+  .app-header.header-mobile-mode .app-header-back {
     position: static !important;
-    align-self: flex-start;
-    min-height: 0;
-  }
-
-  .app-header-back:empty { display: none; }
-
-  .app-brand-row {
-    display: flex;
-    width: 100%;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    align-self: center;
     min-width: 0;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    column-gap: 0.55rem;
-    row-gap: 0.5rem;
   }
-
-  .app-logo-link {
-    flex: 0 0 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .app-logo {
-    max-width: min(260px, 70vw);
-    height: 45px;
-  }
-
-  .news-nav-button {
-    flex: 0 1 auto;
-    min-width: 0;
+  .app-header.header-mobile-mode .app-header-back .back-button {
+    margin: 0 !important;
+    padding: 4px 7px !important;
+    font-size: 12px !important;
+    line-height: 18px;
+    border-radius: 6px;
     white-space: nowrap;
   }
-
-  .app-header-actions {
-    position: static !important;
-    width: 100%;
-    max-width: 100%;
-    align-self: center;
-    display: flex !important;
+  .app-header.header-mobile-mode .app-brand-row { display: contents !important; }
+  .app-header.header-mobile-mode .app-logo-link {
+    grid-column: 2;
+    grid-row: 1;
+    width: auto;
+    min-width: 0;
+    height: 30px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 0.65rem !important;
   }
-
-  .app-header-actions .account-control {
+  .app-header.header-mobile-mode .app-logo { height: 30px !important; max-width: 52px !important; }
+  .app-header.header-mobile-mode .app-header-actions {
+    position: static !important;
+    grid-column: 3;
+    grid-row: 1;
+    width: auto !important;
     min-width: 0;
-    margin-right: 0.25rem;
+    max-width: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end !important;
+    flex-wrap: nowrap !important;
+    gap: 3px !important;
+    margin: 0 !important;
   }
+  .app-header.header-mobile-mode .app-header-actions .account-control { margin: 0 !important; gap: 2px !important; }
+  .app-header.header-mobile-mode .app-header-actions .account-profile-button { padding: 1px !important; gap: 0 !important; }
+  .app-header.header-mobile-mode .app-header-actions .account-avatar { width: 22px; height: 22px; }
+  .app-header.header-mobile-mode .app-header-actions .account-display-name { display: none !important; }
+  .app-header.header-mobile-mode .app-header-actions .account-button {
+    padding: 3px 5px !important;
+    line-height: 18px;
+    font-size: 11px !important;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+  .app-header.header-mobile-mode .app-header-actions > button {
+    min-width: 22px !important;
+    min-height: 25px !important;
+    width: 25px;
+    padding: 0 !important;
+    flex: 0 0 25px;
+    font-size: 17px !important;
+    line-height: 1 !important;
+  }
+  .app-header.header-mobile-mode .app-header-actions .account-error { display: none; }
+  .app-header.header-mobile-mode .news-nav-button {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-self: center;
+    width: max-content;
+    height: 28px;
+    padding: 3px 9px !important;
+    font-size: 12px !important;
+    line-height: 18px;
+    border-radius: 6px !important;
+    white-space: nowrap;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .app-header.header-mobile-mode .news-nav-button:first-of-type {transform: translateX(calc(-50% - 5px)) !important;}
+  .app-header.header-mobile-mode .news-nav-button:last-of-type {transform: translateX(calc(50% + 5px)) !important;}
+  .app-header.header-mobile-mode .news-nav-icon { font-size: 1em; }
 
-  .app-header-actions > button {
-    flex: 0 0 auto;
-    min-width: 30px;
-    min-height: 32px;
-  }
+@media (max-width: 900px) {
 
-  .app-header-actions .account-error {
-    flex-basis: 100%;
-    text-align: center;
+  .app-header .app-header-back {
+    position: static !important;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    align-self: center;
+    min-width: 0;
   }
+  .app-header .app-header-back .back-button {
+    margin: 0 !important;
+    padding: 4px 7px !important;
+    font-size: 12px !important;
+    line-height: 18px;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+  .app-header .app-brand-row { display: contents !important; }
+  .app-header .app-logo-link {
+    grid-column: 2;
+    grid-row: 1;
+    width: auto;
+    min-width: 0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .app-header .app-logo { height: 30px !important; max-width: 52px !important; }
+  .app-header .app-header-actions {
+    position: static !important;
+    grid-column: 3;
+    grid-row: 1;
+    width: auto !important;
+    min-width: 0;
+    max-width: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end !important;
+    flex-wrap: nowrap !important;
+    gap: 3px !important;
+    margin: 0 !important;
+  }
+  .app-header .app-header-actions .account-control { margin: 0 !important; gap: 2px !important; }
+  .app-header .app-header-actions .account-profile-button { padding: 1px !important; gap: 0 !important; }
+  .app-header .app-header-actions .account-avatar { width: 22px; height: 22px; }
+  .app-header .app-header-actions .account-display-name { display: none !important; }
+  .app-header .app-header-actions .account-button {
+    padding: 3px 5px !important;
+    line-height: 18px;
+    font-size: 11px !important;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+  .app-header .app-header-actions > button {
+    min-width: 22px !important;
+    min-height: 25px !important;
+    width: 25px;
+    padding: 0 !important;
+    flex: 0 0 25px;
+    font-size: 17px !important;
+    line-height: 1 !important;
+  }
+  .app-header .app-header-actions .account-error { display: none; }
+  .app-header .news-nav-button {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-self: center;
+    width: max-content;
+    height: 28px;
+    padding: 3px 9px !important;
+    font-size: 12px !important;
+    line-height: 18px;
+    border-radius: 6px !important;
+    white-space: nowrap;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .app-header .news-nav-button:first-of-type {transform: translateX(calc(-50% - 5px)) !important;}
+  .app-header .news-nav-button:last-of-type {transform: translateX(calc(50% + 5px)) !important;}
+  .app-header .news-nav-icon { font-size: 1em; }
 }

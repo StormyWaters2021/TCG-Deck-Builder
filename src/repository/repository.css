@@ -131,3 +131,59 @@
 
 /* Preserve the centered tap preview in mobile mode despite dynamic desktop positioning. */
 .repository-page--mobile .repository-card-hover{left:50%!important;top:50%!important;transform:translate(-50%,-50%)}
+
+/* Bulk Deck DB review: do not compress deck panels when many decks are imported. */
+.repository-submit-modal > .repository-submit-content {
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.repository-submit-content > .repository-submit-deck {
+  flex: 0 0 auto;
+  min-height: max-content;
+}
+
+.repository-submit-content > p,
+.repository-submit-content > h3 {
+  flex-shrink: 0;
+}
+
+.repository-submit-deck-toggle {
+  flex-shrink: 0;
+  min-height: 2.75rem;
+}
+
+.repository-submit-header,
+.repository-submit-footer {
+  flex-shrink: 0;
+}
+
+/* Deck DB text view only: visual density is controlled here, not in React. */
+.repository-page {
+  --repository-text-size: .85rem;
+  --repository-group-size: .94rem;
+  --repository-card-padding-y: .13rem;
+  --repository-card-padding-x: .12rem;
+  --repository-quantity-width: 1.9rem;
+  --repository-column-gap: .8rem;
+  --repository-section-gap: .46rem;
+}
+.repository-deck-flow { position:relative; min-width:0; }
+.repository-flow-columns { display:grid; grid-template-columns:repeat(var(--repository-flow-columns),minmax(0,1fr)); gap:var(--repository-column-gap); }
+.repository-flow-column { min-width:0; }
+.repository-flow-column .repository-card-section-title { font-size:var(--repository-group-size); line-height:1.25; margin:var(--repository-section-gap) 0 .22rem; padding:0 0 .18rem; }
+.repository-flow-column .repository-card-section-title:first-child { margin-top:0; }
+.repository-flow-column .repository-card-entry { position:relative; width:100%; min-width:0; }
+.repository-flow-column .repository-card-name,
+.repository-flow-measure .repository-card-name { display:grid; grid-template-columns:var(--repository-quantity-width) minmax(0,1fr); column-gap:.12rem; align-items:start; width:100%; min-width:0; max-width:none; min-height:0; margin:0; padding:var(--repository-card-padding-y) var(--repository-card-padding-x); font-size:var(--repository-text-size); line-height:1.32; text-align:left; white-space:normal; box-sizing:border-box; }
+.repository-card-quantity { text-align:left; white-space:nowrap; font-variant-numeric:tabular-nums; }
+.repository-card-label { min-width:0; overflow-wrap:anywhere; }
+.repository-flow-measure { position:absolute; top:0; left:-100000px; width:calc((100% - (var(--repository-flow-columns) - 1)*var(--repository-column-gap))/var(--repository-flow-columns)); visibility:hidden; pointer-events:none; }
+.repository-flow-measure .repository-card-entry { width:100%; }
+
+
+.repository-page--mobile .repository-flow-column .repository-card-name { min-height:0; padding:var(--repository-card-padding-y) var(--repository-card-padding-x); font-size:var(--repository-text-size); line-height:1.32; }
+
+
+.repository-page--mobile .repository-flow-measure .repository-card-name { min-height:0; padding:var(--repository-card-padding-y) var(--repository-card-padding-x); font-size:var(--repository-text-size); line-height:1.32; }

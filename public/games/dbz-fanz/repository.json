@@ -13,36 +13,25 @@
         "Saiyan",
         "Freestyle"
       ]
+    },
+    {
+      "id": "placement",
+      "label": "Placement",
+      "type": "select",
+      "options": [
+        "Winner",
+        "Finalist",
+        "Top 4",
+        "Top 8",
+        "Other"
+      ]
     }
   ],
   "layout": {
-    "columns": {
-      "maxColumns": 3,
-      "singleColumnGroups": [
-        "Starting"
-      ]
+    "columns": { "maxColumns": 3 },
+    "groupPositions": {
+      "Type": { "Hero MP": 1, "Villain MP": 1, "Mastery": 2 },
+      "OCTGN": { "Starting": 1 }
     }
-  },
-  "features": {
-    "seasons": true
-  },
-  "styleDetection": {
-    "method": "cardMatch",
-    "matchProperty": "Type",
-    "matchContains": "Mastery",
-    "valueProperties": [
-      "Style",
-      "style",
-      "name"
-    ],
-    "values": [
-      "Black",
-      "Blue",
-      "Orange",
-      "Red",
-      "Namekian",
-      "Saiyan"
-    ],
-    "default": "Freestyle"
   }
 }
