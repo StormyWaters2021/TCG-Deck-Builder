@@ -27,6 +27,9 @@
       ]
     }
   ],
+  "features": {
+  "seasons": true
+},
   "layout": {
     "columns": { "maxColumns": 3 },
     "groupPositions": {
