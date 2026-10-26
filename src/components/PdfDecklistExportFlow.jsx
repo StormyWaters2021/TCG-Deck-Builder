@@ -1,3 +1,4 @@
+import { fetchGameConfig } from "../utils/gameConfigLoader";
 import React, { forwardRef, useImperativeHandle, useState } from "react";
 import { exportPdfDecklistWithModal } from "../utils/pdfDecklistExport/exportPdfDecklist";
 
@@ -43,7 +44,7 @@ const PdfDecklistExportFlow = forwardRef(function PdfDecklistExportFlow(
         setLoadingCfg(true);
         const baseUrl = normBaseUrl();
         const url = `${baseUrl}/games/${settings.gameName}/pdfDecklistExport.json`;
-        const json = await fetchJson(url);
+        const json = await fetchGameConfig(settings.gameName, "pdfDecklistExport.json").then(r => r.json());
         setCfg(json);
 
         const init = {};

@@ -1,3 +1,4 @@
+import { fetchGameConfig } from "./gameConfigLoader";
 // deckImagePackExport.js
 
 import JSZip from "jszip";
@@ -34,10 +35,10 @@ async function fetchGameGuid(settings) {
   let octgnJsonUrl = `${base}games/${gameSegment}/octgn.json`;
   let octgnSettings;
   try {
-    let resp = await fetch(octgnJsonUrl);
+    let resp = await fetchGameConfig(gameName, "octgn.json");
     if (!resp.ok) {
       octgnJsonUrl = `${base}games/${gameName}/octgn.json`;
-      resp = await fetch(octgnJsonUrl);
+      resp = await fetchGameConfig(gameName, "octgn.json");
     }
     octgnSettings = await resp.json();
   } catch (e) {

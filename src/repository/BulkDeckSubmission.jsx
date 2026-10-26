@@ -1,3 +1,4 @@
+import { fetchGameConfig } from "../utils/gameConfigLoader";
 import React, { useEffect, useMemo, useState } from "react";
 import { repositoryRequest, repositoryWrite } from "./repositoryApi";
 
@@ -22,7 +23,7 @@ async function parseOctgn(file, game, cards) {
   const document = new DOMParser().parseFromString(await file.text(), "application/xml");
   if (document.querySelector("parsererror") || document.documentElement?.tagName.toLowerCase() !== "deck") throw new Error(`${file.name}: invalid OCTGN XML`);
   const base = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
-  const configResponse = await fetch(`${base}/games/${encodeURIComponent(game)}/octgn.json`);
+  const configResponse = await fetchGameConfig(game, "octgn.json");
   if (!configResponse.ok) throw new Error(`${file.name}: cannot verify the OCTGN game`);
   const config = await configResponse.json();
   const expected = config.gameId || config.guid || config.gameGuid;

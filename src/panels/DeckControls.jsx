@@ -1,3 +1,4 @@
+import { fetchGameConfig } from "../utils/gameConfigLoader";
 import DeckExportMenu from "../components/DeckExportMenu";
 import React, { useState, useEffect, useRef } from "react";
 import CardPreview from "../components/CardPreview";
@@ -156,7 +157,7 @@ function DeckControls({
         if (baseUrl.endsWith("/")) baseUrl = baseUrl.slice(0, -1);
 
         const url = `${baseUrl}/games/${settings.gameName}/octgn.json`;
-        const resp = await fetch(url);
+        const resp = await fetchGameConfig(settings.gameName, "octgn.json");
 
         if (!resp.ok) throw new Error("OCTGN config not found");
 
