@@ -58,6 +58,7 @@ async function parseOctgn(file, game, cards) {
 export default function BulkDeckSubmission({ game, cards, events = [], repositoryConfig = {}, onClose, onPublished }) {
   const [step, setStep] = useState(1);
   const [season, setSeason] = useState("");
+  const [format, setFormat] = useState("");
   const [eventName, setEventName] = useState("");
   const [previewCards, setPreviewCards] = useState({});
   const [eventDate, setEventDate] = useState("");
@@ -68,14 +69,19 @@ export default function BulkDeckSubmission({ game, cards, events = [], repositor
   const [busy, setBusy] = useState(false);
   const [expanded, setExpanded] = useState(null);
   const useSeasons = repositoryConfig.features?.seasons === true;
+  const useFormats = repositoryConfig.features?.formats === true;
   const seasons = [...new Set(events.map(e=>e.season).filter(Boolean))];
-  const availableEvents = [...new Set(events.filter(e=>(!useSeasons || e.season===season) && e.event_name).map(e=>e.event_name))];
+  // A format can be reused in different seasons; events depend on both selections.
+  const availableFormats = [...new Set(events.map(e => e.format).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  const availableEvents = [...new Set(events.filter(e=>(!useSeasons || e.season===season) && (!useFormats || (format && e.format===format)) && e.event_name).map(e=>e.event_name))];
   const cardMap = useMemo(()=>new Map(cards.map(c=>[String(c.id),c])),[cards]);
   const numLinks = useMemo(() => splitLinks(links).length, [links]);
   useEffect(() => { const onKey = event => { if (event.key === "Escape" && !busy) onClose(); }; window.addEventListener("keydown", onKey); return () => window.removeEventListener("keydown", onKey); }, [busy, onClose]);
   const edit = (index, key, value) => setDecks(prev => prev.map((item, i) => i === index ? { ...item, [key]: value } : item));
   const process = async () => {
-    if((useSeasons && (!season.trim()||season==="__new"))||!eventName.trim()||eventName==="__new"){setErrors(["Select or enter a Season and Event before processing."]);return;}
+    if((useSeasons && (!season.trim()||season==="__new"))||(useFormats && (!format.trim()||format==="__new"))||!eventName.trim()||eventName==="__new"){
+      setErrors([`Select or enter a valid ${[useSeasons?"Season":null,useFormats?"Format":null,"Event"].filter(Boolean).join(", ")} before processing.`]);return;
+    }
     setBusy(true); setErrors([]);
     const next = []; const failures = [];
     for (const link of splitLinks(links)) {
@@ -97,7 +103,7 @@ export default function BulkDeckSubmission({ game, cards, events = [], repositor
     if (errors.length) return;
     setBusy(true);
     try {
-      await repositoryWrite("/decks/bulk", { game, season: season.trim(), event_name: eventName.trim(), event_date: eventDate, decks: decks.map(({ name, player_name, place, deck_json, source_type, source_url }) => ({ ...(repositoryConfig.styleDetection ? { style: inferStyle(deck_json,cardMap,repositoryConfig.styleDetection) } : {}), name: name.trim(), player_name: player_name.trim(), place: place === "" ? null : Number(place), deck_json, source_type, ...(source_url ? { source_url } : {}) })) });
+      await repositoryWrite("/decks/bulk", { game, season: season.trim(), ...(useFormats ? { format: format.trim() } : {}), event_name: eventName.trim(), event_date: eventDate, decks: decks.map(({ name, player_name, place, deck_json, source_type, source_url }) => ({ ...(repositoryConfig.styleDetection ? { style: inferStyle(deck_json,cardMap,repositoryConfig.styleDetection) } : {}), name: name.trim(), player_name: player_name.trim(), place: place === "" ? null : Number(place), deck_json, source_type, ...(source_url ? { source_url } : {}) })) });
       onPublished(); onClose();
     } catch (error) { setErrors([error.message]); }
     finally { setBusy(false); }
@@ -109,6 +115,9 @@ export default function BulkDeckSubmission({ game, cards, events = [], repositor
         <h3>Event Information</h3>
         {useSeasons && <><label>Season<select value={seasons.includes(season)?season:season?"__new":""} onChange={e=>{setSeason(e.target.value==="__new"?"__new":e.target.value);setEventName("");}}><option value="">Select season</option>{seasons.map(x=><option key={x} value={x}>{x}</option>)}<option value="__new">+ New Season</option></select></label>
         {season && !seasons.includes(season) && <label>New Season<input value={season==="__new"?"":season} onChange={e=>setSeason(e.target.value||"__new")} placeholder="Season name"/></label>}
+        </>}
+        {useFormats && <><label>Format<select value={availableFormats.includes(format)?format:format?"__new":""} onChange={e=>{setFormat(e.target.value);setEventName("");}}><option value="">Select format</option>{availableFormats.map(x=><option key={x} value={x}>{x}</option>)}<option value="__new">+ New Format</option></select></label>
+        {format && !availableFormats.includes(format) && <label>New Format<input value={format==="__new"?"":format} onChange={e=>{setFormat(e.target.value||"__new");setEventName("");}} placeholder="Format name" /></label>}
         </>}
         <label>Event<select value={availableEvents.includes(eventName)?eventName:eventName?"__new":""} onChange={e=>setEventName(e.target.value==="__new"?"__new":e.target.value)}><option value="">Select event</option>{availableEvents.map(x=><option key={x} value={x}>{x}</option>)}<option value="__new">+ New Event</option></select></label>
         {eventName && !availableEvents.includes(eventName) && <label>New Event<input value={eventName==="__new"?"":eventName} onChange={e=>setEventName(e.target.value||"__new")} placeholder="Event name" /></label> }
