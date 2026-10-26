@@ -1,5 +1,5 @@
 // Game-specific JSON loader; existing public links and assets remain unchanged.
-// Default to the website copies until remote-first is explicitly enabled for testing.
+// Default to remote game data, retaining the existing website files as fallbacks.
 const DATA_ROOT = "https://raw.githubusercontent.com/StormyWaters2021/TCG-Builder-Data/main";
 const REMOTE_PREF_KEY = "tcgbuilder-game-config-source";
 const REMOTE_BASE_KEY = "tcgbuilder-game-config-base-url";
@@ -24,9 +24,9 @@ function gameFileUrl(game, filename) {
 
 function prefersRemote() {
   try {
-    return typeof localStorage !== "undefined" && localStorage.getItem(REMOTE_PREF_KEY) === "remote";
+    return typeof localStorage === "undefined" || localStorage.getItem(REMOTE_PREF_KEY) !== "local";
   } catch {
-    return false; // Browser storage can be blocked without breaking configuration loading.
+    return true; // Use remote-first if browser storage is unavailable.
   }
 }
 
