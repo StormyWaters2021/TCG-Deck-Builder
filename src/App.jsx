@@ -1,3 +1,4 @@
+import { fetchGameConfig, fetchGameManifest } from "./utils/gameConfigLoader";
 import "./styles.css";
 import React, { useEffect, useRef, useState } from "react";
 import DeckBuilder from "./DeckBuilder";
@@ -69,9 +70,7 @@ function LinearProgress({ done, total }) {
  }
 
 const fetchGames = async () => {
-  const gamesManifest = await fetch(
-    `${import.meta.env.BASE_URL}games/manifest.json`
-  ).then((res) => res.json());
+  const gamesManifest = await fetchGameManifest().then((res) => res.json());
   return gamesManifest.games;
 };
 
@@ -580,12 +579,10 @@ useEffect(() => {
     (async () => {
       // Load settings + deckValidation
       const [settings, deckValidation] = await Promise.all([
-        fetch(`${import.meta.env.BASE_URL}games/${selectedGame}/settings.json`).then((r) =>
+        fetchGameConfig(selectedGame, "settings.json").then((r) =>
           r.json()
         ),
-        fetch(
-          `${import.meta.env.BASE_URL}games/${selectedGame}/deckValidation.json`
-        ).then((r) => r.json()),
+        fetchGameConfig(selectedGame, "deckValidation.json").then((r) => r.json()),
       ]);
 
             // Reset progress + load cards with progress callback

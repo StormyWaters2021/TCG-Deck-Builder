@@ -1,3 +1,4 @@
+import { fetchGameConfig } from "../utils/gameConfigLoader";
 import BulkDeckSubmission from "./BulkDeckSubmission";
 import DeckExportMenu from "../components/DeckExportMenu";
 import ImageExportFlow from "../components/ImageExportFlow";
@@ -77,7 +78,7 @@ function RepositoryPanel({ record, cards, settings, columnConfig, onLoadInBuilde
     let active = true;
     setOctgnConfig(null);
     const base = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
-    fetch(`${base}/games/${encodeURIComponent(record.game)}/octgn.json`).then(r => r.ok && (r.headers.get("content-type") || "").includes("json") ? r.json() : null).then(config => { if (active) setOctgnConfig(config); }).catch(() => {});
+    fetchGameConfig(record.game, "octgn.json").then(r => r.ok && (r.headers.get("content-type") || "").includes("json") ? r.json() : null).then(config => { if (active) setOctgnConfig(config); }).catch(() => {});
     return () => { active = false; };
   }, [record.game]);
   const groupOptions = useMemo(() => {
@@ -237,7 +238,7 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
     if (!game) return () => { active = false; };
     const base = import.meta.env.BASE_URL || "/";
     const url = `${base.replace(/\/$/, "")}/games/${encodeURIComponent(game)}/repository.json`;
-    fetch(url, { cache: "no-cache" })
+    fetchGameConfig(game, "repository.json", { optional: true })
       .then(async response => {
         if (response.status === 404) return null;
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
