@@ -498,7 +498,7 @@ function pointCostByRules(rules) {
   return <div className="deck-stats-banner">{stats}</div>;
 }
 
-function DeckStats({ deck, cards, settings }) {
+export function DeckStats({ deck, cards, settings }) {
   const [statsConfig, setStatsConfig] = useState(null);
   const statsConfigRef = useRef(settings.gameName);
   useEffect(() => {
