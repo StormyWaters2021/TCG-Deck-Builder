@@ -187,3 +187,18 @@
 
 
 .repository-page--mobile .repository-flow-measure .repository-card-name { min-height:0; padding:var(--repository-card-padding-y) var(--repository-card-padding-x); font-size:var(--repository-text-size); line-height:1.32; }
+
+/* Deck DB preview sizing and compact statistics. Defaults may come from repository.json. */
+.repository-page--desktop .repository-card-hover { width:min(var(--repository-preview-width,260px),calc(100vw - 24px)); }
+.repository-page--mobile .repository-card-hover { width:min(var(--repository-preview-width,290px),calc(100vw - 2rem)); }
+.repository-card-hover .card-preview > div > img { max-height:calc(100dvh - 8rem)!important; }
+.repository-panel-summary { display:flex;flex-wrap:wrap;align-items:baseline;gap:.45rem .9rem;font-size:.87rem;padding:0 0 .35rem;margin:0 0 .7rem;border-bottom:1px solid var(--dropdown-border); }
+.repository-panel-summary > strong { white-space:nowrap; }
+.repository-panel-summary .deck-stats-banner { display:flex;gap:.4rem .85rem;padding:0;margin:0;min-height:0;font-size:inherit; }
+.repository-search-row { grid-template-columns:minmax(0,1fr) minmax(170px,240px) auto; }
+.repository-clear-filters { align-self:end;white-space:nowrap; }
+@media(max-width:600px) {
+  .repository-search-row { grid-template-columns:minmax(0,1fr) minmax(120px,38%); }
+  .repository-clear-filters { grid-column:1/-1;justify-self:end; }
+}
+.repository-page--mobile .repository-cards-grid .repository-card-entry > .repository-card-hover { max-width:calc(100vw - 2rem); }
