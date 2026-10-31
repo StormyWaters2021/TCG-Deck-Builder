@@ -93,21 +93,21 @@
 /* Staging: two-step bulk submission modal. */
 .repository-page-actions{display:flex;gap:.5rem;flex-wrap:wrap}
 .repository-submit-backdrop{position:fixed;inset:0;background:#0009;z-index:12000;display:flex;align-items:center;justify-content:center;padding:1rem;box-sizing:border-box}
-.repository-submit-modal{display:flex;flex-direction:column;max-height:min(92dvh,900px);width:min(660px,100%);background:var(--panel-bg);color:var(--input-color);border:1px solid var(--dropdown-border);border-radius:10px;box-shadow:0 14px 44px #0006;overflow:hidden}
-.repository-submit-header,.repository-submit-footer{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem;border-bottom:1px solid var(--dropdown-border)}
+.repository-submit-modal{display:flex;flex-direction:column;max-height:min(92dvh,850px);width:min(610px,100%);background:var(--panel-bg);color:var(--input-color);border:1px solid var(--dropdown-border);border-radius:10px;box-shadow:0 14px 44px #0006;overflow:hidden}
+.repository-submit-header,.repository-submit-footer{display:flex;align-items:center;justify-content:space-between;gap:.65rem;padding:.65rem .85rem;border-bottom:1px solid var(--dropdown-border)}
 .repository-submit-header h2{margin:0}.repository-submit-header small{opacity:.75}.repository-submit-header button{font-size:1.5rem}
-.repository-submit-content{padding:1rem;overflow:auto;display:flex;flex-direction:column;gap:.7rem}.repository-submit-content h3{font-size:1rem;margin:.6rem 0 0}
-.repository-submit-content label,.repository-submit-fields label{display:flex;flex-direction:column;gap:.3rem}
-.repository-submit-content input,.repository-submit-content textarea{width:100%;box-sizing:border-box;min-width:0;font:inherit;border:1px solid var(--input-border);background:var(--input-bg);color:var(--input-color);padding:.6rem;border-radius:6px}
-.repository-submit-file{padding:.75rem;border:1px dashed var(--input-border);border-radius:6px}
-.repository-submit-file input{padding:.4rem 0;border:0}
-.repository-submit-content small{overflow-wrap:anywhere;opacity:.8}
+.repository-submit-content{padding:.7rem .85rem;overflow:auto;display:flex;flex-direction:column;gap:.4rem}.repository-submit-content h3{font-size:.95rem;margin:.26rem 0 0}
+.repository-submit-content label,.repository-submit-fields label{display:flex;flex-direction:column;gap:.2rem;font-size:.92rem}
+.repository-submit-content input,.repository-submit-content textarea{width:100%;box-sizing:border-box;min-width:0;font:inherit;border:1px solid var(--input-border);background:var(--input-bg);color:var(--input-color);padding:.4rem .5rem;border-radius:6px;line-height:1.3}
+.repository-submit-file{padding:.4rem .55rem;border:1px dashed var(--input-border);border-radius:6px}
+.repository-submit-file input{width:auto;max-width:100%;padding:.18rem 0;border:0}
+.repository-submit-content small{overflow-wrap:anywhere;opacity:.8;font-size:.8rem}
 .repository-submit-deck{border:1px solid var(--dropdown-border);border-radius:6px;overflow:hidden}
-.repository-submit-deck-toggle{display:flex;align-items:center;justify-content:space-between;width:100%;text-align:left;gap:.5rem;padding:.7rem;overflow-wrap:anywhere}
-.repository-submit-fields{padding:.7rem;display:grid;gap:.7rem}
-.repository-submit-errors{margin:.5rem 1rem;padding:.75rem;border:1px solid var(--deck-errors-color);color:var(--deck-errors-color);max-height:150px;overflow:auto}
+.repository-submit-deck-toggle{display:flex;align-items:center;justify-content:space-between;width:100%;text-align:left;gap:.5rem;padding:.5rem .65rem;overflow-wrap:anywhere}
+.repository-submit-fields{padding:.55rem;display:grid;gap:.5rem}
+.repository-submit-errors{margin:.4rem .85rem;padding:.55rem;border:1px solid var(--deck-errors-color);color:var(--deck-errors-color);max-height:150px;overflow:auto}
 .repository-submit-footer{justify-content:flex-end;border:0;border-top:1px solid var(--dropdown-border)}
-@media(max-width:600px){.repository-submit-backdrop{padding:.4rem}.repository-submit-modal{max-height:96dvh}.repository-submit-content{padding:.7rem}.repository-submit-header,.repository-submit-footer{padding:.75rem}}
+@media(max-width:600px){.repository-submit-backdrop{padding:.4rem}.repository-submit-modal{max-height:96dvh}.repository-submit-content{padding:.6rem}.repository-submit-header,.repository-submit-footer{padding:.6rem}}
 
 .repository-actionbar{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.5rem;padding-top:.35rem}
 .repository-actionbar .repository-load-actions{margin:0}
@@ -118,7 +118,7 @@
 .repository-edit-modal{background:var(--panel-bg);border:1px solid var(--dropdown-border);border-radius:8px;width:min(560px,100%);max-height:90dvh;overflow:auto;padding:1.2rem;display:grid;gap:.6rem;color:var(--input-color)}
 .repository-edit-modal label{display:grid;gap:.25rem}.repository-edit-modal input,.repository-edit-modal textarea{width:100%;box-sizing:border-box;background:var(--input-bg);color:var(--input-color);border:1px solid var(--input-border);padding:.4rem}
 .repository-edit-buttons{display:flex;justify-content:flex-end;gap:.5rem}
-.repository-submit-content select{width:100%;font:inherit;border:1px solid var(--input-border);background:var(--input-bg);color:var(--input-color);padding:.6rem;border-radius:6px}
+.repository-submit-content select{width:100%;font:inherit;border:1px solid var(--input-border);background:var(--input-bg);color:var(--input-color);padding:.38rem .5rem;border-radius:6px;line-height:1.3}
 
 /* Search leads the toolbar; sorting remains a compact control on the right. */
 .repository-search-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(170px,240px);align-items:end;gap:.85rem;margin:1rem 0 .65rem}
@@ -301,3 +301,40 @@
   .repository-page--mobile .repository-display-controls { justify-content:flex-start; }
   .repository-page--mobile .repository-filters { grid-template-columns:repeat(2,minmax(0,1fr)); }
 }
+
+/* Bulk deck upload: two-column catalog selector and compact create/edit dialog. */
+.repository-submit-catalog-row{display:grid;grid-template-columns:minmax(0,185px) minmax(0,285px);gap:.55rem;align-items:end}
+.repository-submit-catalog-row--event-only{width:min(100%,285px);grid-template-columns:minmax(0,1fr)}
+.repository-submit-catalog-field{display:flex;gap:.28rem;min-width:0;align-items:end}
+.repository-submit-catalog-field label{flex:1;min-width:0}
+.repository-submit-catalog-field select{width:100%;min-width:0}
+.repository-page .repository-submit-modal button.repository-catalog-edit{flex:0 0 auto;padding:.32rem .42rem;font-size:1rem;line-height:1.1;min-height:2rem}
+.repository-event-summary{margin:0;font-size:.81rem;opacity:.8}
+.repository-csv-hidden{display:none}
+.repository-csv-mapper{margin:.2rem 0;padding:.55rem;border:1px solid var(--dropdown-border);border-radius:8px}
+.repository-csv-mapper p{margin:.25rem 0;font-size:.86rem}
+.repository-csv-mapping-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:.45rem;margin:.45rem 0}
+.repository-csv-mapping-grid label{display:flex;flex-direction:column;gap:.25rem;min-width:0}
+.repository-csv-mapping-grid select{width:100%;min-width:0}
+.repository-catalog-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:10101;display:flex;align-items:center;justify-content:center;padding:1rem}
+.repository-catalog-modal{background:var(--panel-bg);color:inherit;border:1px solid var(--dropdown-border);border-radius:10px;width:min(400px,100%);max-height:calc(100vh - 2rem);overflow:auto;display:flex;flex-direction:column;gap:.5rem;padding:.9rem;box-shadow:0 12px 32px #0008}
+.repository-catalog-modal h3{margin:0 0 .15rem}
+.repository-catalog-modal label{display:flex;flex-direction:column;gap:.2rem}
+.repository-catalog-modal input,.repository-catalog-modal select{font:inherit;background:var(--input-bg);color:var(--input-color);border:1px solid var(--input-border);border-radius:5px;padding:.38rem .5rem;max-width:100%}
+.repository-catalog-actions{display:flex;gap:.4rem;justify-content:flex-end;margin-top:.3rem}
+@media(max-width:550px){.repository-submit-catalog-row{grid-template-columns:repeat(2,minmax(0,1fr))}.repository-csv-mapping-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:410px){.repository-submit-catalog-row{grid-template-columns:1fr}}
+
+/* Compact CSV action and Deck Builder-style help icon. */
+.repository-csv-actions{display:flex;align-items:center;align-self:flex-start;gap:.4rem;min-width:0}
+.repository-page .repository-submit-modal button.repository-csv-upload-button{width:auto;flex:0 0 auto;padding:.35rem .65rem;font-size:.9rem;white-space:nowrap}
+.repository-csv-help{display:inline-flex;align-items:center;position:relative}
+.repository-page .repository-submit-modal button.repository-csv-help-trigger{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;min-width:26px;padding:2px;border:0;background:transparent;color:inherit;border-radius:50%;cursor:pointer}
+.repository-csv-help-trigger:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+.repository-csv-help-tip{visibility:hidden;opacity:0;pointer-events:none;position:absolute;bottom:calc(100% + .45rem);left:-8rem;z-index:12500;width:min(320px,calc(100vw - 2.5rem));box-sizing:border-box;padding:.65rem .8rem;background:var(--panel-bg);color:var(--input-color);border:1px solid var(--dropdown-border);border-radius:6px;box-shadow:0 5px 18px #0005;font-size:.84rem;line-height:1.4;text-align:left;transition:opacity .1s ease}
+.repository-csv-help-heading{display:block;font-weight:600;margin-bottom:.3rem}
+.repository-csv-help-tip ul{display:block;list-style:disc;margin:0;padding-left:1.15rem;line-height:1.25}
+.repository-csv-help-tip li{margin:0;padding:0}
+.repository-csv-help:hover .repository-csv-help-tip,.repository-csv-help:focus-within .repository-csv-help-tip{visibility:visible;opacity:1;pointer-events:auto}
+.repository-submit-content textarea{resize:vertical}
+@media(max-width:600px){.repository-submit-content input,.repository-submit-content select,.repository-catalog-modal input,.repository-catalog-modal select{font-size:16px;min-height:38px}.repository-submit-content input[type="file"]{min-height:0}.repository-csv-help-tip{left:-8rem}}
