@@ -241,7 +241,6 @@ const imageUrl = !currentUsedMissing
         >
           <canvas
             ref={canvasRef}
-            onClick={onImageClick || undefined}
             width={width}
             height={height}
             style={{

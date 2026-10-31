@@ -816,7 +816,7 @@ const handleLogout = async () => {
   return (
     <div className="app-container">
       <header
-  className={`app-header${isMobileLayout ? " header-mobile-mode" : ""}`}
+  className="app-header"
   ref={headerRef}
   style={{
     position: "relative",

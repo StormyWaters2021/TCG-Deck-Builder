@@ -8,18 +8,17 @@ body.mobile-scroll-lock {
   overflow: hidden;
 }
 
-:root {
-  --mobile-nav-h: 56px;      /* bottom bar height (not counting safe-area) */
+ :root {
+  --mobile-nav-h: 56px;
 }
 
 .mobile-shell {
-  min-height: 100vh;
   width: 100%;
   max-width: 100%;
+  min-width: 0;
   box-sizing: border-box;
 }
 
-/* ----- Middle content: ONLY scrolling region ----- */
 .mobile-content {
   position: fixed;
   left: 0;
@@ -27,15 +26,12 @@ body.mobile-scroll-lock {
   top: var(--app-header-height, 0px);
   bottom: calc(var(--mobile-nav-h) + env(safe-area-inset-bottom, 0px));
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  padding: 0 10px 10px;
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 8px 8px;
+  box-sizing: border-box;
 }
 
-/* Keep content within the viewport; do not modify the site header. */
 .mobile-shell .mobile-view {
   width: 100%;
   max-width: 100%;
@@ -43,28 +39,71 @@ body.mobile-scroll-lock {
   box-sizing: border-box;
 }
 
-.mobile-shell .mobile-view[hidden] {
-  display: none;
-}
+.mobile-shell .mobile-view[hidden] { display: none; }
 
-/* The card list's default overflow creates a second scroll container,
-   preventing sticky search controls from following the mobile scroller. */
-.mobile-shell .mobile-view.active .card-list-panel {
+/* Search stays at the top; only card results scroll. */
+.mobile-content:has(.mobile-cards-view.active) { overflow: hidden; }
+.mobile-shell .mobile-cards-view.active { height: 100%; min-height: 0; }
+.mobile-shell .mobile-cards-view .card-list-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
   width: 100%;
   max-width: 100%;
-  min-width: 0;
+  padding: 6px 8px;
+  overflow: hidden;
   box-sizing: border-box;
-  overflow: visible;
   border-right: 0;
 }
-
-.mobile-shell .mobile-view.active .card-search-controls,
-.mobile-shell .mobile-view.active .card-search-results {
+.mobile-shell .mobile-cards-view .card-search-controls {
+  flex: 0 0 auto;
+  min-width: 0;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--dropdown-border);
+}
+.mobile-shell .mobile-cards-view .card-search-title { margin-bottom: 3px !important; }
+.mobile-shell .mobile-cards-view .card-search-actions { margin: 4px 0 !important; flex-wrap: wrap; }
+.mobile-shell .mobile-cards-view .card-search-filters { display: flex; flex-wrap: wrap; gap: 4px; }
+.mobile-shell .mobile-cards-view .card-search-filters select {
   min-width: 0;
   max-width: 100%;
   box-sizing: border-box;
 }
+.mobile-shell .mobile-cards-view .card-search-count { margin: 3px 0 !important; font-size: 0.85em; }
+.mobile-shell .mobile-cards-view .card-search-results {
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  max-height: none !important;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+}
 
+.mobile-card-popup {
+  position: fixed;
+  inset: var(--app-header-height, 0px) 0 calc(var(--mobile-nav-h) + env(safe-area-inset-bottom, 0px));
+  z-index: 240;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.18);
+  pointer-events: none;
+}
+.mobile-card-popup-content {
+  width: min(85vw, 360px);
+  max-height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  text-align: center;
+  pointer-events: auto;
+}
+.mobile-card-popup-content .card-preview { width: 100%; max-width: 100%; }
+.mobile-card-popup-content .card-preview img { max-height: min(65dvh, 560px) !important; width: auto !important; margin: 0 auto !important; }
 
 /* ----- Bottom nav: FIXED ----- */
 .mobile-bottom-nav {
@@ -193,91 +232,4 @@ body.mobile-scroll-lock {
 
 .deck-card-grid-cell {
   position: relative;
-}
-
-/* Mobile-only compact, pinned search controls; results scroll below them. */
-.mobile-view.active .card-list-panel {
-  position: static !important;
-  overflow: visible !important;
-}
-
-.mobile-view.active .card-search-controls {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background: var(--dropdown-bg);
-  border-bottom: 1px solid var(--dropdown-border);
-  padding: 6px 0 4px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.mobile-view.active .card-search-heading {
-  display: none;
-}
-
-.mobile-view.active .card-search-actions {
-  margin: 4px 0 !important;
-  gap: 6px !important;
-}
-
-.mobile-view.active .card-search-actions button {
-  padding: 4px 8px !important;
-  font-size: 0.85rem;
-}
-
-.mobile-view.active .card-search-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  min-width: 0;
-  width: 100%;
-}
-
-.mobile-view.active .card-search-filters select {
-  max-width: 100%;
-  min-width: 0;
-  flex: 1 1 110px;
-  margin: 0;
-  font-size: 0.85rem;
-}
-
-.mobile-view.active .card-search-count {
-  margin: 3px 0 0 !important;
-  font-size: 0.8rem;
-}
-
-.mobile-view.active .card-search-results {
-  max-height: none !important;
-  overflow: visible !important;
-  width: 100%;
-}
-
-/* Shared CardPreview in a lightweight, dismissible mobile popup. */
-.mobile-card-popup {
-  position: fixed;
-  z-index: 240;
-  top: calc(var(--app-header-height, 0px) + 12px);
-  right: 12px;
-  width: min(62vw, 270px);
-  max-height: calc(100dvh - var(--app-header-height, 0px) - var(--mobile-nav-h) - 24px);
-  overflow: visible;
-  pointer-events: none;
-  filter: drop-shadow(0 4px 14px rgba(0,0,0,0.65));
-}
-
-.mobile-card-popup .card-preview {
-  pointer-events: none;
-}
-
-.mobile-card-popup .card-preview img,
-.mobile-card-popup .card-preview canvas,
-.mobile-card-popup .card-preview button {
-  pointer-events: auto;
-}
-
-.mobile-card-popup .card-preview img,
-.mobile-card-popup .card-preview canvas {
-  max-height: calc(100dvh - var(--app-header-height, 0px) - var(--mobile-nav-h) - 34px) !important;
-  object-fit: contain;
 }

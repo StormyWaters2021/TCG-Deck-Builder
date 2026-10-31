@@ -1,3 +1,4 @@
+import { fetchGameConfig } from "./gameConfigLoader";
 // deckExportHelpers.js
 const WORKER_API = "https://tcgbuilder.net/api";
 // === Grouping and Sorting Helpers ===
@@ -865,10 +866,10 @@ export async function exportDeckOCTGN(
   let octgnJsonUrl = `${base}games/${gameSegment}/octgn.json`;
   let octgnSettings;
   try {
-    let resp = await fetch(octgnJsonUrl);
+    let resp = await fetchGameConfig(gameName, "octgn.json");
     if (!resp.ok) {
       octgnJsonUrl = `${base}games/${gameName}/octgn.json`;
-      resp = await fetch(octgnJsonUrl);
+      resp = await fetchGameConfig(gameName, "octgn.json");
     }
     octgnSettings = await resp.json();
   } catch (e) {
