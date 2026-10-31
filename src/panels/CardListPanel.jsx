@@ -595,7 +595,8 @@ if (filterVal === "(none)") {
 
   return (
     <aside className="card-list-panel" style={{ position: "relative" }}>
-      <div style={{ marginBottom: "0.5em", fontSize: "0.95em" }}>
+      <div className="card-search-controls">
+      <div className="card-search-heading" style={{ marginBottom: "0.5em", fontSize: "0.95em" }}>
         <strong>Card Search</strong>
         <InfoTooltip text={fullHelpText} />
       </div>
@@ -670,7 +671,7 @@ if (filterVal === "(none)") {
     </button>
   )}
 </div>
-	  <div style={{ display: "flex", gap: 8, alignItems: "center", margin: "0.5em 0" }}>
+	  <div className="card-search-actions" style={{ display: "flex", gap: 8, alignItems: "center", margin: "0.5em 0" }}>
 	  <button type="button" onClick={handleClearFilters} style={{ padding: "0.25em 1em" }}>
 		Clear Filters
 	  </button>
@@ -678,7 +679,7 @@ if (filterVal === "(none)") {
 		Advanced Search
 	  </button>
 	</div>
-      <div>
+      <div className="card-search-filters">
         {(settings.filterOptions || []).map(prop => (
           <select
             key={prop}
@@ -717,10 +718,11 @@ if (filterVal === "(none)") {
           </select>
         ))}
       </div>
-      <div style={{ margin: "0.5em 0", fontWeight: "bold" }}>
+      <div className="card-search-count" style={{ margin: "0.5em 0", fontWeight: "bold" }}>
         Total cards: {uniqueCards.length}
       </div>
-      <div
+      </div>
+      <div className="card-search-results"
   ref={listRef}
   style={{ maxHeight: "calc(100vh - 400px)", overflowY: "auto" }}
   tabIndex={0}

@@ -120,6 +120,7 @@ function CardPreview({
   onAdd,
   onRemove,
   showButtons = false,
+  onImageClick = null,
   // array of { label, value } to render under the image
   extraData = null,
 
@@ -240,6 +241,7 @@ const imageUrl = !currentUsedMissing
         >
           <canvas
             ref={canvasRef}
+            onClick={onImageClick || undefined}
             width={width}
             height={height}
             style={{
@@ -331,7 +333,7 @@ const imageUrl = !currentUsedMissing
             margin: 0,
             cursor: "pointer",
           }}
-          onClick={() => setEnlarged(true)}
+          onClick={onImageClick || (() => setEnlarged(true))}
           onError={() => {
             // First failure -> use missing image for this face. If missing also fails -> canvas.
             if (!currentUsedMissing) {

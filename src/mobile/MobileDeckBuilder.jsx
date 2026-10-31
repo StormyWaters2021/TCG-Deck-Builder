@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import CardListPanel from "../panels/CardListPanel";
 import DeckPanel from "../panels/DeckPanel";
 import DeckControls from "../panels/DeckControls";
-import MobileStickyPreview from "./MobileStickyPreview";
+import CardPreview from "../components/CardPreview";
 import MobileBottomNav from "./MobileBottomNav";
 import useDeckBuilderActions from "../utils/useDeckBuilderActions";
 import "./mobile.css";
@@ -32,6 +32,7 @@ export default function MobileDeckBuilder({
 
   // Selected card is stored as an ID (like desktop)
   const [selectedCard, setSelectedCard] = useState(null);
+  const [previewCard, setPreviewCard] = useState(null);
   const selectedCardObj =
     cards?.find((c) => c.id === selectedCard) || null;
 
@@ -52,11 +53,6 @@ export default function MobileDeckBuilder({
 
   return (
   <div className="mobile-shell">
-    <MobileStickyPreview
-      card={selectedCardObj}
-      game={game}
-    />
-
     <div
       className="mobile-content"
       role="region"
@@ -72,7 +68,7 @@ export default function MobileDeckBuilder({
           settings={settings}
           onCardSelect={(cardId) => {
             setSelectedCard(cardId);
-            setActiveView("cards");
+            setPreviewCard((current) => current === cardId ? null : cardId);
           }}
           selectedCard={selectedCard}
           onAddCard={addCard}
@@ -128,9 +124,25 @@ export default function MobileDeckBuilder({
       </section>
     </div>
 
+    {activeView === "cards" && previewCard && selectedCardObj && (
+      <div className="mobile-card-popup" role="dialog" aria-label={`${selectedCardObj.name} preview`}>
+        <CardPreview
+          card={selectedCardObj}
+          game={game}
+          showName={false}
+          disableFlipCardButton={settings.disableFlipCardButton}
+          useGridImageForPreview={settings.useGridImageForPreview}
+          onImageClick={() => setPreviewCard(null)}
+        />
+      </div>
+    )}
+
     <MobileBottomNav
       active={activeView}
-      onChange={setActiveView}
+      onChange={(view) => {
+        setPreviewCard(null);
+        setActiveView(view);
+      }}
     />
   </div>
 );
