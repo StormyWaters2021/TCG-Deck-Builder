@@ -1,9 +1,10 @@
+import { fetchGameConfig } from "./gameConfigLoader";
 async function getCurrentGameOctgnGuid(game) {
   let baseUrl = import.meta.env.BASE_URL || "";
   if (baseUrl.endsWith("/")) baseUrl = baseUrl.slice(0, -1);
 
   const url = `${baseUrl}/games/${game}/octgn.json`;
-  const resp = await fetch(url);
+  const resp = await fetchGameConfig(game, "octgn.json");
   if (!resp.ok) throw new Error("OCTGN config not found");
 
   const json = await resp.json();

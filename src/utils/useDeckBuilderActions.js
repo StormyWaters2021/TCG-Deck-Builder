@@ -1,3 +1,4 @@
+import { fetchGameConfig } from "./gameConfigLoader";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { createDeckLoadNormalizer } from "./deckLoadRepair";
 
@@ -35,7 +36,7 @@ export function useOctgnSections(gameName, enabled = true) {
         let baseUrl = import.meta.env.BASE_URL || "";
         if (baseUrl.endsWith("/")) baseUrl = baseUrl.slice(0, -1);
 
-        const response = await fetch(`${baseUrl}/games/${gameName}/octgn.json`);
+        const response = await fetchGameConfig(gameName, "octgn.json");
         if (!response.ok) {
           throw new Error(`Unable to load OCTGN sections (${response.status})`);
         }

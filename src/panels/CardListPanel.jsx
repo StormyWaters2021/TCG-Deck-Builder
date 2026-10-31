@@ -596,7 +596,7 @@ if (filterVal === "(none)") {
   return (
     <aside className="card-list-panel" style={{ position: "relative" }}>
       <div className="card-search-controls">
-      <div className="card-search-heading" style={{ marginBottom: "0.5em", fontSize: "0.95em" }}>
+      <div className="card-search-title" style={{ marginBottom: "0.5em", fontSize: "0.95em" }}>
         <strong>Card Search</strong>
         <InfoTooltip text={fullHelpText} />
       </div>
@@ -722,7 +722,8 @@ if (filterVal === "(none)") {
         Total cards: {uniqueCards.length}
       </div>
       </div>
-      <div className="card-search-results"
+      <div
+  className="card-search-results"
   ref={listRef}
   style={{ maxHeight: "calc(100vh - 400px)", overflowY: "auto" }}
   tabIndex={0}

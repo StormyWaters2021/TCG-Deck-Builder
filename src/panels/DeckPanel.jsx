@@ -1,3 +1,4 @@
+import { fetchGameConfig } from "../utils/gameConfigLoader";
 import React, { useMemo, useState, useEffect, useRef } from "react";
 import CardPreview from "../components/CardPreview";
 import { buildCardPreviewProperties } from "../utils/cardPreviewExtra";
@@ -424,6 +425,18 @@ function pointCostByRules(rules) {
         </span>
       );
     }
+	else if (item.type === "sumProperty") {
+	  const { total } = totalProperty(item.prop);
+
+	  stats.push(
+		<span
+		  key={`sumProperty:${item.prop}`}
+		  className="deck-stat"
+		>
+		  {item.label || `Total ${item.prop}`}: <b>{total}</b>
+		</span>
+	  );
+	}
     else if (item.type === "countType") {
       const count = countType(item.prop, item.value);
       stats.push(
@@ -485,7 +498,7 @@ function pointCostByRules(rules) {
   return <div className="deck-stats-banner">{stats}</div>;
 }
 
-function DeckStats({ deck, cards, settings }) {
+export function DeckStats({ deck, cards, settings }) {
   const [statsConfig, setStatsConfig] = useState(null);
   const statsConfigRef = useRef(settings.gameName);
   useEffect(() => {
@@ -495,7 +508,7 @@ function DeckStats({ deck, cards, settings }) {
     async function fetchStatsConfig() {
       try {
         const url = `${baseUrl}/games/${settings.gameName}/deckStats.json`;
-        const resp = await fetch(url);
+        const resp = await fetchGameConfig(settings.gameName, "deckStats.json");
         if (!resp.ok) throw new Error("Stats config not found");
         const json = await resp.json();
         if (!cancelled) setStatsConfig(json);

@@ -1,3 +1,4 @@
+import { fetchGameConfig } from "../gameConfigLoader";
 import { PDFDocument, StandardFonts } from "pdf-lib";
 
 function normBaseUrl() {
@@ -396,7 +397,7 @@ export async function exportPdfDecklistWithModal({
   const baseUrl = normBaseUrl();
 
   const configUrl = `${baseUrl}/games/${settings.gameName}/pdfDecklistExport.json`;
-  const cfg = await fetchJson(configUrl);
+  const cfg = await fetchGameConfig(settings.gameName, "pdfDecklistExport.json").then(r => r.json());
 
   const templateUrl = `${baseUrl}/games/${settings.gameName}/${cfg.templatePdf}`;
   const templateBytes = await fetchArrayBuffer(templateUrl);
