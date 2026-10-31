@@ -18,6 +18,18 @@ const PAGE_SIZE = 20;
 const DEFAULT_PREVIEW_SIZES = { small: 180, medium: 260, large: 360 };
 const PREVIEW_SIZE_NAMES = Object.keys(DEFAULT_PREVIEW_SIZES);
 
+function formatPlacement(value) {
+  if (value === null || value === undefined || String(value).trim() === "") return "";
+  const raw = String(value).trim();
+  if (!/^\d+$/.test(raw)) return raw;
+  const place = Number(raw);
+  if (!Number.isSafeInteger(place) || place < 1) return raw;
+  const lastTwo = place % 100;
+  const suffix = lastTwo >= 11 && lastTwo <= 13 ? "th" :
+    place % 10 === 1 ? "st" : place % 10 === 2 ? "nd" : place % 10 === 3 ? "rd" : "th";
+  return `${place}${suffix} Place`;
+}
+
 function storedPreviewSize(game) {
   try {
     const stored = window.localStorage.getItem(`tcgbuilder:repository:preview-size:${game}`);
@@ -294,7 +306,7 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
   }, [currentUser,game]);
   const [search, setSearch] = useState("");
   const [filters, setFilters] = useState({});
-  const [sort, setSort] = useState("newest");
+  const [sort, setSort] = useState("events");
   const [page, setPage] = useState(1);
   const [result, setResult] = useState({ decks: [], total: 0 });
   const [expanded, setExpanded] = useState(!initialParams.get("game") || initialParams.get("game") === game ? initialParams.get("code") || null : null);
@@ -374,15 +386,15 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
   const clearFilters = () => {
     setSearch("");
     setFilters({});
-    setSort("newest");
+    setSort("events");
     setPage(1);
     clearSelection();
   };
-  const hasActiveFilters = Boolean(search || sort !== "newest" || page !== 1 || Object.values(filters).some(Boolean));
+  const hasActiveFilters = Boolean(search || sort !== "events" || page !== 1 || Object.values(filters).some(Boolean));
   return <main className={`repository-page ${isMobileLayout ? "repository-page--mobile" : "repository-page--desktop"}`}><div className="repository-page-heading"><div className="repository-page-title"><h2>Deck DB</h2>{game && !loading && !error && <small>{result.total} decks</small>}</div><div className="repository-page-actions">{canSubmit && <><button type="button" onClick={() => setSubmitOpen(true)}>Submit Deck</button></>}<button type="button" onClick={onBack}>Back to Builder</button></div></div>
     <div className="repository-search-row">
       <label className="repository-search-field">Search<input value={search} onChange={e=>{setSearch(e.target.value);setPage(1);clearSelection();}} placeholder="Deck, player, event…" /></label>
-      <label className="repository-sort-field">Sort<select value={sort} onChange={e=>{setSort(e.target.value);setPage(1);clearSelection();}}><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="name">Deck name</option></select></label>
+      <label className="repository-sort-field">Sort<select value={sort} onChange={e=>{setSort(e.target.value);setPage(1);clearSelection();}}><option value="events">Newest events</option><option value="additions">Newest additions</option><option value="player">Player name</option><option value="name">Deck name</option></select></label>
       <div className="repository-display-controls">
         <label>Group by<select value={selectedGroup} onChange={e=>setGroupBy(e.target.value)}>{groupOptions.map(option=><option key={option} value={option}>{option}</option>)}</select></label>
         <div className="repository-view-toggle" role="group" aria-label="Deck display"><button type="button" className={mode === "text" ? "repository-selected" : ""} onClick={() => setMode("text")}>Text</button><button type="button" className={mode === "grid" ? "repository-selected" : ""} onClick={() => setMode("grid")}>Grid</button></div>
@@ -401,7 +413,7 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
      {configError && <p role="alert" className="repository-error">{configError}</p>}
     {error && <p role="alert" className="repository-error">{error}</p>}
     {loading && <p>Loading repository…</p>}
-    <div className="repository-results">{show.map(d=><section className="repository-entry" key={d.share_code}><button type="button" className="repository-entry-toggle" aria-expanded={expanded === d.share_code} onClick={()=>{const code=expanded === d.share_code?null:d.share_code;setExpanded(code);const url=new URL(window.location);if(code)url.searchParams.set("code",code);else url.searchParams.delete("code");window.history.replaceState({},"",url);}}><span className="repository-entry-info"><strong>{d.name}</strong>{[d.player_name, d.event_name, d.metadata_json?.place ?? d.metadata_json?.placement].filter(v=>v !== null && v !== undefined && String(v).trim() !== "").length > 0 && <small>{[d.player_name, d.event_name, d.metadata_json?.place ?? d.metadata_json?.placement].filter(v=>v !== null && v !== undefined && String(v).trim() !== "").join(" · ")}</small>}</span><span className="repository-entry-chevron" aria-hidden="true">{expanded === d.share_code?"▲":"▼"}</span></button>{expanded === d.share_code && (detail?.share_code === d.share_code ? <RepositoryPanel record={detail} cards={cards} settings={settings} columnConfig={columnConfig} groupBy={selectedGroup} mode={mode} previewWidth={previewWidth} onLoadInBuilder={onLoadInBuilder} canSubmit={canSubmit} role={role} events={events} repositoryConfig={repositoryConfig} onChanged={()=>{clearSelection();setRefresh(n=>n+1);}} />:<div className="repository-panel">Loading deck…</div>)}</section>)}</div>
+    <div className="repository-results">{show.map(d=><section className="repository-entry" key={d.share_code}><button type="button" className="repository-entry-toggle" aria-expanded={expanded === d.share_code} onClick={()=>{const code=expanded === d.share_code?null:d.share_code;setExpanded(code);const url=new URL(window.location);if(code)url.searchParams.set("code",code);else url.searchParams.delete("code");window.history.replaceState({},"",url);}}><span className="repository-entry-info"><strong>{d.name}</strong>{[d.player_name, d.event_name, formatPlacement(d.metadata_json?.place ?? d.metadata_json?.placement)].filter(v=>v !== null && v !== undefined && String(v).trim() !== "").length > 0 && <small>{[d.player_name, d.event_name, formatPlacement(d.metadata_json?.place ?? d.metadata_json?.placement)].filter(v=>v !== null && v !== undefined && String(v).trim() !== "").join(" · ")}</small>}</span><span className="repository-entry-chevron" aria-hidden="true">{expanded === d.share_code?"▲":"▼"}</span></button>{expanded === d.share_code && (detail?.share_code === d.share_code ? <RepositoryPanel record={detail} cards={cards} settings={settings} columnConfig={columnConfig} groupBy={selectedGroup} mode={mode} previewWidth={previewWidth} onLoadInBuilder={onLoadInBuilder} canSubmit={canSubmit} role={role} events={events} repositoryConfig={repositoryConfig} onChanged={()=>{clearSelection();setRefresh(n=>n+1);}} />:<div className="repository-panel">Loading deck…</div>)}</section>)}</div>
     {submitOpen && <BulkDeckSubmission game={game} cards={activeCardsGame === game ? activeCards : cards} events={events} repositoryConfig={repositoryConfig} onClose={() => setSubmitOpen(false)} onPublished={() => { setPage(1); setRefresh(value => value + 1); }} />}
     {result.total > PAGE_SIZE && <nav className="repository-pagination"><button disabled={page===1} onClick={()=>{setPage(p=>p-1);clearSelection();}}>Previous</button><span>Page {page} of {Math.ceil(result.total/PAGE_SIZE)}</span><button disabled={page*PAGE_SIZE>=result.total} onClick={()=>{setPage(p=>p+1);clearSelection();}}>Next</button></nav>}
   </main>;
