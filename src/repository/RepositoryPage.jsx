@@ -12,7 +12,7 @@ import { DeckStats } from "../panels/DeckPanel";
 import { loadCardsForGame } from "../utils/cardsLoader";
 import { repositoryRequest, repositoryWrite } from "./repositoryApi";
 import "./repository.css";
-import { orderDeckGroups, resolveOctgnSection, flowDeckColumns } from "./deckDisplayLayout";
+import { orderDeckGroups, resolveOctgnSection, flowDeckColumns, partitionPinnedDeckEntries, makeDeckDisplayEntries, flowDeckColumnsWithPinned } from "./deckDisplayLayout";
 
 const PAGE_SIZE = 20;
 const DEFAULT_PREVIEW_SIZES = { small: 180, medium: 260, large: 360 };
@@ -38,7 +38,7 @@ function cardEntries(deck) {
   if (Array.isArray(payload)) return payload.map(x => [String(x.id ?? x.cardId), Number(x.qty ?? x.count ?? 1)]);
   return Object.entries(payload).map(([id, value]) => [id, Number(typeof value === "number" ? value : (value?.count ?? value?.qty ?? 0))]).filter(([, qty]) => qty > 0);
 }
-function RepositoryTextColumns({ sections, maxColumns, preview, setPreview, openPreview, previewPosition, previewWidth, game }) {
+function RepositoryTextColumns({ sections, headerBlocks = [], footerBlocks = [], maxColumns, preview, setPreview, openPreview, previewPosition, previewWidth, game }) {
   const containerRef = useRef(null);
   const measureRef = useRef(null);
   const [width, setWidth] = useState(0);
@@ -52,12 +52,15 @@ function RepositoryTextColumns({ sections, maxColumns, preview, setPreview, open
     return () => observer.disconnect();
   }, []);
   const count = Math.max(1, Math.min(maxColumns, width < 580 ? 1 : width < 850 ? 2 : 3));
+  const groups = useMemo(() => sections.map(section => ({ ...section, total: section.items.reduce((sum, item) => sum + item.qty, 0) })), [sections]);
+  const pinned = headerBlocks.length > 0 || footerBlocks.length > 0;
+  const stream = useMemo(() => makeDeckDisplayEntries(groups, headerBlocks, footerBlocks), [groups, headerBlocks, footerBlocks]);
   useEffect(() => {
     const node = measureRef.current;
     if (!node || !width) return;
     const update = () => {
       const next = {};
-      node.querySelectorAll("[data-entry-key]").forEach(row => { next[row.dataset.entryKey] = row.getBoundingClientRect().height; });
+      node.querySelectorAll("[data-entry-key]").forEach(row => { const height = row.getBoundingClientRect().height; next[row.dataset.entryKey] = height; next[`${row.dataset.groupName}:${row.dataset.cardId}`] = height; });
       setSizes(previous => JSON.stringify(previous) === JSON.stringify(next) ? previous : next);
     };
     update();
@@ -66,16 +69,21 @@ function RepositoryTextColumns({ sections, maxColumns, preview, setPreview, open
       observer.observe(node);
       return () => observer.disconnect();
     }
-  }, [width, count, sections]);
-  const groups = sections.map(section => ({ ...section, total: section.items.reduce((sum, item) => sum + item.qty, 0) }));
-  const columns = flowDeckColumns(groups, count, sizes, 30, 2);
+  }, [width, count, stream]);
+  const columns = useMemo(() => pinned
+    ? flowDeckColumnsWithPinned(stream, count, sizes, 27, 2)
+    : flowDeckColumns(groups, count, sizes, 30, 2), [pinned, stream, count, sizes, groups]);
   const name = item => `${item.card?.name ?? item.id}${item.card?.Subtitle || item.card?.subtitle ? ` — ${item.card.Subtitle ?? item.card.subtitle}` : ""}`;
   return <div className="repository-deck-flow" ref={containerRef} style={{ "--repository-flow-columns": count }}>
-    <div className="repository-flow-measure" ref={measureRef} aria-hidden="true">{groups.map(group => <div key={group.name}>{group.items.map(item => <div className="repository-card-entry" data-entry-key={`${group.name}:${item.id}`} key={item.id}><div className="repository-card-name"><span className="repository-card-quantity">{item.qty}×</span><span className="repository-card-label">{name(item)}</span></div></div>)}</div>)}</div>
+    <div className="repository-flow-measure" ref={measureRef} aria-hidden="true">{stream.all.map(entry => <div className="repository-card-entry" data-entry-key={entry.entryKey} data-group-name={entry.group} data-card-id={entry.item.id} key={entry.entryKey}><div className="repository-card-name"><span className="repository-card-quantity">{entry.item.qty}×</span><span className="repository-card-label">{name(entry.item)}</span></div></div>)}</div>
     <div className="repository-flow-columns">{columns.map((column, index) => <div className="repository-flow-column" key={index}>{column.map((entry, i) => {
       const { id, qty, card } = entry.item;
-      return <React.Fragment key={`${entry.group}:${id}`}>
-        {(entry.first || i === 0 || entry.group !== column[i - 1].group) && <h3 className="repository-card-section-title">{entry.group}{entry.first ? ` (${entry.total})` : " (continued)"}</h3>}
+      const previous = column[i - 1];
+      const changedGroup = !previous || (entry.groupKey || entry.group) !== (previous.groupKey || previous.group);
+      return <React.Fragment key={entry.entryKey || `${entry.group}:${id}`}>
+        {entry.blockStart && <h3 className="repository-inline-pinned-title">{entry.blockName} ({entry.blockTotal})</h3>}
+        {entry.mainStart && <h3 className="repository-inline-main-title">Main Deck ({entry.mainTotal})</h3>}
+        {(entry.first || changedGroup) && <h3 className="repository-card-section-title">{entry.group}{entry.first ? ` (${entry.total})` : " (continued)"}</h3>}
         <div className="repository-card-entry" onMouseEnter={e => openPreview(id, e.currentTarget)} onMouseLeave={() => setPreview(null)}>
           <button type="button" className="repository-card-name" onClick={e => preview === id ? setPreview(null) : openPreview(id, e.currentTarget)} onFocus={e => { if (preview !== id) openPreview(id, e.currentTarget); }}><span className="repository-card-quantity">{qty}×</span><span className="repository-card-label">{name(entry.item)}</span></button>
           {preview === id && card && <RepositoryHoverPreview card={card} game={game} position={previewPosition} width={previewWidth} onClose={() => setPreview(null)} />}
@@ -85,13 +93,36 @@ function RepositoryTextColumns({ sections, maxColumns, preview, setPreview, open
   </div>;
 }
 
-function RepositoryPanel({ record, cards, settings, columnConfig, onLoadInBuilder, canSubmit, role, events, repositoryConfig, onChanged }) {
+function RepositoryGridSections({ sections, headerBlocks = [], footerBlocks = [], game, preview, setPreview, openPreview, previewPosition, previewWidth }) {
+  const pinned = headerBlocks.length > 0 || footerBlocks.length > 0;
+  const mainTotal = sections.reduce((total, group) => total + group.items.reduce((sum, item) => sum + item.qty, 0), 0);
+  const pinnedGroups = (blocks, side) => blocks.map((block, blockIndex) => ({
+    name: block.name,
+    items: block.groups.flatMap(group => group.items),
+    key: `${side}:${blockIndex}`
+  }));
+  const displayGroups = [
+    ...pinnedGroups(headerBlocks, "header"),
+    ...sections.map((section, i) => ({ ...section, key: `main:${i}`, mainHeading: pinned && i === 0 ? `Main Deck (${mainTotal})` : "" })),
+    ...pinnedGroups(footerBlocks, "footer")
+  ];
+  return <div className="repository-grid-flow">{displayGroups.map(section => <div className="repository-card-section" key={section.key}>
+    {section.blockHeading && <h3 className="repository-inline-pinned-title">{section.blockHeading}</h3>}
+    {section.mainHeading && <h3 className="repository-inline-main-title">{section.mainHeading}</h3>}
+    <h3 className="repository-card-section-title">{section.name} ({section.items.reduce((sum, item) => sum + item.qty, 0)})</h3>
+    <div className="repository-cards-grid">{section.items.map(({id,qty,card}) => <div className="repository-card-entry" key={id} onMouseEnter={e => { if (window.matchMedia?.("(hover: hover)")?.matches) openPreview(id,e.currentTarget); }} onMouseLeave={() => setPreview(null)}>
+      {card ? <CardPreview card={card} game={game} showName={false} quantity={qty} /> : <span>{qty}× {id}</span>}
+      {preview === id && card && <RepositoryHoverPreview card={card} game={game} position={previewPosition} width={previewWidth} onClose={() => setPreview(null)} />}
+    </div>)}</div>
+  </div>)}</div>;
+}
+
+function RepositoryPanel({ record, cards, settings, columnConfig, groupBy, mode, previewWidth, onLoadInBuilder, canSubmit, role, events, repositoryConfig, onChanged }) {
   const [editing, setEditing] = useState(false);
   const [editForm, setEditForm] = useState(null);
   const [editError, setEditError] = useState("");
   const [saving, setSaving] = useState(false);
   const [cardEditText,setCardEditText] = useState("");
-  const [mode, setMode] = useState("text");
   const [octgnConfig, setOctgnConfig] = useState(null);
   useEffect(() => {
     let active = true;
@@ -100,31 +131,9 @@ function RepositoryPanel({ record, cards, settings, columnConfig, onLoadInBuilde
     fetchGameConfig(record.game, "octgn.json").then(r => r.ok && (r.headers.get("content-type") || "").includes("json") ? r.json() : null).then(config => { if (active) setOctgnConfig(config); }).catch(() => {});
     return () => { active = false; };
   }, [record.game]);
-  const groupOptions = useMemo(() => {
-    const options = [...(settings?.groupOptions || ["Type"])];
-    if (!options.includes("Type")) options.unshift("Type");
-    if (settings?.octgnExport && !options.includes("OCTGN")) options.push("OCTGN");
-    return options;
-  }, [settings]);
-  const [groupBy, setGroupBy] = useState("Type");
   const [preview, setPreview] = useState(null);
   const [previewPosition,setPreviewPosition] = useState({left:0,top:0});
-  const [previewSizePreference, setPreviewSizePreference] = useState(() => storedPreviewSize(record.game));
-  const previewSettings = repositoryConfig?.layout?.cardPreview || {};
-  const defaultSize = PREVIEW_SIZE_NAMES.includes(previewSettings.defaultSize) ? previewSettings.defaultSize : "medium";
-  const previewSize = previewSizePreference || defaultSize;
-  const configuredWidth = Number(previewSettings.sizes?.[previewSize]);
-  const previewWidth = Number.isInteger(configuredWidth) && configuredWidth >= 120 && configuredWidth <= 520
-    ? configuredWidth : DEFAULT_PREVIEW_SIZES[previewSize];
-  useEffect(() => {
-    setPreviewSizePreference(storedPreviewSize(record.game));
-    setPreview(null);
-  }, [record.game]);
-  const changePreviewSize = value => {
-    setPreviewSizePreference(value);
-    setPreview(null);
-    try { window.localStorage.setItem(`tcgbuilder:repository:preview-size:${record.game}`, value); } catch { /* storage unavailable */ }
-  };
+  useEffect(() => { setPreview(null); }, [record.game, groupBy, mode, previewWidth]);
   const openPreview = (id,element) => {
     const rect=element.getBoundingClientRect();
     const width=Math.min(previewWidth,window.innerWidth-24);
@@ -174,23 +183,14 @@ function RepositoryPanel({ record, cards, settings, columnConfig, onLoadInBuilde
     },
   };
   const byId = useMemo(() => new Map(cards.map(card => [String(card.id), card])), [cards]);
-  const entries = cardEntries(record.deck_json).map(([id, qty]) => ({ id, qty, card: byId.get(String(id)) }));
+  const entries = useMemo(() => cardEntries(record.deck_json).map(([id, qty]) => ({ id, qty, card: byId.get(String(id)) })), [record.deck_json, byId]);
   const allCardsTotal = entries.reduce((sum, entry) => sum + entry.qty, 0);
-  const sections = useMemo(() => {
-    const grouped = new Map();
-    for (const { id, qty, card } of entries) {
-      const storedGroup = repoDeck[String(id)]?.group;
-      // Imported OCTGN sections are only relevant when explicitly grouping by OCTGN.
-      // Property grouping must come from the resolved card, otherwise changing
-      // the dropdown appears to do nothing.
-      const value = groupBy === "OCTGN"
-        ? resolveOctgnSection(card, storedGroup, octgnConfig)
-        : (card?.[groupBy] || "Other");
-      const group = Array.isArray(value) ? value.join(", ") : String(value);
-      if (!grouped.has(group)) grouped.set(group, []);
-      grouped.get(group).push({id,qty,card});
-    }
-    const names = [...grouped.keys()].sort((a, b) => a.localeCompare(b));
+  const { sections, headerBlocks, footerBlocks } = useMemo(() => {
+    const entriesWithOctgn = entries.map(entry => ({
+      ...entry,
+      octgnSection: resolveOctgnSection(entry.card, repoDeck[String(entry.id)]?.group, octgnConfig)
+    }));
+    const pinned = partitionPinnedDeckEntries(entriesWithOctgn, repositoryConfig?.layout?.pinnedSections);
     function compareEntries(a,b,config) {
       const fields = config?.by || ["name"];
       for (const field of fields) {
@@ -209,21 +209,36 @@ function RepositoryPanel({ record, cards, settings, columnConfig, onLoadInBuilde
       }
       return 0;
     }
+    const sortGroups = blocks => blocks.map(block => ({
+      ...block,
+      groups: block.groups.map(group => ({
+        ...group,
+        items: [...group.items].sort((a,b) => compareEntries(a,b,group.sort || settings?.groupSort?.[group.name]))
+      }))
+    }));
+    const grouped = new Map();
+    for (const { id, qty, card, octgnSection } of pinned.remaining) {
+      // OCTGN grouping uses the saved/imported section; other grouping modes
+      // always derive their groups from the actual card properties.
+      const value = groupBy === "OCTGN" ? octgnSection : (card?.[groupBy] || "Other");
+      const group = Array.isArray(value) ? value.join(", ") : String(value);
+      if (!grouped.has(group)) grouped.set(group, []);
+      grouped.get(group).push({id,qty,card});
+    }
+    const names = [...grouped.keys()].sort((a, b) => a.localeCompare(b));
     const groups = names.map(name => ({name, items: [...grouped.get(name)].sort((a,b) => compareEntries(a,b,settings?.groupSort?.[name]))}));
-    return orderDeckGroups(groups, repositoryConfig?.layout?.groupPositions?.[groupBy] || {});
+    return {
+      sections: orderDeckGroups(groups, repositoryConfig?.layout?.groupPositions?.[groupBy] || {}),
+      headerBlocks: sortGroups(pinned.header),
+      footerBlocks: sortGroups(pinned.footer)
+    };
   }, [entries, groupBy, repoDeck, settings, octgnConfig, repositoryConfig]);
-  const singleColumnGroups = columnConfig?.singleColumnGroups || [];
   const maxColumns = columnConfig?.maxColumns || 3;
   return <div className="repository-panel">
-    <div className="repository-panel-controls"><label>Group by: <select value={groupBy} onChange={e=>{setGroupBy(e.target.value);setPreview(null);}}>{groupOptions.map(option=><option key={option} value={option}>{option}</option>)}</select></label><label>Preview size: <select value={previewSize} onChange={e=>changePreviewSize(e.target.value)}>{PREVIEW_SIZE_NAMES.map(size=><option key={size} value={size}>{size.charAt(0).toUpperCase()+size.slice(1)}</option>)}</select></label><div className="repository-view-toggle" role="group" aria-label="Deck display"><button type="button" className={mode === "text" ? "repository-selected" : ""} onClick={() => {setMode("text");setPreview(null);}}>Text</button><button type="button" className={mode === "grid" ? "repository-selected" : ""} onClick={() => {setMode("grid");setPreview(null);}}>Grid</button></div></div>
-    <div className="repository-panel-summary"><strong title="Includes all sections; game-specific deck totals may exclude Starting cards">All cards: {allCardsTotal}</strong>{cards.length > 0 && settings?.gameName && <DeckStats deck={repoDeck} cards={cards} settings={settings} />}</div>
-    {mode === "text" ? <RepositoryTextColumns sections={sections} maxColumns={maxColumns} preview={preview} setPreview={setPreview} openPreview={openPreview} previewPosition={previewPosition} previewWidth={previewWidth} game={record.game} /> : sections.map(section=><div className="repository-card-section" key={section.name}>
-      <h3 className="repository-card-section-title">{section.name} ({section.items.reduce((sum, item)=>sum+item.qty,0)})</h3>
-      <div className="repository-cards-grid">{section.items.map(({id,qty,card}) => <div className="repository-card-entry" key={id} onMouseEnter={e => { if (window.matchMedia?.("(hover: hover)")?.matches) openPreview(id,e.currentTarget); }} onMouseLeave={() => setPreview(null)}>
-        {card ? <CardPreview card={card} game={record.game} showName={false} quantity={qty} /> : <span>{qty}× {id}</span>}
-        {preview === id && card && <RepositoryHoverPreview card={card} game={record.game} position={previewPosition} width={previewWidth} onClose={() => setPreview(null)} />}
-      </div>)}</div>
-    </div>)}
+    <div className="repository-panel-summary"><strong title="Includes all sections; game-specific deck totals may exclude Starting cards">Total: {allCardsTotal}</strong>{cards.length > 0 && settings?.gameName && <DeckStats deck={repoDeck} cards={cards} settings={settings} />}</div>
+    {mode === "text"
+      ? <RepositoryTextColumns sections={sections} headerBlocks={headerBlocks} footerBlocks={footerBlocks} maxColumns={maxColumns} preview={preview} setPreview={setPreview} openPreview={openPreview} previewPosition={previewPosition} previewWidth={previewWidth} game={record.game} />
+      : <RepositoryGridSections sections={sections} headerBlocks={headerBlocks} footerBlocks={footerBlocks} game={record.game} preview={preview} setPreview={setPreview} openPreview={openPreview} previewPosition={previewPosition} previewWidth={previewWidth} />}
     {!entries.length && <p>No cards in this record.</p>}
     <div className="repository-actionbar">{!cards.length && <small>Card catalog is still loading; exports may be incomplete.</small>}<DeckExportMenu settings={settings} actions={actions} /><button type="button" onClick={() => onLoadInBuilder?.(repoDeck)}>Load in Deck Builder</button>
     {role && <div className="repository-admin-actions"><button type="button" onClick={()=>{setEditForm({name:record.name,player_name:record.player_name||"",season:record.metadata_json?.season||"",...(repositoryConfig?.features?.formats===true?{format:record.metadata_json?.format||""}:{}),event_name:record.event_name||"",event_date:record.event_date||"",place:record.metadata_json?.place??"",style:record.metadata_json?.style||"",deck_json:structuredClone(record.deck_json)});setCardEditText(Object.entries(record.deck_json?.deck||{}).map(([id,value])=>`${id},${typeof value==="number"?value:value?.count||0}`).join("\n"));setEditError("");setEditing(true);}}>Edit</button>{role === "admin" && <button type="button" onClick={async()=>{if(!window.confirm(`Hide ${record.name} from the repository? This can be recovered from D1.`))return;try{await repositoryWrite("/decks/delete",{game:record.game,share_code:record.share_code});onChanged();}catch(error){window.alert(error.message);}}}>Delete</button>}</div>}</div>
@@ -246,6 +261,32 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
   const [submitOpen, setSubmitOpen] = useState(false);
   const [refresh, setRefresh] = useState(0);
   const [events, setEvents] = useState([]);
+  const [repositoryConfig, setRepositoryConfig] = useState({});
+  const [groupBy, setGroupBy] = useState("Type");
+  const [mode, setMode] = useState("text");
+  const [previewSizePreference, setPreviewSizePreference] = useState(() => storedPreviewSize(game));
+  const groupOptions = useMemo(() => {
+    const options = [...(settings?.groupOptions || ["Type"])];
+    if (!options.includes("Type")) options.unshift("Type");
+    if (settings?.octgnExport && !options.includes("OCTGN")) options.push("OCTGN");
+    return options;
+  }, [settings]);
+  const selectedGroup = groupOptions.includes(groupBy) ? groupBy : groupOptions[0];
+  const previewSettings = repositoryConfig?.layout?.cardPreview || {};
+  const defaultPreviewSize = PREVIEW_SIZE_NAMES.includes(previewSettings.defaultSize) ? previewSettings.defaultSize : "medium";
+  const previewSize = previewSizePreference || defaultPreviewSize;
+  const configuredPreviewWidth = Number(previewSettings.sizes?.[previewSize]);
+  const previewWidth = Number.isInteger(configuredPreviewWidth) && configuredPreviewWidth >= 120 && configuredPreviewWidth <= 520
+    ? configuredPreviewWidth : DEFAULT_PREVIEW_SIZES[previewSize];
+  useEffect(() => {
+    setGroupBy("Type");
+    setMode("text");
+    setPreviewSizePreference(storedPreviewSize(game));
+  }, [game]);
+  const changePreviewSize = value => {
+    setPreviewSizePreference(value);
+    try { window.localStorage.setItem(`tcgbuilder:repository:preview-size:${game}`, value); } catch { /* storage unavailable */ }
+  };
   useEffect(() => {
     let active = true; setCanSubmit(false); setRole(null);
     if (currentUser) repositoryRequest("/permissions",{game}).then(result => { if (active) {setCanSubmit(result.canSubmit === true);setRole(result.role||null);} }).catch(() => {});
@@ -262,7 +303,6 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const [config, setConfig] = useState([]);
-  const [repositoryConfig, setRepositoryConfig] = useState({});
   const [columnConfig, setColumnConfig] = useState({ maxColumns: 3, singleColumnGroups: [] });
   const [configError, setConfigError] = useState("");
   useEffect(() => {
@@ -339,11 +379,15 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
     clearSelection();
   };
   const hasActiveFilters = Boolean(search || sort !== "newest" || page !== 1 || Object.values(filters).some(Boolean));
-  return <main className={`repository-page ${isMobileLayout ? "repository-page--mobile" : "repository-page--desktop"}`}><div className="repository-page-heading"><div><h2>Deck DB</h2></div><div className="repository-page-actions">{canSubmit && <><button type="button" onClick={() => setSubmitOpen(true)}>Submit Deck</button></>}<button type="button" onClick={onBack}>Back to Builder</button></div></div>
+  return <main className={`repository-page ${isMobileLayout ? "repository-page--mobile" : "repository-page--desktop"}`}><div className="repository-page-heading"><div className="repository-page-title"><h2>Deck DB</h2>{game && !loading && !error && <small>{result.total} decks</small>}</div><div className="repository-page-actions">{canSubmit && <><button type="button" onClick={() => setSubmitOpen(true)}>Submit Deck</button></>}<button type="button" onClick={onBack}>Back to Builder</button></div></div>
     <div className="repository-search-row">
       <label className="repository-search-field">Search<input value={search} onChange={e=>{setSearch(e.target.value);setPage(1);clearSelection();}} placeholder="Deck, player, event…" /></label>
-      <label className="repository-sort-field">Filter By<select value={sort} onChange={e=>{setSort(e.target.value);setPage(1);clearSelection();}}><option value="newest">Newest event first</option><option value="oldest">Oldest event first</option><option value="name">Deck name</option></select></label>
-      <button type="button" className="repository-clear-filters" disabled={!hasActiveFilters} onClick={clearFilters}>Clear Filters</button>
+      <label className="repository-sort-field">Sort<select value={sort} onChange={e=>{setSort(e.target.value);setPage(1);clearSelection();}}><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="name">Deck name</option></select></label>
+      <div className="repository-display-controls">
+        <label>Group by<select value={selectedGroup} onChange={e=>setGroupBy(e.target.value)}>{groupOptions.map(option=><option key={option} value={option}>{option}</option>)}</select></label>
+        <div className="repository-view-toggle" role="group" aria-label="Deck display"><button type="button" className={mode === "text" ? "repository-selected" : ""} onClick={() => setMode("text")}>Text</button><button type="button" className={mode === "grid" ? "repository-selected" : ""} onClick={() => setMode("grid")}>Grid</button></div>
+        <label>Preview<select value={previewSize} onChange={e=>changePreviewSize(e.target.value)}>{PREVIEW_SIZE_NAMES.map(size=><option key={size} value={size}>{size.charAt(0).toUpperCase()+size.slice(1)}</option>)}</select></label>
+      </div>
     </div>
     <div className="repository-filters">
     {config.filter(f=>f.id==="style" && f.filterable !== false).map(f=><label key={f.id}>{f.label}<select value={filters[f.id]||""} onChange={e=>{setFilters(prev=>({...prev,[f.id]:e.target.value}));setPage(1);clearSelection();}}><option value="">All</option>{(f.options||[]).map(o=><option key={typeof o === "string" ? o:o.value} value={typeof o === "string" ? o:o.value}>{typeof o === "string" ? o:o.label}</option>)}</select></label>)}
@@ -352,12 +396,12 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
     <label>Event<select value={filters.event||""} onChange={e=>{setFilters(prev=>({...prev,event:e.target.value}));setPage(1);clearSelection();}}><option value="">All Events</option>{[...new Set(events.filter(e=>(!filters.season||e.season===filters.season)&&(!filters.format||e.format===filters.format)).map(e=>e.event_name).filter(Boolean))].map(v=><option key={v}>{v}</option>)}</select></label>
     <label>Placement<select value={filters.placement||""} onChange={e=>{setFilters(prev=>({...prev,placement:e.target.value}));setPage(1);clearSelection();}}><option value="">All Placements</option>{[1,4,8,16].map(n=><option key={n} value={n===1?"Winner":`Top ${n}`}>{n===1?"Winner":`Top ${n}`}</option>)}</select></label>
     {config.filter(f=>!["placement","style","season","format","event"].includes(f.id) && f.filterable !== false).map(f=><label key={f.id}>{f.label}<select value={filters[f.id]||""} onChange={e=>{setFilters(prev=>({...prev,[f.id]:e.target.value}));setPage(1);clearSelection();}}><option value="">All</option>{(f.options||[]).map(o=><option key={typeof o === "string" ? o:o.value} value={typeof o === "string" ? o:o.value}>{typeof o === "string" ? o:o.label}</option>)}</select></label>)}
-    </div>
-    {configError && <p role="alert" className="repository-error">{configError}</p>}
+       <button type="button" className="repository-clear-filters" disabled={!hasActiveFilters} onClick={clearFilters}>Clear Filters</button>
+     </div>
+     {configError && <p role="alert" className="repository-error">{configError}</p>}
     {error && <p role="alert" className="repository-error">{error}</p>}
     {loading && <p>Loading repository…</p>}
-    {game && !loading && !error && <p>{result.total} decks found</p>}
-    <div className="repository-results">{show.map(d=><section className="repository-entry" key={d.share_code}><button type="button" className="repository-entry-toggle" aria-expanded={expanded === d.share_code} onClick={()=>{const code=expanded === d.share_code?null:d.share_code;setExpanded(code);const url=new URL(window.location);if(code)url.searchParams.set("code",code);else url.searchParams.delete("code");window.history.replaceState({},"",url);}}><span className="repository-entry-info"><strong>{d.name}</strong>{[d.player_name, d.event_name, d.metadata_json?.place ?? d.metadata_json?.placement].filter(v=>v !== null && v !== undefined && String(v).trim() !== "").length > 0 && <small>{[d.player_name, d.event_name, d.metadata_json?.place ?? d.metadata_json?.placement].filter(v=>v !== null && v !== undefined && String(v).trim() !== "").join(" · ")}</small>}</span><span className="repository-entry-chevron" aria-hidden="true">{expanded === d.share_code?"▲":"▼"}</span></button>{expanded === d.share_code && (detail?.share_code === d.share_code ? <RepositoryPanel record={detail} cards={cards} settings={settings} columnConfig={columnConfig} onLoadInBuilder={onLoadInBuilder} canSubmit={canSubmit} role={role} events={events} repositoryConfig={repositoryConfig} onChanged={()=>{clearSelection();setRefresh(n=>n+1);}} />:<div className="repository-panel">Loading deck…</div>)}</section>)}</div>
+    <div className="repository-results">{show.map(d=><section className="repository-entry" key={d.share_code}><button type="button" className="repository-entry-toggle" aria-expanded={expanded === d.share_code} onClick={()=>{const code=expanded === d.share_code?null:d.share_code;setExpanded(code);const url=new URL(window.location);if(code)url.searchParams.set("code",code);else url.searchParams.delete("code");window.history.replaceState({},"",url);}}><span className="repository-entry-info"><strong>{d.name}</strong>{[d.player_name, d.event_name, d.metadata_json?.place ?? d.metadata_json?.placement].filter(v=>v !== null && v !== undefined && String(v).trim() !== "").length > 0 && <small>{[d.player_name, d.event_name, d.metadata_json?.place ?? d.metadata_json?.placement].filter(v=>v !== null && v !== undefined && String(v).trim() !== "").join(" · ")}</small>}</span><span className="repository-entry-chevron" aria-hidden="true">{expanded === d.share_code?"▲":"▼"}</span></button>{expanded === d.share_code && (detail?.share_code === d.share_code ? <RepositoryPanel record={detail} cards={cards} settings={settings} columnConfig={columnConfig} groupBy={selectedGroup} mode={mode} previewWidth={previewWidth} onLoadInBuilder={onLoadInBuilder} canSubmit={canSubmit} role={role} events={events} repositoryConfig={repositoryConfig} onChanged={()=>{clearSelection();setRefresh(n=>n+1);}} />:<div className="repository-panel">Loading deck…</div>)}</section>)}</div>
     {submitOpen && <BulkDeckSubmission game={game} cards={activeCardsGame === game ? activeCards : cards} events={events} repositoryConfig={repositoryConfig} onClose={() => setSubmitOpen(false)} onPublished={() => { setPage(1); setRefresh(value => value + 1); }} />}
     {result.total > PAGE_SIZE && <nav className="repository-pagination"><button disabled={page===1} onClick={()=>{setPage(p=>p-1);clearSelection();}}>Previous</button><span>Page {page} of {Math.ceil(result.total/PAGE_SIZE)}</span><button disabled={page*PAGE_SIZE>=result.total} onClick={()=>{setPage(p=>p+1);clearSelection();}}>Next</button></nav>}
   </main>;
