@@ -14,6 +14,9 @@ body.mobile-scroll-lock {
 
 .mobile-shell {
   min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* ----- Middle content: ONLY scrolling region ----- */
@@ -26,11 +29,42 @@ body.mobile-scroll-lock {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   padding: 0 10px 10px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Keep content within the viewport; do not modify the site header. */
+.mobile-shell .mobile-view {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
   box-sizing: border-box;
 }
 
-.mobile-view {
+.mobile-shell .mobile-view[hidden] {
+  display: none;
 }
+
+/* The card list's default overflow creates a second scroll container,
+   preventing sticky search controls from following the mobile scroller. */
+.mobile-shell .mobile-view.active .card-list-panel {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  overflow: visible;
+  border-right: 0;
+}
+
+.mobile-shell .mobile-view.active .card-search-controls,
+.mobile-shell .mobile-view.active .card-search-results {
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 
 /* ----- Bottom nav: FIXED ----- */
 .mobile-bottom-nav {
@@ -164,6 +198,7 @@ body.mobile-scroll-lock {
 /* Mobile-only compact, pinned search controls; results scroll below them. */
 .mobile-view.active .card-list-panel {
   position: static !important;
+  overflow: visible !important;
 }
 
 .mobile-view.active .card-search-controls {
@@ -173,6 +208,8 @@ body.mobile-scroll-lock {
   background: var(--dropdown-bg);
   border-bottom: 1px solid var(--dropdown-border);
   padding: 6px 0 4px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .mobile-view.active .card-search-heading {
@@ -193,6 +230,8 @@ body.mobile-scroll-lock {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
+  min-width: 0;
+  width: 100%;
 }
 
 .mobile-view.active .card-search-filters select {
@@ -211,6 +250,7 @@ body.mobile-scroll-lock {
 .mobile-view.active .card-search-results {
   max-height: none !important;
   overflow: visible !important;
+  width: 100%;
 }
 
 /* Shared CardPreview in a lightweight, dismissible mobile popup. */
