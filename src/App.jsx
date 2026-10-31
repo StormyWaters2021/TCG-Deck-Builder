@@ -1,6 +1,8 @@
+import { fetchGameConfig, fetchGameManifest } from "./utils/gameConfigLoader";
 import "./styles.css";
 import React, { useEffect, useRef, useState } from "react";
 import DeckBuilder from "./DeckBuilder";
+import RepositoryPage from "./repository/RepositoryPage";
 import MobileDeckBuilder from "./mobile/MobileDeckBuilder";
 import { useLayoutMode } from "./mobile/layoutMode";
 import { loadCardsForGame } from "./utils/cardsLoader";
@@ -68,9 +70,7 @@ function LinearProgress({ done, total }) {
  }
 
 const fetchGames = async () => {
-  const gamesManifest = await fetch(
-    `${import.meta.env.BASE_URL}games/manifest.json`
-  ).then((res) => res.json());
+  const gamesManifest = await fetchGameManifest().then((res) => res.json());
   return gamesManifest.games;
 };
 
@@ -320,7 +320,7 @@ function App() {
 
 const [activePage, setActivePage] = useState(() => {
   const params = new URLSearchParams(window.location.search);
-  return params.get("page") === "news" ? "news" : "builder";
+  return ["news", "repository"].includes(params.get("page")) ? params.get("page") : "builder";
 });
 
   // Apply mode class and persist choice
@@ -467,7 +467,7 @@ if (
 useEffect(() => {
   const handlePopState = () => {
     const params = new URLSearchParams(window.location.search);
-    setActivePage(params.get("page") === "news" ? "news" : "builder");
+    setActivePage(["news", "repository"].includes(params.get("page")) ? params.get("page") : "builder");
   };
 
   window.addEventListener("popstate", handlePopState);
@@ -481,9 +481,29 @@ const goToNews = () => {
   setActivePage("news");
 };
 
+const goToRepository = () => {
+  const url = new URL(window.location);
+  url.searchParams.set("page", "repository");
+  url.searchParams.delete("code");
+  if (selectedGame) url.searchParams.set("game", selectedGame);
+  else url.searchParams.delete("game");
+  window.history.pushState({}, "", url.toString());
+  setActivePage("repository");
+};
+
+const loadRepositoryDeckInBuilder = (repositoryDeck) => {
+  if (!repositoryDeck || typeof repositoryDeck !== "object") return;
+  const hasWorkingCards = Object.values(deck).some(value => Number(typeof value === "number" ? value : value?.count ?? value?.qty ?? 0) > 0);
+  if (hasWorkingCards && !window.confirm("Replace the deck currently in the Deck Builder with this repository deck? Any unsaved changes to your current deck will be lost.")) return;
+  // Copy into working state: never modify or save the repository record.
+  setDeck(JSON.parse(JSON.stringify(repositoryDeck)));
+  goToBuilder();
+};
+
 const goToBuilder = () => {
   const url = new URL(window.location);
   url.searchParams.delete("page");
+  url.searchParams.delete("code");
   window.history.pushState({}, "", url.toString());
   setActivePage("builder");
 };
@@ -559,12 +579,10 @@ useEffect(() => {
     (async () => {
       // Load settings + deckValidation
       const [settings, deckValidation] = await Promise.all([
-        fetch(`${import.meta.env.BASE_URL}games/${selectedGame}/settings.json`).then((r) =>
+        fetchGameConfig(selectedGame, "settings.json").then((r) =>
           r.json()
         ),
-        fetch(
-          `${import.meta.env.BASE_URL}games/${selectedGame}/deckValidation.json`
-        ).then((r) => r.json()),
+        fetchGameConfig(selectedGame, "deckValidation.json").then((r) => r.json()),
       ]);
 
             // Reset progress + load cards with progress callback
@@ -611,6 +629,12 @@ useEffect(() => {
   }
 
   setSelectedGame(game);
+  if (activePage === "repository") {
+    const url = new URL(window.location);
+    url.searchParams.set("game", game);
+    url.searchParams.delete("code");
+    window.history.replaceState({}, "", url.toString());
+  }
 };
 
 
@@ -792,7 +816,7 @@ const handleLogout = async () => {
   return (
     <div className="app-container">
       <header
-  className="app-header"
+  className={`app-header${isMobileLayout ? " header-mobile-mode" : ""}`}
   ref={headerRef}
   style={{
     position: "relative",
@@ -803,8 +827,8 @@ const handleLogout = async () => {
   }}
 >
   {/* Left side: Back button (pinned to left) */}
-<div style={{ position: "absolute", left: "1rem" }}>
-  {activePage === "news" ? (
+<div className="app-header-back" style={{ position: "absolute", left: "1rem" }}>
+  {activePage !== "builder" ? (
     <button className="back-button" onClick={goToBuilder}>
       Builder
     </button>
@@ -843,10 +867,14 @@ const handleLogout = async () => {
     <span aria-hidden="true" className="news-nav-icon">📰</span>
     <span>News</span>
   </button>
+  <button className={`news-nav-button${activePage === "repository" ? " active" : ""}`} type="button" onClick={goToRepository} aria-current={activePage === "repository" ? "page" : undefined}>
+    <span aria-hidden="true" className="news-nav-icon">📚</span><span>Deck DB</span>
+  </button>
 </div>
 
   {/* Right side: toggles (pinned to right, close together) */}
   <div
+  className="app-header-actions"
   style={{
     position: "absolute",
     right: "1rem",
@@ -1442,8 +1470,9 @@ const handleLogout = async () => {
 )}
 
 {activePage === "news" && <NewsPage />}
+{activePage === "repository" && selectedGame && <RepositoryPage game={selectedGame} activeCardsGame={selectedGame} activeCards={gameData.allCards} settings={gameData.settings} isMobileLayout={isMobileLayout} onBack={goToBuilder} onLoadInBuilder={loadRepositoryDeckInBuilder} currentUser={currentUser} />}
 
-      {activePage !== "news" && !selectedGame && (
+      {(activePage === "builder" || activePage === "repository") && !selectedGame && (
         <div className="game-grid">
           {games.map((game) => (
             <div key={game} className="game-card" onClick={() => handleGameClick(game)}>
@@ -1457,7 +1486,7 @@ const handleLogout = async () => {
         </div>
       )}
 
-      {activePage !== "news" && selectedGame && (!gameData.cards || gameData.cards.length === 0) && (
+      {activePage === "builder" && selectedGame && (!gameData.cards || gameData.cards.length === 0) && (
    <div className="loading-container" style={{ display: "grid", placeItems: "center", minHeight: 200 }}>
      {loadError ? (
        <div style={{ color: "crimson", textAlign: "center" }}>{loadError}</div>
@@ -1467,7 +1496,7 @@ const handleLogout = async () => {
    </div>
  )}
 
-      {activePage !== "news" && selectedGame && gameData.settings && gameData.cards.length > 0 && (
+      {activePage === "builder" && selectedGame && gameData.settings && gameData.cards.length > 0 && (
         isMobileLayout ? (
           <MobileDeckBuilder
             game={selectedGame}
@@ -1503,7 +1532,7 @@ const handleLogout = async () => {
           />
         )
       )}
-	  {activePage !== "news" && (
+	  {activePage === "builder" && (
   <footer className="site-footer">
     <a href="mailto:info@tcgbuilder.net">
       info@tcgbuilder.net
