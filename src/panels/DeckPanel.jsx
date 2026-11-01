@@ -1,6 +1,7 @@
 import { fetchGameConfig } from "../utils/gameConfigLoader";
 import React, { useMemo, useState, useEffect, useRef } from "react";
 import CardPreview from "../components/CardPreview";
+import AppModal from "../components/AppModal";
 import { buildCardPreviewProperties } from "../utils/cardPreviewExtra";
 import { matchesExclude } from "../utils/matchesExclude";
 
@@ -78,8 +79,7 @@ function sortGroup(cards, groupSortConfig) {
 function groupDeck(deck, cards, groupBy) {
   const grouped = {};
   Object.entries(deck).forEach(([cardId, entry]) => {
-    const card = cards.find(c => c.id === cardId);
-    if (!card) return;
+    const card = cards.find(c => c.id === cardId) || { id: cardId, name: `Unknown card (${cardId})`, Type: "Ungrouped" };
     const groupName =
       (typeof entry.group === "string" && entry.group)
         ? entry.group
@@ -124,8 +124,7 @@ function groupDeckByOctgn(
   groups[defaultSection] = groups[defaultSection] || {};
 
   Object.entries(deck).forEach(([cardId, entry]) => {
-    const card = cards.find((c) => c.id === cardId);
-    if (!card) return;
+    const card = cards.find((c) => c.id === cardId) || { id: cardId, name: `Unknown card (${cardId})`, Type: "Ungrouped" };
 
     // If the saved entry has group allocations, preserve every allocation
     // exactly, including group names that no longer exist in the current OCTGN
@@ -152,18 +151,15 @@ function groupDeckByOctgn(
       const totalCount = Number(entry.count) || assigned;
       const remainder = totalCount - assigned;
       if (remainder > 0) {
-        groups[defaultSection] = groups[defaultSection] || {};
-        if (!groups[defaultSection][cardId]) {
-          groups[defaultSection][cardId] = { card, qty: 0, tags: entry.tags };
+        groups.Ungrouped = groups.Ungrouped || {};
+        if (!groups.Ungrouped[cardId]) {
+          groups.Ungrouped[cardId] = { card, qty: 0, tags: entry.tags };
         }
-        groups[defaultSection][cardId].qty += remainder;
+        groups.Ungrouped[cardId].qty += remainder;
       }
     } else {
       // Otherwise, assign based on first matching criteria
-      const dragSect =
-        userOverrides && userOverrides[cardId] ? userOverrides[cardId] : null;
-      const critSect = sections.find((s) => cardMatchesSection(card, s))?.name;
-      const finalSect = dragSect || critSect || defaultSection;
+      const finalSect = "Ungrouped";
       groups[finalSect] = groups[finalSect] || {};
       if (!groups[finalSect][cardId]) {
         groups[finalSect][cardId] = { card, qty: 0, tags: entry.tags };
@@ -553,6 +549,7 @@ function DeckPanel({
   octgnDefaultSection,
   panelIgnoreSections = [],
   enableTouchDrag = false,
+  mobileActionsRef,
 }) {
   const [internalGroupBy, setInternalGroupBy] = useState(settings.groupOptions[0]);
   const groupBy = groupByProp !== undefined ? groupByProp : internalGroupBy;
@@ -568,35 +565,47 @@ function DeckPanel({
   const octgnOverrides = octgnOverridesProp !== undefined ? octgnOverridesProp : internalOctgnOverrides;
   const setOctgnOverrides = setOctgnOverridesProp !== undefined ? setOctgnOverridesProp : setInternalOctgnOverrides;
 
- // NEW: smart remove handler
-  function handleRemove(cardId, displayGroup) {
-    // only do this special check when NOT in OCTGN view
-    if (groupBy !== "OCTGN") {
-      const entry = deck[cardId];
-      if (entry?.group && typeof entry.group === "object") {
-        // figure out which real sections have copies
-        const realGroups = Object.entries(entry.group)
-          .filter(([_, qty]) => qty > 0)
-          .map(([g]) => g);
+  const [groupChoice, setGroupChoice] = useState(null);
 
-        // if split across more than one
-        if (realGroups.length > 1) {
-          window.alert("Please switch to OCTGN view to remove cards.");
-          return;
-        }
-
-        // if exactly one real section, remove there
-        if (realGroups.length === 1) {
-          onRemoveCard(cardId, 1, realGroups[0]);
-          return;
-        }
-      }
-    }
-
-    // fallback: remove from whatever the UI was showing
-    onRemoveCard(cardId, 1, displayGroup);
+  function actualGroups(cardId) {
+    const entry = deck[cardId];
+    if (!entry) return [];
+    const groups = entry.group;
+    if (typeof groups === "string") return groups && entry.count > 0 ? [groups] : [];
+    return Object.entries(groups || {})
+      .filter(([, qty]) => Number(qty) > 0)
+      .map(([name]) => name);
   }
 
+  // Use stored OCTGN assignments, never the current display grouping.
+  function changeQuantity(cardId, operation, displayGroup) {
+    const groups = actualGroups(cardId);
+    const apply = (section) => {
+      if (operation === "add") onAddCard(cardId, 1, section);
+      else onRemoveCard(cardId, 1, section);
+    };
+
+    if (groupBy === "OCTGN" && displayGroup) {
+      apply(displayGroup);
+    } else if (groups.length === 1) {
+      apply(groups[0]);
+    } else if (groups.length > 1) {
+      setGroupChoice({ cardId, operation, groups });
+    } else if (operation === "add") {
+      // A new card still uses the pre-existing automatic OCTGN section matching.
+      onAddCard(cardId, 1);
+    }
+  }
+
+  function handleRemove(cardId, displayGroup) {
+    changeQuantity(cardId, "remove", displayGroup);
+  }
+
+  function handleAdd(cardId, displayGroup) {
+    changeQuantity(cardId, "add", displayGroup);
+  }
+
+  if (mobileActionsRef) mobileActionsRef.current = { remove: handleRemove, add: handleAdd };
 
   const availableGroupOptions = useMemo(() => {
     let opts = [...settings.groupOptions];
@@ -668,6 +677,7 @@ function DeckPanel({
 
   function isKnownOctgnGroup(groupName) {
     return (
+      groupName === "Ungrouped" ||
       groupName === octgnDefaultSection ||
       (octgnSections || []).some(section => section.name === groupName)
     );
@@ -1303,7 +1313,7 @@ const totalCards =
   }
 
   // Swap logic for alternate printings
-  function handleSwap(card, qty) {
+  function handleSwap(card, qty, selectAfterSwap = true) {
     const subtitle = card.Subtitle || card.subtitle || "";
     const group = cards.filter(
       c =>
@@ -1315,7 +1325,7 @@ const totalCards =
     const next = group[(idx + 1) % group.length];
     onRemoveCard(card.id, qty);
     onAddCard(next.id, qty);
-    setSelectedCard(next.id);
+    if (selectAfterSwap) setSelectedCard(next.id);
   }
 
   // --- Render ---
@@ -1392,8 +1402,10 @@ const totalCards =
                           </button>
                         )}
                         <div
-                          className="deck-card-grid-preview"
-                          onClick={() => setSelectedCard(card.id)}
+                          className={`deck-card-grid-preview${card.Orientation === "Horizontal" ? " mobile-grid-horizontal" : ""}`}
+                          data-mobile-card-id={card.id}
+                          data-mobile-group={sectionName}
+                          onClick={() => setSelectedCard(card.id, sectionName)}
                         >
                           <CardPreview
                             card={card}
@@ -1401,15 +1413,11 @@ const totalCards =
                             showName={false}
                             quantity={qty}
                             showButtons={true}
+                            onImageClick={enableTouchDrag ? e => { e.stopPropagation(); setSelectedCard(card.id, sectionName); } : undefined}
 							extraData={buildCardPreviewProperties(card, settings)}
                             onAdd={e => {
                               e.stopPropagation();
-                              if (groupBy === "OCTGN") {
-   onAddCard(card.id, 1, sectionName)
- } else {
-   // let the default "Type" (or whatever) grouping take over
-   onAddCard(card.id, 1)
- }
+                              handleAdd(card.id, sectionName)
                             }}
                             onRemove={e => {
                               e.stopPropagation();
@@ -1437,7 +1445,7 @@ const totalCards =
                               }}
                               onClick={e => {
                                 e.stopPropagation();
-                                handleSwap(card, qty);
+                                handleSwap(card, qty, !enableTouchDrag);
                               }}
                             >
                               ⇆
@@ -1455,8 +1463,10 @@ const totalCards =
                     return (
                       <li
                         key={card.id}
+                        data-mobile-card-id={card.id}
+                        data-mobile-group={sectionName}
                         className={`deck-group-list-item${selectedCard === card.id ? " selected" : ""}${touchDrag?.cardId === card.id && touchDrag?.fromSection === sectionName ? " touch-drag-source" : ""}`}
-                        onClick={() => setSelectedCard(card.id)}
+                        onClick={() => setSelectedCard(card.id, sectionName)}
                         draggable
                         onDragStart={e => handleDragStart(e, card.id, sectionName)}
                       >
@@ -1504,12 +1514,7 @@ const totalCards =
                               className="deck-modify-btn"
                               onClick={e => {
                                 e.stopPropagation();
-                                if (groupBy === "OCTGN") {
-   onAddCard(card.id, 1, sectionName)
- } else {
-   // let the default "Type" (or whatever) grouping take over
-   onAddCard(card.id, 1)
- }
+                                handleAdd(card.id, sectionName)
                               }}
                             >
                               +1
@@ -1539,8 +1544,10 @@ const totalCards =
                   return (
                     <li
                       key={card.id}
+                      data-mobile-card-id={card.id}
+                      data-mobile-group={group}
                       className={selectedCard === card.id ? "selected" : ""}
-                      onClick={() => setSelectedCard(card.id)}
+                      onClick={() => setSelectedCard(card.id, group)}
                       style={{ position: "relative" }}
                     >
                       <span>
@@ -1570,11 +1577,7 @@ const totalCards =
 						  className="deck-modify-btn"
 						  onClick={e => {
   e.stopPropagation();
-  if (groupBy === "OCTGN") {
-    onAddCard(card.id, 1, group);
-  } else {
-    onAddCard(card.id, 1);
-  }
+  handleAdd(card.id, group);
 }}>
   +1
 </button>	
@@ -1597,6 +1600,7 @@ const totalCards =
                 {getGroupDisplayName(group)} ({sortedCards.reduce((a, b) => a + b.qty, 0)})
               </strong>
               <div
+                className="deck-mobile-responsive-grid"
                 style={{
                   display: "grid",
                   gridTemplateColumns: "repeat(auto-fit, minmax(86px, 1fr))",
@@ -1609,6 +1613,7 @@ const totalCards =
                   return (
                     <div
                       key={card.id}
+                      className="deck-mobile-grid-cell"
                       style={{
                         background: "var(--main-button-color)",
                         minWidth: 0,
@@ -1625,7 +1630,10 @@ const totalCards =
                           width: "86px",
                           height: "120px",
                         }}
-                        onClick={() => setSelectedCard(card.id)}
+                        data-mobile-card-id={card.id}
+                        data-mobile-group={group}
+                        className={`deck-mobile-grid-preview${card.Orientation === "Horizontal" ? " mobile-grid-horizontal" : ""}`}
+                        onClick={() => setSelectedCard(card.id, group)}
                       >
                         <CardPreview
                           card={card}
@@ -1633,10 +1641,11 @@ const totalCards =
                           showName={false}
                           quantity={qty}
                           showButtons={true}
+                          onImageClick={enableTouchDrag ? e => { e.stopPropagation(); setSelectedCard(card.id, group); } : undefined}
 						  extraData={buildCardPreviewProperties(card, settings)}
                           onAdd={e => {
                             e.stopPropagation();
-                            onAddCard(card.id, 1, group);
+                            handleAdd(card.id, group);
                           }}
                           onRemove={e => {
                             e.stopPropagation();
@@ -1664,13 +1673,14 @@ const totalCards =
                             }}
                             onClick={e => {
                               e.stopPropagation();
-                              handleSwap(card, qty);
+                              handleSwap(card, qty, !enableTouchDrag);
                             }}
                           >
                             ⇆
                           </button>
                         )}
                         <div
+                          className="deck-mobile-grid-name"
                           style={{
                             textAlign: "center",
                             marginTop: "2px",
@@ -1700,6 +1710,24 @@ const totalCards =
           ))}
         </div>
       )}
+
+      <AppModal
+        open={Boolean(groupChoice)}
+        title="Select OCTGN group"
+        message={`Card is in multiple OCTGN groups, which group do you want to ${groupChoice?.operation === "add" ? "add to" : "remove from"}?`}
+        onClose={() => setGroupChoice(null)}
+        actions={[
+          ...(groupChoice?.groups || []).map(name => ({
+            label: name,
+            onClick: () => {
+              if (groupChoice.operation === "add") onAddCard(groupChoice.cardId, 1, name);
+              else onRemoveCard(groupChoice.cardId, 1, name);
+              setGroupChoice(null);
+            },
+          })),
+          { label: "Cancel", onClick: () => setGroupChoice(null) },
+        ]}
+      />
 
       {touchDrag?.active && (
         <div

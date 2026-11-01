@@ -130,14 +130,23 @@ export function createDeckLoadNormalizer({
         continue;
       }
 
-      // Missing, empty, malformed, partial, or desynchronized group data must be
-      // repaired before the deck becomes editable. Assign every copy together so
-      // the group quantities always account for the full count.
-      const autoGroup = pickAutoGroupForCard(cardId);
+      // Preserve valid assigned quantities; show any unassigned copies explicitly.
+      // Never conceal copies or rewrite an existing section allocation.
+      const preserved = {};
+      if (entry.group && typeof entry.group === "object" && !Array.isArray(entry.group)) {
+        for (const [name, rawQty] of Object.entries(entry.group)) {
+          const qty = Number(rawQty);
+          if (name.trim() && Number.isFinite(qty) && qty > 0) {
+            preserved[name.trim()] = (preserved[name.trim()] || 0) + qty;
+          }
+        }
+      }
+      const assigned = Object.values(preserved).reduce((a, b) => a + b, 0);
+      if (assigned < count) preserved.Ungrouped = (preserved.Ungrouped || 0) + count - assigned;
       normalized[cardId] = {
         ...entry,
-        count,
-        group: { [autoGroup]: count },
+        count: Math.max(count, assigned),
+        group: preserved,
         tags: Array.isArray(entry.tags) ? entry.tags : [],
       };
       changed = true;
