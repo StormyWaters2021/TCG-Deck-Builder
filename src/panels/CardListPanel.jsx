@@ -733,6 +733,7 @@ if (filterVal === "(none)") {
           {uniqueCards.map(card => (
             <li
   key={card.id}
+  data-mobile-card-id={card.id}
   className={selectedCard === card.id ? "selected" : ""}
   onClick={() => onCardSelect(card.id)}
   style={{
