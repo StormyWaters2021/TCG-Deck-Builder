@@ -8,151 +8,182 @@ body.mobile-scroll-lock {
   overflow: hidden;
 }
 
-:root {
-  --mobile-preview-h: 25dvh; /* preview band height */
-  --mobile-nav-h: 56px;      /* bottom bar height (not counting safe-area) */
+ :root {
+  --mobile-nav-h: 56px;
 }
 
 .mobile-shell {
-  min-height: 100vh;
-}
-
-/* ----- Top preview: FIXED (locked) ----- */
-.mobile-sticky-preview {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: var(--app-header-height, 0px);
-  height: var(--mobile-preview-h);
-  z-index: 200;
-  background: var(--dropdown-bg);
-  border-bottom: 1px solid var(--dropdown-border);
-  overflow: hidden;
-}
-
-/* Center the wrapper in the preview bar */
-.mobile-sticky-preview-inner {
-  height: 100%;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
+  max-width: 100%;
+  min-width: 0;
   box-sizing: border-box;
 }
 
-/* THIS is the single shared anchor:
-   - It is centered in the preview bar by the parent flex.
-   - It shrinks to the image size.
-   - The flip button is positioned relative to THIS box. */
-.mobile-preview-image-wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: fit-content; /* shrink-wrap */
-  height: fit-content;
-
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/* Image tap area doesn't change sizing */
-.mobile-preview-image-button {
-  padding: 0;
-  margin: 0;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/* Card image: capped so it never feels gigantic */
-.mobile-preview-image {
-  display: block;
-  max-height: 23dvh; 
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  border-radius: 8px;
-}
-
-/* Flip overlay: centered against the SAME wrapper as the image */
-.mobile-preview-flip-overlay {
-  position: absolute;
-  bottom: 4px;
-  left: 50%;
-  transform: translateX(-50%);
-
-  padding: 4px 12px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  border-radius: 999px;
-
-  background: var(--main-button-bg);
-  color: var(--main-button-color);
-  border: 1px solid var(--main-button-border);
-
-  cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-  transition: filter 0.15s;
-}
-
-.mobile-preview-flip-overlay:hover {
-  filter: brightness(1.12);
-}
-
-/* Fullscreen overlay */
-.mobile-preview-fullscreen-backdrop {
-  position: fixed;
-  inset: 0;
-  z-index: 999;
-  background: rgba(0, 0, 0, 0.85);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-  border: none;
-  margin: 0;
-}
-
-.mobile-preview-fullscreen-image {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-.mobile-preview-empty {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  place-items: center;
-  color: #999;
-  background: var(--dropdown-bg);
-}
-
-/* ----- Middle content: ONLY scrolling region ----- */
 .mobile-content {
   position: fixed;
   left: 0;
   right: 0;
-  top: calc(var(--app-header-height, 0px) + var(--mobile-preview-h));
+  top: var(--app-header-height, 0px);
   bottom: calc(var(--mobile-nav-h) + env(safe-area-inset-bottom, 0px));
   overflow-y: auto;
+  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
-  padding: 10px;
+  padding: 0 8px 8px;
   box-sizing: border-box;
 }
 
-.mobile-view {
+.mobile-shell .mobile-view {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.mobile-shell .mobile-view[hidden] { display: none; }
+
+/* Search stays at the top; only card results scroll. */
+.mobile-content:has(.mobile-cards-view.active) { overflow: hidden; }
+.mobile-shell .mobile-cards-view.active { height: 100%; min-height: 0; }
+.mobile-shell .mobile-cards-view .card-list-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 6px 8px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-right: 0;
+}
+.mobile-shell .mobile-cards-view .card-search-controls {
+  flex: 0 0 auto;
+  min-width: 0;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--dropdown-border);
+}
+.mobile-shell .mobile-cards-view .card-search-title { margin-bottom: 3px !important; }
+.mobile-shell .mobile-cards-view .card-search-actions { margin: 4px 0 !important; flex-wrap: wrap; }
+.mobile-shell .mobile-cards-view .card-search-filters { display: flex; flex-wrap: wrap; gap: 4px; }
+.mobile-shell .mobile-cards-view .card-search-filters select {
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.mobile-shell .mobile-cards-view .card-search-count { margin: 3px 0 !important; font-size: 0.85em; }
+.mobile-shell .mobile-cards-view .card-search-results {
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  max-height: none !important;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+}
+
+.mobile-card-popup {
+  position: fixed;
+  inset: var(--app-header-height, 0px) 0 calc(var(--mobile-nav-h) + env(safe-area-inset-bottom, 0px));
+  z-index: 240;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.18);
+  pointer-events: none;
+}
+.mobile-card-popup-content {
+  width: min(85vw, 360px);
+  max-height: calc(100% - 68px);
+  overflow: auto;
+  box-sizing: border-box;
+  text-align: center;
+  pointer-events: auto;
+}
+.mobile-card-popup-content .card-preview { width: 100%; max-width: 100%; }
+.mobile-card-popup-content .card-preview img { max-height: min(65dvh, 560px) !important; width: auto !important; margin: 0 auto !important; }
+
+/* Navigate the visible list without duplicating search or deck ordering logic. */
+/* Four equal theme buttons remain fixed while the popup is visible. */
+.mobile-card-popup-nav {
+  position: fixed;
+  left: 8px;
+  right: 8px;
+  bottom: calc(var(--mobile-nav-h) + env(safe-area-inset-bottom, 0px) + 8px);
+  z-index: 245;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  pointer-events: auto;
+}
+.mobile-card-popup-nav .main-button {
+  width: 100%;
+  min-width: 0;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-card-popup-nav .mobile-preview-arrow::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+}
+.mobile-card-popup-nav .mobile-preview-arrow-up::before {
+  border-bottom: 32px solid var(--main-button-color);
+}
+.mobile-card-popup-nav .mobile-preview-arrow-down::before {
+  border-top: 32px solid var(--main-button-color);
+}
+
+/* Responsive, consistently sized thumbnails in both Deck List grouping modes. */
+.mobile-shell .deck-group-grid,
+.mobile-shell .deck-mobile-responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 100px), 1fr)) !important;
+  gap: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.mobile-shell .deck-card-grid-cell,
+.mobile-shell .deck-mobile-grid-cell {
+  min-width: 0;
+  width: 100%;
+}
+.mobile-shell .deck-mobile-grid-cell {
+  display: block !important;
+}
+.mobile-shell .deck-card-grid-preview,
+.mobile-shell .deck-mobile-grid-preview {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 86 / 120;
+  box-sizing: border-box;
+  min-width: 0;
+}
+.mobile-shell .deck-card-grid-preview .card-preview,
+.mobile-shell .deck-mobile-grid-preview .card-preview {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+.mobile-shell .deck-mobile-grid-name {
+  font-size: 0.75rem !important;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+  padding: 2px 3px 4px;
+}
+.mobile-shell .deck-mobile-grid-preview {
+  height: auto !important;
+  aspect-ratio: auto;
 }
 
 /* ----- Bottom nav: FIXED ----- */
@@ -282,4 +313,121 @@ body.mobile-scroll-lock {
 
 .deck-card-grid-cell {
   position: relative;
+}
+
+/* Mobile grid overlays match the standard card: actions over the bottom edge,
+   a real quantity in the middle, and the drag / swap stack at top-right. */
+.mobile-shell .deck-card-grid-preview .card-qty-badge,
+.mobile-shell .deck-mobile-grid-preview .card-qty-badge,
+.mobile-shell .deck-card-grid-preview .card-extra-data,
+.mobile-shell .deck-mobile-grid-preview .card-extra-data {
+  display: none !important;
+}
+.mobile-shell .deck-card-grid-preview .card-preview > div:first-child,
+.mobile-shell .deck-mobile-grid-preview .card-preview > div:first-child {
+  display: block !important;
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  container-type: inline-size;
+}
+.mobile-shell .deck-card-grid-preview .card-preview > div:first-child::before,
+.mobile-shell .deck-mobile-grid-preview .card-preview > div:first-child::before {
+  content: "";
+  display: block;
+  width: 100%;
+  aspect-ratio: 86 / 120;
+}
+.mobile-shell .deck-card-grid-preview .card-preview img,
+.mobile-shell .deck-mobile-grid-preview .card-preview img,
+.mobile-shell .deck-card-grid-preview .card-preview canvas,
+.mobile-shell .deck-mobile-grid-preview .card-preview canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 139.535cqw !important;
+  max-height: none !important;
+  object-fit: contain;
+  margin: 0 !important;
+}
+.mobile-shell .mobile-grid-horizontal .card-preview img,
+.mobile-shell .mobile-grid-horizontal .card-preview canvas {
+  top: 69.767cqw;
+  left: 50%;
+  width: 139.535cqw !important;
+  max-width: none !important;
+  height: auto !important;
+  max-height: none !important;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+/* Keep the actions anchored to the image, not below the thumbnail. */
+.mobile-shell .deck-card-grid-preview .card-qty-btns,
+.mobile-shell .deck-mobile-grid-preview .card-qty-btns {
+  position: absolute !important;
+  left: 3px !important;
+  right: 3px !important;
+  bottom: 3px !important;
+  top: auto !important;
+  transform: none !important;
+  width: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  justify-items: stretch;
+  gap: 3px;
+  z-index: 5;
+}
+.mobile-shell .deck-card-grid-preview .card-qty-btns .card-modify-btn,
+.mobile-shell .deck-mobile-grid-preview .card-qty-btns .card-modify-btn,
+.mobile-shell .deck-card-grid-preview .card-qty-inline,
+.mobile-shell .deck-mobile-grid-preview .card-qty-inline {
+  min-width: 0;
+  min-height: 30px;
+  padding: 2px 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(12px, 3.8vw, 19px);
+  font-weight: 700;
+  line-height: 1;
+  border: 1px solid var(--main-button-border);
+  border-radius: 5px;
+  background: var(--main-button-bg);
+  color: var(--main-button-color);
+}
+/* Real quantity rather than generated content; hidden outside the mobile grid. */
+.card-qty-inline { display: none; }
+.mobile-shell .deck-card-grid-preview .card-qty-inline,
+.mobile-shell .deck-mobile-grid-preview .card-qty-inline { display: flex; color: var(--main-button-color) !important; }
+.mobile-shell .deck-card-grid-preview .card-qty-inline { color: var(--main-button-color) !important; }
+/* Top-right controls must be above the card image and outside its preview stacking context. */
+.mobile-shell .deck-card-grid-cell { position: relative; }
+.mobile-shell .deck-card-grid-cell > .mobile-card-drag-handle-grid {
+  position: absolute !important;
+  top: 2px !important;
+  right: 2px !important;
+  z-index: 20 !important;
+  display: inline-flex !important;
+  margin: 0 !important;
+  color: var(--main-button-color);
+  background: var(--main-button-bg);
+  border: 1px solid var(--main-button-border);
+  border-radius: 6px;
+}
+.mobile-shell .deck-card-grid-preview .deck-swap-btn {
+  position: absolute !important;
+  left: auto !important;
+  right: 2px !important;
+  top: 40px !important;
+  z-index: 19 !important;
+  width: 34px;
+  height: 30px;
+}
+.mobile-shell .deck-mobile-grid-preview .deck-swap-btn {
+  left: auto !important;
+  right: 2px !important;
+  top: 2px !important;
 }

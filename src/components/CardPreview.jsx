@@ -53,6 +53,13 @@ function getCardImageUrlForFace(card, game, faceKey, useGridImageForPreview = fa
   return `https://tcgbuilder.net/images/${game}/${img}`;
 }
 
+// Mobile-only transformed image URL. Desktop previews and exports keep original URLs.
+export function getMobilePreviewImageUrl(card, game, useGridImageForPreview = false, faceKey = "front", optimized = true) {
+  const original = getCardImageUrlForFace(card, game, faceKey, useGridImageForPreview);
+  if (!original || !optimized) return original;
+  return `https://tcgbuilder.net/cdn-cgi/image/width=400,fit=scale-down,quality=80,format=webp/${original}`;
+}
+
 // Find the next available face based on current faces list
 function nextFaceKey(faces, currentKey) {
   if (!faces || faces.length <= 1) return currentKey;
@@ -120,14 +127,17 @@ function CardPreview({
   onAdd,
   onRemove,
   showButtons = false,
+  onImageClick = null,
   // array of { label, value } to render under the image
   extraData = null,
 
   // Game settings
   disableFlipCardButton = false,
   useGridImageForPreview = false,
+  mobileOptimized = false,
 }) {
   const [imageError, setImageError] = useState(false);
+  const [originalImageFallback, setOriginalImageFallback] = useState(false);
   const [enlarged, setEnlarged] = useState(false);
 
   // Track fallback-per-face so one failing face doesn't affect others
@@ -155,6 +165,7 @@ function CardPreview({
   // Reset on card/game change
   useEffect(() => {
     setImageError(false);
+    setOriginalImageFallback(false);
     setEnlarged(false);
     setUsedMissing({});
     // Start at front if present; else first available face
@@ -165,9 +176,13 @@ function CardPreview({
   const missingUrl = `${BASE}games/${game}/art/missing_card.jpg`;
   const currentUsedMissing = !!usedMissing[faceKey];
 
-const imageUrl = !currentUsedMissing
-  ? getCardImageUrlForFace(card, game, faceKey, useGridImageForPreview)
-  : missingUrl;
+const originalImageUrl = getMobilePreviewImageUrl(card, game, useGridImageForPreview, faceKey, false);
+const optimizedImageUrl = mobileOptimized
+  ? getMobilePreviewImageUrl(card, game, useGridImageForPreview, faceKey)
+  : null;
+const imageUrl = currentUsedMissing
+  ? missingUrl
+  : optimizedImageUrl && !originalImageFallback ? optimizedImageUrl : originalImageUrl;
 
   // Draw canvas fallback if we can't load an image at all
   useEffect(() => {
@@ -188,6 +203,7 @@ const imageUrl = !currentUsedMissing
     const next = nextFaceKey(faces, faceKey);
     setFaceKey(next);
     setImageError(false);
+    setOriginalImageFallback(false);
   };
 
   // No card selected
@@ -253,10 +269,11 @@ const imageUrl = !currentUsedMissing
           />
           {quantity !== null && <span className="card-qty-badge">×{quantity}</span>}
           {showButtons && (
-            <div className="card-qty-btns">
+            <div className="card-qty-btns" data-quantity={quantity}>
               <button className="card-modify-btn" onClick={onRemove}>
                 -1
               </button>
+              <span className="card-qty-inline">×{quantity}</span>
               <button className="card-modify-btn" onClick={onAdd}>
                 +1
               </button>
@@ -331,10 +348,12 @@ const imageUrl = !currentUsedMissing
             margin: 0,
             cursor: "pointer",
           }}
-          onClick={() => setEnlarged(true)}
+          onClick={onImageClick || (() => setEnlarged(true))}
           onError={() => {
-            // First failure -> use missing image for this face. If missing also fails -> canvas.
-            if (!currentUsedMissing) {
+            // Transformation can be unavailable; retry the original before the existing fallbacks.
+            if (optimizedImageUrl && !originalImageFallback && !currentUsedMissing) {
+              setOriginalImageFallback(true);
+            } else if (!currentUsedMissing) {
               setUsedMissing((prev) => ({ ...prev, [faceKey]: true }));
               setImageError(false);
             } else {
@@ -347,10 +366,11 @@ const imageUrl = !currentUsedMissing
         {quantity !== null && <span className="card-qty-badge">×{quantity}</span>}
 
         {showButtons && (
-          <div className="card-qty-btns">
+          <div className="card-qty-btns" data-quantity={quantity}>
             <button className="card-modify-btn" onClick={onRemove}>
               -1
             </button>
+            <span className="card-qty-inline">×{quantity}</span>
             <button className="card-modify-btn" onClick={onAdd}>
               +1
             </button>
