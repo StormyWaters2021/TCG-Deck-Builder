@@ -1,4 +1,5 @@
 import { fetchGameConfig } from "../utils/gameConfigLoader";
+import { loadCardsForGame } from "../utils/cardsLoader";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { repositoryRequest, repositoryWrite } from "./repositoryApi";
 import { CSV_FIELDS, CSV_TITLES, parseCsv, exactMapCsvHeaders, autoMapCsvHeaders, csvObjects } from "./repositoryCsvImport";
@@ -7,7 +8,7 @@ import { CSV_FIELDS, CSV_TITLES, parseCsv, exactMapCsvHeaders, autoMapCsvHeaders
 export function inferStyle(deckJson, byId, rule) {
   if (!rule || rule.method !== "cardMatch" || !Array.isArray(rule.values)) return "";
   const entries = Object.keys(deckJson?.deck || {});
-  const matching = entries.map(id => byId.get(String(id))).find(card => {
+  const matching = entries.map(id => byId.get(String(id).toLowerCase())).find(card => {
     if (!card) return false;
     const raw = String(card[rule.matchProperty] ?? "");
     return rule.matchContains ? raw.toLowerCase().includes(String(rule.matchContains).toLowerCase()) : Boolean(raw);
@@ -77,6 +78,8 @@ export default function BulkDeckSubmission({ game, cards, events = [], seasons =
   const [csv, setCsv] = useState(null);
   const [csvMapping, setCsvMapping] = useState([]);
   const [csvFileName, setCsvFileName] = useState("");
+  const [loadedCards, setLoadedCards] = useState([]);
+  const [cardLoadError, setCardLoadError] = useState("");
   const [decks, setDecks] = useState([]);
   const [errors, setErrors] = useState([]);
   const [busy, setBusy] = useState(false);
@@ -85,7 +88,23 @@ export default function BulkDeckSubmission({ game, cards, events = [], seasons =
   const csvInput = useRef(null);
   const useSeasons = repositoryConfig.features?.seasons === true;
   const useFormats = repositoryConfig.features?.formats === true;
-  const cardMap = useMemo(() => new Map(cards.map(card => [String(card.id), card])), [cards]);
+  const styleNeedsCards = repositoryConfig.styleDetection?.method === "cardMatch";
+  const needsCardCatalog = styleNeedsCards || files.length > 0;
+  const availableCards = cards?.length ? cards : loadedCards;
+  const cardsReady = availableCards.length > 0;
+  const cardMap = useMemo(() => new Map(availableCards.map(card => [String(card.id).toLowerCase(), card])), [availableCards]);
+  useEffect(() => {
+    if (!needsCardCatalog || cards?.length) return;
+    let active = true;
+    setLoadedCards([]);
+    setCardLoadError("");
+    loadCardsForGame(game).then(loaded => {
+      if (active) setLoadedCards(loaded);
+    }).catch(error => {
+      if (active) setCardLoadError(error.message || "Card catalog could not be loaded.");
+    });
+    return () => { active = false; };
+  }, [game, needsCardCatalog, cards]);
   const numLinks = useMemo(() => splitLinks(links).length, [links]);
   const selectedSeason = catalog.seasons.find(s => String(s.id) === seasonId);
   const selectedEvent = catalog.events.find(e => String(e.event_id) === eventId);
@@ -184,6 +203,10 @@ export default function BulkDeckSubmission({ game, cards, events = [], seasons =
   };
   const process = async (importCsv = csv, importMapping = csvMapping) => {
     setErrors([]);
+    if (needsCardCatalog && !cardsReady) {
+      setErrors([cardLoadError || "Game card data is still loading. Try again when it is ready."]);
+      return;
+    }
     if (useSeasons && !selectedSeason && !importCsv) { setErrors(["Select a season before processing decks."]); return; }
     if (!importCsv && !selectedEvent) { setErrors(["Select an existing event before processing decks."]); return; }
     let csvRows = [];
@@ -215,7 +238,7 @@ export default function BulkDeckSubmission({ game, cards, events = [], seasons =
     for (const file of files) {
       try {
         const event = resolveEvent({}, file.name);
-        next.push({ ...(await parseOctgn(file, game, cards)), player_name: "", place: "", event_id: event.event_id, event_name: event.event_name, season: event.season, format: event.format, event_date: event.event_date });
+        next.push({ ...(await parseOctgn(file, game, availableCards)), player_name: "", place: "", event_id: event.event_id, event_name: event.event_name, season: event.season, format: event.format, event_date: event.event_date });
       } catch (error) { failures.push(error.message); }
     }
     setBusy(false);
@@ -223,6 +246,36 @@ export default function BulkDeckSubmission({ game, cards, events = [], seasons =
     setDecks(next); setPreviewCards({}); setExpanded(next.length ? 0 : null); setStep(2);
   };
   const publish = async () => {
+    if (styleNeedsCards) {
+      if (!cardsReady) {
+        setErrors([cardLoadError || "Game card data is unavailable; Style cannot be determined."]);
+        return;
+      }
+      for (const deck of decks) {
+        const ids = Object.keys(deck.deck_json?.deck || {});
+        const identified = ids.map(id => cardMap.get(String(id).toLowerCase()));
+        const hasMastery = identified.some(card => {
+          if (!card) return false;
+          const rule = repositoryConfig.styleDetection;
+          const raw = String(card[rule.matchProperty] ?? "");
+          return rule.matchContains ? raw.toLowerCase().includes(String(rule.matchContains).toLowerCase()) : Boolean(raw);
+        });
+        if (!identified.some(Boolean) || (!hasMastery && identified.some(card => !card))) {
+          setErrors([`Cannot reliably determine Style for ${deck.name}: the card catalog does not recognize all required cards.`]);
+          return;
+        }
+        const masteryStyles = identified.filter(card => {
+          if (!card) return false;
+          const rule = repositoryConfig.styleDetection;
+          const raw = String(card[rule.matchProperty] ?? "");
+          return rule.matchContains ? raw.toLowerCase().includes(String(rule.matchContains).toLowerCase()) : Boolean(raw);
+        }).map(card => inferStyle({ deck: { [card.id]: 1 } }, cardMap, repositoryConfig.styleDetection));
+        if (new Set(masteryStyles).size > 1) {
+          setErrors([`Cannot determine one Style for ${deck.name}: multiple Mastery styles were found.`]);
+          return;
+        }
+      }
+    }
     const invalid = decks.find(d => !d.name.trim() || /^[\s]*[=+@-]/.test(d.name) || /^[\s]*[=+@-]/.test(d.player_name) || (d.place !== "" && (!/^[1-9]\d*$/.test(d.place) || !Number.isSafeInteger(Number(d.place)))));
     if (invalid) { setErrors(["Deck names and player names cannot be spreadsheet formulas; placement must be a positive whole number."]); return; }
     if (errors.length) return;
@@ -269,6 +322,7 @@ export default function BulkDeckSubmission({ game, cards, events = [], seasons =
           <strong>CSV Validated</strong> · {csvFileName} · {csv.rows.length} row(s)
           <button type="button" onClick={() => { setCsv(null); setCsvFileName(""); setCsvMapping([]); }}>Remove CSV</button>
         </div>}
+        {needsCardCatalog && !cardsReady && <p role="status">{cardLoadError || "Loading game card data for imports and Style detection…"}</p>}
         {csvNeedsMapping && <div className="repository-csv-mapper">
           <strong>{csvFileName}</strong> · {csv.rows.length} row(s)
           <p>Some CSV headers do not match exactly. Confirm the suggested assignments for every column before processing.</p>
@@ -287,11 +341,11 @@ export default function BulkDeckSubmission({ game, cards, events = [], seasons =
         <p><strong>{decks.length} deck(s) ready</strong> · All events validated · Nothing has been published yet.</p>
         {decks.map((deck, index) => <section className="repository-submit-deck" key={index}><button className="repository-submit-deck-toggle" type="button" onClick={() => setExpanded(expanded === index ? null : index)}>{expanded === index ? "▾" : "▸"} {deck.name} <small>{deck.event_name} · {deck.event_date} · {deck.source_type === "octgn" ? "OCTGN" : "Link"}</small></button>{expanded === index && <div className="repository-submit-fields"><label>Deck Name<input value={deck.name} onChange={e => editDeck(index, "name", e.target.value)} /></label><label>Player Name<input value={deck.player_name} onChange={e => editDeck(index, "player_name", e.target.value)} /></label><label>Place (number only)<input type="number" min="1" step="1" value={deck.place} onChange={e => editDeck(index, "place", e.target.value)} /></label></div>}
           <button type="button" className="repository-card-preview-toggle" onClick={() => setPreviewCards(prev => ({ ...prev, [index]: !prev[index] }))}>{previewCards[index] ? "▾ Hide Cards" : "▸ View Cards"} ({Object.keys(deck.deck_json?.deck || {}).length})</button>
-          {previewCards[index] && <div className="repository-compact-cards">{Object.entries(deck.deck_json?.deck || {}).map(([id, entry]) => <div key={id}><strong>{typeof entry === "number" ? entry : entry?.count || 0}×</strong> {cardMap.get(String(id))?.name || id}</div>)}</div>}
+          {previewCards[index] && <div className="repository-compact-cards">{Object.entries(deck.deck_json?.deck || {}).map(([id, entry]) => <div key={id}><strong>{typeof entry === "number" ? entry : entry?.count || 0}×</strong> {cardMap.get(String(id).toLowerCase())?.name || id}</div>)}</div>}
         </section>)}
       </div>}
       {!!errors.length && <div className="repository-submit-errors" role="alert"><strong>{errors.length} issue(s) · No decks have been imported</strong><ul>{errors.map((message, i) => <li key={i}>{message}</li>)}</ul></div>}
-      <footer className="repository-submit-footer"><button type="button" disabled={busy} onClick={step === 1 ? onClose : () => { setStep(1); setErrors([]); }}>{step === 1 ? "Cancel" : "Back"}</button>{step === 1 ? <button type="button" disabled={busy || (!numLinks && !files.length && !csv)} onClick={() => process()}>{busy ? "Processing…" : "Process Decks"}</button> : <button type="button" disabled={busy || !decks.length || !!errors.length} onClick={publish}>{busy ? "Publishing…" : `Publish All ${decks.length} Deck${decks.length === 1 ? "" : "s"}`}</button>}</footer>
+      <footer className="repository-submit-footer"><button type="button" disabled={busy} onClick={step === 1 ? onClose : () => { setStep(1); setErrors([]); }}>{step === 1 ? "Cancel" : "Back"}</button>{step === 1 ? <button type="button" disabled={busy || (!numLinks && !files.length && !csv) || (needsCardCatalog && !cardsReady)} onClick={() => process()}>{busy ? "Processing…" : "Process Decks"}</button> : <button type="button" disabled={busy || !decks.length || !!errors.length} onClick={publish}>{busy ? "Publishing…" : `Publish All ${decks.length} Deck${decks.length === 1 ? "" : "s"}`}</button>}</footer>
     </section>
     {dialog && <div className="repository-catalog-backdrop" onMouseDown={e => { if (e.target === e.currentTarget && !busy) setDialog(null); }}><form className="repository-catalog-modal" role="dialog" aria-modal="true" aria-labelledby="repository-catalog-title" onSubmit={saveDialog}>
       <h3 id="repository-catalog-title">{dialog.id ? "Edit" : "New"} {dialog.kind === "season" ? "Season" : "Event"}</h3>

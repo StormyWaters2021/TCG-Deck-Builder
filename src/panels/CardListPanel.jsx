@@ -176,6 +176,86 @@ function getFilters(cards, filterOptions, delimiter = null, filterValueOrder = {
 }
 
 
+// Compact multi-select dropdown; selections stay in the menu, not in tokens.
+function MultiSelectFilter({ name, options, selected, onToggle }) {
+  const [open, setOpen] = useState(false);
+  const rootRef = useRef(null);
+
+  useEffect(() => {
+    if (!open) return;
+    function handlePointerDown(event) {
+      if (!rootRef.current?.contains(event.target)) setOpen(false);
+    }
+    function handleKeyDown(event) {
+      if (event.key === "Escape") setOpen(false);
+    }
+    document.addEventListener("pointerdown", handlePointerDown);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("pointerdown", handlePointerDown);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [open]);
+
+  const count = selected.length;
+  return (
+    <div ref={rootRef} style={{ position: "relative", minWidth: 0, maxWidth: "100%" }}>
+      <button
+        type="button"
+        aria-label={`${name} filter`}
+        aria-expanded={open}
+        aria-haspopup="true"
+        onClick={() => setOpen(value => !value)}
+        style={{
+          display: "flex", alignItems: "center", justifyContent: "space-between",
+          gap: 8, maxWidth: "100%", minWidth: 85, minHeight: 23,
+          padding: "1px 7px", border: "1px solid #888", borderRadius: 3,
+          background: "var(--dropdown-bg, #e7e7ec)",
+          color: "var(--input-color, #ffd700)",
+          fontFamily: "inherit", fontSize: "0.9em", cursor: "pointer",
+          textAlign: "left",
+        }}
+      >
+        <span style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+          {count ? `${name} (${count})` : name}
+        </span>
+        <span aria-hidden="true" style={{ fontSize: "0.8em" }}>▼</span>
+      </button>
+      {open && (
+        <div
+          role="group"
+          aria-label={`${name} options`}
+          style={{
+            position: "absolute", top: "100%", left: 0, zIndex: 50,
+            marginTop: 2, minWidth: "max-content", maxWidth: "min(85vw, 320px)",
+            maxHeight: 250, overflowY: "auto", padding: "4px 0",
+            border: "1px solid var(--dropdown-border, #777)", borderRadius: 4,
+            background: "var(--panel-bg, #242424)", color: "var(--input-color, #ffd700)",
+            boxShadow: "0 4px 12px #0007",
+          }}
+        >
+          {options.map(value => (
+            <label
+              key={String(value)}
+              style={{ display: "flex", alignItems: "center", gap: 7,
+                padding: "5px 10px", cursor: "pointer", whiteSpace: "nowrap" }}
+            >
+              <input
+                type="checkbox"
+                checked={selected.includes(value)}
+                onChange={() => onToggle(value)}
+                style={{ margin: 0, flexShrink: 0 }}
+              />
+              {String(value)}
+            </label>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+
 // --- Search Parser and Evaluator with Parentheses, OR, AND, NOT, and Prefixes ---
 
 // Tokenize the input search string
@@ -459,6 +539,20 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
   const [filters, setFilters] = useState({});
   const [advancedOpen, setAdvancedOpen] = useState(false);
 
+  function toggleFilter(prop, value) {
+    setFilters(previous => {
+      const selected = previous[prop] || [];
+      const nextValues = selected.includes(value)
+        ? selected.filter(item => item !== value)
+        : [...selected, value];
+      const next = { ...previous };
+      if (nextValues.length) next[prop] = nextValues;
+      else delete next[prop];
+      return next;
+    });
+  }
+
+
 	// Remembered across opens (in-memory). If you later want persistence, store/load from localStorage.
 	const [advancedState, setAdvancedState] = useState(null);
 
@@ -545,53 +639,31 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
   // Combine: prefixes first, then help file text
   const fullHelpText = prefixesSection + helpTextFile;
 
-  // Use advanced parser/evaluator for text search, preserve dropdown logic
-  const filtered = filterCards(cards, search, searchPrefixes).filter(card => {
-    // Dropdown filters
-    for (const [prop, value] of Object.entries(filters)) {
-      if (value === undefined) continue;
-
+  // OR within each dropdown, AND across different dropdowns.
+  const filtered = filterCards(cards, search, searchPrefixes).filter(card =>
+    Object.entries(filters).every(([prop, selected]) => {
       const rawVal = card[prop];
-
-      const filterVal = String(value).trim().toLowerCase();
-
-if (filterVal === "(none)") {
-  if (
-    rawVal !== undefined &&
-    rawVal !== null &&
-    !(typeof rawVal === "string" && rawVal.trim() === "")
-  ) {
-    return false;
-  }
-} else if (filterVal === "any") {
-  if (
-    rawVal === undefined ||
-    rawVal === null ||
-    (typeof rawVal === "string" && rawVal.trim() === "")
-  ) {
-    return false;
-  }
-} else {
-  const values = (typeof rawVal === "string" && filterDelimiter)
-    ? rawVal.split(filterDelimiter).map(v => v.trim())
-    : [typeof rawVal === "string" ? rawVal.trim() : rawVal];
-
-  if (!values.some(v => String(v).trim() === value)) {
-    return false;
-  }
-}
-
-    }
-
-    return true;
-  });
+      const empty = rawVal === undefined || rawVal === null ||
+        (typeof rawVal === "string" && rawVal.trim() === "");
+      const values = typeof rawVal === "string" && filterDelimiter
+        ? rawVal.split(filterDelimiter).map(value => value.trim())
+        : [typeof rawVal === "string" ? rawVal.trim() : rawVal];
+      return selected.some(value => {
+        if (value === "(none)") return empty;
+        if (value === "any") return !empty;
+        return values.some(cardValue => String(cardValue).trim() === String(value));
+      });
+    })
+  );
 
   const uniqueCards = getUniqueCardsByName(filtered);
 
   function handleClearFilters() {
     setSearch("");
     setFilters({});
+    setAdvancedState(null);
   }
+
 
   return (
     <aside className="card-list-panel" style={{ position: "relative" }}>
@@ -679,43 +751,15 @@ if (filterVal === "(none)") {
 		Advanced Search
 	  </button>
 	</div>
-      <div className="card-search-filters">
+      <div className="card-search-filters" style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>
         {(settings.filterOptions || []).map(prop => (
-          <select
+          <MultiSelectFilter
             key={prop}
-            value={
-              filters[prop] === undefined
-                ? ""
-                : filters[prop] === null
-                ? "(none)"
-                : filters[prop]
-            }
-            onChange={e =>
-              setFilters(f => {
-                const v = e.target.value;
-                return {
-                  ...f,
-                  [prop]:
-                    v === ""
-                      ? undefined
-                      : v === "(none)"
-                      ? "(none)"
-                      : v,
-                };
-              })
-            }
-          >
-            <option value="">{prop}</option>
-            <option value="(none)">(none)</option>
-			<option value="any">(any)</option>
-            {filterProps[prop]
-              .filter(val => val !== null)
-              .map(val => (
-                <option value={val} key={val}>
-                  {val}
-                </option>
-              ))}
-          </select>
+            name={prop}
+            options={["(none)", "any", ...(filterProps[prop] || []).filter(value => value !== null)]}
+            selected={filters[prop] || []}
+            onToggle={value => toggleFilter(prop, value)}
+          />
         ))}
       </div>
       <div className="card-search-count" style={{ margin: "0.5em 0", fontWeight: "bold" }}>

@@ -21,10 +21,50 @@
       "singleColumnGroups": [
         "Starting"
       ]
+    },
+    "pinnedSections": {
+      "header": [
+        {
+          "name": "Starting",
+          "maxColumns": 1,
+          "groups": [
+            {
+              "name": "Starting",
+              "match": {
+                "Type": [
+                  "Mastery",
+                  "Personality - Hero",
+                  "Personality - Villain",
+                  "Personality - Rogue"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sensei",
+          "maxColumns": 1,
+          "groups": [
+            {
+              "name": "Sensei",
+              "match": {
+                "Type": "Sensei"
+              }
+            },
+            {
+              "name": "Sensei",
+              "match": {
+                "OCTGN": "Sensei Deck"
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "features": {
-    "seasons": true
+    "seasons": true,
+    "formats": true
   },
   "styleDetection": {
     "method": "cardMatch",

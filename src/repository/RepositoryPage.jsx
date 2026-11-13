@@ -277,6 +277,7 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
   const [events, setEvents] = useState([]);
   const [seasons, setSeasons] = useState([]);
   const [repositoryConfig, setRepositoryConfig] = useState({});
+  const [repositoryConfigReady, setRepositoryConfigReady] = useState(false);
   const [groupBy, setGroupBy] = useState("Type");
   const [mode, setMode] = useState("text");
   const [previewSizePreference, setPreviewSizePreference] = useState(() => storedPreviewSize(game));
@@ -324,6 +325,7 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
     let active = true;
     setConfig([]);
     setRepositoryConfig({});
+    setRepositoryConfigReady(false);
     setColumnConfig({ maxColumns: 3, singleColumnGroups: [] });
     setConfigError("");
     setFilters({});
@@ -343,7 +345,8 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
         return response.json();
       })
       .then(value => {
-        if (!active || value === null) return;
+        if (!active) return;
+        if (value === null) { setRepositoryConfigReady(true); return; }
         if (!value || !Array.isArray(value.filters)) throw new Error("repository.json must contain a filters array.");
         const ids = new Set();
         const validated = value.filters.map(field => {
@@ -367,6 +370,7 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
         setColumnConfig({ maxColumns: columns?.maxColumns ?? 3, singleColumnGroups: columns?.singleColumnGroups ?? [] });
         setConfig(validated);
         setRepositoryConfig(value);
+        setRepositoryConfigReady(true);
       })
       .catch(err => { if (active) setConfigError(`Repository configuration: ${err.message}`); });
     return () => { active = false; };
@@ -394,7 +398,7 @@ export default function RepositoryPage({ game, activeCardsGame, activeCards, set
     clearSelection();
   };
   const hasActiveFilters = Boolean(search || sort !== "events" || page !== 1 || Object.values(filters).some(Boolean));
-  return <main className={`repository-page ${isMobileLayout ? "repository-page--mobile" : "repository-page--desktop"}`}><div className="repository-page-heading"><div className="repository-page-title"><h2>Deck DB</h2>{game && !loading && !error && <small>{result.total} decks</small>}</div><div className="repository-page-actions">{canSubmit && <><button type="button" onClick={() => setSubmitOpen(true)}>Submit Deck</button></>}<button type="button" onClick={onBack}>Back to Builder</button></div></div>
+  return <main className={`repository-page ${isMobileLayout ? "repository-page--mobile" : "repository-page--desktop"}`}><div className="repository-page-heading"><div className="repository-page-title"><h2>Deck DB</h2>{game && !loading && !error && <small>{result.total} decks</small>}</div><div className="repository-page-actions">{canSubmit && <><button type="button" disabled={!repositoryConfigReady} onClick={() => setSubmitOpen(true)}>Submit Deck</button></>}<button type="button" onClick={onBack}>Back to Builder</button></div></div>
     <div className="repository-search-row">
       <label className="repository-search-field">Search<input value={search} onChange={e=>{setSearch(e.target.value);setPage(1);clearSelection();}} placeholder="Deck, player, event…" /></label>
       <label className="repository-sort-field">Sort<select value={sort} onChange={e=>{setSort(e.target.value);setPage(1);clearSelection();}}><option value="events">Newest events</option><option value="additions">Newest additions</option><option value="player">Player name</option><option value="name">Deck name</option></select></label>
