@@ -56,3 +56,6 @@ __pycache__/
 
 # Ignore backup files
 *~
+
+# Ignore all ZIP archives
+*.zip
