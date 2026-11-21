@@ -91,6 +91,10 @@ export default function MobileDeckBuilder({
   function modifyPreviewCard(action) {
     if (!previewCard || !selectedCardObj) return;
     if (activeView === "cards") {
+      if (action === "pile") {
+        if (additionalPileValid) addCard(previewCard, 1, additionalAddPile);
+        return;
+      }
       addCard(previewCard, action === "many" ? settings.addNValue : 1);
       return;
     }
@@ -108,6 +112,11 @@ export default function MobileDeckBuilder({
   const {
     octgnSections,
     octgnDefaultSection,
+    pileStatus,
+    pileError,
+    additionalAddPile,
+    additionalPileValid,
+    swapCard,
     setDeckFromLoad,
     addCard,
     removeCard,
@@ -119,6 +128,8 @@ export default function MobileDeckBuilder({
     setDeck,
     settings,
   });
+
+  const showAdditionalPile = activeView === "cards" && additionalPileValid;
 
   return (
   <div className="mobile-shell">
@@ -139,6 +150,9 @@ export default function MobileDeckBuilder({
           onCardSelect={selectPreviewCard}
           selectedCard={selectedCard}
           onAddCard={addCard}
+          pileStatus={pileStatus}
+          pileError={pileError}
+          additionalAddPile={additionalPileValid ? additionalAddPile : ""}
           deck={deck}
         />
       </section>
@@ -155,6 +169,7 @@ export default function MobileDeckBuilder({
           onRemoveCard={removeCard}
           onAddCard={addCard}
           moveCard={moveCard}
+          swapCard={swapCard}
           selectedCard={selectedCard}
           setSelectedCard={selectPreviewCard}
           groupByProp={groupBy}
@@ -210,20 +225,35 @@ export default function MobileDeckBuilder({
             onImageClick={() => setPreviewCard(null)}
           />
         </div>
+        {activeView === "cards" && (pileError || pileStatus === "loading") && <div role={pileError ? "alert" : "status"} className="mobile-pile-error" onClick={e => e.stopPropagation()}>{pileError || "Loading deck piles…"}</div>}
         <div className="mobile-card-popup-nav" onClick={e => e.stopPropagation()}>
           {activeView === "cards" ? (
             <>
-              <button type="button" className="main-button" onClick={() => modifyPreviewCard("add")}>+1</button>
-              <button type="button" className="main-button" onClick={() => modifyPreviewCard("many")}>+{settings.addNValue}</button>
+              <button type="button" className="main-button" disabled={pileStatus !== "ready"} onClick={() => modifyPreviewCard("add")}>+1</button>
+              <button type="button" className="main-button" disabled={pileStatus !== "ready"} onClick={() => modifyPreviewCard("many")}>+{settings.addNValue}</button>
+              {showAdditionalPile && (
+                <button type="button" className="main-button mobile-preview-pile" onClick={() => modifyPreviewCard("pile")}>
+                  +1 {additionalAddPile}
+                </button>
+              )}
             </>
           ) : (
             <>
-              <button type="button" className="main-button" onClick={() => modifyPreviewCard("add")}>+1</button>
+              <button type="button" className="main-button" disabled={pileStatus !== "ready"} onClick={() => modifyPreviewCard("add")}>+1</button>
               <button type="button" className="main-button" onClick={() => modifyPreviewCard("remove")}>−1</button>
             </>
           )}
-          <button type="button" className="main-button mobile-preview-arrow mobile-preview-arrow-up" aria-label="Previous card" onClick={() => movePreview(-1)} />
-          <button type="button" className="main-button mobile-preview-arrow mobile-preview-arrow-down" aria-label="Next card" onClick={() => movePreview(1)} />
+          {showAdditionalPile ? (
+            <div className="mobile-preview-arrow-stack">
+              <button type="button" className="main-button mobile-preview-arrow mobile-preview-arrow-up" aria-label="Previous card" onClick={() => movePreview(-1)} />
+              <button type="button" className="main-button mobile-preview-arrow mobile-preview-arrow-down" aria-label="Next card" onClick={() => movePreview(1)} />
+            </div>
+          ) : (
+            <>
+              <button type="button" className="main-button mobile-preview-arrow mobile-preview-arrow-up" aria-label="Previous card" onClick={() => movePreview(-1)} />
+              <button type="button" className="main-button mobile-preview-arrow mobile-preview-arrow-down" aria-label="Next card" onClick={() => movePreview(1)} />
+            </>
+          )}
         </div>
       </div>
     )}

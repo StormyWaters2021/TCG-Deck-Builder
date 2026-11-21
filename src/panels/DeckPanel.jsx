@@ -121,7 +121,7 @@ function groupDeckByOctgn(
 ) {
   const groups = {};
   sections.forEach((s) => (groups[s.name] = {}));
-  groups[defaultSection] = groups[defaultSection] || {};
+
 
   Object.entries(deck).forEach(([cardId, entry]) => {
     const card = cards.find((c) => c.id === cardId) || { id: cardId, name: `Unknown card (${cardId})`, Type: "Ungrouped" };
@@ -539,6 +539,7 @@ function DeckPanel({
   onRemoveCard,
   onAddCard,
   moveCard,
+  swapCard,
   selectedCard,
   setSelectedCard,
   groupByProp,
@@ -618,9 +619,7 @@ function DeckPanel({
   const filteredSections = useMemo(() => {
     if (groupBy === "OCTGN" && octgnSections) {
       const kept = octgnSections.filter(s => !panelIgnoreSections.includes(s.name));
-      if (octgnDefaultSection && !kept.some(s => s.name === octgnDefaultSection)) {
-        kept.push({ name: octgnDefaultSection, criteria: {} });
-      }
+
       return kept;
     }
     return null;
@@ -657,9 +656,7 @@ function DeckPanel({
   function getSortedGroupNames(groupedObj) {
     if (groupBy === "OCTGN") {
       const configuredNames = (filteredSections || []).map(s => s.name);
-      if (octgnDefaultSection && !configuredNames.includes(octgnDefaultSection)) {
-        configuredNames.push(octgnDefaultSection);
-      }
+
 
       const additionalNames = Object.keys(groupedObj)
         .filter(name => !configuredNames.includes(name))
@@ -678,7 +675,6 @@ function DeckPanel({
   function isKnownOctgnGroup(groupName) {
     return (
       groupName === "Ungrouped" ||
-      groupName === octgnDefaultSection ||
       (octgnSections || []).some(section => section.name === groupName)
     );
   }
@@ -1313,7 +1309,7 @@ const totalCards =
   }
 
   // Swap logic for alternate printings
-  function handleSwap(card, qty, selectAfterSwap = true) {
+  function handleSwap(card, qty, selectAfterSwap = true, sectionName) {
     const subtitle = card.Subtitle || card.subtitle || "";
     const group = cards.filter(
       c =>
@@ -1323,8 +1319,7 @@ const totalCards =
     if (group.length <= 1) return;
     const idx = group.findIndex(c => c.id === card.id);
     const next = group[(idx + 1) % group.length];
-    onRemoveCard(card.id, qty);
-    onAddCard(next.id, qty);
+    if (!swapCard(card.id, next.id, qty, sectionName)) return;
     if (selectAfterSwap) setSelectedCard(next.id);
   }
 
@@ -1445,7 +1440,7 @@ const totalCards =
                               }}
                               onClick={e => {
                                 e.stopPropagation();
-                                handleSwap(card, qty, !enableTouchDrag);
+                                handleSwap(card, qty, !enableTouchDrag, sectionName);
                               }}
                             >
                               ⇆
@@ -1493,7 +1488,7 @@ const totalCards =
                             className="deck-swap-btn"
                             onClick={e => {
                               e.stopPropagation();
-                              handleSwap(card, qty);
+                              handleSwap(card, qty, true, sectionName);
                             }}
                           >
                             ⇆

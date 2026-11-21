@@ -1,6 +1,7 @@
 {
   "gameName": "sample-game",
   "addNValue": 3,
+  "additionalAddPile": "",
   "maxCopiesPerCard": 4,
   "octgnExport": false,
   

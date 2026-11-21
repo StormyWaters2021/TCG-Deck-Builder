@@ -258,10 +258,45 @@ function MultiSelectFilter({ name, options, selected, onToggle }) {
 
 // --- Search Parser and Evaluator with Parentheses, OR, AND, NOT, and Prefixes ---
 
+function normalizeSearchSyntax(input) {
+  let result = "";
+  let quote = null;
+  for (let i = 0; i < input.length; i++) {
+    const char = input[i];
+    if (quote && char === "\\" && i + 1 < input.length) {
+      result += char + input[++i];
+      continue;
+    }
+    if (quote === '"') {
+      if (char === '"') quote = null;
+      result += char;
+    } else if (quote === "smart") {
+      if (/[\u201C\u201D\u201E\u201F\uFF02]/.test(char)) {
+        result += '"';
+        quote = null;
+      } else if (char === '"') {
+        result += '\\"';
+      } else {
+        result += char;
+      }
+    } else if (char === '"') {
+      quote = '"';
+      result += char;
+    } else if (/[\u201C\u201D\u201E\u201F\uFF02]/.test(char)) {
+      quote = "smart";
+      result += '"';
+    } else {
+      result += char;
+    }
+  }
+  return result;
+}
+
 // Tokenize the input search string
 function tokenize(input) {
+  input = normalizeSearchSyntax(input);
   const tokens = [];
-  const regex = /\s*(\/\/|-[a-zA-Z0-9_]+:"[^"]*"|-[a-zA-Z0-9_]+:\([^)]+\)|-[a-zA-Z0-9_]+:[^\s()"]+|-"[^"]*"|-\([^)]+\)|-[^\s()"]+|[a-zA-Z0-9_]+:"[^"]*"|[a-zA-Z0-9_]+:\([^)]+\)|[a-zA-Z0-9_]+:[^\s()"]+|"[^"]*"|\([^)]+\)|[()]|[^\s()"]+)\s*/g;
+  const regex = /\s*(\/\/|-[a-zA-Z0-9_]+:"(?:\\.|[^"\\])*"|-[a-zA-Z0-9_]+:\([^)]+\)|-[a-zA-Z0-9_]+:[^\s()"]+|-"(?:\\.|[^"\\])*"|-\([^)]+\)|-[^\s()"]+|[a-zA-Z0-9_]+:"(?:\\.|[^"\\])*"|[a-zA-Z0-9_]+:\([^)]+\)|[a-zA-Z0-9_]+:[^\s()"]+|"(?:\\.|[^"\\])*"|\([^)]+\)|[()]|[^\s()"]+)\s*/g;
   let match;
   while ((match = regex.exec(input)) !== null) {
     tokens.push(match[1]);
@@ -382,6 +417,17 @@ function hasAnyValueForProperty(card, property, includeAlternates) {
 }
 
 
+function normalizeSearchText(value) {
+  return String(value ?? "")
+    .normalize("NFC")
+    .replace(/[\u2018\u2019\u201A\u201B\u02BC\uFF07]/g, "'")
+    .replace(/[\u201C\u201D\u201E\u201F\uFF02]/g, '"')
+    .replace(/[\u2010-\u2015\u2212\uFE63\uFF0D]/g, "-")
+    .replace(/\u2026/g, "...")
+    .replace(/[\u00A0\u2000-\u200A\u202F\u205F\u3000]/g, " ")
+    .toLowerCase();
+}
+
 // Evaluate the expression tree for a card
 function evaluate(node, card, searchPrefixes) {
   switch (node.type) {
@@ -400,7 +446,9 @@ function evaluate(node, card, searchPrefixes) {
           (value.startsWith('"') && value.endsWith('"')) ||
           (value.startsWith("(") && value.endsWith(")"))
         ) {
-          value = value.slice(1, -1);
+          value = value.startsWith('"')
+            ? value.slice(1, -1).replace(/\\(["\\])/g, "$1")
+            : value.slice(1, -1);
         }
 
         // Map prefix to property name, case-insensitive
@@ -417,7 +465,7 @@ function evaluate(node, card, searchPrefixes) {
       } else {
         // Handle quoted term (for plain name search)
         if (value.startsWith('"') && value.endsWith('"')) {
-          value = value.slice(1, -1);
+          value = value.slice(1, -1).replace(/\\(["\\])/g, "$1");
         }
 
         // Find actual 'name' property in card, case-insensitive
@@ -479,8 +527,9 @@ function evaluate(node, card, searchPrefixes) {
       }
 
       // Regular text search: match if ANY value contains the query
+      const normalizedValue = normalizeSearchText(value);
       return valuesToSearch.some((val) =>
-        String(val ?? "").toLowerCase().includes(value.toLowerCase())
+        normalizeSearchText(val).includes(normalizedValue)
       );
     }
 
@@ -532,7 +581,7 @@ function getUniqueCardsByName(cards) {
   return Array.from(map.values());
 }
 
-function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard, deck }) {
+function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard, deck, pileStatus, pileError, additionalAddPile }) {
   const searchInputRef = useRef(null);
   const listRef = useRef(null);
   const [search, setSearch] = useState("");
@@ -668,6 +717,8 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
   return (
     <aside className="card-list-panel" style={{ position: "relative" }}>
       <div className="card-search-controls">
+      {pileError && <div role="alert" style={{ color: "var(--text-color)", border: "1px solid #d66", padding: 6, marginBottom: 6 }}>{pileError}</div>}
+      {pileStatus === "loading" && <div role="status">Loading deck piles…</div>}
       <div className="card-search-title" style={{ marginBottom: "0.5em", fontSize: "0.95em" }}>
         <strong>Card Search</strong>
         <InfoTooltip text={fullHelpText} />
@@ -792,20 +843,25 @@ function CardListPanel({ cards, settings, onCardSelect, selectedCard, onAddCard,
     {card.Subtitle ? ` - ${card.Subtitle}` : ""}
   </div>
   {selectedCard === card.id && (
-    <div style={{ marginTop: 6, display: "flex", gap: 8 }}>
-      <button
-	  
+    <div style={{ marginTop: 6, display: "flex", flexWrap: "wrap", gap: 8 }}>
+      <button disabled={pileStatus !== "ready"}
         onClick={e => {
           e.stopPropagation();
           onAddCard(card.id, 1);
         }}
       >+1</button>
-      <button
+      <button disabled={pileStatus !== "ready"}
         onClick={e => {
           e.stopPropagation();
           onAddCard(card.id, settings.addNValue);
         }}
       >+{settings.addNValue}</button>
+      {additionalAddPile && (
+        <button type="button" onClick={e => {
+          e.stopPropagation();
+          onAddCard(card.id, 1, additionalAddPile);
+        }}>+1 {additionalAddPile}</button>
+      )}
     </div>
   )}
 </li>

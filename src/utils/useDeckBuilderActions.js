@@ -2,67 +2,41 @@ import { fetchGameConfig } from "./gameConfigLoader";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { createDeckLoadNormalizer } from "./deckLoadRepair";
 
-export function getSectionForCard(card, octgnSections, defaultSection) {
-  if (!card) return defaultSection || "Main";
+import { getSectionForCard, isValidPile, resolveAddPile, addToPile, swapPrinting } from "./deckPileActions.mjs";
+export { getSectionForCard };
+const reportError = (message) => window.alert(message);
 
-  for (const section of octgnSections || []) {
-    if (!section.criteria) continue;
-
-    const matches = Object.entries(section.criteria).some(([prop, values]) =>
-      Array.isArray(values) && values.includes(card[prop])
-    );
-
-    if (matches) return section.name;
-  }
-
-  return defaultSection || "Main";
-}
-
-export function useOctgnSections(gameName, enabled = true) {
-  const [sections, setSections] = useState(null);
-  const [defaultSection, setDefaultSection] = useState(null);
-
+export function useOctgnSections(gameName, enabled = true, allowNoOctgn = false, fallbackGroup = "Main") {
+  const [config, setConfig] = useState(null);
   useEffect(() => {
-    if (!enabled || !gameName) {
-      setSections(null);
-      setDefaultSection(null);
-      return undefined;
-    }
-
+    if (!enabled || !gameName) return;
     let cancelled = false;
-
+    setConfig(null);
     async function fetchSections() {
       try {
-        let baseUrl = import.meta.env.BASE_URL || "";
-        if (baseUrl.endsWith("/")) baseUrl = baseUrl.slice(0, -1);
-
-        const response = await fetchGameConfig(gameName, "octgn.json");
-        if (!response.ok) {
-          throw new Error(`Unable to load OCTGN sections (${response.status})`);
+        const response = await fetchGameConfig(gameName, "octgn.json", { optional: allowNoOctgn });
+        if (allowNoOctgn && response.status === 404) {
+          if (!cancelled) setConfig({ gameName, sections: [{ name: fallbackGroup }], defaultSection: fallbackGroup, status: "ready", hasOctgnConfig: false });
+          return;
         }
-
+        if (!response.ok) throw new Error(`Unable to load OCTGN sections (${response.status})`);
         const json = await response.json();
-        if (!cancelled) {
-          setSections(json.sections || []);
-          setDefaultSection(json.defaultSection || "Main");
+        if (!Array.isArray(json.sections) || !json.sections.length || json.sections.some(section => typeof section?.name !== "string" || !section.name.trim())) {
+          throw new Error("No valid OCTGN sections configured");
         }
+        if (!cancelled) setConfig({ gameName, sections: json.sections, defaultSection: json.defaultSection || null, status: "ready", hasOctgnConfig: true });
       } catch (error) {
         if (!cancelled) {
           console.error("Failed to load OCTGN section settings:", error);
-          setSections([]);
-          setDefaultSection("Main");
+          setConfig({ gameName, status: "error" });
         }
       }
     }
-
     fetchSections();
-
-    return () => {
-      cancelled = true;
-    };
-  }, [gameName, enabled]);
-
-  return [sections, defaultSection];
+    return () => { cancelled = true; };
+  }, [gameName, enabled, allowNoOctgn, fallbackGroup]);
+  if (!enabled || !gameName || config?.gameName !== gameName) return [null, null, "loading", false];
+  return [config.sections ?? null, config.defaultSection ?? null, config.status, config.hasOctgnConfig === true];
 }
 
 export default function useDeckBuilderActions({
@@ -72,9 +46,11 @@ export default function useDeckBuilderActions({
   setDeck,
   settings,
 }) {
-  const [octgnSections, octgnDefaultSection] = useOctgnSections(
+  const [octgnSections, octgnDefaultSection, pileStatus, hasOctgnConfig] = useOctgnSections(
     settings?.gameName,
-    true
+    true,
+    settings?.octgnExport === false,
+    settings?.fallbackGroup || "Main"
   );
 
   const normalizationCards = allCards?.length ? allCards : cards;
@@ -101,8 +77,7 @@ export default function useDeckBuilderActions({
     if (!deck || typeof deck !== "object" || Object.keys(deck).length === 0) return;
     if (!cards?.length) return;
 
-    const repairedDeck = normalizeLoadedDeck(deck);
-    if (repairedDeck !== deck) setDeck(repairedDeck);
+    setDeck(previous => normalizeLoadedDeck(previous));
   }, [deck, cards, normalizeLoadedDeck, setDeck]);
 
   const setDeckFromLoad = useCallback(
@@ -118,66 +93,43 @@ export default function useDeckBuilderActions({
     [normalizeLoadedDeck, setDeck]
   );
 
-  const resolveGroupForCard = useCallback(
-    (cardId, requestedGroup) => {
-      if (requestedGroup) return requestedGroup;
+  const additionalAddPile = typeof settings?.additionalAddPile === "string" ? settings.additionalAddPile.trim() : "";
+  const additionalPileError = additionalAddPile && pileStatus === "ready" && (!hasOctgnConfig || !isValidPile(octgnSections, additionalAddPile))
+    ? `Invalid additional pile "${additionalAddPile}" in settings.json. Check octgn.json.` : "";
+  const defaultPileError = pileStatus === "ready" && !isValidPile(octgnSections, octgnDefaultSection) ? `Invalid default pile "${octgnDefaultSection || "(missing)"}" in octgn.json. Unmatched cards cannot be added.` : "";
+  const pileError = pileStatus === "error" ? "Unable to load deck piles. Reload the game to try again." : [additionalPileError, defaultPileError].filter(Boolean).join(" ");
 
-      if (Array.isArray(octgnSections)) {
-        const card = cards?.find((candidate) => candidate.id === cardId);
-        const matchedSection = getSectionForCard(
-          card,
-          octgnSections,
-          octgnDefaultSection
-        );
-        if (matchedSection) return matchedSection;
-      }
 
-      if (octgnDefaultSection) return octgnDefaultSection;
-      if (settings?.fallbackGroup) return settings.fallbackGroup;
+  const addCard = useCallback((cardId, qty = 1, groupName) => {
+    if (!cardId || !Number.isSafeInteger(qty) || qty <= 0) {
+      reportError("Invalid card or quantity. No cards were added.");
+      return false;
+    }
+    const card = normalizationCards?.find(candidate => candidate.id === cardId);
+    const { group, error } = resolveAddPile({ card, sections: octgnSections, defaultSection: octgnDefaultSection, requestedGroup: groupName, status: pileStatus });
+    if (error) {
+      reportError(error);
+      return false;
+    }
+    setDeck(previous => addToPile(normalizeLoadedDeck(previous), cardId, qty, group));
+    return true;
+  }, [normalizationCards, octgnSections, octgnDefaultSection, pileStatus, normalizeLoadedDeck, setDeck]);
 
-      console.warn(
-        "Card added with no group! Please set fallbackGroup in settings.json.",
-        { cardId }
-      );
-      return "Other";
-    },
-    [cards, octgnSections, octgnDefaultSection, settings?.fallbackGroup]
-  );
-
-  const addCard = useCallback(
-    (cardId, qty = 1, groupName) => {
-      if (!cardId || qty <= 0) return;
-
-      setDeck((previousDeck) => {
-        const previousEntry = previousDeck[cardId] || {
-          count: 0,
-          group: {},
-          tags: [],
-        };
-        const groups = { ...previousEntry.group };
-        const actualGroup = resolveGroupForCard(cardId, groupName);
-
-        groups[actualGroup] = (groups[actualGroup] || 0) + qty;
-        const count = Object.values(groups).reduce((sum, value) => sum + value, 0);
-
-        return {
-          ...previousDeck,
-          [cardId]: {
-            ...previousEntry,
-            count,
-            group: groups,
-          },
-        };
-      });
-    },
-    [resolveGroupForCard, setDeck]
-  );
+  const swapCard = useCallback((oldId, newId, qty, groupName) => {
+    if (!Number.isSafeInteger(qty) || qty <= 0 || !normalizationCards?.some(card => card.id === newId)) {
+      reportError("Unable to swap this printing. No cards were changed.");
+      return false;
+    }
+    setDeck(previous => swapPrinting(normalizeLoadedDeck(previous), oldId, newId, qty, groupName));
+    return true;
+  }, [normalizationCards, normalizeLoadedDeck, setDeck]);
 
   const removeCard = useCallback(
     (cardId, qty = 1, groupName) => {
-      if (!cardId || qty <= 0) return;
+      if (!cardId || !Number.isSafeInteger(qty) || qty <= 0) return;
 
       setDeck((previousDeck) => {
+        previousDeck = normalizeLoadedDeck(previousDeck);
         const previousEntry = previousDeck[cardId];
         if (!previousEntry) return previousDeck;
 
@@ -213,7 +165,7 @@ export default function useDeckBuilderActions({
         };
       });
     },
-    [setDeck]
+    [setDeck, normalizeLoadedDeck]
   );
 
   const moveCard = useCallback(
@@ -222,7 +174,12 @@ export default function useDeckBuilderActions({
         return;
       }
 
+      if (pileStatus !== "ready" || !isValidPile(octgnSections, toGroup)) {
+        reportError(`Cannot move cards to "${toGroup}": destination pile is not available.`);
+        return;
+      }
       setDeck((previousDeck) => {
+        previousDeck = normalizeLoadedDeck(previousDeck);
         const previousEntry = previousDeck[cardId];
         if (!previousEntry) return previousDeck;
 
@@ -250,12 +207,17 @@ export default function useDeckBuilderActions({
         };
       });
     },
-    [setDeck]
+    [setDeck, pileStatus, octgnSections, normalizeLoadedDeck]
   );
 
   return {
     octgnSections,
     octgnDefaultSection,
+    pileStatus,
+    pileError,
+    additionalAddPile,
+    additionalPileValid: pileStatus === "ready" && hasOctgnConfig && isValidPile(octgnSections, additionalAddPile),
+    swapCard,
     normalizeLoadedDeck,
     setDeckFromLoad,
     addCard,

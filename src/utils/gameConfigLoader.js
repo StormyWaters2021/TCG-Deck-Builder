@@ -104,8 +104,12 @@ async function fetchConfig(game, filename, optional = false) {
     try { return await loadResponse(url, game, filename); }
     catch (error) { failures.push(error); }
   }
+  // A missing OCTGN file is intentional only when both sources report it missing.
+  if (optional && filename === "octgn.json" && failures.every(isMissing)) {
+    return new Response(null, { status: 404 });
+  }
   // Preserve optional Deck DB config behavior for games without repository.json.
-  if (optional && failures.some(isMissing) && failures.every(e => e.missing || !e.invalid)) {
+  if (optional && filename !== "octgn.json" && failures.some(isMissing) && failures.every(e => e.missing || !e.invalid)) {
     return new Response(null, { status: 404 });
   }
   throw new Error(`Unable to load ${game === null ? "games/manifest.json" : `${game}/${filename}`} from both sources: ${failures.map(e => e.message).join("; ")}`);

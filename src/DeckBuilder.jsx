@@ -24,6 +24,11 @@ function DeckBuilder({
   const {
     octgnSections,
     octgnDefaultSection,
+    pileStatus,
+    pileError,
+    additionalAddPile,
+    additionalPileValid,
+    swapCard,
     setDeckFromLoad,
     addCard,
     removeCard,
@@ -45,6 +50,9 @@ function DeckBuilder({
         onCardSelect={setSelectedCard}
         selectedCard={selectedCard}
         onAddCard={addCard}
+        pileStatus={pileStatus}
+        pileError={pileError}
+        additionalAddPile={additionalPileValid ? additionalAddPile : ""}
         deck={deck}
       />
       <DeckPanel
@@ -54,6 +62,7 @@ function DeckBuilder({
         onRemoveCard={removeCard}
         onAddCard={addCard}
         moveCard={moveCard}
+        swapCard={swapCard}
         selectedCard={selectedCard}
         setSelectedCard={setSelectedCard}
         groupByProp={groupBy}
